@@ -1,0 +1,899 @@
+<Blog>
+
+<date>09,July,2004</date>
+<post>
+
+    
+       
+      Hallvard Vassbotn shows in his  urlLink blog  how to, in Delphi, from only an interface,  urlLink retrieve the implementing object . Awesome! It's not a new solution, he put it on the usenet  urlLink in 2002 , but it was news to me.   I did already know of a way to do this (see later below), but Hallvards way is cleaner (and even more cool):    function  GetImplementingObject( const  AInterface: IInterface): TObject;   const    AddByte =  $04244483 ;   // opcode for ADD DWORD PTR [ESP+4], Shortint     AddLong =  $04244481 ;   // opcode for ADD DWORD PTR [ESP+4], Longint       type    PAdjustSelfThunk = ^TAdjustSelfThunk;    TAdjustSelfThunk =  packed record     case  AddInstruction: longint  of        AddByte: (AdjustmentByte: shortint);       AddLong: (AdjustmentLong: longint);    end ;    PInterfaceMT = ^TInterfaceMT;    TInterfaceMT =  packed record      QueryInterfaceThunk: PAdjustSelfThunk;    end ;    TInterfaceRef = ^PInterfaceMT;   var    QueryInterfaceThunk: PAdjustSelfThunk;  begin    Result := Pointer(AInterface);     if  (Assigned(Result))  then   try      QueryInterfaceThunk := TInterfaceRef(AInterface)^.QueryInterfaceThunk;      case  QueryInterfaceThunk.AddInstruction  of        AddByte: Inc(PChar(Result), QueryInterfaceThunk.AdjustmentByte);       AddLong: Inc(PChar(Result), QueryInterfaceThunk.AdjustmentLong);      else        Result :=  nil ;      end ;    except      Result :=  nil ;    end ;  end ;        Explaining the method, I'm quoting Hallvard from another  urlLink usenet post :  My hack relies on the fact that all interfaces inherit from IInterface, so the first method is always QueryInterface. QI is always stdcall, but you are free to implement it as a static, virtual or dynamic method.  Luckily, in all three cases the thunks have identical prologue code to adjust the self pointer on the stack. The adjustment constant can fit into a 1-byte shortint, or it might take an entire longint - this depends on the size of the parent class. So I check the two cases and pick up the correct Self-adjustment field.  In the general case, the compiler actually creates 12 slightly different kinds of thunks. There are tree dimensions: - Offset of Interface Method Table (IMT) in the object instance (shortint/longint) - Calling convention: stack-based ([ESP+4] for stdcall/cdecl/pascal/safecall) or register-based (EAX) - Static, virtual or dynamic (interfaces cannot declare message methods)  The thunks for virtual and dynamic register methods are particularly interesting, because the code cannot modify any registers...  The old way:    function  GetImplementingObject( const  AInstance: IUnknown;  const  AGUID: TGUID;  const  AImplClass: TClass): TObject;  var    LInterfaceEntry: PInterfaceEntry;  begin    Result :=  nil ;    if  (AImplClass =  nil )  or  (AInstance =  nil )  then   begin      Exit;    end ;    LInterfaceEntry := AImplClass.GetInterfaceEntry(AGUID);    if  (Assigned(LInterfaceEntry))  then   begin     if  (LInterfaceEntry^.IOffset &gt;  0 )  then     begin        Result := TObject(Integer(AInstance) - LInterfaceEntry^.IOffset);      end ;    end ;  end ;            It does seem that my current blogger theme isn't quite cut out for posting source code...
+      
+</post>
+
+
+<date>26,July,2004</date>
+<post>
+
+    
+       
+      It seems that I will write what can be construed as diary-like posts anyway :-).  However, posts will not be made on any type of schedule. They will instead be made when I feel like it and I project that there may be weeks or months between posts.
+      
+</post>
+
+<date>25,July,2004</date>
+<post>
+
+    
+       
+      It rained again tonight. I like the smell of rain. I sometimes keep the door to my balcony open and let the smell seep into my apartment. It makes it kind of damp but it goes away after a while after I close it. When I was a kid the rain used to hit my windowsill and I'd lay in bed and listen to it. Unfortunately in my current apartment I seldom hear when it rains, only when the wind blows a certain way.
+      
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+    
+       
+      Seeing  urlLink Eternal Sunshine of the Spotless Mind  yesterday (see  urlLink review post ) made me remember how it feels to be about to fall in love, to be willing and wanting to go places that would normally be sooo boring but now aren't because you're with her.  I think that one of the reasons I like watching romantic dramas and comedies is because the good ones are the most prone to awaken such memories and thoughts.
+      
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+    
+       
+      I've decided not to write a diary after all. I find that I  already  spend too much time doing blog-related things. I'll just keep this and the media blog. The reasons for writing a diary are still valid, though.
+      
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+    
+       
+      I've been thinking about just how I am gonna organise my blogging.  Being the organisation freak that I am I would have liked the ability to categorise my posts with keywords but it does not seem to be possible with Blogger. The work-around might be to simply create different blogs.  I've now created a blog for  urlLink movies, tv-shows, books, music . I first thought of creating a separate blog for each individual media, mainly because I watch so many movies, but since the other blogs would then be so small I decided to group them together as one.  I think I'll also establish a private blog, a diary. The way I see it, me writing a diary has the following purposes: 1) To capture what I was doing at a certain time. This would give me the ability to "go back in time" to see when what happened. One of my problems is that I have the memory of a goldfish for a lot of things. This does not bother me right now (if I cannot remember it, it was obviously not important enough to remember), but I sometimes wonder if I, when I'm older (say like 50+), only will remember the most basic things about these days. Since I don't use cameras (stopped in 6th grade, I think) I wouldn't even have pictures to remind me but would be forced to rely solely on my memory. It might not be a problem, but how the heck does one know how one'll feel about it in 25 years? Should one stay on the safe side and write one? But maintaining a  good  diary for this purpose will take up a lot of my time. And who's to say that a diary wouldn't go the same way as my elementary school notebooks? I threw them out when I moved out of my parents house as it simply was not worth the space (and possible storage cost) when I knew that I would at most look at 'em for an hour or so every 10-20 years. Naturally an electronic diary wouldn't use up any physical space, but the usage part problem is still there. How often would I actually re-read what I've written? Probably very infrequently. And just how much use would I have of it when I did? Decisions, decisions, decisions...  2) Providing a future partner with access to my earlier life 3) Providing any friend with access to my earlier life I don't think I could ever write a diary without having in mind that someone could read it someday. Having this point of view necessitates that everything written must be "fit" for publication. Not by distorting the truth, but by omitting it - some things might simply not "do" being published.  This somewhat contradicts purpose 1 above. If I omit things then how am I supposed to remember them later on? The only solution is probably to write entries containing enough information to remind me of the "unfit" parts. All of this worrying about what someone else might think! I sometimes think it a little too self-centered to always be expecting someone to take note, as if I was destined for greatness or something. Ah well.  4) There was a fourth reason but I can't remember it right now...
+      
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+    
+       
+      Our company moved today. From Sollentuna to Solna. This is where we're at  urlLink now .  It's a better place all around. It's bigger but costs less. We're on the top 4th floor. It's even closer to the subway. It's not part of an office suite so we don't have to share with others.  The only bad things are that we don't have a shower and that the new location increases my travel time, but only to 20 minutes.
+      
+</post>
+
+
+<date>28,July,2004</date>
+<post>
+
+    
+       
+       From  urlLink IMDBs StudioBriefing , July 27th:  Director Peter Jackson has added 50 -- count 'em, 50 -- minutes to the DVD version of The Lord of the Rings: The Return of the King, due out in December, New Line Entertainment has announced. The additional footage includes 300 new special effects, the studio said.   
+      
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+    
+       
+       I like reading political cartoons. They can be very eye-opening sometimes, especially those that are contrary to my opinions. It's fun seeing viewpoints I take for granted being ridiculed for being *so obviously wrong* to the author. It has never changed my mind completely, but it has on occasion made me more accepting of the other view.  Addendum 2004-07-14. Found another one:  urlLink Link .  
+      
+</post>
+
+<date>10,July,2004</date>
+<post>
+
+    
+       
+       I just read that John Kerry is opposed to the International Court of Justice's (ICJ) verdict that Israel's West Bank barrier is illegal. Kerry said: "Israel's fence is a legitimate response to terror that only exists in response to the wave of terror attacks against Israel ... It is not a matter for the ICJ". Apparently the White House takes the same stance.  urlLink Link .  I don't have any grasp of the legal issues involved. My gut feeling though is that building the barrier is wrong. I'm not saying that Israel doesn't have a valid fear of terrorist attacks, it may well be so. But I don't think it will solve that. It may work to begin with, but I'm quite sure that those performing the attacks eventually will find ways to circumvent the barrier's intended purpose.  I was very pro-Israel when I was younger, being impressed by their battlefield prowess and survival against all odds in the three wars between them and the Arab states. The first eye-opener to another point of view came when I read  urlLink The Lost land by Göran Rosenberg  in late 1997. The Israeli treatment of it's Arab population has been appalling at times, forcing people out of their homes, turning them into refugees. Israel has, in my view, squandered much of it's right to the goodwill of nations just as the Bush-presidency has with it's response to 9/11.  
+      
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+    
+       
+        urlLink http://www.ctrlaltdel-online.com/images/comics/20040710.jpg  
+      
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+    
+       
+       p-petter was the username I was assigned when I started studying at  urlLink DSV . I've been using it ever since. It's easier than having to come up with some new cool screen-name like I did when I was a kid.  
+      
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+       
+       I was checking out my  urlLink Amazon.com  recommendations when I stumbled on this one. My first reaction was:   How does it know I like that, I never told it... ehmmm...  I mean, WHY does it think I like that?  :-) And apparently the answer is: People who like  urlLink Friends , like  urlLink Penthouse . Go figure.  urlLink        
+      
+</post>
+
+
+<date>16,July,2004</date>
+<post>
+
+    
+       
+      Deepak Shenoy shows in his blog how to, in Delphi, move on to the next piece of code while debugging - even when you've created an infinite loop that you can't get out of.  urlLink Link .  I haven't tested it but I will.   
+      
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+    
+       
+       urlLink MozillaZine reports that    The Mozilla Foundation has announced a project to implement XForms in collaboration with Novell and IBM. The effort aims to add support for the XForms 1.0 Standard to Mozilla. 
+      
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+    
+       
+      Delphi 9 (both Win32 and .NET) will have a foreach-construct, called  for..in .  urlLink Link .
+      
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+    
+       
+       urlLink List of valid DTDs .
+      
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+    
+       
+      Brian Long shows the different compiler versions you can use in compiler directives.  urlLink Link .
+      
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+       
+      Hallvard Vassbotn shows in his  urlLink blog  how to, in Delphi, from only an interface,  urlLink retrieve the implementing object . Awesome! It's not a new solution, he put it on the usenet  urlLink in 2002 , but it was news to me.   I did already know of a way to do this (see later below), but Hallvards way is cleaner (and even more cool):    function  GetImplementingObject( const  AInterface: IInterface): TObject;   const    AddByte =  $04244483 ;   // opcode for ADD DWORD PTR [ESP+4], Shortint     AddLong =  $04244481 ;   // opcode for ADD DWORD PTR [ESP+4], Longint       type    PAdjustSelfThunk = ^TAdjustSelfThunk;    TAdjustSelfThunk =  packed record     case  AddInstruction: longint  of        AddByte: (AdjustmentByte: shortint);       AddLong: (AdjustmentLong: longint);    end ;    PInterfaceMT = ^TInterfaceMT;    TInterfaceMT =  packed record      QueryInterfaceThunk: PAdjustSelfThunk;    end ;    TInterfaceRef = ^PInterfaceMT;   var    QueryInterfaceThunk: PAdjustSelfThunk;  begin    Result := Pointer(AInterface);     if  (Assigned(Result))  then   try      QueryInterfaceThunk := TInterfaceRef(AInterface)^.QueryInterfaceThunk;      case  QueryInterfaceThunk.AddInstruction  of        AddByte: Inc(PChar(Result), QueryInterfaceThunk.AdjustmentByte);       AddLong: Inc(PChar(Result), QueryInterfaceThunk.AdjustmentLong);      else        Result :=  nil ;      end ;    except      Result :=  nil ;    end ;  end ;        Explaining the method, I'm quoting Hallvard from another  urlLink usenet post :  My hack relies on the fact that all interfaces inherit from IInterface, so the first method is always QueryInterface. QI is always stdcall, but you are free to implement it as a static, virtual or dynamic method.  Luckily, in all three cases the thunks have identical prologue code to adjust the self pointer on the stack. The adjustment constant can fit into a 1-byte shortint, or it might take an entire longint - this depends on the size of the parent class. So I check the two cases and pick up the correct Self-adjustment field.  In the general case, the compiler actually creates 12 slightly different kinds of thunks. There are tree dimensions: - Offset of Interface Method Table (IMT) in the object instance (shortint/longint) - Calling convention: stack-based ([ESP+4] for stdcall/cdecl/pascal/safecall) or register-based (EAX) - Static, virtual or dynamic (interfaces cannot declare message methods)  The thunks for virtual and dynamic register methods are particularly interesting, because the code cannot modify any registers...   The old way:    function  GetImplementingObject( const  AInstance: IUnknown;  const  AGUID: TGUID;  const  AImplClass: TClass): TObject;  var    LInterfaceEntry: PInterfaceEntry;  begin    Result :=  nil ;    if  (AImplClass =  nil )  or  (AInstance =  nil )  then   begin      Exit;    end ;    LInterfaceEntry := AImplClass.GetInterfaceEntry(AGUID);    if  (Assigned(LInterfaceEntry))  then   begin     if  (LInterfaceEntry^.IOffset &gt;  0 )  then     begin        Result := TObject(Integer(AInstance) - LInterfaceEntry^.IOffset);      end ;    end ;  end ;       It does seem that my current blogger theme isn't quite cut out for posting source code...
+      
+</post>
+
+
+<date>31,July,2004</date>
+<post>
+
+    
+       
+       . American documentary. 4 of 5.  First off let me state that I've never actually seen any Fox News Channel program since I don't have that channel. All I've ever seen are bits and pieces aired on other mostly comedic shows, for example,  urlLink The Daily Show . These are rarely meant to offer a positive view of Fox. The result is that my view already before viewing this film was that Fox is a right-wing spouting network.  And that is main the premise of the movie.  The problem isn't that Fox is slanted towards republican views. There are newspapers that state their political view on the cover so that when you read them you know to use whatever filter you wish to. The problem is that Fox claims it's objective with slogans such as "we report, you decide" and shows called "Fair & Balanced".  The movie itself isn't fair and balanced either, but then again it doesn't claim to be either. One of its producers are  urlLink MoveOn.org , an organisation actively working to make sure President Bush is not re-elected.  -->
+       Just saw  urlLink Outfoxed: Rupert Murdoch's War on Journalism . American documentary. 4 of 5.  First off let me state that I've never actually seen any Fox News Channel program since I don't have that channel. All I've ever seen are bits and pieces aired on other mostly comedic shows, for example,  urlLink The Daily Show . These are rarely meant to offer a positive view of Fox. The result is that my view already before viewing this film was that Fox is a right-wing spouting network.  And that is main the premise of the movie.  The problem isn't that Fox is slanted towards republican views. There are newspapers that state their political view on the cover so that when you read them you know to use whatever filter you wish to. The problem is that Fox claims it's objective with slogans such as "we report, you decide" and shows called "Fair & Balanced".  The movie itself isn't fair and balanced either, but then again it doesn't claim to be either. One of its producers are  urlLink MoveOn.org , an organisation actively working to make sure President Bush is not re-elected.  
+      
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+    
+       
+       . Japanese drama. 3 of 5.  Two school kids survives a train wreck only to discover that the entire world is in ashes. Volcanic activivy has reduced cities to rubble and covered the ground with its ashes. They set out to try and get back to Tokyo, hoping there will be some order there. On their journey they meet other survivors, many who have become mentally unstable by the chocking event. They barely come away alive from some of these encounters. And there is little indication that things will get any better in Tokyo...   -->
+       Just saw  urlLink Dragon Head . Japanese drama. 3 of 5.  Two school kids survives a train wreck only to discover that the entire world is in ashes. Volcanic activivy has reduced cities to rubble and covered the ground with its ashes. They set out to try and get back to Tokyo, hoping there will be some order there. On their journey they meet other survivors, many who have become mentally unstable by the chocking event. They barely come away alive from some of these encounters. And there is little indication that things will get any better in Tokyo...   
+      
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+    
+       
+       . Korean romantic comedy. 2 of 5.  Korean style American Pie. The movie's intermingling of comedic and dramatic moments fail, making it very uneven. It should have focused more on one or the other. Few films of this type manage to do this sucessfully.  urlLink Van Wilder  is my favourite American example of a movie that does, with a focus on the comedy. -->
+       Just saw  urlLink Sex Is Zero . Korean romantic comedy. 2 of 5.  Korean style American Pie. The movie's intermingling of comedic and dramatic moments fail, making it very uneven. It should have focused more on one or the other. Few films of this type manage to do this sucessfully.  urlLink Van Wilder  is my favourite American example of a movie that does, with a focus on the comedy. 
+      
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+    
+       
+       . Korean action comedy. 1.5 of 5.  Crap. All style and no substance. -->
+       Just saw  urlLink Resurrection of the Little Match Girl . Korean action comedy. 1.5 of 5.  Crap. All style and no substance. 
+      
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+    
+       
+       . Korean drama comedy. 3 of 5 and that's including 0.5 for the endings of story one and three.  Consists of three non-related stories by three separate directors.   The first one is the best. It's a about one night in an hotel where the paths of the hotel clerk and the people in four rooms each on the same floor cross each other.  In the first room there are two people: a jealous guy who has drugged his ex-girlfriend, drenched her in gasoline, and is planning to set her on fire but his lighter isn't working... So he calls the clerk to get him some matches.  In the second room two lovers are meeting, the woman, who is married, has been followed by her husband who intends to catch them in the act.  In third room three gangsters and their boss hang out. The boss has recently had an attempt on his life made by a special killer only using a screw driver. The attempt failed and now they prepare for the killer to try again. Also, the boss has clogged the toilet, so they call the clerk to have him fix it. He can't so they call a plumber...  Finally, the fourth room, is where the screw drive killer resides.   It's a dark comedy with some pretty funny lines and alot of deaths, some of them unexpected.  The other two stories are more dull, one is about a boy's wish for a pair of Nike shoes, the other one about a man and a married woman meeting, where both of them liked each other when they were in school. It's ending is quite funny, though. It has a funny twist on the traditional scene of a goodbye at the train window and people saying heartfelt things they wouldn't normally because the train is just about to leave...  -->
+       Just saw  urlLink No Comment . Korean drama comedy. 3 of 5 and that's including 0.5 for the endings of story one and three.  Consists of three non-related stories by three separate directors.   The first one is the best. It's a about one night in an hotel where the paths of the hotel clerk and the people in four rooms each on the same floor cross each other.  In the first room there are two people: a jealous guy who has drugged his ex-girlfriend, drenched her in gasoline, and is planning to set her on fire but his lighter isn't working... So he calls the clerk to get him some matches.  In the second room two lovers are meeting, the woman, who is married, has been followed by her husband who intends to catch them in the act.  In third room three gangsters and their boss hang out. The boss has recently had an attempt on his life made by a special killer only using a screw driver. The attempt failed and now they prepare for the killer to try again. Also, the boss has clogged the toilet, so they call the clerk to have him fix it. He can't so they call a plumber...  Finally, the fourth room, is where the screw drive killer resides.   It's a dark comedy with some pretty funny lines and alot of deaths, some of them unexpected.  The other two stories are more dull, one is about a boy's wish for a pair of Nike shoes, the other one about a man and a married woman meeting, where both of them liked each other when they were in school. It's ending is quite funny, though. It has a funny twist on the traditional scene of a goodbye at the train window and people saying heartfelt things they wouldn't normally because the train is just about to leave...  
+      
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+    
+       
+       . Korean drama. 4 of 5.  Seok-yoon and Jin-won are a married couple that have been trying for years to have a baby. Having failed so many times Seok-yoon is willing to consider the option to adopt, but Jin-won deeply wants to have a child of her own, having lost her parents at a very young age. Finally, she does become pregnant and they happily start preparing for the arrival of the baby. But tragic news awaits them...  I suspect I would have found this movie to be even more emotional had I been a parent. Even so, it still nearly hit me in the tear ducts on several occasions. -->
+       Just saw  urlLink A Day . Korean drama. 4 of 5.  Seok-yoon and Jin-won are a married couple that have been trying for years to have a baby. Having failed so many times Seok-yoon is willing to consider the option to adopt, but Jin-won deeply wants to have a child of her own, having lost her parents at a very young age. Finally, she does become pregnant and they happily start preparing for the arrival of the baby. But tragic news awaits them...  I suspect I would have found this movie to be even more emotional had I been a parent. Even so, it still nearly hit me in the tear ducts on several occasions. 
+      
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+    
+       
+       . British-american thriller. 2.5 of 5. -->
+       Just saw  urlLink The Gathering . British-american thriller. 2.5 of 5. 
+      
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+    
+       
+       . American documentary. 4 of 5.  Morgan Spurlock decides to only eat at McDonalds for 30 days straight: breakfast, lunch and dinner. If they ask if he wants to super size the meal he must do it, and he must try each item on the menu at least once.  From  urlLink James Berardinelli's review :   Over the course of his study, he gains [11 kilos]; experiences an extreme increase in cholesterol; suffers sexual dysfunction, headaches, and nausea; and shows signs of addiction. /.../ [W]hile the extremity of Spurlock's reactions are in part a result of his excessive indulgence (5000 calories per day), it illustrates a point about the unhealthiness of fast food eating.  /.../ Alongside telling his personal tale, Spurlock interviews a variety of talking heads /.../ and spends some time investigating why fast food entrees are replacing healthier choices in elementary and high schools. /.../ He also looks into the link between fast food advertising aimed at children and the increase in obesity in the underage population. The evidence is all anecdotal, but it's pretty convincing, especially since it doesn't take a genius to make the connection between the increased availability of convenient fast food and expanding [of] waist size[s]. Little of what Spurlock presents /.../ is new or revolutionary, but he packages it in an entertaining and easily digestible manner. It's one thing to know that fast food is bad for you. It's another to see that "badness" demonstrated.  -->
+       Just saw  urlLink Super Size Me . American documentary. 4 of 5.  Morgan Spurlock decides to only eat at McDonalds for 30 days straight: breakfast, lunch and dinner. If they ask if he wants to super size the meal he must do it, and he must try each item on the menu at least once.  From  urlLink James Berardinelli's review :   Over the course of his study, he gains [11 kilos]; experiences an extreme increase in cholesterol; suffers sexual dysfunction, headaches, and nausea; and shows signs of addiction. /.../ [W]hile the extremity of Spurlock's reactions are in part a result of his excessive indulgence (5000 calories per day), it illustrates a point about the unhealthiness of fast food eating.  /.../ Alongside telling his personal tale, Spurlock interviews a variety of talking heads /.../ and spends some time investigating why fast food entrees are replacing healthier choices in elementary and high schools. /.../ He also looks into the link between fast food advertising aimed at children and the increase in obesity in the underage population. The evidence is all anecdotal, but it's pretty convincing, especially since it doesn't take a genius to make the connection between the increased availability of convenient fast food and expanding [of] waist size[s]. Little of what Spurlock presents /.../ is new or revolutionary, but he packages it in an entertaining and easily digestible manner. It's one thing to know that fast food is bad for you. It's another to see that "badness" demonstrated.  
+      
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+    
+       
+        taped from TV. British drama. 4 of 5.  I remember seeing  urlLink the movie version from 1965  and being very disappointed - I hadn't read Pasternak's book but I had read  urlLink Leo Tolstoy's War and Peace  and had expected something along the lines of it. The movie was more than three hours but I still thought it too condensed. I don't really remember much than that about it. My displeasure may have been a result of me being to young.  This mini series however, while only clocking in at ca 30 minutes more in total screen time, still feels more complete. The characters are more well-rounded, making me feel for them more when tragedy hits them. Also, it stars  urlLink Keira Knightley , which is always a plus.  -->
+       Just finished seeing the last third episode of  urlLink Doctor Zhivago  taped from TV. British drama. 4 of 5.  I remember seeing  urlLink the movie version from 1965  and being very disappointed - I hadn't read Pasternak's book but I had read  urlLink Leo Tolstoy's War and Peace  and had expected something along the lines of it. The movie was more than three hours but I still thought it too condensed. I don't really remember much than that about it. My displeasure may have been a result of me being to young.  This mini series however, while only clocking in at ca 30 minutes more in total screen time, still feels more complete. The characters are more well-rounded, making me feel for them more when tragedy hits them. Also, it stars  urlLink Keira Knightley , which is always a plus.  
+      
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+    
+       
+       . American action. 2.5 of 5 as that. 1.5-2 as a regular movie. That includes 0.5 in both scores for the romantic interplay.  Let me start by saying that I've never read the comics so I don't have any expectations coming from there. My only Catwoman experience comes from watching  urlLink Michelle Pfeiffer  in  urlLink Batman Returns  and that was a long time ago. I was also warned by a colleague that the movie was utter crap so my expectations were very low.  Still, on paper things don't look that bad: starring  urlLink Halle Berry ,  urlLink Sharon Stone  and  urlLink Benjamin Bratt  (whom I've liked ever since  urlLink Blood In, Blood Out  and  urlLink Texas ) should guarantee at least a certain degree of quality. Secondly, the story does contain some very good building blocks for an interesting dramatic movie.   But it's not. It's not even a good action movie, just a so-so one.  Now I don't know about you, but I never thought I'd find scenes with a lightly dressed, leather-clad Halle Berry to be problematic, but I did. They're the least interesting scenes in the movie.   I wasn't impressed by the special effects showing Catwoman climbing walls scaling buildings. And that comes from someone that normally doesn't pay that much attention to special effects if they're believable within their context.   I instead found myself to be more interested in seeing Catwoman's normal alter ego, Patience Phillips, and the chemistry between her and Bratt's character, detective Tom Lone.  Put all of that together with the fact that she (understandably) is Catwoman for considerable parts of the movie, and you've got yourself a large problem.  I know, I know - it's a Hollywood summer action movie. I shouldn't be surprised. And I'm not, I'm just disappointed that it couldn't even a be a good one in that category. -->
+       Just saw  urlLink Catwoman . American action. 2.5 of 5 as that. 1.5-2 as a regular movie. That includes 0.5 in both scores for the romantic interplay.  Let me start by saying that I've never read the comics so I don't have any expectations coming from there. My only Catwoman experience comes from watching  urlLink Michelle Pfeiffer  in  urlLink Batman Returns  and that was a long time ago. I was also warned by a colleague that the movie was utter crap so my expectations were very low.  Still, on paper things don't look that bad: starring  urlLink Halle Berry ,  urlLink Sharon Stone  and  urlLink Benjamin Bratt  (whom I've liked ever since  urlLink Blood In, Blood Out  and  urlLink Texas ) should guarantee at least a certain degree of quality. Secondly, the story does contain some very good building blocks for an interesting dramatic movie.   But it's not. It's not even a good action movie, just a so-so one.  Now I don't know about you, but I never thought I'd find scenes with a lightly dressed, leather-clad Halle Berry to be problematic, but I did. They're the least interesting scenes in the movie.   I wasn't impressed by the special effects showing Catwoman climbing walls scaling buildings. And that comes from someone that normally doesn't pay that much attention to special effects if they're believable within their context.   I instead found myself to be more interested in seeing Catwoman's normal alter ego, Patience Phillips, and the chemistry between her and Bratt's character, detective Tom Lone.  Put all of that together with the fact that she (understandably) is Catwoman for considerable parts of the movie, and you've got yourself a large problem.  I know, I know - it's a Hollywood summer action movie. I shouldn't be surprised. And I'm not, I'm just disappointed that it couldn't even a be a good one in that category. 
+      
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+    
+       
+       . American action thriller. 3.5 of 5 as that. 2.5 of 5 as a regular movie.  On paper this should be a great movie considering the actors who are in it:  urlLink Matt Damon ,  urlLink Franka Potente ,  urlLink Brian Cox ,  urlLink Julia Stiles  and  urlLink Joan Allen . But it's not - it's just ok, partly because all the aforementioned actors except Damon are underused. They are so because the action scenes take up a large segment of the movie. Too large, in my view. I could have done with less action and more story and character development. Still, the quality is raised in the ending 5 minutes (where, incidentally  urlLink Oksana Akinshina  from  urlLink Lilja 4-ever  shows up). -->
+       Just saw  urlLink The Bourne Supremacy . American action thriller. 3.5 of 5 as that. 2.5 of 5 as a regular movie.  On paper this should be a great movie considering the actors who are in it:  urlLink Matt Damon ,  urlLink Franka Potente ,  urlLink Brian Cox ,  urlLink Julia Stiles  and  urlLink Joan Allen . But it's not - it's just ok, partly because all the aforementioned actors except Damon are underused. They are so because the action scenes take up a large segment of the movie. Too large, in my view. I could have done with less action and more story and character development. Still, the quality is raised in the ending 5 minutes (where, incidentally  urlLink Oksana Akinshina  from  urlLink Lilja 4-ever  shows up). 
+      
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+    
+       
+       . Korean drama. 2 of 5.  Shot entirely in black and white, it's a movie about the beginning of a relationship between a man and woman. You see scenes from their respective point of view.  I never managed to get a grip on the main characters. I found the man to be somewhat creepy and couldn't figure out why she would stay with him.  -->
+       Just saw  urlLink Virgin Stripped Bare by Her Bachelors . Korean drama. 2 of 5.  Shot entirely in black and white, it's a movie about the beginning of a relationship between a man and woman. You see scenes from their respective point of view.  I never managed to get a grip on the main characters. I found the man to be somewhat creepy and couldn't figure out why she would stay with him.  
+      
+</post>
+
+<date>25,July,2004</date>
+<post>
+
+    
+       
+        yesterday.  Run-of-the-mill medical thriller, with a father engineering his own son's DNA to be super intelligent. The experiment is a success - the son, now 10 years old, is a genius, but an emotionless one. And isn't it odd that several people whom the son didn't like all have died of an unusual cancer...?  I'm really just killing time here, waiting for my Herman Wouk books. I've read this book before a couple of times, and it's the equivalent of an entertaining B-movie. -->
+       Finished reading  urlLink Mutation by Robin Cook  yesterday.  Run-of-the-mill medical thriller, with a father engineering his own son's DNA to be super intelligent. The experiment is a success - the son, now 10 years old, is a genius, but an emotionless one. And isn't it odd that several people whom the son didn't like all have died of an unusual cancer...?  I'm really just killing time here, waiting for my Herman Wouk books. I've read this book before a couple of times, and it's the equivalent of an entertaining B-movie. 
+      
+</post>
+
+<date>25,July,2004</date>
+<post>
+
+    
+       
+       . Japanese drama. 3.5 of 5.  Chuji is a bartender at a club and one night saves the life of Kenji, a gangster, when he is being chased by rivaling gangsters. They become friends, but their friendship has tragic consequences for them both... -->
+       Just saw  urlLink Blues Harp . Japanese drama. 3.5 of 5.  Chuji is a bartender at a club and one night saves the life of Kenji, a gangster, when he is being chased by rivaling gangsters. They become friends, but their friendship has tragic consequences for them both... 
+      
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+    
+       
+       . Japanese drama. 2.5 of 5 and that's including 0.5 for some fine individual scenes.  This movie could have been so much better. There are a lot of good individual scenes but they never come together as a whole. And the villain is just awful. -->
+       Just saw  urlLink Andromedia . Japanese drama. 2.5 of 5 and that's including 0.5 for some fine individual scenes.  This movie could have been so much better. There are a lot of good individual scenes but they never come together as a whole. And the villain is just awful. 
+      
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+    
+       
+        on DVD. British romantic drama. TV-movie. 4.5 of 5.  This is an excellent adaptation of Jane Austen's book. It's the British version starring  urlLink Kate Beckinsale , not the  urlLink American one  with  urlLink Gwyneth Paltrow .  As I have read the book and watched the American version at least three times each, I find it hard to see this one from the perspective of someone new to the story. All I can say is that I like it even more than the American version. I've liked  urlLink Kate Beckinsale  ever since I first saw her in  urlLink Much Ado About Nothing  and here she is lovely as ever. Another plus is the fair  urlLink Olivia Williams  in one of her earlier roles. -->
+       Just saw  urlLink Emma  on DVD. British romantic drama. TV-movie. 4.5 of 5.  This is an excellent adaptation of Jane Austen's book. It's the British version starring  urlLink Kate Beckinsale , not the  urlLink American one  with  urlLink Gwyneth Paltrow .  As I have read the book and watched the American version at least three times each, I find it hard to see this one from the perspective of someone new to the story. All I can say is that I like it even more than the American version. I've liked  urlLink Kate Beckinsale  ever since I first saw her in  urlLink Much Ado About Nothing  and here she is lovely as ever. Another plus is the fair  urlLink Olivia Williams  in one of her earlier roles. 
+      
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+    
+       
+       . Japanese drama. 3 of 5.  Another  urlLink Takeshi Kitano  film. Slightly better than the last one I saw (see  urlLink previous post ).  Two old friends meet and remember their high school days when they used to cut class and goof off. -->
+       Just saw  urlLink Kids Return . Japanese drama. 3 of 5.  Another  urlLink Takeshi Kitano  film. Slightly better than the last one I saw (see  urlLink previous post ).  Two old friends meet and remember their high school days when they used to cut class and goof off. 
+      
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+    
+       
+       . Japanese drama by  urlLink Takeshi Kitano . 2.5 of 5.  Nothing much happens in this film - a deaf and mute boy starts surfing while his equally deaf and mute girlfriend watches. Because of their condition there is very little spoken dialogue in the film.  The contents could have been compressed into 20 minutes which would have made for a more poignant film. Instead there are a lot scenes where people are walking from one place to another or watching people surf. I'm sure that was what the director intended, but it's just not for me. -->
+       Just saw  urlLink A Scene at the Sea . Japanese drama by  urlLink Takeshi Kitano . 2.5 of 5.  Nothing much happens in this film - a deaf and mute boy starts surfing while his equally deaf and mute girlfriend watches. Because of their condition there is very little spoken dialogue in the film.  The contents could have been compressed into 20 minutes which would have made for a more poignant film. Instead there are a lot scenes where people are walking from one place to another or watching people surf. I'm sure that was what the director intended, but it's just not for me. 
+      
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+    
+       
+          Currently viewing on TV:     Comedy   urlLink Run of the House . Seems ok so far.  urlLink According To Jim . Good.  urlLink 8 Simple Rules  Just ok.  urlLink Reno 911! . Just ok.  urlLink The Daily Show . Excellent.   Drama   urlLink NCIS  Season 1. Entertaining so far.  urlLink American Dreams . Season 1. Very good so far.  urlLink Chicago Hope . Consistently good, despite changes in the cast.  urlLink Boston Public . I've been loosing interest in the characters in this one. If it doesn't pick up soon, I'll stop watching.   Hiatus - waiting for new shows   urlLink I'm With Her . Awaiting Season 2. Good.  urlLink Enterprise . Awaiting Season 4. Just getting better and better. Season 3 was consistently good.  urlLink The West Wing . Excellent.  urlLink The Gilmore Girls . Excellent.  urlLink The Practice   urlLink Las Vegas . Middle of Season 1.  urlLink Nip/Tuck . Awaiting Season 2.  urlLink The O.C. . Middle of Season 1. Excellent so far.  urlLink The Sopranos   urlLink JAG . Entertaining.  urlLink Two and a Half Men . Middle of season 1. Very funny show.   urlLink 24 . Awaiting Season 3. I was beginning to think they were stretching the plot a bit thin in the last episodes of season 2, but the ending was awesome. Hope they can continue on that note. Friends. Middle of Season 10.  urlLink Real Time with Bill Maher . Awaiting next season. Only seen a few episodes. Sometimes excellent. Very dependant on the guests.    Currently listening a lot to:   The Donnas: American Teenage Rock 'n' Roll Machine (Album), Get Skintight (Album), Turn 21 (Album), Spend The Night (Album), Back Stage (Single)  Sahara Hotnights: Suits Anyone Fine (EP), Nothing Yet (Single), Face Wet (Single), C'mon Let's Pretend (Album), Oh Darling! (Single), Drive Dead Slow (EP), Jennie Bomb (Album), Keep Up The Speed (EP), Kiss and Tell (Album)    Planning to read (Purchased books):    urlLink Herman Wouk - Winds of War   urlLink Herman Wouk - War and Rememberance     Planning to see (Movies)      Planning to see (TV Series):   Everwood Firefly Jeremiah (Season 2 and onward) Joan of Arcadia Roswell (Season 2 and 3) Smallville (Season 3 and onward) The Shield Threat Matrix Tour Of Duty (seen it before, but would like to see it again)    Planning to see (Mini Series):    urlLink Kingdom Hospital     Planning to see (Documentaries):    urlLink The War of Lebanon     Planning to see (Purchased DVDs):    urlLink Winds of War   urlLink War and Rememberance   Babylon 5. I've seen this series before, but not on DVD.  urlLink The Gathering (Pilot)   urlLink Season 1   urlLink Season 2   urlLink Season 3   urlLink Season 4   urlLink Season 5   urlLink In the Beginning   Farscape. I've seen this series before, but not on DVD. I'm waiting for the complete season 3 & 4 to be released. And of course, for the not yet aired ending mini series,  urlLink The Peacekeeper Wars .  urlLink Season 1   urlLink Season 2  -->
+       This is a continually revised post.    Currently viewing on TV:     Comedy   urlLink Run of the House . Seems ok so far.  urlLink According To Jim . Good.  urlLink 8 Simple Rules  Just ok.  urlLink Reno 911! . Just ok.  urlLink The Daily Show . Excellent.   Drama   urlLink NCIS  Season 1. Entertaining so far.  urlLink American Dreams . Season 1. Very good so far.  urlLink Chicago Hope . Consistently good, despite changes in the cast.  urlLink Boston Public . I've been loosing interest in the characters in this one. If it doesn't pick up soon, I'll stop watching.   Hiatus - waiting for new shows   urlLink I'm With Her . Awaiting Season 2. Good.  urlLink Enterprise . Awaiting Season 4. Just getting better and better. Season 3 was consistently good.  urlLink The West Wing . Excellent.  urlLink The Gilmore Girls . Excellent.  urlLink The Practice   urlLink Las Vegas . Middle of Season 1.  urlLink Nip/Tuck . Awaiting Season 2.  urlLink The O.C. . Middle of Season 1. Excellent so far.  urlLink The Sopranos   urlLink JAG . Entertaining.  urlLink Two and a Half Men . Middle of season 1. Very funny show.   urlLink 24 . Awaiting Season 3. I was beginning to think they were stretching the plot a bit thin in the last episodes of season 2, but the ending was awesome. Hope they can continue on that note. Friends. Middle of Season 10.  urlLink Real Time with Bill Maher . Awaiting next season. Only seen a few episodes. Sometimes excellent. Very dependant on the guests.    Currently listening a lot to:   The Donnas: American Teenage Rock 'n' Roll Machine (Album), Get Skintight (Album), Turn 21 (Album), Spend The Night (Album), Back Stage (Single)  Sahara Hotnights: Suits Anyone Fine (EP), Nothing Yet (Single), Face Wet (Single), C'mon Let's Pretend (Album), Oh Darling! (Single), Drive Dead Slow (EP), Jennie Bomb (Album), Keep Up The Speed (EP), Kiss and Tell (Album)    Planning to read (Purchased books):    urlLink Herman Wouk - Winds of War   urlLink Herman Wouk - War and Rememberance     Planning to see (Movies)      Planning to see (TV Series):   Everwood Firefly Jeremiah (Season 2 and onward) Joan of Arcadia Roswell (Season 2 and 3) Smallville (Season 3 and onward) The Shield Threat Matrix Tour Of Duty (seen it before, but would like to see it again)    Planning to see (Mini Series):    urlLink Kingdom Hospital     Planning to see (Documentaries):    urlLink The War of Lebanon     Planning to see (Purchased DVDs):    urlLink Winds of War   urlLink War and Rememberance   Babylon 5. I've seen this series before, but not on DVD.  urlLink The Gathering (Pilot)   urlLink Season 1   urlLink Season 2   urlLink Season 3   urlLink Season 4   urlLink Season 5   urlLink In the Beginning   Farscape. I've seen this series before, but not on DVD. I'm waiting for the complete season 3 & 4 to be released. And of course, for the not yet aired ending mini series,  urlLink The Peacekeeper Wars .  urlLink Season 1   urlLink Season 2  
+      
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+    
+       
+       . American romantic drama. 4-4.5 of 5.  A man (played by  urlLink Jim Carrey ) is chocked to discover that his girlfriend, played by  urlLink Kate Winslet , has had her memories of them erased. Depressed by this, he decides to have her removed from his own memory. Mostly taking place within Joel's mind, the movie follows his memories of her as each memory is replaced. But in the middle of the process, Joel realises he doesn't want to forget her, so he starts trying to put her into other memories where she originally wasn't to keep her from being erased...  This is another awesome story by screenwriter extraordinaire  urlLink Charlie Kaufman , responsible for movies like  urlLink Adaptation  and  urlLink Being John Malkovich .  The one main drawback is that the movie is a bit too long. Some of Joel's relived memories could have been skipped. Apart from that, I cannot find any fault with this film. -->
+       Just saw  urlLink Eternal Sunshine of the Spotless Mind . American romantic drama. 4-4.5 of 5.  A man (played by  urlLink Jim Carrey ) is chocked to discover that his girlfriend, played by  urlLink Kate Winslet , has had her memories of them erased. Depressed by this, he decides to have her removed from his own memory. Mostly taking place within Joel's mind, the movie follows his memories of her as each memory is replaced. But in the middle of the process, Joel realises he doesn't want to forget her, so he starts trying to put her into other memories where she originally wasn't to keep her from being erased...  This is another awesome story by screenwriter extraordinaire  urlLink Charlie Kaufman , responsible for movies like  urlLink Adaptation  and  urlLink Being John Malkovich .  The one main drawback is that the movie is a bit too long. Some of Joel's relived memories could have been skipped. Apart from that, I cannot find any fault with this film. 
+      
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+    
+       
+       . American action adventure drama. 4 of 5 as that. 3-3.5 as a regular movie.  I had low expectations for this one as well, but I was pleasantly surprised.   Firstly, it has a lot of actors I like:  urlLink Ioan Gruffudd  (of Hornblower fame) as Lancelot,  urlLink Ray Winstone  (last seen by me in  urlLink Henry VIII , see  urlLink previous post ) as Bors,  urlLink Stellan Skarsgård  as Cerdic, the all around evil Saxon invader,  urlLink Hugh Dancy  as Galahad and finally the always lovely  urlLink Keira Knightley  as Guinevere.   Secondly, the story is well-constructed. My view of the Arthurian saga is forever coloured by Marion Zimmer Bradley's interpretation in her book  urlLink The Mists of Avalon  since I read it for the first time in 1994, but I like this one as well.  The main drawback of the movie is what's not in it: There is a lack of deeper characterisation of some of the main characters - they're not as fleshed out as they could be. Also Cerdic never becomes anything more than a regular bad guy, but it this case, it works anyway. The camaraderie between Arthur and his knights however, is well-developed, even if it's a bit clichéd. And I like how Lancelot and Bors are portrayed.    -->
+       Just saw  urlLink King Arthur . American action adventure drama. 4 of 5 as that. 3-3.5 as a regular movie.  I had low expectations for this one as well, but I was pleasantly surprised.   Firstly, it has a lot of actors I like:  urlLink Ioan Gruffudd  (of Hornblower fame) as Lancelot,  urlLink Ray Winstone  (last seen by me in  urlLink Henry VIII , see  urlLink previous post ) as Bors,  urlLink Stellan Skarsgård  as Cerdic, the all around evil Saxon invader,  urlLink Hugh Dancy  as Galahad and finally the always lovely  urlLink Keira Knightley  as Guinevere.   Secondly, the story is well-constructed. My view of the Arthurian saga is forever coloured by Marion Zimmer Bradley's interpretation in her book  urlLink The Mists of Avalon  since I read it for the first time in 1994, but I like this one as well.  The main drawback of the movie is what's not in it: There is a lack of deeper characterisation of some of the main characters - they're not as fleshed out as they could be. Also Cerdic never becomes anything more than a regular bad guy, but it this case, it works anyway. The camaraderie between Arthur and his knights however, is well-developed, even if it's a bit clichéd. And I like how Lancelot and Bors are portrayed.    
+      
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+    
+       
+       . American action thriller. 3 of 5.  I had low expectations for this one, but I did expect to be entertained. And that I was, no more, no less. It has some interesting plot moments, but those are countered by mindless action scenes. Still, that is what to is be expected from a summer blockbuster-type of movie.  -->
+       Just saw  urlLink I, Robot . American action thriller. 3 of 5.  I had low expectations for this one, but I did expect to be entertained. And that I was, no more, no less. It has some interesting plot moments, but those are countered by mindless action scenes. Still, that is what to is be expected from a summer blockbuster-type of movie.  
+      
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+    
+       
+       . American documentary by  urlLink Oliver Stone . 2.5 of 5.  Dissapointing documentary based on 30 hours of footage by Stone. Many of his questions are uninteresting and there are no attempts to probe deeper. Still, it may be that this is the only approach that would be tolerated. It is still fascinating to see recent footage of Castro, though. -->
+       Just saw  urlLink Comandante . American documentary by  urlLink Oliver Stone . 2.5 of 5.  Dissapointing documentary based on 30 hours of footage by Stone. Many of his questions are uninteresting and there are no attempts to probe deeper. Still, it may be that this is the only approach that would be tolerated. It is still fascinating to see recent footage of Castro, though. 
+      
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+    
+       
+        taped from TV. American romantic comedy based on a play by Oscar Wilde. 4 of 5.  A lot of great actors in this one:  urlLink Cate Blanchett ,  urlLink Julianne Moore ,  urlLink Minnie Driver ,  urlLink Jeremy Northam  and  urlLink Rupert Everett .  To summarize I'll quote  urlLink James Berardinelli's review :  An Ideal Husband is a delightful parfait - an irresistible concoction of brilliant dialogue, sumptuous set design, top-notch acting, and a plot littered with Machiavellian twists. Possessing a light tone tinged with an acerbic accent [it's] an exquisitely crafted movie that can be appreciated from start to finish.  -->
+       Just saw  urlLink An Ideal Husband  taped from TV. American romantic comedy based on a play by Oscar Wilde. 4 of 5.  A lot of great actors in this one:  urlLink Cate Blanchett ,  urlLink Julianne Moore ,  urlLink Minnie Driver ,  urlLink Jeremy Northam  and  urlLink Rupert Everett .  To summarize I'll quote  urlLink James Berardinelli's review :  An Ideal Husband is a delightful parfait - an irresistible concoction of brilliant dialogue, sumptuous set design, top-notch acting, and a plot littered with Machiavellian twists. Possessing a light tone tinged with an acerbic accent [it's] an exquisitely crafted movie that can be appreciated from start to finish.  
+      
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+    
+       
+        (Swedish translation) yesterday.  A biography of Che Guevara, it chronicles his life, from birth to death, his experiences as he travels, fights and governs, his family life and his views.  I was gonna write a brief summary but realised that even a brief one would be quite long and take too much time. So read  this instead . It seems accurate even though it's more brief than I would have wished.  It's an interesting book about a subject I really had no previous knowledge of (all I knew was that he was a revolutionary, that he was dead and that he was active in Latin America). It's a long book (ca 1050 pages) and sometimes it gets a bit bogged down in details. But in a book like this, I'd rather have that over brevity and summary.  I'm bumping Latin and South America to the top of my areas-to-read-about-list.   -->
+       Finished reading  urlLink John Lee Anderson's Che Guevara: A Revolutionary Life  (Swedish translation) yesterday.  A biography of Che Guevara, it chronicles his life, from birth to death, his experiences as he travels, fights and governs, his family life and his views.  I was gonna write a brief summary but realised that even a brief one would be quite long and take too much time. So read  this instead . It seems accurate even though it's more brief than I would have wished.  It's an interesting book about a subject I really had no previous knowledge of (all I knew was that he was a revolutionary, that he was dead and that he was active in Latin America). It's a long book (ca 1050 pages) and sometimes it gets a bit bogged down in details. But in a book like this, I'd rather have that over brevity and summary.  I'm bumping Latin and South America to the top of my areas-to-read-about-list.   
+      
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+    
+       
+       . American documentary. 4.5 of 5.  The movie details Henry Kissinger's rise to notoriety and power, his involvement in Vietnam and Cambodia, East Timor and Chile. The movie argues that he is a very intelligent man, focused on power over morals and is guilty of war crimes.  I found nothing contradicting my previous knowledge of these subjects. That being said, Vietnam is the only one that I have studied extensively (something I plan to blog on later). My knowledge of East Timor mostly comes from the news and the movie  urlLink Manufacturing Consent: Noam Chomsky and the Media  that I saw at the end of last year. Regarding Chile, what little recent knowledge I have comes from the news around the time of the whole Pinochet-trial thing. Since I was little I've known that the socialist Allende was overthrown by Pinochet, but I don't know when I became aware of the American involvement, whether it was a youngster or in my later teens.  The narration is very well done by  urlLink Brian Cox  and helps the flow of the film which is very good to begin with. It's much better than in  urlLink The Fog of War: Eleven Lessons from the Life of Robert S. McNamara  that I saw about five weeks ago.  This is much more of a documentary than Fahrenheit 9/11 (see  urlLink previous post ). Then again, there is a whole lot more information to go on, especially regarding de-classified documents and such.  This is definitely a keeper. The only reason I'm giving this a 4.5 instead of a 5 is that I feel that it could have been a little more even-handed - I would have liked to see more people defending Kissinger. I just hope I won't suffer the same fate as I did with Michael Moore's  urlLink Bowling for Columbine  - I was very disappointed when I found out about it's use of  urlLink fictitious "facts" . -->
+       Just saw  urlLink The Trials of Henry Kissinger . American documentary. 4.5 of 5.  The movie details Henry Kissinger's rise to notoriety and power, his involvement in Vietnam and Cambodia, East Timor and Chile. The movie argues that he is a very intelligent man, focused on power over morals and is guilty of war crimes.  I found nothing contradicting my previous knowledge of these subjects. That being said, Vietnam is the only one that I have studied extensively (something I plan to blog on later). My knowledge of East Timor mostly comes from the news and the movie  urlLink Manufacturing Consent: Noam Chomsky and the Media  that I saw at the end of last year. Regarding Chile, what little recent knowledge I have comes from the news around the time of the whole Pinochet-trial thing. Since I was little I've known that the socialist Allende was overthrown by Pinochet, but I don't know when I became aware of the American involvement, whether it was a youngster or in my later teens.  The narration is very well done by  urlLink Brian Cox  and helps the flow of the film which is very good to begin with. It's much better than in  urlLink The Fog of War: Eleven Lessons from the Life of Robert S. McNamara  that I saw about five weeks ago.  This is much more of a documentary than Fahrenheit 9/11 (see  urlLink previous post ). Then again, there is a whole lot more information to go on, especially regarding de-classified documents and such.  This is definitely a keeper. The only reason I'm giving this a 4.5 instead of a 5 is that I feel that it could have been a little more even-handed - I would have liked to see more people defending Kissinger. I just hope I won't suffer the same fate as I did with Michael Moore's  urlLink Bowling for Columbine  - I was very disappointed when I found out about it's use of  urlLink fictitious "facts" . 
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       . American drama. 3 of 5.  Taking in place in the near future, cities are closed off and travel is restricted to people authorised with approved papers. Cloning is widespread, and because of that Code 46 exists - a law that prevents couples of similar gene patterns from reproducing.  William ( urlLink Tim Robbins ) is called in to investigate unauthorised papers that are being sold on the black market.  urlLink Samantha Morton  (last seen by me three months ago in the good (4 of 5)  urlLink In America ), plays Maria, of one the suspects. They immediately hit it off and they  quickly fall in love. But maybe there is a reason for their close attraction...?  For some reason I just couldn't get into this movie. I usually don't mind voice-overs, but I found the constant voice-over by Morton's character to be a bit annoying. Nevertheless, it's an interesting ride if only for the future the movie presents -  William for example uses an empathy virus to aid him in "sensing" information about the people he questions, giving him an ability similar to, if not as powerful as, mind-reading.  -->
+       Just saw  urlLink Code 46 . American drama. 3 of 5.  Taking in place in the near future, cities are closed off and travel is restricted to people authorised with approved papers. Cloning is widespread, and because of that Code 46 exists - a law that prevents couples of similar gene patterns from reproducing.  William ( urlLink Tim Robbins ) is called in to investigate unauthorised papers that are being sold on the black market.  urlLink Samantha Morton  (last seen by me three months ago in the good (4 of 5)  urlLink In America ), plays Maria, of one the suspects. They immediately hit it off and they  quickly fall in love. But maybe there is a reason for their close attraction...?  For some reason I just couldn't get into this movie. I usually don't mind voice-overs, but I found the constant voice-over by Morton's character to be a bit annoying. Nevertheless, it's an interesting ride if only for the future the movie presents -  William for example uses an empathy virus to aid him in "sensing" information about the people he questions, giving him an ability similar to, if not as powerful as, mind-reading.  
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       . Korean action. 1.5-2 of 5. Takes place in a high school of sorts, were almost all students and teachers are proficient in martial arts. Fights between students and between students and the faculty. This type of movie just isn't for me. Underdeveloped characters and a non-existent story. Instead there are a lot of fights. I would have liked it more if they had removed a lot of the action and put more focus on the romantic subplot and the interplay between the rival student groups... but that would have made it into an almost completely different movie.  The only actor I recognised was the lovely  urlLink Shin, Min-a  that I last saw in  urlLink Madeleine  (see  urlLink previous post ).  -->
+       Just saw  urlLink Volcano High . Korean action. 1.5-2 of 5. Takes place in a high school of sorts, were almost all students and teachers are proficient in martial arts. Fights between students and between students and the faculty. This type of movie just isn't for me. Underdeveloped characters and a non-existent story. Instead there are a lot of fights. I would have liked it more if they had removed a lot of the action and put more focus on the romantic subplot and the interplay between the rival student groups... but that would have made it into an almost completely different movie.  The only actor I recognised was the lovely  urlLink Shin, Min-a  that I last saw in  urlLink Madeleine  (see  urlLink previous post ).  
+      
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+    
+       
+       I may add or remove an extra 0.5 from a grade for an individual scene, (dis)likeable character(s) and the ending.  I sometimes also give out an additional grade for a specific genre. For example: I gave  urlLink Spiderman 2  5 of 5 in the superhero genre and 4-4.5 in the general movie genre. I often use intervals when I'm not sure exactly how I feel about the movie.     What movies to keep    Generally I require a minimum grade of 4 of 5 (though a few 3.5:ers has slipped through). The grade is not enough however - I either have to want to see the movie again sometime in future, or I have to want to show it to a future someone.   -->
+       My rating system goes from 0 to 5. The only really fixed descriptions I have are for 5 which means "abso-bleeping-stupe-fucious", ie. really, really excellent. The other one is for 2.5 which means "whatever, shoulder shrug" - I neither dislike it or like it.  I may add or remove an extra 0.5 from a grade for an individual scene, (dis)likeable character(s) and the ending.  I sometimes also give out an additional grade for a specific genre. For example: I gave  urlLink Spiderman 2  5 of 5 in the superhero genre and 4-4.5 in the general movie genre. I often use intervals when I'm not sure exactly how I feel about the movie.     What movies to keep    Generally I require a minimum grade of 4 of 5 (though a few 3.5:ers has slipped through). The grade is not enough however - I either have to want to see the movie again sometime in future, or I have to want to show it to a future someone.   
+      
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+    
+       
+        that I read everyday. If it is not, I check the IMDB score, the genre and read some of the reviews. I tend to gravitate towards movies containing one or more of these: drama, romance and comedy. Action: sometimes. Horror: rarely. Regardless of where the movie is from, I sometimes decide on a movie just based on what actors are in it. For asian movies it is sometimes enough for a movie to simply be mentioned in another review for my interest to peak. For american releases I like to read the reviews of:  urlLink James Berardinelli  and  urlLink Roger Ebert . For asian movies I prefer the reviews from one of these sites:  urlLink Nixflix ,  urlLink MovieMix (Swedish) ,  urlLink Koreanfilm.org ,  urlLink DVDTimes ,  urlLink MediaCircus.net  and  urlLink DVD Verdict .   -->
+       If it is a new movie, ie. is it being released right now in the States or here, then I've probably seen the trailer and read a summary of the reviews in  urlLink the IMDB studio briefing  that I read everyday. If it is not, I check the IMDB score, the genre and read some of the reviews. I tend to gravitate towards movies containing one or more of these: drama, romance and comedy. Action: sometimes. Horror: rarely. Regardless of where the movie is from, I sometimes decide on a movie just based on what actors are in it. For asian movies it is sometimes enough for a movie to simply be mentioned in another review for my interest to peak. For american releases I like to read the reviews of:  urlLink James Berardinelli  and  urlLink Roger Ebert . For asian movies I prefer the reviews from one of these sites:  urlLink Nixflix ,  urlLink MovieMix (Swedish) ,  urlLink Koreanfilm.org ,  urlLink DVDTimes ,  urlLink MediaCircus.net  and  urlLink DVD Verdict .   
+      
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+    
+       
+       . Korean drama. 4 of 5. A man finds out his wife is cheating on him. It's a good movie. Believable characters, interesting story. Yet, for some reason, it's not a keeper. -->
+       Just saw  urlLink Happy End . Korean drama. 4 of 5. A man finds out his wife is cheating on him. It's a good movie. Believable characters, interesting story. Yet, for some reason, it's not a keeper. 
+      
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+    
+       
+       . Korean action comedy. 3 of 5. The movie begins with Dae-seo, a successful businessman, waking up with a strange woman in his bed, neither of them remembering how they got there. She is the daughter of a powerful mafia boss and when her brothers and father finds out about their sleeping together, they demand that Dae-seo marry her. Even when Dae-seo manages to prove that she is still a virgin, they still insist - they want the family to benefit from Dae-seo's respectability. But Dao-seo already has a steady girlfriend... -->
+       Just saw  urlLink Marrying the Mafia . Korean action comedy. 3 of 5. The movie begins with Dae-seo, a successful businessman, waking up with a strange woman in his bed, neither of them remembering how they got there. She is the daughter of a powerful mafia boss and when her brothers and father finds out about their sleeping together, they demand that Dae-seo marry her. Even when Dae-seo manages to prove that she is still a virgin, they still insist - they want the family to benefit from Dae-seo's respectability. But Dao-seo already has a steady girlfriend... 
+      
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+    
+       
+       . Korean action drama comedy. 3 of 5. Eun-Jin, the female gangster boss from the first movie (see  urlLink previous post ), is back. She now works as a delivery-girl at a local restaurant, having suffered amnesia after being in a fight. She still retains her martial art capabilities and her bossy demeanor. Compared to the first movie, this one is better in every respect: The story is better, the comedy is funnier and there is less run-of-the-mill action sequences. -->
+       Just saw  urlLink My Wife Is A Gangster 2 . Korean action drama comedy. 3 of 5. Eun-Jin, the female gangster boss from the first movie (see  urlLink previous post ), is back. She now works as a delivery-girl at a local restaurant, having suffered amnesia after being in a fight. She still retains her martial art capabilities and her bossy demeanor. Compared to the first movie, this one is better in every respect: The story is better, the comedy is funnier and there is less run-of-the-mill action sequences. 
+      
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+    
+       
+       . Korean action drama comedy. 2.5 of 5 and that's including 0.5 for the premise. A female gangster boss, Eun-Jin, who is well-respected and feared in her trade, is re-united with her long-lost sister. But her sister is dying of cancer and has only one last wish: That Eun-Jin be married and have children. So now Eun-Jin needs to find a husband! It's an interesting premise, but unfortunately that's about it. The movie's shifts between the action, the drama and the comedy is stilted and makes for an uneven film. -->
+       Just saw  urlLink My Wife Is a Gangster . Korean action drama comedy. 2.5 of 5 and that's including 0.5 for the premise. A female gangster boss, Eun-Jin, who is well-respected and feared in her trade, is re-united with her long-lost sister. But her sister is dying of cancer and has only one last wish: That Eun-Jin be married and have children. So now Eun-Jin needs to find a husband! It's an interesting premise, but unfortunately that's about it. The movie's shifts between the action, the drama and the comedy is stilted and makes for an uneven film. 
+      
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+    
+       
+       . Japanese drama by  urlLink Takeshi Kitano . 3.5 of 5. The movie is split into three stories. In the main and most interesting story, a young man wanders the streets penitentially tied to his girlfriend who he drove to madness and attempted suicide by briefly deserting her for a richer woman.  The movie is very slow - very little happens in the course of it. Still, you feel for the main characters and want them to find happiness. -->
+       Just saw  urlLink Dolls . Japanese drama by  urlLink Takeshi Kitano . 3.5 of 5. The movie is split into three stories. In the main and most interesting story, a young man wanders the streets penitentially tied to his girlfriend who he drove to madness and attempted suicide by briefly deserting her for a richer woman.  The movie is very slow - very little happens in the course of it. Still, you feel for the main characters and want them to find happiness. 
+      
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+    
+       
+       . Japanese drama, with some action and comedy content. 3.5 of 5.  It's about a young Japanese teenager of Korean ancestry living in Japan. He has to deal with the alienation he feels as he is considered a foreigner in his own country and also with the usual teenage problem of falling in love. Once again it's a movie that I really wanted to like more, but couldn't.  -->
+       Just saw  urlLink Go . Japanese drama, with some action and comedy content. 3.5 of 5.  It's about a young Japanese teenager of Korean ancestry living in Japan. He has to deal with the alienation he feels as he is considered a foreigner in his own country and also with the usual teenage problem of falling in love. Once again it's a movie that I really wanted to like more, but couldn't.  
+      
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+    
+       
+       . Korean romantic drama comedy. 3.5 of 5. I wanted to like this movie even more, but it's too flawed. -->
+       Just saw  urlLink Madeleine . Korean romantic drama comedy. 3.5 of 5. I wanted to like this movie even more, but it's too flawed. 
+      
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+    
+       
+       . Korean romantic drama. 4 of 5. It's about a man who after being in a car crash is afflicted by partial amnesia. He has dreams about a girl he secretely loved, but he does not remember her face nor her name. None of his friends knows who she is either, since he's never told them about her. While trying to find out who she is he finds himself falling in love with another woman who is trying to help him find her.  I really liked this one. Interesting story and likeable characters. It's not perfect though - in comparison to my most recent keepers in the asian romantic drama category it lands in the bottom half, but it is nevertheless a keeper. As a reference, the following are the most recent movies in this category that I've decided to keep (and their viewing date):     urlLink ...ing  2004-06-05    urlLink Lost In Time (Mong bat liu)  2004-06-01    urlLink Marriage Is A Crazy Thing (Gyeolhoneun michinjishida)  2004-05-31    urlLink Turn (Taan)  2004-05-31    urlLink Il Mare (Siworae)  2004-05-23     Other good movies in this category, that I for different reasons decided not to keep, are:     urlLink Classic  2004-06-12    urlLink Lover's concerto (Yeonae sosheol)  2004-05-31    urlLink Oasis  2004-05-31    urlLink Christmas in august (Palwolui Christmas)  2004-05-22    urlLink Ditto (Donggam)  2004-05-22    urlLink The Road Home (Wo de fu qin mu qin)  2004-05-02    -->
+       Just saw  urlLink Over the Rainbow . Korean romantic drama. 4 of 5. It's about a man who after being in a car crash is afflicted by partial amnesia. He has dreams about a girl he secretely loved, but he does not remember her face nor her name. None of his friends knows who she is either, since he's never told them about her. While trying to find out who she is he finds himself falling in love with another woman who is trying to help him find her.  I really liked this one. Interesting story and likeable characters. It's not perfect though - in comparison to my most recent keepers in the asian romantic drama category it lands in the bottom half, but it is nevertheless a keeper. As a reference, the following are the most recent movies in this category that I've decided to keep (and their viewing date):     urlLink ...ing  2004-06-05    urlLink Lost In Time (Mong bat liu)  2004-06-01    urlLink Marriage Is A Crazy Thing (Gyeolhoneun michinjishida)  2004-05-31    urlLink Turn (Taan)  2004-05-31    urlLink Il Mare (Siworae)  2004-05-23     Other good movies in this category, that I for different reasons decided not to keep, are:     urlLink Classic  2004-06-12    urlLink Lover's concerto (Yeonae sosheol)  2004-05-31    urlLink Oasis  2004-05-31    urlLink Christmas in august (Palwolui Christmas)  2004-05-22    urlLink Ditto (Donggam)  2004-05-22    urlLink The Road Home (Wo de fu qin mu qin)  2004-05-02    
+      
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+    
+       
+       . Japanese drama. 2 of 5. -->
+       Just saw  urlLink Ritual . Japanese drama. 2 of 5. 
+      
+</post>
+
+<date>14,July,2004</date>
+<post>
+
+    
+       
+       . Japanese drama. 2 of 5 and that's including 0.5 for the ending. -->
+       Just saw  urlLink Ley Lines . Japanese drama. 2 of 5 and that's including 0.5 for the ending. 
+      
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+    
+       
+       . It's a very sweet romantic drama and I really wanted to like it even more than I did, but it lacks that final "thing" to put it over the absolute top. Still, I give 4 of 5 as a romantic drama and 3.5-4 of 5 as regular movie. -->
+       Just saw  urlLink The Notebook . It's a very sweet romantic drama and I really wanted to like it even more than I did, but it lacks that final "thing" to put it over the absolute top. Still, I give 4 of 5 as a romantic drama and 3.5-4 of 5 as regular movie. 
+      
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+    
+       
+       . What can I say? It is definitely a must-see movie. It is provocative and it succeeds very well at doing what I believe it was intended to do. Entertainment-wise I give it 4.5 of 5. As a documentary I give it 3.5 of 5. Instead of trying to put into print how I feel about this movie, which could take days to really express it all, I'm gonna quote heavily from some of the reviews of the movie that I've read.  From  urlLink James Berardinelli's review :  Moore's reputation robs [parts of] his film of its potential power. Because we don't know how much of this is real. Maybe it all is. /.../ But his past argues that he might not be playing things straight. Moore has a longstanding history of manipulating the truth, and we have no way of assessing whether any doctoring has been done /.../ Moore's reputation demands that we regard everything in his films with a healthy portion of skepticism.  From  urlLink "Fahrenheit 9/11": Nay! by Stephanie Zacharek :  People who consider themselves basically in league with Michael Moore's politics but dislike his movies often feel compelled to defend him as a concept: "He's a much-needed liberal voice," goes one argument. "He raises issues that need to be raised, that no one else is raising," goes another /.../ In the Moore universe, noisy tub-thumping is deemed more valuable than stringent logic; presenting crucial information in a manner that's irrefutable (by naysayers of any political bent) is much less important than drawing a comfortable little circle in which we're encouraged to congratulate ourselves for being on the "correct" side, for having the good sense to recognize that [the] president is "bad" and the Iraq war is "wrong."  /.../ But even though I'm part of the choir Moore is preaching to, I can't help blanching at his approach: In this increasingly treacherous political climate -- particularly as we approach an election whose impact may resound more thunderously than any other in recent history -- preaching to the choir just isn't good enough. "Fahrenheit 9/11" shows evidence of being better researched than any of Moore's previous films. /.../ But Moore's case is undermined by his jokey, faux-populist self-righteousness (a quality the left seems to despise only when it's exhibited by those on the right) and by the slapdash connections he makes between various facts and events. The issues at stake are too serious for a spotlight-hungry manipulator like Moore to be mucking around with.  /.../ [T]he Bush administration has exploited the tragedy of Sept. 11 to foster a culture of fear in the United States; [the] president then roused /.../ fearful Americans into support for, or at least a numb acceptance of, a war that he has justified only with false allegations.  /.../ Moore uses /.../ yuk-yuk tactics to poke impish little holes in the Bush persona. But these minor deflations don't do much to emasculate George W. If anything, they suggest that Moore underestimates him, carelessly characterizing Bush's smug and reckless disregard for the American people as just a slightly rejiggered version of avuncular, Ronald Reagan-style cluelessness.  /.../ At the very least, that's the conflict of interest Moore claims it is. But Moore never fits the info nibblets he comes up with on the Bush-Saudi connection into a coherent whole. Moore says that, in the days immediately following 9/11, when not even celebrities like Ricky Martin were allowed to fly, prominent Saudis, including members of the bin Laden family, were secretly hustled out of the United States. He interviews an FBI agent who says that they should have been questioned before they were offered special protection. Here's the problem: As the New York Times reported /.../ [that] the FBI did interview and clear members of the bin Laden family and, as the 9/11 commission has reported, the flights did not leave before U.S. airspace was reopened. In "Fahrenheit 9/11" Moore may have been more careful than usual with the facts, but you still can't help wondering how much he tinkered with them to suit his arguments.  /.../ Moore shows us footage of grievously injured Iraqi children or, more arresting yet, their corpses. Many of these images are graphic, and I don't believe audiences should necessarily be sheltered from such pictures. But there's something wily and disingenuously wide-eyed about the way Moore uses these images to make his points about the horrors of war. Similarly, he expresses surprise and dismay that the military recruits heavily among African-Americans, Hispanics and other minorities, as opposed to trying to attract rich kids. Stop the presses! Innocent civilians are killed during wartime; our armed services are made up largely of young men and women to whom our society has offered limited opportunities. Moore unveils these revelations with a flourish, relishing his role as the great teller of truths. What planet, exactly, has he been living on? /.../ I've heard even die-hard Moore detractors defend "Fahrenheit 9/11," claiming that its flaws don't matter because it speaks to a higher truth. The thinking goes, I suppose, that we need every anti-Bush voice we can get, and Moore /.../ is likely to wield more influence than most other voices coming from the left. What's more, even though "Fahrenheit 9/11" isn't journalism, Moore presents his findings with an air of authority. Moore believes the press has let [the people] down in calling Bush on his fraudulence and falseheartedness, and he's right. Still, the tradition, craft and standards of journalism have to count for something: Should we really be holding up cheap shots, inference and sloppy reporting as gateways to the truth?   From  urlLink "Fahrenheit 9/11": Yea! by Andrew O'Hehir :  "Fahrenheit 9/11" is an enormous film, an angry film, a flawed film and often a very, very funny film. There is anguish in it and death, and not as much coherence as there might be. /.../ [Moore's] true calling lay not in journalism but in storytelling, or, more specifically, in the dangerous and difficult territory that lies between them.  /.../ Moore's case against the Bushies and their Saudi allies /.../ is largely circumstantial. Some of its particulars may not be true or fair, and very little of it approaches a legal standard of evidence. On the other hand, Moore never suggests anything patently outrageous (there's no "Bush planned 9/11,"), yet the picture that emerges here, at minimum, is of a government engaged in a systematic campaign to bewilder and mislead its own public, and dedicated to a messy military adventure whose costs and aims have never been made clear.  /.../ Moore's individual factoid nuggets can be gasp-inducing (was George W. Bush's early career really funded by the bin Laden family?) and his side trip to his Michigan hometown to examine the Iraq war's effects there is genuinely heartbreaking. But "Fahrenheit 9/11" is more like a drug experience than a political documentary. It's a mind-bending, half-digested mass of video clips, interviews, statistics, rampant speculation and /.../ cheap gags.   Lastly, I include the following link that I think is  very  interesting. I have only looked at it briefly, but I fully intend to read it all:  urlLink Fifty-nine Deceits in Fahrenheit 9/11 by Dave Kopel .  -->
+       Just saw  urlLink Fahrenheit 9/11 . What can I say? It is definitely a must-see movie. It is provocative and it succeeds very well at doing what I believe it was intended to do. Entertainment-wise I give it 4.5 of 5. As a documentary I give it 3.5 of 5. Instead of trying to put into print how I feel about this movie, which could take days to really express it all, I'm gonna quote heavily from some of the reviews of the movie that I've read.  From  urlLink James Berardinelli's review :  Moore's reputation robs [parts of] his film of its potential power. Because we don't know how much of this is real. Maybe it all is. /.../ But his past argues that he might not be playing things straight. Moore has a longstanding history of manipulating the truth, and we have no way of assessing whether any doctoring has been done /.../ Moore's reputation demands that we regard everything in his films with a healthy portion of skepticism.  From  urlLink "Fahrenheit 9/11": Nay! by Stephanie Zacharek :  People who consider themselves basically in league with Michael Moore's politics but dislike his movies often feel compelled to defend him as a concept: "He's a much-needed liberal voice," goes one argument. "He raises issues that need to be raised, that no one else is raising," goes another /.../ In the Moore universe, noisy tub-thumping is deemed more valuable than stringent logic; presenting crucial information in a manner that's irrefutable (by naysayers of any political bent) is much less important than drawing a comfortable little circle in which we're encouraged to congratulate ourselves for being on the "correct" side, for having the good sense to recognize that [the] president is "bad" and the Iraq war is "wrong."  /.../ But even though I'm part of the choir Moore is preaching to, I can't help blanching at his approach: In this increasingly treacherous political climate -- particularly as we approach an election whose impact may resound more thunderously than any other in recent history -- preaching to the choir just isn't good enough. "Fahrenheit 9/11" shows evidence of being better researched than any of Moore's previous films. /.../ But Moore's case is undermined by his jokey, faux-populist self-righteousness (a quality the left seems to despise only when it's exhibited by those on the right) and by the slapdash connections he makes between various facts and events. The issues at stake are too serious for a spotlight-hungry manipulator like Moore to be mucking around with.  /.../ [T]he Bush administration has exploited the tragedy of Sept. 11 to foster a culture of fear in the United States; [the] president then roused /.../ fearful Americans into support for, or at least a numb acceptance of, a war that he has justified only with false allegations.  /.../ Moore uses /.../ yuk-yuk tactics to poke impish little holes in the Bush persona. But these minor deflations don't do much to emasculate George W. If anything, they suggest that Moore underestimates him, carelessly characterizing Bush's smug and reckless disregard for the American people as just a slightly rejiggered version of avuncular, Ronald Reagan-style cluelessness.  /.../ At the very least, that's the conflict of interest Moore claims it is. But Moore never fits the info nibblets he comes up with on the Bush-Saudi connection into a coherent whole. Moore says that, in the days immediately following 9/11, when not even celebrities like Ricky Martin were allowed to fly, prominent Saudis, including members of the bin Laden family, were secretly hustled out of the United States. He interviews an FBI agent who says that they should have been questioned before they were offered special protection. Here's the problem: As the New York Times reported /.../ [that] the FBI did interview and clear members of the bin Laden family and, as the 9/11 commission has reported, the flights did not leave before U.S. airspace was reopened. In "Fahrenheit 9/11" Moore may have been more careful than usual with the facts, but you still can't help wondering how much he tinkered with them to suit his arguments.  /.../ Moore shows us footage of grievously injured Iraqi children or, more arresting yet, their corpses. Many of these images are graphic, and I don't believe audiences should necessarily be sheltered from such pictures. But there's something wily and disingenuously wide-eyed about the way Moore uses these images to make his points about the horrors of war. Similarly, he expresses surprise and dismay that the military recruits heavily among African-Americans, Hispanics and other minorities, as opposed to trying to attract rich kids. Stop the presses! Innocent civilians are killed during wartime; our armed services are made up largely of young men and women to whom our society has offered limited opportunities. Moore unveils these revelations with a flourish, relishing his role as the great teller of truths. What planet, exactly, has he been living on? /.../ I've heard even die-hard Moore detractors defend "Fahrenheit 9/11," claiming that its flaws don't matter because it speaks to a higher truth. The thinking goes, I suppose, that we need every anti-Bush voice we can get, and Moore /.../ is likely to wield more influence than most other voices coming from the left. What's more, even though "Fahrenheit 9/11" isn't journalism, Moore presents his findings with an air of authority. Moore believes the press has let [the people] down in calling Bush on his fraudulence and falseheartedness, and he's right. Still, the tradition, craft and standards of journalism have to count for something: Should we really be holding up cheap shots, inference and sloppy reporting as gateways to the truth?   From  urlLink "Fahrenheit 9/11": Yea! by Andrew O'Hehir :  "Fahrenheit 9/11" is an enormous film, an angry film, a flawed film and often a very, very funny film. There is anguish in it and death, and not as much coherence as there might be. /.../ [Moore's] true calling lay not in journalism but in storytelling, or, more specifically, in the dangerous and difficult territory that lies between them.  /.../ Moore's case against the Bushies and their Saudi allies /.../ is largely circumstantial. Some of its particulars may not be true or fair, and very little of it approaches a legal standard of evidence. On the other hand, Moore never suggests anything patently outrageous (there's no "Bush planned 9/11,"), yet the picture that emerges here, at minimum, is of a government engaged in a systematic campaign to bewilder and mislead its own public, and dedicated to a messy military adventure whose costs and aims have never been made clear.  /.../ Moore's individual factoid nuggets can be gasp-inducing (was George W. Bush's early career really funded by the bin Laden family?) and his side trip to his Michigan hometown to examine the Iraq war's effects there is genuinely heartbreaking. But "Fahrenheit 9/11" is more like a drug experience than a political documentary. It's a mind-bending, half-digested mass of video clips, interviews, statistics, rampant speculation and /.../ cheap gags.   Lastly, I include the following link that I think is  very  interesting. I have only looked at it briefly, but I fully intend to read it all:  urlLink Fifty-nine Deceits in Fahrenheit 9/11 by Dave Kopel .  
+      
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+    
+       
+       . Action/horror. 4 of 5, but that is as just that, an action/horror flick, which includes an extra 0.5 for a kick-ass ending. As a regular movie I'd give it 3-3.5.  It does what it is supposed to and does it very well. It could have used more character development which is partly why I didn't give it 4.5. I haven't seen the original  urlLink one from 1978  so I don't have any comparisons to make with it. -->
+       Just saw  urlLink Dawn of the Dead . Action/horror. 4 of 5, but that is as just that, an action/horror flick, which includes an extra 0.5 for a kick-ass ending. As a regular movie I'd give it 3-3.5.  It does what it is supposed to and does it very well. It could have used more character development which is partly why I didn't give it 4.5. I haven't seen the original  urlLink one from 1978  so I don't have any comparisons to make with it. 
+      
+</post>
+
+<date>10,July,2004</date>
+<post>
+
+    
+       
+       
+       Just saw the Afasi & Filthy video for Bomfalleralla. Really a kick-ass song and a cool, yet simple, video. 
+      
+</post>
+
+<date>10,July,2004</date>
+<post>
+
+    
+       
+       . Comedy. I give it 2.5 of 5, and that's with an extra 0.5 only because  urlLink Lindsay Lohan  is in it. Her good performance in  urlLink Mean Girls  was the only reason I saw this movie. Then again, seeing as the target audience is young teenage girls, maybe I shouldn't be too hard on it.  -->
+       Just saw  urlLink Confessions of a Teenage Drama Queen . Comedy. I give it 2.5 of 5, and that's with an extra 0.5 only because  urlLink Lindsay Lohan  is in it. Her good performance in  urlLink Mean Girls  was the only reason I saw this movie. Then again, seeing as the target audience is young teenage girls, maybe I shouldn't be too hard on it.  
+      
+</post>
+
+<date>10,July,2004</date>
+<post>
+
+    
+       
+       . Brasilian drama, 2.5 of 5. It's about a man and his family, biking 2000 miles in search for a job paying enough to support them. I found it boring and uninteresting. At least it was short (less than 90 minutes). The grade should just be 2 but I'm adding another 0.5 for the social realism the movie depicts.  -->
+       Just saw  urlLink The Middle of the World . Brasilian drama, 2.5 of 5. It's about a man and his family, biking 2000 miles in search for a job paying enough to support them. I found it boring and uninteresting. At least it was short (less than 90 minutes). The grade should just be 2 but I'm adding another 0.5 for the social realism the movie depicts.  
+      
+</post>
+
+<date>10,July,2004</date>
+<post>
+
+    
+       
+       . Korean romantic drama, 3-3.5 of 5.  A brief description would be "A thirty-two year old male teacher falls in love with his seventeen year-old highschool student", but that gives of the wrong impression. This is a movie about two troubled individuals finding something in one another. The movie is very gloomy and there are very few upbeat moments. There is very little information about this movie on IMDB but I managed to find  urlLink a review that describes the movie very well. . While I don't agree with all of the conclusions of the review, I do agree with the gist of it.  -->
+       Just saw  urlLink Bus Stop . Korean romantic drama, 3-3.5 of 5.  A brief description would be "A thirty-two year old male teacher falls in love with his seventeen year-old highschool student", but that gives of the wrong impression. This is a movie about two troubled individuals finding something in one another. The movie is very gloomy and there are very few upbeat moments. There is very little information about this movie on IMDB but I managed to find  urlLink a review that describes the movie very well. . While I don't agree with all of the conclusions of the review, I do agree with the gist of it.  
+      
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+    
+       
+        (6 episodes). Great comedy, 4-4.5 of 5 (the same goes for first three seasons). Some of the things I like about this series is that is has great díalogue - witty and funny making me laugh out loud at least five times each episode. It has characters you care about and continuity - things happening in one episode has repercussions in later episodes. Another thing it's really good at is displaying the same scene from different points of view, when parts of a conversation have one meaning in the first perspective but when overheard from the second perspective it gets a completely different and often very funny meaning. It frequently has people doing/saying stupid things and then waits for them to be found out, something I normally try to avoid as I don't like that kind of comedy. I think my dislike for such scenes comes from my childhood when I, having been caught doing something, heard words to the effect of "I'm going to tell your parents". This would instantly tie a knot in my stomach which would remain there until my parents had been informed of my transgressions and I had been lectured/punished accordingly. But, despite Coupling's use of these type of scenes I still like them, mainly because they're so damn funny - I find myself watching them being played out with a kind of morbid fascination.       -->
+       Just saw the 4th season of  urlLink Coupling  (6 episodes). Great comedy, 4-4.5 of 5 (the same goes for first three seasons). Some of the things I like about this series is that is has great díalogue - witty and funny making me laugh out loud at least five times each episode. It has characters you care about and continuity - things happening in one episode has repercussions in later episodes. Another thing it's really good at is displaying the same scene from different points of view, when parts of a conversation have one meaning in the first perspective but when overheard from the second perspective it gets a completely different and often very funny meaning. It frequently has people doing/saying stupid things and then waits for them to be found out, something I normally try to avoid as I don't like that kind of comedy. I think my dislike for such scenes comes from my childhood when I, having been caught doing something, heard words to the effect of "I'm going to tell your parents". This would instantly tie a knot in my stomach which would remain there until my parents had been informed of my transgressions and I had been lectured/punished accordingly. But, despite Coupling's use of these type of scenes I still like them, mainly because they're so damn funny - I find myself watching them being played out with a kind of morbid fascination.       
+      
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+    
+       
+       
+       Just saw the video for Evanescence's latest single from their album Fallen - Everybody's fool. It is definitely the right choice as their next single as it is one of the top four songs on the album (the others already having been released as singles: Bring Me To Life, Going Under and Taking Over Me). 
+      
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+    
+       
+        on TV. 3-3.5 of 5.  Taking place in the 1500-hundreds it tells the story of Henry VIII and his many wives in his pursuance of a male heir. Great actors, most notably  urlLink Ray Winstone  as Henry.  urlLink Helena Bonham Carter  is also good as Anne Boleyn. I first thought it was based on the play by Shakespeare but apparently it's not. I gleaned from its reviews that it contains some grave historical inaccuracies. Nevertheless, it still got me interested in this time period. Last time a movie peaked my interest in British history was last year in  urlLink To Kill A King . I guess I'll be adding British history to the (bottom) of my to-read-about list.     -->
+       Just saw  urlLink Henry VIII  on TV. 3-3.5 of 5.  Taking place in the 1500-hundreds it tells the story of Henry VIII and his many wives in his pursuance of a male heir. Great actors, most notably  urlLink Ray Winstone  as Henry.  urlLink Helena Bonham Carter  is also good as Anne Boleyn. I first thought it was based on the play by Shakespeare but apparently it's not. I gleaned from its reviews that it contains some grave historical inaccuracies. Nevertheless, it still got me interested in this time period. Last time a movie peaked my interest in British history was last year in  urlLink To Kill A King . I guess I'll be adding British history to the (bottom) of my to-read-about list.     
+      
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+    
+       
+       . Fairly standard Korean romantic comedy - 3.5 of 5. Has too many flaws to keep it from being really, really good, but the actors and the sympathetic lead characters manages to make up for it most of the time. Especially the female lead,  urlLink Ha-Neul Kim , with her ordinary yet still extremely appealing cute looks. She was also in  urlLink Don't Believe Her  (another 3.5 Korean romantic comedy) that I saw about a month ago. Apparently she was also in  urlLink Ditto  (3.5 Korean romantic drama) that I saw about two months ago, but I don't remember her in that one, pun intended. Don't get it? Follow the link and see the alternative english title... Quality humor at it's best... ehh... well maybe not :-). -->
+       Just saw  urlLink My Tutor Friend . Fairly standard Korean romantic comedy - 3.5 of 5. Has too many flaws to keep it from being really, really good, but the actors and the sympathetic lead characters manages to make up for it most of the time. Especially the female lead,  urlLink Ha-Neul Kim , with her ordinary yet still extremely appealing cute looks. She was also in  urlLink Don't Believe Her  (another 3.5 Korean romantic comedy) that I saw about a month ago. Apparently she was also in  urlLink Ditto  (3.5 Korean romantic drama) that I saw about two months ago, but I don't remember her in that one, pun intended. Don't get it? Follow the link and see the alternative english title... Quality humor at it's best... ehh... well maybe not :-). 
+      
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+    
+       
+        -->
+       Hi! This is my media blog. Here I'll talk about the movies I've seen, the tv-shows I watch, the books I've read and the music I'm listening to. I'll try and give each movie a grade. As for the others I'll just write short judgements, I think. I haven't quite decided yet. We'll see.  
+      
+</post>
+
+<date>15,August,2004</date>
+<post>
+
+    
+       
+        today. US comedy. 2.5 of 5.  I'm lazy today so I'll be quoting from almost the entire review of  urlLink Roger Ebert  to describe the story:  The film follows the traditional pattern of many other teenage comedies. There's a clique ruled by the snobbiest and most popular girl in school, and an opposition made up of outcasts, nonconformists and rebels. /.../ What's different this time is that the teen queen, Hilary Faye, is the loudest Jesus praiser at American Eagle Christian High School, and is played by Moore /.../.  Her opposition is a checklist of kids who do not meet with Hilary Faye's approval. That would include Dean, who thinks he may be gay; Cassandra, the only Jew in school and an outspoken rebel, and Roland (Culkin), Hilary Faye's brother, who is in a wheelchair but rejects all forms of sympathy and horrifies his sister by becoming Cassandra's boyfriend. There's also Patrick, /.../ the son of Pastor Skip, the school's principal. He's thoughtful and introspective and isn't sure he agrees with his father's complacent morality.  The heroine is Mary (Malone), whose mother Lillian (Parker) has recently been named the town's No. 1 Christian Interior Decorator. Mary's boyfriend is Dean. One day they're playing a game that involves shouting out secrets to each other while underwater in the swimming pool, and Dean bubbles: "I think I'm gay!" Mary is shocked, bangs her head, thinks she sees Jesus (he's actually the pool maintenance guy) and realizes it is her mission to save Dean. That would involve having sex with him, she reasons, since only such a drastic act could bring him over to the hetero side. She believes that under the circumstances, Jesus will restore her virginity.  Jesus does not, alas, intervene, and Mary soon finds herself staring at the implacable blue line on her home pregnancy kit. Afraid to tell her mother, she visits Planned Parenthood, and is spotted by Cassandra and Roland.  Cassandra: "There's only one reason Christian girls come downtown to the Planned Parenthood!"  Roland: "She's planting a pipe bomb?"  You see what I mean. The first half of this movie is astonishing in the sharp-edged way it satirizes the knee-jerk values of Hilary Faye and her born-again friends. /.../  At the time Mary sacrifices her virginity to conquer Dean's homosexuality, she's a member of Hilary Faye's singing trio, the Christian Jewels, and a high-ranking celebrity among the school's Jesus boosters. But the worldly Cassandra spots her pregnancy before anyone else does, and soon the unwed mother-to-be is hanging out with the gay, the Jew and the kid in the wheelchair. They're like a hall of fame of outsiders.  Dean's sexuality is discovered by his parents, and he's shipped off to Mercy House, which specializes in drug detox and "degayification." Once again the screenplay, by director Brian Dannelly and Michael Urban, is pointed: "Mercy House doesn't really exist for the people that go there, but for the people who send them," says Patrick, who is having his own rebellion against Pastor Skip, and casts his lot with the rebels. Lazying it up further by quoting from  urlLink James Berardinelli's review  to express my opinion of the movie: The film's main flaw - the kind of narrow-mindedness of which it ironically accuses its subjects (in this case, the less religious a character, the more positively they are portrayed) - might be forgivable if Saved! made an interesting or original point/.../. But /.../ the characters are developed in facile ways, and [the] message lacks subtlety. Just because I may sympathize with some of what [it] has to say doesn't mean I'm impressed by the way [it says it]. Sermonizing is sermonizing, regardless of whether the doctrine being preached is based on the Bible of the Church or the Bible of Liberal Politics.   [Religion is treated] as a disease, not a life choice. It's something people need to be cured of in order to live a meaningful life. (Maybe they don't have to give it up altogether, but the fundamentalist aspect needs to go.) In order to refine this point, Mary is made increasingly sympathetic the further she drifts from her beliefs. Most of the "true believers," like Pastor Skip, Mary's mother, and Hilary Faye, are shown to be hypocrites. And the sympathetic supporters are non-believers Roland and Cassandra. It doesn't take long before it's apparent that [the] objective with this film is not just to lampoon fundamentalism, but to express contempt for it. In this world, the path to salvation comes through renouncing Jesus, not embracing him. To end on a more personal and positive note, I'd like to mention some of the actors and say that I blame the script for any faults of their characters, not their acting abilities.  I've never seen a bad performance by  urlLink Jena Malone  in any of her many movies, and she's not bad here either.   I was happy to see  urlLink Marie-Louise Parker  in it as I adore her Amy Gardner character on the  urlLink West Wing .  It's great to see  urlLink Macaulay Culkin  back on the screen again, especially as he's quite good in this one.  Finally, the actress who is the reason I saw this movie in the first place,  urlLink Mandy Moore . I've eagerly awaited every one of her movies especially since her first one  urlLink A Walk To Remember  turned out so good. Unfortunately none of her following movies have been as good, but her individual performance have always been good. She has consistently proven herself to be more than just a pop-princess, both in acting and singing. For example, her latest record,  urlLink Coverage , contains covers of songs from the '70s and '80s and is surprisingly good. -->
+       Saw  urlLink Saved!  today. US comedy. 2.5 of 5.  I'm lazy today so I'll be quoting from almost the entire review of  urlLink Roger Ebert  to describe the story:  The film follows the traditional pattern of many other teenage comedies. There's a clique ruled by the snobbiest and most popular girl in school, and an opposition made up of outcasts, nonconformists and rebels. /.../ What's different this time is that the teen queen, Hilary Faye, is the loudest Jesus praiser at American Eagle Christian High School, and is played by Moore /.../.  Her opposition is a checklist of kids who do not meet with Hilary Faye's approval. That would include Dean, who thinks he may be gay; Cassandra, the only Jew in school and an outspoken rebel, and Roland (Culkin), Hilary Faye's brother, who is in a wheelchair but rejects all forms of sympathy and horrifies his sister by becoming Cassandra's boyfriend. There's also Patrick, /.../ the son of Pastor Skip, the school's principal. He's thoughtful and introspective and isn't sure he agrees with his father's complacent morality.  The heroine is Mary (Malone), whose mother Lillian (Parker) has recently been named the town's No. 1 Christian Interior Decorator. Mary's boyfriend is Dean. One day they're playing a game that involves shouting out secrets to each other while underwater in the swimming pool, and Dean bubbles: "I think I'm gay!" Mary is shocked, bangs her head, thinks she sees Jesus (he's actually the pool maintenance guy) and realizes it is her mission to save Dean. That would involve having sex with him, she reasons, since only such a drastic act could bring him over to the hetero side. She believes that under the circumstances, Jesus will restore her virginity.  Jesus does not, alas, intervene, and Mary soon finds herself staring at the implacable blue line on her home pregnancy kit. Afraid to tell her mother, she visits Planned Parenthood, and is spotted by Cassandra and Roland.  Cassandra: "There's only one reason Christian girls come downtown to the Planned Parenthood!"  Roland: "She's planting a pipe bomb?"  You see what I mean. The first half of this movie is astonishing in the sharp-edged way it satirizes the knee-jerk values of Hilary Faye and her born-again friends. /.../  At the time Mary sacrifices her virginity to conquer Dean's homosexuality, she's a member of Hilary Faye's singing trio, the Christian Jewels, and a high-ranking celebrity among the school's Jesus boosters. But the worldly Cassandra spots her pregnancy before anyone else does, and soon the unwed mother-to-be is hanging out with the gay, the Jew and the kid in the wheelchair. They're like a hall of fame of outsiders.  Dean's sexuality is discovered by his parents, and he's shipped off to Mercy House, which specializes in drug detox and "degayification." Once again the screenplay, by director Brian Dannelly and Michael Urban, is pointed: "Mercy House doesn't really exist for the people that go there, but for the people who send them," says Patrick, who is having his own rebellion against Pastor Skip, and casts his lot with the rebels. Lazying it up further by quoting from  urlLink James Berardinelli's review  to express my opinion of the movie: The film's main flaw - the kind of narrow-mindedness of which it ironically accuses its subjects (in this case, the less religious a character, the more positively they are portrayed) - might be forgivable if Saved! made an interesting or original point/.../. But /.../ the characters are developed in facile ways, and [the] message lacks subtlety. Just because I may sympathize with some of what [it] has to say doesn't mean I'm impressed by the way [it says it]. Sermonizing is sermonizing, regardless of whether the doctrine being preached is based on the Bible of the Church or the Bible of Liberal Politics.   [Religion is treated] as a disease, not a life choice. It's something people need to be cured of in order to live a meaningful life. (Maybe they don't have to give it up altogether, but the fundamentalist aspect needs to go.) In order to refine this point, Mary is made increasingly sympathetic the further she drifts from her beliefs. Most of the "true believers," like Pastor Skip, Mary's mother, and Hilary Faye, are shown to be hypocrites. And the sympathetic supporters are non-believers Roland and Cassandra. It doesn't take long before it's apparent that [the] objective with this film is not just to lampoon fundamentalism, but to express contempt for it. In this world, the path to salvation comes through renouncing Jesus, not embracing him. To end on a more personal and positive note, I'd like to mention some of the actors and say that I blame the script for any faults of their characters, not their acting abilities.  I've never seen a bad performance by  urlLink Jena Malone  in any of her many movies, and she's not bad here either.   I was happy to see  urlLink Marie-Louise Parker  in it as I adore her Amy Gardner character on the  urlLink West Wing .  It's great to see  urlLink Macaulay Culkin  back on the screen again, especially as he's quite good in this one.  Finally, the actress who is the reason I saw this movie in the first place,  urlLink Mandy Moore . I've eagerly awaited every one of her movies especially since her first one  urlLink A Walk To Remember  turned out so good. Unfortunately none of her following movies have been as good, but her individual performance have always been good. She has consistently proven herself to be more than just a pop-princess, both in acting and singing. For example, her latest record,  urlLink Coverage , contains covers of songs from the '70s and '80s and is surprisingly good. 
+      
+</post>
+
+<date>14,August,2004</date>
+<post>
+
+    
+       
+       . I've read it twice before, ten and six years ago.  In Germany, in the beginning of the 1930's, classmates Netanel and Marie fall in love. Trouble is, Netanel is a jew. With the rise of the Nazi's it gets increasingly difficult for them to stay together. Finally everything breaks down and they are both arrested and deported to concentration camps. She survives by becoming the girl of a SS officer in the camp. He by eventually becoming a kapo.  When the war is over they both go to Palestine. Netanel to find a place were jews can be their own, Marie in search of Netanel. Eventually they meet. But they don't live happily ever after. Netanel is scarred inside by what happened to him and what he was forced to do as a kapo. Marie isn't coping too well either with her memories of Auschwitz. Unable to function together as lovers Netanel instead joins a jewish terrorist group.  In a parallell story set in Palestine, Rishou and Sarah fall in love when they are kids. The trouble here is, that he is an arab and she is a jewess. As grown-ups they sometimes manage to steal away some moments together, but then Rishou's son dies in a jewish terrorist attack...  Whereas the main characters in Herman Wouk's books  urlLink The Hope  and  urlLink The Glory  are just below the top players, the characters here are somewhere in the middle.  -->
+       Finished re-reading  urlLink Fury by Colin Falconer yesterday . I've read it twice before, ten and six years ago.  In Germany, in the beginning of the 1930's, classmates Netanel and Marie fall in love. Trouble is, Netanel is a jew. With the rise of the Nazi's it gets increasingly difficult for them to stay together. Finally everything breaks down and they are both arrested and deported to concentration camps. She survives by becoming the girl of a SS officer in the camp. He by eventually becoming a kapo.  When the war is over they both go to Palestine. Netanel to find a place were jews can be their own, Marie in search of Netanel. Eventually they meet. But they don't live happily ever after. Netanel is scarred inside by what happened to him and what he was forced to do as a kapo. Marie isn't coping too well either with her memories of Auschwitz. Unable to function together as lovers Netanel instead joins a jewish terrorist group.  In a parallell story set in Palestine, Rishou and Sarah fall in love when they are kids. The trouble here is, that he is an arab and she is a jewess. As grown-ups they sometimes manage to steal away some moments together, but then Rishou's son dies in a jewish terrorist attack...  Whereas the main characters in Herman Wouk's books  urlLink The Hope  and  urlLink The Glory  are just below the top players, the characters here are somewhere in the middle.  
+      
+</post>
+
+<date>14,August,2004</date>
+<post>
+
+    
+       
+       . US drama thriller. 3.5 of 5.  Max (played by  urlLink Jamie Foxx ) is an LA cab driver. One night, newly arrived Vincent ( urlLink Tom Cruise ) becomes his customer. He says he's a real estate agent and offers Max some extra cash to be his personal driver for the night as he makes some stops around the city. Max agrees. At the first stop, Max happily waits in the car when a body hits his windshield. Turns out, Vincent is a contract killer who is making his rounds killing people. Max tries to get away on several occasions, but Vincent keeps him at the wheel with the threat of force.  Meanwhile, a detective played by  urlLink Mark Ruffalo  starts investigating the deaths racked up by Vincent...  The movie reminds somewhat of the first  urlLink Terminator  movie, with Cruise as a cool cold human killing machine. -->
+       Just saw  urlLink Collateral . US drama thriller. 3.5 of 5.  Max (played by  urlLink Jamie Foxx ) is an LA cab driver. One night, newly arrived Vincent ( urlLink Tom Cruise ) becomes his customer. He says he's a real estate agent and offers Max some extra cash to be his personal driver for the night as he makes some stops around the city. Max agrees. At the first stop, Max happily waits in the car when a body hits his windshield. Turns out, Vincent is a contract killer who is making his rounds killing people. Max tries to get away on several occasions, but Vincent keeps him at the wheel with the threat of force.  Meanwhile, a detective played by  urlLink Mark Ruffalo  starts investigating the deaths racked up by Vincent...  The movie reminds somewhat of the first  urlLink Terminator  movie, with Cruise as a cool cold human killing machine. 
+      
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+    
+       
+       . US drama thriller. 3 of 5.  When ambushed in the first Gulf War, Raymond Shaw (played by  urlLink Liev Schreiber ) saved his fellow soldiers including his commanding officer, Ben Marco ( urlLink Denzel Washington ). For his bravery he receives the Congressional Medal of Honor.  After the war, Raymond, pushed by his string-toting mother ( urlLink Meryl Streep ), eventually becomes the vice-presidential nominee. Meanwhile Ben has nightmares. He dreams of them being brainwashed and that the story of Raymond's heroism was made up - it never happened. And so he starts to investigate. Who is responsible? And does Raymond have the same dreams?  I found myself to be unable to see this movie without constantly comparing it to the  urlLink 1962 version  (starring  urlLink Frank Sinatra  and  urlLink Angela Lansbury ). Unfortunately it is lesser in every respect. That is not to say it is a wholly bad movie, but if you had to choose I'd recommend the original.  To list some of the things I liked better in the original: The characters were more fleshed out. The original contained scenes that took place before the war when the characters where younger. This meant that the relationship between Raymond and Jocelyn got ample screen time. Now it has been relegated to a few lines. The same goes for the relationship between Ramond and his mother. However, some of that is made up for by scenes taking place in the present day. Something else I found to be presented in less detail is the time spent by Raymond and Ben in captivity being brainwashed. Yet another thing I missed was the information that no one in the unit really liked Raymond Shaw, yet when any of the survivors where asked about him later they still instinctively said "Raymond Shaw is the kindest, bravest, warmest, most wonderful human being I've ever known in my life".  I find it interesting that both movies are of similar length considering I found so much "missing". Obviously they spent much of time on things I didn't find worthwhile. -->
+       Just saw  urlLink The Manchurian Candidate . US drama thriller. 3 of 5.  When ambushed in the first Gulf War, Raymond Shaw (played by  urlLink Liev Schreiber ) saved his fellow soldiers including his commanding officer, Ben Marco ( urlLink Denzel Washington ). For his bravery he receives the Congressional Medal of Honor.  After the war, Raymond, pushed by his string-toting mother ( urlLink Meryl Streep ), eventually becomes the vice-presidential nominee. Meanwhile Ben has nightmares. He dreams of them being brainwashed and that the story of Raymond's heroism was made up - it never happened. And so he starts to investigate. Who is responsible? And does Raymond have the same dreams?  I found myself to be unable to see this movie without constantly comparing it to the  urlLink 1962 version  (starring  urlLink Frank Sinatra  and  urlLink Angela Lansbury ). Unfortunately it is lesser in every respect. That is not to say it is a wholly bad movie, but if you had to choose I'd recommend the original.  To list some of the things I liked better in the original: The characters were more fleshed out. The original contained scenes that took place before the war when the characters where younger. This meant that the relationship between Raymond and Jocelyn got ample screen time. Now it has been relegated to a few lines. The same goes for the relationship between Ramond and his mother. However, some of that is made up for by scenes taking place in the present day. Something else I found to be presented in less detail is the time spent by Raymond and Ben in captivity being brainwashed. Yet another thing I missed was the information that no one in the unit really liked Raymond Shaw, yet when any of the survivors where asked about him later they still instinctively said "Raymond Shaw is the kindest, bravest, warmest, most wonderful human being I've ever known in my life".  I find it interesting that both movies are of similar length considering I found so much "missing". Obviously they spent much of time on things I didn't find worthwhile. 
+      
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+    
+       
+        yesterday. I've read it once before, over four years ago.  The book starts shortly after  urlLink The Hope  ended (see  urlLink previous post ) and ends in 1988 with the 40-year celebration of Israel's independence. The story of the fictional main characters continue; they are older and their children become grown-ups as well. As in the first book, historical characters of that time period interact with the main characters: Moshe Dayan, Golda Meir, Yitzak Rabin and Anwar Sadat to name those that I recognise.  Once again, since the viewpoint is that of it's main characters, who are all Israeli, "the other side" is only seen through their eyes.   From an historical point of view there are two omissions I find irritating. First, Wouk barely just mentions the War of Lebanon. Secondly, ending in 1988, the intifadah (begun in december 1987), is mentioned mostly a nuisance (again from the perspective of the characters) in that it drove away tourists from the celebration of Independence.  -->
+       Finished re-reading  urlLink The Glory by Herman Wouk  yesterday. I've read it once before, over four years ago.  The book starts shortly after  urlLink The Hope  ended (see  urlLink previous post ) and ends in 1988 with the 40-year celebration of Israel's independence. The story of the fictional main characters continue; they are older and their children become grown-ups as well. As in the first book, historical characters of that time period interact with the main characters: Moshe Dayan, Golda Meir, Yitzak Rabin and Anwar Sadat to name those that I recognise.  Once again, since the viewpoint is that of it's main characters, who are all Israeli, "the other side" is only seen through their eyes.   From an historical point of view there are two omissions I find irritating. First, Wouk barely just mentions the War of Lebanon. Secondly, ending in 1988, the intifadah (begun in december 1987), is mentioned mostly a nuisance (again from the perspective of the characters) in that it drove away tourists from the celebration of Independence.  
+      
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+    
+       
+       . US Comedy. 3 of 5.  It's about two stoners who got the munchies and are on their way to White Castle (a hamburger chain) to get burgers. On their way they get sidetracked and meet strange people in strange situations.  Actor-wise this movie has a great potential to be funny. It stars  urlLink John Cho  who is absolutely hilarious in the now defunct  urlLink Off Centre  TV series. The other main character is played by  urlLink Kal Penn  who was very funny in the movie  urlLink Van Wilder .  It also stars  urlLink Eddie Kaye Thomas  (from  urlLink Off Centre ),  urlLink Ryan Reynolds  (from  urlLink Van Wilder ) and  urlLink Neil Patrick Harris  as himself,   horny and high on ecstasy!    Despite all this, it is unfortunately only okay. There are some really fun moments, but they are too few to make it a really good movie. -->
+       Just saw  urlLink Harold & Kumar Go to White Castle . US Comedy. 3 of 5.  It's about two stoners who got the munchies and are on their way to White Castle (a hamburger chain) to get burgers. On their way they get sidetracked and meet strange people in strange situations.  Actor-wise this movie has a great potential to be funny. It stars  urlLink John Cho  who is absolutely hilarious in the now defunct  urlLink Off Centre  TV series. The other main character is played by  urlLink Kal Penn  who was very funny in the movie  urlLink Van Wilder .  It also stars  urlLink Eddie Kaye Thomas  (from  urlLink Off Centre ),  urlLink Ryan Reynolds  (from  urlLink Van Wilder ) and  urlLink Neil Patrick Harris  as himself,   horny and high on ecstasy!    Despite all this, it is unfortunately only okay. There are some really fun moments, but they are too few to make it a really good movie. 
+      
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+    
+       
+        by Herman Wouk yesterday. I've read it once before, over five years ago.  The book starts in 1948, during the War of Independence and ends in 1967 after the Six Day War. The main characters are fictional, but they interact with real historical figures such as Ben-Gurion, Moshe Dayan, Golda Meir, Eskhol and Yitzak Rabin to name a few.  Written in 1993, it has a lot more perspective than Leon Uris' book  urlLink Exodus  from 1958 (see  urlLink previous post ). Even though Wouk is a sionist, he has tried to be historically accurate. The book is told from the Israeli point of view and the other side is seen through their eyes at the time and with the fog of war that's always there in real life.  One thing I really liked was that after the book ended, Wouk devotes a few pages to describing what actually happened and what was fictionalised.  As stated before, this book is continued by  urlLink The Glory , which I've already started reading. -->
+       Finished re-reading  urlLink The Hope  by Herman Wouk yesterday. I've read it once before, over five years ago.  The book starts in 1948, during the War of Independence and ends in 1967 after the Six Day War. The main characters are fictional, but they interact with real historical figures such as Ben-Gurion, Moshe Dayan, Golda Meir, Eskhol and Yitzak Rabin to name a few.  Written in 1993, it has a lot more perspective than Leon Uris' book  urlLink Exodus  from 1958 (see  urlLink previous post ). Even though Wouk is a sionist, he has tried to be historically accurate. The book is told from the Israeli point of view and the other side is seen through their eyes at the time and with the fog of war that's always there in real life.  One thing I really liked was that after the book ended, Wouk devotes a few pages to describing what actually happened and what was fictionalised.  As stated before, this book is continued by  urlLink The Glory , which I've already started reading. 
+      
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+    
+       
+       . US drama. 3-3.5 of 5.  It's the latest movie from  urlLink M. Night Shyamalan  ( urlLink Signs ,  urlLink Unbreakable  and  urlLink The Sixth Sense ).   It takes place in a village around 1900. The village is surrounded by a forest. The villagers are forbidden to go there, because of the creatures who dwells there (called "Those We Do Not Speak Of"). If the villagers stay out of the forest, the creatures won't disturb them. The village is isolated and that's the way the inhabitants want it - the towns, they believe, are filled with sin, greed, rape and murder.  Newcomer  urlLink Bryce Dallas Howard  plays Ivy, the blind daughter of  urlLink William Hurt 's character who is the leader of the village. Ivy is in love with  urlLink Joaquin Phoenix ' character, a quiet boy who seeks permission to travel through the woods to the nearest town to get medicine. His mother is played by  urlLink Sigourney Weaver , a village elder who has feelings for Ivy's father. Ivy is the village teacher and one of her students are the town idiot, played by  urlLink Adrian Brody , who also has a thing for Ivy.  Strange things are happening in the village. Dogs turn up skinned and one night one of the creatures enter the village and scares everyone. Something must have angered them, someone must have entered their territory.  There are many good things about this movie. The aforementioned actors are good and make their characters and their actions seem believable. The explanation of the creatures, when it comes, is not shocking, but a logical way to explain matters. This is good as the "explanation point" is usually the weak point of Shyamalan's movies - a bad one can ruin the movie, like it did in  urlLink Unbreakable .  Despite these good things, it somehow doesn't add up to something great, just to something okay.    -->
+       Just saw  urlLink The Village . US drama. 3-3.5 of 5.  It's the latest movie from  urlLink M. Night Shyamalan  ( urlLink Signs ,  urlLink Unbreakable  and  urlLink The Sixth Sense ).   It takes place in a village around 1900. The village is surrounded by a forest. The villagers are forbidden to go there, because of the creatures who dwells there (called "Those We Do Not Speak Of"). If the villagers stay out of the forest, the creatures won't disturb them. The village is isolated and that's the way the inhabitants want it - the towns, they believe, are filled with sin, greed, rape and murder.  Newcomer  urlLink Bryce Dallas Howard  plays Ivy, the blind daughter of  urlLink William Hurt 's character who is the leader of the village. Ivy is in love with  urlLink Joaquin Phoenix ' character, a quiet boy who seeks permission to travel through the woods to the nearest town to get medicine. His mother is played by  urlLink Sigourney Weaver , a village elder who has feelings for Ivy's father. Ivy is the village teacher and one of her students are the town idiot, played by  urlLink Adrian Brody , who also has a thing for Ivy.  Strange things are happening in the village. Dogs turn up skinned and one night one of the creatures enter the village and scares everyone. Something must have angered them, someone must have entered their territory.  There are many good things about this movie. The aforementioned actors are good and make their characters and their actions seem believable. The explanation of the creatures, when it comes, is not shocking, but a logical way to explain matters. This is good as the "explanation point" is usually the weak point of Shyamalan's movies - a bad one can ruin the movie, like it did in  urlLink Unbreakable .  Despite these good things, it somehow doesn't add up to something great, just to something okay.    
+      
+</post>
+
+<date>07,August,2004</date>
+<post>
+
+    
+       
+       . US romantic drama comedy. 3.5 of 5.  This is the final part in  urlLink Kevin Smith 's New Jersey trilogy, but you wouldn't know it by seeing it (no judgment implied).  It starts off bad with a couple of  urlLink Ben Affleck 's early lines sounding kind of stilted. I know there are many people who don't like him, but I generally do.  All throughout the beginning and middle part there are great individual scenes but for some reason they don't sum up well together. It does get better, however, in the last 20-30 minutes. Clichés abound, and the ending is a no-brainer, but the sweetness and some cleverness in their execution overcomes that.  To mention some of the characters,  urlLink Raquel Castro , playing the 7 year old daughter, plays her as being older than her years, something that works well.   urlLink Liv Tyler , whom I normally don't care for that much (except, of course, her Arwen-stint in Lord of the Rings), is really sweet and likeable. -->
+       Just saw  urlLink Jersey Girl . US romantic drama comedy. 3.5 of 5.  This is the final part in  urlLink Kevin Smith 's New Jersey trilogy, but you wouldn't know it by seeing it (no judgment implied).  It starts off bad with a couple of  urlLink Ben Affleck 's early lines sounding kind of stilted. I know there are many people who don't like him, but I generally do.  All throughout the beginning and middle part there are great individual scenes but for some reason they don't sum up well together. It does get better, however, in the last 20-30 minutes. Clichés abound, and the ending is a no-brainer, but the sweetness and some cleverness in their execution overcomes that.  To mention some of the characters,  urlLink Raquel Castro , playing the 7 year old daughter, plays her as being older than her years, something that works well.   urlLink Liv Tyler , whom I normally don't care for that much (except, of course, her Arwen-stint in Lord of the Rings), is really sweet and likeable. 
+      
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+    
+       
+       . American documentary. 3 of 5.  From the review of  urlLink Boyd van Hoeij :  This is not a documentary about 'the whole truth about the Iraq war'.  /.../  the scope of this documentary is small, much smaller that the title might lead you to believe  /.../ So what it is about, then? In fact, this documentary interviews ex-UN inspectors that worked in Iraq, ex-policy makers, people from the army, the CIA and civil service. They speak out about their views on how the Bush administration tried to justify the war in Iraq before it started, and how their justification changed over time during the invasion.  [It] does not rely on a voice-over to spell everything out for the viewer, but rather uses editing as a feature to present a coherent narrative thread made up of small 'sound-bites' from all the interviews conducted with the aforementioned people, interspersed with clips of addresses to the nation, to congress etc of the people of the Bush Administration, illustrating what the interviewees are saying. It is a self-contained whole, though it is not the 'whole truth about the Iraq war' as referred to in the title; that war is still being fought and thus the whole truth is still partly in the making. It concentrates not on combat in Iraq, but rather on the American political arena as a battleground, as an administration seeks justification for a war that was perhaps not really justifiable with the evidence they had.   I must say that I didn't find anything really new in what was presented. It pretty much either was material I already knew or material that was congruent with it. Still, I'd recommend it to those interested in the topic.  As an end note I'd just like to mention the length: it is fairly short, only 56 minutes. -->
+       Just saw  urlLink Uncovered: The Whole Truth About the Iraq War . American documentary. 3 of 5.  From the review of  urlLink Boyd van Hoeij :  This is not a documentary about 'the whole truth about the Iraq war'.  /.../  the scope of this documentary is small, much smaller that the title might lead you to believe  /.../ So what it is about, then? In fact, this documentary interviews ex-UN inspectors that worked in Iraq, ex-policy makers, people from the army, the CIA and civil service. They speak out about their views on how the Bush administration tried to justify the war in Iraq before it started, and how their justification changed over time during the invasion.  [It] does not rely on a voice-over to spell everything out for the viewer, but rather uses editing as a feature to present a coherent narrative thread made up of small 'sound-bites' from all the interviews conducted with the aforementioned people, interspersed with clips of addresses to the nation, to congress etc of the people of the Bush Administration, illustrating what the interviewees are saying. It is a self-contained whole, though it is not the 'whole truth about the Iraq war' as referred to in the title; that war is still being fought and thus the whole truth is still partly in the making. It concentrates not on combat in Iraq, but rather on the American political arena as a battleground, as an administration seeks justification for a war that was perhaps not really justifiable with the evidence they had.   I must say that I didn't find anything really new in what was presented. It pretty much either was material I already knew or material that was congruent with it. Still, I'd recommend it to those interested in the topic.  As an end note I'd just like to mention the length: it is fairly short, only 56 minutes. 
+      
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+    
+       
+       , a British documentary from 1974 about World War II.  I think I saw at least some episodes of it when I was a kid - I remember it's title logo.  As a standalone product it's great, but for me it was kind of redundant what with all the other stuff I've seen and read about WWII. -->
+       Just finished seeing that final 26th episode of  urlLink The World at War , a British documentary from 1974 about World War II.  I think I saw at least some episodes of it when I was a kid - I remember it's title logo.  As a standalone product it's great, but for me it was kind of redundant what with all the other stuff I've seen and read about WWII. 
+      
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+    
+       
+        (Swedish translation) yesterday. I've read it once before, over nine years ago.  It starts off in Cyprus, where many Jews where interned in camps, under armed guard, after WWII. They had been stopped trying to get into Palestine by the British (it's current ruler) and instead placed in the camps (Cyprus was also a British protectorate at that time).  It tells how it's characters (most of them jewish) ended up in Palestine: * During all of the 20th century: Fleeing the ghettos in Russia, Poland and Germany etc to escape from pogroms. Some walking almost the entire distance. * After WWII: Survivors of the concentrations camps. * After WWII: Others who had fled to neutral countries or hidden from deportation. * Others where born in Palestine by parents who came there by one of the above means.  It tells of their struggle to reclaim their lost homeland, the hard work of reclaiming the desert, making it habitable and prosperous.  It tells of their struggle in the UN for the right to establish a Jewish state and once proclaimed, their prevailing against several armies, outgunned and outnumbered.  The book is very, very pro-israeli. Few arabs are depicted in a good light. In it's defense it should be pointed out that it was written in 1958, long before both the Six Day War (1967) and the Yom Kippur War (1973). The Jewish state at that time was still a novelty and was far from being the strong entity it is today when it too often abuses it's strength against it's arab population. Something I also reacted to was it's use of the dated term Mohammedans to describe moslems (but that again can be explained by when it was written).   I was planning on starting on Herman Wouk's  urlLink Winds of War  and  urlLink War and Rememberance , but I think I'll stick with a mini-Israeli theme and re-read his books  urlLink The Hope  and  urlLink The Glory . This also goes well with my planned viewing of The War of Lebanon documentary.     -->
+       Finished re-reading  urlLink Leon Uris' Exodus  (Swedish translation) yesterday. I've read it once before, over nine years ago.  It starts off in Cyprus, where many Jews where interned in camps, under armed guard, after WWII. They had been stopped trying to get into Palestine by the British (it's current ruler) and instead placed in the camps (Cyprus was also a British protectorate at that time).  It tells how it's characters (most of them jewish) ended up in Palestine: * During all of the 20th century: Fleeing the ghettos in Russia, Poland and Germany etc to escape from pogroms. Some walking almost the entire distance. * After WWII: Survivors of the concentrations camps. * After WWII: Others who had fled to neutral countries or hidden from deportation. * Others where born in Palestine by parents who came there by one of the above means.  It tells of their struggle to reclaim their lost homeland, the hard work of reclaiming the desert, making it habitable and prosperous.  It tells of their struggle in the UN for the right to establish a Jewish state and once proclaimed, their prevailing against several armies, outgunned and outnumbered.  The book is very, very pro-israeli. Few arabs are depicted in a good light. In it's defense it should be pointed out that it was written in 1958, long before both the Six Day War (1967) and the Yom Kippur War (1973). The Jewish state at that time was still a novelty and was far from being the strong entity it is today when it too often abuses it's strength against it's arab population. Something I also reacted to was it's use of the dated term Mohammedans to describe moslems (but that again can be explained by when it was written).   I was planning on starting on Herman Wouk's  urlLink Winds of War  and  urlLink War and Rememberance , but I think I'll stick with a mini-Israeli theme and re-read his books  urlLink The Hope  and  urlLink The Glory . This also goes well with my planned viewing of The War of Lebanon documentary.     
+      
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+       
+       . Korean romantic comedy. 2.5 of 5.  A North Korean spy takes a job at Burger King to wait for her target, a regular customer. She is very pretty and all the boys from the nearby school fall in love with her. One of them even has a webpage where he puts of photos of her. This endangers her mission and she ends up dating him in order to make him remove the pictures of her.  -->
+       Just saw  urlLink Spygirl . Korean romantic comedy. 2.5 of 5.  A North Korean spy takes a job at Burger King to wait for her target, a regular customer. She is very pretty and all the boys from the nearby school fall in love with her. One of them even has a webpage where he puts of photos of her. This endangers her mission and she ends up dating him in order to make him remove the pictures of her.  
+      
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+       
+       . Korean drama. 2.5 of 5.  Yeo-Ji and Jae-Young are two girls in high school. In order to save money for a trip to Europe, Jae-Young prostitutes herself while Yeo-Ji handles everything else. One day the police catches them, and Jae-Young jumps out of a window to escape them. She dies shortly after in the hospital. As penance, Yeo-Ji decides to contact each of their previous clients, sleep with them and return the money from the previous encounter.  During this, her widowed father, a cop, accidentally finds out about her meetings. He his chocked, but unable to confront her. Instead he follows her and tries to stop the men on their way to meet her. At first he just threatens them, but he grows increasingly more violent...  The director, Kim Ki-duk, apparently has said "I don’t try to entice viewers to watch, understand, or even like my films" and that fits since I didn't really understand or like it. -->
+       Just saw  urlLink Samaria . Korean drama. 2.5 of 5.  Yeo-Ji and Jae-Young are two girls in high school. In order to save money for a trip to Europe, Jae-Young prostitutes herself while Yeo-Ji handles everything else. One day the police catches them, and Jae-Young jumps out of a window to escape them. She dies shortly after in the hospital. As penance, Yeo-Ji decides to contact each of their previous clients, sleep with them and return the money from the previous encounter.  During this, her widowed father, a cop, accidentally finds out about her meetings. He his chocked, but unable to confront her. Instead he follows her and tries to stop the men on their way to meet her. At first he just threatens them, but he grows increasingly more violent...  The director, Kim Ki-duk, apparently has said "I don’t try to entice viewers to watch, understand, or even like my films" and that fits since I didn't really understand or like it. 
+      
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+       
+       . Korean romantic comedy. 2 of 5 and that's including 0.5 for the two scenes that made me laugh out loud.  Ha-yeong is a high school student who's recently been dumped by her boyfriend. One day she accidentally damages the car of Hyeong-jun, a college student. Since she doesn't have the money to pay the damages, Hyeong-jun makes her sign a contract for her to be his slave for 100 days. During those days he makes her clean his apartment, do his laundry, carry his bags while shopping, and is overall rude to her. Eventually of course, they fall for each other, and then there's the usual contrived situation that splits them apart...   -->
+       Just saw  urlLink 100 Days with Mr. Arrogant . Korean romantic comedy. 2 of 5 and that's including 0.5 for the two scenes that made me laugh out loud.  Ha-yeong is a high school student who's recently been dumped by her boyfriend. One day she accidentally damages the car of Hyeong-jun, a college student. Since she doesn't have the money to pay the damages, Hyeong-jun makes her sign a contract for her to be his slave for 100 days. During those days he makes her clean his apartment, do his laundry, carry his bags while shopping, and is overall rude to her. Eventually of course, they fall for each other, and then there's the usual contrived situation that splits them apart...   
+      
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+       
+       . Hong Kong Action. 2.5 of 5.  Action. Bad guys. Cops. Shoot-outs. From start to finish. -->
+       Just saw  urlLink Breaking News . Hong Kong Action. 2.5 of 5.  Action. Bad guys. Cops. Shoot-outs. From start to finish. 
+      
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+       
+       . Korean romantic comedy. 2.5 of 5. -->
+       Just saw  urlLink Singles . Korean romantic comedy. 2.5 of 5. 
+      
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+       
+       . Korean romantic comedy. 3 of 5 including 0.5 for having a better second half than could be expected by the first one.  Yeong-ju, a government official, is selected by her boss the be the one in their office to learn English. In her class she meets Moon-su, a shoe salesman, whom she falls in love with. But he is more interested in the hot Australian teacher...  The first half of the movie is mainly comedic. I didn't really care for the slapstick bits, but once the movie kicked into a more dramatic mode, things at least got better. Generally speaking I could have done with most of the comedy being replaced by drama instead.   -->
+       Just saw  urlLink Please Teach Me English . Korean romantic comedy. 3 of 5 including 0.5 for having a better second half than could be expected by the first one.  Yeong-ju, a government official, is selected by her boss the be the one in their office to learn English. In her class she meets Moon-su, a shoe salesman, whom she falls in love with. But he is more interested in the hot Australian teacher...  The first half of the movie is mainly comedic. I didn't really care for the slapstick bits, but once the movie kicked into a more dramatic mode, things at least got better. Generally speaking I could have done with most of the comedy being replaced by drama instead.   
+      
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+       
+       . Korean drama. 3 of 5.  This movie would be labeled a tragedy if it was a play.   ***SPOILER ALERT*** .  I'm spilling the whole story here, so beware.  The movie is about the deaf-mute Ryu, whose sister needs a kidney transplant. He finds out that he cannot be a donor since they have different blood types. He then makes a deal with organ-dealing criminals: He'll give them both money and his kidney in return for another with the correct blood type. But the deal goes bad and he ends up loosing both the money and his kidney. But now a legitimate donor suddenly appears, but the operation still costs money and he's broke now.   In order to get the money, Ryu and his revolutionary girlfriend decides to kidnap the daughter of his boss who recently fired him for missing too much work (he was recuperating from his kidney-removal). They get the money, but the daughter accidentally drowns. His sister finds out about the kidnapping and kills herself, rather than be a part of it.  Maddened by grief the boss now decides to hunt the kidnappers down and kill them and so he does. But in the final scene he too gets killed by members of the revolutionary cell that Ryu's girlfriend belonged to. -->
+       Just saw  urlLink Sympathy for Mr. Vengeance . Korean drama. 3 of 5.  This movie would be labeled a tragedy if it was a play.   ***SPOILER ALERT*** .  I'm spilling the whole story here, so beware.  The movie is about the deaf-mute Ryu, whose sister needs a kidney transplant. He finds out that he cannot be a donor since they have different blood types. He then makes a deal with organ-dealing criminals: He'll give them both money and his kidney in return for another with the correct blood type. But the deal goes bad and he ends up loosing both the money and his kidney. But now a legitimate donor suddenly appears, but the operation still costs money and he's broke now.   In order to get the money, Ryu and his revolutionary girlfriend decides to kidnap the daughter of his boss who recently fired him for missing too much work (he was recuperating from his kidney-removal). They get the money, but the daughter accidentally drowns. His sister finds out about the kidnapping and kills herself, rather than be a part of it.  Maddened by grief the boss now decides to hunt the kidnappers down and kill them and so he does. But in the final scene he too gets killed by members of the revolutionary cell that Ryu's girlfriend belonged to. 
+      
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+       
+       Here's the list of those movies.      Movie    Viewed    Genre(s)    Grade      urlLink Looking For Mister Perfect  (Kei fung dik sau)  07-04  Korean action comedy  3 of 5     urlLink Cube 2   07-03  US thriller  3 of 5     urlLink Dummy   07-03  US romantic comedy  3 of 5     urlLink Wilbur Wants To Kill Himself   07-03  British drama  3.5 of 5     urlLink Spiderman 2   07-02  US action drama  4.5 of 5     urlLink Laws Of Attraction   06-30  US romantic comedy  3 of 5     urlLink Cube   06-30  US thriller  3.5 of 5     urlLink Around The World In 80 Days   06-29  US adventure comedy  2.5 of 5     urlLink Chronicles of Riddick: Dark Fury   06-28  US animated action  1.5 of 5     urlLink Spring, Summer, Fall, Winter...and Spring  (Bom yeoreum gaeul gyeoul geurigo bom)  06-27  Korean drama  2 of 5     urlLink Kaena: The Prophecy  (Kaena: La prophétie)  06-27  French-Canadian animated sci-fi drama  2.5 of 5     urlLink Ella Enchanted   06-27  US romantic fantasy comedy  3 of 5     urlLink Taking Lives   06-27  US drama thriller  3 of 5     urlLink Honey   06-27  US dance drama  3 of 5     urlLink Garfield   06-26  US comedy  1.5 of 5     urlLink The Day After Tomorrow   06-26  US adventure drama  3 of 5     urlLink Dodgeball - A True Underdog Story   06-26  US comedy  3.5 of 5     urlLink Shrek 2   06-26  US animated adventure comedy  4 of 5     urlLink The Chronicles of Riddick   06-25  US sci-fi action  3 of 5     urlLink The Stepford Wives   06-25  US drama comedy  3 of 5     urlLink The Terminal   06-25  US drama  3 of 5     urlLink Harry Potter and the Prisoner of Azkaban   06-25  US fantasy adventure  3.5 of 5     urlLink Dial M for Murder   06-25  US drama thriller  4.5 of 5     urlLink Wonderful Days   06-23  Korean animated sci-fi drama  2 of 5     urlLink My Beautiful Girl Mari  (Mari iyagi)  06-22  Korean animated fantasy drama  2.5 of 5     urlLink Metropolis   06-22  Japanese animated sci-fi drama  2.5 of 5     urlLink Jin-roh The Wolf Brigade  (Jin-Rô)  06-20  Japanese animated action drama  2.5 of 5     urlLink Like the Clouds, Like the Wind  (Kumo no youni, kaze no youni)  06-20  Japanese animated drama  3 of 5     urlLink Porco Rosso  (Kurenai no buta)  06-20  Japanese animated adventure  3 of 5     urlLink Ocean Waves - I Can Hear the Sea  (Umi ga Kikoeru)   06-20  Japanese TV animated drama  3.5 of 5     urlLink Only Yesterday  (Omohide poro poro)  06-20  Japanese animated drama  3.5 of 5     urlLink Whisper of the Heart  (Mimi wo sumaseba)  06-20  Japanese animated romantic drama  3.5 of 5     urlLink A Man Called Hero  (Zhong hua ying xiong)  06-19  Hong Kong action drama  1.5 of 5     urlLink Fulltime Killer  (Chuen jik sat sau)  06-19  Hong Kong action  2 of 5     urlLink Jan Dara   06-19  Thai drama  2.5 of 5     urlLink Laputa - the Castle in the Sky  (Tenkû no shiro Rapyuta)  Worth watching   06-19  Japanese animated adventure  4 of 5     urlLink Kiki's Delivery Service  (Majo no takkyubin)  Worth watching   06-19  Japanese animated adventure  4 of 5     urlLink My Neighbor Totoro  (Tonari no Totoro)  Worth watching   06-19  Japanese animated fantasy drama  4.5 of 5     urlLink Naked Weapon  (Chek law dak gung)  06-13  Hong Kong action  1.5 of 5     urlLink Princess Blade  (Shura Yukihime)  06-13  Japanese action  2 of 5     urlLink Warriors Of Heaven And Earth  (Tian di ying xiong)  06-13  Chinese action drama  2 of 5     urlLink Returner   06-13  Japanese action drama  3.5 of 5     urlLink My Little Bride  (Eorin shinbu)  06-13  Korean romantic comedy  3.5 of 5     urlLink Yomigaeri   06-13  Japanese drama  3.5 of 5     urlLink Don't Believe Her  (Geunyeoreul midji maseyo )  Worth watching   06-13  Korean romantic comedy  3.5 of 5     urlLink Owl's Castle  (Fukuro no shiro)  06-12  Japanese action drama  2.5 of 5     urlLink Running Out Of Time  (Aau chin)  06-12  Hong Kong action drama  3 of 5     urlLink Cat And Mouse  (Liu sue oi seung mau)  06-12  Hong Kong romantic action comedy  3 of 5     urlLink The Classic  (Klassikko)  06-12  Korean romantic drama  3.5 of 5     urlLink Oldboy   Worth watching   06-12  Korean drama thriller  4 of 5     urlLink The Fog of War: Eleven Lessons from the Life of Robert S. McNamara   06-09  US documentary  3 of 5     urlLink Save the green planet!  (Jigureul jikyeora!)  06-08  Korean comedy  1.5 of 5     urlLink The Pentagon Papers   06-08  US TV drama  1.5 of 5     urlLink Running On Karma  (Daai chek liu)  06-06  Hong Kong action  1.5 of 5     urlLink Ong-Bak   06-06  Thai action  2 of 5     urlLink Gojoe senki   06-05  Japanese action  1.5 of 5     urlLink Blue Spring  (Aoi haru)  06-05  Japanese drama  1.5 of 5     urlLink All About Lily Chou Chou  (Riri Shushu no subete)  06-05  Japanese Drama  1.5 of 5     urlLink Yesterday   06-05  Korean action  2 of 5     urlLink Natural City   06-05  Korean action  2 of 5     urlLink Moon Child   06-05  Japanese action  2 of 5     urlLink Memories Of Murder  (Salinui chueok)  06-05  Korean drama  2.5 of 5     urlLink The Poisoning  (Jungdok)  Worth watching   06-05  Korean drama  3 of 5     urlLink ...ing   (Keeper)   06-05  Korean romantic drama  3,9 of 5     urlLink Gohatto   06-04  Japanese drama  2 of 5     urlLink My Sassy Girl  (Yeopgijeogin geunyeo)  06-03  Korean romantic comedy  3 of 5     urlLink The Little Chinese Seamstress  (Balzac et la petite tailleuse chinoise)  06-02  French-Chinese drama  2.5 of 5     urlLink April Story  (Shigatsu monogatari)  06-02  Japanese romance  3 of 5     urlLink Azumi   06-01  Japanese action  2 of 5     urlLink Lost In Time  (Mong bat liu)  (Keeper)   06-01  Hong Kong romantic drama  4 of 5     urlLink The Eye 2  (Jian gui 2)  05-31  Asian horror thriller  2 of 5     urlLink The Eye  (Jian gui)  05-31  Asian horror thriller  2.5 of 5     urlLink Lover's Concerto  (Yeonae sosheol)  05-31  Korean romantic drama  3.5 of 5     urlLink Turn  (Taan)  (Keeper)   05-31  Japanese romantic drama  3.75 of 5     urlLink When the Last Sword Is Drawn  (Mibu gishi den)  (Keeper)   05-31  Japanese action drama  4 of 5     urlLink Marriage Is A Crazy Thing  (Gyeolhoneun michinjishida)  (Keeper)   05-31  Korean romantic drama  4 of 5     urlLink Oasis   Worth watching   05-31  Korean romantic drama  4 of 5     urlLink Take Care Of My Cat  (Goyangileul butaghae)  05-30  Korean drama  2.5 of 5     urlLink Friend  (Chingoo)  05-30  Korean action drama  2.5 of 5     urlLink Bangkok Dangerous   05-30  Thai action drama  3 of 5     urlLink Address Unknown  (Suchwiin bulmyeong)  Worth watching   05-30  Korean drama  3 of 5     urlLink Lagaan: Once Upon a Time In India   05-29  Indian musical comedy  3 of 5     urlLink Yamakasi - Les samouraï des temps modernes   05-29  French action drama  3 of 5     urlLink Farewell My Concubine  (Ba wang bie ji)  05-29  Chinese drama  3 of 5     urlLink War And Peace   05-29  British drama  3.5 of 5     urlLink The Mayor of Casterbridge   Worth watching   05-29  British drama mini series  4.5 of 5     urlLink Robot Stories   05-25  US drama  2 of 5     urlLink Peppermint Candy  (Bakha satang)  05-23  Korean drama  2.75 of 5     urlLink Bungee Jumping of Their Own  (Beonjijeompeureul hada)  05-23  Korean drama  3 of 5     urlLink Shaolin Soccer  (Siu lam juk kau)  05-23  Hong Kong comedy  3.25 of 5     urlLink Failan   05-23  Korean drama  3.5 of 5     urlLink Il Mare  (Siworae )  (Keeper)   05-23  Korean romantic drama  4 of 5     urlLink Eureka   05-22  Japanese drama  2.5 of 5     urlLink Perfect Blue   05-22  Japanese animated drama  3 of 5     urlLink Christmas in August  (Palwolui Christmas)  Worth watching   05-22  Korean romantic drama  3.5 of 5     urlLink Ditto  (Donggam)  Worth watching   05-22  Korean romantic drama  3.5 of 5     urlLink Art Museum By The Zoo  (Misulgwan yup dongmulwon)  05-22  Korean romantic comedy  3.5 of 5     urlLink Troy   05-21  US action  3 of 5     urlLink 55 Days At Peking   05-20  US drama  3.25 of 5     urlLink Luther   Worth watching   05-20  German drama mini series  3.5 of 5     urlLink Van Helsing The London Assignment   05-16  US animated action  2 of 5     urlLink Van Helsing   05-16  US action  2.5 of 5     urlLink Green Fish  (Chorok mulkogi)  05-16  Korean Drama  2.5 of 5     urlLink The Prince & Me   05-16  US romantic comedy  3 of 5     urlLink After Life  (Wandafuru raifu)  05-16  Japanese drama  3 of 5     urlLink Love Letter   05-16  Japanese drama  3 of 5     urlLink Man On Fire   05-15  US action drama  3 of 5     urlLink Mean Girls   05-15  US comedy  3 of 5     urlLink Spartan   Worth watching   05-15  US action thriller  3.5 of 5     urlLink Passionada   05-09  US romantic drama  2.5 of 5     urlLink Evil  (Ondskan)  05-09  Swedish drama  3 of 5     urlLink Japanese Story   Worth watching   05-09  Australian romantic drama  3,9 of 5     urlLink Fallen Angels  Duo luo tian shi  05-08  Hong Kong drama  2 of 5     urlLink Happy Together  (Cheun gwong tsa sit)  05-08  Hong Kong drama  2 of 5     urlLink Tokyo Godfathers   05-08  Japanese animated drama  2.5 of 5     urlLink The Gospel Of John   05-08  British-Canadian drama  3 of 5     urlLink Chinese Odyssey  (Tian xia wu shuang)  05-08  Hong Kong romantic comedy  3.5 of 5     urlLink Dog Park   05-05  US-Canadian romantic comedy  2 of 5     urlLink Casa De Los Babys   05-05  US-Mexican drama  2.5 of 5     urlLink The Holy Land   05-04  Israeli drama  2.5 of 5     urlLink Les Triplettes De Belleville   05-02  French comedy  1.5 of 5     urlLink Shiri  (Swiri)  05-02  Korean action  2.5 of 5     urlLink The Wind And The Lion   05-02  US drama  2.5 of 5     urlLink Joint Security Area  (Gongdong gyeongbi guyeok JSA)  05-02  Korean action drama  3 of 5     urlLink 2009 Lost Memories   05-02  Korean action drama  3 of 5     urlLink Zatôichi   05-02  Japanese action drama  3 of 5     urlLink Chungking Express  (Chong qing sen lin)  05-02  Hong Kong romantic drama  3 of 5     urlLink The Road Home  (Wo de fu qin mu qin)  05-02  Chinese romantic drama  4 of 5     urlLink DreamKeeper   05-01  US-Canadian drama  2.5 of 5     urlLink Barbershop 2   05-01  US comedy  2.5 of 5     urlLink The Heart of Me   05-01  British drama  3 of 5     urlLink Dot the I   05-01  British drama  3.5 of 5     urlLink The Alamo   04-30  US action drama  2.5 of 5     urlLink The Punisher   04-29  US action  2 of 5     urlLink The Barbarian Invasions  (Les Invasions barbares)  Worth watching   04-28  French drama  4 of 5     urlLink Paid In Full   04-27  US drama  3 of 5     urlLink Spinning Boris   04-26  US drama  3.5 of 5     urlLink The Big Empty   04-25  US drama comedy  3 of 5     urlLink Hidalgo   04-25  US action drama  3 of 5     urlLink Osama   04-25  Afghanistan drama  3.5 of 5     urlLink Kill Bill Volume 2   04-25  US action drama  3.5 of 5     urlLink Miracle   Worth watching   04-21  US sports drama  4 of 5     urlLink In America   Worth watching   04-21  British-Irish drama  4 of 5     urlLink Saints and Soldiers   (Keeper)   04-20  US action drama  4 of 5     urlLink Ashes of Time  (Dung che sai duk)  04-19  Chinese action drama  2 of 5     urlLink Musa   04-18  Chinese-Korean action drama  2 of 5     urlLink As Tears Go By  (Wong gok ka moon )  04-18  Hong Kong action drama  2.5 of 5     urlLink Infernal Affairs 2  (Wu jian dao 2)  Worth watching   04-17  Hong Kong drama thriller  3 of 5     urlLink Infernal Affairs 3  (Wu jian dao 3)  Worth watching   04-17  Hong Kong drama thriller  3.5 of 5     urlLink Days of Being Wild  (A Fei jing juen)  04-17  Hong Kong drama  3.5 of 5     urlLink Raise the Red Lantern  (Da hong deng long gao gao gua)  04-17  Chinese drama  3.5 of 5     urlLink Infernal Affairs  (Wu jian dao)  Worth watching   04-17  Hong Kong drama thriller  4 of 5     urlLink The Girl Next Door   04-16  US comedy  2.5 of 5     urlLink Sylvia   04-16  British drama  2.5 of 5     urlLink Club Dread   04-15  US comedy  2.5 of 5     urlLink La Haine   04-15  French drama  3 of 5     urlLink The Whole Ten Yards   04-14  US comedy  2 of 5     urlLink Walking Tall   04-14  US action comedy  2.5 of 5     urlLink Hotet   04-13  Swedish action drama  2.5 of 5     urlLink Smala Sussie   04-13  Swedish comedy  3 of 5     urlLink The Blue Butterfly   04-12  British-Canadian drama  2.5 of 5     urlLink The Twilight Samurai  (Tasogare Seibei) (Keeper)   04-12  Japanese drama  4.5 of 5     urlLink Starsky & Hutch   04-10  US comedy  2 of 5     urlLink The Human Stain   04-10  US drama  2.5 of 5    -->
+       I started grading the movies I saw about three months before I started blogging them. Here's the list of those movies.      Movie    Viewed    Genre(s)    Grade      urlLink Looking For Mister Perfect  (Kei fung dik sau)  07-04  Korean action comedy  3 of 5     urlLink Cube 2   07-03  US thriller  3 of 5     urlLink Dummy   07-03  US romantic comedy  3 of 5     urlLink Wilbur Wants To Kill Himself   07-03  British drama  3.5 of 5     urlLink Spiderman 2   07-02  US action drama  4.5 of 5     urlLink Laws Of Attraction   06-30  US romantic comedy  3 of 5     urlLink Cube   06-30  US thriller  3.5 of 5     urlLink Around The World In 80 Days   06-29  US adventure comedy  2.5 of 5     urlLink Chronicles of Riddick: Dark Fury   06-28  US animated action  1.5 of 5     urlLink Spring, Summer, Fall, Winter...and Spring  (Bom yeoreum gaeul gyeoul geurigo bom)  06-27  Korean drama  2 of 5     urlLink Kaena: The Prophecy  (Kaena: La prophétie)  06-27  French-Canadian animated sci-fi drama  2.5 of 5     urlLink Ella Enchanted   06-27  US romantic fantasy comedy  3 of 5     urlLink Taking Lives   06-27  US drama thriller  3 of 5     urlLink Honey   06-27  US dance drama  3 of 5     urlLink Garfield   06-26  US comedy  1.5 of 5     urlLink The Day After Tomorrow   06-26  US adventure drama  3 of 5     urlLink Dodgeball - A True Underdog Story   06-26  US comedy  3.5 of 5     urlLink Shrek 2   06-26  US animated adventure comedy  4 of 5     urlLink The Chronicles of Riddick   06-25  US sci-fi action  3 of 5     urlLink The Stepford Wives   06-25  US drama comedy  3 of 5     urlLink The Terminal   06-25  US drama  3 of 5     urlLink Harry Potter and the Prisoner of Azkaban   06-25  US fantasy adventure  3.5 of 5     urlLink Dial M for Murder   06-25  US drama thriller  4.5 of 5     urlLink Wonderful Days   06-23  Korean animated sci-fi drama  2 of 5     urlLink My Beautiful Girl Mari  (Mari iyagi)  06-22  Korean animated fantasy drama  2.5 of 5     urlLink Metropolis   06-22  Japanese animated sci-fi drama  2.5 of 5     urlLink Jin-roh The Wolf Brigade  (Jin-Rô)  06-20  Japanese animated action drama  2.5 of 5     urlLink Like the Clouds, Like the Wind  (Kumo no youni, kaze no youni)  06-20  Japanese animated drama  3 of 5     urlLink Porco Rosso  (Kurenai no buta)  06-20  Japanese animated adventure  3 of 5     urlLink Ocean Waves - I Can Hear the Sea  (Umi ga Kikoeru)   06-20  Japanese TV animated drama  3.5 of 5     urlLink Only Yesterday  (Omohide poro poro)  06-20  Japanese animated drama  3.5 of 5     urlLink Whisper of the Heart  (Mimi wo sumaseba)  06-20  Japanese animated romantic drama  3.5 of 5     urlLink A Man Called Hero  (Zhong hua ying xiong)  06-19  Hong Kong action drama  1.5 of 5     urlLink Fulltime Killer  (Chuen jik sat sau)  06-19  Hong Kong action  2 of 5     urlLink Jan Dara   06-19  Thai drama  2.5 of 5     urlLink Laputa - the Castle in the Sky  (Tenkû no shiro Rapyuta)  Worth watching   06-19  Japanese animated adventure  4 of 5     urlLink Kiki's Delivery Service  (Majo no takkyubin)  Worth watching   06-19  Japanese animated adventure  4 of 5     urlLink My Neighbor Totoro  (Tonari no Totoro)  Worth watching   06-19  Japanese animated fantasy drama  4.5 of 5     urlLink Naked Weapon  (Chek law dak gung)  06-13  Hong Kong action  1.5 of 5     urlLink Princess Blade  (Shura Yukihime)  06-13  Japanese action  2 of 5     urlLink Warriors Of Heaven And Earth  (Tian di ying xiong)  06-13  Chinese action drama  2 of 5     urlLink Returner   06-13  Japanese action drama  3.5 of 5     urlLink My Little Bride  (Eorin shinbu)  06-13  Korean romantic comedy  3.5 of 5     urlLink Yomigaeri   06-13  Japanese drama  3.5 of 5     urlLink Don't Believe Her  (Geunyeoreul midji maseyo )  Worth watching   06-13  Korean romantic comedy  3.5 of 5     urlLink Owl's Castle  (Fukuro no shiro)  06-12  Japanese action drama  2.5 of 5     urlLink Running Out Of Time  (Aau chin)  06-12  Hong Kong action drama  3 of 5     urlLink Cat And Mouse  (Liu sue oi seung mau)  06-12  Hong Kong romantic action comedy  3 of 5     urlLink The Classic  (Klassikko)  06-12  Korean romantic drama  3.5 of 5     urlLink Oldboy   Worth watching   06-12  Korean drama thriller  4 of 5     urlLink The Fog of War: Eleven Lessons from the Life of Robert S. McNamara   06-09  US documentary  3 of 5     urlLink Save the green planet!  (Jigureul jikyeora!)  06-08  Korean comedy  1.5 of 5     urlLink The Pentagon Papers   06-08  US TV drama  1.5 of 5     urlLink Running On Karma  (Daai chek liu)  06-06  Hong Kong action  1.5 of 5     urlLink Ong-Bak   06-06  Thai action  2 of 5     urlLink Gojoe senki   06-05  Japanese action  1.5 of 5     urlLink Blue Spring  (Aoi haru)  06-05  Japanese drama  1.5 of 5     urlLink All About Lily Chou Chou  (Riri Shushu no subete)  06-05  Japanese Drama  1.5 of 5     urlLink Yesterday   06-05  Korean action  2 of 5     urlLink Natural City   06-05  Korean action  2 of 5     urlLink Moon Child   06-05  Japanese action  2 of 5     urlLink Memories Of Murder  (Salinui chueok)  06-05  Korean drama  2.5 of 5     urlLink The Poisoning  (Jungdok)  Worth watching   06-05  Korean drama  3 of 5     urlLink ...ing   (Keeper)   06-05  Korean romantic drama  3,9 of 5     urlLink Gohatto   06-04  Japanese drama  2 of 5     urlLink My Sassy Girl  (Yeopgijeogin geunyeo)  06-03  Korean romantic comedy  3 of 5     urlLink The Little Chinese Seamstress  (Balzac et la petite tailleuse chinoise)  06-02  French-Chinese drama  2.5 of 5     urlLink April Story  (Shigatsu monogatari)  06-02  Japanese romance  3 of 5     urlLink Azumi   06-01  Japanese action  2 of 5     urlLink Lost In Time  (Mong bat liu)  (Keeper)   06-01  Hong Kong romantic drama  4 of 5     urlLink The Eye 2  (Jian gui 2)  05-31  Asian horror thriller  2 of 5     urlLink The Eye  (Jian gui)  05-31  Asian horror thriller  2.5 of 5     urlLink Lover's Concerto  (Yeonae sosheol)  05-31  Korean romantic drama  3.5 of 5     urlLink Turn  (Taan)  (Keeper)   05-31  Japanese romantic drama  3.75 of 5     urlLink When the Last Sword Is Drawn  (Mibu gishi den)  (Keeper)   05-31  Japanese action drama  4 of 5     urlLink Marriage Is A Crazy Thing  (Gyeolhoneun michinjishida)  (Keeper)   05-31  Korean romantic drama  4 of 5     urlLink Oasis   Worth watching   05-31  Korean romantic drama  4 of 5     urlLink Take Care Of My Cat  (Goyangileul butaghae)  05-30  Korean drama  2.5 of 5     urlLink Friend  (Chingoo)  05-30  Korean action drama  2.5 of 5     urlLink Bangkok Dangerous   05-30  Thai action drama  3 of 5     urlLink Address Unknown  (Suchwiin bulmyeong)  Worth watching   05-30  Korean drama  3 of 5     urlLink Lagaan: Once Upon a Time In India   05-29  Indian musical comedy  3 of 5     urlLink Yamakasi - Les samouraï des temps modernes   05-29  French action drama  3 of 5     urlLink Farewell My Concubine  (Ba wang bie ji)  05-29  Chinese drama  3 of 5     urlLink War And Peace   05-29  British drama  3.5 of 5     urlLink The Mayor of Casterbridge   Worth watching   05-29  British drama mini series  4.5 of 5     urlLink Robot Stories   05-25  US drama  2 of 5     urlLink Peppermint Candy  (Bakha satang)  05-23  Korean drama  2.75 of 5     urlLink Bungee Jumping of Their Own  (Beonjijeompeureul hada)  05-23  Korean drama  3 of 5     urlLink Shaolin Soccer  (Siu lam juk kau)  05-23  Hong Kong comedy  3.25 of 5     urlLink Failan   05-23  Korean drama  3.5 of 5     urlLink Il Mare  (Siworae )  (Keeper)   05-23  Korean romantic drama  4 of 5     urlLink Eureka   05-22  Japanese drama  2.5 of 5     urlLink Perfect Blue   05-22  Japanese animated drama  3 of 5     urlLink Christmas in August  (Palwolui Christmas)  Worth watching   05-22  Korean romantic drama  3.5 of 5     urlLink Ditto  (Donggam)  Worth watching   05-22  Korean romantic drama  3.5 of 5     urlLink Art Museum By The Zoo  (Misulgwan yup dongmulwon)  05-22  Korean romantic comedy  3.5 of 5     urlLink Troy   05-21  US action  3 of 5     urlLink 55 Days At Peking   05-20  US drama  3.25 of 5     urlLink Luther   Worth watching   05-20  German drama mini series  3.5 of 5     urlLink Van Helsing The London Assignment   05-16  US animated action  2 of 5     urlLink Van Helsing   05-16  US action  2.5 of 5     urlLink Green Fish  (Chorok mulkogi)  05-16  Korean Drama  2.5 of 5     urlLink The Prince & Me   05-16  US romantic comedy  3 of 5     urlLink After Life  (Wandafuru raifu)  05-16  Japanese drama  3 of 5     urlLink Love Letter   05-16  Japanese drama  3 of 5     urlLink Man On Fire   05-15  US action drama  3 of 5     urlLink Mean Girls   05-15  US comedy  3 of 5     urlLink Spartan   Worth watching   05-15  US action thriller  3.5 of 5     urlLink Passionada   05-09  US romantic drama  2.5 of 5     urlLink Evil  (Ondskan)  05-09  Swedish drama  3 of 5     urlLink Japanese Story   Worth watching   05-09  Australian romantic drama  3,9 of 5     urlLink Fallen Angels  Duo luo tian shi  05-08  Hong Kong drama  2 of 5     urlLink Happy Together  (Cheun gwong tsa sit)  05-08  Hong Kong drama  2 of 5     urlLink Tokyo Godfathers   05-08  Japanese animated drama  2.5 of 5     urlLink The Gospel Of John   05-08  British-Canadian drama  3 of 5     urlLink Chinese Odyssey  (Tian xia wu shuang)  05-08  Hong Kong romantic comedy  3.5 of 5     urlLink Dog Park   05-05  US-Canadian romantic comedy  2 of 5     urlLink Casa De Los Babys   05-05  US-Mexican drama  2.5 of 5     urlLink The Holy Land   05-04  Israeli drama  2.5 of 5     urlLink Les Triplettes De Belleville   05-02  French comedy  1.5 of 5     urlLink Shiri  (Swiri)  05-02  Korean action  2.5 of 5     urlLink The Wind And The Lion   05-02  US drama  2.5 of 5     urlLink Joint Security Area  (Gongdong gyeongbi guyeok JSA)  05-02  Korean action drama  3 of 5     urlLink 2009 Lost Memories   05-02  Korean action drama  3 of 5     urlLink Zatôichi   05-02  Japanese action drama  3 of 5     urlLink Chungking Express  (Chong qing sen lin)  05-02  Hong Kong romantic drama  3 of 5     urlLink The Road Home  (Wo de fu qin mu qin)  05-02  Chinese romantic drama  4 of 5     urlLink DreamKeeper   05-01  US-Canadian drama  2.5 of 5     urlLink Barbershop 2   05-01  US comedy  2.5 of 5     urlLink The Heart of Me   05-01  British drama  3 of 5     urlLink Dot the I   05-01  British drama  3.5 of 5     urlLink The Alamo   04-30  US action drama  2.5 of 5     urlLink The Punisher   04-29  US action  2 of 5     urlLink The Barbarian Invasions  (Les Invasions barbares)  Worth watching   04-28  French drama  4 of 5     urlLink Paid In Full   04-27  US drama  3 of 5     urlLink Spinning Boris   04-26  US drama  3.5 of 5     urlLink The Big Empty   04-25  US drama comedy  3 of 5     urlLink Hidalgo   04-25  US action drama  3 of 5     urlLink Osama   04-25  Afghanistan drama  3.5 of 5     urlLink Kill Bill Volume 2   04-25  US action drama  3.5 of 5     urlLink Miracle   Worth watching   04-21  US sports drama  4 of 5     urlLink In America   Worth watching   04-21  British-Irish drama  4 of 5     urlLink Saints and Soldiers   (Keeper)   04-20  US action drama  4 of 5     urlLink Ashes of Time  (Dung che sai duk)  04-19  Chinese action drama  2 of 5     urlLink Musa   04-18  Chinese-Korean action drama  2 of 5     urlLink As Tears Go By  (Wong gok ka moon )  04-18  Hong Kong action drama  2.5 of 5     urlLink Infernal Affairs 2  (Wu jian dao 2)  Worth watching   04-17  Hong Kong drama thriller  3 of 5     urlLink Infernal Affairs 3  (Wu jian dao 3)  Worth watching   04-17  Hong Kong drama thriller  3.5 of 5     urlLink Days of Being Wild  (A Fei jing juen)  04-17  Hong Kong drama  3.5 of 5     urlLink Raise the Red Lantern  (Da hong deng long gao gao gua)  04-17  Chinese drama  3.5 of 5     urlLink Infernal Affairs  (Wu jian dao)  Worth watching   04-17  Hong Kong drama thriller  4 of 5     urlLink The Girl Next Door   04-16  US comedy  2.5 of 5     urlLink Sylvia   04-16  British drama  2.5 of 5     urlLink Club Dread   04-15  US comedy  2.5 of 5     urlLink La Haine   04-15  French drama  3 of 5     urlLink The Whole Ten Yards   04-14  US comedy  2 of 5     urlLink Walking Tall   04-14  US action comedy  2.5 of 5     urlLink Hotet   04-13  Swedish action drama  2.5 of 5     urlLink Smala Sussie   04-13  Swedish comedy  3 of 5     urlLink The Blue Butterfly   04-12  British-Canadian drama  2.5 of 5     urlLink The Twilight Samurai  (Tasogare Seibei) (Keeper)   04-12  Japanese drama  4.5 of 5     urlLink Starsky & Hutch   04-10  US comedy  2 of 5     urlLink The Human Stain   04-10  US drama  2.5 of 5    
+      
+</post>
+
+
+</Blog>

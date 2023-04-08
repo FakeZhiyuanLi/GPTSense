@@ -1,0 +1,136 @@
+<Blog>
+
+<date>30,June,2004</date>
+<post>
+
+
+       
+      I've been investigating tools for simulating website traffic lately.  One interesting contender is  urlLink IP Traffic Test  which records traffic from one environment, say a production system, and allows playback in another, say a perf testing environment.  The only problem I see is that it is a Windows tool, and I don't think we have any Windows boxes beefy enough to record our production traffic (which can be quite voluminous).  
+     
+
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+
+       
+      I've been using Jemmy for timing the responsiveness of a Java web start client application while the system is under load.  The results have been interesting.  The trick will be to establish whether or not the actions simulated by Jemmy are equivalent to actions performed by a user.
+     
+
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+
+       
+      We're back from vacation.  I can scarcely believe it's over.  Now I just have to wade through the tons of emails I have in my work inbox.  
+     
+
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+
+       
+      I like posting through email.  It means that I don't have to think too much about layout and other stuff. 
+     
+
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+
+       
+      I can't wait to leave on vacation.  This day is dragging by.  Off to look at links.
+     
+
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+
+       
+      Sometimes, I'm  urlLink amazed  at what people will pay for pieces of paper.  
+     
+
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+
+       
+      Using WebLOAD to invoke Java classes has become quite a classpath nightmare.  I hate that you have to set up the classpath on each individual load generator.
+     
+
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+
+       
+      Next week, July 21-25, Jenelle and I will be going to the beach.  South Padre is lovely this time of year I hear and I can hardly wait as I haven't had a nice relaxing vacation in quite a while.  
+     
+
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+
+       
+      I love Wikipedia.  It's amazing that keeping the Kennedys straight is now doable.  Even for me.
+     
+
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+
+       
+      This has got to be the coolest waste of time I've ever seen.  Random Wikipedia entries can teach you some interesting things.
+     
+
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+
+       
+      I've been reading this guy's blog a lot lately.  He always seems to find the coolest links in all of punditry. 
+     
+
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+
+       
+      On vacation last week I heard a radio spot for a Mexican metal band concert.  The music sounded very cool, nice and heavy and I was very interested.    I just found them on google.  They are called Brujeria.  After listening to some more of their stuff, I'm not as interested anymore.  Too bad, that ad made them sound awesome.
+     
+
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,211 @@
+<Blog>
+
+<date>30,October,2003</date>
+<post>
+
+    
+       Hopefully soon I'll be able to try out Longhorn. 
+    
+    
+</post>
+
+<date>28,October,2003</date>
+<post>
+
+    
+       Darn snow!  At least it melted some what today.  Planning on playing some badminton at lunch today should be fun!  Heres some neat tid bits/buzz words form Microsoft PDC youll see in the next few years:  WinFX: the successor to Win32   ClickOnce: the "equivalent of Xcopy to a machine" that will make application install/deinstall a snap.  SuperFetch: a feature designed to improve and speed up the current paging system  XAML: a declarative markup language that will separate code and content in the next generation of Windows applications  MSBuild: a unified build engine for Windows, the Windows software development kit and Visual Studio.  You can learn more about the PDC here:  urlLink http://mymsevents.com/MyMSEvents/Default.aspx?se=31   Anyway have a wicked day!  
+    
+    
+</post>
+
+<date>27,October,2003</date>
+<post>
+
+    
+       Well looks like the snow is going to let up and I might actually be able to get home!  Heres something neat:   urlLink http://games.mess.be   An add in to MSN 6 that allows you to play other games created by others.  I really like battleship and Tetris.  Growing up I remember playing tetris for hours and hours on the game boy! 
+    
+    
+</post>
+
+<date>27,October,2003</date>
+<post>
+
+    
+       Another Monday morning in Winnipeg!  It has snowed finally, and still is snowing.  Time to get the winter tires on the Mustang.  I've been playing around with Microsoft Content Management Server on Windows 2003 and found out something rather interesting.    If you want it to work make sure you Install it without the Dev tools, upgrade it with the service pack 1, then install the Dev tools.  Otherwise you'll have to install VS.net 2002 and 2003, what a pain.  Anyway just thought I'd throw that out there.  Well anyway I hope it stops snowing soon, otherwise its going to be a painfully drive home!  I really need to get winter tires on soon I guess, crappers... Ok I called Ford, getting the butt ugly tires on this Saturday at 9 am... yippie! Ugly rims for 6 months... Oh well.  Anyway I better get back to working!  Miguel 
+    
+    
+</post>
+
+<date>13,February,2004</date>
+<post>
+
+    
+       Last night...  Before I went to bed I read about MainSoft leaking the code... They didnt mean to.... However the funny part is it was a linux machine that was compromised to get the code lol.  Boy am I glad I dont work with those guys...  So if you were thinking of installing linux now... I highly suggest against that lol  Miguel 
+    
+    
+</post>
+
+<date>12,February,2004</date>
+<post>
+
+    
+       Windows 2000 and NT4 code has been leaked...  "update Microsoft is investigating how a file containing some protected source code to Windows 2000 was posted to several underground sites and chat rooms. " from cnet.. they are so slow.. but anyway, yes it was leaked.. 203MB file, however the code was incomplete... hmmmmmmmmmm the begining of the open source movement from microsoft.  I personally am in some ways happy about the way microsoft has been going about this.  Share certain portions of code... however you still own it.. they own it. give them feedback.. they will fix it.  Not the.. heres the code... feel free to contribute.   I think its ok to make certain parts of the code "open source", but not all.  Anyway.. we shall see how this plays out....  Miguel 
+    
+    
+</post>
+
+<date>11,February,2004</date>
+<post>
+
+    
+       on cnet now.....  so it has hit cnet now.....  urlLink c net article  
+    
+    
+</post>
+
+<date>11,February,2004</date>
+<post>
+
+    
+       Windows 2000 and NT4 Source Leeked?  Rumour or True?...  I had noticed a post today on a forum i read... now it seems to have hit the major sites... is it true?  I still find it hard to beleive... but in case you were wondering on some links... here are a few...   Related Article Links...    ActiveWin.com: Windows 2000 &amp; Windows NT 4 Source Code Leaks     DotProject.org: Windows 2000 &amp; NT4 Source Code Leaked     Fark.com: Windows2000 and NT go open source (inadvertantly)     FlexBeta.net: Windows 2000 and NT4 Source Code Leaked?     ieXbeta.com: Windows 2000 &amp; Windows NT 4 Source Code LEAKS!     IT Vibe: Windows 2000 source code leaked ?     Microsoft-Watch: Windows Crown Jewels Leak to the Web?      MSFN: Windows 2000 source code leaked?     Neowin.net: Exclusive: Windows 2000 &amp; Windows NT 4 Source Code Leaks     Next L3vel: Windows 2000 &amp; Windows NT 4 Source Code leaked?     NTFS.org: Windows 2000 Source Code Leaks?     Slashdot: Windows 2000 &amp; Windows NT 4 Source Code Leaks     Tech-Critic: Windows 2000 / NT4 Source Code Leaked     Warp2Search.net: Windows NT 4 &amp; Windows 2000 Source Code leaked     WinBeta.org: Windows 2000 and NT4 source code leaked?     Windohs.net: Windows 2000 &amp; Windows NT 4 Source Code Leaks     And here is the alleged file list...   urlLink File Listing   lol, that one makes me laugh...  anyway.. just posting this to remeber either the day that Microsoft leaked the code on purpose ;)  or the day a huge joke was pulled on the web!  A guy that used to work at microsoft posts:  "From the file listing, it looks like and old copy of the partial source.  I worked at Microsoft for a while, and while the directory structure looks very Microsoft-ish, there's not enough there to be all of the source. Also note that all of the files are from 2001 or earlier, so a lot of the security holes in that source have already been patched."  Happy Coding...  Miguel 
+    
+    
+</post>
+
+<date>11,February,2004</date>
+<post>
+
+    
+       One word... Niobe...  Joel has always talked about how he loves SmartClients... and ive been ramping up my Outlook skills, mostly with the .net framework...  Niobe is a prototype project that allows managed, smart client add-ins to be developed for Microsoft Office Outlook 2003.   Basically it is an abstraction of the current VBA, MAPI stuff and gives you a new managed object model to work with in .net.   Anyway, yes this is a prototype (when was the last time you saw a prototype car on the lot), so I doubt it will ever make it to production, but Microsoft is watching this project, and it is fully usable (as far as I can tell).  Anyway I just download it last night and just playing with it over my coffee break... pretty cool, ill post some source code to look at when i get home and can connect my laptop.  I just created a small app that takes the xml contacts file from msn and adds them to my outlook contacts... not hard at all...   Lastly, The guy that wrote it is pretty smart guy (Simon Guest, a program manager with Microsoft's .Net Enterprise Architecture Team.) so im not that worried about it crashing my outlook.  Althought if it does i know who to email.  happy Code-ing  Miguel 
+    
+    
+</post>
+
+<date>11,February,2004</date>
+<post>
+
+    
+       Windows 2000 and NT source code leaked...  apparently the source code has leaked.. I find it hard to beleive that any one person would have access to all these lines of code... but we will wait and see what comes of this story. 
+    
+    
+</post>
+
+<date>11,February,2004</date>
+<post>
+
+    
+       ISAPI what? IHttpModule BABY!...  So I was trying to implement an ISAPI filter last night.... not that easy.. you have to register it with IIS Metabase bla bla bla.  In some cases you might need to do this in order to always have your code fire before anything else, but for my purposes IHTTPMODULE did the trick.  IHTTPModule works wonderful for asp.net apps where you want logging to occur.  I'm using it for something else.. but here it where it sits in case your wondering...   Request --> IIS --> aspnet_isapi.dll --> HTTPApplication --> HTTPModule --> HTTPHandler  anyway the basics to hook this up are.  1. create a class that implements IHttpModule 2. add a reference to your new handler 3. make a mod to your web config in system.web section:                                             I was looking into this for my own purposes.. but hey.. why not have a logger that logs all requests to sql server.  You could have it read from your config file and decide what eactions to take (ie: debug mode on etc...)    anyway, if you want more information, email me  urlLink here   Miguel  
+    
+    
+</post>
+
+<date>09,February,2004</date>
+<post>
+
+    
+       msn went down today...  msn messneger went down today... mydoom c is working well i guess... when will virus writers find something better than the good old DOS attacks? like guys, at least think of something new and unique!  Miguel 
+    
+    
+</post>
+
+<date>08,February,2004</date>
+<post>
+
+    
+       How many times have you wondered about how much information is actually saved in a word document?  Well, the other day I was trying to see exactly what is stored in a word document... and how to remove embedded content from the document...   well.. here is the solution...   urlLink remove emebed content from word docs   happy coding..   Miguel 
+    
+    
+</post>
+
+<date>08,February,2004</date>
+<post>
+
+    
+       microsoft beta stuff...  They are about to release this so might as well post the link...   urlLink Beta TechNet   you might also want to see this amazing video that shows off the power of the latest .net tools comming with longhorn... much better than other videos i've seen where they dont really show why we need advanced graphic elements in windows.   urlLink Healthcare   Miguel 
+    
+    
+</post>
+
+<date>08,February,2004</date>
+<post>
+
+    
+       Cool use of .net..  I was taking a break from some code and looking at usefull uses for .net framework... and stumbled on this site.   urlLink World Wide Media eXchange     urlLink Microsoft Interactive Visual Media Group   Microsoft reasearch comes up with some pretty cool ideas... a lot of which you never see... some you do.. or some you will.  This is one of those rareaties that you can try right now.  The basic principle is, type a place you want to view.. and all the images tracked for that location come up!  Its pretty cool! Anyway, back to Visual Studio .net... oh, TRY OUT  urlLink BORLAND  TOGETHER! You should see this thing in action! I'll write about it after I've used it longer...  Miguel  
+    
+    
+</post>
+
+<date>08,February,2004</date>
+<post>
+
+    
+       ASP.net V1.1 and Windows Xp...  This weekend I was working on some asp.net apps on a computer that was older, so I decided I'd go try out my other more powerfull gaming machine to try and get some stuff done quicker.  We'll I ran into an interesting hickup when the machine kept telling me the web server didnt have .net framework installed on the web server.  It's actually pretty easy to fix...  Microsoft Windows XP [Version 5.1.2600] (C) Copyright 1985-2001 Microsoft Corp.  C:\WINDOWS\Microsoft.NET\Framework>cd v1.1.4322  C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322>aspnet_regiis /i Start installing ASP.NET (1.1.4322.0). Finished installing ASP.NET (1.1.4322.0).  C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322>   so there you have it.. once your in the right folder:   C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322>aspnet_regiis /i  Anyway, i just wanted to make note of that for myself If I have trouble again getting asp.net to start up on a web server.  Happy Coding!  Miguel  
+    
+    
+</post>
+
+<date>06,February,2004</date>
+<post>
+
+    
+       Outlook stuff.. I've never written any outlook code in my life so i figured its about time i crack the macro editor open.   I should note this idea originally came from  urlLink Eric Legault's Blog ,  Anyway, here's some macro code that shows you images from multiple selected emails in one nice formated IE window.  Would be nice to put this into a .net component and make it an outlook add in, im not crazy about non compiled code.    Private    Declare   Sub  Sleep  Lib  &quot;kernel32&quot; ( ByVal  sleepMilliseconds  As   Long )    Sub   ViewImages()    &nbsp;&nbsp;&nbsp;  Dim  outlookApplication  As  Outlook.Application   &nbsp;&nbsp;&nbsp;  Dim  outlookSelection  As  Outlook.Selection  &nbsp;&nbsp;&nbsp; Dim  fileSystem  As   Object     &nbsp;&nbsp;&nbsp;  Dim  imagesFound  As   Boolean &nbsp;&nbsp;&nbsp; Dim  htmlBody  As   String &nbsp;&nbsp;&nbsp; Dim  tempPath  As   String     &nbsp;&nbsp;&nbsp; outlookApplication =  New  Outlook.Application &nbsp;&nbsp;&nbsp; outlookSelection = outlookApplication.ActiveExplorer.Selection &nbsp;&nbsp;&nbsp; fileSystem = CreateObject(&quot;Scripting.FileSystemObject&quot;)    &nbsp;&nbsp;&nbsp; tempPath = &quot;c:\tempImages\&quot;    &nbsp;&nbsp;&nbsp;  If   Not  fileSystem.FolderExists(tempPath)  Then  fileSystem.CreateFolder(tempPath)    &nbsp;&nbsp;&nbsp; htmlBody = &quot;&lt;HTML&gt;&lt;HEAD&gt;&quot; &amp; vbCrLf &nbsp;&nbsp;&nbsp; htmlBody = htmlBody &amp; &quot;&lt;meta http-equiv=&quot;&quot;Content-Language&quot;&quot; content=&quot;&quot;en-us&quot;&quot;&gt;&quot; &amp; vbCrLf &nbsp;&nbsp;&nbsp; htmlBody = htmlBody &amp; &quot;&lt;meta http-equiv=&quot;&quot;Content-Type&quot;&quot; content=&quot;&quot;text/html; charset=windows-1252&quot;&quot;&gt;&quot; &amp; vbCrLf &nbsp;&nbsp;&nbsp; htmlBody = htmlBody &amp; &quot;&lt;title&gt;View Email Attachments&lt;/title&gt;&quot; &amp; vbCrLf &nbsp;&nbsp;&nbsp; htmlBody = htmlBody &amp; &quot;&lt;style&gt;&quot; &amp; vbCrLf &nbsp;&nbsp;&nbsp; htmlBody = htmlBody &amp; &quot;&lt;!--&quot; &amp; vbCrLf &nbsp;&nbsp;&nbsp; htmlBody = htmlBody &amp; &quot;body&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; { font-family: Verdana; font-size: 8pt }&quot; &amp; vbCrLf &nbsp;&nbsp;&nbsp; htmlBody = htmlBody &amp; &quot;--&gt;&quot; &amp; vbCrLf &nbsp;&nbsp;&nbsp; htmlBody = htmlBody &amp; &quot;&lt;/style&gt;&quot; &amp; vbCrLf &nbsp;&nbsp;&nbsp; htmlBody = htmlBody &amp; &quot;&lt;/HEAD&gt;&lt;BODY&gt;&quot; &amp; vbCrLf &amp; vbCrLf     &nbsp;&nbsp;&nbsp; For   Each  obj  In  outlookSelection &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; imagesFound =  False  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; htmlBody = htmlBody &amp; &quot;Subject: &quot; &amp; obj.Subject &amp; &quot;&lt;br&gt;&quot; &amp; vbCrLf &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; htmlBody = htmlBody &amp; &quot;Sent On: &quot; &amp; obj.SentOn &amp; &quot;&lt;br&gt;&quot; &amp; vbCrLf &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  For   Each  Attachment  In  obj.Attachments &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Select   Case  LCase(Right(Attachment.FileName, 3)) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Case  &quot;jpg&quot;, &quot;gif&quot;, &quot;tif&quot;, &quot;bmp&quot; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Attachment.SaveAsFile(tempPath &amp; Attachment.FileName) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; htmlBody = htmlBody &amp; &quot;Image Name: &quot; &amp; Attachment.FileName &amp; &quot;&lt;br&gt;&quot; &amp; vbCrLf &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; htmlBody = htmlBody &amp; &quot;&lt;IMG alt=&quot;&quot; &amp; Attachment.FileName &amp; &quot;&quot; border=&quot;&quot;1&quot;&quot; hspace=&quot;&quot;0&quot;&quot; src=&quot;&quot;&quot; &amp; tempPath &amp; Attachment.FileName &amp; _ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;&quot;&quot; align=baseline border=0&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&quot; &amp; vbCrLf &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; imagesFound =  True  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  End   Select  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Next &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If   Not  (imagesFound)  Then  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; htmlBody = htmlBody &amp; &quot;&lt;b&gt;Sorry, there were no images found for this message.&lt;/b&gt;&quot; &amp; vbCrLf &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  End   If &nbsp;&nbsp;&nbsp; Next  &nbsp;&nbsp;&nbsp;  htmlBody = htmlBody &amp; &quot;&lt;/BODY&gt;&lt;/html&gt;&quot; &nbsp;&nbsp;&nbsp; OpenBrowser(htmlBody) &nbsp;&nbsp;&nbsp;  For   Each  obj  In  outlookSelection &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  For   Each  Attachment  In  obj.Attachments &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fileSystem.DeleteFile(tempPath &amp; Attachment.FileName)   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Next  &nbsp;&nbsp;&nbsp;  Next  &nbsp;&nbsp;&nbsp;  fileSystem =  Nothing  &nbsp;&nbsp;&nbsp; outlookSelection =  Nothing  &nbsp;&nbsp;&nbsp; outlookApplication =  Nothing     End    Sub     Private    Sub  OpenBrowser( ByVal  myHtml  As   String )    &nbsp;&nbsp;&nbsp;  Dim  internetExplorer  As   Object   &nbsp;&nbsp;&nbsp; internetExplorer = CreateObject(&quot;internetExplorer.application&quot;)   &nbsp;&nbsp;&nbsp;  With  internetExplorer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .toolbar = 0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .statusbar = 0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .menubar = 0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .Left = 200 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .Top = 50 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .Height = 600 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .Width = 800 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .FullScreen =  False  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .navigate(&quot;about:blank&quot;) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .document.Open() &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .document.Write(myHtml) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .document.Close() &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .Visible =  True  &nbsp;&nbsp;&nbsp;  End   With &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; Do   Until  internetExplorer.readyState = 4 : Sleep(10) :  Loop &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  internetExplorer =  Nothing     End    Sub     Conclusion? While it is very easy to write macros... (took about 20 min to write this thing, 5 minutes to fix Internet Explorer hanging all the freaking time).... I think ill stick with managed code.   I can’t easily deploy this to anyone, and.. I don’t know.. I don’t see the reason to use this tool when I have vs.net, the best coder application ever created! ... I've been privileged to work in large organizations where they end up having hundreds of these little apps that next to impossible to maintain.  Though I do see the value in having macro capabilities to do VERY small tasks, I don’t deem this to be a good long term solution by any stretch of the imagination.  So.. I decided to talk this over with an outlook guy because I figured since I’ve never even looked at the macro editor I might be missing something here and just giving macros no chance.... anyway, In talking this over with him, because honestly I didn’t really understand why the macro editor was so bad lol... he explained to me that really, the macro editor and stuff is only in there for backwards compatibility really... which does make way more sense to me now.... that editor is so old...  Microsoft always recommends to use managed code now...  A major firm I am very familiar with deployed an extremely large outlook solution, all done with .net managed code.  There was one section apparently that used macro code (from this point forward to be known as legacy code), but was quickly replaced with the managed code, and made things amazingly faster... when you have 1,000 people using the same thing, every second counts.. macro code is not compiled.... poor processor.  Speaking of processors... Intel gets my thumbs down for there new ways of ripping people off.. apparently they are adding stuff on there chips to make it harder to write c++ code against to monitor your motherboard... well.. unless you purchase there dll's I guess....  Oh here's the link to Microsoft’s .net Building Outlook 2002 Add-ins with Visual Basic .NET, a great article written by our friend Randy at Microsoft...   urlLink Microsoft’s .net Building Outlook 2002 Add-ins with Visual Basic .NET   Happy Coding!    
+    
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+    
+       Web Content Management and Internal Document Collaboration  I’m going to be speaking at a large event next week in Winnipeg on Web Content Management, followed by a presentation on SharePoint Portal Server.  I am extremely excited about both of these topics for a couple of reasons….  Coming from a web development background in the early 90’s, its amazing to see the change from using Mosaic to view extremely plain web sites, to what we have now, rich media packed web sites.  Writing Basic programs was fun and dandy but the ability to write a site that would instantly be viewable by slightly over a million people just blew my mind.  Passing around floppy disks of my latest version of chess in class was simply not fun anymore.  I jumped on the web development band wagon instantly.  However, the big down fall was the immediate loss I felt, of structure.  HTML, Pearl, ASP, none really gave what I wanted until the rise of ASP.net.  ASP.net 2.0 has some even better features, but I digress.   Ok so now you have hundreds and thousands of companies writing web pages, web applications, content being translated from the original hard print documents created in quark, or PageMaker, to be placed on the web… STOP.  If you stop to think how many times in a company the same thing is re-typed, formatted with the same style that hundreds of items before have been formatted, you might fall off your chair.  And you would definitely be headed for the canvas if you realized how much money DAILY a large organization waist’s in the simple mundane task of converting data, promotional material, images, for the web world.  Not only that, but what happens after a document is on the web?  What happens if that server goes down?  Typical world, you have the worlds worst server powering the company web site, and possibly some other tiny web applications that your company has decided will help there business.  Server goes down, well, time to maybe go to the developers machine and get is local copies to stick on the web server, maybe install your applications again, etc etc.  Truth of the matter is there is software out there that empowers organizations to tie in a database, and have web sites created at the click of a button.  Not only that, but the data is saved in such a dynamic format, that you can literally choose to create web page, or a multimedia cd all from the same data.  Anyway, I will write more later, but this is such a huge topic, and I haven’t even gotten to the content creation aspects where you can empower your business users to create there own content, right from the comfort of word.  There’s some cool stuff out there, I love showing people that they can do all these great things today! Not tomorrow.  Longhorn will be cool, but cool is already here!  
+    
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+    
+       I was at VSLive! in Toronto last week.  So much to talk about, that I'm not even going to attempt to talk about it.  Top 3 From VSLive!  1. ASP.net 2.0 2. One Click Deployment 3. New Controls in VS.net 2005  I will be speaking at the next Winnipeg .net User Group on ASP.net 2.0  Some of the new features are just amazing and have to be seen to be fully appreciated.  The amount of code, or lack there off that needs to be created now is insane.  One of the coolest features is the out of the box personalization and security aspects.  At first I noticed that this worked by leveraging an mdb file... *SCREAM*... however, Microsoft has graciously provided us with SQL scripts to create the supporting database if you would like to use SQL Server instead.  Something else that is back from the original days of web development, you no longer need to recompile your web site!  That’s right, Notepad is back, and in working with VS.net 2005, it’s goodness!  Just load up notepad and make your tweaks if your environment keeps crashing.  Anyway... come out to the next user group if you have time!  
+    
+    
+</post>
+
+<date>19,June,2004</date>
+<post>
+
+    
+       Fathers Day Entry...  The smartest man I have ever met in my entire life forwarded this email to me from someone that had sent it to him.  I hope I can be half the man that he is one day.  My Dad... please read...  "People are often unreasonable, illogical, and self centred;  Forgive them anyway.    If you are kind, people may accuse you of selfish ulterior motives;  Be kind anyway.    If you are successful, you will win false friends, and some true enemies;  Succeed anyway.    If you are honest and frank, people may cheat you;  Be honest and frank anyway.   What you spend years building, someone could destroy overnight;  Build anyway.    If you find serenity and happiness, they may be jealous;  Be happy anyway.    The good you do today, people will often forget tomorrow;  Do good anyway.    Give the world the best you have, and it may never be enough;  Give the world the best you've got anyway.    You see, in the final analysis, it is between you and God;  It was never between them and you anyway."  I recently had to make one of the hardest, if not the hardest decision I have ever made in my entire (be it short) life.  This passage has really helped and I have read it many times...  I have always struggled with one thing, and that is to please everyone.  Reality is you can’t, and it’s extremely tiring to try...  Through the tough, hard decisions you make in life, you learn who your true friends and family are.  The above passage mentions that it is between you and God... If you don’t believe in God, then this could be replaced with family, loved ones...  Always put your best foot forward, and once you’re committed, take action.  My parents came to Canada with 1,000 dollars.  With that they have raised 3 kids, one of them myself.  Though my father might have left everything in Chile, he came here so I could have a better life.  I will always be greatfull for that.  He might have left his degrees, training, everything in Chile, and though he might think he has not accomplished what he might have been able to,  I think he accomplished more than he will ever know.  Through Martial Arts, Day Care, he has talked to hundreds if not thousands of students, children, and has impacted all of there lives drastically.  All you need is have one conversation with my father and you will know what I mean.  Though he might not be doing what he studied to do, and engineer, through the lives he has touched he has honestly made this world a way better place to live for everyone.  The people he has talked to will make a difference, and if one child that might have been hanging out with his friends, and gotten involved with drugs and gangs, murdereder someone, ends up going to school instead because my dad taught him or her Karate for free for years (with an occasional lecture for 3 hours after class) and gave them something to do while there parents were at a bar with friends, he has done more than I will ever do.  I love you dad,  Miguel  
+    
+    
+</post>
+
+<date>01,June,2004</date>
+<post>
+
+    
+        A day in the life of a consultant...   A consultants life is not easy, as youve heard from Joels latests posts... I couldnt imagine owning the company.  As Randy Jackson says on Idol, Props to Joel and Company.  That said... here's a day in the life of a consultant:  Consultant: "hey your servers are gonna blow up if you dont do this.. your software will not work if you dont impliment this, you need a build process, you need to conduct integration testing."  Client: "hey, leave it to our team leaders and our architects.. they know what they are doing... you here to help"  ****3 months pass**** (twilight zone music please) *******  Client: "HEY MR CONSULTANT BOY!!!! WHY DIDNT YOU TELL US THIS WOULD ALL FAIL!  YOU KNOW HOW MUCH MONEY YOU COST US!"  Consultant: "um.. i did.. here are the emails.."  Client: "HEY!!!! DONT GET SMART.. THIS IS ALL YOUR FAULT!!! CUT YOUR RATES!!! AND FIX THIS MESS NOW!!!!"  Consultant: "ummm ok... but i have a family thing this weekend and.."  Client: "HEY!!! ARE YOU NOT BEING A TEAM PLAYER!!!! DAMN IT!!! WHAT KINDA CONSULTANT ARE YOU!!!"  Any consultant can attest to this as fact, I've worked with so many clients and honestly most places I have worked at have been great, and all do have their sower moments, and great moments... 
+    
+    
+</post>
+
+<date>01,June,2004</date>
+<post>
+
+    
+       Remove MSN Messenger 4.7  I find it so annoying that when you install MSN Messenger, Windows Messenger stays in the background.  Run this in the Start-->Run command to get rid of it once and for all.  RunDll32 advpack.dll,LaunchINFSection %windir%\INF\msmsgs.inf,BLC.Remove  Have a great day! 
+    
+    
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+    
+       Macintosh - Now that’s Design!  So I've decided to stray a bit from the consulting lifestyle, to take on a more active management related roll in IT.  ImagiNET is a great company and I still recommend them for any Microsoft related issues your organization is facing.  That said in my new roll I have had the chance to play with a Mac G5... WOW! Sometimes I wonder why apple is still around, especially when there is only 1(that’s right, one) Mac consulting company in the city, and no signs of large retailers selling software.  Well, let me tell you.... the Graphics are amazing... these machines are literally built from the ground up with GRAPHICS in mind. Yes there’s PhotoShop for the PC, etc etc... but, PhotoShop for Mac is WICKED! and Quark.. is AMAZING.  Anyway that’s all the time I have... just wanted to put my two cents in on MACS!  I want one now!  And do I need to mention that they make any Personal Computer, even if they have mods on them, look like an old rabbit next to the Viper....  Another tool that I've been fooling around with lately is Poser.  My dad runs a martial arts website: http://www.kyokushincanada.com and I have been waiting for about 6 years now to update the look and feel.  One feature I have decided to add in is flash animations depicting the actual motions made for specific Karate basic techniques. I met a fellow at the new company I work at that used to work for Frantic Films, made some animations on Swordfish and X-men, anyway he’s been showing me around Poser and Max (3D Studio Max).  I used to work with these tools about 6 years ago, and boy have these tools come a long way.  Rendering still seems to take ages, and now some files can reach gigabytes in size during the render process, but man is this stuff fun!  Anyway, with Poser, you can literally take an image (Say I don’t know, lets pick Halley Barry ;) ), place it on points on a 3d model, and with some Magic(Magic being the geek word for a few hours later), you can have your very own cat woman kicking and punching!  Anyway... I'm hoping to start something really neat in the next year or so if I can get really good with Poser and Max... or hire some people that are really good with it at least, Poser/Max/.net... hmmmm what could happen ;) Stay Tuned.  Happy Coding  Miguel 
+    
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,1 @@
+An entity is also a distinct and uniquely identifiable object, concept, or event within a system or domain. It may have attributes or characteristics that distinguish it from other entities within the same system or domain.

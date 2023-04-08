@@ -1,0 +1,202 @@
+<Blog>
+
+<date>25,May,2004</date>
+<post>
+
+
+       
+       Oh dear... Last night I drank a coke before going to bed. Then I had a very good night's sleep. Then I drank some school coffee (read: strong shit...) this morning. Then I went to physics. Oh dear. People were saying how they'd be missing an hour doing their M4 papers, and I was going "Heh, yah.... heh yah...." (that Outkast song?) 
+     
+
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+
+       
+       Having gotten a well deserved lull in work, I've started to move back to engage development again. If you don't know what engage is, you are well in the greater part of the world's population. See  urlLink Enlightenment  (woohoo! My first link to the outside world!) and watch  urlLink the video from Xcomputerman . Maybe if I write down where I've got to and where I want to be there will be more motivation for me to actually do the damn writing. 
+ So, the basic idea is that whilst the graphics part of edje-fying and so on are very cool and excellent, there still remain some serious usability issues. For one, most of the hacks that I wrote originally when I wasn't at all versed in X programming are still lying around. I'd like to get rid of them for a start. Things like polling for particular changes and so on. So far, I've got a seperate library (built on ecore) for handling startup notification as  urlLink FD.o  sets them out, and I'm working on a similar library to do window management events &mdash; new window, window gone, minimised, etc. 
+ Well, enough bullshitting. I'd better get on with it. 
+     
+
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+
+       
+       I got bored of the whole blogging thang, so I stopped. Now I'm interested again. Just had a physics mock. Played exam chicken with myself. One hour paper, waited 25 minutes before starting. Just about had 10 minutes at the end. That's right guys, a one hour paper in 20 minutes. Dear god. This A2 exam thing is going to kill me. 
+     
+
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+
+       
+       So it is that we get to the same point in the day again. When I can sit down and do some work. In case you're wondering, yes, the time and date across the bottom  is  accurate. It time is half past eleven, and I'm just about to start to work. For some obscure (to me, that is) reason, I've decided to not work during usual hours, and instead make up for it during the night. More importantly, this means sticking to a rigid schedule of seven and a half hours of sleep per night, last being an exception. 
+ All in all, it's been another normal day. Not surprisingly. And now this place is being locked up &emdash; so I'll pick up this thread again in the morning... 
+     
+
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+
+       
+       Good morning'. Finished my essay at 1. Managed to wake up at 3. Didn't go back into REM sleep very well. Got up at 7. Typed up essay. Printed. Drank coke. Now I'm on a caffeine high that is quickly wearing off. Hopefully, I can get through the first two hours and survive till break, at which point another coke is in play. 
+ Thought about the relationship between programming and art in the shower &emdash; the expression of an idea through well-understood means, with the computer being like the paint of the artist. It actually maps quite well I thought. I guess it started when the caffeine an' suger high was making me think of coke and pizzas. And merr. 
+     
+
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+
+       
+       The last post was looking a bit lonely. So I thought some irrelevant space-filling self-referential blogging was in order. That and also I'm bored. And I need to write an english essay, for last Thursday. That's quite difficult, as I am finding out. 
+ To be perfectly accurate, this is actually the second time I'm writing this, because the preview feature in this thing seems to like to wipe out the text. Oh dear. Still, I means that I get to waste twice the amount of time, and that is always a Good Thing(TM). So here I am, waiting for God(ot) to end my continued existence. That and my adolescent self-inflating tendencies. 
+ I suppose I should say something about myself. It is, after all, somewhat traditional. But that in itself makes me want to not say something. And that in itself should say something about me. I think I'll ration myself, after all, 17 years of existence can be breezed through all too quickly. 
+     
+
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+
+       
+       Well, there we go. Blog up. 
+ Testing 
+ Testing! 
+     
+
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+
+       
+       After a break, of doing actually nothing, I've just accepted a 9 month fixed term contract with IBM for my gap year. Good going. Mostly a documentation monkey I think; not that I'm complaining, I love the fact that instead of my current 17-hour day, 6 day week, I get a good 37 hour week over just 5 days. Oh, and I'll be getting £12,600.  (Grins like a weasel)  
+ Like I said to Dave, I can consider the next year half of my life, and the rest the other half.  That's right, leds (sic).  Pompous bullshit wins the day. 
+ In related news, Caspar has me hooked on Baldur's Gate II, which contains some of the funniest dialog I've ever seen in a RPG. With chemi A2 in three days, I wonder if I can get to level 16 before then... 
+     
+
+    
+</post>
+
+
+<date>17,May,2004</date>
+<post>
+
+     
+      It's been an interesting week. (There is no normal wykehamical week.)  Exams are beginning in earnest.  The school moves into mad scramble mode at this time of the year. It's the younger men with there GCSEs and IGCSEs that are first hit, then the ASs and A2s arrive in a vast modular deluge, and finally, near the end of term, the marathon AEAs will be upon us. It will be the last good-bye for 1/5th of the school as we move on, looking ever forward to University and the life beyond these walls.   "Hang on Mr. Bugson"  was an unashamed success.  The last night was deservedly packed (I'm told), and Si T. is reported to have said that it is the best home grown play produced at Win: Coll: in the last 30 years.  You can't get a greater recommendation than that.    This weekend the network was once again down.  Well, when I say network, I do mean internet access (the same thing to some).  I'm not sure I can remember a weekend when the net hasn't been down, to be frank.  It is a suspiciously regular outage, and the repetition suggests either malevolent divine intervention, or the work of a "hacker" (see  urlLink cracker ).  According to my logs the proxy server (a MS ISA box -- yes, it could just be the crappy OS) kicked the bucket at 22:10:50 on Friday evening.  For some reason it stopped responding to :8080, and didn't resume proxying function until Monday (today) morning - presumably when it was reset by a techy.  The reason why this 11:10pm is significant, is it's exactly 5 mins. before the proxy, or indeed  urlLink Websense , goes down for the night anyway.    The wonderful conspiracy theorist in me suspects the hands of a mortal are involved.  It would be beneficial (but completely antisocial) to someone if they seized control of the servers at this time.  They would then have unrestricted net access for 48+hours -- comp. dept. don't work over the weekend -- and they would be able to stop certain sections of the network from being switched off.  Yep, that's right, one of the silly servers switches the downlink ports on the Ciscos off - also at 11.15.  This prevents people from playing games, doing work, etc.  Of course it would be vastly more intelligent if certain protocols (and ports) were simply blocked at the switch level at 11:15 (so games couldn't be played) and then people could still retrieve their coursework from the fileserver.  Why have the expensive equipment if its useful features aren't used (perhaps Cisco switches don't support this sorta thing -- someone?)?  Network outages are still relatively common.  Probably the efforts of an 31337 kiddie in some house somewhere.  Of course it only upsets other Wykehamists, so why bother?  Oh that's right, computer geeks and teenagers (for that matter) are anti-social for the hell of it.  *Grunt*  Still no word on the suspended teachers.  Typical.  We're still waiting, Win: Coll:. 
+     
+   
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+     
+      Now showing Thursday, Friday and Saturday (13th, 14th & 15th of May).    This play was written by Tom Sharpe and directed by Tom Sharpe and Tom Yarrow.  Went to the opening evening tonight and, to tell the truth, it was simply  astounding ,  amazing , and  brilliant .  This really is no understatement.  To quote the blurb on the program:  " Hang on Mr. Bugson  was originally conceived as a play which would have no plot, no particular characterisation, no nothing, except for theatre.  In the end, that didn't happen.  Instead, it became something of an experiment.  Ralegh calls it 'meta-drama', YaZz calls it 'a paradoxically humorous exploration into the morality of the tragic writer', I call it a giant philosophical self-indulgence.   One thing is clear: it smudges the boundaries between what is funny and what is sad.  In an age where comedy ranges from standard punning to playing 'It's Raining Men' on a film of the burning twin towers, no tragic moment seems entirely beyond laughter."  What more can I say?  The play is simply one every Wykehamist must make an effort to see.  You will not be disappointed.     Message: If you haven't seen it DO!  
+     
+   
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+     
+      This particular event began in late March.  It was the  urlLink Mirror  which first broke this story -- they've since removed the  urlLink article  from their website.  Not a great surprise as the article itself, as a complete fabrication, was libellous.  However, the removal did not occur before WebIndia [not-linked, libellous] had picked up on the article, republishing it without checking its validity.  This is one of the most upsetting stories to be published.  To quote the articles,  "According to a report in 'The Mirror', a senior teacher has been booted out and two more suspended from Winchester College. Allegations of misconduct, sparked by the initial discovery of web porn, have also been made against staff.  Meanwhile, headmaster Tommy Cookson has confirmed a teacher has been kicked out from his 80,000-pounds-a-year post and two teachers have been suspended."  Where to begin.. First of all, a senior  teacher  was not booted out.  The man in question was a manager, the head of IT, who taught perhaps 3 or 4 hours a week (and had only been here for 3-4 years).  He left, or was forced to leave (however one wants to look at it) simply because he was no longer fulfilling the job description with which he was tasked.  This was to oversee the spending of millions of pounds of IT donation - a task happily fulfilled I'm sure - and ensure a smooth running of the network, with adequate security, etc.  As a manager he only partially succeeded.  The school  urlLink website  was done, and the money was spent networking the entire campus, upgrading the school servers, buying new computers, and so on (how would you spend your IT millions?!).  However, the network was certainly not stable (especially during weekends), and security was particularly lax.  This lead to the leaking of the price-fixing stories to the press.  As a manager (and not a teacher) he would have earned a manager's salary c.£80,000(accurate figure).  The average teacher, even a relatively senior one, would earn significantly less than this figure.  Finally, the head of IT left several days before this article was published, and before the story was leaked to the press: the two events are therefore unconnected.   The scotsman  urlLink article  is perhaps most accurate, noting:  "A parent of one boy at the college said rumours were rife over why the staff had been suspended, but he did not believe it had anything to do with conduct involving pupils"   Glad someone noticed that this particular investigation is not in the same league as the Metcalfe affair  "He [T Cookson] said: “Two masters have been suspended pending an investigation. This is a confidential staff matter and standard practice.”" Now we look at the alleged reasons given for the dons' suspension.  The press claim that pornographic websites were accessed, the school make no comment.  Must be a conspiracy theory, I hear you shout.  Well, no.  After the suspension, rumours rapidly developed, with everyone having heard something from someone who heard something from someone.  Pupils were surprised at having their lessons suddenly cancelled without cover, and no word was forthcoming from the management.  Then, some genius noticed the disappearance of the same 2 dons, around the time of the head of ITs dismissal.  They considered how the two could possibly be linked, and a story was born.  Since the 23rd of March, the two teachers have remained away from school.  The pupils under their care were preparing for exams and have had their teacher removed without explanation.  An air of secrecy covers the school.  Dons don't seem to know what's going on, and if they do, they don't talk about it.  Meanwhile, the school makes no statement, which is very odd considering their fast same-day response and  urlLink press-release  to the Metcalfe  urlLink acquital .  They have been very tardy in making any comment while they perform their enquiry.  In the meantime, entire sets have been to the headmaster's office, demanding their teacher back, and an entire house has signed a petition demanding their house-tutor back.  In this instance, the teachers are popular with the boys.  The school authorities still remain silent as they continue to "investigate".  I suppose we shall have to wait for the administration to make some form of firm decision, and perhaps even reveal what it is they're investigating.   Until then the pupils wait patiently for a timely resolution to the matter, and hope for the return of two excellent teachers.
+     
+   
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+     
+      The former Winchester College don Peter Metcalfe was cleared of child cruelty charges on Monday.  Read the article  urlLink here (BBC),  urlLink here (Scotsman), or  urlLink here (Guardian).   Metcalfe had been suspended from his teaching and housemaster role since April 2003 ( urlLink school press release ) pending the results of the police investigation and any subsequent prosecution.  Monday's  urlLink press release  from the school,  "hopes that the matter is now finally closed."  Was this a poor choice of words, press officer?  Or does the school really hope that the matter is  finally closed .  I presume the school mean that they hope justice has been adequately served, rather than a hope for an end to negative publicity, irrespective of a fair trial.  Interestingly the Scotsman said  "Winchester Crown Court was told that the Crown Prosecution Service did not believe there was a  reasonable prospect  of a  conviction  and offered no evidence against Mr Metcalfe." and "He is now expected to be reinstated."  The BBC was perhaps kinder stating  "the prosecution would offer no evidence against him...He had faced three charges of assault and ill-treatment of a child."   It is interesting the way a story can be spun.  Metcalfe is presumed innocent as no case has been made against him, and his reputation is thus unblemished, but the Scotsman appears to spin that fact into an article that almost suggests the prosecution couldn't be bothered to argue their case (or indeed the 3 young adults are no longer willing to face the humiliation of testifying). Internally there has been little public fanfare or indeed any acknowledgement at all.  This has been too much of a headache for too long, I suspect. One don said to his set on Monday afternoon  Mr. Metcalfe has been cleared of any wrongdoing, and his name is completely clean... I always  knew  he was innocent, and I am glad this has come to an end for him. I'm sure if any of us were innocent of such charges, we would also be pleased to be acquited.  But, how can you "know" someone is innocent of a crime in which you yourself were not privy.  Especially when it comes down to issues of "assault" and "ill-treatment of a child"?  Like all such child-related matters, the mere fact that someone acts professionally to colleagues and appears to be a "good-bloke" doesn't ensure that he is (or isn't) innocent.  Undoubtedly, there will be a few in the school who remember what it was like to be in Metcalfe's house, and it is surely them to whom we should turn for a character reference - I certainly am no expert. -- Bizarrely I've just noticed that if you search Google Groups for "Winchester College" you find some strange posts (no. 3 or 4) relating to Peter somebody.  Add Peter to your search  urlLink query  (or indeed metcalfe), and you get back the strangest reports and accusations from a few years ago.  Anybody have any idea of what that's about?
+     
+   
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+     
+      If you hadn't guessed, I'm a  urlLink Wykehamist .  (Hence the URL of this blog).   urlLink Winchester College  was founded in 1382 by William of Wykeham and is an unique intstitution.  The school was originally founded for 70 'poor and needy scholars', but now educates 700 Wykehamists at any one time, the majority of whom (630) are called "Commoners".  It  urlLink excels  academically, often topping the UK secondary school league tables.    Like all good public schools, Winchester is steeped in history and tradition.  Much has been written about the college's history, including a selection of  sixth centenary essays  collated by Dr. Custance.  Wykehamists like school boys all over the UK have extended and adapted the English language spoken within the institution.  The words used (almost) exclusively within the College are termed " notions "( Hardback ).   Several books have been written compiling the Notions.  However by their very nature, Notions are ephemeral and often specific to only a single generation of Wykehamists.  Indeed many of the notions in use today are very different to those collected by Charles Stevens. More recently as Winchester becomes increasingly less insular and the men in the school communicate more freely (helped by the un-banning of mobile phones) the use of Notions is starting to disappear altogether.  Winchester claims to be the public school with the longest unbroken history of continuous teaching.  Like all institutions Winchester has had its share of problems including its very own revolts (c. 1704 rebellion of Fellows), and, being a famous public school, the media are always keen to expose any flaws.  A headmaster's departure, allegations of price-fixing, teachers' suspensions, and the headmaster being blocked from the HMC are just a few of the items capitalised upon by the press over the last year.   As far as I can tell there isn't a large Wykehamist presence online.  (At least no blogs that I could find.)  A few collect and chat on Everything2 (indeed there is an E2  urlLink group  of them).  Of course none of this adds to your knowledge of what it's _actually_ like to study here.  The answer is, of course, it depends.  It depends on your house in the school, on your personality, your academic ability, and it even depends on how well you can and will gel with your housemaster.  Any advice for future wykehamists?  Yep, do your research.  Research your future house and housemaster carefully.  It is very important for you to get a feel for the place in which you will spend 5 years of your life.  Winchester College isn't for everyone, though the academic education in most instances is  urlLink excellent , not everyone is an academic, and even if you are, the Winchester environment might just not be your cup of tea.  Overall I and many others have found the experience to be worthwhile.
+     
+   
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+     
+       urlLink I've just been perusing the GFS filesystem paper.    If you're at all interested in computers, google, gmail, and large clusters.  Take a quick look.  The system allows scalable, high capacity, high bandwidth, storage.  As is evident from Google's   Why should this matter to me? Well, one word, GMail.   I am, of course, assuming that Google's upcoming GMail is running off of a GFS cluster. However, this seems very likely as GFS is quite so cool.  What is relevant here is the way data is stored in 64Mb 'chunks'.  And the way in which many "clients" (this could be a process writing files or indeed a user accessing data) can easily append to the same file.  This allows google's e-mail service to accept multiple messages simultaneously, as well as having your mailbox indexed, de-spamified, copied for the FBI, etc.   However, GFS was not designed with the aim of efficient random access writing.  There is a primitive garbage collection system imposed by the Master server.  For Google's needs, data is appended to files rather than inserted or changed mid-way through.  This is fine of course, for caching.  However if GMail is used, and a user delete's a message, although the message may no longer display in the main inbox, it is very unlikely that the message will be removed from GFS.  This is because the message will be stored in a 64Mb chunk along with many other messages.  GFS can not guarantee a message's deletion is an actual deletion, and indeed it would be too intesive for messages to be deleted immediately.  Hence the issues for privacy groups, the EU and concerned users.  It is of course possible for Google's GMail software to poll mailboxes periodically, rebuilding the chunks containing deleted messages.  However even then messages would certainly persist for some negligible time period, and the increase in cluster load versus the wasted use of disk space would ensure that under optimal conditions, such rebuilding would occur relatively infrequently.  I can see GMail privacy as being an issue for those who have something to hide, or indeed those targeted by an evil agency somewhere.  Like all providers, I suspect we're just gonna have to trust google to be nice about disclosing info about us.  Remember folks, "Do no evil".  Any comments on this -- or indeed anyone want to offer me a GMail invitation :) ?
+     
+   
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+     
+      Got around to creating myself a blogger account.  Thinking of something interesting to post.  Failing.. 
+     
+   
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+     
+      That's what this is.  We've got one and it's simply amazing.  No, really, it is.  No longer does ISA go down simply because it thinks the weather is oppressive, or filserver kick the bucket in a fit of fileserving anxiety.  Nope, the network is up.  What's more the pupils appear to be being rather good (or rather cleverer than they were...)  Arp poisoning/spoofing is at an all time low, with one exception.  One of the Ciscos (well two actually, but the other less frequently) flip-flops MAC-address sporadically. The strange thing is, it's between an Etherwan(k) MAC and the normal Cisco MAC. I can't really understand this, I must admit.  Perhaps it's evidence of a baddy, who's to say.  Must look into it at some point (when I can be arsed).  Of course still irritated that WebSense kicks in at 11.15 -- will kick it back if it's not too careful.  And annoyed that the Cisco's switch of entire network segments at that time.  Really not necessary people.  Although there are valid arguments for it, I concede.    So, well done Mr. T.  You're excelling thus far.  Yours,  Pleased network user.
+     
+   
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+     
+       Following in the great tradition of taking things literally (amongst other things...), and an Old Wykehamist (OW) has decided that going from A to B would be a great thing. That is, A, a village on a small island off the coast of Norway, and B, a small village in Nebraska, USA. By bike. And document it. See  urlLink http://www.fromatob.org.uk/  for all the furry fun and dastardly details. 
+     
+   
+</post>
+
+<date>05,June,2004</date>
+<post>
+
+     
+      Wow how things have progressed.  Leave out finished on Thursday, and within minutes of our return the  urlLink Sasser  virus was tearing the network to shreds.  The school servers, of course, died catastrophically.  Firewalls anybody?  With GTM gone and CJL off sick, it looked like we would be in for another 2 weeks of the network switched off.  How wrong we were.  Welcome Mr. Taylor.  Yesterday was his 8th day on the job, and he seems to be coping with the environment well.  He's certainly been thrown into the deep end and doing rather well, if I may say so myself.  The network was down for all of a day.  What a change from the non-existent network of yesteryear.  ISA was completely rebuilt within a day, and Mail, as far as I can see, has continued running without a hitch.  Computers are being patched and virus scanned at an amazing rate.  Meanwhile the network remains up, causing the least inconvenience to those already patched (or who don't need to be patched).  I must say, we are all very impressed.  Still no news on the suspended teachers.
+     
+   
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+     
+      The following is an article that resulted in quite a controversial withdrawal of an arguably prominent intra-school publication. It has been altered from the original text to protect the identities of any specific third-parties, and any alterations (**a)/deletions (**d) are denoted by the given asterisks. Enjoy.  Just a few months ago, I was sitting in an ostensibly relaxed hour inscribing demotic English concerning the person opposite me into the desk. While I write this, my don is in a court being accused of crimes. Surprised?  I was. This lack of two vital teachers has impeded the school and affected every one of us. People with GCSE, AS and A level exams have been forced to share classes with 30 people in a class. Pupils have been forced to sit on the floor in classes, with important exams looming. (**d) Despite all the school provides in terms of an education it doesn’t seem too capable of communicating itself with the students or the parents. The students didn’t get recognised as important enough to be informed. There was not even a letter home to parents explaining and apologising the circumstances. This is detrimental to the relationship between the school and its pupils, impressing upon them that people in power are always going to lie to them. This lack of communication gives rise to the ever-forthcoming rumours, which the school’s governing body is so perturbed by. When the mirror prints an article suggesting that two dons have been suspended for offences related to “child porn” and then mentions that this is absolutely untrue halfway through the article in two small lines, it becomes a matter of speculation regarding who is leaking these stories? A well-informed don or housemaster is unlikely to have done. A resentful and slightly spiteful student may feel it his duty to release the news to the world, which he either believes is the truth, or that would galvanise an investigation pertaining to the previously suppressed information. These rumours have put a dark mark onto these unfortunate dons. As always the rumours are bound to be worse than the truth itself. So why isn’t a shadow of the truth told to us in order to suppress rumours? When dons are confronted with these rumours, some shy away, some deny any knowledge at all.  Is this true? Are the dons as ignorant as us in this matter? If so there is something very wrong with the hierarchy of this school, so that the friends and colleagues of these men cannot be told. With the emptying of the don’s house (**d), it became clear that the matter had become more serious.  Would you empty your house if you were coming back? With a don (**a) successfully cleared of charges, the school is now in danger of being sued by him. This has made the school very weary of legal affairs. The school understandably doesn’t want to be involved in more legal affairs, so they have decided to not divulge any information to anyone. This is much too drastic a precaution. Admittedly, it is wise for them not to tell the pupils the details, but no information has been given at all. Us men in the school don’t want, or need, the gory ins-and-outs of the affair, but we do want some explanation as to why our exam results are under jeopardy and what is going on in our school.  OK, before you comment, try not to be silly and ask who the dons in question are, and for any further specific details. To us, the reputations of the respective dons are more important than any perceived desire to shake the school's foundations, as it were.
+     
+   
+</post>
+
+
+</Blog>

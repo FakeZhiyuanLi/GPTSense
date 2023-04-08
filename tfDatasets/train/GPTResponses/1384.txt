@@ -1,0 +1,1 @@
+is known as a compiler. The compiler takes the code written in a high-level programming language and converts it into machine code, which can be read and executed by a computer's CPU. This process is known as compilation, and it ensures that the code is converted into a format that can be executed efficiently and accurately by the computer.

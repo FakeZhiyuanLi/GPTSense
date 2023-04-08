@@ -1,0 +1,437 @@
+<Blog>
+
+<date>08,August,2004</date>
+<post>
+
+       
+      I'm gettin more fond of workin in console and I just found out bout  urlLink SCREEN - the terminal multiplexer  which is also in the FreeBSD 5.2.1 ports collection. What is it? Simply put it's a window manager fer console. Err.. Console manager. I have to try this :). Later.
+     
+    
+</post>
+
+<date>07,August,2004</date>
+<post>
+
+       
+       urlLink X windows font software  is a great site featurin tons of links related to fonts. I'm currently searchin fer fonts to go with the nice console now.  urlLink http://www.1001freefonts.com/  is a font related site worth visitin too along with  urlLink http://www.highfonts.com/ . Ahh.. Lovely.   urlLink http://www.proggyfonts.com/index.php?menu=download  is a font site related to console along with  urlLink http://rockbox.haxx.se/fonts/ . Mind you though I havent try out any of the fonts.
+     
+    
+</post>
+
+<date>07,August,2004</date>
+<post>
+
+       
+      Heyya, I just found out somethin related to FreeBSD console while I was readin  vidcontrol ,  syscons ,  rc.conf  and  vga man  pages.   I add this lines to the kernel configuration file -  VAMKERNEL :   options		VESA options		SC_PIXEL_MODE   and recompile the kernel. Then I added these lines into  /etc/rc.conf :   allscreens_flags="-g 100x37 VESA_800x600"   After I rebooted, the console screen is much nicer with high resolution of 800x600 pixel even after  KDE  exit! Yay! No more garbled screen after loggin out of X! Right now I'm searchin fer nice fonts to go with this extra nice console resolution so more on that later I hope. I'm gettin more comfortable with workin in console and know what? I wrote all this usin  ee  in console, no  X . :).  Oh, I remember that older FreeBSD version have the colorfull boot console with interactive startup etc. Very nice. I wonder if 5.2.1 can do that. The 5.2.1 console do have color but not as strikin and colorfull as the 4.x. Take note that if you want to change your console settings, make sure you read the  vidcontrol  manual page as this settings I've used might not work with your pc/laptop.  The new  /etc/X11/XF86Config ,  /etc/rc.conf  and  /boot/loader.conf  has been uploaded to my  urlLink homepage . Still, there's lotsa redesignin that have to be done with the [ FreeBSD & Me ] section. Ouch, fergot to upload the  VAMKERNEL  kernel config file. I guess I have to simply edit the copy I have in the website.
+     
+    
+</post>
+
+<date>07,August,2004</date>
+<post>
+
+       
+       urlLink The FreeBSD Console - Living without X  is a good read fer tweakin the console. I was searchin fer some tips on makin the console screen less garbled when X exited (after loggin out of KDE fer instance, the console's screen alignment and refresh rate kinda messed up). I dunno what version of FreeBSD though this guy is talkin bout but it's definitely worth experimentin.   urlLink http://www.gsp.com/cgi-bin/man.cgi?section=4&topic=syscons  too deal with on how to make the console experience great. There are many good sites on how to make FreeBSD console more attractive and it's just a google away.
+     
+    
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+       
+      I've just finished compilin a custom kernel. I just figure out that  uhci  module will detect my usb mouse etc and I have to enable  ohci  module to make it work. Bad me. I disabled  ohci  on thinkin that only  uhci  is needed (blame  dmesg  output fer that) and I was granted with useless mouse. Neither of my touchpad or usb mouse was functional. Lucky me I still remember the kernel compilin sequence so I quickly enable the  ohci  module in my kernel config file and recompile the kernel.  I also notice somethin. The 1st custom kernel compilation is the longest. The later will be much more brief and quick. Yeah. Newbie. Damn proud!  KDE work. Now to add sound module by editin  /boot/loader.conf :   snd_pcm_load="YES" snd_ich_load="YES"   More tweakin to make the usb mouse's wheel button and touchpad tappin work later.  /etc/X11/XF86Config  too will need some adjustment. Yeah, it's all back to square one. Tirin but it's a satisfaction. Right now I wanna play Worms 3D. later.  I hope KDE won't go wacko till I get all the standard tweak adjusted.
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+       
+      Ah, I've bought 4 new CD-R media and I've just finished burnin the 5.2.1-RELEASE Boot and LiveCD. I've installed the XFree86 packages too so the installation part is practically over. The installation walkthrough is nearly complete too so I guess it's just the matter of (the right) time till I get it uploaded to my  urlLink homepage .  Currently I'm searchin fer tips on how to make the console screen garble free after X exited.
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+       
+      I've just finished doin a fresh install 5.2.1 on this laptop. Yeah I know I said that I'll be doin it later but heck, I can't help it. The walkthrough is complete but lackin in XFree86 stuff because my FreeBSD installation CD 1 is faulty. Damnit!. Thank God I have the ISO in my XP partition so it's just a matter of findin a new media so I can burn the installation ISO and continue installin XFree86. Although I can't use the X yet, the 5.2.1 installation is complete and functional. The partition layout and size are still the same as the old layout. The new installation is much more minimal than the last one and I'm pretty satisfied with it.  The new installation walkthrough will replace the old FreeBSD installation details currently in my  urlLink homepage  soon. After I burn the 5.2.1 installation's ISO into a new media and install XFree86, then I'll start tweakin my FreeBSD such as compilin a custom kernel, editin fstab, loader.conf etc. Soon.
+     
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+       
+      Still about the KDE error. I tried somethin today. KDM is still disabled so I was greeted with console. I log in usin root.   vampire# cd / vampire# mkdir backup   I go to root folder "/" and create a directory named "backup".   vampire# cd /usr/home vampire# mv Alsemo /backup/Alsemo   Here is where I move (mv) my Alsemo's directory to the newly created "backup" directory.   vampire# rmuser Alsemo   This is the command fer deletin my Alsemo user from FreeBSD system. It's interactive with some questionaire on option to remove home directory etc so I just choose yes to all.   vampire# adduser   This is the command fer creatin a new user. I create the Alsemo account again and follow the interactive questionaire provided.  When it's done, I log out from root and log in usin Alsemo. Issuin  Startx  take me into KDE but all my settings is lost (temporarily, remember the "/backup/Alsemo" directory?). So basically, Alsemo's KDE session is saved fer now. Thinkin bout restorin the /backup/Alsemo folder into /usr/home/ again, I log out and log in usin root. The catch? My root's KDE crash! Now my recently OK KDE under root crash. But it's ok I guess, so usin console, I went on restorin my Alsemo's home directory.   vampire# cd /usr/home vampire# rm -R Alsemo   So now the Alsemo directory is gone.   vampire# cd /backup vampire# mv Alsemo /usr/home/Alsemo   And the old Alsemo directory is successfully restored. Now on to test if KDE can work. root log out and Alsemo log in. The result? KDE still crash. And like I've stated above, now both root and Alsemo can't get into KDE. *sigh*. I'm thinkin bout doin fresh install ASAP. Can't wait fer 5.3. I'm currently layin out some important details like kernel config, partition layout etc fer the next installation. Mind you though that FreeBSD is still fine and healthy here, it's just that KDE gone wacko and as I'm a newbie (damn proud!) plus eye candies sucker, KDE is important to me.  My next installation should be the real deal. Optimizin the installation and gettin FreeBSD to run as long as I live. My current experience has teached me a lot regardin how to make the best possible FreeBSD installation fer my Clevo M22ES so fresh install is a must. My current 5.2.1 installation is just a test bed fer this upcomin fresh install. Some thing I'm keepin in mind:  1. Install FreeBSD + KDE no sshd and any other server-type daemon (laptop doesn't need that). Currently my machine is kinda bloated with stuff my laptop doesn't use so the next will be more optimized. 2. Recompile new kernel with: SMP disable (no multi processor here). There are some other option(s) I'm still learnin right now. My kernel is currently bloated too with things my Clevo don't use and I kinda have a few hints on the most suitable kernel config fer my next installation 3. Enjoy it.  I'm still thinkin bout IPv6. Mebbe I'll just enable it. My  urlLink homepage  detail on FreeBSD 5.2.1 will also be replace with a new walkthrough once I started doin the next fresh install.
+     
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+       
+      I just thought of somethin. I might as well wait fer  urlLink FreeBSD 5.3  which will be released soon (1st October it seem) and after I grab meself the ISO, then I'll fresh-install it here. But my 5.2.1 info contained in [FreeBSD & Me] section I've been doin in my  urlLink homepage  bothers me. Many of the problem I've encountered are still unsolved and I think those problem I've uploaded might get irrelevant if I switch to 5.3. Doin a fresh install will test out if my own info in [FreeBSD & Me] will help me through it or not. I think I'll make 1 more installation walkthrough on my attempt to install 5.3. The files related to 5.2.1 will still be there and archived.  I found a few tips bout my KDE problem on google.  Rename  ~/.kde , use  startx , disable  kdm  in  /etc/ttys ,  I tried that with no success. KDE still crash and it's gettin worst. I get a few more *.core dumps in my home directory which I can't remember. I guess my method of tryin to solve this specific problem are pretty much more destructive than helpin so it's best fer me to do a fresh install. Why the heck does  root  can get away with this problem? Seems like there's somethin wrong with some KDE's startup script or somethin. Definitely KDE's fault.
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+       
+      Still havin the KDE problem. googlin usin relevant search query such as "kdeinit error freebsd" show that there's people with the same problem as me. It seems that the problem just have effect on specific user id only (eg: root or normal user). In my case, it's my normal user (Alsemo) which can't log in KDE. I tried turnin off  kdm  in  /etc/ttys  and use  startx  but still can't log in. KDE keeps dumpin kdeinit.core and ksplash.core. I guess I just have to wait fer some time and see if any of our (me and the guys who have similar problem) post get replied.  I'm still thinkin bout reinstallin 5.2.1. Probably soon.
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+       
+      Still with the KDE error but I learned a new thing. Uncommentin  load "Glx"  in  /etc/x11/XF86Config  does put away the  Xlib:  extension "GLX" missing on display ":0.0".  error in  ~/.xsession-errors . That's why although in  XF86Config.new  the  load "Glx"  is already uncommented before, the error still persist. It's that I need to change the  /etc/x11/XF86Config  file too to reflect the changes.  I'm thinkin to reinstall 5.2.1 from a clean state. Not because of the KDE error I'm currently havin but as I've learn a few good tips like optimal kernel config, loader.conf etc; I think I should reinstall 5.2.1 (and heck I need to practise installin it).
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+       
+      I have a problem last night. I tried to log in  urlLink KDE  usin my normal account id but as soon as I put my id and password in the  KDM 's box,  KDE  crash? on the splash screen and the screen turns to console tellin somethin bout kernel failure and it freeze. Ctrl+Alt+F* and Ctrl+Alt+BackSpace didn't work leavin me the only choice of hard reboot. After the reboot, my normal user id can't get in KDE and it seems that everytime I put my id and password in KDM, the KDE's splash screen doesn't appear and the screen turn to KDM again leavin a cycle of endless trial of loggin in. My Alsemo id still can't get into KDE.  My  root  account can successfully log in KDE and after I browse in the Alsemo's home directory (my normal user's id), I found  kdeinit.core  and  ksplash.core  dumps in it. Right now I'm in the office so I can't get the dump's details to publish here.  As the  root  doesn't seem to have this crash problem, I guess it has somethin to do with some configuration I messed with but I can't remember which one.
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+       
+      Heyya, it's me Karl. From now on, I'll write bout my experiences with  urlLink FreeBSD  runnin on my Clevo M22ES clone here. I think it's much simpler this way than to update the [ FreeBSD & Me ] section in my  urlLink website . The [ FreeBSD & Me ] section in my website will still be updated whenever possible though as I figure out on how to keep the information confusion-free.  This blog will be open to everybody's comment and/or suggestion so I hope there'll be somebody who'll actually help me out here.
+     
+    
+</post>
+
+
+<date>31,May,2004</date>
+<post>
+
+	 
+      The contest was great! We was the 3rd band playin that night and though the crowd are more towards "family oriented (you know, the silent type, just bein there coz it's an event)", I had a good time. The other bands were very very tough, some are a known pub/club performers. Yeah it's a bit unfair but who cares. The main thing is that (at least) me and the band had a good time. After we've played, we all went fer a drink then get our butt home while the contest is still on. Why wait? As I've mentioned earlier, it's very very tough. I wish there was more supportive crowd though. Even the best band I've known who played before us had to deal with the "clap when the host tells you to" kind crowd. Man. Now, I'm waitin fer gigs. It'll be much better.  Ah, losin somethin and gainin somethin back. You know what, I've passed the Takaful Nasional's exam so now I'm officially a Takaful Nasional's insurance agent. Now I'm thinkin of what to do with that title. Hmm, computer still floats my boat :P. Till then.
+     
+    
+</post>
+
+<date>28,May,2004</date>
+<post>
+
+	 
+      Huh? What? Yeah, it's utterly insane. Another last minute changes have been made. We, me and the band I'm playin with fer the contest will be playin tonight at 9 o'clock. Am I shocked? Do I look like I'm shocked? Yes, I'm pretty much shocked by all this insanity. Who the hell do the organiser think they are anyway? Man if this is MY band then I'd be happy to quit the contest but it's not, so, I'll be playin tonight and I think I'm ready.  Ahh, the good news is, we'll only be playin 3 songs. Pawana - Search, Pelesit Kota - Search and Like a Stone - Audioslave (yay!). We've jammed last night and it looks like everybody's ready. So, fer those who's about to rock tonight, we salute you, and you, you, you, and yeah, you too.
+     
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+	 
+      Another changes. 1st I wanna say sorry fer some misinformation which is purely unintentional and neither my fault to begin with. Ali said to me last night that the band competition that I was supposed to be playin, is NOT on this sunday. There. Such an embarrassment. Darn.  It's on 29th May 2004 which mean next week. I'm waitin fer another changes on the matter. This is crazy I know, with all the changes given at the very last minute not to mention I've blogged the contest date yesterday. I hope this is the LAST changes that I'm gonna hear. The good thing is, I have an extra few more days to practice another 2 songs. Oh, Ali have given me the last 2 song's cassette last night too. Till then. Ta!
+     
+    
+</post>
+
+<date>21,May,2004</date>
+<post>
+
+	 
+      Sometime there's a thing that I just can't make up whether if it's a good news, or a bad news. To look at it from a different side, different angle. Still, I can't make up my mind.  However, I'm got 2 news that I just can't make up whether if it's good or else. 1st: My company is goin to open up a branch doin travel and tourism stuff. 2nd: I'm fillin up a bassist spot fer a band competition this comin sunday.  My friend and his band signed up on this Battle of The Band sorta thing bout 2/3 weeks ago. If I'm not mistaken, they've played the early round and this sunday is the final round. I know this guys coz most of the time I'd hang out with them at restaurants around my neighborhood. Me and Ali, the drummer fer the band, we casually jam together just fer fun. Somehow, their bassist, Rizal, gone M.I.A a few days ago. So Ali got this idea to pick me as the session bassist fer the contest. So, it's perfectly great is it? Not really, I mean, we're gonna be playin on THIS Sunday! Hello? Do the math. They've been plannin to play 4 songs, changed 1 of the song yesterday (I was told this evenin) and which up till today, I've practice only 2 songs startin from uhm, lemme see, ah! startin from LAST NIGHT! And right now I've no accaustic guitar to practice the songs with, not to mention that I'm still waitin fer the cassette the other 2 songs. Oh, I fergot to add 'writin my Blog at the same time' to the list. Pressure is a bad habit, I know. But this is suppose to be a very important contest fer them. I'm not gonna be the one that fergot the chords all of the sudden, on the stage, infront of all the chicks that's watchin us perform. Hell no.  Different genre also adds to the tense a bit. I'm more to metal stuff and this sunday I'm gonna be playin songs like 'Pawana', 'Pelesit Kota', 'Mat Rock' (I never heard of this title before!) and thankfully, 'Like a Stone' from Audioslave. I know Pawana is Search's song but the other 2, is still a mystery. By readin the list I think you guys get the idea that this is a Rock band. Well, it is. Nothin wrong with that but fer a metal guy like me to get the rock groove right, lackin in time to practice and hopefully perfect it, is pretty hard. The last time that I've heard Pawana was about 14 years ago, when I was in form 2 or 3. Audioslave's is a new song, you can hear it on the air frequently but I never bother to practice it until last night.  The ok part is, I can try to prove myself that I can play lotsa kinds of music. And playin on stage too! Ho boy it've been a loooong time since I last perform on stage infront of live audience. I hope my part will be ok this sunday. I hate to dissappoint the guys. If somehow my part is lousy, well, I have to accept the fact that I'm still not that good. To those who's around the neighborhood, you can see me perform (with my Ibanez TR 4 strings, baby) on 23rd May 2004, 20:00 at: Dataran Senawang, Senawang Business Centre, Seremban, Negeri Sembilan D.K.  The 1st news is that, I'll be able to do different job, in a new office, but still workin in the same company. 'nuff said. Hopefully it comes with a new salary plan. *grins*
+     
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+	 
+      It has been a few days since I've taken the Takaful Nasional's examination. My 1st time takin an insurance exam. Well, though I'm workin in an insurance company, it doesn't mean that I know anythin bout insurance. My company is a used car cum general insurance company but I'm takin a life insurance exam. Sheesh. What am I doin?  The exam was ok, the guy who proposed me to take the exam gave me the book, 'Takaful Nasional Exam Guide' 2 weeks before the exam and I let it dusted in my room until the last minute. Can't blame me on that. Insurance is an alien thing to me. Computers floats my boat. But seein the confidence the guy had fer me, I dunno, it doesn't hurt to try does it? And as fer now, I've known a bit more bout life insurance in general. Maybe it's worth to try. Well, how long am I gonna be workin here anyway? I'm sure that I'm not gonna spend my whole upcomin life workin here. Computers still floats my boat. My commission has been cut leavin me just the basic salary startin from this month. Darn. More and more, I'm losin interest in this job I have.  I kept dreamin bout workin on a cruise ship, sailin around the world, seein new faces, just knowin that my homeland is far from reach. This month is the answer, did I get the cruise ship job I've applied for or not. I wish my visa's application is approved. I need to be somewhere else. And the advertised salary is good too. Too good. It've been a nearly a year since I've been back to my hometown and yet I feel like it've been too long. It's not that I don't like it here, it's just, hmm, how should I put it, it's too familiar to me. Failin on the foreign places is a challenge to me but when you know that you're failin on your own place, it's too much. And I know I'm startin to fall. This habit of job loyalty is costin me. I must make a move to make MY life better, not anybody else. That's why I need a new job.  Darn I sure hope I do get that cuise ship job. In fact I've put other job application on hold because of that job. I guess I'm puttin too much hope in it but hey, that is the chance fer me to actually go places I've only dreamed of goin. Not to mention the chance to raise money fer my ultimate future plan. Like I've said, computers floats my boat but as fer now, my boat is sinkin and the water's too deep.
+     
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+	 
+      Ah.. Like I've said, 'boredom creates creativity'. I'm bored, and it makes me creative.  So what did I do? u ask. I overhauled my personal homepage. But wait! It's not finished yet. There's still many things to do and I'm tryin my best to complete it. Let us just hope that I'm not that lazy. I'm taken the Takaful Nasional test this mornin. And how is it? No comment. That's all. Ta!
+     
+    
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+	 
+      Yeah, I skipped work today. But hey, I still have this flu. Usually it's an annual thing, this flu. But nowadays, it's gettin more frequent. Must have been my work. I'm gettin lazier every mornin. This sort of work makes me tired easily. Ridin bike almost 70% of my entire workin day, bein burn under the sun, facing those insane road dwellers. Damn drivers. Some of em sometime give a wrong signal and most of them don't give any at all. Yesterday was my 2nd motorbike accident in this year. I got hit by another bike. Nothin serious fer me, except my bike got some damage on the back.  The other biker was a man, on his 50's I guess. I was on my way home, takin an early leave because of this flu. I stopped at the traffic light then turned right ridin at 50km/h - 60km/h on the main road. There was a car infront, came out from the side of the road and did a left turn. It's ok because I was about 30 meters behind and I'm not ridin that fast anyway. But this man behind that car, who parked at the same place the car was, he too just rode off like I'm not there. I was less than 20 meters behind, ridin more the the right side of the road to avoid that darn bike but "Hey what the?", the man made a right turn all of the sudden. I grab the brake, skiddin at the same time as I saw a bus comin right in front of me about 20 meters away.  BAM!. The bike hit mine sendin my bike skiddin off the right side of the road. Luckily I didn't fell off my bike but the man did. The bus stopped fer a while, then rode off slowly.  I stepped off my bike, angry and pissed-off until I saw the age of the man that just hit me. God, why this? For the sake of being responsible, I pulled his bike upright. "Are you blind or somethin?" The man spoke. For sure, he's tryin to blame me althought it's clear that it's HIS fault.  "Where are your signals?" I replied briefly, tryin not to lengthen the useless arguement. As the man tries to stand up, I saw bloods on both of his arms. I fell sorry fer him. Then a women sellin vegetables a few meters away came and asked what is happenin. The road ain't busy anyway so it's pretty clear I guess for the people around that area to see what's happenin. Then she and the man spoke in chinese. Great. "He came from the side of the road then made a surprise right turn without any signal" I replied shortly, tryin to defend myself.  "He rode very fast" The man tries to blame me again. Great, just great.  "Hey if I didn't brake my bike and tries to evade, maybe I would've rode through your bike." Now I'm really pissed off. I'm havin a flu, and now this. Damn. I went to my bike and rode home. I guess he didn't make any report and I don't bother to make any. But if he did, I'm ready cause I know he's wrong. 
+     
+    
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+	 
+      Ah. Looks like I'm bloggin now. Right now, I'm tryin to tweak settings in here so and I (definitely) have no idea whatsoever on what to write in here. Maybe later.
+     
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+	 
+      Ah, this is my 1st time writin blog in FreeBSD. Right now I'm usin KEdit, a text editor fer KDE Window Manager. Listenin to my MP3s contained in my NTFS partition, practicin Soilwork songs fer this week's jam session with my band. I think I'm havin too many things to do daily. *Sigh*.  Obsession. I'm obsessed with many things. Music. Computer. And that's just the main category. Sometime I feels like I can't keep up with it. My band has added 6 new songs to play fer our next jam session this Sunday. We're gonna be playin a total of 17 songs includin the 6 new songs. My headphone broke so I just have to practice by hearin the songs from this laptop's speaker. Which is ok but the sound of bass is lousy. So I pretty much have to figure out the bass's note myself. Ack. Of all the band I've been playin in, this is the craziest. I mean it. In a positive way of course :). This Sunday will be another 4 hour session of non-stop madness. Phew. In fact since Nuar joined the band, our jam session has never been the same anymore. We're all under mental and physical torture jammin 4 hours everytime we practice. I mean, look at the song's list. 14 Arch Enemy's, 2 Soilwork's and 1 Iron Maiden's.  But it does keep us, as a band, tighter. I can sense that we are all more enthusiastic with our performance. Each of us is important though it's just the 4 of us. 2 weeks ago, we jammed without Bobby, and hell it was hollow, the sound is incomplete. And that session is still hauntin me. Damn. Can't wait fer this Sunday.  Man, I think I need to go to rehab. FreeBSD is ruinin my life! You hear me?! Huh! Those darn developers. They think they can get away with this? Who the hell they think they are?! I know. Mebbe they've put a text like "I'm addicted to FreeBSD" that blinks faster than my eyes can see. You know, like the banned advertisement strategy, which a text blinkin which you can't see, but your mind can. Like a hypnosis or somethin. I'm sure they did it here to. Those developers. Why? To make FreeBSD addictable. It's not my fault that I have to boot my laptop with FreeBSD everyday. No sir not me. It's not my usual self to read pages and pages and pages of FreeBSD manuals, Handbook etc. It's not even me, myself that continuously editin config files, testin some ports/userlands. It's bizarre! I don't speak jargons before! Ahh! How can they let it be downloaded fer free! Outrage! Them developers purposedly let people to grab a copy of FreeBSD, so you all can install it on your Windows PC, 1st dividin the disk space and blam! before you know it, FreeBSD owns the whole PC. You think you willingly dumped Windows but nooooo. You're wrong. FreeBSD made you do it. Trust me.  Sorry Mr. Bill. I didn't shrink the XP partition here on purpose. FreeBSD changed me. And I can't fight it. It's too strong. Everyday I'm gettin to know more about how OS works, gettin to know more about my laptop, gettin to love workin with PC. FreeBSD made me do it. The temptations of gettin things to work is overwhelmin. Day by day I'm bootin to FreeBSD more than your OS and it's not me who did it, although physically I am. It's nothin wrong with your expensive OS, your insane EULA(s), your monopolithic business strategy. No, I loved it. I loved the way I just use my PC and not knowin what I did. I loved they way your EULA makes me feel like the software I bought is yours. I loved the way I have to lose my privacy just to use your OS. I really loved it. And I keep the lovely BSoD's screenshot to prove it. I want to buy the next Win whatever that you're sellin next but, I'm too weak to resist FreeBSD. And like I've said, I've changed. So guys, try FreeBSD. Huh? No I didn't say that.
+     
+    
+</post>
+
+<date>19,June,2004</date>
+<post>
+
+	 
+      Wanna know what? I read my mails today. Doesn't sound interestin huh? But waiiiit. Not just any email, it's my past emails. I guess my habit of keepin good emails in sent folders really is a good thing. I've this habit of savin emails I've sent and received in special folder. Like I've said, good emails. Like humor emails, emails from my ex(s). Ah, those are the times when everythin is lovely. Hehe. I'm doin a sprin cleanin on my email account when I stumbled onto those long fergotten emails. Wow, how I have changed.  Curiously, I opened one of the email from my ex. Darn, did I really said those things? Oh no, I'm not readin the 'let's breakup' mail but the one when love is still in the air. So they won't be any "You jerk, I hate you now this is my last mail don't you dare contact me again get out from my life" sentimental poem in it. I read the words I've said, yeow, the "muah-muah" bits, the "honey-darlin-sugar" namecallin (before it changed to "SoB, jerk, retard" so on.) and the sweet-talks. It made me wonder where does it went wrong. I guess the answer is, nothin is certain. Today we'll be 'smack'in the love of our live and the next day she/he'll be 'smack'in our face out of anger. Where is the guarantee in all of this? None. There is no guarantee. BUT. There's where trust takes place.  I guess everyone, I mean everyone have 'love'. Not 'love' the human bein, I mean 'love' the feelin. Come on, even the wackiest serial killer have love fer his/her pet or childrens or mom/dad or somethin else. There's even killin done in the name of love. Pfft. Pathetic. I don't mean it to the 'love' itself, I'm just pointin out to the 'killin in the name of love' issue. So, no matter who we are, we will always have that soft feelin inside us. As I read one by one the love emails I saved, I realized how much that soft feelin can change a person. It doesn't matter whether the changes that occur just have a temporary impact on that person, the main thing is that it does have an impact. Ever wonder where do this changes came from? How can we adapt to the changes like we've been trained before? Fer example, from a silent guy to a romantic person. Maybe he is not drastically transformed but he changed. From where did he learn the new self he's becomin? Ah, the beauty of it. Who knows, mebbe the loves he gets when he was a child, from his father and mother. But that's not the same love we're talkin here, in a way. Parents-and-son love is not that same as man-and-women love although the base is there. But the details, the in-depth feelin that differentiate the two category. Or maybe, he didn't changed at all, because to change is to have a new thing. How can he change if he already have love. I guess it's rediscoverin of the feelin.  The love is there, in all of us. Whether it's love fer God, love fer our parents, love fer our spouse, love fer our wonderfull planet earth and love fer gazillion of another things that man can think of. It's there. The love is naturally there. It doesn't need the english word 'love' to know that it's love nor in any other language. In another few years, if I stumbled across this blog-o-mine again. I'll remember that I have it too.
+     
+    
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+	 
+      Blasted keyboard. I accidently hit a Win key and my unfinished blog (this one) got refreshed and I have to rethink and rewrite it again (what else is new). Urghhh!  It's still rainin here. Hey is 1 day still equal 24 hours or did they throw out a few hours to make life a bit faster? Life pass us real quick huh? Yeah, real fast. And here comes August. My laptop is ants-free now so I presume it's a glorious victory fer me. Ah, my recently new hobby (readin other people's blog bla bla yada yada etc) just got expired a few days ago. It bores me :).  Oh no. They're doin it again. Please no. No no. NO!! It's my cats. I hate it when they're in their playtime mode. They'll turn my room upside down. Shoo! Aww, my CDs.. Noo... not my magazines.. AHHH!!!!  I'm thinkin of buyin either a Discman pouch which can hold a few CDs or a pretty good bargain CDs of Arch Enemy - Burning Bridges & At The Gates - Slaughter of the Soul. Hmm. This is hard.. But I think I'll go fer pouch. Or CDs. Hmm. Mebbe both?  Do you ever wish to meet someone who you've lost contact with fer a long time, but you know you can't? I do. I'm still hopin to find that person, just across the street, or a in a movin commuter up above me.  I even searched the name in google. I should gave up on that a long time ago and move on.
+     
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+	 
+      Urgh. My laptop is still infested by tiny red ants. I guess some bug died in here and attracted the tiny ants. Or mebbe some virus died, like Sobig or some other dumb VB/Excel/Word virus and this ants are somethin like uber ants, technologically advanced. Nah. Or izzit because of the Detonation songs I keep playin all the time? 1 thing fer sure, if the ants keep comin, I might have to say bye bye to this laptop fer a long while, or worst ferever!! (thunder strikes)  But wait. Here comes the artilery. I bought meself this, uh, drats it's written in Chinese. Anyway the mamak where I bought it told me that this powder stuph will kill ants. 'mieyiqing' somethin. And it does have an image of ants on the pack. It says that   A pack of powder can be used to rontroll to 2 colonies. The term of validity is three years.   'rontroll'? Hey it's written like that on the package and, ah, it's fergiven. Man, this RM1 pack can wipe out 2 colonies? Whoa, ant-lovers out there, I'm sorry fer the mass murder I'm about to commit. But I promise it'll be a painless and quick death. Huh, wait..   The ants will be infected and the whole colony will be destroyed after 2 or 3 days.   The hell.. There goes the 'quick death' part.
+     
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+      Bwahahah! Ho boy. Damn. Funny shits. What? Ah, good question folks. I'm readin  urlLink http://www.metalstorm.ee  website when I stumbled into this funny gag:   urlLink http://www.metalstorm.ee/fun/view_fun.php?id=21   Enjoy it. Funny shit man (oh said that already). Hey,  urlLink Black Dahlia Murder  has gone into my CD wish list too. Ah, I saw the band listed in mtv.com...   urlLink http://www.mtv.com/bands/az/black_dahlia_murder/artist.jhtml ..  eeps.. Nothin wrong with Black Dahlia Murder though... Don't tell me mtv has run out of hiphoppers to sell...
+     
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      I bought meself a game CD. I got home, slap the Install disc into my laptop's CDROM drive when I notice somethin. There's a few tiny ants comin out of the laptop. DAMN! I'm sure they're tryin to move into a new home which is this laptop. No way. It's pretty dangerous turn the laptop on before I can be sure all the ants are gone, fer good. I don't want my laptop to short circuit (I have experience of an electric stuff trippin the MCB because ants are livin in it.). I guess they started immigratin while I was workin. Still, why the heck they wanna live inside my laptop anyway? Darn vermints. Luckily it's just a few of em, or surely I'll have to get meself busy with disassemblin the laptop and make sure the ants are gone. Some are still inside though, I hope my laptop is safe fer use.  Today I found a very nice red colored Mini Cooper fer sale at my friend's office. Wow. Does remind me of 'Italian Job' and .. ehem.. Charlize Theron. Have you ever seen the movie 'Kids'? If my memories are reliable, you can see Charlize Theron when she was young (she was a kid in fact). Oh yeah, that was the 1st movie when we 1st fell in love... Hah!  Right now I'm searchin fer  urlLink FreeBSD  command fer listin supported ACPI function on this laptop which I found earlier at the office but I kinda fergot the address when I got home. It've been a while since I last updated the [FreeBSD & Me] section on my homepage. Well.. real life thingy..  I'm thinkin bout redesignin my  urlLink homepage  so that it'll be compatible with  urlLink lynx  and  urlLink Links  text-based web browser. Nah, ignore me blabberin..
+     
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      Haha! Wohoo! My friend just came and bring me the darn   urlLink Detonation : An Epic Defiance  CD!! I think I'll sell those 3  urlLink Arch Enemy 's CDs to Nuar and buy meself new ones. Ah, Ken Owen ( urlLink Carcass  drummer) is recoverin and probably (and hopefully)  urlLink Carcass  will reunite. Ho boy I hope the rumour is true though coz it's  CARCASS  DAGNAMMIT!.   Averting the plague I shall repent injustice For whom may ever retake my place I shall be forever.  Prodigies of valor I see Forever an epic defiance.   With my cassettes dyin/destroyed/lost/eaten by vermints/etc and are no longer bein a reliable source fer head bangin and/or air bassin, so, on to CD collections!!  My current wish list: CD(s):  urlLink At The Gates : Slaughter of The Soul,  urlLink Carcass : Heartwork / Necroticism; Descanting The Insalubrious / Swansong / Wake Up And Smell..,  urlLink Arch Enemy : Burning Bridges / Wages of Sin / Anthem of Rebellion (gonna miss my ex-CDs.. *sob*),  urlLink Slayer : South of Heaven / Reign In Blood,  urlLink Death : The Sound of Perseverance  T-Shirt(s): Carcass, Detonation, Arch Enemy  Etc(s): Maggi Mee, Any other instant noodles  Ahh.. My sister is hoggin the phone line so I'll have to wait fer quite a moment (forever) before I can publish this post. Urghhhhhh............................ I was supposed to publish this about, uh, 1 an hour ago.
+     
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      August is right around the corner and still no words bout my job application. I'm thinkin bout takin a CCNA course, or probably just a 1 subject exam because of financial instability this month (uh, like always). Last I heard the cost fer TCP/IP MCP from Informatic is just RM250 after promotion. Just exam and no course. Yeah very expensive. Dunno bout CCNA though. *Peekin inside the wallet*. Hmm.  Tomorrow I'll have   urlLink Detonation : An Epic Defiance  CD. Yeah! My friend sold it but it's in a great condition. I have the mp3s but havin a hard copy of it does make me feel good inside. Heh. Ah, somethin popped up in my head when I mentioned CD. Nuar still have my all 3 CDs of  urlLink Arch Enemy ;  Burning Bridges ,  Wages of Sin  &  Anthem of Rebellion . Ahhhh! Luckily I have those in mp3s too but still, I love those CDs. The discman's earphone broke so I bought a new pair. Rarely use it but when I do need it, I don't want it to be broken. My  System of a Down: Toxicity  is officially lost. I need to buy a CD rack fer my CDs   Today was a hot day at work. I'm gettin sun-burn everyday but today I was roasted. I was supposed to go to Kurnia's dinner tonight, but heck, I'm not in the mood fer another broadway dances, borin speeches, 12-course free meal and fellow agents gettin drunk like nobody's business.  Quote of the day is: "Thief 3 does not support play on notebook or laptop.". Drats. 3 cds fer nothin.. Should have bought Worms 3D instead. Hey  urlLink Doom3  is out!
+     
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+	 
+      Monday.. Sweet Monday.. Too bad I can't figure out any song with Monday in it. Typical Monday. The alarm was set to buzz me at 08:00 and I woke up at 09:00. Ah.. Why can't the rain keep on pourin till noon. I had a dream which I can't remember. I dunno what I dreamt about but I do know it's somethin irrelevant. As always. It's probably better that way, so that someday I'll have dejavu bout somethin.  I was thinkin bout somethin which I should've blogged just now. Actually a few hours ago. Hmm.. Ferget it. Still got cramps here. Sheesh. Ah, watched I-Robot and Garfield just now. Cool movies (and... ehem.. J-Love Hewitt). I tried to alter the template of this blog-o-mine but after seein the xml code, I gave up. Enough codin fer me. I have this bad habit of code obsession that will render brain achin fer mercy. What? I dunno xml stuph and I don't wanna know bout it, yet, coz if I do know even a little itsy bitsy info bout it, I'm sure I'll start googlin (again) fer tips, tutorials, howtos, samples et cetera until I got bored (which is fer sure, the easiest mood I'll fall into).  Still no ideas on the new song. My thinkin cap malfunctioned I guess. My other (step) brother took the darn guitar away with him to KL a few days ago so I'd just have to settle with hymmin fer new songs. Nuar didn't reply my sms, I guess he's pretty busy down there at his college. Fahmi = no news, busy with his work / PS2. The last time I saw Bobby was at the badminton hall. Six more days till another Sunday and you know what Sunday means, right?
+     
+    
+</post>
+
+<date>25,July,2004</date>
+<post>
+
+	 
+      Blasted! I wrote about 2 paragraph of more rants out of today's boredomness and all of a sudden the lines got changed to weird ascii characters. Dagnammit. So now I've to start all over again. Ah. Know wut? I fergot what I wrote earlier. Great. Just great. It's not just that we; the band and I didn't go fer a jam today, and now a simple text editor is tickin me off. Ever heard of "Like a stone - Audioslave"? Sure you have, haven't you? Well, you heard it and I'm the livin topic of the song. I'm sure this is one of the longest Sunday in my life. Surely it's the longest day I'm stayin at home, like a stone (see.. see.. I told you so).  Nobody called. Double drats. Tv's are airin borin shows all day long. Spiders are immigratin to my Ibanez's case. Any hour now, I'm sure I'd still be here though so no worries, the webs will be woven, on my Ibanez's case. I'm on irc, out of any channel.. and bored. It'd be great to know somebody on the net. To argue, rants, talk nonsenses and stuph.  There's must be somebody out there, as bored as me, tryin to resist the suicidal urge to eat nasi paprik ayam to death (what a nice way to die painfully..) fer havin to stay at home, bored as hell because there's nothin to do. I'm still tryin to remember what I wrote just now. Nope. Not even a hint. Ah. I've written fer bout 3 times in this blog today. On the very borin Sunday. That proves how bored I am today. AM!! Not WAS!! AHHHHHHHHH!!!!!.  Ah, bout that picture I put in. It's was a few month ago. But that's currently the newest image of meself that I have. It was taken at the band's jammin session (so that explains why there's no chicks screamin / tearin my shirt apart). Now, my hair is longer, so is my beard (girls go "ewwww"). Ah well, who cares anyway. I'm thinkin bout puttin the picture of my Ibanez next. Mebbe on my  urlLink homepage , or here. I dunno.  My lovely kid sister went back to Penang this mornin. Everytime I sent her to the bus, I fear fer her safety, you know, maniacs nowadays are less brainier than.. uhm.. ever. Can't believe she's grown up now. And soon, she'll have her own life. But fer sure, I'll still be her big brother, whether she likes it or not :P. Mebbe I should teach her bout bloggin. Ahh.. good idea.  This program was brought to you by the letter B and O and R and E and D
+     
+    
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+	 
+       urlLink    Me with my Ibanez. Yeah you couldn't see my Ibanez. Oh Bobby on the back, doin some nail polishin stuph. Bleh.  Expect this picture to be on my profile. The camera have a lousy shutter so the picture is shaky. I'm not fond of cameras anyway. Later.&nbsp; urlLink   
+     
+    
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+	 
+      Bored to death, but I've just been rejuvenated. And now, bored again. AHHH!!! Where the neraka is everybody?! Hal-looo? It's Sunday dagnammit! Sunday is the day to jam! Well, it should be but anyway, where the hell are you guys huh? Man, this is so so borin. My Ibanez have been standin there, at the corner of this room fer weeks now. Hey I still have a bit of a cramps here. But still, Sunday = jam. Let's jam jam jam jam! Arghhh!! Nuar is attendin a seminar right now at his campus. A SEMINAR! ON SUNDAY! Man. Fahmi and Bobby, obviously like me, are at home and certainly bored to DEATH!.  While I'm waitin fer calls which would change my Sunday life forever, I figure that I should rants bout somethin in here. Everytime I turn my laptop on, there's this exact sequence I'll do after I logged on. First, I'll dial the darn TMNet prepaid (my hands are itchy to start flamin bout Streamyx.. again.. sheesh), then I'll open up opera, then fire up EasyMessage and lastly the Mozilla Thunderbird. I should've put all that in autostart but heck, I like it the current way. Click click this, click click that, the same thing everyday. So, it's a habit. How bout you guys?  Back to the borin Sunday, it 15:03 and still no ring. The tv is showin Hindi fer sure and I can't bear watchin that. I've seen, heard, played all the movies, albums, games I own (plus the goods pendin return *grins*) fer gazillion times so that's officially not helpin, at all. I feel like eatin somethin but there's no food in the fridge. I'm too lazy to walk to the store. I need to do somethin, fast, like... uhm.. jammin. Yeah, jammin. That's the perfect thing to do on Sundays like this. Playin my bass, singin till my throat sore, rantings with the band. Ah, it'll be perfect. Perfect as in Ibanez EDA 4 String (Sorry Ibanez TR Series, it's just a sayin, I'm not comparin you to some other bass) + Kayser Strings + JD Triangle Picks + Cordless Mic + on the stage with 100,000 crowd + in Kyoto + on live broadcast + Arch Enemy as our openin act's band. Yeah, it's a bit too far aye?.  if (Sunday != jammin) { die } else { die happy }  .. or is it.. my phone broke...
+     
+    
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+	 
+      Just now, after a few years (the last time was when I was at form 3), I just got back from playin badminton. We; me, Bobby, Sham and Bukat played fer 2 hours and right now, I got cramps on my right hand. Ack, I can't even move the darn mouse properly. Sheesh. Badminton lesson #1: warm up first. Badminton lesson #2: bloggin with a hand cramps will make the mouse on frenzy. If tomorrow AngelClaw are gonna have a jam session, expect me to go wacko with my Ibanez.  Since I tell bout it in FreeBSD Newbie's mailin list, my once-lonely homepage keeps gettin visitor now. Not bad at all. Talkin bout homepage, there's a few section I wanna update right now.  Ah, after shower. Still got the darn cramps though and worsenin. Eh, wait, I smell durian.. Ah, my sister bought durian *evil grin*. So, later alligator.  Sinchan:  lalala durian lala, makan durian lalala.. 
+     
+    
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+	 
+      Ah, I've been searchin fer people lately. On the net. I just got this new hobby, readin other people's blog/homepage etc. I wish I use streamyx though (Ah.. Not again..). Heck when it comes to net connection I'm always emotional. Hey, I think like I wanna try somethin out. Writin this darn blog usin BM. Ntah boleh ker tak? Ah, nice isn't it. Tadi baru jek.. emm.. (Ah I always have problem of callin myself in BM.. ya know, gua lu slang) me surf 1 site about blogs yang dibuat oleh Malaysian. Banyak seh. I guess bloggin is one of the popular things Malaysian do on the net. Readin other people's blog is fun, but time consumin so I better not make it a habit while I'm still on 56K modem (puke). Interestin enough, kredit TMNet prepaid nih tak abis laie dari 1st time register. Peh, lama gila. Still, I stand on my previous flame(s) to them :P. Nasty aye?.  Most of the blogs out there which I've read contains somethin practically similar. Aha, akademi fantasia. So, to attract more visitor to my freakin blog, from now on, I'll blog about akademi fantasia. Boleh caya ker? Nah, no way. I don't watch the darn show and I don't give a rat ass bout it (all a.f fans booing). What am I doin readin other people's blog? Well, I was tryin to catch some interestin net-chick but ended up readin their blog instead. Well, not all the chick's blog though. I even read many guy's blog which is ok too. It's too many of em bloggin and most of em didn't put informative description like "I'm an interestin net-chick single lookin fer a guy and I have a blog too" so while I was takin a peek to find some chick I ended up readin blogs instead. Darn. But interestin enough to waste more of my net bandwidth.  I've been browsin through a few match-makin site fer a few days and it's fun too. Ah, now on the match-makin thingy instead aye? Well heck. But because I have to register first before I get all the chick's email I gave up. Drats. Hey, what happened to the "BM" stuph? Ack. Neraka. Lupa jek manjang. Skang dah lebih sebulan tak jammin dah nih. Bosan gila dah. Fahmi, Nuar & Bobby senyap jek. Includin myself to be honest hehe. My head keeps playin Silverwing and everytime I'm lookin at my Ibanez, she screams "Turn me on! Lift me up! Hold my neck and finger me!!". Kinky huh? I wish I have more hobbies like clubbin, mall-"lepak"in chick flirtin et cetera et cetera coz I'm bored as neraka rite now. Neraka bosan ke?. Anyway, I can't seem to get any idea fer the band's new song. Neraka tul. Last nite I dreamt bout a song which rocks like gila tapi bila bangun jek teros lupa. Bowl (mangkuk.. nice translation aye?) betul la. Dah berapa kali dapat song parts yang best tapi lepas pegang gitar kapok jek tros lemah. Distortion takde seh, camno? "Jeng jeng jeng" macam lagu band2 regular kesayangan tabloid Malaysia jek. I really hope I'll be playin gigs soon. Real soon. Tak sabar nih. Manjang jammin lagu cover jek, bosan gak. Are there any gothic chicks waitin fer bands like us performin live? Huh? Gothic chicks are cool ya know. Detonation's An Epic Defiance is my winamp's current playlist now. \m/.  After bein spammed by countless numbers of icq spammer, I was icqed by a real human today. Lawak gak la kan, lama gila tak icq ngan orang, manjang kene spam ngan url website pr0n jek. So, kesian gak la kat orang tu, dilayan macam spammer fer the 1st few lines. This is why spammin, be it irc, icq, email, sms is totally a retard's work. It have made the communication medium full of crap. Hey, puttin "alsemo" in Google's search box puts me on the few top list. Hah. Now to test out how many page hit I get if I blog bout akademi fantasia..
+     
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+	 
+      My sister got herself a new mother. She's Allahyarham Kassim's wife. 2nd wife to be exact. My sister just knew that the women has no child and now she's livin alone at the house which she bought. She is very nice to my sister, because she knew some of our family members on my mother's half and she knew that this tragedy is destined to be. I feel quite ok now, to hear that. She even asked my sister and my nieces to come fer a sleepover at her house!  Sometime, bad things that happens is just a reason fer a good things to come. I think it's good, fer both of them, my sister and the women. Because both of them can take care of each other. Like I've told you before, my sister too lost her husband in a car accident. My sister is happy, in a way, that she received such an acceptance from a lady who've lost her husband from somebody related to my sister. I'm happy fer my sister too, because since my mother died (I miss you very much mom.. Al-Fatihah..), it've always been the three of us to take care of ourselves. It's just like, we haven't got enough of motherly love and I know my sister needs it. And somehow, in return, she can take care of the lady from now on.  The tragedy still haunts me somehow. The smells of blood, the look of the old man. I feels like I'm guilty, because I can't make it to the hospital in time. I should've drove faster. My eyes still iches, I'm havin a headache and I feel like I've caught a cold. In time like this, the feelin of bein lost and neglected is strong in me. I wish my mom was here because I miss her very much. I wish I can reach Intan and have her comfortin me. It feels like I'm left alone with all the people around me. Fer Muslims out there, I want to ask a favor, to give Al-Fatihah to Allahyarham Kassim, who died on 21st July in a tragic car accident; to my beloved mother, Zulifah Bt. Hj Idris who died peacefully on 28th January 2003; and to all of the people who we know and love, who have left us. Love those who loves you.
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+	 
+      I just came back from work today, although fer only bout 1/2 an hour. I'm in no mood to work. The old man was around his 70's, his name's Kassim. I just got his name this evenin. He died in the General Hospital this mornin. Both my brother and my sister will go on trial this september. I went to the old man's house before I went to work and I feel guilty. I just can't think straight right now. Fer now, mebbe I'll not update this site fer some time until I feels like it. My eyes still stings coz I guess the shattered glass got into my eyes.
+     
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+	 
+      How are you guys? I'm a bit mixed up right now. Shocked, confused and I'm feelin low. Why? Because my brother accidently hit someone with my sister's car. I was in my room, as usual, doin things with my laptop when all of the sudden, my niece came and tell me that my brother hit someone. I was speechless and my mind keep tellin me "let this be a dumb joke". But unfortunately, it's fer real. My sister was histerical, the car was gone, there was blood stains on the road. A women nearby told me that an old man came out from nowhere, runnin to cross the road when my sister's car came and accidently hit him.  Why is it have to be today? Why is it have to be this way? I was hopin that my brother is on his way to the hospital then because from my view of the scene, with shattered glass and bloods on the road, the old man must be in a serious condition. A while later, there was the car, infront of me. My brother speaks, with a slow yet tremblin voice, that the old man is on the back seat. "My God!, I thought you've already went to the hospital."  Tryin not to waste anymore time. I quickly take the wheel and drove. I could hear my brother weeps. I felt sorry fer the old man, and him. Accident can occur no matter how well prepared you are. The front window is shattered and cold wind blew right through it. "Why didn't you take him to the hospital?" I asked my brother. He said he don't know what to do. I was left speechless again. He is not to blame. He panicked. So I drove, thinkin of where's the nearest place to get a medical help fer the old man. There's a 24hour clinic nearby, so I guess that's the place where I should go to.  I was wrong, it's not just that the doctor came out like he's takin a walk in a park but when he came to the car, he briefly said "Sorry, you must take him to the hospital". "Can't you do somethin?" I asked. "No, take him to the hospital". "Can you call the ambulans?". I asked, impatiently. "Ambulans will take longer to come here. It's better..". Thinkin that it's useless to talk with the life of this old man is in danger, I ignored the doctor and took the drivin seat again. I can see the old man, gaspin fer air. And I got scared. I don't want him to die there, in the car.  I arrived at the General Hospital a few minutes after that and I parked the car in the emergency zone. Medics came and lift the man to a stretcher, and they hurried to the emergency room. I told my brother to call my father to come and bring my ID because I didn't even bring my wallet. The policeman there took our statement, and asked us to go to the Police HeadQuarters to make a report. I'll be goin, with both my brother and sister, to the HQ later after this. I still don't know who's the old man and he got no ID with him. I hope he'll be fine and I'm truly sorry fer what that had happen.  Sometime we can't be certain of how much more time we'll have in life. No matter how well prepared we are, how much precautions we took, if by God's will our life is destined to end that day, on that time, there's nothin we can do. I'm not tellin stories here, so don't think that I'm doin literature just now. I won't sleep tonight because I can't. I just hope that the old man survive.
+     
+    
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+	 
+      It's 23:41 and it's rainin like cats and dogs. It's pretty much a rainy season this past few weeks. Everytime Ramadhan is around the corner, rain will pour almost everyday a few month before the fastin month. And fer sure, Ramadhan will be yet again, a test fer all muslim. I've been skippin work a few days in this month because of rain. In fact I started my work after the Friday prayer yesterday coz I'm havin a bad headache. I was soaked the day before and I was granted that headache. Luckily I didn't catch any cold or fer sure it'll be a few days off.  Another job applied, thus requirin another wait and hope. Sigh. I do hope I'll get a new job. After more than a year workin this job I have, I really think that it's enough. Workin a job I have no interest in fer a period this long is almost unbelievable to me. Oh, one of my friend was voted by his department to resign from his current job. Voted? Come on. I feel sorry fer him. Sometime life is really cruel to us huh. Everyday it's work fer money -> get paid -> waste money -> work some more to get more money to waste. I guess I'm included too. But I have passion fer jobs that I'm interested in. That's a bit different. Uhm, I guess the correct way to put it is I have passion fer things I'm  interested in. And if those things changed to job, it'll be better. Fer now, I'm not bothered to put a price on pc troubleshootin I've done fer my neighbour, friends etc coz I just like doin it. The passion fer it. Heck if they offered somethin in return I'll surely accept but that's not mandatory.  Maybe because I'm not workin fer it. I'm just helpin. Things might get different if I was workin in a computer company and I'm paid to do it. But I'm sure the passion is still there. Some of my friends strayed from things they love to do because of money. Some even erased those things they have passion fer completely. Did I say it's bad? No. I guess they made the right choice. But the right choice fer them doesn't mean it's right fer anyone else. Includin me. In a sense, I've strayed from what I'm fond of too, if we're talkin about workin on the things. But I'm still true to those things, though it's not my job. Ah, it feels like sentimental things yet again. I guess it is.
+     
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+	 
+      Today is Sunday, just like other ordinary Sundays. I just came back from KL this evenin and I tried somethin different fer a change. I figure that it've been a long time since I last went fer mall-walkin (walkin around shoppin malls, like window shoppin but no specific interest in goods, just lookin at people.) so with my backpack and The Police: Greatest Hits CD in my discman, I went mall-walkin. Ah, it feels a bit ackward, as I'm no more a young teenage to go mall-walkin. And beside, wanderin with no purpose doesn't interest me anymore, or maybe just fer today.  It's funny to have a purpose fer mall-walkin because I guess the point of mall-walkin is just to waste some time. Well, I guess I'm easily lost nowadays. There's always a strong purpose fer me to actually go out. Be it fer a jam session or buyin CDs or game hatever, I always have a purpose. So mall-walkin fer me, like I've said, is an ackward thing to do nowadays. I had a dilemma before that, as I've just arrived from KL, to make a choice whether to go home straight away or do somethin else. So that's why the mall-walkin idea came through. Oh, another thing, goin out on a tight budget is not that fun either. Heh.  Previously before that, I was at my pal's house stayin fer a night somewhere around Pandan Indah. Shah, my friend from my hometown's house. His sister said somethin bout a job openin in her office so I sent my resume by hand to her brother, Shah. If all goes well, this month will be my last month workin my current job. It've been too long already and I missed workin the job I prefer and good at. Actually I'm tired workin my current job. I did some simple experiment last week, countin the meter of my bike and on that day, I rode fer about more or less 30km around Seremban. Wow. And that was a non-busy day. Sheesh. Not to mention facin wreckless drivers on the street. Last Thursday was a moody day fer me and I middle-fingered 2, or maybe more car drivers on separated occasions. Fer car drivers out there, drive carefully and just be considerate about other road users. Almost all bikers who were cought in road accidents end in death. If you're thinkin bout the small bunch of illegal bike racers, stop, that's just a small portion of the bikers who are dead in road accidents. And don't you think about "they deserved it".  Most men in Malaysia died because of heart related problems. In fact it's at the top spot fer the common cause of death here. It's somewhat botherin to know that fact. I'm a bit worried bout my heart. I get this heart-ache, not a biggy but still it bothers me. Some time it hurts a bit. I guess I'm smokin too much tobacco. Drats. Quittin is hard. I don't wanna be among the people who died in heart related problem's statistic.  It've been a while since I last update any part of my web related contents be it website or else. I'm stuck with Medieval: Total War. ;o).
+     
+    
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+	 
+      Urghh! I can't stand this.  Every web browser wants to make their html standard as the standard and guess what? Plain html wont render the same on each different browser. Drats. I gave up. I was tryin to make (at least) Mozilla  and  IE render my homepage's layout nicely but those 2 are beasts. Ah well, better let the Mozilla as the reference browser and find a solution fer IE. Probably Javascript stuff. I dunno. I've been rewritin the same page fer hours now. Darn.  Shave, or trim the goatie?..  Hmm...  err..  Trim. Definitely. *snip*
+     
+    
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+	 
+      I did went out today. It's a borin experience. Nothin to do, on strict budget (Hah!) and the jam studio was booked till 10. Urh. I'm currently makin a homepage fer my company. I dunno if this is the right thing to do coz my everyday life might get even busier if my boss find out bout his company's website and likes it. So why the hell did I do it? Dunno. Just testin. The layout is still pretty rough, I have some idea on the would-be layout (which is nice in my head, maybe nicer if done or worst) but I think it'll probably take some time to finish it. Not gonna rush on that coz basically, nobody asked me to do it. Yeah. Sendiri cari pasal. :).  Later.
+     
+    
+</post>
+
+<date>07,August,2004</date>
+<post>
+
+	 
+      No jam today. It's been a looooooooooooooong time since the  urlLink band 's last jam session. Looks like I have to settle with playin more games. Ah, lackin in social life does bore the heck out of me.  Fahmi's Tama Iron Cobra twin pedal will arrive next week. Yeoww! 
+     
+    
+</post>
+
+<date>07,August,2004</date>
+<post>
+
+	 
+      My kitten,  bebek  got hit by a car this same mornin and died. Another of my fav kitten died of unnatural cause. Few month before that, my 3 out of 4 kittens got poisoned to death by an immoral neighbor. What kinda sick person would poison cats or kittens? If you don't like cats, just shoo em away. Surely some say "owner should keep their cats out of trouble" but think bout it damnit! It's CATS! You can't control cats! They're not like dogs which is tend to please their owner in everythin they do. Cats are survivalist and curious, they tend to do things that'll make em survive 1st and explore places / things. Puttin cats in cages is not good too. They need the freedom of movement.  I'm sad right now. Heck who ain't. To watch em grow, givin them cute names, gettin used to see them at home, enjoy seein them when they're in their play mood but you can't see them long enough to really enjoy it all. Sure, new kittens will be born, but every one of them are special in a way. They have their own personality, cuteness, mood and that what makes every one of them special.  Now, there's only 1 kitten left from the same age as  bebek . I sure hope he can survive livin around irresponsible human bein which litters throughout this planet earth. I'm gonna miss  bebek , and now my room will be the same borin room yet again.
+     
+    
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+	 
+      I've installed  urlLink Mozilla Firefox  on my laptop and I guess it's the end of service fer my old  urlLink Opera 7.5 .  urlLink Blogger  features are perfectly functional usin Mozilla than Opera so the choice have been made. Now I'm gonna make sure my  urlLink homepage  is compatible with Mozilla coz my reference browser all this long is Opera.  Today is a hot day, literary speakin. I got roasted.. again. *me pour some salt on the left arm and bite..* hmm.. taste quite good.  It's a 50/50 chance that my Japanese friend can come here. She said that she still haven't got any ticket yet and she's still tryin. Hmm. I hope she gets it.  erh.. I'm hungry.
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+      Ack. I had a bad dream last night. My goatie got shaved clean in my dream. Yeow! I wonder what it mean.  I'm startin to think that I'm ready fer the commitment of buyin my own car. Hah!. Definitely cheap cars. Like 1985 BMW 320i which is basically cheap (bout below RM13K) and does look good (if the modification is right). My boss used to ask me if I'm interested in buyin my own car a few times before but I think I was not ready fer that yet. Strangely when I'm thinkin of buyin one, he didn't bother askin me bout it.. Sheesh. There's a Hyundai Elantra on sale fer a very special price at my friend's place. She (the car, me too dunno why most things are related to 'she' rather than 'he') is very attractive and have been quite modified by the previous owner. So, is it a go? or a no go? I dunno, I'm still unpredictable.  When I think bout my Japanese friend upcomin visit, I remembered somethin. Ramadhan! Lucky me she wanna come before the fastin month starts. If she visit in the middle of Ramadhan, then I'm sure things are a bit difficult. Fer both of us. *me imagine her sips her soda, walkin on BB Walk and me tries not to look.... *gulp*
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+	 
+      Nothin new today, my sister has repaired her car's front glass so now she can drive again. My kid sister is comin back on next tuesday early in the mornin fer her semester break. Surely I'll be waitin fer her coz I'm fer sure can sleep thinkin bout my kid sister waitin there, at the bus terminal early in the mornin with not so many people around. No way. I'll wait fer her. And you know, maniacs nowadays.  My email-pal from Japan are plannin to have a few days stay here in Malaysia and visit me. Ack. I'm such a lousy tourist guide so I hope her stay won't be a nightmare. She said she wanted to have a taste of durian at my grandpa's farm. I sure hope the durian season there has not yet ended but if it is, there should be nothin wrong with buyin from local fruit store aye? Seriously, I'm quite nervous when I think bout it. I really hope she didn't expect too much on her upcomin trip here because like I've said, I'm a lousy tourist guide. She'll be comin next month. ACK! Not enough time to prepare!!! Aaaaaaaaaaa.......!  I've made another blog on  urlLink FreeBSD & Me . I dunno if I can keep up with all this  urlLink homepage  editin/updatin, this blog,  urlLink FreeBSD blog ,  urlLink my band , Enjoyin/learnin  urlLink FreeBSD , playin Worms 3D (Ahah!), real life, work etc etc which have tolled much of my free time lately. Ah, I guess just go with the flow and do it slow and easy. And logically, nobody asked me to do all this things and I'm the one who made it so... FACE THE CONSEQUENCES!! (thunder strikes... again). 
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      *sigh*. No jammin today fer me. But lucky me I can keep meself busy with Worms 3D. I've been killin fellow worms-of-war since I woke up. Wow. No social life. Typical enough.  Ngeh. The  At The Gates - Slaughter of The Soul  CD is gone. I guess my friend sold it already. I won't bother searchin fer it on local music store coz fer sure they don't know bout it and say "Oh, that band. Sorry it's sold out." Yeah, sure. At first I thought I wanna go out mall-walkin searchin fer a good Discman Belt Pack / Waist Pouch which can hold 6 CDs. But heck I was too busy playin Worms 3D I fergot all bout it. Tomorrow I hope.  August is here again. The  urlLink band  has agreed to start practisin our new songs. I hope our demo can be released before the end of this year. Fahmi have 2 songs, Nuar and Bobby both have 1 song each. Me? I'm still out of ideas. Hopefully it's not fer long.  Ah, better resume my Worms 3D mission. Again? Yeah, you know what they say.. "Resistant is futile."
+     
+    
+</post>
+
+
+</Blog>

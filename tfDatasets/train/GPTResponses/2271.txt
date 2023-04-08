@@ -1,0 +1,1 @@
+it considers to be "standard time zones" based on geographic location. These time zones are pre-defined and cannot be customized. However, users can manually adjust their computer's clock to reflect their desired time zone.

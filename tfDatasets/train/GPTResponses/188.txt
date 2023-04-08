@@ -1,0 +1,1 @@
+One straightforward case of a probabilistic test is flipping a coin. The result of the flip can either be heads or tails, with an equal probability of 0.5 for each outcome. Therefore, the probability of getting heads or tails in a single flip is 0.5 or 50%. This makes it a simple and straightforward example of a probabilistic test with a binary outcome.

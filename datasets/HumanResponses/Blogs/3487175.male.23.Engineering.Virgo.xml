@@ -1,0 +1,175 @@
+<Blog>
+
+<date>29,July,2004</date>
+<post>
+
+    
+       If ur Country is Look Like My Country ( Iran ) and more than of Information and Sexy Sites and Groups Was Filtered , the Best Way For Broken Proxy and view ur filtered sites is Use the Software of Proxy Broken.It 5x Faster of normal Connection and U can give more Information of urlLink Onspeed  .  U can Download Onspeed From  urlLink Here .     its shareware is a software and u can use trial version for 7 day.      
+    
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+    
+       Its My Favorite Dictionary !!!  this dic is Completely User Frindly and easy to use.  no important ur word locate is in text document , web page , menu , pdf file , and file name , ....u can move ur mouse on the text in ur Screen and give that mean. narsis Dictionary Open a hint Window and return the Mean of word.  also u can learn easily English Language.it has 14000 picture and support more than 20000 word... for more Information U can Visit  urlLink Here .     Name : Narsis Dictionary V5.0  Price: 11500 Toman or 13$  
+    
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+    
+       do u know catwoman ?  if u dont ,U better know about it history.  according to the report of  urlLink GameSpy &nbsp;:  she was a poor woman. and she was dead after Break down of window..  After she's killed, she's brought back to life by some cats,and also give her more powers. and she look like a cat. She change to CATWOMAN !!!!  Apparently, these powers don't include the power to control the game's camera, which is the title's biggest weak point. Much of the game involves making Catwoman climb up the sides of buildings, jump across open spaces, or swing from various anchor points using her favorite weapon, the whip. Alas, the game's fixed camera makes most of these actions feel like chores, as there are plenty of times when you can't see where you are supposed to go. Jumping across gaps is particularly hard, since you can't center the camera to line up your leap. ...    Developer : Electronic Arts UK /  urlLink Argonaut Games   Publisher :&nbsp;  urlLink Electronic Arts   GameSpy Score : N/A  Multiplayer  for more information U can Visit urlLink  here .  this game is a&nbsp;Xbox Game.  
+    
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+    
+       Users Information in every Database Must Protect of everybody. if u a Db manager , Users Passwords and Users Card (visa card ,...) Shouldn't Save In Text Format. U must Hash This Fileds with High Security Hashed Methodologys. one of best Current Hash ways is MD5 methodology Created By Professor Ronald L. Rivest&nbsp;By Reverse Engineering.MD5 or (Message Digest version 5) is a good Hash Algorithm that get a string and return a hashed string. that work for text passwords and files. yahoo is a one of sites used MD5 algorithm for Important information. U can View this Algorithm of  urlLink This Site .  We Used of this hash algorithm in My Company .Net Projects.Company Coder ( urlLink Ali Farhad ) Create a C# Class With name :  urlLink EasyHash .U can Download that of  urlLink Here .  
+    
+    
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+    
+       We work hardly in a C#.Net Paperless Project...we need a Masked Edit component in .net collection for more Forms of this project.therefore I search a Open Source component wrote in C#. I Find it. I think Its Best Work for my Project. u can used that in your Programs easily . U just specify InputMask Properties and used that. InputMask Char definition below : 0	digit required 9	digit optional L            lower case letter (a-z) required l	lower case letter optional U	upper case letter (A-Z) required u	upper case letter optional A	any case letter required a	any case letter optional D	letter or digit required d	letter or digit optional C	any char including punctuation \	escape char Used for literal mask chars ex: \0 for literal 0 in mask this Component Created By : Oscar Bowyer. U can download it From Here : urlLink MaskedTextBox.zip  
+    
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+    
+       FALAD is a collection of Farsi componets.  that's includ a Hejri Shamsi DatePicker and CalendarView, and Right-To-Left TreeView  Description: FALAD stand fot Farsi Arabic Language Application Development. It includes a set of components which make Farsi / Arabic application development easier. It includes a Hejri Shamsi Date integration with a Calendar View and Date Picker. It also includes a Float Edit component, a Right To Left Picture Tree and some more.  I more use FALAD Hijri Shamsi date EditBox in most of application Programs.its free. this component Create by a  urlLink Iranian Programmer .  Product: Delphi (5-7) Components  Contest: None  Uploaded: 27-Sep-02 10:15:39 AM last updated 17-Dec-02 5:29:07 AM  Tools CD: No  Copyright: All rights reserved  Size: 473.8K     U can Download this Component and see more informations From  urlLink Here .    
+    
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+    
+       LinkLabel is a Control of .Net Component Library .  a&nbsp;mounth ago I have a Problem with this Control. I couldn't Use that for My LinkArea.  So I Question this problem in  urlLink Iranian Programmers Site . that's&nbsp;one of favorite Sites.  for use of this control in Internet LinkArea u enough write this code in your C# programs.   1- drag and drop a linklabel control in page.(Suppose u use microsoft Visual C#).  2- choose a text for ur linklabel ( for example :&nbsp;  Visit TurkProgrammer Site )  3- in your form Load event u must write initial codes for linklabel control. u can do it in initial component.       private void Form1_Load(object sender, System.EventArgs e)  {  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.linkLabel1.Links[0].Visited = false;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.linkLabel1.Text = "Visit TurkProgrammer Site";  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.linkLabel1.Links[0].LinkData = "TurkProgrammer";  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // in this sample I want  TurkProgrammer   be a hyperlink.   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.linkLabel1.Links.Add(6, 14, " urlLink www.turkprogrammer.com ");  }   4- in LinkLabel Clicked Event u just add this codes:   private void linkLabel1_LinkClicked(object sender, System.Windows.Forms.LinkLabelLinkClickedEventArgs e)  {  &nbsp;&nbsp; this.linkLabel1.Links[linkLabel1.Links.IndexOf(e.Link)].Visited = true;  &nbsp;&nbsp; string target = e.Link.LinkData as string;  &nbsp;&nbsp; if(null != target &&amp; target.StartsWith("www"))  &nbsp; {  &nbsp;&nbsp;&nbsp;&nbsp; System.Diagnostics.Process.Start(target);  &nbsp; }  }      
+    
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+    
+       According to the Report Of  urlLink Gamershell.com  :  “DOOM 3 is done! And you’re going to have it in your hands in a matter of days,” said Todd Hollenshead, CEO, id Software. “DOOM 3 is a videogame experience unlike any before it. From the cinema quality visuals and the incredible 5.1 sound, to the terrifying atmosphere and hyper-realistic environments, the whole game screams ‘interactive horror film!’ Add in the most ferocious line up of demons Hell has ever brought to bear, and you have an experience so intense that you’ll need to keep your heart medicine handy.”  id – Freud's primal part of the human psyche and one of the hottest game shops on Earth – has been rocking the gaming world from Mesquite, Texas since 1991. As a renowned leader in the industry, id Software forged such frenetic titles as Wolfenstein 3D®, DOOM®, DOOM II®, QUAKE® and QUAKE II®. With intense graphics and mind-blowing action, id’s games have helped redefine the modern video game, continually setting industry standards for technology and gameplay. And, in keeping with tradition, id Software has amplified the world of adrenaline pumping 3-D gaming with the release of their latest action title, Return to Castle Wolfenstein®. id Software’s advanced DOOM 3™ technology is leading the next revolution in 3-D interactive games.  For more information, fans can visit  urlLink http://www.doom3.com/ . DOOM 3 has been rated “M” for Mature by the ESRB.  U can Download Doom 3 Movie From  urlLink Here    Game Information :  Developer : id Software  Publisher : Activision  Genre : Action, Shooters  GameSpy Score : N/A  Release Date : July 14, 2004  Multiplayer : Up to 32 players over LAN or the Internet  Minimum Hardware:Unknown         
+    
+    
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+    
+       SnageIt is a powerful Software with more ability. SnagIt is the only screen capture utility available boosting five different capture modes and over 40 different ways to capture content from your screen. With SnagIt, your search for the perfect screen capture utility is finally over. u can Capture Image , text , video , web , .... u can save captures in file or attach to email or send to clipbord.  u able Edit and share its.   u can use SnageIt for : Image Capture-Text Capture-Web Capture-Video Capture-Printer Capture- Image Editing- Image Browsing-Batch Conversion-Free Technical Support-Free Upgrades. for more information u can visit  urlLink http://www.techsmith.com/products/snagit/default.asp  u can downlod this software from  urlLink here . file size : 8.99 M software version : 7.1 price : 39.95 $  
+    
+    
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+    
+       Picasa: Automated Digital Photo Organizer software, instant photo albums, sharing & printing. picasa is one of best Organizer softwares for work with digital photos.   Free Download  File Size: 3.6MB Estimated download time: Approx. 10-12 minutes on 56k connection.    Picasa. Everything you need to enjoy your digital photos in a single software product:   Auto-transfer photos from your digital camera.  Organize and find pictures in seconds.  Edit, print, and share photos with ease.  Create slideshows, order prints and more!  Picasa works with the digital photo files on your PC to create a better, more organized viewing and editing experience. Picasa will not delete or move the location of pictures saved on your PC.   for more information u can visit  urlLink Picasa site  it powered By Google. 
+    
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+    
+       W32/Bagle.af@MM is a trojan that is Circulate from email attachments.  This is a mass-mailing worm with the following characteristics:     *-contains its own SMTP engine to construct outgoing messages  *-harvests email addresses from the victim machine  *-the From: address of messages is spoofed  *-attachment can be a password-protected zip file, with the password included in the message body.  *-contains a remote access component (notification is sent to hacker)  *-copies itself to folders that have the phrase shar in the name (such as common peer-to-peer applications; KaZaa, Bearshare, Limewire, etc)  *-uses various mutex names selected from those W32/Netsky variants have used, in order to prevent those  *-W32/Netsky variants running on infected machines  *-terminates processes of security programs and other worms  *-deletes registry entries of security programs and other worms .   From : (address is spoofed)  Attachment names are chosen from the following list:  Information-Details-text_document-Updates-Readme-Document-Info-Details-Message.   Subject :  Re: Msg reply-Re: Hello -Re: Yahoo! -Re: Thank you! -Re: Thanks :) -RE: Text message -Re: Document  Incoming message -Re: Incoming Message -RE: Incoming Msg -RE: Message Notify -Notification -Changes..  Update -Fax Message -Protected message -RE: Protected message -Forum notify -Site changes -Re: Hi  Encrypted document  for more information u can  urlLink visit virus information in macafee site .        
+    
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+    
+       Some CEOs just don't know how to retire. When Michael Dell officially hands over the chief executive officer title to long-time prot駩 Kevin Rollins at the company's annual shareholder meeting Friday, nobody is expecting a re-invention of the US$41 billion computer company. Rollins's take-over is so low key that a tongue-in-cheek corporate video circulating at the company's Round Rock, Texas, campus shows Dell's new chief executive watering the plants, flipping burgers and sorting company mail during his first day on the job.... for more information u can visit :   urlLink ITworld.com : "After 20 years, Dell looks at future" 
+    
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+    
+       this software is very good convertor media formats.  that support :  WMA to mp3 converter, RM to MP3, rm to wave, RAM to MP3, RMVB to MP3, WAVE to MP3, AVI to MP3, MPEG to MP3, MPG to MP3, WAV to MP3, ASF to MP3.  &nbsp;  U can Visit of Creator site :  urlLink http://www.rm-mp3.com/   U can download of  urlLink here.   &nbsp;    
+    
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+    
+       According a news of  urlLink NetWorkWorldFusion  : Finally Microsoft has finished work on Service Pack 2 (SP2) for Windows XP. And I think Microsoft Release that soon. but seem More Installed Software Programs has been Problem with SP2.  and U can't Install Microsoft WindowsXp SP2 on Non Original XP Ver. I hope with this SP , we save from Bugs and virus , Trojan and Hackers that easily Enter My Computer Systems. I hope. For more Information U can visit  urlLink Here .  
+    
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+    
+       This was FREEWARE convert Bitmap(*.BMP) and Icon(*.ICON) each other.    ...but now, some other image formats are available.  - Import formats list (up to size of 128x128) BMP - Windows Bitmap (1/4/8/24bit, Windows Bitmap, non compressed) ICO (1/4/8/24/32bit) PNG (1/4/8/24/32bit) PSD (32bit = R G B Alpha channels, No Layer style, non compressed/RLE compressed) EXE/DLL/ICL (16/32bit) of ICO (Group icon has been supported since v1.13)  - Export formats list (up to size of 128x128) BMP (1/4/8/24bit, Windows Bitmap, non compressed) ICO (1/4/8/24/32bit) PNG (1/4/8/24/32bit) ICL (16bit) of ICO (Group icon has been supported since v1.13)  You can... - Make Windows XP Icons. (By opening Photoshop/PNG files. By Alpha channel Editing tools.) - Make Multiple-Icon which has some icons in a file. - Edit Transparency-Mask. - Open 1x1 to 128x128 size of images. - Open 1/4/8/24/32bits color images. - Extract icons from EXE/DLLs. - Group icon has been supported since v1.13. - Import/Export Icon Library (*.ICL) - Group icon has been supported since v1.13. - Copy to / Paste from Clipboard.   U can Download this FreeWare Icon Tools From Programmer e-mail:  urlLink towofu@nifty.com  web Site:  urlLink http://towofu.s5.xrea.com/soft/e-index.html   So U can Download Icl (Icon Library Files) From  urlLink http://www.wincustomize.com  and Export Ur Favority Icons From that.  
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+       Alert !! Win32.Mabutu.A@mm Worm. according to the report of  urlLink bitdefender.com  characteristics for this worm is: Name: Win32.Mabutu.A@mm Aliases: W32.Mota.A@mm Type: Executable Mass Mailer Size: 49152 in dll, 33280 in exe Discovered: 29.07.2004 Detected: 29.07.2004 Spreading: Low Damage: Low In The Wild: Yes    Symptoms: Presence of files *twain.exe *twain.dll ( where * is one or more random letters, so the files might be qweatwain.dll, qtwain.exe etc.), cfg.dat and, possibly, ??twain.dat ( where ?? are two random letters ) in %WinDir%.  Presence of registry key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run\winupd = Rundll32.exe %WinDir%\*twain.dll, _mainRD. Again, the * stands for one or more random letters.  Open IRC connections ( on port 6667 ) to the following servers:  chat1.voila.fr austin.tx.us.undernet.org mesa.az.us.undernet.org surrey.uk.eu.undernet.org stockholm.se.eu.undernet.org ... . .  Technical description: The worm comes by mail, with the following characteristics:  The message subject may be one of:  Sex I'm in love Important Hello Wet girls I'm nude Fetishes  The message sender address is spoofed. The message has an attachment named : message document details creme_de_gruyere gutted photo jennifer britney with extension SCR or ZIP ( in case of an archived copy ). U can Download Removal Tools and get more information From  urlLink Here   
+    
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+       'Zero-Day' Internet Explorer Flaw Detected!!! according report of  urlLink eEye Digital Security   in Microsoft's Internet Explorer browser hackers with this Flaw can install a toolbar on victims' computers. Fix Ie for this flaw is  urlLink here .  
+    
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+       one Member Of Iranian Hackers Site ( urlLink Asheyaneh.com ) Hack 350 web site. he told : saw a document in internet that write : "Iranian Hackers Just can Hack Iranian Web Sites". So he do it. :)    this sites automatic redirect to ItIran.net. for more information U better Visit of  urlLink Iranian Hackers Site . or read this news in  urlLink Irna.ir  Site. 
+    
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+       New Internet Explorer Security Path From Microsoft Co. this patch remove 3 Security Error in IE. 1-Navigation  Method Cross-Domain  Vulnerability 2-Malformed  BMP File Buffer  Overrun Vulnerability 3-Malformed  GIF File Double Free Vulnerability.   this errors able hackers to run Dangerus Codes in Client Systems.  I Propose for u that U better Download this microsoft patch. For more information u can Visit  urlLink here  and download this patch.  
+    
+    
+</post>
+
+
+</Blog>

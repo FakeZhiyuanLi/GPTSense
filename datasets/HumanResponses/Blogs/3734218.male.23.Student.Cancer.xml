@@ -1,0 +1,144 @@
+<Blog>
+
+<date>26,June,2004</date>
+<post>
+
+
+       
+      Well, there are lots of posts about this so far, and I'll be damned if I'm not gonna have my say!  In case you haven't heard of this yet, let me give you some links to get you up to date:   urlLink Apple   urlLink Konfabulator Website   urlLink MacCentral   urlLink The Register    Ok, if you look at some of the websites you should be up to speed, and you should see a lot of some people's arguments as to whether this is a good or a bad thing, and even whether this is a legal or an illegal thing.  Now I'll give you my take on this.  Konfabulator (K) was released sometime during the heyday of Jaguar, I've tried it a couple of times (and am using it right now, unregistered however).  There are good and there are bad things about it.  What it is is a little runtime for "widgets" written in Javascript ( urlLink Here 's a link for K developers, if you're interested).  Dashboard is also a runtime environment for Javascript "widgets."  Same thing?  Well, from what I can glean from Apple's website, and what I've heard other places, not quite.  There's the question of "modality."  Meaning that if you use Dashboard, and you want to use/see one of your widgets, you have to hit a key (much like ExposÃ©), during that time you can *only* use Dashboard widgets, which is why it's labeled "modal," because when you're using Dashboard, it's the only thing you can do.  I imagine everything behind Dashboard would be slightly grayed out, like when one activates ExposÃ©.  K widgets, by contrast, are always available, always visible.  This is a very important difference (and, I believe for my usage, a major innovation/advantage for Apple).  Despite dissimilarities, the question still remains, did Apple wrong K (Arlo Rose, the community, etc) by creating Dashboard?  Well, despite the fact that I am no lawyer (and bear that in mind), I will discuss the legality of their actions.  First, you can't copyright or trademark a feature, feel, design, or or the problem an application solves.  You can copyright the source code and the application as a whole, which lets you control licensing and sales, and things of that nature.  Trademarks have to do with registered products (ie, Apple's Macintosh (TM) line of computers).  I think it's fairly obvious that Apple hasn't violated copyright or trademark laws.  I'm sure Apple's legal team would have informed them if they did, or were going to.  They also couldn't step on a patent, because (I'm fairly sure) Rose doesn't own a patent on javascript runtime engines (which is good, because I'm relatively sure he didn't originate the idea, regardless of whether he "ripped it off" or not).  Basically, all that leaves is antitrust issues, and those are very regional (in regards to nations and states within the U.S.)  Is Apple in the wrong ethically, though?  In my opinion (and you're welcome to disagree), no.  Here are my reasons:  1)  The idea behind both of them wasn't originated by Arlo Rose, it has been an idea evolving for many years, and although Rose's implementation of this idea is very good and polished, it doesn't give him any more rights over the idea than other implementations.  2)  Apple's usage of the term "widget" also borrows from earlier implementations (and, indeed, earlier uses), as does Rose's.  I think Rose's comment about this confusing customers is paramount to the author of a text editing application saying that another developer shouldn't call the files his text editor creates/edits "text" files.  (Not because of common attributes between text files and "widgets," but because both terms are commonly used.)  If he had called them "Konfabulatees" or something he originated, then he would have a legitimate gripe.  3)  Rose has *years* of monopoly dominance in his market.  Even now he has (at least) *9 month's* of forewarning that he's going to have a competitor.  He has a lot of time to add features (and borrow ideas from Apple, which is perfectly acceptable) to keep his user base.  4)  This is a clincher for me:  The idea behind both of these applications is *very* generic.  They're application runtimes which interpret Javascript to allow developers to easily develop a certain type of application.  At the very core of what these applications are, they are tools for *developers.*  They are tools that allow for rapid development.  And there are lots of previous projects which have a lot in common with both of these applications.  You can even draw parallels with Java (with it's runtime environment and features which allow for quick development).  Given the fact that there are only a limited number of "basic" developments (ie, interpreted vs. compiled, javascript vs. perl, etc), I don't think we can say Apple was *only* influenced by K and that K was a patent-worthy, revolutionary idea.  One last thought: This seems to happen when developers (I can't be sure, but I sure suspect it) ask themselves "I think Mac OS X needs   application, how would Apple do it?"  Then, when Apple gets around to implementing it (and yes, this seems like something that could be an OS feature), and does it in a similar fashion, they get pissed.  Well, what the hell did you expect?
+     
+
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+
+       
+      I got a couple games from my friends.  The Zelda game I wanted, and a game I didn't even know existed for GBA, Super Monkey Balls Jr.!  Sweet deal, as my grandpa used to say.  I've played a little of both, and they are both great fun.
+     
+
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+
+       
+      Got my Gameboy Advance SP (the NES one) yesterday.  At the moment I'm still only playing the old Gameboy and Gameboy Color games that were at my folks house (mainly stuff they had got after I moved away).  There are seven games, 4 of which are Zelda games!  Including Oracle of Ages and Oracle of Seasons, neither of which I've beaten (only even played one, which one I don't remember), so that should be exciting.  I've played it with the Four Swords Adventures games for my Gamecube, which is pretty neat, and I've tried it out with Windwaker.  Uhmm...if you don't know, those are both Zelda games.  Yeah, I like Zelda.  Hell, I'm even thinking of buying the GBA Zelda, A Link to the Past/Four Swords Adventures.  Or, if you have any suggestions, I'm open!
+     
+
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+
+       
+      We went to go see Dodgeball: A True Underdog Story tonight.  Not bad.  I laughed (although that's not hard to accomplish).  Lots of hilarious cameos, including Chuck Norris and David Hasselhoff.  Any movie that has David Hasselhoff chewing out Germans (in German, no less) is good by me!  (Germans love David Hasselhoff)
+     
+
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+
+       
+      I'm thinking of a GameBoy Advance.  There are lots of cool old school games, like Pac man, Donkey Kong, some Mario games, Zelda games, Tony Hawk (not old school, but very cool).  Also, The Legend of Zelda:  a Link to the Past is one of my all-time favorite games.  I also value mobility in my electronic devices (hence my very portable  urlLink powerbook ).  The only question in my mind is whether or not I'd play it enough to warrant it.  I don't play my GCN a whole lot right now, as it is.  I guess that's not the worst thing in the world, though!
+     
+
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+
+       
+      I've partially finished my cocoa wrapper class for the BSD sockets API.  Fun stuff.  Not very good, only does TCP streams, it's not buffered, and both the writing and reading block, so they should be called within a thread or a runloop, or something.  Well, the reading, at least.  The class is pretty small, and should be easy to extend to do what you want, including buffers or other socket types.  You can get it  urlLink here .  Just leave me a comment!
+     
+
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+
+       
+      It is possible!  After struggling (and giving up) with a professors during the semester, I moved him back to Panther.  Everything was good for a while, but, long story short, I think the system freaked out because I left the "Previous System" there, and it started using some of the Applications and System files from there.  So we decided to try to get the machine working satisfactorily under Panther.  (Shame on Microtek for not fixing the Panther issues with Panther after so long!)  Imagine my surprise when I got it to work.  Here are steps I took:  1.  Download the *newest* Scanwizard 5 (which you can find linked to from VersionTracker ( urlLink here ).  This doesn't install the support bundle for the X12 USL, so move on to step two.  2.  Download  urlLink this  (ftp.microtek.com) and install it.  Now we're almost done, already!  3.  (I'm not at the computer right now, and I don't quite trust myself to get everything *exactly* right, but it's pretty close.)  Go to /Library/Application Support/ScanWizard 5 V/Support Bundles/Scanner_Driver folder.  Delete *all* the folders/files within except the one that corresponds to the X12USL USB.  It'll be something like "SM-12USL USB 1.0.0.se".  You may have to turn the printer off, then on, then reset the computer before it works, but it should work.  If not, leave a comment and I'll be more explicit.  I did leave out a step that I don't think mattered.
+     
+
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+
+       
+      Well, I'm just doing this for myself, basically, I'm bored with what I'm doing on C2 code right now, which consists of turning stuff that looks like this:  send_to_char("Only numeric values are allowed\r\n", ch);  into this:  co2900_send_to_char(ch, "Only numeric values are allowed\r\n");  or this:  bzero (buf, sizeof(buf)); sprintf(buf,"%s has a %d gold\r\n", GET_REAL_NAME(vict), GET_GOLD(vict)); send_to_char(ch, buf);  into this:  co2900_send_to_char(ch, "%s has a %d gold\r\n", GET_REAL_NAME(vict), GET_GOLD(vict));  About 4 or 5 thousand times.  Fun stuff.  Not.  Anyway, my new project is a from scratch mud server in Cocoa.  So far, it's good fun!  All I have is a couple classes that constitute a very simple multiplexing and non-blocking telnet server that does nothing.  Well, it parses through the input and puts it into an array to use later, but that's about it.  Just laying the ground work!
+     
+
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+
+       
+      Well, I've been a little busy at work lately, so I haven't had much time to blog, plus nothing much has been going on.  Gonna go down with the folks to move in Ricka back into her dorm room at SMS this coming weekend.  In a few weeks I'll be starting classes myself.  At least the weather hasn't been unbearably hot.  Rather nice, actually.  Well, for August.
+     
+
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+
+       
+         urlLink          urlLink MeAndGuys      Originally uploaded by  urlLink frankfl .  
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+
+       
+      I got my PowerBook back yesterday, and it's all better!  Plus, they even put new feet on the bottom!  Three days turnaround, very nice!  So, everything is better now!  Uhmm...yea, pretty much.  Think I found an interesting bug with Tiger, wonder how I should communicate that to Apple...any suggestions?  Nothing else right now, that I can think of....except it's good to have my powerbook back!  Woo!
+     
+
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+
+       
+      I called Apple yesterday, long story (phone call, at least) short, the repair will cost just over $400 (including the call to Apple) because my machine was out of warranty and I didn't buy the extended one.  (I never needed it for my previous PowerBook, and I'm pretty gentle with my hardware, who could have seen this coming?)  Oh well.  The empty box came to my parents' place this morning, I went over lunch to pack it up, and it got picked up this afternoon.  Hopefully it won't take the 2-4 weeks they said.  I hope they also don't wipe my drive.  I'm a little worried that I'll lose some of my work (mainly the coding stuff that I don't have backed up real well).  I don't think they have much of a reason to fudge with the HD, but it does have Tiger preview on it (legally, of course), so I'm a bit worried.  I had to tell them my login/password over the phone, so I hope the guy heard my password correctly.  I should just made an apple/apple account.  Hindsight.  I'll note when I get it back.  In an unrelated note, Alex and I got to move about 15 computers across campus today.  3 at a time in the heat, it was unpleasant to say the least.
+     
+
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+
+       
+      My Powerbook is dead...  Well, comatose!  It's no longer drawing power from the power adapter (tested against other power adapters known to be functional), so I'm gonna have to send it in to Apple.  I imagine it'll cost a little bit, being out of warranty, now.  I think I'll get the feet on it replaced, also, since all mine fell off quite a time ago.  Until then, I'm scavenging machines at work to work on, and I might work on my old TiBook, but only if I think it's worth the hassle.  And right now, I don't think it really would be.  Thanks to OS X and my .Mac subscription, I've got all my contacts, calendars, and Safari bookmarks on this machine already.  If I install backup on it, I'll really be set, get a lot more of my stuff.  Which reminds me, I should update my backup settings on my PB when I get it back/functional.  Maybe I should just do it know, there's still some juice left.  Maybe it won't even work considering I have some *cough cough* prerelease OS on it. *cough cough*  (Don't worry, it's legal, Apple sent it to me, woo!)  Anyway, blah, I miss my poor little powerbook G4 12", Rev A.  Pray for it!
+     
+
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,383 @@
+<Blog>
+
+<date>29,April,2004</date>
+<post>
+
+     
+      Model transformation is just a glorified CLP problem. The main difference is that, instead of integers or reals, we have to solve for objects. Also, the type rules we talk about with objects make it a little bit more complicated, but these can probably be expressed as a series of default rules that must always apply. For example, if an object has a certain type, it must have values for all attributes of the type (and, with current typing rules, must not have any  other  values, although i find this a little weird myself). There is also the problem of object existence - integers and reals just exist, but objects have to be created, and generally deal with identity a bit differently.
+     
+    
+</post>
+
+<date>28,April,2004</date>
+<post>
+
+     
+      Why do ads for consumer electronics, and in particular computer equipment, never include people in their ads? Ads for clothes, sports equipment, cars, usually picture someone actually using the product. Does this represent a lack of focus on user interaction? Is this why technology design is often so bad?
+     
+    
+</post>
+
+<date>28,April,2004</date>
+<post>
+
+     
+      In the abstract of the paper discussed  urlLink here , is the following statement: "DSL development is hard, requiring both domain knowledge and language development expertise."  If MDA, or MDE, or DSLs, or 4GL, or whatever you choose to call it, is to stand any chance of affecting the way software is developed, this statement must be remedied. Obviously, domain knowledge is always going to be necessary, but the second part, language development experience, is something that can be helped. This is the central challenge for MDA, to remedy the first phrase by reducing the need for language development expertise, where that includes the development of compilers, transformations, or the other necessary  urlLink glue  technology.
+     
+    
+</post>
+
+<date>27,April,2004</date>
+<post>
+
+     
+       urlLink This , also  urlLink here  and  urlLink here , is what happens when people rush into standardising before real demand and consensus has emerged on what is needed. Web Services made me nervous from the start, because no-one could ever really tell me clearly what it was. The WS-PickAName trend was more worrying, because the PickANames looked so much like stuff that had been talked over in the CORBA and Java spaces, and for all I know, in the COM, DCE and other spaces. The OMG is running a similar risk with its MDA stuff, although I personally think and hope that its a little more novel.  Of course, as a researcher, this should be great for me, because its a green field to republish old ideas reapplied to new technology domains, and to get work publicised in standards fora even though its still preliminary research. In reality, I'd rather not, because it isn't intellectually satisfying, and makes me feel just a little dirty.  Oh yeah, and I'll quite happily put my hand up as having been a bit guilty this in the past.  urlLink HUTN  is a case of the same problem - research, and student research at that, published as a standard without implementation. I'll plead youth and inexperience, and that someone else had already issued a request for proposals.  The problem of reinvention in the markup community is further discussed by Dare Obsanjo  urlLink here .
+     
+    
+</post>
+
+<date>27,April,2004</date>
+<post>
+
+     
+      Is MDA just a framework for 4GLs?  I wonder if the real difference between the DSLs discussed in MDA circles, and 4GLs, is really just a political, trying to avoid the perceived failure of 4GLs to pervasively revolutionise computing as much as 2GLs and 3GLs did. Of course, MDA is more than this, but perhaps the most significant difference is the use of model (or language) transformation, rather than the use of models. Many people would probably point to the perceived status of UML within MDA, but I don't subscribe to that perception. Having a common definitional basis, MOF, is probably also significant.
+     
+    
+</post>
+
+<date>21,April,2004</date>
+<post>
+
+     
+      I'm seeing more and more talk about "Executable UML". Personally, I hate the term, and don't really buy the ideas (as I understand them) behind it. For me, the UML Action Semantics are a bit of a white elephant, especially in terms of usability, and the idea of a "platform-independent" action language seems like a gross contradiction in terms.  Generally, the idea of UML as a programming language is, to me, a bit weird. I use UML for so many different things, and in particular for so many levels of granularity, that a single interpretation is just absurd. Profiles help in no way whatsoever, because they're horribly broken and under-expressive. Also, I have a great taste for non-UML languages. I would much sooner design a business process in a workflow language than in UML state charts, activity diagrams, or use case diagrams (that the latter is now possible is somehow horrifying to me).  I hope that someone will  urlLink point me  at the document/s that will assuage my fears.
+     
+    
+</post>
+
+<date>21,April,2004</date>
+<post>
+
+     
+       urlLink Charming Python: Create declarative mini-languages , from an IBM guy, by way of  urlLink Tim .  For me, this is what MDA is really all about. The statement at the end, "... problems of rule-based systems, such as grammars and inference systems, are much easier to manage if they can be described declaratively." I have been a big proponent of a declarative approach to MOF QVT for a long time - MOF models are just big ol' grammars, and transformations, IMHO, should be the "inference systems" that hold them together.
+     
+    
+</post>
+
+<date>21,April,2004</date>
+<post>
+
+     
+      This is the first post. Basically, I've been blogging on a personal blog, but all my technical, work-related stuff, is in notes on my laptop. I figured I may as well put it up here, so I can link to other people whose blogs I've already been reading.
+     
+    
+</post>
+
+<date>18,May,2004</date>
+<post>
+
+     
+      Read  urlLink this  on TheServerSide, about MDA. Its an interesting article. The distinction between "elaborationist" and "translationist" MDA is a very good observation, although I don't like the words. I am firmly in the former camp, and have considerable skepticism about the scalability of the second.  Here are some responses to some comments in the article.  If the business changes as rapidly as technology, then there's no need in it being independent of its supporting technology.  Yes, very true. However, technology independence is just one benefit of "my" MDA (i.e. MDA as I understand the term). Another is an automated (or partially automated) mapping between your business concepts and your technology concepts. So, when your business model changes, your tech should change accordingly, even its still the same platform.   But for enterprise systems at least the dominance of .Net, Java and web services for the network means that the underlying technology platforms landscape looks remarkably stable for the time being.  Its all very well to talk about the portability of Java, or CORBA for that matter, but the rubber hits the road when you switch EJB providers, or ORBS, and it all falls in a heap. I can personally remember deployment descriptors being a nightmare with EJB, as recently as a couple of years ago.   It's not as if MDA removes platform risk. Consider this fragment of a generated application as produced by Compuware's OptimalJ:  Good point. This is an argument for using standard stuff. Either standardised transformation languages or, in this case, defacto standards for libraries. Also, it reinforces the frequently quoted claim that MDA isn't going to totally automate your development. It will just help. From what I've seen, EMF has a more flexible approach to this sort of problem with its generator models, and the ability to configure its generators.   Any technology that deals in meta-meta-models is going to be a hard sell, no matter how many analyst's reports have been written.  Amen. My previous employer tried to sell a MOF, and IMHO a pretty good one, for years, and just couldn't make a business of it. Admittedly, it was before its time...   Those organizations that used UML only for blueprints or sketches (Fowler's analysis [4.]) will find that MDA does not permit the use of UML in that way.  This is just plain wrong. There is no reason that they cannot keep using UML in the same way. You don't have to transform it if you don't want to.   While OCL is great for formally defining the semantics published interfaces between components, it's overkill to attempt to do this for the unpublished interfaces of objects within components. It just adds too much rigour at the wrong points in the development process, and in turn impedes agility.  Agreed. See above comments about scalability. Also, from a usability perspective, OCL is not as friendly as programming languages. Actually, its just plain not friendly.   Tool support for generic MOF capabilities, as required by a strict interpretation of the elaborationist approach, is still very patchy.  Wrong! MDR (Sun) and EMF (IBM) are both stable and pretty mature, and have two of the biggest names in IT behind them to boot. However, ...   While many UML tools allow PIMs and PSMs to be defined, they are not in themselves MOF-aware. They can be used to import/export MOF XMI format because they understand the UML namespaces, but they cannot be used for arbitrary MOF models.  Yes, this part is true, but the implication that this problem (of native syntaxes for arbitrary metamodels) should be solved in existing UML tools just scares me silly. I'm yet to meet a UML tool that I didn't swear at, and I don't like the idea of being forced to use them. Lack of automated editor generation for metamodels is a problem, but lets not heap it on UML tools.   For the OMG's view of elaborationist MDA to succeed, vendors must not only make their UML tools MOF-aware, they must also support QVT (once it is defined). Although I should be careful not to prejudge this, these are the same sort of vendors who have not implemented the OMG's earlier CWM for their various data modelling tools, a much easier proposition.  Yeah, MOF compliance would be nice, but it ain't gonna happen - there is no customer demand, and its a lot of work. For now, we'll have to settle for XMI to shunt our UML models across to MOF tools like MDR and EMF, run our transformations, then perhaps shunt the XMI back (if we're still in UML). I have the same complaint as before w.r.t. CWM - I think there will be a different market for UML than for MOF, and CWM lives in the latter. As for implementing it, I think I did, years ago. You just put the model into a MOF tool, and voila, out comes a billion lines of java code. Implemented.   More substantially, the use of metadata annotations in a PIM is remarkably similar to a couple of technologies that will become much more important, namely Java 1.5 metadata coupled with aspect-oriented programming (AOP). When AspectJ is enhanced to define pointcuts based on Java 1.5 metadata tags, these will start to act very much in the same way as PSMs.  Can someone point me to what is meant by Java 1.5 metadata, please? I assume he doesn't mean javax.jmi, because that is after all just a MOF mapping.   As for Microsoft? Noticeable by its absence.  Not really, Whitehorse, in the next version of Visual Studio, is just MDA by another name. Wisely (in my opinion), they steer away from UML 2 (see my previous post), although I'm not quite sure why they don't go the MOF way. Perhaps its just a traditional aversion to OMG? Anyway, see  urlLink Keith Short's blog  for just how MDA Microsoft is.  He also talks about Naked Objects. At a first glance, this sounds like MDA without the reflection. If this is the case, why not just use models?
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+     
+      OK, its quite likely that, over the coming months, I will devote considerable attention to complaining about the state of UML 2 on this blog. Now, let it be clear, I am a MOF guy, since it was invented, and lived for many years without having to worry overly about the mess that was UML 1.x. When people mentioned it, I could just say, "Well, its not a problem in MOF", and be done with it. (Note: This was despite a great lack of understanding about MOF, and subsequent misunderstanding about its role).  This all changed with UML2 / MOF2. Notionally, the move involved redefining MOF as a subset of UML. Fair enough, I guess, although I can't really see why its thatt important. Except for, UML has no concept of extents or reflection. OK, we'll add that in - its still  nearly  a subset.  Then, somewhere, someone (and my prejudices tell me it was a UML person) invented this heinous thing called a &lt;&lt;combine&gt;&gt; (also "define"-style package merge). This is the most evil thing I've ever seen in a MOF. Unlike everything else in MOF, its not a structural relationship. Its an instruction, a copy basically (with some bells and whistles about merging features), that "throws away" the relationship after "applying it". CMOF uses it, as does EMOF (for definition), and it just doesn't hang together when you look at it closely. More problematic is that it introduces time into the MOF/UML definition story. Time has no place in a meta-meta-model.  Of course, all this aside, its still a dog's breakfast. EMOF is in its concepts a really nice little language (see EMF for an implementation, largely free of the problems discussed in this post). However, its formal definition in the specification is expressed as a CMOF metamodel, not as an EMOF metamodel, which totally defeats the purpose of a MOF! A MOF is a metametamodel that must be,  must be , self-defining! EMOF could be, easily, but isn't specified as such, which is just evil.  As for the documents themselves, I pity any UML tool vendor who takes it upon themselves to implement UML 2. I have read more coherent binaries than the UML 2 specification, which seems to have been inspired by the "Choose Your Own Adventure" books that I read as a child, but 10 times as long, and split across multiple books. It was cool when I was 7, but now its just a bloody nuisance.
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+     
+      Dave Akehurst has sent out  urlLink this  call for contributions for the Second European Workshop on MDA, in York in September.  This is one of the reasons why I chose Europe to do my PhD - there is just much more going on here academically with respect to MDA than in Australia. (That, and the cheese is much better here, too).  This would not be considered academically prestigious, and some of my career-advising supervisors might advise against submitting/attending, but Dave Akehurst knows his stuff, and it should attract some interesting sorts. The publication outcome is less important than the intellectual stimulus that might be gained by attending.
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+     
+      I read  urlLink this  today, linked via  urlLink Stefan Tilkov's blog . I have been doing some work on this sort of stuff, more with MOF than with Java specifically, but very close. My recent experiences with doing MOF stuff with Ruby instead of Java, as I usually do, reinforced my impression that some type inference, even if it isn't full ML-style stuff, is a Good Thing for MDA-style development.
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+     
+      Dave Akehurst has sent out  urlLink this  call for contributions for the Second European Workshop on MDA, in York in September.  This is one of the reasons why I chose Europe to do my PhD - there is just much more going on here academically with respect to MDA than in Australia. (That, and the cheese is much better here, too).  This would not be considered academically prestigious, and some of my career-advising supervisors might advise against submitting/attending, but Dave Akehurst knows his stuff, and it should attract some interesting sorts. The publication outcome is less important than the intellectual stimulus that might be gained by attending.
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+     
+      More comments on the model transformation related thesis that I'm reading at the moment.    The author talks about PSM to PIM transformation as a single-step process. I don't think this is feasible for large systems. There is always a need for intermediate forms, and it is over-simplifying the matter to not acknowledge MDA (in whatever definition one takes) as not consisting of a series (graph, in my opinion) of model of transformations.   The author claims that the concept of notation has no equivalent in programming languages, and that the syntax is implied by the abstract syntax. I think this is false - all language have concrete syntaxes, obviously. The difference is that many languages have only one, or at least only one that permits editing. In his characterisation of model transformations, this is critical, since the difference between normal views (here notations, sometimes also representations) and views that permit editing, is a large and well-researched one.   The author's characterisation of the UML physical metamodel as a re-working of the actual UML metamodel to fit into MOF terms is poorly presented. In fact, association classes present no difficulties for MOF, provide that you do not try to factor your model as an extension (by inheritance) of MOF.   He asserts that performing model transformation on objects still within a modelling tool (or repository, I assume, though its not said) avoids user-interaction problems of losing layout information. However, this is only true when the transformation involved is "in-place" transformation. In a paper I co-authored for ICGT 2002, we present a number of problems with in-place transformation in MDA, and argue that it is not the dominant case, and furthermore that it presents more problems in terms of termination and ordering, than it solves. While it certainly useful for model refactoring, I don't think its suitable for the general problem of model transformation. I think this will make the rest of the thesis difficult for me to read.    I have only read 35 pages from 200-odd, but these introductions are important, because misunderstandings of background material can be propagated to the actual contributions.
+     
+    
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+     
+      This week, Cringely  urlLink chimes in  on Everquest sales fraud. He quotes someone as saying the Everquest virtual goods market is worth several million dollars a year, which is a nice little market by any standards. He proposes a martial-law type of solution for their fraud problem which, although perhaps dubious from a "who guards the guards" perspective, is pretty cool. That such a scheme can be suggested is pretty neat.  This probably interests me because I spent a large part of the weekend revisiting my RPG past...
+     
+    
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+     
+      I have found more people, in this case within my team, who associated MDA only with PIM to code refinement. In this case, this has led to the use of the term Model-Driven Engineering (MDE) for what I have always understood MDA to be: systems composed of models linked together by model transformations. I had a quick read of the MDA guide from OMG, but its 60 pages long, and its hard to get a good impression. I suspect that if you put an 'MDE' system in front of most OMG people, they would still call it MDA. As for me, I'm getting to the point where I don't really care, but intend to keep using MDA for what  I  think it means.
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+     
+      Here are some transformation languages/engines/environments: *  urlLink Tarzan/XMorph  ( urlLink Pegamento Project , DSTC): This was my old stamping ground, and I worked on this engine during its early stages. Its very declarative, based on patterns and rules, with no explicit execution order. At the moment, it doesn't do reversible transformations, but its structured to support it at some point in the future. Online demo. *  urlLink MTL  ( urlLink Triskell Project , Inria/IRISA): This is my current stomping ground, and I'm kind of peripherally involved in MTL, in a vague kind of way. The language is very declarative, a little bit like Java but with its own concrete syntax. It has abstraction libraries for different repositories (most notably MDR and EMF), which is nice. No support for reversibility, nor will there be. *  urlLink mdaTransf  ( urlLink Cédric Dumoulin , LIFL): Hybrid language with declarative match based on XML rules and imperative actions with some declarative flavour. Some support for reversibility, very XML-based. *  urlLink ATL  (Atlas project, Inria): Hybrid, declarative match and imperative rule, developed by a team based in Nantes. *  urlLink Kafka  ( urlLink Torben Weis , TU Berlin): Am reading about this one at the moment. Seems to be based on graph transformation, a popular approach. Will update when I know more. *  urlLink arcStyler  ( urlLink Interactive Objects ): Commercial MDA tool that includes model transformation as a feature. If their revised submission to the OMG RFP is a reasonable approximation for their tool, they've got a nice little declarative language that uses structural refinement pretty heavily. It should support reversibility OK, too. * XMOF ( urlLink Compuware ): Compuware are a pretty heavy hitter in MDA, and their OptimalJ is a pretty nifty tool, from what I saw at a demo last year. Based on their RFP submission, they have a declarative, pattern-based language. Its reversible, uses OCL pretty heavily, but its semantics are really hard to understand from their submission document. * GReAT (ISIS, Vanderbilt): The ISIS guys have a whole bunch of interesting MDA-type research prototypes and stuff, grouped as GME or Model-Integrated Computing but, as I understand it, its all non-standard and built on COM, which is a real drag. I don't know much about GReAT specifically beyond what I've read in some very short papers, but it seems to be based on graph rewriting. I'd be a lot more interested in these guys if they used MOF! * TRL (France Telecom) * UMLX (Ed Willink, Thales) * Fondue (EPFL): This comes from Shane Sendall, Frédéric Fondemont and company at EPFL in Lausanne, and I believe it is based on graph transformation. Interestingly, I think Shane tutored me in second-year university, and Frédéric used to work in the team where I am now, so its certainly a small world.  I'm collecting them, so  urlLink email me  with what you've got.
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+     
+      I hate it that people are so obsessed with the idea that model transformations, and MDA particularly, is only useful for the transition from software design to implementation. From a thesis I am reading at the moment:   "In the context of MDA, the input language [of a transformation] resides on a higher level of abstraction than the output language."   Codswallop. If you choose to use MDA that way, you're welcome to it, and its probably the most compelling scenario, but that's like saying that Java can only be used to write applets.  Once again, the OMG publicity work is probably responsible, although one can hardly criticize them for leveraging the most popular applications of an idea in an effort to advance it. Its unfortunate, though, that people seem unable or unwilling to understand the idea properly.
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+     
+      The best thing about standards is that there are so many to choose from. I don't know who said that, but it was never truer than for metadata. Witness the WS-Paraphenalia phenomenon. In MOF's world, this is because it has zero visibility outside of the OMG. This is probably why some ISO people have started  urlLink trying to do the same thing over again , despite explicitly stating in the following statement (received via Richard Soley) that they are aware of MOF, and that it doesn't do exactly what it, in fact, does. I do have some sympathy for their ontological approach for interoperability between models, though.  "The development of metamodels and UML profiles has been progressed through standardization activities such as UN/CEFACT and OASIS for UMM, ebXML, and OMG for MOF, XMI, CWM, EDOC, EAI, etc. However, every standard group has to specify their metamodel scheme by their own manners. There is no explicit specification about the modeling elements and constructs we use to build metamodels. Due to lack of standards that specify common basses for consistent development and registration of metamodels, fudge duplications and inconsistencies have to be brought. A unified framework for classifying and registering normative model elements could be required to establish harmonization of the metamodels, which are developed independently and to reuse them widely across organizations. And an ontology framework for metamodels is needed to ensure the interoperability between metamodels."
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+     
+      I bought an iPod on Friday. When I was an impoverished student, I would have paid less, for more storage capacity, but for god-awful UI design and form factor. Now, I know better, and this is why the last two tech things I've bought have come from Apple.
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+     
+      All week, Franck and I have been hacking up a MOF in Ruby. The language supports closures, or iterators, or whatever you want to call them and, after a week of using them pretty heavily, I never want to go back to a language without them (I'm talking to you, Java).  We chose to use EMOF largely because its smaller, and there's only one product (EMF) with which to manage interoperability. Its really cute, actually. We did a minimal reflective model (just Class, Object and Property), used that to parse in the XMI file into a basic object model, then used code generation to generate the actual implementation. The codegen step allows us to throw away the first bootstrap, which lets us "close the loop", of M3 reflecting to M3. This is done with static code, basically by "unparameterizing" the generic implementations of the necessary methods.
+     
+    
+</post>
+
+<date>30,June,2004</date>
+<post>
+
+     
+      Its been increasingly rare to find any discussions of interest/value on the OMG's mailing lists, but there has been a hint of one over the last couple of days, sparked by a discussion between Allan Kennedy and Graham Berrisford, and followed up by various others. It always gives me warm'n'fuzzies when guys like Sridhar Iyengar and Jishnu Mukerji say what I've been thinking because, underneath all the political games, they're actually pretty clued in. In this case it was about the scale of applicability of Executable UML, and the positioning more generally of UML within MDA. (This is tied to posts that I've made in the past, such as  urlLink this one .) I expect replies from Steve Mellor and other xUML people within a few days.  A very small point, though: Sridhar should be careful about plugging projects like  urlLink GMT . As far as I can tell, its all but still-born, and saying that it represents a significant push within the Eclipse community for Model Transformations is, IMHO, not really a fair representation of reality. Of course, this isn't to say that there aren't  urlLink kickass  model transformation engines that use Eclipse and EMF! ;-)  Disclaimers:    Apologies to non-OMG people, who have no idea what/who I'm talking about, but the koolaid is really good!   The last statement, the "kickass" one, is biased in the extreme.   
+     
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+     
+      I don't know how I missed it before, but Stuart Kent has a  urlLink weblog . Stuart's a smart guy, and his move to the Visual Studio team within Microsoft was a great loss to academia.  Anyway, his  urlLink latest post  is about practical implications of applying MDA, and is in some ways a followup to  urlLink Hayward's ideas  (which I've discussed  urlLink before , in some depth) about elaborationism vs translationism, but with a more practical perspective on the former. Its good to see someone posting about MDA without getting caught up in the terminology wars (what is MDA vs MDSD vs MDD vs DSM, what exactly is a PSM, PIM, CIM, etc).  Its interesting that he mentions the testing/debugging issues associated with MDA, in both elaborationist and translationist forms. I have been working on the testing aspect with  urlLink Franck , and we've submitted a paper on it to  urlLink ISSRE 04 .  Interestingly, although I've seen quite a bit of smoke about a clash between MDA (or IBM's approach thereto) and Microsoft's DSM, I suspect that there really isn't any fire within either IBM or MS. They both seem content to keep progressing along their respective trajectories, which is entirely as it should be. Of course, it would be nice if the two tool-suites could either interoperate or interchange at some point, but that's a secondary concern to actually get sophisticated tooling for model-driven, er, stuff (I don't want to offend the acronym-nazis).  Incidentally, Stuart was right on the money with  urlLink this post , too. I have long been a critic of the approach of using profiles as the only UML extension mechanism, after being bitten while helping try to squeeze the  urlLink EDOC language  (square peg) into a UML profile (round hole). 
+     
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+     
+      I've been looking at  urlLink this  all day long. Michael Lawley, my ex-boss, was all up-to-date with this graph layout stuff, much more so than me, so perhaps he'll tell me why its not the best one there is, but I just can't stop marveling at the way it moves. There are also google and amazon browsers linked  urlLink here .  Now, what I'd really like is a browser/editor like this for  urlLink EMF , currently my favourite MOF tool. If only the Eclipse/EMF editor development stuff were a little less opaque to me, I'd rush out and build one...
+     
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+     
+      I finally got around to ordering an airport card for my iBook last week, from the Apple store online, but have been playing cat-and-mouse with the delivery people for the last week or so. Anyway, the upshot is that, in a situation that can only be described as cruel irony, I have to stay home tomorrow morning to take delivery of a device intended to give me more mobility. Perhaps this is payback for my PDA comments last week...
+     
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+     
+       urlLink This , a talk from Cory Doctorow on Digital Rights Management, is way outside my sphere of interest, but it struck a chord. In particular, the paragraph:   Whenever a new technology has disrupted copyright, we've changed copyright. Copyright isn't an ethical proposition, it's a utlititarian one. There's nothing *moral* about paying a composer tuppence for the piano-roll rights, there's nothing *immoral* about not paying Hollywood for the right to videotape a movie off your TV. They're just the best way of balancing out so that people's physical property rights in their VCRs and phonographs are respected and so that creators get enough of a dangling carrot to go on making shows and music and books and paintings.   Seems pretty cool to me.
+     
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+     
+      I have a coworker who recently bought a PDA. He's pretty chuffed with it - it reminds him of deadlines, plays mp3s, and he can view his blogs on it and synchronise their status with his PC. However, it should be noted that the P in PDA does not stand for portable - it basically lives on his desk during the work-day. As a matter of fact, its there now and has been notifying him of something or other for the last half hour, as it did yesterday. So much for portable devices...
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+     
+      It seems that Martin Fowler has decided that a  urlLink textual notation for UML  might be nice. Some readers will note that he's not the first.  I wonder how long it is until  urlLink HUTN  is mentioned, and then disregarded, in this discussion, and whether anyone will contact either  urlLink me  or the  urlLink folks at DSTC  to ask about it...  Actually, someone at work asked me about HUTN yesterday, which surprised me. I had kind of figured that it would fade into a small note in some PTC minutes archive and be forgotten, but perhaps I was wrong. I still think its a useful idea, although it would really benefit from someone providing a more up-to-date implementation than  urlLink this one .  On a final note, looking at the OMG's spec catalog would  urlLink suggest  that HUTN has passed the BoD stage, and is thus a "real" specification now. Yay.
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+     
+      Netscape 7 botched my profile last week, so I canned it and switched to Firefox/Thunderbird. Generally, its been pretty good - firefox is just a little slicker, and has all the things that I depended upon (stored passwords, tabbed browsing, etc) in Netscape, and a few more neat tricks like the pluggable search engines (I currently have Google, Dictionary.com, Wikipedia, IMDB, Amazon). Thunderbird is fine, too, although I haven't really noticed much difference from the Netscape mail component.  You know what pisses me off, though? These applications should work fine together, right? The both come from the Mozilla project, right? Wrong. Thunderbird is, in theory at least, installed as my "default mail reader", yet when I clicked on a mailto: link in Firefox, it tried to open the enemy, Outlook Express. I'm not sure what caused that - perhaps the i8n stuff? Anyway, I used a baroque fix described here, and that worked, but then it was doing the same thing for news...  Also, my search plugins where lost when I upgraded to Firefox 0.9, which was a nuisance, in contrast to the rest of the migration process, which was seamless.  It shouldn't be this complicated...
+     
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+     
+       urlLink This guy  is a truly wonderful musician, and a lot of the superlatives on the site have some justification. I saw him live in Brisbane a couple of years ago, and it blew my mind.  However, his  urlLink website  could be the worst website in the history of the world. It hides in the middle of the window, and I have to scroll using some crappy hover buttons that don't work in my browser. Add to that the fact that it is almost devoid of any actual useful content (discography, tour dates, etc).
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+     
+      This from a new book from  urlLink Gregory Chaitin ,  urlLink via Tim Bray :  Well, the computer changes epistemology, it changes the meaning of “to understand.” To me, you understand something only if you can program it. (You, not someone else!) Otherwise you don't really understand it, you only think you understand it.  Uh-huh. I have noticed two types of academics during my 5 years or so of working in research, and they can be roughly classified based on their apparent adherence to the statement expressed in that paragraph. 
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+     
+      I don't know an awful lot about Web Services, but I know that I like the fact that it uses  urlLink structural subtyping  (as opposed to Java), which is what Stefan Tilkov and others are talking about  urlLink here  (and  urlLink elsewhere ). I've been reading  urlLink Castagna 's  urlLink book on Object-Oriented language theory  (which, incidentally, is pretty good), and I'm kind of into all this type system stuff at the moment. 
+     
+    
+</post>
+
+<date>02,June,2004</date>
+<post>
+
+     
+      Via  urlLink Didier ,  urlLink Le Groupe Meta  (warning: its mostly in French) is a gang of french MOF researchers. They were active at some stage, but haven't met for a year now, according to the web site. I don't know why, because there are certainly plenty of them - another reason that I came to France.
+     
+    
+</post>
+
+<date>01,June,2004</date>
+<post>
+
+     
+      In  urlLink Cringely's latest , he talks about the changes we might soon see to wireless internet service provision. At the end, he has a throwaway line about churches getting into the game. Having spent the last two weeks doing some tourism, including a good deal of church-visiting, in both France and England, I reckon it could actually work here. In both countries, a single organisation (the Catholic and Anglican churches, respectively) is present, often in great numbers, in every town and village. Better still, they're generally evenly dispersed among parishes and, most importantly, they quite often have the tallest buildings in town, a fact sometimes enforced by local building regulations (see: Paris). This is gold. I don't believe, but I could believe in this. Perhaps I'll start my application for the catholic church's IT department :)
+     
+    
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+     
+      The  urlLink napkin  look and feel for swing is seriously cute, and the idea behind of it, of avoiding the impression that just because a UI looks swish the program is finished, is fair enough. Unfortunately, any java development likely to appear on my radar in the near future is likely to be SWT-based, because of  urlLink Eclipse / urlLink EMF . (This via a  urlLink post  on  urlLink Michael's blog .)
+     
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+     
+      I might as well face it, I'm addicted to blogs. My bloglines blogroll hit 60 today. It had been relatively stagnant at about 50 for a while, as I struggled to keep up with the volume of blogs like Scoble and ESPN's NBA news, but today Michael pointed me to a whole bunch of blogs from (shock, horror), people I actually know. I've put the blogroll on the sidebar - its roughly sorted, but the emphasis is on rough rather than sorted.
+     
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+     
+      Its nice to see other people say things that I'd like to be true.  urlLink Sean McGrath  says  urlLink here , in responding to a  urlLink Steve Vinoski   urlLink article  that:   Anyone coding middlware in a statically compiled language, working in a commercial environment where time is money, has rocks in their head.   Not having ever worked in such an environment, I can't really comment, but working in a research environment, where time is to be wasted in equal measure with money - again, opinions are my own and no-one else's ;-) - it was certainly much nicer doing MOF stuff (which I hope might be middleware in 5-10 years' time) was a hell of a lot nicer in Ruby than Java. As a side note, doing MOF stuff in Java was a  hell  of a lot nicer than the 2 weeks I spent doing it in C.  However, I don't know whether it was really the dynamicity itself that was the problem, rather the level and nature of type-checking, and other features commonly associated with dynamic languages, such as closures.
+     
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+     
+      Talk about the midas touch - ever since I mentioned that OMG thread being interesting, it has deteriorated into definitional war over "what is a CIM?", the exact nature of whole-part relationships, and other hand-waving nonsense. Next time I'll just keep my mouth shut.  Oh, and of my 2 papers submitted to ISSRE 04, one was accepted and the other rejected. Since the conference acceptance rate was 1 in 3 (which seems high, to me), I guess my 50% is a good result. I now have to go back and work on both - the accepted one to get it ready for publication, and the rejected to make it more palatable for later submission.
+     
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+     
+      I'm a mac user (gasp!). I bought an iBook a few years ago, in 2001, because they were cheap and Unix, and was pretty happy with it - so much so that I bought another at the start of this year. It's been part of move away from the geeky function-over-form towards the whole experience thing. I bought an iPod recently, too, and like that, too.  However, I haven't been a cordial-drinker. I don't stay up late at nights to watch Steve Jobs' keynotes, and don't buy the latest product as soon as they come out.  In fact, the first keynote I've watched any of was just yesterday, from WWDC, and that only just to get a better idea of the scale of a 30" LCD monitor. And, I have to say, I was pretty bloody impressed. There were, I guess, 7 things:    big new LCD screens: I thought the old apple LCDs were beautiful, but beyond my price range. The new ones are the still beyond my price range, but bigger and more beautiful.   spotlight, meta-driven local searching: Some MS blogs have been talking about this in WinFS, and Jobs' demo was sure impressive, and looked like something I could actually use.   RSS integration into Safari: Not a big deal, really, I don't think, but nice.   core image/core video libraries: This is some impressive stuff, and I would have thought would make Photoshop Mac's life at once easier and more difficult.   dashboard, (aka konfabulator): Cute, not sure how useful.   visual scripting (Automater): Again, cute, but not sure how useful.   iChat multi-point, new codec: This is some serious eye candy. If any of my family in Australia had a mac, I'd probably give a try. Don't know what the bandwidth requirements are like, though.    Some of the really impressive stuff, for me, is in the core image, dashboard, and iChat stuff, and the way they use on-board graphics functions to just make stuff look cool. Once upon a time I would have written it off as just eye-candy, but more and more I'm of the opinion that quality of user interaction is at least as important as underlying architectural elegance. Although I say "cute, unsure how useful" a lot, I said the same thing about exposé, and now find it pretty useful.
+     
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+     
+      The  urlLink latest interview  at  urlLink codegeneration.net  is with the Compuware OptimalJ guys. I saw a demo of their stuff last year, and its certainly the best commercial MDA tool I've seen, and maybe the most mature transformation implementation going around. Like  urlLink Haywood  (and  urlLink Kent , and all the guys on the ADTF list), they're seeing an increasing distinction between the executable UML guys and the model transformation guys, which they call the "pragmatic camp".  It's probably an inflammatory phrase, in its unspoken implication that the xUML approaches aren't pragmatic (an implication I have some sympathy for, in the general case, but would never press). They might also get some pushback on the nomenclature, I suspect, from the  urlLink Pragmatic Programming crowd , as led by  urlLink PragDave .  They also talk about model-driven testing, coming in their next version, which is another thing that has floated pretty conspicuously past my radar this year.
+     
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+     
+      I had another paper accepted today, this time to the  urlLink 2nd European Workshop on MDA,  in Kent in September. It's not really a high-prestige event, but there should be a few interesting people to meet there, hopefully. 
+     
+    
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+     
+      In efforts to provide a standardised definition for the term "MDA tool", the OMG lists exploded overnight to the tune of 57 new messages this morning. OK, its not a big explosion, but its a spike in the traffic of these particular lists. I apologise in advance if non-OMG-connected people are a little confused by this. The basic summary is, I guess, that certain parties (whose names I neither recall nor care to recount) advocate a very flexible view of the term, specifically to include any tool which generates code. In my observation, the last thing the discussion needs is another post on the list, so I'll put my opinion here. Basically, the biggest problem I see with the whole discussion is that a number of people believe that "code is a model". This is a pleasant but dangerous fiction, to be engaged in only by academics and other hand-waving types. This is comparable to, but I would argue worse than, saying that code is an object (or set of objects), since models are, as structures go, just extrapolations of objects, in that they represent systems of objects. Also, one should be careful to say that (with due respect to Kerry, who said this probably better than I will) we believe that code  can be represented as  a model. However, this is  not the same thing  as saying that code  is  a model. Another problem I see is that people on the list seem to be confusing the term "MDA" with "useful". A C++ (or any other programming language) compiler is hella useful in an MDA context, but that doesn't make it an MDA tool. No-one would consider the hard-disk controller a Java tool, but it's pretty handy when you're doing Java development. Furthermore, the analogy that may or may not exist between programming language compilation and model transformation should, like the consideration of code as model, be reserved for the hand-wavers.  
+     
+    
+</post>
+
+
+
+</Blog>

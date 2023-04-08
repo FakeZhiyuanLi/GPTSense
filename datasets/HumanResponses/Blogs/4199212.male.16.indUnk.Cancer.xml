@@ -1,0 +1,104 @@
+<Blog>
+
+<date>19,August,2004</date>
+<post>
+
+	 
+      For those of you that don't know, there are many many other operating systems than Windows. There are of course Apple's Macs, but there is a whole nother world out there such as Unix,  urlLink Linux , FreeBSD and others. I'm getting into  urlLink Linux , because unlike Windows and Macs,  urlLink Linux  is completely free. In fact, I'm going to go buy a new computer on Saturday and I am going to make it a dual boot between Windows XP and  urlLink Suse Linux . If I get to know Linux I'm going to make it my permanent operating system. What turned me onto Linux was a version called  urlLink Knoppix .  urlLink Knoppix  is a version that you download, burn and restart your computer.  urlLink Knoppix  runs right off of the cd and dosen't install anything to your computer. It comes jam packed with tons of software. Linux is also more secure than Windows too, isn't that pretty sad? That a completely free operating system is more secure than a operating system that you pay $200 for! The only drawback to Linux is that a lot of popular software such as Microsoft Office dosen't run in Linux. But I have noticed that since the big security hole (Windows XP) came out, more and more software is being developed for Linux such as Unreal Tournament 2004. 
+     
+
+    
+</post>
+
+<date>18,August,2004</date>
+<post>
+
+	 
+      Do you always need to be on your computer even while you are at work, school, anywhere but home? You have probably seen advertisements for GoToMyPc and such programs well  urlLink RemotelyAnywhere  is my favorite program for remote access.  urlLink RemotelyAnywhere  works right over your internet browser. It is also much more than a remote control program. You can see what processes are running and stop and end them. If your computer locks up you can reboot it no matter how busy it is. It has a built in telnet server and also an interactive command prompt without being in Windows, has a file transfer utility to give and receive files. You don't even have to remember another password because it uses your Windows user name and password. There are far too many features to talk about. I like that program for the internet but inside a network I like to use Remote Desktop Connection built into Windows XP Pro. To enable it go to control panel, system, remote and check the box that says Allow users to connect remotely to this computer. From there, to connect to it go to Start, All Programs, Accessories, Communication and Remote Desktop Connection and just type in the computer name and hit connect. 
+     
+
+    
+</post>
+
+<date>16,August,2004</date>
+<post>
+
+	 
+      Almost every client I have had has asked, is AVG better than Norton? I used to say that just get completely rid of Norton and install AVG. For you people that don't know, AVG is a free Anti-Virus system. I use it for both my personal use and we use it up at school. Up until recently I got rid of Norton on computers I fix and put AVG on but I was wrong. Factory professionals decide to put Norton on new systems and I think that these professionals know quite a bit more than a 16 year old (me). The reason that I dislike Norton is because when I had a p3 (733mhz) and I ut Norton on there and it slowed it down miserably. Now I see a slight decrease in speed but not that much. I say if you already have Norton, keep it, if you don't get AVG. 
+     
+
+    
+</post>
+
+<date>15,August,2004</date>
+<post>
+
+	 
+      Are you tired of forgetting your passwords? I mean you have a password for everything, your bank login, Windows, Linux, Mac, email and if you are a network admin there are tons of passwords that you have to remember, different servers, different accounts on workstations, security programs, it's just overwhelming. Introducing  urlLink KeePass .  urlLink KeePass  is basically a password safe where you store all of your passwords to everything. It put's them into a single file which that is either protected by a master password or a thing called a key-disk. A key-disk is either a floppy, cd or thumb drive containing a encrypted file that can unlock the database. I don't like the key-disk way because I have all my school network and client passwords in KeePass and if another student had gotten a hold of the database and the key a lot of people including myself would be screwed. Instead I put the whole program on my thumb drive and whenever I need a password I can plug it in wherever I'm at and have access to all of my passwords. I have a good master password for my database. Remember, all good passwords are made up of both lowercase and upercase letters and letters and symbols. Oh yeah, I forgot the best part, KeePass is completely free! 
+     
+
+    
+</post>
+
+<date>13,August,2004</date>
+<post>
+
+	 
+      One of my favorite things to do on computers is cracking my family and friends Windows passwords. Most of the time I just do it to show off but there is times that the skill comes in handy. I have to admit, I didn't learn how to do this by myself, I watched episode 3 of  urlLink The Broken . There are multiple ways to do this, you can either replace the current users password using a program called  urlLink NT Password  or you can boot up the computer using a copy of  urlLink Knoppix , copy the computers SAM and System files to a usb thumb drive, take the files to another computer running Windows, downloading a copy of  urlLink Sam Inside  importing the SAM and System files into  urlLink Sam Inside  and then exporting it into a PWDump file. From there you get your hands on a copy of  urlLink LC5  and importing that PWDump file into it and perform either a dictionary attack, hybrid attack or a brute force attack against the file. The  urlLink NT Password  way is obviously easier, all you do is download  urlLink NT Password , burn it to a cd, boot from the cd on the target pc, choose the path to your c:\windows\system32\config directory (where the SAM and System files are stored), choose the account to overwrite and type in the new password. There are 2 problems this way, 1 is you can't read anything that was encrypted using EFS like files in My Documents and 2, if you are trying to be sneaky about it the user will know that someone has messed with the computer because the user will be locked out. That's why I prefer to crack the password and go back to that machine at a later time. Be careful where you use this, use it to test your own machine and your own machine only. I give you the information, you do what you want with it. 
+     
+
+    
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+	 
+      As you probably know, Microsoft's Windows operating systems are not the best secured systems in the world. However, Bill Gates made a promise that over the next 12 months security will become Microsoft's strength in both the client side, Windows XP and the upcoming Windows Longhorn and the server side, Windows Server 2003. On the server side, Microsoft is concentrating on spam and virus protection. It would be nice for the Windows updates to be gone and there be no holes.  In 1985 beleive it or not Bill Gates begged to callaborate with Apple but Apple turned Bill down. However at the time Apple was the leader in the computing world. Bill then turned to plan b: Windows. Bill blew up. Apple is about to make the same mistake with RealNetworks. RealNetworks asked Apple to release it's digital rights management (drm) and Apple declined. So RealNetworks found a way to use it themselves. Now RealNetworks' RealPlayer is now compatible with Apple's iPod. Now iPod users have a choice of what music store they want to use instead of being limited to Apple's iTunes. 
+     
+
+    
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+	 
+      Last year about this time a virus was released called MS Blast and it was a pain! The virus stored itself in c:\windows\system32 and added itself into the Windows registry making itself boot up when Windows started. The virus gave the user 30 second restart warning and just kept on restarting your computer. The way I got it to go away on some of my friends computers is going to command prompt and typing "shutdown -a" and then hitting ctrl alt delete and ending the process msblast.exe and then deleting it from system32. The actual virus writer hasn't been caught but however a 18 year old (19 now) re-compiled the virus and made it even more harmful and released it. He got caught. He pled guilty today and if prosecuted he will face about 3 years in jail and fined thousands of dollars. I never received the virus but many of my friends did. I hope that the actual virus writer gets caught. Microsoft put a 100,000 reward for anyone that will turn in the script kiddy. I personally think that he deserves it. He costs company's, schools and businesses thousands due to repair work. I hope if the real virus writer is caught he has double the time and fines. 
+     
+
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+	 
+      A new virus called Bagle.aq was raised in the security threat level by Anti-Virus company McAfee. The new virus is distrubuted in a .zip file attatched in a email. The .zip folder countains a HTML document that runs the exe (also in the zip file) which is a Trojan Downloader. The exe also contains it's own SMTP spamming engine that gets all of your contacts on your local disk and sends them a copy of the virus. The Trojan Downloader downloads a Trojan that can allow hackers to get into your system. So update your Anti-Virus and scan scan scan!  The long wait for Microsoft's Service Pack 2 just got a bit longer. The final version is done however IBM wants to test out the final product first. The new update has added security features such as a better built in firewall, pop up blocker for Internet Explorer and of course SP2 also patches holes in the Windows XP operating system. Microsoft has also improved their Windows Update to be "easier to use". Expect the final release of Service Pack 2 later on this week.  RealNetworks has made Apple mad with their new release of RealPlayer. The new release of the multimedia center now has support to Apple's iPod allowing purchased music from the RealNetwork online store to be played on the iPod. Before, the only purchased music that could be played on the iPod was Apple's iTunes music service. Apple is considering a law suit against RealNetworks. 
+     
+
+    
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+	 
+      Today I had to wake up early and walk up to the school because last night I checked on our Web\Unreal Server via RemotelyAnywhere and I went to scan for viruses with AVG and it said that my license was no good. So I uninstalled the pirated version and installed the free version but I had to restart. Well after the restart I could start the web serving application (Analog X Simple WWW Server) but I couldn't start the Unreal Server because RemotelyAnywhere doesn't get along with Direct X applications. Any how I went into the office, started up the server without any problems. I went to Mrs. Cruz's classroom after that to see if everything worked with her computers and she said that her printer didn't print from her second computer in her class. I looked under the printer manager on the host computer and saw that the same printer was installed 2 or 3 different times. So I deleted all of them, reinstalled the printer and set it up on the second computer. Knowing her luck though it will quit working the first day of school. She gave me a ride home and I was bored so I played around with a program called NetCat. NetCat is the network swiss army knife. It is mostly used by hackers because of the ease of uploading and executing it to a web server through a web browser using unicode techniques. Once executing the hacker could telnet to that server. The reason that people like NetCat so much is because you can change the telnet to listen on any port. If you change the listen port to say 80 it will go through any firewall and automatically forward the telnet request from the outside world into the network. It is a really nice tool. After taking a nap I decided to work on my web page a little bit, I added this blog and added a chat room. Both are hosted by a third party company. 
+     
+
+    
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+	 
+      Okay this is my second blog that I have had, the other one got shut down after I didn't post in it for a while. Hopefully this one won't get shut down. My name is C.W. Frazier, I am a Junior at Maricopa High School where I am also the assistant network administrator. I love network security but anytime I try to do any hacking at my school I always get caught by my boss\teacher\friend, Chef. My friends (just to name a few) are Lacy, J.T., Chris, Harry and many others. My hobbies are Windows password extracting\cracking, network security as mentioned, testing software, packet sniffing, war driving, music, hanging out with friends, djing at school events and a new way to suck up time, web design and animation. I'm looking forward to this school year. 
+     
+
+    
+</post>
+
+
+</Blog>

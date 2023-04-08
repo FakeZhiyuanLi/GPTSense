@@ -1,0 +1,59 @@
+<Blog>
+
+<date>31,May,2004</date>
+<post>
+
+     
+      Hi there, I could not blog yesterday and the day before due to the fact that my Cable Internet Connection Server refused to service my computer's requests...  After waiting for a week or so, my new 3.0GHz Pentium 4 with Hyper-Threading finally arrived... I was the most excited person on earth when I saw the processor package! When WinXP started, XP threws up its scary BSOD onto the screen with an error code of 0x0000007b. I guessed it was just a processor or motherboard driver mismatch and so used XP's Repair feature to fix the problem. And I was really relieved when I saw that it booted perfectly...  School is going to start soon and I hope I can continue blogging...  My Normal School Day TimeTable is as follows...  6:00 AM | Get up & start putting on uniform, having breakfast and so on  7:30 AM | Leave from home for school    ------- At School ------- 5:00 PM | Back from school, Freshen up, Have food etc. 5:30 PM | At my Grandparents' House 6:30 PM | Start studies and School Homework if any or else start 12:00 PM routine 8:30 PM | Dinner 9:00 PM | Continue School HW if any or else start 12:00 PM routine 12:00 AM | Blog, Check & Send Mail 12:30 AM | Research and Learning in Computers, Embedded Systems, Electronics, .NET etc. 1:30 AM (Variable Time) | Sleep  (Inbetween this schedule I will spare sometime for making calls to contacts like my computer science professor, Mr. Santhosh and keep in touch)
+     
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+     
+      Hi everyone...  Its drizzling here..   I'm back from my grandparent's house and my grandfather is back from hospital... He had sum infection in his lungs but now everything is fine n dandy.  Just going through the MSIL code the C# compiler generated and doing some manual performance profiling. Just look at the number of boxing-unboxing operations!! I think even in large .NET projects if you understand the underlying IL you could really improve .NET Application performance.   There are two books which I would really recommend reading:    * Inside C#, Tom Archer & Andrew Whitechapel for those low level explanations of the underlying MSIL (Targets C# .NET) * Programming Microsoft Visual Basic .NET, Francesco Balena for a serious VB 6 to VB .NET Developer (Targets VB .NET and upgradation of VB 6 Architecture to the .NET Platform)    Ofcourse there are many books on .NET which I haven't read, these are just two of my recommendations...  
+     
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+     
+      Hi.. School is gonna start on  June 2nd  and I dunno how I'm going to continue blogging ....  I just cycled a bit with my lil sister and no, frankly, I dont clip ...   I've not met my other (less nerdy) friends for a pretty long time now... (i.e. if 1 month is considered long)...  Spoke to my computer science professor, Mr. Santhosh this morning, I feel really disgusted calling him a professor though... He is a real pal. I just instructed him to go through the Hardware Books I gave him (yeah "I instructed") =P  Oops, I almost forgot to tell you... I'm upgrading from my Intel Celeron 1.7GHz to a Intel Pentium 4 3GHz with HyperThreading.... YAY!!! I'm so excited, I just can't wait for it to arrive =)  Coming back to the subject (that is - the blog title), I spoke to Microsoft Employee indirectly (through Santhosh) and he actually asked me to concentrate on the .NET Framework 2.0 and Longhorn and haven't I told you? I'm also a GREAT Artificial Intelligence supporter... I'm working on Neural Networks, Natural Language, Fuzzy Logic (Emb. Systems) and they're all great to learn about.   I just tried overclocking my current processor from 1.7GHz to 1.9GHz... Seems to be working fine (atleast till now)  And in a picture post, I'm going to be showin' you a pic of me...  Its 12 15 PM, Noon and I'm hungry so I guess I'll finish lunch and post those pictures...  Okay then, Bye for now! Tom!  
+     
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+     
+      Hi there,  Well its 12:59am... Oops 1:00am now.  I was just going through Microsoft Developer Blogs in amazement and I think that being a developer at Microsoft is great...   I've heard that you've gotta work 18 hours a day at Microsoft but I personally don't mind that at all cuz I'm assured that what I'm developing is going to change or enhance the lives of millions of other developers and users out there. Yeah I know, it might seem a lil scary when considering the magnitude but I know that if I put that little more time for my programs, I will create bug free apps...  At Microsoft, the phrase, "Your Potential, Our Passion" seems to be taken seriously but I think that if Microsoft could assign a group of die hard programmers who have seen what bugs are all about (buffer overflows and what not) and could convert that experience into a "Code Evaluator for all Runtime possibilities" App which could be used to potentially destroy the thought of Runtime Errors (Overflows etc.)    I know that I'm just talking... Anyone who understands the problem can talk but not anyone can implement... Making this app is an aim ... But I guess I'm still on the way to fulfilling it...  I still respect all the decisions made by Microsoft =)  Okay then,  I'm off to get some sleep now...   Bye...! 
+     
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+     
+      Hi, I guess I have to introduce myself before doing anything else... Well I'm a 13 year old boy from My Room ... Bangalore, India, Asia, The World, 'Our' Solar System, The Milky Way, The Universe.   I love Computers i.e. Hardware & Software and anything related to Computers....   From Programming with Low Level Assembly ... VC++ ... Managed Extensions for VC++ .NET ... C# .NET ... VB .NET ... Sun Java ... Polymorphic C# ... F# ... for Longhorn (XAML etc.) and whatever comes my way...   I also like Designing Hardware... I'm doing a course on Embedded Systems and I'm quite used to making Control Systems with the Intel MCS 51 (8051 uP)...  Well I've done the 'Windows 2000 Professional' Exam from Microsoft and attempted the MCSD for VB6 exams when I was 11 but I secured around 55%... I'm A+ Cerified and I want to do my MCAD for C# really badly...   I'll try updating this blog atleast every alternate day but its going to be tough with school right round the corner... It's quite difficult to have my food, freshen up, spend an hour with my grandparents (everyday), do my school homework, put the next days books into my bag, study all my subjects, keep updated with technology, update this blog and do all this between 3 PM (when school gets over in the evening) and around 1 AM (when I go to sleep).  Okay then... I'm off to have dinner...
+     
+    
+</post>
+
+
+<date>30,May,2004</date>
+<post>
+
+    
+       Hi there,  I'm Tom (Thomas C A), Temporary ITKC Blog Moderator welcoming you to the ITKC Conference Blog...  You can post your comments, views, project descriptions here. This blog is strictly work-oriented and assumes that all your blog entries are suitable for all ITKC Members.  At the moment, ITKC is in its infancy and so I'm assuming myself as the Blog Moderator but once we locate a suitable member for the post, this post will belong to them.  That's it from me...  Regards,  Tom, ITKC Blog Moderator (Temporary) 
+    
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,23 @@
+<Blog>
+
+<date>23,July,2004</date>
+<post>
+
+
+       
+       I have been learning and working with ASP.NET state management for the past few days and although I find it complicated, but I know that I will benefit from it in creating more scalable and robust ASP.NET web applications.    A state are data or variables that needs to be shared across multiple users in a web application.&nbsp; It is more difficult to maintain the state of a web application because the HTTP is in its nature stateless, meaning that it is unable to keep track of what request is coming from which user to the web server.&nbsp; In ASP.NET, there is something called the Application State and the Session State.&nbsp; Application state are data that will be shared across multiple users in your application.&nbsp; The Application state is stored using the HttpApplicationStateclass in the System.Web namespace.&nbsp; Information that is stored in the Application state will be easily accessible by users of that application.&nbsp; Session state lets you maintain the state of each user of the application.&nbsp; It means that the web server must be able to keep track what request is coming from which user.&nbsp; ASP.NET provides the per-user state storage to store the sessions state information.&nbsp; Unlike the Application state, session state has to be enabled through the properties window in Visual Studio.NET before it can used.    &nbsp;
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+
+       
+      As this is my first blog, I will start it off by writing a little bit about me.&nbsp; I am a student currently&nbsp;completing my degree in Computer Science at The University of Nottingham, Malaysia campus.&nbsp; I am also a software developer focusing on web and mobile applications/solutions.  &nbsp;  I spend most of my free time&nbsp;tinkering with my iPAQ Pocket PC and Microsoft Smartphone, playing my acoustic&nbsp;guitar or trying out a recipe which I have found on the Internet.&nbsp; I am also a devoted vegetarian and I love to browse the Internet looking for useful information on ways to improve my familiy's and my own diet&nbsp;based on vegetarianism.  &nbsp;  I will be be posting up blogs related to my academic life, my work as a software developer as well as things which are related to my interests such as music, dogs, cooking, reading and vegetarianism.&nbsp; I hope whoever that reads my blog will find something useful, informative and educational.     
+     
+
+    
+</post>
+
+
+</Blog>

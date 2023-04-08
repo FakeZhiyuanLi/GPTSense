@@ -1,0 +1,1 @@
+The MPEG-1 Audio Layer III (MP3) standard does not include a specification for an MP3 encoder. However, it does define the format of an MP3 file and how it should be decoded. The encoder is a separate piece of software or hardware that converts audio signals into the MP3 format.

@@ -1,0 +1,1 @@
+There are two names for this type of prime:1) Sophie Germain Prime, where p is prime and 2p+1 is also prime (p+1 takes the shape 2q, where q is prime)2) Safe Prime, where p is prime and (p-1)/2 is also prime (p+1 takes the shape 2q, where q is prime)

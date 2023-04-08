@@ -1,0 +1,1 @@
+The program counter can be changed by calculations in the arithmetic logic unit (ALU). The ALU is responsible for performing arithmetic and logical operations on data, including adding, subtracting, multiplying, dividing, and shifting. These operations often involve calculations that will determine the next instruction that the program counter will point to.

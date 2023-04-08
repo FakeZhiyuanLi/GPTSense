@@ -1,0 +1,140 @@
+<Blog>
+
+<date>31,March,2004</date>
+<post>
+
+    
+        urlLink Here  is a really great resource on PHP unit testing - apparently SimpleTest handles a bunch of the things that I was groping with HttpUnit for.   
+    
+    
+</post>
+
+<date>29,March,2004</date>
+<post>
+
+    
+        urlLink here  is a good article of JMeter I found. 
+    
+    
+</post>
+
+<date>29,March,2004</date>
+<post>
+
+    
+       I wasnt going to open up a new blog just for this, but I wanted to post a bunch of comments and ideas I have been having surrounding php and web development methodologies, more for collection of my thoughts as anything else.  This will also be a collection of links that I have found useful.  Right now I am reading through a bunch of books on test driven development and OO development recommended to me by  urlLink John Gray ,  and they are quite excellent.  Here are some of them :     urlLink Object-Oriented Thought Process  by Matt Weisfeld   urlLink Test Driven Development: By Example  by Kent Beck    urlLink Patterns of Enterprise Application Architecture  by Martin Fowler   urlLink Peopleware : Productive Projects and Teams, 2nd Ed.  by Tom Demarco, Timothy Lister  The last one is especially interesting, particularly if you are a manager of any technical kind.  Also, here are a few software tools I am currently working with, or trying out :     urlLink JMeter  for stress testing   urlLink HttpUnit  for web unit testing   urlLink Simple Test  is a PHP unit testing / mock objects framework  Lastly, for you PHP developers out there that want to take a walk on the wild side,  urlLink Sitepoint.com  has the best advanced PHP forum out there by far, and  urlLink this post  is one of the best collections of useful resources I know of.  I encourage you to read each and every one of those links.  It will completely change the way you code.   
+    
+    
+</post>
+
+<date>26,April,2004</date>
+<post>
+
+    
+       The next meetup is coming up pretty soon - should there be anything we agree to talk about beforehand?  If people are all interested in something, maybe we could all prepare for the meetup a bit before we go, prepare questions or something.  Any takers?  What are we all interested in? 
+    
+    
+</post>
+
+<date>13,April,2004</date>
+<post>
+
+    
+       Just an update on some of the things I've been researching and involved in for the last few days.    For one, I just bought this book : urlLink HTML Utopia: Designing Without Tables Using CSS .  It looks great, I have been playing more and more with CSS, and I cant believe I didn't know about it (css) earlier.  I downloaded the  urlLink sample chapters , and they look like the best reference I've seen to a great resource.  I am all about layers these days, and presentation from content at that level just seems so clean.  If anyone has any sites that use CSS well, please post them here, so we can all reference them.       urlLink SitePoint  is one of the best examples, although not totally attractive.   urlLink Fedora  is a great example - they jumped in head first.   urlLink Apple  is another good one - although its only partially implemented    Another thing I got in a bit of a scuffle with this week was a debate on a module that is being proposed for PEAR for Internationalization.  Its a port of the  urlLink MakeText  perl CPAN module, which I didnt know existed, but I became totally interested in, perhaps due to my Linguistics background.  Whom amoung you have had to do I18N work in PHP?  Here is the  urlLink proposal , tell me what  you  think.  As an aside, here is my  urlLink post  to the PEAR-DEV mailing list.  As another aside, if you are sneering at the mention of PEAR,  urlLink here  is an interesting thread on why PEAR is not quite right, on the PEAR-DEV list itself.  The other thing I started looking at, stemming from some reading I did a while back on TDD book, I was wondering if anyone knows of anything like  urlLink this  for PHP.  Its a code coverage tool, this one is for Java, to see how much of your code is covered by automated tests.  I cant find anything for PHP, and was thinking of starting an exporatory project to make one.  I have been looking for something interesting to get me to make a PHP .so library, and this looks like it might be a cool project - what do you all think?  There is another tool I cant think of right now that changes each line in your code to see if it breaks a test.  It then tells you how much of your code can be arbitrarily changed without your automated tests letting you know.  If anyone can think of the name of that tool, please let me know.  Lastly, I am starting to use the web testing framework in SimpleTest, so I think I might post a short example howto deal here pretty soon.  I cannot more strongly encourage your use of SimpleTest. 
+    
+    
+</post>
+
+<date>06,April,2004</date>
+<post>
+
+    
+       A little more on the usability track : I just signed up to go to the  urlLink Web Usability 2004  conference in San Fran on Thursday, May 6.  Its about $600, but the company paid for it, and hopefully it will be really useful.  I'll post my notes when I get back.  Also, I found  urlLink this site  on usability.gov which is pretty good for shorthand usability guidelines.  
+    
+    
+</post>
+
+<date>03,April,2004</date>
+<post>
+
+    
+       Jakob Nielsen's  urlLink useit.com  is a very good resource on usability issues. He occassionally goes off the deep end, but for the most part he's right on.  If you're using TDD for design, you'll quickly need to use mock objects. The  urlLink MockObjects Wiki  is a great starting point.  Martin Fowler's  urlLink Bliki  has a lot of good information and links to other valuable blogs. It's a great place to stop by once a week or so. Be sure to follow at least a few of the links to other ThoughtWorks bloggers. We've all had to deal with the  urlLink BigBallOfMud .   urlLink Joel Spolsky's blog  is one of the best. Spend some time reading through the archives, you'll find all kinds of goodies.  Shameless plug: I occassionally post my thoughts at  urlLink stupidsimple.com . You might or might not find it helpful. 
+    
+    
+</post>
+
+<date>02,April,2004</date>
+<post>
+
+    
+       Usability Links --------------------------- I am having some issues with some bad usability design, and so I have started researching usability on the web, so I can try to help come up with some good rules to basic usable web design to always adhere to.  I know a bunch of stuff that I like and dont, but I know there are more objective ways to measure and evaluate that - what UI experts do and such.  So, I want to come up with an idiots guide to web usability.  Here are my first links to interesting material on the subject - I will just edit this post to add more links in the future.   Websites    urlLink Common Ground  Common Ground: A Pattern Language for Human–Computer Interface Design.    urlLink Interaction Patterns  - This page contains information about resources related to pattern languages for interaction design (of which user interface design is a subset).   urlLink Task Centered User Interface Design    Books   urlLink http://www.amazon.com/exec/obidos/tg/detail/-/020172149X/qid=1080950103/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/104-8238258-6554329?v=glance&s=books&n=507846">The Design of Sites : Patterns, Principles, and Processes for Crafting a Customer-Centered Web Experience 
+    
+    
+</post>
+
+<date>02,April,2004</date>
+<post>
+
+    
+        Here are some initial links of some of the things we talked about:   urlLink PHP 5 Changes   urlLink Xdebug   urlLink Simpletest  and some excellent  urlLink API docs   urlLink Crc Cards  - class, responsibility, coordination    there are also some links to many of the books we mentioned in an earlier post here. 
+    
+    
+</post>
+
+<date>02,April,2004</date>
+<post>
+
+    
+       Welcome fellow PHP meetup-ers!  I went to a San Fransisco PHP meetup tonight, and talked about some of the things on this blog and more.  I suggested that this blog be a central place for us all to post useful links and thoughts and such about PHP and advanced development, etc.  Maybe spitball some topics for our next meetup.  When you get here, please signup for a Blogger account and email  urlLink me , so I can give you permissions to post.   Thanks guys, I had fun!  Next time I say we meet a few blocks up the street at Gordon Beirch! 
+    
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+    
+       Here are a couple of interesting projects aimed at PHP5 :    urlLink Propel  is a PHP object persistance project, like an ORM package.  Havent used it yet, but it looks pretty interesting - I remember John and I played around with something similar, but it didnt work out in the end.  I am interested in seeing if this one is a cleaner model.    urlLink Creole  is a subproject of Propel that provides a DB abstraction layer, like PEAR::DB, or my own DBI modules.  It looks pretty clean, but probably should be transparent behind Propel.  Also, there is nothing here yet, but the idea is pretty cool, I'm going to keep watching it :   urlLink http://www.sebastian-bergmann.de/AOP/  
+    
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+    
+       Sorry I missed the meeting this month, but I did go to a usability conference in SF that day, so I'll post some notes about that here pretty soon.  In the meantime, been playing around with PHP5, and it looks pretty cool.  I'm especially interested in the new set of engine level interfaces.  PHP is including some standard interfaces like Iterator in the engine, so there is a defined standard for that now.  Here are a couple of links that are related to this topic.  I have PHP5 running on my home machine, and I am going to try some of this out, and post a more detailed tutorial later, since I cant seem to find anything good on the internet about this right now.   urlLink http://www.php.net/~sterling/adt/   urlLink http://www.php.net/spl  
+    
+    
+</post>
+
+<date>04,May,2004</date>
+<post>
+
+    
+       I havent tried this out yet, but it looks pretty cool, its a mysql benchmarker, like ab for apache.  I know this is a PHP meetup, but I figure most of us use mysql anyhow.   urlLink http://jeremy.zawodny.com/mysql/super-smack/  
+    
+    
+</post>
+
+<date>03,May,2004</date>
+<post>
+
+    
+       This is proving to be a very valuable resource.   urlLink http://www.corecss.com/properties/index.php  
+    
+    
+</post>
+
+<date>03,June,2004</date>
+<post>
+
+    
+       As requested: The most gorgeous CSS examples on the planet.   urlLink csszengarden  Eye candy and CSS wizadry.  And best of all: everything is actually pretty simple at the CSS level.  Enjoy, and see you all tonight! 
+    
+    
+</post>
+
+
+
+</Blog>

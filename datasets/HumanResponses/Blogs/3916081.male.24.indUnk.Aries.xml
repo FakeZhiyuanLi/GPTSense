@@ -1,0 +1,36 @@
+<Blog>
+
+<date>20,July,2004</date>
+<post>
+
+	 
+      It is the same as with "super(self.__class__, self).meth()", that is, as soon as you change, or combine metaclasses for some child class, you'll get wrong method resolution, and most likely fall into infinite recursion... (see example below).  the simplest solution would be to pass the metaclass to super explicitly, but this is even worse than passing the class explicitly in the general case, as the class and the metaclass can be located in different modules/packages... etc. I can't say that this will contribute to code clarity :)   example:     &nbsp;   import  metaclass_example  &nbsp;   &nbsp;   &nbsp;   class   _OtherMetaClass ( type ):      '''         '''       def   meth (cls):          print   '  this is the other metaclass method!!  '           # here super is in a try block so as to make the method usable           # as is (not only from class combinations).           #                                  ....a terminated super! :))           try :              super (cls.__class__, cls).meth()          except   AttributeError :              pass   &nbsp;   class   SomeUsefullClass (object):      '''         '''      __metaclass__ = _OtherMetaClass  &nbsp;   &nbsp;   #   NOTE:   here we inherit from two classes which are of different types   #       or metaclasses, thus creating a metaclass conflict.   #       to resolve this conflict we need to &quot;combine&quot; the metaclasses   #       of the parent classes....   class   _CombinationMetaclass (_OtherMetaClass, metaclass_example._MetaClass):      '''         '''       pass   &nbsp;   # and here is an innocent looking result.... :)   class   KillerClass (metaclass_example.SomeOtherClass, SomeUsefullClass):      '''         '''      __metaclass__ = _CombinationMetaclass  &nbsp;       def   meth (cls):          '''             '''           print   '  hi from the killer :)  '           super (cls.__class__, cls).meth()  &nbsp;   &nbsp;   if  __name__ ==  '  __main__  ' :  &nbsp;      SomeUsefullClass.meth()  &nbsp;      killer = KillerClass()  &nbsp;       print   '  BANG!!!  '      killer.meth()  &nbsp;   &nbsp;   #   vim: set ts=4 sw=4 nowrap :      urlLink metaclass_example_killer.py   P.S. I made a little typo in the module name in the main post (the word example was lacking the "p" :) ), now this is corrected...  this was originaly posted  urlLink here .
+    
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+	 
+      Yesterday I stumbled on a funny problem :)   Task:  call the original class-method extended by another class-method in a subclass.   Logical Answer:  use the super function.   The Problem:  considering that the way "super" is called, is not the most beautiful feature of the Python language (this is sed to be a wart by some). this situation created a code far uglier. to be honest, I hate this solution but I can't seem to come up with a better one... does anyone have any suggestions?  the problem is that there are situations (though quite rare, or even unlikely) when this code will break!   see the example below for more details...     a full example:     &nbsp;   class   SomeBaseClass (object):      '''         '''       def   meth (self):          '''             '''           print   '  ###  ' , self, self.__class__  &nbsp;   &nbsp;   class   _MetaClass (SomeBaseClass,  type ):      '''         '''       def   __init__ (cls, name, bases, ns):          '''             '''           if   '  meth  '   in  ns:              setattr (cls,  '  meth  ' ,  classmethod (ns[ '  meth  ' ]))          super (_MetaClass, cls).__init__(name, bases, ns)  &nbsp;   &nbsp;   class   SomeClass (object):      '''         '''      __metaclass__ = _MetaClass  &nbsp;   &nbsp;   class   SomeOtherClass (object):      '''         '''      __metaclass__ = _MetaClass  &nbsp;       def   meth (cls):          '''             '''           print   '  this is a class-method...  '           # and here is the problematic line of code:           super (cls.__class__, cls).meth()  # or super(cls.__metaclass__, cls).meth()   &nbsp;   &nbsp;   if  __name__ ==  '  __main__  ' :  &nbsp;      basic_obj = SomeBaseClass()     some_other_obj = SomeOtherClass()  &nbsp;      basic_obj.meth()     SomeClass.meth()     some_other_obj.meth()  &nbsp;   #   vim: set ts=4 sw=4 nowrap :      urlLink metaclass_examle.py   if anyone is interested, this is a simplified version of the structure of a module  (pli.event.event or a shorthand pli.event), part of the  urlLink pli  library.  this was originaly posted  urlLink here .
+    
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+	 
+       urlLink Psyco   urlLink Pyrex   urlLink PyPy  
+    
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+	 
+      First of all I must state that I agree with all who think this is un-pythonic. but considering the facts, I can not do anything about it.... thus to the purpose of this post:     If you go for it, go all the way!!!     I just set up Py2.4a2 and found out the following (can't say I am surprised):  - you can not decorate anything but a function!!   this is a shame, as it would be logical to expect this to work for the following cases: 1) variables/attributes Example:  class A(object):     @readonly     someattr = 0   or  @register_in_store obj = SomeClass()    2) classes Example:  @prepare class A(object):     someattr = 0    each and every of the above cases currently generates a syntax error.   P.S. I'm thinking of posting this as a bug or feature request (but it needs more thought before I do)....
+    
+</post>
+
+
+</Blog>

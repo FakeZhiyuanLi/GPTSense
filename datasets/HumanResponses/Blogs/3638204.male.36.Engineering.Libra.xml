@@ -1,0 +1,52 @@
+<Blog>
+
+<date>14,June,2004</date>
+<post>
+
+	 
+      Try entering www.google.com in googles search window. Then choose, Show Google's cache of  urlLink www.google.com . Notice the disclaimer --  Google is not affiliated with the authors of this page nor responsible for its content . Kinda makes you wonder huh? 
+    
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+	 
+        Well, it didn't take long for a   urlLink  scam email    to reach my inbox. I've included the headers for the curious as well. Note: I opened this email address on 7/4/2004 and the scanner sent his email on 7/19/2004, just fifteen days later.      I'm sure he got my email from some type of scraping. I've updated my email on most of my main website accounts, ESPN and Yahoo being the main ones. To my knowledge none of these sites show the users email address, and ESPN and Yahoo definitely don't.   Then I thought the address was likely scraped from a  urlLink whois  search. Which would have my name and email  , but that shows my yahoo email address.       I reported this letter to   urlLink  www.scamorama.com    for their archives. You may find it interesting that   urlLink  MR. ANDREAS SCHRANNER    has two other representatives.      To fight this you can report the fraud to the   urlLink  International Web-Police    and the   urlLink  Internet Fraud Complaint Center   . You may also want to contact their particular email service provider, common ones include:   Excite:    abusedept@cs.excite.com    HotMail:    abuse@hotmail.com     Yahoo:    mail-abuse@yahoo-inc.com       As always, be aware and do not fall for these scams.        Spiff     
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+	 
+       I'm getting used to routine of being unemployed now. Get up in the morning, check e-mail, check job sites, then work on getting my computing environment polished.       The first step was to get the  urlLink website  up and going, mainly for the ability to post my  urlLink resume  and provide a showcase for my skills. The next step was to get my personal computer up and going.  I've mostly got that worked out now. Next was setting up a compute environment that I felt comfortable with and was productive. That included doing research on popup avoidance, spam filtering, spyware and such which I speak briefly about  urlLink here . Now I'm in the process of setting up a news aggregator to consolidate not only job listings but general news as well.      News aggregrators are a realitvely new web technology which monitors web sites and delivers a synopsis of new items to a single application for the users convienence. I've investigated a few of the applications and found a gem in  urlLink Pluck . I've setup feeds for ESPN, some Humor spots, several Techsites, plus a strangely reconvergent link to this blog.      I strongly advise readers to investigate this new technology. Here are a few articles describing it better than I can.       urlLink All About RSS (Really Simple Syndication)  urlLink  -   urlLink UserLand     urlLink Aggregators Attack Info Overload  -  urlLink Wired News     urlLink News on Demand  -  urlLink PCWorld     urlLink RSS News Readers Browse for You  -  urlLink PC Magazine    urlLink  Welcome to the 'new' Web, same as the 'old' Web    -   urlLink  CNN     And as hinted to above, the feed for this site is   urlLink  http://stacysdesk.blogspot.com/atom.xml         Spiff     
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+	 
+      Call it what you want but these are just a pain to deal with. I have people call me about all of these things frequently, and its usually a conversation that spans two or three days. Currently, I'm working on the Spam problem. However, let me start with HiJackers.  Hijackers: Programs that hijack your settings changing thins such as your home page (start page), default search engine, et. al.  The most prevalent of these I've seen is CoolWebSearch or CWS. This particularly virulent pest has nearly 40 variations and a special program designed to remove it specifically. You can read about it at  urlLink here .  LOP or Live Online Portal is another prevalent parasite see articles about it  urlLink here  and  urlLink here   These types of programs can do even more malicious things. Some will replace legitimate ads on a site and replace them with its own or an affiliates, this is bad because it is stealing advertising dollars from sites that you are supporting. Some will even change the actual link target on pages you're viewing to such things as porn sites, dialers, etc... so that when you click on a link you get redirected to these sites. They can add links to your favorites list, usually porn or such. Generally they are just bad news.  The one piece of advice I can give is don't click on links on pop up ads. Close them using the X in the upper right corner. If that option is not available, press ctrl-alt-del, open the Task Manager and choose the browser application and close.  For information about browser hijacking, what it does and how it works, see this  urlLink article .  For prevention methods see this  urlLink article .  I also suggest downloading these programs.  urlLink Ad-aware ,  urlLink PestPatrol ,  urlLink SpySweeper ,  urlLink Spybot S&amp;D   Now on to popups... Popups: Ads that pop up in a separate window when you are surfing the web.  While there are several different Popup blockers out there to choose from, I prefer the following IE Toolbars.  The  urlLink Google  Toolbar and The  urlLink Yahoo  Toolbar  These both do an effective job of blocking popups, while providing some other useful functions. The Yahoo Toolbar is even more effective if you have a Yahoo account and have personalized your Yahoo content.  I'll be updating this post as I learn more about spam filters.    SPIFF   
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+	 
+      Well, after only some minor difficulties, the website is up. There is some type of problem with external javascript that I need to resolve. For some reason the scripts would not load if i used a src= statement. So I stripped down the script and data set and inserted it directly in the main html.   I tried to get my link to blogspot, but for the life of me can't remember the password. I'will switch the blog back over to blogspot when I have everything else up and going and can get my Hifn email back.   Well it should be obvious, I remembered my blogspot username and password and now have moved the blog back to blogspot. 
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+               I spent this week in North East Texas with my parents, they live relatively (no pun intended) close to my daughter. This means I can go visit my daughter during the day and, if not too exhausted at the end of the day, visit with my parents. My mother runs an e-commerce site devoted to  urlLink eyelets  and other scrapbooking supplies. On a whim, I decided to try to Google her site for the basic keyword  urlLink eyelets . Her site did not show up in the top 1000. However, a search for  urlLink eyelets and extras  (the name of her e-commerce store), she ranked 5. Well being the computer geek I am, I decided to investigate a little.        I explained a little about  urlLink Page Rank  and  urlLink meta tag keywords  a little about how they work. We debated a little about how people would search for things, and generally agreed that a search would normally end up being more than one word. So up to this point I had been explaining the benefits of higher listings in search engines. In the trade this is called Search Engine Optimization or  urlLink SEO , there are positions in many companies sole devoted to this endeavor.  However, during this discussion, I also realized that the net effect of this is more visibility for increased hit count and ultimately better sales. That's where the discussion turned to  urlLink AdWords . Basically, AdWords are like traditional advertising. You signify for an initial nominal fee, $5.00 in AdWords case. Then you bid on a particular keyword, lets say eyelet. Each time a search is performed on Google with the keyword  eyelet , each keyword bidder for that keyword is considered for display in the sponsored links area of the search. Now let's say I bid  $0.95  and you bid  $0.05  for this particular keyword. That would mean that out of 20 searches for  eyelet , my link would be displayed  19  times to your  one  time. However, it doesn't stop there, AdWords can also appear on sites other than Google. Take a look at the top of this page --   AdWords  . Yahoo does not itself, run an AdWord program, rather it out-sources its sponsored links to  urlLink Overture  as do many other search engines such as MSN and CNN.  I'll attempt to get her search ranking up on Google and Yahoo, but she'll have to decide on AdWords and Overture.    Spiff     
+    
+</post>
+
+
+</Blog>

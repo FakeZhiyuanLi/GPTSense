@@ -1,0 +1,1 @@
+Functional copies of a gene which have a loss of function due to mutation are called pseudogenes. They are inactive copies of genes that have accumulated mutations and are no longer transcribed or translated into proteins. Pseudogenes can either arise from gene duplication events or arise from mutations within an existing gene that render it non-functional.

@@ -1,0 +1,85 @@
+<Blog>
+
+<date>29,June,2004</date>
+<post>
+
+    
+       Right now I'm downloading the  urlLink Visual Web Developer 2005 Express Edition Beta . Let's see how it works 
+    
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+    
+       The  urlLink second edition  of this must-have book is  urlLink now available.  Thanks  urlLink Robert  for the  urlLink information . I'll buy a copy as soon as I can. 
+    
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+    
+       Good fellow and compatriot Willy Marroquín has just added a  urlLink link to this blog  in  urlLink his site   which, by the way, is one of best sources of .NET information and resources in spanish that I know.  See you around buddy!! 
+    
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+    
+       I have to admit it: I'm not that good at using Word.  During the past few days, I've been working on the Envisioning phase of my current project, writing the system's specs.  I was the kind of a guy who saved the documents with an ad-hoc versioning convention: * MyFile_Jun15.doc * MyFile_Jun22.doc * MyFile_Jun27.doc  More often that you may think, I have to deal with some evil variations of this pattern that lead to some not-so-useful file names such as: * MyFile_Final_Revised.doc * MyFile_Final_Final.doc * MyFile_Final_Definitive.doc  By using this versioning "strategy", you would probably end with a whole bunch of MyFile*whatever*.doc files and the chance of choosing the wrong one is quite big.  I was searching a way to access some of the Word's collaboration functionality via VBA and I found a versioning feature that allows to save different versions of the document in the same .doc file (I'm quoting from Word 2003 Help Online), and switch between them at a given time:  Save the current state of a document by using versioning ---------------------------------------------------------- On the File menu, click Versions.  Click Save Now.  In the Comments on version box, type descriptive information about the version you're saving.   That said, I suppose it won't be more MyFile_ThisIsTheOne_Final.doc in my computer from now on :). 
+    
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+    
+       Last night I downloaded  urlLink blackbox for windows : It's a minimalist, cool shell replacement for explorer.exe. It has a neat plugin model and it is really easy to install and modify through straightforward .rc files.  Among all the plugins (most of them with source code available). I found the bbzCmdEx  and SystemBarEx particularly useful. It definitively rocks!!!. If you are missing the ancient days in which most of the tools could be easily accessed via command prompt (I'm sure  urlLink I'm not alone  here), or if you are tired of the usually cluttered appeareance of your current desktop, you'd love this piece.  This is the way my desktop looks now.    urlLink    Ramiro's desktop&nbsp; urlLink      The box in the top left corner is the command prompt (bbzCmdEx plugin), in which you can (among other things) invoke any program that could be found in the PATH environment variable (I often use the classic developer commands: devenv.exe, isqlw.exe, iisreset and some other administrative such as ipconfig, net.exe,   urlLink taskkill ,  urlLink openfiles ,  urlLink shutdown  and  urlLink such ); you can also search in the web (?google dot net resources), create shortcuts for commonly used programs ("ie" for internet explorer, "np" for notepad, etc) and it even it has a simple calculator (=(3.20 * 2.5)).  In the bottom, a little bar displaying the amount of CPU and memory used (SystemBarEx plugin); you can also add other values (such as IpAddress, MachineName, UserName, etc.), just like sysinternal's  urlLink bginfo   tool.  It's cool, isn't it? The simpler, the better !!!    
+    
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+    
+       Right now, I'm trying to set up a confortable environment in my laptop.   I've been looking for some "tips and tricks" to boost OS performance. I'm amazed about how many resources are wasted in some services I never used (ctfmon.exe and such).  I found  urlLink these tweaks  quite useful. By the way, I just realized today that there is a tool name  urlLink msconfig.exe  where you can configure most of the windows .ini file's settings and startup behavior.  If you also want to tweak what processes are created at startup time, you should try  urlLink Mike Lin's startup control pannel applet . It's a user friendly UI around the registry keys (HKCU\Run, HKLM\Run, etc.).   
+    
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+    
+       Welcome!  Finally I have decided to blog. I hope I can share my thoughts (mostly .NET related) here.  
+    
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+    
+       Finally ASP.NET has  urlLink Validation Groups .   Although the ASP.NET 1.x validators are a cool feature, the all-of-nothing behavior of such controls in a web form was a big limitation in moderately complex scenarios. 
+    
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+    
+       After a couple of months of procrastination, I finally wrote my first (and hopefully not the last)  urlLink article  for  urlLink CodeProject !!!. You can also check the  urlLink spanish version  in  urlLink Willy's Site .    I hope I can write some other articles soon.  Feedback will be greatly appreciated.  
+    
+    
+</post>
+
+
+</Blog>

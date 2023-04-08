@@ -1,0 +1,230 @@
+<Blog>
+
+
+<date>01,February,2004</date>
+<post>
+
+    
+        urlLink Home of CTorrent, the linux console torrent client   The latest version is 1.3.2 [Feb 1, 2004]    
+    
+    
+</post>
+
+<date>04,April,2004</date>
+<post>
+
+    
+        urlLink The Official BitTorrent Home Page  The last version is 3.4.2 [Apr 04, 2004] Fixed some bugs, including an important tracker bug  Added 'warning message' so trackers can send non-fatal human readable messages to clients  Fixed problem where some users got 'could not find file' message   
+    
+    
+</post>
+
+<date>21,May,2004</date>
+<post>
+
+    
+        urlLink XBT Tracker   The latest version is 0.0.6 [May 21, 2004]   Overview  XBT Tracker is a BitTorrent tracker written in C++. It's designed to offer high performance while consuming little resources (CPU and RAM). It's a pure tracker, so it doesn't offer a frontend. You can use any (PHP) frontend you want.   XBT Tracker listens on port 2710. The announce URL is http://...:2710/announce. The debug URL is http://...:2710/debug. The scrape URL is http://...:2710/scrape. An experimental UDP tracker extension is also supported via announce URL udp://...:2710.     
+    
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+    
+        urlLink TorrentStorm - Windows Bittorrent Client.   The latest version is 1.3 [Jun 25th, 2004]       New Features for version 1.3       Includes the latest client by the Shadow. (Bittornado 0.3.2).  Added Downloader Plug-in support (only Bittornado 0.3.2 is included with the main download, other will be available to add on shortly).  Added Multi-Language Support.  New features of Shadows client supported (Download rate limit).  Fixed upload rate limit.  Various bug fixes.      
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+        urlLink WritTorrent   Latest version is 0.1 [Jun 21, 2004]   WritTorrent - Rewriting BitTorrent distribution by providing a way to manage swarm topology using RSS. We're in the initial stages of providing basic utilities for the most flexible handling of .torrent files through xml syndication technologies.   
+    
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+    
+        urlLink BitComet   The latest version is 0.53 [June 15, 2004].   
+    
+    
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+    
+       I build a seperate blog to aggregate legal torrent file on the web.  urlLink Downloads    
+    
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+    
+       I created a table to compare clients' features.   urlLink features.html    
+    
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+    
+        urlLink BNBT - A C   BitTorrent Tracker  The latest version is Beta 8.0 Release 2 [Jul 29, 2004]         fixed a serious crash bug with tracker links on secondary trackers      fixed a bug where BNBT would constantly refresh the static header and footer (credit Elandal)      fixed a query error with stats dumping when mysql_override_dstate was off      mysql.h is now include as mysql/mysql.h on some systems      and stdio.h is now included by default on all systems      fixed a major bug where some internal databases would be needlessly copied and deleted      added the "bnbt_max_recv_size" config value       
+    
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+    
+        urlLink jTracker Home Page   The latest version is 0.1.21 beta [Jul 28,2004]     jTracker  is a Bit Torrent tracker based off the  urlLink  				BNBT  (8.0) tracker by Trevor Hogan, with additional code taken from  urlLink  				CBTT  ,  urlLink The Trinity  				Edition of BNBT , and  urlLink XBT .  			jTracker works in windows with Visual C++ or Cygwin. jTracker currently  			implents BNBT 8.0 MySQL capabilities, please see BNBT help for more  			information.   Current Features   		     				 Enhanced Admin Page  			- much more admin control 			   				 Configuration Page  			- allows some config items to be changed dynamically 			   				 Statistics  - collecting statistics like announce  			counts, and bandwidth usage 			   				 External Trackers  			- Allows tracker to display stats for externaly tracked torrents 			   				 UDP Tracker  			- Clients can connect using UDP - some code taken from XBT 			   				 Works on Linux  			- has been tested in Debian 			   				 MySQL  - Implementes BNBT 8.0 MySQL capabilities       
+    
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+    
+        urlLink Digital Media Europe: News - BitTorent look-alike site charges for illegal downloads  Suprnova. com   which is a look-alike website to  urlLink Suprnova.org  are charging $29 for illegal downloading.    
+    
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+    
+        urlLink CBTT - A C++ BitTorrent Tracker (based on BNBT by Trevor Hogan)   Latest version is 8.0 [Jul 27, 2004]    BNBT 8.0 core  July 27, 2004 build:        Added: Ban by User Agent or Peer ID.  Same control method as ban by Peer ID code      Added: Code to migrate  bnbt_display_all configuration file value to keep_dead      Added: Automatic  rejection of clients that cause buffer overflow attempts with download or upload  values.      Added: Option for custom Windows NT Service name.      Added: Partial  implementation of  urlLink BNBT Trinity  Edition  Version 7.5 minor release 3      Added: Support to restrict  uploaded/downloaded reporting to sane levels (when off, limit nears  600PB)      Added: Automatic addition of CBTT configuration values      Added:  Support to force uncompressed returns of torrents through the /torrent.html  interface      Added: Support for smarter client spoofing detection.      Added: IP  Blacklisting/VIP Listing functions      Added: Code to allow a tracker  administrator to prevent a private IP ( urlLink RFC1918 ) from being reported to the  tracker.      Added: Code to allow a tracker administrator to prevent systems not on private IP ranges from reporting a different IP to the tracker.      Added:  Version information for Win32. Version 8.0.0.1    
+    
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+    
+        urlLink XBT Client   The latest version 0.1.9 [Jul 26, 2004]    Features:      Automatic, fast resume. 	  File priorities. 	  Integrated UDP tracker. 	  Single window, multiple torrents. 	  Upload rate limit.       
+    
+    
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+    
+        urlLink BNBT - A C++ BitTorrent Tracker   The latest version is beta 8.0 [Jul 18, 2004]     BNBT was written by Trevor Hogan. BNBT is a complete port of the original Python BitTorrent tracker to C++ for speed and efficiency. BNBT also offers many additional features beyond the original Python BitTorrent tracker, plus it's easy to use and customizable. BNBT is covered under the GNU Lesser General Public License (LGPL).    
+    
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+    
+        urlLink BNBT EasyTracker | by Trinity of ZionMatrix   Latest version is 7.7r3 [Jul 15, 2004]       Build 7.7r3.2004.07.07     Trinity — New Config Keys:       bnbt_alt_signup_url    bnbt_custom_labels    bnbt_navigation_bar    bnbt_tracker_title    bnbt_static_upload_header    bnbt_static_upload_footer    bnbt_static_signup_header    bnbt_static_signup_header       Trinity — JavaScript prompts simplify tracker confirmations and navigation.    Trinity — Intuitive Navigation Bar; displayed at the top of the page;  automatically changes according to user access level.    Trinity — Custom Text and Button Labels    Trinity — Popup Help Screens    Trinity — Forms vastly improved.       
+    
+    
+</post>
+
+<date>14,July,2004</date>
+<post>
+
+    
+        urlLink  BitTorrent Plus! 2  Latest version is 1.1 [Jul 14th, 2004]  Its homepage is using Chinese. If anyone has a translated page, please let me know. 
+    
+    
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+    
+        urlLink ABC [Yet Another Bittorrent Client]   The latest version is 2.6.9 [Jul 13, 2004]    Version 2.6.9     New language file format -- it's now easier than ever to switch between languages and develop new language files for ABC   LOTS of Misc. bug fixes (including that nasty one in 2.6.8 when removing multiple torrents)   More dialogs are dynamically sized  (text strings in languages other than English should fit better in some cases)   You can change Local upload settings for multiple torrents at once   Better duplicate torrent detection   Other things I've probably forgotten to mention     
+    
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+    
+        urlLink BitTornado   The latest version is 0.3.7     What's new          more bugs fixed        randomized port selection          experimental automatic upload rate limiter        reduced RAM usage        smarter upstream control        fast-resume       file priority system      
+    
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+    
+        urlLink Welcome to BitSpirit   Latest version is 2.6.2 [Jul 12, 2004]   Features:       Clean interface     Multiple simultaneous downloads     Disk cache mechanism     Fast job resume     File selecting support     Powerful file manager     UPnP portmapping     Instant Messaging support     Gzip Data compression     Flexible speed control     Scheduled downloading     Integrated with IE     Shutdown computer when done     HTTP/SOCKS4/5 proxy support     High speed     Very low CPU &amp; Mem usage     
+    
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+    
+        urlLink Azureus : Java BitTorrent Client   The latest version is 2.1.0.4 [Jul 07, 2004]    New Features:   Core  Show built-in plugins in config view   Core  Fallback encoding for torrents (a-zA-Z0-9 type encoding with hex chars for others)   Core  Numbers now localized to selected language   Core  More "polite" hash checking...doesn't stress the cpu/system as much   Core  Tracker seed retention limit added to limit tracker memory on torrents with high seed counts   Core  Show Bad ips/banned ips in ipfilter window + allow clear/reset   Core  Option to start torrents in a stopped state   Core  Torrent removal rules. Initially to handle unauthorised torrents + AZ update torrents   Dev  More features for torrent creation   UI  New peer columns to help track leechers   Plug  Experimental data upload facility for tracker web pages   Plug  WebUI support for "host" operation   Plug  Run the web interface standalone (outside of a browser)   Plug  Option to keep hold of UPnP port mappings when closing Azureus    Changes:   Core  More sensible merging of plugin.properties on plugin update   Core  Retuned tracker connect failure retry interval   Core  Torrents downloaded by URL now named after torrent if not already .torrent   Core  Performance of ipfilter checking improved   Plug  Green colour used on tracker web pages now more legible    Corrected bugs:   Core  99.X% / continuous hash fails fix   Core  Basic plugin config model parameters not working in non-swt (e.g. console) mode   Core  Fix for 'completed' announce event not being sent on occasion   Core  Fix for occassional missing of resume data write -> recheck on start up   Core  Bad peers not being detected on hashfail if they contributed all blocks   Core  Better handling of "auto import" + default torrent save dir being the same   Core  Strip resume data on open of new torrent   UI  Fix bug where failed-hashcheck pieces never reappeared in Pieces view   Plug  Web UI authentication for torrent download not working with default port URLs      
+    
+    
+</post>
+
+<date>03,July,2004</date>
+<post>
+
+    
+        urlLink PTC.news   The latest version is 1.0.0-RC.1 [Jul 3rd, 2004]     Basic Features       only one window to control multiple downloads    can be minimized to tray, taskbar or both    pause and resume downloads    display a floating 'minibar' to keep track of your downloads' progress     extensible database     keep all your .torrent files in a single place    data of the files is compressed (about 1/4 of the original size)    re-build the original .torrent files from database    re-seed already downloaded files or store incomplete downloads in the  database to pick them up later      customizable coloring of paused/started/stopped downloads       Advanced Features        telnet interface     remote network control    fully scriptable (uses python)    supports plug-in scripts    allows multiple connections    ability to manually cast internal events         
+    
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+    
+        urlLink Virtual Native Network: Wellcome   The latest version is 2.0 [Jul 2nd, 2004]    VNN is a platform which provides the peer to peer's transparence.   The peer  that is behide either NAT devices or a SOCKS server can communicate with another  peer transparently.   Also the applications run on the peer can ignore the NAT  devices' existence.    
+    
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+    
+       More than 40 state attorneys general are set to warn major peer-to-peer file-sharing networks that they may face enforcement actions if they do not take steps to stem illegal activity on the networks, such as the trading of child pornography and stolen movies and music.   Source:  urlLink Washington Post    
+    
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+    
+        urlLink Torrentopia   The latest version is 1.5 [Aug 4, 2004]  Features    Search for .torrent files in the most popular search engines   Fully customizable user interface, with several skins included   Embedded web browser with links to the best .torrent sites, you           can add your own favs too   Create .torrent wizard to help you share your files with the rest           of the community   Details window to know everything about your downloads   Powerful queue system: choose all you want to download and let it           work by itself   Install directly in 5 languages: English, Spanish, Italian, German           and French, it also includes: Polish and Dutch      
+    
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+    
+        urlLink XBNBT   Latest versio is 80b.2.1 [Aug 1, 2004]  This version is based on BNBT Beta 8.0 release 2.  
+    
+    
+</post>
+
+
+</Blog>

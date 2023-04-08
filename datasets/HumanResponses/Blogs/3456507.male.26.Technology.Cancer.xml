@@ -1,0 +1,283 @@
+<Blog>
+
+<date>26,May,2004</date>
+<post>
+
+     
+        Current Price : 10.60  Target Price: 50 Target Period: 1Year  Stop Loss: 6    Point to be noted:   Reliance Group is going to Acquire this, Once Reliance Capital gets the license for banking. Reliance capital is already at 150 which is quite a stable line for it. But this script which is at 10 rs today will shoot to 50 rs. once activities get hot. This is expected in less than a years time.  Thanks, Saurabh-Max-Birla 
+     
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+     
+      Problem: When you partially select and modify column data in a datagrid in a Microsoft Visual C# .NET 2003 project, the changes may be lost when you move to a new row in the datagrid.But If you select and edit all the data in the column, the changes are retained when you move to the new row.  This issue occurs if the data is formatted in a custom numeric format such as currency or in a format that includes the comma symbol.  Solution: To work around this issue in Visual C# .NET 2003, override the PropertyDescriptor class to convert the text to a format that the base implementation can parse. After you determine the correct parse method, use this method in the Commit method: //Visual C# .NET  using System; using System.ComponentModel; using System.Windows.Forms; using System.Globalization; using System.Reflection;  namespace DataGrid_example { 	///   	///  Class that is used when column text is required in a custom numeric format 	///  such as a comma, or a currency. This class overloads the Commit method 	///  of DataGridTextBoxColumn. /// /// Refers to    private DataGrid_example.FormattingDataGridTextBoxColumn dataGridTextBoxColumn3;   	///   	public class FormattingDataGridTextBoxColumn : DataGridTextBoxColumn 	{ 		//Return object form Parse method. 		private MethodInfo localParseMethod;  		//Default constructor for class. 		public FormattingDataGridTextBoxColumn() : base() 		{ 		} 		 		//Default overloaded constructor for class. 		public FormattingDataGridTextBoxColumn( PropertyDescriptor prop, string format, bool isDefault) : base(prop, format, isDefault) 		{ 		} 	 		//Overiding the PropertyDescriptor class to covert text to  		//a format the base implementation can parse. 		public override PropertyDescriptor PropertyDescriptor 		{ 			set 			{ 				//Set the base value equal to the passed in value. 				base.PropertyDescriptor = value; 				 				this.localParseMethod = null; 				if(this.PropertyDescriptor != null) 				{ 					if( this.PropertyDescriptor.PropertyType != null) 					{	 						//Set method info for  						this.localParseMethod = this.PropertyDescriptor.PropertyType.GetMethod("Parse", new Type[]{typeof(string), typeof(NumberStyles), typeof(IFormatProvider)}); 					}  				} 			} 		}   		 		protected override bool Commit( CurrencyManager dataSource, int rowNum) 		{ 			if( null != this.localParseMethod ) 			{ 				try 				{ 					//Get the current value of the cell. 					object value = this.TextBox.Text;  					if(! NullText.Equals(value)) 					{ 						//Get the new value and format it as a number. 						value = this.localParseMethod.Invoke( null, new object[] { value, NumberStyles.Any, this.FormatInfo});  						//Set the value in the grid back to the raw number. 						this.TextBox.Text = value.ToString(); 					} 				} 				catch( Exception ){	} 			}  			//update the dataset 			return base.Commit( dataSource, rowNum); 		}  		 	} }   Comment: "Microsoft has confirmed that this is a bug in Microsoft C# .NET 2003"   Later, Saurabh-Max-Birla  
+     
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+     
+      Hi all, This is my first posting. I promise that I will always check my spellings and grammer before making any post !!.. ;)   Hope I will keep this blog useful to all.  The only way to get this most desirable email ever is to become be a google employee. Or there is a trick.. if any of the google employee sends you a invitation then also you can get this account…    visit this link to send a swap to them. http://gmailswap.revhost.net/index.html  Never heard of gmail..??.. visit: gmail.google.com 
+     
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+     
+      Yes. It has come. I don't really know much about this technology but this is going to be the in thing in near future this I foresee.  Using this technology two electronic devices can intract just by touching each other. So imagine buying a movie ticket and the ticket will be downloaded to your mobile. :) And when your mobile phone touches your girlfriends mobile phone the phone will shout... "Oouch" !!.. ;) or may be if you want to configure it to "Let's Do it" then its your wish !! ;)  I will keep this blog posted with the latest updates on this Tech. To know more keep visiting. 
+     
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+     
+      You install Microsoft Visual Studio .NET 2002 and Microsoft Visual Studio .NET 2003 on your computer, and then you remove Visual Studio .NET 2002. If you create a macro that retrieves the References collection for a project by using the VSProject object, and then you run the macro, you receive the following error message: Interface not registered  This error occurs when you remove Visual Studio .NET 2002 from your computer. When you do this, the References interface in the VSLangProj library is unregistered.   To work around this problem, repair or reinstall Visual Studio .NET 2003. To do this, follow these steps:  	Do one of the following, depending on your operating system:  *	Microsoft Windows 2000  In Control Panel, double-click the Add/Remove Programs icon. The Add/Remove Programs dialog box appears.  *	Microsoft Windows XP or Microsoft Windows Server 2003 In Control Panel, double-click the Add or Remove Programs icon. The Add or Remove Programs dialog box appears. 	In the list of programs, click the Visual Studio .NET 2003 program, and then click Change/Remove.  	In the Microsoft Visual Studio .NET Setup dialog box, click Visual Studio .NET.  	In the Microsoft Visual Studio .NET Maintenance dialog box, click Repair/Reinstall.  Microsoft has confirmed that this is a bug in the Microsoft products that are listed in the "Applies to" section.    Steps to reproduce the behavior  *	Install Visual Studio .NET 2002 on your computer.  *	Install Visual Studio .NET 2003.  *	After the installation process is complete, remove Visual Studio .NET 2002.  *	Start Visual Studio .NET 2003.  *	On the View menu, point to Other Windows, and then click Macro Explorer.  *	In Macro Explorer, right-click Macros, and then click New Macro Project. The New Macro Project dialog box appears.  *	In the Name box, type ReferencesObject, and then click Open.  *	Under the ReferencesObject node in Macro Explorer, double-click the Module1 node. The code editor of the Module1 module opens.  *	In the Module1 module, replace the existing code with the following code: 		Imports VSLangProj 		Imports EnvDTE 		Imports System.Diagnostics 		Public Module Module1 		    Sub References() 		        'Retrieve the VSProject object. 		        Dim proj As Project = DTE.Solution.Projects.Item(1) 		        Dim vsproj As VSProject = CType(proj.Object, VSProject) 		        'Retrieve the References collection for the project. 		        Dim ref As References = vsproj.References 		        'Display the name of the project. 		        MsgBox(ref.ContainingProject.Name) 		    End Sub 		End Module *	On the File menu of the Macros IDE, click Save ReferencesObject.  *	On the File menu of the Macros IDE, click Close and Return.  *	On the File menu of Visual Studio .NET, point to New, and then click Project. The New Project dialog box appears.  *	Under Project Types, click Visual Basic Projects, and then click Windows Application under Templates.  *	In the Name box, type MyApplication, and then click OK.  *	In Macro Explorer, right-click the References node, and then click Run. 
+     
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+     
+      Microsoft on Wednesday released the latest in a series of studies it has commissioned that show Windows to be as cheap or cheaper than Linux as part of its "Get the Facts" campaign. The latest study, conducted by BearingPoint, found that even looking at only the "hard costs" of licensing and support, Windows Server 2003 was often cheaper than Red Hat Enterprise Linux and Novell/SUSE Linux.  "While the acquisition costs associated with licensing and support should be evaluated, this study has found after comparing the cumulative costs within medium and enterprise scenarios over a five year period that those costs do not significantly differentiate Windows Server 2003, Red Hat Enterprise Linux 3 or Novell/SUSE Linux 8," BearingPoint said in the conclusion of its report.   
+     
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+     
+      Current Price : 10.70  Target Price: 15 Target Period: 2 Months  Stop Loss: 6  Thanks, Saurabh-Max-Birla   
+     
+    
+</post>
+
+<date>28,May,2004</date>
+<post>
+
+     
+      The California state Senate on Thursday approved a bill that takes aim at Google's new Gmail service, placing strict limits on e-mail providers seeking to scan customer messages for advertising and other purposes.  The bill passed after revisions that removed a key provision that would have required e-mail providers to win the consent of anyone sending messages to their service before scanning messages.  "My legislation guarantees that our most private communications will remain just that--private," said Sen. Liz Figueroa, D-Fremont, the bill's author, according to a statement.   
+     
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+     
+      Philips has come up with NFC IC. Please read below to know more......   urlLink Philips Semiconductors - Identification - Near Field Communication 
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+     
+      Please visit this link for some good details on Certification stuff !!.. :)  http://www.codeclinic.com/certification.htm
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+     
+      If you put a control (such as a TextBox control) on an inherited Microsoft Windows Form in Microsoft Visual Studio .NET, and then you save and reload the form, the layout of the control may change. This problem affects the position and the size of the control.  A supported hotfix is now available from Microsoft, but it is only intended to correct the problem that this article describes. Apply it only to systems that are experiencing this specific problem.  To resolve this problem, contact Microsoft Product Support Services to obtain the hotfix. For a complete list of Microsoft Product Support Services phone numbers and information about support costs, visit the following Microsoft Web site:    Note In special cases, charges that are ordinarily incurred for support calls may be canceled if a Microsoft Support Professional determines that a specific update will resolve your problem. The usual support costs will apply to additional support questions and issues that do not qualify for the specific update in question. The English version of this hotfix has the file attributes (or later) that are listed in the following table. The dates and times for these files are listed in coordinated universal time (UTC). When you view the file information, it is converted to local time. To find the difference between UTC and local time, use the Time Zone tab in the Date and Time tool in Control Panel.   Windows Server 2003      Date         Time   Version            Size    File name    -----------------------------------------------------------------    01-May-2003  23:55  1.1.4322.904    1,699,840  System.design.dll     Windows Installer      Date         Time   Version            Size    File name    -------------------------------------------------------------------------------    15-Apr-2003  02:57  1.0.1199.34124     81,920  Microsoft.windowsinstaller.dll      Microsoft has confirmed that this is a problem in the Microsoft products that are listed in the "Applies to" section.
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+     
+      If you think that you will not be lucky in getting the TCS IPO, or it is too big investment for you. Kindly consider Tata Elxsi. This stock will shoot as soon as TCS IPO will be out.   Current Price :  99.75   Target Price:  150  Target Period:  6 Months   Stop Loss:  80  Thanks, Saurabh-Max-Birla 
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+     
+      After Near field communication we have something between us called "Near-field intrabody communication"   To know more about it Visit: http://www.research.ibm.com/journal/sj/mit/sectione/zimmerman.html  These guys are too visionary... they are looking for something like Business card Handshake. WoW!!... imagine when I will meet you our business cards would already be friends.  :)
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+     
+      Company is doing very well. This script will certianly do well in near future.  Current Price : 49.90 Target Price: 90 Target Period: 1 Year  Stop Loss: 30  Thanks, Saurabh-Max-Birla
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+     
+      When you pass VARIANT parameters by reference from managed code to a Microsoft Foundation Classes (MFC) Automation Server, you receive the following error message:  An exception 'System.Runtime.InteropServices.COMException' has occurred.  This problem occurs because the System.Type.InvokeMember method only passes parameters by value to COM methods. This is the default behavior.   For example, if you use a method such as the following to pass a VARIANT parameter by reference, an exception error occurs: HRESULT _stdcall Method1(                 [in, out] VARIANT* inoutVal,                  [out] VARIANT* outVal,                  [out, retval] VARIANT* retVal); Currently, you cannot change this default behavior directly by using the System.Type class.   Microsoft provides programming examples for illustration only, without warranty either expressed or implied, including, but not limited to, the implied warranties of merchantability or fitness for a particular purpose. This article assumes that you are familiar with the programming language that is being demonstrated and the tools that are used to create and debug procedures. Microsoft support professionals can help explain the functionality of a particular procedure, but they will not modify these examples to provide added functionality or construct procedures to meet your specific requirements. If you have limited programming experience, you may want to contact a Microsoft Certified Partner or the Microsoft fee-based consulting line at (800) 936-5200. For more information about Microsoft Certified Partners, visit the following Microsoft Web site: http://directory.microsoft.com/resourcedirectory/Solutions.aspx  For additional information about the support options available from Microsoft, visit the following Microsoft Web site:  http://support.microsoft.com/default.aspx?scid=fh;[LN];CNTACTMS   To work around this problem, you can use the System.Reflection.ParameterModifier object to change the parameter type manually to VT_BYREF. You can then use late binding to invoke the method.  The following sample C# code describes this workaround:using MyMFCLibrary; using System.Reflection;  public class MyClass {   MyMFCAutomationServer objTest = new MyMFCAutomationServerDoc();    object [] arglist = { "Hello World!" };   ParameterModifier pm = new ParameterModifier(1);    //Set the VT_BYREF flag on the first parameter.  p[0] = true;    //Create an array of ParameterModifier objects, and then put in your element.  ParameterModifier [] pmArray = { pm };    //Use late binding and call the method.  objTest.GetType().InvokeMember("VariantByRef",                                  BindingFlags.InvokeMethod,                                   null,                                   objTest,                                   arglist,                                   pmArray,                                   null,                                   null); }  Microsoft has confirmed that this is a bug in the Microsoft products that are listed in the "Applies to" section.   The MFC implementation of the IDispatch::Invoke method expects to see the flags VT_VARIANT | VT_BYREF specified in the type tag field vt. However, the Type.InvokeMember method does not supply this flag combination to the IDispatch::Invoke method. When the Microsoft .NET Framework prepares the parameter list for marshaling, it inserts the flag VT_EMPTY instead of the flags VT_VARIANT | VT_BYREF.
+     
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+     
+      Wow!!.. this thing is really great... every thought of creating an applicaiton with the use of XML ... this is hear... to know more visit..   urlLink XAML.NET, a guide to XAML  http://www.c-sharpcorner.com/Longhorn/XAML.asp
+     
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+     
+      Hi, Please do not send Gmail Invites on Hotmail and Yahoo. In hotmail the invite vanishes.It not even bounces back. And in Yahoo the invites are bounced back.  Also Seen mails from a Gmail account are send to the Junk folder.
+     
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+     
+      You run an application that you built by using the Microsoft .NET Framework version 1.1. After your application has been running for a short time, a thread in the thread pool may become corrupted.   When this problem occurs, you may experience one or more of the following problems:  CPU usage suddenly increases to 80 percent, and one thread in the application becomes deadlocked. Another thread continues to create manual events. A wait thread fires repeatedly on an AutoResetEvent event that has a Win32 native manual event under it because the wait thread is trying to process the completion.  A supported software update is now available from Microsoft, but it is only intended to correct the problem that is described in this article. Only apply it to systems that are experiencing this specific problem. This software update may receive additional testing. Therefore, if you are not severely affected by this problem, we recommend that you wait for the next Microsoft .NET Framework 1.1 service pack that contains this software update.  To resolve this problem immediately, contact Microsoft Product Support Services to obtain the software update. For a complete list of Microsoft Product Support Services phone numbers and information about support costs, visit the following Microsoft Web site: http://support.microsoft.com/default.aspx?scid=fh;[LN];CNTACTMS   Note In special cases, charges that are ordinarily incurred for support calls may be canceled if a Microsoft Support Professional determines that a specific update will resolve your problem. The usual support costs will apply to additional support questions and issues that do not qualify for the specific update in question.  The English version of this software update has the file attributes (or later) that are listed in the following table. The dates and times for these files are listed in coordinated universal time (UTC). When you view the file information, it is converted to local time. To find the difference between UTC and local time, use the Time Zone tab in the Date and Time tool in Control Panel.    .NET Framework 1.1 (Microsoft Windows Installer installation)     Date         Time   Version         Size    File name    --------------------------------------------------------------------------    11-Jun-2003  21:13  2.1.1257.23812  94,208  Microsoft.windowsinstaller.dll   .NET Framework 1.1 for Windows Server 2003     Date         Time   Version       Size       File name    --------------------------------------------------------------    28-Aug-2003  19:06  1.1.4322.936     77,824  Corperfmonext.dll    28-Aug-2003  19:05  1.1.4322.936    311,296  Mscorjit.dll    28-Aug-2003  19:05  1.1.4322.936  2,093,056  Mscorlib.dll    28-Aug-2003  19:05  1.1.4322.936  2,498,560  Mscorsvr.dll    28-Aug-2003  19:05  1.1.4322.936  2,490,368  Mscorwks.dll  Microsoft has confirmed that this is a problem in the Microsoft products that are listed in the "Applies to" section. 
+     
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+     
+      Although still in beta testing, the launch of Google's free Gmail service heated up the competition by offering customers a whopping 1GB of e-mail storage. Yahoo! fired back this week by boosting customer inboxes to 100MB and unveiling an updated user interface, which Microsoft called "quite good."   "We have been intentionally quiet over this period, as we formulated our plans, and waited to see the Yahoo response, feeling it would be best to see how strong Yahoo's counter would be before going public with our own," Blake Irving, corporate vice president of MSN's Communication Services group, told employees.   Microsoft hopes that by giving customers enough space, it can move the media focus away from storage as a key selling point and reduce the emerging threat posed by media darling Google.   "We are going to respond in a big way and will eliminate email storage as an issue for our users," said Irving.   E-mail is not the only area in which MSN is feeling pressure from competitors. Microsoft has been developing and refining its own algorithmic search engine, and plans to launch MSN Newsbot -- a service similar to Google News -- by the end of the year.   
+     
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+     
+      Bill Gates has a reputation for coming late to the party, then making a big splash when he arrives.  That's what happened after the Microsoft chairman realized the potential of the Internet. And it may happen again if he starts his personal Web log.   Yes, the world's richest man may start his own blog, one of those online diaries that have been the rage among techies for the past three or four years.   Bill's blog won't be all business, either. He's expected to share personal details such as tidbits from recent vacations, according to tech pundit Mary Jo Foley's Microsoft Watch newsletter. Citing unnamed sources, she reported yesterday that Gates is about to start blogging "real soon now."   Microsoft spokesman Mark Murray would not confirm the story, but left open the possibility, saying, "Bill would love to do his own blog at some point in the future, time permitting." 
+     
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+     
+      When you build a Microsoft Visual C++ .NET project in Microsoft Visual Studio .NET, you may receive an error message that is similar to the following error message:  fatal error LNK1181: cannot open inputfile 'f:\temp\test.obj'  This problem may occur when the path of the Intermediate file folder or the path of the Output file folder in the Visual C++ project starts with a leading backward slash (\). The IDE uses the drive from where it is launched. The IDE does not use the drive that the project uses.    To work around this problem, include the drive name for the Intermediate file folder and for the Output file folder. To edit the entries for the IntDir folder or for the OutDir folder, follow these steps: On the Project menu, click Properties Pages. In the Properties Pages dialog box, click Configuration Properties. In the General list, type new entries for the Output Directory items and for the Intermediate Directory items that include the drive names. 
+     
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+     
+      Near Field Communication (NFC) is a short-range wireless connectivity standard (Ecma-340, ISO/IEC 18092) that uses magnetic field induction to enable communication between devices when they're touched together, or brought within a few centimeters of each other. Jointly developed by Philips and Sony, the standard specifies a way for the devices to establish a peer-to-peer (P2P) network to exchange data. After the P2P network has been configured, another wireless communication technology, such as Bluetooth or Wi-Fi, can be used for longer range communication or for transfering larger amounts of data.   Here are some examples of how NFC can be used:   You could take pictures with a cell phone with a built in camera, and touch an enabled computer or television set to transmit the images for display;  You could download applications or games to a handheld device by touching the computer;  In conjunction with another wireless technology, you could transfer large files between two devices, such as a laptop and a desktop, simply by touching the two together.  Very good PDF on NFC at http://www.ecma-international.org/activities/Communications/2002tg19-010.pdf 
+     
+    
+</post>
+
+<date>05,July,2004</date>
+<post>
+
+     
+      Hi guys,  Try FireFox from Mozilla people....  Serious reccommondation...  Download it from.. http://mozilla.org/products/firefox/  Even Microsoft-owned Slate.com is recommending Firefox over IE See .. http://slate.msn.com/id/2103152/
+     
+    
+</post>
+
+<date>05,July,2004</date>
+<post>
+
+     
+      With Microsoft Windows XP, you can define the visual style or appearance of controls and windows in a variety of ways, from simple colors to textures and shapes. Visual styles are specifications for the appearance of controls. If you want your application to use Windows XP visual styles, you must add an application manifest that indicates that ComCtl32.dll version 6 should be used if it is available. Version 6 includes the support for changing the appearance of controls in a window.   In Visual Studio .NET, you cannot create your own visual styles, however, you can configure your .NET Windows Forms applications to use the visual styles of the controls that are provided by Windows XP.  Many of the .NET Windows Forms controls are merely wrappers for the common controls that are provided by the operating system. However, .NET Windows Forms provides formatting capabilities that are not built into the common controls (for example, a flat Web look to the controls). Therefore, in most cases, the .NET Windows Forms takes on the responsibility of drawing the controls.  To take advantage of the visual styles of the controls, the .NET Windows Forms needs to relinquish the drawing back to the common controls library. You do this by setting a FlatStyle property on the controls and building a manifest file. A manifest file is just an XML file that contains run-time information about the application. It takes control at the application level. Therefore, you need only one manifest to affect the whole application, including any .dll files that the application may use.   To introduce Windows XP visual styles into your Windows application, follow these steps:  Create a new Windows application and add some controls to the default form. For every control that you put on the form that has a FlatStyle property, set the property to System. Compile the application. Build a manifest file in the application directory.   NOTE: This manifest file must be located in the same directory as the executable. Open a text editor program (such as Notepad) and paste the following code in a new file:      .NET control deployment tool                                                       type="win32"                         name="Microsoft.Windows.Common-Controls"                         version="6.0.0.0"                         processorArchitecture="X86"                         publicKeyToken="6595b64144ccf1df"                         language="*"                 />               					 Save the file in the application directory with the name of the application and an extension of exe.manifest. For example, if your application name is MyApp, name the manifest file MyApp.exe.manifest.  When the application runs, Windows XP looks at the application manifest, which tells the operating system to use common controls library version 6.0.  :)
+     
+    
+</post>
+
+<date>05,July,2004</date>
+<post>
+
+     
+      This thing is really nice..a must have !!  Intel Desktop Control Center enables you to perform stress tests to verify system stability and to conduct performance testing to measure the impact of system configuration changes. The easy-to-read system gauges provide feedback so you can observe the effects of various system modifications in real-time.  This easy-to-use console dynamically displays temperatures, speed, and usage percentages, allowing you to verify system stability and check performance gains without rebooting into the BIOS. And once you have tuned the system to your liking, the settings can be stored as presets so you can quicly shift gears between "quiet operation" and "gaming mode".    http://fileforum.betanews.com/detail/1067420648/1  Thanks, Team SomeBuddies.com
+     
+    
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+     
+      Hi People,  Now this is called the hight of shamelessness.... Today is my B'day please wish me luck ... :)
+     
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+     
+      When you use controls in a Microsoft ASP.NET application, the controls do not appear in your Web browser or a blank .aspx form is displayed.   This problem occurs because one of the following conditions is true: When you ran the Microsoft .NET Framework software development kit (SDK) Setup program or the Microsoft Visual Studio .NET Setup program, Microsoft Internet Information Services (IIS) was not installed.   After you ran the .NET Framework SDK Setup program or the Visual Studio .NET Setup program, you removed and then reinstalled IIS.  To resolve this problem, make sure that IIS is correctly configured to use the .NET extensions. Run the "Aspnet_regiis.exe" administration utility to configure the required application mappings. To do this, follow these steps: Click Start, click Run, type cmd, and then click OK. At the command prompt, type C:\Windows folder\Microsoft.NET\Framework\version\aspnet_regiis.exe -i (where version is the version of the .NET Framework that is installed on your computer), and then press ENTER. Register the Aspnet_isapi.dll file, and then restart IIS. To do this, follow these steps: Click Start, click Run, type regsvr32 C:\Windows folder\Microsoft.NET\Framework\version\aspnet_isapi.dll, and then click OK.  Note Regsvr32 returns the results of the registration.  Click Start, click Run, type iisreset, and then click OK. 
+     
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+     
+      "TATA POWER" ..... Do not miss this.....  Thats all I want to say..
+     
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+     
+      As many of you might know that I have shifted to B'lore.  Its been two days that I am hear.. and one of then being my B'day added to the overall fun of being hear.  I am working for Fidelity and enjoying it.  Banglore, India... another destination for fun loving IT Professional like me. Apart from cheap Sharab(alchol), shivering morning and scacrity of babes one more thing you get in bonus is hard to find North Indian food.  Bangalore is booming, and a look at some of its nicknames says why: "India's Silicon Valley", "Fashion Capital of India", "The Pub City of India", and on. Home to well over 6 million people, and a base for 10,000 industries, Bangalore is India's fifth largest city and the fastest growing city in Asia.  The capital of the state of Karnataka, Bangalore is situated halfway betwen the coasts in southern India. The city was founded in the 16th century, and witnessed great southern dynasties like the Kadambas, the Hoysalas and Vijayanagar emperors. Legend has it that the name Bangalore comes from "boiled beans" (Benda Kaluru), which were served by a humble old lady to a hungry ruler in the 10th century.  Surprisingly, despite some adverse environmental impact of industrial development in Bangalore, another of its nicknames is "The Garden City". That's thanks to many local parks, along with pink cassias, golden acacias, and jacarandas which bloom throughout the city.  Many international visitors come to Bangalore for its excellent schools and universities, such as the Indian Institute of Science. While enjoying the warm weather year-around, tourists can also use the city as a central base for day trips to other Karnataka attractions. And Bangalore doesn't only produce fine silk and software. "The Fruit Market of the South" is great for grapes, mangoes and guavas.  Last but not the least, Bangalore is even gaining the status of the "Floriculture Capital" due to the present blossoming of flower exports from the city. Because of its rich stone resources, Bangalore is also known as the "Stone City", for its granite deposits.  God knows ... will I enjoy hear ??? 
+     
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+     
+      Recently, Rogers Cable Inc. and Yahoo! Inc. unveiled what they call a “new integrated broadband experience.” Combining high-speed Internet with a large suite of services like news, music and videos,  yahoo.rogers.com  is designed to provide a media-intensive trip for ‘Net addicts and media junkies.  The Rogers-Yahoo site features an email system with anti-virus and spam protection; 2 gigabytes of email storage; unlimited storage space for uploading photos; a messenger service; an intricate system of parental controls; and music, videos and games. This incursion comes one month after Bell Canada introduced a similar co-branded Web portal,  Sympatico.MSN.ca , with Microsoft Canada Co. However, both these new portals don’t come free: To use the yahoo.rogers.com portal, you must be a subscriber of Rogers’ high-speed Internet services to use the perks, and Sympatico.MSN.ca demands that users pay for premium services. Looking beyond the fine print, it becomes obvious that these two converged giants are looking to capitalize on this growing Web trend, and are working to shape an “if you build it, they will come” corporate strategy. The creation of these two new portals also suggests a new generation is being born from the information superhighway.  In the early days of the Internet, consumer demand called for speed and a stable connection. Now, with broadband connections being far more common (especially in Canada), the name of the game has become content. The current generation downloads everything, so it was only a matter of time before corporate think tanks would start churning out ideas to capture this growing market. 
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+     
+       Dear Reader,   My guess is that the listing would be  @ 1200  or more, because there will definitely be a huge demand from Mututal Funds for additional quantities. TCS will soon be a major component of indices and every MF will want to have TCS to have an average weightage of  5 %  in their portfolios to match with Infosys and Wipro. They sure have already bought some but will buy again after listing, as they have a tendency to buy in lots periordically as they generate cash, with a wait an watch approach. This demand will have a chain reaction later by way of demand from Foreign Institution and then lastly from retail investors. All the retail investors who invested now are lucky, but they should still be carefull and keep watching it continuously for price movement and book profits periodically if rises above 1250. Otherwise in any case it is a sureshot long term bet. You can keep it for your children. They will make a fortune. It has the potential to become a Microsoft. The Company's strategy is to be among the world's top 10 Tech firm by 2010.       Saurabh Birla  
+     
+    
+</post>
+
+
+</Blog>

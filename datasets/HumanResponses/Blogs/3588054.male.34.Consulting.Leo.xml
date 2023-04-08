@@ -1,0 +1,274 @@
+<Blog>
+
+<date>28,June,2004</date>
+<post>
+
+						
+						   From  urlLink Software Architect Bootcamp, Second Edition , By Raphael Malveau, Thomas J. Mowbray, Ph.D.  Architecture bridges the huge semantic gap between requirements and software. Because requirements notation is prose, requirements are inherently ambiguous, intuitive, and informal. It's right-brain stuff. Software, on the other hand, has the opposite characteristics. Software source code is a formal notation. Software is interpreted unambiguously by a machine, and its meaning is logically unintuitive (i.e., hard to decipher). It's left-brain stuff.  Its easy to get into a rythym of coding without talking to fellow programmers or users.  I find that exhausting and frustrating, maybe because it is not using both sides of my brain. 
+
+						
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+						
+						   This is a story of a really slow train crash...  Ok, well about 216 days ago I got  urlLink Vonage  internet phone.  It works via my broadband cable connection, using normal phones.  Around this time, my DirectTivo dialup stopped working.  The Tivo dials up a few times a week to check for and download software updates.  The problem was that my Vonage line could not handle a dialup connection much faster than 19.2Kbps.  And the DirectTivo internal modem insists on trying to connect at a higher speed.  So I headed on over to the Vonage forums, and the  urlLink Tivo community  forums, to see if there was a solution.  And there seemed to be.  It goes something like this...  Buy an external modem, make yourself a special cable, enter a special dial-prefix in the Tivo settings, and everything will work ok.   Vonage saves me a lot of money each month, so I did not mind spending a little to make by DirecTivo work with it...First, I ordered a modem via EBay, for about $20.  It arrived, without a power supply, and no indication of what sort of power supply it needed.  After an unanswered email to the seller, and a prompty answered email from the modem manufacturer, I determined what power supply was needed.  Luckily, I had a 100% match on the power supply, although it was in use by my LinkSys router.  Still, enough to test with.  I also ordered a special cable to connect the Tivo to the modem.  That arrived fairly promptly.  Finally, I realise that the modem and tivo cables both have female connectors, so I buy a gender switching adapter from Best Buy.  I plug everything in and it does not work.  I mean, the modem works ok, but the Tivo does not see it.  Back to the drawing board.  At  urlLink weaknees.com , they sell a pre-configured external modem for Tivo units.  So I ordered that ($69, ow) and received it a few days later.  I set it up with the gender adapter, etc, but it does not work either  Looking at the instructions that weaknees.com provided, I realise that they do not mention needing a gender adapter.  So I look online and realise I had ordered the wrong Tivo cable.  So, I ordered the right one, and it arrived today.  Finally, I plugged everything in, and the modem dials...and connects...and negotiates...and negotiates...and negotiates...and hangs up.  It is  still  not working.  So far, I am out about $130.  Next step...program the modem to connect at a lower speed that my Vonage line can handle.  Of course, wouldn't you know, that requires a serial cable, which I do not possess...  &lt;sigh&gt; 
+
+						
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+						
+						   XAML is Microsoft's future technology for creating XML-driven user interfaces.   urlLink myXAML  is Marc Clifton's "available now" equivalent.  Both follow a model of the XML mapping directly to the .NET UI classes.  So, a &lt;Button&gt; xml tag will create a  Button , etc.  In addition, they follow the MS convention of absolute positioning, i.e. each element is absolutely positioned relative to the canvas.  In effect, they are just an XML-based equivalent to a Windows Form.  The only benefit they provide is that the XML can be copied, replaced etc., and the new forms will automagically compile into the current UI.  Whoopdeedoo.  Wake me when it's over, the excitement was too much for me.  There are other XML-based user interfaces.  There is even a  urlLink w3c  recommendation (their word for standard) called XForms.  In contrast to XAML and co, XForms does not tie directly to a particular API.  It uses standards, such as HTTP posting, to post the results of a form to its destination.  In addition, it has several wonderful features:    the XForm does not specify the location, or even the type of the UI widget.  This is great, because it allows the form to be rendered in different ways by different user agents.  it has built-in support for form validation.  I am so tired of validating forms.  In XAML and co, I will still have to write custom validation code, but XForms will allow me to build it in to the form.  positioning, coloring, etc are provided by CSS   So, the benefits of XAML and co are not clear to me.  The benefits of XForms are apparent, or at least slightly more enticing.  In addition, XForms can be used inside of XHTML documents.  What more could I want, especially for client-side code that needs to operate in a disconnected fashion, on low-end devices. 
+
+						
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+						
+						   I have had recent reason to do research into XML-based markup languages that are used to create forms for user-interaction.  Included are XAML, myXAML, XUL, ZULU, and many others.  The ones I mention above all have something in common -  they evolved to meet specific needs .  As such, they have not had much thought put into them other than what was necessary to make them work.  One that  does  appear to have had a of thought, is  urlLink XForms .  This is a recommendation of w3.org, and tackles many issues that the others don't.  Specifically, it allows for the idea of re-using the form in different devices, such as PDAs, phones etc.  In addition, it extends and builds upon other well-thought out standards, such as XHTML.    I think that I should focus my browser efforts on XHTML with support for XForms.  If I decide to render other versions of HTML, I can write pre-processors to render those in terms of XHTML. 
+
+						
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+						
+						   Today, I had a problem with the interop dlls that I created using tlbimp.exe.  They did not work for a particular .NET application.  The same technique worked for other .NET apps (at least I think it is).  If I used Visual Studio.NET to generate the interops, then they worked.  WTF?  So I investigated, looking at ILDASM to compare the interops.  Turns out, Visual Studio.NET uses the name of the DLL as the namespace.  So, to do it like VS.NET, I had to go like:    tlbimp ABC.dll /out:Interop.ABC.dll /silent /namespace:ABC    Problem solved :)  There is still a minor mystery - why did my interops work for other .NET apps, but not for this one?  I can live without knowing that for a while, (at least until it bites me in the ass). 
+
+						
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+						
+						   Somehow, I have it in my head that it should be easy to write a basic browser in C#.  I mean, parsing HTML is only moderately hard, and how hard can it be to render the HTML on the screen.  Of course, I am not saying it is not a challenge, but I think it is a very achievable goal.  Am I crazy?  Almost certainly, but I think I'll give it a try anyway.  Why would I want to?  For better control and embedding of browsers.  Right now, if I want to embed a browser in my app, I can use the IE webbrowser control, or the Mozilla activex control.  Neither of these is a "managed" solution.  In addition, neither allows me to place code between the parsed HTML and the rendered page.    What I mean by that is that I would like to write a browser that renders non-HTML input in combination with HTML.  This opens up possibilities, although I'm not too sure yet what they are.    One possiblility is as a fast browser for dialup users.  Although HTML is an efficient user of bandwidth, it is not necessarily the fastest way to get a rendered page to a user.  Depending on the nature of the page, I imagine that it could be quicker to render it on a proxy server, and then to send a rendered image to the local browser.  That may be worth money to a dialup ISP, in terms of being able to offer the quickest browser on the market.  The above is oversimplified, because sending a rendered image is going to be slower in almost all cases.  But the point is that there are efficiencies that can be gained by creating a browser that can receive the rendered page in alternate ways. 
+
+						
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+						
+						   I found the solution to my problem of being unable to register my .NET assembly using regasm.  The problem was that I was receiving an error:   RegAsm error: Could not load type XX.XX.AppBase from assembly XX.XX.XX, Version=0.9.1616.28364, Culture=neutral, PublicKeyToken=null because the format is invalid.   The problem turned out to be that my DLL exposed an ADO recordset.  This was not a problem on machines with Visual Studio.NET installed, because they have ADODB.DLL in the GAC.  However, most user machines do not.  So the solution was to copy ADODB.DLL from my local machine ( C:\Program Files\Microsoft.NET\Primary Interop Assemblies\ADODB.DLL ) to the target machine, and then install it to the GAC ( gacutil -i ADODB.DLL ). 
+
+						
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+						
+						   So, I have finally gotten around to creating a blog.  My intention is to post a few times a week, about things that have interested me, or annoyed me.  I don't expect anyone to read it, but it will be fun for me to go back and take a look, to see how I was thinking and working at a particular point in time.  Most recently, I have been going through the trials and tribulations of working with COM interop.  This is a nice-sounding technology that allows .NET and COM to talk to each other.  I'm stuck right now with a deployment problem.  I posted on a newsgroup and a  urlLink CodeProject  forum, and hope to have a resolution sometime this week.  My post was:   I have a .NET DLL that has the following inheritance structure (each object inherits from the object above it):  BaseObject (VB6 COM DLL) COM Interop DLL (.NET) Abstract BaseObject (.NET) Abstract BaseObject2 (.NET) Concrete Object (.NET)  To complicate matters, the Concrete .NET Class needs to be accessible from COM. I have set the appropriate attributes to make this happen, and everything works fine on my machine, and some others too.  To register on another machine, I use RegAsm. However, on some XP machines, regasm is failing, with the error:  RegAsm error: Could not load type XX.XX.AppBase from assembly XX.XX.XX, Version=0.9.1616.28364, Culture=neutral, PublicKeyToken=null because the format is invalid.  where XX.XX.AppBase is the first abstract base object. All machines are running .NET 1.1. I have tried to work around the problem by using .reg files to register the DLL, but that just defers the error message until the application tries to use the object.  Has anyone any ideas on how I can resolve this, or what causes it?   
+
+						
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+						
+						   I decided to support in-memory databases for  urlLink SteveDB . It was an easy decision, because it simplified my unit tests to be able to have non-persistent data. It was even easier to implement, because I had already hidden the implementations of the FileStreams behind an interface. Of course, I had to change everything to use plain ol' Streams, but that was easy too.  I have also completed my first high-level function - CreateTable. If you hadn't guessed already, that means that I can now create tables :) The fun continues...  I'm almost sure that SteveDB will not support DDL SQL, i.e. CREATE TABLE, etc. The way I see it, the main reason that I support SQL at all is for reporting on the data, and compatibility with other databases. DDL does not support either of these objectives. Users wanting to create tables etc. can either use the API directly in their applications, or use a GUI tool (which in turn uses the API).  I'm toying with some ideas around being able to define database structure declaratively, e.g. with an XML file or something. I'm also toying with the idea of being able to generate an object-API from the database structure, i.e. on-demand generating of a custom .NET data access layer and (simple) O/R mapping that works specifically with SteveDB. This would be a huge selling point, as it moves the functionality up on a par with strongly typed .NET datasets.  
+
+						
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+						
+						   I have been thinking, that although I do not want to provide a security framework for  urlLink SteveDB , I do want to support data encryption. I do not want programmers to have to work hard to make their data secure. My idea is that a connection string can contain a private key, which is then used to encrypt data at the row level. To retrieve that row again, the connection string must contain the same private key.  If a user performs a SELECT statement that would return an encypted row, but the connection string does not contain the correct private key, then that row will be filtered out of the results. There will be no error -- just no data. Data is effectively secured at the row level.  This opens up some possibilities, because we can share a database between a bunch of different processes or users, and each would only be able to access their own data. If they share a common private key, then they could share data. The private key is effectively the username and password. In fact, I could just hash a username and password, and use that as the private key.  Of course, encrypting data has some performance impact, but performance is not a key driving factor behind SteveDB. Also, it would be optional, based on the connection string. I may also make it selective, i.e. the user can choose on a per-command basis whether they want to use the private key.  
+
+						
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+						
+						   I did some work on my  urlLink SteveDB  project again this weekend. Made some decent progress, and have got to a point where I need to start writing the implementation of SELECT statements with simple WHERE clauses. I am not sure how to do this in a general way, so I will probably just code what I need, as I need it. Since I am using  urlLink TDD , this is a valid approach -- when I get a better idea of how this should work, my tests will be the safety net that allows me to refactor the code. For now, everything will just use table scans. Very inefficient, but it will work.  The code now accepts a connection string, and parses it. Depending on the values in the string, there are 2 implementations of the object that gets  FileStream s - one for the local file system, and one for isolated storage. This works much better than having if/else statements all over for each of the two cases. For now, the isolated storage object is scoped to the current user and application. Later down the road, I may let the user specify the scope in the connection string.  I am using  FileStream s, although I could just use  Stream  objects.  I may end up doing that, to be able to support  MemoryStream s as well, i.e. temporary tables that are stored in memory.  Unlike a traditional database, SteveDB does not complain if the database does not exist when you connect. In fact, it will create any missing directories and files. It will complain if it is unable to do so. The intention of this behavior is to ease database deployment - programmers can just specify the connection string, and the database will work. They can have a template database that they then copy, or they can have code that creates the database structure, using SQL or the (much simpler) native SteveDB API.  Connection strings for SteveDB look like this:  Path=c:\temp or Path=\xxx\yyyor Path=abc\def or Path=abc;IsolatedStorage=true  In other words, the database location is specified as an absolute or relative path, and it can be specified to be in isolated storage.  
+
+						
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+						
+						   I am continuing to code  urlLink my embeddable database ...  Tonight, I worked on the row structure, including an implementation of IDataRecord. It is a little soon to be coding the System.Data interfaces, but that particular one seemed useful, because it provides nice simple, strongly typed access to a data row.  So now I have the ability to represent a .NET-style data row in memory, as well as a tested technique to translate that row into a byte array for persisting to the data store. Oh, and I also have a way to store the table structures, although I have not yet coded a way to persist that.  My intention is to have a master.dat file for storing the database structure, and a xxx.dat file for storing each table's data. I am very close to being able to achieve that, but I have to sleep...  
+
+						
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+						
+						    urlLink    Nicole & Peter - Its impossible to take a picture of Nicole without her pulling a face!&nbsp; urlLink    
+
+						
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+						
+						   In another of my ambitious mini-projects, I have decided to write a database engine. Of course, being somewhat pragmatic, I am willing to sacrifice some functionality over a full database engine. I won't support transactions, or any advanced forms of concurrency, or even the full ANSI SQL. I think I'll call it  urlLink StevesDB .NET.  But I should probably start at the beginning. In .NET, there is a gaping big whole in terms of an embeddable database that can be distributed with applications. We have this wonderful idea of XCOPY deployment, but as soon as we have a database, that goes out the window. In addition, web-based apps often need database functionality, but do not want to have to deal with SQL Server prices from the ISP. In short, there is a gap in the market for an embeddable database.  There are some contenders.   urlLink SQLite  for one, already has .NET providers, and a fair amount of sample .NET code. But I think I can do better than that. My planned database features are:      100% managed code - possibly with support for the Compact Framework. This will allow the greatest flexibility in terms of distributing       Support for storing the database in Isolated Storage - this will allow apps to run with minimal local priviledges, in terms of Code Access Security     ADO.NET Provider - probably the easiest part     SQL language support - I don't really want to get into writing a whole parser + tokenizer for SQL, so I will probably just hack something together that will handle 90% of queries. It will be enough to start with at least.     Dynamic indexes - users will not have to define indexes - they will be created as needed, and discarded when they are unused.     Fully typed data columns - SQLite has a different model of typing for columns, which would just confuse users.     Multi-threaded support     Fully embeddable or remote server modes of operation     Opportunity to plug-in .NET code anywhere in the engine - kindof my equivalent to Oracle's Java support, and Yukon's C# support.      The reason I think that this is a simple project, is that I will not be dealing with any of the difficult challenges, like transactions, complex SQL, b-tree indexes, permissions etc. All I have to really worry about is interpreting SQL, and storing and retrieving data in a structured way.  We'll see, I guess. I've completed coding the basic data file class, which allows basic CRUD operations on row data. It works fine in my NUnit tests, running in .NET Isolated Storage. Oh, I have also coded a  Compact  function, which reclaims wasted database space. Next, I will move on to table and row structures.  
+
+						
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+						
+						   I happened across a new programming language today, from a reference in  urlLink Daniel Turini's Lair . Its called  urlLink Boo , and it sounds interesting for a number of reasons.  Firstly, it borrows heavily from Python, which I have never used, but I respect as an innovative language.    Secondy, it introduces syntactic attributes.  Normal .NET attributes are exposed only as metadata - the compiler does not interpret them.  In Boo, attributes can be made to actually alter the compiled code.  This is very powerful, because it allows us to use attributes to eliminate wasted typing.  For example, we can mark a private field with the attribute  getter("MyFieldName") , and this will cause the compiler to actually generate a simple property get for that field.  Much simpler than typing the silly things!  It also supports some compiler extensibility, which allows people to extend the language with their own  macros .  Very fun.  My favorite quote from the  urlLink Boo Manifesto :   " The infamous HelloWorld in all its boo glory:   print("Hello, world!")   “public static void main”, that was a good one!"  
+
+						
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+						
+						   I was debugging another programmer's VB6 code today, and I came across the following:   Set oCashFactory = New CacheFactory If I knew thats all I had to do then I would have done it a long time ago!  In the same module, the programmer had also        copied and pasted a global function, without changes.           in a function that handled 8 permutations of possibilities, he typed out code for each possibility, including lines of code that did not differ between the permutations.          written customized SQL code, in a type of module that we do not allow SQL code           coded a messagebox, inside this same module, which is not part of the user interface (i.e. it could be run remotely on a server).          of course, the message box did not use our resource file either, so it is English only    Surprisingly, there have only been 5 bugs, to-date, related to this 500 line module.     
+
+						
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+						
+						   I am most of the way through the book  urlLink The Inmates are Running the Asylum  by Alan Cooper, and I think he has finally got to the point of what Interaction Design is.  He says:  (The interaction designer) is  the advocate for the user  and should have the authority to control all external aspects of the product. Programmers know that users don't know what they want.  We have devised many interesting methodologies for dealing with it, such as Extreme Programming.  We learned a while ago that up front-design is a bad thing, because too much changes as the users learn what the program can do.  Interaction design re-introduces the upfront design, but with the twist that the users now have advocates that know what the users want.    The view has some merit, but the techniques discussed in the book are more valuable.  The idea of using  personas  to drive the design is familiar, and similar to the idea of an  actor  in use case scenarios.  He takes the idea a little further, in that he ignores the direct input from users in terms of interaction.  The interaction designer knows best!  Hmmm, I'm not so sure about that one.  Still, I like the idea of letting the imaginary persona drive the process.  Goal driven design is another great concept.  Forget about the tasks that the user is doing, and concentrate on the ultimate goal of the user.  This eliminates unnecessary interactions.  I tried to think of existing products that could use some interaction design, and could thereby gain a large market share at the expense of their poorly designed cousins.  I think MS Word is very vulnerable as the top dog.  Word is the ultimate generalist, and interaction design is all about designing for a specific target audience, a single primary persona.  If you find a persona that is representative of a big enough market, then you have a winner. 
+
+						
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+						
+						   I guess I must have missed  urlLink this interview , from back in July.  I like this quote:     I also believe that work that is expressed in a factored form: namely as a DSL (Domain Specific Language) and as a generator, is inherently more reusable than the product of the generator applied to the DSL; Programmers today manually generate code by applying their skills to the specs that is really just a DSL. A metaphor here is the public key cryptosystem where two factors are combined with a difficult-to-invert function. So programmers become unwitting cryptographers – they work against themselves when they apply the programming patterns to the specs and obscure the intent.    Another useful link to a  urlLink demo of Intentional Programming .  This makes it much clearer what Intentional Programming is.   Firstly, it eliminates the concept of a text-based code file, and replaces it with a tree like structure that can be displayed in many ways.  So, for example you could display a piece of code as C# or VB.NET, depending on your preferences.   Next, it utilizes this form of editing to increase the possible level of abstraction that we work with.  This enables Domain Specific Languages.   There are other benefits to the style of programming.  Simple refactorings such as name changes are very easy, because the underlying framework knows what a variable, or a function is.  So, if you change a name, it will automatically propogate to every place that name is used.  Contrast that with today's text-based editors, where you need to do a search &amp; replace, and not all search matches will be appropriate to replace.  Source version control is also simpler, because the intention of changes is more apparent.  
+
+						
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+						
+						   Thanks to an anonymous tip on this blog, I picked up a really good quality C# implementation of a Red Black tree.  The author is  urlLink Joannès Vermorel , and the license is a basic attribution license, i.e. I can use, modify and distribute the code however I want, as long as I attribute the original to Joannès Vermorel in the source code and somewhere in the docs.  As a bonus, it appears to be thread-safe.  Anyway, my in-memory indexes are working.  Yay!  Next step -- some simple table joins.  Arg.  After that, it should be back to some easy, fun stuff for a while.  I had a look at  urlLink Prevayler  (small, efficient in-memory OO database) again after a long time.  I always liked the idea, and had intended to use it (or at least the  urlLink .NET equivalent )  in a suitable project when the time came.  However, I just never got around to it.   The prevayler website is an example of a Wiki gone wrong.  It is very one-sided -- no honest discussion of the pros and cons.  Another one that annoys me is  urlLink MockObjects.com .  It lacks a simple introduction for the novice reader.  I remember when I first started writing NUnit tests, I looked on the mockobjects site to try and explain what a mock object was.  No luck.  Couldn't see the forest for the trees.   Probably, wikis should be limited to open discussion of a product/concept, rather than as posing as the main source of information.  Too often open-source projects use a wiki because they are just too lazy/busy/tired to actually design a user-friendly product website.  A wiki is best for collaborative works, not documentation/information dispersal.  
+
+						
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+						
+						   There is an interview over at  urlLink TheServerSide.Net  with Billy Hollis.  Interesting part for me was where he talked about data, and how he thought that we need an Access-equivalent in the .NET world.  He extended the idea into talking a bit about adding value to database fields, with things like labels, etc.  He also mentioned Null datatypes.   urlLink SteveDb  will not have  NULL  types.  So far, the concept is that SteveDb supports defaults, but not  nulls   -- it makes programming an application far simpler, and less bug-prone, if you do not have to worry about  NULLs .   A  null  field often implies some fact, but the implication is not clear.  It is better, at an application level, to explicitly state the meaning.  I'd like to find a way that that can be done, in such a way that the concept of  NULL  is relegated to the history books, at least for embedded databases.  My best idea so far is to normalize the database further.  If a field in a table called  issue  is going to allow  NULLs , then make the developer move that field out into another table (call it  issue-date-fixed ), and form a one-many relationship with that table.  Thus, in a bug-tracker table, rather than having a nullable  date-fixed  field, we could have many instances of  date-fixed , the most recent of which can be reported as "the"  date-fixed .   This is a more flexible design anyway, and forces the developer to think about  Null  values one time only, rather than every time they access the data.  From a performance perspective, this seems like a bad idea (requiring extra queries to get all associated data) .  But, for an embedded database, the overhead of an additional query to the database is orders of magnitude less than for remote databases.  And we may be able to build some special support into the database, such that the database is aware of the meaning of the  issue-date-fixed  table in relationship to the  issue  table.   There are many problems with this idea (sorting, reporting, grouping etc), but I think its worth considering, because the benefits (of not dealing with NULLs) may outweigh the problems.  
+
+						
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+						
+						   I feel like I wasted an evening last night on my red-black tree implementation.  In my previous post, I told how I pretty much copied the code from some C++ code I found.  But that code did not have delete-node functionality, and wouldn't you know it, that's the hardest part of red black trees!  Anyway, I tried to use some pseudo-code I found, but it just did not work.  In the end, I started splitting off all of the operations into static methods in their own class, so I could test them individually.  Once I have that all working, I can then code my own implementation of the delete, from one of the many articles about it.  Its a better design this way, but thats a small consolation, because I do not enjoy coding this sort of thing.  Bah, so much trouble, just for a usable index!  My kingdom for an already working, unit tested C# red-black tree....Help!  
+
+						
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+						
+						   When writing process logic it is best to avoid module level variables.  Rather pass parameters around.   Today, I reviewed a module that did invoice processing.  It had lots of loops and if statements, and was generally quite complex.  It had many functions, which shared a set of over 10 module level variables.  The code had a bug, that invoice numbers were being duplicated sometimes.  The bug occurred because the "next" invoice number was being stored in one of the module level variables.  Some code paths would set that variable correctly, and others would not.  The bug was hard to reproduce, because it required that the specific problem code path be triggered.  This could easily have been prevented by avoiding the module level variables.  In addition, the code would be much easier to read.  I explained the overall cause of the problem to the programmer that is fixing the bug, and he is refactoring the module right now.   Even though he was not the programmer that created the code, he has been guilty of writing similar modules in the past.  I'm really hoping that this will be a good learning experience for him.  
+
+						
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+						
+						   In developing some re-usable components at work, I came across an interesting, but probably common problem.  I have a authentication component that stores user ids, passwords and roles in a database.  Every time that I want to re-use this component, I have to script the tables into the database that I am currently using.  This seems harder than it should be.  What I would really like is a some way to store the database together with the component.   My ideal scenario is that I can link to my authentication component from my code, and      have the database auto-created the first time I use it     have the database participate in transactions that go against the main application database     be able to have multiple applications share the same authentication database       Looking forward into the future of software development, I think it is recognized that software needs to become more component-driven.  Today, we use components for data access, object relational modeling, UI widgets etc.  In the future, we need to have much more complex components, such as an accounting component, or an invoicing component.  These components will need their own data.  My authentication component is a very simple example of such functionality, but it shares some of the same challenges.  I think that we need to give up the idea of a DBMS.  We need to allow databases to become more flexible and lightweight.  Let the data just be there when the applications need it.  Create a database framework that allows for data to be easily accessed, mirrored, replicated etc.  The framework should just work, without any special installation or configuration.  The user, and even the developer, should not have to think about where the data is.  This allows for rich client applications that make use of powerful, re-usable components.  I make it sound much simpler than it is really.  And it is anything but clear in my mind!  But it is possible that the company that develops such a software framework would become very successful.  These thoughts were triggered by my reading of Jack Greenfield's  urlLink article on Software Factories .  I did not comprehend the whole meaning of the article on my lunchtime read, but that is often the way with articles that contain visionary ideas.  
+
+						
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+						
+						   I found another GPL'd Java database, called  urlLink McKoi  (pronounced McCoy), named after someone's pet fish.  Architectural documentation is non-existent on the site, as are a proper list of features.  Basically, it is an embeddable Java database with SQL support, as well as a low-level API that can be used to bypass the JDBC API.  I also found some interesting thoughts on open source databases in a 2002  urlLink freshmeat.net editorial  from a while back.  A mini-flame war follows, in the comments below it.  There was no mention of any Java based databases at the time.  I guess things really do move fast in the software world - only 2 years later and there are several Java databases out there.  No completed C# ones yet though.  I also had not realised that there is a Java edition of the  urlLink Berkeley DB .  Berkeley is a (GPL'd?) embeddable database used by many open source projects.   
+
+						
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+						
+						   Seems I am not the only one who recognizes the need for an open source database in managed code.  Latest news on  urlLink /.  is that IBM is releasing the Java-based  urlLink Cloudscape  into the open source domain.  Some of the features are similar to SteveDb....                         Platform independence  — written entirely in Java to support J2SE-compliant Java virtual machines (JVMs).                                                        Standard database functionality  including multiuser support, indexes, triggers, transactions and failure recovery.                                                        Silent installation, small footprint  (Cloudscape is distributed as a 2MB .jar file) and  self tuning  — ideal for solutions where the database must be "invisible."                                                        Versatile support  — J2EE, JDBC (1.2 and 2.0) and SQL-92, partial support for SQL-99 and SQL-J.                                                        Plug-in support for export-approved JCE providers  — enables encryption of data on disk.                                                        Extensible  — supports user-defined types, user-defined aggregates, and user-defined routines.    Most interesting to me are the silent installation and self-tuning.  This is a prime feature of  urlLink SteveDb  too.  They also do not support SQL stored procedures, which is a decision I made on SteveDb as well.  Overall, looks like a great product.  
+
+						
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+						
+						   I found some alternate databases to SteveDb, one of which is particularly interesting --  urlLink Minnosse .  This is a GPLed C# app that appears to be under development (last activity May 2004) at Novell.  The project is closely associated with Mono.  I took a quick look at their code, and it seems well structured.  I did not see any unit tests though, and comments were sparse.  I suspect that they have gotten to a point where the code is hard to work with, and progress became harder.  Also, there is only one primary developer that works on it part time...sounds familiar :)  Their base-features are similar to  urlLink SteveDb , focused on typical database functionality.   They are open source, fully managed C#, and Mono compliant.  They support stored procedures, triggers, XML, Full Text Search, and all the usual database suspects.   I'd like SteveDb to take a more innovative approach than that.   Rather than just supporting those things because people are used to them, I'd rather look at each of them, and how and why they are used.  Then, I can make decisions on the best way to meet the goals of the users (developers).   For example, take stored procedures.  They are used to either place business logic on the server, or as a means to improve security.  I do not see the point of doing either of those things in SQL.  I'd rather let the users write .NET code that is accessed via SteveDb.  For security, I'd rather just provide a strong, capable security framework.  Similar thoughts apply to triggers.  Why do people use them?  I suspect mostly for audit trails and validation.  There are probably better ways of achieving either of these goals.  Full Text search is a good feature, but it will be very low on my list of priorities, because I do not expect SteveDb to be used with large databases.  Performance will be acceptable on a small database anyway, so why bother.  
+
+						
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+						
+						   I read up on  urlLink Binary Search Trees , and eventually decided that I would implement indexes as  urlLink Red-Black trees . I could have tried to implement a B-Tree, but as I understand it, that is optimized for disk-based access. Since my first index implementations will be stored in memory, I thought I'd go with what works for that.  So, I found some decent C++ code at  urlLink this site , and modified it to work in C#.  There was no code for deleting nodes, so I still have to figure that out.  I don't think that my implementation will be anywhere near as fast as native C or C++, but it should be adequate. What's important is that  urlLink SteveDb  will be able access data in O(log  n ) time, instead of O( n ). Nothing spectacular -- all databases have some form of balanced tree, but it is a relief to be almost done with my first one. Complex stuff scares me a little....its been a long time since I was at university!  I did not do this in my normal  urlLink Test Driven Development  routine, because I was basically transcribing existing code. I did still write tests though, including a nifty set of functions that validates that a given tree is a valid red-black tree.  Tomorrow, I will get back to writing the code for table joins.  Once I have some experience using the indexes, I may write an article on  urlLink Codeproject  about red-black trees.  Probably nothing too deep, mostly just publishing the code so that people can see it and use it if they want.  
+
+						
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+						
+						   Writing  urlLink SteveDb , I am at the point where I am working with user tables.  I have some system tables too though, which I'll call  systables  and  syscolumns  (they don't really have names in the normal sense).  I am past that now, but I thought I'd mention how those tables work.  The system tables store the structure of the user tables.  As such, their own structure has no place to go.  The solution is simple -- the structure of the system tables is hardcoded inside of factory classes, one for each system table.  These classes just create and return a  TableStructure  object that represents the structures of the system tables.  Simple, no?  For now, my system tables are very simple.  Writing and reading them uses more primitive data access routines than for the user-tables.  I may refactor that in the near future, so that they leverage the full power and efficiency of the higher level interfaces.  (Right now those interfaces are pretty weak, but that will change).  
+
+						
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+						
+						   SteveDB is the codename for the open source database software that I am in the process of developing.  It is written in 100% managed C# code, and is intended to be able to run on Windows, Linux (via Mono) and the Compact Framework.  It is a developer tool that supports generic relational databases, as a substitute for scenarios where high-end database tools are impractical.  Why am I doing it?  Firstly, I think there is a need for a low-end, cross platform database system that is easy to deploy.  There are some contenders for this spot in the market, but they are weak.   Most notably, none of them support storing data in Isolated Storage.  As developers create more .NET software, and .NET 2.0 comes into widespread use, there will be a need for an embeddable database platform that can be deployed across the internet, in a low-trust environment.  Secondly, because it is easy.  The major vendors (Microsoft, Oracle, etc) spend a lot of time tweaking their databases for high end work.  The cost of this is complexity, and difficulty in evolving their products.  They are also out of touch with the needs of developers that just need a simple, small database.  SteveDb does not have to be so complex.  It does not have to be faster, or use less memory.  It just needs to be easy to use, and easy to deploy.  The guiding principles in the design of SteveDb are that it should be zero-maintenance, xcopy deployable on multiple platforms, deployable in low-trust environment, and compatible with ADO.NET.  This means that developers should be able to start using it with a minimal amount of fuss, and not worry about tying themselves to a particular database product or platform.  By zero maintenance, I mean that there is no compacting of databases (such as with Microsoft Access), and no need to manage indexes.  Databases are created automagically based on connection string parameters.  XCOPY deployable means that there is no installation necessary for running a SteveDb database.  You merely copy the data files to the directory of your choice, and then specify that directory as part of your connection string.  Compatibility with ADO.NET implies some SQL compatibility, as well as a native ADO.NET data provider.  Within certain boundaries, the user should be able to switch between Microsoft SQL Server and SteveDb, merely by changing some settings in their data access layer.  Some of the other features of SteveDb are:      Supports in-memory databases - this is useful for testing, as well as databases that are static        Supports databases stored in IsolatedStorage - allows easy deployment of databases in a low-trust environment (across the internet)     Native API for access to primitive database functions - allows others to develop powerful database utilities.        Supports all native .NET value types, including Guid, and BLOBS (byte arrays).     Unicode - all strings are stored in UTF-8 in the database, allowing the storage of international character sets.        Native .NET stored procedures     Supports data encryption     Can be embedded in a product, or accessed across the network        
+
+						
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+						
+						   Last week was very "low energy" for me.  I did not work much on  urlLink SteveDb .  Got back into it last night again, which was good.  The great thing about Test Driven Development is that you always make measurable progress. Its hard to be demotivated when you have visible proof (the tests) that you have added functionality, and that functionality works.  Last night I started working on Selection criteria for queries. Its a complex problem, so I only did the preliminary work. It is now possible to request multiple tables, with joins and simple criteria. I do not support  OR    criteria at this point.  In any case, I will continue with that tonight, hopefully.  I should probably expand on my calling the criteria " complex ". The criteria themselves are fairly simple, it is the interpretation of the criteria that is complex, expecially table joins. My initial solution will probably be very inefficient, but with working tests, I will be able to improve on that later.  
+
+						
+</post>
+
+
+</Blog>

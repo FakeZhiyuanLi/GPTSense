@@ -1,0 +1,1 @@
+A dynamic adaptive streaming over HTTP (DASH) decoder must support bitrate switching on a per-frame basis. DASH is a streaming protocol that allows the client to switch between different bitrates depending on the available bandwidth, and the decoder should be able to handle this switching seamlessly by decoding each frame at the appropriate bitrate.

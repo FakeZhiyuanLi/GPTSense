@@ -1,0 +1,123 @@
+<Blog>
+
+<date>11,May,2004</date>
+<post>
+
+						
+						   Welcome to the Mosby Clan Blog! 
+
+						
+</post>
+
+
+
+<date>29,February,2004</date>
+<post>
+
+	 
+      I have become increasingly concerned with jobs going overseas.  A friend of my mine recently set up this website to address this issue.   urlLink Consumers Against OffShoring 
+     
+    
+</post>
+
+<date>29,February,2004</date>
+<post>
+
+	 
+      Welcome to my new blog!  Look for more updates in the future.
+     
+    
+</post>
+
+<date>01,March,2004</date>
+<post>
+
+	 
+      Ok boys and girls, there are two new viruses that came out early this morning, so make sure your anti-virus software is up to date!  Below is a link about info on one of them.   urlLink New Virus-W32.Netsky.D@mm-Medium Risk 
+     
+    
+</post>
+
+<date>23,April,2004</date>
+<post>
+
+	 
+      Star Trek and Kirk fans, must see site for today:   urlLink Khaaan.com   :)
+     
+    
+</post>
+
+<date>15,May,2004</date>
+<post>
+
+	 
+      I finally got time to write this up, hopefully you enjoy it.   urlLink The Origin of Hanford Man 
+     
+    
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+	 
+      This is got to be one of the funniest things I have ever read.  Not for the faint of heart... ;)  
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+      The Mosby name has finally made the web!!  Look for updates soon....   urlLink http://www.mosby.org 
+     
+    
+</post>
+
+<date>03,May,2004</date>
+<post>
+
+	 
+      For those of you that have not heard, a network scanning virus came out this weekend that exploits MS04-011.  There are several variants of this virus now (A-D so far) and almost all of them are of medium to high risk and are spreading heavily in the wild.  Rumors are saying that this was written by the writer(s) of Netsky.    Cleaning tools can be found here:  urlLink http://support.microsoft.com/default.aspx?scid=kb;EN-US;841720  (A and B only)  urlLink http://www.symantec.com/avcenter/venc/data/w32.sasser.removal.tool.html  (A-C)  urlLink http://vil.nai.com/vil/stinger/  (A-C, plus a bunch of other viruses)  Here is what we have so far:  Information from Microsoft (covers A and B):  urlLink http://www.microsoft.com/security/incident/sasser.asp   Sasser.A  Summary (from McAfee’s website)  Virus Characteristics:   This self-executing worm spreads by exploiting a Microsoft Windows vulnerability [MS04-011 vulnerability (CAN-2003-0533)] The worm spreads with the file name: avserve.exe .  Unlike many recent worms, this virus does not spread via email.  No user intervention is required to become infected or propagate the virus further.  The worm works by instructing vulnerable systems to download and execute the viral code. Symptoms   The virus copies itself to the Windows directory as avserve.exe and creates a registry run key to load itself at startup •	 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsCurrentVersion\Run "avserve.exe" = C:\WINDOWS\avserve.exe  As the worm scans random ip addresses it listens on successive TCP ports starting at 1068.  It also acts as an FTP server on TCP port 5554, and creates a remote shell on TCP port 9996. A file named win.log is created on the root of the C: drive.  This file contains the IP address of the localhost. Copies of the worm are created in the Windows System directory as #_up.exe. Examples  •	c:\WINDOWS\system32\11583_up.exe  •	c:\WINDOWS\system32\16913_up.exe  •	c:\WINDOWS\system32\29739_up.exe  A side-effect of the worm is for LSASS.EXE to crash, by default such system will reboot after the crash occurs.  The following Window may be displayed:   Method Of Infection   This worm spreads by exploiting a recent Microsoft vulnerability, spreading from machine to machine with no user intervention required. This worm scans random IP addresses for exploitable systems.  When one is found, the worm exploits the vulnerable system, by overflowing a buffer in LSASS.EXE.  It creates a remote shell on TCP port 9996.  Next it creates an FTP script named cmd.ftp on the remote host and executes it.  This FTP script instructs the target victim to download and execute the worm (with the filename #_up.exe as aforementioned) from the infected host.  The infected host accepts this FTP traffic on TCP port 5554. The worm spawns multiple threads, some of which scan the local class A subnet, others the class B subnet, and others completely random subnets.  The destination port is TCP 445  Thorough analysis of the Sasser worm by eEye Digital Security  urlLink http://www.eeye.com/html/Research/Advisories/AD20040501.html   Symantec-Level 3  urlLink http://www.sarc.com/avcenter/venc/data/w32.sasser.worm.html    McAfee-Medium Risk  urlLink http://vil.nai.com/vil/content/v_125007.htm    Trend Micro-Medium Risk  urlLink http://www.trendmicro.com/vinfo/virusencyclo/default5.asp?VName=WORM_SASSER.A    Sasser.B  Symantec-Level 4  urlLink http://www.sarc.com/avcenter/venc/data/w32.sasser.b.worm.html    McAfee-Medium Risk  urlLink http://vil.nai.com/vil/content/v_125008.htm   Trend Micro-High Risk  urlLink http://www.trendmicro.com/vinfo/virusencyclo/default5.asp?VName=WORM_SASSER.B    Sasser.C W32.Sasser.C.Worm is a minor variant of W32.Sasser.B.Worm. It attempts to exploit the LSASS vulnerability described in Microsoft Security Bulletin MS04-011, and spreads by scanning randomly-chosen IP addresses for vulnerable systems. This particular variant spawns 1024 threads for the infection routine, where as previous variant W32.Sasser.B.Worm uses 128 threads.   Symantec-Level 2  urlLink http://www.sarc.com/avcenter/venc/data/w32.sasser.c.worm.html   McAfee-Low Risk  urlLink http://vil.nai.com/vil/content/v_125009.htm   Trend Micro-Low Risk  urlLink http://www.trendmicro.com/vinfo/virusencyclo/default5.asp?VName=WORM_SASSER.C    Sasser.D (This one is pretty new)  Summary from McAfee’s website: AVERT has received a new variant of W32/Sasser.worm . Analysis is currently ongoing - description will be updated once complete. The previous variants of this self-executing worm spread by exploiting a Microsoft Windows vulnerability [MS04-011 vulnerability (CAN-2003-0533)]. This variant of the worm is intended to spread with the following file name: •	SKYNETAVE.EXE  Unlike many recent worms, this virus does not spread via email. No user intervention is required to become infected or propagate the virus further. The worm works by instructing vulnerable systems to download and execute the viral code.  McAfee-Low Risk  urlLink http://vil.nai.com/vil/content/v_125012.htm   Trend Micro-Low Risk  urlLink http://www.trendmicro.com/vinfo/virusencyclo/default5.asp?VName=WORM_SASSER.D 
+     
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+	 
+       urlLink Secunia - Virus Information - BAGLE.AF    This one is spreading significantly.   This is a mass-mailing worm with the following characteristics:   * contains its own SMTP engine to construct outgoing messages  * harvests email addresses from the victim machine  * the From: address of messages is spoofed  * attachment can be a password-protected zip file, with the password included in the message body.  * contains a remote access component (notification is sent to hacker)  * copies itself to folders that have the phrase shar in the name (such as common peer-to-peer applications; KaZaa, Bearshare, Limewire, etc)  * uses various mutex names selected from those W32/Netsky variants have used, in order to prevent those W32/Netsky variants running on infected machines.       
+     
+    
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+	 
+      Of these, two are Critical.   urlLink Microsoft Security Bulletin Summary for July, 2004   MS04-024: Vulnerability in Windows Shell Could Allow Remote Code Execution (839645)  rated as: IMPORTANT   urlLink http://www.microsoft.com/technet/security/bulletin/MS04-024.mspx    MS04-023: Vulnerability in HTML Help Could Allow Code Execution (840315): MS04-023  rated as: CRITICAL  urlLink  http://www.microsoft.com/technet/security/bulletin/MS04-023.mspx    MS04-022: Vulnerability in Task Scheduler Could Allow Code Execution (841873)  rated as: CRITICAL   urlLink http://www.microsoft.com/technet/security/bulletin/MS04-022.mspx    MS04-021: Security Update for IIS 4.0 (841373)  rated as: IMPORTANT   urlLink http://www.microsoft.com/technet/security/bulletin/MS04-021.mspx    MS04-020: Vulnerability in POSIX Could Allow Code Execution (841872)  rated as: IMPORTANT   urlLink http://www.microsoft.com/technet/security/bulletin/MS04-020.mspx    MS04-019: Vulnerability in Utility Manager Could Allow Code Execution (842526)  rated as: IMPORTANT   urlLink http://www.microsoft.com/technet/security/bulletin/MS04-019.mspx    MS04-018: Cumulative Security Update for Outlook Express (823353)  rated as: MODERATE   urlLink http://www.microsoft.com/technet/security/bulletin/MS04-018.mspx  
+     
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+	 
+      Check out this information on the latest versions of the Lovgate Worm   urlLink New Lovgate worm versions - complex and highly destructive 
+     
+    
+</post>
+
+<date>04,July,2004</date>
+<post>
+
+	 
+      Be careful using Internet Explorer until it is fully patched by Microsoft.    urlLink US-CERT Cyber Security Alert SA04-184A -- Important Internet Explorer Update Available 
+     
+    
+</post>
+
+
+</Blog>

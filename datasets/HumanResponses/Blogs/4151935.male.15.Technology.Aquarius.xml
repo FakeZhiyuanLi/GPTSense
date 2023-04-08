@@ -1,0 +1,239 @@
+<Blog>
+
+<date>21,August,2004</date>
+<post>
+
+
+       
+      A new nanotechnology that eliminates network bottlenecks could help create a web surfers' paradise that is 100 times faster than today's internet.  Fiber-optic networks capable of sending information at 10 Gbps or 40 Gbps are being rolled out around the world and under the oceans to connect everyone to everything. But getting information to pass from one high-speed network to another can be slowed by electronic switching technology.  The new technology, described in a paper published Aug. 11 in the scientific journal  urlLink Nano Letters , uses  urlLink buckyballs  glued together by a custom polymer, providing a way to create an optical switch.  "Switches and routers do introduce latency," said Karl Lehenbauer, chief technology officer of broadband networking company  urlLink Superconnect . "If the (data you request) has to pass through 15 to 20 routers, you can see a lag in response," he said.  Part of this slowdown is caused by the conversion and reconversion of information from its optical (light) form to electronic data used by switches and routers, according to Ted Sargent, a professor in the electrical and computer engineering department at the  urlLink University of Toronto .  "We haven't been able to speed the scale of (electronic) routers to keep up with the speed of fiber-optic links," Sargent said. The solution, according to Sargent, is to upgrade to optical switches that can forward data at up to 100 times the speed of today's fastest networks.  Sargent worked with researchers at  urlLink Carleton University  to develop a new polymer material that could be integrated into optical switches. "You could have an optical switch that directs incoming information to go north to San Francisco or south to Los Angeles as needed," Sargent said. That option would trump electronic alternatives for performance -- the light (and data) would pass through the switch in as little as one-trillionth of a second, according to Sargent.  The researchers created a thin film by using a custom-made polymer to glue together nano-sized buckyballs. The gluing process creates a material composed of larger electron-rich molecules with sufficient power to cause light that passes through to control the direction of other light, providing the switching capability, Sargent said.  "This demonstration is a major advance in closing a gap" in how materials can be used to control light in optical devices, according to Mark Kuzyk, a physics professor at  urlLink Washington State University . Kuzyk said materials studied previously could control only 3 percent to 5 percent of light.  The new material approaches the theoretical limit of what is possible according to the laws of quantum mechanics, according to Kuzyk. "Once all-optical devices and systems become prevalent, electronic bottlenecks will no longer be an issue," he said.  Superconnect's Lehenbauer agrees that "it's fascinating" to have material for an optical switch, but warns "it could be awhile until an all-optical network is possible." Lehenbauer said switches and routers must identify individual packets and route data intelligently, tasks that are not possible using a simple optical switch. "Unless you have an optical computer inside the switch to make these decisions, you'll still need electronic components."  Lehenbauer said the technology would make sense in other applications focused on transmitting data. "It could be great as a super-fast optical repeater that regenerates a signal over long distances," Lehenbauer said.  "The Holy Grail is to have an all-optical network," according to Paul Polishuk, president of network consulting company  urlLink Information Gatekeepers . But obtaining it could also be a nearly impossible quest, Polishuk said.  Polishuk said substantial research dollars were invested in optical switches in the last few years, but several companies abandoned their efforts because they could not develop devices durable enough to survive in a network environment.  Polishuk also questioned the need for higher-speed networks. "Who's going to buy it when 40-Gb networks aren't getting off the ground?" he asked.  Optical-networking company  urlLink Infinera  is taking another approach to boosting internet performance. The company has developed a photonic integrated circuit, a hybrid of optical and electronic technologies, according to Serge Melle, vice president of network architecture. Melle said the technology combines discrete functions into a single chip, and can transmit data at speeds of up to 100 Gbps.  "People are doing in optics today what was done with semiconductors 40 years ago," Melle said. 
+     
+
+    
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+
+       
+      With the latest update to Microsoft Corp.'s Windows XP operating system, personal computers will soon join parents, bosses, teachers and spouses as a source of nagging in your life. But as mom always said, it's for your own good. You'll get nagged at startup if you're not running an antivirus program or it's out of date. You'll get a warning if a firewall isn't turned on. Other messages pop up when you try to download, install or run software from that sea of malware called the Internet. The nagging is among the more obvious changes made by Service Pack 2. There are others ranging from an Internet browser popup blocker to components that will no longer interact with strangers that will make computing more secure and, despite the warnings, less annoying. For a company that managed to create both the most widely used operating system and No. 1 hacker target, Microsoft has done remarkably well with SP2. Unlike previous patches, this update doesn't just fix a glitch or two but boosts security overall. Something had to be done. For years, Windows users have been attacked because the software was designed to be open, simple and feature-rich. Then came always-on Internet connections and evildoing hackers looking for easy prey. They found it in Windows. Not only is it on nearly every personal computer, but it's got a deadly combination of openness, sometimes buggy code and more than a few users who think they hold a privileged place in the universe and don't need to run antivirus software. Service Pack 2 doesn't include antivirus software, but it makes managing such programs easier. It also includes numerous under-the-hood improvements that plug vulnerabilities, making computing safer and more reliable. What SP2 doesn't do is go overboard and turn your computer into a micro police state. There are still plenty of choices to make, including bad ones. Users, provided they bother to read the warnings, can now make more informed decisions before they click. If you're running Windows XP, you can get SP2 simply by turning on automatic updates. Anyone who has automatic updates enabled already will be getting the download directly. Microsoft also is giving away free update CDs at no charge to anyone who asks. This upgrade's importance can't be overstated. Though corporations will want to test it with their custom programs before distributing the upgrade to workers, home users shouldn't hesitate to install SP2. I've been trying out early versions for months and recently installed a final release candidate. It's big, but not huge: the full version is about 265 megabytes. But the amount that's downloaded will vary depending on the version of XP you have. Excluding download time, installation took about 45 minutes, though Microsoft warns it can be up to two hours. I didn't notice any performance slowdown, and all my programs continued to work, though some that use the Internet needed my OK before doing so. Before the desktop appears after installation, a screen asks if you want to enable automatic updates. Unlike previous versions that provided a balloon-message above the system tray, I got a sense of urgency this time. The prominent space given to the automatic update is itself significant. Microsoft knows that the OS is not unbreakable and this update won't be the last. Now, more users will get critical updates without having to take any special action. Once the desktop launched, I started getting nagged about my system's antivirus protection. A balloon appeared directing me to one of the most important additions in SP2: Windows Security Center. It's a one-stop shop for information on a system's security status. It's got three areas of focus: antivirus software, Windows firewall and automatic updates. If any of these aren't up to snuff, the user gets nagged. I was surprised to see the message, and jumped over to the Security Center. It recognized that I had Symantec Corp.'s Norton Antivirus installed, but it wasn't getting any more information from the program. Turns out Symantec needs to update its software to communicate with SP2. (In fact, its products are designed, as a security feature, not to communicate their status to unknown programs. An exception for SP2 is expected shortly.) For anyone who isn't running antivirus software, the Security Center has a link to major vendors, all of which offer free trials. Besides the antivirus warnings, I also got several popup messages as I launched programs that communicate through the Internet. That's the new Windows firewall in action. In most cases, it's clear whether the communication should be blocked or permitted passage. A few programs did not properly identify themselves, however, making the decision difficult. Program developers will quickly learn to include this important information. The new firewall, however, isn't perfect. If you've still managed to contract a virus that creates a spam-producing engine, the firewall won't warn you about the outgoing messages. Third-party firewalls do offer this protection. Besides Security Center, the firewall and the warnings, you'll also notice a difference in Internet Explorer. Finally, it blocks pop-up ads. It gives us greater control over what Web sites try to run on our systems. And it prevents browser windows from obscuring the operating system's security messages. Microsoft also has ratcheted up security in some of its messaging programs. Users of Outlook Express and Windows Messenger can no longer easily execute programs that arrive as message attachments. That alone should help fight e-mail worms and deter a lot of mindless double-clicking. SP2 offers other improvements as well: It will update Windows Media Player, improves support for Bluetooth, the short-range wireless standard, and it simplifies setting up wireless Internet connections. But it's clear that security is the main focus, and it goes a long way toward making Windows users appear less like sitting ducks and more like, um, eagles with shields and spears. Too bad anyone running older versions of Windows _ 95, 98, ME and 2000 _ will remain easy prey, which means the Internet won't be as safe as it could be. 
+     
+
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+
+       
+      If you have an email address, like most people do, you have probably received spam or "junk" mail quite a few times. Most major free and subscription mail services have a spam filter that automatically sends mail that is not on your safe list to a special folder so it does not clog your inbox. Before that great technology, i would have 30+ messages a day with all that junk and i hated it, and still do. Now, because of all these laws and everything that are being passes to help fight spam, i only receive 1 or 2 messages a day, which isn't so bad. While surfing the web on this beautiful Monday morning, i came across this article about text message spam. WHAT??!?!? Supposablely, advertisers are using web-based clients called, SMS (Short Message Service) Servers, to send out text messages to mobile phone users over the internet. These clients are able to send out millions of messages a day, and for little cost, also, because there is not yet a law for this, it's legal, unlike spaming inboxes. You think spamming your e-mail was bad, listen to this next bit of information: Most service plans charge users for each text message they recieve, I have Cingular and their rate is $.10, which can quickly add up. Because these "spammers" are using clients over the web and not an actual phone, each spam message that you recieve, YOU will have to pay for!! Interesting, Huh?  Below is the article I read that discribes this in detail.  urlLink http://www.cnn.com/2004/TECH/ptech/02/04/cellphone.spam.reut/  
+     
+
+    
+</post>
+
+
+<date>31,July,2004</date>
+<post>
+
+     
+      My brother woke up this morning, and i wanted to try the 'night vision' on my digital video camera, works good, really great yet pointless feature to put in a camera. The picture explains the rest of my story...     
+     
+    
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+     
+      So im sitting here working on the computer in the middle of the night, i look over and alladin, my stupid yet faithful dog, has desided to make himself a bed, interesting huh? Darn creature, he stole my Blanket!! About that pillow, ummm yeah, that's not mine....I promise.....  Also, my digital camera is on the fritz today, little fuzzy, huh?     
+     
+    
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+     
+      Well, i decided to move to a new blog program, well actually, i just got bored and needed something to do. Yeah, well the old blogging program was called BMachine and this new one is called PMachine, whats the difference you ask, well it begins by looking at the first letter of each name, thats first. And even know you all have no care in the world for what im about to say, ill say it anyway.....Blah, nevermind. It is exciting because this new-and-improved blog runs on php and mysql which makes it very special to me, yeah thats right. For those of you who have no clue what php and/or mysql is, please find your way to the wonderful world of google and simply type it in...you never know what you gonna find..........Remember, this is the In-ter-net. 
+     
+    
+</post>
+
+<date>07,August,2004</date>
+<post>
+
+     
+      Just got back from skating and just wanted to let you all know that i had my first fall with my speed skates! It was so much fun, i slid about 20 feet......once again, i dont expect any of you to really care but i felt like sharing anyway.  Also, my brother wanted me to post this "action shot" of him skating....    
+     
+    
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+     
+      It seems like lately, there is really nothin to do except post blogs all day long, pathetic huh? I have been looking for SOMETHING to do to pass the time away but I never seem to find anything. Luckly, in an hour, I will be leaving for work and shall not return until 4:30 tonight. Besides that, yesterday was fun at the fair, i got to run into a bunch of friends from school and it was good to see them all, Amanda!! You can view some of the pics I took. Alot of them I could not "publicly" post because people don't seem to like there pics and made me delete them? Yeah i know....                          Thats it!! More posted later.   
+     
+    
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+     
+      All day, nothing, just laying around the house doing absolutly nothing, what fun. It seems like the summer is coming to an end, and there is nothing left to do but do nothing at all. Tonight i am going to the 4H fair that is in town yearly with my old buddy, my old pal, Courtney. Wow! What fun! Once again tomorrow, I have to go to work all day at the rink and watch little kids fall all over the place, they really must learn how to skate, honestly....... O yeah, speaking of skating, my bag for my Powerslide R3 Speed Skates has finally arrived, wooohooooo!     P.S. - If you care about what I have to say, say "I"......naw...I didn't think so :( --->Hey look, my camera is not fuzzy anymore, I actually got around to fixing it, cheers! 
+     
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+     
+      Once again, I made a move to make my blogging "experiance" even better. I was searching around the net (what I do best) and I came across this online service called 'Blogger' ( urlLink http://www.blogger.com ). It is 100% free...like I would have it anyway else? You can host your blog on there servers, but they put an ad on the top of the page, agh, that sucks. I went about looking around with the features that they have, and they had one where you can create your blog on there site, and then you upload it via ftp to your webhost or whatever. Thankfully, I am my OWN webhost and I have ftp capabilities, yay! I go and set it up, no luck, it makes a connection to my ftp server but dosen't send the data...WHY NOT!!! Well, it was late, and I didn't feel like searching around in config files to see if there was something blocking the incomming connection, then I remembered the handy the storage that comcast gives to their subscribers, now im in luck! So as of this very moment, my small, but growing blog is being brought you by the wonderful people at Comcast. Lets just put it this way....At least there is a little more stress off of my very slow uplink speed..... I did manage, however, to be able to move the blog I started 5 days ago on my server, over to this service, that way I wouldn't have to start out with nothing like I did before. For those of you who would like to see the difference between the new and the old, you can visit my other blog that served me for a good, long, ummm 5 days....what a solder! ( urlLink http://gigliottiprod.gotdns.com/joegsays/blog/weblog.php ) Other than that, there is nothing new going on over here, just trying to enjoy the rest of my summer because in about a month, I will going back to the wonderful world of work and waking up at 5:30 every morning....when will it all just end??!?!!? 
+     
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+     
+      Well, today I ordered a Dell Optiplex GX110 off of ebay, what a great place. I managed to find the old Acer that use to be "The greatest computer around" and got Windows 2000 on it and bought some more EDO memory for it, but like an idiot, i couldn't leave it alone and formatted the drive and couldn't get and operating system to reinstall. I was so mad!!! I was gonna run it as my server instead of running this all on my desktop machine to take off some of the stress of all these processes running. Anyway, so i had extra money and bought on and it should be running in the next couple of weeks, yay! You can view the specs of this machine at  urlLink http://gigliottiprod.gotdns.com/serverspecs/  if you care at all, which most of you don't. Also, if you would like to view services that I run over here, you can view the current list at  urlLink http://gigliottiprod.gotdns.com/serverspecs/services.php  Well, thats all the exciting news in my life right now.....I dont think it gets much more interesting than this.... 
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+     
+      Well, Friday night, my boss called me and asked if i could skate around and be the mascot for a big get together they were having, with like 600+ people attending. For those of you who don't know, i work at Young's Skating Center. So of course, I jumped up and down and said sure.... ok, i wasn't that excited, but atleast ill be able to skate around in a big yellow costume and dance and no one will know who it is, yay, way more fun then what i regularly do at that place. So, ill be off to work at 5:30 tonight..... Yes i know, this was a very stupid entry. Don't like it, well then don't read it...... 
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+     
+      So, im off to best buy (again) to pick up some dvd-rw discs, ink, and a s-video cable for my Tivo, I look over to the computer repair center and its all bright with orange and gray paint. Hmmm, odd. Turns out, best buy now has a support team named "Geek Squad" which is suppose to be some big computer repair service, which is good because the service center they use to have, how do i put this, sucked! Yeah, anyway check it out  urlLink http://www.geeksquad.com  to find out more about this crap. Well thats it for now. 
+     
+    
+</post>
+
+<date>14,August,2004</date>
+<post>
+
+     
+        urlLink   
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+     
+      I was showing my little brother some stuff on the computer and we came to my blog and he loves it that I put his pic on the net, so....He asked me to put this pic on here....    
+     
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+     
+      Well, I checked the shipping status of my server and it says that it will arrive Tuesday, August 17th, 2004 .... Yay! Of course when it does come, I will have alot of work to do, like install Windows Server 2003 for example. I am tring to make my simple, yet highly complicated network more secure and have alot more features. Currently, my Subscription Services has 22 users which is great. (FYI: Subscription Services = my web hosting service.) I am always having users connecting via ftp and editing and uploading the revisions of there sites....It makes me so happy. Currently, i am working on a script in php that will allow users to edit their sites with a web interface, but...no luck, obviously i am not that great at this because it will only work from within my LAN.  Anyway, for any of you that are interested, you can find out about the Gigliottiprod Subscription Services and the services and features i have by visiting  urlLink http://subscriptions.gigliottiprod.com/about.php  and you can sign up at  urlLink http://subscriptions.gigiottiprod.com   Also, you may connect to the public ftp server at:  urlLink ftp://gigliottiprod.gotdns.com:21   O yeah, the TiVo Server will be up-and-running September first for all you that have one :) 
+     
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+     
+          
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+     
+       O yeah, now I remember....     Everyday...Ummm for about the past 2 weeks....I have been watching a flash movie that I have come across called "This Land." It was created by two guys from a company called JibJab and has George Bush and John Kerry talking crap about each other about winning the upcoming election. It is very, very, very funny if I do say so myself, you should all check it out.  ----  >--------  >---- 
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+     
+      If you have an email address, like most people do, you have probably received spam or "junk" mail quite a few times. Most major free and subscription mail services have a spam filter that automatically sends mail that is not on your safe list to a special folder so it does not clog your inbox. Before that great technology, i would have 30+ messages a day with all that junk and i hated it, and still do. Now, because of all these laws and everything that are being passes to help fight spam, i only receive 1 or 2 messages a day, which isn't so bad. While surfing the web on this beautiful Monday morning, i came across this article about text message spam. WHAT??!?!? Supposablely, advertisers are using web-based clients called, SMS (Short Message Service) Servers, to send out text messages to mobile phone users over the internet. These clients are able to send out millions of messages a day, and for little cost, also, because there is not yet a law for this, it's legal, unlike spaming inboxes. You think spamming your e-mail was bad, listen to this next bit of information: Most service plans charge users for each text message they recieve, I have Cingular and their rate is $.10, which can quickly add up. Because these "spammers" are using clients over the web and not an actual phone, each spam message that you recieve, YOU will have to pay for!! Interesting, Huh?  Below is the article I read that discribes this in detail.  urlLink http://www.cnn.com/2004/TECH/ptech/02/04/cellphone.spam.reut/  
+     
+    
+</post>
+
+<date>21,August,2004</date>
+<post>
+
+     
+      So im on my way to skating tonight, and we pull into the parking lot and there is this little squirrel running across the parking lot with this huge peice of pizza. I didn't know they liked that stuff, especially the skating rinks pizza.....  Yeah....um.....thats all i had to say 
+     
+    
+</post>
+
+<date>20,August,2004</date>
+<post>
+
+     
+      When a computer dosent work, do the following: "Throw it out the window" ar matie 
+     
+    
+</post>
+
+<date>20,August,2004</date>
+<post>
+
+     
+       Finished! Finally! Well the server is up and everything is installed and configured and ready to go. Some services, like the streaming media server, are not running yet because i am waiting to get my connection to a faster server. A friend of mine, anthony, who works at the hamilton township school district is giving me ftp access to their server over at hess so i can have a better and faster connection to host high bandwidth services like media servers and video. They have a T3 connection.....i wish i had one of them! Well, let me get back on on the main topic.....I finally disconnected the monitor and keyboard that were connected to the server, o wait, did i forget the mouse...ummm....yeah i did that too. I just have a power cord, a CAT5 cable, and the two cameras connected to the server and it is neatly sitting under my desk serving pages away and allowing access to thing...you know...the "services". When i want to connect to the server, i just use a program called RemotelyAnywhere and, boom, i can use my monitor, keyboard, and mouse and use the server over my network.  There is still alot of stuff to be done, but i dont feel like doing it. There are alot of other thinks that need to be done first, like clean the pool, for example.  Well thats it for now, like i always like to do, here are some pics of how everything is set up on my rather small desk......i wish santa would bring me a bigger desk :(  Because i love taking pictures so much, I thought i would share some with you. Forgive me if they are a little dark, i have a thing about taking pictures at night time where the lights just dont give enough light....make sense?      --- The server...in its new, happy home.        --- This makes me so happy, you have to be here, to understand     --- I love the cd-rom tray... even though this machine is made to be a desktop machine, i have it up and down but the cd-rom tray has little grips that allows the cd to stay, the drive will work too...WOW! This machine was worth the money.          --- A top view of some of my desk. See, this is why i hate cameras, my desk does not look like that, well, the red color anyway...        --- Sorry, i have a disorder where i like night vision....who knew? Besides that, here is a bottom half of the server with the 'Designed for Windows 2000' and 'Intel Inside' logos happily sitting there....what would you call them? Stickers?  I'm not exactly done yet, but you can view some of the server specs at:  ---- >---- 
+     
+    
+</post>
+
+<date>18,August,2004</date>
+<post>
+
+     
+      Even though i am extremely happy that my server has arrived, it really stinks because there is so much work to do to get it working. I just really don't feel like sitting here all day installing this and configuring that, but the work is slowly getting done, with the ftp and http servers up and running even better than they were before....only about 10 more servers to go! The 1 bad thing that i didnt like doing, but had to, was that the original hard drive was a 15gig 7200rpm drive, which is fast and good to run in a server, yet there is not enough space for all the data i have. So i ended up putting a 5200rmp Maxtor 40gig hard drive in it, some things are slower, yet other things are faster, so i dont know if installing this drive was a bad thing after all....   urlLink http://www.gigliottiprod.com   I'm hoping to have it all done by Saturday night but im not sure if that is going to happen considering that the installating progress has been going slow enough.  This is what i have been able to do so far: 1) Installed a TV Tuner in the server 2) Took out the original 15gig drive 3) Installed the Maxtor 40gig drive 4) Reinstalled Windows 2000 Professional 5) Installed Apache, and its server-side scripting, PHP, MySql, Perl*, &amp; ASP* 6) Installed the FTP Server and reconfigured all the old ftp accounts 7) Installed the Shoutcast Streaming Audio Server  THERE IS SO MUCH MORE TO DO!!! I DONT KNOW WHERE TO START! 
+     
+    
+</post>
+
+<date>17,August,2004</date>
+<post>
+
+     
+      Today was the day! The server arrived via UPS at 3:00 this afternoon. The computer was is better shape then i thought it would be in, so i was very pleased....not a scratch anywhere to be seen, and the internal componates looks new, not any dust at all! I mean, i wasnt expecting to much for a computer that was manufactured in 2000. Runs great, just like new, and i didn't have any trouble at all installing a fresh copy of Windows 2000 Pro.  Everything is going great, the only bad thing is i have to reinstall and setup all my servers that is was previously running, plus more servers that I would like to run in the future, its alot of work and will take me about a week.  Here are some of the pictures i took right after i took this machine out of the shipping box, i have added a dial-up modem and an ATI video tuner card after these pictures were taken.                     ---> I have more pics on the server specs site  urlLink http://serverspecs.gigliottiprod.com/pictures.php  
+     
+    
+</post>
+
+<date>16,August,2004</date>
+<post>
+
+     
+      Here i am, tring to make sence of it all....  So im on here tring to add some different features to my blog and it goes to upload it to my ftp storage on comcast and somehow it deleted the entire directory. Luckly, i did a backup right after i posted the last entry so i didn't lose 1 thing, yay! So then i try to upload it all back to comcast and its dosent send and its just pissing me off because everything is going crazy tonight, my webserver, comcasts stupid ftp server, my blogging service, my computer, the Tivo.....EVERYTHING!! When will it all just end!! ahhhhh!!! Well, if you are reading this and all the pics are here that means everything is working as of now and i should give myself a pat-on-the-back for being so smart. Haha, not..... 
+     
+    
+</post>
+
+<date>16,August,2004</date>
+<post>
+
+     
+      Not much really going on, just messing around on the computer, getting ready for when my server arrives tomorrow. Sunday, i went to a renion thing at the skating rink and there were all old people and no young people at all, but they were all really good a doing skating, and all the old people were doing the walts on skates in couples and they were really, really good..... Anyways, there hasn't been much to do lately with all the rain and everything. This weekend, my mom mom is going to buy a golf cart from this place somewhere because she wants to be able to drive around the streen and relax...yay, sounds like fun!     Man, seeing that red light everyday makes me remember that spending money on a Tivo was worth it. Just knowing that the orange light means that it is sitting there recording all my shows i love, it just makes me want to cry. And the remote....what would i do without the remote that controls every aspect of my system, and makes watching movies so enjoyable? Makes me wonder how people lived without the great gadgets we call technology.    
+     
+    
+</post>
+
+
+</Blog>

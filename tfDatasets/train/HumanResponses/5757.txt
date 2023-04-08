@@ -1,0 +1,1 @@
+1. right-click my computer, and then click properties. 2. click the system restore tab. 3. check the "turn off system restore" or "turn off system restore on all drives" check box. 4.click apply, and then click ok. to turn it back on,just repeat step 1,2 and 4. during step 3, just uncheck the "turn off system restore" check box.

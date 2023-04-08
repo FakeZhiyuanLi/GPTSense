@@ -1,0 +1,1 @@
+Most prokaryotic genes are organized into operons. An operon is a group of genes that are transcribed together as a single mRNA molecule and often have related functions. This allows for efficient regulation of gene expression by allowing all the genes in an operon to be turned on or off at the same time. Operons are commonly found in bacteria, but are rare in eukaryotes.

@@ -1,0 +1,1 @@
+a new report coming out soon argues whether or not linus torvalds really invented linux. according to the report, he was strongly influenced by another operating system, minix, created by andrew tanenbaum at vrije university in amsterdam. the report argues whether or not torvalds, a student, could have actually come up with linux himself in such a short time.

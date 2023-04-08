@@ -1,0 +1,1 @@
+This is known as the weak Goldbach conjecture, which states that every odd number greater than 5 can be expressed as the sum of three primes. It has not yet been proven as a theorem, but it is a widely studied conjecture in number theory.

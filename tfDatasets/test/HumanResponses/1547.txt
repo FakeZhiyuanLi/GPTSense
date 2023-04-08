@@ -1,0 +1,1 @@
+well, i have opened a discussion on the s-linux forum about .net, mono and stuff. mainly, all the participians agree that .net is dangeorus and good. i rather program in c than c#, althought c# is a very interesting language. i played a bit with socket programming. trying to write a small irc client. but it fails to register to the irc network. really don't know why.

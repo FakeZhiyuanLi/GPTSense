@@ -1,0 +1,1 @@
+The goal of the transformer system is to increase or decrease the voltage of an electrical power supply to match the voltage required by a load device, while maintaining the same frequency and power level. This allows for the efficient transmission of electrical power over long distances and the safe and effective use of electrical equipment.

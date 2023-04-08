@@ -1,0 +1,180 @@
+<Blog>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+      Firefox 0.9 Released  My alternative browser of choice, Firefox, has just released version 0.9 recently. New features include:  - Extension Manager - Theme Manager - Data Migration/Import - New Visual Theme - Better Bookmarks - Better Search - Smaller Download - Online Help - And a Bunch of Bug Fixes  If you've never tried Firefox, you need to seriously give it a shot. Some of the extension addons are amazing, and truly make it a better browser than Internet Explorer. I've found the integrated pop-up blocker to be the best in the biz, and the tabbed browsing blows away the clunkiness of multiple IE windows.   urlLink Download it here! 
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+      Well, as you might have guessed im really bored and decided to start me up a weblog, so once I figure out how this thing works, you might see a lot more of it.... or I it could keep my interest for about 2 or 3 hours and then I'll never touch the thing, but who knows.
+    
+</post>
+
+<date>31,July,2004</date>
+<post>
+
+	 
+      http://www.securityfocus.com/infocus/1537  Go to that link, read it, learn it, its very important information 
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+	 
+       urlLink    Back when OS X was first created (from BSD) Apple realized that their current PowerPC architecture was sucking and decided to keep a current OS X port running on x86 machines (x86 instruction set = Intel, AMD for idiots). This project was codenamed 'Marklar' and currently employs about a dozen fulltime Apple programmers. Consider this Apple's backup plan should the PowerPC fail to keep up with Intel / AMD microprocessors. Of course Apple doesn't admit that the 'Marklar' program even exists, but I've heard differently.  Anyhow... enough with the Apple history channel today I stumbled across a PowerPC emulator for Linux & Windows by the name of PearPC. I've heard of things like this in the past, but this time I was told people are successfully running OS X inside of Windows. And let me tell you it works, Now don't get too stoked yet, there are some problems as this is the 0.1 release... in other words, alpha at best.  Here are the details you need to know: - It's slow, very very slow  as in 286 SX slow, as in iTunes for Windows slow... you get the idea. - Certain machines work, others don't. From what I've seen in the forums it's about a 50/50 shot it will work on your PC. - You must own OS X - Lots of bugs.. think of it as a proof of concept for the time being.  All that being said  If your like me, you'll want to install it anyways. So follow these instructions exactly: (down and dirty instructions  I recommend this as a   urlLink prerequisite )  1. Download  urlLink PearPC-JITC  and extract it to c:\pearpc 2. Download and install  urlLink Alcohol 120%  3. Download the  urlLink Darwin PPC .ISO  and save it to c:\pearpc 4. Download these configuration files and save them to c:\pearpc   urlLink File 1 ,  urlLink File 2  5. Download and extract  urlLink this file  to c:\pearpc (takes some time to extract as this is the 6GB hard drive image  use WinRAR)  6. Now use Alcohol 120% to create an ISO image of OSX 10.3 disk 1. Name it osx.iso and save it to your c:\pearpc directory 7. Follow  urlLink these instructions  and partition the new 6GB virtual drive  (from a command prompt run 'ppc ppccfg.darwin') - no need to install darwin. 8. Now run 'ppc ppccfg.osx' from the command prompt  Step 8 will boot you into the OS X installation  install and enjoy... As you will see in the forum links below, everyone is having different results. Remember, it takes awhile and it's not uncommon to freeze for a few mins. Use F12 to enable the mouse and move it around from time to time. Doesn't really do anything.. but it makes me feel better that it's not locked up.  Great resources that got me started:  urlLink Neowin Forums  - (start from page 2 or 3)  urlLink PearPC – Unofficial Guide   urlLink   
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+	 
+          My favorite password recovery (cracking) application is back with version 5.0.  New in this version:     - Support for auditing UNIX passwords  - Remote hash retrieval  - Password audits can be scheduled to run automatically  - Remediation of weak passwords (force users to reset passwords)  - Support for auditing international passwords and character sets   - Pre-computed password tables for rapid recovery  - Password "scoring" to provide quick reviews of password strength   - Graphic reporting of passwords, including method used for cracking.      I've seen all different types of Windows password cracking tools, some freeware, others shareware and trial ware. Even though L0phtCrack isn't free (for most people), I still find it the fastest and easiest to use.     >>  urlLink Download Trial   
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+       urlLink     Ok so as some of you may have noticed XBConnect is only for windows platforms but for you Mac gamers, all 12 of you there is a little app called Aquaduct 2. Aquaduct it works exactly the same as XBC just coded to work with the moc os x or higher so try it out, download it here  urlLink http://www.postpose.com/files/aquaduct2pb31.dmg &nbsp;(currently only in beta)&nbsp; urlLink      
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+       Turn your Xbox into a media center with the Xbox Media Center.  What is XBMC?     XboxMediaCenter is a free open source (GPL) multimedia player for the Xbox from Microsoft. Currently Xbox Media Center can be used to play/view most popular video/audio/picture formats such as MPEG-1/2/4, DivX, XviD, MP3, AAC, JPG, GIF plus many more less known formats directly from a CD/DVD in Xbox DVD-ROM drive or of the Xbox harddrive, XBMC can also play files from a PC over a local network and even stream media streams directly from the internet. XBMC has playlist and slideshow functions, a weather forecast and many audio visualizations. All these features enable the Xbox running Xbox Media Center to fully function as a multimedia jukebox.     Links you need:   urlLink Xbox Media Center  (official site)   urlLink Xbox-Scene  (great tutorials)  
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+       urlLink     Ok so you wana play HALO xbox ON line but as you all know HALO is not a xbox live supported game so you cant... But you can with a lil app called xbox connect. Xbox connect is just a app that tunnels ANY system link game over the internet thus giving you the ability to play with friends from anywhere (US only) its simple and easy to use and best of all free. To use it just download it here (http://www.xbconnect.com/downloads/XBC4INST402.exe) next make sure you have a high speed internet connection DSL or cable and a highspeed network router (linksys,D-link so on) and plug on cord (patch cat 5 the big ole internet wire that looks like a phone jack but huge) into your PC and one into the back of your Xbox, now just boot up XBC (Xbox Connect) go into system link for any system link game on the xbox and join away or host, if you ever on look for host DannyJFarrar. That's about it and the above picture is a screen shot of what the app looks like notice you can organize by game, host, game type, and there is a buddy list. Enjoy and don't forget to download here http://www.xbconnect.com/downloads/XBC4INST402.exe  urlLink   
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+      These are a few dummie ways to bypass a schools attempt at security.      Disclaimer:    Do not do this in a school or a library. You can be "sued" haha..yea right. Anyway, the school (EHS) says in the planner not to attempt to bypass security on the computers..and they log this, so I wouldent reccomend it unless you want to get suspended. (Like I almost was, simply for telling someone)        Method 1: Google       Everybody allready knows this method, but you can use the google translate tool as a proxy. The easiest way to do this is just change the words in red on the link below:   http://translate.google.com/translate?&hl=en&amp;u=http%3A%2F%2F www.(siteURL).com       Well thats about it for that method.        Method 2: CGI Proxys       This method is somewhat harder, you actually have to find things yourself. Search google for "startproxy.cgi" or "nph-proxy.cgi" keep the quotes.        Proxy Links:      urlLink http://www.kris.nu/bhs/index.pl 
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+       urlLink    Trillian Screen Shot&nbsp; urlLink   
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+      Are you tired of hearing movie ads while your on aim well just delete aim and go for a lil app called Trillian. I personally use Gaim but its not as full featured as trillian and might be a little hard for some people out there. (there are a lot of Pantuoscos) Well for trillian there is a free version but if you want ill hook you up with the pro version (save 25 bucks) or go with Gaim totally free and open source.     Where to download-    Trillian-   (http://www.trillian.cc/downloads/)  Gaim-  (http://prdownloads.sourceforge.net/gaim/gaim-0.80.exe?download) 
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+      As many of you already know, it's  urlLink possible  to hack the Xbox without the use of a mod chip. This has been going on for some time now – but I'd say within the last six months or so, the tools have evolved to the point that almost anyone can do it regardless of their tech skillz. So for all of you afraid of soldering or opening your Xbox, this may be the method for you. Choosing your path –   In modding the Xbox, there are two paths to choose from: EvolutionX and Xbox Linux. Each adds its own unique functionality to your Xbox, so read on and decide which is best for you. EvolutionX:  EvoX is an Xbox dashboard replacement. Meaning it replaces that green Xbox startup screen with EvoX startup screen and functionality. Without EvoX you wouldn't be able to launch any 3rd party applications or backed up games. Xbox Linux:  If you're looking for a cheap little file server, web server, or a cool way to surf the web from your TV – Xbox Linux is your answer. If you have no idea what Linux is, or what I’m talking about, stick with EvolutionX. Getting started:    -  urlLink MechAssault for N00bs  (EvoX)   -  urlLink Xbox Linux    Needed parts:   -  urlLink Mech Assault  (Non-Platinum Version)   -  urlLink Action Replay    -  urlLink USB Adapter    Resources:   -  urlLink Xbox Scene    -  urlLink EMule Plus      Depending on which route you choose (EvoX or Linux) the above tutorials will walk you through step-by-step. To see the chipless hack in action
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+       urlLink    FireFox Screen Shot&nbsp; urlLink   
+    
+</post>
+
+<date>13,August,2004</date>
+<post>
+
+	 
+       urlLink    Screen shot running Knoppix STD, works pretty good. Runs alot smoother than Knoppix 3.4.&nbsp; urlLink   
+    
+</post>
+
+<date>07,August,2004</date>
+<post>
+
+	 
+       urlLink    Got my copy of service pack 2 a little early... but the rest of you can expect to get it on the release date August 25. Above is a screen shot of the new security consol. 
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+       urlLink    This is a screen shot of my desktop running VMware  urlLink   
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+      VMware is a very nice little app the allows you to run and linux distro right ontop of winows, no need to reboot every single time you want to go into Knoppix. Instead just boot up VMware and load the iso from cd or just from a folder somewhere on your pc. it also is a very easy way to install any linux distro if you want to take that route, but i recomend just useing it with knoppix and getting a junker for you fully installed linux distros. So its a great app I highly recomend it, get it at http://www.vmware.com/ 
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+      August 25th is the day of a huge update for your pc (win xp users only) it’s the release date of Microsoft Windows XP Service Pack 2. I been playing around with the technical betas and they were solid. The security dash board shows that it just might be the end to pop ups, spyware, etc, which is a really good thing. So on august 25 are sure to click start/all programs/Windows Updates.
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+       urlLink    Yes that is a screen shot of Doom 3, I have been playing it for a few days now and I must say that it is quite possibly one of the scariest games ever made I mean literally makes you afraid. Doom 3 is all about the story this thing will scar the crap out of you but in a way that will have you playing it until around 7:50 am. This is defiantly another must buy... or download.... As soon as possible but be warned at first even I was having trouble running this game at high resolution so be ready to make some tweaks.  urlLink    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+       urlLink    Ok so I would likes to talk about one of my favorite games, Far Cry. This game is amazing it is the only game to ever rival HALO as being one the best game ever. One of the best parts of this game might be the multiplayer its really good shit as long as your in a good server. And the graphics are jaw dropping truly some of the best I have ever seen on any game, but you are going to need a darn good pc if youre going to try playing it at 1600x1200. But enough said Far Cry is an incredible game and you should get it as soon as you can save up 50 bucks.   urlLink    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+       urlLink     www.installation05.myfreebb.com  Really cool forum of a friend of mine check it out, be sure to register its perfect if your into halo and the admins a member of a really good clan.  urlLink   
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+        LinksBoks is a 3rd party web browser for any modded Xbox.  According to the official  urlLink LinksBoks site  it has the following features:   - Easy user control via pull-down menu mode, in 25 languages. - HTML 4.0 support (without CSS) - HTTP 1.1 support - Tables and frames in both graphics and text mode - Builtin image display for GIF, JPEG, PNG, XBM, TIFF in graphics mode - Anti-advertisement animation filter in animated GIFs? - Javascript support with full user control over script run - Bookmarks - Background file downloads - Much more...     LinksBoks seems like a decent browser for you couch surfers.  I prefer  urlLink Mozilla/Firefox  within  urlLink Xbox Linux , but if you don't want to install Linux, this makes a great stand alone app that is launchable from within any dashboard.     Confused about Xbox Modding?  Check out  urlLink Xbox-Scene  for great tutorials.  
+    
+</post>
+
+
+</Blog>

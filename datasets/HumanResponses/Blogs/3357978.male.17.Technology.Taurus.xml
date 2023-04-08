@@ -1,0 +1,24 @@
+<Blog>
+
+<date>17,May,2004</date>
+<post>
+
+    
+        abstract 
+ Okay, let's start off on the right foot here.  During my freshman year at  urlLink O'Fallon Township High School , I made the promise that I'd rewrite the school's site for them and provide a backend to go along with it. 
+ Well, I'm at the end of my junior year now, and we still don't have the new site.  What's wrong with this?  I've been bogged down by bureaucracy and stupidity, and let us not even mention the fact that I had no support or guidance worth anything.  Essentially, I had to learn the ropes of maintaining a large-scale site myself, and I need to be the first to proclaim that  completing such a feat is  not  easy . 
+ For the latter half of my freshman year and all of my sophomore year, Mr. Sitzes and I set down a set of guidelines and drafted up a plan of action.  Out of that came our current color scheme and the site's hierarchal structure, and more things look to come, like a possible rethinking of our design ethic and perhaps even a splash/springboard page as seen at  urlLink Visitation Academy 's site. 
+ Finally, in January 2004, the tech staff at the school decided to move the entire shop to Windows servers and workstations, and consequently, this made my life a little easier.  I no longer had to worry about the version of  urlLink PHP  that  urlLink the new machine  would have on it and whether my code would bode well with it and perhaps even  urlLink MySQL .  Moreover, Windows meant that I had two possibilities out of the box with IIS: Classic ASP and ASP.NET.  That's pretty much all that I need to begin with. 
+ the backend 
+ Right now, my plans are to provide an extensive backend written in ASP.NET in order to make the school staff's lives easier by allowing them to control certain aspects of the site (and their personal sites) through graphical, Web page-based utilities.   urlLink My tests and concepts  probably paint a decent (and mayhaps better) picture of what I mean than the description in text here.  Though the tests and concepts belong more in the frontend end of things, they are also an integral part because without an interface, what good is a chunk of code? 
+ In the meantime, I have the lowest-level stuff (Oths.System) put together on paper and somewhat hacked together in pseudo-code.  When I finish writing the C# code to implement with those classes and compile their respective DLLs, I'll begin work on the higher-level stuff (Oths.Tools).  Oh, yeah, the Master Pages class (Oths.System.Web.MasterPages) that I have is absolutely awesome, and it'll make maintaining the site's individual pages  so  much easier that it's almost unfathomable. 
+ the frontend 
+ In terms of the frontend, I'm having the most trouble here because of the fact that IE doesn't quite parse CSS properly, so any layout that I try fails miserably at being visually appealing in Microsoft's browser, yet Mozilla, Safari, and Opera all render my pages properly.  It's maddening to deal with because while I'd like to make these pages as accessible as ultimately possible, it's damn near impossible because every browser has its intrinsic upsides and downfalls. 
+ Anyway, the display code for the frontend will be written in validating XHTML 1.1 with as much CSS1 and as little CSS2 as possible.  The layouts will be done with CSS and dividers instead of tables in order to enforce graceful degradation in older browsers and text-based browsers, and as an added bonus, the layouts will allow disabled folks to gain access to our content if they so desire, and that means something to an institution like OTHS, which is run by the State of Illinois and is therefore required to provide certain bits of information in an accessible manner. 
+ For the most part, however, Taylor Stooke,  urlLink Eric Peterson , and I all agree on the basic interface that the page should bear.  Taking ideas from the home pages and blogs of  urlLink Dan Cederholm ,  urlLink Daniel Rubin ,  urlLink Douglas Bowman , and  urlLink Garrett Lesage , we all agree that going with horizontal tabs across the top of the page and a vertical list of relevant links to one of the sides exists as probably the most solid and steady method of structure and organization that we have to deal with.  If another way presents itself later on, the changes should be relatively trivial given my aim on making things as absolutely modular as humanly possible.  
+    
+    
+</post>
+
+
+</Blog>

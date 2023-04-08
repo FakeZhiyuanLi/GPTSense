@@ -1,0 +1,412 @@
+<Blog>
+
+<date>17,February,2004</date>
+<post>
+
+	 
+      I am working too much and spending too much time in front of the computer and the TV. Haven't worked out since i left Australia in November. Only been skiing once. I really need to get myself in some physical activity before my body says stop. It's easy to say but hard to actually start doing though. And there isn't that mich do to around here, so i often end up either working or laying on the couch watching TV. All these inactivity have turned me into a very lazy sleepyhead. I am constantly tired, have little energy and have frequent headaches and back pains. Not good.
+    
+</post>
+
+<date>14,February,2004</date>
+<post>
+
+	 
+      Here is a visual presentation of the countries i have visited. Doesn't look that impressive on this image i must say. Guess i have to jump on a plane to put some more red color in that map.      urlLink create your own visited country map 
+    
+</post>
+
+<date>13,February,2004</date>
+<post>
+
+	 
+      Seems like the Windows 2000 source code has leaked. Will be intereseting to see the results of this, especially for us who use Microsoft servers and software.  Check  urlLink Google Search: windows 2000 source code  for the latests update.
+    
+</post>
+
+<date>12,February,2004</date>
+<post>
+
+	 
+      I was planning on installing vs.net 2003 to see if there were any new features and get the bugs from 2002 fixed. Off course Microsoft has managed to make a new file format for vs.net 2003, so i am unable to use the vs.net 2002 project on the web server we use here at work. Thus, vs.net 2003 is useless for me unless all developers here install it.
+    
+</post>
+
+<date>11,February,2004</date>
+<post>
+
+	 
+      I usually drive to work with my dad, but today i was planning to work late and decided to take the bus. I paid 55 kr - that's almost US$8. One-way, just to get to work! Arggh. And lets not forget it takes about 20 min longer than driving.
+    
+</post>
+
+<date>07,February,2004</date>
+<post>
+
+	 
+      What would we do without Google?? Not only have they brought us the  urlLink best search engine  with the most accurate results, they have thaught millions the value of simple design and made nerdy stuff such as newsgroups and blogging accessible for lamers, newbies, noob's or whatever you want to call those with underveloped IT skills.  As you might notice this blog uses  urlLink Blogger  from Google and is published through  urlLink Blogspot  (free). It's very easy to use and gives you quite good control over the feel of the blog. Best of all, the standard design looks good. Only features i miss at the moment are comments and photos.   urlLink Google News  is another very useful service from Google. It automatically collects and displays current news from many sources from around the world. You can also view region specific news, such as a UK, US or Australian version.   urlLink Google Toolbar  is yet another stroke of genius from Google. It includes a quick way to search directly from internet explorer toolbar but most importantly it includes a pop-up blocker which block's all those annoying pop-up's on web-sites you want to browse.   urlLink Google Groups  is a simple web-based news-reader which lets you read and post to news-groups.  Also check  urlLink this page or more services from Google! , and don't miss  urlLink Google Labs  with a showcase of upcoming technologies from Google.  I don't work for Google, just a big fan :)
+    
+</post>
+
+<date>06,February,2004</date>
+<post>
+
+	 
+      Just a short intro to what i do. I am a system developer and co-founder of 24SevenOffice.com. It is a web-based ERP system for the SMB/SME market, and includes modules such as accounting, invoice, CRM, SCM, publishing, e-mail, file management, HRM, salary, calendar, project management, cash register and more! It is one the most advanced web-based ERP systems in the world. We have launched the product in Norway and are currently rolling out in England with some partners there. Our country manager in England is doing a very good job and we are finialising translation and required modifications with for example the accounting system (i.e. VAT, reports).  I currently deal mostly with IT tasks such as programming and database, but also spend time with customer service and marketing. My goal is to be more involved in the planning and execution of our marketing strategy in the future. Due to the fact we are somewhat still in the development stage (though the critical parts of the system are finished, there are still features to be added and modifications to be made..), I have to focus mostly on the IT side for now. Check the link for more info about the company i work for and the products we offer.
+    
+</post>
+
+<date>05,February,2004</date>
+<post>
+
+	 
+      Just created a blog and this is my first blog post! Not sure what i want to achieve or the usefulness of a blog, but why not? Short info about myself. I am 22 years old, currently living in Norway after living three years in sunny Brisbane, Australia.  I am a bit hungry and also sleepy. It's a tough decision to make a choice between the two. But i think i'll take a sandwich before i go to dreamland. Good night zzzz. Sleepyhead.
+    
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+	 
+      One of my colleagues at work, Richard, created this really cool web-based desktop. It's all JavaScript with ASP and SQL Server on the backend to save the settings. The user can move and drag elements on the desktop and position them as they prefer. As you see in the image there is a taskbar where you can choose which elements to display. Let's say I am in sales and I might want to see:    The 20 last registered customers in the CRM system   My current tasks   My 20 last received e-mail's   The calendar appointments I have today   Internal news   My current leads   Sales figures this month vs. previous month    All of the information displayed is pulled out our application - a web-based ERP system. So for another user, let's say accountant, the user can customize the desktop to see all the current financial information about the company. It's also possible to choose the background image and color as well.   While this desktop definitively is a cool way of showing of JavaScript and CSS, the use of it is great. This is the starting page when the user logs into the ERP-system and the user is presented with valuable, up to date and relevant information. Have a look at the desktop here:    urlLink   
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      This must be the coolest flash game ever. You have probably tried it already, it's all over blogs, e-mails and various sites. But if you haven't, you must.
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+      I have been working a lot with XML lately, for a report generator i have created. The report is generated in XML from Microsoft SQL Server 2000 and transformed to HTML/XML (or any other format) using XSLT. Also, the user interface is heavily build on XML. All tables and fields that the user can choose from are added from a XML file. All that is done by using JavaScript and the Microsoft XML Parser. The drawback is that it's slow because i have to load up 6 XML files, so i might go for another solution there. When generating the report though it is all server based, so performance is not a problem (yet..). It's great to use XSLT and with all the control and possibilities with it. To use plain HTML and ASP to make custom reports would be a pain when it would require updates. Have a look at the link provided in this post to learn how to export data from SQL Server to XML. I have used ADO and save the recordset to a MS XML Parser DOM Document, which is then transformed using a XSLT stylesheet which is dynamically generated using ASP.
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+      Oh, it feels so much better now that i have started working out at the  urlLink local gym . So far i have only been there twice and it's been relatively easy workout's, but it's a start. My goal is to work out at least two times a week and preferably three times.
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+      After a long break (february) i am back to blogging :) Don't know if there anyone actually reading this though?? Leave a comment if you are! Blogger.com just released a new version which includes commenting (finally).
+    
+</post>
+
+<date>30,June,2004</date>
+<post>
+
+	 
+      Well, it's seems one of my calls on my  urlLink browser changes wishlist  has been heard. Mozilla announced today that:  Apple, Macromedia, Opera and Sun Microsystems join in push to modernize plugins and create a richer web experience. In response to demand by users, plugin vendors and web developers for web browser support for an open, secure and scriptable plugin model...  Read the press release -  urlLink Mozilla Foundation Announces More Open, Secure, Scriptable Plugins .  At worst this will result in dealing with two plugin's - one for this new standard and the other being Internet Explorer. Well it's a lot better than today with different plugin's for each browser, though the main ones support all browsers.
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+      You might have noticed a service called  urlLink Plaxo . It's a great way to keep your address book update without much hassle. But will it turn out to be a viable business model? Well they have managed to get 2,000,000 users, but how many are willing to pay for their service? And how easy isn't it for competitors to launch a similar service. The most obvious and dangerous competitor is the software Plaxo makes use of - Microsoft Outlook.  urlLink Microsoft  could easily add a mail-out feature to all your contacts and have them reply with updated contact details. That's the essential feature Plaxo offers, and what draws in the users. To their defense they have an excellent web-based version of Outlook which synchronizes nicely with Outlook.   The reason I am writing this, and at the same time questioning their business model is because we ( urlLink 24SevenOffice.com ) are creating a similar service. But wait a minute, you said that Plaxo doesn't have a sustainable business model then how come you guys will succeed? Good question. We build a web-based ERP-solution which includes a CRM-module. For us, this service is an excellent value-added feature for our customers. And since this is for a CRM-system - for business use and will give the business benefits - it provides a solid base for a successful business model for us. Plaxo only integrates with Outlook, not with any CRM-systems. Thus it has less overall business benefit for companies that use a CRM-system, only useful to consumers and individual employees.   Plaxo privacy concerns   I'll start my comparison of these services with Plaxo, because Plaxo gives me the creeps. There are several reasons for this.  See  urlLink this blog post  and  urlLink this news article    How will 24SevenOffice.com deal with privacy concerns?   We are an ASP (application Service Provider), all data is owned by our customers and it's their responsibility to create privacy statements. You might think this is worse than Plaxo, but in fact it's not. When Plaxo e-mail's you they create a record of you in their database. We don't to that. It's our only our customer's database that is in use here. We just provide the technology, we don't act as a middleman. We will however set guidelines for the service and will not allow the service to be used for spam. We will also provide opt-out options both for the specific customer and the service as a whole.   Plaxo business model questioning   "They are building a classic dot-com business," says Avi Greengart, an analyst at Jupiter Research, "where they are going after eyeballs and stickiness, and claiming that they are going to build a business model out of this later."  See  urlLink this article .
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+	 
+      I have 1 Gmail invitation to give out. Leave a comment if you want it. I'll toss a coin between the responses. I require a blog post or link in return.
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+	 
+       urlLink Eric  from  urlLink SourceGear  creaters of  urlLink SourceGear Vault  a Microsoft SourceSafe alternative regularly posts how-to's about marketing for geeks. In his  urlLink current post  he is commenting law #17 from the book  urlLink The 22 Immutable Laws of Marketing  written by PR/Marketing guru  urlLink Al Ries  and Marketing guru  urlLink Jack Trout .  Working in a small, but growing, company offering products to small business I read his posts with great interest. Eric has raised many good points about marketing in the software industry for small companies, but this post he did have some points I did not agree with.   What the authors are really saying is that long-range planning doesn't work.   Hmm...really? All research shows that successful companies plan for the long-term. In fact, lack of planning is one of the most common reasons of failure for unsuccessful companies.   I suspect this chapter is a lot more necessary for people like Pepsi and Burger King.  Those guys probably do get tempted to make long-term plans.  But in software, things move so fast that most of us wouldn't even think of trying to make any sort of detailed plan for a five year horizon.   No. Long-term planning is important for everyone, even down to the personal level. Where will you be in five years? Without planning you are unlike to reach your goals. Yes, the market and the environment changes constantly (see my  urlLink post about Karaoke Capitalism ), but that does not mean the changes are so radical that they make planning obsolete. I think Eric's misunderstanding about planning is that he sees long-term planning as trying to foresee the future. Long-term planning is about setting goals and objectives based on the current situation and the most likely future development in the market. As the market changes in the future we must continually update the plan to make sure our plan is up-to date.  But why is planning important, even for small businesses? Except for the reasons stated above with reaching objectives and that it's a characteristic of successful companies, it is important because it helps us understand the market, our customers, our competitors and our own company better. Knowing that and knowing where we are headed, we can make better decisions. If we do not plan and set objectives, then how can we know if we performed good or bad? If our research shows that we are capable of selling 500 software licenses this year and we plan for that, but end up selling 800, then that is good. But if we didn't conduct that research and have no objectives, then we wouldn't know that when we sold 300 licenses we did a really poor job. For a more longer term, planning is about setting goals. Do we want to be a small company with a handful clients so we can get enough money to pay rent and salaries? Well then we have to plan to make sure we keep our current customer base. Do we want to grow, maybe be listed on the NASDAQ in 5 years? Well then we need plan on how to reach that goal. We need to understand that to be listed on the NASDAQ our company must have a board of directors and a minimum net income of $750,000. We need to understand other key milestones in the process of reaching that goal. Knowing that we can say: well to reach objective 1 we need to focus our resources on X for now, but next year we need to focus on Y to reach objective 2. This will result in Z which will result in our company being on track with reaching the overall goal. This might sound less usefull for smaller companies with few resources and choices, but while this is very "big-picture" and strategic ways of thinking, it will result in actual tactical decisions like shall we implement XML support in our software, shall we advertise in the "Dog's and folk's" magazine or shall we hire the PR guy who looks and talks like a member of the  urlLink Fab Five from the show Queer Eye for the Straight Guy . These might be day-to-day business decisions, and without long-term planning these decisions could be made incorrectly because we do not have that knowledge that we can gain from long-term planning.    urlLink Click here to read Eric's article  - Law #17: The Law of Unpredictability 
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+	 
+      "24SevenOffice is a comprehensive and thoroughly system" according to editor Kurt Leganger of PC World Norway. The system is tested in the May edition of the magazine.  The biggest IT magazine in Norway, PC World Norway, have tested 24SevenOffice and pointed out how comprehensive it is at the same time as being user-friendly with a low threshold to start using it. The seamlessly integration between the different modules were also an important finding. However, even though the system is rich on functionalities and modules  it allows you to pick the modules you need and the possibility to include new modules as you need them.  The test concluded in PC World Norway recommending 24SevenOffice. "Altogether, 24SevenOffice is a comprehensive and thoroughly system worth taking a closer look at", says Kurt Leganger editor of PC World Norway.   urlLink  Read the article here (in Norwegian only).  For more information about  urlLink 24SevenOffice.com, click here  - it is a web-based ERP-system with invoice, accounting, CRM, publishing and muc more.
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+	 
+      Just started reading a new book I got from SAP after participating in some market research. Always nice to help a competitor by filling out a misleading survey and get a free book. The book I got is  urlLink '	Karaoke Capitalism: Managing for Mankind'  by  J.Ridderstraale & K.A.Nordstrom , the guys who wrote the successfull  urlLink 'Funky Business' . It's all about the ways of business and capitalism, and how to survive in the ever-changing world of individualism. Looks out to be an interesting read, but unfortuanly there are too much of dot-com, hype, "I know all these cool words" sentences. I only just started but noticed many confusing overview's of complex theories, for example when they talk about moving from socialism to market capitalism and include naive descriptions with kings and church together with statements from Bill Clinton. While they have many good, valid and interesting points that makes you think, they also talk a lot without really saying anything. But on the other hand, this is a entertaining business book, it's not - and trying not to (in fact stating not to be) a complex theory book about what to do in business. It's a book trying to explain how the business world work and what forces are shaping the changes we see.  I am also reading a book by  Michael Connelly . I love crime. I bought this huge book which includes three of his bestsellers..it was cheaper than buying the three books individually but it's a pain to carry it on the bus (no...I don't have a car! arggh) together with my laptop, documents etc. I have now started on the last book,  urlLink Void Moon .
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+	 
+      I just listed our company and products on  urlLink FindAccountingSoftware.com  (by  urlLink CPA ).  urlLink 24SevenOffice.com  is a web-based ERP-system for the SME market and small businesses. It is subscription based (monthly-fee), no software required, always using latest version. It includes modules for: invoice, CRM, accounting, logistics, publishing, project management, e-mail, file/document management.  See our listing at  urlLink Find Accounting Software 
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+	 
+      Yes, can you hear me Blogger? I want to categorize my post on Blogger!  Oh, and does anyone know of any good photblog or photo administration ASP scripts? I am hosting photos on my own web-server (can't be bothered to install and configure a blog script so I use Blogger) but I want something to organise them with. Would be nice to have a cool photoblog where users can view the photos and an admin part where i can upload and manage the photos.
+    
+</post>
+
+<date>20,June,2004</date>
+<post>
+
+	 
+      Last night I went to a concert at  urlLink Wrightegaarden  here in Langesund. Unfortunately the weather wasn't all that nice, it was cloudy and a bit rain as well. Only about 100 people turned out to the concert. But it was a good night.     The Valentourettes is the remains of the band called 'Jokke & Valentinerne' after the lead singer died (2000). It's a party band with some well-known Norwegian songs about beer and getting drunk. For more info about the band see  urlLink this page  (In Norwegian).
+    
+</post>
+
+<date>19,June,2004</date>
+<post>
+
+	 
+      Yesterday I got an invitation to open a gmail account - google's new e-mail service. Thanks to Anders Jacobsen - check out his excellent  urlLink blog .  Gmail stands out from the competitors in two ways: 1: No folders - all e-mail's are categorized by labels. 2: 1000 mb storage - no need to worry about storing e-mail's with large attachements.     When composing an email, everything looks familiar, but there are two great features in gmail that is lacking in other web-based email services. First, gmail suggest contacts while typing. So when typing 'sl' gmail automatically displays 'sleepyhead@sleepyhead' if in my contact list. The second feature is spell checking. It's really fast and instead of opening a new window where you have to replace each word, gmail highlight misspelled words and you have to click the word to display alternatives.   
+    
+</post>
+
+<date>19,June,2004</date>
+<post>
+
+	 
+       Update. Thanks to   Joel for linking   to this post (...probably the reason for you reading this).   Another good post from Joel on Software.  urlLink This one about wanted changes in web browser.  As a web developer I find many tasks more time consuming and difficult to accomplish when building a web application - we develop a  urlLink web-based ERP system . Most of these tasks could be overcomed by implementing more standards which web developers can use. Joel list a good handful of changes he would want, and I have added some:     Generic XML support.  I recently made a report generator which extensively used the Microsoft XML Parser. It's great to use XML instead of having a several large JavaScript array's, but unfortunately the XML Parser is from Microsoft and only works in IE. I really would to see a standard support for XML in JavaScript without using a active-x object.   Standard ways of presenting data in a grid, a desktop(see my  urlLink post about web-based desktop  and make sure you check out the  urlLink JavaScript gurus from WebFx  with their  urlLink Bindows project ), tabbed interface etc.   Better printing support. I want to at least specify header and footer without use of active-x.   A generic way of handling plug-ins and component. I don't want to use a plug-in that only is available for Firefox, I don't want to use active-x because it's only available on IE. In cases where html/JavaScript/CSS does not cover my needs I want to use an object I can use on all browsers.   Better client-server handling. Much of the data presented in our web-application is data that is not changed. I want to save this on the client so I don't have to make a trip to the server each time. Yes, I know this is possible, but I want a standard way of doing it.   Most of all I really want things to work. I don't want to spend hours figuring out why Firefox does this and IE does this, and then try Opera and find out that it doesn't work at all. All browsers must support the same standards.    I think Joel covered many good points, I especially agree with him when he talks about standard controls for uploading &amp; drag-drop (we have made a custom active-x object to do this), better content editing (could the msdhtml control be any worse? And what about other browsers!!?), compiled JavaScript (some scripts can be become slow), standardized windows features such as treeview, menu etc.
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+	 
+      I read a blog post the other day (unfortunately I didn't copy the URL and I don't remember which blog) where someone answered the good old marketing question being -  "is marketing art or science" . Let me tell you, I am so tired of that question. Let's just clear that question once and for all. I really don't see the point of asking it. Marketing is science and marketing is art. Why is that you might ask? Let me try to come up with some points of both sides:   Science:  Marketing is a science because marketing is about satisfying customers needs. To understand customer needs we need to develop scientific methods to learn about our customers and the needs they have. Also, the market and consumers generally behave in certain manners and deal with known variables. Porter's five forces is a good example of this. These five forces determine the profitability and behaviors within a market. The five forces being: competition within the industry, customers bargaining power, suppliers bargaining power, threat of entry of new competitors, threat of substitute products. These forces shape the strategy of the company.   Art:  Reading the points under science we might assume that marketing is all about science, but it is not. While we can predict behaviors of consumers and the market by using scientific methods, the decisions based on the scientific results are not always correct. Take Coca-Cola for example. They did extensive market research when developing a new product - a new coke. The majority of the participants in the research were very positive to the new coke. Management based their decision on these results and were sure of success when they launched the product. What happened? It was a disaster. People demanded the classic coke back. In fact, Coca-Cola had to relaunch the classic coke to the market because of the failure of the new coke. This shows that the science of marketing, even when being right within its terms it can be very wrong in terms of marketing.  So to conclude -  marketing is both a science and art . This is why there are so big differences between marketers who succeed and those who do not succeed. On one side we have creative art directors trying to use their creative skills to do marketing - they usually fail because of being focused on creatively alone and not seeing the long-term picture. And then we have the scientific market researchers, who stand by their numbers and never make a decision without thoroughly going through all options. These people make safe decisions, but also wrong decisions because they are slow of making decisions - thus competitors can get the upper hand - and they fail to see the dynamics within the market and the arbitrary psychology of consumers.
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+	 
+      Unfortunately there are many versions of Microsoft XML Parser installed on clients computers. When using functions and methods of the parser it doesn't really matter that much which version you use, but there are significant speed and stability improvements in newer versions. So you should always use the latest version if possible. Here is a code which sniffs the parser version:    function XMLClientVer() {   //*********************   // Public properties   //*********************      this.bIsMSXML4   = false;   this.bIsMSXML3   = false;   this.bIsMSXML2  = false;      //**********************************   // Private implementation details   //**********************************      var e = new Error();   var oXML = null;      // Try to load the most recent version of the MSXML parser;   // if that fails, try to load the next most recent version, and so on.   // Always test using the version *dependent* PROGID.    try   {     // Test for MSXML 4.0     oXML = new ActiveXObject("MSXML2.DOMDocument.4.0");     oXML = null;     this.bIsMSXML4 = true;     return;   }   catch (e)   {     try     {       // Test for MSXML 3.0       oXML = new ActiveXObject("MSXML2.DOMDocument.3.0");       oXML = null;       this.bIsMSXML3 = true;       return;     }     catch (e)     {       try       {         // Test for MSXML 2.0         oXML = new ActiveXObject("Microsoft.XMLDOM.1.0");         oXML = null;         this.bIsMSXML2 = true;         return;       }       catch (e)       {         // Stub       }     }   } }    put this code in your shared function's javascript file, and then in your script where using the parser include:    // Create a new instance of the XMLClientVer object var oXMLClientVer = new XMLClientVer();  if(oXMLClientVer.bIsMSXML4) { 	var objMSXMLParser = 'Msxml2.DOMDocument.4.0'; } else if(oXMLClientVer.bIsMSXML3) { 	var objMSXMLParser = 'Msxml2.DOMDocument.3.0'; } else if(oXMLClientVer.bIsMSXML2) { 	var objMSXMLParser = 'Msxml2.DOMDocument'; } else { 	alert('MS XML PARSER NOT INSTALLED'); }  
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+      Yesterday I wrote about  urlLink error handling , why it is important and how we can handle errors in IIS using ASP and a database. Joel has written a great article on more advanced error handling - a complete bug tracking system. Preferably, an error handling system and a bug tracking system should be integrated. Errors are bugs, but keep in mind that not all errors should be logged as bugs. In many cases this would results in a too large bug list, so a good way to keep the integration is to have the user report errors. Then the error is registered as a bug.  See Joel's article for more information:  urlLink Joel on Software - Painless Bug Tracking 
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      Joel on Software is a blog I started reading lately. He has some very good posts but this one I was particularly impressed with. A looong post with many intereseting arguments. Get a cup of coffee and read  urlLink Joel on Software - How Microsoft Lost the API War .
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      Errors are unwanted, but is almost impossible to eliminate especially with a large application.  We all know that we should minimize errors and that errors are bad, but to handle this there are three issues we need to be aware of:  1.  Problem:  When the user see an error in the application, the user becomes unhappy and it results in a negative experience with the product. If this hapens often it will lead to the customer becoming unsatisfied and it addition it will hurt the brand image.  Our solution:  When an error occurs a custom and a pleasant error page is displayed. It will alert the user that an error occurred and that it has been logged to a database. This gives the user confidence that the error will be fixed. It is also much better to view a relatively nice error page than a broken document with an ugly ASP error in the middle of the page.  2.  Problem:  An error means a system bug. Most bugs are left unreported by user. For a developer it can be close to impossible to find and track all bugs.  Our solution:  Using an error logging tool which logs all errors occurred to a database, developers have overview of when and where the error occurred, what the error message was, what input variables was given to the script and which user who executed the script. In most cases this will give the developer enough information to fix the error straight away or test the script and understand the cause of the error.  3.  Problem:  When a user received an error when working with an important task or if the error repeats itself then the user calls customer service. Having worked in customer service earlier I know how difficult it is to get a clear overview of the user is doing and what the error is. When the developer gets the error report it is very hard to track and debug the error.  Our solution:  When the user receives an error, the user is presented with an option to contact customer service through a form. This form automatically fills out the error reference. In addition the error reference number is displayed for the user so he/she can quote it when calling customer service. This results in the developer being able to pinpoint the error that occurred making the process much quicker and keeping the customer happy.   So how do we do this in practice?   1. Set up a custom error page in IIS. Create a page in your web-application, i.e. /system/error.asp. Have IIS execute this page when 500 and 500.100 error occurs. For more information  urlLink see this MSDN article . The article covers how to implement a custom 404 page, but it's the same with 500/500.100 pages, just select those from the list instead. I recommend that you set up a custom 404 page as well.  2. When that is done try to view a script with an error in your web-application. See it will redirect to the /system/error.asp page.  3. Next task is to create the error.asp page. First thing to do is design it with information that shall be displayed to the user. Then comes the scripting part:  Make sure you include response.clear at the top of the script. This is because when an error occurs IIS is doing a server.execute("/system/error.asp"), thus all the contents from the script where the error occurred will be included unless the response is cleared.  then we get all the information about the error using the ASP error object:   	dim objErr, err_asp_desc, err_desc, err_no, err_src, err_line 	dim err_col, err_page, err_cat, err_asp_code, err_input, err_script 	set objErr = server.GetLastError() 	if objErr.Number <> 0 then 		err_asp_desc = objErr.ASPDescription 		err_desc = objErr.Description 		err_no = objErr.Number 		err_src = objErr.Source 		err_line = objErr.Line 		err_col = objErr.Column 		err_page = objErr.File 		err_cat = objErr.Category 		err_asp_code = objErr.ASPCode 		err_input = request.ServerVariables.Item("QUERY_STRING") 		err_script = request.ServerVariables.Item("SCRIPT_NAME") 	end if 	set objErr = Nothing    See there are scripts here. That is because when using an include file, the ASP error object will report the name of the include file if that is where the error occurred. But many times the script which holds the reference to the include file is the reason for the error, thus we need to get the script name as well.  The next task is to log this error to the database:    	dim c_db, sql, RefId, c_dbrs 	set c_db = server.CreateObject("ADODB.Connection") 	c_db.Open Application("ConnString") 	sql = "INSERT INTO Website_Error (ErrorNumber, ErrorDesc, Script, ErrorScript, QueryString, ErrorLine, ErrorColumn, ErrorCategory, ErrorSource, ASPError, ASPDescription, IP, UserId, ContactId) VALUES (" & err_no & ", '" & err_desc & "', '" & err_script & "', '" & err_page & "', '" & err_input & "', " & err_line & ", " & err_col & ", '" & err_cat & "', '" & err_src & "', '" & err_asp_code & "', '" & err_asp_desc & "', '" & request.ServerVariables.Item("REMOTE_ADDR") & "');" 	c_db.Execute(sql) 	sql = "SELECT @@Identity FROM Website_Error;" 	set c_dbrs = c_db.Execute(sql) 	RefId = c_dbrs.fields.item(0).value 	c_dbrs.close 	set c_dbrs = nothing 	c_db.Close 	set c_db = Nothing     The RefId is used to identify the error. This can be displayed to the user the user can quote this reference id when contacting customer service.  And there you have it - a custom error page with error logging!  
+    
+</post>
+
+<date>12,June,2004</date>
+<post>
+
+	 
+      Microsoft has released RC2 of WinXP SP2. Haven't spotted many differences from RC1 yet. A new feature called WLAN Wizard, haven't tried it though.  Get it at:  urlLink Windows XP Service Pack 2 
+    
+</post>
+
+<date>12,June,2004</date>
+<post>
+
+	 
+      Mozilla has released version 0.9 of Firefox! Get it  urlLink here . A great browser indeed, much better than IE. Now less than 5mb.  New in Firefox 0.9:  - Extension Manager - Theme Manager - Data Migration/Import - New Visual Theme - Better Bookmarks - Better Search - Smaller Download - Online Help 
+    
+</post>
+
+<date>12,June,2004</date>
+<post>
+
+	 
+      We are currently looking for a SMTP component. Please leave a comment if you know any good compoents that can/is:  - Stable, robust. Able to send a lot of email. - Mail merge. - Mass mailing. - Send embedded images (CID). - Queing. - Send email with both html and plain text in same email.  We are using ASP 3.0 (but looking into ASP.NET) and COM.  We are now using  urlLink DynuEmail , but it lacks these features. So far my list includes:  urlLink w3 Jmail  from Dimac,   urlLink SoftArtisans SMTP Mail  and  urlLink ASPEmail . We used Jmail before but it was not stable (earlier version) and we did not receive support from Dimac, so i don't think we will look much into that one.
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+      I created a new template for our newsletter and wrote some content for it. It looked very nice and I was ready to sent it out to all our customers. I did a test to all my e-mail accounts, including 24SevenOffice.com, Outlook, Yahoo and Hotmail. All mail services were able to display the e-mail properly except Hotmail. This is my experience with HTML Newsletters:  - Yahoo mail replaces .CSS-class with #message .CSS-class. Displays ok. - Hotmail removes all CSS classes - and everything outside the BODY tag. Inline CSS works, except for one problem I had with using a url image as background in a TD. Hotmail replaces url with nourl in the inline style. - 24SevenOffice.com did not display style correctly when using A/BODY classes. This is due to the email reader including it's own CSS stylesheet which defines A/BODY classes. Thus, the email does not render exactlty as indented - but it looks ok.
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+      Make sure you protect your web-site from SQL injection kids. This one would be nasty to debug:   CREATE TRIGGER tr_Orders_INSERT_InsteadOf ON Orders  INSTEAD OF INSERT  AS RAISEERROR('[Microsoft OLE DB Provider for SQL Server] Timeout expired',16,0) 
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+      I previously wrote about exporting XML from Microsoft SQL Server and using it when generating reports from 24SevenOffice.com. Now i will show you how this is done.  First we open a ADO connection and recordset just like we normally do.    	' OPEN REPORT IN RECORDSET 	set c_db = server.CreateObject("ADODB.Connection") 	c_db.ConnectionString = Application.Contents.Item("ConnString") 	c_db.Open() 	Set ObjADORS = Server.CreateObject("ADODB.Recordset") 	ObjADORS.Open sql, c_db,adOpenStatic,adLockReadOnly 	set objStream = server.CreateObject("ADODB.Stream") 	objStream.Charset = "ISO-8859-1" 	' SAVE RECORDSET TO ADO STREAM AS XML 	ObjADORS.Save objStream, adPersistXML 	ObjADORS.Close  	Set ObjADORS = Nothing 	c_db.Close 	set c_db = nothing    Look at the code above and youl will recognise all lines except for one - objADORS.Save objStream.adPersistXML. What i am doing is saving the ADO Recordset to ADO Stream, but not as ADO Recordset but in XML format (adPersistXML).  The next thing we need to do is get the XSLT and transform the XML using the XSLT:    	' LOAD XSLT 	set objXSLT = server.CreateObject("MSXML2.FreeThreadedDOMDocument.4.0") 	objXSLT.createProcessingInstruction "xml", "version=""1.0"" encoding=""ISO-8859-1""" 	objXSLT.async = false 	objXSLT.load("file.xslt")  	' LOAD THE XSLT TEMPLATE TRANSFORMER 	set objXSLTTemplate = server.CreateObject("MSXML2.XSLTemplate.4.0") 	objXSLTTemplate.stylesheet = objXSLT 	set objXSLT = Nothing  	' Load the XSLT processor 	set xmlPro = objXSLTTemplate.createProcessor() 	set objXSLTTemplate = Nothing 	 	 	' USE THE ADO STREAM 	xmlPro.input = objStream  	objStream.Close 	set objStream = Nothing  	set objXMLDOM = Nothing 	 	' Output to response 	xmlPro.output = Response  	' Transform XML using XSLT 	xmlPro.transform  	set xmlPRo = Nothing     The XSLT file looks like this:     &lt;?xml version="1.0" encoding="ISO-8859-1"?&gt; &lt;xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema"&gt;  &lt;xsl:output method="xml" media-type="text/xml" encoding="ISO-8859-1" /&gt; &lt;xsl:template match="/"&gt; &lt;xsl:element name="Entries"&gt; &lt;xsl:for-each select="//rs:data/z:row"&gt; &lt;xsl:element name="Entry"&gt;  &lt;xsl:attribute&gt  &lt;xsl:value-of select="@DatabaseFieldName"/&gt; &lt;/xsl:attribute&gt; &lt;/xsl:element&gt; &lt;/xsl:for-each&gt;  &lt;/xsl:element&gt; &lt;/xsl:template&gt; &lt;/xsl:stylesheet&gt;     What you need is the //rs:data/z:row - this will list all the fields in the recordset. The XSLT transformer will then populate the final XSLT document with values from the XML.
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+      "Sprint has developed applications that use RFID-enabled loyalty cards that can identify customers and provide customized offers and services."  Scary or great news for consumers?  There are many benefits, but companies must ensure that the potential problems are dealt with in the planning process. Many people have raised their voice for privacy problems with RFID. It is up to the IT industry and the retailers to ensure that these concerns are dealt with. Without doing so, RFID can potentially become nothing more than hype in retailing.  RFID discussion and news has mostly focused on cost-saving in the supply chain for companies. This article is an interesting read to open our eyes for the RFID services available for consumers. According to the article, Sprint has developed RFID cards that identifies a customer when he/she walks into the store. Imagined being offered personalized products in stores? Imagined the SA rushing back to the stock room to get the item you ordered last week, before you say anything and without queuing. There are many benefits to RFID. I think most consumers do not consider privacy issues to be a problem. We are already using loyalty cards for companies to track our buying behavior. As long as there is a benefit to consumers, privacy issues will not be a problem - but they must be dealt with.
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+      I installed Windows XP Service Pack 2 the other day. A huge file - 279mb! Don't ask me why it's so big. It does however include many security changes to Windows XP and Internet Explorer. For average users it's important to not the new security changes/improvements, including:   Firewall is enabled by default   Pop-up blocker   Stricter active-x control   Security Center in Control Panel   Improved WLAN   But what does this mean for us developers?  First of all the pop-up blocking can cause many problems. Don't misunderstand - it's a great features - I hate pop-up ad's as much as anyone. But many sites uses pop-up's in a good way. Our application,  urlLink 24SevenOffice.com , uses pop-up extensively. When the user logs into the system, a pop-up window is launched.  To check for pop-up blockers I use the following JavaScript code:     var main_window, check; main_window = window.open('start.asp','24SevenOffice',''); try {check = window['main_window'].name;} catch(er) {document.location.href = 'popupstop.asp';}    If it is not successful with opening a new window, the user will be redirected to the popupstop.asp page where the user is informed that he/she is using a pop-up blocker and that our domain must be included in the allow list. The above code works with all pop-up blockers.   Another problem with SP2 and windows is that you cannot set the statusbar to off.  Thus, windows set to a certain size will have a smaller visible height than is specified in the window.open() function. This is a problem with many of our pop-up window's and it will require us to add height to the affected window's.  According to Microsoft SP2 introduces stricter security with handling ActiveX, so far I haven't been able to test this because I have our domain in the trusted zone.  Finally, Microsoft talks about stricter security when downloading files not executed by the user. So far I haven't experienced any problems with this, so hopefully our application is not affected by this issue.  To learn more about the required changes that Service Pack 2 introduces have a look at:   urlLink How to Make Your Web Site Work with Windows XP Service Pack 2    urlLink Windows XP Service Pack 2 - Technical preview - Information & download   If you have any experiences with SP2, let me know and leave a comment.
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+      Received a letter from my credit-card company today. It was an invoice for transactions that occured seven months ago. And not only that, i cancelled that specific credit-card six months ago! How can it be possible for transactions to delay in the system for such a long time?  Anyway, it's not a big deal, it's not a big figure and i know the transactions occured. But considering i cancelled the credit-card six months ago and the transactions occured seven months ago, it would have been easy to forget the transactions. I am still with the same credit-card company, i just switched to another credit-card. MasterCard Gold with no fees whatsoever - start-up, yearly or transaction fee. Check  urlLink CreditCard.no  - for Norway only.
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+      I was really stumped when creating a DTS package today. I really couldn't figure out how to loop the tasks. The package failed when I created a looping workflow. I found one alternative with using the Execute SQL Task, but it wasn't really quite the solution I had in mind. After some googling I found  urlLink this great article  from SQLDTS.com. It explains how to loop back to step 1:    Option Explicit  Function Main()  	Dim pkg, stpbegin 	set pkg = DTSGlobalVariables.Parent 	set stpbegin = pkg.Steps("DTSStep_DTSExecuteSQLTask_1") 	 	'The trick to looping in DTS is to set the step at the start of the loop to an execution status of waiting 	stpbegin.ExecutionStatus = DTSStepExecStat_Waiting  	Main = DTSTaskExecResult_Success End Function  
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       So, in response to the multitude of email messages I got asking for more juicy details on what it's like to eat dinner with Bill Gates, I figured I should write the comprehensive posting about said topic.  So, without further deliberation, I've broken down my account into a few sections: The Experience, The House, The Man, and The Coolest Part.   Read it at  urlLink Jeff Maurone: Metanoya: More on My Dinner with #1 on the Forbes  via  urlLink Church of Customer .
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      XML/XSLT/MSXML Parser:   urlLink 50 XSLT tips    urlLink XML vs ADO benchmark    urlLink Unofficial MSXML XSLT FAQ     urlLink Convert XML To an Excel Spreadsheet Using XSL     urlLink Generating Word documents using XSLT    urlLink Exporting SQL Data as XML     urlLink Tip Make choices at runtime with XSLT parameters     urlLink VBXML.COM     urlLink Inside MSXML3 Performance (Extreme XML)     SQL    urlLink   urlLink ASP 101 - The Wonderful World of Data Shaping     urlLink Improving MDAC Application Performance (MDAC Technical Articles)     urlLink SQL Server Data Types     urlLink SQL Server DTS Best Practices     urlLink ConnectionStrings.com   -   Forgot that connectionstring   You will find it right here!       urlLink Sqlteam     urlLink SQL Security     Scripting    urlLink Sorting Algorithms       urlLink Web Browser Spell Check Download     urlLink Webmonkey  Reference Special Characters     urlLink The Importance of Good Dialog     urlLink VBSCript ref     urlLink MSHTML Editing (Internet Explorer)    urlLink WebFX    urlLink DevGuru  
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+	 
+      Get the book! Sleepyhead book! :) Off course I had to order it just because of the title, but it looks like an interesting read. I love crime novels so it should suit me.   Already an international bestseller, Mark Billingham's Sleepyhead is a chilling masterwork of crime fiction -- a boldly original experiment in terror that will beget dark dreams and sleepless nights.    urlLink Sleepyhead by Mark Billingham 
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+	 
+      The Microsoft XML Parser includes an object called XMLHTTP. Though the name says XML it has little to do with XML except for one function that makes it possible to retreive a document as XML. The essential use of XMLHTTP is to send HTTP requests and retrive the response. It is quite simple to use and it's very easy to do a simple task like get a file from another server:    dim objXMLHTTP, url set objXMLHTTP = server.CreateObject("MSXML2.ServerXMLHTTP.4.0") url = "http://yourserver.com/file.html" objXMLHTTP.Open "GET", url, false objXMLHTTP.Send() response.Write objXMLHTTP.responseText set objXMLHTTP = nothing    Note: This is for use with ASP. Notice the Server in the object. That's the server-safe version of XMLHTTP. When using client-side JavaScript use the MSXML2.XMLHTTP.4.0 instead. Also remember that there are many versions of the XML Parser around, so don't use the 4.0 version if the user doesn't have it installed. I recommend using the MS XML Parser sniffer to get the correct version installed -  urlLink see my article here .    urlLink See this page at PerfectXML for more information. 
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+	 
+       The Microsoft ISV Buddy Program is all about connecting you, the Independent Software Vendor, with a Microsoft employee who will be your point person within Microsoft. It’s about putting a face to Microsoft and helping you get timely answers to your questions and requests. Through this 1-on-1 relationship, your Microsoft buddy will be able to guide you to resources and to help you succeed in building solutions on Microsoft platforms.   Check out  urlLink Who's YOUR Buddy? 
+    
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+	 
+         iPod 4G:  - Click wheel - More efficient menus - Longer play (12 hours battery life) - Lower price ($399 for 40gb)   Read  urlLink MSNBC - The New iPod 
+    
+</post>
+
+<date>14,July,2004</date>
+<post>
+
+	 
+      Many IT companies are encoring their employees to blog. Microsoft is a great example with many of their developers promoting Microsoft technologies. What differs this form of communication to their normal advertising? It's more personal, thus easier for us to trust.   What is viral marketing?   Viral marketing is basically a company actively pushing the word-of-mouth. In the old days when your mate said that the brand 'Snuff Milk' is great you knew you could trust him. But off-course, he's your mate. Now with the Internet and globalization, our contact network expands and information sources have multiplied. Blogs seems like a personal type of information source. But how can you be sure it is? Obviously the blogs over at MSDN you know will be promoting Microsoft software. But in other situations you might not know who the person behind the blog actually is and what his/her agenda really is. Today I received an e-mail from a company who have understood that bloggers can have power and that readers will be influenced by what they think is unbiased views. Unbiased in terms of not relating to companies, not in terms of personal opinions.  The publisher  urlLink Manning  e-mailed me offering a free e-book. Now why would they do that? Well if someone (me for example) blogs about that book in a positive way, that will give them a much more reputable communication to potential buyers than if they bought a banner-ad on a web-site. Personal communications has been very powerful up until now. It still is. But when you have companies actively trying to encourage this word-of-mouth effect. In some cases the person recommend the product might actually get paid to do so. Weight-loss programs is a good example of this. You might have seen a house-wife who wants to earn a quick buck with 'lose weight - ask me' buttons.  As a marketer I greatly respect and value the word-of-mouth effect. It has got us a great deal of business. But if viral marketing continue in it's form as we see today I am worried that effect will turn into something negative in many situations.  The book is ' urlLink Explorer's Guide to the Semantic Web ' and actually looks quite interesting. Unfortuanly I don't think I will read it because I really don't see the value in it for me. If I do though I will write a review so the guys over at Manning will be happy (or unhappy depending on the review).  A final note: I am not saying that this particular situation is a bad move. What I am saying is based on viral marketing as a whole and the negative effects on it. We ( urlLink 24SevenOffice.com ) have disussed ways of doing viral marketing. But it's hard to come up with a sucessful idea that will actually work on a large scale, and also it's a fine line between viral marketing and spamming and other negative marketing approaches.
+    
+</post>
+
+<date>10,July,2004</date>
+<post>
+
+	 
+      For many tasks a server-side script does the trick. But in many cases the task may be time consuming and we can't have the client waiting now can we? Other tasks might require to be executed at certain times, i.e. every night for an import to a database. That is exactly my current task. And for that there is an excellent solution in Microsoft SQL Server. Many web-developers using MS-SQL are not aware of many of the other features included. Data Transformation Services (DTS) is one very useful feature. You might have used it when importing or exporting data in enterprise manager. The simple DTS Import/Export wizard let's you easily import/export data to/from many data sources. But there is much more to DTS than this wizard. Look under 'Data Transformation Services' in Enterprise Manager. Here you can create a DTS package that can be executed from procedures, scripts, manually or to be scheduled by MS-SQL. This package allows you to easily do tasks like import, get data from ftp, run active-x script, send e-mail etc. There are about 15 standard tasks that are easy to use. An with the active-x task you can use VBS and COM to do whatever you require. What's nice about this is that you set up various tasks and you set a workflow. So when task 1 is finished you go to task 2. You can then specify, if task 1 fails then goto task 3 if successful then goto task 2. It can all be run in a transaction so you can tell it to commit/rollback the transaction when the package is finished or at any point in the tasks. There are also global variables you can share between the tasks. For import/export tasks it is very useful and it includes a very good wizard-kinda tool where you can map fields from the source to the destination and also use an active-x script to do modifications between the source and destination. To learn more about DTS have a look at  urlLink SQL Server Books online ,  urlLink SQLDTS.com  or  urlLink SQLTeam.com .
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+	 
+      Seriously considering buying one. Shipping to Europe on July 24th see  urlLink this article .   
+    
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+	 
+      Line break in XSLT...sounds simple. When I created a XSLT for generating Microsoft Excel files I couldn't understand why I couldn't get line breaks. I tried inserting vbCrLf in the XSLT (using ASP) and inserting with XSLT (#13;). Nothing worked.  I posted a question on Expert Exchange and got an answer from someone who had used indent="yes" in XSLT output when using method="xml". That worked fine when used with my Excelt XSLT file.  But when I was going to make a CSV export using XSLT, the same formula didn't work. After some googling and testing I found this solution: Use method="text" and indent="yes" in xsl:output. Use xsl text and put a line break (#x0D;) and use xml:space="preserve".  Note the key here is xml:space="preserve". Without it won't work. It only worked if I added some text before the line break. But obviously, in a CSV, I don't wont test at the end of the line.  Arghh..How can i post html/xml code in my blog? I have used the CODE tag earlier when posting ASP and Javascript code. But doesn't work with XML, it doesn't show up in the post.
+    
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+	 
+      Went to a great concert last night.  urlLink Thomas Dybdahl  was playing at  urlLink Wrightegaarden  here in Langesund. This guy makes some incredible music. I really recommend checking out his album 'That Great October Sound', you can buy it  urlLink here from Amazon Germany . I think his latest album 'Stray Dogs' is better, but you can only buy it in Norway. I would call it slow rock..uhm not really rock though but not sure how to classify it. Like Coldplay maybe, but more raw, with more instruments and creativety.  I was planning to take my camera with me, but I didn't. I did have my new SonyEricsson T610 mobile, but i was so far away from the stage that the photo didn't turn out very well.
+    
+</post>
+
+<date>07,August,2004</date>
+<post>
+
+	 
+      Just wanted to comment on the comments i got for my post  urlLink Web browser changes wanted  which was featured on  urlLink JoelOnSoftware . Thank you all for your interest and comments! Look forward to hearing more of your views.   Travis said...   You should check out Nexaweb (www.nexaweb.com). I think they have what you need.  Couldn't really find that much practical information there. But it seems that it doesn't seem our needs.   Anonymous said...   Agreed. Any estimations what this cost in terms of development time, like so    WebFactor = [WebForm DevTime] / [WinForm DevTime]?     Also; what’s your users’ view on the subject? Do they suffer from the Web’s poorer UI, or are they happily unaware?    // Martin Rosén-Lidholm (martin_rosenlidholm[snabel-a]msn.com) We don't use .NET so I cna't comment on WebForm vs. WinForm.  We have taken a very much Windows oriented GUI in our web-application. Using grid's, right click-menus, tree's etc. to make the user feel like they are using a Win32 application. In addition we are using hidden frames and javascript to ensure that we don't refresh pages when we don't have to. Similar to what Google is doing with Gmail, though their XML and HTTP requests are more than we currently are doing.    Mike said...   I think you can do a lot more than today - on the server.   http://www.naltabyte.com   Looks very interesting. I'll have a better look later.   Anonymous said...   Sorry, but…  “After all, HTML isn't evolving, so web pages and browser rendering in 2007 will be essentially the same as today (which means the web, or at least HTML, is as good as dead […]).”    urlLink Rockford Lothka     // Martin  If HTML will be dead then what is the future? I am sure that HTML (or XHTML) will be the web standard. In addition we will have additional XML standards to overcome the current problems. CSS will become more powerful. X-Forms. More JavaScript capabilities.   Anonymous said... If HTML remains unchanged, it doesn't mean that the web is dead : on the contrary, it means it has reached a big enough market to be relied upon and trusted to create new tools and new uses. Think blog / wiki / groupware / ERP ;-) / etc...    Perrick -- http://www.onpk.net/ The web..dead? ;)   Anonymous said...   XML support without plugins:    I have used http://freshmeat.net/projects/xmlforscript/ for parsing &amp; accessing XML. It's not perfect but it works.    Kari Hoijarvi Looks very interesting! I had a quick test but couldn't get it to work with my current script that uses MS XML Parser. Tried using that object with Mozilla but it didn't work.   Anonymous said... Well... You could solve those issues using HTML/JavaScript/CSS, but the easy way would be using Flash. Flash easily solves all the problems you mention here (and then some...), it's fully cross platform, vitually everywhere and 100 % identical on all platforms. What more do you want?    Jensa   http://www.netron.no   http://www.flashmagazine.com  Flash is great for some things. Like advertising, product demos, animations etc. But for general web-pages and in our case - a web-based ERP-solution - Flash is not the best option. Flash has many disadvanteges though it is a great tool to use.  
+    
+</post>
+
+
+</Blog>

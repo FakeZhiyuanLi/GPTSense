@@ -1,0 +1,1 @@
+Bertrand's postulate states that for any natural number n greater than 1, there is always at least one prime number between n and 2n-2. This statement holds for all natural numbers n greater than or equal to 2.

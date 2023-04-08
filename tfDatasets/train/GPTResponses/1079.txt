@@ -1,0 +1,1 @@
+Turing revised the results on the limits of proof and computation in 1931 with the help of Alonzo Church. Together they developed the concept of computability, which became the basis for the theory of computation.

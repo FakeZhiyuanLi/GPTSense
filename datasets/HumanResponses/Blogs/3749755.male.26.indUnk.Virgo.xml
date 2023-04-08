@@ -1,0 +1,139 @@
+<Blog>
+
+<date>31,July,2004</date>
+<post>
+
+    
+       Aha! Is Python language so easy to implement? We already got Python itself on normal platform and Jython on Java. Now, there is even more --  urlLink IronPython  on .NET and Mono.  I have thought more about it -- what's the benefit from such a implementation? Jython talked a lot on this issue, but it's already partly dead.  (UPDATE) Today, when rereaded some articles about IronPython, I was noticed that its author is  urlLink Jim Hugunin . Who's him?  I'm the creator of JPython/Jython, the co-designer of the AspectJ language and chief architect for its compiler and related tools, and the creator of Numeric Python/NumPy.  Everything is obvious now. 
+    
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+    
+        urlLink del.icio.us   Amazing! Just sucscribe the  urlLink popular link  with my RSS aggregator, I would know interesting websites that ppl readed. And, of course, I wouldn't need to copy my bookmarks.html from home to anywhere.  Note: I also tried  urlLink Furl . It use the similar idea with del.icio.us, and provide a better organized interface. Obviously, the number of furl users is less than del.icio.us currently, I haven't decided which one is the best to me.  Update: After digging in Furl several hours, I knew more about Furl. Most are cons. 1. Open a random page in d... and the corresponding one in f..., you can get more information from the first one. 2. When bookmark a page, Furl allows me to create only one Topic instead of several Topics in delicious. 3.  Sidebar , yes, the righthand-sidebar is really easy to use, much much better than Furl's ComboBox.  
+    
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+    
+       I searched in Google to find explanations about blogger API. They all said that the first line in content would be treat as title. But, neither gnome-blog nor blogtk could post in this way. That is to say that all known blogger client can't write title, except Blogger's BlogThis!.  So, what's the problem? Or, did I miss something? 
+    
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+    
+        urlLink Blogger Help : All about Blogger's post editor          Looks nice, but Preview function isn't as good as others. 
+    
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       I must get A for all courses in this semester.  Sure,   I believe I can do it  .   I will update&nbsp;this blog item in November, and check whether I get it.  
+    
+    
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+    
+        urlLink 维拉潘对北京赛区表不满 呼吁球迷支持中国队   为什么还有人去看中国足球队的比赛？ 这不是给自己找罪受么？  
+    
+    
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+    
+       Yes, I reopened it. 1. The button wouldn't open the new popup window. 2. The title always set to incorrect "undefined".   urlLink Bug 6497 - Blogger button doesn't open up in a popup window like BlogThis and is named incorrectly.   
+    
+    
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+    
+        urlLink 教你一招：linux中如何使用微软鼠标的第4、5键   Excellent article in Chinese. I will try it. 
+    
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+    
+        urlLink Asus Anti-Linux Attitude Sucks- MozillaQuest Magazine   Perhaps, the author is too sensitive, but Asus is really stupid in this case. They should learn something from Nvidia who didn't provide open source driver but still maintain a good relation with open source community. 
+    
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+    
+       At 5:00am, I received a call from Marie who came back from China.  When I drove in the motorway at 100km/h, it's great fog. Sometimes, I can't even see the object that 20 meters ahead. Later, things became even worse -- the right head-light of my car was broken. :( When off highway, the road was narrow without any road-light, and most cars are 80+km/h. Horrible.  After the dangerous trip, I saw Marie eventually. Hey, surprising, she is a really beautiful girl now, or more beautiful than ever. And, Chinese fashion style make me feel comfortable. ^_^  On the road to home, speed wasn't high, because many ppl were driving to work. Fortunately, we arrived home safely. 
+    
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+    
+       Blogger, nice to see you. 看到本页的兄弟姐妹们(如果有的话)，大家好。 
+    
+    
+</post>
+
+<date>07,August,2004</date>
+<post>
+
+    
+       Read   urlLink The Powerbook Prank: He wanted a Powerbook. We gave him a P-P-P-Powerbook!  , and look at following picture.     HAHAHA!!! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I found an interesting metaphor in a  urlLink Taiwan Forum .   用車子來敘述的話...   unix - military vehicle  unix是軍用車.價值千萬.性能卓越.堅固.持久.耐操.雖然不是很好坐.也不太好操作.但是絕對夠猛.一般都是使用研發完善的技術.功能強大而少有缺陷.但是軍用車豈是一般人用的起.有錢買也不一定會操作.所以我們常常看到長官在車後座.前座是專門司機...   BSD - BMW or Rolls-Royce  bsd系列則是bmw.勞斯萊斯.車廠依照軍用車的性能仿造的貴族車.價值百萬.連操作介面也一成不變.舒適.穩定.也事像軍用車一般請專職司機.老闆後面享受...   Windows - Common Sedan for home use  windows是家庭房車.價值幾十萬.外表有質感夠舒適.引導式操作介面.最適合學開車.你所需要的大部分都有.但是內部卻很脆弱.但是你不用的也拆不下來(廠商策略.不是真的不能).你要自己改裝又很困難.改了之後也好不了多少.有時會更慘.常常通知車主能進廠升級順便收一些費用.出了問題維修廠又說是車主不當控車或沒有保養造成的.老是跟你說要全修但是不保證一定能修好.不如再買一台或買第2代車種比較划算...   Mac - racing car  Mac像是高級賽車.價值百萬.車體系統和操作方式自成一套.出貨前做了最完美的調整.出貨後沒有改造的需要.不常出新車種.一旦有新機種.一定是搭配最先進的科技.車廠的服務絕對到家.品質至上.大部分買一次能讓你用好久好久.而且不想再換.也不太需要換...你只要有錢買.因為價值和價錢成正比...   Linux - not a car, just a design  linux...不能說是一台車.應該說他像一個設計圖.設計他的改車專家托瓦茲是因為想要像unix.bsd系列的車種.但是不用那麼貴.而且要很容易改裝.於是設計了這個性能.介面幾乎相仿.但是構造完全不同的車種.並且公開此設計圖.更允許自行修改.製造.販賣.此舉動使許多改車專家.小型車廠.都投入研發改造.而這群人也將改進後的大部分資料公開.使的這張設計圖幾乎天天都在進化.現在此車種延展性超高.價值無法估計.你想把他改造成飛機還是迷你賽車都行.托瓦茲後來在很多車廠擔任總監.負責此車種的維護.而此車種幾乎取代了unix系列車種...   
+    
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+    
+        urlLink Gentoo MacOS ! A nice way to build software from scratch on MacOS. And don't forget the  urlLink Fink Project  which is maturer and base on Debian. I could imagine the distro war on Mac now. 
+    
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+       I readed the news that  urlLink Doom 3   urlLink has landed in New Zealand  recently. It's a long wait for many many game players, but not for me. I'm never a FPS man. This kind of underground shooting game would make me dizzy. Counter-Strike is probably a better one than DOOM, Quake and Half-Life, because most of its scenes are under the sky, not in the dark building and tunnel.  Have fun! 
+    
+    
+</post>
+
+
+</Blog>

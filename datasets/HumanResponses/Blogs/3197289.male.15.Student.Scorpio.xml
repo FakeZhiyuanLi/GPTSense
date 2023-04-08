@@ -1,0 +1,149 @@
+<Blog>
+
+
+<date>01,May,2004</date>
+<post>
+
+	 
+      Yesterday was fun, first we all went to play tennis which was great, but the weather was really hot and humid. After that we went to the movies.  We were planning on watching Man on Fire and then going to eat dinner. Instead we ended up watching Man on Fire and then sneaking into 13 going on 30. After that we went to my house and just chilled for a bit before people went home. 
+     
+    
+</post>
+
+<date>25,April,2004</date>
+<post>
+
+	 
+      Came back from the Flying U Ranch yesterday, great experience. Got to ride horses and bond with my close friends.
+     
+    
+</post>
+
+<date>02,May,2004</date>
+<post>
+
+	 
+      Yay I finally finished my stupid Heads or Tails program, took me three days to learn how to do it properly. Heres the source code for those who are interested:  /*Heads or Tails Program Random number seeded with Time*/ #include   #include    main() {  	int x, y; 	srand(time(NULL)); 	x =1 + (rand()%2); 	printf("Heads(1) or Tails(2)? "); 	scanf("%d", &y); 	switch (y){ 		case 1: 			if(y == x) 				printf("Heads! Your Right!\n"); 			else 				printf("Tails! Your Wrong!\n"); 			break; 		case 2: 			if(y == x) 				printf("Tails! Your Right!\n"); 			else 				printf("Heads! Your Wrong!\n"); 			break; 	} }   After this I'm going to work on a slot machine program, and hopefully by the end of the year maybe a blackjack or Texasholdom program. 
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      Yesterday was quite tiring, spent so much time working on the Mold Project and I'm still not done. I hope to finish it today, since I won't have any time to finish it this week. We have a math test tommorow and a socials essay, I don't think I'm ready for either of them.  Watched Troy on Saturday, that was nice. Lots of people went with us and we all had a pretty good time. There weren't that many girls in the movie though, mostly guys so all the girls were googly eyed and the guys were left with the bloody battle scenes. Fair trade I guess.  It's been a nice long weekend, Happy Victoria's Day.
+     
+    
+</post>
+
+<date>12,June,2004</date>
+<post>
+
+	 
+      Well Grade 10 is almost over. Just one more week of exams and we'll be done. It all feels a little surreal. Summit's over but it still doesn't seem like it, I can't believe two years went by so fast. Yet it feels like I've been part of summit all my life. I've had a lot of good times, and I'm sure I'll have lots of good times to come, but still I wish Summit would last a bit longer.  O well, Congratulations Summits. We've made it through all of Stanway's confusing classes, all of Glick's crazy projects, all of Muir's  stupid assignments, and all of Doyles boring movies. Just two more years, haha I can't wait until we walk down the red carpet at Grad. Hang in there guys.
+     
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+	 
+      WHOOHOOO School's over. Congrats everybody, you made it through another year of school. I feel a bit excited about Grade 11, I mean only 2 more years till Grad, but I wish that Summit lasted longer. There's been a lot of good moments, not that we didn't have our bad ones, but we had a lot more good ones and I'm sure to miss a lot of them.  It's been a great day, the Math 10 provincial was easy and I didn't stress about that at all. Cept for those really easy ones that I swear to God are trick questions. I was planning on going to the beach but ended up going with Fifi, Des, Edmond, Ryan, and Tanya to Begbie to play Soccor and Basketball, it was really fun. Haha Fifi and her ant's. LOL and Des making his move on me hahaha.  Yesterday was nice too, I died on the Math 11 final, 82% but shopping with Pamela was really fun. Haha, Pamela and her selective hearing. Heres the story:  So we were at Orange Julius, and both of us were a bit hungry (Well only Pamela, I was just thirsty) and I was gonna buy a kids meal (Pamela suggested it like little kid she is). So ne wayz, we were in line and Pamela asked me what I wanted to drink, and I asked her what is there. She say's Banana, Strawberry, Orange. And I'm like MMM Strawberry please, then when its our turn the person asks what would you like to drink. Pamela goes Oranga (Not strawberry, but Orange) and I'm just standing there wondering wat the heck happened. HAHA seems Pamela has selective hearing, O well it's ok Orange was good to.  As for what I plan to do during the Summer:    Take Chem 11 over summer school   Take both A+ Certification Exams(and pass them)   Do some volunteering and try to get a job   Do some work on this site, and some programming   And Finally but most importantly GO OUT WITH MY FRIENDS   Anyways, I'm done here. It's been a long post but it's been a pretty good week all considering. HAGS everyone.
+     
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+      Well I'm almost done all my exams. Did my Biology 11 one yesterday, I think I did pretty bad. It was harder than expected, and I didn't really study for it. I studied for about an hour and then I ended up playing games on Des' Super Nintendo. O well, I don't really care any more.  Today I did the Math 11 final, and it was like so much harder than I expected. Some of the stuff I don't think he even covered, I hope I get at least a B on that test. I won't be too surprised if I ended up with something like a C+.  One more exam to go, the Math 10. It'll be really sad if I failed that test and got like a B on the Math 11. I don't think I'm going to really study for it, I'll probably go over a few topics and leave it at that. O well I'm going to Metro now with Pamela to get something for Fathers Day.
+     
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      Heres a little guide to using the music.  To listen to music you'll first have to click on Listen to Xel's Station, if you can connect with WinAmp than click Change Music with WAWI to listen to what you want to hear. If you can't connect that mean's I havn't connected the server and you'll need to wait for another time.  In awhile I'll have my music hosted and you can listen to any of the songs I have on my computer without listening to the radio. Thanks for visiting my Blog.  Xel.
+     
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      Yay this blog is finally starting to go somewhere. I've finally found the time and patience to setup my webserver and ftp server. So I'm now using my home computer to host this blog. Now I can get to work on the template of this.  Yesterday was a nice day, bunch of people came over and we just hung out sorta. Watched the 2004 MTV Movie awards that was fun, it had a freaky theme though. Today I don't know where I'm going, maybe golfing or biking along the sea wall. Haha it feels like summer already, but I still have a week of exams to go. O well, hope I do well on them.
+     
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+	 
+      Aww man, I'm so tired. Today went swimming with My mom and my cousin Jessie (haha she's so cute) anyways we went to Eileen Daily and all I can say is that going there without friends sucks. All they had was basically kiddie pools, and they didn't even have a diving board. I ended up doing a few laps and jumping off a diving block for most of it. They did have a pretty decent water slide though so that makes up for it.  As for my swimming skills, well I havn't swam for like a year and after a few laps I was basically dead tired. I need to go swimming more often this summer. I can't wait until Renfrew Pool is done it's renovation.  I also went shopping with my mom today, haha it was great. I got 4 shirts, 2 at Latitude and 2 at Mexx, I also got 2 pair of shorts at SportChek (Yay no more wearing my grandpa's shorts that are literally shorter than Fiona's beach shorts). I also bought the Vouchers for my A+ Exam, guess theres no turning back now.  Yesterday was great, sorta. Fabien, Desmond, Lisa x2, Jennifer and I all went shopping for camp stuff at Superstore and we were just about done when Fiona calls and tells us that Muir, being the lazy butt he is tried renting the canoe's and found that the guy had gone on vacation. What a guy, I thought teachers were supposed to plan ahead, o well. After that Fabien, Desmond, Fiona, Steve, and I all went golfing at Rupert Park. It was fun, haha Steve had his crazy baller shades, and I found a putter just lying around. After that  I went home and did nothing for the rest of the day.  If anyone has any suggestions for the site feel free to email me or post it in the Chatterbox. Soon I'll have photoalbums setup and I'll be hosting things for anyone (my friends) who wants them hosted. I intend to have this site well underway by the end of the summer, but well who knows maybe I'll just take a vacation instead. I need to get back into programming too, o well I'm lazy. Just wanna go hang out with my friends these days, ne ways I'm out.
+     
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+	 
+        Happy B-Day Esther and Evgenia   Well today was nice. In the morning I managed to get some studying for my A+ done so thats good, my goal to finish reading the book by the end of the month. After that I just watched some anime and surfed the net.   At around 4:30 I went to Renfrew Station to meet up with Fifi, Jenn, and Fabe to go to the Summit dinner. The dinner was nice, we presented the presents we bought on Sunday to the teachers. And the dinner was paid for by the fundraising we did, so thats a good thing. Have to say thanks to Fifi for all the hardwork she's done over the last two years to get all the fundraising organaized and to put up with all the crap we sometimes gave her. Good job Fifi.  After dinner we went to Rev's to bowl for Esther's bday. It was alrite my first two games were pretty bad, I don't think I broke a hundred, and my third game was just miserable. First I had a spare, and then two zero's in a row. Needless to say I didn't break 50 I think on that one. Haha after the games were done Fifi and I played Air hockey. She says she beat me twice but in reality the first was me being a gentlemen and the second one was a tie.  After bowling most of us got a ride home from Des. So thanks to Des hahaha. Ne ways I'm out Nites.
+     
+    
+</post>
+
+<date>03,July,2004</date>
+<post>
+
+	 
+      Aw man I havn't updated in such a long time, so this post will probably be extra long. Eh I've sorta got the free time right now. Aynways as you notice the picture gallery is up - sorta. I still have to add all the photo's and stuff but what you see right now is what it'll probably end up looking like. If anyone has pictures they want me to post up you can just send it to my email at  urlLink Admin  Also you can send any advice or comments on my site to that email if you want. As for what I've done this past week lets see:   On Wednesday I went swimming with Tanya at Eileen Daily, that was pretty fun except for the fact that a lot of the people who were gonna come didn't show up. But thats alrite. Anyways it was fun swimming with Tanya, we were doing flips off the diving block. In the beginning our flips were pretty good, I was doing them pretty well but then towards the end we both sucked and ended up doing flops until I hit my head against the block...it hurt like a female dog but eh I'm ok. Tanya also introduced me to the steam room, haha it was pretty hot in there, but the cold water at the end was worth it.  On Canada Day a Jennifer, Fiona, Pamela, Tanya, Desmond, and I went down to Grandville Island to check out the events there. Haha it was nice, we didn't really do much just walked around. The girls met a 'cute' guy called Adrian at this Hire a Student booth, and I 'met' this girl who when Des saw said "O Shit" aw man Des your way too mean sometimes haha.  Friday, I stayed home and was very very bored. Haha Fiona said I was investigating on what people did on the day, but Clearly I was not. Anyways basically I spent the day studying for my A+ Exam and did some other comp stuff.  Today Fiona, Jennifer, Fabien, Andrew, and I went to Steves house and watched Urban Legends. It was an ok movie, I would probably say it was mediocre but yea I've seen worse. Haha Steve and Andrew just couldn't stop farting, Steve had a nice one right it front of Fiona's face. Anyways after watching the movie I walked Fiona home. On the way in Steve's alley we met this ugly dog, that had like very little fur. And Fiona looked at it and actually called it a Cat. Anyways Fiona started walking very fast after that, and the dog sorta followed us, so that freaked her out anymore. Course I kept telling her that everything would be fine, I mean it's Phillip and his biceps. 
+     
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+	 
+      Haha had a great day today. Went to the KIts beach with Fabien, Jennifer, Fiona, Andrew, Steve, Diana, and Lisa Q. Not all of us got in the water though only me, Fiona, Lisa, Jennifer, Fabien. Steve said the water wasn't good for you, but eh only live life once. I had lots of fun splashing Lisa and Fiona, but then they made me stand there and get splashed after and I wasn't allowed to splash them back. The worlds so unfair huh.  Ne ways after that we all went to Red Robins for dinner. Fabien and Andrew were having a competition to see who could eat the fastest. Andrew showed us how much of a man he was by totally beating Fabien. But Fabien got him back by putting a shitload of salt into his doctor pepper. I tasted it after and all I can say is that it tasted absolutely disgusting. And of course Fiona said it tasted pretty good...weird girl that she is.  After I got home I watched this new anime this guy made called Hoshi no Koe, or Voices from a Distant Star. It was a very nice anime, both 2D and 3D about a teenage couple that are seperated by 9 lightyears and trying to maintain a relationship. It was a pretty touching story but I found parts of it confusing. I loved the soundtrack though, and I'm going to see if I can download some of the songs. If anyone's into anime I suggest you watch it.  Well schools going to be officially over soon. Getting report cards on Tuesday. I'm pretty sure I got good grades but I'll be happy after it's all over. I've got my first A+ exam scheduled for July 30th too I gotta start cracking on the huge A+ book. Later.
+     
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+	 
+        House for Rent   2871 E Pender ST 5 Bedroom House, with 2 washrooms and 2 Kitchens. It is located near the PNE, Hastings Park and Hastings Elementary School.  $1600 per month, not including utilities.  You can schedule a viewing for Sunday July, 11th. In the Late afternoon until the evening. For viewings after this date call (604)879-1868, and leave a message.  There is currently an open house from 4-7. Feel free to drop by and take a look around. For any further inquiries you can also call 778-885-5191 and talk to Yvonne the house owner.   
+     
+    
+</post>
+
+<date>14,July,2004</date>
+<post>
+
+	 
+      The house has been rented out. So I don't have to worry about that anymore.  The weeks been nice, watched King Arthur on Monday. It was a pretty good movie, course the story itself was a lot different than I expected.  Rest of the week has mostly been Summer School. Might go out tommorow and probably on Friday.  Later.
+     
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+	 
+      Aw man havn't posted in such a long time, been so busy with Chemistry and Studying for A+ exam and going out with my friends. Anyways:    Happy Birthday to Casey, Conor, Michael, and Steve   I know some of them are a bit late, but yea I havn't really found the time to work on this site. Anyways, it's blistering hot right now and I feel like I'm being baked next to my computer. Yesterday I went to play tennis with a bunch of people for like four hours, I woke up today with no energy at all, and I still had to go to Chem.    Casey and Conor's party was fun, it was nice seeing all the Summit people again. It doesn't seem like it, but it's only been about a month since school ended and it was so nice to just see all of us together again.    Chemistry is quite boring, today spend the entire second half of class listening to music and watching Jennifer chalk up Fabien. Haha Calcium Carbonate is good for you skin. Seriously!! Aynways the A+ Exam isn't that far off, and I've still gotta study for it, but yea it's quite tedious.    Summer's been great so far, but we still got a lot of things to do. Fireworks are coming up, gotta go to that. Fiona want's to go do the Grouse Grind, a bunch of us want to go to Victoria, so many movies to watch, especially all the Pokemon ones, Deep Cove, and Water Mania, and BBQ. Man so many things to do, and I'm starting to go broke haha. O well I'll figure something out, like begging for more money from my parents. Anyways I'm atta here. 
+     
+    
+</post>
+
+
+</Blog>

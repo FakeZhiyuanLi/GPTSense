@@ -1,0 +1,1 @@
+The exponent for the power law relationship between brain volume and body mass in mammals is approximately 0.67. This means that as body mass increases, brain volume increases at a slightly slower rate.

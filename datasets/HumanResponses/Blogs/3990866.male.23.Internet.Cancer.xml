@@ -1,0 +1,67 @@
+<Blog>
+
+<date>16,August,2004</date>
+<post>
+
+	 
+      Have finished the school structure section. Will work on PLU work and get it done, hopefully, by tomorrow. If I have time, will redo the maps section. 
+     
+    
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+	 
+      10:49am  I have just finished redoing the fundraising section. It works well and looks good.  Before I move on to the PLU work, I'm going to go back and check on all the work I have done so far. Paying attention to the following:  1. Links 2. Formatting and text 3. Images 4. Inconsistencies 5. Unifying left hand nav bar to be consistent across all updated pages  After that, that e-mail to Joe &amp; Damian. Before all this, an eye break. 
+     
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+	 
+      Notes made on first day. To be checked against master task list for project:  Both Sites General Notes  - way too deep and depth only in two sections - makes it very hard to access information - duplication --> new section of site has separate folder AND html file with setion name - lots of images and PDFs - opportunities for scripting  * intranet newsletters  * publishing process  * links page  * e-mail forms  * news - internal telephone list link broken - suggestion:  links going to internet site labelled or removed for sake of avoiding redundancy - suggestion: make nav bars for both sites more streamlined - not all courses on courses pages have links - suggestion: script news to keep it more current and any staff can add news - student section needs more content and development - question: i dont understand why pages r duplicated in the site map - definite need to reorganize and restructure website - too many different kinds of formats for marketing collateral posted (DOCs, PDFs, HTML)  * suggestions:   ^ either choose one bespoke or existing format and post in format  ^ implement mechanism to manage collateral published  Specific Notes - Break Down by Site and Section/Page  I. Internet Site i. 'About the School' a. way too much text - too much scrolling happening - suggestions:  * break down into subpages/subsections/sub headings  DONE   * make images larger (Looking into it)  ii. 'School Structure' a. no problem - well done page  iii. 'Swindon Campus' a. no problem  (Ed.: Reformatted and broken down)   iv. 'Fundraising' a. no problem  (Ed.: Reformatted, restructured, and broken down)   v. 'Staff' a. needs reworking - too little content and too many pages  - suggestions:   * add pictures and complete profiles for all staff   * enforce template for staff profiles   * better/new way of classifying staff (Possibility: JavaScript aid)  vi. 'Press Releases'  a. no problem - well done page  vii. 'Programmes and Courses'  a. more explanation needed for different sections  b. amalgamate sub pages with introductory text then reformat first page to just have headings/sections  viii. 'Student'  a. very bland - little content - needs massive boost and more information  b. FAQ not extensive and needs lipoinsertion bigstyle  c. 'Placement Learning Unit' page - grammar correction needed - face lift with links placement   d. links on left nav bar need to be consistent with headings on main student page  ix. 'Contact'  a. way too long - too much scrolling happening   suggestions: * javascript application  II. Intranet site  i. 'News'   a. no problem - all systems go.  ii. 'Students'   a. left nav bar links need to be consistent with main page links   b. 'FAQ' - suggestion: javascript application with bit of scripting to reduce page length  iii. 'Staff'   a. Internal Telephone List link broken  iv. SHSC information   a. Resources page useless - lipofunctionality / value  v. Policies & Procedures   a. another useless page - needs more link and lipofunctionality  vi. Links   a. suggestion: javascript application with bit of scripting to reduce page length  vii. take out Fundraising link - redundant  viii. take out Maps link - redundant  ix. take out Contact link - redundant 
+     
+    
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+	 
+      I'm slowly working my way through the site. Fundraising section is under the scalpel at the moment and has been reorganized. I'll be adding a new page for just campaign details to update the content and feel. Once that's done, I'm going to move over the PLU job and get that done, bringing in the new template to get it flowing with the rest of the site.  Other than that, CSS is becoming unmanageable on the site. Don't understand why it wouldn't style those classes today. *Sigh*. Plan is to finish an initial sweep to the 1.1 template and then stop completely on any further rework. Sit back, read, study, and do a proper design for the site as an on-going project. Then start on the same initial 1.1 process for the Intranet. Shouldn't take as much time as there is less content.  Note: Ask Annie about buying Sitepoint book. Come in early tomorrow and focus harder on work. 
+     
+    
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+	 
+      11:39am  Things going well. Index.html now redesigned and cleaned up to look like an introductory letter. It's now looking slick and easy to digest. Next to the about section and cleaning it up. All is well here so far.  18:19pm  Powerful day. About section now reorganized and all it needs now is just some final touchups and formatting. Will be done first thing Monday morning. Next after this, the rest of Annie's updates. Bit behind but I'm getting in some quality to the work. So I'm peaches and cream. 
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+      15:49pm  Finally. Completely done. The following were the objectives:  1. Indenting, organizing, and unifiying the markup                                                        -- DONE -- 2. Developing the commenting style to be used on ALL pages from now on             -- DONE -- 3. Breaking the template down into sections for code reuse                                           -- DONE -- 4. Optimizing the template and tweaking the tables without breaking the design    -- DONE --  Didn't blog yesterday as it was a slow and difficult day, and actually forgot to blog. I got so frustrated. Here's the scenario: I thought I finished the template. Off-line, it's beautiful. I upload it and update the stylesheets, and it breaks like a Ming vase. Couldn't figure it out and went home awfully frustrated.  Came in this morning and looked at it with a fresh pair eyes. Went back into the template and did further clean up. I had messed up the template before I left yesterday because I wanted to get all three main elements - the left hand navigation, content area, and right hand side boxes - to be on the same vertical height. So, I came in today and restored the template to health. Made a copy and worked on that copy until I did it. Golden rule:  Never touch a finished template. Always fine tune and hack a copy.  The template is now much cleaner, although still table-based. I must say though it's a weak-coupled table-based, as I have moved most of the styles and formatting to the CSS. Finally, the template actually looks virtually identical to the original Brookes one. So, I'm quite pleased, although my eyes are beyond exhausted.  And all this for the links page.. *sigh*. At least that page is now complete. Next up: the index page is getting a serious face lift. But since I have my trusty template, it's just about doing some re-organizing and cleaning up.  I'm taking a jazz break, resting my eyes, and doing some paper work. If I have time, I'll start coding up the new SHSC homepage! 
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+	 
+      10:21 am  After wasting so many hours yesterday trying to fix a broken table-based layout for the revamped links page, I've decided to stop a bit on the update work and construct a clean, readable template from one of the files of the SHSC website. It's just a waste trying to infuse new blood into a corpse held together by spit. Preliminary plan for this template sub-project:  1. Indenting, organizing, and unifiying the markup -- DONE -- 2. Developing the commenting style to be used on ALL pages from now on -- DONE -- 3. Breaking the template down into sections for code reuse 4. Optimizing the template and tweaking the tables without breaking the design -- IN PROGRESS --  After finalizing the template, it's cloning a new links page using the new template and uploading it.  17:17 pm  So close yet so far. Got to the bottom of the template file and the bottom td cells broke. *Sigh* Will hopefully iron out the spooks in the morning. But so far, have managed to get an empty area in the middle and keep everything standing. Have replaced all the spacer gifs and used simple styles. It's all in the padding, that's my advice to recovering table addicts. Even got around images and borders.  So close and will be there tomorrow morning.
+     
+    
+</post>
+
+
+</Blog>

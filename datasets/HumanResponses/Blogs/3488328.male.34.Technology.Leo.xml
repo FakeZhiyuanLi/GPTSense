@@ -1,0 +1,166 @@
+<Blog>
+
+<date>29,May,2004</date>
+<post>
+
+
+       
+      Test content. Just ignore.  
+     
+
+    
+</post>
+
+<date>29,May,2004</date>
+<post>
+
+
+       
+      This Thursday noon a box appeared in the lobby with a new [anxiously awaited] 2-way Opteron machine in it. It has a  urlLink Tyan S2885  motherboard with 2 Opteron 244 processors and 2 GB of memory. No doubts I put Solaris Express build 55 on it immediately. Quite a nice box.
+     
+
+    
+</post>
+
+<date>29,May,2004</date>
+<post>
+
+
+       
+      Last week I decided to grow something in the kitchen. I choose peppermint and rosemary to be an experiment subject. I brought seeds and pads from the greenhouse and sowed the seeds last Saturday. To my surprise it grew. Peppermint already has some tiny green leafs. Rosemary' destiny is still unknown as of today. 
+     
+
+    
+</post>
+
+<date>29,May,2004</date>
+<post>
+
+
+       
+      Well, I just created this blog. For a couple of months I thought about doing it, but this Saturday I just said to myself - "Go ahead !" - and here we go - fresh blog is here.  We'll see...
+     
+
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+
+       
+      Hooray !  This morning thorough inspection revealed that parsley gave a first tiny green leaf ! Yeah ! That IS miracle !  
+     
+
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+
+       
+      If you are reading this diary please do not forget to visit also  urlLink Solaris AHCI driver project . Our activity percentage is quite low at the moment, so we need to have more hits to increase it ! 
+     
+
+    
+</post>
+
+<date>11,June,2004</date>
+<post>
+
+
+       
+      I upgraded logrus to Solaris Express 06/04 (aka Solaris 10 Beta 4, aka s10_b58). I did first a Live Upgrade, but then recalled that I wanted to change partitioning anyway and just went for fresh installation.  Build 58 supposed to support Opteron. At least it recognized Tyan S2885' on-board Gigabit Ethernet out of the box. Still no SATA support. Presumably it should come with Build 61 - which probably means August time frame.  
+     
+
+    
+</post>
+
+<date>05,June,2004</date>
+<post>
+
+
+       
+      As memory problems with thunder got fixed, it (machine) now gets its official name "logrus", since it becomes my primary office workstation. That would be my first non-SPARC primary workstation for last ten years. Wow !
+     
+
+    
+</post>
+
+<date>03,June,2004</date>
+<post>
+
+
+       
+      Rosemary officialy declared dead. Nothing came out during two weeks. I wonder what was the problem - bad seeds (as Olga suggested) or bad treatment I gave it ? Peppermint grows quite good. I decided to grow parsley instead of rosemary. 
+     
+
+    
+</post>
+
+<date>03,June,2004</date>
+<post>
+
+
+       
+      Thunder memory problem appears to be related to the AMD errata 101. Having BIOS Node interleave and ECC memory scrubbing turned on simultaniously on MP machine will result in memory problems. I turned memory interleaving off and machine seems to be much more stable.    
+     
+
+    
+</post>
+
+<date>02,June,2004</date>
+<post>
+
+
+       
+      This morning I ran memtest86 on thunder it there were tens of thousands memory faults reported. :( I called technician and he claims that memtest86 cannot handle Opteron correctly. It doesn't sound too convincing. Anyway they sending new memory tomorrow. We'll see...
+     
+
+    
+</post>
+
+<date>01,June,2004</date>
+<post>
+
+
+       
+      Interesting how many people are reading this blog ? I know whom I told about it, but I have no idea who else may be reading this stuff.  Anyway, if you are reading this put something into comment section. 
+     
+
+    
+</post>
+
+<date>01,June,2004</date>
+<post>
+
+
+       
+      Thunder (name to be changed shortly) already crashed 3 times. Each time mdb shows different place and different reason. May be it is defective memory DIMMs ? Bad CPUs ? I don't know. I'll try to run memtest86 on it next morning. 
+     
+
+    
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+
+       
+       Wow ! Today is my birthday and my wife had a surprise for me. Olga warned me in advance not to plan anything for this Saturday morning. We got up and she quickly fed Sam (1y 3m) while two other children (Lisa [12y] and Alex[19y]) took care of themselves. We packed into the car and she said to drive in Herzeliya direction. It turned out we were heading Herzeliya airfield, where she arranged for the Cessna 152 for me to fly (well, with the professional pilot actually). I was questioned by a security guy (just like in the Ben Gurion airport - "How long do you live in the country ?", "Who packed you bags ?" [what bags ???], etc. Nice fellow, anyway.) and then there was a quick introductory overview of the plane and flight. In a nutshell, it came down to simple "Do not fight with me over the stick!" instruction. Then we were ready to fly.  Pilot took me to the plane - it was Cessna 152 II. I flew it a couple of times in flight simulator, but it was my first time to hold a real stick of the real plane. I inserted myself (literally) into the left seat while Lisa was shooting me. I ignited the engine and instructor started to taxi to the runway. In couple of minutes we were airborne. That simple. Cessna 152 is quite a light plane so she quickly gained speed and altitude. When we climbed to 600 feet instructor said - "Plane is yours, try to keep the direction and level" and let me fly. I took the stick and the plane immediately started to fall aside to the left. Another 20 seconds and I was ok with it. I flew it straight forward and kept altitude. Another couple of minutes and instructor said that he thinks I am doing fine and it is time to climb to 2000 feet and to do something interesting. So I pulled up and we climbed to 1800, where instructor talked to the tower and then said we should stay there. He intended to show me a couple of aerobatics figures, but as soon as he said "Here comes free fall" I said I do not think that is such a good idea and he handed over the stick back to me. I started to play (!?) with it. Left turns, right turns, up and down - it was very nice and I thought: "Well, it is not so bad after all. I feel fine an flying Cessna is quite easy." T'was a big mistake. It retaliated back almost instantly by having me feel sick. I hated myself at this moment. I asked instructor how much time do we have yet and he said around 7 minutes. I decided to hold on for this time, no matter what. Instructor, probably, noticed I am not feeling well. He took over the stick (I didn't fight over it!) and headed to the runway. I observed landing as a passenger (as it was planned) and it felt like landing the plane is much more complex that taking off. At least from my point of view. Anyway we touched runway and taxied to the stop. Lisa, again, filmed me crawling out of the plane. I felt a little bit dizzy, but it soon went away.       
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+
+       
+       urlLink Solaris AHCI driver project  now accepts donation via PayPal. Frankly speaking I am not expecting money to start flowing in, but if I wouldn't opted for it I wouldn't be paid for sure.
+     
+
+    
+</post>
+
+
+</Blog>

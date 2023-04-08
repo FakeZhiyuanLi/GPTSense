@@ -1,0 +1,1 @@
+The condition that must be satisfied is that q is a primitive root modulo p, meaning that every residue modulo p can be expressed as a power of q. This ensures that when expressing 1/p in base q, there will be a repeating period of length p-1, as every residue will cycle through the same sequence of digits.

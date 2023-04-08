@@ -1,0 +1,147 @@
+<Blog>
+
+<date>22,May,2004</date>
+<post>
+
+
+       
+       urlLink sunhelp   You can use vi mode by setting the option like this:   set -o vi (when in ksh already) OR ksh -o vi (when launching a ksh shell)   In this mode, you'll want to get familiar with a few commands:  Previous Command ----> [ESC]-k Use this key combination to access your previous command  Next Command ----> [ESC]-j Use this key combination to access your next command (if applicable)  Filename Completion ----> [ESC]-\ Use this key combination to complete a filename, or partial portion thereof  Filename Check ----> [ESC]-= Use this key combination to show which files would complete the command at this point  
+     
+
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+
+       
+       urlLink Caldera OpenUNIX 8 FAQ: How do I use Korn shell filename and directory name completion?   vi mode   To use name completion, use the Korn or Bash shell with the EDITOR variable set to 'vi' as described in previous question (How do I use Korn shell command recall (history)?). Then start typing something like         cd /opt/net    then press:       'Esc'       '\' The keystrokes Esc, then \ will complete the name net to netscape if net contains enough characters to uniquely identify the only possible name as 'netscape.' If there are two or more files or directories that start with net, then nothing will change on your screen.   emacs mode   To use name completion, use the Korn or Bash shell with the EDITOR variable set to 'emacs' as described in previous question (How do I use Korn shell command recall (history)?). Then start typing something like   For emacs mode the equivalent character sequence is Esc Esc. That can be mapped to the more convenient TAB key with the trap and keybind function listed in the section on command line history recall and playback and the following binding in ~/.profile           keybind $'\t' $'\E\E'  # Tab -> file/cmd completion
+     
+
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+
+       
+       urlLink Tab-completion in Windows 2000 (Anders Jacobsen's blog) :  I might be the last one in the world to discover this W2K tweak, but just in case others are interested; here's how to get 'tab completion' (famous from the unix world and also (I hear) now default in Windows XP command prompts) in Windows 2000: Hit the 'Start' button  Select 'Run'  enter 'regedit', hit OK  Expand 'My computer' (by clicking the little [+] beside it)  Expand HKEY_LOCAL_MACHINE  Expand SOFTWARE  Expand Microsoft  Expand Command Processor  Double-click 'CompletionChar'  Replace the value that's there with 9 (which is the ASCII equivalent of the TAB key)  Click OK"
+     
+
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+
+       
+       urlLink 微軟風格的入口     urlLink MAC風格的入口    urlLink Linux風格的入口    urlLink FreeBSD風格的入口    urlLink Google彩蛋遊戲    urlLink 購物搜索引擎    urlLink  google webquotes   作用：可以搜索出你要查詢的內容在internet上被多少其他的  網站引用過，可以讓你知道internet上其他人對你要查詢內容的觀點，  適合寫論文和評論以及特殊用途人使用。    urlLink google的詞彙表    urlLink google voice search  作用：給google打一個電話，說出你要查找的內容，然後google會  把你要查詢的結果顯示出來。 給不識字的人用的？
+     
+
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+
+       
+       urlLink MTA Fetchmailmta (MailDirMDA)  
+     
+
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+
+       
+       urlLink Mail retrieve program  
+     
+
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+
+       
+      MS Applocale bug - solution: delete C:\WINDOWS\AppPatchAppLoc.tmp
+     
+
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+
+       
+      Novell Customer Communities Linux Technical Resource Kit order form   We appreciate your interest in the Linux Technical Resource Kit, offered by the Novell Customer Communities. This comprehensive, resource contains all the Linux software and services you need, to be able to evaluate Novell's core Linux offerings. With over 10GB of fully-functional software, this tool will help you test and evaluate Linux products from Novell in your home test lab.  - SUSE LINUX Standard Server 8.0 (ISO Installation Images) - SUSE LINUX 9.1 Professional (Bootable Installation DVD) - Ximian Desktop 2.0 Evaluation (ISO Image) - Ximian Red Carpet 2.0.2 Evaluation (ISO Image) - Novell Linux Services 1.0 (ISO Image & NLS Companion CD) - Novell GroupWise for Linux 6.5.1 - Server, Client & Messenger (ISO Images) - and more...  GO HERE: http://www.novell.com/community/linux/order.php 
+     
+
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+
+       
+      Start the Registry Editor  Go to HKEY_CURRENT_USER \ Software \ Microsoft \ Windows \ CurrentVersion \ Policies \ Explorer \  Right-click an empty space in the right pane and select New > DWORD Value  Name the new value NoSharedDocuments  Double-click this new value, and enter 1 as its Value data  Close the registry editor  Log off, or restart Windows for the changes to take effect  To reverse this process, change the Value data to 0, or delete the NoSharedDocuments Value.  
+     
+
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+
+       
+       urlLink windows xp tips 
+     
+
+    
+</post>
+
+
+<date>29,June,2004</date>
+<post>
+
+	 
+      test 
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+      test
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+      test
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+      test
+    
+</post>
+
+
+</Blog>

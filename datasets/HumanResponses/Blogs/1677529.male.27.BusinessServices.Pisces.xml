@@ -1,0 +1,356 @@
+<Blog>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      hahahahahahahaha...MS is so vulnerable to worms and viruses,  urlLink they run linux web servers instead of their own!     but they're not alone...according to  urlLink this post on slashdot , "It may be a case of 'do as we say, not as we do' over at the Santa Cruz Operation. The Netcraft statistics meter says that for the last year, SCO's web site has been served by Apache on Linux. Indeed, it's been more than a year since the site was ever served from a SCO Unix machine. So what is the possible reason for this? Your humble author suggests that SCO found themselves requiring a multithreaded web server, and as SCO UNIX is based on an ancient version of The UNIX spec it just couldn't cope ;-)."
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       TEST RESCHEDULED FOR FRIDAY!!!  too many other tests scheduled for Thursday, so we'll do Current Events Thursday and test Friday.  sorry for any confusion, but I'm working for YOU!  (sounds like a politician...vote Maynard!)   UNIX/Linux history  ok, in a hurry, here's the low-down... Kent Thompson and Dennis Ritchie started work at Bell Labs in 1966 and 1967 (respectively).  They worked on the Multics project, on which the Unix project was based.  1st Unix: 1969.  DR wrote the C language (KT wrote B), and by 1973,  Unix was rewritten in C, kernel and all.  AT&T released Unix source to academia around 1974.  One of the most prominent Unix versions to come from that release was BSD (Berkeley Software Distribution).  Ethernet came along in 1976 thanks to Xerox, and Unix systems were (and are) the foundation for the Internet.  By 1982, AT&T was able to sell Unix commercially.   Major Unix vendors:  Sun Solaris, IBM AIX, HP-UX, SCO...   RMS and Free Software  1971--Richard M. Stallman hacking away at MIT AI lab.  Xerox gave them a printer, but no source code for it.  Infuriated by this refusal, RMS went on to lead the push for free software, creating the GNU Project (1983), the Free Software Foundation (1985), and the GNU General Public License (GPL, v. 1.0, 1989).   Linux  Linus Torvalds was a student in Finland.  In 1991, he started working on Linux, his own version of the Minix kernel.  He started it as a hobby, not expecting it to be "big and professional like gnu."  RMS was (and still is) working on the GNU HURD kernel, which has yet to reach v. 1.0 to this day.  Fortunately, the Linux kernel came along and filled the HURD gap, even though Linus never envisioned it that way.  In 1992, Linux and GNU started playing nicely together (technically, Linux is really GNU/Linux), and by 1994, v. 1.0 of the Linux kernel was released.  (Today, the current stable kernel is 2.4, and 2.6 is expected to come out later this year.)  In 1996, Tux became the official mascot of Linux (see the Links section of the blog for an article with all the details of Tux's birth and adoption).  By 1998,seven years after its announment and 4 years after v. 1.0, Linus was on the cover of Forbes magazine!  Not bad for "just a hobby."
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      look here soon for UNIX/Linux notes...time was short today, and internet connections intermittent.  i'm working on the test right now, and we'll review more tomorrow.  i'll also post some notes, either today or tomorrow.  so keep checking this page for current study info...  "time is always against us."  --morpheus,  the matrix  
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       urlLink We will be working from this UNIX timeline today .  Also, while not required reading, the Richard Stallman bio (link is on the right) has some good info about RMS, GPL, and free software in general.  to get an idea of how complex and intertwined Linux and Unix are,  urlLink look at this graphical timeline  (it's the same one I have posted on the wall in the lab).
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       more about windows  win 3.11 used the old DOS 8.3 naming convention (ie, filename.xyz).  All files in windows use extentions, such as .doc, .txt, etc.  Win95 and up used long file names (256 max).     file systems  win 95 supports FAT, and later versions use FAT32 also.  98/ME support FAT and FAT32.  none of the DOS family/9x breed support NTFS.  NT 4 used FAT and NTFS, but not FAT32.  2000/XP do all three (FAT, FAT32, NTFS).  get to know the reasons why NTFS is better.  I wrote them on the board and discussed them today (Monday).  The end of handholding begins now...  If you missed it, maybe someone who took notes will have mercy on you.    TEST THURSDAY!!!    We'll talk about Unix and Linux, and the test will cover Win, Unix, and Linux.
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       stuff to know about windows:   the DOS family  --DOS      16-bit, single-user, no multitask, limited memory and storage support, hevy on command line usage --Win 3.11 (Win for Workgroups)      DOS-based; better networking, better GUI --Win95      Huge GUI overhaul (start button, desktop, windows, etc); 32-bit, but still had 16-bit code and DOS in it (think: BSOD); multiple users and multitasking --Win98     Bug fixes for Win95; better networking and internet; more hardware; slight GUI changes --WinME    "please ma, don't make me use ME!"  still had DOS in there, and more bugs than an episode of Fear Factor; MS would just as soon forget it altogether  NT family  --NT 4.0      32-bit only (no DOS!); improved stability, but couldn't run older proggies; used a HAL to prevent lock-ups; multi-user; more secure and stable than other versions (like 9x) --Win2000      built on NT; combined user friendliness and GUI from 98 with stability and security of NT; better hardware support than NT (plug n' pray support) --WinXP      the end of the DOS line (no more DOS under the hood); combined "best" of DOS family GUI and ease of use with NT family security and stability  file system stuff  --FAT and FAT32      Win95 and 98 used FAT (16-bit) and FAT32 (32-bit...duh-huh).  95 originally used FAT; support for FAT32 built in later.  WinME used FAT32 by default.       NT family used NTFS, a journaling file system.  NT and Win2000 can read FAT and FAT32, but Win9x/ME machines CANNOT read NTFS.  
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       stuff to know about the history of computers:  the abacus; blaise pascal's adding machine (1642); charles babbage's difference engine (1822); punched card computer systems (early 1900's); herman hollerith's advances with punched cards at the u.s. census bureau; ibm and remington enter the fiels (early 1900s); WWII and the ENIAC system (1940's); the stored program concept; 50s--magnetic storage; 60s--CRT displays; 70s--pc's enter the market; 80s--the x86 processor; 90s--internet and email become widely used.  next, we'll talk about MS Windows (eek)...
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       Homework Help   urlLink this page  has some good links for homework help, the best of which is  urlLink sparknotes.com .  another good site is  urlLink homeworktips.about.com    urlLink  a concise hacker how-to 
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      MSBlast news links (tabs will help here :)   urlLink it won't break windows , but  urlLink  don't ignore it ; and  urlLink these folks say it ain't over yet .   urlLink MS admints they have more work to do ...hahaha, we knew that! :)   in the uh-oh department,  urlLink the GNU project server got hacked .  seems all 2.2 and 2.4 kernels are vulnerable.  is this an open source flaw, or a security notice flaw?  probably the latter, since even proprietary stuff gets hacked (and more often).    finally, in the sock-it-to-'em dept,  urlLink the head of SuSE Linux is taking MS on hed-first...and surprisingly, he's doing very well .  this bodes well for all open source vendors.  viva la competition!
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      thx to thad for finding this....pressing F7 in mozilla lets you use a cursor on the page to select text. thx to grey for this...pressing F6 in mozilla moves your cursor to the address bar. thx adam...F3 does a search in the current page  ...very nice  to find more kb shortcuts, use mozilla help (help, help contents) 
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      Wanna be a hacker?   urlLink click here  to find out how...  while we're at it,   urlLink this is a good link about the history of computers ...i will be lecturing from this soon :)
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      welcome to my (our) blog!  throughout the year, i'll be posting links and various other info to this page.  keep an eye on it to help keep up with the class.    for example, take a look at the Links.  they are subject to change throughout the year, but offer a good starting point.  also, if any of you create your own blogs, let me know...we'll see about posting a link here.  hopefully, this class will encourage you to seek out information for yourself, and to share important info with others in an ethical way.  here's to a new year...
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      man, talk about your flaky net connections.  net down, blog down :(  hopefully i can stay online long enough to get this posted.  i've got a feeling that either we need to fix a cracked bell or slay us a dragon (cryptic, sure; correct, you bet).   aight ...we're in section 4 of the rute tutorial, and so far so good!  we learned how to see hidden files with  ls -a , and that we can combine the "all" and "long" flags together:  ls -l -a ; ls -a -l ; ls -al ; ls -la .  we also noted that almost all commands will give you a short summary of optional arguments when you use either  -h  or  --help  (they generally do the same thing).  if you execute commands successfully, you usually don't get any response from the computer.  however, errors are reported.  remember that error messages will not tell you how to fix the problem; they only tell you what the problem is.  it's up to you to figure out what you're trying to do and then try to fix it.  the wildcards we discussed are  *  and  ?  .  of those two,  *  will return any combination of characters;  ?  only matches  ONE  character.    when naming files, make the names as intuitive as possible.  for example, if you write a lot of letters, use  filename.letter  to help you remember what the file is.  there is a list of common extensions found/used on linux boxes, and it may help you to refer to it from time to time if there's something you're not sure about.  globbing is useful for searches; you can group several search options into one command using globs to help you save time.  example:   [a-dJW-Y]* matches all files beginning with a, b, c, d, J, W, X or Y; and *[a-d]id matches all files ending with aid, bid, cid or did; and *.{cpp,c,cxx} matches all files ending in .cpp, .c or .cxx  usage summaries are useful for demonstrating how to use a command.  you replace the parameters and the optional parameters with the arguments you need, and bammo, you're job is done.  usage summaries for the  cp  command would look like this:     cp  file  newfile      cp  file  [file  ...]  dir    fyi, i use bold letters on this page to make the commands stand out.  we will soon learn more commands and practice them ( rm  and  rmdir  come to mind :)
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       Syntax:  A systematic, orderly arrangement.  when we're talking commands, syntax is the order in which we issue commands and arguments.  for example,  ls  is the list command.  if you use  ls -l , then  -l  is your argument.  notice there's a space between the command and the argument;  ls-l  (with no spaces) WILL NOT WORK!  in fact,  9 times out of 10, the command will not work properly without proper spacing (there are always exceptions, but it's best practice to always space correctly).  this is where syntax comes in.  another example is the  cat  command.  to create a text file and add text, you use the following command:  cat > filename type in text here...blah blah blah...[ENTER] [CTRL+D]   your command/argument line goes like this:   cat [space] > [space] filename [ENTER]   pipes need room to work, too:  ls [space] -l [space] /usr/bin [space] | [space] less [ENTER]   get comfortable with proper syntax, because we're about to dive into more commands! 
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      haven't you always wanted your own penguin?  yeah, me too!   urlLink click here to find out how!   it'll only cost about $2200 (less if you get an old one that'll die sooner).  i'm also putting a link to it in the Links section of this page for future reference (right below the History of Tux :).
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       note to comp2 classes:  we've just jumped into the realm of linux commands, and so far so good.  however, i am a little disapointed with the apparent lack of effort i see from some during class.  distractions range from solitaire and typing homework for other classes to talking and an outright refusal to cooperate.    the biggest problems are: 1) if you're playing games or doing something other than following the material, it distracts me (and others too, most likely); 2) if you're not listening, i have to repeat myself, which i do NOT enjoy doing; and 3) you're going to get left behind, have no clue what's going on, and your grades will suffer as a result.  trust me, i understand how difficult it can be to pay attention when you have a pc in front of you, but it's critical that we all try to keep up!  the directions are right there in front of you, and i'm there too to help you.  if you work with me, we can get done earlier and have some time left at the end of class.  if you don't it's going to suck for all of us, and no one wants that.   having said that...  ...i think it's also important that we remember there is a  TEST ON TUESDAY!!!   we've introduced linux, and learned a few commands along the way.  let's have a review, shall we?  there are 3 things common to EVERY computer system:  files, directories, and commands.   linux is no different.  we have our root directory (/) at the base of it all.  /bin stores binaries (executable programs); /etc stores system settings; /home stores home directories; /mnt is where other file systems are "mounted," such as CD's and floppies; /root is the root user's home directory; /sbin contains administrative programs, many used only by the root user; and /usr is where many programs are installed.  this directory scheme is common to all UNIX and Linux systems (with some variations allowed between distros) thanks to the POSIX standards, which establish the requirements that a system must meet to be UNIX-compliant.  we also talked about the maximum length of a filename,  256 characters .  we briefly talked about binary (1's and 0's), octal ("base eight"), and hexadecimal ("base sixteen") numbers.  linux and unix make strong use of these, so it helps to at least know they exist.  it's also good to know that every character you can type has a binary, hexadecimal, octal, and decimal representation.  ASCII code pages are used to translate your input into binary, the language the computer uses.  remember what the different parts of your command prompt are.  for example:  [kmaynard@hslab kmaynard]$  the first part is your username (in this case, mine).  the "@hslab" tells you the hostname of the computer you're logged into.  the third part is your working directory (in this case, it's "kmaynard," my home directory, which is the default when you first log in).  the working directory section changes as you use the  cd (change directory)  command.  if i moved to the  root directory (/) , my prompt would read  [kmaynard@hslab /]$   so far, so good.  now, let's look at a list of some of the commands we've discussed:  passwd  -- change your password  cd  -- change directory  ls  -- lists what's in a directory.  use the  -l  flag to see all the details, too  cat  -- create and read text files.  use "cat > filename" to write to a text file (press ENTER and then CTRL-D when you're done to save and exit cat); use cat without the '>' to read it--"cat filename"  mkdir  -- literally, make directory.  generally, you will use this the most while in your home directory or in a directory you created under home, because you probably won't have permissions needed to create directories elsewhere.  pwd  -- present working directory.  do this in your home directory and you'll get "/home/username"  exit  -- ends your current session.  logout also works, but exit is a little more definite.  not a bad list so far!  we'll review all of this on Monday, and if you review this post and the one right below it ("stuff to know about linux"), you should do fine.   GOOD LUCK! 
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       stuff to know about linux  ok, yeah, we've mentioned a lot of this already, but that should make it a little easier on you. "Linux " itself is just the kernel  urlLink (go to kernel.org to see) .  when people refer to linux, they usally mean one of the various distributions  urlLink (distrowatch.com has a good catalogue) .  distributors take the kernel, customize it, add packages, and release it as a complete OS.  what makes linux special?  it's free, it's fast, the kernel is modular (don't need/want it, don't load it), it has a wide variety of highly customizable GUIs to choose from, it's stable, and it's secure.  there are many programming languages and tools freely available for linux, and there are all kinds of programs for just about everything  urlLink (sourceforge hosts a large number of ongoing projects) , including web broswers, chat clients, office suites, scientific and educational software.  since GPL'd source code is open to all, bugs are quickly found and dealt with.  also, since linux has very strong UNIX roots, it has excellent networking capabilities.  not bad for a free OS.  we'll be working with linux for a while, so get accustomed to it!  change your password, and don't tell anyone what it is.  if you'd like to try it at home, let me know.  i can burn cd's for you and tell you how to install it on your pc.
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      ok, so i didn't watch DOS videos this weekend.  (excuse me for finding better ways to spend my time that watching video professor tapes on what should be a dead language.)  therefore, we'll be starting in on linux this week, which means more hands-on work.  we'll start tuesday with an intro to linux (see the link titled, "What is Linux?); on Wed, we'll set up our accounts; thurs, we'll learn some basic commands, and friday we'll have a small, easy, no-using-the-blog test.  we'll skip the current events this week since we're a day short.  life will most likely go on regardless, no?
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      ok, we got through section 7.1, and I think we're good for now.  i just don't think we'll benefit too much from advanced scripting at this point.  my goal is to keep this as an introductory class, so i'm going to leave the remainder of section 7 to you as an independant study.  in other words, we're movin along.  i never wanted to do section 8 (strem editing) because i couldn't understand it.  maybe another year, but not this one.  we're going to move on to section 9.  in it, we'll learn how to monitor what jobs you're running, how to stop a process, and possible some environment variables.  this stuff really comes in handy, sometimes moreso that scripting.    from there, we'll move on to mail.  we have a mail server on the linux box, and we'll formally learn to use it during this semester.  so, fire up putty, log in, and away we go....
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       EXAM TIME DRAWS NEAR!  i have run a little behind on the ol' blogeriffic, but here's a summary of where we at :)  we learned how to use TWO (count 'em. 2) text editors: vi and nano.  here's how to use them:   vi [filename]  nano -w [filename]   sure, nano is pretty easy...sure, it lists the commands for you at the bottom of the screen...but will it color code your program files like vi will?  no way!  vi may be more difficult to learn initially (think: vimtutor), but it's worth the hassle.  it's a very powerful editor.  take advantage of that.  we're also getting into the very basics of shell scripting (online linux tutorial section 7.1). this is what your exam will be, so learn it!  there's plenty you can do with scripts, especially once we learn more advanced features.  for now, get the basics down.  i'm not going to cover it in depth here, but you've got access to the tutorial, your history, and your home directory which, if you keep up in class, will have everything you need to figure out what we're doing.    i'll also put working examples of the scripts covered in the tutorial in  /home/sandbox/rute .  TAKE ADVANTAGE OF THIS!  good luck :)
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       welcome back...  ...please try to contain your excitement.  we have 3 weeks till Christmas break (!!!), and i want to try something.  i want everyone to email me a list of the top three things you'd like to learn about in this class (if you can't think of even one, you should probably look into a schedule change for next semester).  what i'll do is look at your list, see which of your choices is most feasable given our hardwarre and software, and help you do research on it to learn more about your topic.  some of you are already pursuing interests in HTML and graphics, and if you want to keep going with that, let me know.    whenever possible, we'll try to find open source software to use.  one excellent resource is http://theopencd.org , which has great open source windows software.  beyond that, we'll just have to do some googling :)  as for those of you without any idea what to do, may i suggest powerpoint? :)    i'll keep tabs on everyone's progress, and those who have nothing to show me will get nothing in terms of credit.  the point is, i want everyone to have the opportunity to work on something they enjoy.  you've all got the basic skills down, it's just time to apply them in a a bit of a self-study fashion.  i believe that's the best way to learn anyway--pursue something you want to do.  i'll just be the tour guide for a while.
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       HTML  basic html is pretty easy.  i would post a no-frills, nothin-fancy web page, but the tags don't show on the blog.  study your notes :)   permissions  permissions aren't all that hard, once you understand a few basic concepts.  in your home folder, run  ls -l  and look at the first string of letters:  drwxrwxrwx .  the 'd' stands for 'directory.  if it's not set, then it's a file.    here's what you need to memorize to get this:  r = read = 2 w = write = 2 x = execute = 1   the first set of rwx is for the 'user,' the second is for 'group,' the third is for 'others'  (u, g, o).  using the  chmod  command, you can modify the permissions for files and directories.  for example, a file set to 'rwxr-xr-x' is equal to 755.  if you don't want others to read the file, you can use one of two commands:  chmod 0751 [file] -=OR=- chmod o-r [file]   either one will work.  now the permissions will be 'rwxr-x--x.'  if we want to add write access for the group:  chmod 0771 [file] -=OR=- chmod g+w [file]   again, easy as pie.  if you want more information, go to  urlLink the rute tutorial  section 14.-14.1, and also run  man chmod .  those two sources cover this topic well.  
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       links for the people web design   urlLink HTML Help-Standards-based help   urlLink Web page design for designers --might be worth a look  urlLink 10 things NOT to do on your page   urlLink WWW Consortium --the Web standard bearers/makers   graphics   urlLink GIMP users--START HERE!  this is an excellent turorial, and will give you an intro to making images  urlLink Grokking the GIMP --an online book that gives great details about the GIMP...great resource  urlLink gimp.org homepage --some useful info if you dig a little    powerpoint   urlLink PP in the classroom --a little, umm, fruity, but good coverage of basics  urlLink PP Tutorial --more basics, less fruit  urlLink PP FAQ's --excellent pointers  urlLink the Evil Empire's own page --mostly covers 2003 version, a lot of which should still work with 2000  i will add more as we go along.  some of you will need to be a little more specific about what you want to do, especially you linux folks.  there's mounds of stuff we can look into, and i want to narrow it just a little.
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       coach got links  as promised, links to good sites about networking (first batch):     urlLink Good everview of the OSI 7-Layer Model     urlLink Graphical representation of OSI 7LM     urlLink Sun Micro's description of the OSI 7LM --should help clarify things...very clear and concise    urlLink The obligatory Google search results, for those wishing to explore further      links about topologies:      urlLink diagrams of the five most common network topologies     urlLink the Evil Empire's guide to home networking --not bad, if you replicate what they do using Linux ;)    urlLink Obligatory Google search results     ok...not bad for a start.  more to come later. 
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      mmkay kiddos.  it has been a long time since i've put anything new here, but the time is upon us again.  we're going to start talking about networking, and while the book we have is ok, there's more to it than what will be covered there.  i will have some links posted covering varying network topics.  we will 0\\'|\| 73h \\'3r|d with networking :)
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      something more to love about windows:  urlLink Internet Week > Worm > New Worm Spreads Via E-mail, Shared Folders .  sounds like another good reason to use FOSS:)
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       urlLink Microsoft Crash Gallery --this is funny...collected pics of MS errors and bugs. learn to love the penguin, folks ;)
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      if you want to find a good collection of tips for building Web pages (including JavaScript),  urlLink PageTutor.com: HTML Tutorials  is a good resource (thx to dustin wallace).
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      here are a couple of helpful links for resume design, content, etc.     urlLink Monster: Resume    urlLink Resume Tutor   
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       urlLink This page  is an interesting look at what the Internet is (and isn't). good reading :)
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+        The following link should be required reading for IE users!  It tells you how to lock down IE (as much as possible anyway), and gives a list of several anti-spyware programs you should use. urlLink Net-Integration Forums -> So how did I get infected in the first place?      Not all spyware programs are created equal    urlLink This link contains a list  of spyware removal tools the ACTUALLY INSTALL SPYWARE!  bottom line--stick to the programs that are known to be good, such as SpyBot Search & Destroy.   more details about anti-anti-spyware programs  urlLink can be found here     
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      Today's reading:  urlLink The Command Line - The Best Newbie Interface? - OSNews.com .  Read this today, we'll discuss it this week. :)
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+       urlLink We're starting here, with this CBS article today 
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      by now, most of you know i won't be back next year.  no one's really sure who the new computer teacher will be, either.    i won't, however, be falling off the face of the earth :)  here's what im thinking:  i still believe that linux is the way to go.  there's a lot to learn there, and learning learning about linux improves your overall computer knowledge, no matter what OS you use.  there are tons of resources available online, and people (like me) who are willing to help show you the way.  if anyone is really, honestly interested in learning about computers in general, and linux in particular, i will be glad to help.    keep a few things in mind:  1) there are no grades in this, only knowledge; 2) YOU are doing the work. YOU are doing the research. YOU are trying the commands and the scripts and the config files, etc. I am only here to help you, not to do it for you. trial and error is the best teacher; 3) don't waste my time with junk mail, intentionally stupid questions, etc. you're much less likely to get anything positive from me that way; and finally 4) relax and enjoy :)  this stuff really is fun, and there's a great community built up around linux.   needless to say, if you're interested, let me know.  if not, that's cool too--it's not for everyone, and you're not going to hurt my feelings.  what i can tell you is this: the possibility is there to teach yourself more than you can learn in most high school computer classes. if you want it, it's yours...
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      from eweek.com:  urlLink Microsoft is losing another customer to an alternative desktop operating system, with Allied Irish Bank, one of Ireland's largest banking and financial services groups, set to transition its branch-dependent applications and migrate about 7,500 desktop users off Windows and onto the Sun Java Desktop System over the next year or so.   other europeans companies and governments have shifted to Linux, and American companies are switching too.  and who can blame them, when all you have to do is  urlLink go to a pwn3d IIS web site with IE and get pwn3d yourself ?  yup, it's a windows security flaw with no patch, and it also evades some virus scanners.   urlLink ZDNet suggests  that "Windows users could download an alternate browser, such as Mozilla or Opera." that's a hugs slap in the face for MS (or it should be).    also in the article: "Mac users are not in danger." i luff my ibook :)  choosing better software only makes sense.  unfortunately for the majority of PC users, Microsoft products aren't better, and many don't know there's a better option.  the more articles that can bring alternatives to light, the better.
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      it's the summer.  who wants to think about school?  not me!  especially since i won't be coming back!  nevertheless, i'm gonna keep posting here, because some of my former g33ks might still glance here every so often. it's all good :)  a couple of things have changed.  first, i picked a new design--still hooper colors, but there are some differences.  for one, the profile you see on the right is mine...same thing you'll see  urlLink on my homepage .  it's much smotther than the old blogger system.  second, if you look at the bottom of this post you'll see a link for Comments.  yes, you can comment on posts!  it's interactive and stuff.  me being the authoritarian i am, though, i control all comments.  if it's juvenile, it's deleted.  if it's a problem to use them, i disable it and require membership to post comments.  simple enough :)  have a good summer, and happy hacking
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      actually, it's not me... urlLink it's my picture at art.gnome.org !  i made this using  urlLink the gimp , and submitted it to the site.  as of today, if you  urlLink sort the GNOME backgrounds by popularity , i'm in second place!  which is great, because the  urlLink picture that's in the number one spot  is awesome...i'm actually using it as by desktop at home :) i need to gimp up some more pictures! it's pretty sweet to see people enjoying what you've made    what's really cool is, there were a couple of students (and one in particular) who enjoyed using the gimp so much that it inspired me to make this picture.  keep hacking, guys...and if you get the urge, slap a GNOME logo on it and submit it to  urlLink art.gnome.org.   it would be cool to see your names on there!  
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      wow.  i just found out that someone actually reads this still!  w00t!  so i came back to the blog, only to realize it's all out of date, and some of the settings weren't right.  so...i'm fixing it :)  also, i got my own domain name ( urlLink www.jkrewe.com .  and just so you know,  urlLink my blog  is where all the updates are happening.  but in the future (especially when school time rolls around again), i'll try to keep an eye on this and see how it's going ;)  thanks to my loyal, umm, reader(s) :)  inspiration is a good thing  
+      
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       
+      if you are still languishing under the weight of the Big Blue E,  urlLink you may want to patch that sucker up .  MS has broken their monthly patch cycle to release three patches that repair 'ctitical' flaws in the Internet Exploite^H^H^HExplorer browser...get 'em while they're hot!  or before your box is!
+      
+</post>
+
+
+
+</Blog>

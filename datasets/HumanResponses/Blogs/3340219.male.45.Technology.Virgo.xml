@@ -1,0 +1,524 @@
+<Blog>
+
+<date>18,maj,2004</date>
+<post>
+
+	 
+      May 19, 2004 Google Moves Toward a Direct Confrontation With Microsoft By JOHN MARKOFF   AN FRANCISCO, May 18 - Edging closer to a direct confrontation with Microsoft, Google, the Web search engine, is preparing to introduce a powerful file and text software search tool for locating information stored on personal computers.  Google's software, which is expected to be introduced soon, according to several people with knowledge of the company's plans, is the clearest indication to date that the company, based in Mountain View, Calif., hopes to extend its search business to compete directly with Microsoft's control of desktop computing.   Improved technology for searching information stored on a PC will also be a crucial feature of Microsoft's long-delayed version of its Windows operating system called Longhorn. That version, which is not expected before 2006 at the earliest, will have a redesigned file system, making it possible to track and retrieve information in ways not currently possible with Windows software.  Google's move is in part a defensive one, because the company is concerned about Microsoft's ability to make searching on the Web as well as on a PC a central part of its operating system. By integrating more search functions into Windows, Microsoft could conceivably challenge Google the way it threatened, and destroyed, an earlier rival, Netscape, by incorporating Web browsing into the Windows 98 operating system.  A Google spokesman declined to comment about the new search tool.  Although Google's core business rests on huge farms of server computers that permit fast searching on the Internet, the company has already taken several steps to move beyond that business.   Last year, Google began testing a free program called the Google Deskbar that makes it possible to search the Web by entering words and phrases in a small dialog box placed in the Windows desktop taskbar at the bottom of the computer screen.  Google also sells a computer search system designed to index and retrieve information created and stored by a single organization.   There is a rich history of less-than-successful attempts to create information search tools for personal computers. In the 1980's, for example, Mitchell Kapor's On Technology developed On Location for retrieving information on Macintosh computers and Bill Gross, a prominent software developer, led a group of programmers to create Lotus Magellan for the PC.  Digital Equipment's Alta Vista search engine group also developed a search tool for data stored on desktop PC's. Today there are a number of commercial products for desktop searches like X1 and dtSearch. Moreover, both the Macintosh and Windows operating systems have file and text retrieval capabilities.  The Google software project, which is code-named Puffin and which will be available as a free download from Google's Web site, has been running internally at the company for about a year.   The project was started, in part, to prepare Google for competing with Windows Longhorn, which according to industry analysts will dispense with the need for a stand-alone browser.   The disappearance of the Web browser and the integration of both Web search and PC search into the Windows operating system could potentially marginalize Google's search engine. Google, well aware of this threat, hired a Microsoft product manager last year to oversee the Puffin project as part of its strategy to compete with Microsoft's incursion into its territory.  Microsoft has shown demonstrations of its new search technology, which emphasizes the use of natural language in queries like "Where are my vacation photos?" or "What is a firewall?" Microsoft believes that Longhorn users will no longer think about where information is stored; they will instead see a unified view of documents stored on both the Internet and on the desktop.  The looming confrontation between Microsoft and Google is coming as Microsoft prepares to introduce its own advanced Web search service, possibly later this year. The company is revising its MSN strategy and backing away from its Internet dial-up service, looking instead to get more revenue from the search advertising market that Google dominates.  Web and PC-based searching is a particularly thorny subject for Microsoft because the company's chairman, Bill Gates, first outlined the idea of "information at your fingertips" in a speech given at a computer industry trade show in 1990. Yet the company did little to innovate in the areas of Internet search or text and file searches on the PC until it discovered how profitable search had become for Google.  Google's strategy is to move quickly while Microsoft is still developing its Longhorn version of Windows, adding programs and services like its recently announced Gmail electronic mail program. The intent, say people who are aware of the company's strategy, is to lower its vulnerability to Microsoft by adding businesses that are "sticky" - in other words, businesses that create strong customer loyalty or are hard to switch away from.   Internet searching is widely seen by industry executives as a powerful commercial service, but one that is difficult to defend. It is widely presumed that Internet users who find a search service that is better than Google's will be willing to defect.   Searches for information stored on a PC, however, could offer an advertising arena that is more readily defensible. Indeed, desktop searching might be particularly valuable for Google's commercial advertisers, which may be willing to pay dearly for the ability to place targeted ads in front of personal computer users.  Such services, while they may be lucrative, will also inevitably force Google to deal with new controversies. Some privacy activists have opposed the Gmail service because they are concerned that the company is automatically extracting information from its customers' Gmail accounts.     
+     
+
+    
+</post>
+
+<date>18,maj,2004</date>
+<post>
+
+	 
+      UKUUG 2004 Open Source Award Monday May 17, 2004 (05:15 PM GMT)        Topics: Open Source , Software  UKUUG (the UK's Unix and Open Systems User Group) has made its 2004 Open Source Award to Julian Field of the University of Southampton for his work in creating, developing, and supporting MailScanner, the highly respected e-mail security system. The award is made annually to give particular recognition to the development of free and open source software in the UK. As well as a GBP 500 cash prize, Julian wins an expenses-paid trip to the Open Source Convention in Portland, OR, USA, thanks to support from O'Reilly, organisers of the convention and Gold Sponsors of the Open Source Award.    MailScanner is a complete e-mail security system designed for use on UNIX/Linux e-mail gateways. It protects e-mail client packages such as Outlook, Outlook Express and Eudora against viruses and can detect almost all spam. With e-mail viruses costing businesses millions of pounds every year and spam accounting for around 60% of all e-mail traffic, MailScanner is the front line of defence at more than 20,000 sites.   MailScanner has been in continuous development for almost four years. In that time it has grown from a simple virus scanner with 1200 lines of code to a complete email security and anti-spam system of over 30,000 lines. It supports the use of any combination of 20 different anti-virus engines to give the best possible coverage - commercial e-mail systems rely on one or two. It incorporates SpamAssassin, widely regarded as the best anti-spam engine available, and over 800 heuristic spam-detection rules.   Robustness and reliability are of great importance in any software system that handles e-mail, where legitimate content is often transient and business-critical. If an email message is destroyed in transmission, vital information can vanish without anyone noticing. Strenuous efforts have been made in designing and developing MailScanner to ensure that there is no chance of e-mail messages being lost due to failure of any part of the software.   MailScanner is distributed free under the GNU General Public License, as used for a lot of free and open source software. Julian has adopted this approach to maintain direct contact with users. When a new feature is suggested, he is able to gauge very quickly how useful this would be to the majority of users. Having full access to the source code, users can and do suggest fixes when reporting bugs or undesirable behaviour.   MailScanner has been deployed in over 60 countries, and is used for scanning mail destined for all seven continents (even Antarctica). It scans over 5 billion messages per week for numerous government departments, corporations, non-profit organisations and educational institutions. It is used by large ISPs and mobile telephone companies in the UK and Europe, along with the largest space agency. It is now downloaded over 20,000 times each month, a total of more than 250,000 downloads.   The judges noted as "Highly Commended" the Enterprise Groupware System developed by Jake Stride while a student at Newcastle University. Jake, now at Warwick University, wins a GBP 100 book prize, also donated by O'Reilly, and a GBP 100 cash prize.   
+     
+
+    
+</post>
+
+<date>18,maj,2004</date>
+<post>
+
+	 
+       urlLink YETISPORTS Part4  Ciekawa strona rozrywkowa
+     
+
+    
+</post>
+
+<date>18,maj,2004</date>
+<post>
+
+	 
+       urlLink IT-Analysis.com - A Short Defintion of Service Oriented Arch : "A Short Defintion of Service Oriented Architecture Wednesday 5th May 2004 A Short Defintion of Service Oriented Architecture Wednesday 5th May 2004  The phrase "Service Oriented Architecture" (SOA) is used extensively in the industry. Although it was first used eight years ago, it has only come into common use in the last year to eighteen months with the rise of Web Services. The problem with that timeline is that the people who use it now tend to use it without defining it.   This article is a synopsis of the many definitions1 that can be found on the web.   Firstly a negative definition SOA and WS are not synonymous, however there is a significant movement to suggest that future implementations of SOA will be based on WS.  An2 SOA defines how services are used to implement a business process. So what is a service? In the broadest sense a service is something that provides something for something else. For example a car hire service provides cars for business people. I have used a business service example here but in the IT industry, an SOA service is limited to mean a piece of executable code. At the end of the article, I will come back to a discussion of a business level SOA.  Not every piece of executable code is a service; in fact, the majority are not. A service will always interact with a requestor and will have certain attributes, which can be summarised as follows:  A requestor must be able to invoke a service remotely. This means that they cannot assume they have a shared environment.  There is no shared state information (for example in a shared database). The only information passed will be in the invocation process (probably in a message sent from the requestor).  A service must be able to describe and advertise itself to potential requestors. The description must be sufficient to allow the requestor to invoke dynamically the service. This implies a shared protocol at this level even though protocols for service implementation may vary.  The description not only defines the service but also defines the Quality of Service provided by the service and the Service Level Agreement. It will also define the format(s) and protocol(s) supported by the service (it is very possible, but not inevitable, that a service will mandate a single format and protocol).  The requestor must assume an asynchronous interaction with the service. This is essential to provide a reliable service. This does not preclude the service offering a real-time synchronous communication as an option.  An SOA defines how these attributes are implemented.  The attributes were developed with an IT environment clearly in mind, however they actually apply to business services as well (the car hire service should conform to these attributes). The broadening of SOA to cover business services would be helpful because we could then talk to the business in the same way as we talk within IT. To avoid confusion I would recommend that SOA is kept to mean just IT and the business version be called Business Oriented Services Architecture (BOSA).   Footnotes:  There are many definitions on the web but in particular this article is based on articles by Y Natis, C E Perez and P Gralla.  Can some style pedants help me to decide whether this should read 'A SOA' rather than 'An SOA' 
+     
+
+    
+</post>
+
+<date>18,maj,2004</date>
+<post>
+
+	 
+       urlLink IT-Analysis.com - The importance of encrypting data in stora : "The importance of encrypting data in storage Monday 10th May 2004 The importance of encrypting data in storage Monday 10th May 2004  Storage companies must be having a field day. It is estimated that around 80% of all business information is now stored in electronic form - all of which must be carefully and securely stored, not least to comply with the wide variety of legislation that has been passed recently, making us more accountable for the integrity of our business information.  Compliance with these regulations means that companies must be able to produce business records on demand, with different laws specifying different periods of time over which the data must be kept securely. This includes all sorts of records, from databases to informal e-mail systems.  But this information cannot be kept entirely secure unless it is encrypted and those encryption keys locked down in a totally secure hardware environment. Without encryption, it is perfectly possible for someone to take data and make copies - for example, a company database containing sensitive information.   Given that internal attacks make up anywhere from 50% to 80% of the security breaches encountered by companies, it is particularly important that companies take care to secure confidential business information away from prying eyes. Compliance with legislation is forcing companies to take a close look at their risk management procedures - and the possibility of an employee altering or deleting information, whether on purpose or not, is one that companies must take care to avoid.  Using computer forensics techniques available today, even files that have been deleted can be recovered, making it of great importance that companies should think of security when they dispose of their data as well - in much the same way that highly sensitive paper documents are fed through the paper shredder. Unless you are absolutely sure that you have software running to electronically dispose of data once and for all - covering all systems, storage mechanisms and all data that could be considered sensitive - the electronic equivalent of the shredder is encryption.  But ensuring security of information in storage is more than just encryption and secure disposal. It requires that complementary technologies be deployed in parallel - most specifically robust and secure access and authentication tools, as well as the capability to log activity. That way, you can be sure that information can be viewed only by those for whom it is intended.  At the recent InfoSec in London, there was a lot of noise around securing data in flight and keeping external attacks out. Many were pointing out that the mobile worker is a threat - but it is not just the communications networks that need securing. We need also to think about what happens when they are inside the organisation's business systems. Keep the doors locked and encrypt data at rest.  
+     
+
+    
+</post>
+
+<date>18,maj,2004</date>
+<post>
+
+	 
+       urlLink IT-Analysis.com - Thick Client Bad, Thin Client Bad, IBM goo  Thick Client Bad, Thin Client Bad, IBM good? Thursday 13th May 2004  Thick clients are bad because of the challenges with distributing code, the high cost, both to IT and the end-user, of management and maintenance, and the fact that the solution is limited to PCs.   Thin clients are bad because they do not provide the rich user experience that can be developed on a thick client. Add to this conundrum the fact that more and more business users will want to move between different client types during a working day - high specification desk top in the office, tablet in the client, voice activated PDA in the car - and you can understand the logic behind IBM's latest strategy announcement.  The key to the announcement is the concept of server-managed clients. The idea being that any application, data, user interface, transaction or message on the client can be managed from the server. This means that the user does not have to worry about anything but their business problems. Data created on the client will automatically be synchronised with a copy at the server. Applications can run in the client or the server depending on the form of the client and the type of connection. The application and data will be provisioned when needed (on-demand). All of this with the TCO profile of a thin client.  It is an appealing vision: TCO of thin client, richness of the thick client and flexibility to run across any client. Can IBM deliver on the vision? They have a strategy for doing it and they announced product that starts them on the journey.   Recently they announced WebSphere Studio 5.1.2 which provides support for three new Java specifications: Java Server Faces, Service Data Objects and Portal Tools. All of which assist the development of rich function on a thin client, for example they can include dynamic graphs that reflect changes put in by the user without having to round trip to the server.  With the strategy they have announced new versions of Workplace Client, Rich Edition to support a thick client PC, and Workplace Client, Micro Edition to support a variety of small forms factor devices.  The rich edition provides the support for dynamic provisioning, data synchronisation, and a set of component such as calendaring and a word processing editor. Together they should supply a productive workplace for the user, which can be used on any thick client operating system, Windows, Linux and even Mac/OS.  The micro edition provides support for micro version of the database, transaction and messaging across 20+ operating environments. This is a fascinating announcement because it has to be seen as IBM going head to head with Microsoft to win the corporate user interface. For the enterprises who buy into IBM's strategy, Microsoft will become the supplier of one of the possible operating systems, and a supplier of some productivity applications.  I expect to see more initiatives from the Java community this year which will directly take on Microsoft and provide an open alternative.  Microsoft and the .NET community will (re)act. So let battle commence. 
+     
+
+    
+</post>
+
+<date>18,maj,2004</date>
+<post>
+
+	 
+      Microsoft toolkit out under open-source licence =================================== Microsoft has released its Windows Template Library (WTL) technology under an open-source licence, marking the second time the company has turned one of its projects over to the SourceForge.net development site. WTL is a toolkit for developing lightweight Windows applications. It has always been a little-publicised and barely documented alternative to the Microsoft Foundation Classes (MFC) toolkit." Ladd said he prefers WTL as a smaller, faster alternative to MFC. "MFC is a big, bloated library that's not well designed. WTL was developed internally for people at Microsoft. It's small and fast. If you're going to write pure C++ code, I recommend people go with WTL." WiX and WTL both were released under the Common Public Licence (CPL), a license developed by IBM that does not require derivative works to be freely released, as the GPL does.   
+     
+
+    
+</post>
+
+<date>18,maj,2004</date>
+<post>
+
+	 
+      Czy ceny kursow informatycznych (w ogolnosci szkolen) sa wysokie? Raczej nie jezeli wezmie sie srednia pensje informatyka (ok. 3000) to szkolenie za 4000 nie jest juz takie drogie. A wiedza kosztuje...
+     
+
+    
+</post>
+
+<date>18,maj,2004</date>
+<post>
+
+	 
+      IBM's rolling out their new Workplace software this week, and pundits are wondering what effect that will have on Microsoft Office sales. Workplace is an integrated office suite aimed at corporations. Its supposed attraction is that it's server-based, freeing individual users from having to install large applications on their laptop or desktop computers. This has been tried before--replacing traditionally client-side applications with programs served up from a central location--mostly with uninspiring results. But from all reports, Workplace is a compelling product.  IBM has a few of things going for them here, which might make it interesting:   Many of Microsoft's corporate customers are feeling a bit cheated because they paid for upgrades that they aren't getting. With no significant upgrades to Office recently, and Longhorn out on a 2-year delivery target, they could decide that moving to Workplace is the better choice.  On the security front, one can imagine that Workplace won't fall prey (at least not in the immediate future) to the plethora of email worms and viruses that plague Office, Windows, and Outlook.  Server-based application deployment can extend the useful life of older machines by a couple of years, making it possible for companies to save money on hardware upgrades.  IBM is selling to businesses here--something they've proven they can do. If they were targeting individual users, I'd say "no way" without hesitation. There's no consumer product so good that IBM's indifferent marketing can't kill it.  So what do you think? Can Workplace supplant Office on a large number of desktops? If so, does that give IBM an "in" to start replacing Windows with Linux on the corporate desktop? 
+     
+
+    
+</post>
+
+<date>18,maj,2004</date>
+<post>
+
+	 
+      Processes & Practices: Update on agility  By Jack Vaughan  Agile modeling gained some prominence a few years ago, emerging in the wake of UML, RUP and Extreme Programming. Where is it now? Few are in a better position to answer that question than Jim Highsmith, author of Adaptive Software Development, Agile Software Development Ecosystems, and a founding member of the AgileAlliance.  In fact, Highsmith, fellow, Cutter Consortium, says he sees a move underway to expand the agile modeling concept to the domain of management. Highsmith spoke at this week's Cutter Summit in Cambridge, Mass. Somewhat narrow agile modeling, he indicated, may come to include broader agile practices.  In agile modeling, quick initial planning of software projects is accompanied by iterative development techniques associated with Extreme Programming (XP) concepts. Agile modeling could be said to add a bit more structure to Extreme Programming methods, without becoming 'over-structured,' a trait some individuals ascribe to traditional software project management.  "Agility," said Highsmith, "is the ability to balance flexibility and structure."  "We see agile practices moving from early adopters to the mainstream," he said, "so an issue facing the movement is what we do now." Some even ask, Highsmith chided, if we should move Extreme Programming to moderate programming. Highsmith dismisses this notion. "We have to retain the basic value of the agile system," he said. 
+     
+
+    
+</post>
+
+<date>18,maj,2004</date>
+<post>
+
+	 
+      Surprise as Nokia quits WiMax forum Nokia, one of the high-profile founders of the WiMax Forum, has left the organisation, raising questions over whether the technology's merits have been overstated.The mobile phone company said it decided not to renew its membership in the group, but denied that the move was intended to throw doubt on WiMax.However, WiMax will be of limited interest to Nokia until its mobility aspects arrive, which will not be for several years, the company said. It said it will continue to contribute to WiMax standardisation.Nokia, along with Intel, Fujitsu and other wireless players, founded the WiMax Forum in April last year as a way of focusing interest on the IEEE 802.16 family of wireless broadband standards.The first standard to be ratified, 802.16d, aims to deliver speeds of up to 70Mbps over a range of 31 miles to fixed users, and an 802.16e upgrade is to add mobile capabilities.The forum's success is such that equipment maker Navini Networks, which formerly backed the rival 802.20 standard, recently switched camps, while telecommunications heavyweights such as BT Group, France Télécom and Qwest Communications have also come on board. Alcatel has announced the first 802.16d equipment using Intel chips, which should appear later this year and be ratified next year.The WiMax Forum members, chiefly Intel, have gone to great efforts to promote WiMax as the way to standardise both fixed and mobile broadband wireless networks, but the reality is that only fixed systems will be in use in the near future, said industry analysts.As a result, companies interested in using WiMax as a replacement for or complement to fixed technologies such as DSL are flocking to join the forum, while those interested in mobility are keeping their distance."The companies most advocating WiMax seem to see it as a wireless DSL proposition," said Dean Bubley, founder of Disruptive Analysis. "It plays more to fixed carriers than to the cellular market, where Nokia has more of a core customer base.". Unlike other equipment makers in the Forum, Nokia does not sell proprietary fixed broadband wireless equipment; and the immediate use of the WiMax standard will be to standardise such offerings, Nokia argued. Intel has said it did not expect WiMax to arrive in notebook computers for two or three years, and the delay will be a year or two beyond that for smaller devices such as mobile phones, further reducing Nokia's interest in WiMax. Another factor could be Nokia's difficulties in other parts of its business.  The company's market share in mobile phone handsets dropped to 29% in the first quarter of this year from 35% in the same period a year ago, even though handset suppliers overall saw a 40% uptick in shipments worldwide.  Nokia has said it would reduce prices to increase its market share, but this could come at the expense of profitability, Bubley said. "Given their recent results, their investors may be scrutinising their spending on everything." Nokia is involved in a deal to take over a majority share in smartphone operating system maker Symbian, but Symbian is also struggling to widen its reach outside its high-end niche in the handset market, and has seen sales drop. Meanwhile, Microsoft has said it would back out of the market for Wi-Fi gear, despite having quickly become one of the biggest players in the market. It claimed it was dropping Wi-Fi to apply what it had learned to future products, according to reports. Industry analysts said the move was probably because of low margins and the confusing standards roadmap for Wi-Fi equipment.
+     
+
+    
+</post>
+
+<date>18,maj,2004</date>
+<post>
+
+	 
+      MS oglosil, ze zgodnie z nowa strategia produktow, co 4 lata nalezy sie spodziewac nowej wersji systemu operacyjnego (dokladnie server product), zas poprawki (update) beda co 2 lata. Zgodnie z tym: "We are thinking about an update release to Longhorn that will come in the 2009 time frame; 2008 will probably be the service pack; 2009 will be the update release."  Waze! Poprawki to nie SP i beda platne, chyba, ze klient podpisal tzw. Microsoft's Software Assurance licensing program. Na podstawie serwisu CNet: http://news.com.com/2100-7343_3-5211424.html?tag=nl
+     
+
+    
+</post>
+
+<date>18,maj,2004</date>
+<post>
+
+	 
+      Ostatnio firma Sun oglosila dostepnosc Java Studio Creator (odpowiednik VB), ktore skraca o polowe czas na stworzenie aplikacji w jezyku Java. Skierowane jest do firm majacych aplikacje w Cobolu i chcacych migrowac. Obok JSC jest inne narzedzie open-source NetBean 3.6.
+     
+
+    
+</post>
+
+<date>29,czerwiec,2004</date>
+<post>
+
+	 
+       urlLink The Scripting Guys' First Blog  Friday, April 30, 2004   
+     
+
+    
+</post>
+
+<date>29,czerwiec,2004</date>
+<post>
+
+	 
+      HTML DB - The Web Development Tool For The Rest Of Us? I went along to an Oracle Partner Workshop on HTML DB yesterday, at Oracle's offices in Reading, UK. Oracle run these occasionally and they're a good opportunity for developers to quickly get to know new Oracle products.  HTML DB is the new 'rapid application development' tool for the Oracle database, delivered as part of Oracle Database 10g or as a separate download for Oracle 9i 9.2.0.3 or higher. HTML DB helps you generate PL/SQL web applications, with the Oracle Portal 'look and feel', using a declarative GUI environment that is aimed at developers and power users with a basic understanding of SQL and PL/SQL.  Applications built using HTML DB are positioned somewhere between Oracle Portal applications (built using the forms and chart wizards within Portal) and full-blown J2EE applications, built using JDeveloper, UIX, BC4J and so on. I was particularly impressed with HTML DB, and here's a few reasons why.  First of all, it's a web applications development environment that's particularly suited to PL/SQL developers. If you've used the PL/SQL Web Toolkit that comes with Oracle 8i and higher, you'll immediately feel comfortable with the mechanisms behind HTML DB - it's all written in PL/SQL and uses the Web Toolkit, and applications built using HTML DB are PL/SQL Web Toolkit applications. Although HTML DB applications have the same look and feel as Oracle Portal applications, and those built using JDeveloper, UIX, ADF and so on, there's no Java, JSPs, servlets and so on behind the technology. Everything is built using the HTML DB graphical user interface, and any coding that needs to be done (which is very little) is done directly in PL/SQL. In addition, all of the functionality of HTML DB is exposed as packages, procedures, bind variables and normal Oracle tables, and it's therefore extremely easy to interface HTML DB with your existing PL/SQL program logic. It's a web development environment 'for the rest of us'.  HTML DB looks very east to use. It's aimed at all the Microsoft Access developers you find within an organization, and consequently the building process is iterative and encourages experimentation and trying things out. Each form and report you build has an 'edit' link at the bottom, allowing administrators to change things around and rerun the form without the need to recompile, relink and rebuild the application. Data from spreadsheets and text files can be easily uploaded to the database, with HTML DB creating tables and auto-incrementing primary key columns behind the scenes. Everything is done graphically, and there's no real requirement for you to design your application in full up front - the tool encourages experimentation and it's easy to add functionality to an application as you go along.  Having said that, it's not a 'dumbed down' application. HTML DB applications can authenticate against Oracle OID and Single Sign-On, other LDAP servers, external authentication methods or use Oracle database security. HTML DB applications can be published to Oracle Portal, and can take advantage of database features such as Fine-Grained Access Control and Label Security.  One of the coolest features in HTML is how it handles sessions and state. Traditionally with PL/SQL Web Toolkit applications  , handling session data is a bit of a headache, with custom code having to be written to store session data in cookies; HTML DB automatically handles sessions by assigning a numeric ID to each logged in user, and automatically passes that ID around from page to page. The numeric ID gets stored in the database, with all session variables saved in oracle tables using this ID. This means that the database, rather than an application server, handles sessions and statefullness, which uses up less memory and takes all of the responsibility away from the application developer.  The only part of Oracle's approach towards HTML DB that I'd disagree with, is in that they are pitching it towards what they refer to as 'Power Users' - users within the business who currently build VBA applications, spreadsheets with lots of macros, and so on. In my opinion, it's better suited to PL/SQL developers, ideally with experience with the web toolkit, who want to make themselves more productive and turn out applications of a higher quality and in less time. You don't need to know PL/SQL, but the tool is much more powerful if you do, and applications that HTML DB creates look just like the Java web applications created using JDeveloper.   Being honest, because HTML DB is pure PL/SQL, and runs directly on top of the Oracle database, it's got a smaller footprint and appears to run faster than a java web application, and would be easier for a PL/SQL developer to design and debug than a n-tier java application.  In my opinion, HTML DB is just the tool that PL/SQL developers have been looking for. It's easy to use, but still allows us to use our Oracle development skills to turn out top-notch applications. Give it a look over when you get a chance.   urlLink Portal   urlLink LDAP   urlLink PLSQL Web Tool Kit   urlLink HTML DB 
+     
+
+    
+</post>
+
+<date>29,czerwiec,2004</date>
+<post>
+
+	 
+      The whole rich/dynamic interface pendulum swings widely and often. Rich is where commercial vendors want us to go, because rich front ends require vendor-specific run-time software, dev tools  matched to the run time, books and classes, support contracts, consulting, coffee mugs, and so forth. Not to mention the specialized developer skills that might prove useless in their next job.  With rare exceptions, a rich interface is static. We don’t have static work habits, static job descriptions, static database layouts, or static connections between servers and services. If everything we do is dynamic, what room is there for static interfaces or static client-side programming languages?  The swing toward static richness isn’t just a Microsoft thing. Apple’s Xcode, as fine a development environment as it is, also squeezes developers into rich, static interfaces. In a way, Apple’s shortcoming is more egregious because Unix developers take for granted that applications will work remotely with minimal client-side requirements. Xcode can’t (or won’t) manage that, despite the uniformity of the server software that ships with every Mac. At least WebObjects, Apple’s flexible Web application development and deployment suite, provides a true Web app environment, albeit at a cost.  Visual Studio 2005 doesn’t send Web developers to external tools, and Microsoft has taken advantage of its new Web-friendly toolset. Internet Explorer is a prerequisite for many of Microsoft’s recent and upcoming releases. Visual Studio Team System, SQL Server Reporting Services, Windows Server 2003 management tools, and SharePoint use IE as their presentation engine. SharePoint makes heavy use of .Net Web Parts technology. Web Parts are very cool — dockable, resizable windows inside a browser look great. But their use is not mandatory. You still have a browser back there. Microsoft’s use of XML and Web services to feed data to Web Parts takes some of the proprietary sting out of this .Net rich front-end approach.   My greatest source of delight is the restoration of Visual InterDev, Visual Studio 6’s sweet and brutally murdered Web application IDE, to Visual Studio 2005. Of course, the name has changed to save face, and Microsoft didn’t give in to all of the developers’ demands. If Microsoft is holding out on Web dev tools, it should fork them over. IIS has always been a crown jewel of Windows, right up there with SQL Server and Terminal Services. IIS is Microsoft’s app server, and it’s useless without tools that create dynamic, scriptable interfaces.   I wrote a fat, marriage-straining book, Windows 2000 Web Application Development, that clarified my philosophy: Browser technology — DHTML, CSS (Cascading Style Sheets), DOM, and JavaScript — has no equal in the rich world for flexibility, interoperability, and rapid development. The only thing missing, and it irks me to no end, is a fast browser. Mozilla’s got some lightweight browser work under way. Maybe Apple will put the spring back in Safari’s step, which has gotten slower and fatter of late. But I am encouraged and amused to find that Microsoft’s own application developers are refusing to let Internet Explorer and Visual InterDev die.  Tom Yager is technical director of the InfoWorld Test Center.                   
+     
+
+    
+</post>
+
+<date>03,czerwiec,2004</date>
+<post>
+
+	 
+          ---- Wiadomość Oryginalna ----  Od:  Marek W    Do:   marekw1958@tlen.pl   Data:  Mon, 28 Jun 2004 23:02:41 -0700 (PDT)  Temat:  [Dzienniczek] Nowosci technologiczne w Longhorn     Longhorn and Avalon  Nowa jakosc - Podsystem grafiki wektorowej- AVALON   By Bryan Muehlberger   Over the course of the last five weeks, we discussed Microsoft Windows  Storage Server 2003 and the associated benefits and technologies  associated with it. This week, we start a discussion on Microsoft's  next major release of Windows, codenamed Longhorn, which will come  packaged with a number of new technologies that you need to make sure  you know.   One of the new technologies being release with Longhorn is the new  presentation subsystem, called Avalon. Avalon is positioned as a new  graphics subsystem that serves as a foundation for Longhorn's shell.  Avalon will also come with a full set of the user interface components  for Longhorn. By integrating user interface (UI), documents, and media  into the next generation of interactive client applications and  experiences, Longhorn will achieve a more unified approach, as well as a  fully integrated development and user experience.   Avalon will better utilize the power of the PC throughout the graphics  stack, bringing designers directly into application development.   A major capability of Avalon is its support for XAML (Extensible  Application), which provides a one-to-one correspondence with the object  model within the presentation layer of Longhorn, with its key role being  to enable interoperation between UI authoring tools and developer tools.   Avalon will also provide built-in support for recent advancements in the  Windows OS, such as the Tablet PC and the Windows XP Media Center  Edition operating systems.   Join me next week when we talk about how to use the "run as" feature in  Windows Server 2003.   --  Posted by Marek W to  Dzienniczek  at 6/29/2004 08:00:35 AM      BODY {font-size:10pt;font-family:arial,sans-serif; background} P {margin:0px;} 
+     
+
+    
+</post>
+
+<date>03,czerwiec,2004</date>
+<post>
+
+	 
+      A reader of CIO.COM has forwarded this article to you.  CIO Magazine is free to qualified readers. http://subscribe.cio.com/  Subscribe to CIO's online newsletters at http://subscribe.cio.com/newsletters.cfm  Readers Comments: Ciekwe przemyslenia  CIO Magazine Jun 15, 2004  Six Tips for Effective Career Development Programs  Executive Council members share their tried-and-true methods for grooming their staff.  By Martha Heller  Executive Council members share their tried-and-true methods for grooming their staff If we've said it once, we've said it a thousand times: Your people are your greatest asset, and you need to develop them with as much care as you would your systems and products. Yet, career development programs are often given short shrift by senior executives with deadlines and budgets on their minds. Members of the CIO Executive Council, a professional organization of CIOs founded by CIO magazine, told us about their career development programs and what makes them work. Here are some guidelines for getting the most out of your human investments.   1 Walk the halls Senior management meetings are not the right place to glean the career aspirations of your staff. "My organization is five deep. If I waited for the chain of command, I would never get the information I do by just asking people about their careers," says Samantra Sengupta, CIO of the Scotts Co. "I walk the halls a lot and sit down with people at all levels to understand their needs and desires." Based in part on staff feedback, Sengupta decided to split what was solely a managerial career path into three separate paths: traditional management, heavy technical competency with light management and architecture with no management responsibilities. The paths carry similar compensation plans but allow each person to do what he does best. Before you walk the halls, make sure you clearly understand how much flexibility HR will allow when setting up a new career development program, cautions Sengupta. "If you encourage people on your staff to give you a data dump about their career, they may believe that you will act  2 Create an integrated job model. When Jim Burdiss became CIO of Smurfit-Stone in January 2002, there were few titles on his staff other than "systems analyst." So he put Keith Fehd, director of applications development and support, in charge of developing a program that would define paths for progression along four distinct disciplines: applications, infrastructure, business operations and management. "The program is successful because it integrates job titles with salaries, skill requirements, merit increases and our annual review process," says Burdiss. "We now have a much clearer view into the skills of our organization, and our people truly understand their growth potential."   3 Launch a publicity campaign. Just like any major initiative, a new career development program needs a timely and effective communication plan. "It took us 14 months to build our integrated model," says Smurfit-Stone's Fehd. "If we had publicized it early or not well enough, we would have raised expectations or created uncertainty about a pretty sensitive subject."   4 Promote leaders carefully. Successful project leaders do not necessarily make great managers, says Linda Brigance, CIO of FedEx Asia Pacific. "People tend to look at great projects and want to promote their leaders," she says. "But we need to pay close attention to how their leadership skills translate in tougher situations. Are they as successful at guiding and motivating their teammates when the going gets tough?"   5 Incorporate business training Burdiss at Smurfit-Stone hired an outside consultant to design a "Business 101" course specifically for the IT team. With sections on the supply chain, supply and demand planning, marketing, budgeting and financials, the business course has gone a long way toward helping the IT people at Smurfit-Stone understand the business they support.   6 Use cross-training. When Barbara Kunkel, CIO of Nixon Peabody, is out of the office, one of her direct reports is acting CIO. Her managers regularly facilitate department meetings, entry-level technical support specialists team up with seasoned staff, and office services employees intern in the IT department during the summer months. "Cross-training is a great career development tool," says Kunkel. "But it needs to be a planned activity with clearly thought-out goals, and it should provide workers with continued job enrichment opportunities once they return to their routine duties."   The Case Moving to an open-source environment with Linux Council Member Marc West, SVP and CIO, Electronic ArtsThe Challenge » Electronic Arts' website, EA.com, had grown into the fourth-largest computer games destination on the Web, with 10 million visitors playing a combined 4.5 billion minutes a month. However, as the site grew, technology spending was a disproportionately large hit on the company's bottom line. Each time EA wanted to increase the number of online game players, it had to purchase more Sun Unix servers for its Equinox-hosted data center and license more software. With the recent launch of EA's new Club Pogo premium games, EA added another 360,000 paying subscribers with plans to double the community in the near future. West was faced with two challenges: Deliver a high-performance, high-availability online experience--and do so at a low initial and ongoing cost. West believed that switching to a "commodity computing" architecture--using open-source Linux server software on Intel boxes instead of running Unix on Sun machines--could help EA cut its technology costs for online Web games. "Lintel" servers are "cheap, fast and disposable; investment levels are less; and if they burn out or need to be refreshed, you can manage against a shorter and less expensive asset lifecyle," West says. And with the right architecture, they can be scaled up or down in response to business-driven demand. The Execution » It took four months to develop and pilot a website for game players to beta test. "The amount of time and level of effort was no more but no less complicated than any other technology change that a company might do," West says. "Most people would say, 'It would take me forever; I can never leave my current environment.' While it's a change, it's not that complicated."Lessons Learned »  * Choose a vendor that has experience doing these types of re-architecting efforts. "Each vendor had a cookbook that it wanted us to follow, but none of the cookbooks fit what we were trying to accomplish," West says, adding that a consortium type of approach would have been more helpful. * Allow some time to fully investigate the legal issues surrounding Linux and the SCO lawsuits. Electronic Arts did and was satisfied that it was safe to move ahead with such a large Red Hat deployment, although EA still keeps tabs on legal issues.* Have someone on staff with a deep knowledge of Linux in a distributed-computing environment rather than relying on consultants for this know-how. * Make sure you have won the hearts and minds of your applications and engineering teams. "You do cross a few career paths when you do this," West says. By asking people to switch from the "monolithic computing" world to the distributed commodity computing world, West says, "you're asking people to make a significant change in how th    http://www.cio.com/archive/061504/exchange.html  CIO Magazine Copyright 2004 CXO Media Inc    ----- CIO's Grounding Themselves in the Fundamentals -----  CIOs today tell us they are taking a step back to evaluate three primary areas: Their role in the organization, how to develop an IT strategy that aligns with business objectives, and how to measure and communicate the return on IT investments.  Three CIO Focus Guides are helping to ground them in these basics: Fundamentals of the CIO Role Strategic Planning:How to Develop and Align IT Strategy; and IT Value:Measurement Tools and Techniques That Work.  In combination, these Focus Guides provide a blueprint for leadership as CIOs prepare for the economic recovery.  See all the CIO Focus guides at The CIO Store http://www.theciostore.com/  
+     
+
+    
+</post>
+
+<date>03,czerwiec,2004</date>
+<post>
+
+	 
+      Longhorn and Avalon Nowa jakosc - Podsystem grafiki wektorowej- AVALON   By Bryan Muehlberger  Over the course of the last five weeks, we discussed Microsoft Windows Storage Server 2003 and the associated benefits and technologies associated with it.  This week, we start a discussion on Microsoft's next major release of Windows, codenamed Longhorn, which will come packaged with a number of new technologies that you need to make sure you know.  One of the new technologies being release with Longhorn is the new presentation subsystem, called Avalon.  Avalon is positioned as a new graphics subsystem that serves as a foundation for Longhorn's shell. Avalon will also come with a full set of the user interface components for Longhorn. By integrating user interface (UI), documents, and media into the next generation of interactive client applications and experiences, Longhorn will achieve a more unified approach, as well as a fully integrated development and user experience.  Avalon will better utilize the power of the PC throughout the graphics stack, bringing designers directly into application development.    A major capability of Avalon is its support for XAML (Extensible Application), which provides a one-to-one correspondence with the object model within the presentation layer of Longhorn, with its key role being to enable interoperation between UI authoring tools and developer tools.  Avalon will also provide built-in support for recent advancements in the Windows OS, such as the Tablet PC and the Windows XP Media Center Edition operating systems.  Join me next week when we talk about how to use the "run as" feature in Windows Server 2003.
+     
+
+    
+</post>
+
+<date>03,czerwiec,2004</date>
+<post>
+
+	 
+      Zauwaza sie trend taki, ze aplikacja nie korzysta z komponentow zainstalowanych na sprzecie na ktorym pracuje np. DLL, COM, ActiveX. Raczej polega na wlasnym srodowisku uruchomieniowym (run-time). Jest to dobre z uwagi na to, ze nie wszystko ponizej warstwy aplikacyjnej (tj. system operacyjny) chodzi "jak w zegarku". Takie uniezaleznienie od warstw posrednich zainstalowanych na sprzeecie pozwala niezawodnie realizowac zamierzone funkcje aplikacji. Trend taki reprezentuja np. wirtualna maszyna Javy nie korzystajaca wcale z bibliotek Widnowsow, MS .NET Framework czy Twisted Pythona.
+     
+
+    
+</post>
+
+<date>29,lipiec,2004</date>
+<post>
+
+	 
+      Na spotkaniu z przedstawicielami inwestorow firma MS obiecala, ze dolozy wszelkich staran by firma nadal rozwijala sie dynamicznie. Liczy na to, ze w tym roku okolo 400 mln ludzi na swiecie kupi PC-ty a wraz z nimi rowniez oprogramowanie. Nadal bedzie rozwijac wersje "light" Office'a i Windows XP (zwana starter edition)a takze dzialac na rynku Dalekiego Wschodu. Na przyklad w Chinach oferuje angielskiego asystenta do chinskiej wersji MS Office majacy za zadanie wspomoc w tlumaczeniu korespondencji handlowej. Firma liczy rowniez na rozwoj Tablet PC oraz Media Center, chce zaistniec na rynku serwerow duzej mocy poprzez edycje MS W2k3 zwana HPC (high performance computing).   Inna firma CA oferuje swoj produkt Ingres na zasadach open-source ale zastrzega sobie przeksztalcenie produktu w komercyjny w pozniejszym czasie (czy to nie jest cynizm - wykorzystanie ruchu open source do udoskonalenia swojego produktu).   Na podstawie zrodla pochodzacego z  urlLink http://searchenterpriselinux.techtarget.com/qna/0,289202,sid39_gci996151,00.html &nbsp;firma MS niedawno staral sie o uzyskanie patetntu na FAT w US Patent and Trademark Office (USPTO). Poczatkowo urzad nie mial zastrzezen, ale po protescie wystosowanym przez Public Patent Foundation postanowil jeszcze raz rozpatrzyc wniosek MS. Pozytywne rozpatrzenie wniosku MS stwarza grozbe sciagania oplat za korzystanie z FAT. Uwaza sie, ze MS bedzie scigal male/srednie firmy nie majace srodkow na walke z MS w sadzie. Proponuje sie stworzenie dzialu/komitetu do spraw oceny pochodzenia kodu wytwarzanego&nbsp; w aplikacjach wewnetrznych. Jego zadaniem jest ocena ryzyka stosowanie rozwiazan open-source wykorzystujacych rozne algorytmy i strukturya takze&nbsp;okreslajacy polityke wykorzystania oprogramowania open source oraz ustanawiajacy wewnetrzne narzedzia monitorujace (w&nbsp;orginale "...establishing open source use policies and appropriate internal monitoring processes...").   Pod tym adresem jest How-To o Linuksie:  urlLink http://www.linux.com/howtos/HOWTO-INDEX/categories.shtml    Pod tym adresem jest "Linux Integration Guide":  urlLink http://www.linux.com/article.pl?sid=04/07/23/2247213    Pod tym adresem jest opisany problem instalacji lub upgrade-u Windows XP  urlLink http://www.microsoft.com/technet/prodtechnol/winxppro/deploy/upwpload.mspx    Pod tym adresem jest dostep do Clinic 2801:  urlLink https://www.microsoftelearning.com/security/itpro/  
+     
+
+    
+</post>
+
+<date>29,lipiec,2004</date>
+<post>
+
+	 
+      Na stronie  urlLink http://weblog.infoworld.com/udell/2004/07/28.html#a1050 &nbsp;znajduje sie informacja o ironPython, implementacji jezyka Python w srodowisku .NET.  Autorem jest Jim Huqunin. Testy wydajnosci wykazaly wyjatkowa szybkosc tego jezyka typu skryptowego (zwanego jezykami dynamicznymi).&nbsp;Autor udostepnia oprogramowanie na zasadzie CPL i od niedawna pracuje w MS. Jego obowiazkiem jest poprawic reputacje dynamicznych jezykow w srodowisku CLR. Do tej pory implementacja&nbsp;VB.NET byla krytykowana z uwagi na zmiejszenie elastycznosci konstrukcji jezykowych w porownaniu do VB 6.0. Implementacja Pythona pokaze mozliwosci CLR w zakresie interpretacji jak i dynamicznej syntaktyki jezykow dynamicznych. Z jednej strony CLR z wczesnym zwiazywaniem nazw i kompilacja kodu jest nieco jak sztywny gorset dla programisty. Z drugiej strony takie podporzadkowanie srodowiska pod katem wydajnosci spowodowalo, ze programy napisane Pythonie i uruchamiane w tym srodowisku wykonuja sie szybciej niz implementacja CPython w czystym C.  Serwis weblog.infoworld.com jest znakomity.  Benchmarki:  urlLink http://www.python.org/pycon/dc2004/papers/9/    
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      Hackers have long insisted that steering clear of Microsoft's Internet Explorer browser is one of the easiest ways to protect computers from many of the security threats that lurk on the Internet.   That suggestion is often greeted with apathy or angry accusations that the geek in question was indulging in Microsoft-bashing -- admittedly a not-uncommon activity in hacker circles.   But last Friday, in response to the latest security exploit involving Microsoft products, the usually staid U.S. government's Computer Emergency Readiness Team, or US-CERT, published a warning strongly suggesting that users of Microsoft's Internet Explorer should switch to another Web browser, due to "significant vulnerabilities" in technologies included in IE.   Gary Schare, director of the Windows Client Division at Microsoft, said that CERT's advice had been misrepresented in much of the press coverage.   "Microsoft certainly respects the work CERT does to help protect the Internet and users. Regarding the consideration that users switch browsers, it is unfortunate that the published articles have misrepresented CERT's suggestions, and we are working with CERT to clarify their advice," Schare said.   But many evidently took CERT's warning to heart and downloaded Mozilla or Mozilla's Firefox, free, open-source Web browsers developed and distributed by the Mozilla Organization, who resurrected the remnants of Netscape after it was purchased by AOL in 1999.   Downloads of Mozilla and Firefox -- an advanced version of Mozilla -- spiked the day CERT's warning was released, and demand has continued to grow. According to Chris Hofmann, engineering director at the Mozilla Foundation, formed last July to promote the development, distribution and adoption of Mozilla Web applications, downloads of the browsers hit an all-time high on Thursday, from the usual 100,000 or so downloads on a normal day to more than 200,000.   Hofmann said the Mozilla team wasn't surprised when CERT issued its warning.   "Mozilla and Firefox downloads have increased steadily since last fall, with the Firefox user base doubling every few months, as more people seem to have reached their threshold level of frustration dealing with problems with IE and Windows, and have found the Mozilla software a good solution to solving those problems," said Hofmann. "CERT's recommendation is just a reflection of the trend we have seen for quite some time." Security experts said Mozilla's lack of ActiveX support makes the browser more secure than IE. ActiveX was intended to allow websites to add multimedia and interactive features, but has lately been used to slide spyware onto PCs without the user's knowledge or explicit consent.   "ActiveX allows programs to run in the browser," said Patrick Hinojosa, chief technology officer at Panda Software, a security software vendor. "It is a big part of the security equation, as most IE users don't have this locked down by default."   "But there have also been some exploits of the IE browser that had nothing to do with ActiveX," Hinojosa added. "There have been numerous IE patches issued over the last year or so."   Mozilla's Hofmann agreed that ActiveX is only part of the story, pointing also to IE's tight integration into the Window's operating system, and differences in IE and Mozilla's default security settings and architecture as other reasons why Mozilla browsers are more secure.   "Tight integration of the browser with the operating system provides some convenience and power for Windows developers and users, but has also been a continuing source that allows malicious hackers to leverage that same convenience and power for their exploits," said Hofmann.   "Most of this convenience centers on the default protection mechanisms for downloading, installing and running executable programs without the knowledge of the user or any intervention by the user."   Mozilla requires users to acknowledge and grant explicit approval to any situation that involves downloading, installing or running executable code or any other potentially risky operation. A well-patched version of IE usually does the same, but Mozilla can also interrupt automated attacks and keep malicious code from being run, features that have saved Mozilla and Firefox from being vulnerable to many of the problems that have plagued IE users.   But some security experts believe that Mozilla's biggest security benefit is that the browser is not in wide use yet.   "It is not so much a question that one browser is inherently safer than another, but the fact that so many people use Explorer," said Carole Theriault, security consultant at Sophos, a security software vendor.   "Microsoft is targeted because they are so successful. And they have a hard job ahead of them. Something like 90 percent of the world's computers run Microsoft operating systems. This homogenous environment is attractive to those cyber criminals looking to make some kind of impact."   Hofmann also credits Mozilla's open-source development model with the browser's security successes.   Every change made to Mozilla applications is first peer reviewed by at least two engineers who are familiar with the code and overall architecture of the system before the new code is allowed into the product. Then the product goes though a series of automated tests and evaluations, after which Mozilla users and the development community are invited to review the impact of each change by downloading the test builds that are produced two or three times a day.   "All kinds of hackers, from junior high school whiz kids to graduate students to seasoned engineers that work for companies that use and deploy Mozilla technologies have the code available to study and improve," said Hofmann.   Microsoft's Schare said that Microsoft also continues to work to improve the security of Internet Explorer, and said focusing on security is a top priority for the company.   Schare said the Windows XP Service Pack 2 with Advanced Security Technologies, expected to be released later this summer, will deliver improved security infrastructure that will help reduce a PC's vulnerability to certain types of attacks. It will also include a new pop-up blocker and download monitoring tool that will help reduce unwanted or potentially malicious content and downloads.   "As for last week's IIS issues, Microsoft is aggressively working to provide a comprehensive fix for all supported versions of IE," Schare said. "This will be released once it has been thoroughly tested and found to be effective across the wide variety of supported versions and configurations of IE. In the meantime, we have provided customers with prescriptive guidance to help mitigate these issues."   
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      W dniu 2 lipca MS opublikowal remedium na ostatni blad wystepujacy w przegladarce MS IE. Jest do sciagniecia z MS Update. Dodatkowo pod adresem  urlLink bezpieczenstwo  jest informacja - miesieczny biuletyn na temat zabezpieczenia sieci. Strona o bezpieczenstwie produktow MS  urlLink bezpieczenstwo 
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+       urlLink What Users Want in IE Upgrade  Glowne postulaty uzytkownikow odnosnie MS IE (oprocz tych udoskonalen w SP2): wsparcie pelne CSS wparcie PNG zakladki (tabbed interface) lepszy manager pobierania plikow czytnik formatow RSS
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+       urlLink Adam Bosworth's Weblog: KISS and The Mom Factor  KISS and The Mom Factor My new role (I recently moved from BEA to Google) has me working on very different types of software. Rather than worrying about what the IT of large corporations needs to do to support the corporation, I'm worrying about mere mortals. In fact, my Mom. I never find that I can build any software if I don't first get some mental image in my head of the customers. Who are they? How do they look, feel, think? I call this designing by guilt because if you don't do what feels right for these customers, you feel guilty for having let them down. Of course, customers are endlessly disparate, complex, heterogenous, and distinct. But even so, I've always found it necessary to think about a small number of distinct types of customers, and then design for them.   And boy is it satisfying to do this when the people you are designing for are your friends, family, relatives, your smart alec son, and so on and when even your mother can use what you build. I call this the mom factor. It is corny but fun.   It is interesting to me how this focus around simplicity in the services world could carry through even to the plumbing people use. For example take so called web services. The original impetus behind XML, at least as far as I was concerned back in 1996, was a way to exchange data between programs so that a program could become a service for another program. I saw this as a very simple idea. Send me a message of type A and I'll agree to send back messages of types B, C, or D depending on your A. If the message is a simple query, send it as a URL with a query string. In the services world, this has become XML over HTTP much more than so called "web services" with their huge and complex panoply of SOAP specs and standards. Why? Because it is easy and quick. Virtually anyone can build such requests. Heck, you can test them using a browser. That's really the big thing. Anyone can play. You don't have to worry about any of the complexity of WSDL or WS-TX or WS-CO. Since most users of SOAP today don't actually use SOAP standards for reliability (too fragmented) or asynchrony (even more so) or even security (too complex), what are they getting from all this complex overhead. Well, for one, it is a lot slower. The machinery for cracking a query string in a URL is about as fast as one can imagine these days due to the need services have to be quick. The machinery for processing a SOAP request is probably over ten times as slow (that's a guess). Formatting the response, of course, doesn't actually require custom XML machinery. If you can return HTML, you can return XML. It is this sort of thinking that being at a service company engenders. How do you keep it really simple, really lightweight, and really fast. Sure, you can still support the more complex things, but the really useful things may turn out to be simplest ones.  You have to. The scale is orders of magnitudes more than is normally processed by a business process within even the largest corporation. It is hard enough to build these massively scalable services if you keep the moving parts simple, clear, and down to a small number. This is usually called the KISS principle as in keep it simple and stupid or, more rudely, keep it simple, stupid. It reflects the engineering realization that just delivering on the required speed and scale will require a lot of plumbing and monitoring as it is.   So, I'm having a lot of fun learning about a whole new world. Trudno sie z tym nie zgodzic...
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+       urlLink Forbes.com: This is War Inside Microsoft Taylor is building a network of information and relationships aimed at overpowering the rival operating system. His attack spans multiple levels of the Redmond, Wash. empire: product development, marketing, sales and even customer demonstrations. In a building where Microsoft hosts trial runs of its software for customers, Taylor now has 50 servers out of 500 devoted to Linux.
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+       urlLink IDC offers sunny forecast for servers - News - ZDNet  Raport IDG z 16 czerwca przewiduje stały wzrost na rynku serwerów. Na postawie bieżącego trendu przewiduje się znaczny wzrost - rocznie o około 3.8% tak, że w 2008 wartość rynku serwerów dojdzie do kwoty 61 mld dolarów. Szybkiej wzrośnie segment "blade server" - dostarczy w 2008 roku 9 mld dol. co mu da 30% udział na rynku wszystkich serwerów. Szczególnie silny wzrost będzie miał miejsce w segmencie serwerów bazujących na architekturze x86. Podział rynku serwerów według systemów operacyjnych: 30% - Linux-based (10 mld dol.), natomiast 60% wszystkich sprzedanych serwerów będzie należało do Windows-based.
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+       urlLink Free corporate Linux set for test phase - News - ZDNet : "peeved " Znany działacz FOSS Peres oznajmił na LinuxWorld Expo, że przygotował nową wersję Linuxa zorientowaną na rynek serwerów korporacyjnych. Nazywa się UserLinux i ma konkurować z dwiema wersjami z tego obszaru zastosowań Linuxa: RedHat (użytkownik płaci od 300 dolarów roczniej za wsparcie) oraz SuSE (cena opieki rocznej - 350 dolarów). Im wydajniejsza platforma sprzętowa tym opieka jest droższa. UserLinux ma być znacznie tańszy. Powodem zorganizowania nowej dystrybucji Linuxa (opartej na Debianie) jest rozdrażnienie Peresa faktem, że RH sprzedaje oprogramownie systemowe w skład którego wchodzi program napisany przez niego samego (Electric Fence) za pieniądze.  Pakiet UserLinux wejdzie na rynek we wrześniu. Jedynym hamulcem jest proces certyfikacji samego systemu i wchodzących w skład dystrybucji dodatków. Przewiduje się uzyskanie certyfikatów na poziomie zgodności z Linux Standard Base.
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+       urlLink Munich breaks with Windows for Linux - News - ZDNet : "The software giant pointed to a new agreement it had signed with Frankfurt, under which the German city joined a Microsoft program that offered products to German local governments under 'inexpensive and flexible terms.' Frankfurt Mayor Petra Roth said in a statement that the city will save money as a result of the deal" Okazuje się, że Frankfurt dał się namówić na pozostanie w środowisku Windows w ramach programu MS skierowanego do niemieckich lokalnych administracji.
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      Doh, you made me curious about whether it is possible to connect via COM toUNO with Python, and yes it is!I claim to know that there is no information about how to do that withPython (especially), but it might be useful that you read documentationabout the Automation Bridge: urlLink http://udk.openoffice.org/common/man/tutorial/office_automation.html What I did is easily use the lines you write in VB for Python and itabsolutely worked:The following example will open a new writer document of OOo:>>> from win32com.client.dynamic import Dispatch>>> server = Dispatch('com.sun.star.ServiceManager')>>> odesktop = server.CreateInstance('com.sun.star.frame.Desktop')>>> odesktop.loadComponentfromURL('private:factory/swriter', '_blank', 0,[])list is the equivalent to an array type of UNO.Now it should be easy for you to figure out how to export something to pdf,I would just read how you do it with Starbasic (OOo's own scriptinglanguage) and then translate it into Python (as you saw in my example it'sactually a very simple translation of how you would do it with Starbasic,VB). 
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      you probably didn't find anything about COM on openoffice.org, because OpenOffice has it's own component models concept, called UNO. The UNO has an Automation Bridge that provides the use of WSH, VBScript etc.  OpenOffice also comes along with its own small Python core, small because it doesn't support a lot of modules and you cannot just install extension modules, because every module must be known to UNO.  Though you can easily write add-ons with the OOo Python core which would then be available to others, even if they wouldn't have Python (they would at least have Python in their OpenOffice).  So you have two options what you could do now:  1.    get to know another component model (the one of OOo called UNO, which is pretty new, so don't expect it to be as good as COM) and write python code to make use of it:          http://udk.openoffice.org/python/python-bridge.html  2.     or delve into COM by using Python code for doing something in MS Word or Excel."
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      Peres mówi, że największym problemem w Windows są sterowniki urzadzeń, które czasami potrafią zzawiesić komputer. Problem w tym, że sterowniki tworzone są przez firmy trzeci i czasmi mogą być nie najlepiej napisane. Z drugiej strony MS nie może zablokować instalację sterowników firm trzecich (tych nie "podpisanych" przez MS) ponieważ ograniczyłoby to możliwości Windwos w obsłudze urządzeń peryferyjnych. Peres przestrzega, że w miare wzrostu popularności Linuxa ten sam problem może spotkać i ten system, chyba, że wymyśli się jakiś sposób na ograniczenie możliwości ingerencji sterowników w jądrze (bezpieczne uruchamianie).  Druga myśl jest taka, że korporacyjni użytkownicy (a więc ci co płacą i są pewnymi klientami MS) są skazani na pakiety biurowe MS są zamknięci w kręgu MS z uwagi na wykorzystanie VB dla aplikacji i samego VB. Odpowiedników takich narzędzi programowania w Linux nie ma. No chyba, że wykorzystamy Python. Ale nie jest łatwo przenieś cały majdan wieloletnich makr i procedur w VB do świata Linux. OOffice coś wspominał o projekcie konwertera aplikacji w VBA na makra Open Office'a.
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+       urlLink SCO to claim IBM used unlicensed code in AIX 5L : "SCO to claim IBM used unlicensed code in AIX 5L    SCO may escalate its legal battle against IBM after having discovered documents that it says prove that IBM violated SCO licensing terms when it developed the latest version of its AIX operating system. IBM is alleged to have used Unix code in AIX 5L that SCO had licensed to IBM for 'Project Monterey,' an effort to build a version of Unix for Intel's Itanium processor. IBM dropped Project Monterey in 2001 in favour of Linux, but SCO has discovered e-mail that purports to show that IBM used code licensed from SCO for Project Monterey in the development of AIX 5L without a separate licence. Forbes.com first reported the allegations, attributing them to remarks made by SCO chief executive Darl McBride earlier this week on the sidelines of the company's annual user conference. A representative of SCO declined to comment, and IBM has yet to respond to invitations to comment."
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+       urlLink Mod_Python introduction - The other LAMP : "Why Python?  Python is the ideal programming language for new programmers. It is easy and quick to learn, the interpreter makes playing with your code easy and it comes with an extensive library so you can reuse other people's code and develop more quickly. This makes it ideal for developing prototypes and rapid development. Websites such as google, yahoo mail, yahoo groups and others were at some point in their lives mostly python. The downsides? Because python is dynamically typed for larger applications unit testing is important. Not as many ISPs support mod_python as PHP, mod_perl and ASPs yet. mod_python is a module that allows python to run embedded directly into the apache server allowing for good performance. The current version includes support for sessions, psp templates, and cgi support. Scaling   How fast is mod_python? Recent benchmarks that I have made put it (20-50x) faster than cgi or zope and mildly faster than mod_php. If you need to make your application truly scalable you should investigate caching servers such as mod_cache in apache or HTTP server acceleration using squid server. Generate much of your content as possible as static pages and try to minimize the session information held in memory.  If bandwidth is the constraint have a look at mod_gzip or the gzip example in mod_python. You will see 50% to 20% bandwidth savings. Most browsers support this - unfortunately most spiders don't yet support gzip.   How to run code?  The original method of running code on web servers was through the CGI model. In CGI each time the program is run a separate process is spawned and its standard output is redirected to the browser. Because python is interpreted there is significant overhead of launching the interpreter. Every CGI request causes a process to be created and the Py"
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+       urlLink Mod_Python introduction - The other LAMP : "Why Python?  Python is the ideal programming language for new programmers. It is easy and quick to learn, the interpreter makes playing with your code easy and it comes with an extensive library so you can reuse other people's code and develop more quickly. This makes it ideal for developing prototypes and rapid development. Websites such as google, yahoo mail, yahoo groups and others were at some point in their lives mostly python. The downsides? Because python is dynamically typed for larger applications unit testing is important. Not as many ISPs support mod_python as PHP, mod_perl and ASPs yet. mod_python is a module that allows python to run embedded directly into the apache server allowing for good performance. The current version includes support for sessions, psp templates, and cgi support. Scaling  How fast is mod_python? Recent benchmarks that I have made put it (20-50x) faster than cgi or zope and mildly faster than mod_php. If you need to make your application truly scalable you should investigate caching servers such as mod_cache in apache or HTTP server acceleration using squid server. Generate much of your content as possible as static pages and try to minimize the session information held in memory.  If bandwidth is the constraint have a look at mod_gzip or the gzip example in mod_python. You will see 50% to 20% bandwidth savings. Most browsers support this - unfortunately most spiders don't yet support gzip.  How to run code?  The original method of running code on web servers was through the CGI model. In CGI each time the program is run a separate process is spawned and its standard output is redirected to the browser. Because python is interpreted there is significant overhead of launching the interpreter. Every CGI request causes a process to be created and the Py"
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+       urlLink Materialy z LinuxExpo     urlLink Rywalizacja Oracle - IBM na rynku baz danych na serwerach Linux  
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      IBM Tosses Embedded Database to Apache LinuxWorld: Big Blue will continue to develop Cloudscape separately but remain true toitsopen source version.  urlLink http://nl.internet.com/ct.html?rtr=on&amp;s=1,11rj,1,m701,ajsr,48gk,84du  Na uwagę zasługuje dodanie do Apache możliwosci przechowywania danych w bazie np. stanu sesji z uzytkownikiem co ma piekielnie wazne znaczenie w przypadku bezstanowego protokolu HTTP. Wazne jest teraz jak mozna to wykozystac w samym serwerze np w postaci modulu mod_cloudscape? Sama mozliwosc jeszcze nic nie daje, trzeba jeszcze to dorobic interfejs bazy z serwerem internetowym. Jest jeszcze jedno pytanie: jaki cel przeswiecal firmie IBM? 1) Utrzec nosa MS SQL Server i MySQL (polowa instalcji baz danych open source to MySQL)? 2) spopularyzowac Jave poza Sun-em? 3) zwiekszenie funkcjonalnosci serwera Apache? 
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+       urlLink ClearType Step 4: View your ClearType settings 
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      Strona zawiera informacje o technologii Clear Type i jak podstroic swoj monitor:   urlLink http://www.microsoft.com/typography/cleartype/cleartypeactivate.htm?fname=%20&amp;fsize= = 
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      The City of Munich has put its planned migration to Linux of 14,000 desktop PCs on hold due to concerns over software patents, the city's CIO said on Tuesday night. The call for bids in the LiMux Project, as it is known in Germany, was due to begin last week. But on Friday, Green Party Alderman Jens Muehlhaus called for the city to examine the impact patents might have on the decision, in light of software patents legislation currently under consideration in the European Union.  Muehlhaus said a cursory examination of Munich's proposed client software had turned up conflicts with more than 50 European software patents. The fear is that a company holding one or more of these patents could issue a 'cease and desist' order to the Munich government, effectively shutting down the city's computer systems or forcing the payment of licensing fees. In response, the city decided to cancel the planned call for bids until the patent issue has been investigated, according to a statement from Munich CIO Wihelm Hoegner issued to the LiMux Project mailing list late on Tuesday. " Dopisane później: Okazało się, że projekt zwany LiMux przewiduje trzy fazy: 1) do końca tego roku omputerach OpenOfficce oraz Mozilli 2) w latach 2005-2006 wymiana systemu operacyjnego Windows NT na Linux-based OS 3) od 2008 roku migrację aplikacji serwerowych i innych specyficznych programów na ich open-source odpowiedniki. Podobnie ma się sprawa w Wiedniu. Tam też postanowiono wymienić oprogramowanie. Łącznie jest to 16 tys. użytkownicy będą mogli zadecydować o swoim wyborze. Nasuwa się pytanie dlaczego zarząd obu miast dopuscił do tak karygodnego zaniedbania w swojej strukturze informatycznej. Teraz wobec zakończenia w tym roku wsparcia technicznego przez MS systemu operacyjnego Windows NT nie nalezy się dziwić, ze zarząd miasta MUSI cos zrobic. 
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      eADT at LinuxWorld: Beyond the OS By John K. Waters The West Coast edition of the bi-annual LinuxWorld conference opens this week in San Francisco. More than 190 exhibitors are showcasing their wares this year -- 55 more than last year, according to Warwick Davies, group VP at show organizer IDG World Expo -- and attendance is expected to match last year's numbers of between 10,000 and 11,000. "The event has always been a great watering hole for everyone from kernel developers to line-of-birth managers looking at bringing Linux into their companies," Davies said." The main theme of this year's show, Davies told eADT, is "Linux: Beyond the operating system." Attendees can expect to see "a whole host of applications that allow you to run your business on Linux," he said. Within the "beyond the OS" theme, this year's show is putting a lot of emphasis on desktop Linux. Nine sessions are dedicated to Linux desktop strategies and technology development. There is a Desktop Linux Pavilion, where new open-source desktop technologies will be on display. And both Dell and HP are expected to unveil new products for deploying Linux as a Windows alternative. Linux integration is another focus of the show, Davies said, so attendees should expect a range of announcements and exhibits around the issue of working with Linux in mixed environments. A new security track has also been added to the lineup, which Davies sees as a sign that more enterprises are looking seriously at Linux. "Security is a buy signal," he said. "When people start thinking about security, they're not wondering about whether they want the technology, but how they can make it work in their organization." 
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      Według IBM niedługo stanie się możliwe uleczenie układu scalonego w trakcie jego eksploatacji. Pomysł wykorzystuje ideę elektronicznych bezpieczników tj. miejsc w krzemie układu scalonego przez które może przejść prąd (elektrony) w ten sposób wypalając nową ścieżkę w układzie scalonym (np. nowa trasę przepływu elektronów omijającą wadliwy obszar układu scalonego). Wykorzystanie tego efektu zwanego elektromigration oraz sposobu przepuszczania elektronów tak by wypaliły nowe ścieżki tylko w bezpiecznikach jest objęty patentem. Do tej pory taki sposób omijania defektów był możliwy przy pomocy lasera (który wycina na etapie produkcji chipów. Dodatkowo układ laserowy do wypalania ścieżek przy zmianie technologii na mniejsze wielkości np. 90 nano m musi być wymieniony (zastąpiony mniejszym).
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      Na tej corocznej konferencji LinuxWorld Conference &amp; Expo in San Francisco coraz częściej mówi się o wkroczeniu systemu Linux do środowiska komputerów osobistych użytkownika. Użytkownicy końcowi tak naprawdę do szczęścia potrzebują u siebie dostępu do Internetu, poczty elektronicznej oraz aplikacji internetowych (web-based applications). Wielu mam nadzieję (sądzi), że Linux jest bardziej bezpieczny. W przypadku twórców oprogramowania też Linux jest atrakcyjny z uwagi na neutralność platformową oprogramowania napisanego w Javie oraz serwisów webowych (Web services). Dodatkowo Linux oferuje wiele narzędzi do tworzenia aplikacji (większość z nich jest bezpłatna). Generalnie większość użytkowników jest zadowolona z dowolnego systemu operacyjnego zapewniającego powszechne aplikacje jak przeglądarkę webową, maszynę wirtualną Javy oraz klienta poczty elektronicznej. Dlatego Linux nadaje się jako fundament pod stanowiska obsługujące zarówno aplikacje klient/serwer jak i internetowe (web-centric applications). Jednakże jest klasa użytkowników tzw. knowledge workers którzy są mocno przywiązani do aplikacji wspomagających ich produktywność w środowisku Windows. IDC przewiduje wzrost udziału Linuxa na rynku stacji końcowych z 2,7% (3,4 mln roku 2002) do 6% (10 mln w roku 2007). Jak na razie duże firmy wspierające Linux (IBM, HP, Novell and its SuSE Linux division, Red Hat, Intel, Computer Associates International, Dell and Oracle) bardziej skupiają się na niszy serwerowej ale to niedługo po nasyceniu tego rynku może się zmienić w kierunku stanowisk końcowych. 
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      Rozmowa z M. Kay czołowym autorem książek o XML. Ma stronę  urlLink WWW.saxonica.com  i wyraża się pochlebnie o Stylus  Studio, kosztuje tylko 50 USD.  urlLink http://www.stylusstudio.com/home_edition_faq.html  
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      Firma Forbes odniosla sie krytycznie do inicjatywy ubezpieczenia sie przeciw pozwom za uzywanie systemu Linux. Taktyka FUD (fear, uncertainty and doubt) stosowana nigdys przez IBM w stosunku do innych firm sprzedajacych mainframe'y, a nastepnie przez MS w odniesieniu do inicjatywy FOSS zostala sprytnie wykorzystana przez Open Source Risk Management (12 osobowa firma zalozona przez Daniel Egger, dyrektorem jest sam Bruce Perens ten sam, ktory zostal wyrzucony z HP za instalowanie Linuxa w firmie i czolowy adwokat ruchu Open-Source).  Firma to zapewnia firmom ubezpieczenie przed pozwem do sadu za korzytanie z syst. operacyjnego Linux (za cene 150 tys dolarow rocznie ubezpiecza firme korzystajaca z Linuxa do wysokosci 5 milionow dolarow).  Aby wzmocnic swoje argumenty OSRM oglosila, ze znalazla w systemie Linux wykorzystanie 286 patentow (z czego 27 jest autorstwa MS, inne pochodza od "zaprzyjaznionych" firm jak IBM, SUN itd). Firma ostrzega przed atakiem patentowym firmy Microsoft. Jakie to sa patenty firma nie podaje z uwagi na prawo "willful infingement" w mysl ktorej uswiadomiony w zakresie wykorzystywanych patentow uzytkownik Linuxa narazony jest na potrojna kare. Dodatkowy "smaczkiem" sa inni pracownicy OSRM. Stanowisko "director of legal research" objela Pamela Jones, a amator-prawnik prowadzaca slynny serwis Groklaw (SCO-bashing Web site)oraz glowny konsultant patentowy ("lead patent counsel") Daniel Ravicher (29-letni prawnik, ktory sie wslawil zalozeniem fundacji twierdzacej, ze polowa patentow w USA jest niezgodna z prawem).
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      W poniedzialek, 2 sierpnia Mitchell Baker prezydent Mozilla Foundation (MZ jest odpowiedzialna za rozwoj Mozilli oraz FireFoxa i Thunderbirda) oglosil, ze wyplaci 500 dolarow kazdemu kto znajdzie powazniejszy blad w jego produktach. Ostatni raport o bledach w obszarze obslugi cyfrowych certyfikatow  urlLink http://news.com.com/Mozilla+to+squash+security+bugs/2100-1002_3-5286138.html?tag=nl  spowodowal zauwazenie problemu wystepujacych w oprogramowaniu MF bledow. Nagroda za znalezienie bledu w zabezpieczeniach ma  zachecic internautow i zglaszania bledow, zniechecic potencjalnych hakerów do wykorzystania luki w oprogramowaniu oraz jest forma podziekowania za wklad zwiekszajacy bezpieczenstwo przegladarek bazujacych na silniku Mozilli. Krytycy uwazaja, ze ilosc bledow w Mozilla Web Application (MWA) jest podobna do MS IE ale z uwagi na to, ze 95 % rynku przegladarek nalezy do MS jest mniejsze prawdopodobienstwo znalezienia bledu jak imniej hakerow probujacych sie wlamac poprzez przegladarke MWA do witryn. Podobnie zostal uruchomiony inny program Mozilla Security Bug Bounty Program sponsorowany przez Lindows oraz inwestora internetowego Mark Shuttleworth. Polega on na wniesieniu przez Lindows funduszu poczatkowego w wysokosci 5 tys dolarow. Z kolei Mark Shuttleworth wyplaci na poczatku 5 tys dolarow do funduszu za wplate 5 tys dolarow pochodzaca od innego inwestora. Firma MS nie skomentowala tej inicjatywy, wiadomo jednak, ze i ona oglosila rozpoczecie programu w ramach ktorego wyplaca 250 tys dolarow kazdemu, kto doprowadzi do zlapania autora wirusa. Obecnie oprogramowania Mozilla Web application--zawierajace browser, e-mail, chat program, and Web page editing program--jest w wersji 1.7. Inne produkty Mozilla Foundation to Firefox stand-alone browser and Thunderbird e-mail client sa prawie na ukonczeniu i sa powszechnie stosowane. 
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      So here's a quick checklist for the "not-very-shortcut" set of  practices that should set you ahead - if you can take the time  to follow them:  * Define your business requirements. Make sure that there are    not multiple views and goals (e.g., 25% cost reduction in WAN    bandwidth by Dec. 27) both within your organization, and between    you and the lines of business you're supporting. All too often    there are different versions of project objectives floating    around. At the same time, make sure you are clear on which    business services are affected by the change, and how.  * Clarify organizational and process needs. For instance, you    can't do data center consolidation right if you don't understand    the relationship between that project and your WAN performance.    Applications and services perform across an ocean of    interdependencies. That also means checking your organizational    processes and tuning them for superior collaboration - so that    in this case the NOC and the data center can work as a    collaborative team, not as finger-pointing adversaries.  * Audit. This is one of the scarier but more profound    requirements for "doing it right." You need to follow up the    implied "IT process audit" above and then document what the    infrastructure is, what your service-level agreements are with    external providers, what your SLAs are with internal and    external customers, and what management tools are in place to    support the project at hand. If you do this right, you'll    discover many surprises in all areas - unless of course you're    one of the very few organizations that took the time to get all    this right before. I'll also bet that you discover tool sets    with conflicting information used by different IT groups to    blame each other for problems.  * Baseline, analyze and plan. We're into more normal territory    here, and while there's a lot to say about this phase, I'll    focus on only two things. A real baseline means understanding    quality of experience, which is complex - including not only    availability and responsiveness, but also flexibility,    cost-effectiveness, appropriateness, and other metrics. Planning    also means understanding usage patterns and trying to get at the    hows and whys of service behavior before embarking on the    if-then tradeoffs for optimizing infrastructure.  * Establish and promote. Once your plan is solid, communicate it    - within your organization and externally to your customers.    Believe it or not, planned change is a good time to build    rapport with your customers and promote your value to the    business.  * Deploy and validate. The key thing here is to proceed in    stages and to validate as you go. It's also important to note    that before embarking on this stage, you should already have    worked out timing for any changes to SLAs and contracts with    external service providers.  * Reassess and begin again. Change is ongoing. If your WAN    rightsizing project has gone well, for instance, something new    is likely to be demanded. Rather than wait to be kicked from    behind, look proactively to, as the expression goes, "make    change your friend" in providing better services for your    clients.
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      Connect to a server and its databases using SQL-DMO  Microsoft provides an object-oriented library for dealing with SQL objects: SQL-DMO (SQL Distributed Management Objects). By using this library, you can perform a number of cool tasks that are difficult or impossible to do in T-SQL.  As with all object libraries, you have to learn to walk the hierarchy. The highest-level object in the library is the collection of servers. Below that level are the databases, and the tables, views, sprocs, and so on that reside within a given database. This tip will show you the most basic steps on how to connect to a server and its databases using SQL-DMO.  Related resources      * Best practices to enhance your SQL Server applications     * Download: Quick Start: Microsoft SQL Server  The first thing you need to do is obtain the list of servers. The following code will deliver the list of servers to a listbox:  Function listServers(oControl As Object)       Dim oApp As SQLDMO.Application     Dim oNames  As SQLDMO.NameList        Set oApp = New SQLDMO.Application     Set oNames = oApp.ListAvailableSQLServers()        For Each oName In oNames         oControl.AddItem oName     Next    End Function   Podobny skrypt w j. Python:  import win32com.client  oApps = win32com.client.Dispatch('SQLDMO.Application')  oNames = oApps.ListAvailableSQLServers()  print "Lista serwerow MS SQL"  for oName in oNames:     print oName      print "Koniec"  The next (lower) element in the hierarchy is the list of databases. This is where you may need to supply a userid and a password (if you aren't using integrated security). Note: Be sure to read the following code before using it, particularly the demarcated lines.  Function listDatabases(vServer As String, oControl As Object)        Dim oSrvr As SQLDMO.SQLServer     Set oSrvr = New SQLDMO.SQLServer        oSrvr.LoginSecure = True     ' ----------------------------     ' use this line for integrated security     oSrvr.Connect vServer     ' or this for sql login     oSrvr.Connect vServer, "sa", "SQLTips" - substitute your sa password    ' --------------------------        For Each oDatabase In oSrvr.Databases         oControl.AddItem oDatabase.Name     Next   End Function  I once used such code when I was deploying an application written against MSDE, which doesn't include Enterprise Manager, Query Analyzer, and all those other nice tools. With SQL-DMO, I was able to write a small application that enables users to create a new database, install the tables we shipped (mostly blank but some of them were pre-populated), and then load and go.  I encourage you to investigate SQL-DMO further. By descending into the hierarchy, you can walk the list of tables, queries, and so on, using very simple code like the examples above. Once you dive in, it turns out to be very easy, and it can save you lots of time.  Arthur Fuller has been developing database applications for more than 20 years. He frequently works with Access ADPs, Microsoft SQL 2000, MySQL, and .NET.           
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      LinuxWorld Expo kicks off at the Moscone Convention Center in  San Francisco this week, with a slew of announcement from major  vendors. As usual, the new products focus on the use of Linux in  high-end enterprise server platforms. Linux and open  source-based client products and software development platforms  are also being demonstrated.  Among the products being announced at the show this week are:  * Red Hat is expected to launch its first Java application    server, a product that will compete with platforms from BEA, IBM    and Oracle.  * Novell is expected to unveil SuSE Enterprise Server 9.0, which    runs on the Linux 2.6 kernel, providing better support for    multiprocessor systems. It's been reported that systems running    on pre-released versions of the software can scale to 32 Intel    Itanium II processors and handle as much as 512G bytes - that's    Gigs not Megs - of memory.  * HP is expected to announce a range of Linux products,    including Linux-based midrange and high-end Integrity servers    and a Linux thin client, the HP Compaq t5515.  It will also    showcase ProLiant servers with Intel's new 32-/64-bit    technology. HP will announce an expanded Linux services and    support team.  * IBM will announce broader third-party software support for    Linux on its Power processor and will unveil xSeries servers    with Intel's 32-/64-bit technology.  * Veritas is expected to announce that the latest versions of    its storage and clustering software are all certified on Red Hat    Enterprise Linux. Among the tools certified include Veritas    Storage Foundation, Veritas Storage Foundation for Oracle RAC,    Veritas Storage Foundation Cluster File System and Veritas    Volume Replicator.  * Computer Associates plans to announce that it will open source    its Ingres r3 database, which runs on Linux and will be made    generally available Sept. 30.
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+      Warstwa komputerowa jest poszerzona o kolejna warstwe, warstwe identyfikacji. Do tej pory jest warstawa sprzetu, systemu operacyjnego, aplikacji. Pozniej doszla warstwa posredniczaca miedzy aplikacjami i systemem (middleware) a takze warstwa abstrakcji sprzetowej i sterownikow. Teraz doszla warstwa identyfikacji uzytkownika zasobu. O niej mowilo sie na poczatku lat 90, gdy wprowadzono uslugi LDAP. Uslugi LDAP wraz z uslugami zabezpieczenia (security services) utworzyly  obszar (strefe) identyfikacji tzw. identity area. Powszechnie mowi sie o powstaniu nowej warstwy "identity management". Uslugi katalogowe rozbudowane do warstwy identity magmt staja sie powszechne (commodities) i na nich bazuje kolejna usluga web services
+     
+
+    
+</post>
+
+<date>03,lipiec,2004</date>
+<post>
+
+	 
+       urlLink Microsoft Corporation 
+     
+
+    
+</post>
+
+
+</Blog>

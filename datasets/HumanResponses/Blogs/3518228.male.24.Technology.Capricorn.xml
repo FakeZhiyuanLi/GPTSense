@@ -1,0 +1,310 @@
+<Blog>
+
+<date>31,July,2003</date>
+<post>
+
+    
+       Why must it be so annoying to do anything useful under windows?  I spent more time than I care to consider just trying to get  urlLink RCS  and  urlLink EMACS  to play nice under Windows 2000.  I'd blame the GNU software, but I've been able to get it to run flawlessly under Mac OS X, Linux, Solaris, and HP-UX.  With Win2k, the only way I could get anything useful to happen was to install the  urlLink cygwin  tools. Does it really count as installing under windows if you need to throw in a Linux emulation layer? 
+    
+    
+</post>
+
+<date>30,July,2003</date>
+<post>
+
+    
+       I saw the movie Memento tonight.  Very good movie.  Complicated.  If you watch it, be prepared to watch it several times.  Salon.com did a very good review/analysis, which you can  read  if you're curious.  (Update 12 Jan 2003: The review seems to have evaporated, and I haven't been able to find another link for it.  So it goes.)  There are a few questions that still remain for me.  In the scene in Natalie's living room, where Leonard flashes to a syringe of insulin, how much insulin is in that syringe?  To my eye, it looks like a whole lot. Even after pausing and zooming, there aren't any numbers visible.  This makes me wonder.  There are a number of scenes where Leonard's memory  works when it probably shouldn't have. For example, when Natalie is trying to rip the picture of Dodd, Leonard tells her that she needs to burn it.  How would he remember that tearing wouldn't work?  I think that Leonard's condition is real, but not because he can't make new memories.  There are things that he doesn't want to remember.  So he forgets.  Some things slip through, though.  The story of Sammy Jankis would seem to be Leonard's story.  But since he cannot &quot;remember&quot; it, as it happened after the incident, he projects it onto someone else.  Mrs. Jankis would get Sammy to hide food around the house, and then stop feeding him to see if hunger would cause him to remember where things were hidden.  Maybe Sammy/Leonard's memory slipped (or in this case, didn't slip) about some of that spousal abuse.  So I ask again, how much insulin was in the syringe that Leonard remembered?  Did Leonard kill his wife in the way that he relates it in the story about Sammy?  Or was it more purposeful? 
+    
+    
+</post>
+
+<date>28,July,2003</date>
+<post>
+
+    
+       It seems like everyone and their little sister has a weblog.  Ok, my little sister doesn't but you get the idea.  I'm starting to wonder if maybe it might be fun/entertaining for me to keep one.  It's tempting to do so, just because I can. However there are some privacy issues with weblogs that I'm not sure I like.  You can't exactly control who reads your weblog.  It's tempting and comfy to start just expressing whatever opinions you might have as if this were a little personal journal.  But it's not personal.  It's very public. Well, I'll just do my best to control myself, and we shall see how this goes.  I saw  Pirates of the Caribbean  yesterday.  It was a pretty good movie.  I expected it to be silly, being that it is a Disney film. The sword fighting in it wasn't as good as I'd been led to think. But it was probably worth the 7.50, at least insofar as any movie is. 
+    
+    
+</post>
+
+<date>19,August,2003</date>
+<post>
+
+    
+       Moving sucks.  It's a not very fun way to find out just how much stuff you have, and just how heavy it all is.  It's particularly enjoyable when you move into an upstairs room, and not only have to lug all of your worldly possessions across town, but upstairs as well.  Fortunately, it's done now, and I won't have to deal with it again for at least another year. 
+    
+    
+</post>
+
+<date>12,August,2003</date>
+<post>
+
+    
+       Ah, how I love that Microsoft sells such quality software.  Around three weeks ago security researchers discovered a problem with the way Windows 2000 and Windows XP handle RPC (Remote Procedure Calls). Today the first virus to exploit this problem started to spread.  You can read about it at a number of places:  Information Week -  urlLink Newly Discovered Worm Attacks Vulnerable Systems  BBC News -  urlLink Worm Blasts Across the Web  The Register -  urlLink Blaster Worm Spreading Rapidly  Security Focus -  urlLink RPC DCOM Worm Hits the Net  Also useful is  urlLink Black Viper's Blaster FAQ .  Cnet even has an analysis of the worm's structure:  urlLink 'MSBlast' worm a piecemeal monster .  People are even starting to throw blame around:  urlLink  Worm Exploits Weak Link: PC Users  (Of course they're going to blame the users, if they blamed the programmers, they might have to admit that programmers make mistakes).  Researchers found that the MSBlast.exe program contains the following text:  billy gates why do you make this possible? Stop making money and fix your software!! . 
+    
+    
+</post>
+
+<date>11,August,2003</date>
+<post>
+
+    
+       Paul Graham, for those of you who don't know, was the gentleman who first proposed the Baysean spam filter in his article,  urlLink A Plan for Spam .  He has recently written a new paper,  urlLink Filters that Fight Back .  He proposes in this paper that the next generation of spam filters should, on detecting a spam, follow the links in the body of that spam and download a few copies of the web pages that that they point to.  If enough people were using filters that did this, it would have a number of positive effects.  Firstly, spammers bandwidth usage would skyrocket, likely costing them lots of money.  Secondly, this would probably be enough to crash (or at least slow down so much that they might as well have crashed) the spammer's website, denying people everywhere those extra three inches.  This is an interesting idea.  The first thing I thought after reading it was: bandwidth.  Depending on whose estimate you read, spam accounts for around 40-60% of all the email on the Internet.  This is a huge chunk of bandwidth, and it's starting to choke the servers of some small to medium sized ISPs.  Writing a fighting filter would only make this problem worse.  Yes, eventually this technique would probably make spam unprofitable. If spam did become unprofitable, spammers would start to go out of business and the bandwidth devoted to sending and fighting spam would tail off.  From the ISP's point of view, relaying a web page from a server to a customer is a much lower-overhead operation than relaying an email.  So maybe my concern is unjustified.  Mr. Graham does respond to this very issue in his  urlLink  FFB FAQ , but to me his response seems a bit flippant.  Bandwidth concerns or not, when such a filter becomes an option, I'll use it. 
+    
+    
+</post>
+
+<date>08,August,2003</date>
+<post>
+
+    
+       Apparently not very many people know what the BCC field is for on email.  BCC stands for Blind Carbon Copy.  Anyone you list on the BCC field will get a copy of your email, but will not be listed as a recipient.  BCC is the  only  polite way to send mass email, short of a mailing list.  I understand that when you're moving, it's simpler to dash off a quick email to everyone in your address book than it is to deal with us all one at a time.  However any mail where the To: field is nearly as long as the body of the message is inherently rude.  So please, people, be polite to the people you correspond with.  If you're going to send mail to more than one or two people, just bcc us all, and leave the To: field blank. 
+    
+    
+</post>
+
+<date>07,August,2003</date>
+<post>
+
+    
+       If I were curious, I would google to see just how many people are posting anger in the direction of SCO right now.  For those of you not geeky enough to be following this corner of the news (how did you get here?), SCO is suing IBM claiming that IBM shared SCO's intellectual property inappropriately.  As always, there are miles and miles of details I could go into about this.  However, I'm lazy.  The short version is that SCO doesn't seem to have a case.  Some people have expressed the opinion that SCO only began litigations to inflate their stock price.  Well, the other shoe has dropped on SCO.    urlLink  IBM has filed a countersuit . If this  was  an attempt to boost  urlLink l&x=on"> SCO's stock price , it would seem to be failing. 
+    
+    
+</post>
+
+<date>06,August,2003</date>
+<post>
+
+    
+       Apparently most of the problem with SBC when I talked to them earlier didn't have much to do with their policy being strange.  It had more to do with the rep I dealt with forgetting to mention a detail to me. The detail he failed to mention: if I pay for the one additional month of DSL service, regardless of if the DSL is connected, they won't charge me a termination fee.  This makes much more sense than what I was told before.  I guess the moral of the story is that it's worth calling back when things just flat don't make sense. 
+    
+    
+</post>
+
+<date>02,August,2003</date>
+<post>
+
+    
+       My five year high school reunion was tonight.  I attended it, though I knew before I went that it would probably be bad.  It lived up to all of my expectations and more.  I got to see a lot of people, but most of them are the ones I kept in touch with anyway.  With a few exceptions, most of the attendees were those who never got out of our little hometown.  The reunion was held at Marley's in the Dells.  Now there's two bad ideas combined.  Let's have a reunion at Marley's, and Let's have a reunion do it on a Saturday night.  About halfway through some friends and I decided that we were hungry and ducked out to get some food.  That was probably the highlight of the evening.  On the way to the restaurant, we decided that the planners probably decided on Marley's because there was going to be a DJ there that we wouldn't have to pay anything for.  Oh well.  It was a night out at least. 
+    
+    
+</post>
+
+<date>01,August,2003</date>
+<post>
+
+    
+       I called today to schedule cancellation of my phone and DSL service for when I move on the 14 Aug.  I thought I was being clever earlier in the year, when I purchased  urlLink  SBC DSL . You'll notice that there is a one-year contract required for that plan.  Since I am on a one year lease, that seemed to be perfect.  I found out today that they count that one year from the day they connect you.  There was some silliness about connecting my DSL last year. Apparently didn't think, based on their credit reporting company, that I would pay them.  Because of this silliness, they didn't connect me until 19 September.  So, in short, they now want to charge me $200 in &quot;termination fees &quot;. 
+    
+    
+</post>
+
+<date>22,September,2003</date>
+<post>
+
+    
+       I had the distinct pleasure of needing to prepare yet another presentation in powerpoint today.  In addition to all of the entirely accurate points in Edward R. Tufte's book, &quot;The Cognitive Style of PowerPoint&quot ( a  urlLink summary  can be found on  urlLink Aaron Swartz's Weblog ), there are a number of other things that bother me about powerpoint.  Microsoft continues to ignore every sensible precept of interface design.  Their 'personalized menus' particularly annoy me. How is one supposed to remember where things are in a menu when the bloody things keep re-arranging themselves in a futile attempt to be helpful?  I'll never be happy with the way Microsoft handles including other sources in a document.  I want something like C's #include.  I want to be able to change the source document and have Word or Powerpoint or whatever else actually notice the change.  Sadly this ancient concept seems beyond the grasp of MS software engineers.  Why is there no sane way to enter a formula?!  I don't want to have to draw the bloody thing in MS Equation (which is the saddest attempt at an equation editor I've ever encountered).  I don't want to have to pretend it's a picture, I want to be able to put the entire thing, symbols and all, inline with my text.  I want to be able to change its size with font size buttons.  In short, I want what  urlLink lyx  does out of the box.  &nbsp;&nbsp;Sadly, powerpoint is the standard.  So I and everyone else must suffer with it.  But that doesn't mean I won't complain. 
+    
+    
+</post>
+
+<date>30,October,2003</date>
+<post>
+
+    
+       I've been trying for the last few weeks to put together fink packages for libgcrypt and gnutls.  There was probably something else I packaged as well, in my quest to get fink's gaim to work with MSN and Yahoo, but those are the two packages that give me trouble.  For some reason, libgcrypt build cleanly, but doesn't pass its own 'make check'.  I've contacted the libgcrypt developers about this (via the libgcrypt-bug email address), but so far they haven't gotten back to me.  It's very annoying.  Without libgcrypt, there will be no libgnutls.  I noticed that gaim supports the Mozilla NSS library.  So I downloaded the tarball to see if building that was any less painful.  The directions aren't even quite clear about what to compile, much less where to compile it.  I'm digging through the documentation in my free time to see what I'll need to build, but NSS seems to be much more annoying than libgcrypt/gnutls.  Oh well.  The quest continues. 
+    
+    
+</post>
+
+<date>21,October,2003</date>
+<post>
+
+    
+       So, as some of you have been lucky enough to discover, Microsoft changed the login method for Messenger on 15 October.  In and of itself this is annoying, because they didn't actually document the new method.  Never underestimate the power of geeks in large numbers.  The new login method has been reverse-engineered, and most of the open IM clients are smart enough to use the new login method. (plug: I use  urlLink gaim ).  The annoying part about this, is that the new login method requires some TLS/SSL silliness.  So to get it to work in gaim, the developers used gnutls.  Now, on my Debian box, this is no problem. But on my OS X box, it's a bit annoying.  No package exists for gnutls.  gnutls requires libgcrypt, which also is not package. libgcrypt requires libtasn1 and libgpg-error.  Hey, wow.  they're not packaged either.  So lately I've been making a lot of fink .info files for these packages.  Some of the libraries, libgcrypt in particular, aren't amenable to compilation under OS X.  I think that this might have to do with the way that the compiler chain on OS X is an unholy marriage of BSD, GNU, and Apple's own tools.  On the bright side, this is good practice for me, and eventually (it'd better be soon, dammit), I'll have MSN working on my laptop again.  Stuff like this makes me want to convert my friends over to a sane messenger, like  urlLink jabber . 
+    
+    
+</post>
+
+<date>05,October,2003</date>
+<post>
+
+    
+       Sometimes it requires a finely honed sense of irony in order to be able to keep up with current politics and not run screaming from the roof of the nearest tall building.  In his article  urlLink Ask not what telemarketers can do to you  of 31 Aug, Dave Barry published the toll-free number of the ATA, a large telemarketing association. This organization is one of several that is opposed to the  urlLink National Do Not Call Registry .  The registry is, to my mind, a neat and good idea.  If you're on it, telemarketers cannot call you. If they call you anyway, they have to pay an 11,000$ fine.  The telemarketers claim that this registry is somehow a violation of their constitutional rights.  I find this argument hard to swallow.  Remove the telephone from the argument; now the telemarketers are asserting that salesmen have the right to walk into your home at any time they please.  In any case, the ironic part: after Mr. Barry published the ATA's number, their phone began ringing off the hook, at inconvenient times.  It got so bad that they disconnected their phone number.  If this were all, it would merely be funny.  But no, it doesn't end there.  Apparently the ATA wrote a rather nasty article about Mr. Barry in a direct marketing journal.  Hilights from that article can be found in Mr. Barry's column of 05 Oct,  urlLink So what's their hang-up?   Take home message: telemarketers want to be able to call you whenever they feel like, but it's inconvenient for them and unpleasant when we return the favor. 
+    
+    
+</post>
+
+<date>03,November,2003</date>
+<post>
+
+    
+       I finally got packages for libgpg-error, libtasn1, libgcrypt, and gnutls that compile and run happily on my fink box. I'm using the 10.2-gcc3.3 distribution.  I've had a report from a friend that these info files do not work on a 10.2 box.  I'm not sure if that has something to do with 10.2, or if it means that I forgot a dependency somewhere.  These packages work well enough for me to build and link gaim with them, and login to MSN without a segfault.  That's my acid test of most of my fink packages.  It's pretty disturbing, actually, just how much packaging I do just to get an extra feature or two  If anybody is interested, here are the links to the info and patch files:  urlLink libgpg-error   urlLink libtasn1   urlLink libgcrypt   urlLink gnutls   Hopefully these packages will get the blessing of the fink Core Developers (note the reverence) soon. 
+    
+    
+</post>
+
+<date>17,December,2003</date>
+<post>
+
+    
+       I saw  urlLink Return of the King  twice today.  This is amazingly dorky of me, I know.  But it was fun.  A lot of fun.  I very much liked this movie.  The visual effects were really nothing short of amazing. The  urlLink Battle of Pelennor Fields  was... wow.  just wow.  The  urlLink Dead  were very, very well done.  Doesn't  urlLink Orlando Bloom  ever get tired of being in movies where he sails on a ship crewed by the damned?  Oh, and  urlLink Shelob  is very cool.  The plot follows the books fairly well.  They add a few things, none of which were terribly offensive.  They left out the Scouring of the Shire.  This annoys me, as the Scouring of the Shire expresses Tolkien's belief that isolationism isn't a viable policy for international relations.  They modified the Pyre of  urlLink  Denathor  a little, but I like the change they made.  The  urlLink  palantiri  aren't really mentioned much at all.  The romance between  urlLink  Faramir  and  urlLink Eowyn  was glossed over.  Oh, but other than that :-)  Did I mention wow? 
+    
+    
+</post>
+
+<date>15,December,2003</date>
+<post>
+
+    
+       Earlier this year, I read Brian Greene's  urlLink The Elegant Universe , which I really enjoyed.  I'm a sucker for pop-physics books, you see.  Much to my delight, PBS made a series based on that book.  I actually marked my calendar (ok, I wrote it in my PDA) for it.  How dorky of me.  But I missed it.  Sadness.  Luckily, they've released it in Quick Time and Real-Video formats, so anybody with a broadband connection (or a slower one and a  lot  of patience) can watch the  urlLink PBS Elegant Universe miniseries .  The miniseries doesn't go quite into the depth that the book did.  Also, the miniseries brought up a few other issues.  One that stuck out in my mind: if gravitons can leave the Brane, wouldn't that violate mass/energy conservation?  I probably just need to read more string theory. 
+    
+    
+</post>
+
+<date>19,January,2004</date>
+<post>
+
+    
+         One of my stupid new-years/birthday resolutions was to not let my weblog go un-updated so long.  It makes me look like I've got something to do on weekends when I don't update it, and we all know that isn't true *wink*.    Inspired by Joey Hess's  urlLink CVS Homedir   I merged together all the files from home directories on my various machines and put the resulting mishmash into CVS.  After a bit of re-writing for .bashrc and the like, I'm very pleased with the result.  I'm using the  urlLink CS Department  machines for my CVS repository.  They back those up like mad, which makes me feel better about not actually backing up my machines in several months.    I can foresee this being very nice for when I start school again.  Not needing any special voodoo to synchronize the various papers I'm working on between calvin (my laptop) and hobbes (my desktop) will be delicious. 
+    
+    
+</post>
+
+<date>15,January,2004</date>
+<post>
+
+    
+       One of the criticisms I frequently see of people who write weblogs is that they (or should I say we since now I am one of them) write about trivial crap that wouldn't make the fifth page of the newspaper in a podunk little town.  In large part I find this to be a valid criticism.  However this criticism is only really valid if you consider weblogs as some kind of news media.  Most of them are not intended to be that way (mine sure isn't), so of course they lack in that respect.  If you look at weblogs as a way of keeping in closer contact with people that you don't see very much, then they start to make a bit more sense.  I have not yet decided if this is stupid or not.  It surely isn't the revolution in information distribution that some self important bloggers would claim they are propagating.  Anyway, enough semi-topical, semi-intelligent conversation.  I have to get into the driveling trivialities soon or this won't be appropriate material.  My car is better!  Two weeks ago I was in a fairly minor accident.  Nobody was hurt.  The other vehicle, a GMC Sonoma, wasn't even damaged aside from a slight scrape on the front bumper.  My poor little car suffered 2000$ in damage.  I just got it back from the shop.  I'm not sure that it is shinier than it was when I got it &quot;new&quot;, but it is looking pretty good.  It is a relief not to have to drive the shop's loaner car anymore.  It was a Buick Regal.  A true monster of a car.  I hate large vehicles with a passion (there should be a special circle of hell for people who drive SUVs and do not need to).  Suffice it to say that I wasn't exactly the happiest person in the world driving the Buick around. 
+    
+    
+</post>
+
+<date>12,January,2004</date>
+<post>
+
+    
+       I know, it's been quite some time since I made an entry. It's not that I haven't had much to talk about, though that has something to do with it.  More than anything I have had a lack of motivation.  But, so it goes.  It was a relaxing new year, I played pool with a small group of friends.  For the most part, we relaxed in a group,  It was nice.  My application to grad school seems to be almost done. I've been in contact with some of the people in Forestry, and apparently the only thing that we're waiting on right now is an approval form to admit me even though my GPA is a bit low.  I might even be accepted officially before classes start. I've got all the classes I want picked out.  I think I'm  going to do band again next semester, I keep talking about how I want to.  My project to build a DVR based on the  urlLink freevo project  has been a complete success.  It's impressive what you can do just by putting something on the Internet and sticking a computer in it.  It makes a stupid TV into a device that seeks out shows you want and snarfs them for you automagically.  The people at IBM who said that four computers would be sufficient to run the world must be going nuts to see what people are doing with computers today.  I was trying to figure out, for a while, what purpose the 'news' section on my website would serve now that I'm attempting to maintain a weblog ( urlLink Jerry Pournelle  says that the pseudo-word &quot;blog&quot; is ugly.  I agree with him.).  I've come to the conclusion that the 'news' section will talk about updates to the site, and my weblog will continue to be mindless chatter. 
+    
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+    
+       This is going to be a busy year for me, oh yes indeed.  My &quot;Instant Family&quot; takes up all the time you'd expect and sometimes more.  Of course, who am I to know what to expect?  I went from being child-phobic to having two young step children.  I'm meeting with my Professor on Thursday.  We've got to decide on what classes I'll be taking, and start familiarizing me with the model (CANOPY) that I'll be working on.  I think that I'm going to be adding a light model similar to that of SORTIE.  Beyond that, I'd like to extend the model to understand that the world is not flat.  Also, if I haven't worked myself into the ground by then, I'd like to add the capability to consider UV exposure profiles in the modeling.  Just like with my research at work, I'm wondering how anyone expects to get accurate data about outdoor phenomena without considering the weather.  Now, we can't predict the weather into the future, but being able to enter UV profiles as input would probably help a lot WRT calibrating the model.  I think.  I -really- need to get myself up to speed on the biological basis of this process. 
+    
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+    
+       Apparently  urlLink some   urlLink other   urlLink people  are also losing the Faith with respect to IE being worth anything. 
+    
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+    
+       Have I complained lately about Internet Explorer?  I've been doing some freelance web development stuff for family and friends of late.  Two of the people I'm working for are running small businesses.  So ignoring IE, and just putting a warning for IE users on the front page isn't an option.   OH , how I'd like to.  Recently I was added to the  urlLink Fink Project  as a committer.  I've been sending packages in for a little over a year.  I wanted to eventually be a committer, but I wasn't going to make myself annoying by asking for it, and I didn't expect that it'd be offered so soon.  I saw  urlLink Chronicles of Riddick  this weekend.  It was an ok-movie, but not all that impressive.  The plot felt rather thin and rushed.  It felt like there could have been an interesting background that this story was painted on, but we didn't get to see much of it.  Expect it to be a shallow action flick, and you'll enjoy it.  I discovered the most  adorable  little desktop:  urlLink xfce .  I've been a loyal  urlLink fvwm  user for the past three years or so.  I've tried a few other desktops and WMs, and not found any that I like quite as much as fvwm.  I found  urlLink KDE  to be -very- bloated and slow. I found  urlLink GNOME  to be better, but still rather slow on my 800MHz PIII.  After trying those two, I generally stayed away from &quot;Desktops&quot;.  But after reading a good review of xfce, I figured &quot;Why not?&quot; and tried it.  I think I'm actually going to keep it.  Old dogs can learn new tricks. 
+    
+    
+</post>
+
+<date>08,June,2004</date>
+<post>
+
+    
+       Little kids can be the most frustrating and amazing creatures.  Everyone says that when they become a (step) parent, but you never really know what they mean until you experience it yourself.  My step-daughter gave me a hug and kiss goodnight for the first time yesterday.  Tonight I got another.  I've been walking around with a stupid grin on since.  I think she just made my month.  Kids rot your brain, I swear. 
+    
+    
+</post>
+
+<date>06,June,2004</date>
+<post>
+
+    
+       I have recently had the distinct displeasure of trying to write web pages that work in IE.  The issue comes about because I recently taught myself CSS.  I knew before that IE was just flat -bad- at standards support, but I had no idea how bad.  I can understand why people write  urlLink rants  about IE now.  Let's just ignore IE's poor  urlLink security track record .  MS Apologists will say that the existence of patches proves that MS is fixing problems.  This may be true, but to me the sheer number of "critical security patches" out there for IE would indicate that they released a crappy product which has more holes than a screen door.  Let's also ignore that  urlLink IE's CSS support  is buggier than a beehive.  It is interesting to compare  urlLink Microsoft documentation , with  urlLink actual standards .  Notice how the MS docs conveniently ignore some property values, in this case "fixed".  IE doesn't even  urlLink support HTML 4.01 .  This is insane.  IE is the only browser so buggy and generally crappy that it provides its own  urlLink special tag , that web authors use to work around IE's bugs.  I just can't take it anymore.  My personal websites will no longer support IE.  Trying to write web pages that are actually functional, that comply with standards, and that render in IE is just too much of a pain in my ass to bother with unless I'm getting paid. 
+    
+    
+</post>
+
+<date>02,June,2004</date>
+<post>
+
+    
+       I've been having a few problems with calvin of late.  First, he says "calculating..." forever instead of guessing how much battery I have left.  Second, he has been crashing a lot.  The second problem was actually pretty easy to solve, once I got off my butt and read the discussion boards.  Apparently some  urlLink other  people have also had the same problem.  One of them even posted a panic.log that looks -exactly- like mine.  The problem?  Loose Airport Extreme card.  Easily remedied.  The first problem seems to be both more subtle and more common.  Though apparently  urlLink some people  have found a solution.  I recently wiped my hard drive and reinstalled Panther (and fink (that was a -lot- of compiling)) from scratch, which -might- have fixed the battery problem.  I don't know, since the various knowledge base docs about it suggest that I need to drain the battery to 0% before it will recalibrate itself.  I've just started draining the battery now.  However, I'm a much happier person now that calvin doesn't shit on me every few minutes.  Maybe I just need to learn not to type so bloody hard. 
+    
+    
+</post>
+
+<date>01,June,2004</date>
+<post>
+
+    
+       Well, importing all my old weblog entries into this new and improved, easier to manage, gizmo seems to have worked like a charm.  I'm amused and impressed that blogger allowed me to create entries that predate the creation of the weblog.  Anyway, time for sleeping.  Long day tomorrow.  Then again, aren't all days long days? 
+    
+    
+</post>
+
+<date>01,June,2004</date>
+<post>
+
+    
+       This is part two of my attempt to maintain a weblog.  Part 1 seems to have failed.  I got this bright idea that I wanted to build and maintain my weblog as a part of my website.  This would be well and good if I were motivated enough to come up with my own content management system.  I am not.  So I went and found  urlLink blogmax , which is a system to maintain a weblog using everyone's favorite editor, EMACS.  It works fairly well.  However it seems geared toward someone who uses a single machine most of the time.  I do not.  Now, I share my home directory and most of my files across my machines using CVS.  This is really a nice thing, but it doesn't play well with the kind of structure that blogmax likes to use for storing files.  Also, the longer I thought about it, the less sense it makes to store a weblog as flat text files.  Something like blogger (do I really need to link that), where they store the entries in a database and use some dynamic voodoo to generate indexes does make a lot more sense.  So I'm switching.  And I'll be honest, it's mostly because I'm lazy.  There's nothing wrong with the system I was using before, it just requires more motivation than I have.  The project for later tonight: see if I can transfer my old entries from the flat text files they live in now over to blogger.  Shouldn't be hard, provided that I am allowed to create blog entries that predate my creation of this blog.  We'll see.  :-) 
+    
+    
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+    
+       I recently came across  urlLink GoogleWatch . They put forth some of the most inane drivel I have seen in quite some time. I just can't help myself, I have to comment. I don't have the ambition to do a point by point analysis, so I'll just pick out some of the more salient points to argue with.  GoogleWatch thinks that something is wrong with hiring people who have a security clearance ( urlLink Google as Big Brother  item 5). Let's say that the Air Force wants to convert their repair manuals to HTML, that they want to be able to search them, and that instead of using taxpayer dollers to develop their own search algorithms they decide to contract out to Google. The Google tech installing this system will have access to classified data, and therefore will need a security clearance. I fail to see anything sinister in this.   GoogleWatch thinks that the Google cache is illegal ( urlLink Google as Big Brother  item 7).  In fact, this is a matter of opinion that has yet to be tested in the courts. See  urlLink Google cache raises copyright concerns  for more information.  Personally I  urlLink copyleft  anything I put on the web, so this isn't an issue for me.  :-)  GoogleWatch would have you beleive that Google is saving the web server logs for every search ever done on their systems ( urlLink Google as Big Brother  item 9).  This ends up being the most sensible of their claims.   This is going to be a lot of data to manipulate.  Let's see just how much. Google reports 55 billion searches per year ( urlLink Google: 2003 Year-End Zeitgeist ). Assume a search generates 1 server log line. Assume each line is about 30 bytes in size. 55*10^9 (Searches/Year) * 30 (Bytes/Search) = 1.65*10^12 (Bytes/Year). That's 1.5 terrabytes per year.  Is this so much data that Google would need to build custom systems to handle it? No, it is not. There are filesystems that can hold this much ( urlLink NTFS  can hold up to 256 terrabytes). There are databases that can hold this much ( urlLink Oracle 10g  holds up to 8 exabytes).  So if they were of a mind, they could just buy a system to do this.  How much would an off the shelf system to do this cost? Oracle 10g retails at $40k per CPU. A modest server that has a 2TB RAID volume goes for around $6k (I used the  urlLink Penguin Computing   urlLink Relion 430  for reference, adding only a 2TB RAID0 to the base configuration). So, for google to process one year's worth of search data would require a minimum cash outlay of $86k for hardware. Running such a system would require at least one DBA. The annual salary for a DBA is about $52k (from  urlLink payscale.com ).  Total cash outlay: $138k.   According to  urlLink Google's SEC Filing , their net income is in the millions. With that level of income, another hundred thousand here or there gets lost in the noise. They could definitely spare the extra cash for a side project like this.    So, it is definitely possible that Google saves this data and does some analysis on it. But what would be the benefit to google? If it were ever discovered, customers would abandon google in droves. The market for selling this data would be very small (governments only). The risk in selling the data, even if they do analyze it, would seem to vastly outweigh the benefit.   Let's allow the wild assumptions to fly a bit farther, assume google does store the data, does mine it, does sell it to the government. How is this any different than the phone company recording who you called and when? Do we vilify the phone company for keeping records that the government could subpoena? Why should we treat Google differently? The "Big Business" argument doesn't fly, as Google is definitely smaller than AT&amp;T.  Then, after GoogleWatch spends all this time complaining about privacy concerns, they turn around and tell you that Google's IPO will fail because they are not invasive enough ( urlLink Ten Reasons to Avoid Google's IPO  item 8).  I'll stop now. But it annoys me when the extreme tinfoil hats (like Google Watch) make other tinfoil hats (like me) look bad. Google isn't trying to take over the world, they're just trying to make a profit. 
+    
+    
+</post>
+
+<date>10,July,2004</date>
+<post>
+
+    
+       I do some contract work for a small  urlLink Internet Cafe  near my old hometown.  As of now, I'm sitting in the back hiding from customers, trying to bring the client machines back up to some kind of useful state.  As you might guess, malware is a  huge  problem in an internet cafe with windows based client machines.  So most of my current headache stems from trying to extract wriggling badness from the soft flesh of Windows 98.  At the Cafe, they've been using NAV: corporate for AV, but that's it.  So I've installed  urlLink ad-aware  and  urlLink spybot .  Spybot caught some things that AAW missed, but there's no harm in having both of them.  For kicks, I installed  urlLink AVG  as well.  AVG caught some viruses that Norton missed.  The traditional wisdom is that Norton is top of the line, and if you've got cash to drop, drop it there.  So I'm very surprised to find that AVG (traditionally described as an underdog that is only popular because of their  urlLink free edition ) outperforms NAV sometimes.  And yes, before someone asks, both were updated immediately before the scan. 
+    
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+    
+       Providing a biological template does not make you a father.  It makes you a male progenitor.   A night of intoxicated fornication does not entitle you to be a father; fatherhood is much harder.  Fatherhood is being responsible for a child.  Fatherhood is caring for them when they're sick.  Putting them to bed every night.  Fatherhood is giving a part of yourself to raise someone new.  It requires a huge commitment in terms of both time and money.  It is not something you have simply by an accident of biology.  It is something you earn.  When a child trusts you, misses you when you're gone, is happy when you return, and sometimes wants you over any other living person, then you can call yourself a father.  The state of Wisconsin goes out of its way to preserve the paternal rights of a child's male progenitor.  It gives them every chance to become a father, even when they have made it repeatedly clear that they do not desire such.  It allows an entirely neglectful person, who has seen his son a grand total of once the child's whole seven month life, who has never contributed a single red cent towards the expenses of raising a child, to retain paternal rights.  Apparently as a male progenitor, you need to actually physically abuse your offspring before the state will step in.  Now this is distinctly different from Wisconsin's attitude toward mothers.  If a mother were to deposit her child with its father, never seeing it, never helping with the expenses, constantly avoiding any responsibility it, after a few months of this Wisconsin would declare her unfit.  Her actions would be considered nearly criminal neglect.  She would have to fight tooth and nail in order to even get supervised visitation.  If a neglectful male progenitor requests paternal rights over his offspring, he gets them.  This even if he requests that he never wants to see his child.  Even if he makes it clear that he means to pay at best lip-service to the duty of raising a child.  Still Wisconsin doesn't protect the child from this man's destructive influence.  Wisconsin assigns to him rights that he has not earned, will never earn, and flatly does not deserve.  Nothing like the blindness of Lady Justice to brighten one's week.  However I suppose all is not lost.  Possession being nine tenths and all, if someone is never around it doesn't matter if he's got the right to make decisions regarding a child.  If someone is uninvolved in fact, what rights he has on paper are of little consequence. 
+    
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+    
+         Today I got not one, but two gmail invites.  Never rains but it pours, eh?    I've been saving all of my personal email since 1998, and I've only used 22MB.  I'm sure that there are people who hit their 1GB limit, but under normal use, it'd take me quite a bit of time to do so.  Maybe google's "never delete an email" push isn't that far from the truth.    Thus far, I find their conversation view to be very clever, useful, handy even.  Other webmail services seem to me to be offering a poor man's IMAP.  Gmail actually does something differently in a way that is useful. 
+    
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+    
+       My fiance and I grew up with dogs.  Throughout both our childhoods we always had them around.  I had various beagles, a collie, and a coonhound.  She had various large-breeds.  We both miss having a dog.  Now that we're settling down into a home of our own, we want a dog.  So we went to our local humane society.  We wanted a beagle, preferably a young one, with no history of violence or abuse.  We found one that looked almost perfect.  1.5 years old, spayed female, doesn't like being left alone.  There were two 'issues' noted on her paperwork.  First, she barks at then hides from strangers.  Second, she freezes if you steal food from her bowl while she eats.  However, she'd never bitten anyone in her life.  In fact, in the various stages of provocation the Humane Society used to test her (everything short of beating her), she never even growled.  To us, that seemed to indicate a very good-natured animal, exactly the kind we'd want to have around our children.  For some reason, that we could not figure out, this dog ( urlLink Suzy ) was recommended only around children over eight.  The person we talked to about adopting the dog was unable to explain this rating, and unwilling to reconsider it.  There were numerous statements of questionable truth, for example, &quot;Dogs are scared of toddlers&quot;.  The closest thing she got to an explanation was the following: &quot;When your children fight with the dog on the floor for table scraps, it might bite them, since it reacted when we stole its food.&quot;  This was so offensive to us that this woman's boss will be getting a letter.  Our children eat on the table, not under it, and how  dare  she insult us and them by assuming otherwise.  I can almost understand if the Humane Society wants to shield itself from lawsuits by placing only dogs that they  know  can be abused without reacting in houses with children.  However if this is what they are doing, they should be honest about it.  A simple &quot;we aren't comfortable giving her to you because we can't  prove  that she won't bite if provoked&quot; would have been appropriate.  If they had reason to think that the dog had been abused and would react poorly to children, admitting that would have been appropriate.  Insulting us and our children (they will beat the dog, they will fight with it for scraps, you will let them do this because you never watch them, etc) is unacceptable.  They are punishing the animal for something they think it might someday do, not something they have any proof that it will.  In my book this is inhumane.  If you push any animal (including a human) it will eventually push back. Expecting them not to is idiotic.  They're holding dogs to higher standards than they'd hold themselves.  I know  I  would react rather poorly if some stranger came into my house and stole food from my table.  All of this turns out to be a bit of a non-issue.  Our landlord does allow dogs in some units, but not in ours. 
+    
+    
+</post>
+
+
+</Blog>

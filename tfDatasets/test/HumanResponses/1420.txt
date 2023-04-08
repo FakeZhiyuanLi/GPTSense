@@ -1,0 +1,1 @@
+i thought i'd share with you this delightful little chat that i had with darwin today: /users/a_logan 1%kill gates kill: arguments should be jobs or process id's. /users/a_logan 2%jobs eh. usage: jobs [ -l ]. /users/a_logan 3%i'll use jobs however i wish! unmatched '. /users/a_logan 4%damn you unix! damn you! unmatched '.

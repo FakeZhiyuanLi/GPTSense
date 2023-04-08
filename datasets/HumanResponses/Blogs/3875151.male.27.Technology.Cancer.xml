@@ -1,0 +1,76 @@
+<Blog>
+
+<date>25,June,2004</date>
+<post>
+
+    
+       A lot of thought needs to be done when configuring .NET Smart Clients permissions.  urlLink Here  is a good article on the .NET Code Access Security model. Thanks Prashant!  
+    
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+    
+       The more I think about it I am convinced that we need to more tightly integrate our Smart Client apps with the web based ones. In other words I think our  Shell  should host the IE web browser control in an Tabbed MDI fashion (like VS.NET). I believe this will provide for a more cohesive solution in terms of the user experience,   and   in terms of controlling the applications security context.  Here are some links that I have found helpful:    urlLink Web Browser/Content in a C# Application     urlLink JoHer     urlLink Code Project     More later. 
+    
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+    
+       If we will be deploying .NET Smart Client applications we need to nail down deployment issues. Here is a link to download   urlLink Microsoft's Practice and Patterns Deploying .NET Applications Guide . 
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+       Several of our projects or applications require Excel spreadsheet style reports. In the past, the team employed a method which, in effect, tricked the browser (changing the content-type Resonse Header) into displaying the html in Excel. This approach was not only slow, CPU intensive (on the client), but the resulting Excel spreadsheet was a poor interpretation of an HTML table. To make matters worse, in some cases trailing zero's are dropped unless the numbers are wrapped in quotes (that sucks, because now they are not numbers).   Clearly, there had to be a better approach, so we started looking for alternative methods to producing Excel spreadsheets. Using Microsoft Automation directly with the Excel object model was quickly ruled out. Why? Because of a previous project I knew that server side automation of the Office suite is riddled with scalability issues. I recently read an article that does a good job of describing why Excel automation is  not  a solution for web/server based applications. You can read it  urlLink here .  We started using two alternate approaches. The first was to use one of our third-party tools, the Infragistics .NET Advantage suite. There is a decent Export to Excel object offered by the product so we hooked into it. The only disadvantage is that report formatting is very limited and basic. If you need anything more than just straight tabular data you will have to use our second approach.   The second alternative is to use Office XP/2003's ability to natively support XML. Using Microsofts schema's for Excel and Word provides a rich and effective solution. The only problem is that the users need to have Office 2003 on their machine. But if you can get away with this solution, it's by far the fastest, scalable solution I have found. 
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+       One of the challenges of front-end development is a good databinding solution. This isn't hard when using built in .NET data structures like the dataset or datatable, but becomes more difficult when using custom business objects. Here is a good primer:  urlLink data binding.  
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+       Our team recently started researching the possiblity of using .NET Smart Clients. Smart Clients are appealing to us because using Windows Forms provides (well, we will see) for a faster, cleaner and more robust [rich] presentation layer. Sure, web based apps bring a lot to the development table too, but I have found it difficult to provide the functionality our users want or need, and when we do find a way to do it, the application ends up as a series of hacks or kluges leaving the code fragile and brittle.  .NET Smart Clients are new to our team, and as such there is a significant learning curve for our team. Most of the challenges seem to be high-level and architectural. While doing some research, I found a good article that highlights some of the challenges. Here is a snippet that confirmed some our proto-typing decisions:  -- snippet from MSDN article --  Smart Client Architectural Challenges The architectural challenges of smart clients differ from those of thin clients, and you will need to account for them in your application design. The benefits of smart client applications are significant, but you can realize them only if you address these challenges appropriately.  Smart clients allow data and logic to be distributed to the client computer, whereas thin clients tend to keep the data and logic centralized on the Web server and other back-end services. Although the smart client approach allows you to make the application more efficient, with no round trips to the server to determine next steps, you need to consider that the application and its data are now more widely distributed than with thin client applications, and modify your design accordingly.  If you are implementing business rules on the client, you will need to update those rules as required, without updating the entire application. This may mean that you use differing mechanisms for updating the application and updating business rules within the application.  By caching data on the client, you can significantly improve the performance and usability of an application, but you must ensure that the data is refreshed appropriately and that stale data is not used. Because many users can access and use the same data, you must also consider the effects of data concurrency. Your application must be able to handle data conflicts or reconciliation issues that arise because the application is now more widely distributed and can operate while offline. Chapter 3: Getting Connected covers these issues in depth.  The .NET Framework provides a great deal of flexibility in how your smart client applications can be hosted. Applications can be run as traditional desktop applications or can be hosted within Office or Microsoft Internet Explorer. Many combinations are possible. For instance, a Windows Forms application can host Internet Explorer or Office components, and any host can subsume any other.  You can factor volatile application logic (for example, business rules governing volume order discounts) into assemblies that are downloaded on demand over HTTP. Doing so obviates the need to deploy new versions of the client application as new application logic is developed. You can use the same model for additional (or infrequently used) application features, so that initial application size is kept to a minimum, and additional features are installed on an as-needed basis.   You may choose to deploy your smart clients as composite applications, where many applications combine to form a coherent solution. Such solutions can be formed by coupling desktop applications, or by providing a generic shell application that houses multiple lightweight applications that together form the solution.   Composite applications are particularly useful in situations where users have to access many applications to do their work. For example, customer service agents in call centers typically have to work with many LOB applications, including desktop, browser-based, and terminal-based applications. All such LOB applications can be hosted within a generic Windows Forms application that provides integration between them, greatly simplifying the user's job and, most importantly, reducing the time spent on a particular call. By providing a generic shell to host these LOB applications, common infrastructure features, such as security, deployment, window management, application integration, auditing, and so on, can be developed, tested, and reused across different solutions, freeing the developers of the LOB applications to focus on business functionality.  The advent of service-oriented architectures means that you can design smart clients to make use of network services. All such services are provided in an industry-standard way, which improves interoperability, developer tool support, and the ease with which new features can be built into the smart client application.    -- end snippet from MSDN article --  For our initial prototype, we opted for the Shell/Plug-in archtitecture. I think this is good because it provides for a common architecture or framework for the desktop apps, security is unified and updates to code should be seamless or transparent for the user. Lets see...   For the complete article visit  urlLink here...  
+    
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+    
+       The upcoming release of XP's service pack 2 includes several behavioral changes in Internet Explorer. One notable change is the inclusion of a built-in pop-up blocker in IE. This can potentially change the expected behavior of a web application since many pop-up windows may be surpressed.  &nbsp; For more information check  urlLink http://msdn.microsoft.com/security/default.aspx?pull=/library/en-us/dnwxp/html/xpsp2web.asp .  
+    
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+    
+       Here is another great article on complex databinding. It describes in detail how to implement the ITypedList interface required for controlling complex binding details.  You can read the article  urlLink here .  Enjoy! 
+    
+    
+</post>
+
+
+</Blog>

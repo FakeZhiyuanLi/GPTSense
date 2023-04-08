@@ -1,0 +1,212 @@
+<Blog>
+
+<date>24,May,2004</date>
+<post>
+
+    
+       Spent most of the morning trying to figure this one out.  It appeared that I could not deploy my report to my test server.  It kept on telling me that it was unable to deploy the report because the connection was dropped.  This was very bizarre.  In the end I tried browsing to the reportserver folder, here I found a load of options for adding reports and the like.  When I tried to upload a report I received a page not found error.  From this I noticed that the server was asking for a HTTPS page.  Now I am pretty sure that my server isn't set up for SSL so I started hunting in the documentation for security "stuff".  In the documentation I discovered the the RSReportServer.config file has a SecureConnectionLevel property that can be set to 0, 1, 2 or 3 this was set to 2 in my file.  I dropped it down to Zero and bingo,  all working.  
+    
+    
+</post>
+
+<date>21,May,2004</date>
+<post>
+
+    
+       Thought I'd have a go at blogging from my Blackberry on the train, as there is little else you can do on these constantly delayed british trains.   Seems to work OK, but the post isn't in yet.  Well here we are, Friday again and little seems to have been completed. We did manage to get VS2003 installed and I got a bit of a hello world going with reporting services. Can't seem to get it to publish the report to the staging server though but I only tried for about 20 mins before I set off home.  
+    
+    
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+    
+       Don't bother blogging from a blackberry. You can get about 4 paragraphs in before the text box fills up.  
+    
+    
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+    
+       Today is nuts.  Just got the VS 2003 upgrade for the PC so I've been installing that in the background while I do everything else.  This should mean we can get the Reporting Services up and running and start kicking that ball around next week.  Boring stuff mostly though today.  Helpdesk is off on holiday so I've been fixing printers,  setting up VC's and all that nonesense,  whilst at the same time trying to organise interviews for the new developer position and also get a feed of the fund valuations into our system.  John (the other Developer on the team) has started a blog on Sharepoint programming.  I can't find it though.  I was hoping to fill it with tonnes of comments,  but hey,  there you go.  Right,  better go and see if our project compiles in VS2003.   
+    
+    
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+    
+       Yada yada yada,  customary hello world post. 
+    
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+    
+       I'm going to try very hard to post without just bitching about Microsoft here.  Of late my team (3 of us in total,  not exactly a big team,  but you know what I mean.) have been fighting with VS2003.  We had been using 2002 since it's launch and never really suffered any big issues,  but once we upgraded we started to find the going a little less smooth.  Our Solution is an n-tier app, ASP.Net pages linking to a BLL that in turn uses Microsofts SqlHelper DAL classes to talk to the DB.  All pretty straight forward stuff.  We don't use any remoting,  we deploy all layers onto one server.  However,  we do have a COM (Enterprise Services) project in the solution that allows VBA code in Excel to interface into the BLL.  This is essentially a wrapper class on the BLL and it does not perform a great deal of work,  but it does mean that we have to sign all of the assemblies.  This is not a great hardship though.  (although I believe it contributes to the problem).  We started being hit by a few problems :   Worst of all was the Error CS0006.  When his happened we would find that the project compiled and started running.  Then when the ASP page opened it would show an error stating that it could not find the assembly xxx in the temporary asp directory.  It was usually the Microsoft SqlHelper DLL that it was complaining about.    As we never changed the DAL we took it out of the solution and threw it into the GAC, but to no avail we still got the problem.  Next we changed all of the assembly build numbers to 1.0.0.0.0 instead of the incremental defaults. No joy.  Next step was to fiddle with the copy local properties on the references, but this didn't work either.  The error seemed to be intermittent.  You could build and run, and the error would appear, so you killed the app,  built and ran again and it all worked.  A real puzzler!  The final thing we did, that seems to have solved it, was for us to all check in our code,  then move the entire solution into one directory tree named projects. Under this we had a folder for each project, including the ASP.Net solution.  Previously the ASP.Net app sat as a subdir on wwwRoot,  and each developer had the other parts of the solution sitting in different working folders on their respective PC's.  Now we all have exactly the same set up.  All Dev machines use C:\Projects\[ApplicationName]\[ProjectName] structure.  The error seems to have faded away.  To this day I do not know why this was happening.  I looked on MS newsgroups and all that showed me was that we were not alone.  No-one had any solution to the problem and I actually believe it to be a bug in VS2003 that MS won't acknowledge.  MS seem amazingly quiet on this front that leads me to believe that they know it's a bug but are keeping shtum.   Are you missing an assembly reference?  This is now an occasional error that we receive at build time.  Don't get me wrong,  I know what this error is all about,  but we get it for the compilation of ASP.Net Project with reference to the BLL project,  that is clearly referenced in the ASP.Net Projects references and is part of the same solution.  I am almost 100% sure that this is a bug in VS 2003 as the solution is to close down VS and open it back up.  The build will then run fine.     Intellisense losing the plot  Another interesting one is Intellisense losing all the public members of the BLL classes.  It allows you to reference the class and is happy with the Namespace etc.  but when you have a class of a type defined in the BLL and you hit the decimal point all you get is the properties and methods associated with Object showing in the intellisense.  Once again,  this is a bug that can only be solved by closing VS and reopening it.     Intellisense really losing the plot  The next stepup is when intellisense just loses the members of, not only your own assemblies, but also those of the Dot Net Framework as well.  Solved, yet again, by closing VS and reopening.  Without Intellisense you may as well be using notepad.  I have made comment on MS Newsgroups re this,  pretty much saying the same as above,  and I await a reply from anyone associated with MS.  You can find the post on the newsgroups by searching for Error CS0006.  I will let you know if anything else happens.  R.     
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+       Eventually the correlation issue was sorted out.  I figured a way of getting around it.  You always do don't you.  The way I managed it was to bring in the Y value for every X value in the query results.  Note that this is a large amount of duplication,  because every single Fund at every single price point brings in the Index return for the equivelent date.  This means that if you have 20 funds then you retrieve the Index returns for each date 20 times,  but it works.  The next obstacle to overcome was for each grouping (ie. each fund) to work out the correlation.  We now had all the relevant X and Y values in the group but we needed to be able to work out sigma x squared and sigma xy etc.  The way I got around this was by discovering that in the query editor (first tab and click the elipses) you can go to a fields tab that displays the columns that are returned from the query.  In here you can actually ADD a field and set its source as calculated.  This means that you can add a column for XY and X squared etc.  It is then just a case of summing these fields in the group summary expressions.  Simple eh?  The more we use this reporting services the more we like it.  It is really powerful. 
+    
+    
+</post>
+
+<date>08,June,2004</date>
+<post>
+
+    
+       Ahhhh,  I am so close to solving this report,  but there's just this one niggling problem.  The user wants a correlation number on the bottom.  Basically,  this is a matrix report with funds going across the top and dates down the left hand side.  at each cross point is the return for that period.    On the bottom of the report we show some summaries, eg. total annualised return,  Sharp Ratio etc.  This I have achieved by inserting additional matrix's onto the report that share the column grouping and sorting with the main report,  but have no row details or groupings.  They have a single row that shows the summarized values.  These are achieved with formulae similar such as the example below :   =StDevP(Fields!Growth.Value, "matrix4_ColumnGroup1")*SQRT(12)   (this gives us the volatility of each funds returns.  The problem comes when we try and show a correlation figure.  The last column in our report is always the benchmark Index (this is achieved through some simple sorting expressions).  On the bottom of the report the user wants to see the correlation of the funds returns against the benchmark.  Obviously,  this is not simple.  What I wanted to do was to pass the whole dataset out to a coded expression,  along with the fund id of the column and have the coding work with the dataset to conjure up the correlation.  The problem I am having is there does not seem to be a way to pass the dataset to the function.  You can pass individual fields but not an entire dataset.  So I can write a function that'll take a dataset,  traverse it and work out the correlation,  but I cannot get the reporting services to pass the right data to it.  Another way of approaching this is to try and do the correlation work on the SQLServer end.  But let's be honest here,  T-SQL is not the kind of place you want to be trying to implement a formulae like Correlation.  I thought perhaps of looking at an extended stored procedure in C++,  but this seems like too much hard work for something fairly simple.  Another avenue I examined was referencing an external DLL from the report.  This would work,  but once again you are stuck with the "can't get the dataset to the method" problem.   And so here I am,  stuck.  I will be leaving this and moving onto something else for the next few days. 
+    
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+    
+       It's kind of working ish.  This whole layout thing is going to cause me a lot of trouble.  Basically,  do not trust what it looks like in the design environment to be a true reflection of the situation on the live server.  It isn't. It is just a fair estimation.  Secondly, do not expect the output of the Acrobat export to be the same as that of the reporting engine. It won't be.  The only, only, only way to be sure is to try the report in every format you are ever going to want.  Now back to how I have nearly got around my layout issues.  I broke the report down into sections.  The top of the report was a header.  This consisted of a block of summarised data,  a graphic and the funds name on a deep blue background.  these items were placed into a rectangle on their own.  The remainder of the report consists of graphs and text down the right hand side and mostly tables down the left (on a light blue background).  These two areas were broken into their own rectangles.  This nearly worked.  The only problem was the summary of data in the header consisted of 6 name value pairs in a two column format (name left, value right as usual) in a defined size box.  The writing was very small (8pt).  This looked fine in preview, but when rendered in the main report server the spacing got all ballsed up.  I still believe this was to do with the very small fonts, and I am going to run some tests to see if I can figure that out.  The moving of the labels caused the rectangle to grow and hence threw out the rest of the formatting.  I got around this issue by taking the individual label items and rolling them into a single label with CR's in it to go to the next line & label.  I tried also to do this for the values using a formula like so :  =Convert.toDateTime(First(Fields!LaunchDate.Value, "FundDetails")).ToString("dd MMMM yy") + vbcr +chr(10) +chr(13) + First(Fields!CurrencySymbol.Value, "FundDetails") + System.Math.Round( Last(Fields!extPrice.Value, "Prices"),2).ToString() + chr(10) +chr(13) + Convert.toDouble(Sum(Fields!YTDRet.Value, "YTDRet")).ToString("#,##0.00%;-#,##0.00%")  This looked OK at design preview,  not very good at runtime (no line breaks) and fine when Acrobatted.    I am now scratching my head, thinking, well it's Friday eve.  I'll give this the weekend to think about. 
+    
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+    
+       Oh My God!  Here I am with a lovely report all laid out nicely, looking pretty fly.  Run it at design time,  it all goes wrong.  The layout gets blasted, and all the parts end up everywhere.  So that's not going to work in the real world is it.  Eventually I figure out that if on the report I simply put all elements of the report onto one large rectangle then they start behaving properly.  Design time all is looking "fly" again.  Push it up to the server,  and bang,  the layout is blown apart again.  Summing it all up.  The layout of complex reports is going to get screwed up by reporting services, so keep it simple.  I'll post if I find the answer. 
+    
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+    
+       After an hour of trying to apply a filter onto a matrix report so that I only show the top 6 rows of the report I discover that you cannot simply do this with the filters :    Expression  Operator  Value     =Fields!Year.Value  Top N  6      No,  that would be the obvious.  What you have to do is :    Expression  Operator  Value     =Fields!Year.Value  Top N   =6       And the reason why??? well it appears that anything in RS is taken as a string unless it is proceeded with an equals sign.  DOH!  
+    
+    
+</post>
+
+
+<date>26,May,2004</date>
+<post>
+
+     
+      It never seems to be simple enough to do simple things!  Blogging is a great way to keep a diary and share your goings on with friends family and the world at large.  You can tell your story once,  without doing a mass mail to all your pals,  which is OK if they're interested,  but a bit sad if they're not.  With a blog,  if people want to know what you're up to they can hit your blog,  if not,  they don't.  Simple.  But there's one problem.  I have a digital camera and I want to "Show" what has been going on.  I know, I know,  you can use Blogger's photoblogging service,  but that requires me to download software that I don't particularly want to use and also to use Instant Messanger,  which is banned in our offices.  This means that the service is effectively useless to me.  I can see why Google are not keen on users just dumping photographs onto their blogs.  The users may be stupid and decide that 32MB RAW image files is the only quality that is acceptable for their 400+ wedding photos.  However,  if they were to say here you go guys you have space for 10MB of image files,  do with it what you like,  that isn't going to rock the boat surely.  Fortunately I worked out this morning that Google actually  DO  let you insert images,  so long as they're hosted elsewhere.  What I hadn't realised is that I can actually put in HTML into these posts. So I can put in a picture using the IMG tag.  However,  I have decided to dump photos onto separate sites so that the blog doesn't get bogged down when you open it.  The Ferrari Photo's are  HERE 
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+     
+      As you may (or may not) know,  it was my birthday on Saturday,  and left over from the same time last year I had the present that Sarah had bought me to use up,  A Ferrari Day.  I hadn't booked it as soon as I got it otherwise I would have had to drive in November,  not good for cars with 400bhp.  So I arranged the big day for May 22nd 2004,  and what a day.  It was held at Prestwick Hall just outside Loughborough.  This is a bit of a trek for us from Chelmsford, but Hey,  when someone's going to let you drive a 360 Modena Spider,  you tend to not worry about little issues like that.  Let's get the worst bit of the day out the way first. The day lasted four hours.  "Four Hours driving Ferrari's" you might think, but no,  actually more like 10 minutes driving Ferrari's and 3 hours and 50 minutes standing around.  However those ten minutes are amazing.    The weather was sunny and dry,  perfect for trying to get Italian sports cars around racetracks,  however this didn't stop some of my fellows from spinning,  (perhaps that's why they called it a 360).  The day starts with the usual briefing in racing lines and the standard do's and don'ts.  "Do drive at 20 miles an hour max in the pit lane,  don't drop the car into first gear instead of third by mistake on the way into the fourth corner,  otherwise you'll leave the gearbox all over the track." etc.  Then it's out into the sunshine to....   ....drive Landrovers around a bit of muddy track while the other half of the room get to play on the track.  Well,  at least the really boring bit was out of the way first.  then they take you around some cones in a VW golf with a football in a tyre on the bonnet, to check how smoothly you can corner a car.  Pretty easy stuff for 90% of the people there.  Next it's onto the track proper,  being driven around by the professional drivers in a Ford Focus WRC.  Here you get introduced to the track and the racing lines,  where to brake,  where to floor it etc.  Two laps later and your queueing up to drive the Ferrari 328 GTS.  A nice car to look at, the 328,  like Magnum PI used to drive,  however,  Magnum PI must have had tiny feet because even my size 8's required me to take my shoes off to drive it,  the accelerator and the brake are so close together. Around the track it's not that much either,  I think I've driven quicker cars on the road,  but it was worth going out in to get a 'feel' for the lines of the track and learn the circuit.  Then came the big bit,  the Ferrari 360 Modena spider.  The guy who went out before me completely lost it on the entrance to the hairpin and span off the track.  The professional driver in the car made him come straight back in.  I got in and he said he had to do some paperwork so I'd have to sit there for a few minutes.  I played around with the gearbox whilst he filled out the driving assessment for the previous driver : 'Can't drive at all'  I remember seeing him write - Ooops.  Eventually I got the 'green light'  and off we went.  I took it tentatively for the first lap.  The car makes an absolutely awesome noise as you go down the straight with your foot down to the floor,  this huge screech coming from the exhausts like a Banshee who's just found out you've been sleeping with her sister.  Then, very quickly I saw the first corner approaching,  men of steel would have kept the foot to the floor until they got to the BRAKE sign,  however,  this was my first ever corner in the 360 and so I did the sensible thing and lifted off the power well before the sign.  The pro driver said "don't bother braking until you're half way between the BRAKE sign and the TURN sign".  "You must be kidding" I thought,  but sure enough,  as soon as you so much as rest your foot lightly on the break pedal the 360 clamps down like there's no tomorrow.  After a couple of corners of this your confidence starts to build and you find yourself braking later and later.  As for the cornering itself, well for me,  it's like nothing I've ever driven before.  You turn in and the nose comes across promptly,  point at the apex cone and roll into the apex,  then you squeeze on the power, slowly.  You feel the power rushing to the back wheels and they do the best job they can to grip the track and not spin,  but lets face it, 400bhp is a lot of grunt to contain.  The feel is excellent though and you can feel if your pushing the pedal too hard and it's starting to lose grip.  Thankfully I never actually span it,  but I did feel it starting to step sideways a couple of times.  Overall the drive was great,  if not too short.  By the time you're starting to feel at home in the car and you start to get some real speed up, it's time to go back in. But I guess that's why,  your confidence would grow, and grow until, snap,  the back wheels overtake the front and you're wondering why there's grass clippings all over the bonnet.  So there you go,  my first venture into motor journalism.    A great day.  Thanks.  R.
+     
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+     
+      Well,  home life is really becoming a good laugh with the little man.    He is now really getting a little personality.  He loves this hot weather we are having,  and spends most of the time outside in the garden.  He has started kicking a football around,  which is very funny and he also likes playing 'chase' with the rugby ball.  We've got a baby chair on the back of a mountain bike,  and we regularly take him off on bike rides around parks etc.  He enjoys this immensely.  Me and Sarah ride around and he just sits there on the back going "What's that?" at everything.  Everytime you go passed someone he shouts "Hello!".  The week before last we took him off to the Isle of Whyte for the weekend.  A spur of the moment thing that turned out to be a great weekend.  The IOW is a pretty nice place,  but not that big.  They have a small Steam Railway there,  which Goeorge thought was top fun.  "Thomas" he kept saying.  We got in one of the carriages and he spent the entire journey with his head out of the window.  When we got to the station at the end he pulled his head back in and his face was all sooty.  Ahh.  I'm still swimming three times a week.  I've recently achieved one of my goals and done a mile in sub 30 mins.  I know it's not going to win me any medals,  but you need goals.  Sarah is well.  Looking forward to the holiday (Spain in June).  She is still in the process of winding down her business.  Anne Marie has resigned as a Director,  and Martin,  the other Director doesn't want to do it anymore,  so the best thing is to sell off all the stock, shut the warehouse and draw a line under it.  She still wants to run a business doing the same thing,  we just need to take a look at how it is going to be done.  Obviously with just Sarah involved it will need to be on a far smaller scale.  Sarah is currently keen on getting a Golden Retriever.  I am not yet fully convinced but I am sure that she will win me over in the end.  My concerns chiefly being that I may be allergic to the hairs,  that I'll end up walking etc. it every day,  that the whole house will smell of dogs, and that my suits will be covered in dog hairs.  These points are not yet disproved.  Well,  back to work.  I'll keep you posted on what's happening.  Cheers,  R.
+     
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+     
+      As is the norm,  this is the introductory post to the Linnell Blog.  A big hello from all in Chelmsford.  Hopefully I'll be bothered to keep this up to date and it'll serve me well.  I'll be sticking up news, photos etc.  so enjoy.  For now though,  Hello World!  R.
+     
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+     
+        I have sent out invitations via the blogger software that I use to run this site to allow you all to add your own stuff,  however they are suffering with mail problems at the moment and so I don't think they are getting the mails out.      I sent one to myself to test if it's working and I have received nothing,  so I am assuming that it is broken.    As soon as they fix it I'll get the emails sent and you will be able to post your own stuff on here too.
+     
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+     
+      As promised in my earlier post,  I enclose a link below to the pictures of the Barney!  there's also a couple of Sarah and George in there too for good measure.  Hope you enjoy them.   Click Here For The Pictures  
+     
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+     
+      We have a new member to the family.  Barney,  an 8 week old Golden Retriever joined our household on Sunday (20th June).  He is incredibly well behaved and has a two year old boy constantly following him around wherever he goes.  He is not yet fully house-trained but does go outside if the doors are open (which they tend to be at this time of year).    George absolutely adores him.  I think the dog adores George too.  Basically wherever the one is the other won't be too far away.  I'll post some pictures shortly.
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+     
+      Just a quick blog post to let you all know we had a great time in Spain.  We were staying in Marbella and the weather was fantastic.  It was just Sarah and I,  the little man stayed at home with Kevin!!!!  He's fine,  and so is George!  I have posted some photo's up onto a webserver if anyone is interested.    They are  HERE .  Use the coconut coctails at the bottom of the page to go to the next page.  R.
+     
+    
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+     
+      It's crazily hot today.&nbsp; So hot that the thought of going home on the tube just sounds like an absolute nightmare.&nbsp; As an Englishman I feel compelled to complain about everything, and now the weather has warmed up a bit, I&nbsp;feel it is only right&nbsp;to moan about it!  However,&nbsp; it is payday,&nbsp; and I may stop off at Next (right by our office) and buy some shorts for the journey home.  So what has happened this week.&nbsp; hmmm.&nbsp; Not a great deal.&nbsp; The dog, as ever, has got bigger.&nbsp; George is now fully into potty "training".&nbsp; Not that it takes much training.&nbsp; He hasn't been doing lots of practise poos leading up to the main event or anything,&nbsp; he's just now wearing pants,&nbsp; and we ask him if he needs his potty every thirty seconds.  We went to a parent's evening at his nursery this week.&nbsp; I wasn't really sure what to expect.&nbsp; I half thought they were going to sit us down and discuss George's progress,&nbsp; and I would be sat there with a surreal expression on my face thinking "What are you talking about he's only 2".&nbsp; Another possibility was that they would just invite all the parents along,&nbsp; put on some cheap wine and just let everyone brag about how much more important there job is than everybody else's.&nbsp; When we got there it turned out to be a bit of a non-event.&nbsp; We lingered a little before one of the Nursery Assistants (or whatever they're called) came over to us and showed us around.&nbsp; After that we lingered for a bit more and then cleared off down to the pub.  I've not really done a great deal else this week.&nbsp; I went swimming three times as I always do,&nbsp; Sarah had a haircut,&nbsp; I went to work, Sarah stayed at home, the world turned and we didn't fall off.  Sleep has been a little odd this week.&nbsp; I don't think we've had a whole, uninterrupted nights rest once this week.&nbsp; As a result I now feel completely drained.&nbsp; What's more,&nbsp; it'll not be any different this weekend.&nbsp; I blame the heat!! 
+     
+    
+</post>
+
+<date>25,July,2004</date>
+<post>
+
+     
+      Hello,&nbsp; This is all new to me but here goes.  My name is Margaret and I am Richard's mother, my husband's name is Ian &nbsp;and we live in the West Midlands.&nbsp;&nbsp;&nbsp;&nbsp;We&nbsp;celebrated our 43rd Wedding Anniversary last Thursday&nbsp;by going&nbsp;to the Hippodrome in Birmingham to see "Crazy for You" with our friends Margaret and Harry.&nbsp; We all enjoyed it.  If this small intro works I will attempt to fill you in with the exciting life of two pensioners but you will have to wait for that.  &nbsp;  
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+      Hello again.&nbsp;   It's Anniversatry week for Sarah and I and also for Mum and Dad.&nbsp; HAPPY ANNIVERSARY MUM AND DAD!!!  It's Wednesday already.&nbsp; Sorry about not posting on Friday but I'm a little busy.&nbsp;   We have had a pretty good week (and a half.)&nbsp; The dog is getting considerably bigger now.&nbsp; He can hold his own against George.&nbsp; This usually means that George starts playing rough with Barney,&nbsp; Barney says to himself,&nbsp; "sure I can do play fighting" and George starts crying.&nbsp; I'm sure that eventually George'll figure out that the dog is getting bigger and stronger at a much quicker rate than he is,&nbsp; but for now,&nbsp; he hasn't.  We had a nice Anniversary.&nbsp; Didn't do a great deal as it was a regular work day, but it was nice all the same.&nbsp; We put George to bed early, shared a bottle of wine and had a nice relaxing evening.  We didn't get up to much at the weekend.&nbsp; The weather wasn't particularly good and we didn't have a&nbsp;many ideas.&nbsp; So we just stayed in.  Other than that,&nbsp; a quiet week.&nbsp;   Oh well,&nbsp; back to work. 
+     
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+     
+      Well here we are again,  another Friday.  The weeks just fly by don't they.  This week has been good fun.  Apart from being woken up by George at 6.00am for 3 days of the week and Barney for the other 4, it has been a nice week.  We managed to get out for a drink on Wednesday night,  to the local.  We had a spot of food and George ran around in the beer garden (That's a strange expression isn't it.  If a Rose Garden is a garden full of roses and a Water Garden is a garden full of water...).  I have been training Barney to sit and shake a paw,  and trying in vain to get him to fetch.  He does the sitting stuff easily enough but whenever I throw one of his toys he legs after it and then just lies down with it and chews it to death.  I am quite happy that the weather has got a bit cooler.  The hot weather means that you can't wear jeans, and when you have a puppy with a mouth full of needle sharp teeth you need some serious leg protection.  His biting is lessening off now,  but the sooner those teeth fall out the better.  George has been doing the usual routine, a bit like me.  I go to work, he goes to Nursery.  We have asked them to try and limit the amount of sleep he has in the day because he is up all night otherwise.  Then he is woken early by the dog and he is really tired and iritable.  The garden is coming along nicely.  I decided that it was time to go container mad.  With a dog and a small child running around there is a need for semi-permanence that the container brings.  I have been buying up all the cheap plants from B&Q and sticking them in the plastic pots they sell.  I did buy a couple of the proper clay ones, but I was speaking to a lady in there and she said that not only were the plastic ones far cheaper and just as visually pleasing, but the clay ones had a tendancy to crack if the frost got to them.   Seems to me that plastic is the way forward.  The plants I have been getting look virtually dead, hence the cheap prices, but with a bit of dead-heading, watering and feeding,  they spring to life.  I have put together a couple of hanging baskets, and re-invigorated the big wooden barrles outside the front of the house by filling them with any leftover plants I have.  I am testing a few different types of plants down the wall by our drive.  There is not much sunshine there so I am giving the "Shade Loving" plants a go.  It really is starting to look nice.  All I need to do now is to train Sarah to water them all occasionally....  Well,  I better go and do some work.  I'll write soon.  Rich.
+     
+    
+</post>
+
+
+</Blog>

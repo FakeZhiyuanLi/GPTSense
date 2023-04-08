@@ -1,0 +1,1 @@
+The general concept that applies to elements of commutative rings is the distributive property, which states that for any three elements a, b, and c in the ring:a * (b + c) = (a * b) + (a * c)and(b + c) * a = (b * a) + (c * a)This property allows us to manipulate expressions involving elements of the ring, and is a fundamental part of many algebraic manipulations.

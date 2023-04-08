@@ -1,0 +1,20 @@
+<Blog>
+
+<date>16,August,2004</date>
+<post>
+
+	 
+      Today i met up with Irda (one of my classmates who asked for help) to help her through the task sheet and complete the task sheet on my part.  Since I had already done the first part of the task, all I did was attempt the selfstudy question 1 on WEBCT. Got the answer correct! (pat on the back for me. :)  Irda & Dilla had trouble finding the PRINT option on the Deakin library record.  Anyways, moving on to the ftp. That is the second part of the module 1 task. We had to ftp to recall.curtin.edu.au. It had very straight forward instructions to follow and I found this task a piece of cake!!. The missing missing word in in the sentence was "CAPITALIZATION".  Got the self test correct too ! (another pat on the back!)  Now the third task. Third task involved doing tracing information paths across the web. Since the Samspade.org wasn't working I used the alternative website ( urlLink www.network-tools.com ) suggested on the yahoo group for net202.  I completed this task and found that the amount of hops differ at different times. The first time I did this task there were 20 hops and found the curtin IP address. However, when i repeated this task at home, there were more hops(23) but the hops timed out at the 19th hop.  Even though I completed this task successfully, i still haven't understood the purpose of this website. I know it is used trace the information route through the network but i still don't feel like i can relate this to my day to day involvement with the internet use. Maybe as we advance through the semester, I will get a better idea.  Finally, i tried to do a bit further exploration. However, the freeware ( urlLink www.tucows.com )  suggested in the task sheet was not working.  End of Module1 - task  cheers shabz 
+    
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+	 
+      Today I tried to attempt the first part of the Task 1. of module 1. We had to connect to Deakin library using Telnet. Following the instructions was very easy until it was time to connect to Deakin Library. The instruction given in the tast sheet was not enough for a new user.  For e.g. the tast sheet said just to type  "library.deakin.edu.au", but that didn't work. I kept getting an error message. So a friend of mine helped me out. He suggested that I add "open.library.deakin.edu.au". Problem solved!  So instead of Microsoft Telnet>library.deakin.edu.au we had to write Microsoft Telnet>open.library.deakin.edu.au  But that not all! I could only get through to Deakin Library at random attempts. This maybe due to high traffic or time difference.  I have seen people use Telnet during my brief fellowship at the Indian National Scientific and Documentation Center, NewDelhi, in 1998 but I didn't realise that was telnet until i tried using it today.  I found this task really simple but there were some of my classmates who found it really difficult to grasp the idea of telnet and following the instructions and came to be for help. So i helped them as best as I could. I think their problems were all because of lack of background knowledge on the infrastructure of internet.  Anways, that it for now... cheers shabz 
+    
+</post>
+
+
+</Blog>

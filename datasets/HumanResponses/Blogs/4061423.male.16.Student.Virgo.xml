@@ -1,0 +1,103 @@
+<Blog>
+
+<date>28,juli,2004</date>
+<post>
+
+     
+      As a frequent Linux user for some years now, and a frequent  urlLink LKML  reader. I have made up some thoughts about the  urlLink new "Development model" . I think that it's a big mistake, I think that the unstable and new features should be put into its own tree. Linux might not be thought as a Secure and Stable(TM) kernel when Linus began to develop it, but now, over ten years later, it has gained a repetition as quite stable and secure. So if the developers are beginning to implant many new features and other "unstable" is going into the mainline kernel, I'm sure that many flaws(all new and experimental code do contain flaws, don't they? ;)) are going to be exploited, and many exploits and security flaws are being detected, Linux'es reputation as quite stable and secure is being weakened and other solutions are being analyzed, we do all want that all should use Linux? Or a politically equivalent. Tho, if all the new experimental stuff is getting into akpm's tree first, and will stay  in -mm for some time i can accept it, the new stuff will then have some time to be tested and looked over, as well as the Mainstream kernel will keep its reputation as stable and secure. :)
+     
+    
+</post>
+
+<date>28,juli,2004</date>
+<post>
+
+     
+      This is my first post to a blog, i wonder if i might find it any useful ;)  Today i haven't done anything useful, just sitting here and relaxing(its summer holliday you know ;)   
+     
+    
+</post>
+
+<date>16,august,2004</date>
+<post>
+
+     
+      I'm still waiting for my new supercomputer ;) Only the cabinet and the printer has been sent :\ It's only the grapichcard that is the slowdown... The delivery date for it is 19/8 so it wont arrive before maybe 23: I'm also moving out tomorrow, and I don't have Internet at my flat :( So I'll only be available in the weekends, and maybe in the mid week :More to come about this.
+     
+    
+</post>
+
+<date>12,august,2004</date>
+<post>
+
+     
+      According to Groklaw and the German publication Heise (its in German, of course) Munich's mayor Christian Ude has held a press conference, in which he said that the bidding process for the switch from Windows to Linux will go forward as originally planned, despite patent issues. InfoWorld (in English), quotes Bernd Plank, a spokesman for Munich town hall, saying that he expected that the administration would take a maximum of 'two to three weeks' to decide whether the EU's Directive on software patents could affect the city's plan to switch to Linux, and that would be no 'dramatic setback.'"  -- www.slashdot.org  This is good news, that proves that Linux has a huge foot inside the German door of IT, thats good.
+     
+    
+</post>
+
+<date>11,august,2004</date>
+<post>
+
+     
+      I have ordered a new computer from itbutikken.dk now =) It's going to be a killer machine, I won't keep you all waiting for the specs for so long, so.. Here are they:  - Chieftec CX-01B-B-W  - ASUS K8V Deluxe  - Kingston HyperX 2x512MiB  - Plextor PX-712A - DVD±RW  - Samsung SyncMaster 957 P monitor  - Sapphire RADEON X800 XT   - Logitech Cordless Desktop MX   - Processor - AMD Athlon 64 3400+  - Epson Stylus C46 - Printer  - Maxtor DiamondMax Plus 9 160GiB Sata  - Seagate Barracuda 200GiB Sata  Then I'll just have to wait for it to arrive : My ISP has also begun to monitor outside temperature, they're monitoring it about 30 kilometers away from me, so it shouldn't be so different from here(Norwegian): http://svorka.net/stats/temperatur.html The blue is the temperature in Celsius.
+     
+    
+</post>
+
+<date>10,august,2004</date>
+<post>
+
+     
+      I think  urlLink this one  is the one I'm going to get, except that I'm going to wait for socket 939 and pci-express (Maybe). =) I'm going to use approximately $2450(16000NKR) on it =) It is also a very hot day today also, over 30 degree Celsius. it's luckily a bit more windy to day, so it doesn't get too instance.
+     
+    
+</post>
+
+<date>09,august,2004</date>
+<post>
+
+     
+      It isn't much to write about today, nothing much in the news, except from the newly released WinXp sp2 thingy, but I don't bother to write about it yet, since the Norwegian version isn't out yet. The only breakthrough thing is that the degree crawled over 30 Celsius today =) *Burning hot*  *I hate that spellcheck thing, it wont pop up anymore*
+     
+    
+</post>
+
+<date>05,august,2004</date>
+<post>
+
+     
+      I'm reading that IBM won't start a war against Linux for using some of its patents, that's good, IBM would have been an powerfull enemy to get. It has also been said in the latest time that Munich will delay their move to Linux until the Software Patent issue has been solved out. I and many of my friends think the Software Patents are a very bad thing for the Open Source Society, if a company with tons of money could buy all ideas within software development all smaller companies would die obscures. Just look at Microsoft patents, they have patents for mouse clicks, transparency, apple trees and tons of others. You cant have patents on such things, EU VOTE NO TO PATENTS.  I must write again that I thinks that Novell is doing the right thing in its Linux aiming, they will merge Ximian and SuSE, I think that will be a killer Desktop Distro ;) SuSE is good already(Thinking of desktop use), Ximian gnome is good(Again just thinking of desktop use) and Novell also tries to merge the best from both KDE and GNOME into a new standarized product, that'll be very nice :)  NB: Please tell if you find any spelling errors, i'm struggling a bit with the spellchecker, it's replacing things if just scroll a bit to much.
+     
+    
+</post>
+
+<date>04,august,2004</date>
+<post>
+
+     
+      I'm reading that Sun is exempted from an aventually law suit filled by Evil(TM) Microsoft over some recent patent issues. As you all know by now, Sun made a deal with Evil(TM) Microsoft earlier this year to prevent any litigation against each other. I'm sure that Evil(TM) Microsoft pushed Sun to drop their pressuring Java VM thingy law suits because they maybe own some patents which Sun are using in some of their products. So, if Evil(TM) Microsoft begins a War againts those whom are using their patents illegally(Including SUN), Sun will be safe. Linux will get a big hit, and Sun will get a big rise.  Grr, i wrote a much better post than this yeasterday, but when i hit 'Publish Post' i was asked to enter username and password, and the whole post was lost :\
+     
+    
+</post>
+
+<date>02,august,2004</date>
+<post>
+
+     
+      I see that Sun is deciding to might buy Novell, i hope they don't. As you might know by now, Novell has bought Ximian and SuSe Linux, then there are two large Linux distributors, RedHat AES and SuSe. Novell has gone more and more away from its own Unix clone, NetWare, they are going for Linux buy all means ;) Sun on the other hand, they are working close to evil Microsoft, and are also going mainly for their own Unix clone, Solaris. If Sun buys Novell, they do also get the rights to SuSe and Ximian, the can then focus mainly on Solaris, and SuSe is then going to be left behind. But, on the other hand, many rumors has gone now, telling about Sun thinking about making Solaris GPL, and if they do so, they might wan't to focus on Linux, and put the best from Solaris into Linux ;) But thats very unlikely to happen. 
+     
+    
+</post>
+
+<date>02,august,2004</date>
+<post>
+
+     
+      I hear that all my friends is downloading Doom3 right now, it seems like I'm the only one that isn't downing it. I'm sure that when I get to get it, all my friends has gone through it and is bragging of how easy it is, and how unrealistic and bad it is. Some games are worth to buy, games that I've heard of many years now, games that takes out all my computer power, those are the games that is worthy to install on my computer. And also, doom3 has Linux support ;) Native gaming support is a must, just to bad that Hl2 isn't getting it, or B&W2 :I'll hope that game developers start to release their games with full OpenGL support and Linux and Mac support. And I'll hope that Microsoft releases DirectX source, and makes fully implemented support for Linux.
+     
+    
+</post>
+
+
+</Blog>

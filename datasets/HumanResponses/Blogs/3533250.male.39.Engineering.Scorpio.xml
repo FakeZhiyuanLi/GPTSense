@@ -1,0 +1,93 @@
+<Blog>
+
+
+<date>12,August,2004</date>
+<post>
+
+
+       
+      Until further notice I am moving my blogging activity to my  urlLink server  which has wordpress on it.  That is no diss on blogger except they don't have their s/w available to use by sleps like me.  No problem I don't blame them.    Maybe this will fall down in flames and I'll be back blogging on blogger.
+     
+
+    
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+
+       
+      So my therapist has suggested that I pull Julie's medical records and bring them to a liver specialist to see what stage Julie was in with her alcoholism and get an idea if she was essentially dead when Julie and I had her released in November.  At first glance the reasoning behind this is to supposedly give me a piece of mind that not having her committed to go to rehab was the right choice.    My friend Red pointed out to me that (and actually I've had this conversation with my therapist too) if I would have committed Julie our relationship would have probably crumbled and Julie more than likely would have died cold, bitter and unhappy.  As opposed to how she died which was surrounded by her loved ones, clearing the air about all the trivial problems we had and giving our marriage an end that very few people probably have the chance to do.  I also worry about what happens if the doctor say's "you really fucked up and she would have lived a long productive life".  Ok I know that is stretching it but you get the point.  I also didn't believe I had any massive blocking issues about Julie's death.  It's painful and makes me said but I think I am taking it in stride and my choices have been made and can not be changed.  Ok, so I wrote an email to my friend Susan about the above and something funny dawned on me.  So, I was thinking about the whole thing of getting Julie's medical records. It kind of scares me because it is definitely reliving that whole painful experience again.  Then I realized a lot of my fears do surround not remembering what occurred during those couple months.  I am sure I buried them in my mind because of how painful it is to face that time squarely.  So, maybe I should get the records and have someone to look at them.  Not necessarily to clear my conscience of the choices I made but to revisit this with a clear mind.  To assure myself that it was a difficult time and I did the best I could with my wife's best interest in mind.  One side of me thinks this is probably a good plan the other side is scared shitless that it is just going to bring up that whole period to the fore.  Though, it is more like history now than life.  I wish I knew a liver specialist outside of Emerson.  Julie used to have one at Beth Israel Deaconnes in Boston but I don't think I have his name or number anymore.
+     
+
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+
+       
+      Ok, so I am a little late on this.  I have finished rough cutting all the parts to the Chairs and Footstool.  I've started sanding the edges on said parts.  I am done sanding the complex parts (ones with curves).  So hopefully the rest will go by like lightening. However I think I need a new sanding belt because things don't seem to be sanded as quickly as they were in the beginning.  I also have ordered some  urlLink square-bit fastners .  This will be a first time use of these fastners for me but the plans I am following had said they were good fastners to use.  It is funny because I first heard about them about 5 years ago but evidently they've been around since 1908.  More to come as progress is made.
+     
+
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+
+       
+      I see you and my heart melts  My knees become so weak they cannot be felt  I wonder how much of an idiot you think I am  Dedicating myself and being such a ham  One day you're hot the next you're cold  As I continue to grow old  Why does love feel like pain  Which we have no control or aim  
+     
+
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+
+       
+      Last night it dawned on me, not the for the first time though, that I basically am an observer at work for the for the most part.  There is this saying I used to hear all the time "Are you a thinker or a doer?".  I used to be a doer and liked that a lot.    I sit in hours of meetings some of which I barely saw 10 words.  Last night for example I had a 6pm meeting with lasted an hour an 15 minutes.  I said my name 5 times and the product I was representing was not supported under a certain release of Solaris at least 3 times.  Oh wait probably only two times because my boss said it once too.  A friend of mine who was waiting patiently for me to finish so we could go to dinner asked me what was the purpose of me going if I didn't say anything (note that's a paraphrase).  The problem is I sit in these meetings mainly to represent my department from be saddled with unreasonable expectations.    I guess I should be happy that I didn't fall asleep during the meeting and that I get paid for doing such silliness.
+     
+
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+
+       
+      Tonight, I finished rough cutting all the chair pieces.  I also did some truing up of the back supports with my sander.   And progress goes on.
+     
+
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+
+       
+      So, I've acquired my IP address have redirected my domain name  urlLink dontje.net  to it.  Note there is nothing there.  So I decided I was going to put some blog s/w on my domain and eventually dump my blogger blog.  Actually I wished blogger server s/w was available but I guess google figures it is their IP (Intellectual Property).  Anyways I went on a journey to find some blogging s/w.  I decided to use  urlLink Wordpress  because it looks pretty good and is free (as in beer and no encumberances).  So I downloaded it and read it's 5 minute install guide.  Well now I need  urlLink PHP  and  urlLink MySql  which isn't too big of a problem because I have PHP already installed and I've gotten MySql before and it also can be had for free. Bing Bang Boom, I've downloaded MySql installed it, got the db initialized and focus on Wordpress again.  Alright I am ready to try the install.  I go to the install page on my server and I get a blank page.  I look at the install instructions and they say nothing about blank pages, Ugh.  Well after checking and rechecking my config file many times and lamenting to Red, I finally start gleaning through Wordpresses website and find an  urlLink article  on my problem. Funny how the range of anger and responses are from ok help me to this shit sucks.  So, I read how there maybe a discrepancy between the php and mysql and that it is useful to download   urlLink phpMyAdmin  to debug the problem.  I do such and it confirms I need a php-mysql mod.  Ok, I download that too and then find I am missing libmysqlclient.so.  WTF, why isn't it in the MySql install only god and the developers know.  Anyways with google and some other article help I find that I can get the client lib if I download the whole package that was on the original Linux distribution I had installed.  Doh!  Good thing I have the disks but now I am tired and need to rest before continuing this adventure.  Now, I love free software and Open Source Software but I still find the interdependencies between packages a little rough on the edges.  Oh well, what doesn't kill me will make me have a blog.
+     
+
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+
+       
+      Last week was a little mentally stressful and definitely no where near as good as the previous week. That being said I've been busy as a beaver Saturday and Monday evening creating sawdust. I am making really good progress on my adirondak chairs. Since I retrieved my camera from Red on Sunday I was able to take some pictures of parts last night after I stopped making more parts. Lots and lots of parts. It amazes me how making sawdust is so relaxing, or maybe it is the beer. When I am on a roll making things it is just like when I am coding. Except I still can't find the backspace key on my table saw when I screw up.  Now for the pictures.  These first two pictures are the rough out parts of the chairs/footstools less the slats.        This next picture (from right to left) me, my table saw, and some freshly cut wood waiting to be turned into slats for the chairs and footstools.      Hopefully the transformations of the long boards into slats will happen tonight.  After that great transformation then I'll be ready to finish up the parts by sanding, rounding the edges with a router, and truing up paired parts for each chair.  
+     
+
+    
+</post>
+
+
+</Blog>

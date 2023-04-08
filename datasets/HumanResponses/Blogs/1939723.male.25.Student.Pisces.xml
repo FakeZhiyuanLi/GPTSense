@@ -1,0 +1,67 @@
+<Blog>
+
+<date>26,July,2004</date>
+<post>
+
+    
+       Altough I don't think that many people apart from some of my friends will read this entry, I'll put up this disclaimer: The following observations and conclusions are my  personal opinion  and I don't want to start yet another flamewar. My sole intention is to point out some shortcomings with GTK+ GUI development and what can be done to improve the current situation.     One and a half years ago I had the opportunity to start developing a GUI client for managing LDAP data. It was part of my work as a sysadmin at my university and I could get some certificates for this, too.   So, I started planning the design of Luma and what the final product should look like. The choice of the programming language was pretty easy for me. I took Python because it was intuitive, elegant and it provided bindings to the Qt and GTK+ toolkits. Although I'm a longtime KDE user, I was not biased on what toolkit I should use. My only requirement was, that it should be very easy to develop good looking user interfaces with a minimum of time and work. One of the tools to archieve this, is to use a visual GUI builder. Qt offers 'Qt Designer' and GTK+ has 'Glade' for this purpose.    After some hours with playing and testing these tools, my choice was pretty clear. Designer won hands down over Glade. And after 18 months of Luma development, I don't regret this decision. But what was the reason that I didn't give a chance to Glade, even for a few days?   Designer looked a lot more polished than Glade. It had some wizards and easy to use dialogs to connect widgets to functions. But hell NO! This was not the reason why I didn't like Glade. These were things I was willing to accept. I don't mind if a program has some rough edges, as long as I'm able to do my job. That's one of the reasons why I'm still using Linux on the desktop ;)    But what's the reason why I don't like Glade? It's a very simple thing. Glade gets into the way of the developer. You are not able to experiment with new ideas easily. Before you can add widgets like buttons and labels, you have to define a layout in which these items will be placed. You need to have a clear vision of what your widget should look like. But often this is not the case. The developer has several possible ideas in mind and isn't sure which one is the better solution. He knows what buttons, textfield and labels are needed. So he opens Designer, puts the widgets into the form and aligns the items as he wants them. Then he adds the layout. If he doesn't like the result, he can dismiss the layout, rearrange the items and tries a new design. This simple process is not possible with Glade. You are forced to define a layout first, so you have to know exactly what you want to do.     In my opinion this interferes with the creativity of the developer. People like to experiment and they often don't know what the final product should look like. GUI design is not an excact science like math, so GUI development tools should reflect this by giving the developer as much freedom as possible. Qt's Designer is a very good example for such a tool.     But why does it matter what I say? Thousands of developers are happily coding with GTK+/Glade and no one seems to complain. In most public diskussion on OSNews and Slashdot, people recommend Glade if you want a GUI builder for GTK+. Nothing seems to be wrong. Well, maybe I'm mistaken. But somehow I have the feeling that many GTK+ developers never tested Designer or that some don't want to admit that Glade is inferior. Don't get me wrong. I don't want to promote Qt in any way. I just want to point out one of  my  biggest problems with GTK+, altough I believe that many other people think the same way.     Improving Glade the way I propose would be a huge task, but in the end it helps GTK+ to be a more attractive development platform. It's not only the developer who will profit from this, but also the user. Better applications could be made in shorter time and this should benefit the Linux desktop in general.  
+    
+    
+</post>
+
+<date>25,July,2004</date>
+<post>
+
+    
+       Yesterday my friends and I went to the cinema and watched "(T)Raumschiff Surprise - Periode 1". Before that I had the fear that this movie would suck. Every trailer and comment in the media was about the same jokes which were not that funny. But since everyone in Germany is going to see this movie and Kerstin and Hoisn wanted to come too, I gave myself a hitch.   Luckily all my fears were gone shortly after the film started. I've never seen such an entertaining movies for a long time and I can recommend it to everyone who is not afraid of gay people ;)    A few days ago I started learning for my math exams and got bored about this pretty quickly. I'm pretty sure that I won't need this stuff again in my future career, but I need this for my diploma *grr*  As a countermeasure against distraction from learning, I forced myself to announce a new release of Luma in two weeks. This means that it's in bugfixing mode now and no new features are allowed to be added. Since all known bugs are fixed, there is nothing interesting I can do :)   
+    
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+    
+       I never thought I would see this, but finally summer arrived here in Clausthal. After all these months with rain, thunder and tornados, I tought we will go straight from spring to fall. Maybe I'll put my summer tires on my car now :)  Yesterday we went to one of our many ponds and had a nice afternoon in the sun. Unfortunately the water was still so cold, that only our feet got into the water.   Listening to Moses Pelham's new song "Ein schöner Tag" would have completed this wonderful day, but it's not yet for sale. One of my favourite tunes for this summer.     Luma    Today I fixed some bugs in  urlLink Luma  and it should be ready for a new release. SASL support is new and lots of the user interface was cleaned up. I'll put up a new tarball on my personal webspace for testing and if no further bugs appear, the next release will be in two to three weeks. This should be enough time for translators to finish their stuff.     
+    
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+    
+       Well, apparently not. All the interesting things I wanted to do are not possible currently. Want to access a local file, like a ringtone or SMS, on your phone? Not possible because your program is running in a sandbox. Want to communicate via Bluetooth with other mobile phones? Only possible with supported phones, which are mostly very pricy :(    I don't want to flame Java ME for this. But I tought, that after all theses years of development and inventions, it would be more integrated with todays available technologies. Unfortunately I'm mistaken. As long as I have to use the development kits for specific modells to access the full functionality, Java ME won't be interesting to me.  One of the most interesting aspects of Java is, that you can run it on a variety of devices and platforms. But most interesting features are simple not present in the mainstream.    For now, I'll turn my back to Java ME. But I'll have a look at it's future development. Let's see how much consumer devices and their abilities will improve.   
+    
+    
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+    
+       Hey, this is my very first blog posting and I'm quite curious where this whole experience will end. I hope it will be a lot of fun.  Last Tuesday I got my new mobile phone, a  urlLink Sony Ericsson T630 . It's really fun to use and I like the design, which looks somehow like an Apple iPod. Additionally I bought a USB Bluetooth adapter and got it working under Linux. Up- and downloading from my mobiles works, but hopefully the GNOME and KDE Bluetooth frameworks will be more stable and bugfree in the future.  Yesterday I started experimenting with Java ME and tried to do some simple programs for my mobile. It worked quite well and the API is nice. Made a program which can pause itself and performs some tasks in the background, while you can work with your phone as normal.   The next thing I'll try will be something like a Tamagotchi clone and I've already found some victims who will have to test it. There is no escape :)  
+    
+    
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+    
+       Well ... a lot happened over the weekend. I went with some of my friends from Clausthal to Bierstett, a small village in the east of Germany. My neighbour had a party there and we were invited to stay over the weekend. Over 800 liter of beer, 96 bottles of 'Kirsch-Korn', a party tent and a fresh 70 kg pig for grilling were organized. 200 people and more were expected and we were supposed to sleep in tents.  If you think that this sounds like a lot of fun ... then you are right. The weather was perfect. A clear blue sky, the sun was burning on our skin and the people were very relaxed :))  But all this is of no relevance for me!  If you think of it at least, destiny hits you. I was thrilled immediatley by the look of her beautiful, soft eyes. To my surprise, these eyes looked back on me. Over and over again. Everything around us faded away. I wanted to say something, but I was not able to. When I heard her calm and warm voice, it felt like I was struck down by lightning. Time seemed to be non-existent any more. Everything happened so fast, no talking was needed. We searched for a calm place and I had the greatest time of my life.  Almut, I love you! And I can't wait to see you again soon :)   
+    
+    
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+    
+       The last days were not very eventful. Mostly learning for my math exams and doing my paper on Luma. The talk about it will be in October. I wonder how many people will actually attend ;) Last week I went to our computing center and got a topic for my seminar paper. It will be about IPv6, but it is still open what the exact title will be.  The last two days I did some technical editing for two chapters of the upcoming "SuSE Linux 9 Bible", FTP and LDAP server management. And it's really fun :)) What amazes me, is that I got this 'job' by reading blogs. An activity which is regarded as entertainment by most people. And I have my GMail account from a Sun employee who offered it in his blog. Which reminds me, that I'll have to give him some feedback.  So, keep in mind: Bloggin is cool, but it's useful, too :))  
+    
+    
+</post>
+
+
+</Blog>

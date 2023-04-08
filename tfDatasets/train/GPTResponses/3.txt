@@ -1,0 +1,1 @@
+The Lasker-Noether Theorem is a simplification of the Primary Decomposition Theorem, which states that any finitely generated module over a Noetherian ring can be written as a direct sum of primary modules. The Lasker-Noether Theorem is a special case of this where the ring is a polynomial ring over a field and the module is an ideal in the ring.

@@ -1,0 +1,1 @@
+Early work in molecular genetics suggested the existence of a one gene-one enzyme model. This model proposed that each gene coded for a specific enzyme that catalyzes a specific reaction in the cell. However, it was later modified to a one gene-one polypeptide model, as it was discovered that some genes code for non-enzymatic proteins as well.

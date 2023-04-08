@@ -1,0 +1,1 @@
+One general theory considered the official example of pure mathematics is abstract algebra, which studies algebraic structures such as groups, rings, fields, and modules. It is concerned with understanding the properties and relationships between these structures, as well as developing general concepts that can be applied across different branches of mathematics.

@@ -1,0 +1,1 @@
+The assumption made with colors being transmitted over the internet is that the recipient's device and internet connection can accurately display and transmit the full range of colors as intended by the sender.

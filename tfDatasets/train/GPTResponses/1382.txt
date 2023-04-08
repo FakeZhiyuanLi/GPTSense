@@ -1,0 +1,1 @@
+The Harvard architecture is not modeled after any particular computer. It is a computer architecture that separates the instruction memory from the data memory, allowing them to be accessed simultaneously. It was first used in the Harvard Mark I computer, which was developed at Harvard University in the 1940s.

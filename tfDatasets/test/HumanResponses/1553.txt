@@ -1,0 +1,1 @@
+i have nearly finish my period of work experience at ifremer brest . i work on a web site about documents published by the department. my collegue m.o. helps me to test this site. it's little bit bloody because there are some bugs in php scripts.

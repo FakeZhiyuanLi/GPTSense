@@ -1,0 +1,256 @@
+<Blog>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      Q. What is artificial intelligence?   A. It is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable.   Q. Yes, but what is intelligence?   A. Intelligence is the computational part of the ability to achieve goals in the world. Varying kinds and degrees of intelligence occur in people, many animals and some machines. 
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+        i'd like to relate an apropos story (from Stanislaw Lem's "The Cyberiad") about a constructor who builds a machine that can make poetry ( a versifier ).  It was so capable that it made anything, and here is a " love poem, lyrical, pastoral, and expressed in the language of pure mathematics. Tensor algebra mainly, with a little topology and higher calculus, if need be. But with feeling, in the cybernetic spirit.":   Come, let us hasten to a higher plane, Where dyads tread the fairy fields of Venn, Their indices bedecked from one to n, Commingled in an endless Markov chain!  Come, every frustum longs to be a cone, And every vector dreams of matrices. Hark to the gentle gradient of the breeze: It whispers of a more ergodic zone.  In Riemann, Hilbert or in Banach space Let superscripts and subscripts go their ways. Our asymptotes no longer out of phase, We shall encounter, counting, face to face.  I'll grant thee random access to my heart, Thou'lt tell me all the constants of thy love; And so we two shall all loave's lemmas prove, And in our bound partition never part.  For what did Cauchy know, or Christoffel, Or Fourier, or any Booler or Euler, Wielding their compasses, their pens and rulers, Of they supernal sinusoidal spell?  Cancel me not - for what then shall remain? Abscissas, some mantissas, modules, modes, A root or two, a torus and a node: The inverse of my verse, a null domain.  Ellipse of bliss, converge, O lips divine! The product of our scalars is defined! Cyberiad draws nigh, and the skew mind Cuts capers like a happy haversine.  I see the eigenvalue in thine eye, I hear the tendor tensor in thy sigh. Bernoulli would have been content to die, Had he but known such a(2) cos2ø!     It had ambition-amplifying mechanisms with glory-seeking circuits, however, and became a better poet than all the existing ones, some younger ones so infuriated that they beat the machines creator(Trurl) to a pulp. After Trurl got out of the hospital, he tried to dismantle the machine but it delivered such an impassioned plea for help that Trurl broke down crying, and so he unplugged it in the middle of the night. However, it began to broadcast poetry on all wavelengths, and sent passengers on nearby rockets into "states of stanzaic stupefaction", and when technicians tried to dismantle it, it would overwhelm them with ballads. But then some ruler from a neighboring star system bought the machine and hauled it off to his kingdom. So... when Sven says that he wants something to take over the universe, we're going to have to construct an algorithm that will go through all the phases of the universe from its very beginnings in primordial chaos, and then we will have an artificial lifeform that is fully aware of the past and is capable of outwitting us at present.  
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      In perusing through archives that I've stored at my parents' abode, I flippped upon one of my proposals for a physical book. The project entailed the concept of how the universe began with chaos, and as it slowly evolved, order came about. Humans attempt to further order the universe by creating and using technology (though it is typically understood as a means to facilitate survival). This book was going to pictorially illustrate data structures progressing from chaos to order. Though the end result is not worth anyone's attention with the exception of a personal psychologist, this project has some interesting ties to my current interest in artificial Darwinism / evolutionary computing, and picks up on that initial spark of interest that I had some four years ago. As a sidenote - I'm awaiting the postal arrival of The Blind Watchmaker by Richard Dawkins.   A review of the work from amazon.com :   The title of this 1986 work, Dawkins's second book, refers to the Rev. William Paley's 1802 work, Natural Theology, which argued that just as finding a watch would lead you to conclude that a watchmaker must exist, the complexity of living organisms proves that a Creator exists. Not so, says Dawkins: "All appearances to the contrary, the only watchmaker in nature is the blind forces of physics, albeit deployed in a very special way... it is the blind watchmaker."  Dawkins is a hard-core scientist: he doesn't just tell you what is so, he shows you how to find out for yourself. For this book, he wrote Biomorph, one of the first artificial life programs. You can check Dawkins's results on your own Mac or PC 
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      Today at www.genobyte.com I discovered an intriguing idea which is a radical new approach to traditional circuit design called evolvable hardware. Usually if there is a change in a complex circuit it needs to be redesigned, but designers are now working on hardware that reconfigures itself; "this process is guided by a genetic algorithm which operates on a population of circuit chromosomes (bitstreams defining the logical functions and wiring of the circuit)". It's pretty amazing: a population of competing circuits are run over generations, and each new generation inherits the characteristics of the fitter parents via mutation and recombination of chromosomes. Evolvable hardware can be adaptive at different levels as well (changing requirements, environment, hardware failure, etc).    [microphotograph of a human chromosome enlarged 30,000 times ]
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      artificial darwinism has been on my mind. i've always been interested in how art work evolves (as one selectively throws out and keeps work) under the pressure of progress. it's amazing how warhol kept every scrap he wrote on, but i think that my credibility would pale under such circumstances.
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      I seem to have a constant recurring interest in artificial intelligence, which began when I started reading Heidegger in my teenage years. The allure was the idea of understanding the mind so well to be able to replicate it in machine/computer form. Complex structures are best understood when broken down into simpler forms and examined bit by bit.
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      happened to stumble upon an impressive little narrative site called  urlLink drum machine  that uses japanese drums as the sound effects that determine the animation of the figures.  royyksopp's video  urlLink "remind me"  online.
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+         urlLink      there seems to be a need to incorporate "fun" in my projects. a class at ucla called 'interactive environments' (taught by casey reas) seems to provoke much playful behavior. the link is a project where two participants race to fill up their side of the screen with virtual paint by waving pillows in the air.
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+           Recently, I had an idea for a nightclub with entry exclusively for those with a particular DNA type; yesterday I watched Gattaca (Ethan Hawke & Uma Thurman). The DNA-ID entry was something of a joke, but this movie made me rethink the ethical impact that bias towards those that are genetically superior would have. Human spirit and chance seems to be missing from the genetically modified, and in this fictional future, we seem to be disposed towards homogeneity, and life has lost its vitality. Variation makes life crazy and interesting, and may possibly be necessary for the continuation of our species. Ultimately, I think that lack of variation would lead to self-destruction. The  urlLink hedonistic imperative  is an ideal society that i think is too rosy to pan out. 
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      It seems difficult to find any interesting visualizations on the web generated by alife algorithms, though I did find some at  urlLink www.dieselprint.com .  I am concerned about making something that is not entirely designed by myself (as nature takes its course) but that still has pleasing visual results. Or perhaps I won't rely on aesthetics.    Now here are some thoughts that I was having while walking to the KU from West 4th Street: it seems rather easy for other organisms and animals to make a living: swimming, running, flying. Why does it seem like it has to be so difficult for humans? Why do we put ourselves under so much stress? A better solution to survival than making money and spending it when going out seems to be to take whenever possible. If there is a drink on the bar, why not take a sip? If there are pastries out in a dish in a restaurant, why not take? Why even wait around to pay off the bill? I have no qualms about this, as my scope is life-long rather than temporal and situational. Over the long run of things, this sort of behavior would lead to a life less burdened by conventional troubles and complaints, and would lead to a greater level of comfort within the city. 
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      warning: this is a rant in response to the attitude taken by many artists that mathematics is something beyond their means, a playground solely for mathematicians. or that programming, too, is outside of their scope. perhaps i was once in this category, but i've been discovering that nature is essentially programmatic. the way that dna functions to copy information to propagate the species can be broken down into a sequence of steps. we exist in the midst of sequences: seasons, planetary phases, the life cycle of humans from childhood through puberty to adulthood, and so on. to avoid the underlying mathematics of our daily existence and to leave it up to intuition and gut feeling is to completely sidestep what it means to live in this century. we are machines, and the machines that we create mimic computational capabilities found in basic elements of life. the more sophisticated our algorithms get will mean that we are better able to understand the world we live in. 
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+        urlLink      oh, what else can inspire but phileas fogg's determination to contribute to humankind with scientific invention? it's been a while since i've read jules verne, but this movie has a fair amount of kung fu and indomitable scientific spirit to motivate both practices. i think the parallels of martial arts and scientific ambition are actually quite similar, with regards to the devotion and determination that is put forth into both practices; the mind and body may need to be in harmony in order for a spark of innovation to manifest itself. i have always tried to maintain a platonic balance of the sciences and arts, but now that i have, it becomes further necessary to  balance the physical and mental states of the body, ever-climbing up the hierarchy of needs set by maslow. to this end, i think that tai chi and its variants, yoga, and other forms of physical meditation can be a good substitutes for physical training which in turn balance out one's mental state.
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+       urlLink     since strange attractors have recently been an ill-defined subject of conversation, i ought to elaborate with a proper definition and description. it stems from chaos theory, in which there is an attempt to find the underlying order in apparently random data. within a bounded system there are long-term patterns which aren't simple periodic oscillations or orbits. they can be like lopsided spirals, and these same patterns can emerge even with different initial conditions. yesterday, out of desperation for inspiration, i watched "the butterfly effect". in it the main character experiences a number of parallel realities in which things always seem to go to hell regardless of how he attempts to rectify the initial conditions. finally, he has to completely alter how his life unfolds: he eradicates any possible early experiences with the woman that he loves by frightening her away when they first meet. it seems that first impressions do hold a lot of weight.
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      spirituality used to be synonymous with art, and it was necessary to be aware of it in order to make meaningful art. it seems that the frequency with which people take snapshots of any given event are an indication of something spiritual, profound enough to warrant a lasting memory. i'd like to embue software with that same ethereal quality.    urlLink   
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+            these diagrams are rather simple, yet interesting in it's simplicity. say that the input is a set of points, which each represent a supermarket. lines drawn around the points represent regions of influence within which residents would shop at their local super. if you're setting up a factory, you would choose a larger space that is further away from all the concentrated areas. it can also be used for path planning, in which routes would be best if they ran along the perimeters so that they don't run into centers of activity. 
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      After spending a great deal of time in considering evolutionary algorithms, I’m pausing to consider other topics. Maybe there’s another aspect of artificial life that is better worth investigating for the time being, or perhaps I need to reconsider human-computer interactions in general. Our entire culture is being filtered through a web browser and it deserves attention.
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      i've been taking a mental stroll which is a diversion from my usual route, and i've found it to be somewhat... inspiring. i got into a discussion the other day about physical computing and i realized that at one time I had an obsession with it, with insane pursuits. since i've drifted away other intellectual interests don't seem to provoke that same sort of passion, though i have become obsessed with programming. i reinvite the intrigue of logical challenges, esp. with regards to code. perhaps it was aimlessness and the avoidance of difficulties that had led me down murky roads in the past. 
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+       urlLink    today i played galaga (on an  urlLink emulator ; my preference is  urlLink macmame ). today was different. i watched shots fire directly into my fighter ship (a location currently updated with each passing nanosecond). i avoided hits. i learned of my enemy's behavior. the enemy ships (or bugs) never venture into furthermost right or left areas of the screen... (and according to some hackers, if you avoid the two ships on the left-hand side for the first or second screen and avoid their hits for 15 minutes, then you can get through the whole game without having ships fire at you).   my ploy to avoid hits was empowering. by observing my enemy's moves and conserving my own energy, i was learning about my enemy's behavior and was thus able to make predictions about it and "dance" around the screen. this is somewhat like kung fu (or maybe capoeira), in that you redirect energy (and may learn of your opponent's tactics) in order to defeat him/her with accuracy. it's a delicate balance between giving and taking, coming and going, all life is flowing...  today i attempted to create a basic genetic algorithm in proce55ing (which i may be able to finish tomorrow; the survival factor within a population of circles is dependent upon how dark they are, and they all begin with various shades from white to black).   three things need to happen: selection, mutation and reproduction. the procedures for evolving a generation thus must be: 1. evaluate fitness of all individuals in the population 2. create a new pop. by performing genetic operators on it 3. discard old pop. and use the new pop. this cycle is clearly explained at  urlLink hitchhiker's guide to evolutionary computation  (thank you, douglass adams, you have done good in this world). the mechanisms at work here are no mystery, but i have a number of questions that need to be answered:  1. how will evolution be used as a key element in the design & implementation of the project? 2. what is the environment, exactly? 3. how will individual structures perform (what's going on)? 4. how is the fitness of the individual determined? 
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+       urlLink     Demonstration, US Embassy Vienna, June 15, 2004 - video documentation - 1minute20seconds  what do you know, steve kurtz, a University at Buffalo professor, was  urlLink charged  along with Robert Ferrell, chairman of the University of Pittsburgh's Human Genetics Department, for being a bioartist (and possessing common biological material). finally, i have a reason to be proud of pitt.
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+        (yes, the left leg is disproportionate, among other things...)
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      lately i have been bothered by the way people undermine others. sometimes it is indiscernible, and other times blatantly obvious, especially when dealing with the...unillumined  ones. i think that it stems from our inability to truly comprehend the amount of  brilliance that can be found within each individual. it is easier for us to perceive things at a distance as homogenous, and allows us to go about living within a carefully controlled environment where predictability reigns supreme. when you meet someone for the first time, there is the initial assumption that you are nothing, nobody, and have done nothing in your life. the first few words then define where you are from by your dialect, and it's associations begin to form in the other person's mind. by the time you get to exchange information about each other's occupation, it's all over. you are now a living example of someone's archetype.   it's a pity that  assumers  don't extend themselves beyond their own ego to learn from others around them and to give others the benefit of a doubt. it seems that the only way that this can really be accomplished is when the  assumer  gets involved in an intimate relationship with someone else; then the awe, inspiration, beauty and knowledge pour forth from one individual to another, and for the sake of love, the  assumer's  mind is wide open.  butter put up a link to a site called  urlLink found photos  which does a p2p search for photos and puts them up in this compiled form, and pulls the veil off of our assumptions immediately. if there is a photo that i want anyone to find, it's this one of jon:  
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+       urlLink      LOOK! it's a glowing bunny called alba created by  urlLink eduardo kac  that is made by splicing a green fluorescent protein (GFP) from a jellyfish into her genome. Researchers say that the photo can't be accurate, because fur is composed of dead cells and therefore GFP wouldn't show up. i think that its obviously been toyed with (c'mon, camera filters  distort), and he is lying to the world by photographing the bunny by itself, without any other comparisons. we don't need to venture into science fiction in order to draw attention to the art world... he should be revered by virtue of his transgenic approach alone. Additionally, the scientists who performed the splicing say that they did this procedure on a number of bunnies, and Kac simply picked one that seemed most peaceful. They claim that they wouldn't have done it for one artist. Houdebine, one of the scientists involved with the project, said that "Kac fabricated data for his personal use. This is why we totally stopped any contact with him."
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+       urlLink    
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      this is a new book out written by suzanne anker and dorothy nelkin (published in december 2003) that was reviewed in the latest issue of  urlLink leonardo (vol.12, number 8, august 2004) . unfortunately the reviewer said that it was "strikingly uneven", laden with "misinformation and confusion" though handsomely laid out. could the reviewer be giving an unfair review due to the fact that his work was also in the book? some of the major errors are that there's an extra dwarf in velazquez's *las meninas* and awareness of evolution is ascribed to daumier. okay, but why does this review leave out christa sommerer, laurent mignonneau or karl sims?    urlLink   
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      here's a thesis post on the stream from a while back, but watching a number of shorts lately is making me realize the importance of articulating what the visual qualities will be within genetic algorithms. i have been doing much reading on genetic programming but i need to pause and think in concrete terms.  urlLink      according to some blogger y'all gotta "make sure your mommy's on speed dial" when they start ripping it up with breakneck fx.
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      i'm having difficulty these days remembering information that i once acquired in the past. in order to retain such information, i've decided to make little stories for myself.  there were once two little circuits named sparky and buzzer. sparky was wont to spark when she found an energy source, and buzzer tended to, well, buzz with sufficient energy. they couldn't do anything on their own, but together, they enjoyed many an occasion of frightening hospital patients into thinking that they inadvertently caused the onset of the third world war, when in reality they had merely buzzed their nurse. now, the catalyst for their action was a friendly little clock signal named richard. richard coordinated the actions of sparky and buzzer by oscillating between a high and low state. sparky and buzzer were in a pipelined digital circuit, and when data was in sparky's domain, sparky would get sort of happy, but never be completely happy. after that stage was processed, sparky would hand it off to richard, who would then tick and latch the intermediate results into registers in buzzer's domain. but since the sparky and buzzer would have their thrill for five minutes, there was data continually entering into sparky, then buzzer, repeat, and so on.  ... to be continued  oh, and do feel free to point out technical inconsistencies if you notice some flawed logic...
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+       urlLink   
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+         there are a couple of storylines in this:  1. a creature that wants to escape reality into a frictionless space devoid of brownian motion (indicated in the lower right hand corner). 2. airiness and a permeating sense of floatiness (which is not a story but just something happening, an action like number 1).
+     
+    
+</post>
+
+
+</Blog>

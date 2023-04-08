@@ -1,0 +1,127 @@
+<Blog>
+
+
+<date>21,July,2004</date>
+<post>
+
+    
+          Še štiri dni do vstopa Slovenije v EU! MMM. Proslavljali bomo!!!!!  S kolegom sva začela nov projekt, ki pa je še trenutno skrivnost. Zelo aktivno pa se učim gtkmm programiranje. 
+    
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+    
+       Že cel teden me je veselje. Namestil sem si slackware 9.1 in naložil dropline gnome 2.6. Moram rečt da i vse dela, kot bi moralo delati. Res čudovito. Poleg tega je izšel gcc 3.4. Ima kup novosti in preizkusno novost - "precompiled headers". Zaglavja so že prevedena, kar pomeni hitrejše prevajanje kode :))  Odločil sem se, da bom pri l4xml uporabljal garbage collector. Moram ga še samo vgraditi, kar je pa teoretično zelo preprosto. 
+    
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+    
+       Dolgčas ... Pa še dolgčas ......  Posodobil sem stran :). Novi članki in celo spremenjena uvodna slika. Doživel sem veliko srečo, saj je izšel GNOME 2.6. Kar hitro kompajlat! Sicer se pa ni nič dogajalo.   Se je pa nekaj časa dogajala debata med Miguelom de Icazo in Havocom Penningtonom(dva pomembna tipa pri GNOME projektu). Debatirala sta, ali naj bo GNOME jedro v naslednjih verzijah napisano v drugem jeziku in kerem. Konkretno je bilo govora o Javi in C#(oz. .NET). Miguel je podpiral C#, Havoc pa Javo. Slednji je tudi predlagal, naj ostane tako kot je oz. naj se raje uporabi nek bolj odprti jezik. Konkratno C++. Jaz sem pravtako za slednje.   MOJE SOŽALJE GNOME TEAMU ZA IZGUBO TREH IZVRSTNIH GNOME HEKERJEV! VSAKA JIM ČAST!!!  
+    
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+    
+       Pogledal sem si en dolgi filmček, ki kaže dva Microsoftova razvijalca Avalon in XAML tehnologij. Stvar je precej zanimiva. Gradnja grafičnih vmesnikov preko mešanja XML dokumentov in C# programov je zelo domiselno. Nekaj podobno XAML je sicer že. Imenuje pa se XUL, ki ga uporablja Mozilla.org. 
+    
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+    
+       Zadnje dni sem bolj len.  Malo preizkušam Hans-Boehm garbage collector. S Slackware sem res zadovoljen in še vedno delam v C/C++, kjub močnim pritiskom .NET optimistov ;)  Naprej se še učim GTKmm programiranje. 
+    
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+
+       
+      I'm done with the School for this year. Now I can finally do some work. I have to create myself a plan. I think I will investigate a little l4xml and do some gtkmm coding.
+     
+
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+
+       
+      Wow. Im pretty amased how much people are using c#. Some news is out that Sun will open-source Java. Now that's great news!  In other, nothing new has happened. I must start to code now, really I must. Still have some work to d with l4xml.
+     
+
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+
+       
+      For now on I will post in english so all the world get's my message. I will also post some pictures that I have made with my cell phone.  I am thinking to begin some GNOME hacking but that's kinda hard becose GNOME is written in C and gtk+. But I know only GTKmm and not GTK+. Muust find some GNOME projects build with GTKmm.  Also sown a MSDN TV movie that shows some cool XAML and Avalon features. Windows Longhorn will bi pretty cool. Maybe I'll use it but still be a Linux developer :--)
+     
+
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+
+       
+      Well, I have opened a discussion on the s-linux forum about .NET, mono and stuff. Mainly, all the participians agree that .NET is dangeorus and good. I rather program in C than C#, althought C# is a very interesting language.  I played a bit with socket programming. Trying to write a small IRC client. But it fails to register to the IRC network. Really don't know why.
+     
+
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+
+       
+      I'm working on a graphical tool for adding/removing users from a mysql database. The GUI part is nearly complete. Now I'm coding the database part. An official site will be soon available.  
+     
+
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+
+       
+      Finally I have my own Linux server. It can be accessed through different domains: napsy.mozirje.net, sfinga.no-ip.com (the orig. server name), luka-napotnik.no-ip.com. It's an old mashine with somehow defective RAM so the kernel goes often in panic.     Monday I will start my summer job as a gtkmm programmer :) In other news lately I played a lot Enemy Territory. Great game! And Monday I thing I'm gonna to buy myself a big, jucy PIZZA!!!  
+     
+
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+
+       
+      Today I played a little with gtkmm. Now I know how communication between different windows goes. It's so simple ;).   I am working on the team project. I don't have a name right now but it has something to do with XML-RPC and project management :--). First I have to write the basic operations like task adding, editing and deleting. Then it's time tor saving functions, etc. When I'm done with that, I'll do the "real bussiness". Like sending rpc commands to a remote server, sharing XML documents, opening remote XML documents, etc.  What am I doing now: have some problems refreshing the TreeView widget. But I think I already know what to do. But now it's time to sleep. ZzZzz ...
+     
+
+    
+</post>
+
+
+</Blog>

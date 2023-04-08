@@ -1,0 +1,103 @@
+<Blog>
+
+<date>06,August,2002</date>
+<post>
+
+	 
+      Alright I know I built the whole damn site with FrontPage. Yes, I know I should be using Dreamweaver or even notepad if I am I going to continue my silly ways and use Microsoft products - but FrontPage 2002. My excuse - I got friends that work for the evil empire and they have jobs where as I don't. You decide which product you would learn if you could get it for cheap.   Another beautiful day in Colorado - 49 days and counting without a job - is 50 going to be lucky for me?   Is it bad when the entire days' worth of conversations are with your 20 month old son and you are still wondering exactly what he was saying?   If the state is experiencing a drought - does it make sense to hike up to a lake somewhere in the neighborhood of 11340 feet above sea level to fly fish?   If the telecom industry is so messed up - you think I could get a job as a CEO of one of these companies for a few months to try my hand at running things?   There's no crying in FrontPage! (Loosely quoted/borrowed from Tom Hanks)  On a side note: What is all this extra crap that FrontPage adds to the web page? I have been trying to make my page match up correctly for the last half hour and I finally figure out what little piece of code I was missing in the nine hundred additional lines that FP decided were necessary for me to display the page correctly. Argh!!!! 
+     
+    
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+	 
+       urlLink Tcl_Dev_Kit 3.1 - Building TclApps   So for the last week I have been messing around with this  urlLink Expect   script, fondly known in my office as the WardGUI, it will allow a NOC technician the ability to choose a specific community switch location, then the slot and port number associated with a specific house and finally the services that need to be enabled for that location. The script works, needs some spit and polish and to actually have some files to pull the variables from but it delivers the goods on my one test switch. (Please see the  urlLink UTOPIA   project if this makes no sense to you.)  So then I decided I needed to get fancy and as I like to consider myself a bit of a *nix nut let's add some fun to the mix. Originally the GUI part was going to be driven from the web but then I got the bright idea I could wrap this whole thing up in a pretty little TclApp - this would allow me to run it on my happy Mac, the Windows XP box I have been beating the script out on or the FreeBSD box I originally wrote the Expect script on. Now the people in the audience are watching this and someone just whispered, "you know you could do that on all those machines with a web interface?" Yes, I know that but where's the challenge and besides I am building it and you're not, so leave me alone.  To most programmers this would seem quite trivial - they could more than likely knock this little doodad out in a day but to a non-programmer (I build networks man!) this has been quite a struggle.  urlLink ActiveState  is doing their best to help me accomplish this with their documentation, and demos. I will let you know how this thing turns out.   If anyone has any good TclApps that I should take a look at let me know. Might as well learn how to do this right the first time.  
+     
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+	 
+       urlLink SecurityFocus HOME Infocus: TCP/IP Skills Required for Security Analysts   This article brings to point something that has bothered me off and on for awhile. You need the skills before you claim you can do it.  For several years now I have been interviewing network engineers. I have a standard that I have been following that involves a 15 page Excel spreadsheet that contains basic questions that most  urlLink CCNAs  should be able to answer. During the process of giving out this interview I have had various reactions - several gentlemen have left in tears - to having one engineer actually point out an error in my questions. He got hired immediately.   Interviewing has gotten tougher in our industry - before you put a resume out there make sure you understand everything you claim you know. You don't have to be able to recite the specific RFC details assocaited with  urlLink MGCP .  I encourage young engineers to understand the  urlLink OSI model , play around with the  urlLink TCP stack , learn how things communicate, but don't forget to take the time to understand the architecture within your computer and it's relation to the OS's -  urlLink Windows XP ,  urlLink Linux ,  urlLink FreeBSD .
+     
+    
+</post>
+
+<date>18,May,2004</date>
+<post>
+
+	 
+      So I decided it was time to start logging again. It has been so long since I last touched the keyboard.   I now live in  urlLink Saratoga Springs, UT . A small little town with great aspirations of becoming a little larger town. Hey, it has a grocery store, movie rental store, a gas station, and two pizza parlors.  The city building leaves a little to be desired but then it's paid for. If the city ever need s to move, our city council can walk outside and bolt the wheels back on.  I moved here to Utah from Colorado because I was finally convinced that there was a need for FTTH (Fiber To The Home) The project I am currently working on is called  urlLink UTOPIA . A very unfortunate name but all in all a very interesting project.   I have been involved with the project for over a year now. I have had a range of responsibilities including and not limited to speaking in front of several city council meetings, the  urlLink Utah Senate Transportation & Public Utilities & Technology Standing Committee , and anyone else I could get to stop and listen to me.  My current title is Director of Integration and Security. Many would think what an amazing title, you must have so much responsibility. Well they would be right about one thing - I currently have 7 projects open on my desktop that require my attention by the end of this month. We are after all a start up and everything that comes with being a startup has landed on or near my desk if it has anything to do with integrating this network.   Oh and don't forget I also need to make sure we are secure about what we are doing. I picked my  urlLink CISSP  up at the start of this project and fortunately the things I learned concerning Disaster Recovery, Business Continuity, Cyber Incident Response, and Forensics have all come to be useful. Still not sure why I need to remember how tall a secure fence needs to be and why again it needed 3 strands of barb wire.  Well that's enough for now. I will be trying to relay my thoughts, interesting articles etc. through this interface to the world.  Interesting tidbits of the web I have found.   urlLink GloFish  I love this. I really need to get one - maybe I could carry it around with me at night , bound to be better on the environment than a battery.   urlLink Newspaper Kites  This is an important skill to know. Whether you build a kite for yourself or children, this will always manage to bring a smile. Paper airplanes are acceptable on rainy days but nothing is better than a blustery March day and a kite pulling at your arm.   urlLink CERT  You should take a look at least once a week if you are in the technology business. It's always better to know that you have a system that has a major compromise than it is to find out 2 days later when a script kiddie has crashed your web server into the ground. Remember the moment you connect to the net you are working without a safety net.
+     
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+	 
+       So here we go again - trying a new reader on my Windows PC -  Sauce Reader &nbsp;- I have been swapping as much well I live in Utah you make up the joke to go along with that.   I already like this reader it allows me from inside of various feeds to go ahead and blog about it, as well as just to create my own on the fly. makes it nice when I am sitting in a meeting come up with a thought after reading  someone's feed &nbsp;and want to pass it along.    I am intrigued with RSS and what can be done with it. I have been working on an interface for the provisioning system, as an addition to the interface I have added a RSS feed that allows the NOC Manager the ability to see all the ports being configured. So we have a rolling status window of all the installs taking place in the field. Neat way to tweak the technology for a constant update. As an addition I also have the interface track all the configured ports per NOC technician and deliver a newsletter at the end of the day showing the productivity and errors broken out. Should be an interesting tracking model for the NOC. 
+     
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+	 
+       Haven't been around for a few weeks - My life got turned upside down about two weeks early. My spank'n new little girl showed up on June 20th. The doctor, my wife, son and myself were all under the impression that she would arrive in our hands July&nbsp;4th. She obviously didn't get the memo...   So I got McKaia Ann at 14:08 MST on June 20th. She came into the world at 7.46 lbs, and 18.5 inches long - I think that was a bit of a stretch - she is so tiny. I can hold all of her in one hand - amazing!   I will try to get back up to date - have a very busy week in front of me - Service Provider is in town, need to finish the mockups for provisioning web pages, and look at the video channel manager. 
+     
+    
+</post>
+
+<date>10,July,2004</date>
+<post>
+
+	 
+      Supposedly this is a great book. I bought a copy of it a little over a year ago, my wife immediately took it away from me and told me I could read it when she finished. Well here I sit still wondering whether I will ever get to read it. Now you ask - why is he going on about this book - well someone made a movie about it - didn't realize this...  So I was flipping through the channels- okay my mother in law was watching  urlLink Oxygen  and the movie happened to be coming on. So here I sit watching it, trying to gleam the few bits of wisdom the producers might have allowed to be included in a movie as they slaughtered the original manuscript.  I should go fishing - I think better when I am standing in the middle of a cool stream watching the water dapple as a trout noses up to the top to see what some crazy fool is throwing across the water.
+     
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+      So I have been working on this provisioning tool I posted about. Things have changed since I last posted on it. I have changed from building it entirely inside of a TCL wrapper and instead designed this wonderful little web tool. It's quick, smooth, and has the ability to easily grow as new requirements become pressing needs. Those designers in the crowd understand how scope creep allows one gadget, button, request to suddenly take precedent over another one.  In the process of building this tool I have come to love three books: (has to be love when I regulary haul them back and forth from office to house.)   urlLink PHP and MySQL Web Development   The purple book - This book has a great layout,you start building an order system for Bob's Auto Parts and work through adding to the scripts. I keep thinking it's an O'Reilly book, and looking for it on my Safari account when I can't remember something. It is what I consider one of the best references going for building good web sites.   urlLink PHP MySQL Website Programming: Problem - Design - Solution   This book has given me some processes for building a website from the ground up. I have just spun my own sites out without really thinking about it, looking at the flows, or even deciding how the file structure should be constructed before I actually began programming. I took those classes back in my college programming days and forgot them soon after I became a  urlLink Network Engineer .   and finally because everyone should have a book about web site design from one of the best    urlLink Philip and Alex's Guide to Web Publishing   I have owned this book for several years, quoted from it ( urlLink CTO Breakfast ) and generally have used this book as reference for everything web related I have ever touched. Philip is always writing something interesting, he had an amazing company (I dreamed of working for his  urlLink company . You can do a little research on the web and find out how about the demise of ArsDigita.)  
+     
+    
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+	 
+      I went to the bookstore the other day. I love bookstores! - they are my college library. In college I was one of those kids that actually went to the library. When I pledged with my fraternity - I already knew where the library was - some of my pledge brothers actually had to dig out the map and locate the building on campus.   It could also be that as a little boy my father owned a college bookstore (same campus where I would end up going to school) and I grew up in a crib in the back among the books.   It might be that I was the only kid growing up that had a room in his house called the library, big chairs, well the old white oak house had big chairs and an ugly couch. The room had walls with shelves of books, and my dad; being the eclectic he was, had a book on every subject.  Anyway back to the post - I picked up two new books to add to my growing collection of Web/PHP/MySQL books and then as an after thought I picked up a new hacking/security book.   urlLink MySQL/PHP Database Applications  To quote the review, "Rather than make up trivial programs just to illustrate aspects of the MySQL/PHP environment, this book features code snippets, each half a page or so in length, that illustrate the behavior of key code structures. For example, in explaining conditional statements in PHP, the book gives you a no-frills IF statement with real values in place. It's not always obvious how the code structures will behave in practice, but the book does a consistently good job of commenting intelligently on the place of each aspect of the language in a well-designed application. The latter half of the book attacks specific problems--a chat system, a guest book, and so on--and walks through the setup of MySQL and each important PHP function for each. --David Wall" Couldn't have described it any better.   urlLink Dreamweaver MX 2004 - The Missing Manual  If you haven't ever picked up a missing manual - you have been missing out on the secrets of most every operating system, software application currently being used. I have read the OS X book, the iPod book, and even the Windoze XP book. These are great, nice simple lessons that show me how to easily take my raw php/mysql and add it to beautifully created web pages. Anything that helps me look better than I normally look works for me.  and finally a book that scares me a lot -    urlLink Stealing the Network: How to Own a Continent  This books scares me in multiple ways - First as a wannabe hacker in my youth I am frightened to see how I could have been so easily swayed to make a real nuisance of myself for someone else's gain. Secondly as the acting Director of Security, building a FTTH network that will give some awesome capabilities to some misguided youth (nothing wrong with this - I was misguided) I see the endless possibilities that someone could take this network too. Finally I read this book and wonder to myself, (me wondering) "This book teaches those script kiddies that if they actually learned 2+2=4, or how to use MS Project, they too could be real nuisances to society. So in the end I give this book all my recommendation - want to understand how that dark world you are trying to protect your systems from work - read the first book in the series  urlLink Stealing the Network: How to Own the Box  Want to understand how your whole network could fit into someone's puzzle and be used to for their gain read the second book. I can't wait for the next book.  
+     
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+	 
+      As of 9:00 am MST the project I am happily working my life away on was funded.     This is a wonderful thing - it means there are people out there that believe in what we are going to deliver - FTTH - and it also has some sadness behind it - my life is about to go to hell in a handbasket. I have been enjoying working in the lab, testing code, writing software, learning the insides of the network and come Monday this all changes - all the real work begins and  we deliver on the promise.  (Any old WINfirst crew will remember this as our catch phrase.)    I am sure there is more to say but at this very moment I am supposed to be in a meeting.      
+     
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+	 
+      I just finished interviewing several candidates for a position I have open. In this day and age - people expect to know why they didn't get hired - most especially college graduates. So here's some advice I have going into the interview.  1st and foremost always exhibit confidence. Approach an interview as if you are selling something - Yourself! I bring examples of my previous work along. Whether it's the book I helped write or some documentation from my last project. The whole idea here is convincing the interviewer that by choosing you they will get the best ROI! (Return On Investment)  If you don't know the answer to a question have a strong supporting backup answer. How would you go about finding the answer? What resources would you utilize to determine the correct answer? 90% of the time the interviewer is looking to understand how you think and how you act on your feet.  Don't be afraid of failure - without failure you simply don't learn things in life. The questions I ask are standard interview questions all picked up from  urlLink Google  - learn a solid answer for these types of questions and again stick to that answer - personal answers are not the best answers.  Interviewers are more interested in how you handled something on the job - be it college, senior project or an after school job.  Listen to the interviewer - they often give hints in their questions as to how they want you to answer them back. It could be within the question they are asking or it could have come in the discussion of a previous question.  Don't put it on your resume if you can't answer the question. It amazes me that people still do this. If the technical grilling doesn't catch it in the interview you will fall down on the job and then everyone knows it.  And finally read the job description closely - notice the hints as to what they will be interviewing you on. Create an outline of the necessary knowledge before the interview - I often make a multiple page review sheet before I go to an interview that refreshes me on the different questions that could arise from my resume and the job description.
+     
+    
+</post>
+
+
+</Blog>

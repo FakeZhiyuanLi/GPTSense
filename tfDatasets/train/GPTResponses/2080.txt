@@ -1,0 +1,1 @@
+One example of an encoder that can attach additional metadata is the Adobe Media Encoder. This software allows users to add custom metadata fields, such as descriptions, keywords, and copyright information, to the output file. This metadata can be helpful in organizing and searching for media files later on.

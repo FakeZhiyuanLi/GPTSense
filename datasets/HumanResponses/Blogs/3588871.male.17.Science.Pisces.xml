@@ -1,0 +1,31 @@
+<Blog>
+
+<date>11,June,2004</date>
+<post>
+
+	 
+       Proof that 1 radian is equal to 180/pi   1 radian is defined as "A unit of angular measure equal to the angle subtended at the center of a circle by an arc equal in length to the radius of the circle."  In English this means that 1 radian is a sector of a circle whose radii are equal to the length of their included arc. It looks somewhat like this:     You may be familiar with the degree to radian ratio. It is thus: 1 radian = 180/pi This is approx. 57°. But why?!  There is a simple proof to this. It involves finding the length of an arc of any sector.  You probably know that the circumference of a circle is pi*d or pi*2*r. We can use this to find the length of part of that circumference i.e. the arc. Just multiply pi*2*r by ø/360 where ø (supposed to represent theta) is the angle of the sector. For example, a quarter of the circle is 90/360 so to find the length of the arc of this sector, we use the formula:  Length of arc = pi*2*r*(90/360) = (pi*2*r*90)/360 = (pi*r)/8 In this example let's just use a simple radius like 1. (pi*1)/8 = 0.39 to 2 d.p.  The simplified formula for the length of the arc is:  l=(pi*r*ø)/180  Now, if we want to find out the value of 1 radian we just set l to equal r i.e. the length of the arc equals the radius of the sector. The formula now becomes:  r=(pi*r*ø)/180  Now, we rearrange it in terms of ø:  Multiply by 180 180r = pi*r*ø  Divide by r (180r)/r = pi*ø  Simplify 180 = pi*ø  Divide by pi ø = 180/pi  And that's it! Since ø is the angle of the sector whose arc equals its radius, it is defined as 1 radian.  That was easy...
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+       Proof of Pythagoras' Theorem      We all know that in a right-angled triangle, a² = b² + c². But do you know why?  Here's one way to prove it.  We can show that squares extended from the sides will add up to the square on the hypotenuse like this:     Now how do we relate b² to a²? We can change the length of one of the sides of the b-box to the length of a. This will make the other side a different length, but it will keep the same area. This can be shown as this:     And we translate this to our boxes thus:     Thus, we have a part of the box of 'a' complete. It happens that the c-box will fill up the rest of the a-box and I'll show it.     Hence, a² = b² + c².  Comments?
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+      Hello, my name is Shane Drury and I want to post some of my thoughts about physics and mathematics for you to browse. I live in Belfast, Northern Ireland and am 17 at the moment.  I make no assumption that any of my theories or calculations are correct, although I try to test them rigorously. Any comments on them are very much welcome. Also, please note that I don't research much of this, and just use my common sense and physics knowledge to try and deduce this.  I have a great interest in physics, especially quantum and theoretical physics, and hope to become a theoretical physicist one day.  Anyway, on to the first theory/thought.   Can quanta rotate?   Consider a hydrogen atom (forget that hydrogen is usually diatomic). It has one proton and one electron. It's position in 3D space is (0,0,0) i.e. it is fixed at some arbitrary point in space.     Now let's see what happens if we rotate it 90° clockwise.     Note that it hasn't changed its position in 3D space; it's still at (0,0,0), only the electron has moved.  This is essentially what rotation is: The movement of smaller particles in a system. This extends for huge collections of atoms, for example, an apple. It is merely the atoms that make up the apple that are changing their position to make it rotate.  However, what if there are no smaller particles to rotate? Consider an electron. It isn't composed of anything smaller than itself (as far as we know)and we refer to it as a quantum.     How can we rotate it if there are no internal parts to move? A solution to this problem is the theory that rotation is simply another dimension. Anything that rotates must change in some way and this change could be labelled as the extra dimension. For example the electron rotated 90° could be labelled as (0,0,0,90). However, there is nothing to suggest that this is true (apart from electron spin, but that's still a bit too complex).  This holds if we think of these particles as matter, but how about if we test it if the matter is a wave? This is quite complex, and I'm not even sure what a 3D wave looks like let alone how it will rotate. So therefore, I will leave it at that.  Comments?
+     
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,514 @@
+<Blog>
+
+<date>29,October,2003</date>
+<post>
+
+    
+       
+      I began working on my website  urlLink dunkelzahn.org  this week, it'll be built using ASP. It should all validate as XHTML 1.0 Strict and CSS 2.1. In the future I might upgrade from ASP to ASP.net, but for now I don't really have time to get into it all... Exams coming up really fast so, I'm just trying to hold on really!   Gotta start working on GDI+ and VB.NET as well tonite, I'll need it for my Advanced .Net exam... puh! Ah well, till next time!  Cheers!
+      
+</post>
+
+<date>24,October,2003</date>
+<post>
+
+    
+       
+      Finally! Did the SMS part and the design in less than 6 hours, including quite a bit of bug fixing and back tracking of old work that needed updating! WEE!  I'm not ver happy about the design though, didn't find a good way to make sure the images are scaled correctly in a div box... Will have to look at that some other time, now I'm going home! *tired*  have a good weekend! I know I will! :D
+      
+</post>
+
+<date>23,October,2003</date>
+<post>
+
+    
+       
+      Just did another part of my now infamous XML assignment, it involved the creation of a PDF file from the XML source. Went pretty smooth, was easy actually! just don't ask me to do a A3 page with 12.1 inch margins, or anything stupid like that!  (in other words I used an A4 template) ;)  Now for the two last parts; making a SMS XSL template and creating the XHTML design... Shouldn't be more than, oh, 15 hours of work or there abouts! :)
+      
+</post>
+
+<date>22,October,2003</date>
+<post>
+
+    
+       
+      Been working on my XML assignment all day (puh!)  and I'm finally getting somewhere!   I've been trying to transform part of a moviedatabase (XML) with a XSLT stylesheet. So I had to figure out a way to extract the movie without changing anything in the XSLT file or the XML file. At first I wanted to use  urlLink XMLStarlet , but there I kept running into all sorts of namespace issues... (again!) So I figured I'd give .Net a chance! So I fired up good old Visual Studio and started to  urlLink google  for some code tips. I soon enough found a couple, but  there was only one really good. Some school in Washington I belive came  urlLink up with an excellent  example! Simple, pure and easy! Nice one!  So then I had the means, now I just had to figure out how to narrow down all my templates to actually make use of the parameter I send in. Turned out to be just try-and-fail lots of times before I could wing it to work! So now I'm more or less there! WEE!  Will be posting files if anybody asks for them, but I don't think it's really needed... ;)
+      
+</post>
+
+<date>21,October,2003</date>
+<post>
+
+    
+       
+      Finally got started on my XML assignment, it really is a drag! But I finally worked out the namespace issues I kept getting, so it looks pretty bright just now!  Been thinking abit on how to extract a part of the original XML file, take that part and apply the XSLT template on it and create a XHTML file with the nex content. XML Starlet seams to be able to do the job, and it shouldn't be to much of a hassle either, I hope! hehe... Great app,  urlLink XMLStarlet . Recommended! Can't say the same for  urlLink Lantern , which worx, but looks horrible and acts like a Swedish Bikini Babe (tm) at times... Harumph! (whatever the heck that means!)  Anyways, back to work! 
+      
+</post>
+
+<date>20,October,2003</date>
+<post>
+
+    
+       
+      Been updating my  urlLink Australia  page again. Added a new gallery and a dew more movies. Also finally put it where it was supposed to be, so now it does not redirect anymore!! :)
+      
+</post>
+
+<date>17,October,2003</date>
+<post>
+
+    
+       
+      Another week begins, a wonderful weekend is over... A most sad story, isn't it? :)  Anyways, lots and lots of XML work to do this week, will be fun I hope! Looking forward to learing some XSL(-t) anyhow! :)  More updates to follow!
+      
+</post>
+
+<date>17,October,2003</date>
+<post>
+
+    
+       
+      Another friday is upon us! And a sunny day it is in Melbourne! Over 20 degrees again today, WEE!   Last night I was up really late making video diaries! Pretty cool actually, but the web cam I've got is just horribly bad when the light is poor... Perhaps I should try do to them outside some time, just to see if it gets any better. Now of course I'm struggeling to upload the bastards, since the %&&% proxy is blocking FTP access I have to do it via the infamous web interface... Seems like Firebird has more problems doing this than IE has, I continously get timeouts. But even IE is unable to upload more than the two smallest ones... Guess I have to split them up or something then. Barf!   Sat all day yesterday and worked with my ASP assignment, and I suddenly remembered why I love ASP so much: it's so easy to do stuff! It's actually fun to do it! I know that might sound quite weird, but I actually enjoyed working with it! Of course the scripting language sucks, VBScript, and the general structure of ASP is terrible, but it's good fun even so!   Gotta get starting on the XML today, its due next monday. Think I'm with some guy called Richard on a team, that'll be good! Not as much work when we're two to split the load! Excellent! :)
+      
+</post>
+
+<date>15,October,2003</date>
+<post>
+
+    
+       
+      I just had a look at the logs from september and made this little chart from them:   Pretty cool, or what ? Thew chart I mean! no, the info, thats right! hehe... Gecko is firmly on top! For october it looks even better for Firebird, it looks to have absolutly total domination! Perhaps our users are rare geeks, but I profundly hope this marks a slight change in the browser wars! Where I know Mozilla and Gecko based ones will triumph! :) Anyways, going home now, to have some food, spaghetti and mince, and then its Matrix Time (R)! :D     
+      
+</post>
+
+<date>15,October,2003</date>
+<post>
+
+    
+       
+      Been trying for some time now to get access to my POP account from behind this bastard proxy, but no luck so far... Tried all sorts of stuff, but to no luck... My only option seems to be to get a secure connection to a provider, but I don't even know if that'll work...  urlLink Runbox.com , my provider, says they might implement this in the future, but what good does that do me now ? Nothing... ah well, Webmaill will have to do for now then...   Seems I can't take my hands of the blog thing... hehe... Matrix Reloaded tonite! WEE!
+      
+</post>
+
+<date>15,October,2003</date>
+<post>
+
+    
+       
+      SHiT! Whilst reading up on news from  urlLink theinquirer.net  I came over  urlLink this really cool thing ! VIA has released its newest CPU, the EDEN-N in 800MHz and 1 GHz edtions. They consume the ludicris (!?) amount of 6-7 watts of power! Considering the latest offerings from Chipzilla and Chimpzilla uses upwards from around 50watts that is quite an event! Naturally the performance cannot be compared at all, but still! For its uses the EDEN-N is cool! (N apprently stands for Nano)  Cool news! :)
+      
+</post>
+
+<date>15,October,2003</date>
+<post>
+
+    
+       
+      Okei, did a few changes to the template, changed the links to some cooler ones that I use like every day. I'll have to put up some more there as time goes by... We'll what happens!   Perhaps you'd like a link to be placed here ?  urlLink Send me an e-mail! 
+      
+</post>
+
+<date>15,October,2003</date>
+<post>
+
+    
+       
+      So I couldn't go back to work just yet... Nothing abnormal about that, is there ? :)  Anyway, I poked abit around on the net to see if there was some kind off Sidabar for my Firebird, but as far as I can see there is none (if you know there is  urlLink mail me !)  But I found out something about WebPanels instead, reading  urlLink Phil Ringnaldas  pages. Hopefully thic comes into play RSN(tm)! :) 
+      
+</post>
+
+<date>15,October,2003</date>
+<post>
+
+    
+       
+      Hehey! It actually works! Excellent! so now this is actually located at  urlLink dunkelzahn.org/blogger.html . Cool! Next step would be to make it easier for me to actually publish stuff... Wonder if there is some kind of mechanism  of doing it via  urlLink MozillaFirebird ? maybe I should  urlLink Google  it ? Maybe I'll try it later...   Anyways, cool to be online with a blog, should have done this ages ago, but you'll know how it is, keepo thinking about it and just putting it off for another time and stuff... Anyways, back to work I guess!
+      
+</post>
+
+<date>15,October,2003</date>
+<post>
+
+    
+       
+      Okei, seems to be coming online, only not... Lets see if I can make it post where I actually want it to post it... heh... not easy, I can tell you! The damn proxy here at Swinburne is blocking everything, so I cannot access the FTP myself.. well, I can, but only via the stupid WEB interface, which is like really slow and stuff... But filled to the very rim of features though! Kudos to servetheworld.net for it! heh... 
+      
+</post>
+
+<date>15,October,2003</date>
+<post>
+
+    
+       
+      This is like my first blog and stuff... Lets see if I can actually maintain it for some time, would be cool! :)
+      
+</post>
+
+<date>25,February,2004</date>
+<post>
+
+    
+       
+      Somehow I found a link to  urlLink The Crimson Room , a Flash 'game' of sorts. It's all about getting out of a bloody room... Took me about 20 minutes to figure it out... Trouble was clicking in exactly the right posistion... :)
+      
+</post>
+
+<date>24,February,2004</date>
+<post>
+
+    
+       
+      I saw  urlLink this  post about  urlLink World66.com , about the various contries one has visited. Pretty neat! So I had to make  urlLink my own  page!  I've got a lot of traveling to do before my map is mostly red... ;) I SO wanna visit the US, Japan and Africa! Just need to get a job first and then save some cents... ;)
+      
+</post>
+
+<date>24,February,2004</date>
+<post>
+
+    
+       
+      I actually manged to produce a few PDFs the other day! So now I actually know how to do it, but I'm not satisfied yet, becouase I have to build the Crystal Reports first, and they are kinda static... I need more dynamic reports, so more research will have to be done on the subject...  But it was actually very easy to produce PDFs from a Crystal Report, confusingly easy! :)  But I still like the whole XSL-T style of the Java FOP... ;)
+      
+</post>
+
+<date>18,February,2004</date>
+<post>
+
+    
+       
+      I know, must programmers out there have used it before, but for some reason I haven't! But now I have! Woho! Pretty cool stuff actually! .net has some serious support for it!  urlLink A nice explanation  that I read just now, recommended! :)  Now I feel like developing something and using Reflection just for the fun of it... ;)
+      
+</post>
+
+<date>18,February,2004</date>
+<post>
+
+    
+       
+      I'm currently trying to figure out a neat way to dynamically generate PDF documents from a ASP.NET application, from a XML source. I've seen it be done using Crystal Reports, I even got an example of it. So I'll give it a try later today, see if I can make it work.   The goal of it is to output my CV/resume in different languages and formats from a single source. Currently I do this using XML-FO and the JAVA FOP package offline. But I want to be able to do this from my web page, that way all I have to do is to upload an updated XML file whenever my CV changes and the changes are ready available for everyone... :)  BTW my homepage,  urlLink dunkelzahn.org , has been updated! It's getting close to completion! Verfied today that all pages are indeed XHTML 1.1 compliant, had to correct minor stuff, but nothing major! :)
+      
+</post>
+
+<date>16,February,2004</date>
+<post>
+
+    
+       
+      Everybody loves solitare! Even my dad knows how to start it and play it! :) So naturally you expect it to be included in the upcoming Longhorn edtion of windows, right ? Well, it is. Problem is, it's getting old! And doesn't really make use of the incredible graphics options presented in Longhorn, through the Avalon project.  So Chris Sells figured he had to rewrite it!   urlLink A Journey of a Thousand Miles  describes the first step in order to reproduce Solitare on the Longhorn platform!  Looking forward to the next step! :)
+      
+</post>
+
+<date>12,February,2004</date>
+<post>
+
+    
+       
+      [old]Now the blog should (!) archive old messages, monthly... :)[/old]  No, it didn't work for some odd reason... Kept getting 550 back, so no luck! Tried everything I could think of, but no way!  ahh well, no biggie...
+      
+</post>
+
+<date>12,February,2004</date>
+<post>
+
+    
+       
+      Found this via a  urlLink MSDN Article , don't rememeber which anymore... :) But pretty neat stuff! The Interface implementation is VERY cool! :D  uh, forgot the link:  urlLink @ sellsbrothers.com 
+      
+</post>
+
+<date>12,February,2004</date>
+<post>
+
+    
+       
+      I finally manged to upload my homepage, it's not yet complete, but the design is getting close to finished anyways!  I've moved to a really simple way of doing everything, using ASP Include to include (!!) the menu, head and stuff like that. Otherwise it's just simple XHTML files really...   They all validate, pr. the  urlLink W3.org Validator , as XHTML1.1 and the stylesheets, pr. the  urlLink W3.org CSS Validator , as CSS Level 2.  The original design is by my good friend  urlLink Mabus, from Q1N.org .   I sincerly hope that people start using XHTML soon, couse it is way better than all the old 'standards'. And if just IE could conform to the standards, that would be nice! :)  Don't even bother having a look at the page if you are using IE, it sucks... For some unknown reason it renders the page wrong and picks the wrong stylesheet... I couldn't really be bothered to fix it for now... But the 'colorful-style' sheet is NOT finished... It's just bad, plain and simple... But I'll work on it some other time, not now... Design is boring! :)  Also alot of the content is missing from the page, working on a lot of the stuff right now. Got big plans for my CV section, PDF generation on the fly etc. Need to figure out how to do that from ASP.NET, but shouldn't really be that hard, should it ? :)
+      
+</post>
+
+<date>12,February,2004</date>
+<post>
+
+    
+       
+      I've started to think about what I'll do with my computer (p|azma) when I actually get back home. I know, it's still 3 months to go 'down under', but I like to think a head...   Anyway, what I've been thinking is that I need a new computer, either a S775 Prescott P4 or perhaps an AMD64 machine, dunno just now. Depends on 3 things I guess:  - Mainboard/Chipset quality/performance/price - CPU Price/performance - Availablility on both  I have pretty strict requirements for the rest of the box as well, more on that some other time. Suffice to say I want it to be smart, good looking and not to 'big'. Yes, I agree, that might sound like an ad for a new wife or something, but it's not! I want it to be in one of them cool small factor boxes, good looking and easy to transport, to LANs and whatnots. Anyways, what I really wanted to say something about was p|azma, my 'old' computer. Just to sum up what it consists of:  - AMD Athon1600+  - ASUS Maiboard (A7V?), with RAID controller.  - 512 MB SD-RAM  - 80+120 GB HD (IBM and WD8MB)  - Hercules Radeon 8500 128 MB  - 10/100 Nic, Some cheap ass sound and other effects  So what possible uses are there of this 'not-so-dated' 'puter? Well, the usual suspects would be:  - Media Station, running XP or Linux and serving A/V to stereo/TV  - Secondary 'puter, running all kinds of 'test-os' stuff  - Server, either with Windows or Linux on, serving all kinds of stuff... (dunno what, but still!)  - Something completly different that I have yet to scheme up...  But neither of these are really roles that I NEED it to do, I mean I can do most of it on my 'to-be' new computer. So I figured I had to do something different with it. Looking at my requirements for my next 'puter, I won't have a lot of room to store stuff on, usually there is only room for 1 HD... And since there still is no 1 TB HD out there, I need another solution! :) So I figured,m why not make p|azma my NAS (Network Attached Storage) box ? The hardware piece is straight forward, all I need is already there, I might wanna get a Gigabit nic to make sure I have plenty of bandwidth there, but otherwise I'm all set!  So then I figured I needed some software to serve the data over the net for me. Before I started I took the time to list my requirements: - Windows Share access (Samba on *nix) - FTP Access (sFTP?) - HTTP/Web Admin - Webmin must be able to create new shares, set up network etc. - Some kind of backup method, from other 'puter to the NAS.  I started to  urlLink Google  after other projects, but didn't really find anyone doing exactly the same as I wanted. However I did find some:  urlLink Build your Own NAS Box   urlLink Blackbox Stoarge   urlLink TUX Server   All these are pretty cool, but not entirly what I need... All I needed was the actual software! So by the power of Google, I tried over and over again, typing in different versions of my search and so forth... And behold! I found! :D  urlLink Zetta Systems  has a software called Zetta Server, that does more or less exactly what I wanted! How cool is that ?! they have a Lite version that is free for personal use!  The only really 'bad' thing about it is that its not a Linux/BSD based software, so the potential for customization and such is very low and addons are virtually impossible...  So even though I like their product, I'm still looking for a specialized linux distro that will do it for me... Let me know if YOU know of such a thing! :)  
+      
+</post>
+
+<date>12,February,2004</date>
+<post>
+
+    
+       
+      This is incredible! Around 5 times the performance when serving web pages! Just amazing!  This really goes to show how good the kernel developers are, kudos! :D
+      
+</post>
+
+<date>12,February,2004</date>
+<post>
+
+    
+       
+      I know! Been too long!  I've been on  vacation! lets just leave it at that, shall we? :)  Been active on MSDN alot lately, looking at MSDN TV Shows and The Dot Net Show, really good stuff! Learned alot about Longhorn and Whidbey, the upcoming Visual Studio release! Really great stuff!  Microsoft is now shifting focus ion two major areas, from features to security and from users to developers. This I believe is the right way to go, even though it does follow in Linux' tracks... They have, after all, done this all the time! Security before features and support for the developer before the users needs. Afterall, if you support the developers properly they will make the users happy... :)  A friend of mine just started a blog,  urlLink Brain of Zeddicus , it's nothing like this blog here... :) He talks about politics and economy and stuff for the most, but not bad stuff at all! :)  Afterall, he inspired me to come back here and startup again...   that is to say, after I came back from my vacation... err... Damn it! 
+      
+</post>
+
+<date>30,March,2004</date>
+<post>
+
+    
+       
+      So, a few days back I wrote a rather lengthy piece on what Managed Code and focus from a plattform point of view, now it's time for "My Solution"... :)  The OpenSource Community should agree on a common framework, lets call it OpenFramework, that could be used under KDE, Gnome etc. It should provide abstraction away from the underlaying structure of the plattform and a managed enviroment. It should also be language independant, much like Microsofts .Net Framework is today. Now of course this is going to break with either Java or Mono(.Net), or both. That could be done by providing "aliases" for these the frameworks, in the sense that a Java program could be recompiled on OpenFramework, and so could a Mono project, without changing the source code.  The OpenFramwork would have to be extensible enough to support a multitude of underlaying libs, such at GTK and QT, and extensive enough to cover most scenarios that a modern developer might encounter. Furthermore, a serious IDE would be needed. Today there are several solutions available to developers, but none of them are even close to what Microsofts VisualStuido.Net offers. That has to be remedied for Linux and the OpenFramework can propel into the Mainstream of developers. And documentation is another aspect of it, MSDN is so far ahead of anything that any OpenSource project shows today that I fear it's a lost cause... Lets face it, an opensource developer, who doesn't get paid for the job he does, will not spend hundreds of hours writing documentation, he's going to write code. It's that simple!  Code is fun, documentation is boring.    This is why the Mono project could prove to be so successful, they can to a large extend use the MSDN documentation. The Java docs sucks if you ask me, but then who does ? :) But seriously, this is a major issue that needs to be adressed, if OpenFramework is to be sucessful, and I believe that the Linux/OpenSource community needs OpenFramework in order to get out of the 2-5% of desktop market and into the 20-30% range...   So if I were to conclude this I'd say that the community at large needs to agree to a standard and then work together on that standard. That is the only way for Linux to really gain some market share.
+      
+</post>
+
+<date>25,March,2004</date>
+<post>
+
+    
+       
+      This is a response to  urlLink a blog entry from Draginol .   So my answers would be something like this:    1) With the babyboomers heading towards retirement, many analysts believe that the social security system, as we know it, will collapse. What would you do, as President, to ensure the viability of Social Security?   Answer:  Honestly I don't have enough information on the Social Security subject to fully answer this one, but I'll give it a go anyway... So, the most important thing is to make sure that as many as possible are working, and thus generating a healthy income to the Social Security Fund. There are millions of unemployed workers in America today and we need to help them get a job. This is best done by making sure that the US remains competitive in all aspects of business and industry.  Secondary it's important to enable older workers to continue to work for longer, perhaps by enabling parttime work or sharing of one posistion. This way part of their pension would come from the employer and part from the Government funds.   2) The national debt has increased substantially in the past two years. A few years ago this country was running a modest surplus. Now we are running record deficits. As President, what are your thoughts about the national debt?   Answer:  We need to take a good long look at how we spend the money the People grants us to use, and see if we really are using it the way we should. A complete restructure of the taxation system would be needed, to remove all the loop holes and amendments that some of the richest and most powerful persons and companies exploit fully today. We also need to look at our biggest spending post, the Military. We are today engaged i alot of operations overseas, I believe we need to look at that strategy and perhaps reevalute it.    3) The poverty rate in the United States remains remarkably high. Given the great society programs of the 60s and 70s, it seems that the war on poverty has not been won. As President, what would you propose we do to help the poor in this country?   Answer:  The poor of America is usually poor because the don't have a job or they use narcotics. So the answer to help fight poverty is to create more jobs and help people to quit the addiction. We need a great many higly skilled workers in the years to come, so we need to spend more money on schools, especially in the science department. The single most important answer to poverty is that the Government should help those who are poor to help them selves. We cannot make their lives better unless they want to, we cannot pull them out of poverty without them wanting to get out.    4) The war on drugs is nearings its third decade with no end in sight. Drug usage has hovered about the same but our prisons are filled with drug users and police report that a great deal of violent crime is the result of the illicit drug trade. As President, what would be your prescription to deal with drugs? Legalize them? More enforcement? More education? What?   Answer:  So, the only way to actually win the fight against narcotics is to remove the need for it. As long as people want to do drugs the problem is going to be here. No matter how much money we spend on border control or taking the war to the drug cartels the illicit drugs will continue to come into America. So why do people do drugs ? I believe they do so to forget, to run away from reality, to escape the world. So we need to provide them with hope of a better future, a better life. The only way to do this is to create more jobs, good and solid jobs. And to pull people out of the enviroment that they are in today. A new Housing Project, aimed at building good and solid houses for the average american might be a solution to that side of the issue.   5) With tragedies like the Columbine massacre, gun violence has really become a front and center issue for the American public. As President, what is your position on gun control?   Answer:  Fact of the matter is, most people don't really need a gun. Especially not a fully-automatic high-powered rifle. The only weapon that should be allowed for the general population is handguns and hunting rifles. All other should be banned and made illegal. They should be collected and either donated to the military if they need them or just recycled into hammer and nails. It should be illegal to carry a firearm unless on hunting or to and from a pistol shooting club, or on private property.  So there you have it, my 5 cents on these issues in the American Politics Game... Please do keep in mind, I'm not American and have infact never actually been "over there" yet... 
+      
+</post>
+
+<date>24,March,2004</date>
+<post>
+
+    
+       
+      So, there is a rather large and load discussion around the continued development of Gnome and how they should proceed. Most of it has been sparked by the fact that Novell now owns Ximian and Mono, and has alot invested in Gnome. Relevant links for the discussion would be  urlLink Miguel de Icaza's web log  and  urlLink Havoc Pennington's Homepage [article] .  I'd like to rant a bit over why, what and how the Linux Desktop Movement (tm) should proceed. :)  So, the focus should, IMO, be on three issues:  * Developer Support (includes ISV, community etc.) * Usability (includes ease-of use, nice GUI, GUI guidelines etc.) * Applications (includes os features, stand-alone apps, enterprise level stuff etc.)  Now, this pretty much covers everything you might say and I'd have to agree... But take a look at the sorting I've made. It's not by accident or random, it's purely by intent. If you focus mainly on developers and secondary on usability issues then the applications will come, trust me. Just look at Windows back in the early days! They focuses on usability (GUI vs. Commandline) and on developer tools (especially VB made a major difference here), and today they have the by far most successful platform in the world.  And their next step is Longhorn, and guess what they are focusing on then ? Thats right , developers and usability. They know that Applications will come if they can take care of the two first issues.   So how does the Open Source Community respond to this ? One thing is for certain, if we respond by splitting up (even more) or attacking each other we have a problem... We are already a major underdog, in the desktop world that is, and so we need to stand united in order to have a chance of success...   I'm a great believer in what Microsoft is doing, moving "everything" to the Managed Code sphere and letting developers pick their language of choice, but providing a stable, performant and easy to use Framework for them (the developers that is). I think the Open Source Community could benefit from the same change, and even more so if we could all agree on one platform/framework.   Obviously we can't just throw out all the great work that has been done already, that wouldn't do at all! We need a way to incorporate all the "old" code with the "new world" of Managed Code. And since there is such a wide array of programming languages, frameworks, platforms, etc out there we really need a way of combining them all. The three major frameworks in use today is of course Java, GTK and QT, and then there is Mono as the newcomer. So the easy solution would be to incorporate the QT and GTK somehow into Java and all is solved. But that's not reality at all...  You see when .Net was released some time ago and developers started to understand what it was all about we got very, very excited! Finally a powerful way to use OO programming, without all the hassel of C/C++ or the awkward Java tools available back then... Yes I'm talking about Forte and the likes, it was horrible to come from VB6 into the Java world, suddenly I had to spend more time figuring out "plumbing" stuff, such as classpaths and mounting and god knows what...   So what is my idea then ? More on that later, just now I have to attend an HCI lecture+lab. 
+      
+</post>
+
+<date>17,March,2004</date>
+<post>
+
+    
+       
+      I usually don't blog on such issues as these, but today I feel I must.   The attack on Spain has shocked us all and it should be condemnd by all. But the election following just after the attack, or more precisly the comments made by alot of voters, has shocked me to.  This is quoted from  urlLink The Herald Tribune : "Maybe the Socialists will get our troops out of Iraq, and Al Qaeda will forget about Spain, so we will be less frightened" It almost makes me want to cry that somebody actually can say this...   Good blogs on the subject is  urlLink David Warrens  and  urlLink Draginols .   Nuff said from me. I'm too angry to speak now...  
+      
+</post>
+
+<date>16,March,2004</date>
+<post>
+
+    
+       
+      Been reading quite a bit from the  urlLink Mono Blog site   about the Mono Project (really?). And it looks to as if this could be the break the alternative OS'es have been waiting for! As a lot of others have concluded, Managed Code really is the future and the .Net Framework is GREAT. It has tons and tons of functionality, is easy to use and is now available for more and more plattforms! Excellent!   A project I follow pretty closely is the  urlLink SkyOS , and they just ported GTK! And it actually works too, they're running Gimp and AbiWord in SkyOS! I see this as the first, of many, steps towards porting Mono and thus gaining C# support. And SkyOS needs it. Why? because there is a limited amount of applications available right now, and it's hard for us 'regular' programmers to actually learn enough C/C++ to make something useful... Most of us don't even bother actually! But with the .Net Framework its easy! :)  Of course I also follow the  urlLink OpenBeOS  project VERY closely, since I'm and old fan of the original BeOS. The project is looking better and better, but they still have quite a bit of work to do. But once they do finish with Release 1 I'm confident it will be the best alternative OS around, perhaps just beaten by Linux+KDE/Gnome. And back in actober Zeta  urlLink announced  that they were working on porting Mono to their version of BeOS. With a bit of luck this will be available to OpenBeOS as well, and thus we have .Net Framework available on one more great plattform!   I wonder, did Microsoft forsee this development, or are they now planning to stop it ? I sure as heck hope they don't stop it, this is one of the best things thats ever happened in the industry if you ask me! Sun tried to do it with Java, but they couldn't, I wonder why... many have complained about the lack of open standards in Java, so maybe that is the reason, but  who knows ? :)
+      
+</post>
+
+<date>12,March,2004</date>
+<post>
+
+    
+       
+      We're just getting started doing COM+ stuff in my Enterprise.NET course, and it really looks interesting! Been playing around abit with it today, making a DataAccessLayer, a WebService and an ASP.NET client page. The next step is of course to implement some sort of business layer in between there, implemented as a COM+ Service (Enterprise Service) of course! 
+      
+</post>
+
+<date>12,March,2004</date>
+<post>
+
+    
+       
+      Updated the comments system, since I wasn't very happy about it. I'm now using a system called  urlLink Ment-O-Matic.NET for ASP.NET , its built on ASP.NET (surprise!) and runs from my server (as did the old one).  It works pretty well I think, even though I had quite a few problems installing it... Had to do with where I put it and stuff, nothing major really, but a bit of a hassle to figure out... In the end I ended up doing a little hack in the source code, so now it's less pretty, but works better! :)
+      
+</post>
+
+<date>09,March,2004</date>
+<post>
+
+    
+       
+      A new set of Catalyst drivers released a few days back from  urlLink ATi , doing all sorts of  urlLink cool things . But even more important is the new Linux Driver, that  finally  enables TV-OUT! I could probably not be more excited than I am just now! (okei, so maybe I could if say  urlLink Elisha Cuthbert  was sitting on my lap just now)  So now I might be able to actually run Linux on my desktop computer! *rejoice* Go ATi! :)
+      
+</post>
+
+<date>09,March,2004</date>
+<post>
+
+    
+       
+      After some 20 minutes of tweaking I finally made the archive function work! The problem was so trivial I don't want to talk about it... Lets just say that sometimes you forget to put the power cable into your PSU... ;)
+      
+</post>
+
+<date>09,March,2004</date>
+<post>
+
+    
+       
+      More and more I find myself reading blogs, but I still use  urlLink my browser  to read them. I find this a bit awkward and timeconsuming, so I went hunting for a RSS reader software. Actually I did this some 2-3 weeks ago, and I found just one that I like,  urlLink RSS Reader , but it had one 'bug' that I could not live with. When you clicked a link in the feed, ie. bringing up a browser, it would launch IE and not you default browser...   Of course I'm  urlLink not using IE , but rather  urlLink FireFox , a  urlLink Mozilla/Gecko  based browser.  So what to do ? Well, I wrote to the author and asked for an update, so that this was possible! And after a few e-mails abck and forth he had all the code/examples needed to make the change. So today I got a mail from him asking me to test it now. And behold! The perfect RSS feed reader ahs been borne! :)  (for me anyhow)  So, I recommend  urlLink RSS Reader  to everybody! :)
+      
+</post>
+
+<date>09,March,2004</date>
+<post>
+
+    
+       
+      Today we can  urlLink read  that  urlLink Microsoft  has delayed Yukon and Whidbey, the next generation SQLServer and Visual Studio/.NET Framework. The release is now scheduled for the first half of 2005, in a year from now in other words.   So, many people will think this is a bad thing and will talk bad about Microsoft, again, for slipping schedules. But I for one think it's a good thing. Why? Because this means they are serious about releasing the product, they want it to be as bug-free as possible and as secure as possible. Already Yukon is in Beta-3, meaning they still have bugs and features that they need to work on. 2-3 years ago they would most likely have release the products this summer and just patched them later on, but now due to a change in mentality and intent in Microsoft they delay the product and fix it before it hits the streets. Very good! This is the way software should be developed, in my opinion. Plenty of beta releases to key customers and lots and lots of feedback from customers and developers.   it does indeed look like this is the approach they'll be using for Longhord (Foghorn?) as well, considering that they actually released a 'beta' at the PDC in october (correct?), more than 18 months before the OS is to be released... Why did they do it ? To get developer/customer feedback as soon as possible, to implement new features requested by the public and to show the world what they are doing for the future. Brilliant if you ask me! (but then, who does? heh..)
+      
+</post>
+
+<date>09,March,2004</date>
+<post>
+
+    
+       
+      This is one Microsoft app I haven't yet tried, but I've been reading quite a few blogs on it just now. It really seems to be a cool app! To me it sounds like its sort of a notebook/scrapbook, only its sort of sorted... Sounds great! Currently I'm using Text files to write small notices and TODO stuff in, actually the My Documents folder is full of these text files, and I keep forgetting what file I actually saved what in and so on...  One of the guys behind OneNote has a  urlLink blog  where he explains where OneNote  urlLink comes from . ;)  And the integration with the Tablet PC and the whole Pen/Ink stuff sound great to! I can't wait to check this out! :) 
+      
+</post>
+
+<date>08,March,2004</date>
+<post>
+
+    
+       
+      Just rebooted for the second time, having installed the ATi drivers for my M7 GFX Adapter... ;)  Its really wonderful to have a clean Windows system, everything zips along just fine now!   Why did I do it you ask ? well, the problems seemed to just pile up at my frontdoor, and the solutions were becoming more and more complex... In the end I had a problem I didn't know how to fix, it had to do with ASP.NET and IIS, so I just deleted everything and reinstalled! Now I'm waiting for Windows Update to finish, mer than 46 MB on the first go, I'm gonna need to go at least two, possibly three, more times before I'm done...   Anyhow, at least my system is in good shape now! :)
+      
+</post>
+
+<date>08,March,2004</date>
+<post>
+
+    
+       
+      I just came across a 'movie', rather a very very short flick, that some friends of mine made 4-5 years ago. It's called "Butchering Zombies with a trolley" :)   urlLink Link [animated gif] 
+      
+</post>
+
+<date>05,March,2004</date>
+<post>
+
+    
+       
+      I just added a comments functionality to my blog! How cool! hehe...  actually, I've never understood why  urlLink Blogger.com  didn't already provide it, but such as it was there was the option of Third Party TM  options! So I chose  urlLink BlogComments , a fairly simple alternative. It works and looks alright, som I'm happy! Besides, its ASP, so I can easily edit it... :)
+      
+</post>
+
+<date>01,March,2004</date>
+<post>
+
+    
+       
+      Currently I'm listening to  urlLink Yahoo Launchcast , a sort of Webradio. Just now Adam Sandler is on, previously Chris Rock was on and before that I heard heaps of good metal (as I prefer it). The cool thing is that this webradio is that you can customize the transmission to your liking. I prefer metal and comedy, but I hate Pop stuff, so I choose not to include it in my profile. Of course every now and then something bad comes along, but then I just skip ahead, after marking that as "Let me never hear this stuff again"... :)  It really works! Thrust me! :) 
+      
+</post>
+
+<date>01,March,2004</date>
+<post>
+
+    
+       
+      I've been thinking really hard on this major development project that I have going, won't reveal anything just now, and I've decided to make it Plugin based. As much functionality as possible should be plugins, not just because I like to torture myself (which I do), but mostly because it should make the end result better and, more importantly, more extensible.  Naturally I've done my homework and  urlLink Googled  for a tutorial or something on the subject. I found just one really  urlLink good one , but it does cover most of what I needed to get confirmed. However I might need GUI (WinForms) plugins aswell, and the auther does not cover that at all. I haven't yet looked alot into this area of plugins, but I'm gonna have to do that before I set out and start planning my Great App (tm).  I've sent a mail to the author of the mentioned article and asked him if he had any thoughts on the subject. Maybe he'll be really nice and write an article on the whole GUI-Plugin issue.  OR maybe it's not an issue after all! I need to investigate more! :) 
+      
+</post>
+
+<date>26,April,2004</date>
+<post>
+
+    
+       
+      So I haven't posted anything these last 3 weeks or so, been busy with Easter and all...   I'm currently hard at work with a Human-Computer Interaction project. We are building an interface for something called an Office Door. Which is basically an electronic replacement for the notices people here at Uni hangs on their doors. The idea is that Visitors can post messages, both written and voice, to the Owner on the door. And then the Owner can read these messages on the same interface, a Web interface or download then via e-mail. Now in our prototype we only implement the door interface and the programming bit is of minor interest for the subject. But of course for me the coding bit is still very interesting!   So far I've gotten to play with DirectX and the TabletPC APIs! The TabletPC API is great! Took me 2 minutes to figure out how to enable ink-on-screen and then save the ink as a Gif! :) How cool!  The DirectX APIs are more advanced, but still pretty easy to use. I've used it to record wave files and then playing them back. The alternative was to use the Win32 API, but that was a lot of coding... :)  Now that we're finished with the prototype we are going to perform a usability test on it. We are inviting 6-8 students/lecturers to come and test it in the  urlLink Swinburne Usability Lab . I'm certain it will be interesting and hopefully it will be worth all the time and effort! :)  In time I'll post the code/report etc. on  urlLink my homepage .
+      
+</post>
+
+<date>31,May,2004</date>
+<post>
+
+    
+       
+      So, I've moved from  urlLink RSS Reader  to  urlLink RSS Bandit  today. And I also installed  urlLink w.bloggar  to post blog entries with. The reason for changing feed-reader was simple; RSS Reader did not download and display the posts correctly anymore. For some reason it showed old posts as new and downloaded them over again and all sorts of fubar behaviour... It was getting very, very annoying... And RSS Bandit looks like a nice replacement, it's coded in .Net as well btw. Interesting! :) Has that Office2003 look...   w.bloggar is cool! Really, it is! Windows program to post blog entries, as simple as that! And it co-operates nicely with RSS Bandit, so I can by pressing just  few buttons and turning a handle blog about another entry... (links them with link and text) Nice! And I also installed a plugin for Winamp, so I can display my current song and stuff on my blog... :)  Like this:  [Listening to: On Rich and Poor - Amorphis - Elegy (5:19)]
+</post>
+
+<date>28,May,2004</date>
+<post>
+
+    
+       
+      Just read two pretty good articles about ASP.Net, one touched on Accessebility and the other on performance.    urlLink Scott Mitchell  wrote  urlLink  "Making an ASP.NET Web Site Accessible"   and it proves just how extensible ASP.Net is. All those used to ASP, think about how hard it would be do do something close to this in ASP... VERY hard, if at all possible, is my answer!  Also when reading  urlLink Scotts' Blog  I happen to read his summary of  urlLink Rob Howards  "ASP.Net Black Belt" article! Interesting stuff, all ASP.Net developers should read and understand this! :)
+      
+</post>
+
+<date>21,May,2004</date>
+<post>
+
+    
+       
+      Yes, it is offical! I have submitted my last assignment! Submitted my Internet Security and HCI assignements just minutes ago! Feels wonderful! Just 4 exams to go (just, what just?) and my career as a student should be over for some time. Now perhaps I can start earning money instead of just using... I've become rather good at the spending part, so I hope that will help me in the earning part as well, but I doubt it... ;)  Anyhow, I'll upload the papers and all over the weekend, right now I seriously need to relax for a few days and get some sleep... I've slept about 5 hours each night the last two weeks or so... But I'm done! Finally! :D
+      
+</post>
+
+<date>21,May,2004</date>
+<post>
+
+    
+       
+      So, I just created my very own  urlLink GMail account!  Yes sir! 1 GB of online e-mail storage! :)  Please don't ask me what I'm gonna use it for, since I already have plenty of e-mail addresses and I can store just about as much as I want to on either of them, but still! Pretty cool I think!   How? Blogger.com is owned by Google and they offer a signup for all members. As you have probably guessed by now, I'm a member of Blogger.com, so I was offered an account! :)  On a side-note, I'm el-tel-bizzi rightabout now, got 3 big assignments due next week! One on monday (my .Net Enterprise) and two on Friday (HCI and Internet Security). I'm just a tad stressed-out about it, but I recon it'll be alright! :)  The topics are pretty interesting actually, the Enterprise assignment is a small subset of Amazon.com actually. We are building a messagebased ordering system. Pretty heavy stuff! Using just about every aspect of .Net available, including EnterpriseSevices, ADO.Net, XML, ASP.Net, Windows Services, MS Message Queues, Performance Counters, various application blocks and much much more! Perhaps I'll publish my solution one day, but I really need to clean it up a bit first... ;)  In Internet Security I'm writing two papers, one on Virus Risk Management and another on Network Discovery. Only half-way there on the Virus paper and have yet to start on the Network part... So I might have to sacrifice the Enterprise assignment this weekend just to get started on those. I'll relase both papers as soon as I'm done.  And finally we are writing the final part of our HUGE HCI project. We had the Usability tests two weeks ago, and now we have to present our results in a standard  urlLink NIST  -  urlLink CIF  format. Pretty heavy as well! Lucky for me I did most of the prototype development work, so my group decided to let me do the easier parts of the report. So I'm currently responsible for the layout, summaries and references. All the little details that could actually be important, but does not really require all that much work. I'll definatly relase the whole HCI project on my  urlLink homepage  as soon as it's done.  Now, I really need to get back to work... ;)
+      
+</post>
+
+<date>07,May,2004</date>
+<post>
+
+    
+       
+      So, I'm still in the dual mode that I ranted about on Wednesday, but today it's all about CPUs! It has for a long time been my dream to have a Dual-CPU setup running, either as a "server" or as my main computer. But the trouble is, they are horribly expensive and usually just optimized for server stuff. That is to say there is a useless gfx card in them (the maiboards that is) and no AGP support (or very poor) at all... Which is so NOT what I want...   So looking at various online shops I've figured that I need to spend almost 1000 USD just to get the two CPUs and a decent motherboard to get up and running in the Dual-CPU world... And on top of that I need expensive ECC memory! Dammit! This isn't what I want at all!   What I don't get is why everything gets a so darn expensive in the Dual-CPU world... The motherboards I can sort of understand, because the chipset must handle a whole lot more stuff and there is two slots for the CPUs and so forth, but the CPUs themselfes ?? Why does a 940 Pin Opteron 2 GHz (2way enabled) cost more than 3 times (!!) that of an Athlon64 2 GHz? They both have the same amount of Cache (1 MB), so that is not it...  Okei, so the Opteron is "optimized" for servers you might say... Well, give me an Athlon64 that can handle dual operation, but without the server optimizations! And let it cost just a bit more...   I'm guessing that this is just pure and utter politics/financial issues. They (Intel is just as bad) are just trying to get as much money out of the corporate sector as possible... Bastards! :)  But seriously, how cool wouldn't it be if you could have a Dual-CPU, Dual-LCD (via DVIs!) running ? Now that would be one kick-ass system! :D So Intel and AMD; listen, and listen good, I want a cheap CPU that works in Dual setups! Now! :D
+      
+</post>
+
+<date>05,May,2004</date>
+<post>
+
+    
+       
+      Just been reading the  urlLink reviews  of ATIs latest and greatest;  urlLink Radeon X800  (Pro/PE). And then it suddenly struck me! I want a new gfx card with Dual-DVI ports! How cool wouldn't that be? Imagine using two 19" LCDs, both hooked up to this X800 baby and both using DVI! Now that is &#220;berCool&#169;. However, so far there has only been released one card with this feature, as far as I can find, and that was a  urlLink Tyan Radeon 9600 . Of course I won't be needing this card straight away, since I have virtually no money nor do I have a job... But in the not-so-distant future it would be bloody nice to have such a setup! :)  On another issue,  urlLink Mono Beta-1  was released recently! Very exciting indeed! I can not wait to get back home and try it out! 
+      
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+    
+       
+      So, reading  urlLink an article on the Windows API  and the dire concequences the shift in Microsoft, from the "old school" of 100% backwards compatability to a "new school" of building stuff from groundup, has. Much of the article is really interesting, but the author so clearly misses alot of important points.   First of all, and this is a biggie for me, he says that nobody wants to spend X number of months  rewriting  their software from a C/C++ COM Application, or a VB6.0, to a .Net Application. Of course they don't, and why should they? Microsoft has repeated, over and over again, that this is not their intent at all! If your application works today in the Win32 API enviroment, then by all means keep it that way! Where .Net comes in is if you are planning a major upgrade to your application or a completly new application. And remember that  interoperatibility  is a major feature in the .Net Framework. You will still be able to use the old COM DLLs that your application uses, in a .Net application. So much of the earlier development work will still be very much useful. And in fact you can today develop COM+ applications/libraries in .Net that will work in Win32/COM applications!  Furthermore he complains that WinFX is going to replace the Win32 API and that this is a bad thing! He is obviously very comfortable with Win32 programming and so he knows how un-productive it can be, but still he thinks that a revamp and upgrade is a bad thing?! I have seen programmers spending hours doing stuff in C/C++ and Win32, then doing the same in VB6 took them about an hour, Great! But in .Net it would take perhaps less than 30 minutes! Now if that isn't Return On Investment, then what is? If you can cut development time in half, or more, then you company is saving heaps and heaps of money!   At the end he claims that nobody is using .Net to develop desktop applications... Well I'd say he is dead wrong, but has a point even so... Many existing applications will not be re-written in .Net, but most  new  applications, for the Windows plattform, are being written using the .Net Framework. Just look at the RSS-Readers around, they are fairly new and did not have an old plattform to build on. Many are built on .Net and takes advantage of the increased productivity and easier deployment to quickly develop new and improve existing features. Great! That would not, IMO, be possible using traditional programming frameworks.  A final point he makes is that the Longhorn timeframe technologies, such as Avalon and WinFS, is not all that great. He claims that they might be good, but the implementation is not done the correct way... Let me put it this way; Windows needs a new display technology and an improved way of organizing documents. The display technology addresses many of the complaints from both the community at large and the developer-community; it is too slow, both to render and to develop on. And many new features, such as high resolution displays, needs to be supported. Of course this could have been implemented, as he suggests, using traditional DLLs (Win32), but instead Microsoft chose WinFX/Avalon/Indigo/WinFS to do all this. For programmers it means a better, more streamlined, easier, faster and more secure development path. For end-users it means that they can get their applications faster, with more and better features and that applications will look better and be more usable than ever... Great!   The author also makes a big issue of web applications taking over for desktop applications... Well, we heard that from Sun MANY years ago, and it still has not happened... The ONLY major application that MOST people run are still desktop applicatons. And I can not see that chaning in the near/mid-near future (2-5 years) at all. I can not see how people will be able to run IM clients of the net, MP3 players, word processors or  games  via a web browser... Sorry, I just do not see it happening. I said the same when the "revolution" came, when Java was supposed to change the world and end Microsofts Reign of Terror (tm); it hasn't happened, and it won't any time soon.  The downside to .Net is, as the author states, that developers have to update their skills and learn to use new (and might I add; improved) tools to do the job.   Please, Mr. Author, read and pay attention to what Microsoft is saying about Longhorn; it will not break backwards compatability for most applications and many of the new feature will be available for Win32 style programming as well. And Windows.Forms IS the way to go, today, to prepare for Avalon. It should be a breeze to update the applications to support Avalon, a breeze I tell you! :)  [Listening to:  Machine  -  urlLink  Theatre of Tragedy   -  (4:14)]
+</post>
+
+<date>02,June,2004</date>
+<post>
+
+    
+       
+      Just read an article called  urlLink Multithreading in .Net , where the author shows how easy and useful it is to use multithreading via the Threadpool in .Net. Now, I totally agree with him on these issues, but the implementations leaves a bit to be desired. For instance is he using AutoResetEvent, but it doesn't really do anything in the code... He says that he is using it to tell the UI thread when the threadpool thread is done, but this information us totally and utterly useless in his scenario! And he is not using the QueueUserWorkItem method as it should anyway, IMO. You can use it to either fire a method with no input or a method with state information. The AutoResetEvent should not be passed in as an argument like he does... And as a reader comments, you should not change the buttons visibility on a non-ui thread, bad habit!  But the article has its ups anyway, it promotes to use of asyncronous programming, which is always (almost!) a good thing! :)  [Listening to: At Loss For Words -  urlLink Dark Tranquillity  - Haven (0:-1)]
+</post>
+
+<date>02,June,2004</date>
+<post>
+
+    
+       
+       urlLink Digital Spy - Extended 'ROTK' DVD due in November   Nothing new there, the Extended version due in November as usual... Sucks, I was hoping for an early release, since the theatre version came out more than 2 months earlier than usual, but to no avail... Looks like the ROTK Ext. version will last for 4 hours and 10 minutes! Nice! :D  I'm just SO looking forward to a full evening of Lord of the Rings! All three movies, in extended version of course, after each other... ahh! But still a few months away though!
+      
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+    
+       
+      I've updated the design and comments system, to use  urlLink Blogger.coms'  comments system. Should be a lot quicker this way (hope so!).   
+      
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+    
+       
+      So, I've been home for about 3 weeks now and much has happened since I returned! I'm currently employed at  urlLink Pride  where I eventually will work on customer support and bug fixing. I'm currently undergoing extensive training in using and administrating their product; Synergi. Synergi is basically an improvement system. It can be used to store and process any kind of information, but has typically been used in the HSE&amp;Q field. Internally Pride is using it for other purposes aswell and we might/might not promote this in the future.    More on the "return to Norway" thingy; just loving it back here, but I must say I do miss the supermarkeds "down under". I miss being able to choose between 30-40 different meat "types" and so forth... But all in all it's all good to be home again. Even though the appartment my parent bought is small and there is (as of yet) no boardband connection in my room. This will be fixed in a matter of weeks though... I can't live like this anymore, I'm going crazy over the ISDN connection.. :)    The next couple of weeks I'm going to spend trying to understand Synergi and how it is built and configured. Then I'll try to get a peek at the code, which is really cool, and so perhaps I can becoma an asset for Pride! Hope so!    Which reminds me; I need to take a look at the blogging guidelines for Pride... they may/may not like it that employees blog... Hope they don't mind! :)  
+      
+</post>
+
+
+</Blog>

@@ -1,0 +1,1 @@
+2007 during the spring daylight saving time changeover. This is because prior to 2007, the start and end dates for daylight saving time in Canada were different than they are now. If the system's clock is not updated to reflect the correct start and end dates for daylight saving time, it may incorrectly adjust timestamps for events that occurred before 2007.

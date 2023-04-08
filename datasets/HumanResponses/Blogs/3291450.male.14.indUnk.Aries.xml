@@ -1,0 +1,125 @@
+<Blog>
+
+<date>16,May,2004</date>
+<post>
+
+    
+       
+      A new feature that will be made will be a way for people to edit the PHP within the themes file.
+       
+    
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+    
+       
+      For the future I will try to make these features: 1) An admin for projects. Like when you start a project your client can see the progress and see what your doing now and what your going to do, also he/she could add features they want to be added, and deleted. Etc. So what it would be like is I don't even exist, they just use an online admin to make their site.. :D  2) Be able to add pages, examples, services from a text file with out having to go though the admin, just click import and it will add the info in the text file. I was thinking that I would be like XML or something. But I don't really know XML so maybe something similar but customized..  3) Be able to add and set admin privileges.  4) Create a way to undo anything at any point in time. Shouldn't be that hard. ;) And when I say any point in time. Right now I have it made to where you can only undo things after they are done. So I'm talking about making an undo history. :)  5) and automatic estimate price feature where you make a virtual site (not an actual one) out of preset features and you select the features you want on the site and the script will give an estimate price for the whole thing.  if you have anymore please post them as comments.
+       
+    
+    
+</post>
+
+
+<date>25,May,2004</date>
+<post>
+
+    
+       
+      Long time no posts. Why? Well mainly because I have been having some MySQL troubles. :-( But fear not!! I am working on this right at this moment.
+       
+    
+    
+</post>
+
+<date>18,May,2004</date>
+<post>
+
+    
+       
+      Okay well It turns out I was trying way to hard!!!! I found an alternative route. Much easier!!! :D. Well I'm off to work on the site. So untill next time. ::>:A
+       
+    
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+    
+       
+      Somebody up there ^ must really hate me.. It turns out for the news template you can only put one Admin starting tag!!!!! Aajdhgflskjdhglajkdghajdfgyqpu4e szdjkhlfzxckbadkfgb!!!!!!! >:-o it took me 4eva to do that script and guess what it was usless.. Oh well I'll just spend all day today on it.. Like yesterday. :) Never Fret.
+       
+    
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+    
+       
+      Optimal Connection is starting to be a lot like I dreamed. But theres more left to do. What I am mainly working on now is make people able to make their own themes for Optimal Connection in ease. AND I MEAN EASE!! Sure it take a heck load of time but in the end they peeps are happy! Thats all that matters. RIght now I have just finnished the way you can change the news template. This was really hard becasue I started the idea of intergrating the admin interface with the site so once you login as admin theres no CP the options are by the items... :: cough :: even thou I had already done that in the past, I just thought I would bring it up so I could explain why I't was actually so hard to do the News Customization Features. Well I had just rembered that I had the admin intergreated with the site, so I knew I needed an easy way for you the people to add thoes features in your templates. Like say the delete button for a news article. Well that was really hard cuz I had never minuplated a sting before...  Once I get GNU liscense you can see what I mean :).. But to tell you what the finall results will be like. IT WILL BE A CONTENT MANAGMENT SYSTEM LIKE NO OTHER!!! MUAHAHAHAHAH!.. :-| yah.
+       
+    
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+    
+       
+      I was thinking that after I finnish the script for my site, I could make it global for people to use.. Then convert it into a site managment system. Like take out the features and leave the base then start off with the managment system.. What do you think?
+       
+    
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+    
+       
+      Hello everyone! I have decided to restart project Optimal Connection.. Why you ask.. Because I feel that at the beginning I was just doing this for fun, and left a lot of things out, also I feel that I need to add more features in files, so its just easier to start over. I already have the codes. All I need to do is redo them. Thats about it. So do not fret, all I am doing is restarting to make it better. Its like with a game, at first you have no clue what you are doing then you get the hang of the game, but you score is really low because you didn't know what to do. So you restart and know what to do, and you get a better score.. Get me? If not SRY I'm only 14 and have trouble explaining things :\.. Ok well until I have the Base down. BYE!
+       
+    
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+    
+       
+       urlLink Optimal Connection -- Admin Login   To view the admin click the link above. It may some times work and it may not work depending on the time of day because its hosted on my computer. I don't have the money to host it with a provider.  Also I am only letter you people see the admin because well I want you to see what it's like. But keep in mind: 1) Anything that you do will be reset at the end of the day. 2) Have Fun 3) If you find a way to hack my site plz tell me so I can fix this for future. Also my site is going to be so simple to use when done I'm going to publish it as a script for people that want to use it.  Last thing. I won't be sending out the script just yet because for all I know there could be some huge security hole or something. Have Fun :). 
+       
+    
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+    
+       
+      Well, I have already started the site, but I can still blog the progress. I have made a lot of progress. Well I guess I should start of with the point of Optimal Connect.. Optimal Connection is there to make sites for people. Ok? Yah..   So what I have done so far, is well I have designed the main site, like the services, examples, news, menu items display, extra pages, etc.... The easy crap.. Although you may think different.. The only thing that is left is the admin!! AHH I HATE CODING THE ADMIN.. its such as pain in the ass.. I guess I just dread it so much to where I put it off.  FYI: Total Viewing part for the people that come to my site Status: Done, 1 day. Admin: Incomplete. 2 weeks.   I have all ready gotten bits and pieces of the admin done, like add and delete services, and service categories. I have also made um wait.. I think thats all... Hmmm.. WOW i have a lot left. Like add examples, pages, menu items, menu categories, etc. Oh well it shouldn't take me that long.. The main thing that is the hardest in coding is debugging.. And theirs like a 1 out of 3 chance that I have to debug my scripts.   Ok well untill the next feature is added, bye!
+       
+    
+    
+</post>
+
+<date>07,August,2004</date>
+<post>
+
+    
+       
+      Oka.. well if u havent noticed.. its been a while... since my last post.. y? well because, the project is put on hold.. cuz I have a job. doing a web site.. BUT!! GUESS WHAT! I used the backbone of optimalconnection.. and deleted all my stuff and added his new stuff! YEY so, all that hard work was worth it! I made a fucking awesome backbone :-D B-) Im so happy and proud of myself.. :-D http://theprogramonline.net same layout kinda as mine.... my boss likes it and he just wanted it as differnt color.. B-) so I guess i made a good layout too :-D HEHEH OHHH im good.. ne wayz... in the proccess of working on The Program... I managed to add sum exta shit to the back bone.. ugh.. I can only think of one rigth now thou -_- >_ 
+    
+    
+</post>
+
+
+</Blog>

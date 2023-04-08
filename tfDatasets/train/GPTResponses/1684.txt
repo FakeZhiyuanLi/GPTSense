@@ -1,0 +1,1 @@
+The DNA sequence of a gene is first copied into RNA as an intermediate in the manufacture of the final protein product. This process is called transcription, where the DNA sequence is transcribed into a specific RNA sequence. This RNA molecule then undergoes translation, where it is used as a template to synthesize a specific protein.

@@ -1,0 +1,70 @@
+<Blog>
+
+<date>26,June,2004</date>
+<post>
+
+
+       
+      Eurgh fixed gentoo something simple, so peter is sort happy, Im feeling pritty conifdent about the gig comming up next monday, like 300 + people there w00t w00t. Finally started using "ettercap" as a serious tool instead of something to piss about with schweet, Also turns out i shall be doing VB next year :( no colleges/6 forms/schools in my local area offer anything else so im going to be left to develop C/C++ at home meh and I shall see myself using C/C++ more as even tho it is crossplatform tis used quite a bit in *nix so meh ah well allways need some windows programming and maybe ill take on assembly but that can be next years challange. 
+     
+
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+
+       
+      Once upon a time when I was still in the illusion that I was in love with my girlfriend I decided to get a jewelry box but since she hated jewelry this made my task that much simpiler to get away with I went to bardwells electricals got a set of 5 3.3k ohm resisters, though I only needed one, a small silver oxide battery, a fucking loud pizo buzzer yet still small and could be hidden, a nand gate and some fiberboard, and a small cds cell  then I set up the 3.3k ohm reister as the basis for the nand gate to understand what voltage was classifed as *on* and wired it up so off would be reached when light passes through cds cell and running it through the nand to make the sequence = on after it initially being off.. when open... it would be simpler with an and gate but I was bored and wanted to do it with a nand, get over it  so when she goes to open the box she gets a nice 120dB suprise  of course I gave it to her at lunch and told her to open it during engilsh   all of it was hidden under cotten padding so if she took a peak she wouldnt know what was coming    
+     
+
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+
+       
+      Nuts, so turns out a good friend of mine is moving to Dubai I swear that is spelt wrong I shall check up on it later, mehh shes going like at the end of october grr ah well.  Also ive noticed when working with sockets perl and other languages are quite agressive such as  my $listen = IO::Socket::INET->new(Proto => 'tcp', 				   LocalPort => 9192, 				   Listen => 1, 				   Reuse => 1) or die $!;  "Reuse => 1) or die $!;" thats the main bit in that if you missed it, time to go watch dazed and confused  
+     
+
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+
+       
+      eh kernel panic with vfs forgot to support my filesystem meurggh get pizza then fix it time, ill post later tonight when I have time
+     
+
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+
+       
+         ahh well I shall post it on my ISP's server. I'll post some more of my art later  Heres a desktop I fucked up the perspective but mehh     and if you want it for yourself right click and "save as" on the link below    urlLink Background 
+     
+
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+
+       
+      A new blog, Yay, A place for me to say random crap which no one really cares about, saves be doing it in the real world and getting slapped because I have pissed someone off.  Meh, so today my server crashed must purchase more ram, i'll get it up when I can be arsed to press the on switch, and I think i'll mod the template when I have had something to eat.  Biology has now morphed into a statistical analysis lesson *a time of joy* {note the sarcasim}, it's just so repetative and the only output is a "T" graph mehh ah well.  Listening to Still Water - Fever Dog (from the almost famous soundtrack)
+     
+
+    
+</post>
+
+
+</Blog>

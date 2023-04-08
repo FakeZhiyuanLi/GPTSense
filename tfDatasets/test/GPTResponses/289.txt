@@ -1,0 +1,1 @@
+The main source used for creating MP3 files is digital audio. This audio can be recorded from various sources such as music CDs, audio tapes, digital music files, and live performances. The audio is then compressed using an audio codec to create an MP3 file.

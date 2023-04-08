@@ -1,0 +1,121 @@
+<Blog>
+
+<date>31,July,2004</date>
+<post>
+
+    
+       After testing the Irrlicht/Newton tech demo, I must say I'm quite impressed. The Newton physics engine seems quite capable of doing much more than I originally wanted, and implementing it is far from a hard and tedious task. The Irrlicht engine and Newton fits perfectly. The tech demo let me throw boxes around and play with ragdolls. Fun fun fun!  Now, it was my intentions to test SpiderMonkey too, but for some reason I can't get it to compile yet. I will retry it when I get back to my own computer where I actually can install and run things without doing creative things with my limited access rights. I have to work around my denied access to the command line here by using a batch file as a proxy. Tedious.  I should also test Crystal Space very soon.  Oh, and Dev-C++ works quite well. Not as polished as the new Visual C++, but it sure works and it's free. If VC++ didn't have its price tag, I'd buy it.  
+    
+    
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+    
+       A game needs an engine, and this game is certainly no exception! I've established that I so far need these three engines:     3d rendering engine  physics engine  scripting engine   I have no intention of writing these engines myself, as I my main goal is to create&nbsp;a game.  These engines will be incorporated into a game engine where the 3d rendering and physics engine is somewhat manipulated by the scripting engine. I plan on using a scripting engine so that not everything will have to be coded and compiled into the game, and the game engine may be reused. It also gives the other members of the team much more freedom in what they can do.  I also need an environment in which I will develop this game and utillize these engines.   Possible 3d engines    urlLink http://irrlicht.sourceforge.net   The  Irrlicht Engine  is an open source high performance realtime 3D engine written in C++. It is completely cross-platform, using D3D, OpenGL and its own software renderer, and has  urlLink all of the state-of-the-art features  which can be found in commercial 3d engines.   urlLink http://crystal.sourceforge.net/    Crystal Space  is a free (LGPL) and portable 3D Game Development Kit written in C++. It supports: true six degrees of freedom, colored lighting, lightmapped and stencil based lighting, shader support, mipmapping, portals, mirrors, alpha transparency, reflective surfaces, 3D sprites (frame based or with skeletal animation, also using cal3d animation library), procedural textures, particle systems, halos, volumetric fog, scripting (using Python, Perl, Java, or potentially other languages), 16-bit and 32-bit display support, OpenGL, and software renderer, font support, hierarchical transformations, physics plugin based on ODE.   Physics engines    urlLink http://q12.org/ode    ODE  is an open source, high performance library for simulating rigid body dynamics. It is fully featured, stable, mature and platform independent with an easy to use C/C++ API. It has advanced joint types and integrated collision detection with friction. ODE is useful for simulating vehicles, objects in virtual reality environments and virtual creatures. It is currently used in many computer games, 3D authoring tools and simulation tools.    urlLink http://www.physicsengine.com/    Newton Game Dynamics  is an integrated solution for real time simulation of physics environments. The API provides scene management, collision detection, dynamic behavior and yet it is small, fast, stable and easy to use.    urlLink http://crystal.sourceforge.net/   Powerful physics library using ODE is included too. It is a dynamics modeling and simulation engine.   Scripting engines    urlLink http://www.mozilla.org/js/spidermonkey/    SpiderMonkey  is the code-name for the Mozilla's C implementation of JavaScript.    urlLink http://crystal.sourceforge.net/    Flexible plugin system which allows for plugging in other modules including scripting languages. Python, Perl, and Java scripting plugins are already included. There are also various other plugins (fonts, sound, physics, movie recording, movie playing, ...).    Development environment    urlLink http://www.bloodshed.net/dev/devcpp.html    Bloodshed Dev-C++  is a full-featured Integrated Development Environment (IDE) for the C/C++ programming language. It uses Mingw port of GCC (GNU Compiler Collection) as its compiler. It creates native Win32 executables, either console or GUI.   urlLink http://lab.msdn.microsoft.com/express/visualc/default.aspx   With a professional-grade compiler, code editor, debugger, project system, and more, Visual C++ 2005 Express Edition packs a lot of punch! New and experienced C++ developers alike will find that Visual C++ 2005 Express Edition delivers the tools and libraries they need to write all sorts of programs, from school assignments to game mods.  Obviously, I got some thinking and tinkering to do. Some of these seem more promising than the others, but I will try to go deeper into the APIs and see how various concepts in the game may be solved using the different engines.  The language will most probably be C++, both for the "game developer feeling" and because there are more tools and libraries available for C++ than any other language. I also want to refresh my C++&nbsp;a bit -- it has been too long since last time.    
+    
+    
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+    
+       So how will I progress through this process of creating  Wraith ? I realise there is much to do, and my ambitions for creating a game is nothing less than perfection. While perfection makes perfect, it also might hinder the slow process by dulling my interest after a while.   Because of this:    I will keep the beginning of the process mostly for myself. I'll allow others to comment on what I do, but I will be the entire crew for the time being. I will not start involving other people before I know I want to finish this.  The outline of the story and the game mechanics will be done early, but not too elaborated. I don't want to be entirely alone on this part.  The game engine and making the basic stuff work has the highest priority at the beginning.  When the engine is in place and I've written down how I want this game to work, I can start involving other people and other talents. Primary getting the concept art together, then continuing with involving people eager to make a good game.   As most of the work will be in the interface, the graphics and the sounds/music, I need to involve other people with various talents. Voice actors, modellers, mappers, graphical artist, musicians and writers. I got some names in mind, but I'll leave it for now.  But if you already now know you'll be interested in helping me at a later stage, feel free to tell me!    
+    
+    
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+    
+       H'okay. This is my blog dedicated to journaling the development of my new project: The game  Wraith .  I've spend this morning writing down some of the concepts and ideas I want to incorporate into this game:    It will be a story-driven RPG, where the story is mostly linear. It will not be a powergamer's RPG, it will be the storyteller's RPG.  The player plays a ghost in a fantasy world.  I want to give the player a feeling of sadness and despair. The point is not to scare the player; instead get the player to sympathize with the ghost. I want the player to feel alone.  The player initially gets to play the character's last days alive, then the character as (un)dead.  Most of the story will evolve around an underground settlement in a world of hostile fantasy.  The story may skip in time, as ghosts and death itself don't experience time as living beings do.  What happened? What happens? Why? Much of the story and the game itself will be about finding out what and why it happened. Discoveries and more mysteries.  This settlement decays as time goes by, and the player gets to experience the same area in different time periods. Visit the same area 100 years apart. Much has changed, much is lost.  The character, both in living and ghost form, talks to himself (much like in the games Max Payne): "Wait. Was there something in the shadows?", "I feel the pain." The player will be guided through much of the story by this voice.  I want to avoid large turn-off texts. Think how Morrowind did it, and you know what I want to avoid. Keep the texts fragmented and small. Keep the player's attention, and keep most of the storytelling within the environment the player experiences the rest of the game. No large books to read.  I want puzzles involving time, death and living/dead humans and other creatures to guide some of the story. All sidetracks of the story should be connected to the main story the player lives.  The ghost may find and take over a new living host to interact with the environment.  The visuals and sounds change as the character takes on another form/host: As ghost, the vision is blury and glowing with excess fog, and the sounds are echoing with mumbling/whispering in the background. As a human, the visuals are clear and crisp. As other lifeforms, the character may get infra-red vision, black/white etc., perhaps like in the Alien vs. Predator (1&2) games.  The player can perform only limited interaction with the physical environment as a ghost, but has access to the spirit world (magics, spirits, ghosts, demons, horrors, etc.) Once the player aquires a host, it can interact with the environment in the same way as the host itself would do. Ie. humans can talk, cats see well in the dark, dogs bark.  The environment may also act different to different hosts. Some parts of it may be hostile vs. some (think human factions).  The character advances in skill and potency both in its host forms and ghost forms. This will allow the character to gain new abilities and new ways to interact with the environment.  Fighting will be unavoidable, but not the main part of the game.  The game will utillize a 3d-engine. See a&nbsp;later post on engine for spesifics and thoughts on this subject.  There will be usage of fog and particle effects to create a ghostly feeling to the game. Black fog to create really spooky areas and effects.   
+    
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+    
+       So, I've been messing around with Mozilla's JavaScript engine. I've tried to get it to compile, but with no success. Strange Cygwin errors and crashes and weird makefile outputs has made me abandon this engine.  I'm instead considering the Python engine. Stay tuned!  
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+         I'm the only one left , the captain said to himself, watching the waves from the docks,  the storm took them all. They're gone.   The sea called again. Waves grinning, showing their teeth.  It slowly rose from the seabed.  The delicate hand of a child. His face was flushed and timid. He stared at the captain through frightened eyes. The captain reached for something to hold on to as his face went pale. He recogniced the face.   I'm trying to find my way home. I'm sorry, did I miss you?   The captain whispered back;  I miss you.            (Strongly influenced by Slint.)     
+    
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+    
+       I plan to get two tech releases done independent of the game and story concept. The first will consist of the very basic stripped-down engine with the tools needed to construct a game on top of it. The second release will be the same basic engine modified for crossplatform development.  These will be internal releases.   Tech Release 1 will consist of these features:     Buildable on Win32.  Mozilla SpiderMonkey JavaScript engine built with libraries.  Scripting engine allows reading and execution of script files referenced from entities and other scripts.  Basic API available for the scripts to access: Write message to player and change posititon of a Physicalobject.  Irrlicht 3d engine built with libraries.  Newton physics engine built with libraries.  A BSP rendering engine.  A FGD file containing the entities Particleeffect, Playerstart, Scriptarea and Physicalobject.  A entity reader reading the four entities from the BSP file.  A basic map containing a couple of rooms, textures and the four entities.  Mapping instructions for Hammer, QuArK or another mapping tool.  Two different models for Physicalobject which will be placed in the map with different physical properties.  Working entity Particleeffect: Places a particle generator, and reads attributes from a given file. File can be edited with the tool Particleeditor.  Working entity Scriptarea: An entity where scripts can be tied to onEnter and onExit. They trigger when other game objects enter/exit the area.  Working entity Playerstart: Defines where the player starts when this map is loaded and (re)started.  Working entity Physicalobject: Any object that obeys to the laws of the physics engine. Must be given a model and initial physical attributes (friction, inertia, etc). Ie. a box.  Player can move within the map, and is affected by the physics engine.   Tech Release 2 will be     Buildable on OS X.  Buildable on Linux.   We'll find out which direction we'll go after this. The engine should be mature enough for content to be created on it.  I should mention that I've gotten two people with me on this now: Tobias Johan will be a creative support and be in charge of the OS X port, while David will be a co-programmer and in charge of the Linux port.   
+    
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+    
+         The scene is told by a narrator as the player plays the character. Experiencing both a first and third person view.        [Fade in from white. Heartbeat and panting.]    "Must run" he whispered to himself.    [Player has "darkness" chasing him down a set of narrow coridors. Candles turning out as the player runs past them. The darkness is visualised as black fog/smoke quickly gaining in on the player.]    The candles turned out behind him. There was nothing to do but run. He could hear the distant screams. The screams of a thousand lost souls in their never ending pain and agony. "Must run" he panted, "must run!".    [The sounds of distant screaming getting closer as the darkness gets closer. The darkness will keep up and close in on the player.]    Then he saw the door. It was open. "Run through! Close it!" his mind yelled at him in panic.    [Player sees a door, slightly open. Player runs through and enters a dark room where only the senter is lit by a candle. The black smoke starts to slowly pour through the door.]    It could taste his panic now. It could smell his fear. He felt the chill.    [The walls in the room are veiled in darkness, the candle dims and eventually everything fades out as the black smoke covers it all.]    Then nothing.  
+    
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+       Enormous research progress today. I know now how to parse .BSP files to retrieve its entities, how to build .FGD files to use with various map editors (like Hammer and QuArK) and how to reference textures.  Next on the list is to get the scripting engine somewhat woven into this. I plan to make it possible to tie entities to scripts directly from the editors. That would kick some major behind.  I should find out how to get .WADs working with all this too.  I also found a couple of particle editors (from the irrlicht forums) that allows real time editing of particle generators. I plan on using these as tools when creating content to this game.  This is so cool: I'll be able to build a game engine and expose the features to the people creating content through the scripting engine, a BSP mapping tool and a couple of small additional tools. Dig it!  
+    
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+       I've already written one very short story and outlined some of what I want this game to be, but I believe more is needed. Let's build the rails the storytelling train will run on. Feel free to lend me a hand in any of these areas. I'm open to all suggestions.   Concept art  Drawings, 3d renders, paintings. Everything that somehow visually describes the mood, the setting, characters or the plot in the game.   Concept texts  Short stories, novels, poems, one-line-mood-setters, conversations and character descriptions. Everything that by text describes the mood, the setting, characters or plot elements in the game. I've already written one short story in a previous post. It doesn't have to be something actually usable in the game.   Story outlines   How the player progress through the story. What happens and when, and in what sequence. What has happened before and what will happen. It can be a rough outline or detailed descriptions.   Musical/sound themes  What kind of sounds should be used? What kind of music? Create new sounds and music, or put up a reference to a CD track that fits the mood perfectly. When should the different musical pieces be used? Does it change (moody piano to Aphex Twin) when the plot twists, or should an ongoing theme (think StarWars) be used? How should voices be used, and what would they say?   Scenes   Any good idea to any scene a player would experience should be written down. Include descriptions, how the player experiences it, sounds and music, changes in vision. It can be both closely related to the story and just a good scene to experience at any time.  I'll start doing all of these myself, but if anyone reading this wants to help; feel free to do so. I'd be happy to include any creative thought, idea or contribution. My talent is programming, not writing.  
+    
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+       Behold! The first screenshot, including a rendered .bsp and a floating square magical particle ... thing. Just as an experiment, that is. I'll do some fog later on.       
+    
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+       Haven't been able to download Crystal Space and compile it yet, so I've been playing around with Irrlicht for now. Spent some time researching various standard C++ functions I'd forgotten, but I guess that's a part of the game when you haven't programmed in that language for almost ten years.  What I've accomplished so far: Loaded a random .bsp file with textures, rendering it and using a built-in Irrlicht camera to zoom around the map with. A basic UI featuring a fps-counter in the top left corner is also implemented.  Now I'll try to access the various entities within the .bsp file and research fog/particle effects for the engine.  
+    
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+    
+        When did this happen? How long have I been here? I don't know. I can't feel time anymore.  My eyes are veiled as they were filled with tears. All I can see is the blur of the shapes around me. Are they my family? The distant voices sometimes remind me of people I knew.  But I've stopped trying. There is no point anymore. Focus on the voice you believe to be your mother crying, and she will fade away. The harder I try, the further they slip away. No, I can't stop trying. They can't get away. I don't want to be here, alone and cold. Wake me up!  "Wake me up!" I cry. I wish I could cry. I have no tears left, or I never had any.  I have a memory of a cat - I think it's my cat - as it jumps around trying to catch the toy hanging from a string. I'm holding the string. No, it's not a cat. It's a kitten; curling itself on my lap and going to sleep. Sleep in the red pool. Throw in a coin and make a wish. I wish I had a coin.  Once again I hear a distant sobbing of the little girl. I whisper to her.  "I'm all right. I'll soon come back. Shhhh, I'm all right."   
+    
+    
+</post>
+
+
+</Blog>

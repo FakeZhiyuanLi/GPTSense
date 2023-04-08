@@ -1,0 +1,157 @@
+<Blog>
+
+<date>21,June,2004</date>
+<post>
+
+     
+      Here it is then. The start of my blog. It is aimed at nobody but is available to anybody that can make use of things that interest me.   My first comment has to be about a product that I find excellent and I don't know if you have come across it but if you haven't then you might consider taking a look at  urlLink www.thebrain.com . Here you will find a wonderful piece of software that I used during a presentation at SQLPASS a few years ago. If you have heard of Tony Buzan and his mind maps then you will find this software moves towards helping you to create such things of your thoughts as well as your access points for knowledge, whether they be on your own hard disk. On a network drive or on the intra/inter or extranet.      
+     
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+     
+      Microsoft is making available a cool tool, which is available as a free download. It makes searching for data in MS Outlook much more informative than it may previously have been. Check out the warnings on the page!   urlLink http://www.microsoft.com - Download details: Lookout V1.2 .  It is truly amazing what even the threat of competition can do :-) Another one we owe to 'Google' I suppose. 
+     
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+     
+       Whether we call it intuition, where the analysis is done subconsciously, or data mining, which is the opposite end of the scale, we need data available in the relevant format.&nbsp;With intuition, the data is absorbed continuously, over a period of time, and the brain filters and arranges based on experience, which is why no two business people will&nbsp;present you with the 'same' understanding, unless they got it from a book, where you could look as well. With DM&nbsp;we&nbsp;sometimes even need to know&nbsp;what we are looking for, and the data we need to look in, before we start the searching. Why? Because we are trying to confirm something to aid our understanding of the situation represented in the sample data being used.  &nbsp;  Since we can't be all things to all people, thank goodness that there are people who are prepared to fill in the gaps for us.  &nbsp;  With this in mind I will sometimes place links here to areas where I have found valuable&nbsp;data in the past, and where I think others may also be able to derive benefit!  &nbsp;  Here we go with the first of these:-  &nbsp;  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Summary Results from The OLAP Survey 3 Sponsored by: Microstrategy ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Download "Summary Results from The OLAP Survey 3" and get insight into actual customer experiences with various BI products. Through statistical data, you'll learn about the product capabilities and support that you can expect from a range of BI products and vendors. You'll also get an overview of different vendor's implementation time scales, query performance, Web deployment rate and more. Download here:  urlLink http://searchDatabase.com/r/0,,30691,00.htm?track=NL-255&amp;ad=486908&amp;Microstrategy " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Change Data Capture - Next Generation ETL Sponsored by: Attunity ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This white paper provides an overview of change data capture (CDC), the most current and effective way to integrate your shop's data. Download now and learn how to maximize the efficiency of operational data extraction, minimize resource usage and minimize the latency in the delivery of the changed data to potential consumers. You'll also read about a unified solution that can help your organization achieve successful bulk data movement, change data capture, federated data access and direct data access. Download here:  urlLink http://searchDatabase.com/r/0,,30714,00.htm?track=NL-255&amp;ad=486908  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Data Caching Strategies for RDBMS Applications Sponsored by: ObjectStore ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Learn how data caching can help your organization go beyond its existing IT infrastructure. Download "Data Caching Strategies for RDBMS Applications" and learn the fundamental concepts of middle-tier caching and how your shop can increase the scalability, consistency, and recoverability of existing enterprise information systems. Download here:  urlLink http://searchDatabase.com/r/0,,30713,00.htm?track=NL-255&amp;ad=486908 &nbsp;&nbsp;&nbsp;  &nbsp;  
+     
+    
+</post>
+
+<date>14,July,2004</date>
+<post>
+
+     
+      Whatever you feel is best is fine by me. I find that the biggest problem people have is the amount that they are expected to learn these days. If you can't get on a live course for whatever reason, then take a look at this  urlLink 'sample'  list of eLearning courses . If any of them take your fancy then you can always go to the  urlLink QA site  and book one.   
+     
+    
+</post>
+
+<date>10,July,2004</date>
+<post>
+
+     
+      Sounds like something out of StarTrek doesn't it.  I really believe that working in teams is better than working alone. However, I don't think that being in close proximity physically is a requirement of such success. I think tools like the one here at  urlLink Help  HalfBakery are an excellent example of the way things start out small and then grow into something of value. It is currently just an area to play. A bit like WebLogs really, however, it goes that one step further because it assumes some interaction as opposed to being an individual broadcasting.
+     
+    
+</post>
+
+<date>10,July,2004</date>
+<post>
+
+     
+      I have tried the Microsoft Web Data Administrator as an interface to SQLExpress, and it is fine, but I have decided to use  urlLink QALite  from now. It allows me to work much faster than having to go through the Cassini Web Server. It is a free download and comes with documentation at the link provided in this entry.
+     
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+     
+      Latest Microsoft patch does not plug all holes  It would appear that another sharp individual has decided to become a thorn in Microsoft' side (forgive me English is not my first language). It is amazing how people will jump on the bandwagon thinking they are helping but actually make things worse. Face it, we need an Operating System otherwise we would be at the mercy of hardware vendors. Ok so Microsoft OS's are not Open. However, does this really matter, I personally don't think so. Any more than I agree with the argument that Unix is not so good nowadays because it is not Open either "since there are so many variants of it, and it is more and more controlled by few and fewer". It is amazing but I have been at the receiving end of arguments with people on 'both' sides of the fence? Just in case you are wondering I don't usually partake in these arguments. The funny thing is, with passionate people it doesn't matter what you say, if anything. They have enough energy to include you in their argument as long as you are prepared to sit and listen to them. Then depending on how much they were allowed to re-enforce their beliefs in your presence they will either be friend or foe.     Computer Weekly, 7 July  urlLink Link  Microsoft's effort last week to fix a vulnerability in the Internet Explorer (IE) web browser program and end the latest series of internet attacks does not address another closely related and dangerous vulnerability, according to a security specialist.  Dutch security expert Jelmer Kuperus published code on the web last week that he said can be used to break into fully patched Windows systems using a slightly modified version of an attack called Download.Ject which Microsoft patched last week.  The latest attack targets a hole in a different Windows component than the one addressed by Microsoft's software patch. Using a similar attack, malicious hackers could break into even patched Windows machines, Kuperus said.    For those that think that Unix administrators are gods there is a shock in store in the near future. It is not them it is the business people who employee them and the laws they are controlled by, which are designed to get rid of mistrust which causes friction in the money machine.   Linux access rights expose CIOs  urlLink Link    Computer Weekly, 8 July  June was a big month for IT directors of companies listed on any of the US stock exchanges, including UK firms, or having a close business relationship with a company listed there. The Sarbanes-Oxley Act of 2002, which covers the need to protect the integrity of information provided to investors, set a deadline of last month for various criteria to be met. According to Bloor Research, at least one chief information officer's neck is already on the block because he could not show adequate tracability of who did what to critical financial data and processes under his control. Similar legislation is appearing in Europe. Commercial organisations will have to be able to demonstrate that they control who has access to what critical financial information and when. In the US, non-compliance can result in fines or imprisonment. And what the US is doing today will happen here tomorrow. It is time to review the issue, especially if you use Unix or Linux systems, which require administrators to have access at a level that allows them to view and change critical data without being audited.   Talking about money machines and friction, we could use a bit more here in the UK. We need more to buy some more Satellite dishes, and stuff. It is difficult to get the house looking right with a dish just on one side. Then we can spend twice as much time watching those silly adverts on the children'? Channels. You wouldn't believe what you need until informed about the need by your children. One wonders whether the money machine is not working properly because of the lack of it in the right places. But then it may not be an illness at all, it may just be bad sampling of the population.     UK IT staff say 'show me the money'  urlLink Link   Money, not work-life balance, still matters the most for UK IT staff when it comes to new jobs, according to a worldwide recruitment survey.   But the UK and Singapore are alone on this with workers in other countries opting for training and work-life balance as priorities.  The poll by recruitment consultancy Robert Walters surveyed 8,000 people globally across IT and non-IT fields. The overall results showed 34 per cent found ongoing training and personal development were most important and 32 per cent said work-life balance. Money came top for 26 per cent while just eight per cent were more bothered about the benefits package.    Ah so that’s why they need the money. They want the training they feel they need rather than going on courses they are told to go on!   IT staff sign up for Linux summer camp  urlLink Link   An increasing number of IT professionals are giving up sun, sea and sand to attend intensive summer-camp training courses in technical skills, especially Linux.   Accelerated learning specialist The Training Camp said that it has seen demand for its residential IT courses double this summer compared to last year.   The company runs fast-track courses throughout the year, many of which are paid-for by attendees' employers.  Training Camp co-founder Robert Chapman had noticed a marked increase in the number of people taking courses privately during their annual summer leave.    Thank goodness for the Meta Group report below,  you would almost wonder what was going on unless you commissioned a report and read it. Perhaps the problem is in the term 'IT organisations'. Outsourcing the IT groups to someone that can do what you can't, better than you. But then if you can't do it sufficiently acceptably then how do you measure how well they are doing it? Oh don't mention it but it is all built into the system ha, ha, ha   Balancing benefits with burnout for technology staff   Employee burnout and frustration with long working hours, limited growth in personal pay and fewer bonuses to go round are some of the issues highlighted in Meta Group’s 2004 IT Staffing and Compensation Guide, a comprehensive study of more than 650 information technology organisations. Most significantly, the study found that IT organisations were having difficulty in maintaining and developing skills in key areas to keep projects - and profits - moving forward.  Among the many areas of concern, few are as evident as employee morale. More than 72 per cent indicate that low IT employee morale is currently a serious issue in their organisations - a problem that could spell longer-range increases in staff turnover, lower productivity, and less overall shareholder value to the organisation as a whole if not addressed.   Worried, I can understand that.   Did you know there is a phobia for most letters of the alphabet, you don't believe me. Then take a look at this  urlLink Link   Ranted out AJ :-)   PS If you made it to here then I hope you are smiling.   "What are fears but voices airy? Whispering harm where harm is not. And deluding the unwary Till the fatal bolt is shot!" ---- Wordsworth    
+     
+    
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+     
+      Hi if you look at the SQLExpress Web Log  urlLink here  you will see that a new product for administering SQLExpress will be released as part of Beta 3. However, I just downloaded the Web Data Administrator from the Microsoft download site and it seems to work just fine. There are two versions so if like me you are using a virual machine then you can download the Cassini version which has a smaller footprint.   urlLink Click Here  for the Cassini version of the SQL WEB Data Administrator 
+     
+    
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+     
+       urlLink Buzan Centres - Mind Mapping - 
+     
+    
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+     
+      Something that has always interested me is how some people can excercise like mad and get nowhere while other people don't even bother to excercise and appear quite fit anyway. A few months ago I was talking to one of the other instructors who is into Karate and he told me about some excercises that he does which are supposed to be excellent for you. He had got to the point where he was doing hundreds of these a day. I followed up the lead he provided and finally came across the Five Tibetans.   It would appear that the Budhist monks needed to keep their physical energy primed while spending hours and hours observing their inner workings.   This may seem easy to someone who has never tried meditating, but all of the guys in the class a few weeks ago who were expected to keep still for two hours revealed to themselves the truth about the difficulty of keeping still if you are not fit for it.  There are 5 excercises, combined with breathing and meditation, which were designed to provide these budhists with he requisite energy. They have become to be known as the 5 Tibetans and they are movements that are designed so that 21 repetitions of each will eventually build the energy that you can use while seeking deeper meaning to your life. Alternatively they will give you endless energy to increase the reps instead. You invest the 21 and reap the rest - Either mental or phyiscal, it just depends what makes you tick :-)    urlLink Five Tibetan Rites 
+     
+    
+</post>
+
+<date>13,August,2004</date>
+<post>
+
+     
+       urlLink Show Zip : "Task: Crystal Reports VB-SQL Writer/Helper. The application writes code for anyone developing using crystal reports and SQL Server. It generates the necessary 'TTX' and the 'RPT' files from an SQL statement, and then writes all the necessary Code into a window. You can then copy-paste it into a form, and immediately use it in your application. You must have Crystal Reports to use this great tiny app."
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+     
+      Get  urlLink FxCop :  "another great tool from those nice people at Microsoft. It is a code analysis tool that checks .NET managed code assemblies for conformance to the Microsoft .NET Framework Design Guidelines. It uses reflection, MSIL parsing, and callgraph analysis to inspect assemblies for more than 200 defects in the following areas:  Library design Localization Naming conventions Performance Security  FxCop includes both GUI and command line versions of the tool, as well as an SDK to create custom rules."  It forms the basis of their code conformance checking tools in Visual Studio 2005 Team System !   And its currently free :-), with terms of course which you can read at the link site.
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+     
+       The Attach database wizard   Just a little comment on the machine computer interaction during the attach database wizard in SQL2500 when attaching a single file database. The wizard seems happy enough to deal with the fact that the log is missing and uses the correct procedure to attach the database but it needs to be informed that the log is absent. If it detects this for itself by looking in the header of the data file then an error occurs. The wizard correctly renames the physical pointer for the .MDF file but leaves the .LDF file as it would have been when it was orirginally created.  The message is a bit cryptic but it means that the wizard detected that the log was missing but it used the information from the primary device about where the log should have been as a default. If you want to create a brand new log file then simply delete the entry for the log file from the list and click on ok.   Scripting Wizards   One of the problems with using the wizards in the past was that if you had to do the same procedure at a later date or on multiple machines then there was no option of simply re-running a saved script. This could be remedied by scheduling a job and then saving the resultant script, or as many people did, using the profiler to capture the script while the front end called the appropriate stored procedures. It is nice to see that now the script can be generated for the wizard by clicking on the script button. What a nice feature.  
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+     
+      When I was asked to create this blog I thought that it was just another way of creating lots of data, in a self satisfying way and was not very keen. Then I went through a process of dealing with my defenses and started thinking that it was a great tool and started putting all sorts on the site.  This led to lots of stuff which reminded me of the research that one of our tutors at University used to refer to, conducted by  urlLink George A. Miller , which can be located  urlLink Here . This research seemed to indicate that complexity decreases a human beings ability to absorb data unless the number of elements being handled is kept at around seven. I have always used this number when teaching people about design principles to control the level of detail at a given level of design. A little guidance for abstraction if you like.  Now with WebLogs there exists the possibility that we destroy what we are creating as we create it, by introducing too many elements to go back and deal with the creation adequately.  Then I came across RSS which is one of the XML dialects for siphoning web feeds into other web feeds. Then I read on this site that it is 'fixed' but out of date and work is now progressing on a development initiative called atom which is to be the future RSS .....  To cut a long story short, if you find yourself hunting around Weblogs by typing in the URLS manually, then get and install  urlLink Sharpreader.net  it is a free tool which you can use to subscribe to sites that display the RSS or XML icons. Or those that the Weblog service provider ensures are available in a compatible format, like this site :-) 
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+     
+      When August 19th, 2004 at 12:00pm Eastern Time which is the same as saying 4pm in the Uk me thinks. A chance to stay late in the office #:-), even if you have broadband available when you get home, you will never get there in time. Unless you are working from home of course.  Just click  urlLink   here  if you want to find out about the sponsors of the WebCast first   urlLink here  to go to the event. You can be as much as 15 minutes early if you wish 
+     
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+     
+      So much to learn and such little time to do it. Well here is another link to help you if you are feeling pushed up against the .NET   urlLink .NET Learning Guide 
+     
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+     
+       urlLink MIT OpenCourseWare | Our Story : "MIT OpenCourseWare (MIT OCW) is a remarkable story of an institution rallying around an ideal, and then delivering on the promise of that ideal. It is an ideal that flows from the MIT Faculty's passionate belief in the MIT mission, based on the conviction that the open dissemination of knowledge and information can open new doors to the powerful benefits of education for humanity around the world."
+     
+    
+</post>
+
+
+</Blog>

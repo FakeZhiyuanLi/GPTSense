@@ -1,0 +1,1 @@
+Grace Hopper's Harvard Mark II computer was famously "shorted" by a moth, which led to the popularization of the term "debugging." The actual moth that caused the problem was removed from a relay and taped to a log book, which is now preserved at the Smithsonian National Museum of American History.

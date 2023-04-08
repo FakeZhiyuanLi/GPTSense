@@ -1,0 +1,48 @@
+<Blog>
+
+<date>28,May,2004</date>
+<post>
+
+
+       
+      Hello, my name is Tom Janssens and I am an independent ICT-consultant from Nevele, Belgium. The main idea of this blog is to offer tips and guidelines to small and medium enterprises regarding ICT.  Having several years of experience in ICT for SME's (check out my  urlLink resume ) I have noticed most SME's are looking for guidance, and have no idea of new trends, what to trust, what's hot and what's not in ICT.  This blog was started in order to guide you...  And for the people who were allready familiar with my former blog : welcome Back !!!
+     
+
+    
+</post>
+
+<date>28,May,2004</date>
+<post>
+
+
+       
+      Due to inapropriate behavour of our former blog service we've decided to migrate to blogger.com. To broaden our audience we've decided to write our posts in English from now on  You can read old posts (in Dutch) @  tblog.com   Happy reading !!!
+     
+
+    
+</post>
+
+<date>28,May,2004</date>
+<post>
+
+
+       
+      While searching for some info for some workarounds I stumbled on the famous  urlLink "Googlewhack" . Goto google and type :  Nullable UITypeEditor  or just click this  urlLink link   Too bad this means that no solution is provided for my problem ;-)  
+     
+
+    
+</post>
+
+<date>28,May,2004</date>
+<post>
+
+
+       
+      A user-interface is one of the points that makes or breaks your program when users start to work with it. Millions of euros are being invested into programs that never get used, since the users find it un-intuitive. Most ICT people tend to think in abstract concepts like objects and relations due to their education, while most users think in terms of a process.  In each business you can identify several business processes. Let's take an order for example: -The  company  receives a  customer 's  order  for several  items . -The  company  arranges a  delivery  for the  order . - At the end of the month  the an  Invoice  from the former  Delivery  is being sent to the  Customer . -The  company  receives a  payment notice  for the  order .  Of course this is not a complete process, the customer could cancel the order, or the delivery could fail, he could refuse to pay, or only pay a part of the invoice, ...  Most programs offer a view on the words in  BOLD , called objects . While you can input all different steps noted above in such a view, it's hard to keep an overview of what you were doing, especially if it's been a few weeks since you last touched it. You have to examine his orders/invoices If you remember you still need to do something...  In order to solve this problem we need to look at it from a different point of view.  People think in processes and their phase it's in. In this case we have the following situation:  - 3 initiators :  Customer / Company / End of the month - 4 steps :  order / delivery / invoicing / payment  - all of these steps could have different states :  Pending / Busy / Finished / Canceled (note this is a simple example, and we could have several other initiators, steps and states for invoices)  In an ideal situation, the Company would not be working with customers,orders,invoices, items, deliveries and payments directly, but with processes and their state. That would imply having a wizard for each process, that guides you towards the next step in this process, depending on the initiator and the previous phase/state .  That's where the user-interface comes in. What people really need is a wizard-like form to guide them to the next step.... Please note that most of the time it is not profitable from a return-on-investment point of view for a program to have all the processes directly accessible from a wizard. People should still be able to browse data using the object-interface, but more info regarding this subject will be in my next blog entry.  This article was actually written as a post-reflection to our first version of CUDI (the core universal database). We will now solve the issues noted in this document, and apply them to our second version.
+     
+
+    
+</post>
+
+
+</Blog>

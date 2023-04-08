@@ -1,0 +1,256 @@
+<Blog>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      I posted a link to the PragDave page, where the author explains how playing with throw-away code greatly improves one's understanding of coding and increase the confidence in one's code.  Today I was playing with ADO.NET accompanied with the great book of Wrox guys Professional ADO.NET. Well, things seem a little more clear now, but a migration from ADO 2.x to ADO.NET is a pain in the ass. After 3/4 unexpected failures I got my idea working and I now I feel ready for the real thing.
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+       urlLink Download details: Visual Studio .NET 2003 Automation Samples 
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      Yesterday was a day to remember. I was at the NDK playing pools with triple of friends :) The first one to challenge me was Rado, who conceived himself as a quality player. He let me do the initial balls shattering and I was lucky to get a ball in. My next attempt was successful too. The third ball also fell neatly into the hole... The same thing happened to the 4th, 5th, 6th and the 7th.  Well, this is not the way I normally play and my friends were rather impressed too. I was somewhat growing more confident with each strike and the results were (excuse my word choice) striking.  Unfortunately it was impossible to get the black ball directly after the last ball, so it took me 3 more turns to set it up and put it in... So I guess there is a way to improve... As I expected the following games were far from this perfection. I managed to win the next 2 quite comfortably, but the magic was gone... The last game I lost quite unluckily, but still this was a memorable day :)
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+       urlLink PragDave or how to become a good programmer the Karate way 
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      Very helpful  urlLink Microsoft Win32 to Microsoft .NET Framework API Map 
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      I started this blog merely because I don't have what to do right now. I am at work, but the admin is working on my machine, so I read about BLOGGER in a magazine. In fact, it was connected to Google Toolbar which has some integration with this site (automatically blog FAVOURITES)
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+       urlLink .NET Undocumented: .NET Archives 
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+       Sofia Night Life   Yesterday I went night clubbing with my cousin and another friend of mine. The initial plan was to party together with my friends from FMI so I chose the retry party at Caramba as the most appropriate place for a company of various music tastes. But things went wrong and each of the 5 or 6 people I invited at some stage rejected to come. In fact they didin't miss a thing iin Caramba. We were there before 22:00 but the real thing started about 23:30 so we just drank couple of over-priced Amstel beers and contemplated the beautiful personnel.   We left Caramba at midnight, and after a long cigarette hunt we headed to Deep-Down club which was so full that 30 people were waiting outside (the reason behind that is probably the free entrance, cheap alcohol and stimulating techno music). We gave it up and tried Live House, but finally my cousin lead us to "3 Ushi" club. The entrance fee was 3 leva, but the beer was about 2 or 3 times cheaper then in Caramba. The club was full of nice-looking young people (predominately chicks :) ), dancing at the music.   After having a beer and contemplating the dancing chicks, we were ready for some action at the dance-floor. The music was chill and the atmosphere was more then excellent. We didn't leave the club until it was 3:45 in the morning.. and there were still some people dancing. Well, a night to remember (I add "3 Ushi" to my ultimate Favourites).
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      Friday my boss gathered all developers and told us to drop her a note about our opinion on the issue of "What are developers' responsibilities and how to reinforce them". The subtopic was how to stimulate us to give our best. Of course, it is not difficult to see that the real questions is how to bring projects to success (and why some projects fail). This is a question that has been bothering me a for a long time and I've probably read hundreds of articles what makes a company and its projects successful. The famous  urlLink Joel Spolsky  has some good articles on this topic and his ideas shaped most of my beliefs.   So I summarized all things from my experience and the ideas of other authorities to produce a 9 page long essay which I named "Why Projects Succeed or Fail? Motivation and Responsibility" (it is actually written in Bulgarian). I started it Friday and finished it Sunday for a total of 7-8 hours of writing, including its several revisions. I had a great time doing this and I am pretty comfortable with the results. My cousin Valentin, who is a web developer, read it and found my points very sound. Let's see what my boss will think of them. She probably expects something short and sweet, but there are no short answers to difficult questions. I hope she will have enough time and patience to appreciate this work of art :).  If anyone is interested in reading my essay I will have first to remove the company-related information and then to send it to you. But this can't happen in the following 3 days since I will be outside Sofia (no, I am not hiding for my birthday). So, Thursday I'm  back to work. Till then don't waste your time to check for new posts. 
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      I am happy to say that I have fininshed prepation for the promotion of my .NET Data Access Layer library. I wrote 8 page review with the following topics: overview, how to use, why to use, design considerations, extending it. It shaped pretty good, the structure evolved in such a way that, I think, I made my points clear. I gave up the idea of creating a new project to demnostrate all the potential of the framework (and its simplicity of use :) ) . The current usage of the library is good enough to get the idea, so I just inserted a link to the Visual SourceSafe database (it's funny but that was the first project in my company to use VSS and I am not sure if everyone has a client installed yet).   I am ready to listen to suggestions and comments. I hope I attracted enough interest, especially with the MSDN-like documentation, so let's see what will happen. In the meanwhile I am going to watch the movie "THE MAGDALENE SISTERS" and the gigantic England-Potugal clash.   We are singing for England !!! (but not putting a penny on it)... :)  Oops, I almost forgot! If you are interested in the DAL review documentation and probably in the source code drop me a line to e-mail it to you. 
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      Today I devoted some time to play with NDoc, probably the most popular .NET documenter. I downloaded and tried out version 1.3 (beta) and succeeded to get a good MSDN-like output documentation for an assembly.   The reason I started my experiment with NDoc was to advertise to my colleagues the data access layer I implemented in my first (and only till now) .NET project. The framework is based on Reflection. It uses attributes to map class properties to table columns, in order to build proper SQL statements for SELECT, INSERT and DELETE. But I won’t get in any more details here…   The important thing is that we are starting a new .NET project (which, of course, requires interaction with a database) so I think that much of what I did is good enough and reusable. Don’t get me wrong, I am far from thinking it is the ultimate solution. I guess strongly typed datasets are a great alternative. Moreover even if sticking to this type of DAL implementation has a lot of room for improvements. As you've guessed, this small immature framework can not be compared to giants like EJB and its fellow technologies.   So I know that getting people start using your code is a tough task (unless you are the project manager, ha-ha!). So I have to persuade them that this framework:  (1)	makes them accomplish their tasks much easier  (2)	is easy to learn (and its internal details are easy to understand) (3)	is extensible and allows optimizations (4)	is error free (zero-defects-development is my passion, ha-ha! )  To accomplish my mission I: (1)	Implemented a few easy features, that were marked with TODO comments (for example optimizing SQL command building to use StringBuilder). I just don’t like to answer questions like “Why haven't you implemented…?” with “I didn’t have time” (2)	Doing a little code review to fix some peculiarities in the code (3)	Commenting the code thoroughly and making a compiled help file using NDoc  The next things, I plan to do is to do a documentation of my DAL implementation in a CodeProject articles’s like style (I love the way code and ideas is presented there). I was wondering if I should do it in English or in Bulgarian, but I choose BG to increase my chances of anybody reading it. I know that EN will expand my audience, but my target group is different :)  So I plan to document: (1)	what’s going on in here (framework basics) (2)	how to use the framework (including a sample code with a sample MS Access database with one or two tables. I wonder if I should add NUnit test classes to prove my point, but I am afraid this will be too much for people who have used .NET for a only few days) (3)	what are the limitations (4)	what enhancements I think can be made (uff, there are a lot of them)  Seems to be a lot of work, so let’s get started (no more blogging until I get this done)     
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      As you have noticed after 3 months of silence, I posted few days ago a new post in my blog. And, no, I was NOT in prison for this period … The reasons for my revival as a blogger are numerous:  Recently I became a great fan of blog reading. I started using SharpReader (if you don’t have a RSS aggregator, try it) and get subscribed to more than 20 blogs (primarily software development oriented). So the idea blogging got in my mind again.   Moreover my friend Hristo Deshev (also a developer) started recently his  urlLink blog . And it was powered with Blogger, too. And trust me, when you have someone doing the same things as you, this is a great motivation. You can discuss details about the common activity and deepen your understanding of the matter. So after a talk with him on the ICQ, I signed-in in Blogger and (1) updated my template to a great looking one (2) enabled syndication of my blog to make happy all RSS/Atom users (3) set various other settings to make my blog more usable. Later I even modified the template to add additional links in the right section (argh, I am not accustomed to writing HTML code) and enabled commenting as a reaction to Hristo’s request (NB: only registered users allowed to post comments).   And this is not all. I also have registered recently the domain  urlLink  ivanmitev.com   so even though I don’t have web hosting, I have enabled forwarding to my blog. He-he, masking is enabled too, so it looks like that you are browsing pages in my domain, but in fact you are in  urlLink  immitev.blogspot.com   .   As Deshev points out, maintaining a blog in English, keeps your English writing skills at an acceptable level, so this is another reason to blog, though it may be a bit annoying for Bulgarian readers.  
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      I closely watch Euro2004 (there is hardly a game I missed on TV) and my betting passion shows signs of revival. A friend of mine, recently opened a William Hill account, so I wanted to place a bet there. The coefficients are pretty high compared to Bulgarian monopolist Euro Football and the variety of games is huge. The first matches I wanted to bet were ENG-SWI 1 and CRO-FRA 2. I planned to bet 5$ on the first match and reinvest all on the second. That’s how I would double my money or loose them all. As I predicted, England punished their opponents 3:0 (2 goals by youngster Rooney), but France made a disappointing draw with Croatia. No problem for me though, my friend did not make it on time depositing money in his account, so no loss here.   The next day was the very important match BUL-DEN, and my patriotic feelings prevailed over the reasonable part of my brain, and I was eager to waste 5$, betting for my country. Half-time it was 1:0 for Denmark, but I still wanted to support my team (or probably WillHill J ). I watched the game together with my friend. On half-time he tried to deposit money with his MasterCard and VISA credit cards. Surprisingly a “Your transaction can not be processed” message appeared both times. So my friend contacted WillHill support team which told him that he should have a special permission to use these cards for gambling. He dialed the (free) phones written on the back of the cards and he was informed that the policy is not to tolerate usage of credit cards for betting purposes (an example of wise risk management). Didn’t WillHill know that their customers can not deposit with those credit cards? Probably they did, so why did they leave this payment options on their site? Wicked!  The second half of BUL-DEN started so there was no time to waste with deposit problems. After the final whistle it turned out that, I had saved another 5$, because Denmark scored another goal through Gronkjaer, while the Bulgarian team was far from its best form.   The next match in the group was ITA-SWE. My friend and I tried to find a way to deposit in WillHill or anywhere else before the match start. I was planning to make 3 bets (a) Sweden wins (b) final score 2:2 (c) Ibrahimovic will score. Though (a) and (b) are contradictory, I wouldn’t mind just one of them to happen (especially 2:2 has return rate of about 1:20), but in fact only (c) turned to reality. It was a wicked goal by Zlatan. Unfortunately no benefit for me, since no workaround for depositing was found on time. I was helpful to use my VISA Electron debit card at Eurobet, because it was listed as a payment option there. But it didn’t have a 3 digit code at the back that was required in the payment details form.  So I gave it up (and btw I think I would not have covered the 25 Euro minimum deposit J ).  Well, Euro 2004 continues. Let me make a prediction for today’s most interesting match Holland-Czech. I am with the Czech, Holland are just a bunch of uncoordinated stars. And in football, teamwork really counts. I guess in a software project team with 11 people it will counts as great J… 
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      Probably the topic of this post is not quite accurate. A better title is "Unwillingness of a developer to do repetitative tasks by himself". Developing software for so many years (I am exaggerating a bit) bread a habit in me to automate everything that I can. Yesterday while refactoring a solution, I had to complete two simple tasks: (1) Add 3 new Registry items  at two places (2) Extract 10 tables from an MS Access database to a new DB  The first task was done in a minute, but my problem was that I had to apply the changes in two places. But unfortunately regedit.exe does not have Copy&Paste nor Drag&amp;Drop so I decided to search for an alternative. I spent probably an hour googling to find a good free Registry Editor. After downloading and trying 2 or 3 tools I found the very best. It's called  urlLink Registry Explorer  and it  urlLink integrates neatly  in Windows Explorer. The best of its  urlLink features  are definitely Copy&Paste and Drag&amp;Drop, but I also like that I can add a registry key to my Favourites. It has also search results which regedit lacks and though its UI is sometimes a bit ugly, I will probably forget regedit. If only it had Undo/Redo features and automatic refresh (by hooking to the registry update operations) it would be the perfect registry editor tool.  So the fact is that I wasted quite a lot of time to save just a minute of repetitive work. But I think it was worth. I will be probably more productive in the future. And my colleagues will be, too, since I let them know about the Registry Editor.  For my second task I knew I could create a new .mdb and then copy and paste my tables. They were only 10 and there were no relationships to complicate things. But I found out that in the "Table view" MS Access limits me to selecting one table at a time. Hmm, not very exciting! So I spent 20 minutes browsing an trying various MS Access commands, but found no quick solution to do my task. Then I got the "mad" idea to code this by myself. I thought that using ADOX, I could do the job quite easy. So I started a VB6 project and added a simple form and a class that does the work. I succeeded in creating programatically a MDB. I succeeded in getting all the table schema I needed from the source DB. But it appeared that there is no simple way to copy the structure from one DB to another (unfortunately, it took me 30 minutes to find this out). I was disappointed and decided to make a simpler thing (?) : to write a macro in the source MS Access file to export the tables. I had found a sample with DoCmd.TransferDatabase, which was the thing I wanted. I took me 30 minutes struggling with VBA and macros to make it work. But as soon as I was finished, a shocker hit me. I discovered the "Get External Objects" command under the File menu which solved my problems in seconds.  So it appeared that for my second simple task I wasted another nearly 2 hours to save 5 minutes for stupid Copy&amp;Paste. BUT the truth is that I learned quite a bit about (1) MS Access (2) ADOX (3) various SQL techniques for table schema copying.   The moral of the story  My reluctance to do repetitative tasks by myself cost me more than 3 hours. I was obviously ineffective and wasteful. If I had tight deadlines I would have been sorry for taking this approach. But now I have enriched my experience in many areas and I am able to solve similar problems quite faster. The chances are that it will pay off... 
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      I found this great  urlLink SQL tip  and it is spreading like a disease, because most resources (even the MSDN) that explore the issue "how to extract an AutoNumber value after inserting a new column in a table", have recommended using @@IDENTITY! Now it appears that this is not the best way (it is actually BAD in many occasions). In fact, I had such a bad feeling about @@IDENTITY, so in my Data Access Layer I used "SELECT MAX(col) FROM table" to get the new value. I know that I am relying on the assumption that the new row will have the MAX value in the AutoIncrement field. If concurrently another user inserts a row in the same table the damage will be done, so a better way (but not always feasible) is to open a new transaction for the INSERT. So be careful!
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      I have been listening for mock objects since I started .NET programming. And I found out that there are frameworks like  urlLink nMock  and  urlLink .NET EasyMock  to enhance and make easy mocks usage. But what is a mock and what is not? This great article  urlLink Mocks Aren't Stubs  by  urlLink Martin Fowler  answers the question. And if you don't know what a stub is used for, then your profit from reading the article doubles :)   So, mocks are used for automated testing. And as Martin Fowler makes it clear: Mocks enable interaction-based testing (vs. state-based testing). The explanation of the two approaches is quite interesting. If you read this article (or you may start with  urlLink the original mock objects paper ) you will probably get hooked up. I've always wondered how to write isolated tests that involve interaction with a heavy components that has complex behaviour. Now I see that there are good enough answers...
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      Recently I read the wonderful article  urlLink Continuous Integration with CruiseControl.NET and Draco.NET . If you are unfamiliar with the concept of Continuous Integration, you may want to start with  urlLink this  famous article by Martin Fowler. But in short, I will just repeat that:     Continuous integration is the strategy of making sure that changes to the project&rsquo;s codebase are built, tested and reported on as soon as possible after they are introduced. This assumes several prerequisites:  1) Your code is maintained in a central location, preferably a source code control product like CVS or Visual SourceSafe.  2) You have made a build script of some kind, like a NAnt .build file or a Make script.  3) Optionally, you have included unit tests in the codebase as part of the project.   Once these are in place, you can create a continuous integration environment. This is a central server that monitors the source code repository and springs into action when it notices changes (commits). Its job is to check out a full version of the codebase whenever any part of it changes, run your build file and report on the results. What constitutes a build is up to you; normally, a build is a full compile of all source files, running unit tests and creating the deployment archive.   So the author compares in detail the opensource projects  urlLink Draco.NET  and  urlLink CruiseControl.NET . His conclusion is:    If you are working on a small team with a medium to small sized project, I would recommend Draco. It is light, fast and easy to get going with. The larger your team or project, the more I would lean towards CruiseControl.NET, since it is more configurable and has better monitoring tools, allowing your team members to get access to the data in a variety of ways. Plus, CruiseControl.NET has a large team of developers working on it, which means that though the two projects will probably have very similar features over time, CruiseControl.NET might get them faster (think MSBuild support) .  I will just mention that the article is already a little outdated and CruiseControl.NET has some new exciting features. I haven't tried it for real, but the docs say it all ;) I will probably first employ Draco.NET. But I am still struggling to get my team to prerequisites (1) source control , (2) build script and (3) automated tests. If those are not met, oops! How can I practice continuous integration, when there is no integration effort at all :)
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      Today I found a  great  urlLink blog   There are the posts that are a must read :)  urlLink Hallmarks of a Great Developer    urlLink Hallmarks of a Great Tester   Well, probably nobody is that great all the time they are working as developers or testers. But the important thing is to strive to be :)  His boss is also  urlLink blogging . So check it out. Few posts till today, but good ones!
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      I have just run into this article  urlLink Coding Best Practices Using DateTime in the .NET Framework   and I was pretty amazed how perilous the DateTime can be. I will just quote a sentence in the Conclusion section of the article:  Understanding the nuances of dealing with the class goes beyond what you can glean from Intellisense&reg; .    I had one issue with saving DateTime to a MS Access Database using SQL syntax. I used inappropriate format specifiers when converting to string and the result was that my PM values were stored as AM (13:00 turned 1:00). It was a hard to find bug, because it happens only when storing DateTime after noon. I guess, I was lucky! :)
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      I was searching for some guidelines and useful resources for exception management in .NET when I found this excellent post by  urlLink Mike TreadWell   urlLink Exceptions and Assertions . Ooh, man, the links are precious. I read recently  urlLink Exception Management Architecture Guide  which has some good insights, but it left me somewhat unsatisfied. I have already read some good Code Project articles, listed in Mike TreadWel's post  urlLink Managing Unhandled Exceptions in .NET  and  urlLink  A Treatise on Using Debug and Trace classes, including Exception Handling .   But I had never heard of  urlLink Chris Brumme  and when I read yesterday his 20 page blog post  urlLink The Exception Model . It was too much detailed for me, and there were plenty of things I had never heard of. I was forced to skip huge sections, but still I found many practical advice and explanations of the some exception peculiarities. If you want to dig deep, read that one.   If you want to design your own Exception form (to deal with unhandled exceptions by the applictaion) go look at those very good articles (code supplied). Jason Bock,  urlLink Creating a Reusable Error Dialog for .NET Applications  and  urlLink Display Dissected Exceptions . In my last project I used a simple message box to include exception type, message and stack trace but I admit it was ugly.   Now I plan to get to know  urlLink Exception Management Application Block for .NET  which I may use in my current project. My first impressions are quite good.
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      You have probably noticed that my last 5 posts had no title (I will fix this soon). The reason behind that was that I gave up the Blogger Web UI and switched to free windows application, named  urlLink w.bloggar . What I did wrong was to choose the profile Blogger (No Title) instead of Blogger (With Title) . Before I found this solution, I had wasted 30 minute browsing through menus and asking other users for the problem. Hmm, but finally I am content and eager to post more and more...
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      Two weeks ago Hristo Deshev  urlLink blogged  about source control. It appears that 70% of the American software development teams do not use source control systems. And  Hristo asked the rhetoric question:"Why would anyone want to do this to himself?" The two possible answers are ignorance or reluctance to experiment and change one's working habits. Since in my company source control usage is still an emerging practice (we used VSS in only one project so far) I have to convince some of my colleagues that it's worth it. So I included most of the ideas from Hristo Deshev post's and added some new points about the benefits of transparency etc. I also made it clear that working in a common environment requires more discipline. This also includes using standartized naming conventions (C# language is targeted). Let's hope that my efforts are not wasted...  P.S. If you are interested in this 4 page Bulgarian essay, I can e-mail to you right away.   
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      This is a follower of my  urlLink first article  about my .NET Data Access Layer library and the  urlLink following report  of its promotion status. At this moment the library is being used in my new project by my colleague, who used it in the previous. It fells good that at least someone finds your work usable. But the new usage of the library brought up some new requirements. So I put some new features like transaction support and changed the code it to deal with some connection closing issues. I did a lot of refactoring, too to better separate the concepts and to make the design intuitive.  I also finally made a working sample project that illustrates the most important DAL library features. It uses a simple MS Access database and  two forms that show what's in the DB (the starting form is really ugly, sorry). In order to be a perfect sample I should only add code to demonstrate (1) how to work with transactions and (2) how to boost performance by overriding some functions that use Reflection. I guess I should also include some NUnit tests classes, but wait for the next release. Another thing to reconsider is modificators of functions in DbObject class. I mean which ti declare virtual/protected etc..  The current status of the DAL library is pretty good.  Number of bugs have been fixed, design has been improved and a working sample has been provided. There are a few things in my TODO list, but they are not critical currently, so I won't bother to implement them. If you are interested anyhow in using the library, I am ready to e-mail it to you. It includes (1) Library code and a sample project (2) A explanation of the ideas in bulgarian (a little outdated but a version history is provided) (3) great looking MSDN-like documentation.   
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      YES, YES, YES Greece punished Portugal and won the cup. Organization prevailed over talent... And I prevailed in my friends' Euro 2004 prediction game. I was the only GRE supporter this round and that earned me the prize. I don't know what it is yet, but at least my victory showed that I could earn something from soccer predictions. Well, actually I've given up this activity long ago. I don't lose much, but rarely I win much, so it's kind of a waste of time...
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      Yesterday I climbed  urlLink Musala  (2925) and now I should leave the boundaries of Bulgaria to get any higher :) It was a one day trip starting from 7:30. We were at Borovetz by 9:00 and then four of us (me included) walked straight to hut Musala, while the others three took the lift to Yastrebetz and then had an 1 hour pleasant walk to the hut. My companions were two guys who each weekend climb mount Cherni Vruh (2290) training for their Elbrus (5633) expedition and the other one was a girl, who spends most of her summer time in Bulgaria hiking. I have not been hiking for months (though my fitness was not that bad), so their tempo was very hard to keep up. We reached our milestone in 2 hours and 15 minutes which is twice less then the map said :) I somehow survived that and afterwards all was easy. One more hour to the next hut an one more to the mount and we are there. He-he I imagined it would be harder, but there was just a little snow and passing small rivers here and there, nothing special. I forgot to put a stamp on my tourist card, but I will sure go to Musala again, so till the next time... :)
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      A week ago I made a post about my implementation of a urlLink  Data Access Library for my first .NET project . Recently I found and read a very good document of ADO.NET usage. It is  urlLink ".NET Data Access Architecture Guide"  from the splendid series of articles 'Microsoft patterns & practices'. This document is just a great starting point and  companion through your ADO.NET programming. Many interesting topics are covered in there: connections, .NET Data providers, stored procedures, performance, datasets, transactions etc.. There is no need for me to repeat the TOC,  just take a look at it. Definitely, the document is written by experts and there are a bunch of useful tips and recommended practices in there. Different scenarios of using ADO.NET are described, depending on project's requirements and flexibility/performance tradeoffs. After reading the doc, I think I should make some changes in DBHelper DAL library.  I have dozens of ideas how to improve it and how to prepare some useful recommendations how to use it. I hope I will do what I've planned, when I am not that occupied...
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      Today I am heading to  urlLink Pamporovo  for my one week vacation. I am thinking of getting some good rest and a lot of fresh air.  The weather forecast is not very encouraging about the first couple of days, so I am taking with me some books to read. One of which is  urlLink The McKinsey Way  which my friend  urlLink Issidor  lend to me. I already read the first part (out of five) and there are some good insights that can be applied to any problem solving business. The chapters are short and sweet. it's a good piece of writing.  The next book in my bag is  urlLink C# Programmer's Cookbook . Reading this book is intended to boost my C# productivity. I don't expect any great insights.  Just good examples how to handle everyday coding challenges in C#.  I definitely need to get  a better understanding of Unmanaged Code Interoperability and much more. This book may make it easier for me.  I am also taking with me the  urlLink The 22 Immutable Laws of Marketing For Geeks  by Eric Sink which is just a series of 22 articles. This guy has a great  urlLink blog  that is just a must read. I remember I had read two of his articles a while ago. But this weekend I got a chance to read a lot from him and it was really worth it. Now I syndicate him to make sure I don't miss a thing :)
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+       urlLink    Picture Test  urlLink     He-he, finally I tried to add a picture to my blog, using the Hello program together with BloggerBot and apparently it is working. I am glad that there is a convenient way to post pictures in my blog. I have to say that the UI of Hello is rather peculiar and I am not actually sure how I managed to complete my first mission :)   I also have to acknowledge that Blogger's new features to compose posts are really good. WYSIWYG is the thing I wanted. I don't have to deal with HTML any more. I used w.blogger till recently but I had to work with HTML and then had to click Preview, while in Blogger I am actually seeing what I am working on. Feels good that I have to open the HTML window only to do some complicated formatting!  The new shortcuts in Blogger are also useful! I have nearly a desktop program user experience, and now I feel I can do well without w.blogger. It is a neat program but it is far from perfect. Especially its spell checker is terribly dumb, but let's not critisize since it is a free :) The Blogger spell check is also a bit queer. It does not recognize the word "blog" :) 
+     
+    
+</post>
+
+
+</Blog>

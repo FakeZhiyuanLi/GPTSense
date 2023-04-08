@@ -1,0 +1,1 @@
+Prokaryotic genes typically have coding sequences that are uninterrupted (i.e., no introns) and that are typically shorter than eukaryotic genes. They usually have a Shine-Dalgarno sequence upstream of the start codon that helps in the initiation of translation. Prokaryotic genes may also have regulatory regions such as promoter and operator regions that control gene expression.

@@ -1,0 +1,344 @@
+<Blog>
+
+<date>30,June,2004</date>
+<post>
+
+	 
+      Three Dot Three is next KDE release. Alpha 1 and beta 1 quite suck so how will we make it? As Boudewijn says in his blog, there is a certain number of big bugs. Are developers already focused on 4.0, are they always running forward and don't they never take time to totally finish their programs? The Quality Team in which I put my hopes seems quite dead. It could have helped polishing things. Finishing a prog is boring, yes, besides the developer knows it too much and cannot see its flaws. I guess aKademy will refocuse development.  I spent a lot of quality time with my youngest daughter today: she cycled while I followed roller blading (yeah, keeping in shape...), we played in the swimming pool, we watched a bit of soccer. Kids that age are amazing, always happy to do things, eager to understand the world around, un-tainted by society. It's also the ask-questions age and after asking me at length about microbes she suddenly startled me with "why are we alive?". And looking in her big brown eyes, I was speechless .  'All I know Time is a valuable thing Watch it fly by as the pendulum swings Watch it count down to the end of the day'  
+     
+
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+      It's useful to read Planetkde.org. I enjoyed a great revue of Farenheit 9/11 and I got the results of the Canadian elections. Though living in Canada, I don't care as I have not the right to vote (not being a CITIZEN) but nevertheless I pay taxes... Let's leave politics... Back to KDE. End of freeze should see the stabilization of all apps. I note that the Quality Team seems more or less dead... I'm debugging Kalzium, too bad I don't have a chemistry course soon. I'm trying to get the kdeedu docs all up-to-date, developers really have to get kicked to write docs (except Cies for KTurtle, the doc is superb).  I'm still marvelling at the power of the internet and its impact on our every-day-life (in my house at least). The kids all go away when I start "before the Internet...". But I can print a map to get me to that cinema they want me to drive them, I can book their tickets, can chat with total strangers, can see my bro online with my webcam (though not on linux) and so on. That was a revolution for me and it's the tool that allows KDE to be. I just love it, can't live without it. 
+     
+
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+	 
+      Ok, I have this weird bug: when I select Kate -> Save as, I enter a file name and after the first character, Kate freezes and I have to kill it. That's in Keramik. I changed to Plastik and then everything is frozen (during the night it striked me it was a Keramik bug and changing style would make it go away...) So in fact it's worse in Plastik. Therefore I am reinstalling everything because it seems no one else reported that behavior. We'll see what's happening. Reinstalling from time to time is good because you have a clean desktop and can spot bugs more easily (I also rename my .kde to .kde.oldx x being 1,2,..., n,,,) So we'll see in a while what's going on. Hmmm, in fact it's still there. I cannot believe it's only me! I rm'ed my $KDEDIR and still I have this! How can this be? I made my kdeedu commits, it was about time, I feared to mess it all locally.   Weather is still not summer-like. Hanging on... Was good to talk on IRC yesterday's evening, thanks!   'just look around you now and tell me what you see  a world full of treachery skies of silver and seas of gold  the past is young and the future old'
+     
+
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+	 
+      I'm restless. Weather is windy, KDE is freezing and I feel empty. I don't like summer when the day's not perfect. I feel cheated. So when will I be able to commit again? Seems like I'm addicted. Maybe KDE is taking too big a place in my life. I'd like other bloggers to reflect on this. Is KDE eating your life? Is it filling it? Is there a right balance between so-called-real-life and our screen-and-code-and-virtual-community? I think I'm just depressed because I cannot go to aKademy. I would love to meet you all people, to share ideas with you, to make them happen, to see them coming to life. Life's not fair, I beg you to stay in contact via IRC, please, don't leave me out!  'I don't know what's worth fighting for  Or why I have to scream'
+     
+
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+	 
+      I dreamt the black veil on the world will clear I dreamt our love is still there, no more fear I dreamt all tears will for ever be drained I dreamt no more such a pain I dreamt life is not in vain  I dreamt I would never woke up...  'Every time that I look into the mirror  All these lines in my face getting clearer  The past is gone  It went by like dusk to dawn  Isn't that the way  Everybody's got their dues in life to pay'
+     
+
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+	 
+      Due to the freeze probably (we are getting restless) we (mainly uga and me) had a heated discussion on IRC about unser/auto+make. This begun with KStars not compiling with automake for some kernels. Then it was pointed that the kdeedu module does not compile with unsermake. At which point I got a bit fed up and stated that unsermake is not a kde requirement and is not well enough documented and only used by a bunch of geek-developers. So my priority is to make the kdeedu module compile with automake, to kill bugs, to improve docs and to have clean interfaces. Unsermake might be nice but should I go for it? What if the make fails? How will I fix it? I'm not annma-coolo as far as I know... When unsermake is official and users use it then I'll build my module with it. Until then, well, I just begin to master the Makefile.am-automake-language so I'll stick to that for now. The problem with KStars is that it uses v4l for telescope and camera support and it was me that allowed it. I did not see farther than my nose as we say in French and did not enquire to other wiser developers about that. So this KStars indi stuff is entirely my fault. Mea culpa.   urlLink Kstars  is however the greatest application in the kdeedu module!  'Now, what do you own the world? How do you own disorder, disorder Now somewhere between the sacred silence Sacred silence and sleep'
+     
+
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+	 
+      yeah, it is, but not for me :> for my daughters...  Too bad the blog does not include pics, I bet I would break blog-reading records.  So, i don't have lots to reflect on except I got lost driving back from Montreal and also France is out the Euro 2004. Bye bye 'Les Bleus', I'll support Portugal now for their willingness and enthusiasm.  I'll have to be the first to commit my kdeedu changes on the 27th, I think I'll make them KDE-Edu developers believe freeze will last longer. I hate merging... That's mean, I know but then, I can abuse a bit of my boss position, no? I'm only human afterall.  'The fool escaped from paradise will look over his shoulder and cry' 
+     
+
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+	 
+      Well, never mind. This is not about music, this is about doc. Doc, yes, as in user handbook and as in docbook. Does docbook roll? Nope! Does it rock? Not really. (OK, this is a poor attempt to link to the title, I agree, so from now on, you'll know titles are just the first thing that comes to my mind) I have to redo some screenshots that I took without following the guidelines. That means they are awful, yes, and in fact I hate having some stupid color theme while browsing a doc. This makes the screenshot look as if it comes from another planet. So having all screenshots in Keramik is a Good Think (TM). I discovered all apps handbooks are online, now this is a plus to get rid of users in #kde. See  urlLink here . Latest docs! I hope generating pdf from docbook will be possible soon with a magical script, this is often asked for. So this is what I am doing during freeze time. Little docs updates and also watching soccer and gardening and all.   Today is the 24th June and in Quebec it's a special day for some reason that I did not catch yet. There'll be fireworks everywhere. It's too hot anyway outside and people are mosquitoes-meals so I'm staying in my cool basement.
+     
+
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+	 
+      See soccer Euro 2004 today's matches for a hint on the color ;)  Seems like freeze is quite respected judging by the commits. I was wondering if doc updates are allowed or not. So everything is quiet, the IRC channel came back to life after the soccer with mostly small talk. I learnt however that the next KOffice release will depend on Qt4 ad that they'll switch to oasis (no, not the British rock band nor the juice!) I did not work a lot (that's to say I did not code at all in fact) having spent the whole morning at my youngest daughter's school to help for the last day (volontary service like helping at school is a bit like an Open Source community: people are here because they believe they can do something together and they have fun doing it).   I hate passwords The other day, Windows XP did not boot at all on one PC at home (probably my son and his gaming friends having done something wrong). I had to fix it (it kept trying to boot and then reboot) but after a bit of luck, I accessed the repair mode but could not remember the admin password. I suppose this admin password is the very first one I had to choose after getting the PC but then I set up some accounts, with admin rights and totally forgot to write down that very first password. I never had to use it again after that, I believe. I am a very bad security person, I almost always use the same password and everyone knows it. I however have one the kids did not guess yet for the root account on my laptop. But passwords annoy me, there are too many of them everywhere (and PID and secret words for the bank, the satellite TV, the ISP,...) Fact is that 90% of the time I am not even sure what name I use, as in Europe women use their husband name while here in Quebec they use their maiden name. I always end up on the phone sounding like I try to cheat and the more questions they ask me to try to prove it's me, the more confused I am. I guess you are confused too now... The Wallet is nice but everything is to be redone after a new install.  To come back to the PC story, after 3 wrong passwords, the repair mode was gone. I tried 3 more then gave up. Fortunately, why I don't know, but I got the scandisk in action and then Windows was fixed. Needless to say that I don't even have a CD for that box, everything is backed up on a partition. Very friendly when one cannot boot... 
+     
+
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+	 
+      Hey! It's freeze time this evening until the 27th! That means we can actually watch soccer without feeling bad! (a bit sad Italy did not go through) I'll try to fix some bugs and to make this KDevelop Get New Stuff work. I am stupidly stuck in this and will send my diff to 'teatime' (Jens) so hopefully he'll detect what's wrong. Being stuck with an error you cannot see is the worse. This is due to the fact that I have so few time that I would like it to work immediately and being frustrated when it does not makes me blind. Not sure this sentence is proper English... I fixed a few bugs in  urlLink KTurtle . I had a mail from a teacher about KTurtle with some nice suggestions so the road ahead is planned for our turtle.  I noticed Planet KDE unfortunately looks awful in Konq from cvs HEAD, the column is been reduced to one or two words only. Is Ok in Moz.  The Green Ogre part ;-) I went to watch Shrek 2 with my three daughters in a small cinema nearby (in French) (usually we go to a big place to see the films in English). That was good even if I am the only member of the family not being a total Shrek fan.      
+     
+
+    
+</post>
+
+<date>20,June,2004</date>
+<post>
+
+	 
+      Foolishly I said I would implement KNewStuff in KDevelop. Foolishly because KDevelop is a lot of code and putting my nose in it is not so easy. Foolishly also because I don't get the KNewStuff stuff so well. I thought it would be a few minutes hack and looked like it yesterday. But today is Sunday and Sunday is more a family day than a you-can-spend -all-your-time-in-front-of-your-laptop-day so I attempted several times to spend a few minutes on this and miserably failed due to lack of concentration...  I also experimented some freezes within KDE sometimes when I enter an url in konqueror or a filename in 'save as' in Kate. This has been going on for 3 days and I reinstalled all my kde (cvs HEAD) but the problem is still there. Of course I don't have enough time to track the exact cause down, I am not even able to kill the frozen app so I have to Ctrl-Alt-Backspace to get out... If other people also have that sort of problem, I beg them to tell me.  I enjoyed seeing my son playing the drums in a show from his music school, several bands played and there was 'Hotel California' to keep people my age happy ;). That was good and seing kids aged 13 or 14 with AC DC or Clash T-Shirts is quite funny, no? And they don't believe we also lived that...
+     
+
+    
+</post>
+
+<date>19,June,2004</date>
+<post>
+
+	 
+      In KDE-Edu we are rushing (soon KDE 3.3 Beta 1 will be out!!!) to get  urlLink Kalzium  back in shape. Its author, Carsten, rewrote the classes but then got stuck with his studies. So I try to give a hand, usually by testing and pointing to errors (I guess Carsten feels I am very bossy). I also update the doc and have to refresh my chemistry knowledge a bit. Matthias also helps so it's nice to feel the team spirit in action. Kalzium is a chemistry program and provides all sort of information about the Peridoc System of Elements.   urlLink KmPlot  has a new developer who started to code at the speed of light! It's very nice to include new enthusiastic people and Fredrik certainly fits very well in KDE-Edu. He even gets the hang of cvs logs 'Change to my alias email address to avoid showing everyone my telephone number :-)'  SadEagle explained me the KDEDIR and KDEDIRS environment variables on IRC (yes, sometimes I do talk about KDE!). KDEDIR should not be set, KDEDIRS is prefered if you want to set it but is not necessary.  I did not code a lot due to the kids being on holiday. My son (13) had 2 teenagers friends and they borrowed my laptop to take short films of themselves with the webcam (they used the pre-installed OS that I kept for such use). So they circulated in the house strangely dressed up and making gargoyle-like noises... I fed them pasta and pizzas and begged to have my laptop back. It'll be more and more difficult to find time for KDE in July and August...
+     
+
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+	 
+      Waoooh, how thrilling!!! First blog!!! Now I am one of those stars that shine on Planet KDE :-)  Time for a résumé! 5 years ago, I knew nothing of computers, just got the Internet, knew nothing of Linux or programming or partitions and filesystems. I reckon I am internet-addicted and more: KDE-addicted! I came into Linux by curiosity: got a RedHat CD in a PC-Home magazine, got curious, got informed by reading everything I could on the not-so-big internet-at-that-time, partitioned the family PC and installed RedHat (5.2 but 6.0 was already out I think). After that I tried other distros, erasing the Windows partition in the process which gained me my own PC after the whole family realized I was seriously insane. I fancied Window Maker for a while then fell in love with KDE! I soon understood what Free Software is and that I could get involved. Being a mum looking after 4 kids at home, this was exactly what I needed to get my brain still working (previously I studied maths by correspondance) so I started translating from English to French. I helped in the French i18n team. I then found KDevelop which makes you think you can actually do some programming without knowing a programming language! I started a small prog called Kard (a memory game for young kids that I now re-coded  urlLink http://edu.kde.org/kard ) which was very buggy of course. Some great KDE people helped me debugging it and I realized I had to learn C++ was I to carry on trying programming. I also realized that KDE was a community and that people from all over the world were involved and ready to help each other. Next step was IRC, and as I ommitted mentioned both my age and marital status but slipped I was from the female gender, I got lots of attention... Kidding ;-) Exactly when I arrived on IRC were Ralf and Eva thinking about KDE-Women so we started this. Then with Eva's help I started KDE-Edu and began to master (sort of) CVS, KDE development cycle etc. I am still a very poor developer in terms of C++ ability but Rome was not built in 3 days, no? So that's it, end of first post! 
+     
+
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+	 
+        urlLink KGeography  version 0.2 is out  , it's a geography program (great maps) coded by Albert and it'll hopefully join the kdeedu module for 4.0. As did Aaron yesterday I also marvel on the diversity of the KDE community. I do hope some edu talk will happen at aKademy in order to outline how we should get the module evolving.   Due to the great summer weather, I spent the day out mostly playing with Léah in the swimming pool so no KDE work was done today! Then the older kids wanted to go to BlockBuster (that needs a driver, guess who) and they expect me to join them watching a DVD.   'Take away my pain  Let the cold inside  It's time to let it rain  There's nothing left to hide'
+     
+
+    
+</post>
+
+<date>25,July,2004</date>
+<post>
+
+	 
+      After a week on holiday, I'm back but as the kids will all be home for the next weeks I won't have much time for KDE. Last minute thought made me NOT bring my laptop so it was a week without keyboard, IRC, internet, KDE. I had barely any time to think about all that in fact.    Seems that the beta2 release went smoothly. I am not sure what state we are in at the moment, freeze-related. Is it warmer and can I commit stuff? Stuff like not-really-bug-fix? Well, due to bad merging kdeedu did not pass the make -f Makefile.cvs yesterday evening so I am trying to think about what I did locally. I tested some code that was committed while doing changes on my side so this is pretty messy.    KTurtle French Translation is still to be finished and I promised to do Kalzium French doc as well. Promises are evil...    'Awaiting word on what's to come In helpless prayers a hope lives on   As I've come clean I've forgotten what I promised In the rays of the sun I am longing for the darkness'    
+     
+
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+	 
+      Tomorrow I'm away for one week without internet connetion (will I survive?) So maybe the beta 2 will be out by then. I'll take my laptop in case I find some time to finish the French KTurtle doc translation. I don't think I'll do more than that.    We were talking on IRC about KDevelop needing more developers and restructuration (i.e. assign some developers to some code).  If I have time before the release, I'll test KDevelop more, going through the templates and compiling each of them for a start. And I'll also need to write an updated tutorial for KDevelop HEAD as a user pointed it to me.    And Happy Birthday Boren!    'Like a child who's run away  And won't be coming back    Time keeps passing by     As night turns into day '  
+     
+
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+	 
+      Some people work quietly inside KDE and do a great job. Stephan Binner, Andrew Coles (they fix all our English mispellings and i18n() errors), Lauri and PhilRod for the docs, Icefox for porting all the apps to new libs and cleaning code and others. Albert (TSDGeos) is among them, quietly going through the progs and fixing bugs (big bugs like memory leaks). So as I wrote yesterday, having the kids on holiday I cannot really concentrate and thus called Albert to the rescue for my KTurtle cyrillic problem. He delivered the fix not even 24h after, porting some pure C++ to Qt and using the magic of utf8() instead of latin1()! So a big Thank You to the quiet people, I personnally learn a lot from you.  Today I helped fixed two KDevelop bugs that were also fixed in a record time. I just tried to see where the bugs where, that was all my participation... 'teatime' again cut his night sleep to fix them, I hope he wont be too weak at work. Speaking of sleeping, I noticed that some developers recently went into bad sleeping patterns and it's my duty (as KDE mother) to encourage them to sleep a correct amount of time in one go! :-> (and please do also eat a correct amount of vegetables and fruits ;-)  At my LUG yesterday:  urlLink annma  and also in  urlLink group  (hint: blue TShirt).  'Carry me to the shoreline  Bury me in the sand  Walk me across the water   And maybe you'll understand'    
+     
+
+    
+</post>
+
+<date>14,July,2004</date>
+<post>
+
+	 
+      I went to my LUG meeting today. We were 17 people and there was another woman! She just installed Linux on her PC and is not interested in the technical things. But she is very interested in philosophy so she quickly understood the freedom concept. We had 2 presentations, one on Slackware and the other about fonts. I learnt a lot. We also talked about what we'll do for the Free Software Week in Quebec in the end of September.  KDE is taking now a big place as people desktop. The guy that did the font presentation said KDE Font Installer is the best, he used Kate, Konq, Quanta and seemed to know all about KDE in deep. He also said Qt was not so great with fonts and he'll talk to Trolltech about that. K3b was mentionned by another as 'The Linux Burning Tool'. The other day at the Linux meetup a guy (a young guy in IT studies) praised Umbrello. What I note (from my small world so this is not a sociological analysis) is that even 'geeks' (as coming from the Unix world and terminal+emacs||vim adepts) use KDE and are proud to say so (versus the previous mumbling about it-s-not-free a few years ago). This is great to see our beloved project recognized that way. For new users, KDE is also praised for its simplicity and, over all, for its quality. KDE-Edu is quite known as well as we have in Quebec an educational distribution called Edulinux and based on Mandrake 10 with KDE as default and all of KDE-Edu.  I learnt a lot about fonts this evening and now I need a presentation about utf8. I got some data files for KTurtle for Serbian (Cyrillic) and the parser does not want to work on that. It works for Swedish, German and French but today it choked on Cyrillic. My KTurtle co-developer who takes care of the parser is touring in Asia so I'm on my own. The parser is C++, not Qt. I turned towards Albert (TSDGeos) who I see as a kind of wizard because he is so good. He fixes a lot of stuff in kdeedu and I learn a lot from his commits. He said he'll have a look :-)  'Over troubled waters memories soar   Endlessly, searching night and day The moonlight caresses a lonely hill  With the calmness of a whisper'
+     
+
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+	 
+      Recently I came across 'Default' in several KDE applications. This 'Default" is set in Settings. For example a Default temperature for Kalzium State Of Matter. But then the user can use a slide to get the temperature he wants to study (the elements state is shown, it's very nice btw). So where does this default take place? Same in KSirc where I can set utf8 as Default in the global Settings. But my prefered channels have no encoding set and I have to set utf8 manually. So I did not get yet what this Default setting is for. Before that I had to battle with George who set a Default vocab file and while the user could study a vocab file the config stored the default and not the worked-on file. For me, default is now conveniently set in the kcfg file and is a setting used at first run and then in case something is messed. But after the 1st run, Default is forgotten and the user settings are used via config. The 'Default' concept should not be so difficult. It's an 'action taken by the program when no alternative is specified' as tells my Oxford dictionary. In the new kcfg (KConfig XT) world, I think Default should not appear in a Settings dialog, it's a 'behind-the-scene' quiet thing that nobody (as in no user) bothers about.  Should I carry on ranting about utf8? Tsss, no. Let's forget about that... That'll be another blog...  'I can't find myself  I got lost in someone else'
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+	 
+      The other day at the Linux meetup we talked about programming with a guy and he said "in OOP, if you use some 'if' or 'case' then your program is badly designed". This made me think that I indeed have to work hard to get all that, work on C++, on patterns, memory management... Another guy praised Umbrello and UML should be more widely used in designing new apps or rewriting them. I am waiting for a good 'Start With Umbrello' guide. We need more docs and I quite like the idea of having a 'Quick Start with KFoo' doc for each KDE-app with a few screenshots and a few lines that would go straight to the point.  At that meeting, we were 3 people having the same laptop (Presario 2100) and a guy was running Debian on it. I enquired how he did it as I failed despite the help of great Debian people and the trick is to disable pcmcia. I don't use pcmcia so I could give it a retry. When I have time...  I was interested to read Chris post labelled 'I'm in love' but then it turned out that he is in love with MySQL. Geeks!!!!!  'The forest of October Sleeps silent when I depart The web of time Hides my last trace'  
+     
+
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+      No, this does not refer to Qt4-preview1! Just a random track name... Second post of the day, that'll reinforce the common saying that women are chatty...  So I built KDE 3.3 beta1 with Konstruct and it failed in kdemultimedia. I think this has to do with something needed from another module maybe. As I also fiddled with Qt4, I did not go deeper into that and just issued a 'make -i install' to keep things running. I admit loudly that Konstruct is kool and you just have to set your KDEDIR if you don't want the default one and to set QTDIR if you already have Qt. After that you just let it make it all.   Hacking KLatin to get it having other languages. Got all confused by the GUI. Is it good design to allow the user to choose a file on the vocab page and as well in the config settings? What's the point having two different places to do the same thing? (the point is just at the moment that the settings are not refreshed from one place to another)  Finished 'Atonement' and stayed with it a bit longer. When I finish a book I liked I let it live longer by prolonging the characters life and reminding me passages from the book. Was tempted to stay with McEwan but could not find Amsterdam in the house. So moved to 'On the Road' (Jack Kerouac) that I read translated in French (a long long time ago one might say) and I'll now enjoy it in its own language.  'I'm a falling stone in a world of glass  I'm a ticking bomb with a smiling mask'
+     
+
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+	 
+      Ok, we're all hyped up on #kde-devel talking about Qt4 preview (except for the few people who affect to be 'blasés'). So I grabbed the tarball and after 25 minutes (mobile Athlon XP 2500+, gcc 3.4) I got it compiled. What should one do then? You go to the demos folder and try them as they were made to emphasize the new stuff. 'arthur' is the new paint engine and looks quite attractive and shiny. It'll make it easier to include animations in our edu progs. The mainwindow also has got a relook. Try the interview demo, impressive set of classes based on the Model View Controller design pattern. Scribe is the new text rendering engine and Tulip is a set of container classes. Fate of QCanvas seems unknown... Qt is split into different libs so it'll be lighter to use. Please note that this is just a preview, designer is not included and all classes have to be further worked on. But it'll allow us, developers, to get familiar with it especially as we approach freeze. It's also a good thing so during aKademy, talks on the future of KDE can be based on some real facts and maybe adjustments can be made by the Trolls. From my point of view (not an expert one) it'll be an impressive step forward, more than from 2 to 3. I still need to polish my C++ knowledge though to be sure I can use Qt4 fully. So it'll give me a boost! 
+     
+
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+	 
+      Hey, do you know the New New Thing (TM)? No, it's not GMail (already one week old), it's called .node (dotnode) and is the new Orkut-like friends network. I got invited, yeah! That means I filled Yet Another Profile and choose some communities to be in. As the languages are English and French I don't know wich one you have to write to. Or maybe there's an automatic translation. Problem with all that is that I'll soon need a memory upgrade to remember all those URLs, passwords and so on.  The beta1 is out at last. I got my share of Gentoo users on #kde reporting weirder and weirder compile errors (actually my 2 'bêtes noires' as we say in French are unsermake and gentoo in case you did not notice) so I might be ranting about those again and again... If I have time and hard disk space (I might have to remove some MP3s) I'll have a go at compiling it. Maybe using konstruct. I absolutely would need to work a bit more if I am to fill this more intelligently...  I went out tonight with my friends from karate and we had a very good time. Thanks a lot (I know Véro should read this)! I then drove my daughter's bf back home, he kept her company (;-) while I was gone... Being a mum is being a taxi driver these days!
+     
+
+    
+</post>
+
+<date>05,July,2004</date>
+<post>
+
+	 
+      I went to Montreal yesterday evening for the monthly Linux Meetup. We met at a cyber-cafe where the owners are totally nice, they gave us a nice room with a PC (we ran Knoppix on it) and a large screen. There's a large choice of beers. We were around 20 and after each telling the others how he (I was the only she) is related to Linux, we planned a Free Software Week in Quebec in September.  Only weird anedocte is that driving back from Montreal to Lorraine I was stuck in a traffic jam at mighdnight! I never experimented anything so crazy than driving in Quebec (and I drove in a lot of countries including Italy and Greece if you know what I mean) I kept myself awake by (badly) singing out loud some Epica.  I got some KLatin translated data which I don't know what to do with. KLatin is not prepared for having  other languages than en latin so I'll have some work to do on that.   I sort of gave up trying to implement the KNewStuff on KDevelop as it seems noone cares anyway. 
+     
+
+    
+</post>
+
+<date>05,July,2004</date>
+<post>
+
+	 
+      OK, today, at his author's request, I tested  urlLink KBruch , a KDE-Edu program that proposes fractions-oriented exercises. It's getting along nicely, Sebastian added a few new exercises like compare fractions, converte numbers to fractions and factorize numbers. There are still some things to improve like the konsole-mode not being i18n as pointed Albert. What I am wondering is how those edu programs work in a LTSP network. Networks is an area where I know nothing so it's difficult to foresee what could be done. I guess that if KDE is more used in schools then we'll get more feedback about such problems. I met a user on #kde who was enabling some machines for an Internet Café, unfortunately I was not able to help much on the kiosk mode. I managed to help about having a theme installed globally though. Ah, and I met users asking about the beta 1, when will it be out. Power users are willing to test it, one was a kde translator who wanted to see how it looks in his language. I suscribed to  urlLink KStuff cvs filter  service thanks to Albert so now I'll get the commit logs for just the few apps I selected. Nice service, thanks Albert and thanks to Josef for offering that. We had a nice discussion on #kde-devel TOF (Totally Of Topik) started from a Tristiana quote from mornfall 'Sacrifice me for my sins' and then elaborating about prejudices...  So it was my birthday today and my best friends booked Wednesday's evening for a party for me. Otherwise it's just another Monday, no? No need to make it a special milestone (trying to persuade myself)  'In the eyes of the elementary existence May the fallen of eternity explode'
+     
+
+    
+</post>
+
+<date>04,July,2004</date>
+<post>
+
+	 
+      I finished the data translation for KVerbos so it can be used by English users. I did not work otherwise except having a chat with Carsten about Kalzium and this State of Matter mode which I don't find well designed (wrong menu and maybe should be in a separate window) But it's a bit late to change it, the main thing is to debug Kalzium at the maximum which I try to do. Ah, and I retried Michael's  urlLink Tacky  as he aknowledged my failure and reckoned something was fishy. So he published a new version of Tacky and I am pleased to confirm that it works (and if it works for me then it passes all tests!) I was able to write a blog entry that got saved in my plyblosxom data dir. :-) Next step is to get that directly on the Planet. I spent a very good day, my oldest daughter (Debs) cooked a delicious lunch (coconut&&lime chicken) and the kids were all nice as we celebrated my birthday (which is tomorrow :) and no, never ask a lady her age) The weather was very nice so we could use the now-clear-at-last swimming pool. I spent most of the day outside which shows I am not a Real Geek (TM).  Listening to Marillion::Marbles (see below for another fantastik Marillion) Still reading Ian McEwan (he is so great making you live every character's feelings, I wish I could analyze the world around me and be aware of it as he does) That reminds me that I could not explain to the kids if we are like in the Matrix or not... When you put together Léah and her why-is-there-wind and why-are-we-alive questions and the three oldest kids with their are-you-sure-we-exist-now-as-we-think-we-do questions, I say: I am not really prepared to be a parent...  'I'm losing on the swings, I'm losing on the roundabouts   Too much, too soon, too far to go, too late to play, the game is over'
+     
+
+    
+</post>
+
+<date>03,July,2004</date>
+<post>
+
+	 
+      I read Michael's blog and tried his litle new blogging tool. I am not an unsermake user as you might already know, and as Michael said, I got into a problem using automake. For an unknown reason, the kconfig compiler files were not generated. First I changed the first line of the configure.in.in to be #MIN_CONFIG(). No luck. I then replaced the admin dir for one from cvs HEAD and it worked. I mean, the Tacky source compiled. But after I run Tacky, nothing happens!!! No GUI is shown, the konsole output just says the config file is read. Did I miss something? As I met KVerbos author yesterday on IRC, I realized that the data was only from German to Spanish (KVerbos is a Spanish Verbs conjugation tool) so I think this is bad and we should provide English to Spanish. The data file is only a .txt, not xml and I know neither German nor Spanish. I hope I'll can make KVerbos used by English users. KVerbos will be rewritten, I did not bother to port it to various new things so far as most comments and even var names are in German. This is a mistake I myself made when I began programming. So I am using an online dictionary to port that data file.  As I said yesterday, I went to see Garfield with Léah and her friend. It was translated in Québécois...   Listening to Tristania  'I'm running out of Dreams to dream  Of tears to spend  And screams to scream I'm running out of life again' 
+     
+
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+	 
+      Ok, I was a bit ahead when I thought 3.3 beta 1 was out. It's not. I hope that bug I have is not in it, another guy mentionned it on IRC so it's not only me.  I finished the KTurtle GUI translation to French and started the docbook. I had a look at KVerbos and tried to fix it a bit. At least I redid the screenshots for the doc in the right style. Not much but then, many drops of water make a river...  For those who are anxious to know the next episode in my Real Life (tm), well, this could have been labelled 'Troubled Waters' as the swimming pool water is still blur... I found a bottle with 'Clear Water' on the label so I threw quite a large amount of it in the swimming pool... As the weather is cold and rainy (who messed with the weather btw, chouimat or geiseri???), I guess no damage is done as the kids did not get in. If I come back all spotty tomorrow, you'll know why...  Ahhh, and as I have a 6 years old, I thought Spiderman 2 was not for her so I choose to go to see Garfield tomorrow with Léah and a friend of her... Being a parent is quite hard sometimes...  Cannot resist quoting George to finish (yeah, George is quite mature sometimes):  [George] life isn't as simple as C++ :( >annma [George] more like buggy visual basic :) [George] on the surface it looks okay [George] but inside it's a complete mess  Listening to the last Cure album and re-reading Atonement by Ian McEwan  'Pris dans leur vaisseau de verre Les messages luttent Mais les vagues les ramènent En pierres d'étoile sur les rochers  Tous les cris, les SOS...'
+     
+
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+      So day after day we go closer to the real freeze. I have the feeling we did not get very much feedback from 3.3 beta 1 but maybe it's me out of tune here. The #kde channel is very quiet and people speak more of 3.2.2 than pre-3.3. I gave myself a good-kde-support-award after helping a gentoo user who got 3.2.2 plus half of 3.3 alpha 1 on his machine, not kdelibs or kdebase 3.3 but some other packages. He came first saying k3b was buggy but then k3b for 3.3 alpha1 could not find kcontrol... Helping in #kde is always fun especially with over-friendly users calling me 'mate', 'man' and 'dude'! I decided to translate KTurtle GUI + doc in french considering that French is my birth language and that the doc is quite long and difficult. So it's with pleasure that I subscribed to the kde-francophone mailing list again (my first involvement in KDE was translating) and found there people I already know. Those people, in fact, do a lot for KDE but in France and their names seldom appear on the dot or elsewhere. The translation teams all do such a great job! I had trouble getting KDE in french: I grabbed the kde-i18n/fr sources and then, as usual, after make -f... I did make install without make. But make is indeed in that case. Took me a bit of a time to get it. Then KBabel is a tower on its own to set up, it kept wanting to find the /de folder some place where it did not exist. I am quite sure I did not set it to its full capability. I'll just try to translate in real French and not in Quebecois!!!  It's already 10pm, I had the house full of kids this afternoon/evening. My oldest daughter's new boy friend found me cool so that lightened my evening! My second daughter's boy friend (who I now know more) helped with the swimming pool as I casually and randomly throw some stuff in it and the water was not very clear. Hopefully tomorrow it'll be fixed. My son who is 13 had 4 friends around and they were making some footage with a camera, dressed up and emitting strange noises... No wonder I did not work a lot... At least I need less sleep than them, they'll emerge tomorrow at nearly lunch time while I will have been up for at least 4 hours already.  'The Human Equation program aborted. Have a nice day. Dream Sequencer system offline.'
+     
+
+    
+</post>
+
+<date>14,August,2004</date>
+<post>
+
+	 
+      We had an install fest at my LUG today. It was the first time we did that and it went amazingly well. I was promoted KDE specialist of course and I did my best to customize a lady PC. She was amazed by the transparent kicker and other goodies and I managed to achieve all she wanted. She was not interested in the HowToDo-things part but she wanted a functional and customized desktop which we got. Konqueror being so versatile impressed her deeply (file manager, ftp, ...) I appreciated better the Fr translation team work as she was not bilingual and wanted it all in French. I also learnt a few tricks here and there while others were at hands on bigger challenges.  It's nice to see ordinary people wanting to get free software and knowing about freedom. A young guy was a FSF member and it felt conforting to see young people care about freedom and about the philosophy behind the GPL. Another quite young guy arrived with a home-made PC in a small briefcase! All components in a suicase! That was amazing. He wanted to install 2 Linux distros in his home-made PC to demonstrate Linux and he succeeded. He recently started a company which sells hardware and software support and he is switching from Microsoft to Linux software support. Another guy was a French living in Mali, on holiday in Quebec. He just bought a box in Montreal and was happy about the fest as he could quickly install a complete distro on his machine. He also got some ISOs for his friends. In Mali the Internet connections are quite poor and the low bandwith does not allow distro downloads or even updates. He was also a very interesting guy. He has a website named 'Think In Order To Act' (in French "Penser Pour Agir").  I liked very much meeting such people, they open new horizons. And it also makes more sense being involved in KDE after such a day :-)  
+     
+
+    
+</post>
+
+<date>13,August,2004</date>
+<post>
+
+	 
+      It's nice to get HEAD open again. Especially as I got some new data: nn files for KHangman and long-awaiten-english-sounds for KLettres! It's nice to see users take time to contribute. For KLettres especially, it is very difficult as you have to record sounds. Thanks to Rob for taking time to do that for KLettres and thanks to Gaute for KHangman Norwegian data!  Tomorrow I'll go to my LUG for an install fest, this is exciting (my first install fest). New users shifting to Linux :-) My own oldest daughter wants me to install Linux on her laptop as Windows 98 has all sort of problems after one year use. My policy is not to install Linux on the kids machines and to leave the supplied OS. My son especially is a big gamer, he plays online and over the LAN with his friends. As parents, we try to give choices and not impose our way of living/thinking/behaving as much as we can. Of course some boundaries have to be set. But not in the OS matter for example ;-) We also have one daughter who chose last year to become a vegetarian and I was quite proud of that. Proud that she could make her own decisions aged 15 and proud she felt free enough to do so.  Today I went with the two above-mentionned daughters at their college to start preparing their rooms, bringing micro-waves and such things. They'll go to the same college (which is convenient), Debs (17) is studying Fashion Design (2nd year) and  urlLink Blandine (16)  is starting Graphics Design. They'll live at the school dormitory for the week. They'll start the 23rd while the 2 youngest will start the 1st September.  'Dream - temporary madness  Dream - a walk in the wilderness  Dream - unconscious recreation' 
+     
+
+    
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+	 
+      I feel pretty disappointed. I posted an email yesterday on the edu mailing-list about aKademy and what could be discussed here edu-related and nobody answered. Nobody!!! I would like to think that all edu developers are on holidays but the truth is that they don't care. They mostly don't have a community view of the KDE project and they just see their own little application. This is sad. I feel I care about KDE as a whole, I enjoy building all modules and report small things I feel should be improved here and there. I also feel that even if I am not physically at aKademy, I can participate via IRC. The doc team is eager to take time to work with me so we can share new ideas and review what's been done so far. The usability team also is ready to think about what could be done and improving guidelines. It's hard to manage a module and I feel pretty alone in trying to foresee the kdeedu module future. Besides, having emails from users about porting 'this great (closed) program' does not help. Ususally, users want a KDE-matlab or scilab clone...  On a personal note, we'll go with our son to the Rush concert in Montreal the 21st so I'm all Rush-oriented, music speaking. It'll be Joachim's first real rock show and as he is a drummer, he'll enjoy it. He likes Kiss, AC DC, Metallica so there's no generation gap! I look forward to it!
+     
+
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+      These last days, I was busy helping the kde fr team to try to do the maximum of translations. My first steps in KDE were in translation then I moved on learning programming and managing KDE-Edu. But close to the release I realised that I could help mainly by translating docs I have written in English which should be quite easy. It's easy but long. And living at -6 hours from France meant that my mailbox was full in the morning with stuff to commit that was urgent before the deadline... I learnt about the po2xml script which is very nice (the reverse is probably xml2pot). I like the dedication of translators, it's very hard work, never finished, always to be completed.  I went canoeing on the Rivière Des Mille Iles with Léah (6) today. That was fun except I was the only one to row ;-). Joachim (13) has an ear infection so he is not himself. Blandine (16) is preparing a camping week-end with her boy-friend and Debs (17) is busy learning to play the guitar. The weather is not so nice, quite cold so using the swimming-pool is not in the agenda of anyone. Wanted to post a picture of Léah but it must be online somewhere. Free webspace is rare...  'At times the dark's fading slowly But it never sustains  Would someone watch over me In my time of need'   
+     
+
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      I managed to finish the promised French translations (KTurtle and Kalzium) :-) I'm trying to help as much as possible by translating some kdeedu progs (starting with mine as they are easier) as the translating teams struggle to be ready for the DF (TM) (Deep Freeze). I heard the Brazilian Translation team is nearly 100% ready, great work, congratulations to them.  I noticed a bug in Konqueror in the Window menu where Show Navigation Panel does not toggle to Hide and same for Show Terminal. Such a bug is quite bad because obvious.  I don't have time to connect to IRC so a big Hello to everyone.   'You steal my only hope and make me stay awake another night.  I wish you bear with me, stay near me.  When the autumn leaves have fallen. Solitude, my pain, the last thing left of me...'
+     
+
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,1 @@
+A standard audio CD has a bit rate of 1,411.2 kilobits per second.Assuming that the CD has a total capacity of 80 minutes or 4,800 seconds,the total number of bits on a CD would be:1,411.2 kilobits per second x 4,800 seconds = 6,776,320 kilobits or approximately 700 megabytes (MB).Therefore, a standard audio CD would have a total of approximately 6,776,320 bits (700MB) of data.

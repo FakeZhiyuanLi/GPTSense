@@ -1,0 +1,76 @@
+<Blog>
+
+<date>19,August,2004</date>
+<post>
+
+    
+       See, I told you that I wouldn't post on this thing often enough. I already got tongue lashed for not keeping it up to date. Jeez people, my life is not THAT interesting.  We took Gabby to the vet the other day. The vet gave us some drugs for her, so she will be sedated at night. Ok, well not sedated. Totally passed out. She won't move at all. She'll kind of look at you and then flop her head back down kind of giving you that "Why did you do this?!?!?!?!" look to me, but then she realizes when she wakes up from her drug induced coma that, "Hey! I can bark again!!!!! WHOOOPIEEE!!!!" Yes, it is a very viscous cycle. The vet did tell me that he suggests she live in a single animal household (i.e. my parents when they move back to SA). She is just a jealous dog.  Wow, that has nothing to do with .NET or anything. What else.... Oh yes. I created the Chronology on AggieNetwork.com. It is the information that is making its way to the new printed Directory of Former Students. It was kind of tricky getting all 500-ish records into the database efficiently (without having to copy/paste every single one into SQL). The format I got was in a PDF, so I had to copy/paste it into a Text document, edit the text document to one line per entry, add a unique character () to break up the columns, and viola. It will import to SQL. I think that took about 3 hours to accomplish, after a couple stupid mistakes I pulled. So, its working now. It's at  urlLink http://www.AggieNetwork.com/theAssociation/chronology.aspx  (you have to be logged into AN.com to view it....we're so tricky).  Some of our friends are coming to visit this weekend. We met Chris and Kodi during my senior year and they both live in D/FW and are stopping by on their way to Houston on Friday night. I'm sure it will be a lot of fun. Then the weekend will get interesting. I bet you didn't realize that College Station (or Brazos County or even "The Brazos Valley") will obtain a new Zoo this weekend. It's true. You won't be able to find a link to it anywhere or announced in any paper, but it is located in South College Station. Actually, you know what. It's even in my subdivision. Oh wait, yes, that would be my house. "What? How could that be???" you ask? Well, Kristen's parents are going to bring their two dogs to stay with us for the week while they are on vacation. So, if anyone is keeping count... We will have :cough: 5.. yes F-I-V-E dogs, 2 cats, and fish. The 5 dogs....(1 yr old) Australian shepherd (Hunter), (7 mo old) Lab (Chloe), (14 yr old) Yorkie (Gabby), (3-4 mo old) Lab (Sam), (3-4 yr old) Jack Russell Terrier (Pepper). I think I might just go insane.  So, if you need to contact me this week, I'll be at  urlLink Eric@CollegeStationZoo.com . Fun times.  Carry on my sane, non zoo inhabiting friends... carry on.  
+    
+    
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+    
+       I swear, that is all I heard last night. Gabby, my parent's dog that we've watched for the last 3 years or so, is not a fan of being locked up in her kennel at night. We even got her a new kennel, but she's apparently too good for this "kennel" thing.  She has reverted back to puppy-hood and hasn't been going outside to use the restroom, so the only solution to stop her is to lock her up in a kennel at night.   Needless to say, we got little sleep last night.  I visited my cousin yesterday in Palestine, TX.  It was good seeing him again, but man it was a long trip for the 2 hours I stayed up there.  I had to get back by 2pm for work.  Other than that, not too much is happening here.  Our friend, Lance and his girlfriend and her friend are stopping by Friday night/Saturday, so we'll have our hands full for sure.  
+    
+    
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+    
+       So, this weekend wasn't too terribly exciting. Kristen and I went shopping for her Birthday all day long. It took every ounce of my patience to not complain every 3 seconds.  Tax Free Weekend + Eric + Post Oak Mall + Wal-Mart <> Happy Eric  Or as the stupid presentation said that I sat through recently... Comfort Zone   ->   Traffic Light   (I have no idea what that means, by the way).  I'm getting ready to have my laptop reinstalled, isn't that fun? I keep getting a frustrating error message on my build of AggieNetwork.com, no its not bad coding, so be quiet. It happens if I try and access the page while listening to MP3s. Go figure. It's some sort of file permission problem, even though I have granted "Everyone" full access to my web directory. Frustrating? Yes. Maybe this will help?  Other than that, not much to report on. I'm about to finish Executive Orders by Tom Clancy. I read about 400 pages this weekend and I only have 150 left. Of course it's getting to the really good part now, so it will be hard to put down.  Until next time.  
+    
+    
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+    
+        I wish I could make this stuff up, but I can't.... I got this in a fairly respected magazine "Visual Studio Magazine", and it was an article about how to really use Tables in ASP.NET. Yes, what an exciting topic.  This image was their most advanced and "cool" image. I have to laugh at the color selection and then the caption " Give your tables that Pro look and feel ". If you use these colors and design for a table anywhere, you should be shot in public.    
+    
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+    
+       Note to self...Don't try to post on this at around 4:45, it just won't work....  So, what was I saying? Oh yes. I created a little monitoring page for AggieNetwork.com yesterday. I'm not sure how useful it is but I was getting tired of running stored proecedures and looking at views to get the pertinent information from the site, so I just combined all of those onto one single page. Now granted, it does take about 5 seconds for it to load, but it to it's defense it does run 17 select statements that are pretty intensive.  I also made some recent additions to the Online Directory. I'm not sure exactly why we didn't add this sooner, but you can now search by student organizations as well. We have been asking constituents to say what student activities they were a part of while at A&M, and just have never incorporated it into the Directory. Granted I did it because Porter got an email and told me to, but it only took me -maybe- 20-30 minutes to get it fully implemented. Oh well. I'm somewhat excited about it, since it does add another functionality to the directory that I probably don't fully recognize quite yet.  What prompted the addition? Well, here's a snippet of the email:   Can you annotate the listings in the Directory of Former Students as to which one of us were in the Corps of Cadets? Can you do the same on the on-line directory so if we are looking for our classmates that we were in the Corps with, we can type in our class (xxxx) and check a button labelled "Cadet" or "Corps" and get a listing of our buds with email addresses and phone nos? Can you do it by outfit? 2. If this can not be done, what is the advantage of being a member of the AFS instead of just being a member of the Corps of Cadets Association if we can not get the AFS to do something that will put those of us like-minded former students in touch with each other? I could care less who lived in dorm 20, but if I want to find MY buds, I might want to query by Corps so I can find my buds that lived in Dorms 1-12. Maybe you should have a query by dorm or outfit or whatever other categories have been established since I left. The AFS does not seem very Corps friendly to me. Fun Ag 'xx    So, I'll let you make your own judgements about that email.  Well, I better go and start working.  Fun times will be had by all.  You stay classy Cyberland.  
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+            FINALLY  - I think I have this beast 95% ready to go.  I have included a few screen shots of some of the screens that were edited along the way.   Granted, this will not be the final look of the site, but it should be somewhat close.  Who really knows?  Not me, but the marketing firm we've hired knows.  We should be having a meeting with them sometime in the near future.     Homepage-         My News-        My Links-      I still have some tweaks to do on the homepage and on the setup pages, but they shouldn't be too terribly difficult to do, and then we should be able to open this up for Beta testing.  Oh boy.  I'm excited about that, but at the same time, a little frightened.  Go figure.  On a sadder note, today is Kristi Kaiser's last day at The Association.  I know we will miss her, but I'm sure she will be a lot happier with her new job at SMU in Dallas.  That's all for me for now.   
+    
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+    
+       Thank God.  That's all I can say.  I'm sure one day Bret will read this and laugh, but I just got word that he is taking the job that Russell left when he up and moved to Qatar to work at A&M's branch campus there.  Bret will start working here on August 25th, which will be a very good day now.  I think that's all I need to write today.  Adios, Eric 
+    
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+    
+       It was inevitable.  I just -had- to join the rest of the Blogging world.  I doubt I'll be able to keep this as up to date as I'd like, but I guess we'll just have to see about that.  Not too much is going on here.  I'm just waiting to launch My Aggie Network on our site and see what my next step will have to be with regards to a replacement for Russell.  Who really knows.  I should know sometime today what I'll be needing to do. 
+    
+    
+</post>
+
+
+</Blog>

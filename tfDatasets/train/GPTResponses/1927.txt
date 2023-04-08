@@ -1,0 +1,1 @@
+The other factor that applications get out of adjusting to by using UTC is changes in time zones. UTC is a standardized time reference that does not change with changes in time zones, whereas local time references can vary with changes in time zones. This makes it easier for applications to handle global time synchronization and avoid errors related to time zone changes.

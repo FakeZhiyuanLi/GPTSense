@@ -1,0 +1,1 @@
+Most removable devices use the FAT (File Allocation Table) file system, as it is supported by virtually all operating systems and is known for its compatibility and simplicity. However, some devices may also use other file systems such as exFAT, NTFS, or HFS+.

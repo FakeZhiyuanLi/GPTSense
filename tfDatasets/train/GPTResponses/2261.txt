@@ -1,0 +1,1 @@
+A sound reproduction of 24 kHz would require a minimum sampling rate of 48 kHz according to the Nyquist-Shannon sampling theorem, which states that the sampling rate must be at least twice the frequency of the highest frequency component in the signal. Therefore, a maximum sampling rate of 48 kHz would be sufficient to accurately reproduce a sound frequency of 24 kHz.

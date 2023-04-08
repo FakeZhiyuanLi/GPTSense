@@ -1,0 +1,28 @@
+<Blog>
+
+<date>06,August,2004</date>
+<post>
+
+	 
+      It's been done before, but thats not a reason for not doing it again.  I want to find out how to email your site and post via email, just like you are able to in blogger...?  You could take a picture using your cell phone and email it to your site and it would enter the log entry for you. The body of the mail being the info and the attachment being the media.  From what I understand you need some extentions installed for your server, and I doubt my ISP is going to help me out anytime soon.  They don't even have GD Lib 2.0!!  What am I to do? 
+    
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+	 
+      How do you make a log for an artist.  Well the main priority would be to post images/media with ease, right?  My idea is to make 2 logs in one.  One log is the log we all know. Log entries, date and time stamped displayed in decending order (newest post at the top).  The second log would be for your images.  Both logs would have their individual comments.  So a focus on images!  Allow the user to manipulate image on the site, incase you are in a hurry and maybe don't have access to the means of formatting your image right? Media isen't just images, its much more! The log should accept almost any kind of media (video, images, audio...anything).  The two logs should be easily combined, but also able to work independently.  1. you upload an image, add some info, give it a catagory, title, maybe some keywords? 2. you post a log entry. In this entry you can "import" the image, by reffering to ie. and id number.  In reverse you can also have an image which is explained with serveral logs, like an account of how it was made and so on.  Using the catagories right you should easily be able to make galleries in which you can refer to.  And the last thing is that in all my previous sites I have intergrated my functions too much into the design, in the sense than other people coulden't make use of my code. That will be different with this site, as it will be very indepentent from the layout/design taking advantage of CSS and XHTML.  I'll post some more info on the DB structure and my core code later on... 
+    
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+	 
+      As my first post I'll, like so many others, explain the title.  I con't code websites for a living, but I like to code. I always get good ideas for how to use the tools available and particular enjoy PHP/mySQL. My aim at the moment is to code my own Weblog site which isen't just a log, but a log aimed for the artists.  Media Log is what I call my project, but I'll explain it all in detail later...  I have looked at many free log/blog systems, all of them have their little thing which makes them special, but I still diden't find one which suited my situation, so now I've decided to make my own.  I'll post my progress in this log, both for my own purpose to keep a complete acount of where I am, but maybe also so others with similar ideas or projects might gain something.  Anyway, I'll come back with some more details of where Im at now sometime tomorrow. 
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,538 @@
+<Blog>
+
+<date>11,May,2004</date>
+<post>
+
+
+       
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+
+       
+       1. How to search in the channel   a) Typing !list  nick  in movies and/or music channel will show the file server ad of the nickname if he/she is serving. For example, typing "!list hero_i_am" (w/o the quotes, of course) displays hero_i_am's server in the channel you used the command in.   b) You can use ctrl+F to quickly find any txt in the channel window. Say you want to know see hero_i_am's server ad, do a !list, wait for all the ads to roll by, press ctrl+F, type in hero, press enter. You will be taken to the immediate last occurence of the word 'hero' in the channel window, pressing enter again takes you further up in the channel where that word appears.   c) Use @find command.   Syntax: @find keyword Example: @find murari   Note that @find fetches the results from only those file servers that supports it.    2.  Do not rename or move file(s) until you get them in full. You can always resume a file so the download will not start all over again.    3.  Keep checking the status window. That shows you whats happening whenever you request the download of a file, whether a download has been completed, whether your nick has been successfully registered and identified etc., i.e., whenever any mIRC command is executed    4.  To get some basic info on a user, use the command /whois nick. Example: /whois trigger_my_passion    5.  Pressing f3 function key will open your last downloaded file (w/ the program it's associated w/).    6.  If you are looking for channels on a specific subject, say 'hindi', you can use /list hindi and that will list the channels which have the word 'hindi' in their names. A popular hindi channel in irc.ircsuper.net is #desi-movies (#desi-mp3 for music). Other hindi channels: #apna-movies, #apna-rhythm in irc.unknownz.net; #bollywood in efnet (irc.easynews.com).    7.  By default, mIRC doesn't allow the auto-sends (and auto-gets) of .exe and .zip files. To get around it, type /dccallow +NickOfThePersonYouWantToGetTheFileFrom.    8.  Want to explore the world of IRC?  urlLink http://www.mirc.com/faq.html ,  urlLink http://www.newircusers.com/java/mirc.html  are just two of the n number of sites you can go to. Chk  urlLink ircspy  and  urlLink searchirc.com  too.
+     
+
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+
+       
+      Explains clearly the software you need and how-tos of playing, burning, editing and format conversion of movie files that you've downloaded from the channel.    Essential software
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+
+       
+      First note the following:    1.  Do not serve tamil/hindi/english/konkani/african movies/mp3s/video songs. If you want to serve, serve  only telugu  files.    2.  Do not think about serving until you have  two complete movies in .mpg  format to share.    3.  Never ever serve partial files. To avoid sharing files that you are still getting or would be getting, keep the root folder (serving directory) different from your download folder.    4.  Do not serve unreleased movies. How do you know if a movie has been released or not? Join #telugu-help and ask there. By unreleased movie, we generally mean a DVD/VCD that you have and which you converted to mpg. So, the safest bet is to download movies from the channel, and when you got atleast two of them, begin serving.    5.  The only restriction w.r.t serving mp3s is that you are not to serve songs in .swf or recorded (from net streaming or casette) files.    6.  DO NOT serve mp3s in #telugu-movies. #telugu-music is the right place for that. Similarly, do not serve movies in #telugu-music.   You are encouraged to share your music collection apart from the movies you have. Sysreset has the ability to permit separate sends and queues for serving in multiple channels.    7.  DO NOT rename downloaded files. This will allow people to resume incomplete transfers.   The process   If you do not already have SysReset, download the full installation pack from  urlLink http://www.sysreset.com  and set it up as per the instructions in ' urlLink How To download ' page.  Follow these instructions:   1.  Go to Sysreset --> File Server Manager from the toolbar       2.  Click the "Server Config" tab   urlLink Screenshot    3.  Enter "30" in 'Ad Delay(min)' box and make sure 'Enabled' is ticked        4.  Type in the list of files you are serving in 'File Server Ad Message' textbox  Example:       5.  Under 'Advanced Queuing', click on 'Priority Queue Control'      Under 'Queuing Options', check 'Automatically Prioritize Voiced Users'        6.  Set 'Max Sends' to Each: 1 and Total: 2, Set 'Max Queues' to Each:    2 and Total: 10, make sure 'Queues Enabled' is ticked         7.  Under 'ReSend Control' set 'ReSend Attempts' to 1 and under 'On    failure, requeue at', make sure 'Send' is ticked        8.  Select 'Advanced Options' in the drop-down menu      Do the settings taking the following figure as a guide:   urlLink Screenshot    9.  Switch back to 'Basic Options'  At this stage, 'Server Config' tab should look like:   urlLink Screenshot    10.  Lets move on to the next tab. Click on 'File Server Triggers' tab   urlLink Screenshot    11.  Click the 'Add' button under 'FServe Trigger List'      Type in the trigger that other users have to type in the channel to get into your file server in the 'Input Request' box. Appending your nick to the trigger is a good practice. Press 'OK'  Example:      In the 'Choose Welcome File (Cancel = None)' box, press 'Cancel'   urlLink Screenshot   Browse to your serving folder (aka root directory), select it and press 'OK'       12.  Under 'Settings', make sure 'Enabled' is checked       13.  Make sure 'Respond to !List' is checked under 'Global'   14.  Under 'Fserve Trigger List', highlight the trigger text you added earlier  Example:       15.  Under 'Trigger Channels', uncheck 'All Channels'      Type '#telugu-help' in the textbox just under 'Trigger Channels' and press the 'Add' button       16.  Press 'Done' button. 'File Server Triggers' tab now should look like:   urlLink Screenshot    17.  Sysreset --> Servers Active --> On        18.   Join #telugu-help  if you haven't already [by typing: /j #telugu-help]   Right click in the channel window --> Force Advertize --> Fserver [All Chan]       Ask in the channel that your file server be tested. You will most certainly be told to set a few things right in your file server. Do them    19.  Only if and when an OP(erator) [users w/ a  @  sign besides their nick] approves of your file server by saying everything is OK can you start serving   Important note :   Once your file server is given the green signal, do the following:   a) Sysreset --> File Server Manager --> File Server Triggers (tab), highlight the trigger text, highlight '#telugu-help' under 'Trigger Channels', press 'Delete' button  b) Uncheck 'All Channels'  c)   case i) If you are serving movies, type in '#telugu-movies' under 'Trigger Channels' and press 'Add'  case ii) If you are serving mp3s, type in '#telugu-music' under 'Trigger Channels' and press 'Add'  Press 'Done'.
+     
+
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+
+       
+       1.  Register your nick.    Syntax : /nickserv register  mypassword   email    Example : /nickserv register sulekha yourmail@yahoo.com  [All mIRC commands preceed with a "/" and can be typed in any window. But you are advised to type in your status window].   2.  Identify to your registered nick.   Syntax : /nickserv identify  mypassword    Example : /nickserv identify sulekha   3.  Set mode +R to your nick so only registered members can chat with you.   Syntax : /mode  nick  +R   Example : /mode trigger_my_passion +R   4.  Unmask your host address.   Syntax : /mode  nick  -x   Example : /mode trigger_my_passion -x   5.  Have o?ne antivirus running.  urlLink Avast  is a good one and it's free.   6.  DO NOT accept/run any IRC channel cracking/hacking programs that promise to help u find passwords, speed-up your downloads etc. Mostly they are viruses or some kind of TROJAN. By using such programs you are not o?nly putting your machine at risk but also the channel and other users.    7.  DO NOT hesitate to ask the OPs or others for help if you are unsure of anything.    8.  Go through this website. We can't stress this more because we have seen people come up with questions that have been clearly explained o?n our website. If you need further assistance we'd be more than happy to help you. Please join #telugu-help and wait for assistance or message any active OP/server or knowledgeable user.   9.  Do not remain logged o?n to a file server if you don't have to. O?nce you are done using the Remote Window', close it.    10.  Do not ask for/speak about porn.
+     
+
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+
+       
+       1.   What are IRC, mIRC and SysReset?  IRC stands for Internet Relay Chat. It is one of the most popular and most interactive services on the Internet. More info  urlLink here .  mIRC is a free IRC client for Windows. More info  urlLink here .   urlLink SysReset  is a script that uses mIRC client.   2.   Is this free? What's the catch?  Yes it is. There is no catch.   As to why we are doing this, won't you share your movies/mp3s if you have nothing to lose? Do keep in mind that there will be occasions when you have to wait for movie(s) in 'queue'. That means first-come-first-serve w.r.t downloading movies. You need to have lots of patience as it might take time to get the download started or for the download to be completed. A typical transfer of a full length telugu movie from a T1 connection to a cable connection will take 6 hrs. You do not need to be of course in front of computer all this while. Once the file has been kept in queue or the download has started, you can minimize IRC and carry on with your work.   3.   How do I get started w/ IRC and download movies/mp3s?  Check the  urlLink How To Download  page.   4.   I get this when I type a trigger of a file server in the channel: "Server Notice: This server is using an alternate server method, please make sure your DCC Server is active and set to port 59. /dccserver +sc on 59. This is a mIRC command." What do I do?  Do what it asks you to do. i.e.,    Type: /dccserver +sc on  59   ['59' is italicized because it can differ. Majority of file servers from whom you get such notices (upon typing their corresponding triggers) have it as '59']   Type the trigger of the file server again  The server window should open up. If it doesn't, heres how you can make it work:  a) Open port 59 in your firewall. Refer to steps 6, 10 and 19 of  urlLink How to download  page.  b) Type the trigger of the file server again   5.   Where can I download telugu mp3s from?  Latest and the most extensive collection of mp3s can be downloaded from #telugu-music channel in IRC. A fairly good collection of user contributed mp3s can be obtained from  urlLink coolgoose .   6.   I want to share my movies/mp3s with others in the channel. How do I do that?  Read and follow the  urlLink How to serve  page.   7. &nbsp;  What is a 'voice restricted server'? How do I access it?  You can enter a voice restricted server only if you have a voice. i.e., if you have the + sign to the left of your nickname.   How do you get voice? By setting up a file server in the channel (and thus sharing the files you have w/ others).  Read  urlLink How to serve  page for further reading.   8.   I want to edit (i.e., combine, split), convert, play movie files (.mpg, .avi etc.). How do I do these?  Follow the  urlLink guide on burning, video conversion & editing  .   9.   How can I change my password?  /nickserv set password  newpassword 
+     
+
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+
+       
+       1.  Go to  urlLink sysreset's homepage  and download the latest Sysreset Full Installation pack. At the time of writing this, the direct link to the .exe is  urlLink here .   2.  Double click on the downloaded .exe, press 'Accept' and install to the default location that it suggests. You may also changed the installation folder but make sure there are  no spaces  in the path.     3.  Go to the installation folder and double click on mirc.exe.   4.  mIRC Options dailog box opens up. Enter full name, email address, nickname and an alternative. You can enter just anything for full name and email address fields. i.e., they can be fake also. Try to see that the nickname you enter is unique. There is no way to know if the nickname you type in is already taken until you actually join the channel. If it is, you can later change it. For now, enter a nickname which is how you'll be seen to others in the channel. Alternative is a alternative nickname that mIRC assigns you during netsplits. Just enter the same value as you entered in nickname field.    Note : If I don't mention to modify any options, it means you are to leave them at default. Change them only if you know what you are doing.    5.  Click on + to the left of Connect and click on Servers. Choose IrcSuper from the IRC Network drop down menu.  Click on Options from the left and clk on Perform button. Tick 'Enable perform on connect'. Click on Add, select IrcSuper and press OK. Paste the following in 'Perform commands' text field:  /nickserv identify mypassword /mode mynick -x /mode mynick +R /j #telugu-help /j #telugu-movies /j #telugu-music  Replace 'mynick' with the nickname you chose in 4th step. You'll replace 'mypassword' with the actual password in a later step.  Press OK.   6.  Now you are back to Options. The rest of this step applies to those using a router and/or using a software firewall. Clk on Advanced, change the values in First and Last fields from 1024 and 4096 to 4000 and 4009. Press OK.    7.  Clk on Identd and tick 'Use ID from email address'.   8.  Expand IRC tree by clicking on + at its left. Tick 'Prefix own messages'. Clk on Messages and tick Timestamp events.    9.  Expand DCC tree and click on Folders. The folder listed in the second column is your main download folder. It is where movies get downloaded to. If you want to modify that, click on that entry and then click on Edit. The second entry shows the default download folder for mp3s.    10.  This step applies only to those using a router and/or soft firewall. Click on Server, tick 'Enable DCC server'. Make sure 59 is in 'Listen on Port' field. Check all the remaining squares.   11.  Expand Display tree, clk Options, clk Tray... and tick 'Place mIRC in tray when minimized'. Press OK   12.  Expand Other, click Keys and tick 'Escape key minimizes windows'. Press OK  Press OK to accept the changes and dismiss the mIRC Options dialog.   13.  You may want to maximize the main mIRC window itself and the window that has 'Status: not connected........'. This later window is henceforth refered to as 'status window'. It always has  Status:  followed by the current status in its windows title.   14.  Clk on Window menu, Options.. and tick Tile under Auto. Press OK.   15.  SysReset (menu) --> Addon Manager. Click on fserve_browser.ini and press Load button. Click on fserve_tracker.ini amd press Load. Similarly load sysstats.ini, updater.ini and find.ini. Press Done.   16.  Press the Connect (yellow power shaped) button in the toolbar. Wait for few seconds to be connected to the server and joined in the channels. Press the tile icon in the toolbar (3rd from last). Click anywhere in the #telugu-music window and press Escape key.    17.  In the status window, you might see messages like:  [14:22] -NickServ- Your nick isn't registered.  You need to identify to a registered nick to join that channel. For help with registering your nickname, type /msg nickserv@services.trueirc.net help register or see http://docs.trueirc.net/docs/nsemail.html  So first you have to register your nickname and then identify to it.  If the nickname you chose has already been taken by someone else, then you will see a message to that effect in the status window. Then use this command to change the nick to something else and then register it: /nick newnickname   To register your nick, type using this format:   /nickserv register mypassword email   'mypassword' is what you will use to identify to your nickname so that others can't take it over. email can be the same as you entered in 4th step or any other. It can be fake since you will not get any confirmation/verification mail to the address specified.  Now identify to your nick using:    /nickserv identify mypassword   Replace 'mypassword' with the one you chose when registering.   18.  With the Alt key pressed, press O key. Expand Connect, clk Options and then Perform...  Replace 'mypassword' w/ the one you chose in the above step and make sure your nickname is correct. Press OK twice.    19.  If your system's OS is windows XP and if you have its in-built firewall enabled (it will be disabled by default), disable it as follows:  Open Control Panel (click Start -> Control Panel), then open 'Network and Internet Connections', then 'Network Connections'. Find your connection to the Internet (for instance, under Dial-Up), right-click it and choose Properties. In the box that appears, click the Advanced tab. In the top section, uncheck (click) the box next to "Protect my computer and network by limiting or preventing access to this computer from the Internet".  or if you don't want to disable the WinXP firewall, open 59, 113, 4000-4009 ports following  urlLink this  web page.   The rest of this step applies only to those using a router and/or a soft firewall.   If using a router, identify your local IP. You can get this by going to command prompt (Start -> Run -> cmd) and typing ipconfig. Now log in your router configuration administration page by typing the default gateway's address (this is also shown in ipconfig window). If you don't know the login and password, consult your router's manual or online documentation or  urlLink portforward.com . Once logged in, find a link/button to do port forwarding and forward traffic at ports 59 and 4000 to 4009 to your local IP. The service(protocol) can be TCP or a custom name.   A screenshot of my router settings for IRC:     If you are using a software firewall, allow incoming traffic to the ports as in the above screenshot in the software's settings.    20.  Now let's move on the actual task of downloading. Minimize the status window by clicking anywhere in it and pressing the Escape key. Minimize #telugu-help channel window also. Click on #telugu-music in the status bar. Type  !list  to list the file server advertisements (ads) and wait for few seconds for all the ads to roll by.   Go to SysReset menu and clk on Server Tracker. The File Servers tab is divided into Filters, Nicknames, Server Information and Ad Blocking. Tick 'Hide Full Queues' in Filters and click on the first entry under Nicknames. The Server info section gets populated. In the Message box you should see the list of files the person is sharing.   To enter into the person's file server, double click on the entry in Triggers box. A 'Remote window' pops up and you can see the list of folders (if that person has any) and/or files he/she is sharing. Folders are in UPPER case and you can go inside them by double clicking. To download a file, simply double click on it. Either the file will immediately start getting downloaded or it will be kept in queue.   By default, if there's no user activity in the Remote window, it gets closed within 30 seconds and you will see a message 'Session Terminated'. In such cases, simply close the remote window and dbl clk the trigger again.   You can check the status of your queues by entering a file server and clicking on Queues / Sends tab.   There are also buttons to clear a particular queue or all the queues in a file server at the bottom of Remote window.   You can open the most recently downloaded file by pressing F3. Practise entering few other file servers and downloading/queuing.  Click on Done button to dismiss the Server Tracker.  So, now that you know how to download music files, join #telugu-movies and apply your newly learnt knowledge.   To join the movies channel you would type the following (preferably) in status window or in any other window:   /j #telugu-movies   Type !list, open the Server Tracker, click on #telugu-movies in the Filters section, tick 'hide full queues' and ... well, you know the rest.  Should you have any questions after thoroughly and diligently following the above Ramayana, ask in #telugu-help.
+     
+
+    
+</post>
+
+
+<date>12,May,2004</date>
+<post>
+
+	 
+       urlLink http://www.blogrolling.com/   urlLink http://jroller.com/page/debashish   urlLink http://www.mblog.com   urlLink http://www.ms-dicks.com/design/   urlLink http://www.erisfree.com/d2/apart.php 
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+       urlLink http://www.zeldman.com/   urlLink http://www.mezzoblue.com/   urlLink http://www.simplebits.com/   urlLink http://www.csszengarden.com/   urlLink http://whatdoiknow.org/   urlLink http://www.levitated.net/   urlLink http://www.twelvestone.com/forums/showthread.php?s=&threadid=15950 
+     
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+       urlLink    An article on how to Fire Internet Explorer and Outlook Express With Mozilla Alternatives &nbsp; urlLink   
+     
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+	 
+       urlLink    "Abilon displays headlines from RSS (Rich Site Summary - Really Simple Syndication) Channels in an easy to read format. It is small (about 500 kb), fast, and free. Adding new channels is as simple as right-clicking and entering the address of the feed" &nbsp; urlLink   
+     
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+	 
+       urlLink    "Dude, Check This Out! is an entirely new application for finding, storing, and retrieving all the great stuff that you find on the Web. The Dude is the easiest way to share that stuff with your friends and other contacts, and it�s also a great way to meet people who think like you."&nbsp; urlLink   
+     
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+	 
+       urlLink    "Here you'll find a growing collection of free high resolution photos and illustrations. They're free to use in both your personal and professional design projects."&nbsp; urlLink   
+     
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+	 
+       urlLink    "SmartBarXP is a bar that runs down the side of your screen, and can be configured to display interactive panels known as 'panes'. These panes include media players, slideshow and image viewing panes, a virtual desktop manager, and live news, weather and stock feeds to mention but a few. The panes can be repositioned on the bar, and scrolled if the bar becomes too full. The bar can also be host to extra sections, which include a recycle bin, explorer shortcuts, and taskbar replacement sections (start button, taskbar buttons and system tray sections)."&nbsp; urlLink   
+     
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+	 
+       urlLink    code for putting google search box on our site&nbsp; urlLink   
+     
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+	 
+       urlLink    Yet another RSS news aggregator.&nbsp; urlLink   
+     
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+	 
+       urlLink    RSSOwl is a free, fast, cross-platform RSS desktop reader/organizer. &nbsp; urlLink   
+     
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+	 
+       urlLink    "SiteBar is a multi-user, multi-group bookmark server that lets users view, add, import, and maintain bookmarks from anywhere. It offers enterprise-quality access rights and granular permissions. Corporations can use it as a complete intranet bookmark solution, and end-users can use it to access their bookmark collection from anywhere, and share it with friends. It is intended for use in a browser's sidebar, and offers a clean, easy to use interface."&nbsp; urlLink   
+     
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+	 
+       urlLink    "Social MPN is a multi-site Web portal and CMS built upon myPHPNuke. It allows you to create hundreds of Websites with only one server installation. It handles multiple domains and sub-domains, and each site can be kept completely separate from the others or integrated to any degree, including the sharing or article, reviews, and forums. It is perfect for schools and large corporations. The system is fully integrated, with two choices of forum systems, a journaling system, and live help."&nbsp; urlLink   
+     
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+	 
+       urlLink    "Symbio is an Open Source site commenting system, written in Perl and released under the GNU General Public License. So basically, it allows visitors of your web site to comment on its content. Unlike with regular guestbooks, you can have comments for as many articles as you like." &nbsp; urlLink   
+     
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+	 
+       urlLink    "Back-End allows even the non-technical to manage any website easily, through a web browser, on any operating system. Fast, flexible and easy to understand, Back-End puts you in charge of your site, saving your organisation time and money in the process." &nbsp; urlLink   
+     
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+	 
+       urlLink    "Estraier is a full-text search system for personal use. Full-text search means functions to search lots of documents for some documents including specified words. The principal purpose of Estraier is to realize a full-text search system of a web site. It functions similarly to Google, but for a personal web site or sites in an intranet." &nbsp; urlLink   
+     
+    
+</post>
+
+<date>20,June,2004</date>
+<post>
+
+	 
+       urlLink    "XnView, a software to view and convert graphic files". Read in neowin forums this is very good for batch process of pics (multi-convert w/ resize operation) &nbsp; urlLink   
+     
+    
+</post>
+
+<date>19,June,2004</date>
+<post>
+
+	 
+       urlLink    "A gathering place for helpful info, tips and suggestions to help make email lists easier for both listowners and list members." &nbsp; urlLink   
+     
+    
+</post>
+
+<date>19,June,2004</date>
+<post>
+
+	 
+       urlLink    This makes Gmail the default application for mailto: links. &nbsp; urlLink   
+     
+    
+</post>
+
+<date>19,June,2004</date>
+<post>
+
+	 
+       urlLink    "pseudo-cron allows users to use cron jobs on a Website without shell access. Whenever any user requests a page which uses pseudo-cron, it checks if any cron jobs should have been run since the previous request. If there are, they are run and logged. It uses a syntax very much like Unix cron's and can run any include()able PHP file."&nbsp; urlLink   
+     
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+	 
+       urlLink    "PHPQuickGallery is the solution for those who want to have a simple, easy to manage web gallery. Adding new photos or galleries is as simple as creating directories and copying in the files (You could keep them there, but you do have backups of your photos right?). PHPQuickGallery doesn't require the user to add the photos to a database, go through some web form, or have a script run to create new web pages. PHPQuickGallery will automatically detect and display anything new that is added."&nbsp; urlLink   
+     
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+	 
+       urlLink    mygosuMenu - Free DHTML menus&nbsp; urlLink   
+     
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+	 
+       urlLink    A site that provides downloadable freeware under 1 MB.&nbsp; urlLink   
+     
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+       urlLink    "blinkx changes the way you find and access all kinds of information, from anywhere in the world, without having to search endlessly. blinkx rapidly links you with the information you need from the web, from online news sources and files on your own PC." Not yet available for Firefox, but they are working on it.&nbsp; urlLink   
+     
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+       urlLink    A color palette &nbsp; urlLink   
+     
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+       urlLink    YoSucker is another free program like YahooPOPs that you can use to fetch yahoo mail via POP3.&nbsp; urlLink   
+     
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+       urlLink    Nvu, a free WYSWYG editor for html pages. Available for windows as well.&nbsp; urlLink   
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+       urlLink    A free personalized news aggregator online&nbsp; urlLink   
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+       urlLink    A new all-in-one instant messenger&nbsp; urlLink   
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+       urlLink    It's done. Rediffmail also now on par w/ Gmail w.r.t inbox capacity and attachment size&nbsp; urlLink   
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+       urlLink    rediffmail copying Gmail (well, a good thing to do). Beginning Friday morning (EST), inbox size is 1 GB and an attachment limit of 10 MB.&nbsp; urlLink   
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+       urlLink    This program implements a new option on the Windows right-click context menu, under the "Send To" option. The new option, "Any Folder," allows you to send files which you select in Windows explorer to any location on your hard drive, by either moving or making copies of them. Might be useful for those who still use windows explorer. You should really be using 2xExplorer or xplorer2.&nbsp; urlLink   
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+       urlLink    Good article on why one should dump IE and use better alternatives like Opera, Firefox&nbsp; urlLink   
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+       urlLink    Opera owning MS&nbsp; urlLink   
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+       urlLink    RealWorldStyle.com&nbsp; urlLink   
+     
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+       urlLink    came to know about this frm TarquinWJ in #opera&nbsp; urlLink   
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+	 
+       urlLink    TarquinWJ's site&nbsp; urlLink   
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+	 
+       urlLink    Yahoo! email (free accounts) upgraded to 100 MB. Lookswise also, good changes.&nbsp; urlLink   
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+	 
+       urlLink    Firefox 0.9 released &nbsp; urlLink   
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+	 
+       urlLink    A free service using which we can add birthday dates of friends and family and always be reminded ahead of time so we don't miss the important occassions.&nbsp; urlLink   
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+	 
+       urlLink    A new graphics and design community&nbsp; urlLink   
+     
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+       urlLink    Smilies w/ html ready code for blogging and posting in forums&nbsp; urlLink   
+     
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+       urlLink    Politics, Culture, Point of view&nbsp; urlLink   
+     
+    
+</post>
+
+<date>12,June,2004</date>
+<post>
+
+	 
+       urlLink    OperaAdFilter &nbsp; urlLink   
+     
+    
+</post>
+
+<date>12,June,2004</date>
+<post>
+
+	 
+       urlLink    Wikis&nbsp; urlLink   
+     
+    
+</post>
+
+<date>11,June,2004</date>
+<post>
+
+	 
+       urlLink    Xandros desktop now free - but no official support&nbsp; urlLink   
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+       urlLink    Formely design technika, now gfxoasis&nbsp; urlLink   
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+       urlLink    Learnthat.com&nbsp; urlLink   
+     
+    
+</post>
+
+<date>08,June,2004</date>
+<post>
+
+	 
+       urlLink    http://slashdot.org/article.pl?sid=04/06/08/1219227&nbsp; urlLink   
+     
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+	 
+       urlLink    Sonu Nigam in SA&nbsp; urlLink   
+     
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+       urlLink    MSN's new (beta) search technology - looks minimalistic like Google's.&nbsp; urlLink   
+     
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+       urlLink    A new excellent free service for storing pics and photos. 500 MB. Gallery script. Allows hotlinking.&nbsp; urlLink   
+     
+    
+</post>
+
+
+</Blog>

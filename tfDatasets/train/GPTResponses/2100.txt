@@ -1,0 +1,1 @@
+Under stabilizing selection or purifying selection, genes are constrained so that they change more slowly. This is because stabilizing selection favors genetic variants that are already well adapted to the environment, while purifying selection removes deleterious mutations from the population. This results in a decrease in the overall genetic variation of a population over time.

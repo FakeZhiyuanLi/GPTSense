@@ -1,0 +1,428 @@
+<Blog>
+
+<date>03,August,2004</date>
+<post>
+
+	 
+      Adjunto con este email mis primeras fotos! Las envía mi mama porque yo como veis aún no he nacido. Mi tamaño es de una judía blanca.  En la primera foto "Baby 26 jul 04 1.JPG" soy el que está entre las dos cruces. Estas cruces las hizo el médico (Beatriz) para indicar mi tamaño. El ordenador, conforme a esta medida, estimó que tengo -7 semanas!! Yupi!!  Hasta pronto!!   
+    
+</post>
+
+
+<date>27,July,2004</date>
+<post>
+
+     
+      Hola Mundo  
+     
+    
+</post>
+
+
+
+
+<date>03,August,2004</date>
+<post>
+
+     
+      A whole range of glasses and contact lenses.  Prices: Frames ~80 yuan Lenses: ~120 yuan Contact lenses: ~65 yuan (3 months, uv)  Address: 上海是大车站北广场三叶眼镜批发市场317-318室 上海市城隍盾小百货批发市场福佑商厦二楼  Location: At the underground of the Shanghai Train Station.  One of the stands: 自我 B14 – B20 – B21 号 (二楼开发票处) Tel: 021-51013059  Links related:  urlLink Wholesale optical market focus on Shanghai 
+     
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+     
+      Hello world
+     
+    
+</post>
+
+
+<date>31,May,2004</date>
+<post>
+
+	 
+       urlLink Radio France > Accueil 
+    
+</post>
+
+<date>30,June,2004</date>
+<post>
+
+	 
+       urlLink  firefox 0.91 trunk is out. the theme has been improved and bugs have been fixed, even morestable tan the official relese.  http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.9.1/
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+       urlLink Firefox Help: Tips & Tricks  This advanced tip makes it possible to run Firefox from removable media, such as a USB memory stick. This will allow you to run Firefox with your personal settings from any computer, even those that don't have Firefox installed. It has only been tested on Windows XP/2000. The basic instructions are as follows:     1. Copy the Firefox application folder and your profile folder to the removable media. In this example we will use R:\Firefox for the application folder and R:\FFProfile as the profile folder, assuming the drive letter for the removable media is R:.    2. Create a simple batch file called R:\Firefox.bat with the following line:  start \Firefox\firefox.exe -profile \FFProfile     3. Optionally, disable the disk cache to reduce the amounts of file writes to the removable storage by entering about:config in the address field of Firefox and set browser.cache.disk.enable to false.  The reason why a batch file is needed instead of a simple shortcut is that a shortcut uses absolute paths, and since the actual drive letter for the removable media may change depending on which computer it is plugged into, the relative path used in the batch file is guaranteed to work anywhere.
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+	 
+       urlLink IceWM FAQ and Howto: Installation  3.3 How to make IceWM my default window manager?  In order to run IceWM, you must assure that the executable (called icewm) is in your path. You should then add IceWM to your X start-up script (which could be .xinitrc, .xsession or .Xclients).  Note: Supplying the full path to IceWM isn't sufficient - if IceWM isn't in your path, restarting it will fail (even if you don't do this by hand it is done automatically on changing the theme).  Which of the scripts mentioned above is the right one mainly depends on whether you manually start X (using startx) or have X running all the time.  First I explain what you need to do if you manually start X. Then I address the case "X is running all the time" (which means that you log in via xdm or something like that). Finally I describe what both cases have in common. Running IceWM at X startup  If you use startx to start up X then you run your window manager from the .xinitrc file. Running IceWM after graphical login  If your system has a graphical login (X is already running while you log in) you are using a display manager such as xdm, kdm or gdm. In this case .xinitrc has no effect (it is not read in by xdm). You must instead use a .xsession file.  Hint: It is absolutely no problem to have a .xsession and a .xinitrc file (which is especially useful for inhomogeneous networks).  Mandrake users repeatedly reported that their .xsession wasn't read and no applications started. To work around that in the kdm login interface choose Default and add IceWM as the last entry to your .xsession. Besides the differences  You might have noticed that - besides being used in different cases - .xsession and .xinitrc are essentially the same. On some systems they are in fact the very same file which is called .Xclients with .xinitrc and .xsession both being symbolic links to this file.  Irrespective which start script you use (.xsession, .xinitrc or .Xclients) it must be executable. This may be achieved by issuing the following command:      chmod u+x ~/.filename  A minimalist's start-up file consists of only the command to start the window manager (in our case icewm). Most geeky people add other stuff to the file to make it look more complicated and confuse beginners >;->  Though that may be the reason for some of us, the greater majority add commands to customize X and to start some programs on login (typical example: an xterm)  The following is a (reasonable) .xinitrc file used as an example by Marko:      #-----------------------------------------------------------     # .xinitrc     #-----------------------------------------------------------      # run profile to set $PATH and other env vars correctly     . $HOME/.bash_profile      # setup background     xsetroot -solid '#056'      # setup mouse acceleration     xset m 7 2      # run initial programs     xterm &      # start icewm, and run xterm if it crashes (just to be safe)     exec icewm || exec xterm -fg red      #-----------------------------------------------------------  Note: To run IceWM, the icewm command needs to be executed. This means that all programs that are run before starting icewm either have to terminate immediately or to run in background. Also, don't exec them because that terminates execution of .xinitrc.
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+	 
+       urlLink Gmail Gems: How To Import Contacts Into Gmail  How To Import Contacts Into Gmail There is a super-easy way to add your existing address book from your old email account (Yahoo, Mail, MSN, whatever) to your spiffy new Gmail contacts list. Here's what to do:  1. Email everyone on your list including yourself at your new Gmail address. Say something like: "I'm going to be switching email addresses to my new Gmail account. Expect an email from that account soon!"  2. Reply All to that email from your Gmail account. Tell everybody "This is my spiffy new Gmail account! Please email me at this address from now on."  Then everybody you emailed should be in your Gmail contacts.  BTW, importing/exporting contacts is one of the future promised features of Gmail.
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+	 
+      Pagina descarga del Firefox 0.9: http://www.mozilla.org/products/firefox/ instalacion: http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.9/FirefoxSetup-0.9.exe  Pagina antigua donde hay extensiones para la 0.8 pero que funcionan tambien en la 0.9 http://texturizer.net/firefox/extensions/  ( Pagina de las nuevas extensiones del firefox 0.9 (aun no han metido todas las extensiones de la antigua pagina web) http://update.mozilla.org/?application=firefox )  Tabbrowser Extensions descripcion: http://texturizer.net/firefox/extensions/#tbe instalacion: http://white.sakura.ne.jp/~piro/xul/xpi/tabextensions_en.xpi 
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+	 
+       urlLink Mark Lyon's GMail Loader (GML) - Import Your Mail into GMail : "Google GMail Loader"
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+	 
+       urlLink G-Mailto : "G-Mailto v1.1"
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+	 
+       urlLink aaltonen.us: Download: Gmail Utilities : "Download: Gmail Utilities"
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+	 
+       urlLink The Gmail email client : "The Gmail email client"
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+	 
+              A $30 billion  valuation of Google implies that due to strong network externalities, the  company will own the standard in the search engine space, like Microsoft in PC  operating systems or eBay in Internet auctions. While a standard will likely be  established for search engines, Google's ability to own that standard remains  highly uncertain.          &nbsp;     http://www.fool.com/news/commentary/2004/commentary040526sh.htm     
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+	 
+       urlLink Notes in Gmail - orkut - communities - messages  I know you said you didn't want to email yourself, but here are some suggestions to make it much easier:  -Create a Contact with a Name of "Notes" and an Email Address of "username+Notes@gmail.com" -Create a new Label called "Notes" -Create a Filter to add the "Notes" Label any email addressed to "username+Notes@gmail.com". Also, check the "Skip the Inbox (Archive it)" checkbox.  The effect is this: -When you email yourself from ANOTHER account, the message will automatically be archived into your "Notes" Label view, bypassing the Inbox.  -When you want to email yourself from your Gmail account, click "Compose Email", and just type "Notes" in the "To" field and hit Enter. Because you used the name "Notes" as the Contact, it will fill in automatically eliminating the need to enter a long address. When you click send, it gets sent to yourself, and auto-archived in the Notes Label.  Hope this helps! Jim: http://www.orkut.com/Profile.aspx?uid=9721409955413745991
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+	 
+       urlLink redhat.com | Red Hat, Inc.  OK, NOTE: This was hinted at a couple of days ago about "Fluxbox" install.  I wanted to install IceWM. It proved even simpler than I thought:  0. $ su - 1. Download lastest icewm + icewm-gnome-menu (rpm). 2. rpm -i icewm-*.rpm  3. cd /etc/X11/Sessions/dm 4  cp gnome.desktop icewm.desktop 5. vi icewm.desksop  [esc]: (to get command prompt  :%s/GNOME/ICEWM/g    6. Go to bottom of screen and change Exec = /usr/bin/icewm  7. [esc]:wq; exit and logout of gnome and re-login  At this point should see ICEWM as a "sessions" options   David
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+	 
+       urlLink Unofficial Fedora Core 2 Guide for Beginners : "Unofficial Fedora Core 2 Guide for Beginners"
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+	 
+       urlLink [freshrpms.net] - Apt  APT (Advanced Package Tool) is a dependency tool, well known to Debian users since it is used by default with their dpkg packages. But apt has been ported to work with rpm packages too, by Conectiva, who has now used it for some time in their GNU/Linux distribution. The good news is that apt for rpm may be used with any other rpm-based distribution. All you need is the tool compiled for your version of rpm and at least a repository where rpm packages and their apt metadata can be downloaded from.
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+       urlLink KoMo GmbH - Wolfgang Mock - Hokus Pokus Fidibus - Getreidemühlen - Flocker 
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+       urlLink as I live the questions: Importing Hotmail to Gmail: An Easy Solution Using GetMail : "Importing Hotmail to Gmail: An Easy Solution Using GetMail"
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+       urlLink Pop Goes the Gmail. SMTP/POP server for Gmail!  Pop Goes the Gmail
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+      http://www.yousendit.com/ 
+    
+</post>
+
+<date>02,June,2004</date>
+<post>
+
+	 
+       urlLink lo mismo - Chico Pola Punky Sawa  Cortos de Gregorio
+    
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+	 
+       urlLink Welcome to Flickr - Photo Sharing  Flickr is a revolution in photo storage, sharing and organization, making photo management an easy, natural and collaborative process. Get comments, notes, and tags on your photos, post to any blog, share and chat live and more!
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+	 
+       urlLink bochs: The Open Source IA-32 Emulation Project (Home Page)  Bochs is a highly portable open source IA-32 (x86) PC emulator written in C++, that runs on most popular platforms. It includes emulation of the Intel x86 CPU, common I/O devices, and a custom BIOS. Currently, Bochs can be compiled to emulate a 386, 486, Pentium, Pentium Pro or AMD64 CPU, including optional MMX, SSE, SSE2 and 3DNow instructions. Bochs is capable of running most Operating Systems inside the emulation including Linux, Windows® 95, DOS, and Windows® NT 4. Bochs was written by Kevin Lawton and is currently maintained by this project.
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+	 
+       urlLink Google Sets   plex86                           urlLink  SimOS                           urlLink  Bochs                           urlLink  a386                            urlLink  VMWare 
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+	 
+       urlLink  The Metasploit Framework is an advanced open-source platform for developing, testing, and using exploit code. This project initially started off as a portable network game and has evolved into a powerful tool for penetration testing, exploit development, and vulnerability research.
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+	 
+       urlLink Lutkus on Unicycle -- how to build your own  Before I begin, I might as well start with some sort of disclaimer. I make no warrenties ot guarentees or any kind, and something like that. Just don't sue me, ok? I don't have any money. If I did, I wouldn't have to build my own unicycle. Oh yeah, if you want to build a unicycle, well, chances are you're an odd or crazy one in the first place, so, what is common sense for most probably is not to you (or me). Just make sure this thing has some strength. If you're not sure a part can properly support you, either find some way to test it (that won't result in death or injury if the test fails) or don't use it. (...)
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+       urlLink klik - point-and-klik software store  In order to install the klik client, run the right version of Knoppix, press Alt-F2 and paste: wget klik.berlios.de/client/install -O -|sh Now you can point-and-klik to install the software packages.
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+       urlLink Feedster :: RSS Search Engine  Welcome :: Feedster Delivers Fresh News and Opinion
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+	 
+       urlLink Quick HOWTO: Telnet   By default Telnet is installed enabled on RedHat and Fedora Linux. You can test whether the Telnet process is running with the following command which is used to check the TCP/UDP ports on which your server is listening:  [root@bigboy root]# netstat -a | grep telnet tcp        0        0        *:telnet        *:*        LISTEN [root@bigboy root]#  If you want to disable Telnet then edit the file /etc/xinetd.d/telnet and set the disable parameter to "yes".  # default: on # description: The telnet server serves telnet sessions; it uses # unencrypted username/password pairs for authentication. service telnet {        flags          = REUSE        socket_type    = stream        wait           = no        user           = root        server         = /usr/sbin/in.telnetd        log_on_failure += USERID        disable        = yes }  You'll then have to restart xinetd for the new settings to take effect.  [root@bigboy tmp]# /etc/init.d/xinetd restart Stopping xinetd: [ OK ] Starting xinetd: [ OK ] [root@bigboy tmp]#
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+	 
+       urlLink Linux Video Stream Processing Tool - Examples     transcode     is a linux text-console utility for video stream processing, running on a platform that supports shared libraries and threads. Decoding and encoding is done by loading modules that are responsible  for feeding transcode with raw video/audio streams (import modules)  and encoding the frames (export modules). It supports elementary video  and audio frame transformations, including de-interlacing or fast resizing of video frames and loading of external filters. A number of modules are included to enable import of DVDs on-the-fly,  MPEG elementary (ES) or program streams (VOB), MPEG video, Digital Video (DV),  YUV4MPEG streams, NuppelVideo file format and raw or compressed (pass-through) video frames  and export modules for writing DivX;-), OpenDivX, DivX 4.xx or  uncompressed AVI files with MPEG, AC3 (pass-through) or PCM audio. Additional export modules to write single frames (PPM) or YUV4MPEG streams are available, as well as an interface import module 	  to the  avifile  library. It's modular concept is intended to provide flexibility and easy user  extensibility to include other video/audio codecs or file types.  A set of tools is included to demux (  tcdemux  ), extract (  tcextract  ) and decode 	   (  tcdecode  ) the sources  into raw video/audio streams for import, probing (  tcprobe  ) and scanning (  tcscan  ) your sources and to enable post-processing  of AVI files, fixing AVI file header information (  avifix  ), merging multiple files (  avimerge  ) or splitting  large AVI files (  avisplit  ) to fit on a CD.
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+	 
+       urlLink Blogger Knowledge  General Tips Before we begin, we'll need to cover some safety precautions. Most Blogger Hacks require template modifications, ranging from slight tweaks to complete overhauls. An experienced template ninja will always have a template backup on hand, stored safely in a text file on a hard drive. Thus, when a misplaced angle bracket suddenly causes a rift in the space-time continuum, the damage can be reversed instantly, with no lasting harm to either the blog in question or the continued survival of the human race.
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+	 
+       urlLink Google Help : "Advanced Search Made Easy  You can increase the accuracy of your searches by adding operators that fine-tune your keywords. Most of the options listed on this page can be entered directly into the Google search box or selected from Google's Advanced Search page.  Additionally, Google supports several advanced operators which are query words that have special meaning to Google. For a complete list, click here. "
+    
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+	 
+       urlLink LANGUAGES-ON-THE-WEB: BEST CHINESE LINKS : "language links CHINESE"
+    
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+	 
+       urlLink Linux Links - The Linux Portal: Docs/Fonts 
+    
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+	 
+       urlLink Erning's Weblog: Chinese under English Locale  Chinese under English Locale  The user interface of Fedora Core 1 under English locale is quite pretty but the Chinese one still ugly. Does it support reading and writing Chinese under English locale like Windows 2K? This article shows how I installed Chinese support for Fedora under English locale(en_US.UTF-8). 
+    
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+	 
+       urlLink About the Gmail Agent Applet  About the Gmail Agent Applet  I'm sure most of you are more interested in the applet, so here are the features:      * Multiple account support     * Balloon notification of new messages with message preview     * Address book view and import (from tab-delimited text files)  The system requirements are:      * Windows 2000, or higher     * Microsoft .NET Framework v1.1  I haven't tried this with Mono — I doubt it works, but if it does, please let me know. If you are interested in POP access to Gmail, check out Pop Goes the Gmail (also a .NET project).
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+	 
+       urlLink Celestia  Celestia is a free real-time space simulation that lets you experience our universe in three dimensions. Unlike most planetarium software, Celestia doesn't confine you to the surface of the Earth. You can travel throughout the solar system, to any of over 100,000 stars, or even beyond the galaxy. All travel in Celestia is seamless; the exponential zoom feature lets you explore space across a huge range of scales, from galaxy clusters down to spacecraft only a few meters across. A 'point-and-goto' interface makes it simple to navigate through the universe to the object you want to visit.
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+	 
+       urlLink NPIcenter - Company Details  Nutripharma (shanghai) Inc.No. 1277 Beijing xi road, shanghai,N/A, CN China Phone: 86 21 62472187  Key Contact(s): Denis Ding, sales manager Phone: 86 21 62472187 Fax: 86 21 62890435 Email: sales@nutripharma.cn  Description: Nutripharma (Shanghai) Inc. is a company specialized in providing raw materials sourcing and contract manufacturing service to health nutritional industry in the world.
+    
+</post>
+
+<date>14,July,2004</date>
+<post>
+
+	 
+       urlLink Multiblog   There are a number of reasons for including multiple blogs on a single page. Perhaps you'd like to have two or three users posting at once, but don't want the posts combined in a single blog column. Or maybe you'd like to post notes and comments in your sidebar that don't fit in with the rest of the content of your blog. It's even possible (depending on your server's capabilities) to grab blog content from another server and paste it seamlessly into your existing code. The possibilities are endless, really.  (...)
+    
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+	 
+       urlLink Downloading Torrents in Linux and Unix  Carlo Sogono cs83 uow.edu.au Version 1.02 - 29 May 2004
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+	 
+       urlLink Knoppix STD  Knoppix-STD is a customized distribution of the Knoppix Live Linux CD. Boot to the CD and you have Knoppix-STD. That would include a customized linux kernel (2.4.21 with ntfs rw, openmosix, and superfreeswan patches), Fluxbox windows manager, incredible hardware detection and hundreds of applications. Boot without the CD and you return to your original operating system. Aside from borrowing power, peripherals and some RAM, Knoppix-STD doesn't touch the host computer.
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+	 
+       urlLink Troubleshooting Windows XP, Tweaks and Fixes for Windows XP   Registry Edits for Windows XP "Tweaks and Tips"  View by Category by choosing one the groups below or scroll down to View by List 
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+	 
+       urlLink Repair XP  Following are my experiences with repairing XP. I will not assume any responsibility for problems that may occur to your system from using any of these suggestions. It is always prudent to backup important data before you make any changes to your operating system.
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+	 
+       urlLink linux software and linux documentation for all your needs : usinglinux.org  Welcome to UsingLinux.org  UsingLinux.org is curently beeing under heavy reorganisation. Our website has been heavily modified in order to increase security and to offer more services.  During that time (probably a few weeks), we will offer you a "ligh" web site, meaning that only the software will be online (actually more than 9000 programs) - forums, and others pages will be down during the upgrade.  Happy browsing with us   ---  Nota: No tiene calificacion de programas :(
+    
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+	 
+       urlLink TinyApps.Org : Home  Welcome to TinyApps.Org, a guide to very small software for your PC. Virtually all of the programs listed here are free of charge and for use under Windows. If this is your first visit, please read the FAQ.
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+	 
+      Frist get to know in witch dh is your hd located by running:  [root@localhost]# dmesg | grep hd     ide0: BM-DMA at 0xfc00-0xfc07, BIOS settings: hda:DMA, hdb:pio     ide1: BM-DMA at 0xfc08-0xfc0f, BIOS settings: hdc:DMA, hdd:pio hda: WDC WD800BB-00DKA0, ATA DISK drive hdc: IDE5216CO, ATAPI CD/DVD-ROM drive hda: max request size: 1024KiB hda: 156301488 sectors (80026 MB) w/2048KiB Cache, CHS=16383/255/63, UDMA(100)  hda: hda1 hda2   hda3 hdc: ATAPI 40X DVD-ROM CD-R/RW CD-MRW drive, 2048kB Cache, UDMA(33) EXT3 FS on hda7, internal journal Adding 457844k swap on /dev/hda3.  Priority:-1 extents:1 EXT3 FS on hda6, internal journal NTFS-fs warning (device hda5): ntfs_fill_super(): Atime updates are not implemented yet.  Disabling them. hdc: packet command error: status=0x51 { DriveReady SeekComplete Error } hdc: packet command error: error=0x54 hdc: packet command error: status=0x51 { DriveReady SeekComplete Error } hdc: packet command error: error=0x54   Mine is in hdc then make a symbolic link in the dev directory  [root@localhost]# ln -s /dev/hdc /dev/dvd   Thats it, now you can see the DVDs on xine with a combo.
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+       urlLink Google Search: tikiwiki OR xoops OR Nucleus  Aun no se cual es el que voy a utilizar para mi futuro blog profesional...
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+	 
+      530 Lingling Road TEL: 6417-4600
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+	 
+       urlLink Blogger Help  This is a trick that's particularly useful on blogs with very long posts. What happens is that a reader will only see the titles of your posts at first, so they can skim through and see what they want to read. Then, when they want to read a post, they can click a link to see the full text. The text can then be hidden again when they're done reading. This all happens on one page, so there is no extra navigating to or loading of other pages.
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,238 @@
+<Blog>
+
+
+
+<date>30,June,2004</date>
+<post>
+
+	 
+      Ughh...  Just got done recovering from 2 exams for the same class back to back.  This summer I decided to go ahead and take a 5 week Anatomy & Physiology course as it was one of the few remaining classes I have left before I have to apply to get accepted into the nursing school.    In hindsight, I would recommend this only for extremely brave souls.  The class requires HUGE amounts of memorization, and the lecture and labs got all out of order, so I ended up having to study twice as much, with no overlapping material.  Oh well, live and learn.   At least I know for sure now that the ankle bone connects to the foot bone.  :)  Or, to be more precise, the distal end of the tibia articulates with the talus to form the ankle joint.  But anyways, I'll probably be studying every conceivable chance I get, as I believe the final is comprehensive and we've covered 15 chapters of every bump, knob, and concavity on the human body.  So updates will be pretty scanty.  Only 4 more days til I can leave the hobbit study cave and wander around in the big blue room outside!
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+      Blogging has turned out to be a bit more fun than I expected.  After looking around, I found a lot of neat sites that let you provide Letterman-style custom lists.  There is a link under my Lists category to my Netflix queue so the curious can see what my significant other and I are watching.  I've already sent back Casablanca (excellent, excellent movie!!!) and the SNL movie, so the Netflix fairies should be sending Lain shortly.  Lain is a Japanese anime movie that is fairly well acclaimed with tons of Apple and BeOS references tucked in amongst the plot.  I'm considering finding a host that lets me post ASP pages so I can do more fun stuff with this little site.  Any recommendations on a cheap, but reliable host?  -- Aeryth
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+	 
+      For all the Mac-o-philes out there, yesterday was a big day.  Yesterday, previews of the new "Tiger" OS were shown to developers at Apple's developer conference (WWDC).  Overall, I have to say I was pretty impressed.  The new Spotlight technology promises to make finding and correlating data on the old hard drive a lot easier.  The day before WWDC, users on MacRumors.com had the guilty pleasure of viewing some unauthorized "preview" screenshots of the Tiger OS.  One of the features whose authenticity was doubted most was the new Dashboard feature.  I know there are lots of Konfabulator fans, but anyone who knows me knows I have an extreme distaste for desktop widgets.  In fact, I believe desktop widgets are a littermate of the annoying yellow Office agent dog in Windows XP.  So it's pretty safe to say that I was praying that the new shots were faked.  Turns, out the screenshots were true.  The Dashboard works on the metaphor that we keep objects that we use often but not all the time within reach (or buried within reach in my case) in a top desk drawer.  Well, the Dashboard is a special "drawer" screen mode of Expose that is reached by a special keyboard stroke (or probably a mouse gesture as well).  Little Javascript driven widgets lay in the drawer and you can manipulate them and close the drawer once you are finished with a keystroke or mouse move.  Personally, I don't like the new feature.  IMHO, desktop widgets constitute a violation of many rules of good UI, which is especially tragic considering all the time and energy Apple has put into place into making sure their user experience guidelines are documented and adopted.  Widgets have 4 major problems:  1.  UI guidelines protect the user.    Developers should not have access to colors.  Anyone who looks at the Windows XP interface can tell you that.  XP, the first truly multicolored MS OS has red, blue, orange, green, and other colors thrown around in borderline random areas of the desktop.  It has the style sensibility of the late 80s when blinding your fellow man with swirls of neon color was the desired look.  The stereotypical computer geek is not an artist, and tends to have poor fashion sense bordering on the color blind.  I have seen hideous UIs that were borderline unusable using the common controls in both the Mac OS and in Windows.  We have problems as it is making user friendly UIs within the existing parameters.  Do you really want to give these people a blank palette?  2.  Widgets make the user experience inconsistent.    One of the beautiful things about Mac OS is that you can sit down at any Mac or Windows box and know how to interact with almost any element you see onscreen.  Buttons are clicked.  Mac programs almost always have a Preferences menu item.  There are visual cues in Windows that let you figure out what the keyboard shortcut is to particular functionality.  Forms are square, easily tile, and conserve screen space.    Widgets sacrifice all this consistency in favor of flashy looks.  I remember looking at QuickTime 4 and trying to figure out how to interact with it (especially the volume control).  Windows Media Player with its strange new skin is another example.  When the program is onscreen, it takes up way more screenspace than is necessary.  You can see spans of empty space used for nothing but just being there.  Even with visualizations turned off, the thing is monstrously huge in comparison with what could be done with a simple form.  I can see why Apple released the 30" display.  If you make extensive use of widgets, you'll need the extra space!  3.  Real life metaphors don't always translate very well to the computer screen.  Ok, once again, the Windows release of QuickTime 4.  This application was very memorable, mostly for the awful interface.  Apple attempted to make the player a true to life representation of a real player, down to a thumb wheel for the volume.  However, they did not take into account that humans interact with programs from the front.  Try to turn a scroll wheel on a device from the front without using the notches on the side.  I can almost guarantee you will throw down the device in frustration, as it just doesn't work well, especially for things requiring fine grained control like volume.  I had the same problem with QT4 and quit using QT for a long time afterwards due to the sour taste it left in my mouth.    Another example of failed real world metaphors are the Tablet PCs released by Microsoft.  My significant other has dissected this one in detail (even got quoted in a journal for his observations!).  To paraphrase him, the writing experience and interacting with the tablet is slow, inaccurate, and such a pain that most people revert to using laptop mode not long after buying their new tablets.  The beauty of standard controls is that they are carefully tested for ease of use, as these are core elements of the OS and the OS developers know better than to peeve their user base.  Until we come up with new human interfaces with computers where we can interact with programs from all 3 dimensions, the majority of most ported metaphors will probably fall flat in the usability department.  4.  Widgets are redundant and redundant.  If you look at the widgets at WWDC, there are items such as a calendar with the date and the calculator.  Personally, it makes me wonder how many calendars a person really needs.  The day is stated at all times in the top Menu bar.  If you have iCal in your dock, you can see the day number in the month.  If you need quick access to the calculator, you can set up keyboard commands to quick launch the calculator (at least in Windows).  Why do you need more instances of calendars to tell you the date and time?  The only thing I can think of that would be marginally useful is a world clock, but I would rather have that be visible at all times or accessible from the main desktop so I don't have to interrupt my typing to access the "drawer" of Dashboard and see what time it is in Nottingham or Australia.  My favorite pseudo-Widget is a tea timer called Cuppa.  It resides in the dock, provides a tiny, unobstrusive view of how long until my tea is done, then bounces in the dock unobstrusively and sounds a chime to alert me that my tea is done.  That is perfection.  A tiny, configurable program that doesn't interfere with my work, that acts predictably, and provides excellent visual cues in an ultra small package.  As you can see, I don't think Widgets are that good of an idea.  Apple has done us well so far with Jaguar and Panther, but I think they missed the mark with this new feature in Tiger.  Apple also had desktop widgets long ago before System 7 was released and they were deprecated.  I think someday in the future, they will probably be deprecated again as this new fad of real world metaphors comes and goes and people realize that the new metaphors are a lot more trouble than they are worth.
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+	 
+      I was digging through the archives of crap on my hard drive and I found a bunch of old games I had archived on a virtual pc on my Mac.  I remember one day my significant other and I were talking about games and how you kind of lose your identity in them.  I agree for the most part.  You grab a controller or mouse or whatever, and the next thing you know, the magic console fairy has taken several hours of your life irrevocably.  I admit, yeah, games can be a time waster.  But, I don't think all games are bad.  The ones I found lying around were old Sierra games, vintage early 90s.  I remember time as a young girl spent saving babysitting money excited to buy the next parser driven game (for you young folks, that means no mouse, typing in commands on a keyboard).  Sierra has always had a knack for atmosphere, something you rarely find in games today, and even rarely in Sierra games post-1996.  It is one thing to throw together a bunch of sterile rendered 3d objects and call it a "room", as a lot of games do today...  It is another to simulate the heartbeat of life that is present in a real building or city.  A lot of the old Sierra games accomplished this by adding incredible amounts of 2D detail, passerbys who were very interactive, and allowing you to interact with objects in the environment even in impossible ways.    My favorites are the old Quest for Glory games, a parody of the traditional medieval hero rpg.  They had a lot of humor intended for all ages.  Everytime I played, I discovered new humor and inside references to popular media from all times (from Marx Brothers to Casablanca to old time 40s and 50s movie theaters).   There were real phrases of Arabic (from the desert lands) and classical references to mythology and mythological creatures.  You could also play as thief, wizard, or sword swingin' hero, each solving puzzles in a different way.   In a way, many hours of QFG kind of shaped who I am.  It taught me to persevere and not give up, that over time your skills will be refined and you will achieve your goal.  It also taught me that sometimes there is no easy answer to hard ethical questions, you just gotta do what you gotta do and take the good with the bad.  Yeah, lots of cliches.  But also, although I was young, the cultural references made me want to explore the world and read about the fantastic monsters I had seen in the game.  The game made me want to be a hero.  But anyways, IMHO, gaming experiences are only as empty as the participants and the authors make them.  Well done, smart games can be almost like good books, expanding the imagination of a young player.  Bad games are an anathema to thinking, and encourage passivity.  Good games don't make you want to escape the world, they make you want to embrace it.  -- Aeryth
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+	 
+      Ok, time to get the official statement of purpose and introduction out of the way.  My pseudonym is Aeryth.  I am a software engineer.  My favorite author is Douglas Coupland.  If I was a Jeopardy category, I would be 1980s Vintage Microcomputer Trivia.  Ok, maybe Obscure Early Internet History too...    When I was a little kid, I wanted to be a geneticist.  I thought it would be fun to manipulate genetic code to change how ordinary things look (peaches with real hair!).  I settled for working with computer code and manipulating data instead.  I have 4 Macs at home for fun and code on a PC at work (a polyglot, I know C/C++, Java, VB, and all sorts of stuff).  I am a small, white female with ghostly pale skin, big eyes, and brown-blonde hair.      I have a secret life pursuing a nursing degree (few know I plan to retire as an engineer soon).  I hate being called a hacker, geek, etc. and tell people so to their face.    My blog is intended simply for recording random thoughts.  Maybe something beautiful will come out of the randomness, like a Mandelbrot fractal in prose.    -- Aeryth
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+	 
+      Today's Biscuit of the Day is expressing one's political ideas through the use of Bluetooth.  Normally, being a Lindsaytarian, I tend to stay out of the political fray.  Being a party of only oneself tends to let you do that.  However, I can't help but point out this bit of silliness from the Kerry side of the voting population.   urlLink Bluetooth Users Against Bush   Basically, the site tells you how to use cellular phones and bluetooth enabled PDAs to make political statements.  Unfortunately, I cannot locate a bluetoothusersagainstnader.com or bluetoothusersagainstkerry.com site, otherwise I would post those too for objectivity's sake.  However, according to this source, they have inspired another site,  urlLink Blueroots.org  where you can start your own bluetooth campaign for your personal pet issues.  -- Aeryth
+    
+</post>
+
+<date>25,July,2004</date>
+<post>
+
+	 
+      The biscuit of the day is a poem by an Arabic poet, Ibn Jakh.  I've been really interested in the culture of the Middle East (particularly Morocco), and thought I would include a contribution from this area of the world.  Many thanks to  urlLink this source  for posting and providing samples and a nice analysis of the themes in such beautiful poetry.  -- Aeryth  FAREWELL, by Ibn Jakh (11th century, Andalusian)  translated by Emilio Garcia Gomez & Cola Franzen.  On the morning they left we said goodbye filled with sadness for the absence to come.     Inside the palanquins on the camels' backs I saw their faces beautiful as moons behind veils of golden cloth.     Beneath the veils tears crept like scorpions over the fragrant roses of their cheeks.     These scorpions do not harm the cheek they mark. They save their sting for the heart of the sorrowful lover.
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+	 
+      Today's Biscuit of the Day features the well-beloved Southern author, Eudora Welty.  Unfortunately, I am not able to link to her short stories, as they appear to be still under copyright.    However,  urlLink here  is an article containing excerpts of her writing, so you can get a taste of her writing style.  Her books are treasures and good reads, as she does an excellent job of crystallizing people's characters in words, as well as capturing the essence, both genteel and less refined, of the Deep South.  -- Aeryth
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+	 
+      Today's Biscuit of the Day is  urlLink  The Tiger, or the Lady   by Frank Stockton.  This featured story is from a collection of shorts located at  urlLink this short story site  (no specific title provided).  -- Aeryth 
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+	 
+      Today's Biscuit of the Day features the French author, Guy de Maupassant.  It's a charming short story called:   urlLink  The Jewels of M. Lantin    I would like to thank  urlLink The Short Story Classics:  The Best From the Masters of the Genre  for providing and organizing such an excellent collection of literature.  -- Aeryth
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+	 
+      I am restructuring this blog to hopefully bring in some more focus to my entries and provide some organization since blogger doesn't support doing categories like LiveJournal does.  My current blog will be split into 3:  A Day In My iLife - My personal journal of events happening in my life.  This will also contain thoughts on computer stuff and that sort of thing.  The Daily Tea Biscuit - An eclectic collection of tea reviews, short stories that go well with tea, interesting news articles, and other things relevant to the tea drinker's lifestyle.  And finally, The Munchkin Review - (This is named as such because I am so short).  I plan to review the movies I watch from my Netflix queue as well as dissect popular movies currently in the theater.  As I get everything together, I will put up the links to the new bloglets.  -- Aeryth
+    
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+	 
+      Went and saw the movie I, Robot this weekend.  Overall, I really enjoyed it and would definitely go to see it again if I had time.  I hope to do a more in-depth dissection of it sometime in the future, once my big exam is over with on Monday.    My mom bought and brought into the house a new culinary addiction for me:  the chocolate covered British digestive biscuit!  After tasting this little bit of heaven on earth, I'm convinced this little biscuit is a British plot of revenge for our American revolution by enslaving us with an addiction to yummy oval crackers.  Either way, I think I'm going to have to stop by the store to get some more tomorrow.   I guess the best way to describe these little guys is Brit-style Cadbury's chocolate on a semi sweet cracker base.     urlLink Diet killer biscuit    urlLink Review of different tea biscuits and digestive biscuits    I can't say much about their other food though.  Some of my coworkers have gone over there and lost weight because the normal food is not too edible.  I've heard descriptions of their salsa as lumpy ketchup.  Bleh!  I've also been chewed out on the phone by Britlanders for being an American and having dates formatted different from everywhere else in the world.  My response was that we kicked their butts in the American Revolution and thus earned rights to format dates anyway we like.  Oh well.  -- Aeryth    
+    
+</post>
+
+<date>14,July,2004</date>
+<post>
+
+	 
+      Added a new blog to my list of links.  It's a blog by the "Incredible Hulk" of comic book origin.  I like this part:  "Hulk saw movie about bug-man and it was good but needed more smashing.  AND HULK DID NOT GET SNIFFLY DURING ROMANTIC SCENES SO IF YOU HEAR IRON MAN OR THOR TALKING ABOUT IT THEY ARE LIARS."  I wonder how long it will be before Corporate America starts suing the pants off of these people?  :(  Too bad, because this is way better than anything coming out of the Hollywood scene.  -- Aeryth 
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+	 
+      According to Slate *cough* Microsoft, users should use Firefox (a stripped down Mozilla browser), rather than Internet Exploder (did I say that??)  ;-)    See the article for yourself --   urlLink Firefox over Mozilla, sez MS child company.     -- Speedy browsing,  Aeryth
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+	 
+      One less day to graduation...  Spent the day running back and forth getting ready to transfer credits to the new college I'm going to.  I've decided for right now that since I'm working on getting my nursing degree, I'm going to get a 2 yr associate's degree, get some experience under my belt, then head back to university to get a 4 year degree with the RN to BSN program.  As a result, since my university doesn't offer 2 year associate's, I'm having to transfer to community college.  I went to the local college and was pleasantly surprised.  My current university is showing its age (most buildings on campus were built in the 70s, when the giant box with no windows academic building look was in).  The science labs are even more dated (asbestos, the 1960s product of the    Future!    *cough shredded lung up*).  The community college was probably built in the early 90s, has a nice airy feel, and I'm sure the labs are considerably more updated.      Overall, I'm very happy with my decision.  I know it's no Ivy League education, but after being out of school for so long and having to pay bills on my own, I'm just grateful for the opportunity to be able to go to school anywhere that is compatible with my full time work now.  My mom is really being supportive of me retiring to become a nurse, and she's actually offered me information on classes relevant to allied health (medical coding and other items of interest to med techs).   My dad is proud too, mostly because he knows it's not easy going back to school after being out 5, 6 years.    Keep on truckin',  -- Aeryth  
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+	 
+      TGIF!  Right now, I'm enjoying some really yummy dessert coffee,  urlLink Millstone's Chocolate Velvet .  Mom got me this nifty little device from Melitta that lets you brew a single cup.  All you have to do is boil water, put in a #2 filter in this cone that fits on a cup, and slowly pour in the water (basically being your own coffee maker).   It's not too shabby.  I've messed with it a couple of times, and the only alteration I would make is to put in 3 tsps of coffee, instead of the 2 on the label.  It's fun for trying out different flavored coffees, that way you can make one cup without forcing the whole household to drink or having to throw a pot out.  My heart is very near and dear to tea, however.  I probably have like 15 types of tea between my house and work.  Tea is a much more gentle and subtle stimulant than coffee, and also the whole brewing thing is relaxing.  You drop in a tea bag, and the water around slowly blooms with color until it fully develops like a picture.  The different teas also have distinct layers and an intricacy to their taste you don't find in coffee.    I remember going to Whole Foods one time, and picking up some Taylor's and Harrogate's, an imported tea from the UK.  All of a sudden, I felt a tapping on my shoulder and I turned around and there was a tiny, wizened elderly couple.  With very distinct British accents and a homesick tone to their voice, they asked me if I was from the UK.  Unfortunately, I had to tell them I was from the States, but as I work for a company based in the UK, I was able to talk to them about their county, Yorkshire.  They recommended that I go to  urlLink Betty's , a traditional tea room  that hasn't changed much since the early 1900s.  Anyways, tea brought us together, and I was happy to bring back memories of their homeland.    Happy drinking,  -- Aeryth  
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+      Day 3 on the Loraine project.  She and my 1ghz G4 successfully see each other now, although the G4 software is too new for the poor old SE to mount any shares on the newer machine.  I have an NT box that is getting updated so it can run a system 7 style server so hopefully the SE will see that.    I watched the first disc of  Serial Experiment:  Lain  last night.   It wasn't exactly the best anime I've seen, but it still ranks up there as pretty good.   In it, a young girl seemingly communicates with the dead inadvertently through her computer, aka the Navi.  The plot was pretty twisty, but Lain's character metamorphosis from young, popular schoolgirl to obsessive computer geek was pretty gripping and amusing to watch.  The movie was filled with Apple and BeOS references.  Lain's Navi was from a Japanese company whose name translates to "Orange".  :)  She had a portable Newton-inspired hand held Navi.  There are small computers in the series that look like a sharp-edged iMac.  Lain's dilemma of finding out why she could talk with the dead struck a chord with me as a software engineer.  I realized in our field, you cannot survive or do well without an ample dose of obsession.  Mostly because the majority of people would find the long hours sitting behind a console typing, testing, compiling over and over to perfection boring or repetitive.  However, I've watched my colleagues and myself play siege against a particularly nasty bug for hours on end.  Even when the bug is in the OS, the challenge to our programming honor is enough that it genuinely bothers us to have let something go broken or unsolved.    I think this generalization applies to all the creative fields.  Artists will take the most mundane things normal humans see no potential in, such as small tiles.  They repeat actions over and over to make a beautiful work of art, such as a mosaic.  Steve Jobs is notoriously obsessive over his company's products, which are famous worldwide for their beauty and design.  The Woz, when he still did work for Apple, was as obsessive over the beauty of the Apple's internal design of motherboards.  Lain obsesses over her problems until she transcends them entirely and enters a more beautiful realm of existence.  Well, enough heavy thought for now.  I will probably continue obsessing over my herd of Macs until Loraine is online.  However, to celebrate me deciphering Localtalk and the version compatibility problems, I have added more movies to the Netflix queue.  New on the list are some classic Woody Allen (Purple Rose of Cairo, Sleeper) and Romeo + Juliet.  -- Aeryth
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+	 
+      Right now, I'm kicking back with a cuppa spearmint tea!  It really quenches the thirst and is cooling, so I can sort of see why Southerners are so fond of their mint juleps.  Slowly but surely making progress on the old SE.  I found out that its/her name is Loraine.  :)  No files on the filesystem have been changed later than 1998, so it's kind of like a time capsule and sort of ghostly to see hints of the previous users' lives.  I think about all the things that have changed since 1998.  *  I graduated high school (class o' 98) *  The rise and fall of the dot com industry *  teeny tiny cell phones everywhere (my nokia from the time is like a brick now) *  looming y2k fears are gone *  broadband everywhere (it was a big deal to have ISDN back then) *  a new president *  teeny tiny laptops *  rise of the SUVs *  lowering of pants' waistbands *  IPO fashionability * the metamorphosis of Christina Aguilera and Britney Spears (remember how they used to be cute?)  Most of these things revolve around developments in the tech field.  I consider myself blessed to have been able to work with and watch some incredible technology rise, become dominant (and sometimes fall).  It doesn't seem like it's been 6 years though...  Amazing how time flies, huh?  -- Aeryth
+    
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+	 
+      A status update on my Macintosh SE.  It's now connected to my ethernet router through a bunch of localtalk boxes and a localtalk-ethernet bridge.  The bridge appears to be running fine.  I see the old SE trying to ping AppleShare servers out across the network.    The only problem that I'm running into now is transferring files to/from my modern G4s.  I have a USB floppy disk, but apparently those don't support the SE's old 800k floppy format (hey, it's a 17 year old standard, what do you expect?).  Also, AppleShare, the file server protocol, doesn't come with the consumer edition of OS X, only the server.      However, I may have a solution for that.  Microsoft released their own AppleShare program called Microsoft Services for Macintosh.  I'm hoping to be able to install that on a Virtual PC so I can get the SE to talk to the Virtual PC and snag files needed to update the SE.  Once the SE is updated to run MacTCP, it will be able to communicate with its grandbabies, the G4s, in a much more normal way.  I'm not sure what I will do with it once this is done, but I think it will make a cool unix terminal for administering and controlling the G4s via telnet.  -- Aeryth
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+	 
+      Finally took my last test yesterday!  It feels so great to have everything done.  I have today to enjoy as "vacation", then I'm back at school tomorrow for the second summer semester, Developmental Psychology.  This should be a pretty cool class, learning about how little kids and adolescents work.  I know enough people who are still mentally teenager(s), that some of the concepts will apply to adults as well.  ;-)  I have a fun little sideproject going right now that is keeping me entertained.  I have adopted an elderly circa 1987 Macintosh SE.  It is currently in the process of being connected to the internet.  One might ask why you would want to put a 17 year old machine on the internet, but I say why not?  I love the style of the Classic Macintoshes (the "cute" Macs most of us probably remember), and it makes me sad to see old computers abandoned.    -- Aeryth          
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+	 
+      Taking a brief break from studying...  Saw today that Marlon Brando passed away at the age of 80.  God bless the Godfather, and hope he is safely in the arms of God the father.  In homage, I've added a ton of his movies to my Netflix queue.  I loved  A Streetcar Named Desire .  I actually read the book before I saw the movie.  Gritty and emotional pretty much sums up the tone of the book, and passion and impulse is faithfully translated into the movie as well.  Considering this movie was released in the 50s (era of the Beav, Disney, rigid conformity, and the Hayes code), the emotional frankness and Brando's burly, unkempt character performance is even more striking.  Also added James Dean, the other quintessential 50s rebel.  He just had one really major movie, but I felt it wasn't fair to put Brando in the queue by himself.    My SO and I watched 50 First Dates yesterday.  For an Adam Sandler vehicle, it really shined!  Normally, I'm not that much into his movies.  Sandler tends to concentrate on isolated humorous situations to the point the plot is disjointed and simply becomes a weak attempt to join multiple SNL skits into a movie.  However, his romance with Drew Barrymore was sweet without being syrupy and his situational humor was funny without overpowering the story.  Bravo!  Well, back to the grind of studying for this test...... 
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+      It looks like Apple should be releasing new iMacs this upcoming September.  Maybe with shiny new G5s?   urlLink http://news.com.com/Apple+delays+new+iMac/2100-1041_3-5255095.html?tag=st_lh   -- Aeryth
+    
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+	 
+      Today's Biscuit of the Day is Puto Pao, Philippine-style steamed buns.  I craved Asian food today and was looking for something different from the normal Chinese stir fry and Japanese sushi that is so readily available in my area.  So I found something new to try, steamed buns!  Step aside, Krispy Kremes!  Here are some links to general sites about Philippine culture and food.     urlLink Discover Philippines->Culture->Food   urlLink Evolution of Food Dishes in the Phillipines   urlLink Steamed Bun (Siopao) Recipe 1 (with pictures)   urlLink Asian Breads (includes Bibingka and Puto Bread)   There are a lot of great foods from the different parts of Asia that never see the light of day here in the US.  I remember taking my diving certification and a sweet young Korean couple cooking stir fry from fresh ingredients they had brought with them for the trip.  They kindly offered me some stir fry and sweet kimchi.  I wasn't too sure what to expect with the kimchi (fermented cabbage), but I just kept in mind that it was basically Korean sauerkraut as I ate it.  Sure enough, to my happy surprise, I really enjoyed it!  --  Aeryth
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+	 
+      Today's Biscuit of the Day (in honor of summer school ending!) is the Venetian party tradition of Carnivale.  Unlike some of the pictures you find of Mardi Gras in Lousiana, all these links are work and family safe.  :)  Carnivale Origin and Traditions   urlLink Carnevale:  Farewell to Meat, Hello to Fantasy  - This site features the origins of Carnevale, as well as the meanings of some of the masks used during the parties.   urlLink Carnival season in Europe means fun  - This link covers the origins of Carnivale and some of the traditions in other non-Italian countries in Europe.  Carnivale Galleries of Venetian Costumes  urlLink Light-fantastic:  Carnival in Venice Tour  - This link is a photo gallery of some of the beautiful and ornate costumes that can be seen during Carnivale time.   -- Aeryth
+    
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+	 
+      Today's Biscuit of the Day is  urlLink  A Dog's Tale   by Mark Twain.  The full collection of short stories can be found  urlLink here.   Urgh, it's been a busy week.  I'm just about done with finals for the summer semester!  Saw a beautiful Italian movie this week,  urlLink  Il Postino  .  It was pleasantly bittersweet, and the landscape of rural Italy was breathtaking.  The lead actor, Massimo Troisi, literally gave his life to make the movie, as he passed away 12 hours from severe heart disease after all the shooting was done.  He knew he needed treatment for his heart, but refused to go to the hospital, as he felt the movie was more important.    --  Aeryth
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+      Today's Biscuit of the Day features a small company called  urlLink Frog Design .  Any of you in the audience who use the Dell website, who use Windows XP, or like the bleeps, bloops and beeps in OS 9 and OS X have these people to thank.  It's interesting to see how MS and Dell went after this company to do their design after Frog did work with OS 9.  Monkey see, monkey do?  ;)  -- Aeryth 
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+	 
+      Here's a neat quiz showing you what element you are.  It's actually pretty fitting for me.  [Image omitted by Blogger]   Your Element is Night. You're a loner who is very creative but never show your work to anyone. You may smile a little but sadness or loneliness surround you and other can feel it when they're near you. You have a dark or unusual beauty that makes you mysterious and you probably have a lot of secrets that you've never told anyone. You're beauty is intriguing and unorthodox but the real thing that makes you special is your eyes. Something in them makes them like Diamonds in the Rough.    urlLink   What's Your Element (girls)? (PICTURES)       -- Aeryth 
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+	 
+      Today's Biscuit of the Day is a website by a British man who is transplanted into the lush landscape of southern Spain.  He rents out vacation houses to travelers seeking a respite from the busy world.  He has a wonderful photo gallery of a Spanish gypsy betrothal, as can be seen  urlLink here .  At the bottom is a photo gallery showing how olives are harvested and transformed into the yummy goodness that is olive oil.  I've been extremely busy and haven't had much time to prepare dinner.  So I've been busy buying crusty Italian and French bread and putting  urlLink Lucini's olive oil  on it.  To make it really good, you can crack fresh peppercorns over it, although the Lucini's is high enough quality and has a bite of its own that that's not really necessary.    -- Aeryth 
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+	 
+      Today's Biscuit of the Day is  urlLink  The Happy Prince  , by Oscar Wilde.  Many thanks to  urlLink Short Stories  for hosting this nice collection of Oscar Wilde short stories.  This is one of my favorite tales I remember from being little.  Enjoy this with a nice stout Irish Breakfast tea in honor of Wilde's Eire roots.  -- Aeryth.  
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,1 @@
+Concentrating solar power (CSP) systems use large mirrors or lenses to focus sunlight onto a small area, which heats up a fluid, typically water, to create steam. The steam drives a turbine generator to produce electricity. Some CSP systems also include thermal energy storage systems to store excess heat generated during the day for use at night or during periods of low sunlight.

@@ -1,0 +1,84 @@
+<Blog>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+      It is pain to look up the connection strings for these databases, here are some snippets.&nbsp;   -- Oracle --  oracle.jdbc.driver.OracleDriver  &nbsp;&nbsp;conn = &nbsp;&nbsp;&nbsp;&nbsp;DriverManager.getConnection("jdbc:oracle:thin:@0.0.0.0:1521:DB_NAME",_username,_password);  note: classes12.zip  -- MySQL --  dbc:mysql://127.0.0.1/MYSQL_DB?user=MY_USER&password=XXX  &nbsp; and the Driver  com.mysql.jdbc.Driver  &nbsp;  -- Sql Server --  public static final String _connectString = "jdbc:jtds:sqlserver://0.0.0.0:1433/SOME_DB;user=BLAH;password=BLAH"; &nbsp;   try {&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Class.forName("net.sourceforge.jtds.jdbc.Driver").newInstance();&nbsp;&nbsp;&nbsp;_conn =&nbsp;DriverManager.getConnection(_connectString); &nbsp;} catch(Exception e) {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e.printStackTrace(); &nbsp;&nbsp;} // end of the try - catch 
+    
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+	 
+      I knew there were Java Desktops out there but I didnt know they were so polished, here are some good ones.    urlLink http://www.jdistro.com/   urlLink http://www.jcraft.com/weirdx/   urlLink http://sourceforge.net/projects/jsh/    urlLink http://jdx.sourceforge.net/     
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+	 
+       urlLink http://www.retroevolution.com/ejb01.htm  
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+	 
+      switching gears and going to work more with enterprise systems, I will now be working on a web based operating-system. 
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+	 
+      I saw aspects of Apple's upcoming release of Tiger, their next OS.  It was amazing, including iTunes style interface for searching files or directories, plug-n-play video/audio chat.
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+	 
+      If you want to know how to write a webcrawler in a day, wiki crawler in a day, here it is.  Actually the goal was to find a set of words and their meanings, tech words mostly.  The source is embedded in my larger application, yet the application is so small that it wont be hard to find the relevent code.   urlLink WikiSearching Java Code   Here is the core :   StringBuffer _buf = new StringBuffer();         _buf.append("GET /wiki/Special:Search?search=");         _buf.append(URLEncoder.encode(_query, "UTF-8")                 + "&go=Go ");                            _buf.append(" HTTP/1.1\r\n");         _buf.append("Accept: text/html\r\n");         _buf.append("Referer: " + _refer + "\r\n");         _buf.append("Accept-Language: en-us\r\n");         _buf.append("User-Agent: Mozilla/4.0 (compatible; ");         _buf.append("MSIE 6.0; Windows NT 5.1; ");         _buf.append("Avant Browser [avantbrowser.com]; ");         _buf.append(".NET CLR 1.1.4322)\r\n");         _buf.append("Host: " + _host + "\r\n" + "Connection: close\r\n\r\n");                          String httpPost = _buf.toString();         System.out.print(".");                                                 try {              PrintWriter writer = new PrintWriter(_socket.getOutputStream(),true);                          writer.print(httpPost);             writer.flush();          } catch (Exception exception) {              throw new RuntimeException(exception);          } // end of the try - catch ...          BufferedReader bufferedReader = null;         try {              bufferedReader =                  new BufferedReader(new InputStreamReader(_socket.getInputStream()));          } catch (IOException ie) {              ie.printStackTrace();          } // end of the try - catch 
+    
+</post>
+
+<date>10,July,2004</date>
+<post>
+
+	 
+      More coding today, probably, I hope to finish my wiki search on my bot project.
+    
+</post>
+
+<date>10,July,2004</date>
+<post>
+
+	 
+      Is agile development the way to go?
+    
+</post>
+
+<date>10,July,2004</date>
+<post>
+
+	 
+      I working with parsing HTML, it can get complicated if you are using String.indexOf and parsing it this way.  The new(old) java 1.4.2 regex utilities are the way to go, and you probably could write a pretty simple browser in a couple of days or so.  Here is a simple regex expression that works pretty well(uses grouping) :  The first group includes the anchor tag and the text, The second group includes the text inside the anchor tag  Pattern p = Pattern.compile("({a.*?href=.*?}(.*?){/a})"); Matcher m = p.matcher(some_url_page);  while(m.find()) {      int n = m.groupCount();    ....   }
+    
+</post>
+
+<date>10,July,2004</date>
+<post>
+
+	 
+      Ramza = final fantasy tactics character, best game written ever, an amazing piece of creativity. bean = I am a java programmer, and bean is a big word in the java community realname = Berlin Brown, a person who lives in Atlanta, born in Austin(woop woop)
+    
+</post>
+
+
+</Blog>

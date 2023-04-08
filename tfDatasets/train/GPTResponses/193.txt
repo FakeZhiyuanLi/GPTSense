@@ -1,0 +1,1 @@
+1. Futures contract2. Options contract3. Swaps contract4. Forward contract5. Warrants6. Convertible securities7. Collateralized debt obligations (CDOs)8. Credit default swaps (CDSs)9. Interest rate swaps (IRSs)10. Commodity derivatives.

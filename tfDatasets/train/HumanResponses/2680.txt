@@ -1,0 +1,1 @@
+i actually dont know what hit me but i set out on making a class library that deals with the 4 number systems. its supposed to be completely interconvertable and derived from the system.object with 2 made-by-me interfaces, the iconvertable interface and some other implementations. i'l post the source here once it actually does something!

@@ -1,0 +1,28 @@
+<Blog>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+      Whenever I can't figure out a word,  urlLink wiktionary.com  or  urlLink Google  are always there to help. Definitions use other words to define the word that I'm looking up. If any of the words in the definition are unknown, the process recurses until the originally looked up word make sense.  Can a computer do the same? Yes and no. Without a starting vocabulary, a computer program would approach the dictionary not knowing any words. The process of looking up one word would spiral into a deep recursion ending in cycles of simple words such as "the", "a", "that" and synonyms such as "man", "male human being", "person".  I don't have this problem, because I have a vocabulary that can help explain the new concept.  The trick in having a computer "understand" a dictionary is by having the computer understand the  But, what functions can a computer with no vocabluary perform on a dictionary? To start, let's examine the data available in a dictionary, a definition:            car  ( urlLink cars )          vehicle that moves independently, steered by a driver mostly for personal transportation. See also  urlLink automobile .     a non-powered unit in a  urlLink railroad  train.    a passenger-carrying unit in a subway or elevated train, whether powered or not.    the passenger-carrying portion of certain amusement park rides, such as Ferris wheels.           Synonyms           urlLink automobile  ( US )     urlLink motorcar         A simple representation of a word is that it  depends   on  the words of its definition and is  equivalent to  its synonyms. After stemming and removal of stop words, the definition of car can be condensed to a set of words for each definition and an equivalency set of synonyms.    Synonyms  car = { automobile, motorcar }    Definitions  car := { vehicle, moves, independently, steered, driver, personal, transportation } car := { non-powered, unit, railroad, train }    car := { passenger, carrying, unit, subway, elevated, train, powered }    car := {   passenger, carrying, portion, certain, amusement, park, rides, Ferris, wheels }  For example, here's a run through a 'dictionary graph algorithm' on dictionary.com.        Question:    Why do cars need gas?    Answer :    urlLink car  (equivalent to)  urlLink automobile  (depends on)  urlLink engine  (depends on)  urlLink fuel  (equivalent to)  urlLink gas   This example shows that a simple question such as "Why do cars need gas?" can be answered by taking the nouns from the question ("cars" and "gas") and finding the shortest path between the words.  While this won't work in all cases, noun to noun relations could be explained this way. 
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+	 
+      I've been reading and thinking about the usefulness of the Semantic Web recently, and ran across the article  urlLink The Semantic Web, Syllogism, and Worldview  on  urlLink Clay Shirky's site . Logical sylogisms don't work in the real world - we are too inconsistent! Simplification of complex topics allows real (but sometimes inconsistent) answers to be formed.  So, what are the most important aspects of design?  Richard Gabriel in    urlLink The Rise of 'Worse is Better'  asserts these design rules:      Simplicity -the design must be simple, both in implementation and interface. It is more important for the implementation to be simple than the interface. Simplicity is the most important consideration in a design.         Correctness -the design must be correct in all observable aspects. It is slightly better to be simple than correct.         Consistency -the design must not be overly inconsistent. Consistency can be sacrificed for simplicity in some cases, but it is better to drop those parts of the design that deal with less common circumstances than to introduce either implementational complexity or inconsistency.         Completeness -the design must cover as many important situations as is practical. All reasonably expected cases should be covered. Completeness can be sacrificed in favor of any other quality. In fact, completeness must sacrificed whenever implementation simplicity is jeopardized. Consistency can be sacrificed to achieve completeness if simplicity is retained; especially worthless is consistency of interface.        For examples of these design rules in action, Gabriel turns to Unix and C. He also describes such systems as 'viral', but I believe 'successful' is a more accurate term. 'Viral' sounds  urlLink destructive .  So, a system must be Simple, Correct, Consistent, and Complete ,  in that order, to be successful.   Some would say these rules make programming more  urlLink like art  than engineering, but I would argue that all well engineered systems are like art. Design the exercise of creating simple representations of comlpex interactions while meeting a goal (hence "correct, consistent, and complete"). 
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+	 
+      OpenThought: A Blog of my thoughts on various issues with a slant towards technology. 
+    
+</post>
+
+
+</Blog>

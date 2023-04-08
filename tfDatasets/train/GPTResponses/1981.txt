@@ -1,0 +1,1 @@
+A "strong" promoter sequence promotes the efficient and high level transcription of genes by RNA polymerase. This can lead to a large number of copies of mRNA being produced, resulting in higher expression levels of the encoded protein. Strong promoter sequences are often used in genetic engineering and synthetic biology to increase the expression of target genes.

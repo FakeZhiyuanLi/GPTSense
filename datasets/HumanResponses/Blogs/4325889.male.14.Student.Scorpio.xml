@@ -1,0 +1,133 @@
+<Blog>
+
+<date>24,August,2004</date>
+<post>
+
+	 
+       STARTING  After arranging the `Setup'.exe, run ragnarok.exe. When you run `Ragnarok', the new patch will be downloaded automatically and after the patching, you will able to read Level Up! Inc.’s official notice window that includes updates and changes in the game for the week.You can log on and choose the set of servers you want to play in. You can then log-in with your account which you registered on the Level Up website. (Take care of your password! Don’t entrust it with anyone to avoid getting a hacked account. Also watch out for the keylogging programs!You will then prompted to choose which server to play (if you chose first set, then it would be Chaos, Loki, Iris and Lydia; the second server set includes Fenrir, Odin and Sarah). When you successfully log in to the server, you can see 3 empty slots for characters.Choose one empty slot to make a character. Meanwhile there are 36 Hairstyles and 8 Hair colors you can choose for Characters. Sooner or later, it will combine into 72 available types with clothes and other equipments. On the `Make' section, you can arrange the beginning Status of Character as you want. The details of each status are the following STR(Strength) Increase Hit Point and the Maximum Weight which you can carry on. AGI(Agility) Increase Dodge and Attack Speed. VIT(Vital) Increase Defence Rate, Vitality and HP recovery. INT(Intelligence) Increase Magical Hit Point and Magical Defence Rate. DEX(Dexterity) Increase Accuracy Rate and Weapon Damage. LUK(Luck) Affect in Critical Attack,Recovery from Abnormal Status or other Various Stuffs. If you fully understand the effects of status points from the beginning, you could create a powerful and distinctive character for your class. Furthermore your initial status will greatly affect your character as it reaches 2nd job class. 
+     
+
+    
+</post>
+
+<date>24,August,2004</date>
+<post>
+
+	 
+       CHATTING BOX  In the left side of the box, you can type a character name that you want to whisper to. Or just Click the button next to this box to see the list of previous names that you’ve whispered. You can contact Friends easily this way. In the right side of the box, you can type the message you want to send. The left button on the right side handles either Public message or Private message for party or Guild, the other button on the other hand, lets you handle the size of Message history window (or you could just press F10). 
+     
+
+    
+</post>
+
+<date>24,August,2004</date>
+<post>
+
+	 
+        BASIC INFORMATION WINDOW  All of character information is shown on this window briefly. Also, you can view particular functions on this Window. Job Level is each job class level after Novice level 9. Every time your Job level goes up, you can get one skill point. The Gauge bar beside each Level Stands for your Experience % which you've gained so far. If it's full by 100%, the character gets one level up then the Gauge Bar will reset to 0% again for the next level up. Weight stands for 'the Present weight / Maximum weight ' that your character is carrying. When the present weight is over than 50% of maximum weight, It will be shown in Red colour. From that moment , It is impossible to regenerate HP/SP Naturally. Or when the present weight is over than 90%, The character won’t be able to attack any monsters. You'd better store the excess items in Kafra's warehouse if you don't want to be killed by monsters without even the chance to fight back. For reference, the Basic Information Window is never wiped out and always remains as a Smallest window.
+</post>
+
+<date>24,August,2004</date>
+<post>
+
+	 
+       STATUS WINDOW   You can see the character's present status on this Window. When you bring your cursor over each stat, you can see the full name for each status. Every time when the character gets a level up, he will gain an amount of status points depending on your base level, You can distribute them into 6 Status whatever you want. On the Right Side of Status Window, you can see Several Abbreviations of Actual Effect. (i.e-ATK or DEF). They show Actual benefits which the Character can receive from Present stats (Left Value) and bonus points (Right Value) added from equipment. When the character levels up, Blue button appears on the bottom of right side of the monitor screen. Click it to open the status window. Click the blue Arrow to spend the points you get. You can upgrade stats as you want. Unfortunately `Tendency' is not implemented yet.
+</post>
+
+<date>24,August,2004</date>
+<post>
+
+	 
+       SKILL WINDOW   You can see Present skills. Every time the character's job level is up, you gain a skill point. You will see blue button in the bottom left corner of your monitor screen. You can check skill information on each skill by right clicking of your mouse on it. Passive skill means you don't have to spend your SP to use it. it is always in effect so you don’t have to activate it manually. You can check the section related to job classes. Also, it is possible to assign skill points on your Hot key window ‘F12’ as well as Items. You can use your favorite skills quickly and easily this way.
+</post>
+
+<date>24,August,2004</date>
+<post>
+
+	 
+       ITEM WINDOW   It Shows your inventory.Item window consists of 3 parts,the equipments you are wearing are not shown on the item window. Just Right Click on a item to see its description and a picture. And it is possible to change any equipment by Dragging &amp; Dropping it onto your equipment window, or using the shortcut `ALT+Q'. You can also double click the item to equip. You can register 9 items or skills from F1 to F9 in the hotkey window.
+</post>
+
+<date>24,August,2004</date>
+<post>
+
+	 
+       CHAT ROOM WINDOW  At novice level 4 and above, you can make your own chat room with `Chat' Button on the Basic Window. Even though You can't move while Chatting, item trading is available. 
+     
+
+    
+</post>
+
+<date>24,August,2004</date>
+<post>
+
+	 
+       MINI-MAP WINDOW  With 'map' button, you can use mini-map in various ways. It can be translucent, opaque and invisible. Also with the +, - button, is possible to enlarge and reduce. Red spot on the mini-map is a loading point to the next map. Player's location is shown like a white arrow. The direction of a white arrow shows which way the player facing. Colored arrows are the location of your party mates on the same map. 
+     
+
+    
+</post>
+
+<date>24,August,2004</date>
+<post>
+
+	 
+       PARTY WINDOW  You can see all party members who are online and their present location. Party members who are on the same map as you, are shown on the mini-map, Party window will be updated in the future patches so that it will act as messenger function like party members log-in. Also it will be upgraded like G-Friend that can connect between Ragnarok and outside. 
+     
+
+    
+</post>
+
+<date>24,August,2004</date>
+<post>
+
+	 
+       EQUIPMENT WINDOW   It Shows the character's equipped items. Each equipped item can be right clicked for the description and picture. You can equip and remove items by dragging and dropping between the equipment and inventory windows. Equipment can also be registered on a hot key so you can change your weapon easily.
+</post>
+
+<date>24,August,2004</date>
+<post>
+
+	 
+       OPTION WINDOW   This window controls the BGM and Sound Effect and turns them on/off. You can also select window skins that you could download in the net.
+</post>
+
+<date>24,August,2004</date>
+<post>
+
+	 
+       SHORTCUT WINDOW  Keys From 'F1'to 'F9' are Hot keys for each item registered in Hot key window. 
+     
+
+    
+</post>
+
+<date>24,August,2004</date>
+<post>
+
+	 
+       TRADING ITEM WINDOW   When you right click on another player, and chose “Ask _____ for a deal”, 'Item Trade Window' Pops up. You can trade your Item/Zeny with that player. After both players agree to trade with each other, drag items or zeny from your inventory to the trade window. Also you can View items by right clicking on them. Trade will not be able to succeed as long as you don't press `OK' Button. (Tip: Always check and recheck your trades to make sure that you are getting a fair trade). 
+</post>
+
+<date>24,August,2004</date>
+<post>
+
+	 
+       THE OTHER INTERFACES   ESC This is the function key, it calls the exit to window command or return to the game Window. F1~F9 Shortcut keys for each item registered on Hot key window. F10 to Adjust the size of chat window F11 Clears all windows except the basic information window and  the chatting box. F12 to Call Hot key window Insert The hot key for sit or stand command. Also you can type '/sit or /stand' on the chatting Box. alt+home Ground cursor on / off on / off alt+end The hot key for character Health and Spell Point gauge on / off .You'd better turn on all the time to check your HP and SP. page up& down to Scroll Text in interfaces and the chatting box, Mouse whirl will also scroll 
+     
+
+    
+</post>
+
+<date>24,August,2004</date>
+<post>
+
+	 
+       CAMERA ZOOMING INTERFACE  When you drag mouse from right to left with the right mouse button held down, he camera rotates 360'. Holding down the `Ctrl' key and the right mouse button while dragging the mouse up and down, makes that camera Zoom in and Zoom out toward the character. Holding down the 'Shift' key and the right mouse button while dragging the mouse up and down, controls the angle of the Camera for fixed range. You are all set up! Good luck on your journey and we wish you success on your quests as you venture in the kingdom of Rune-Midgard! 
+     
+
+    
+</post>
+
+
+</Blog>

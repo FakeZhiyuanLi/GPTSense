@@ -1,0 +1,265 @@
+<Blog>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+       As a person who likes to see peoples civil rights respected, I was pleased when the Supreme Court of Canada was looking at a  urlLink draft bill  sent by the Canadian House of Commons that could potentially redefine what marriage is in Canada. Since then three provinces have allowed same sex marriages. It pleases me that I live in a country where it is recognized that although many disagree with this new definition of marriage, we are talking about peoples civil rights and legal benefits. 
+
+ Now, on the issue of File sharing, I am again impressed. And as  urlLink this article  explains, it would appear that Canada is once again the centre of attention. On this issue, I take a liking to the ideas of  urlLink Lessig . 
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+       I've spent the past five (5) days feeling groggy, dizzy, and downright messed up. It feels like a 24/7 hang over, without the enjoyment of being drunk. I'd love to take tonight off work. If only I could afford to, but I'm in desperate need of tip money, from delivering pizzas. 
+
+ Matthew asks me today if I am planning on going downtown, which means he either wanted to come with me, or he wanted me to grab him something. I decided not to answer his question, or speak to him at all really. If he wants to come with, that'll just piss me off because he'll want to talk. I don't favor getting pissed at people in public, as it seems to draw funny looks. If he wants me to grab him something... No! Just NO! I will not be slave boy to Mr. Stupid. Hey, don't get mad at me, he called himself stupid... Seriously! 
+
+ Now I must tell you how that story unfolded. I was at home, reading a Tintin comic and listening to an incredible collection of MP3 music I had recently burned to CD. Matthew walks in the door and starts talking to my cat, Fuzz Butt. I talk to Fuzz Butt all the time, so no, that didn't bother me in the slightest. Then he starts whistling totally out of tune with my music, asking me why I'm not out somewhere and asking me if I want to go for a jog with him. There is no way in hell that I was not visibly annoyed by all his questions and comments, although he didn't seem to notice because he kept going. Several times I gave him my hand to talk to, but I guess even with my unhappy tone of voice I was more interesting to talk to... Who cares whether I wish to talk or not. 
+
+ After ignoring him for a while, he figures maybe I can't hear him. With his booming voice? I'm sure all the neighbors could hear him. And my gestures as to the fact that I wasn't interested in talking to him? They didn't matter a bit. So he pauses my music and asks me if I want to go for a jog with him. I was nearing my breaking point. Had I not been obvious enough? I asked him to un pause my music in an almost angry voice. He does so, but not a minute later he pauses it again. That was the last straw. I through the Tintin comic against the wall, breaking the hard cover binding in two (2) and separating it from the glued together pages of the comic. I got up, stomped off to my room, and slammed my door. The alternative was trying to kill him, so I think I was actually pretty nice to stomp off the way I did. 
+
+ After I had spent some time alone and calmed down a bit, I heard him go and take a shower. So I walked back into the living room, turned my music back on, and sat back down in my favorite spot to finish reading the Tintin comic, that I was now holding as you would a paperback since the hard cover was still torn on the floor. 
+
+ When Matt got out of the shower, I asked him "Did you not realize that I didn't want to talk?" 
+"I did," he said. 
+"Why did you not just shut the fuck up then?" 
+"I guess I'm stupid." 
+"NO! Gah!... *sigh*" 
+
+ Nobody can be that stupid. I'm sorry, but nobody can be that stupid. At least nobody who is expected to function as an almost normal human being in society can be that stupid. And he is expected to, by both his parents and the government, after being evaluated by a psychiatrist. 
+
+ Why did I move in with this guy? I'm a smart person, who made one hell of a really stupid mistake. 
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+       Who the hell am I? I don't even know the answer to that, so why should you? Every single time I go to make a web page or start a journal or whatever I'm doing at the time that I always fail to finish, I am always tempted to write about who I am to jump start things so that the reader has the full back story. Well you know what? Screw the reader. Yes, that's right, screw you. It's about time I realized I'm writing this for me, not you. So you'll just have to figure out who I am as I go along, or... You know tell me to screw off for being so mean to somebody I haven't even met, and then do likewise. Either way I'm afraid I just don't care. 
+
+ As if you hadn't noticed, I'm angst filled and stressed out on this depressingly miserable July morning. My room mate (Matthew) stayed up all night watching movies so he can become a master movie reviewer like his idol, Roger Ebert. As long as all he has to do is give a "Triumphant Thumbs Up!" then I think he'll do ok. The thing with Matthew is, last time I asked him for a review of a movie, he said "I think this movie was good because I liked it." Ok, truth be told, that's totally paraphrasing. The reason being whatever he said was so frustratingly simple that I had a mental break down at the though of him reviewing movies, and thus if I have to honestly try and remember those few tiny moments of some long past date I will surely drive myself insane, or worse. As I was saying, between my roommate watching his damned TV all night and those god forsaken birds tweeting and singing as if life is joyous, I didn't get much sleep. So to keep myself occupied, which is of up most importance because if I wasn't occupied I'd soon be strangling Matthew's neck, I had three (3) options. Continue to toss and turn on my cheap assed ultra uncomfortable bed, masturbate, or come on here and vent my frustrations for the amusement of whatever kind of screwed up person could possibly be amused by my life. Yes, of course, I did the masturbating and then I came here to vent. They were the best of the two options. And after an hour and a half of struggling to set this crap up, I'm finally here typing away. No, I'm not a dunce with horrible computer skills. Remember, it's 0700 hrs and I've had NO decent sleep for quite a while. 
+
+ Maybe next time I'll post when I'm not so angst filled. I'd love for you to experience more of my many unpleasant emotions. 
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+       It's time to mention all the (mostly) free software and services that bring this server to you. 
+
+ 
+ dns 
+ Posadis DNS Server:  urlLink http://www.posadis.org/  
+ secondary dns (service) 
+ Twisted4Life:  urlLink http://www.twisted4life.com/  (also serves as a backup MX service for the smtp server) 
+ dynamic dns mask service 
+ No-IP.com:  urlLink http://www.no-ip.com/  (Depriciated in favour of Posadis DNS Server and Twisted4Life) 
+ httpd 
+ Apache HTTPd Server:  urlLink http://http.apache.org/  
+ server side script 
+ PHP:  urlLink http://www.php.net/  
+ sql 
+ MySQL database server:  urlLink http://www.mysql.com/  
+ sql management client 
+ phpMyAdmin:  urlLink http://www.phpmyadmin.net/  
+ SciBit Mascon:  urlLink http://www.scibit.com/products/mascon/  (Depreciated in favour of phpMyAdmin) 
+ smtp 
+ 602LAN SUITE:  urlLink http://www.software602.com/products/ls/  
+ ftp 
+ Serv-U FTP Server:  urlLink http://www.Serv-U.com/  
+ operating system of host(s) 
+ Microsoft Windows XP Pro:  urlLink http://www.microsoft.com/  
+ 
+ Wish List: 
+ 
+ A new box on which to run one of many  urlLink Linux Distros &nbsp;so I can rid my server of all these not-so-free and not-so-opensource Win32 Technologies. 
+ 
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+       I found this site " urlLink Technorati " in my logs recently, and found it interesting. It's basically a sophisticated weblog watcher that keeps people up-to-date on weblogs that cover issues of interest. I was surprised at how fast my weblog ended up on there lists, but then I'm often surprised by the speed of the internet. Especially when I'm too busy or lazy to pay attention. 
+
+
+
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+       I seem to have absolutely horrible luck with vehicles. Last year around this time, my sister was planning to leave for Kamloops, British Columbia from our home in Kitimat, British Columbia. She was taking the  urlLink '96 Toyota Tercel  2 door Sport Coup with her, which meant if I wanted to keep my job at Pizzarama, a new vehicle simply must be acquired. In the interest of saving money, my dad and I figured buy local and buy used. I was completely inexperienced in this field, so I went with whatever my dad said. There were only a few vehicles in town that were cheap enough to fit my fathers pocket book, and weren't in the "for sell for parts" class of vehicle. We figured the best buy was going to be a  urlLink '92 Ford Escort  Wagon. It seemed like a decent vehicle. It wasn't a Manual Transmission, as I had hoped for. But it seemed like a good vehicle for hauling lots of small stuff, being a wagon, and it was decent on gas. So around mid-August of 2003 we made the purchase and signed the transfer of ownership forms. And thus, the '92 Ford Escort Wagon became mine for only $1,900 (CDN). 
+
+ Four months later, I started hearing a knocking sound coming from the drivers side. It was especially bad when I went over bumps and stuff. I thought (was hoping) that it was just something loose in one of the drivers side doors. After some time I mentioned it to my father and we investigated. It turned out that the rear drivers side strut (which had been replaced not to long before we bought the vehicle) was hanging free, because the bracket that held the strut in place, had completely rusted off. After having a body shop take a look at it, we found out that both the rear struts could quite easily fall off, which would make the vehicle a very dangerous thing to drive because one big bump and the rear axel could become no longer attached to the car. Hint: Never buy Fords especially after they're 10 years old. They prove to be nothing more then rust buckets, especially in humid climates. 
+
+ We soon found out that the cost of fixing the car would be about $1,300. Since we payed so little for it, it just didn't seem worth the hassle. We figured it was time to purchase something that would be more reliable. So, sometime around New Years Day, we took a drive out to Terrace, British Columbia (less then an hour away) to take a look at the many vehicles available out there. We stopped at all of the many dealerships in that town, six of them in total, and landed upon a '87 Nissan Sentra (I'd give you a picture if I had one.) Now if you know a lot about vehicles, I'm sure you're thinking "wait, you were looking for more reliable, and you went for something older?" Yes, we did. Reason being, this car even for 17 years old, was defiantly not a rust bucket. Anything but, infact. And it ran decent. It's most major flaw that we could find, was that the interior needed a good cleaning, and it didn't come with snow tires (it was the middle of winter.) Best of all, it was a Manual Transmission. Worst of all, the rear seat had no room what so ever, it might as well have been a 2 seater. We picked up that car for just over $3,000 (if my memory serves correctly.) First thing we did is get snow tires on that car, and I soon fell in love with it. 
+
+ Seeing as how this is about my horrible luck, the story of this car can't end happily. And it doesn't. Seven months after that purchase, the first and second cylinders lost compression. The mechanic told us, that the best thing you can do when that happens, is drive out to some remote location, and light a match. That's about all it'd be good for, at least the engine anyways. My dad has decided to keep the vehicle and try to find a new engine to replace the current one. The mechanic suggested that might be the best idea, seeing as how the rest of the vehicle is in great condition. 
+
+ So, once again I've had to do some car shopping. Unlike a year ago, I know a little bit more about what I'm doing. The only dealership in Kitimat here, Snow Valley Ford, happened to have a '94 Mazda Protege on their lot for $4,500. Looks like it's in good condition, and rather then being some small 2 door with no room in the rear seat, it's a 4 door with a fair amount of space. This makes for a bigger car, with a bigger engine, and not so good for my pocket book, or for the environment... Then again it also seems to mean more fun. This car has some kick to it. I managed to get the price down from $5,250 after taxes to $5,000 even with a small amount of haggling. Once I drove it off the lot, I thought to myself "now maybe this car will last longer then half a year." 
+
+ Don't count your chickens before they hatch. Every time you do, something will always throw you off just to put you back in your place. Later that day while at work, the car starts to idle really low, and at times it would fluctuate way more then expected. I didn't pay much attention to it, until later on when I was about to go on a delivery and it turned out that the battery had died completely. Just bought the car, and the very same day, the battery dies. Madness... Downright madness. So, my dad came up to the Pizzarama store to help me out, and we just happened to have a spare lying around so we put that in the car. So I go out on another couple deliveries, when suddenly I hear a noise and then the battery charge light comes on. Turned out that the alternator belt had disappeared completely. The alternator belt must have been having problems before that, which would explain why the battery that came with the car, died. And that would also explain why we could smell burning rubber whenever the fan was turned on to get air circulating into the car. 
+
+ After all this, I was going nuts. My third car in less then a year, 10 years old, and even it decides to crap out on me. I talked with my friends at work, who basically said "it's not so bad, take it back to the dealership where you bought it, and they should replace everything for free. And if they don't, then we will back you and tell them they 'hey, he lost wages because the car that you sold him screwed up the very same day that he bought it from your lot. Shouldn't you have that kind of stuff checked out so that stuff like this, doesn't happen?" 
+
+ I went down to the dealership the very next day. Told them the situation, and they didn't even hesitate to help me out. So that was good. And this is where there is a happy ending, because so far, the car has been great (touch wood.) 
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+       July 22nd at around 2 in the morning I was kicked out of the apartment I share with my room mate, Matthew. I was given little warning of his surprisingly sour mood, and no reason for my exile from the apartment. Granted, I have been hard on the guy for his lax assed attitude and ignorant, undesirable actions. He is, after all, socially/mentally challenged. Many aspects of his personality and appearance leave him unattractive to most looking for a friend, especially a boyfriend. I do feel sorry for him, and I do try to help him become more socially aware, but frustratingly I've had little success. I give him grief often, sincerely and sarcastically (as is my nature,) and rarely does he get much thanks from me. How does he react initially to my demeanor? A joking scoff or a plea that I might inform him how he can make me happier. A nice dose of expected honesty might be nice. Rather then his reaction to my actions suppressed, so it can seethe, boil, and accumulate in his veins till one day he bursts. This time, prior to kicking me out of the apartment, he informed me that he hated me. I expect that from most people, albeit normally in a jovial manner. Even if they do sincerely hate me, for whatever reason, it's usually no suprise. In this case though, it was totally out of the blue, and without any follow-up reason. Also, this came from the guy who complains that others don't  love  everybody. 
+
+ For the first 12 hours after being chastised by one I thought was incapable of chastising and kicked out by one who I didn't know had the balls, my head was spinning and I was quite offended. He did, after all, decide to pull this crap on my birthday of all days. After some thought, and conversation with friends and acquaintances, I have decided it's probably for the best. For the both of us, health wise. I imagine he'll probably move back into his parents place. Or pick up another room mate, hopefully one more patient. 
+
+ After all, I'm tired of this. This hasn't been the very first outburst. They seem to occur on a loose monthly cycle, and usually end with him moving out... Back to his parents. Just so that three or four days later he can request that I help him move his stuff back in... Again. The most recent one, prior to the current... He misunderstood something I said in the heat of the moment, and took it to mean that I was kicking him out of the apartment. That, however, is something I don't even have the legal right to do, since his name is on the lease. 
+
+ So, I quit. He wants me gone? I'm gone. I'll gladly make other arrangements. There is little need for me to stay in such a repetitively stressfull situation. It's costing me my health, and my wallet both far too much. 
+
+ Does this mean I'm rid of him? No, of course not. He will be inquiring as to whether or not we can still be friends soon enough, if not begging me to come back into the apartment due to loneliness, overwhelming costs, lack of finance organization, etc. Dare I accept his invitation? Not unless I'm looking for more stress. 
+
+
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+      My cat and my room mate hate me. I got kicked out of my apartment. Nothing that's going on with my room mate makes any fucking sense. And I want to fucking kill myself.
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+       After an interesting conversation with a close friend, I realized that what people have been saying about Matthew is very right. He is an adult with the mental maturity of a teenager. He has the capacity to carry out responsible tasks, but without constant guidance, he fails to see why they need to be done. He needs to be guided through the thought process that most people think through on their own, with out even noticing it. Living in the apartment with him, I had to be the one to do that for him, because if I didn't their was always the constant worry that me or my possessions would be adversely effected by his actions. Since I've been kicked out, that obviously did happen. Because I make mistakes, as all people do, I was unable to guide him. Also, I was, unwilling. Being there for somebody like that, is either a full time job, or takes some awesome volunteer dedication. I wouldn't have the patience even if I was getting paid for it. So that is just not for me. 
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+        urlLink Wikipedia  has to be one of the most amazing sites on the  urlLink internet . It is a mass of continuously growing user contributed information about more subjects then one person could ever need to know about. Basically a great big giant free  urlLink encyclopedia , that does it's best to be as up-to-date as a  urlLink newspaper , while also trying to be as unbiased as a  urlLink Vulcan .   urlLink MediaWiki  is the engine that powers the the site. Content is continuously being added, updated, and corrected by everyday people who contribute to the same wealth of information that they themselves benifit from. 
+
+ You will notice on this site, that I will try to  urlLink link  various terms to  urlLink Wikipedia  pages to give quick and easy referencing. I may be overdoing it a little in this post, but  urlLink Wikipedia  is just too cool, and I would be in error if I did not at least try to get you to that site. 
+
+ FR33 PR0N:  urlLink KL1K H3R3 ! 
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+       Disclaimer: The following is merely my opinion, and is not to be considered doctors advice... mostly because I'm not a doctor. 
+
+ It Shouldn't be Considered a Sin, Wrong, or Unhealthy to Masturbate 
+
+ No, you will not go blind. No hair will grow on your palms. You will not burn in hell at the hands of Satan. And you will not run out of orgasm juice. 
+
+ There are some who believe, and some who propagate lies to support their own beliefs that are ment to encourage people, especially those who have just hit puberty, not to masturbate. There is no reason why anyone should heed this advice, unless it is in the rare case that this advice is possibly coming from a medical proffessional, and due to a medical condition of some sort. Of course this would always come with a good tangable reason to back it up. 
+
+ Masturbation is Healthy 
+
+ Masturbation is a natural exploration of ones own sexuality. It has benefits such as reducing stress or sexual tension. It alleviates menstrual cramps for women. It helps one fall asleep easier. It stimulates the immune system to help build up the bodies resistance to infection. It releases mood elevating hormones that help ward off depression. It reduces the chance of spontanious erections for men, as well as the number of wet dreams. 
+
+ It also has no risk for transmitting STD's or pregnancy. 
+
+ No Need to be Ashamed 
+
+ In society, masturbation is one of those big taboo's that until quite recently everybody did, but nobody talked about. I personally think that masturbation being talked about more publically, is the best thing that could happen. Every issue should be discussed as wide spread as possible so as to dispell as much misinformation as possible. 
+
+ To conclude... I am a wanker. If you are not, you should be. 
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+       You know that spam you get in your e-mail inbox that is ever so annoying? Notice how a majority of it is targeted at people who are probably in an emotionally vulnerable state for whatever reason, willing to do anything to either get out of trouble, avoid trouble, make cheap purchases, or some how  increase  ones exterior vanity? 
+
+ That's all I get every day, about 20 of them or so. And from what I hear, I'm one of the lucky ones. Some people get hundreds of these things. 
+
+ Luckily, the most popular e-mail services (esp.  urlLink Hotmail  and  urlLink Yahoo! Mail ) have implemented procedures and user education to combat spam. Many smaller services running various e-mail systems for customers of their ISP, hosting, company e-mail, etc. use all sorts of commercial software, open source software, and freeware which helps them combat spam as well. Doing so doesn't just benefit those who use their service either, but also serves to lower bandwidth costs, as well as lower processor usage, in turn saving the people or company who owns/manages the service which saves them... the driving force behind a capitalist society... money. 
+
+ As the e-mail providers make their spam protection smarter, so do the spammers use smarter techniques to circumvent the spam protection. Here is a recent example of this: 
+
+  E-mail Source    X-Message-Info: JGTYoYF78jGwjK/XOsz3MCWxFc0sNGhG 
+Received: from 5ken79v1.net  ([65.139.126.39]) by mc4-f32.hotmail.com with Microsoft SMTPSVC(5.0.2195.6824); 
+	 Sun, 1 Aug 2004 21:13:40 -0700 
+Subject:Re: (no subject)  
+To: &lt;ginnsu@hotmail.com&gt; 
+From: Katie &lt;Katie@tpywlxihxei.net&gt; 
+MIME-Version: 1.0 
+Return-Path: Katie@tpywlxihxei.net 
+Message-ID: &lt;MC4-F32wD8SLJ2bzcBf0004c90c@mc4-f32.hotmail.com&gt; 
+X-OriginalArrivalTime: 02 Aug 2004 04:13:42.0553 (UTC) FILETIME=[18B1C090:01C47847] 
+Date: 1 Aug 2004 21:13:42 -0700  
+ 
+We have put thousands like you get back on your feet, ginnsu, why wait ? ------------------ http://nokuat.youtouchedmeandismiled.com/woor/           (Website has rem0va1 directions)      Do you Yahoo!?Yahoo! Mail - Now with 25x more storage than before! FREE pop-up blocking with the new MSN Toolbar &#150; get it now! http://toolbar.msn.click-url.com/go/onm00200415ave/direct/01/
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+       Remember my previous post today when I was talking how I used to host Season 1 of Penn & Teller's Bullshit! That's ok, I know you didn't read it, and nobody else did either. Today, though, I was almost considering putting at least one episode off the show on my site to sort of, spread the awesomeness around. But, then I remembered the bandwidth costs, and scrapped that idea. Anyways, there  is  a second season of Penn & Teller. I have so far seen one episode, which concentrates discovering the flaws in the Christian Holy Bible titled "The Bible," in the exuberantly humours P&T fashion. If you can find it online, I suggest you watch it, and  urlLink let me know  where I can find it. If you have Showtime or another station that runs P&T's Bullshit, I suggest you do not miss a single episode. Not because I know they are excellent, but because I need you to record them all, and send them to me. Be sure to check out the  urlLink the episode lists  when you're off searching for those episodes. 
+
+  "ELVIS... never did no drugs." 
+ - Penn   
+
+... You'll get that when you watch it, I swear.
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+       ...That I should be expanding the info on this site about the following: 
+
+ 
+ car struts - canada 
+ http://www.arcee.ca/shared/bullshit 
+ i love masturbating 
+ separating glued wood 
+ what are you stupid 
+ 
+
+ The above were the 5 most popular search strings that resulted in hits at my site, in the past month. Well, ok fine. They where the  only  search strings that resulted in hits at my site. Lets explore these one by one: 
+
+  car struts - canada  Obviously somebody needs (or wants) to buy some struts for their car, and from a Canadian dealer as well. It's too bad for them, that like me they probably live in some remote community, where there best bet would probably be the local auto wreckers. SUX 2 B U! N00B! 
+
+  http://www.arcee.ca/shared/bullshit  I used to have to entire first season (is there a second season?) of Penn & Tellers Bullshit in  urlLink WMV  format. I took it down do to bandwidth and drive space issues. So, although I do love to spread humour, reason, and logic throughout the world, I'm going to have to do it without giving you Penn & Teller's Bullshit. I'm instead hoarding it on  urlLink VCD 's. Sorry. 
+
+  i love masturbating  I do so wish I could have helped whoever used this search find what they were looking for. Especially if they were female. *wink* However, I didn't even have the phrase "i love masturbating" on my site when somebody searched for this. I should though, and now I do. And in the future I will make a post about the benifits of masturbation for both males and females, as well as how masturbation is neither evil nor the cause of such things as blindness or hairy palms as some superstitious people would have you believe. 
+
+  separating glued wood  I believe you're looking for  urlLink Handyman's Corner . Which, as much as I love Red Green, will never be my site. 
+
+  what are you stupid  I enjoyed making the  urlLink post  which this search most likely returned. I don't know why somebody would search for this anyways, but I highly doubt that my site was what s/he was looking for. 
+
+ Where does this all come from? I installed on my server this stats tracker called  urlLink Webalizer  which is really cool because it spits out  urlLink stats pages  from the  urlLink apache httpd server  logs generated by hits to my web site. 
+
+ Aren't you glad I don't listen to my own market research?... or anybodies, for that matter. 
+    
+</post>
+
+
+</Blog>

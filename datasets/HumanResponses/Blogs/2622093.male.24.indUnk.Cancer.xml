@@ -1,0 +1,398 @@
+<Blog>
+
+<date>31,July,2004</date>
+<post>
+
+     
+       urlLink Microsoft Releases New Internet Explorer Fixes (TechNews.com)   I think You would like to use Windows Update in Start Menu to keep you windows OS patched with the latest updates. 
+     
+    
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+     
+       urlLink HTMLParser Home Page  In general, to use the HTMLParser you will need to be able to write code in the Java programming language. Although some example programs are provided that may be useful as they stand, it's more than likely you will need (or want) to create your own programs or modify the ones provided to match your intended application.   To use the library, you will need to add either the htmllexer.jar or htmlparser.jar to your classpath when compiling and running. The htmllexer.jar provides low level access to generic string, remark and tag nodes on the page in a linear, flat, sequential manner. The htmlparser.jar, which includes the classes found in htmllexer.jar, provides access to a page as a sequence of nested differentiated tags containing string, remark and other tag nodes. 
+     
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+     
+        urlLink Building an e-business foundation for a small-to-medium business, Part 1: Don't let the gorillas get you down   Solution overview   An infrastructure is the foundation of a business or organization, serving as the framework for internal and external communication, processes, and transactions. The infrastructure's architecture determines how functional and extensible the system will be in meeting future requirements. Using a solid system infrastructure ensures a trusted, high-performance solution.   Small business infrastructures must provide reliable, efficient communications with business partners, suppliers, and customers. They must also guarantee performance for critical, internal applications. Figure 2 represents the scenario topology for our e-business infrastructure. See Implementing the solution for definitions of each component.   Figure 2. Solution topology                 You could benefit from a solution based on this topology if your business:   Wants to extend its catalog presence to the Web  Needs a way to track Web site traffic  Needs a scalable, highly available, secure environment for e-business  Needs to integrate existing and new applications  Wants to advertise retail products and information on the Web  Needs innovation in electronic communication to facilitate faster response times and lower costs   The scenario has five stages:   Web presence  Commerce  Live chat  Business-to-business partner  Site analysis   In the first stage of the scenario, Web presence, we build the infrastructure for e-business. We assume the business has a limited Web presence or needs to make its existing presence dynamic to attract more customers. This stage lets customers easily find information about the business and contact it through a postal address, e-mail address, or telephone number. The infrastructure provides a strong, secure, reliable foundation on the path to becoming an e-business. It supports key industry standards such as HTML, HTTP, J2EE, XML, and Web services.   In the second stage, commerce, we add e-commerce capability to the existing Web site, providing the buying experience expected by online customers. Customers can browse a catalog and view detailed product information, use a personalized, virtual shopping cart, and pay for purchases electronically. This stage provides a secure, reliable platform for conducting e-commerce, supports industry standards, and seamlessly integrates with existing back-end systems like inventory databases.   In stage three, live chat, we extend the e-business with human interaction to give it more responsive, personal contact with its customers. When a customer has a question about a product or about how to complete a purchase, they can simply communicate with a customer support agent through an applet. Agents can immediately contact internal product experts or accounting personnel and give quick answers to customers. This instant messaging fulfills stringent security and availability requirements, and is easy for both customers and agents to use.   Smaller businesses can also benefit by electronically connecting to suppliers and resellers. In stage four, business-to-business partner, we implement business process integration and data sharing among trading partners. This stage helps reduce integration costs and enables faster deployment of new processes and services. It assures reliable message delivery and provides heterogeneous, any-to-any connectivity through a standard API.   After establishing Web presence and e-commerce capabilities, the business will want to analyze site traffic to understand the complete view of customer Web activity and improve site efficiency and effectiveness. In the fifth stage, site analysis, Swish Swash can analyze the preferences and trends of its site visitors. This stage identifies where visitors click and which paths they follow to determine if the site navigation helps meet the performance goals of the business. The technical challenges are identifying and handling Web site congestion, increasing content availability, and improving overall performance.       
+     
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+     
+      Color Bars moves directly to random direction and refracts when runs into the wall. Zip package includes source code, deployed jar,jad files. Need WTK emulators or J2ME Cell phone. Color display is required.  urlLink http://www.ivanshi.com/blog/gameworks.zip          
+     
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+     
+      Only yourself!!  &nbsp; 
+     
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+     
+      It's TrustCash hijacked my Internet Explorer by hooking an invisible toolbar to my IE. Both Ad-aware 6 and Norton Anivirus 2003 cannot find this hijacker. Regedit is the only tool that help me to find out the hijacker.  &nbsp; 
+     
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+     
+       urlLink Orfeo Blog  is good place for Italian developers and programs, and the blog also have some English links about freeware and j2me.  If you can understand Italian,  urlLink why not go and take a look ? 
+     
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+     
+       urlLink Stop Plate Tectonics  Nice blog, and a very good  urlLink BlogShares.COM  player.
+     
+    
+</post>
+
+<date>25,July,2004</date>
+<post>
+
+     
+       urlLink Chinese archive for Software analyse and architecture   Bookmark here for my later reading. 
+     
+    
+</post>
+
+<date>25,July,2004</date>
+<post>
+
+     
+       urlLink Online marketing solutions: performance-based affiliate programs & search marketing   Recently, I am interest on Internet Marketing, Search Engine Optimization and Affiliate Programs. Cj.COM is listed on  urlLink Dr.Ander 's  urlLink Affiliate-minder.com  website,  with the description:the biggest and best known. I would like to take a look into cj.com
+     
+    
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+     
+       urlLink Affiliate Minder for affiliate-friendly associate programs   It is a very good site for webmasters who is ready to set up an affiliate site or is encouting affiliate commission leakage problem    
+     
+    
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+     
+      Now, use  urlLink msnmlib 1.2 (the website is in Korean), you can write programs as client to MSN servers.  You can write msn robots or your own MSN Messenger use Java.   Here I have a very short tutorial on how to use msnmlib 1.2, and my Java development IDE is  urlLink Eclipse 3.0    Prepare:If you had already downloaded msnmlib 1.2 package&nbsp;from the offical project website,&nbsp; then unzip it to any folder on your HDD.Here I use d:\java_dev\common\&nbsp;,you will get a jar file: msnm.jar.Otherwise, you have to download the latest version of msnmlib from  urlLink the offical web site  or  urlLink the project page on sourceforge    First step, open your Eclipse IDE and use New Project wizard to create a new java project in your default workspace(ofcoz, you can use another workspace), and name your project(here I use jRCS,which means java Realtime Customer Servcie System)   Second, In Eclipse, Select menu Window--> Prefence, expand the Java node in the left treeview,  and then expand Build path node in Java node, and then select node User Libraries. We will add a new user library refer to the&nbsp;path where you place your msnmlib jar file. Click new... to add a new user library MSN_LIB and click Add Jars... to make the user library variable refer to msnmlib jar file:d:\java_dev\common\msnm.jar   Now, edit properties of project jRCS by select the context menu of jRCS node&nbsp;in the Project Explorer.&nbsp;Here we will edit the Java Build Path and add a new library for this project. Of coz, we will add the pre-defined User Library MSN_LIB&nbsp;here.   Ok, finally, we have our development environment set up. It's time for coding!   Coding Step 1: Create&nbsp;your own MsnAdapter class&nbsp;for an adapter that can listen to the events fired&nbsp;by MSN Messenger.&nbsp;You should make you&nbsp;adapter class extend from the&nbsp;parent class rath.msnm.event.MsnAdapter. the MsnAdapter class has more the 10 methods for event listening. but you have not to implement all the&nbsp;methods, and&nbsp;by user Eclipse&nbsp;New Class Wizard, it is not a&nbsp;hard job to implement a lot&nbsp;of&nbsp;methods.&nbsp;For short and easy, We only implement&nbsp;method MsnAdapter.instantMessageReceived(SwitchboardSession ss, MsnFriend friend,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MimeMessage mime).  Method instantMessageReceived is invoked&nbsp;by the MsnMessenger&nbsp;instance every time when&nbsp;you receive a new message&nbsp;(MimeMessage)&nbsp;from MsnFriend.  Here is my code to reply to the&nbsp;friend&nbsp;"How are you doing":       public class MSNAdapter extends MsnAdapter {     MSNMessenger msn;      public MSNAdapter(MSNMessenger msn) { 		this.msn = msn; 	}    public void instantMessageReceived(SwitchboardSession ss,  MsnFriend friend,       MimeMessage mime) {         System.out.println(friend.getFriendlyName()                 +" send me some msg:"+mime.getMessage());         try         {            // create a new message            MimeMessage mm = new MimeMessage();             // remember to append the \r\n\r\n trail to             // your message            mm.setMessage("How are you doing?\r\n\r\n");            // set the message kind to MESSAGE -_-!!!            // you have to do this.            mm.setKind(mm.KIND_MESSAGE);                        if (robot.msn.sendMessage(mm,ss))            {                // message sent successfully                System.out.println("send msg ok!");            }else{                // failed                System.out.println("send msg faild!");            }         }catch(Exception e){             e.printStackTrace();         }           } }      Coding Step 2: Write a public&nbsp;class&nbsp;with the static  main method as your own msn client.      public class Client {      public static void main(String[] args) {         Email = "your@hotmail.com";         Password = "you_msn_account_password";         // create a new MSNMessenger instance msn         msn = new MSNMessenger(Email,Password);         // set the initial status to online. 	msn.setInitialStatus(UserStatus.ONLINE); 	// register your pre-created adapter to msn         msn.addMsnListener(new MSNAdapter(msn));         // login into the msn network         msn.login();          	System.out.println("Waiting for the response....");     } }     Coding Step 3: Debug or run your application.In the context menu  of project jRCS,&nbsp;&nbsp;select Run --> Java Application, Eclipse will compile the code  and run the application in the&nbsp;&nbsp;Console.  If you have your msn account set properly, and you have another msn account that  add this msn account as contact, you will see this msn account log in, and then you can send  some message to this contact as you wish, how ever the Contact will only and always answer  you "How are you doing?".*_^   About Author:  Ivan Shi,  Web Server System Developer living and working in Shanghai,China  He has a Blog  urlLink "Technically Blog Ivan"(http://www.ivanshi.com/) , blogging his life,feel,mind and technology.  He is doing a lot to make his speaking and writing English much more better!   PS: It is the first time I wrote programming tutorial in English. Please forgive my poor English, as I had do my best to make things clear and easy to understand. Anyway, you are welcome to publish a copy of this tutorial on any website page as wish, but do remember to notify me before and keep&nbsp;the Author Bio not edited.  Thanks for reading!          
+     
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+     
+       urlLink Improve Search Engine Ranking With Topical Articles  Very good article about how to build a attractive website/weblog. I will enhance my blog by following some tips out of this article.
+     
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+     
+       urlLink Search Engine News  If you want to know more about search engine marketing, this site maybe is a very good portal entry.
+     
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+     
+       urlLink PDAgold.com :: Article :: First virus for Pocket PC unleashed  "On July 16 this year, a weblog of F-Secure developers carried a report on the first real virus for Pocket PC devices and later brought more details. But stop panicking. The virus does not pose a very big threat. Not this one..." "The first PocketPC virus is called WinCE.Dust.1520. It was created by a virus-writing group who call themselves A29. It is a classical virus that infects executables and spreads by exchange of infected files. When you run the infected programme, it will ask whether it may infect other files, too.  WinCE4.Dust by Ratter/29A Dear User, am I allowed to spread  If it receives a positive answer, it will attempt to infect all EXE files in the same folder. The authors hid two sentences in the body of the virus - one of them alludes to the sci-fi book Permutation City by Greg Egan, the other is a message mainly to antivirus firms that the era when antivirus programmes for Pocket PC could detect nothing but the EICAR virus (which is a kind of "testing" virus), has come to an end. The virus can also infect Smartphones with an ARM processor due to identical architecture."
+     
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+     
+       urlLink PDAgold.com :: Article :: First 60 minutes with HP iPAQ hx4700  In this article by  urlLink Pavel Koza  ,  "HP designers allowed their imagination free rein and hx4700 resembles a futuristic communicator rather than 2004 PDA. Forget about silvery plastic - the body is made of magnesium alloy so that it is as light as plastic but incomparably more durable. Its dark colour with metallic shine makes the device appear smaller than it is. Instead of a common joypad, this iPAQ features a unique touchpad, the same as that used in laptop computers. It can work in two modes - either as a rather unusual joypad or as a normal touchpad which even shows a pointer on the display!"  ,the author wrote,  "The display seems huge in comparison with usual PocketPCs. Measured with a ruler, the diagonal is just half an inch longer, but it makes a big difference. The resolution being twice finer than usual, the pixel density must be significantly higher. It means that it is extremely fine and smooth and I do not exaggerate when I use superlatives."   urlLink    Click for full-size image   "The device is powered by an Intel PXA270 processor running at 624 MHz. This is the best processor for pocket computers available. Responses are immediate. Somewhat surprisingly, the IPAQ offers a combination of 128 MB and 64 MB of memory but the larger is FlashROM, unlike in other device. It contains the system, so that you cannot use all those 128 MB but "only" some 80 MB. Coupled with 63 MB of RAM, you have more than enough room for your data and applications."   Ha, HP iPAQ hx4700 will be the next PPC I will dream about, as I dreamed about iPAQ 2210 in earlier past days.
+     
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+     
+        I have been working in this team for a year and half, have been seeing people changing in the same office, and office changing for the same people.&nbsp;From three to five, from five to four, and now 12 great guys make up of the great team!  Anyway, my dream is in another place, so&nbsp;I have to quit, but I will never leave you guys!  Thank you very much! You guys are the most lovely people I've ever seen.  And I do belive 9orange.com will be one of the most successful communication portal site in Chinese&nbsp;on the Internet, as you guys are the most smart people I've ever seen.    
+     
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+     
+      First of all, you should write a class inheirts from  rath.msnm.event.MsnAdapter   Second, implement some methods of MsnAdapter, for listenning Messenger's event. Then, use MSNMessenger.addMsnListener() to register you adapter to the instance of MSNMessenger.   PS: remember to set MimeMessage's Kind field use setKind method to KIND_MESSAGE(2).  and remember to apped "\r\n\r\n" trail to every of your message text.   
+     
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+     
+      This artilce is posted on Javaworld,  urlLink Access Web services from wireless devices   It is a very good detailed artilce about Web Services Accessing from wireless devices using kSOAP.
+     
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+     
+       urlLink Sony Ericsson & Java    About Java (J2ME)   Java is one of the most exciting things currently happening to the world of mobile devices and applications. It offers great possibilities for end-users, network operators and content providers.    The Sony Ericsson mobile phones are based on Sun's Java 2 Micro Edition (J2ME) technology. Like many other mobile phones on the market the Sony Ericsson J2ME enabled phones support the Mobile Information Device Profile version 1.0 (MIDP 1.0). In addition to this we have support for sound using Mobile Media API (JSR-135) and SMS using Wireless Messaging API (JSR-120). In the latest we have MIDP 2.0 and some other new API's that enable a MIDlet to use more features of the mobile phone, and in we will broadly deploy MIDP 2.0 devices in our portfolio during 2004.   Sony Ericsson is very much committed to Java and is actively working in many working groups in the Java Community Process (JCP) and as a member of the J2ME Executive Committee to ensure interoperability and conformance with other vendors. In an effort called "Java Technology for the Wireless Industry" (JTWI) we work together with the rest of the mobile industry to define an interoperability base for devices coming out later in 2003 and 2004. The first result of this work is the JTWI R1 or also called JSR-185. This specification mandates MIDP 2.0 and JSR-120. JSR-135 is optional.   In the future of J2ME, we expect to have more Java API:s coming out as well as new releases of JTWI.   In the Java community we have also launched a Java Certification program to make Java application testing simpler for the developers. More information about this can be found at http://www.javaverified.com/.   The market for Java applications and solutions is significant and Java is a major contributing growth factor in all application areas. All major mobile phone suppliers launched Java-enabled phones for the mass market in 2002 and 2003.    The real test, of course, will be the end user experience. J2ME provides for richer, more real time and exciting applications. It is strongly anticipated that end users will be attracted to Java applications, whether they be in gaming, infotainment, location based services or any other compelling application area. Operators are clearly aware of this, given that they are currently launching trials of J2ME. It is seen as a good way to get existing GSM subscribers to upgrade to GPRS, for example. This will ensure less subscriber churn and new customers won. It can also be easily added to their existing network, without much cost or time.    Getting started It is very easy to get started developing Java (J2ME) applications for the Sony Ericsson mobile phones.    Step 1 (get to know our phones) If you are new to J2ME, we suggest that you start by reading the Sony Ericsson Java White Paper to get an understanding of the technology and its implementation in Sony Ericsson phones.   Experienced developers should go straight to the Sony Ericsson Developers' Guidelines J2ME, which provides a deeper insight into the J2ME support in the Sony Ericsson phones.   Both the White Paper and the Developers' Guidelines can be downloaded from the Java Docs & Tools section page>>   Step 2 (get the docs & tools) Next you need the Sony Ericsson J2ME SDK, which supports all Sony Ericsson's Java phones (Japanese phones excluded) and integrates easily with leading Integrated Development Environment (IDE) from providers such as Borland, Sun and Metrowerks. The SDK contains everything you need to build and test applications for Sony Ericsson mobile phones, including the support for on-device debugging of J2ME applications, a feature that is very compelling for developers when they want to step through their code and make sure it does not contain any bugs. As far as we know, Sony Ericsson phones are still industry-first to support on-device debugging of J2ME applications.   Several developers' guidelines, training materials, special white papers and other docs are also available to help you with your development efforts.   Get the Java Docs & Tools here >>   Step 3 (start developing) Now, you have everything you need to start developing high class MIDlets. Should you need technical assistance during your development, you can use the Sony Ericsson Developer World Forums to poll the community or the Sony Ericsson moderators for assistance, or search our Knowledge Base for known problems.   A collection of Tips, Tricks and Code is also available, as is technical developer support by email.   Step 4 (certify and deploy) And last, once you have completed your application, you have the option to have your application certified. The Java community has launched a Java Certification program to make Java application testing simpler for the developers. More information about this can be found at http://www.javaverified.com/.   Sony Ericsson can help you to bring your applications to the market. Read more about Business Opportunities or our Application Shop.  
+     
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+     
+      In this article  urlLink PHP vs. ASP.NET ,the author Sean Hull said PHP and ASP.Net go head-to-head. Although I donot agree to those opinions, but some point in this article is still very interesting. Such as, database dependence should be your real goal because you maximize your investment in that technology. If you make generic access to Oracle, whether through ODBC or Perl's DBI library, you'll miss out on features other databases don't have. What's more, optimizing queries is different in each database.   
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+       urlLink Sony Ericsson P910 : "New Symbian OS smartphone: Sony Ericsson P910 - a must for mobile business professionals "   Sony Ericsson on July 15th announced a new Symbian OS v7.0 smartphone based on the UIQ v2.1 user interface. The P910 smartphone is a triple band GSM/GPRS phone that offers consumers a top combination of phone, PDA, still and video camera, e-mail and web browsing on the move. PC synchronization of the calendar and address book can be handled over USB, infrared, Bluetooth or even remotely over the air through SyncML. The color screen now has 262,000 colors and is well suited for picture viewing and editing.  The P910 can be part of a secure corporate IT network or used as an individual work tool. Sony Ericsson collaborates with IBM, Extended Systems, Visto, RIM BlackBerry, Seven, IntelliSync and more to provide secure e-mail solutions, as well as with Avantgo to provide offline browsing, with Media Viewer for direct access to news such as Financial Times, and with Promyzer for real-time market quotes and stock trading. HP Runestone allows messages, pictures, calendars and contacts to be printed directly to a Bluetooth-enabled HP printer. Wayfinder is a navigation tool included on the CD, which works as a turn by turn in-car navigation system when connected to a Bluetooth GPS receiver. The Sony Ericsson P910 comes with the Opera browser, offering a superior Internet experience that presents the full Internet perfectly within the screen width.  
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+      I first read this on  urlLink Biz Stone  's post:  urlLink Olympics: The Greek Tragedy    And then I went to  urlLink Telegraph | News | Greeks to poison up to 15,000 stray dogs before the Olympics  , and have the whole article read.  The animal welfare charity says that the strays will be killed because the Greek authorities fear that the sight of packs of dogs roaming the streets will damage their efforts to use the Games to show the world that their country is modern and civilised.  This reminded me Beijing is destroying old buildings for 2008 Olympics.
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+      Very good blog search engine!  urlLink Technorati: Searching the World Live Web 
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+      Haha, Amazing!! From  urlLink J-Walk Blog     
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+      Finally, I realized the mysearch did not replace or hijack my 404 not found message html, but use a more advanced method. It hijacked Internet Explorer by append one hide window(thread) to the IE main window, and hooked IE's dns error event. By use MySpy++ from Microsoft's Visual Studio .Net 2003, a very strange child window named sbhoyb~sb2swish was identified. First, sbhoyb could not be identified on a normal windows system;Second, sbhoyb was always raising some WM_TIMER events all the time. So, I belive the stranger sbhoyb was the one hijacked my IE.  I restarted my windows xp into save mode, and raised DNS error event by view urls not exists(In save mode, internet connection is n/a). My IE played good, and show me the normal "Can not find server" error page.I belived sbhoyb was loaded into system memory when the system startup. Maybe the items in Startup Items, System Services, WIN.INI or System.ini MSConfig is a very great system troubleshooting tool. You can start up msconfig by typing msconfig in Start>Run...  And then you can use msconfig to configure which item should be loaded when the system startups.  But I found that even I used Diagnostic Startup(load basic devices and services only), the sbhoyb was still there!!  Dose Internet Explorer load sbhoyb when startup? How to configure IE not load sbhoyb, or how to remove sbhoyb from IE?  
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+      I noticed a blog post on  urlLink ScottWater's blog  about  urlLink Picasa   People wonder what  urlLink google  is up to.  I think people living on Internet will be named googler soon, as google is every where in our networked life.
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+      Emails about how to work around the problem when startup and shut down your  jetpspeed portal server.   Yufan Shi  We are Online!  http://www.ivanshi.com/blog/    -----Original Message-----  From: Jeremy Ford [mailto:caius1440@hotmail.com]  Sent: Wednesday, July 21, 2004 10:51 PM  To: jetspeed-user@jakarta.apache.org  Subject: RE: error in startup (only after one relaunch)   This may be related to shutting down tomcat while a user is still logged in.   Tomcat will try to serialize the session to disk. A couple of classes  will fail to serialize usually. When tomcat starts again, it tries to load  the serialized user and fails, causing trouble. Deleteing the work  directory takes care of the problem because that is where the serialized  session is.   Changes have made in CVS to make the classes more serialization friendly.   Jeremy Ford  jford@apache.org    >From: "Yufan Shi"   >Reply-To: "Jetspeed Users List"   >To: "'Jetspeed Users List'"  > ,   >Subject: RE: error in startup (only after one relaunch)  >Date: Wed, 21 Jul 2004 21:55:58 +0800  >  >Hi,  >  >I encouter this problem the same as you, but not every time I start up the  >jetspeed.  >  >  >Yufan Shi  >Technically Blog Ivan  >http://www.ivanshi.com/blog/  >?  >  >-----Original Message-----  >From: Anthony Smith [mailto:anthony.smith@fedex.com]  >Sent: Wednesday, July 21, 2004 9:22 PM  >To: Jetspeed Users List  >Subject: RE: error in startup (only after one relaunch)  >  >I too will get this error from time to time on startup. I had no idea  >why...  >  >-----Original Message-----  >From: giluka [mailto:gmartorella@sivaspa.com]  >Sent: Wednesday, July 21, 2004 4:48 AM  >To: jetspeed-user@jakarta.apache.org  >Subject: error in startup (only after one relaunch)  >  >  >Hi,  >only after a shutdown i've noticed this error in log startup of jetspeed  >1.5 
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+      I uninstalled/deleted all the backdoor programs&nbsp;related files&nbsp;, but there is still one problem.  When I browse webpages not found on the server, a replaced 404 not found page with search input box and categories&nbsp;links&nbsp;was&nbsp;&nbsp;showing up and sometimes pop up ads!!    PS:If you are looking for some way to clean the hijacker program which infected my computer, please go and read this post: urlLink Finally, I defeated the hijacker backdoor program--TrustCash!!  
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+      Occasionally I found  urlLink blogwise.com , which&nbsp;is a very large Blog Directory and Listing service&nbsp;provider.  Blog authors can submit their web blog to this site, and the blog site would be listed on blogwise after be proved by&nbsp; human editors.  Blogwise.com said, "23256 sites listed. (589 in last 7 days) ".   After make an application to blogwise.com for "Technically Blog Ivan", the site told me to wait for 14 days:(, as there are 1063 blogs in the query.   
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+      A full version of the Handango Yardstick for June 2004 is available at   urlLink http://www.handango.com/pdf/HandangoYardstick_June2004.pdf   Handango Releases Mobile Download Statistics for June 2004   Handango Yardstick features the best-selling downloads and market metrics for June 2004  HURST, Texas - July 19, 2004 - Handango, the leading provider of mobile downloads, today released the June edition of the Handango Yardstick for 2004. The Handango Yardstick is a monthly report on the state of the mobile downloads economy.   The 2004 June edition of the Handango Yardstick reports the average selling price of mobile downloads by category and the most searched for terms on more than 100 download portals.  This month's edition also divulges the top five phones and PDAs adding software and digital content.  Finally, the report includes a list of the ten best-selling applications and ringtones...
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+          It is a very great idea, but I faild to post my first blog via email.      Maybe there’s a delay between my  smtp  server and the blogger.com server,&nbsp;or there is something mis-configured.      I don’t know why, but I will keep trying.      Yufan Shi      We are Online!     
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+       urlLink XML.com: Low Bandwidth SOAP  Introduction   With the mobile phone industry reporting better than expected sales, and news that, by the end of this year, smart phones are expected to outsell hand-held computers, it should come as no surprise that wireless application development is on the rise. Sun recently announced that by the end of 2004 there may well be more than 200,000,000 Java-enabled mobile handsets. Yet, with all the attention being paid to these microdevices (i.e., low resource mobile devices), it's surprising to learn that a developer wishing to build a wireless application using XML, SOAP, and web services is left behind.  Introducing KSOAP A key ingredient for any web services application is SOAP. The problem with developing a wireless SOAP/XML application -- and the reason for the above-mentioned JSR172 -- revolves around the following issues. First, the common XML and SOAP packages currently available are quite large and contain hundreds of classes. Second, these packages depend on features of the Java runtime that simply don't exist on a microdevice. I'm thinking specifically about the Connected Limited Device Configuration (CLDC) specification which did away with nearly the entire core set of Java classes normally present in the J2EE and J2SE distributions: AWT, Swing, Beans, Reflection, and most java.util and java.io classes have simply disappeared. The purpose of this "bare bones" Java runtime is to accommodate the limited footprint of the KVM -- a low-memory virtual machine running on a microdevice.  
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+       urlLink Bloggers make cash from Blogads  Multi-blog orders drive 75% of revenues  Who: Blogads.com is a network of influential bloggers who accept advertising.  What: Advertisers order, manage and renew fixed-period ads or sponsorships on your blog. Only ads you approve run. Blogads.com focuses on marketing and advertiser hand-holding so you don't need to.  
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+      I am learning how to blog!  I am afraid the blogger.com is encountering some problems, as found that all the background&nbsp;images(the image url starts with  urlLink http://www.blogblog.com/ &nbsp;) in my blog cannot be downloaded from the blogger.com server.  What a pity!  Wish the problems will be fixed in days.   Image test:    hey , This image was uploaded to my own website server by ftp.          
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+      This is my first blog online!  Thanks for your visiting, I am very glad to hear your comments.     
+     
+    
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+     
+       urlLink Red Hat debuts open source app server   Red Hat has announced the availability of its open source application server, a lower-end server that reportedly will work with other J2EE 2.0 application servers from IBM, BEA Systems, and Oracle. "We have decided to take a collaborative approach to software development and not to take an antagonistic stance," said Matthew Szulik, Red Hat's CEO. "What will our competitors say about that? I hope they will say 'Congratulations.'"        urlLink More details about Red Hat Open Source Application Server and its free download.   
+     
+    
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+     
+       urlLink Orfeo  recommended me this  urlLink book --J2ME Game Development with MIDP 2.0 by  urlLink Jason Lam . It's free, and  "is about programming with J2ME on wireless devices with focus ondeveloping games. ... The book does not go into detail on topics like how tomake high level GUI menu but does demonstrate what a game menu might look like.Nor will it explain in detail how to use the Record Management System (RMS), but willgo over topics that use RMS such as high score and game settings. ... the book will go over in detail the new game classes that arenow include in the MIDP 2.0.... "  (Originally from the book's Introduction Chapter.)  Aside this book is mainly about J2ME game programming, it has some chapters about marketing, game design and development process etc. If you are interested about J2ME game programming, and want to do some J2ME game coding for fun or for profit, just go and  urlLink download a free copy , read it!! Thank Orfeo again.  
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+     
+       urlLink CSS not formatting when using .insertrow : "className "  Apply css to the element created by .insertRow or .insertCell in Javascript. skay_t provided the solution:  "Hi,   what I do when adding rows using insertRow is to apply the style after I have added the row,   var tr = table.insertRow(0); tr.className = "myclass";  or alternatively  tr.style.fontFamily = "Arial";   One thing to keep in mind is you probably want to add styles to the td element and not the tr.  "  
+     
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+     
+       urlLink Java Games Forums - A Java.Net Community - Full Screen  This night, I was looking for some way to draw full screen canvas , and found this thread in google.  "Porting is part of life in the J2ME world.",   urlLink wood  said. Sounds interesting.
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+     
+      We have installed our Eclipse Me developement environment in last tutorial. And now, I would give you some simple code to see how to promgram and debug MIDlet in Eclipse. 1. Start up your Eclipse 3.0, and use File-> New -> Project... to show the New Project Wizard. Here we will see an new Wizard selection called J2Me->J2ME Midlet Suite, select it, and click next. Type in the Project Name, tutorial_2.Click finish.  urlLink     2. If you are use the Java Perspective, you can see a project showing in the Package Explorer, if not, click Window->Perspective->Java... to use the java perspective. In the package explorer, right click the src folder under the project name and select New->Package... on the context menu.  urlLink    New Java Package dialog will be shown, and let us type "com.ivanshi.j2me.tutorial" into the Name textbox and keep the source folder unmodified.  urlLink     3. Click finish to tell Eclipse to create the new package, and the new package will be displayed in the Package Explorer under the src folder of project tutorial_2. Right click the package name and select New->Other... to raise the New Wizard dialog show up, and select J2ME Midlet, then click next to show the J2Me Midlet wizard, and type the midlet class name "SampleMidlet" into the Name field, keep everything else unmodified.  urlLink     urlLink    4.Click finish to close the wizard, and Eclipse will create a new class com.ivanshi.j2me.tutorial.SampleMidlet extended from javax.microedition.midlet.MIDlet;and the source file will be opened in the source editor.   urlLink    5. Hey, we need some source code! Here we go! Find the method startApp() and type in some java code in the method to make source code looks like this.    urlLink     6.But how to run this midlet? Don't worry. Right click the project name in the package explorer, select run->other... and in the configurations treeview, select J2me, and make sure the Project is "tutorial_2" and the Executable is Midlet:com.ivanshi.j2me.tutorial.SampleMidlet, click run.  urlLink    The default WTK emulator will be started up and the SampleMidlet will running in the emulator.  urlLink     7. And debug is something like run. You should use the context menu Debug->Other... and Eclipse will show you a debug screen like this. If you have set some breakpoints in the source code, the debugger will stopped in the line of breakpoints of the source code.And you will see the Variables on the right up corner view.   urlLink    
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+     
+       urlLink Michael Yuan Java blog  J2ME expert Michael Yuan's Blog. He has became Dr.Yuan several days ago. It is a Ph.D in  Astrophysics  from the University of Texas at Austin. Interesting, isn't it? 
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+     
+       urlLink Eclipse  is one of the most robust Java development IDEs, and It's free and open source.  urlLink EclipseMe  is a plugin for Eclipse that enables J2ME programming and debug in Eclipse Environment.  In this post, I will give you a step by step tutorial on how to write J2ME Midlet Suite using Eclipse.   Prerequisites  The following are prerequisites for this plugin: Sun Java2 1.4.x Eclipse 3.0M9 or later.This documentation was put together with Eclipse 3.0 RC1 on Windows XP. The following items are optional:  urlLink ProGuard Obfuscator .This is necessary if you want to produce obfuscated packages with this plug-in.   Download and Install EclipseME: (Installation guid is copyed from EclipseMe's offical help document.A great job has been done by those genius.)    Download the EcilpseMe's latest version from the Official website.  1. Install the Wireless Toolkit(s) Install any of the wireless toolkits you want to use. When you do this, make note of the base directory into which each is installed, as you will need this information in Step 3. 2. Install the Plug-In The EclipseME distribution is provided as a ZIP archive. Simply unzip the plug-in binaries into your Eclipse "plugins" directory and restart Eclipse. For instance, if your Eclipse installation is held in c:\software\Eclipse, EclipseME should be installed to c:\software\Eclipse\plugins. If the plug-in is properly installed, there will be a J2ME entry in the Preferences dialog. urlLink     3. Configure the Plug-In's Wireless Toolkit Settings In order to use the plug-in, you must configure at least one Wireless Toolkit. In order to do this, perform the following steps: Select the Properties menu item from Eclipse's Window menu. Expand the J2ME item in the pane to the left and click on Platform Components. urlLink      Right-click on Wireless Toolkits and select Add Wireless Toolkit. In the resulting dialog, select the root directory of the wireless toolkit installation. urlLink     When you have completed the operation, you should be able to expand the Wireless Toolkits and other items in the right-hand pane and see the toolkits, definitions, profiles and configurations that are installed. urlLink       4. Change Eclipse's Debug Settings Because of some quirks in the wireless toolkits, Sun's in particular, if you are going to debug your MIDlet using Eclipse, you must change several of the default debug settings. To do this: Select the Properties menu item from Eclipse's Window menu. Expand the Java item in the left pane and click on the Debug entry. Ensure that both Suspend execution on uncaught exceptions and Suspend execution on compilation errors near the top of the dialog are NOT checked. Increase the Debugger timeout near the bottom of the dialog to at least 15000 ms. The resulting settings should look something like this:  urlLink       
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+     
+      Nice game, nice sample, based on a japanese open source game, and edited by me. Need Midlet 2.0/CLDC-1.1 support. The zip package can be directly imported into Eclipse(Need  urlLink EclipseMe plugin ). Download Now  urlLink KetrisGame.Zip    
+     
+    
+</post>
+
+
+</Blog>

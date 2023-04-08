@@ -1,0 +1,1 @@
+updated to latest nvidia drivers and jumped up to 23 fps to check your speed hit "ctrl + alt + `" (thats ctrl/alr/tilde) then type "timedemo demo1"

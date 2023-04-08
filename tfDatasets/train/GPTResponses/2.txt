@@ -1,0 +1,1 @@
+Prime numbers are also used in hashing algorithms, which are used to encrypt passwords and other sensitive data. Hashing algorithms rely on prime numbers to create unique and secure digital signatures.

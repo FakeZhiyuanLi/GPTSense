@@ -1,0 +1,86 @@
+<Blog>
+
+
+<date>25,May,2004</date>
+<post>
+
+	 
+      I recently had to find a way of streaming Excel files from an FTP server that was hidden behind a firewall. The environment was Java, J2EE, servlets, struts, JBoss. The principle parts of the solution rely only on servlets and Java though...oh and  urlLink commons net  from Apache/Jakarta which provides the FTP client. I used the  urlLink FileZilla  FTP server to help in testing. The first step is to create an instance of the FTPClient then use it to connect and login to the FTP server:    FTPClient client = new FTPClient(); client.connect(host); client.login(user, pass)   Next we need to move to the directory where the file to be downloaded lives:   client.changeWorkingDirectory(remoteDirectory);   The FTP client provides a way of obtaining an input stream for the file on the FTP server:   InputStream in = client.retrieveFileStream(filename);   Then we use the following magic incantation to set the HTTP headers on the response (HTTPServletResponse). Apparently this forces most browsers to pop up the save as window rather than trying to display the document using a built in renderer:   response.setHeader("Content-Type", "application/x-download"); response.setHeader("Content-Disposition", "attachment; filename=\""+filename+"\"");   Next we copy the file from input stream (FTP server) to the output stream (back to the client):   byte[] buffer = new byte[4096]; int bytesRead = 0; OutputStream out = response.getOutputStream(); while ( (bytesRead = in.read(buffer, 0, buffer.length)) != -1 ) {   out.write(buffer, 0, bytesRead);   out.flush(); }   Finally let's tidy up by logging out from the FTP server and closing the connection plus close the output stream:   client.logout(); client.disconnect(); out.close();    
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      Just published a new version of Dumbster (a fake SMTP server used to test email functionality). It can be downloaded from SourceForge:  urlLink sourceforge.net/projects/dumbster . There's a tutorial over on JavaWorld:  urlLink javaworld.com/javaworld/jw-08-2003/jw-0829-smtp.html .
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      Well it's now one month since I offshored myself. If that sounds strange let me explain... Over the past few years there has been a lot of hype and paranoia in the US around the practise of moving "American" (hah) jobs to countries that have lower cost profiles than the US - primiarily in terms of the cost per hour of labour.   This got me thinking...why should I be stuck here in a dreary Anytown, USA office working my butt off for (an admittedly good) salary when I could be working my butt off for (a lower but equivalent in terms of cost of living) salary in an exotic location...like Cancun, Mexico for example.  Well it took a little while to plan. But now I'm here. It's only been a month but no regrets yet. My productivity has soared, I'm full of enthusiasm and energy for my work again.  
+     
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+      A few links to people who have found the Dumbster (a dumb Java SMTP server used for testing email) useful:   urlLink Java2Simple blog (Siva Jagadeesan)    urlLink Recalcitrant Engineer blog (Kris Wehner) 
+     
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      No cable internet access again. Of course the incompetents at  urlLink Cablemas  have no idea what the problem is and have no idea when it will be fixed. I'm cancelling my contract with them. Will probably move to Sky for TV - we only had cable TV for internet access but they force you to take a cable TV package in order to get internet access. I believe that unless there is a change of management in this company (at least in the Cancun area) they will be out of business very soon as there are good alternatives:  urlLink Sky  and  urlLink Prodigy/Infinitum .
+     
+    
+</post>
+
+<date>12,June,2004</date>
+<post>
+
+	 
+      UPDATE:    Day 9 : Cablemas finally restored internet access. A grand total of 9 days. The next battle is to get them to refund eight days worth of connectivity...
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+      Well I've just had an excrutiatingly frustrating week with my ISP.  urlLink Cablemas  in Cancun, Mexico is the local cable company that also provides broadband internet access much like a Time-Warner in the US. At the time of writing this company has the worst technical support of any ISP I have ever used - and that is saying something - I've lived and worked in 6 countries over the past 10 years or so.  Here goes:  Day 1:  get back to the house at 9PM on Friday night. I'll just check my email. Hmmmm internet access is down. Oh well this is nothing unusual for Cablemas it should be back up by morning. They are probably doing some unannounced maintenance on the network.  Day 2:  Saturday. Still no access. Call the cable company. They can't do anything until Monday morning. They promise to send someone first thing Monday morning.  Day 3: Sunday. No chance of anything happening today, ever.  Day 4:  Monday midday. Still no cable guy. Call the cable company. The cable guy finally arrives at 2PM. The cable guy can't find anything wrong but replaces all the outside cables anyway and the modem for good measure. He intimates that they had some problems with an upgrade over the weekend and that soon I will get my internet access back. 6PM still nothing. Call the cable company. They will send someone out first thing tomorrow: this time they will send a network guy.  Day 5:  Tuesday morning. The network guy arrives. Difficult to tell the difference between the network guy and the cable guy. After some wire twiddling outside the network guy brings his own modem into the house. Interesting - his modem seems to work okay. No he can't leave his modem because the cable company only gives the network guy a 5K modem for testing purposes. Apparently Cablemas doesn't trust its own workers not to use the modem at home for free internet access (what a company). First thing tomorrow they will send out a guy to replace the modem since the network guy doesn't carry modems for customers. Duh!  Day 6:  Wednesday. The cable guy should have been here between 8AM and 9AM. He finally arrives at 11AM with a modem. He proceeds to swap out the modem. How strange the modem still doesn't work - it must be a network problem. He talks by radio to a few friends back at base. Well it appears that they have had some internal network problems since the weekend and that they are now working on this (after 5 days). He promises that internet access will be restored within the hour. 10PM: still no access. Call technical support. They will send someone out in the morning. Here we go again.  Day 7:  Thursday. Still no access. My wife (Mexican) goes to the cable company and insists on speaking to the boss. She also delivers a long letter explaining all the problems we've had with Cablemas. The boss promises to look into it. I won't hold my breath.  Well that's as far as we've got. Still no access on day 7 but fortunately during the time period that I've been waiting for Cablemas to restore access, I contracted the services of Telmex the Mexican national telephone company with their ADSL product Prodigy/Infinitum. I now have my internet access back. I'm still waiting for Cablemas to fix their problems.
+     
+    
+</post>
+
+<date>02,June,2004</date>
+<post>
+
+	 
+      I thought I'd seen the last of static code analysis when I stopped programming in C all those years ago. Well there seems to be a resurgence of interest in this subject for my current language of choice Java.  In C the static analysis program lint was able to detect problems such as unused instructions (includes, variables, procedures, assignments), attempts to use deallocated memory, attempts to deallocate unallocated memory, uninitialized variables, unreachable code, etc. With the advent of Java much of this static validation is now handled by the compiler itself obviating the need for a separate static analysis tool. Or so I thought...  It seems that there is a new breed of static analysis tool for the Java language. These tools don't really concern themselves with the low-level details that your grandfathers tools checked for. These tools are more concerned with detecting and reporting problems with higher order structures and patterns. For example, these tools are able to detect database connection resource leaks by searching for bad patterns of connection allocation and deallocation. In principle this pattern can be applied to other areas that require matching resource allocation and deallocation sequences. Other examples are detection of bad use of thread synchronization; incorrect implementation of hashcode() and equals() methods; null pointer dereferencing; etc.  For more information check the following resources:  urlLink FindBugs  
+     
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+	 
+      I was born in the year of the monkey. I will always be a code monkey.   
+     
+    
+</post>
+
+
+</Blog>

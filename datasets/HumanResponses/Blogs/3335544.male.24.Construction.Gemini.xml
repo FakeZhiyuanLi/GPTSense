@@ -1,0 +1,532 @@
+<Blog>
+
+<date>30,June,2004</date>
+<post>
+
+	 
+      Are you tired of the little arrow that inhabits the left hand corner of your shortcut icons, obstructing the beauty of the icon itself. Then be tired no more, here is how to get rid of it.  1) Go to windows start --> RUN OR windows key + R 2) Type regedit and hit OK (OR hit ENTER key) 3) Go to HKEY_CLASSES_ROOT 3) Go to lnkfile 4) Delete the IsShortcut registry value 5) Exit regedit 6) Restart windows  Voila, shortcut arrows be gone!
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+	 
+      Microsoft has released express editions of the latest versions of their developer tools. This has been viewed by many as attempt to attrack many developers who currently use open source developer tools. I must admit I have fallen prey to their marketing and am in the process of downloading them myself. Once I mingle with them I would share my views here on HAVEWORLD.   urlLink  Visual Studio 2005 Express Beta Products    Edit : To download VB Express I was asked to verify my email address through an email sent to my gmail address. After an hour of waiting it never showed up. However when I tried again, this time using my hotmail address, it worked in less than a minute. Is Microsoft discriminating against gmail addresses. Shame on them!!!  Also, you will need (if you already don't have)  urlLink  XP Service Pack 2    urlLink  .NET  2.0 Beta 1  
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+	 
+       urlLink Gmail me  if you are interested.
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+	 
+      Many businesses loose out on valuable sales by simply ignoring the simple things. After my home-made crossover cable stopped working, I decided that I wanted a USB data transfer cable (of course I could always try to repair the cable, but I am tired of the exposed pieces of wire that stick out like a sore tooth). My first stop was a small boutique in a well established mall.    Me : Do you have any USB cables to connect two computers?   He : Nah, we doh have any USB data transfer cables.   Me : but I see a whole bunch a USB cables on the other side? (wishful thinking of course)   He : Nah, those are USB extensions. We should get some by next week.   Me : OK (walks away)    No business, especially businesses that have a least one workstation (this one did) should be without a simple stock inventory system. Use Access, Excel, anything, but you should never be without stock. You should always recognize when an item has reached it’s reorder level and quickly refill.  My second stop several days later was a computer sales/internet café.    Me : You have any USB data transfer cables.   He 1 : Yeah we should have some somewhere around here (he looks and consults another attendant)   He 2 : What you want the cable for?   Me : To connect two computers.   He 2 : Nah, we doh have that.   Me : OK (walks away)    They could have at least informed me when they would be getting some, or given me the assurance that they would contact their supplier and give me some sort of discount. Better yet they could have taken my email or telephone number and contacted me when they got some cables. In hind sight I could have requested this but this my rant not theirs. 
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+	 
+      Nothing to say so I've decided to start something, every friday I would recommend a blog. And this weeks recommendation is  urlLink  The Daily WTF - Curious Perversions In Information Technology  . This site definitely shows you how not to program.
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+	 
+      Non-english readers can now enjoy HAVEWORLD translated in any one of these fine lanaguages ( urlLink chineese  |  urlLink french  |  urlLink german  |  urlLink italian  |  urlLink japaneese  |  urlLink korean  |  urlLink portuguese  |  urlLink spanish ) as seen on the top of the website.
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+	 
+      I would like to see RSS feeds on  urlLink  www.trinidadexpress.com   and  urlLink  www.guardian.co.tt  . I have emailed them but haven't received a response. I would like any reader of this blog to email them and tell them to give us RSS feeds on their site.   urlLink  email guardian    Edit : Express has agreed to look into it. Now to get guardian on board.
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+	 
+      There is so much hype about gmail these days it's not funny. Hot on the heels of receiving an invite today and having the opportunity to test drive the dam thing myself, I have a few things to add to the gmail buzz :  1) The least they could have done was add a feature to import email from popular email services like hotmail, yahoo, etc. Some type of POP-mail retreival thingy-magiggy. 2) The UI is simple enough and has average user-friendliness. 3) With all that space, they should have given users a public folder to share pics etc. 4) I suspect google is using some very sophisicated compression technology in the backend to store these emails and have some scheme up their sleves to start charging users in the near future. If this is true, shame on them. 5) The reply button is at the base of the email, this can be very confusing at first. 6) I like the way they link all your replies and forwards back to the original message like conversations (as they call it).
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+	 
+      Thanks to a fellow  urlLink  blogger   I have finally joined the gmail community. I must admit I had the biggest smile on my face for the first time in a long while. I felt like I had won the lottery.  You are currently using 0 MB (0%) of your 1000 MB.  I don't know how they allocate invites but I suspect that I will get some in the future, in which case I will auction them off right here on HAVEWORLD in a very democratic process of first come first serve basis. So stay tuned.   urlLink  Click here   to send me a house warming email.
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+	 
+      For some strange reason or the other I have developed a recent habit (I don't know if I can call it a habit, since it only started about 3 weeks ago, but I did specify recent, so boo ha ha). I would read the entire newspaper skipping the comics section (2 pages to be exact) only to be read during the time that I spend in the  toilet   bathroom  lavatory. This is TMI, but I had to post it, if only for the title.
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+	 
+      Most parts of Trinidad (I specify Trinidad for the benefit of my international audience) have a taxi stand that services that particular part of the country. El Socorro is no exception. Taxis are almost always shared between 4 to 5 passengers. It costs $2.00 if your destination is anywhere on the main road (less than a mile long). If your destination is on a street attached to the main road, the fare is $2.50 and if it is on a street that is attached to a street that is attached to the main road and beyond (not including the main road itself of course) the fare is $3.00. The exception to this rule is any destination across the highway (the end of the main road meets the highway), in which case the fare is $3.00. To go from anywhere in El Socorro back to the taxi stand is always $2.00 regardless of where the taxi collects you. Keep in mind that you cannot call a taxi, you simply wait for one to pass by. The rationale behind this complex pricing scheme is that off route destinations (streets other than the main road) takes the taxi driver more time to complete his trip and thus reduces his daily profits. I argue that this is not always true since a street off the main road closer to the beginning of the main road takes as much time as a destination along the end of the main road. Be this as it may be, my real gripe is that passengers who live along the end of the main road are inconvenienced (and loose time and money) by passengers who go off route before them. Thus, the double standard here is that while these easily inconvenienced taxi drivers take compensation i.e. (the extra 50 cents and a dollar) for passengers going off-route, they did not find it necessary to extend the same principle to passengers who are inconvenienced by those other passengers who inconvenienced the driver in the first place. Therefore, I should have a reduced fare if I travel with a passenger that inconveniences me.
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+	 
+      Now you can google my blog entries by clicking on the  urlLink  Google it!   link at the base of each entry. It performs a google search on that entry's title.
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+	 
+      Why have they (by they I mean Nokia, Samsung, etc.) not yet invented the cellphone answering machine. Cellphones are coming with music, cameras, and the works. Wouldn't it be just as easy to fit a ditigal voice recording something in the phones. Then I can sync it with my PC, archive old voice mails, and do whatever else I want with them.
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+	 
+       urlLink  DVD Rewinder  
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+	 
+      Trinidad (and Tobago) is probably the only place in the universe where on one week on a sitcom (shown on national television) a woman gives birth to her first child of her first pregnancy and on the subsequent week, she has gone back to being pregnant for the first time. We have invented a new way to air sitcom episodes, start from the last episode and go backwards. That way instead of asking "I wonder what will happen next?" you will say to yourself "I wonder what happened?" OK, so this was a bit of an exaggeration, maybe it was just a one-time mishap of choosing the wrong tape. Add to this the music videos and Japan video topics (that are used to fill any time between scheduled shows) that are almost always cut short to make sure that the next show starts on time.
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+	 
+      Why is it that people still try to categorise people based on the the type of music they listen to. "What type of music you listen to?" and I respond, "all types of music." only to be asked, "like what types?" And in a neutral tone I retort, “like Rap, R&B, Chutney. Anything on the radio.” I think the time has come when people should realize that all types of people listen to all types of music. You don’t have to be “down with it” to enjoy 50 cents’ latest hit. Also, listening to “certain types” of music like Country music, doesn’t make you any less of a human being.
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+	 
+      According to  urlLink  this  , I would loose any fight against the rest of the world. However,  urlLink  Iraq would hammer the United States  .
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+      After getting burn once or twice (or maybe a few times) you learn not to play with fire again. This often leads to paranoia. My laptop is suppose to go into hibernation after I close the LCD screen. This failed to happen twice before causing the apparatus to toast in its own heat (luckily, and credit to DELL, it survived unscathed). Now, instead of dashing off to home, I patiently put the monster to sleep and observe to make sure that it is off before securing it in the carrying case.
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+       urlLink  Sounds like something I would do.  
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      when the oil runs out. Relatively speaking we don't have much time before the world's old supply begins to deteriorate. So why is that politicians and people in power don’t seem to give a poots, especially in Trinidad, where oil and (more recently) natural gas is the major source of revenue. Many of the renewable energy options are very expensive. We need to wake up and smell the cocoa (or is it coffee).  Edit : maybe  urlLink  this   is one solution to the above quagmire.
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      1) The current EURO football matches are being shown during the day, live on television. One editorial writer complains that these matches should be rerun during the night. I agree with another writer who responds, "1) Buy a VCR. They're cheap these days, and ridiculously easy to set up. 2) Get a life."  2) Why spend money and waste a potential customers time by advertising one of your sold out products. The least these businesses could have done was to include in the advertisement that "new stock will arrive on ..." But nooooo.  3) The days of black and white televisions are long past us yet advertisements continue to specify that televisions are color televisions, like I would expect otherwise.  4) Taxis, maxis, and the like, don’t stop me, I will stop you. If I want to travel with you, I will indicate this by signaling you with my index finger.  and finally  5) Blogs without RSS feeds. Arrrrrgh.
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      This  urlLink  story   is about a month old but I only discovered it today. In today's headlines :  urlLink  Why are more and more people getting their news from amateur websites called blogs? Because they're fast, funny and totally biased...    Edit : If Times can do it then why not  urlLink  trinidadexpress.com   and  urlLink  guardian.co.tt  . If my emails get heard (or rather read) then I have no doubt that we will soon have feeds from these local news sites.
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      Before you ask how to work this thing you should  urlLink  RTFM  .
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+	 
+      This morning I decided to help myself to a hot aloo (aka potato) pie from the corner shop where I normally get off every morning before heading off to work. After receiving my delicacy, I handed the waitress behind the counter a 20 dollar bill, only to be asked, "yuh doh have nothing smaller than that?" To which I responded, "No!" Then she replied with a big "steups!" Two things occurred to me at this point 1) how do you expect to run a business without enough change for a 20 dollar bill (it wasn't even a 100 dollar bill) and 2) how do you expect to retain customers with that type of attitude. I am sure that I am not the only customer she has ever encountered before with a 20 dollar bill. 
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+	 
+      Is "hatrick" correctly spelt? That's the same question I asked  urlLink  dictionary.com  . The response was  No entry found for hatrick. Did you mean hatrack?  Suggestions:  urlLink hatrack   urlLink ha trick   urlLink ha-trick   etc.  Out of curiosity I clicked on "ha-trick" and what do I get  No entry found for ha-trick.  Now, why on earth would you suggest terms that doesn't exist in your database. Actually, that is not so bad, but they could have at least separated the list into terms that closely resemble your term and exist in our database and others that we have no idea about.
+    
+</post>
+
+<date>12,June,2004</date>
+<post>
+
+	 
+      Thursday morning I had the best sleep ever. I had to go somewhere that day and this fact made the sleep more appealing. Isn't it funny how on the days that you could afford to sleep all day, the desire to sleep disappears and when the situation is reversed, you cannot get enough sleep. I use peanuts and cashews to explain this phenomenon. I argue that peanuts are tastier than cashew nuts. However, our senses are duped into thinking that the cashew nut is tastier because it is less common (and more expensive) than the peanut. I refuse to ever watch 'The Godfather' because I refuse to be swept by the mast hysteria that has made this movie one of the greatest movies ever.
+    
+</post>
+
+<date>11,June,2004</date>
+<post>
+
+	 
+      Yet another conversation with yet another person (and no, I am not talking to myself) had me thinking way into the night and keying my thoughts onto magnetised plates. As much as we dislike failure and under achievement, and so much that is negative, it is necessary in order for us to appreciate and celebrate success, and all other things that are positive. In order for me to be above average someone else must be below average. Thinking about this too much I cannot help but think about sweat shop workers in China (just one of many examples and in no way trying to be stereotypical, if that is possible) repetitively hammering away at pairs of sneakers, or t-shirts, or plastic bowls, or colorful plastic toys to be overpriced and sold to the overachievers -- Pause, think about how to continue this post, change title (previous title was 'Life is a balance') -- I feel that even though slavery was abolished some years ago, it still exists today, and must always exist in one form or the other. It is now easier to fool ourselves into thinking that we are free. I argue that what we now have are better odds of being a slave master, which I guess makes it better, which means we are progressing, but to what? Is it possible that some day both extremes will converge, there will be no master and slave and we will exist as human beings equally sharing everything and equally working for the collective betterment of us all (and not primarily ourselves). The bottom line is this, for things to exist we must have relativeness (to coin a new term) or extremes. There can be no light without darkness, no good without bad. It is fundamental to life as we know it. Even if it was possible to exist without relativeness we would not be able to describe it or understand it in a system that depends on relativeness which I guess makes this whole argument baseless and stupid but thought provoking nonetheless. Is this what you call a circular argument? If yes, then the revised title of this post is quite appropriate. 
+    
+</post>
+
+<date>11,June,2004</date>
+<post>
+
+	 
+      For all my loyal fans. This entry is for you. Not much to write but at least you know that I am still alive. Look forward to regular posting come next weekend and if I decide to hit the web cafe to sip on some cafe brasil, tomorrow.  Edit : I heard on the radio this morning that next week Friday might be a holiday for Labour Day (that falls on a Saturday this year). That would create a hatrick of 4 day work weeks. I am keeping my fingers crossed.
+    
+</post>
+
+<date>08,June,2004</date>
+<post>
+
+	 
+      It is amazing the amount of blogs there are out there and the amount of topics that are covered. Most of my work currently involves developing databases for Domino Lotus Notes. I was amazed at the amount of blogs that focus on Lotus Notes development.  urlLink  Domino Dude  ,  urlLink  Lotus Geek  ,  urlLink  Notesgirl  ,  urlLink  Punk'd by Notes  , and  urlLink  Lord Lotus   are just a few I stumbled on. Sounds like the cast of some cartoon.  OK, so what else is happening in my  urlLink  neck of the woods   : Thursday is a holiday (I know, I mentioned that before), Friday is a half day long team meeting, and Sunday is sports day.
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+	 
+      While spell checking a previous blog entry, blogger had the nerve to notify me that I had made a spelling mistake. What combination of letters was it that caused such a commotion? It was 'blog'. However,  urlLink  my research   indicates that blog is a word, that is if you believe the oxford dictionary to be the  urlLink  'definitive record of the English language'  .   
+    
+</post>
+
+<date>05,June,2004</date>
+<post>
+
+	 
+      Much to my amazement I only realised last night that Thursday was going to be a holiday in Trinidad, thus it will be another (consecutive) 4-day work week. What are we celebrating anyway? According to  urlLink  dictionary.com   Corpus Christi is a feast in honor of the Eucharist and is the first Thursday after Trinity Sunday, the day on which this feast is observed. The  urlLink  Eucharist   is a sacrament and the central act of worship in many Christian churches, which was instituted at the Last Supper and in which bread and wine are consecrated and consumed in remembrance of Jesus's death. Too bad it is always celebrated on a Thurday, meaning no chance of ever creating a long weekend.
+    
+</post>
+
+<date>05,June,2004</date>
+<post>
+
+	 
+      During a conversion on Friday afternoon I made a very bold statement. It went something like this "... it all boils down to whether yuh believe or yuh don't ... yuh cyar be in the middle, is either yuh believe or yuh don't believe." The other human being (just wanted to be specific here so you don't think that I was talking to myself) in the conversation thought that for some things in life that you could neither prove nor disprove you could remain "open" i.e. not believe nor disbelieve until you had enough evidence to do either. So ironically approximately in the middle of Friday night and Saturday morning I decided to create this blog entry to discuss the merits of my bold statement. If I decide not to do anything, or not to make a decision or not to choose or to remain neutral does that mean that I have by default chosen one thing or the other? I think I will have to remain "open" on this blog entry.
+    
+</post>
+
+<date>05,June,2004</date>
+<post>
+
+	 
+      Checkout  urlLink  this   colorful and futuristic screen saver from Microsoft and it actually fits the entire screen.
+    
+</post>
+
+<date>04,June,2004</date>
+<post>
+
+	 
+       urlLink  Haloscan   provides free commenting and trackback. Unlike blogger they have input for name, email, and website. Although I've seen it many times on different blogs, I have never wondered what trackback was before today. Thanks to this  urlLink  article by MT   I now know what trackback is and how it works.
+    
+</post>
+
+<date>03,June,2004</date>
+<post>
+
+	 
+       urlLink  StatCounter.com   offers free invisible web tracker, highly configurable hit counter and real-time detailed web stats. It allows you to exclude a list of IPs from tracking, lists what searched keywords brought users to your site, shows referral URLs and has an option for weekly or monthly emailed reports. The best thing about this service is that it is free.
+    
+</post>
+
+<date>03,June,2004</date>
+<post>
+
+	 
+       urlLink  Futureme.org   has a simple but quite popular idea -- create an email to send to the future. You create an email and specify a date in the future you would like this email to reach it's destination. You can send an email to yourself or someone else. Also, you can read some of the emails that others have sent. If you don't believe me then go see for yourself.
+    
+</post>
+
+<date>03,June,2004</date>
+<post>
+
+	 
+      OK. So all is not perfect in Bloggerland. I never said all was perfect either but the previous sentence was worth writing nonetheless. The one thing that I will hold against blogger is that the comments interface does not have input for name, email, or website except you put that information in the comments itself.
+    
+</post>
+
+<date>03,June,2004</date>
+<post>
+
+	 
+      Microsoft has released a beta WMP v10. Personally I prefer the previous user interface but the change is appreciated. After a while any user interface gets boring.
+    
+</post>
+
+<date>03,June,2004</date>
+<post>
+
+	 
+      I will start this blog by listing some of the features (that was non-existent @ ebloggy)     1. Email notification whenever a comment is posted.    2. Site feed (www.haveworld.blogspot.com/atom.xml)    3. Site profile with picture.    4. A separate page for each post.    5. Mail-to-blogger address (an email address I can send to that posts to my blog)  I am glad that I didn't start blogging with blogger since I know what it is like not to have all these features and will surely appreciate them a lot more, especially seeing that all these services are entirely free.  Thank you Blogger.
+    
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+	 
+      After 10 months of labour and toil I had my first performance appraisal today. My manager let me do all the ratings and comments, then reviewed it and discussed it with me and then I made the necessary agreed upon changes. All in all I would say that I got a very positive rating and it feels great to have your hard work appreciated once in a while. I must say that I have grown very accustomed to my work environment now. I have my own office space and I work with little supervision. Cheers to continued success and hard work.  
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+	 
+      Monday, we get a holiday for Emancipation day which is August 1st each year. Here are some links if you want to know more about this holiday     urlLink Travel Channel    urlLink T&T News Bulletin Board    urlLink Emancipation Support Committee     
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+	 
+      Microsoft Windows XP [Version 5.1.2600]  (C) Copyright 1985-2001 Microsoft Corp.    G:\>netcap /c:c:\temp /l:00:03:00    Installing the Network Monitor dirver    -----    what is a dirver?  
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      Check out my post @ developerWorks     urlLink Solution ... changing IP address     
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+	 
+      Quote from an email I received :  (colors are as received)     green , white and  gold     the background of the email was white so the author decided to make the word 'white' black which in my own humble opinion spoilt the entire effect.  How about changing the color of the background?    Another human being : "The empire spoil the game." -- commenting on the UMPIRE giving Brian Lara out when he was not (as shown by TV replays), unfortunately the UMPIRE doesn't have this advantage and it's UMPIRE not empire!    "Why you don't talk much?" -- Reply, "You cannot learn if you are not listening." -- related by one cricket commentator to another of a cricketer's response to stated question.    For some reason I thought that the spelling of 'you' was weird, only until I wrote it down did it look correct. I wonder why this happens. Sometimes a common word appears to have a weird spelling.    Why is it that models have to wear long dresses that drag on the floor. To me this is very impractical, the ends of your gown/sari/dress will get dirty. I guess that is why they are often times seen holding it up. As I said very impractical.    Commercial Free Music...I find it very obnoxious that radio stations promote these things, it's like biting the hand that feeds you. I actually appreciate good advertisements and understamnd the need for them, they are the reason I get free radio and tv!    Currently working on a script to automate the creation of new connection documents as the lotus server is changing IP addresses and more customizations for Solomon.  
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+	 
+       urlLink Could they have made it any longer? 
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+	 
+      Solomon is a decent accounting software supported and further developed by Microsoft. One of the neat features of this application is that you can customize it at different levels. However, the help and manual provide little assistance and there is very limited information out there on coding some of these customizations. A request came to our IT department to restrict access to a particular field value based on the group that the user is a member of. To do this required me to create some VB code that looked at the User ID of the user currently logged on, get the groups that it a member of, and make sure that at least one of these groups has access to that particular field value.  To get the User Id in solomon you need to  Dim myuserid As String Call GetBufferValue("bpes.userid", myuserid)  The entire piece of code looks like  Private Sub csiteid_Chk(ChkStrg As String, retval As Integer)    If (ChkStrg <> "") Then        Dim myuserid As String        Dim cursorNbr As Integer        Dim isAuthorised As spResults               Call GetBufferValue("bpes.userid", myuserid)        Call SqlCursorEx(cursorNbr, NOLEVEL + SqlFastReadOnly, "custom", "", "") Call SqlFetch1(cursorNbr, "System.dbo.sp_UserAccess_UserId_Site" + SParm(myuserid) + SParm(ChkStrg), isAuthorised, LenB(isAuthorised))        Call SqlFree(cursorNbr)        If StrComp(Trim(isAuthorised.results), "TRUE", vbTextCompare) = 0 Then        Else            MsgBox "You are not authorised to use this site. Contact HCL IT if this is a problem for you."            Call SetObjectValue("csiteid", "")            retval = -1        End If    End If End Sub 
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+	 
+      Microsoft should enhance the capabilities of the DOS environment and fully integrate it into the OS. I would love to be able to do grep.pl `dir *.xml /w` test at the command prompt. And I wouldn't care if they copied the functionality that's available under most unix shells.  
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+	 
+      The other day I realised that I have the ability to morph into persons around me (not physically though), just in mannerism and to some extent speech. I find that if I am hanging out with someone for a few hours I begin to start acting and sounding like them without even thinking about it.
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+	 
+      Setting up your SQL Server to send emails using Outlook as the default client is all well and good. But what if the SQL Services fail for some reason without restarting, then the backup fails, then we do not get notified. That's when I decided to create a nice little Perl script that uses the Net:SMTP module ( urlLink  help!!!  ). That was the easy part. The next step was to schedule the task on the Win 2000 Server. If you schedule a task through Control Panel -> Task Scheduler, you must supply a valid user account and password. If you want to use the SYSTEM account (as I wanted to because I didn't want my task failing when the domain admin password changes), you have to schedule it via the command line. What a pain in the butt. ( urlLink  help!!!  )
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+	 
+      Setting up SQL Server to send automatic email notifications was a nice little challenge for me. Things that I discovered along the way  1. You must have Outlook installed on the Server as default email client, 2. If you use Outlook 2002, the client app must be running to send emails, 3. Your SQL services must start with a Windows authenticated account  These are the links that helped me   urlLink  Common SQL Mail Problems    urlLink  How to Configure SQL Mail    urlLink  FAQ - SQL Server - SQL Mail  
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+	 
+      My first report in Crystal involved calculating the Sum of Averages at different group levels. Crystal does not allow you to combine Summary functions e.g. Sum ( Avg ( amount )) is not allowed. What you can do is create your total manually using a global variable and a reset and display formula. This works well if you total is in the footer. I needed my totals to be in the header so I had to use subreports to calculate the totals. This is fast, but not fast enough so I am going to use a stored procedure to perform most of the calculations on the Server side, my only limitation before was that I didn't know how to simulate the IIF on SQL Server. Now I know (see previous tip).
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+	 
+      Select IIF(field>=0,"positive", "negative") as number from table  Using SQL Server you have to use the CASE command  SELECT number =  CASE WHEN field >= 0 THEN "positive" ELSE "negative" END from table
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+	 
+      I was allotted 2 days of no work to attend the company's Corporate Renewal seminar. First of all let me state that the food was OK, just in case you were wondering. So I was well fed and energised enough to take part in all the scheduled activities. The first day consisted mainly of team building exercises, facilitated by a pregnant individual who claims that she plies her trade in Trinidad, the rest of the Caribbean, and Switzerland. We reviewed our performance after each exercise and this helped us a lot in identifying our strengths and weaknesses as it pertains to operating in a team environment. The second day went on forever with a speech by the CEO, a session by a gym instructor and a nutritionist advising us on how to lead a healthy lifestyle, and finally a tour of several company sites. One thing that I took away from this was that I need to be more proactive with my questions and thoughts. In one of the team exercises I had a question whose answer would have made the task a lot easier but I refused to ask the question. After 5 to 10 minutes struggling to complete the task, someone else had asked the same exact question and only then were we able to complete the task.
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+	 
+      And this week's recommendation is  urlLink  Word Shadows   - details of the adventures of a boy and his imaginary friend Keith. Author uses a lot of imagery to make his posts come to live in a very comical manner.
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+	 
+      will I burn to learn, = is not the same as := , I just want to scream.
+    
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+	 
+      and that is definitely true for programmer's...     Those are the choices I was offered when I decided to close a meeting clarification request in IBM's Lotus Notes client. Lots of choices but the programmer did not think that maybe someone would want to close the request without sending it to someone and without wanting to continue editing. In the end I chose "No" just to see if there was a typo and clicking "No" would just close the damn thing. It closed it alright, but it still sent the email notification without comments. :(
+    
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+	 
+      When you do without something for a while and one day you eventually get that something you are more likely to appreciate it. Also, sometimes it takes loosing something, to really appreciate the worth of that something, as the old saying goes, you will not miss the water until the well runs dry (or something like that). The office I work in had it's 256K office to office wireless connection replaced with a 100 Mbps fiber optic connection. Files that once took minutes to copy across, now only take a few seconds. Browsing folders on a remote server happens in the blink of an eye. Remote desktop connections display in real-time. Also, sometimes you have to tell yourself that even though things are bad right now, they could be worst.
+    
+</post>
+
+<date>05,July,2004</date>
+<post>
+
+	 
+      I have a lot on my plate this week and nothing worthy of blogging has entered my thoughts. Today, I setup a SQL Server on my machine to use with Solomon (MS Accounting software) to test some reports I am creating in Crytal Reports. Though there are lots of blogs about Lotus Notes there are not many about Crytal Reports. Thursday and Friday I have to attend a Corporate Renewal seminar (one of the objectives of this seminar is to communicate the mission and vision of the company). Accounting seems like an interesting discipline. If I had to choose a career outside of IT, I would choose Accounting.
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+	 
+      And this week's recommendation is  urlLink  mohammad.abdulfatah  . This is the chronicles of a senior programmer/systems analyst.
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+      So, I have made my mind up. Firefox is way better than IE, and I am never going back to IE. My favorite feature is the tabbed windows and the apparent speed. There are several extensions that add functionality. Try it, you wouldn't turn back!!!
+    
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+	 
+      If you are behind a proxy server like I am, check out  urlLink MSN Web Messenger .
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+      This week's pick is  urlLink froggytown . This was one of the first blogs that I started reading and still do to this day, although I have been hit with a pot on my head and described as being mean for not commenting anymore. I had discovered it while googling, and then I started giggling. I sometimes wonder where I was all this time when blogs started to become popular.
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+      HAVEWORLD has been given a makeover. Title bar is now floating on the left. This is in celebration of 2 months of blogging. Look for more changes in the future.
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+      I create my first ASP pages this week. A simple login screen, some paramters and 2 reports using tables, althought I guess I should be using CSS, but tables are the first thing that comes to my mind. All I need to do now is add some encryption! 
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+      ...it really makes a big difference. 
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+      A caller to a morning TV program criticised parents for referring to their children as kids, according to him a kid is a young goat and we should not be referring to our children as goats. After severely chastising parents with this point, Mr. Morning TV Program Caller, went on to state emphatically that the police in Trinidad and Tobago are pussy-footing with the current crime situation. The moral of the story, it is OK to liken police officers to feline creatures but for GOD's sake do not call your children goats.
+    
+</post>
+
+
+</Blog>

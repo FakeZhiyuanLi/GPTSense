@@ -1,0 +1,83 @@
+<Blog>
+
+<date>17,August,2004</date>
+<post>
+
+    
+       I was looking for a good wiki implementation and found this wonderful open source ( urlLink BSD License ) Wiki named SushiWiki. It's so simple and powerful. Thought of sharing it with others :D   
+    
+    
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+    
+       Not to do any evil, To cultivate good, To purify one's mind--This is the advice of the Buddhas. - Dhamma padha  isn't it wonderful? with all the rush, fast cars, tight deadlines, tension... all we seek is peace in mind... and it's right there right inside of us waiting to be found. The world is so materialized that many wouldn't beleive it's true.   urlLink http://www.mahamevna.org/   
+    
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+    
+           I wrote an article on a design I did as a part of my ongoing project during last weekend.    And published it on  codeproject .        It’s on functionality extension and change in applications after deploying.       Check it  out : -D    urlLink  http://www.codeproject.com/useritems/userexit.asp   
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+    
+       No matter how good you know some thing, if you can't convert what you know to right words... it as bad as you don't know - may be even worse Lot depends on how you phrase it and how the listener make you phrase it. But at the end it counts :(   
+    
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+    
+       There was a nice mail fight going on at my office about copy rights and intellectual property rights violation. A teacher of mine was saying that by copying entire web articles in to mails and publishing them on private special interest group mailing lists, we could be violation laws. And some friends of mine were saying we are not. I found an article about fair use of others' work which says some could be justified and some not. The mails were really interesting and educating, but unfortunately can not be published in the blog as I’m afraid I might be violating laws!!!   
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+       What’s the best practice in porting an unknown (code written by an unknown party) project in to a new language? What’s the order of components in which we should study and port the project from UI, Business Logic, and other supporting components like data access and logging? My gut feeling is that we should study UI, then BL and supporting components last. And when porting, we should start from supporting components and move to UI through business logic. In that way we know how exactly our code would be used and what could we expect… Comments please…  
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+       By the theories of OO we should use the private member within the class but not the Property.  But properties can be used to validate a value before being assigned to the private variable.  My personal idea is, when validation is required, have a separate private method to do validation and call that method inside the property’s setter and else where.  i.e:   Private m_name As String   Public Property Name() As String Get Return m_name End Get Set(ByVal Value As String) Dim validValue As Boolean validValue = ValidateName(Value) If validValue Then m_name = Value End If End Set End Property  Private Function ValidateName(ByVal p_name As String) As Boolean If p_name.Length   Or should we set the property in side SetName method? What is the best practice to use in such situations?  Please send in your ideas  
+    
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+    
+        I had never done peer code reviews before. I did few today. And was amazed to find out how effective it is! I think it’s because we are better in seeing other peoples’ mistakes than our own.  
+    
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+    
+       I'm not the guy who talk my way out... I prefer to write it out :-) So i thought - yeah i'll give it a shot... I'll create my own web site and have a blog in it. I created a templete, wrote few articles... but couldn't really finish it. So I started it here.  
+    
+    
+</post>
+
+
+</Blog>

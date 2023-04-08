@@ -1,0 +1,1 @@
+zadnje dni sem bolj len. malo preizkušam hans-boehm garbage collector. s slackware sem res zadovoljen in še vedno delam v c/c++, kjub močnim pritiskom .net optimistov ;) naprej se še učim gtkmm programiranje.

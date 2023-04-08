@@ -1,0 +1,1 @@
+The products of operon genes typically have related functions, such as being involved in the same metabolic pathway or performing a specific cellular function. For example, the lac operon in E. coli codes for enzymes involved in the metabolism of lactose, while the trp operon codes for enzymes involved in the biosynthesis of the amino acid tryptophan.

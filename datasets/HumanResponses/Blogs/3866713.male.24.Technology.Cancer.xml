@@ -1,0 +1,31 @@
+<Blog>
+
+<date>14,July,2004</date>
+<post>
+
+    
+         Hi everyone!          I have been a litle distracted (and unable to blog) from my life developing some  .net  applications. One of our main clients is openning a new store on Mexico City, so they are rushing us to the neurons so they can start operations with advanced new software.          The first application runs on  Windows CE  in a  Symbol MC-9000G Portable Terminal . At the moment, Symbol's device has been a headache. It's WinCe personalized OS is really a mess. There`s no notepad nor .net Compact Framwork available neither ActiveSync.          The second aplication is a members management application which collects members general information and generates ID cards (like the ones in Sams Club) storing all information in a  SQL Server 2000 database .          Well folks, Im gonna return to my .net debugger for a few more hours (and a few more lines) of happy coding!     
+    
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+    
+       Past June 29, Microsoft released the a new product line of the Visual Studio Family:  urlLink Visual Studio Express 2005 .   This beta release consists of  urlLink Visual Basic 2005 Express ,  urlLink Visual C# 2005 Express ,  urlLink Visual C++ 2005 Express ,  urlLink Visual J# Express ,  urlLink Visual WebDev 2005 Express  and  urlLink SQL Server 2005 Express .  The Visual Basic, C#, C++ and J# 2005 Express products allow us to build WinForms applications and console based applications as well as class libraries.  The Visual WebDev 2005 is focused on web development, pretty much as a WebMatrix update,allowing you to use your choice language to build rapidly powerful web applications and web services.  Finally we can experiment a bit of the power of the next release of SQL Server (codename Yukon) with the SQL Server 2005 Express, an empowered version of MSDE.  Each product beta is distributed online or cd/dvd. The online distribution is based on a small pre-loader. As an example, the Visual Basic 2005 Express installer took 25 mb for the .Net Framework 2.0, almost 128 mb for MSDN Express and SQL Server 2005 Express each one. You can choose wherter install or not install MSDN and SQL Server.  I loved the new IDE, the new Run-Pause-FixCode-Continue feature is awesome, the value inspector's are great. I'll be posting some photos, examples and tips on the 2005 Express products.    Links   urlLink Visual Studio Express 2005   urlLink Visual Basic 2005 Express   urlLink Visual C# 2005 Express   urlLink Visual C++ 2005 Express   urlLink Visual J# Express   urlLink Visual WebDev 2005 Express   urlLink SQL Server 2005 Express  
+    
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+    
+       Hi everyone!!!  This is my first post in my brand new blog. I'm very excited with this. I will be sharing with you some nice stuff like .net  and misc samples, tips and tutorials, XBOX notices, technology insiders, music notes. Feel free to share. Complains are well received.  Also you will meet my family, my friends, my work-pals, my vices, and more.  See you around... Don't put yourselves offline... 
+    
+    
+</post>
+
+
+</Blog>

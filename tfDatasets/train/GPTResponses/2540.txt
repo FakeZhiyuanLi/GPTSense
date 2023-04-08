@@ -1,0 +1,1 @@
+Early HDTV commercial experiments required approximately five times more bandwidth than an SD broadcast. An SD broadcast typically requires around 1.5 Mbps, while early HDTV broadcasts required around 8 Mbps. However, with the development of newer compression technologies, the bandwidth required for HDTV broadcasts has been reduced significantly.

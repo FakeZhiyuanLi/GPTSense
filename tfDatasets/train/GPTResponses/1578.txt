@@ -1,0 +1,1 @@
+1. Processor2. Central Processing Unit (CPU)3. Microprocessor4. Mainframe5. Logic circuit6. Arithmetic-logic unit (ALU)7. Digital signal processor (DSP)8. System Management Unit (SMU)9. System-on-chip (SoC)10. Neural Processing Unit (NPU)

@@ -1,0 +1,130 @@
+<Blog>
+
+<date>27,May,2004</date>
+<post>
+
+     
+      A scrollable javascript  urlLink grid . Displays data in a table with fixed headers, resizable columns, client-side sorting and much more.   Looking for more widgets, point your browser at  urlLink http://webfx.eae.net/  On this page you'll be able to find Dynamic HTML samples that you can use on your own pages, all the samples may be used freely for personal use or you may change the source code for your own applications.  Dont' miss the great  urlLink Bindows  project from the same author. Bindows™ is a Graphical User Interface Toolkit for writing rich client side web applications with the look, feel and behavior of modern desktop applications. Bindows applications are lightweight applications with zero footprint which means no installation required.
+     
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+     
+      Written in Java,  urlLink KineticFusion  allows you to use pure XML technologies to create dynamic interactive animations viewable on any browser that support the Flash plugin.  All resources, whether ActionScript, sound, video, or images can be extracted and inserted. KineticFusion can be run on the command-line and will translate a single file from with RVML or SWF. It supports all versions of ActionScript user in players from version 4 to version 6.  In addition, it support try/catch/finally blocks and throw statements when publishing to Version 7 and provide function optimisation for Flash 6 and higher using an optional configuration setting. It do not yet support ActionScript 2, the new version of ActionScript used in Version 7 but will in their next version which is currently in development.  No source code but it's free !
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+     
+       urlLink Laszlo  Systems offers the Laszlo Presentation Server, an XML-native platform for developing and deploying highly interactive (Flash) application.   On their  urlLink demos  pages, Laszlo showcases real world application showing different aspects of the Laszlo Presentation Platform. They exhibit a fluidity and responsiveness not found in today's conventional Web applications.  The source code for these sample applications is distributed to show the powerful standards-based approach of LZX. Their XML language is designed to be immediately familiar to developers who have used HTML and JavaScript.   urlLink LPS DE  is free, serves up to five remote IP connections per hour, and runs on Windows, Unix, Linux, and OS X. LPS DE can be instantly upgraded to support commercial deployment.  A better clone than  urlLink Macromedia Flex  ? It seems faster, more skinnable, very stable, well documented and cheaper ! I love it !
+     
+    
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+     
+      Map24 won the Webby Award and the People's Voice Award 2004. Don't forget to switch into interactive mode !  urlLink www.be.map24.com/ 
+     
+    
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+     
+         Happy birthday Baptiste! 
+     
+    
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+     
+      To fill a form online is not an easy task. Too much complicated or too intimidating, the forms are the obsession of the users. There is however a certain number of possible actions to facilitate the reading with the screen, to decrease the possible sources of errors and to make them simpler of use.  Fred Cavazza teach us how to make  urlLink simpler forms  (French page).  Nice WebLog Fred!
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+     
+      Quote from a sun newsletter just arrived this morning in my inbox...   Sun and Microsoft join forces to better serve their customers  As part of last month's landmark agreement, Sun Microsystems and Microsoft are focusing new attention on deeply integrating products and technologies, so customers will have less work to do to support heterogeneous IT environments.  This new relationship means more choices for customers and greater reach for innovative Sun technologies. Sun and Microsoft will continue to compete — but we'll also work to align development tracks so that our products work together well from desktop to data center.  Three things happened on April 2, 2004 to further that goal:   Sun and Microsoft created a 10-year collaboration agreement to address technical issues that will make the companies' products easier to use together.    Sun licensed the Microsoft Communications Protocol to improve interoperability between Microsoft Windows (Windows) clients and Sun servers.    Microsoft renewed its licensing agreement for the Sun Java Virtual Machine (JVM), version 1.1.4; Windows PCs will continue to support Java technology's secure, dynamic content delivery platform.    Who is the angel ? Who is the devil ? As you can see with a couple of dollars everyone becomes very buddy !
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+     
+      Runs a jar application from any url. Usage is 'java JarRunner url [args..] where url is the url of the jar file and args is optional arguments to be passed to the application's main method.  ============= JarRunner.java =============== import java.io.IOException; import java.net.URL; import java.net.MalformedURLException; import java.lang.reflect.InvocationTargetException;  /**  * Runs a jar application from any url. Usage is 'java JarRunner url [args..]'  * where url is the url of the jar file and args is optional arguments to  * be passed to the application's main method.  */ public class JarRunner {     public static void main(String[] args) { 	if (args.length  	    usage(); 	} 	URL url = null; 	try { 	    url = new URL(args[0]); 	} catch (MalformedURLException e) { 	    fatal("Invalid URL: " + args[0]); 	} 	// Create the class loader for the application jar file 	JarClassLoader cl = new JarClassLoader(url); 	// Get the application's main class name 	String name = null; 	try { 	    name = cl.getMainClassName(); 	} catch (IOException e) { 	    System.err.println("I/O error while loading JAR file:"); 	    e.printStackTrace(); 	    System.exit(1); 	} 	if (name == null) { 	    fatal("Specified jar file does not contain a 'Main-Class'" + 		  " manifest attribute"); 	} 	// Get arguments for the application 	String[] newArgs = new String[args.length - 1]; 	System.arraycopy(args, 1, newArgs, 0, newArgs.length); 	// Invoke application's main class 	try { 	    cl.invokeClass(name, newArgs); 	} catch (ClassNotFoundException e) { 	    fatal("Class not found: " + name); 	} catch (NoSuchMethodException e) { 	    fatal("Class does not define a 'main' method: " + name); 	} catch (InvocationTargetException e) { 	    e.getTargetException().printStackTrace(); 	    System.exit(1); 	}     }      private static void fatal(String s) { 	System.err.println(s); 	System.exit(1);     }      private static void usage() { 	fatal("Usage: java JarRunner url [args..]");     } } =========== JarClassLoader.java ============ import java.net.URL; import java.net.URLClassLoader; import java.net.JarURLConnection; import java.lang.reflect.Method; import java.lang.reflect.Modifier; import java.lang.reflect.InvocationTargetException; import java.util.jar.Attributes; import java.io.IOException;  /**  * A class loader for loading jar files, both local and remote.  */ class JarClassLoader extends URLClassLoader {     private URL url;      /**      * Creates a new JarClassLoader for the specified url.      *      * @param url the url of the jar file      */     public JarClassLoader(URL url) { 	super(new URL[] { url }); 	this.url = url;     }      /**      * Returns the name of the jar file main class, or null if      * no "Main-Class" manifest attributes was defined.      */     public String getMainClassName() throws IOException { 	URL u = new URL("jar", "", url + "!/"); 	JarURLConnection uc = (JarURLConnection)u.openConnection(); 	Attributes attr = uc.getMainAttributes(); 	return attr != null ? attr.getValue(Attributes.Name.MAIN_CLASS) : null;     }      /**      * Invokes the application in this jar file given the name of the      * main class and an array of arguments. The class must define a      * static method "main" which takes an array of String arguemtns      * and is of return type "void".      *      * @param name the name of the main class      * @param args the arguments for the application      * @exception ClassNotFoundException if the specified class could not      *            be found      * @exception NoSuchMethodException if the specified class does not      *            contain a "main" method      * @exception InvocationTargetException if the application raised an      *            exception      */     public void invokeClass(String name, String[] args) 	throws ClassNotFoundException, 	       NoSuchMethodException, 	       InvocationTargetException     { 	Class c = loadClass(name); 	Method m = c.getMethod("main", new Class[] { args.getClass() }); 	m.setAccessible(true); 	int mods = m.getModifiers(); 	if (m.getReturnType() != void.class || !Modifier.isStatic(mods) || 	    !Modifier.isPublic(mods)) { 	    throw new NoSuchMethodException("main"); 	} 	try { 	    m.invoke(null, new Object[] { args }); 	} catch (IllegalAccessException e) { 	    // This should not happen, as we have disabled access checks 	}     } }  ================ Usage  ==================== java JarRunner http://users.chello.be/cr41814/Apps/scormizer.jar  
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+     
+                     Most real innovation is done by crazy people doing  crazy things.     The keys are:  &nbsp;&nbsp;&nbsp; Learn all you  can before you go adventuring.  &nbsp;&nbsp;&nbsp; Don't be afraid to make  mistakes.  &nbsp;&nbsp;&nbsp; Only make new mistakes.  &nbsp;&nbsp;&nbsp;  Keep your eyes open.  &nbsp;&nbsp;&nbsp; Don't just look straight ahead:  develop your peripheral vision.       It's the things that go in unexpected directions  are the most important.   
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+     
+      I'm just happy to post my first blog entry !  See you later for most interesting stuff. 
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+     
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;; ########## ;;;;;;;;;;;;;;,;;;;;;;;;;;;;;;; ;;;;;;; ############### ;;;;;;;;;;; ####### ;;;;;;;;;;;; ;;;;;; #################### ;;;; ############## ;;;;;;;; ;;;;;; ######################################### ;;;;; ;;;; ############################################ ;;;; ;;;;; ############################################ ;;; ;;;;;; ############################################ ;; ;;;;;; ############################################ ;; ;;;;;;; ########################################## ;;; ;;;;;;; ######################################### ;;;; ;;;;;;;; ######################################## ;;;; ;;;;;;;;; ###################################### ;;;;; ;;;;;;;;; #################################### ;;;;;;; ;;;;;;;;;; ################################## ;;;;;;;; ;;;;;;;;;;;;; ############################ ;;;;;;;;;;; ;;;;;;;;;;;; ########################### ;;;;;;;;;;;;; ;;;;;;;;;;;;;; ######################## ;;;;;;;;;;;;;; ;;;;;;;;;;;;;;;; #################### ;;;;;;;;;;;;;;;; ;;;;;;;;;;;;;;;;; ################# ;;;;;;;;;;;;;;;;;; ;;;;;;;;;;;;;;;;;;;; ############ ;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;;;;;;;;;;; ########## ;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;;;;;;;;;;;; ###### ;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;;;; Donatienne & Tanguy;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;;;;;; 2 ANS DE MARIAGE ;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;  
+     
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+     
+       urlLink Oddpost  is a web-based email and news aggregation application that combines the rich, responsive interface of a desktop program like Outlook with the available-from-anywhere convenience of a web mail service like Hotmail.  Oddpost works using dynamic html, xml and soap, technologies built right into the browser. You don’t need Java or any plug-ins at all.    Surely the best DHTML application i ever seen ! 
+     
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+     
+      The XUL Grand Challenge 2004 helps to promote XUL/XUI/XAML/XML-UI toolkit/parser/player/etc  Promoted Java XUL motor/runtime/browser/etc. includes: * Luxor * Purnama XUI * xWidglets * Xoetrope XUI * Jazilla * Beryl * SwiXml * XMLFace * Ultrid  For a quick overview stop at the  urlLink Counter Showcase  online  A bundle package that include all examples is also available  urlLink here .  Happy xml coding!
+     
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+     
+       urlLink Sphinx-4  is a state-of-the-art, speaker-independent, continuous speech recognition system written entirely in the Java programming language. It was created via a joint collaboration between the Sphinx group at Carnegie Mellon University, Sun Microsystems Laboratories, Mitsubishi Electric Research Labs (MERL), and Hewlett Packard (HP), with contributions from the University of California at Santa Cruz (UCSC) and the Massachusetts Institute of Technology (MIT).  With the Alpha 0.1 release, you get the complete Sphinx-4 source tree along with several acoustic and language models capable of handling a variety of tasks ranging from simple digit recognition to large vocabulary n-Gram recognition.  The framework and the implementations are all freely available via open source under a very generous BSD-style license.  And it's written entirely in the Java programming language !  Happy speech recognition ! 
+     
+    
+</post>
+
+
+</Blog>

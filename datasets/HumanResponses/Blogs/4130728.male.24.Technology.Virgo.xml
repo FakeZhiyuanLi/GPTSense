@@ -1,0 +1,41 @@
+<Blog>
+
+<date>16,August,2004</date>
+<post>
+
+	 
+       Puzzle: ~~~~~~~ Three mathematicians sit around a table and eat pizza. They are pretty hungry and their table manners are bad. After a while they look up from the pizza to find that the others have pizza on their nose, so all of them burst out in laughter. After a while, one of them stops laughing when he understands that he also has pizza on his nose. How did he know? (All three are assumed to be good in logic). As you usual select area below for answer.   Answer: -----------  I'm not very sure of this anwser though:  Lets call them A, B & C. Since each mathematician can see the other two,each at the begining thinks that he himself is laughing seeing the other two guys have pizza on their nose and he also thinks that the other two guys are laughing at each other without being aware that they had pizza on their nose. This is their initial reasoning but once laughter continues for a while, they'll see that their initial reasoning is flawed, since the situation of all three of them laughing for a prolonged period when only two have pizza on their nose is not possible when thinking of it logically.  For instance, when looking at it from A's point of view: B &amp; C have pizza on their nose and so A laughs. He sees B & C also laughing and thinks... "B is luaghing seeing C have pizza on his nose, B doesn't get alarmed that he has pizza on his own nose because he thinks that I am also laughing at the pizza in C's nose. At the same time C is laughing because he sees pizza at B's nose and thinks that I'm also laughing with him at the pizza on B's nose". So from A's point of view He sees perfect reason in the fact that all three of them are laughing and B, C get a similar line of thought and see reason in the fact that all three are laughing. Now after a while, A will realize that he has pizza on his nose too, because his reasoning would go as follows:  (You need to bear this in mind while seeing A's reasoning: he assumed in his initial theory for laughter: Only B and C have pizza on their nose):  he'd now put himself at B's place and think of what B would have thought. According to B only C has pizza on his nose. So as soon as he sees C having pizza on his nose, he'd laugh and think that A is laughing for the same reason, but the very moment C started laughing, B must have realized that he had pizza on his nose too (remember A is thinking that he has no pizza on his nose) and immediately stopped. The samething must have happened to C as well. But since they continued laughing, A will realize that the only reasoning possible is that each of them is assuming the same thing, which means that he has pizza on his nose too and therefore stops.    IOW,  Think of A's reasoning....      once he realizes both C continues to laugh eventhough B laughs... 
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+	 
+       Sleep! Yeah... I just discovered that the best part of life is sleep and you never know it until you've lost it. Its past midnight now and here I am, trying to kill time writing a blog just because I can't get myself to fall asleep. Its been going on for quite some time now, this midnight mania... going to bed at about 1 and then just wishing that I'd fall asleep and realizing that I'm wide awake still at 2:30 and then finally at about 3:00 it happens, the best part of life. Anyway, I was just browsing and found this neat little one...  Can you take six drinking straws and make four triangles all with sides of the same length? 
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+      You are in a room with 2 doors leading out. Behind 1 door is a coffer overflowing with jewels and gold, along with an exit. Behind the other door is an enormous, hungry lion that will kill all on opening the door. You do not know which door leads to the treasure and exit, and which door leads to the lion. In the room you are in are 2 individuals. The first is a knight, who always tells the truth, and a knave, who always lies. Both of these individuals know what is behind each door. You do not know which individual is the knight, or which one is the knave. You may ask one of the individuals exactly 1 question. What should you ask in order to be certain that you will open the door with the coffer behind it, instead of the hungry lion?  Select the area below to highlight the answer....   Answer ----------  Ask one among the two about what the other guy would have given as answer if you had asked him " Which is the door that contains the lion" and go into which ever door he points.   
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+      Poisoned wine ~~~~~~~~~~~~~ A wise king is throwing a party in 30 days. He has 1000 bottles of wine. One bottle is poisoned. The poison isn't detectable and kills after 29 days. To find out which bottle is poisoned he orders a minimal group of people to test the wine.  How many men does it take to find the poisoned bottle?  Select the area below to highlight the answer.   Answer: -----------  Here is the answer that I could come up with. Don't blame me for its bias to a software guy's talk, but three years doing C coding has blunted my mind.  My answer is 10.  Basically with 10 entities that can take two states (dead or alive) the number of combinations possible is 1024. Now number the bottles from 1 to 1000. For ease of explanation I'm going to ask you to track things in binary. 1000 can be accommodated in 10 bits. So take 10 men and assign one of them to each bit position. Now take each bottle, convert its number to binary and give the wine to all men for whose corresponding position the bit is set in the wine bottles number. After 29 days, see who all are dead. Construct a 10 bit number in which only the bits corresponding to the dead guys are set. The resulting number is the number of bottle that is poisoned.     
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+         S H O C K            Last Monday night I went to see the movie 'Shock' with one of my friends and... I wasn't disappointed.  To sum it all in a single sentence 'I liked the movie'. I'm not sure if I'd have liked it if I'd seen it on CD but the theatre effect always adds to a horror movie. They must be seen on theatres.  The movies starts with the director, stating something to the effect 'This is just an attempt by me to scare you and in no way reflects my personal beliefs on the supernatural'. The movie is not all that scary (its more noisy than scary), but in my opinion is much better an attempt than its predecessors.  Unfortunately previous Tamil horror movies, didn't hold much of my interest.  I relish mostly on the element of mystery rather than the movie being actually scary and this movie did have some amount of mystery, though at later stages it degrades into the normal 'Tamil horror movie template'. Especially the combination of the small kid and the mad women goes well.  Some/most of the ghost scenes reminds me of the same makeup in 'The Ring', dead pale faces with dark deep set eyes.  Prashant plays the role of a caring husband, and for once, he looks smart. Meena is simply awesome in this movie. She looks better in the early parts of the movie and steals the show as the movie proceeds, does a great job of playing the 'possessed' and portrays very well in a scene  which gives a feel of multiple souls struggling inside a single body.  About a day later, when talking with another friend, he said 'Oh yeah! How was that movie, I heard that it had no songs!' and only then did I realize that movie didn't have songs. Not many movies in the Tamil World come without songs, but here is one in which the blend is so neat, that you won't even realize that songs are missing.   
+</post>
+
+
+</Blog>

@@ -1,0 +1,1 @@
+The Fundamental Theorem of Arithmetic would be invalid if the number 1 were considered prime. This theorem states that every positive integer can be expressed uniquely as a product of primes. However, if 1 were considered prime, then every positive integer could be expressed as a product of 1 and primes, which would break the uniqueness aspect of the theorem.

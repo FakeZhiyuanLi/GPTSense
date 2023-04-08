@@ -1,0 +1,175 @@
+<Blog>
+
+<date>26,May,2004</date>
+<post>
+
+	 
+      Prototypes are coming along.... I think we're very close on Articles. Email Us needs some fields pruned, but is otherwise in good shape (and it killed-off the "branch" page.)  Coming tomorrow should be Home, Account Info and the Browse path.  http://area51.informit.mttech.com/cmg_24-7/index.asp  -Rich 
+     
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+	 
+      All - progress on schema build?  Mike - you have info on whether or not you are using doc literal?  I'm creating a dev site for us to work off of right now, the url will be:  http://24x7.dev1.informit.mttech.com   unless you want it to be called something different, I'll make it whatever.  Richard - the ftp directory for you will be "24x7_dev1".  Let me know what else you might need here..  Andy
+     
+    
+</post>
+
+<date>21,May,2004</date>
+<post>
+
+	 
+      Ya, schema much better - think it will take us longer to write a really good schema, but I'll take a look and see if I can do it quickly - if I get bogged down, I'll bail (Jon Reynolds, our best XML schema guy is on vaca).  We can give Web Services a whack.  In theory, its pretty easy for us to write and deploy - we've done one as an experiment before.  I assume you guys will do the MS flavor - if I recall the MS flavor is doc literal?  Vijay will know for sure - I'll check with him too.  md5 is no prob.  I'll get you a schema doc as soon as I can.  Hopefully monday.
+     
+    
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+	 
+      the schema's are a bit more verbose and more to write, but any specific reason(s) you don't want to do schema vs. dtd's?  You probably know a bit more about it than we do, looking for insight into what you know/think...  Andy
+     
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+	 
+      After some discussion -  We would like to pursue web services, we have to write something anyway and would prefer this path, it actually may be a little more economical code and less cumbersome than http Get.  You guys good with pursuing it?  XML - let's go with old fasion DTD spec, we all know it better than other stuff.  Encryption - md5, brothers...we've implemented it before, straightforward if that's ok with you dudes..  Andy
+     
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+	 
+      Need to know the following:  1. How to provide the profile/subscription service: http get (easier), web service (doable but havent' deployed in production env yet)  2. What format for XML spec:  DTD, Relax NG or XML Schema  3  Security key - propose encrypting some variation on login name.  We usually use unix-style crypt but can support other cyphers - need to know what you guys can support.  Marquess   **************************************************************************** This email may contain confidential material. If you were not an intended recipient,  please notify the sender and delete all copies. We may monitor email to and from our network.  ****************************************************************************   
+     
+    
+</post>
+
+<date>18,May,2004</date>
+<post>
+
+	 
+      This is a test post via email instead of having to go to blogger.com to post - the email address to send it to is:  homermt.cmgsms247@blogger.com   Andy  
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+	 
+      There are some weirdnesses that could in theory occur:  an SMS User  specified by login name could be shared by one or more people.  In  practice, this is very rare now, so we'll just ensure that you only get  profile info for a single person.  Also, subscriptions are by "module"  or sub-component of a site.  So, a site might include "instructor  resources" module, "learning activities" module, etc.  Some sites  contain only one module, something like "all".  Expiration dates are  managed by module.  I'll plan on sending you info by modules unless that  hurts your heads.  Also, each user can have one or more roles associated  with a module, typically Educator or Student, but not always (roles can  be dynamically added, wired up to various product).  In practice, I  don't think we have any multi-role subscriptions, but I'll plan on more  than one role.  Loosely, here's what I'll propose you get:  ProfileInfo   smsuser id (dunno if needed, might make it easier to correlate)   I could re-send the login name   first name   last name   email address   (let me know if you want school/institution name)  Subscriptions   site (id, name)     module (id, name, exp date)       role name 
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+	 
+      All - started this "plog" to assist us with communication on this project, hopefully will be good.  But, absolutely depends upon participation - I urge it folks.  It's an experiment, I have hopes for better communication for us all..  thx, andy
+     
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+	 
+      The 24/7 vsd and other documentation can be viewed on the extranet:  http://extranet.informit.com/Navigate.asp?Dir=product_development*vsds*Infor mIT%20Network*%20%20Current%20Projects*247  >  -----Original Message----- > From: 	Evers, Richard   > Sent:	Friday, June 25, 2004 12:43 PM > To:	Faler, Woodie; Hall, Andy; 'homermt.cmgsms247@blogger.com'; > Kelsey-Smith, Elizabeth > Subject:	Prototypes Ready for Developers >  > I've finished the work on prototypes and they're now ready for developers. > Please note that there's a .zip file for them to download - these files > have been stripped of all Dreamweaver-specific code, so they'll be easier > to work with. >  >  > href="http://area51.informit.mttech.com/cmg_24-7/">http://area51.informit. > mttech.com/cmg_24-7/  >  > -------------------------------------------- > Rich Evers. Human Factors Engineer. InformIT > rich.evers@informit.com         317-428-3142 
+     
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+	 
+      I've finished the work on prototypes and they're now ready for developers. Please note that there's a .zip file for them to download - these files have been stripped of all Dreamweaver-specific code, so they'll be easier to work with.   href="http://area51.informit.mttech.com/cmg_24-7/">http://area51.informit.mt tech.com/cmg_24-7/   -------------------------------------------- Rich Evers. Human Factors Engineer. InformIT rich.evers@informit.com         317-428-3142 
+     
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+	 
+      The rpc/enc version is up on the sms cert machine.  You can get the wsdl from http://sms4cert.pearsoncmg.com/profileSubscrSummary/service?WSDL  The service takes a single parameter, string loginname and returns a string containing a bucket of xml with the profile (name, email, etc) and a summary of the subscriptions.      
+     
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+	 
+      We use jdom for most of our xml manipulation.  Turns out the version that we are currently on doesn't support xsd very well.  Both the xsd and the dtd for the xml return are at http://dtds.pearsoncmg.com/sms/SMSProfileSubscrSummary.xsd and .dtd  The xml that we generate will reference the dtd.  There may be some changes, this isn't final.
+     
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+	 
+      Have a very course prototype that I'll make available for hackery tomorrow.  Its an rpc/lit ws, takes a single input, the login name string, returns a string containing the xml response.  Not sure if you guys were assuming rpc or doc/lit.  Need to work out the right way to secure this.  Doing a little research so that we don't do some dumb braindead security key param.  More to come.  You guys want the wsdl?
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      I've uploaded several prototypes that are now in HTML. This includes...  Home Page Browse Path (We need to walk through this, to make sure everything's in good shape.) Account Info (Making minor adjustments this morning.) Search Results  Coming later today will be the E-mail Us form, Article, and E-mail A Friend.  http://area51.informit.mttech.com/cmg_24-7/index.asp  -------------------------------------------- Rich Evers. Human Factors Engineer. InformIT rich.evers@informit.com         317-428-3142 
+     
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+      I have posted the first HTML prototype. There was a lot of back-end setup work that I had to do before digging in to the coding. Note that I've not tested this in all necessary browsers, so there may be display issues.  I'll be continuing my foray into the HTML prototypes Thursday.  http://area51.informit.mttech.com/cmg_24-7/final_html/account-info/index.htm l  -------------------------------------------- Rich Evers. Human Factors Engineer. InformIT rich.evers@informit.com         317-428-3142 
+     
+    
+</post>
+
+<date>08,June,2004</date>
+<post>
+
+	 
+      I'm now in the process of chopping-up current prototypes, and moving into the HTML prototyping phase of the project. The updates coming from our meetings were minor and will be faster to do in HTML. Any remaining prototypes will be done in HTML.   I expect this migration to take the next day or two. After that, I'll get back into making revisions.  -Rich 
+     
+    
+</post>
+
+<date>02,June,2004</date>
+<post>
+
+	 
+      The E-mail Us prototypes have been significantly updated. They now reflect the various ways a person will enter the form..."Logged Out", "Logged In with No Product Selected", and "Logged In with Product Selected".  One departure I made on the "Logged In with Product Selected" - I displayed the product information, though it's not editable. In our discussion, we originally noted this should only be captured, but not displayed. I made the change for this reason: If someone's contacting us about a specific product, we should acknowledge that we know which product it is they're writing about.  http://area51.informit.mttech.com/cmg_24-7/index.asp  -------------------------------------------- Rich Evers. Human Factors Engineer. InformIT rich.evers@informit.com         317-428-3142 
+     
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+	 
+      First batch of test content  (E-Gems) has been loaded and partnerized. These all have a taxonomy ID associated and are ready to use for development.     		Woodie Faler 		Technical Project Manager 		www.InformIT.com 		Email: woodie.faler@informit.com 		Phone: 317.428.3023 		Cell: 317.752.5407   
+     
+    
+</post>
+
+
+</Blog>

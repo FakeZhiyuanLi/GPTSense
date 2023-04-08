@@ -1,0 +1,125 @@
+<Blog>
+
+<date>11,May,2004</date>
+<post>
+
+
+           
+      First Post! Woot!  Okay, this is my blog of me.  And my not very interesting things.  So if you care read, if not, no biggie.
+     
+
+        
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+
+           
+      Yeah, my eye still hurts a bit. Not as bad. I may have to go on Steriod drops (look at me bulk up, yeah) but we'll see tomorrow.   Check out Condon's blog for a pretty funny Clerks - The Animated Series rip-of^h^h^h^h^hspoof*.  Possibility of a&nbsp; urlLink Showgirls  Drinking Game night tomorrow.&nbsp; Many thanks do to the  urlLink Showgirls V.I.P. Edition  for making it all possible.&nbsp;&nbsp;&nbsp;  &nbsp;   *It's a geek thing.&nbsp;&nbsp; ASCII - ^H - Binary- 0000&nbsp;1000 Name/Meaning - Backspace.&nbsp; See  urlLink here  for more info.      
+     
+
+        
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+
+           
+      So last night my eye was hurting so I took out my contact for a change (No, it's okay, really, I have month-long day/night wear contacts now) and it felt like something was in my eye.  I tried washing it out with saline no luck, I said screw it I'm going to bed.  I tried to wash it out this morning again with no luck.  Lace convinced me to go to the doctor.  His diagnosis?  I have something wrong with my eye.  He thinks something got trapped under my contact at one point and possibly scratched the eye.  I'm on Ciprofloxacin - 1 drop every 1/2 hour today and I get to see him again tomorrow morning.  And you didn't think this blog would be interesting :)
+     
+
+        
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+
+           
+      I get dibs on ranting about the new attempt at the most horrible movie that I could possibly think of making.&nbsp;   urlLink http://apnews.myway.com//article/20040728/D843S6E80.html    Seriously, put  urlLink Marci X  on loop before subjecting me to more of that crap.   Yet I am still expecting a good rant from Condon on this one as well.&nbsp; In my opinion he is fundamental in getting the original series canceled.     
+     
+
+        
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+
+           
+      Yes, so I'm going to try this whole blogging thing again.&nbsp; The last time didn't go so well, so ignore them.&nbsp; Thanks to Condon for peaking my intrest in blogging again.&nbsp; See his blog at  urlLink http://youreablog.blogspot.com .&nbsp;   Okay, that's all for now.&nbsp; Hopefully i'll be back later.   Yeah, and if you have an RSS reader that can read ATOM feeds:   urlLink http://sib57.blogspot.com/atom.xml .        
+     
+
+        
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+
+           
+      Okay, I may be breaking a rule about blogging more than once a day, but you know what?  It's my blog, I'll do what I damn please :).   urlLink http://www.ctrlaltdel-online.com/?t=archives&amp;date=2003-05-30   Funniset thing I've read in a while.  Ctrl-alt-del is a VERY funny web comic.  Speaking of web comics, I read quite a few.  I'll post about that Monday :). 
+     
+
+        
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+
+           
+      Ever have a question as to what something is and you just don't know where to look? There's a good chance  urlLink wikipedia.org  will have it. They have a goal, and that is to have, in database form, the entire sum of human knowledge. It's an open source encyclopedia that is constantly evolving, changing and adding to. It's really neat.  The other day I heard the term of a series "Jumping the Shark" I've heard this before, but never knew where it came from. This may be common knowledge to some, but it wasn't to me, but thanks to wikipedia, I now know. In case you're curious  urlLink http://en.wikipedia.org/wiki/Jumped_the_shark . It's really a great site.   
+     
+
+        
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+
+           
+      Okay, today I'm going to rant about Windows 2003 and Microsoft Visual Interdev. Please feel free not to read today.  I copied my new application onto a Microsoft Windows 2003 webserver that we have up and running. It didn't work right away so I had to go investigate as to why. Seems as though W3k3 wasn't processing a Server Side Include (SSI.) A little bit of research ... AHH W2k3 ships locked down by default, SSIs aren't processed. No biggie, I turn it on, still doesn't work. AN HOUR I spent searching googol to figure out what was going on. Finally figured it out, and it was nothing with the setup, it was setup fine. See, when VI copies a web application to a new server, it SOMETIMES renames default.asp to default.htm. WELL, for security reasons, .htm files aren't processed as scripts, and they shouldn't be. So the webserver didn't know I had an include file because it was just happy to serve up the .htm file with no problems.  Okay, I knew that was going to be a rant that no one was going to care about.  Ummm, well ... the Phillies won yesterday. Go Phils. Yeah, that is all. 
+     
+
+        
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+
+           
+      I'm not a smart man. At least that's what I keep telling myself today as I am re-writing a lot of code I worked on the past couple of days. See, specs changed, and I SHOULD have seen the change coming but didn't now, I have more work to do. I hate deadline projects (yeah, so the deadline isn't for another 5-6 weeks, but still, I's looming above me like the grim reaper. And I'm not talking about the cool "Death" from  urlLink Family Guy  who goes to frat parties and tries to pick up chicks. It's not even the cool "Grim Reaper Dude" from  urlLink Bill &amp; Ted's Bogus Journey . What was I talking about again?)  Very fun night last night watching  urlLink Hellboy . Maybe it's just me, but I've been noticing a trend recently between rising Nazi conspiracies in movies, books and entertainment in general. A book I read a while ago  urlLink The Day After Tomorrow  had it (P.S. this book has NOTHING to do with the  urlLink movie  of the same name. The movie was better.) Well maybe it was just those two things that happened within a week or two of each other that made me think about it and there isn't anything going on, but it sure did seem like it for a while. I wonder if the entertainment industry is running out of ideas. During the Cold War it was easy to make the Ruskies the bad guy, now who? I haven't seen it yet (but do own it :)) but  urlLink The Sum of All Fears  was supposedly had a terroristic threat, but maybe that type of thing still hits too close to home to be good for entertainment purposes. Maybe it's just easy to make The Nazis the bad guys. One look at the swastika and all in the audience knows that they're bad.  Enough rambling for today. Bye Bye Jann, have a good time in Hawaii. 
+     
+
+        
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+
+           
+      Lacey drew a very pretty picture yesterday and asked me to put it on my blog. Since she is my wife, and it IS so pretty, I couldn't refuse. Check out here picture  urlLink HERE .  So I'm kinda pissed right now. Looks like I may have forgotten to renew my domain name, christophersmith.us. I may not have any recourse to get it back either, which really sucks.  On a much better note, however, I'm listening to an excellent box set.  urlLink Jimmy Buffett: Boats, Beaches, Bars &amp; Ballads  It's really good.
+     
+
+        
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+
+           
+      Even though a good 1/3 of my readership is on vacation ( urlLink Condon's Blog ) I'll write an update anyways.   urlLink Showgirls  night was a success. At one point we had ~4-5 people as coming. By the end of the night we had at least 14 different people there. And all kinds of randomness as well, which was super-cool. Kyle Williams, Tim Morea, my sister her boyfriend and his brother, Ro, Kristen's friend. Oh, the movie sucked, though. It is the best box set ever created, so it has that going for itself.  The  urlLink C.S.I. Dark Motives  computer game is pretty fun. Follow the evidence. So far Lace and I have completed two missions and we got "Master" ranking for both. Note to anyone who buys or acquires through some other means: There are bugs in the game. Visit the website and download the latest patch. We had trouble with the second mission because of the bug that prevented our magnifying glass from working correctly.  That's all for now. If I come up with anything especially interesting, I'll be sure to come back. 
+     
+
+        
+</post>
+
+
+</Blog>

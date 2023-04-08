@@ -1,0 +1,1 @@
+The first to produce hardware for speech was Bell Laboratories in 1939, with the invention of the vocoder. The vocoder was a machine that could analyze speech and synthesize it using electrical signals, and was primarily used for voice encryption during World War II.

@@ -1,0 +1,37 @@
+<Blog>
+
+<date>30,June,2004</date>
+<post>
+
+
+       
+      This goes out to all the parents out there.  For the love of all that is good and holy , no that's not enough.  For the love of all that is good, evil, holy, unholy, big, and small DO NOT BRING YOUR KIDS TO MOVIES!!!   Ok, not all movies. I understand that kids want to see movies too, which is the reason for movies rated G. I for the life of me can not figure out why parents bring their 1-4 year old children to the movie theaters. I went to see Spiderman 2 tonight(7pm showing) and the theater had a lot of children in it. Not kids aged 5-10...children! There were 4 or 5 children barely out of the womb. What kind of parent does that to a kid? Hell, why would a parent subject their child to other people when they know for a fact that they'll cause a disturbance?  In other news, Spiderman 2 is a kick-ass movie.
+     
+
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+
+       
+       urlLink The Gambit Site   That's my site. I know it doesn't look all that special, but I'm not someone who like a flashy site.     C#   I've been programming in C# ever since 1.0 came out. I've used it on my own and I've been using it at work and I find developing applications in C# is faster and sometimes easier than it is in C++. However, I've found it difficult to convince my co-workers and supervisor that there's nothing wrong with C#. Almost everyday I hear something like "Well the problem with the app is it's in C# and I don't know if..." or "We're going to have all these problems integrating because your app is in C# and it can't...". Some of them just don't get that I can do anything in C# that they can in C++.  Not all of them are like that. Some of them are impressed by what it can do and would learn it if they ever had the time to do so. If only we switched to C# full time here :)    Management Simulations   In an era where game companies spend millions of dollars developing games with really high end graphics that make all the geeks drool, I spend all my time playing games without any 3D animation. I spend all my time playing games where where you take charge of an organization or team. Welcome to the world of Management simulations. The first one I played was a football game on my IBM AT/XT way back when I was a kid. I don't even remember the name of the game because it's been so long, but I do remember that if I ran this one specific screen pass play I would score 9 times out of 10. I would run up a score of 300+ points without a problem.  In the time since that game I've played several really good management sims(Championship Manager, Front Office Football, Out of the Park Baseball, Eastside Hockey Manager) and have even started to write my own sim. It started out at first as a hockey sim, then it moved to rugby, then finally stopping at the one sport I know and play...basketball. I started working on my game, which I kept calling "World Basketball Manager" a few years ago...ok more than a "few" years. I'm planning on using this blog as a motivational tool to get me moving in some areas of the development and as a place to vent my frustration during the development of the game. For instance, there is a company in Greece that released a basketball management game called....."World Basketball Manager". Now while I'm upset over not copyrighting that name first I'm not at all upset at them for using it. A name is a name and a game is a game. I've seen their game and have read user reviews of it. They can keep the name as it seems to be the only thing good going for them!  Oh well, not bad for a first entry.
+     
+
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+
+       
+      Sorry about the lack of updates, but I've been busy with work and some other stuff. I've been working on the game as well(not everyday). I've got the scouting area almost done, just need to add a somethings to the Scout class and then coaches will be able to ask for a scouting report on a player. I then have to make the coach analyze that report and determine if he/she wants to bring the player in. One that's done doing things like free agency and trading should go by pretty fast.  I've been messing around with the  urlLink Visual C# 2005 Express  and I'm really impressed with what they did with the language. Using Generics is a huge improvement on using straight polymorphism for the collections. The IDE has a lot of automation built into it. They've gone above and beyond to make Refactoring one of the major features in the IDE. I really like the new improvements and can't wait until it comes out. I'm testing out Generics in some of the classes I have in the game(testing out now, not doing a full on conversion) and it really helps out the design of things.
+     
+
+    
+</post>
+
+
+</Blog>

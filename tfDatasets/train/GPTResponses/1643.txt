@@ -1,0 +1,1 @@
+The British cracked secret German military communications during World War II using a cipher machine called Enigma. The work of cracking the code was led by a team of cryptanalysts at Bletchley Park, a British intelligence agency. The team was led by mathematician Alan Turing, whose work on breaking the Enigma code is considered a major factor in the Allied victory in the war.

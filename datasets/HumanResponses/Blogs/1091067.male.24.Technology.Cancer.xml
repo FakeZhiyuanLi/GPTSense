@@ -1,0 +1,70 @@
+<Blog>
+
+<date>25,June,2004</date>
+<post>
+
+
+       
+      I don't like the fact that whenever I open up my access log, I get overwhelmed by the junk requests that waste my valueable bandwidth and harddrive spaces. They all tend to attempt to execute some code, which does not exist on my Linux box, and compromise my server. Apache is not vulnerable to those IIS-specific exploits, but they are annoying to hell nonetheless.  A few google searches reveals that you can put a few lines in the config file that matches the requests to a regexp and redirect them to elsewhere if they are found to be malicious. They do work like a charm, well,  but for only subset of the exploits. The nastiest "SEARCH  /\x90\x02\xb1\x02\xb1\x02\xb1\x02\xb1\x02..." that easily takes hundreds of lines of my valueable log file space is still there. I'd really appreciate if some one could suggest an easy solution to get rid of this mess.
+     
+
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+
+       
+       urlLink Irssi Users List Archives (05/2003) - : DCC, ip_conntrack_irc.c and file names   I always thought that it was a bug in irssi that prevented me from dcc-sending files with spaced filenames--until one day, I noticed a few lines in dmesg:   Forged DCC command from x.x.x.x: 0.0.0.0:0 Forged DCC command from x.x.x.x: 0.0.0.0:0 Forged DCC command from x.x.x.x: 0.0.0.0:0   After some googling I found that the conntrack module chokes on spaced filenames... So far, my only workaroound is to rename the files so that spaces are replaced with underscore using the following one-liner:   for file in *; do mv "$file" `echo "$file" | tr ' ' '_'`; done   
+     
+
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+
+       
+      ja:    血  ち  見  み てぇのか？   en: Wanna see blood? zh:  想見血嗎？   Pronunciation: chi-mee-T'HE-no-ka  The usage of this phrase is self-explanatory, but whose blood it means is entirely up to the person the phrase is addressed to.  Note: This entry contains  RUBY annotations . Mozilla users need to  download  this plugin in order to view them.
+     
+
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+
+       
+       urlLink Straw man - Wikipedia, the free encyclopedia  Here is an example of Straw man technique:  A: It is really hard to find a job in Vancouver. B: How do you explain my friend, who got employeed after only two weeks of searching?  Sometimes you wonder why you just can't make the other party understand your point. In the example, B presents an anecdote which does not invalidate A's statement in anyway.  Next time when you are in a debate, try identify as many straw men as posible.
+     
+
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+
+       
+      Well... 千里之行始於足下。—a thousand-mile-long journey begins with a single step. I have been comteplating on what to write, since this is my first post. Gotta take it seriously, you know. But then I realized that I shouldn't try so hard squeezing my ideas out of my brain just to fulfill some first post length requirement I made up on my own. That's just plain silly...
+     
+
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+
+       
+      C folks all love the null-terminated strings. They can do all sort of wonderful tricks to them such as inserting nulls at arbitrary positions to cut or deliminate the the strings. However, it is not the case in Java or .NET strings, where they are heavily protected and limited by their length field.  If you are using Winforms on Windows, you will notice that the assemblies are simply the wrappers of the good old WIN32 API. If you try to make a text field display a string with Unicode 0x0000 in it, when it gets to the marshalling everything after the null character will get truncated.  It's some interesting observation, but I have yet to find a use for this trick.   
+     
+
+    
+</post>
+
+
+</Blog>

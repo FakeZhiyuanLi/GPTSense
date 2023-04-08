@@ -1,0 +1,114 @@
+<Blog>
+
+<date>27,July,2004</date>
+<post>
+
+
+           
+      As the subject of this post suggests... PZFN now has some staff opennings. We need people to help prepare and maintain&nbsp;content while we get the site up again. Also, we are in desperate need of sprite artists and artists in general. We need character sprites and face images to go with them. If anyone is interested please either comment on this post or send an email to me at  urlLink mepcotterell@gmail.com  with the subject "PZFN Staff". Please explain what exactly you want to do and why I should let you do it.   In other news... I've been working round the clock creating a new Content Management System and forums for the new PZFN. I've also put aside the battle system in the RPG, for now, and have begun work on an NPC engine. Once that is done I will start on the Battle System again.   Also, I went to Kevin Rose's Blog again and saw this sweet deal.    Thanks goes out to Randy for  urlLink emailing me  the following  urlLink deal :  How about getting:   - 10 user MS Office 2003 Pro  - 10 user MS Front Page 2003  - 10 user MS Publisher 2003  - MS Server 2003 w/ 10 CAL's  - MS Project 2003 w/10 CAL's  - MS SQL Server 2003 w/10 CAL's  - MS Exchange Server 2003 w/ 10 CAL's  - MS Virtual PC, Map Point, more..   For $299 US plus shipping  urlLink FROM MICROSOFT !   You will get a big box full of CD's, activation keys, and a nice little Microsoft binder. In addition, they sent me a 256mb Thumb Drive because they goofed something up (I missed whatever they goofed), and they will send me quarterly updates for a year! I've already got mine, so go ahead, tell the world!!!   Sincerely,  Randy   Please note, according to MS: "The Microsoft Action Pack Subscription is restricted to Microsoft Partner Program Registered Members who are resellers, consultants, value-added resellers, value-added providers, system integrators, developers, system builders, hosts, service providers, and IT professionals who sell Microsoft® products or provide solutions based on Microsoft products and technologies to third-party customers."   Determine for yourself if you are eligible and enjoy! Thanks again to Randy "the reseller" for  urlLink emailing me  the deal.   - urlLink http://kevinrose.com &nbsp; Well.... I hope I get replies concerning&nbsp;this post! Have a great day, cya.    
+     
+
+        
+</post>
+
+<date>25,July,2004</date>
+<post>
+
+
+           
+      Hey everyone, don't have alot of time to talk right now. Just wanted to say that I recieved a Microdoft T-Shirt in the mail a few days ago along with a bunch of OEM and Ant-Piracy materials. I still can't wait untill my Windows XP Pro comes...  
+     
+
+        
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+
+           
+       I jus installed XP SP2 2162 and I must say I like it very much. It adds a much needed tighter security setting to Windows XP and also a popup blocker into Internet Explorer. Ironically, however, it has made my Norton Internet Security Pro 2004 unusuable and unable to function. Anyway, seeing as how this is a beta build I'm sure that when the official release version comes out this and many other technical issues will be resolved.&nbsp;  &nbsp;   What’s New in This Version    Added new sections: NetSchedule and Task Scheduler APIs, Tablet PC Enhancements, Wireless Network Setup Wizard, Internet Explorer URLaction Settings in Group Policy.    Revised sections: Data execution prevention, DCOM Security Enhancements, Filter for Add or Remove Programs, Setup, Download, Attachment, and Authenticode Enhancements, Internet Explorer File Download Prompt, Outlook Express E-mail Attachment Prompt, Add-on Install Prompt, Group Policy Internet Explorer Settings, Script repositioning of Internet Explorer windows, Zone Elevation Blocks    Overview of Windows&nbsp;XP Service Pack&nbsp;2 Security Technologies   In Windows XP Service Pack 2, Microsoft is delivering several security technologies that help protect customers against malware and other risks to their computer. These technologies are not intended to replace periodic security updates as they are release, but rather to help strengthen Windows XP's overall defenses against malicious attacks.&nbsp;   Network protection. These security technologies help to provide better protection against network-based attacks, like MSBlaster, through a number of innovations, including enhancements to Windows Firewall and a reduced RPC attack surface. These enhancements include turning on Windows Firewall in default installations of Service Pack&nbsp;2, closing ports except when they are in use, improving the user interface for configuration, improving application compatibility when Windows Firewall is on, and enhancing enterprise administration of Windows Firewall through Group Policy. The attack surface of the Remote Procedure Call (RPC) service is reduced, and you can run RPC objects with reduced credentials. The DCOM infrastructure also has additional access control restrictions to reduce the risk of a successful network attack.    Memory protection. Some attacks by malicious software leverage software security vulnerabilities that allow too much data to be copied into areas of the computer’s memory. These vulnerabilities are typically referred to as buffer overruns. Although no single technique can completely eliminate this type of vulnerability, Microsoft is employing a number of security technologies to mitigate these attacks from different angles. First, core Windows components have been recompiled with the most recent version of our compiler technology, which provides added protection against buffer overruns. Additionally, Microsoft is working with microprocessor companies to help Windows support hardware-enforced data execution prevention (DEP) on microprocessors that contain the feature. Data execution prevention uses the CPU to mark all memory locations in an application as non-executable, unless the location explicitly contains executable code. This way, when an attacking worm or virus inserts program code into a portion of memory marked for data only, an application or Windows component will not run it.&nbsp;    Safer e-mail handling. Security technologies help to stop viruses (such as SoBig.F) that spread through e-mail and instant messaging. These technologies include default settings that have enhanced security, improved attachment control using the Attachment Execution Service (AES) API. This results in security and reliability enhancements for communications applications such as Microsoft Outlook, Outlook Express and Windows Messenger. As a result, potentially unsafe attachments that are sent through e-mail and instant messages are isolated so that they cannot affect other parts of the system.    Enhanced browsing security. Security technologies that are delivered in Microsoft Internet Explorer provide improved protection against malicious content on the Web. One enhancement includes locking down the Local Machine zone to prevent against the running of malicious scripts and fortifying against harmful Web downloads. Additionally, better user controls and user interfaces are provided that help prevent malicious ActiveX® controls and spyware from running on customers’ systems without their knowledge and consent.&nbsp;    Improved computer maintenance. A very important part of any security plan is keeping computers updated with the latest software and security updates and understanding the role they play in protecting your computer. You must also ensure that you have current knowledge of security attacks and trends. For example, some software updates that mitigated known viruses and worms were available days or weeks before any significant attacks began. New technologies are being added to help the end user stay up-to-date. These technologies include Security Center, which provides a central location for information about the security of your computer, and Windows Installer, which provides more security options for software installation.   If you would like to beta test this release then please follow these steps:   &nbsp;   Step1:  Add the following key to your registry.   Download This File:  urlLink http://mcotterell.pzfn.com/winxpsp2b2162.reg   Step2:  Head over to  urlLink http://v5.windowsupdate.microsoft.com ; if you ahven't already: agree to the disclaimer or whatever comes up.  &nbsp;   Step3:  Run Windows Update and Install the Service Pack...    
+     
+
+        
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+
+           
+       Hey everyone. I know my last blog post wasn't very enlightenning so... I thought I would let everybody know that I have already begun work on the new PZFN. The PZFN will be better than before... way better... One of the most important additions will be the incorporation of the  PassNet  technology I've been working on. I know it doesn't mean much at first but just listen. Ok, some of you have heard of Microsoft's .NET Passport and know that this is a system that allows one username and password for multiple sites... Well that's kind of what  PassNet  is.    PassNet Technologies    In Production by: PZF Productions / Acetone-Studio Developers    Key Features for Users:     One user account for all PassNet supported sites.    Key Features for Webmasters:     Any site can become a PassNet site!  Inlcude scripts will be available in PHP, ASP and CFM (and more in the future)...   Can be easily used in co-operation with a database to give users different levels of authentication on a site.     How is it possible?     XML! (more on this as this at a later date)    If you have any questions regarding PassNet please email me at mepcotterell@gmail.com   
+     
+
+        
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+
+           
+      Sadly... my computer crashed. This is very bad news... It means that I do not have a backup of PZFN anymore... This sucks! Only good news is that I uplaoded the rpg files before the crash so thats safe... everything else though... is gone...  &nbsp; On the bright side I'm getting tons of free stuff from Microsoft! Such as Windows XP Pro, a t-shirt, and lots of other stuff... I'll let you guys know everything when I get it.  &nbsp; Also, I was bored so I made a few functions that can used to search a MySQL database... go check it out:  urlLink func_search.phps  
+     
+
+        
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+
+           
+      The premier of Scifi Channel's new original series "Stargate Atlantis" aired last night at 9 PM Eastern Standard Time. I must say, I was a bit doutfull when I first heard about Atlantis but the pilot episode last night just shattered those doubts. Its really hard to explain why it's so great. Just think of what makes SG-1 great and then think new galaxy and you'll probably have it. Anyway I recommend that anybody who is a fan of the Stargate franchise an just scifi (and action fans) go and check it out. Enjoy! 
+     
+
+        
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+
+           
+      It seems that some students gained access to the Oxford Intranet and were able to get loads of information. Heres the text from  urlLink Slashdot.org :&nbsp;  Both  urlLink The Guardian  and  urlLink BBC News  are carrying the story that two students at the  urlLink University of Oxford , Patrick Foster and Roger Waite, were able to easily hack into the university's internal network in minutes using only easily-available software. Once inside, they could find out anyone's email password, observe instant messenger conversations and control parts of the university's CCTV system. The students were investigating the university's network security for the student newspaper,  urlLink The Oxford Student , which published a  urlLink front page article  and  urlLink editorial  on the matter. In the article, a university spokesperson is quoted as saying 'In some cases the wish to provide the widest possible computer access as cheaply as possible may mean deciding to go for a cheaper set-up, with potentially lower security.' The students now face disciplinary precedings from the university and could receive rustication (suspension) and a 500 pound fine. The matter has also been passed onto the police. I hope you enjoyed that! BUT... in other news, today will showcase the SciFi Channel premier of the highly anticipated Stargate Atlantis. I can't wait... Tomarrow I'll let you know whether the first episode (the pilot) lives up to all the hype. Untill then... Adios.   
+     
+
+        
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+
+           
+      It's coming back I tell you! No, really, it is... No joke... it really is... lol. O.k. so far, becasue of a whole lot of server errors, I have only been able to get the mmorpg beta and this blog setp. PZFN main will ahve to wait untill these server issues are resolved.  &nbsp;  Once all that is taken care of I'll make sure that I optimize all the scripts (forums, etc...) so that they are better than ever. Also, to all you AcetoneRPG beta testers out there (and the respected wanna be's): I will be working more on the rpg in the coming weeks and also will be adding a new "Invite a Friend" function. Those of you that have gmail will know what this is... For all of you that don't know what this is, it is a way for beta testers to send out registration invitations to their friends&nbsp;so that&nbsp;we&nbsp;can&nbsp;get more&nbsp;beta testers. Anways&nbsp;be sure to check out here,  urlLink PZFN.com  and the  urlLink AcetoneRPG Website &nbsp;for more details in coming weeks. Cya.    
+     
+
+        
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+
+           
+      I went over to  urlLink http://kevinrose.com  like I do very regularly and noticed that Kevin&nbsp;had a post about getting Windows XP Pro fro free... I looked into it and it turns out that it works. There is this website called  urlLink http://windowsmobiletraining.com . When you go there you register, take courses, and get points. If you get 1500 points you can exchangei t for a copy of Windows XP Pro... with FREE SHIPPING no less! I was stoked. It said it will take about 8 weeks, probably becasue of such high demand. Now... my ownly worry is... will it come at all. I'll keep you guys updated when I find out. 
+     
+
+        
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+
+           
+      Well everyone, the not so hightly anticipated sequal to my previous year school is almost here. Actually, yes, it is highly anticipated. I enjoy school because I get to be around my friends. Ok, enough with that sentimental stuff; Let's get on with news concerning school and the rpg and everythining in general.  My schedule durring the first term of my junior (11th) year of school is quete challenging... which scares me because I'm a lazy bum. I will start my day with a nice relaxing ninety minutes of Visual Arts level 3. I like to draw but usually I am too busy to so... so this will give me a chance to get my creative juices flowing. After that I will make my way to AP Government. That class will probably be hard but oh well I like history / social studies classes. Mind you I don't do very well in them... I just find the subject matter interesting. Ok... Now to my next class, AP Chemistry. Boy oh boy is that going to be rediculously hard. I only passed ACP Chemistry with a 90% mark so God only knows what I'm going to make in AP. However, Chemistry is cool. Haha... AcetoneRPG... (Lame joke) After AP Chemistry I will go to lunch. I will probably end up having something like a chicken strip basket which includes chicken strips, fries, and a honey mustard container or maybe I'll end up getting a chicken sandwich or a handburger... or if I'm in the mood a nice salad. Now, for my fourth and final class of the day, Information/Technology Services... a.k.a. CISCO I. Yeah, that's right, I'm taking a CISCO certification class in my school. I just hope that's not hard. And that's my day.  As you can see my school day will be very academically challenging... and even more so in the spring because I'll have Lit 11 ACP-Gifted , AP Chemistry 2, Algebra/Trig, and CISCO II. And also, as you may be aware, I will probably be swamped with homework. But alas, I shall still try and find time to work on my mmorpg and my sites. 
+     
+
+        
+</post>
+
+
+</Blog>

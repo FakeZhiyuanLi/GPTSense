@@ -1,0 +1,64 @@
+<Blog>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      Although lot's of resources are available on the net, people don't know what to do and where to get the needed files to unbrand their Motorola Vxxx phone.  Hiroshi, a friend of mine who studies in Germany, bought a branded cellphone (a Motorola V525) from Vodafone and wanted to get rid of all these annoying softbuttons and restrictions vodafone applies to their models. Most of you who got deeper into this issue already know that there is a website called  urlLink MotClub  which provides access to most of the files needed for flashing. Hiroshi tried them all, but none worked, but fortunately he found another source to obtain the Flash file for the V600 (which is known to work even with V300 cellphones). Following  urlLink this  link will give you all the information and software you need to flash your phone (assuming you are a lucky owner of a datacable). The mentioned flash file works as expected, those from MotClub may not, according to Hiroshi.  Thanks to Hiroshi.
+     
+
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+	 
+      Sound's a bit weird trying to put a complete FreeBSD in a Virtual Machine using VMWare? For me it's a reasonably great solution for experimenting with operating systems, since you don't have to mess up a standalone machine. (Some of us don't even have access to a 2nd or 3rd machine for testing purposes.)  While booting from CD works great, the graphics is painfully slow. Compared to other installation procedures that operate in textmode (i.e. SuSE Linux) this is definately not worth the time. I've a Solaris 8 for Intel running and tried getting BSD on my machine to test some MySQL issues, but selecting a single menu entry takes at least three or four seconds to display. You can imagine how long it takes to select individual packages for install an reading feedback in dialog boxes.  Now, I'm trying to create an automated install. This may take a while. It it works success stories can be found here.  Bye,  Jane.
+     
+
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+	 
+      I found a really interesting article on the history of Unix and Tanenbaums influence (or no influence) on the development of the Linux kernel at  urlLink www.cs.vu.nl/~ast/brown/ . It turns out, that the interview, taken by Ken Brown from the  Alexis de Tocqueville Institution  is a brief introduction into the history of Unix. Nevertheless, as Andrew stated out, this guy seems like a spy from the SCO group who sharply focuses on points and thesis that are of interest for the SCO lawsuit only. If you're interested in some facts on Unix and the personalities involved in the early days this a great source to get started.  Please let me know, what you think about this sometimes amusing interview. BTW: don't forget to read the followup statement on Ken Brown's motivation clearing up some misconceptions.  Bye,  Jane.
+     
+
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+	 
+      I'm developing software for a couple of years now and have seen a lot of languages (with my favorite one being Java), but I'm currently involved in an external project, that is almost completely build upon Delphi. Yeah, I know, many people have started programming using Modula-2 and later on Turbo/Borland Pascal that evolved into something that we know of as Object Pascal, but comparing Delphi to other high level languages, it is completely out of date. Sure, some aspects are really noteworthy and the IDE is extremely helpful, but hacking code is totally disgusting. Since most of the code doesn't deal with GUIs you simply don't benefit from the advanced IDE. The major drawback I experienced is the completely different implementation of object oriented programming. If you know how to OOP, it's great, now start learning OOP the way Delphi does.  Complaining doesn't help, but thanks to this blog, I'm able to get rid of my "bad vibrations" which do not improve productivity. Delphi developers, please don't take this personally! We are all programmers with individual preferences. Can't wait for the day when I can get back to good old C/C++, .NET, and Java, of course. 
+     
+
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+	 
+      I wasn't sure, whether I really need a blogger or something like that, but I'm now convinced this could be helpful. More specifically, I'm interested in posting some ideas frequently and find out, if they were solved or not. Getting in contact with other people who share the same hobbies and interests is a real benefit and will hopefully turn out to be great fun.   Anyways, enough thoughts for the beginning. Let's start playin' around.   Bye,  Jane.     
+     
+
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+      It's been quiet a while, but I'm back in business. I've been on vacation in Thailand and have some difficulties getting used to the rhythm of rural life. By the way: Thailand is highly recommended for everyone who wants to escape from the all pervasively computers and electronic gadgets. On the other hand, I'm happy to continue blogging and doing some programming again.  Have fun!  Jane
+     
+
+    
+</post>
+
+
+</Blog>

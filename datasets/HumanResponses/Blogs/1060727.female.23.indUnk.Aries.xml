@@ -1,0 +1,31 @@
+<Blog>
+
+<date>30,July,2004</date>
+<post>
+
+    
+       
+      So, today while perusing  urlLink Slashdot , I came upon an interesting article discussing how  urlLink cellular phone convergence devices are a black hole, eating away at profits of other electronic gadgets . I don't know where these people are getting their info, but nobody's giving away these things with their cell plans. If you want a full-on converged device (Treo, iPAQ, etc), you're looking at spending a few hundred dollars. A few hundred dollars which, I might add, go mostly to the company that designed the phone. A perfect reason to buy stuff on the bleeding edge, instead of waiting for market saturation. Because, boys and girls, once these things saturate the market and become the "free" phones, there'll be even neater gadgets that still have to be purchased.  In other news, folks trying to decide whether to purchase a  urlLink Treo 600 or a T-Mobile Sidekick  now have a decent guide to aid in their decision. Personally, I had already made my decision, and I love my Treo. However, to folks who don't understand my love, it's a very well-done presentation made from a person as opposed to a commercial marketing standpoint. 
+      
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+    
+       
+      So, here it is. I have a blog. Impressed yet? I knew you would be.  Hi, um, I'm spazure. I have a PalmOne Treo 600 GSM phone and figured I'd create a blog to share my experiences with it, mostly because I'm sure others with the same phone might benefit from my trial (and sometimes error) of various features and programs.  Just to get an idea of the point of view, a little about me:  I'm 23 years old, and married. Don't confuse me with your typical housewife, though. I'm a poor college student.  My husband is a soldier in the U.S. Army :-)  I have friends all over the country, and I travel.... a lot.  Hm. That's about it for now, I guess. My first post is going to be a list of stuff currently on my Treo, as well as short little reviews on each piece of SW. Be looking out for it. :-)  -Spazi 
+      
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+    
+       
+      So, the wonderful folks over at  urlLink MusicMatch  have recently released a new version, 9.0. No, I didn't learn this by going to their website, I learned it by running the installer I downloaded last year when I  purchased  MusicMatch 8, and realized it wasn't the actual setup file. No, the file you download from their website isn't the install file for ANY version of MusicMatch. It's an installer (that explains the fast download).  When you run the installer, it connects to MusicMatch's server and fetches the most current version of MusicMatch that's compatible with your system and the language you specify, installing it from their server. That's the problem. The actual setup executable is never on your hard drive. It wasn't always like this, I know I had the  real  setup files for MusicMatch 7. But not 8, and not 9.  So, if you want to download MusicMatch and install it on a machine that's not connected to the internet, or maybe you just want to downgrade to a different version, or a different language, all is not lost.  Apparently, MusicMatch keeps older versions of MusicMatch on  urlLink a publicly accessible web server . This isn't a page designed to ever be seen by customers, so it's not particularly intuitive, and I wouldn't suggest complaining to them about the user interface. Basically, the setup file naming convention is like this:  mmsetup_#.##.####_XXX.exe  To find the version/language you need, look to the first # in the series. That's the version number. All the rest are revision numbers. You'll probably want the most recent revision, as it's got all the bug fixes, but whatever, it's up to you. The last three letters are the language. I don't know them all, but here's a short list of the ones I *do* know:  ENU - English ESP - Spanish FRA - French KOR - Korean DEU - German CHS - Chinese  I'm also not sure about the releases marked "DELL" or "Apple". I have a Dell PC. I'll look into that. As for the apple, well, no clue. I own no apple machines, but from what I recall of the last one I did have, they don't run windows executables well.   Note:  These are all just the shareware versions. If you have purchased a version of MusicMatch, you'll still need to enter your product key to unlock the Pro features. 
+      
+</post>
+
+
+</Blog>

@@ -1,0 +1,1 @@
+The function related to prime numbers is called the prime counting function. It counts the number of prime numbers below a given number. It is denoted by the symbol π(x), where x is the given number. The prime counting function is an important tool in number theory and is used in various applications such as cryptography and coding theory.

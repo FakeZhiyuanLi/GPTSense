@@ -1,0 +1,1 @@
+The work from around 300 BC that has significant theorems about prime numbers is "Elements" by Euclid. Book VII of "Elements" is specifically dedicated to the study of prime numbers, including some of the most fundamental theorems in number theory such as the unique factorization theorem and the Euclidean algorithm for finding the greatest common divisor of two numbers.

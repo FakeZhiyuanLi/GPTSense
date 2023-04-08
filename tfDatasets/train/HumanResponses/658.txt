@@ -1,0 +1,1 @@
+1. given a list of 20 chinese characters from the 1a chinese textbook, a secondary one average ability student will recognise every one of them by giving their meanings and pronouncing them correctly. 2. the secondary four above ability students will be able to analyse an unseen tang poem without any reference to their notes or textbooks.

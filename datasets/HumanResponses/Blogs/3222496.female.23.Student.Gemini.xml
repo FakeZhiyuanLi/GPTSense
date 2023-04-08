@@ -1,0 +1,92 @@
+<Blog>
+
+<date>26,May,2004</date>
+<post>
+
+    
+       Work!! Work!! I hate my workplace!!! Well for one my car stereo got stolen from work over the weekend while i was working...I wold have saved myself $300 my calling off...Aurgh!!! Now they are causeing major problems with my vacation time...have place rented and they are saying they CANT give me the first weekend of my vacation off. I'm about to quit. Well update on projects..I totally ripped out the shawl i was knitting and decided to crochet it up but i don't think i took into account the stretchyness of the yarn so it's down to my feet...it doesn't really matter though because I just wanted it for me to use while I was at home. Maybe I'll post some pics tom. 
+    
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+    
+       Everytime I spend a little time on the net. I spend money!!! EBAY is evil. I just 50.00 in 15 minutes. I don't have that kind of cash to splurge...aurgh!   
+    
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+    
+       The first volume of invader zim episodes came out on dvd!!!! Yeah! I love invader zim. So I'm sitting here happily knitting and watching it. Ttyl 
+    
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+    
+       More procrastinating...at least I'm sitting in front of the computer with books open...lol.&nbsp; urlLink     urlLink    
+    
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+    
+       Can we say HUGE procrastinator = me!!!!! Huge paper due today and I just started it...lol. Literally haven't even read any research yet. Well, story of my life I spent time knitting when I should have been doing other things. I started a wrap a couple days ago got pretty far on it too...just didn't like how it was turning out so I frogged it all and started over. Here's the pic of the new one...I'm not sure if i L:ike it either but o well maybe I'll make a gift of it. 
+    
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+    
+           	var projects = new Array(); 	 	// set up projects like this: NAME, percent done, type 	// type can be: sweater, tank, hat, bag, sock, scarf 	 	projects[projects.length] = "Janda, 75, sweater"; 	projects[projects.length] = "Cleo, 100, tank"; 	projects[projects.length] = "Toque, 80, hat"; 	projects[projects.length] = "Regia Socks, 50, sock"; 	projects[projects.length] = "Kureyon Scarf, 40, scarf"; 	projects[projects.length] = "Felted Bag, 100, bag"; 	 	 	// set up the colors for works in progress (less than 100 percent) and finished objects (100 percent) 	// these can be hex codes, or color names (Green, Red, Blue, etc). 	 	var wipColor = "#33cc33"; 	var foColor = "#9966ff"; 	 	 	// edit this to get the fonts to display differently if you want 	 	var fontStyle="font-family:arial,helvetica,sans-serif; font-size:12px; color:#888888;";  	// set up height of standard project: adjust this if projects are overlapping 	var projHeight = 90; 	 	// initial vertical position from top of container. Adjust if you want. 	var position="0"; 	 	// WARNING: Don't edit after this line unless you're a javascript queen! 	var numProjects = projects.length; 	var genericStyle = "position:absolute; left:0px; width:121px; height:50px;"; 	 	document.write(" "); 	for(var i=1; i 		var variables = projects[i-1].split(", "); 		var name= variables[0]; 		var percent = variables[1]; 		var type = variables[2]; 		 		position=eval(projHeight*(i-1)); 		var styleFilter=genericStyle + "top:" + position +"px; z-index:2;"; 		var styleImg=genericStyle + "top:" + position +"px; z-index:3;"; 		 		document.write("   "); 		document.write("  "+name+" : " + percent + "% 
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+       Rogue in progress...I'm coming along&nbsp; urlLink     urlLink    
+    
+    
+</post>
+
+<date>20,June,2004</date>
+<post>
+
+    
+       I've been working way too much! Well anyways. I'm working on Rogue with Angora Supreme it's looking really beautiful. I have plans for a  little felted purse in the works.   And other news we realized house was not going to work out because of the debt we're in. We looked at the numbers...maybe next summer  :( 
+    
+    
+</post>
+
+<date>01,June,2004</date>
+<post>
+
+    
+       This rainbow was right over the house when we where driving away...hopefully a sign ;)&nbsp; urlLink     urlLink    
+    
+    
+</post>
+
+<date>01,June,2004</date>
+<post>
+
+    
+       The house the boy and I are looking at...I hope we can afford it&nbsp; urlLink     urlLink    
+    
+    
+</post>
+
+
+</Blog>

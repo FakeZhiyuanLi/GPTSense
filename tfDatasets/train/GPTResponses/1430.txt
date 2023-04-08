@@ -1,0 +1,1 @@
+An mp3 compressed at 128 kbit/s would have 128000 bits per second. Therefore, in one minute, it would have 60 seconds x 128000 bits/second = 7,680,000 bits. In one hour, it would have 60 minutes x 7,680,000 bits = 460,800,000 bits.

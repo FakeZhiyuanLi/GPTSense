@@ -1,0 +1,970 @@
+<Blog>
+
+<date>17,May,2002</date>
+<post>
+
+     
+       Truck asked me to record my experiences at my new job.
+
+ I feel I have to explain a little first. I'm 32. I have two girls whom I love and I want to do everything in the world for them. Right now I stay home with them during the week while my wife (whom I will refer to as E) works. Two days a week they go to daycare. Now, the particular day care they go to is one of the best in Minneapolis in my humble opinion. They love the staff and the other kids and so we want to keep them there. We are, however, slowly going in to debt. So, at E's prompting I began looking for part-time work. "No problem," I thought. "I have skills." I thought I could easily find work that would, at least in some way, utilize my skills. Boy was I wrong. Maybe it's September 11, or whatever, but I ended up working in a chain coffee joint. (Not Starbucks.) Today was my third day.
+
+ Well, the pay is a little dismal. I'm expected to accept this meager pay,  and  somehow make this part-time job part of my identity. Now I like coffee. I probably like it more than most. I don't, however, want to make it a major part of my life. I think this is the most insidious part of the work culture in the U.S. We're supposed to take these shit jobs and then act like we're the luckiest damn people in the world to be working there. I had to go through two interviews to get this job. I couldn't help thinking, "I'm an adult. I'll show up. I'll do the work. What more do you want for this kind of pay?" Two damn interviews. It felt like a colossal waste of time. Of course I disguised my cynicism so successfully that they actually hired me.
+
+ So here I am, learning this new job. One of my supervisors wasn't even born yet when I got my driver's license. All my coworkers are twenty-somethings, although they all seem nice. I'm just not in the same place they are. Let me tell you, it put me into a depression for several days when I first got the job. I kept asking myself how I got to a place where I could do no better than slinging coffee for shit pay.
+
+ Well, it hasn't been as bad as I thought. As E will often point out, I often focus on the negatives. I still don't relish the job and I'm embarassed to tell my friends and family that I work there. Trucker says I shouldn't be embarassed. He has some valid points.
+
+ I just had this illusion that I was Randy from  Cryptonomicon . I was ready for a substantive change in my outlook. I was ready to do what I needed to do for my family. Unfortunately I thought it would be something cooler, or more in line with my interests than a job that any 16 year-old could get.
+
+ I guess things don't happen quite like that in life. It works well for fiction, but those kind of changes don't occur overnight. It's usually years later that, in retrospect, we can point to a time or an event that changed our lives or our outlook. In the end I guess I did what was right for my family. (With tips, I make around $10/hr., which isn't bad for part-time work, and that kind of pay was my central-albeit modest-goal to begin with.) So today I'm feeling better about things.
+
+ E is going to kill me if I don't get some more things done around the house before she gets home. I don't know how often I can update this stupid thing. Hopefully I can do it often enough, I don't want to abandon it, but I really don't have time for another hobby. Wish me luck.
+     
+    
+</post>
+
+<date>17,May,2002</date>
+<post>
+
+     
+       [Wringing my hands.] Okay, here goes. Let me explain a couple of things first. I think Neal Stephenson put it best in  Zodiac  when the main character (whose name I can't remember now) says, "I am, as everyone knows, an asshole." You might as well add cynic to that list. My politics are sometimes radical, my outlook is often glib. I'm self-effacing a lot of the time, I'm also not afraid to criticize others, at least in my thoughts. I'm not always nice.
+
+ With that being said, don't expect you to always like or agree with what I say. I certainly don't expect you to do so. I don't want to argue with anyone, I just want to say what I want to say at the time I'm saying it. I might retract it later. I might not. Don't e-mail me please. If you don't like what I'm saying, don't read this anymore. I'm hoping this format will be some kind of format/space for me to express thoughts I don't always get to express. It may be at times mundane. Hopefully once in a great while it will be thought-provoking, or even humorous.
+
+  Hi. It's nice to meet you.
+     
+    
+</post>
+
+<date>19,May,2002</date>
+<post>
+
+     
+       Okay, anyone who knows anything about programming is going to laugh. Especially if you read further and find all my references to Neal Stephenson. But I just spent about 9-10 hours writing programs for my Visual Basic class I took this Spring. One was an assignent that was due a couple of weeks ago. The other was my final project. Anyone who actually does programming for a living knows how trivial this is. It's not the cool Perl included in the text of  Cryptonomicon . But it took me all damn day. Now I've got my sister's iBook up on the couch, networked with my other computer downstairs so I still have internet access, and my G4 down in the basement acts as an mp3 server as well. (I should take a second that as I've been writing, Jay Farrar, segued into Buck Owens, into Pete Yorn.) So, E was kind enough to watch the girls all day so I could get greasy in front of the computer. Believe me, it was a beautiful Sunday and I could think of better things to do. (That's not to say that I haven't spent many a day in front of the computer, ignoring the weather.)
+
+ So without further ranting, here is the fruit of my labor:
+
+ Dim item()
+Dim price() As Single
+Dim a As String, b As Single, c As Single, d As String, e As Single, total As Single, i As String, j As Single, quantity As Single
+ 
+Private Sub cmdAdd_Click()
+i = lstGroceries.ListIndex + 1
+j = price(lstGroceries.ListIndex + 1)
+quantity = Val(txtQuantity)
+If quantity = 0 Then
+    quantity = 1
+End If
+total = total + (j * quantity)
+lblTotal.Caption = "Total bill is " & FormatCurrency(total)
+picDisplay.Print lstGroceries.List(i), FormatCurrency(j), FormatCurrency(j * quantity)
+End Sub
+ 
+Private Sub cmdClear_Click(Index As Integer)
+picDisplay.Cls 'clears the picture box
+lblTotal.Caption = "" 
+total = 0 
+End Sub
+ 
+Private Sub Form_Load()
+Dim x As Integer
+Open "C:\WINDOWS\Desktop\visual basic\final project\food.txt" For Input As #1
+Do While Not EOF(1)
+    Input #1, a, x
+    b = b + 1
+Loop
+Close #1
+Open "C:\WINDOWS\Desktop\visual basic\final project\food.txt" For Input As #1
+ReDim item(1 To b)
+ReDim price(1 To b)
+Do While Not EOF(1)
+    c = c + 1
+    Input #1, d, e
+    item(c) = d
+    price(c) = e
+Loop
+Close #1
+Call sortData
+Call loadList
+End Sub
+ 
+Private Sub sortData()
+Dim passNum As Single, k As Single, temp As String, temp2 As Single
+For passNum = 1 To (b - 1)
+    For k = 1 To b - passNum
+    If item(k) > item(k + 1) Then
+        temp = item(k)
+        temp2 = price(k)
+        item(k) = item(k + 1)
+        price(k) = price(k + 1)
+        item(k + 1) = temp
+        price(k + 1) = temp2
+    End If
+    Next k
+Next passNum
+End Sub
+ 
+Private Sub loadList()
+Dim f As Integer
+For f = 1 To b
+lstGroceries.AddItem item(f)
+Next f
+End Sub 
+
+ If you haven't guessed [Dylan is now playing] it's a program that loads a list of grocery items from a data file, then allows you to select what you want, then it gives you a total. Pretty boring.
+
+ My good friend Eric, whom I'll see in AZ next week, once said something about things like this that always stuck with me. "You know, you spend all these years learning to be an engineer and you expect to be designing bridges and cool stuff. Then you spend the next ten years designing bolts." It's not an exact quote and he's not an engineer, but you get the idea. I probably won't ever write cool decryption programs. Maybe, just maybe I'll get to do more than grocery programs.
+     
+    
+</post>
+
+<date>20,May,2002</date>
+<post>
+
+     
+       There is a real problem with our culture as a whole. Mediocrity. My original impetus for this blog was our  urlLink president . President Bush, I suppose, is a kind of poster boy for mediocrity. He's living proof that the cream really doesn't rise to the top in the U.S. Here our C students from rich families, with failed businesses can rise to the highest office in the land. It's the Larry Flynts, not the Martin Luther Kings, who fight to preserve our constitutional rights. No more do we demand the best. I suppose Bush is a kind of McPresident. The ultimate franchise. We knew exactly what we were getting. Like walking into any McDonalds, or going to see the latest Star Wars movie, he's familiar and seemingly innocuous. We're willing to settle for that. I'm speaking of the United States in a collective sense, of course. (Before I get spammed with hate-mail from rabid, greasy Star Wars fanatics, I LOVE Star Wars. Stick with me here, I'm trying to make a point.) 
+
+ But really the problem is much larger than President Bush. There are exceptions, but for the most part, we produce the biggest, ugliest most inefficient cars. We produce the  urlLink worst PC software , or at least the worst PC software is the most popular here. We've got the worst education system of any industrialized country. We've also got the highest infant mortality rate of any industrialized country. I could go on, but you get the point.
+
+ How is it that the largest economy in the world is dead-set in the middle? How do former pro wrestlers become state governors? Why is blandness so widespread in what is touted as "The Greatest Nation on Earth?"
+
+ I find it particularly hard to identify with this America while we're at war. When a sort of sloganeering, oversimplified kind of patriotism is everywere. I have to remind myself of the real valuable part of American culture. The parts I do identify with very strongly. I'm, of course, talking about jazz, the blues, rock and country music. I'm talking about my right to lambast the president when I think he deserves it. (I think he deserves it a lot.) I'm talking about a rich history of dissidence.
+
+ So why does the popular culture of the U.S. seem so mired in the creamy middle? Maybe the "Greatest Nation on Earth" myth has always been just that. A myth I've deconstructed in my adult life. Maybe it's because all the good parts of the culture are so good. In my opinion, the best stuff is closer to the fringes. To have such dizzying highs, one needs catrostrophic lows I suppose. The allowance for seemingly threatening behavior, creates more ideas out along the edges. To have such a large fringe, there must, almost by definition be a huge middle. Call it a bell curve philosophy of culture.
+
+ I'm particularly interested in this question, since I'm trying to raise two girls. I find the notion of ensuring that they develop into critical thinkers, a perplexing one. I don't want to seem like a total Neal Stephenson freak, but that's the thing I found particularly fascinating about  The Diamond Age . How can I give my kids a set of ethics, a code to fall back on so they can navigate through life in a culture that rewards the insipid? How can I make sure they lead interesting lives? I'm only somewhat comforted by the fact that this same culture, these same institutions and systems, produced...me. I guess they have a fighting chance.
+     
+    
+</post>
+
+<date>20,May,2002</date>
+<post>
+
+     
+       I was driving to pick E up from work this afternoon when some guy in an Intrepid pulled up behind me and proceeded to tailgate me for several blocks. It was at this point that I decided to employ what I like to call passive-agressive driving. My buddy Mav likes to do this. He does a lot of driving for his work and it seems to come up most on 394 for him.
+
+ You may not be reading this in Minneapolis, so I'll do a little explaining. I'm sure other metro areas around the country have them, but we have the sane-lane here that they open up for car-poolers during rush hour. (This is our convoluted way of dealing with mass-transit needs in our fair city.) Well, inevitably at some point the sane-lane dissappears and the people in that lane have to merge over with everyone else. Well, of course, instead of merging sanely, maybe a 1/2 mile or 1/4 mile ahead of time, they all speed up to the spot where they are absolutely forced to merge with traffic. They sort of force their way in. I'm sure most of you have experienced this. It's quite annoying. Well, in these instances, Mav pulls his car halfway into the lane so they're forced to slow down right away and merge instead of skipping to the front of the line. Quite often other cars ahead of him or behind him will do the same-all the while waving and yahooing to each other.
+
+ Well, in my case I was on 79th street in Bloomington (a Minneapolis suburb) when this Intrepid pulled up on my ass. It even had one of those stupid bras on. I could see the dude's perfectly quaffed hair and reflective sunglasses in my rear view mirror. Well, I proceeded to, rather innocently, slow down to 20 mph. This annoyed the guy to no end, I could tell. I could see him shake his head. He tried to pass me on the right, but had to pull back into my lane to avoid the parked cars. Of course, the light ahead was red, so I relished taking my time. I took great satisfaction in making this guy wait just a little longer. The best thing was that his car was so damn big that he couldn't pull around me to make his right turn once we got to the light. He had to wait, just like the rest of us.
+
+ Some day I want to do a faux ad for  urlLink Adbusters  about a car called the Insipid. It would have some well-dressed young person briefly talking about how their car was a big part of their identity, etc. Like a fashion accessory. How they felt that their shitty American-made car reflected their personality and their values. You know, the really glossy-type ads you see in major magazines that are, well, insipid.
+     
+    
+</post>
+
+<date>21,May,2002</date>
+<post>
+
+     
+      The blogspot server was down. Everything seems to be working again.
+     
+    
+</post>
+
+<date>22,May,2002</date>
+<post>
+
+     
+       Okay, I'm going to attempt to relate my day yesterday in reverse order, like some hipster movie, the name of which I can't remember right now.
+
+ 10:30 pm - E looks at me sprawled out on the couch, staring at the crappy local news. "You look tired. You should to bed."
+
+ 9:15 pm - Jesus Christ, I think to myself. This line looked shorter, but some idiot is making the clerk search for a coupon for her. 15 people who got in the other line after me are already in their cars on the way home. Picking the right checkout line is always a bit of a crap-shoot. I could switch lines now, but I'm determined to stay here. I made my choice. I'm sticking with it.
+
+ 9:00 pm - "Did you remember the medicine?" E asks. No, I didn't. At least I remembered to drop off the prescription earlier. I turn on my heel, put on my shoes and walk right back to the car. By this time I've accepted that the day is a loss. It barely phases me to have to abandon my plans of relaxing the couch to do one more thing.
+
+ 8:15 pm - [open K's fridge] Man! No beer. Boy, that just just takes the fucking cake doesn't it?
+
+ 8:05 pm - I know K will have some beer for me. I wasted all my time and now the liquor store is closed. I don't have any cash, or I'd just head to the  urlLink Turf  and have a beer. That's all I want. Just one beer. K usually has some  urlLink James Page  in the fridge. I need to borrow some camping gear. [on cell phone] "K, you going to be around for awhile? Okay, I'll be right over."
+
+ 8:04 pm - [cell phone (leaving mesage)] "Hey Shua, I just got ahold of Truck. I guess...we're not practicing tonight. I guess I knew that at some point, but I'd forgotten it until just a minute ago. I guess I won't really see you guys for a couple of weeks now. Say 'hi' to J for me. Okay, see you later."
+
+ 8:03 pm - [opening car door] Where the fuck is everyone? Oooooohhhhh shit! Today's J's fun-day. Shit, I bet they're at Star Wars right now. So...we're...not having practice tonight? What time is it? Jeezuz-fucking-Chrrrist! The liquor stores are even closed! How much money do I have? $2 won't buy a beer at the  urlLink Turf . [head on the steering wheel.]
+
+ 7:58 pm - [pull into the parking lot at high-speed] I bet he'll call just as soon as I get out of the car. I'll just have to drive all the way back and get him. Well, I might as well check. Maybe he's inside. His phone never works inside. Nope. Door's locked. [now suppressing the urge to shout "Fuck" at the top of my lungs, since there are other rockers in the hallway] Do I have my key for the dead-bolt? Nope. Okay then, back out to the car.
+
+ 7:40 pm - [cell phone(leaving message)] "Hey Shua," suppressing the urge to shout into the phone as I'm blinded by the setting sun. I pull the shade down as hard as I can. The garage door opener goes flying onto the dash. "Umm, I've been waiting now for about 40 minutes. I can't find Mav. I can't find Truck. I'll wait a little longer, but I don't know. I'm going to take off soon, so give me a call or ANSWER YOUR DAMN PHONE!" I'm no longer able to suppress the urge the shout. At least it sounded like I might have been joking. He's probably just taking a damn nap!
+
+ 7:00 pm - [cell phone (leaving message)] "Hey Shua, I'm here." I park the car, get out ring Shua's number. Wait. Someone walks into his building with a sixer of Summit. "Boy, that looks good," I think to myself. I wonder where Shua is. I ring again. Wait some more. Call again. No answer. I go back to the car. Call again. Call again. Wait 10 minutes. Call again. Call Mav. Call Truck. "He's in the New Brighton office. I can try to transfer you." I'm not so sure that will work. "Sure," I say. Nope. It didn't work. I'm disconnected.
+
+  6:50 pm - [cell phone (leaving message)] "Hey Shua, I'm on my way to your place. I just stopped by work to get some free coffee. I know it's a little early, but I was actually hoping you had some beer. I'd really like a beer. Maybe we could just hang out for a while and have a beer. Or we could just go to the space early. So, I'll see you in about 10 minutes."
+
+ 5:45 pm - "You can just go right after dinner. We don't care," says E. "Awesome," I think.
+
+ 4:15 pm - "Well," pointing to Z, "she definitely has an ear infection. We'll prescribe some Augmentin," the doctor tells us. "We'll try to call you before five if she," pointing to C, "has strep." E and I nod.
+
+ 9:01 am - "It's okay C, we're going straight home." Damn, no time to pick up coffee. Oh well. Well, at least I have practice tonight. I just have to make it until 7 or so.
+
+ 9:00 am - "Dad, I don't feel good. I want to go home and take a nap," says C from the back seat. A voluntary nap is a very bad sign. She must really be sick. "Okay," I reply. C vomits.
+
+ 8:45 am - "You should just take them to Medx and get them checked out since we're going out of town," says E as I drop her at work. "Okay," I reply.
+
+ 6:32 am - No coffee. Nope, not anywhere. Boy, that sucks. Well, I'll just get some later this morning.
+
+ 6:30 am - Z's up. E hits me. It's my turn to get up early with the girls. Okay. I'm up.
+     
+    
+</post>
+
+<date>23,May,2002</date>
+<post>
+
+     
+       My most trivial blog yet.
+
+ Boy, guys like  urlLink this  drive me crazy. Okay, I work in a damn coffee shop. A "shot" of espresso, as anyone in any coffee shop will refer to them, is 1-1/2 ounces. I may not agree with ol' Trucker's tipping practices, but come on. This guy has to nerve to laugh at his patrons? He lives in Fergus Falls for chrissakes. That alone is worth a laugh, not to mention the triviality of working in a damn coffee shop to begin with. (I want to dispell the notion that working in a coffee shop is cool. It's not. In the end, it's just coffee. Importing coffee has some  urlLink dubious political implications  too.) I don't want to start a war with this guy, but his e-mail really rubbed me the wrong way. I feel like I should jump to Truck's defense or something. Plus, it's poorly written. Okay, okay, e-mails usually aren't crafted, but come on. I had to read it four times before I could understand what point he was trying to make. [No below-the-belt literacy jokes please.]
+
+ I do think Trucker should consider this in his  urlLink newfound tipping practices . You're not buying fine art at a coffee shop as Lee suggests. Generally speaking, if you work in a coffee shop, you're probably making  urlLink shit pay . Part of your wages are tips. Making most coffee drinks is a pain in the ass. Plus, probably everyone working at the time is counting on those tips. You don't always have to tip $1 (consider the amount you're paying for the drink), but if you have faith that you'll get a good drink and the service is friendly and fast, tip. For God's sake man, tip.
+     
+    
+</post>
+
+<date>25,May,2002</date>
+<post>
+
+     
+       Okay, my last post was petty and a little out-of-line. First of all, it was in response to an e-mail that Truck posted without permission. Lee sent it to Truck and not to the world at large. I shouldn't have flamed Lee. As for living in Fergus Falls, well, I wouldn't choose to live there, but making fun of him for living there is no better than him arrogantly laughing at his patrons. For that I apologize. Sorry Lee. I don't even know you. I feel like an asshole, but that's nothing new.
+
+ I'm in AZ right now. I'm exhausted. The weather is hot (which is welcome after a cold spring in Minnesota.) It's beautiful down here. I spent the day  urlLink here  today. More later. I just wanted to check in and relieve my guilt about the asshole post I made earlier.
+     
+    
+</post>
+
+<date>30,May,2002</date>
+<post>
+
+     
+       [I actually wrote this blog with pen and paper on my flight back from AZ]
+
+ I have this habit of seeing movies over several weeks. What happens is I'll be flipping through the channels and come across something I like, only I'll be 1/3 of the way into the movie. Then another day it will be rerun and I'll watch the part I missed before.
+
+ The latest movie I've watched this way is  urlLink Contact . Now, I read the book when I was 15 and I saw the movie when it came out about 12 years later. I knew there would be differences between the movie and the book. I thought I knew what they were, but I couldn't fully trust my memory, so I decided to reread the book. Especially since there are interesting philosophical questions raised in the book that were not in the movie.
+
+ The thing I liked about the book then, and still like now, is the dialogue between the main character, Ellie and a televangelist named Palmer Joss.  urlLink Carl Sagan  actually treats Joss quite sympathetically. His character is intelligent and thoughtful. He and the Ellie do quite a bit of verbal sparring in the book.
+
+ In part of the book that I've recently reread, I came across an idea that I didn't catch when I was 15 and I find very interesting now. Ellie has just done some research to prepare for her first meeting with Joss. She comes across an early 20th century theologist named  urlLink Rudolf Otto . Otto describes the mystic feeling one gets when contemplating divinity as  urlLink "numinous."  It's a sort of feeling of awe.
+
+ Now, Ellie asserts that scientists experience this same thing. They too contemplate the universe and experience the same sense of awe. She posits that religions try to institutionalize the numinous instead of providing a means to experience it directly. Scientists, she argues, have a kind of spiritual experience, but based on science and not religion or faith.
+
+ I think by the time I read this book I already had doubts about Catholicism. Looking back, this book was probably a factor in my rejecting rejecting it in my adult life. It certainly raises some good questions.
+     
+    
+</post>
+
+<date>05,June,2002</date>
+<post>
+
+     
+       I just spent a four day weekend on a male bonding canoe trip. I barely knew the guys I went with. Now, generally speaking, I'm a pretty timid guy. I don't deal well with situations where I'm with a lot of people I don't know. In fact, I don't really like being in situations like that. I know it's probably not very healthy, but I've been this way my whole life. It's part of who I am and I'm not concerned with changing that part of my personality.
+
+ So there I was. The one guy I did know, who invited me, was in another vehicle picking people up in Belle Plaine, Kenyon and points beyond. I was in the metro contingent. I was in a  urlLink Ford Excursion , a vehicle I despise, with three other guys whom I'd never met. It was 7 am and I hadn't slept well the night before.
+
+ At first I thought to myself, "This is going to suck. Who the hell are these guys? What am I doing?" They had all been on similar trips together years before. I was an inexperienced camper at best. I have to admit that in the back of my head I was following Shua's "Everything sucks until it's great" philosophy.
+
+ Well, I had one hell of a time with these guys. (There were a total of ten of us.) As corny as it sounds, I feel like we did actually bond on the trip. If you've ever canoed, you know the level of trust that you give to the person stearing the canoe when going through river rapids. Let me try to give a profile of the group as best I can. I got to know more about some than others. Here's what I could gather about the bunch of us.
+
+ First I suppose I should start with Jonathan. He's been the organizer of the trip every year for the last twelve years. He's the one I know and the one who, obviously, invited me. He bought most of the food, assigned us all with things to bring, including, but not limited to one bottle of booze a piece. A really good guy with a really bad back.
+
+ In Jonathan's canoe was Peter, the oldest on the trip. He'll turn 50 in July. Peter was the biggest pot smoker in the bunch. I'm not sure what he does for a living. He lives on a hobby farm in Kenyon, MN where he seems to live a sort of idyllic rural life. He likes to talk about his chickens. He makes a mean huevos rancheros on a camp fire. He reminds me of a slender Allen Ginsburg. I couldn't put my finger on this until he read some poetry. He wrote this short rap that he gave me permission to use if I wish:
+
+ I've got the white meat,
+ I've got the white beat
+ I've got a new car
+ [waving finger] But I don't go far
+ And I'm really thin
+ 'Cause I'm taking Ritalin. 
+
+ Keith was the guy who came to pick me up at 5:45 last Friday. The best way I could describe Keith is that he looks exactly like Dale on King of the Hill. He wears the hat, the reflective sunglasses and has the same scrawny build. He doesn't like to talk about black helicopters however. He's a mechanic who specializes in working on imports. With a little prompting I found out that he likes racing. He was the only one on the trip that talked less than I did. A nice guy really. He ended up stearing my canoe, even though he was used to being on the bow. We had a few dicey moments where I thought we were going to dump the canoe, but we never did.
+
+ Two guys were named Tom. Young Tom, as he was called, is a Northwest airlines pilot and incidentally flies planes exactly like  urlLink this one . He was a goofy kind of guy and the weatherman on the trip. Being a pilot, he has an in-depth knowledge of weather patterns. He is also somewhat of a gadget collector. He has a four month old daughter with the same name as my wife.
+
+ In Young Tom's canoe was Kelly. I never could tell what Kelly did for a living. Apparently at different times he'd been a bartender, cook, and a freelance designer. He and his wife were about to move to Australia. He busied himself trying to fashion an anchor out of some stones and string, whittling drumsticks and trying to out-drink everyone else. He was the other newcomer on the trip.
+
+ The other Tom was a builder I think. I don't know much about him other than that he likes Led Zeppelin and Def Leppard. I think he likes most of the stuff they play on  urlLink KQ . I think he has three kids. Nice guy, good fisherman.
+
+ In this Tom's canoe was Michael. Michael was a BIG guy. He's probably 6 ft. tall and at least 250 pounds. Most of it muscle. Just a bear. He's an insurance adjuster. He has very eclectic music tastes. He likes Jameson. Also an excellent fisherman. Even though I predicted that I'd want to avoid him, he was one of the nicest guys on the trip. He felt terrible that he kept me up all night the first night with his snoring.
+
+ In the last canoe was Phil. Phil is the owner of the Excursion. He owns the industrial sculpture company that does all the forests and animals for all the Rainforest Cafes. He has somewhere around 8 full-time employees. Really gregarious guy. Always helpful and friendly. I could forgive the obscene automobile since I'm sure his work requires some pretty heavy hauling. Plus, he's a super outdoors kind of guy. I bet his Excursion is one of the few out there that actually gets some off road use.
+
+ Phil was in the front of Tim's canoe. Tim was also known as a gadet guy. He was using a new kevlar canoe for the first time on this trip. He has an appreciation for Johnny Cash, even though he has some mistaken notions about Johnny's guitar playing. I think he was confusing Johnny's with Luther Perkins'. Funny guy. Likes cigars, good liquor and made up an improvised version of "I'll Fly Away" the first night that had us all rolling on the ground by the campfire.
+
+ I had one hell of a time with these good men. I'm already reserving the first weekend in June for next year.
+     
+    
+</post>
+
+<date>06,June,2002</date>
+<post>
+
+     
+       If you're unfamiliar with the Turing Test, it's a test for  urlLink artificial intelligence  (AI) programs. Essentially, a person types questions into a computer terminal and there is a computer and one or two other people on computer terminals. The people and the computer program answer the questions. If the person can't tell which is the computer and which are the human subjects, the AI program is successful. It can "converse" as well as humans.
+
+ We've all spent time--probably a great deal of time--on some kind of customer service line waiting and then talking to someone to try to solve a problem. In almost every instance this is quite frustrating. Usually because you end up listening to cheesey music for 15 or more minutes before you get to talk to anyone. I'd say about 1/3 or 1/4 of the time it's frustrating because the person you talk to in incredibly unhelpful.
+
+ Now, I used to be patient with these people. I could sympathize because I knew they had a crappy job and didn't always have a lot of lattitude when it came to problem-solving. I was very patient, even apologetic, because I knew my problem was creating difficulty for them. Well, not any more. The problem, I think, is the whole damn culture. If they can't solve a simple problem, or even give a reasonable answer, then their whole damn workplace is disfunctional and by God, someone's going to here about it.
+
+ I submit that:
+
+ 1.) There are no human beings in these alleged call centers. (Very unlikely.)
+
+ Or, as is more likely:
+
+ 2.) The people answering the phones are so constrained, the workplace so dysfunctinal, their jobs so dismal, that once they enter the workplace, they are no longer human. At least not in an intellectual sense. They are reduced to automatons. Their minds shift into a kind of rudimentary AI state that is quickly confused by questions that cause them to deviate from a pat script. A script that probably sits on their desks in a three-ring binder. They answer a dozen or so questions a day for hundreds of people. When someone calls with a question that is outside of these 12; when they can't find it in their three-ring binders; they're like deer in car headlights. You the caller are the problem and they begin to treat you like you've come to beat them with baseball bats. You the caller become morally repugnant. (I should mention that I've worked on the phones at one such dysfunctional office. I hope I was more creative than some of the people I've recently dealt with. A few people would probably differ with me.)
+
+ Let me see if I can recreate a recent phone conversation I had with one such person. Now this involves UPS. I'd recieved something via UPS that was damaged. I'd finally arranged for reimbursement from the shipper if I could get something from UPS that said it was improperly packed.
+
+  ME: Hi, I recieved a package that was damaged. The shipper says he never recieved notification from you on the insurance claim. Could you just resend it to him?
+
+ UPS: I'm sorry sir, I can't release the information. It's UPS policy to only deal with the shipper.
+
+ ME: That's fine. I'm not asking you to send it to me. I want you to send it to  him .
+
+ UPS: I'm sorry sir, the shipper will have to call and request that information. I show we sent him a letter on [such and such a date].
+
+ ME: Yeah, he claims he never recieved it. You see, if you send him another one, you  would  be dealing with the shipper.  I  don't need it. He does.
+
+ UPS: I'm sorry sir, I can only deal with the shipper. If he were to call we could send him a letter.
+
+ ME: [exasperated] Okay, fine. Can you do this for me? Can you send me a letter or even an e-mail saying it's your policy that you only deal with the shipper? I've gone through third-party mediation to get this guy to agree to pay. I just want something showing why I can't get this information for him.
+
+ UPS: I'm sorry sir, I don't have the ability to do that either.
+
+ ME: Why not?
+
+ UPS: I can't release that information sir. [You begin so see how the person is acting like a machine with their answers. The same answer to different questions. No ability to give a reasonable explanation.]
+
+ ME: [very exasperated]  I'm not asking you  release  anything.  You just said it's UPS policy. It's information you freely give out.
+
+ [I'm going to skip ahead now to the end after I've completely given up. Here's where I try once more to connect with them as another human being. One problem with this is that the person is really pissed-off at me.]
+
+ ME: So do you get a lot of complaints like this?
+
+ UPS: I don't understand the question sir.
+
+ ME: You know. You, as a person on the phones, do a lot of people call in with similar problems?
+
+ UPS: I assure you sir, we get many comments and we respond to all of them.
+
+ ME: [chuckling] Okay then, you have a nice day. 
+
+ The point of all of this is that as hard as I tried, I couldn't get the person on the other end to deviate from their script in the slightest. In fact, at the very end, I even confused them slightly. They were giving irrevelant answers in attempt to get me off the phone. I wonder if it's some kind of passive-agressive thing workers do on customer service lines. The person in the above conversation could not pass a simple Turing Test. I got the exact same answer to multiple questions. Sometimes the answers didn't apply in any way to what I was asking.
+
+ Some day I'm going to start a consulting firm for customer service centers. We would train people to listen. Train managers to make sure their employees had enough lattitude to provide good service and solve problems creatively. We would hold a ceremonial burning of all three-ring binders. We would start by giving everyone on the phones a raise. Preferably a big one.
+
+ 
+     
+    
+</post>
+
+<date>07,June,2002</date>
+<post>
+
+     
+       Okay, I've decided to change my policy about people sending me  urlLink e-mail . Send away. But I'm warning you, I reserve the right to republish and ridicule anything you send me. I was inspired by  urlLink this guy .
+
+ Let me tell you what bothers me about this  urlLink whole thing . I'm extremely skeptical about anything the federal government does. Especially when it comes to the FBI, CIA, DOD, DOE, or NSA. (DOE (Department of Energy) handles all the nuclear stuff, including nuclear weapons. It's just one way "defense" costs are hidden.) Now, with Ashcrofts  urlLink fervor  to stop terrorists, I'm afraid what looks like a heroic whistle-blower will be used to enact yet more draconian measures.
+
+ God knows it doesn't surprise me that the FBI might have its problems, but I just can't help but think the boys in Washington are wringing their hands. "Yeah, what we need is for you all to make it  easier  for us to prosecute/spy-on/imprison people. Especially Arabs." Everyone loves a whistle blower, but I'm cynical. I'm talking out my ass a little here, but I'm going to watch what happens with this one.
+
+ 
+     
+    
+</post>
+
+<date>08,June,2002</date>
+<post>
+
+     
+       Just a quick addendum to yesterday's blog. It seems the  urlLink ACLU  agrees with me.
+
+ 
+     
+    
+</post>
+
+<date>10,June,2002</date>
+<post>
+
+     
+       I can't sleep tonight. I heard that if you are in bed for more than 15 minutes without falling asleep that you should just get up. It's been about an hour, so here I am.
+
+ Lots to report today. First of all, we knew it would happen, but Nicole agreed to marry  urlLink this guy . Congratulations Trucker. Getting married was simultaneously the best thing I ever did and the most emasculating. (I didn't know it at the time.) My advice for a happy marriage: capitulate.
+
+ I'm joking, of course. I wish Nicole and Truck all the best. We're all very happy for them both.
+
+ Okay, shifting gears. Here's something that's been on my mind a lot lately. How do we figure out how to lead a good life? To put it another way, how do we lead a life that leaves a positive impact on the world? I sounds like a big question, but I'm not trying to be pretentious, really. It gets to the heart of many of the lifestyle choices I've made in my life. For instance, I'm vegetarian. I'm a bad vegetarian because I eat fish. Okay, now my original motivation was somewhat political. There are issues of land use, environment, economics, etc. I won't get into it, but the basic philosophy seemed to me at the time that one could have an impact by living a certain lifestyle. Other such choices: don't drive and SUV or other large automobile, buy organic food,  try  not to be too rampant a consumer. Now, all that's a good start, but I don't think it's enough.
+
+ For instance, I know of at least a couple of SUV-driving, meat-eating folks who do really good work as part of their careers. One of the members of my recent canoe trip drove a Suburban. Yet, he has worked with developmentally disabled adults for over 15 years. I'm sure he's had a very real impact in a lot of lives. That's more than my vegetarian ass can say. Yet I know a lot of people that would reject him wholesale when he pulled that Suburban up in front of their house.
+
+ I see a lot of people who have the misguided notion that a certain kind of consumerism makes them a better person. They shop at co-ops, they buy only organic cotton clothes, only organic food, etc. It doesn't matter that they still buy rampantly. To them, it's okay as long as they buy the right stuff. To me it's still consumerism no matter what you consume. They don't have any idea what's going on in the world. They have not interest in understanding politics even on a local level and they don't want to. Their political action is confined to what they buy.
+
+ To me, I guess, it has to be coupled with action. It's fine to support organic farmers, co-ops and other so-called "counter-culture" accouterments. But you have to understand how to affect real political and social change. I know only a handful of people who do this. I wish I could say I did, but I really don't. The fact is that it takes a hell of a lot of energy. Energy most Americans are unwilling to expend. I could go into a Chomskian analysis of why I think this is true, but I won't. Suffice it to say that I wish I did more along these lines. Something to aim for I guess.
+
+ Okay, shifting gears again. I have a work-related story. Now, at the coffee shop where I work, the sizes are regular, large and extra large. Okay, it's not your typical small, medium, large. I can see where this might confuse some people. So, this guy comes in and orders a "regular" size drink, which he apparently took to mean "medium." (I know this sounds petty, but I'm getting to a larger point here. Hang in there.) So he get's the drink. "This is small. I ordered a regular drink." Now, I'm new still, and as I mentioned earlier, I'm somewhat timid. At this point, the store is busy and I'm a bit like the proverbial deer in the headlights. I show him the sizes. He got what he paid for.
+
+ "I hate that. Why do  you guys  [emphasis mine] do that? This is a small right? Everyone? This  is  the smallest size right? Why do you do that? You know what that is called? It's called euphemizing. It's changing the language."
+
+ Now,  I  wasn't doing anything. These stupid decisions where made at a much higher and presumably much more intelligent level than mine. The same level that says I can't wear green dress pants, but jeans are OK. I'm just trying to keep everyone happy, remember how to mix all their ridiculous drinks, collect my tips and go home. I don't give a shit of it's called regular, medium, or grande. What in the hell is this guy hoping to accomplish by bitching at us? Changing the language. It's like he's railing on a whole corporate culture right there in the coffee shop. Right there to it's lowest paid, least powerful members. I guess it's the price I pay for being part of it.
+
+ 
+     
+    
+</post>
+
+<date>13,June,2002</date>
+<post>
+
+     
+       I've added a new feature to my sidebar. I'm going to start compiling what I see as the misguided changes in policy and political climate in our country. I'll keep adding as I come across more. These are just a few I could think of off the top of my head. All three were in the news in the last few days.
+
+ 
+     
+    
+</post>
+
+<date>13,June,2002</date>
+<post>
+
+     
+       I just did something that could be incredibly embarrassing. I have a bad habit of swearing. I do it a lot, but usually just to myself. (I'm pretty careful around my kids, but once in awhile something slips out.) Most of the time I don't think it's a problem, but today I might have been "caught."
+
+ Z is sick. She'd fallen asleep and I was trying to put her in her bed. I had my cell phone in my pocket and it rang and woke her up. I was okay until I tried to turn it off.  A moment later, I put Z down by the TV to watch Sesame Street. I went upstairs to get her some water. Then I noticed my cell phone was still on. I picked it up and said, "I said, turn off you f*cking piece of sh*t," as I turned it off. Now, just before I turned it off, I noticed that the number 3 had been pressed. Now, on my phone, that's essentially a "short cut" to my older sister's number. I turned it back on and sure enough, it showed an outgoing call to my sister.
+
+ So the question is, did I turn it off before anyone answered? It's possible my niece or nephew answered the phone to hear me say,...well you know now what I said. Did I say anything else that may be incriminating? They have caller ID, so they'd know it was me. My niece is probably shaking her head right now. Technology makes our lives better, right?
+
+ 
+     
+    
+</post>
+
+<date>13,June,2002</date>
+<post>
+
+     
+       Man, I hope my marriage tirade wasn't too obnoxious. I checked my stats and someone from mayo.edu is reading. I think I know who it is.
+
+ E and I signed up for a debt reduction service. Basically, I think we hand over all our money to them, they pay our bills, negotiate lower interest rates where they can and give us a finite budget to live on. I'm frightened and excited at the same time. If this works, we could be debt free-or close to it-in a few years. At the very least our level of debt won't go up.
+
+ E had an interesting point. Our generation is the first really to graduate from college with massive amounts of debt. If, like us, you weren't fortunate enough to have your parents pay for your school, your only choice really is to borrow. Between my 7-year plan and E's grad school, we have a huge debt load. Not to mention the amount of marketing credit card companies do on college campuses. We have access to education, which is great, but we also emerge immediately in debt. For us we emerged with degrees that couldn't possibly get us jobs to pay all of that debt. Now we're stuck. I'm waiting for my dad to win the lottery.
+
+ 
+     
+    
+</post>
+
+<date>14,June,2002</date>
+<post>
+
+     
+       Okay,  urlLink Anchorhead  is playing with  urlLink Kraig Johnson  this Monday, the 17th @ the  urlLink 400 Bar . Now, I knew it was a great gig, but let me try to explain why I now think it's an unbelievably good gig.
+
+ Let's go back to 1988. I'd just moved to Minneapolis from  urlLink Hayfield  to go to college. The first show I go see is  urlLink The 27 Various  opening for  urlLink Trip Shakespeare . (Is there a straight male in Minneapolis that  didn't  have a crush on Elaine Harris?)
+
+ Skip ahead to 1991-92. I'm 21-22 and just able to get into I.D. shows. I, of course try to seek out all the good local bands. For a good year, my friends Andy and David had been telling me to go see  urlLink The Jayhawks . I wouldn't actually get into The Jayhawks until 1994.  urlLink Gary Louris  quickly became a sort of guitar hero for me.
+
+ I did go see local favorites  urlLink Run Westy Run  at the  urlLink 400  an awful lot.
+
+ In 94-95, just after the demise of  urlLink Uncle Tupelo , I heard an advance copy of  urlLink Trace . I was changed forever...sort of. The record came out just as I was headed full-speed into alt-country. I've been a big fan ever since.
+
+ Well, as you may already know,  urlLink Kraig Johnson  was not only in  urlLink Run Westy Run , but also played in  urlLink The Jayhawks  until recently. Who is in his band? Another  urlLink The Jayhawks  member, Marc Perlman  and  former  urlLink Son Volt  member, Jim Boquist  and   urlLink Ed Ackerson  of  urlLink Polara  and  urlLink The 27 Various .
+
+ I should be scared I suppose, but I'm actually really excited to share the stage with these guys. (I'm sure I'll be a wreck Monday.) Every single person playing on that stage   has been a big influence on me ever since I moved here as a scrawny long-haired boy from the sticks. They, of course, don't know it, but they're a big reason why I play music now. At the very least they've influenced  how  I play. I still remember staring up from the front of the stage at my first  urlLink 27 Various  show, wishing I were on that stage.
+
+ 
+     
+    
+</post>
+
+<date>18,June,2002</date>
+<post>
+
+     
+       E has a big mouth. She won't deny it. Sometimes it gets her into trouble. Sometimes it gets me into trouble. Sometimes she just embarasses me.
+
+ One of the reasons I started this blog is so I could write about/express ideas freely. I wanted to write about whatever ocurred to me, or was bothering me. I'm now having to come to terms with actually talking face to face with people who've read the blog. I had the illusion that it could be more anonymous than it is. Now, occuasionally I have to talk with someone I've written about. With  urlLink one exception  I've tried not to be disparaging to anyone. Still I find it embarassing when someone I've written about brings it up to me in person.
+
+ Take last night.  urlLink Anchorhead  played at the 400. Three of the guys I went on my  urlLink canoe trip  with were there. Now, they didn't know I'd written about them. E proceeds to relate to them the contents of my blog while I'm up on stage. I can only imagine what she told them. Now, they're sending me e-mails with inside jokes about my blog. Everything indicates that they don't mind, but I find it very awkward that they know about it. I meant to invent a semi-fictional character -- a sort of alter-ego -- that would express some of my ideas. I didn't mean for people to associate it with me directly. At least, not all of the time. (I'm still preparing for the day when I meet Lee. I know it will happen.)
+
+ Now, on the other hand, Truck and I were discussing earlier in the evening how we'd managed to make some personal connections through the internet. I'm not talking about dating services, I'm talking about getting into contact with people we never would have otherwise met. Then I get home after the show last night and I have an e-mail waiting from  urlLink this guy  who's also from Minnesota and read my blog. He'd made a conscious decision to try to get into contact with people outside his current circle. So here is a guy who wants to make personal connections via his blog. Sometimes that's okay for me. Sometimes I just want strangers to read it.
+
+ I guess I can't have it both ways. I only hope that I don't edit my content too much because I'm worried about who is reading. Then I'll have to start another blog.
+
+ 
+     
+    
+</post>
+
+<date>20,June,2002</date>
+<post>
+
+     
+       Well, I had an interesting day. I had a great day with C and Z. We rode bike all over town with the new tandem Burley bike trailer. I love summer.
+
+ I also managed to offend a friend. (Which I feel quite bad about.) Incidentally, I had different a friend offend me. And I think I offended him right back, but I wanted to. (And I don't feel bad about that one, at least, not right now. (Watch it come back to haunt me.))
+
+ I've always been fascinated by non-verbal communication. Sometimes you can see things pass across the room even though only a few words are exchanged. It's clear what's going on. I'll give you an innocuous example. E and I know each other  very  well. We've been together for over 10 years now. So I'll say something like, "I was thinking of [doing/buying something]." To which she'll reply something like, "Yeah...we can't really afford that right now." Message recieved. An entire discussion has taken place that involves our larger financial picture. It's amazing. I won't even argue because I know the full weight of her statement and I know she's right.
+
+ There was some of that going on tonight. Lot's of signals flying around the room. And  everyone  knew what was going on. Everyone involved anyway. Message recieved.
+
+ 
+     
+    
+</post>
+
+<date>28,June,2002</date>
+<post>
+
+     
+       Well, I didn't do any further blogs on my trip. I guess it's appropriate that I would write one my first night and one now, my first night back.
+
+ I often use e-mail to organize my life. Things I have to take care of I leave in my "IN" box. A lot of my correspondence is over e-mail. I often invision my friends shaking their heads at the shear number of e-mail I send them. Occasionally I have lengthy discussions with friends over dozens of e-mail messages. Sometimes all in one day.
+
+ Like my life, my e-mail has too much shit that I need to clear out on a daily basis. Ebay searches, job/contract notifications, scams, you name it. Most of the time I delete them without even reading. Sometimes I'll peruse them for interesting information. Mostly it's a distraction from e-mail that I want from my friends and family.
+
+ It's, of course, my fault I get all this spam. (At least mostly since I sign up for them and then they fill my "IN" box every morning.) I should learn my lesson. Stop setting myself up for the shit and boil everything down to what I really want. Or at least, if I set myself up, filter out all the shit so I only deal with the stuff  I want.
+     
+    
+</post>
+
+<date>28,June,2002</date>
+<post>
+
+     
+       1:04 a.m., Minocqua, Wisconsin. I'm such a loser. I don't have internet access on this (my second of three) vacations this summer, but I did bring my little sister's laptop. One, so I could listen to mp3's all the way on our 6 hour drive (which turned out to only be 4 1/2) and two, so I could do this. Secret away and do a few blogs while I'm gone. So here I am alone in the "cabin" which is more like a small house, but poorly constructed and 1/3 remodeled so that it's a mixture of cheap 70's decor (fake 1/4" wood panelling, shag carpet) and more modern materials (pergo floors in the kitchen, microwave, new t.v. (complete with cable), and new stove.)
+
+ We drove through the night so the girls would sleep in the car. It was interesting to drive through rural Wisconsin in the night. The towns seemed more placid, sleepy. A slight fog covered the ground and a nearly full moon was in the sky. Driving through in the night, I couldn't see the franchises along the way. The night covered up the McDonald's and the Hardees's so that I could imagine Wisconsin as an idyllic farmer's haven. The cows all sleeping standing up under the bright moon. The farmers and their wives all in bed. The rolling landscape coated in a thin veil of fog.
+
+ No rural meth labs. No kids in 4X4's. No mullets. No Metallica t-shirts. None of the smallness of the ugly America. Just rural America as I wish it could be. Relatively untouched. Quiet. Beautiful.
+
+ I'd better get to bed.
+     
+    
+</post>
+
+<date>29,June,2002</date>
+<post>
+
+     
+       I just finished reading  urlLink  Stupid White Men  . Overall I enjoyed the book. Michael Moore can be hilarious and his politics are pretty much in line with mine. The problem I have with writing like his is that I don't find it all that helpful. I pretty much read the book, chuckled now and then and once in awhile nodded thinking, "No shit."
+
+ But there is a lot of grey area. The book borders on the absurd sometimes and you don't always know when he's being real and when he's just taking a jab. So as far as being able to quote the book as a source, it's almost completely useless. In a real argument over politics I can't come back with, "Yeah, well according to Michael Moore, Bush is only the 'acting president.' You can look it up if you want." I'd sound like an idiot.
+
+ I run into the same problem with  urlLink Noam Chomsky . Even if you don't agree with his politics (as I generally do) you have to admit that man is a brilliant linguist. But he uses a kind of vernacular that renders a lot of his writing useless I think. You have to understand the analysis behind his choices of words. I think read several of his essays before I understood how he could call Clinton a "neo-liberal." I had no idea what he meant. I found that to back up my arguments that were based on his writings, I had to find his sources and apply my own Chomskian analysis so that I fully understood what he meant. Just quoting his writing made me look like a fool.
+
+ I suppose that's what it's all about. Chomsky wouldn't want me just regurtitating his ideas. He'd be the first to say that you should analyze the information for yourself. It's just so damn much work.
+
+ 
+     
+    
+</post>
+
+<date>29,June,2002</date>
+<post>
+
+     
+       A bunch of posts. One, because I haven't posted in awhile and two, because I can't sleep.
+
+ Okay, so you know you hear all the time how ideas and culture are built on the shoulders of our predecessors right? There's a whole contingent that argues against copyrighting for this reason. (At least, they don't want copyright laws any more restrictive. I really don't know enough about the issue to speak without being sophomoric.) Well, I understood this, but it really didn't have any impact on me until earlier this week.
+
+ I realized that humans have had essentially the same brain, physiologically, for at least 250,000 years. We like to think of ourselves as evolving, but evolution works over eons. We haven't evolved much physically for a long, long time. That means the same brain that created the microchip, the microwave oven and the remote control, was banging a couple of rocks together just yesterday in evolutionary terms.
+
+ So our respective cultures evolve. Not us necessarily. It also means I can't really take credit for anything anymore. Just when I was going to stop being humble.
+
+ Okay, I've  got  to go to bed.
+
+ 
+     
+    
+</post>
+
+<date>30,June,2002</date>
+<post>
+
+     
+       Keep an eye on  urlLink this issue . The U.S. has a bad history of intervention in Latin America when they decide to go out on their own. In fact, I can't think of a single Latin American country where we  haven't  intervened at some point. Brazil maybe. Someone  urlLink e-mail me  and tell me if they know of another Latin American country we've left alone.
+
+  urlLink This  sucks. Does anyone know what recourse we have on this one? Who can we talk to about this? Who the hell does  urlLink Bush  think he is? Ask yourself this: Why would we oppose the International Criminal Court? The immunity issue is complete bullshit. The only reason we want immunity is so that we can continue being cowboys all around the world without any recourse. We have a track record of human rights abuses. What we're afraid of is being held accountable. It's egregious, petty and despicable.
+
+ Do me a favor. Write, e-mail and call your  urlLink senators . Tell them to urge  urlLink Bush  to be reasonable. Especially if you don't live in Minnesota. I'm not sure how  urlLink Dayton  feels about it, but I'm pretty sure  urlLink Wellstone  is sane on this issue. Do the same with your other  urlLink representatives . I just did. I'll even help you out. You can use my letter. Just copy and paste below. Feel free to edit it as you see fit:
+
+ Dear [senator or representative from your state]
+
+ I'm taking the time to write to you today about something that I feel is of great importance. It's the U.S.'s opposition to the International Criminal Court.
+
+ I don't feel the issue of immunity for U.S. peacekeepers is a valid one. In fact I think it undermines the entire notion of an international court. I hope you'll urge President Bush to rethink his position.
+
+ Sincerely,
+
+ [etc., etc.] 
+
+ I once took a class with someone who was an aide in the House of Representatives here in Minnesota. He said that in the office he worked in, if they recieved three or more letters on an issue, they at least looked into it.  Three . I don't know if the number is that low in Washington, but by God, someone has to start speaking up about this shit. Maybe someday I'll be able to scrawl "This machine kills fascists" on my computer.
+
+ 
+     
+    
+</post>
+
+<date>01,July,2002</date>
+<post>
+
+     
+       I don't like Microsoft. They're a necessary evil I suppose. At least for now until their replaced by Linux. (I hope they are.) In general they suck. I haven't used a single Microsoft product that hasn't annoyed the hell out of me for one reason or another. That is, with one exception. I still use Internet Explorer. I've tried switching to Opera, or Mozilla, but inevitably I encounter a site that has some crazy detection code and doesn't recognize my browser and tells me I need to upgrade.
+
+ The world at large assumes I'm using either Netscape or IE. They also assume at times that I use a PC. So I capitulate and start using IE, which I think is a pretty good browser. It works well, surprisingly.
+
+ So I was a little surprised when I started getting mail from Microsoft about their new licensing program. It seemed like a veiled threat. The language was pretty innocuous, but something about it freaked me out. Maybe because I only own one Microsoft license. So, I threw it away.
+
+ Today I got another one by 3-day airmail. I'd no more than thrown the damn thing away when I get a phone call from them. They're telling me that I'm "one of their better customers" and so they want to make sure they have all my information correct.
+
+ I'm now more scared of Microsoft than I am of the IRS. It freaks me out that they had my phone number. Why are they calling me? My theory: they're trying to intimidate me into paying them more money. I think my unlicensed copy of Microsoft Word sent some information to ol' Bill Gates himself and since he has virtually unlimited resources, he's about to sick his lawyers on me. I'm waiting for a  Brazil  style raid on my house where they come to confiscate my computer as evidence. (I'm reminded of Jackie Gleason in  Smokey and the Bandit , "This is evidence!")
+
+ Man, if I have the slightest warning I'm going to use my fully licensed copy of Norton Utilities to wipe my hard drive clean right after I delete all Microsoft software. Apparently Norton uses the same method that the CIA does for wiping a hard drive clean so that the data is beyond recovery.
+
+ Incidentally, I heard Bill's dad on MPR last month. He's actually a bit of a Rockefeller style philanthropist. (He's rich too. Tip one for getting rich: have rich parents.) He seemed a little dissapointed that Bill wasn't doing more with his money. He said it would "be a shame" if Bill just left it all to his daughters.
+
+ Come on Bill, loosen up a little. Stop being so fucking greedy. Jeesh!
+
+ 
+     
+    
+</post>
+
+<date>01,July,2002</date>
+<post>
+
+     
+       " urlLink This  is all about government letting corporations get away with things that hurt average Americans and leave taxpayers to foot the bill...It's not just about cleaning up toxic waste, it's about fairness and which side are you on."
+
+ Amen. Once again our compassionate conservative president wants to let corporations pollute and then make the public pay to clean up the mess. They get to ruin our health, communities and the environment while making millions/billions, and we're left with the tab. Well, fuck them.
+
+ Call, write, send e-mail.
+
+  urlLink House 
+  urlLink Senate 
+  urlLink White House 
+
+ Once again, I'll even provide you with the letter. Just copy and paste:
+
+ Dear [senator or representative from your state],
+
+ I'm writing to you about President Bush's proposal to shift the costs of cleaning up Super Fund sites to the taxpayers. I'm adamantly opposed to this. Furthermore, I'd like to see the polluters start paying into the Super Fund once again.
+
+ Corporations should not be allowed to profit while polluting and then have the general public pick up the tab. The responsibility of the clean-up should fall on the shoulders of the polluters whenever possible.
+
+ Please vote against any legislation that would shift Super Fund clean-up costs to the general public.
+
+ Sincerely,
+
+ [blah , blah] 
+
+ Come on! Who's afraid of a presidential "enemy list?" Get yourself into the FBI database. Who knows, with their new powers, they might just crash your next party. It's quite empowering to know that your in some clandestine government database somewhere.
+
+ 
+
+
+     
+    
+</post>
+
+<date>02,July,2002</date>
+<post>
+
+     
+       "Only natural born citizens shall be eligible for the offices of President and Vice President of the United States who are at least 35 years of age and have resided within the United States for at least 14 years. No person constitutionally ineligible to hold the office of President shall be eligible to hold the office of Vice President."  United States Constitution , Article 2, Section 1 and Amendment 12 
+
+ Can we add just a couple more requirements to this one? How 'bout a basic English skills test? I never thought we'd need one, but here are just a few reasons why we do:
+
+ "Shadowy terrorists could hook up with a nation that has got weapons of mass destruction, the nations that I labeled axis of evil, people who in one case have gassed their own people with a weapons of mass destruction."
+
+ "Within this Cabinet department, we're going to have four basic functions. One are borders."
+
+ "We hold dear what our Declaration of Independence says, that all have got  uninalienable  rights, endowed by a Creator." 
+
+ I mean, come on, the man is going to have to do a substantial amount of public speaking. Don’t you think it’s reasonable that he knows how to speak? How did we let this get by us? Since Bush is so gung-ho on testing kids, I propose a rider onto any legislation that requires testing that also requires the president to pass the sames tests. Maybe he's trying to illustrate just how bad the education system is. (Didn't he go to  two  ivy league schools?). Whatever it is, it's embarassing.
+
+ 
+     
+    
+</post>
+
+<date>03,July,2002</date>
+<post>
+
+     
+       If I hear one more person compare their cat/dog to having children I'm going to...I'm not sure what I'm going to do. Blog about it I suppose.
+
+ First of all, if you say that and you don't have kids, you have no right. You have no idea what you're talking about. Just stop. Taking care of a fucking dog is nothing like raising a child or children. You sound foolish. Knock it off.
+
+ If you do have kids and you're saying that, there is something seriously wrong.
+
+ My kids have been going to daycare twice a week for quite a while now. In two more weeks they'll be done and I'll be a full-time stay-at-home dad. I can't wait. I've always felt like a heel sending them off to daycare as I stayed home. I'd much rather spend the day with them. Last year I actually had work to do. I even occasionally met with clients. This year business has been much slower. It looks like I might have some more work in August, but it has been slow.
+
+ So fuck it. I've decided to identify completely as a stay-at-home dad. No more hemming and hawing about being a freelance web designer. I'm a dad. I'm going to spend as much time as possible with my two girls for the next couple of years. (They're 4 and 2 years old.) It's a relief really. I think I'm a better dad than web designer anyway.
+
+ 
+     
+    
+</post>
+
+<date>05,July,2002</date>
+<post>
+
+     
+      "Patriotism, sir, is the last resort of scoundrels." -  Dr. Johnson. Leo Tolstoy 
+
+ I've been ambivelant about Independence Day most of my adult life. As a kid, it meant fireworks. The illegal ones my neighbor had were the most exciting. It usually meant we spent the day with friends. It was a fun holiday.
+
+ As an adult I have a hard time being patriotic. I bristle at the flag-waving style of patriotism that is even more prevelant since 9/11. But the events of September 11 have forced me to reflect on what I  do  like about the United State of America. I've been trying to reclaim patriotism. There are things to be proud of. But how does one celebrate their country while acknowledging its faults? Its brutality?
+
+ So I tried to come up with a list of reasons why I should feel patriotic. The list was pretty short. I couldn't even think of 20. We're just too damn powerful. Too wasteful. Too short-sighted. Too greedy. Too brutal. Too hipocritical. There I go again. It really troubles me that I can't think of more positive things to say about my country. I  do  like it. I guess I just feel so much is taken for granted. Most of the significant historical movements I can think of seem to be corrections for major errors of the past. (The Civil War, The Civil Rights Movement, for example.)
+
+ I decided to do a web search to see of some more patriotic people could give me some reasons. At least, I thought, I could try to refute them. I typed in "reasons to be patriotic." My results were dissapointing.
+
+ 
+  Esquire:Feature Story:42 Reasons to Be Optimistic About...
+ Reasons We're Still Fighting for Choice (and you should, too)
+ BW Online | December 31, 2001 | Art Collectors Get Patriotic
+ Results are the reason
+ Boundless-Oh Say, Can't You See?
+ There Are No Reasons - Journey Into Savagery
+ 71 Reasons to Buy Fabric
+ Patriotic
+ TO BE GOD of ONE WORLD:
+ Modern Car Care 04/2001: How Patriotic Is Too Patriotic?
+ There Are Reasons to Panic Over Panic Disorders
+ Proud to be American ~ In honor and memory of the tragi...
+ PainlessDomains.com: Reasons to Transfer Your Domains
+ There are two primary reasons why public education must change and int
+ 10 Reasons To Stop Eating Beef
+ 5 Reasons We're The Best
+ 15 REASONS FOR BUYING YARN
+ 
+
+ I had some better luck when, on E's suggestions, I just typed in the word "patriotism." The funny thing is, the myriad of web sites that professed patriotism couldn't, or didn't even bother to say why you should be patriotic. One thing they all had in common was that people have died for our freedoms and for that we should all be grateful. They also professed that everyone should similarly be willing to die for their country. (At least some of them professed this.) Now, I'm not going to try to figure out which wars in our history actually involved defending freedom rather than economic interests. Suffice it to say that it's not as many as one might think.
+
+ Interestingly, the anti-patriotism contingent is quite articulate and well-published on the web. Not least of all is the writing of  urlLink Emma Goldman .
+
+ "We Americans claim to be a peace-loving people. We hate bloodshed; we are opposed to violence. Yet we go into spasms of joy over the possibility of projecting dynamite bombs from flying machines upon helpless citizens. We are ready to hang, electrocute, or lynch anyone, who, from economic necessity, will risk his own life in the attempt upon that of some industrial magnate. Yet our hearts swell with pride at the thought that America is becoming the most powerful nation on earth, and that it will eventually plant her iron foot on the necks of all other nations." - Emma Goldman 
+
+ Bjorn sent me a link to  urlLink this article  that suggests humility and reflection on the 4th of July.
+
+ "This Fourth of July, we can challenge the holiday's empty rhetoric. When the politicians talk about being the greatest nation on earth, we can stand up and question the arrogance of such a claim. When they talk about the American commitment to peace, we can ask why the United States leads the world in weapons sales and routinely conducts military operations outside international law. When they talk about the booming economy, we can ask who benefits from the stock market and financial speculation, and who is left behind. Most important, when they tell us that being an American means being loyal to the empire, we can stand up and say, "Enough -- I will be an American no longer.'' Then we can step onto the long road to redefining ourselves." 
+
+ I think I prefer that approach. I hope everyone had a good 4th.
+
+ [I started writing this on the 3rd. I didn't have time to finish my research and publish it on the 4th so I'm posting it belatedly.]
+
+ 
+     
+    
+</post>
+
+<date>08,July,2002</date>
+<post>
+
+     
+       Truck linked to this  urlLink DIY movie  on  urlLink minnesotathinktank . The movie looks awesome! I can't wait until it comes to Minneapolis in August.
+
+ Sometimes I wish I lived a sort of Mike Watt lifestyle. You know, cool bands, playing music for a living, punk rock icon. I guess mostly the playing music for a living part.
+
+ The problem is I'm doing other things. Namely raising two wonderful girls. That pretty much takes up my time. I've made choices that don't allow me to live as independent a life as I once thought I would have. Even though I wish I could be the unattached musician at times, I'm not willing to give up what I already have.
+
+ I've decided I want it all. I've read too many interviews with professional musicians where they've gone through multiple marriages and seem to have a pretty messed-up personal life. I want the family, the house  and  to be a musician. We'll see if I can manage it all. At the pace I'm going, I might be able to be a professional musician by the time I retire. I'm patient.
+
+ On a technical side note, I'm borrowing my sister's iBook for the summer as I've mentioned several times. Today I was using it so I could convert some CD's to mp3's while I was upstairs. (I just ran my computer downstairs into my stereo so I could control my music with iTunes.) All of the sudden both computers started crashing as soon as I even tried to convert a CD. This evening as I booted the iBook to do this blog, I got a warning message that the date had been somehow set to 1972. I looked at my mp3's and they all have modification dates in 2039 and 2040! Even the ones I'd converted previously. Needless to say, I think the weird time difference between the computers was causing the crashes. The ol' network didn't like that too much. I'm not sure why I'm sharing this, except that I find it mildly amusing. I just hope it's a fluke and not a virus.
+
+ 
+     
+    
+</post>
+
+<date>09,July,2002</date>
+<post>
+
+     
+       I was going to start this blog with a fictionalized account for the Israeli-Palestinian conflict as if the U.S. were Palestine. As I wrote it, I realized that I didn't have a very good knowledge of the history of the area. So I decided to do some research.
+
+ I came across  urlLink Palestine, Israel and the Arab-Israeli Conflict, A Primer . I recommend that everyone read it. It dispelled a few myths about the conflict that have come up in almost every conversation I've had about it.
+
+  Myth #1 - The Conflict is essentially about religion and so may never be resolved. 
+
+ Not true. It's a political conflict over  urlLink land .
+
+  Myth #2 - People in that region have been fighting for thousands of years. They just hate one another.  (Or some slight variation on that theme.)
+
+ Actually the source of this conflict can be traced back to Zionism, which wasn't even a movement until the late 19th century. Even then it wasn't an issue until the spread of Nazism in Europe accelerated the emigration of Jews to Israel (which was not recognized yet as a nation) while simultaneously increasing worldwide sympathy for the Zionist movement. (Even among orthodox Jews, who until then had been in strict opposition to Zionism.)
+
+ The point is, that it wasn't  that  long ago. It's a modern conflict.
+
+  Myth #3 - It's the Palestinians who are at fault for their terrorist tactics. 
+
+ While it's true the Palestinians have used terrorist means, it's important to consider the definition of terrorism. (According to  urlLink dictionary.com )
+
+  ter&#183;ror&#183;ism 
+
+ The unlawful use or threatened use of force or violence by a person or an organized group against people or property with the intention of intimidating or coercing societies or governments, often for ideological or political reasons.
+
+ The act of terrorizing, or state of being terrorized; a mode of government by terror or intimidation.
+
+ The systematic use of violence as a means to intimidate or coerce societies or governments.
+
+ By these uncontroversial definitions of terrorism, Israel has used its share of  urlLink terrorist tactics . Including:
+
+ 
+ Collective punishment
+ Deportation of political activists
+ Imprisonment without trial
+ Torture
+ 
+
+ Not only that. The Israelis have done so with  overwhelming force . (At least according to the U.N.)
+
+ The interesting thing is that we're the principle seller of arms to Israel.
+
+ It's strange to me that this is such a major issue in the world today, yet I don't know a single person that has any in-depth knowledge of the conflict. I certainly don't. I got all the above information from the two web sites I linked.
+
+ I don't know how to tie this all in personally for my friends who actually read this blog. I guess...I just think we should be paying more attention. I wish we all knew more, starting with me.
+
+ 
+
+
+     
+    
+</post>
+
+<date>15,July,2002</date>
+<post>
+
+     
+       Wow, it's been nearly a week since I blogged. I don't know what I've been doing. Enjoying the summer I guess.
+
+  urlLink Green Pumpkin  finally has some new clients. I'm going to busier than ever soon. I've gotten so used to not doing any "work" work that I'm going to have a hard time getting motivated. The money sure is nice though. It'll be refreshing too, in a way.
+
+ I installed OS X on my computer last week and I  love  it. It's more stable than OS 9 and looks really cool. I can't wait to get all my applications updated to the X versions. Plus I can open a Unix terminal session  and  Apple gives you all the developer tools you need to start creating your own applications. I'm not sure what I'm going to do with all that, but I'm hoping it will open up a whole new world of geekdom for me. At the very least it will be another distraction.
+
+ I've decided to stay at the coffee shop for a while longer. It may prove to be too much once I start on these  urlLink GP  projects, but for now the extra money is handy. I'm starting to get pretty good on the bar too. I do have some issues though. One, that there are way too many candy coffee drinks (turtle mochas, mint conditions, caramel hirise, light white berries) that are a huge pain in the ass to make, especially when there is a line out the door. Two, I don't always have enough time to focus on making a good drink. Too often it's a sort of assembly line approach to coffee drinks where I'm supposed to serve as many people as possible in as short a period of time as possible. I like it much better when it's slow and I can focus. I don't make as good of tips though, when it's slow, so it's a bit of a catch-22.
+
+ 
+     
+    
+</post>
+
+<date>16,July,2002</date>
+<post>
+
+     
+       Natural, Shua and Truck got a kick out of this story the other night. So I thought I'd share it.
+
+ We were headed to my nephew's first birthday party, which was more of an adult party really, since I was ordered to pick up more beer and ice.
+ I stop in this liquor store in Eagan (where my sister-in-law and brother-in-law now live) and pick up the requisit beer and four small bags of ice as instructed. (K was worried the big bags wouldn't fit in his freezer.)
+
+ While I'm waiting, the owner of said liquor store comes up behind me. "You know, it'd be cheaper to buy one big twenty pound bag."
+
+ He's a potbellied biker sort of guy with a Waylon Jennings haircut and lots of tattoos.
+
+ "Yeah," I mumble, "my brother-in-law wants small bags. He's worried they won't fit in his freezer..."
+
+ At this point the guy looks me straight in the eye, like I've just insulted his family and if I say one more word he's going for the baseball bat behind the counter.
+
+ " That doesn't make any sense ," he says. It's like I'm looking at a biker Clint Eastwood. I'm waiting for him to say, "Any-a-you don't want your asses kicked, best get on out of here." What he does say, in an equally cold tone, is, "Twenty pounds of ice is twenty pounds of ice,  right ?"
+
+ I just mumbled something about following instructions and dutifully turn around and get the one big bag of ice.
+
+ 
+     
+    
+</post>
+
+<date>23,July,2002</date>
+<post>
+
+     
+      Where the fuck are we?  urlLink Nazi Germany ?
+     
+    
+</post>
+
+<date>24,July,2002</date>
+<post>
+
+     
+        Truetone's Tips for the Socially Inept 
+
+ I have a few friends (who actually don't read this (I don't think)) who occasionally annoy me. The thing is that they're good friends and I love them, but they need to brush up on their social skills a little so they don't inadvertantly offend people. (Like me.)
+
+  Don't give parenting advice. Especially if you haven't had young children yourself within the last five years. 
+
+ If you haven't had kids recently, you've forgotten what it's like. Even if you have, parents don't really want your advice. They may ask for it, but if your advice contradicts their own ideas, they'll only be offended. Don't fall into this trap.  Never  give out parenting advice. You're asking for trouble.
+
+  Don't criticize someone else's driving. 
+
+ Everyone thinks they drive better than everyone else. I don't care if they drive 90 mph in the left lane. They think they're a better driver than you. Driving, for whatever reason, is a very personal issue. Second only to parenting.
+
+  Never criticize someone else's family 
+
+ I don't care if you're talking about their spouse, their parents, sisters, brothers or kids. They will always be defensive. At least initially. Kids are a big one. If you insult someone's kids, you're insulting them. Don't do it. People will like you better.
+
+ That's all for now. If I think of more I may post them. For now I'll let you all digest this.
+
+ 
+     
+    
+</post>
+
+<date>24,July,2002</date>
+<post>
+
+     
+       I've been having a lot of trouble with blogger lately. As soon as I get up to speed on mySQL, I'm going to move this somewhere else. Thanks Bjorn for the tips on installing mySQL and PHP on OSX.
+
+ 
+     
+    
+</post>
+
+<date>31,July,2002</date>
+<post>
+
+     
+       Monday, July 29, 2002 - 10:15 a.m.
+
+ I'm singing Bill Monroe's "Remember the Cross" in front of the congregation of the Roaring River Baptist Church in Eagle Rock, Missouri (pronounced by the locals as "Missour a "). How did I, the consumate atheist, end up singing a country gospel song in front of a bunch of Southern Baptists? It's been a long road.
+
+ In fact, I don't even know where to start. For years now I've been a huge fan of traditional country and old-time music. A couple of years ago I brought my guitar to E's family reunion on her dad's side. I soon found out that the music I'd been studying and listening to for years was the music that they'd grown up with. So it wasn't a big surprise that they asked me to sing at the funeral. Especially since they're all in denial about the fact that E and I are atheists. I'd liked E's grandfather and despite the fact that all of her aunts and uncles were super-Christian Republicans, I like them. They're nice friendly people and we can avoid rolling eyes as long the discussion doesn't turn to politics. (Or religion.)
+
+ Plus, her aunts are tough. I know where E gets it. You don't say "no" to them.
+
+ Actually, I was honored to be asked to sing a song that I know Ray E. Skelton would have enjoyed. So I, of course, said "yes."
+
+ I don't really consider it hypocritical. I  am  a huge Bill Monroe fan. I love bluegrass. I'd enjoyed the small amount of time I'd spent talking with E's grandfather over the last few years. For me, it was for him. I wasn't preaching (even though the song is overtly Christian (Remember the cross on which Jesus died...He shed his blood for you and he shed his blood for me...)) I was singing an old country song in honor of a man who'd helped raise 10 kids on a Missouri dirt farm. (They  all  graduated from college. All of them are sucessful.) He was an activist for the democratic party in his community and only converted to Christianity at the age of 77. (He died at the age of 91.)
+
+ As I knew him, he was friendly, humorous and a good story teller.
+
+ The farm that's been part of the Skelton family for over 100 years will now be sold. Rest in peace Ray. It was nice knowing you.
+
+ 
+     
+    
+</post>
+
+<date>02,August,2002</date>
+<post>
+
+     
+       I'm moving my blog. Watch for it  urlLink here . 
+  
+     
+    
+</post>
+
+<date>20,August,2002</date>
+<post>
+
+     
+      The blog has  urlLink moved .
+     
+    
+</post>
+
+
+</Blog>

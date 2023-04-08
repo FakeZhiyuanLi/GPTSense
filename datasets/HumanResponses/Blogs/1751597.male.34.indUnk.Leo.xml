@@ -1,0 +1,848 @@
+<Blog>
+
+<date>16,June,2004</date>
+<post>
+
+     
+      Recently, I have been running into some problems with XML Serialization in VB.Net.  I suppose this would apply to C# as well, but I don't do that.  Anyway, at work, we've been trying to get ourselves integrated with Amazon.com.  We're going to be selling our wares there.  It's very exciting but VERY frustrating too.  Amazon requires merchants to send up XML documents (feeds) to describe things like products, prices, inventory levels, etc...  The problem though, is that they don't appear to be using the XML as data.  They take the XML and parse it apart as a string.  As such, the XML elements have to be in a very specific order.  If you send some element in the wrong place, Amazon chokes and rejects it!  What a PAIN!!  I have created a number of classes which correlate to the various Amazon feeds.  It's a thing of beauty.  One of the feeds I was working with was the OrderAcknowledgement feed.  My initial class definition was as such:   &lt;Serializable(), XmlRoot("OrderAcknowledgement")&gt; _ Public Class OrderAcknowledgement     Public AmazonOrderID As String     Public MerchantOrderID As String     &lt;XmlElement("StatusCode")&gt; Public Property StatusCode() As String         Get             Return _StatusCode         End Get         Set(ByVal Value As String)             Select Case Value                  Case "0"                       _StatusCode = "Success"                  Case Else                       _StatusCode = "Failure"             End Case         End Set     End Property     &lt;XmlElement()&gt; Public Item() As structOrderAckItem     Private _StatusCode As String End Class  Public Enum StatusCodes As Integer      Success = 0      Failure End Enum  Public Structure structOrderAckItem     Public AmazonOrderItemCode As String     Public MerchantOrderItemID As String End Structure    The rationale for my use of a property is that I wanted to have an enumeration for the Status Code value (Success/Failure) but Amazon requires me to send up the actual string value of "Success" or "Failure".  The solution I came up with works just fine for that.  As you can see, the StatusCode property lies before the Item array.  However, when this would serialize, the StatusCode element would output AFTER the Item array.  DAMMIT!!  Searching on Deja (a.k.a. Google Groups) and Google, it appears that there is no way to control the order in which the elements are serialized.  According to one post, it might be the case that in the next release of .Net you can but a)  I don't have that release, b)  I can't wait for that release and c)  it might be in there which means it might not be in there either.  As a last ditch, I posted a note up on the Microsoft.public.dotnet.xml newsgroup asking for help.  Dino replied back to me in very short order!  Thanks 10^6 Dino!!  His reply was:   if you convert the StatusCode to a field and not a property, what happens? I think xml serialization is done in this order:   all public fields, in the order they are defined   all public properties, in the order they are defined  So if you have all fields or all properties, then the order the elements appear in xml serialization is just as they have been defined in source code. If you have a mix of fields and properties, then the order for xml serialization is different than the order as declared in source code.   Sure enough, when I converted the Status code property to a simple field of type Statuscodes the element was placed correctly.  When I did some more research, I found that if I added the   attribute before the enumeration value, I would get the name of the enumerated value instead of the value.  THIS was what I was looking for!  Here's the updated code:    &lt;Serializable(), XmlRoot("OrderAcknowledgement")&gt; _ Public Class OrderAcknowledgement    Public AmazonOrderID As String    Public MerchantOrderID As String    Public StatusCode As StatusCodes    &lt;XmlElement()&gt; Public Item() As structOrderAckItem End Class  Public Enum StatusCodes As Integer     &lt;XmlEnum()&gt; Success = 0     &lt;XmlEnum()&gt; Failure End Enum  Public Structure structOrderAckItem     Public AmazonOrderItemCode As String     Public MerchantOrderItemID As String End Structure     I hope this helps someone out there.  If you're having troubles getting yourself going with Amazon and XML feeds with VB.Net or C#, believe me, I feel your pain.  I'll continue to post items here as I discover them.    MCN
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+     
+      It was suggested to me by my good friend Dino Chiesa at Microsoft that I create a blog of interesting things I discover during the course of my programming endeavors.  I guess that's a good idea.  After all, if others can save time and hassle by reading my posts, all the better for all of us!
+     
+    
+</post>
+
+
+<date>22,August,2003</date>
+<post>
+
+    
+       Today's run sucked.   OUCH!  My legs have been aching (the bones) for most of this week and today it finally caught up with me.  The worst part of it is that while I was running today, things were going well.  I wasn't particularly tired or out of breath.  The pain in my shins became unbearable though.  Recalling several bits of advice I've read I just walked most of the way.  It was forward motion which is the most important thing.  I'll rest over the weekend and look forward to a good run on Monday. 
+    
+    
+</post>
+
+<date>21,August,2003</date>
+<post>
+
+    
+       I had a slightly better run today despite the fact that it's still a freakin' inferno outside.  I think taking it easy yesterday helped.  Plus I started off kinda slow today.  The times that I did run were split between my regular "trot" and striders.  (Striders are just short bursts of faster running with an emphasis on long strides.)  I made good time today but was sweating up a STORM.  Another thing I noticed was that the heat really is a killer...  When I was running in the shade, I was making good time and the running was.... well, not easy, but easier.  But when I got out into the open sun with no shade, I could literally feel the energy being sucked out of my legs.  Despite having a bunch of  urlLink scotch  last night, not enough sleep and a McBreakfast this morning, I'm pleased with my run. 
+    
+    
+</post>
+
+<date>20,August,2003</date>
+<post>
+
+    
+       God... what a sucky run today.  It's gotta be 1,000,000 degrees outside and SUPER humid.  I did way more walking than running today so that I wouldn't overdo it in the dangerous heat.  Plus my shins have been hurting too.  When the temperature cools down a bit I bet I run better.  
+    
+    
+</post>
+
+<date>19,August,2003</date>
+<post>
+
+    
+       Another good run today.  I ran in my red running shirt.  It's not dri-fit like the white one but it was still good. 
+    
+    
+</post>
+
+<date>18,August,2003</date>
+<post>
+
+    
+       Crap.... I just lost the post I was working on.  I'm not in the mood to retype it.  I had a good run today (despite what I put in my earlier post).   
+    
+    
+</post>
+
+<date>15,August,2003</date>
+<post>
+
+    
+       Ooo... had a pretty good weekend.  Spent a lot of time in the  urlLink pool .  Yesterday was our 7 year anniversaray.  Flight Control and I went to  urlLink Timber Lodge  for dinner and then to see  urlLink Pirates of the Carribean .  At dinner I had a 14oz strip steak and a Paul Bunyan Onion.  Today, my belly is reelin'.  Ugh... this is gonna be a rough run today.  I'll let you know how it goes. 
+    
+    
+</post>
+
+<date>15,August,2003</date>
+<post>
+
+    
+       Holy macaroni... today was kinda harsh.  I'm blaming it on the incredible heat and humidity.  That plus the fact that since today is Friday, my legs are weak (having been beaten all week long).    I got a  urlLink Nike Dri-Fit shirt  from  urlLink Champs  last night.  The idea behind the shirt is that the material it's made from will wick the sweat away from your body keeping you dry and cool.  That's either a) a load of crap or b) scary to think of how my run would have been without it.  I was pretty dry on my body but the sweat was POURING off my balding head.  Ick...  Anyway, considering the head/humidity and the state of my weary legs, it was another decent run.  I'm thinking there might be something to the  urlLink Powerbars . 
+    
+    
+</post>
+
+<date>14,August,2003</date>
+<post>
+
+    
+       Addendum... according to  urlLink Powerbar ... Powerbars should be eaten "30-45 minutes before activity along with 8-16 ounces of water or other fluids. This will help you absorb nutrients and maintain hydration. For events that last more than one hour, eat one PowerBar® Performance bar for each hour of activity."  Hmm... I'll continue to experiment and find out what's right for me. 
+    
+    
+</post>
+
+<date>13,August,2003</date>
+<post>
+
+    
+       I had a dream last night.   I don't remember much of the details of it but I remember this...  I was running.  I wasn't really prepared for it but I had a purpose.  Was I chasing?  Was I fleeing?  Did I need to be somewhere in a hurry?  I don't recall.  I do recall that it was a college campus but not my alma mater.  I recall that my shoes weren't running shoes, my pants weren't running pants, my shirt... I think I was wearing a dress jacket.  Despite all of that though, I was running... and I felt great.  The running was easy.  I wasn't breathing hard.  I felt like I could run all day long.  Oh my goodness... does this mean I'm  urlLink becomming a runner ?  Today's run was pretty good.  Considering that the past two days were relatively long runs and it's been getting hotter and hotter and more and more humid, today was pretty good.  I also overcame two... hurdles, if you will.  Since it was so hot and humid today, I ran for a few stretches with my shirt off.  That wasn't quite as effective as I would have thought.  Hmm... anyway, the other hurdle was showering at work.  I was so sweaty and icky yesterday that I knew I had to do something.  Today I was even more slimey.  A nice cool shower after the run felt really good.  However I think I should have stayed in the shower longer as I was sweating rivers again by the time I was dressed.  Weird.  I had steak for dinner last night.  I'm trying to teach Da Boyz about nutrition (me... teaching nutrition... ha!).  The oldest boy knows that carbohydrates are good for energy, protein is good for muscles, fruits and veggies are good for not getting sick and fat is good for skin and hair.  Anyway... in accordance with lots of news coming out lately, high protein/low carb diets seem to be good.  So I had steak last night.  I've also been munching on  urlLink cheese popcorn .  I had today's  urlLink Powerbar  about half an hour before running.  I might move it closer... like 20 minutes.  Also, despite different wrappers, I think they're all the same as the Peanut Butter, Vanilla Crisp and Oatmeal Rasin  urlLink Powerbars  all taste exactly the same.   
+    
+    
+</post>
+
+<date>13,August,2003</date>
+<post>
+
+    
+       Today's run was okay.  After my run yesterday, I had a few handfulls of sunflower seeds.  For dinner I had Flight Control's Spanish Rice.  I followed that up with some snacks (a bowl of frozen fruit and a few cookies).  This morning, I had two chocolate doughnuts on my way in.  I had my Powerbar abour 30 minutes prior to my run.  (screw that 45 minutes stuff).  Today was much warmer than yesterday.  Plus, yesterday I ran more than I normally do.  Considering those facts, today was a decent run.  I didn't run as far as I would have liked but I ran as much as I expected... how's that for some Mark-ism?  Look at it this way... my route is 2.5 miles.  Yesterday (a good run) I ran straight (except for the looney old guy) for a mile... walked to University Ave and then ran a bunch before finally walking back.  Today, I ran for about 3/4 mile walked a little, ran again for 1/2 mile, walked a bit, ran a bit, walked a bit, ran a bit and then walked back.  Does that make sense?  I'd like to get a Heart Rate Monitor.  I read about a good strategy for training.  It works like this... figure out your max heart rate (for me it's 188bpm).  Then when you train, run until your heart rate is 75% of max then walk until you're down to 65% of max then run up to 75%, walk down to 65%, etc...  As you train more and more, you'll run more and walk less.  A heart rate monitor would be a handy thing for that.  I'm also beginning to get desparate for new shoes.  I might check out other shoes than the New Balance I have now. 
+    
+    
+</post>
+
+<date>12,August,2003</date>
+<post>
+
+    
+       Whew... I haven't posted in a few days (despite my previous post) but today warrants a post.  I've decided to start experimenting with my runs.  I'm going to try to keep an eye on what I eat and note how I run to try to derive a correlation and figure out what works best for me.  I skipped running on my birthday (8/7) so I could go to lunch with my buddy Ryan.  BIG MISTAKE.  I had a big fat burger with bacon on it.  Then I had a 20oz steak for dinner.  Both of those on top of skipping a run spelled DISASTER for my run on Friday.  Friday's run sucked.  I had planned on running Saturday to make up for skipping Thursday but since Friday's run sucked so bad I decided to take the weekend off (as I normally do).  Having skipped the weekend, I was hoping for another awesome run on Monday.  My mondays are usually very strong since I'm fresh off the weekend.  It wasn't to be though.  Flight Control, the boyz and I went up to the Dells on Sunday and I got burnt to a crisp.  As a result, Monday's run was quite painful.    I didn't think it would be possible for me to get worse sunburn overnight, but my burn today looks worse than it did yesterday.  It still hurts too.  Today was the first day of my experiment.  I had a big dinner last night including lots of snacks (chips/salsa, cheese/sausage), steak and Micah's Broccoli Dish.  Then this morning I had a Powerbar at 10:15.  I went for my run at 11:00 (45 minutes later) and had a really decent run.  I got stopped by some old codger after about 100 feet but beyond that the run was really pretty good.  For the rest of this week, I'll have my Powerbars 45 minutes before my run.  Next week, I'll move it up to 30 minutes prior to run time. 
+    
+    
+</post>
+
+<date>06,August,2003</date>
+<post>
+
+    
+       Greetings... I don't really have much to say today but I'm hoping to make a habit out of posting here.  Having a public journal might be theraputic.    Tomorrow is my birthday and I'm planning on going to  urlLink Red Robin  for lunch as a special treat to myself.  I've invited a friend of mine to join me.  I haven't seen him in quite a while.  We'll see if he decides to come or not.    I thouroughly (sic?) kicked my brother's @ss in  urlLink Mechwarrior 4: Mercenaries  last night.  :-D   
+    
+    
+</post>
+
+<date>05,August,2003</date>
+<post>
+
+    
+       Flight Control and I are going to be going to see  urlLink Dave Attell  and Lewis Black on September 19th.  Hee hee!  I'm in the mood for some good laughing! 
+    
+    
+</post>
+
+<date>05,August,2003</date>
+<post>
+
+    
+       Well well well... this is interesting.  I'm just trying this stuff out so pardon me while I make a TON of entries into my Blog.  This has been facilitated by the Google Toolbar.  It has a nice little "BLOG" button for you so anytime you're at a site, you can make a blog button about it.  Nice.    I work for Full Compass Systems.  If you visit our web page by clicking the following -  urlLink Audio Equipment - AV, Video & Lighting Equipment Sales  - you'll see some of my nice work.  Bye bye for now. 
+    
+    
+</post>
+
+<date>24,September,2003</date>
+<post>
+
+    
+       I haven't updated the blog in a while.  Last week, we moved the IT department.  No running then since we were busy carrying furniture, etc.  On Friday we were still sore from moving and then still busy unpacking.  This week I haven't run at all.  I went bowling on Sunday and gave my right thigh a helluva workout.  It's still sore; sore muscle sore... not  urlLink pulled groin  sore.  On Monday, I could barely manage stairs at all so I figured that running wouldn't be helpful.  Yesterday, I skipped running because I had to take Turbo to school.  Today I'm skipping becuase I have a  urlLink certification test  scheduled for this afternoon.  Depending on how I feel tomorrow, I might get back to it.  Does anyone actually READ this Blog or am I posting here for my own health and therapy?   urlLink Drop me a note  if you actually read this thing.  You can reach me at  urlLink markn@iwon.com . 
+    
+    
+</post>
+
+<date>17,September,2003</date>
+<post>
+
+    
+       The IT department at  urlLink Full Compass  is moving over the next two days so I will not be running until next Monday.  Today's run was okay.  I didn't run as much as I wanted but I ran further than I thought I would.  My calves hurt today.  Not my bones.  I think breakfast helps.  I had a muffin (vendor supplied) today. 
+    
+    
+</post>
+
+<date>16,September,2003</date>
+<post>
+
+    
+       Today's run was actually pretty good.  I ran a good bit of the time; more than usual.  On the way out, the weak link was my cardio-vascular/resperatory.  Literally, I just couldn't breathe deep enough and fast enough to keep up.  That hasn't happend in a long time.  I stopped running but kept moving forward.  While I caught my breath, I developed a pain in my right shin bone.  That was the bottleneck the rest of the time.  I was able to work around that a bit though by running slowly and gently.  There's no doubt that new shoes would help but I got no cash for that.   
+    
+    
+</post>
+
+<date>15,September,2003</date>
+<post>
+
+    
+       Mark Charles Neustadt It's Running Farther that counts Don't you give up now  These are the things that keep me busy while I'm out.  Today, it was much cooler than it has been in quite some time.  Nevertheless, I sweated quite a bit.  Plus, my shins hurt.  The bones, not the muscles, ligaments or tendons.  I'm curious to see how I run tomorrow.    So many things to buy, so little money.  Priorities become important and sacrifices... well sacrificing for the important things make things easier to bear.  No shoes or glasses for a while.  There are other things to spend money on. 
+    
+    
+</post>
+
+<date>12,September,2003</date>
+<post>
+
+    
+       I swear... the rain started the moment I stepped out the door and stopped the moment I got back in.  How does this happen?!  Anyway, today's run was MEGA-CRAP, however I have multiple excuses you can pick from.  First of all, it's Friday.  Fridays are always rough since it's the last run of the week.  Speaking of runs this week, I have also been doing that new route which has really taken a toll, so on top of it being Friday, the runs this week have given me a double whammy.  To add to all that, I went to the Verona Dog Park with Cedar last night and went for an additional two miles on top of yesterday's run.  Add all that up and today's run sucked.   
+    
+    
+</post>
+
+<date>11,September,2003</date>
+<post>
+
+    
+       My thighs have really taken a beating this week.  It's going DOWN the hills that whacks me.  Oh well... maybe tomorrow I'll go back to the old route. 
+    
+    
+</post>
+
+<date>10,September,2003</date>
+<post>
+
+    
+       This is supposed to give me the opportunity to have a "Comments" link.  
+    
+    
+</post>
+
+<date>09,September,2003</date>
+<post>
+
+    
+       Today was a better run than yesterday.  First, a correction.  The new route is 3.4 miles; not four miles.  It's still a full 5K but it's not as impressive as saying "I run four miles a day".  Whatever.  Yesterday, I ran the route in an hour and five minutes.  Today, it only took 50 minutes.  My legs are sore and will probably be worse tomorrow, but I think the hills are helping me.  My feet didn't hurt today and my back (right side of the spine right at the "bra line" only began hurting toward the end.  I got "gas pains" in my side and shoulder like I had yesterday but not so bad.   
+    
+    
+</post>
+
+<date>09,September,2003</date>
+<post>
+
+    
+       Sorry I haven't posted in so long.  Last week, we were at  urlLink Disney World .  We got back on Thursday and I was in no condition to run on the Friday afterwards.  Then I took the usual weekend off.  Yesterday I had an appointment to get the 15,000 mile service done on my car.  So today was my first run in quite a while.  I decided to go on a new route.  The old route is about 2.6 miles.  I leave from  urlLink Full Compass , head down Terrace, then down South to Park.  Up Park to University and then down to Parmenter.  Parmenter to Terrace and back to  urlLink Full Compass .  This new route is much closer to four miles.  I leave Full Compass, and head up High Point all the way to Old Sauk.  Turn around and come back.  It's nowhere near as flat as the other route and it's much longer.    Just remember.... slower and farther, slower and farther, slower and farther.  So considering that it's been so long since I ran and it's a hillier, longer route; it wasn't a bad run today.  Overall, I didn't run as much as I would have liked, but it'll come.  I'm afraid I really will need new shoes soon.  My feet were in pain from the pounding.  My overall sucky fitness was the (usual) bottleneck, but my feet really did hurt. 
+    
+    
+</post>
+
+<date>23,October,2003</date>
+<post>
+
+    
+       The good news:  Running from Full Compass to the end of South is 1.6 miles.  My first shot at it came in at 24:10.  My second try was 23:11 (or so).  Today was 22:48.  I'm getting faster.    The bad news:  My shins really hurt today.  While I coverd the 1.6 miles in 22:48, coming back took about 30 minutes.  My total time was 53:25.  Slow.    Tomorrow is rest and then on Saturday I'm supposed to cross-train.  I'm not sure what I'm supposed to do.  Sunday is supposed to be 70 minutes of running.  Ooo...  
+    
+    
+</post>
+
+<date>21,October,2003</date>
+<post>
+
+    
+       I don't live in a huge neighborhood but that didn't keep me from getting lost on Sunday night.  Flight Control has a cold or something and wasn't feeling well.  She asked me to take the dog for a walk on Saturday night and she'd put the boyz down.  I obliged (since I hadn't run on Friday) and went for a nice long walk.  It was good.  On Sunday, she still wasn't 100% so I took the dog again.  In the spirit of going farther and farther, I decided to take a diversion.  I thought it was going to be a short little diversion.    BOY WAS I WRONG!  Whoa... I ended up WAY the hell over in a totally different (and much nicer) part of the neighborhood.  I didn't even know those houses were there!  So anyway, I ended up being out a lot longer than I had originally planned.  Oh well...  No running yesterday, but I did go out today.  54 minutes and 55 seconds later, I am back.  Considering it's only about 3 1/2 minutes longer than my previous entry, I am pleased at how much farther I went.  Still, I should go longer, not necessarily farther. 
+    
+    
+</post>
+
+<date>15,October,2003</date>
+<post>
+
+    
+       Today's run was okay.  In the spirit of going longer and farther, not faster, I am now running "out" for a certain amount of time and then running back.  Today was a 51 minute 17 second round trip.  Right after I turned around to start coming back, I got a terrible case of "buttercrack".  For those of you who don't know what buttercrack is, prepare to be enlightend.  When a body endures a certain amount of physical exertion (such as moving or exercising), the body will heat up.  This is the same heat that causes the body to sweat.  Sometimes, the body under pressure will have an  event  in the area of the crackus-maximus.  The event is usually small and goes unnoticed.  The problem is that with the event comes a small amount of... how to put it delicately... poo-spray.  As the poo-spray sets in the crackus-maximal region, the heat (and sweat) start to go to work.  The result is an uncomfortable lubricating effect.  Buttercrack.  This is exacerbated by the motion the body is undergoing.  Sometimes on a hot day, the "butter" can seem to foam-up.  That's yucky.  So anyway, today I got a nasty case of buttercrack as I was about two miles out.  The whole rest of the time back was spent dwelling on how icky it felt.  Blek...  The strangest part of it was that I didn't feel a backfire from my exhaust pipe.  I think I have a leaky o-ring. 
+    
+    
+</post>
+
+<date>13,October,2003</date>
+<post>
+
+    
+       Two things...  well, at least two things.  First, I finally got new shoes.  My brothers-in-law both ran in the  urlLink Chicago Marathon  over the weekend.  Both finished in around 4 hours 20 minutes.  Congratulations Bob and Steve!  Anyway, the day prior to the run was a big convention for running, runners, etc...  There were lots of booths with freebies and gear for sale.  One booth was for New Balance.  I currently have the  urlLink NB 854  shoe.  I like it a lot but as you can tell from my previous posts (which were quite a while ago... more on that later) they're in need of replacement.    I did some research and it looks like the shoe I need is the  urlLink NB 855 .  It's an update of my current shoe.  The 855 has an MSRP of $95.  I called over to Morgan's Shoes here in Madison and asked about it.  They had the shoe in stock but were listing it at $115 (or so)!  Yikes!  Who do they think they are?!  I called around some more and found that  urlLink Movin' Shoes  (also here in Madison) sells the shoes for $85.  That's more like it.  I was all set to go but just never did.  Don't know why.    Anyhow...  So here we are at this running convention and they have the New Balance store.  I look in there and lo-and-behold.  They have the 855 for   $75.  Just as God told me to buy the WRX (that's another story), I figure God told me that I'd had enough of a running break and that this was the time to get back to it.  We bought the shoes and I ran with them today.  Okay... so today's run was on brand new shoes.  These shoes are exceptionally stiff.  They're like standing on boards.  They Abzorb in the heel isn't broken in yet.  Yadda, yadda, yadda... as a result, today's run was pretty rough.  I got a nice little pinch happenin' in my right foot.  Plus, as a result of taking roughly three weeks off, I am out of shape again.  Yuck.  I CAN NOT let myself slip on moving forward again. 
+    
+    
+</post>
+
+<date>02,October,2003</date>
+<post>
+
+    
+       This recipe is from my in-laws.  It's gooooood.   GRANNY'S BEEF LOG   5 lb          ground chuck 5 tsp        Morton's Tender Quick curing salt 2 1/2 tsp   Lawry's Seasoned Pepper 2 1/2 tsp   garlic salt 2 1/2 tsp   mustard seed 2 1/2 tsp   Liquid Smoke  Mix together and refrigerate in bowl covered with plastic wrap. Each day for three days mix well. Cover and refrigerate. Last day make into logs, put in broiler/roasting pan and bake 7 1/2 hours at 200 degrees. Wrap in paper towels to absorb grease.  Let sit 15 minutes. Remove paper towels and wrap in foil. Will keep in refrigerator 3 weeks or can be frozen.  Makes 5 one pound logs.  
+    
+    
+</post>
+
+<date>06,February,2004</date>
+<post>
+
+    
+       I have no new news to report.  This entry is primarily because I don't want this BLOG to get deleted due to inactivity. 
+    
+    
+</post>
+
+<date>27,April,2004</date>
+<post>
+
+    
+       So I haven't been running.  I  HAVE  been sick... I have this nasty cough and... well, I'm lazy too.  Plus it's been cold and rainy.  My daily emails come from TrainingBible.com but forget it...   Today, I walked.  I walked down to Park Street and back.  I don't recall exactly how far that is but I'm guessing it's in the two mile range.  It took me 40 minutes (or so) and I walked at a stiff pace.  That was okay but it's still freakin' cold out.  And windy.  Plus, I was not wearing my "good" shoes.  I walked in my work shoes.  I won't be doing that again soon. 
+    
+    
+</post>
+
+<date>12,April,2004</date>
+<post>
+
+    
+       I am back into it.  I start running... well actually, my training program starts today, but Mondays (and Fridays) are a day of rest.  So my feet hit the pavement tomorrow.  I found a great outfit called  urlLink TrainingBible.com  where they have a service you can subscribe to.  That service will send you daily emails telling you what you're supposed to do today and what you can expect for tomorrow.  Giddy up. 
+    
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+    
+       I'm making good progress!  I have been hauling these 15 pound dumbbells around for a while now.  At first I thought the things were gonna pull my arms out of my sockets!  But slowly, they're not getting to be so bad.  Sure, they're still heavy but they're not distressingly so.  Today, the worst was in my right forearm.  It was hard just hanging on to the thing!  The definition in my arms is getting better... almost surprisingly so.  At least it's surprising to me...  "Hey!  Who put those arms on Mark's body?".  Actually, my pants are starting to fit funny too.  "Hey!  Who put Mark's head on that body with those arms?"   My pulse at rest is now 64 beats per minute.  That's gotta be some sort of record for me.   
+    
+    
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+    
+       I just got back from walking the dog.  It's amazing how much easier walking is when I'm not lugging around those dumbbells.  :-) 
+    
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+    
+       Hachie Machie!  Holy Mary Mother of God...   Those two 8 pound dumb bells weren't providing me with enough of a challenge.  In retrospect, I probably should have picked up the 10 pounders to start with.  I went to Shopko to pick up a set of 12 pounders only to find out they didn't have any.  I suppose I could have shopped around to find some or I could have looked for a variable set, but I didn't.  Since I reasoned that I should have picked up the 10 pounders to begin with, I went right for the 15 pounders.     UGH!   That is a hell of a change!  Wow man... jumping from 16 extra pounds up to 30 extra pounds is not a small difference!  Even so, I did the whole two mile course and I even made good time... 37 minutes.  Fortunately for me, I had sense enough to change into shorts and a t-shirt for the walk.  It's a good thing too... I wasn't even half way out before I was sweating like crazy.    When I got back, I showered up and then had my lunch.  Eeesh.... Let's hope I don't outgrow these 15 pounders too soon.  It would be cool to be hauling around a bunch of extra weight while I walk but I gotta take it slow. 
+    
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+    
+       Here's a test post submitted via email.  How cool is this?   
+    
+    
+</post>
+
+<date>03,May,2004</date>
+<post>
+
+    
+       I'm really just posting this post to check out the new  urlLink Blogger  interface.  I read about it in  urlLink MSNBC .  This is really sweet.  If anyone out there is reading this blog and thinks they'd like to try their own hand at it,  urlLink Blogger  is a great and simple tool.  I recommend it.  I suppose I ought to put in something about walking/running.  Um... I walked four miles yesterday, with weights both times.  The weights are getting easier but I'm not going to upgrade them for a couple of weeks.  I still look like a complete tool, but I don't really care. 
+    
+    
+</post>
+
+<date>03,May,2004</date>
+<post>
+
+    
+       Well, I gained 16 pounds when I go walking.  I picked up a pair of 8 pound dumb bells to carry when I go walking.  WHOA... 8 pounds per arm really adds up at the end of two miles.  Plus I think I look like a moron walking around with these things.  I guess that's better than walking around with milk jugs or cinder blocks.  I've used the weights for a couple of days now.  Hopefully after doing this for a few weeks or months, I'll be able to upgrade myself to 10 or 12 or 15 pounds.    This changes my walks from "getting out and getting active" to an actual workout.   
+    
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+    
+       It was a hot one today.  I still made pretty good time and the 15 pounders only really start getting heavy after I've been out a while.  I still look like a moron (people are staring) but I'm looking like a thinner moron.  My clothes fit funny now.  Flight Control told me I had to go buy some new clothes because it looks like I'm wearing someone else's clothes.  :-)    I'll reward myself with some new clothes when I hit my next goal.  That's about 4 pounds from now.  We'll see how it goes.   
+    
+    
+</post>
+
+<date>02,June,2004</date>
+<post>
+
+    
+       It's been a while since my last post.  I skipped the heavy weights yesterday and walked the pooch while only carrying the 8 pounders.  On Sunday, I walked a total of six miles and didn't use the weights at all.  Looks like two days of rest was beneficial because today was noticably nicer while hauling around those 15 pounders.  Sadly though, it was shown that I'm not quite ready to be turned loose in social eating situations.  I was at a family gathering last night and there was some really tasty shrimp and chips and taco dip.  Mmm.... I did a good job of making sure that there weren't many left overs.  Sadly though, this morning the scale reminded me of my indulgence from last night.  Ooo....   Oh well... it's a life style thing.  Every once in a while you gotta be able to reward yourself.  I've been really good for a long time so last night's excursion can be forgiven.  I just can't do that kind of thing too often.    
+    
+    
+</post>
+
+
+<date>27,June,2004</date>
+<post>
+
+
+       
+       urlLink    Tree fishing...&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+
+       
+       urlLink    What a natural!&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+
+       
+       urlLink    Poppa Jim and the boy&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+
+       
+       urlLink    Poppa Howie and the boy&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+
+       
+       urlLink    Daddy and boy part 2&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+
+       
+       urlLink    Mayberry?  Where's Opie?&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+
+       
+       urlLink    Daddy and boy&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+
+       
+       urlLink    Reeling it back in&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+
+       
+       urlLink    The first time he held his fishin' pole.&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+
+       
+       urlLink    The Chicago Bears newest fan&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+
+       
+      This is a simple way of having photos be posted for everyone to see.  I hope it works well.
+     
+
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+
+       
+       urlLink    Andrew really needs to get more serious about things.&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    This is a nice picture&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    What is going on there?&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Father and Daughter&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Chatting up the action&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Relaxing afterwards&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    I think David might be about ready to crack a smile here.&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Nice look of surprise there.&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    You gotta be precise&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Another windup (a la Babe Ruth)&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    The new Spiderman Villain?&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    The winning foursome&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    A.J. our caddy&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    The power of the drive shattered this tee&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    This is the single best shot I've ever had or ever will have&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    I'm not sayin' he's old, but is that a cane?&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Notice the perfect form&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    The wind up&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Talkin' smack&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    David checks out his new toy.&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Hi everybody!&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Riding a two wheeler is AWESOME!&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Here I come again!!&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Whooooaa...  WHOA!!  Ooof!  &nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Zoom!&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Making the turn&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Hopping on&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Bent Training Wheels&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    I'm okay!!&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Movie Test&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    Getting ready&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+
+       
+       urlLink    More bent training wheels&nbsp; urlLink   
+     
+
+    
+</post>
+
+
+</Blog>

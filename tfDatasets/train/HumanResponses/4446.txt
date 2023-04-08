@@ -1,0 +1,1 @@
+hi, just a little info about me. i am a 15 year old male who lives in tampa, fl. i am studying to get my linux+ cert from comptia. my computers (i'm only listing my desktop, not my servers): proc: amd xp 2800+ mem: 768 pc2700 gpu: nvidia fx5600xt 128mb os: slackware linux current name: technomancer -joey

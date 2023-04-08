@@ -1,0 +1,1 @@
+SQL (Structured Query Language) is an example of a 4GL. It is a programming language specifically designed for managing and querying relational databases. It allows users to easily retrieve and manipulate data using simple English-like statements rather than complex programming code. SQL is widely used in database programming and administration.

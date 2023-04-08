@@ -1,0 +1,1 @@
+i've been using jemmy for timing the responsiveness of a java web start client application while the system is under load. the results have been interesting. the trick will be to establish whether or not the actions simulated by jemmy are equivalent to actions performed by a user.

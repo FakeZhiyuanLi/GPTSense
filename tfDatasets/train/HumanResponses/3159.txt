@@ -1,0 +1,1 @@
+the schema's are a bit more verbose and more to write, but any specific reason(s) you don't want to do schema vs. dtd's? you probably know a bit more about it than we do, looking for insight into what you know/think. andy

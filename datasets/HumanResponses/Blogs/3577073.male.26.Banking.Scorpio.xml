@@ -1,0 +1,48 @@
+<Blog>
+
+<date>23,June,2004</date>
+<post>
+
+
+       
+      During these few days, 4 customers of mine got infected with an adware and became unable to access our online banking website. This adware will change some text shown in internet explorer into links pointed to  urlLink NTSearch website . When accessing our website, the customer will see the webpage briefly while it is loading, then it will become grey blank page. Naturally, the customers called us asking what the heck was happening. When I asked if their computers exibited any strange behavior, they all insisted that their computers was just normal. They think it is normal that random text on any webpage they view turns into a link to useless website, apparently. I took many hours and lots of googling before the cause is identified. The cure is quite simple and is available  urlLink here . When I told the customers about this, they just said "You know, I was thinking the computer was acting strange, but couldn't place it."  This adware is one of the most stupid I have ever seen. It links to NTSearch website, which is  non-functional . The website does nothing. Why bother advertise it?? And the adware seemed to spread lately, since 4 customers got hit in a row, but I couldn't find any website, not even NTSearch website, distributing it. If anyone got a clue where can I get one, please post in the comment :-)
+     
+
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+
+       
+      As a former C programmer, to me '\n' means platform-independent new-line character. The compiler will convert it to whatever real new-line sequence used in the target system. I had expected '\n' in Java to be interpreted by JVM the same way. However, it is not.   \n always means Unix-style new line  \r always means classic Mac-style new line  If you need Windows-style new line, use \r\n  If you want new line of the platform the program is running, use line.separator or methods that use it, such as println() or newLine()  Useful if I ever want to creating Unix-readable text file on Windows platform, etc.
+     
+
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+
+       
+      Lately I am starting a project to automate parts of transaction data processing in the bank. We plan to outsource the development, since IT division in the bank is ... totally ineffective, to put it mildly. One of the software houses we asked offered to do system analysis for us on the condition that, to quote the representative, "the bank will have to pay only if it is satisfied with the result of SA phase." The result of SA phase consists of Software Requirement Specification (SRS), High Level Design, Development Phase Cost Quotation and Development Schedule. If we decide that all is good, we pay 100,000Bt. This price is not cheap at all. The representative assured us that "Even if you are not satisfied with total cost (analysis + development), you can just pay for the design, and have other company develop the software." At this point, my understanding is that analysis phase is all about gathering information and design what kind of system to be produced, and how user should work with it to accomplist task, and development phase is all about thinking how to code what you designed, and how to test it. The company is CMM2-certified, so I had quite a faith in them producing quality documentation for the project.  As it turned out, the system architecture is really cool. They came up with an idea of a very extensible system based on plug-in architecture. This is really good since we expect to expand the system quite a lot in the future. However, they just stopped it at that -- it is just a rough idea on paper. That's all for High Level Design, that, and a page of ER-diagram of the system, which has a conceptual fault in it (what would happen if we couldn't read ER-diagram and let the mistake slip by?). The SRS is quite shallow. There is no mention about user interaction in the design document. No UI mock-up, no screen flow. No implementation strategy. Instead, they put in some trivial things like "We are going to use Tahoma font for all text in the program" or "We will use system's default date format to display date." All that for 100,000Bt. No way. These design documents are almost worthless if we show it to any other developer team.  Next time I will have to keep in mind not to guess at the result. I will have to confirm what  exactly  we will get out of any phase of a project. Good lesson. Lucky that we don't have to pay for it :-)
+     
+
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+
+       
+      I went to install a small data conversion tool for a customer today. The customer has payroll data in a dBase file(!). My tools job is to suck data out and write to Bank-recognizable file format. The customer will then send this file to bank to execute the transaction. With all preparation, I supposed the tool will work OK when I tried it out at the customer's site. However, the format of the file to be converted is quite different from what I am told, and from the sample file I got from them. They put dashes inside account number, where it should be all numeric. They used abbreviation that in some fields that are not agreed upon. Lucky that I took my notebook with me, so I can alter my program to fit the unexpected change of mind. Maybe next time I will make a spec doc and have them sign before starting. What a waste of time!   about String manipulators  On a separate note, I spent quite a while chasing down stupid bugs when I made the correction. I should have remember by now that Java String manipulators, such as String.replaceAll() and String.trim(), do not change the contents of the String they are invoked upon;  they return the result of the manipulation . Lost count how many times I made mistakes about this. Is it only me or what?
+     
+
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,44 @@
+<Blog>
+
+<date>25,May,2004</date>
+<post>
+
+	 
+      Well Aloha, aloha: I have finally reached that trade off point between final tweaking and utter frustration and desire for a more productive use of my time, so I will call quits on this blog lay out modification. Kudos to the Blog spot .com for the service and to Douglas Bowman creator of the the "Dark dots" template that was used for the "ifunky2" blog site.   Since I would like my blog to represent my involvement with web design and coding skills particularly what I have learned with regard to  urlLink  cascading style sheets   layouts. Lets jump right in shall we? When I first started building web pages (way back in June /03) I would make all kinds of shenanigans intensive layouts to support a given desired link menu display structure. I had noticed in my studies of various link menu examples, particularly those created by the more professional designers, always put the links "h refs" into an unordered list. At first I thought this was silly and extra work, but now I will have it no other way in my pages. If you don't code your link menus within the structure of unordered lists yet then you should! Not because some guy who has a total of ten months coding under his belt says so, but rather because after looking at the advantages it is ridiculous not to. Some of these advantages are (in brief) greater positioning and styling control, creation of semantically correct mark up, and last but by no means least, much greater Search engine visibility.   Ok well any way right now I will discuss a problem and resolution I discovered to yet another failing of the (don't ask me why) oh so widely used 'internet explorer" browsers rendering of web code.I was having a problem in my vertical link menus with IE. Internet explorer was putting this extra padding into the menus, stretching them out to an almost unacceptable height difference from the normal, web standards compliant browsers like the Cadillac of browsers  urlLink  Mozilla firefox   and a many others.  well last night I came home and decided to get this layout final tweaked so as to be able to move on to the more fun part (debatable) of writing text entry's. I fired up my browser views of my layout, and low and behold in my left nav link menu I noticed (in IE) one, just one link which didn't do the ugly extra top/bottom padding of the link. So a little analysis and this is what I discovered, if the text portion of your link tags are tight up against the bracket part of the tags, it will do the gross padding trip. If you put one carriage space in the it will make IE act like a normal standards compliant browser. This is difficult to explain in a text so I will give an  urlLink  Example  , a "before and after" if you will.   Well that should do it for an explanation, I was quite perplexed at the problem after much unsuccessful troubleshooting attempts, and feel quite lucky to have had by chance come across the resolution to the problem. I hope this helps someone else out, and if you have similar issues with link menus or list items please leave a comment! 
+     
+
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+	 
+        Ok seems we are off and running: It took some doing to get familiar with the  urlLink  The Blog spot  system. But I think I have a handle on it now! Man you have to love Cascading style sheets, it is just such a  urlLink  neat code'o    . It is "css" that makes all the unique variations in these blogs possible. At first I was not sure what you could or could not modify and where. I immediately ripped the banner add out of my local copy, knowing that it would be replaced by the javascript that enables it.    As I familiarized myself with the blog templates I realized that doing mod's to the blogs is like a submittion to  urlLink Zen Garden  in that you really don't have any control over the html and so you have the incredible control of css styling but your at the mercy of the html!
+     
+
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+	 
+        Pure woot, the dns to my  urlLink new site    just propagated to my  urlLink  host   server ! It's just a ruff' now, didn't expect to have the url active so soon. I want to thank you  urlLink  Jenny   for all the help and support.  well I said I would make my next post about the different division types and their positioning properties, BUT !    Got caught up in configuring/ and getting ready for "SightDeezygn's" unofficial launch, and played around with  urlLink  spans for drop menus in css   only to realize that IE butchers the effect so thoroughly that it renders the effects of it but useless incomparison  the vast potential of this function in a  urlLink  Real live browser   like mozilla!   Ok I promise next post I will "TRY" not to rant on daunting  urlLink  IE_factor   and get into div positioning and particularly the oh so illusive "float". 
+     
+
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+	 
+        aloha seems were off to a good start: I apologize for any down time experienced, I made the (apparent) mistake of using a free server to host my up to now two extra pages ( the friends sites full list, and css rollover menu example page). Well I am actually happy to say it didn't take long to max the bandwidth limit. So I migrated the culprit bandwidth eating hefty (56.6 kb) 2 pages and a few images. Ah well live and learn. But thanks folks we have had 11 visitors just today 5/7/04 and its barely noon est. I had a great conversation with "webdev." this evening. We talked over some things in Eric meyer's  urlLink  book on css  . Something I found fascinating was the idea of using negative positioning sizes in the positioning of background images.   So that gave me the hank'rn to do a post about css positioning of divisions  (all types, relative, static, absolute and floats). Then maybe next we/ er "I" will move onto a discussion 'bout floats in general, cuz once you get past some of the quirky attributes they can be a wonderful addition to a css arsenal.     (would someone please tell the guys at macromedia that they exist and maybe dreamweaver-2010 will include them)! 
+     
+
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,1 @@
+When the interest charged was greater than the amount of interest paid, it resulted in a debt balance or an accumulation of interest owed. This is commonly referred to as compound interest or negative amortization.

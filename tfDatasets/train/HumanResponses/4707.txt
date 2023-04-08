@@ -1,0 +1,1 @@
+so today i've updated the site again. the site in currently on version 2.2. basically, that means similar to version 2.1, but just a slight change, and that is the doll on the navigations. however, i am still trying to find a way to update the site through ftp direct from dreamweaver. if there's nothing else, i guess this is all. au revoir.

@@ -1,0 +1,1 @@
+The Goldbach's Conjecture states that every even integer greater than 2 can be expressed as the sum of two primes. Although it has not been proven, it is a well-known and widely studied conjecture in number theory. However, this theorem does not specifically mention semiprimes.

@@ -1,0 +1,75 @@
+<Blog>
+
+
+<date>31,July,2004</date>
+<post>
+
+	 
+      a little while ago while looking back at the past, a bunch of old roommates had a bit of a reunion.  oh, and i finally got my motorola v400 to connect to my computer so here are some pix.  of course they had to come out with the v600 a couple of months after i got mine, and that has bluetooth.  *sigh*  how about not releasing new phones that quickly, ehh???  urlLink    bill-boy, woodhall suite-mate, dartmouth apartment-mate, campus village roommate. all that time, and still don't know cantonese :D  urlLink    hubie-boy, woodhall suite-mate, dartmouth apartment-mate, and all around shady guy. but he's cool because i think we were switched at birth, my exact opposite. where are the white girls?  urlLink    david the lovegod, whispering wood suite-mate, woodhall roommate, dartmouth roommate. what can i say, gone thru so much together. the aliens, my sister, tigger, polar-girl, the flight-attendant, oreo... *sigh* the best of times and worst of times. well at least i learned mandarin :D  urlLink    zerokitty... exposed! gimme back my camera!
+     
+
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+	 
+      What's the deal lately.  Seems like everyone I know is either getting married or moving away.  Don't they realize how inconvenient this is for me?  Or maybe it is just life telling me its time to get marr... uhm, move away too.  Sell off my house and my car and all earthly possesions... then move to some remote mountainside, live off the land, and teach the local wildlife Java (they already know VB).  Or maybe not.  But it is interesting to step back and reflect on life once in a while.  Look down on the world from above, see how the chess pieces (including oneself) move around, oftentimes in ways one would never have thought or hoped they would.  Change isn't as hard or scary from this perspective, and somehow things always tend to work out how they should in the long run.  Better not stand around and reflect for too long though, or else a bird will fly by and take a crap on my head.  So as they say, All Things Must Pass... which is true and a good reminder to accept it and just try to make each new phase of life better than the last.  
+     
+
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+	 
+      someone told me  urlLink http://www.wibsite.com/wiblog/dull/ &nbsp;is the dullest blog on the web.&nbsp; sounded like a challenge to me!&nbsp; so here goes...&nbsp; =) 
+     
+
+    
+</post>
+
+<date>19,August,2004</date>
+<post>
+
+	 
+      what is about the worst thing in the world that could happen to an obsessive compulsive pack rat computer geek?  hard drive crash? probably.  i won't call her my sweetheart, because we were only together for less than a year.  more like a one night stand and getting a regrettable disease.  funny how this "new" drive crashed and my old reliable P3 server, which has been on 24/7 for almost 2 years serving  this  and  that  has no problems what so ever.  i guess sometimes you just get a bad seed.  but before yelling at the warranty people, i had to try to salvage my priceless data (which hadn't been backed up since december)  so began late nights performing delicate surgery.  ran out instantly and bought a new 250 gig drive, loaded windows, just enough to make it usable.  then tried to read from the bad drive as a slave (since it wouldn't boot).  seems like i got most data from 2 partitions (although some seems quite corrupted), although i couldn't read anything from the old c: partition.  *sigh*, that's where my email is!  windows could see the partition, but couldn't recognize the format.  drat.  so i got some advice to boot into linux and try to salvage.  there is a cool linux distribution called  Knoppix  which you burn to 1 bootable CD, then without needing a hard drive, you can boot it up, instantly configures itself and is a fully functional linux operating system complete with a beautiful window manager, internet connectivity, and all the usual applications.  i was quite impressed, insert disc and it just runs in ram.  no configuration needed at all.  however, even using this, i was unable to mount the bad partition giving bad data block errors in linux.  crap.  as a last resort i heard of a  local company  that does hard drive recovery.  they said they just recover whole drives, not just a partition, and even then no guarantees.  since it was a 200 gig drive, they said it would cost between $500 and $1900 depending on data and how difficult it was.  well, you may be thinking, sure Josh it's not like you have a girlfriend to spend your money on... well true, but i'm not *that* crazy and obsessive over a hard drive.  i said no thanks.  so now i sit backing up what i did recover to dvdrw, will reformat my new drive, and return the bad one hopefully.  so if you've sent any important email to me since december, you may want to resend :D  and a good lesson to backup your data.  be like a friend of mine who keeps all important data on 1 cd, and reformats his computer every few months.  if you are a pack rat like me, this could be hard, but going through this made me realize there is more to life than crap on a hard drive.  i think so anyway???   urlLink     However, the week ended a little better.  Last night I saw  The Cardigans  at the House of Blues in Downtown Disney.  It was the first time seeing my favourite band from Sweden (only band from Sweden?) and highly recommend their  new album  that finally got released in the US.  Amazing to see Nina sing live not more than five feet away, *swoon*.  And then the stars must have been aligned right today, as during a staff volleyball game I somehow got myself involved in, I actually had a killer game.  Being the awkward tall guy, things didn't start well after joining, but after weeks of practice things are coming together.  Good thing, because one of the stars of the team, another tall spiker guy was out sick.  Luckily I had some good plays, and one to end the game with a rather strong spike that almost took the head off some very cute girl on the opposing team ;P.  The whole team was good today and we easily won our 3rd straight game.  Although our competition will get stronger later on in the playoffs, it is good practice to defeat these teams in straight sets.  And a good way to let off some steam of a tough week :D 
+     
+
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+	 
+      So not too long ago I was helping out my  urlLink good friend  at work investigate this chat/photosharing application called  urlLink Hello .  It is a chat program, but a really basic one with not too many features.  However the cool thing about it is that you can trade pictures with other users very easily, and adds comments and point things out at what the other user is looking at.  This is not what interested us though.  It seemed there were hidden features to be found, such as if you typed certain words they would be auto-expanded in the chat or create animations in the photo window.  She did an excellent job of explaining  urlLink on her blog =) , so I won't repeat.  We eventually went a little further though.  While investigating the code in a hex editor (geeks past this point only, thanks) I found the references to the animation pictures (and the keywords to create them).  Looks like they are stored in a file in the "Hello\runtime" directory called "motio.psd".  Hmmm, sounds like a Photoshop file to me.  Alas, it was!  And the reference names were to the names of the different layers on the photoshop image where each animation is stored.  So as you can see on the image below, we messed around with this a bit and traded modified files.  You can easily change the picture on each layer to however you want, save the file (using the latest photoshop version) and restart Hello to see new animations.  Obviously it only works for the computer you are on, if you want your friends to see them too, you have to send them your modified file and have them copy it to the proper location.  Unfortuantly to add new keywords would be difficult, have to wait for a new version with pluggable keywords (yeah right).  We were able to modify the .exe file a bit through the hex editor though, and change keywords or the expanded versions a bit (if they were the exact same length) with... some good and some bad results :D   urlLink    
+     
+
+    
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+	 
+      okay, enough with all the melancholy posts lately.  here is a fun one... sometimes i wonder how some people survive in the world...   urlLink   
+     
+
+    
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+	 
+      it was just over five years ago when i first met my japanese sweetheart.  very attractive, yet not too flashy, she stood there waiting to be taken home.  it seemed like we hit it off immediately and from that point on we were inseparable.  so many adventures we have taken together.  always ready to go to a concert, and willing to put up with my weird friends.  late nights driving alone in the moonlight, sunny days driving along the coast.  she was always there to keep me warm in the cold winter, cool in the hot summer, and dry during the fiercest of thunderstorms.  i too was always around to take care of her when she was sick or just lend an ear and listen when she was feeling down.  and so this rock solid relationship and love affair continued for many years until recently things began to change.  the bond we shared was no longer as dependable as before.  she began to experience problems that i could not understand nor help, and more consistently was no longer around when i needed her the most.  she began to notice my eyes wandering too towards a new life.  arguments ensued almost daily, and although we tried to work things out, it was clear things would never be the same.  although we have made it through both the good times and bad times together, little things in our lives consistently create more aggravation and headaches.  my friends say i should move on, but it's hard after spending so much time together.  call it loyalty, call it love, call it fear.  could it ever be the same or better with another?  yes soon i may have to take the leap, it may be time to get a new car, and say goodbye to my dear Honda Accord :(
+     
+
+    
+</post>
+
+
+</Blog>

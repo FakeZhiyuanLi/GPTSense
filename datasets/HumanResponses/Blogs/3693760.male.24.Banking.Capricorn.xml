@@ -1,0 +1,326 @@
+<Blog>
+
+<date>30,June,2004</date>
+<post>
+
+    
+       I am glad to share this information with you that Mr. Sibghatullah of  urlLink Mohammad Ali Jinnah University  has offered us a meeting place for our periodic User Group Discussions. I have conveyed my thanks to him and his university for such a generous offer. For now I am planning to have our user group meeting .I will share the details soon insha Allah.   
+    
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+    
+       By today evening i.e. 28 June 2004. we will be sending invitations to potential .NET Wizards User Group members. 
+    
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+    
+        urlLink This is an excellent article  and it examines how to perform dynamic URL rewriting with Microsoft ASP.NET. URL rewriting is the process of intercepting an incoming Web request and automatically redirecting it to a different URL. Discusses the various techniques for implementing URL rewriting, and examines real-world scenarios of URL rewriting.    
+    
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+    
+       I was discussing SOA implementation with a  urlLink friend  of mine this morning and he told me about the architecure that he is using to develop his application.And then I told him about how/what I think of SOA i.e. message oriented communicaiton,loose coupling, find/bind and exucute logic. He reffered me  urlLink Microsoft reference architecure at GotDotNet  based on SOA. SOA is really some thing that promises loosely coupled computing.Here it is a defination for  urlLink SOA . 
+    
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+    
+       What's on the Minds of Microsoft Developers?  Visit  urlLink Channel 9  and get the inside scoop on the latest technologies, share your thoughts, and take a peek into the minds of the folks at Microsoft. 
+    
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+    
+       Last night i downloaded  urlLink MSDNTV  episode titled "Improving .NET Application Performance and Scalability". It was a real good stuff. There was a guy in the presentation "Ashish Babbar" of InfoSys india who did the breifing about this new guide at  urlLink Patterns and Practices  site.Part III of the guide is best suited for developers, it addresses performance issues related to Enterprise Services,Interop,ASp.Net Web Services, ADO.net, XML etc. I think its a must read for any serious developer, team lead and application architect.  
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+       I was browsing MSDN today and found  urlLink this  interesting article by urlLink  Andrew W. Troelsen . Although I did not dig deep into it but still while skimming it I found it really cool. Go through it if you want to to learn about Outlook Programming with C#.  
+    
+    
+</post>
+
+<date>20,June,2004</date>
+<post>
+
+    
+       PDC 2004 was really a succesful event. Almost all the speakers were great specially  urlLink Rafal Lukawiecki , urlLink Clemens Vasters ,Gosking Baker and  urlLink Farhan Muhammad   impressed me the most (and I guess the whole crowd). I really enjoyed sessions on SOA, Threat Modeling,ADO.Net best practices, Web Application Security,Indigo, and MSF. During PDC I got to learn a lot about SOA, Threat Modeling. And Microsoft Solutions Framework is something that has found my interest. 
+    
+    
+</post>
+
+<date>20,June,2004</date>
+<post>
+
+    
+       Following are things on my Agenda these days. 1- Trade Finance Application for my Bank. 2- Dot Net Wizards user group revamping. 3- MCAD/MCSD.  
+    
+    
+</post>
+
+<date>20,June,2004</date>
+<post>
+
+    
+       As Salam O Alekum Readers, Here I am writing my first blog. I have created this blog as a kind of log for my ILikeDotNet interface. I will keep wrting about my .Net User Group as well.I will also be sharing new things (as well as the old things) about Dot Net in particulat and Programing in general. I hope you will have good time reading it. best regards, Hammad.Rajjoub. 
+    
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+    
+        Introduction to .NET Framework     --------------------------------------------------------------------------------   You are invited to attend an hour long seminar on Introduction to .NET Framework at Sir Syed University of Karachi. SSUET.NET is having its first User Group meeting at their university campus on 7th August 2004 at 3:30 PM. I will be the speaker for this event.  Venue: Sir Syed University Auditorium.             Agenda:  1- Tilawat (3:30 PM) 2- Introductory Note (3:35 PM) 3- Discussion on "Introduction to .NET Framework" (3:50 PM) 4- Q/A Session (4:30 PM) 5- Refreshments (4:40 PM) 6- Road Ahead (5:00 PM)  Please email at ssuetdotnet@yahoogroups.com to confirm your participation. Hope to see you all there.     
+    
+    
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+    
+         urlLink What is a Service-Oriented Architecture?     A service-oriented architecture (SOA) is a component model that inter-relates the different functional units of an application, called services, through well-defined interfaces and contracts between these services. The interface is defined in a neutral manner that should be independent of the hardware platform, the operating system, and the programming language the service is implemented in. This allows services, built on a variety of such systems, to interact with each other in a uniform and universal manner     for more details visit :  urlLink http://www-106.ibm.com/developerworks/webservices/newto/  
+    
+    
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+    
+       Yesterday our UG had a session on "Enterprise Services (COM+) with .Net". 9-10 people attended the session. Syed Ata Hussain was the speaker for the event and he introduced COM/COM+ in .Net and then drilled down in COM+ with an example. It was a knowledgable session. I presented Syed Ata Hussain a book on ASP.Net Web Matrix as a gift from our UG.   
+    
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+    
+       We have scheduled our periodic meeting on coming Friday i.e. July,23,2004 at  urlLink Mohammad Ali Jinnah&nbsp; University .   Following are thedetails:     &nbsp;
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+    
+       These days I am in a fix over use of O/R Mapping and Domain Objects and how do they fit into Enterprise Scale Application development scenario. When I asked this thing to  urlLink Clemens Vasters , he said the following things:-       &nbsp;    you might want to consider the following questions:  &nbsp;  a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; How effective is O/R mapping when you don’t look at single objects but rather need to fetch sets of data (assume the price history for a stock) based on certain criteria such as a certain time period?  b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; How do you integrate with transactions and how do you assure that you are in control of the order and locking hints of insert/update operations to minimize deadlocks/lock contention?  c)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; How tight is the coupling between your relational model and your objects? Can you change the table layout and indexing of the data store flexibly as your data volumes change?  d)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Can you effectively hide the database detail implementation and provide a “secure gateway” into the database using a layer of stored procedures and views?  e)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; How tight is the coupling between your business code and the underlying data store technology? Are you bound to a certain database product or even product version?  f)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; What is the net efficiency gain that O/R mapping gives you in development? Is it actually making developers more productive in creating *and maintaining* your software or is it merely “more elegant”?  &nbsp;  I am not sure that O/R mapping technology scores very favorably in many of those considerations.  &nbsp;  Best Regards  Clemens Vasters          &nbsp;  SO things arent getting clearer here . And I am back to my drawing board and scratching my head !  &nbsp;  
+    
+    
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+    
+       So we are in for our second meeting. Which is scheduled for coming week.&nbsp; I need to seek your advice/suggestions on following things.  &nbsp;   Meeting Day:   &nbsp;&nbsp;&nbsp;  We have three suggestions (along with their reasons) so far:  &nbsp;   &nbsp;Wednesday: (Its a mid-week so we are not much burdened with the work neither because of start of the week nor because of its end , as is the case&nbsp;&nbsp;&nbsp;&nbsp; with&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monday&nbsp;&nbsp;&nbsp;&nbsp; and Friday.)  &nbsp;Friday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Its a week-end so every one can stay till a little late since there isn't any working day next morning.)  &nbsp;Saturday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Its&nbsp;usually an&nbsp;off-day and every one can spare 1-2 hours )  &nbsp;  So we need to decide one of the 3 choices. I personally feel comfortable with Wed/Friday.  &nbsp;   Topic: (Discussion)   &nbsp;   Application Frameworks .  COM+ (Enterprise Services).  Service Oriented Architecture (SOA).  XML Web Services.&nbsp;  &nbsp;  For the coming week I would suggest Enterprise Services.&nbsp; &nbsp;  
+    
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+    
+       Download the following latest Express Builds of VS .Net using thelinks given below.Installing the .Net Framework is necessary for each product to work (ofcourse) &nbsp;  .Net Framework 2.0 beta   urlLink http://download.microsoft.com/download/9/6/6/9666067a-660f-48e0-a755-a83a81036b67/dotnetfx.exe   C# Express 2005   urlLink http://download.microsoft.com/download/8/c/7/8c784f26-8e95-43b9-90b9-56b511220dfb/vcssetup.exe   VB .Net Express 2005   urlLink http://download.microsoft.com/download/3/f/5/3f52b37c-92a4-4ce0-9de0-0376165e5461/vbsetup.exe   SQL Express 2005 (Version 2005 of MSDE)  urlLink http://download.microsoft.com/download/c/f/8/cf872b5a-509b-44ce-b5ac-e693f7aec971/SQLEXPR.EXE   Web Developer Express 2005   urlLink http://download.microsoft.com/download/6/e/1/6e1e9b98-928c-45f0-b44b-39f205090446/vwdsetup.exe   
+    
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+    
+        urlLink Interview with Brian Goldfarb: Builder AU: Architect: .NET : "Interview with Brian Goldfarb" 
+    
+    
+</post>
+
+<date>14,July,2004</date>
+<post>
+
+    
+       &nbsp;  Rather than being annoyed, be amused.   Instead of getting angry, become curious.   In place of envy, feel admiration.   In place of worry, take action.   In place of doubt, have faith . &nbsp; Negative energy is just positive energythat's flowing in the opposite direction.There's no need to fight or run away from that negative energy.&nbsp; All you need to do is change its direction.The more negative you are, the more positive you can be.An automobile that can travel 70 miles per hour to the east... can also travel just as fast when going west.But first, someone must turn it around.When you sense yourself becoming negative, stop and consider what it would mean to apply thatnegative energy in the opposite direction.Turn your sadness into caring. Transform your complaints intouseful suggestions. Change your bitterness intodetermination. The energy is already there,All you need to do is change its direction.  
+    
+    
+</post>
+
+<date>14,July,2004</date>
+<post>
+
+    
+       Wow Cool, this is a really interesting development. Mono 1.0 is out. Its really cool to have your .Net CLR running on top of Linux. I cant wait to write my first program on C#-Linux. For more details visit.  urlLink http://www.mono-project.com/about/index.html  
+    
+    
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+    
+       Max. Column Lenght for VS.Net 2003 IDE is 2046 Chars 
+    
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+    
+        C# Exception Specs    urlLink Why doesn't C# have exception specifications?  Some languages allow or require member signatures to include exception specifications. For example, in a language with such a construct, a method that raises an ArgumentException can be declared with:  void DoSomething(int a) throws ArgumentException {...}    C# neither requires nor allows such exception specifications.  There are a number of reasons for this omission, namely:   Versioning  Productivity and code quality  Impracticality of having class author differentiate between "checked" and "unchecked" exceptions  Difficulty of determining the correct exceptions for interfaces.  
+    
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+    
+        urlLink ADO.NET 2.0 includes a new base-class provider model, features for all providers, and changes to System.Data.SqlClient. Get an overview of these new features, examples of their use, and a chart of which features are provider-neutral and SqlClient-specific.  
+    
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+    
+       From Friday evening to Sunday evening I spent 12 hours training/teaching .Net.It all started with a  urlLink user group session . And then there was a training session for a  urlLink local software house   and then there was a class at Karachi University  urlLink Dept. Of Computer Science . and then on Sunday there were two separate groups for MCSD preparations. So thats how things are going.. huh! 
+    
+    
+</post>
+
+<date>10,July,2004</date>
+<post>
+
+    
+       Yesterday our user group had a session on "Developing Enterprise Scale Applications". I talked  urlLink  . I was the speaker at the evening. Event was attended by 14 pepole. We discussed about Microsoft Enterprise Solution Patterns. Then I discussed two of the distributed patterns "Proxy" and "Bridge". 
+    
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+    
+       Now a days i am working on a data fetch utility that fetches data from remote locations and then stores the fetched data to a centralized location. this is pretty much of a trivial task so not much science in it. however thats not the end, i also need to backup the fetched database every time the application is run.thats where i stopped. so i searched on the internet to find C# code for backing up a database and i found this  urlLink real cool piece of code . Now i m using the same code with a little bit of customization (read parametrization) in my application. Thanks to the author of  urlLink code . 
+    
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+    
+       This summer, why not put your coding skills and creativity to good use for a chance to  urlLink win an Xbox with Xbox Live subscription and Halo 2!*   
+    
+    
+</post>
+
+<date>05,July,2004</date>
+<post>
+
+    
+        urlLink Brain bench  is offering free certifications for a period of two weeks(1 to 14th July).I my self gave 2 exams and got passed in both. I scored 3.29 in C# paper and 3.0 in ASP.net paper. I think its a must try for all of us.  
+    
+    
+</post>
+
+<date>05,July,2004</date>
+<post>
+
+    
+        First Meeting for .Net Wizards 1.1  This friday i.e. July 2004 we will have our Dot Net Wizard user group meeting at  urlLink Mohammad Ali Jinnah University . I will post the details of time and agenda by today evening Insha Allah. 
+    
+    
+</post>
+
+<date>16,August,2004</date>
+<post>
+
+    
+       Worth reading for sure !  Theory of everything From Wikipedia, the free encyclopedia.   urlLink http://en.wikipedia.org/wiki/Theory_of_everything  
+    
+    
+</post>
+
+<date>13,August,2004</date>
+<post>
+
+    
+       You can use "Application.CurrentCulture" to set  these settings.    To keep it simple you can do it like :   Application.CurrentCulture = System.Globalization.CultureInfo.CreateSpecificCulture(new  System.Configuration.AppSettingsReader().GetValue("ur-PK",typeof(string)).ToString() );     Or if you want to parameterize it then you may use the following:   In the following snippet I have defined my culture settings in a config file. The tag goes like this :   add key="ApplicationCulture" value="ur-PK"   private void setCurrentCultureInfo(){  /// set ur culture information here. Application.CurrentCulture = System.Globalization.CultureInfo.CreateSpecificCulture(new  System.Configuration.AppSettingsReader().GetValue("ApplicationCulture",typeof(string)).ToString() );  Application.CurrentCulture.DateTimeFormat = System.Globalization.DateTimeFormatInfo.CurrentInfo;  }    
+    
+    
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+    
+       I was browsing Microsoft/research site today and came across this cool language. I liked it becaused i always my-self draw/design a state machine before solving a complex problem. I am yet to downlaod it but specifications were good enough to make me write a blog entry on it. If you would like to read more about it then follow this  urlLink link . 
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+       A simple to use Mobile Multi-Media SDK availble now!. Atleast thats what they claim. I havent used it, but I definately plan to use it. If you want you can try that too at :  urlLink http://www.mmssdk.com/Features.aspx  
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+       I had to speak on 3 different occassions and on 3 different topics last weekend. Firstly, on Firday evening I had to present  urlLink "ADO.Net Best Practices"  at  urlLink Mohammad Ali Jinnah University . And then on Saturday afternoon there was an event on " urlLink .Net Framework " at  urlLink Sir Syed University Of Engineering and Technology . Event at SSUET was followed by a regular class at  urlLink Karachi University . For now i will talk about SSUET event. Event at Sir Syed University went good. I was told that some 200 people attended it. I think they all had a good time and so did I. Although the event started a bit late (well quite a bit, some 50 mins to be exact 8-/ ), but it ended well. Usually  SSUET audience is "JAVA PRO" but preaching .Net to them was somewhat fun. Specially the Q&A session was good, it was kind of fun to answer their questions. Presentation will be made available online soon at  urlLink INETA/MEA web site .  
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+       We have scheduled our periodic meeting on coming Friday i.e. August,6,2004 at Mohammad Ali Jinnah  University.   Following are the details:      Venue:    Mohammad Ali Jinnah University.                       22-E Block-6 P.E.C.H.S, Karachi                       Phone: 92-21-111878787     1- Tilwat:- (6:45 PM). 2- Introductory Note. (6:50 PM). 3-Discussion On "ADO.Net Best Practices".(7:00 PM). 4-Q/A Session.(8:00 PM) 5-Road Ahead.(8:15 PM)    Please email: dotNetWizards@yahoogroups.com/h_rajjoub@yahoo.com to confirm your participation.    Hope to see you all.      
+    
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+    
+        UG Sessions.   On last Friday our user group held a session on "Enterprise Services COM+ using .Net". Syed Ata Hussain was the speaker at the evening. Event was attended by 10 people. Syed Ata discussed about Enterprise Services with .Net and also made sample application.   For next session kindly advice on the following :  1- Topic (Which topic should be discussed? Xml Web Services / ADO.Net best practices?   
+    
+    
+</post>
+
+
+</Blog>

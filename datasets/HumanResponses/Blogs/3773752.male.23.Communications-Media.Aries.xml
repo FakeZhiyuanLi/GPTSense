@@ -1,0 +1,97 @@
+<Blog>
+
+<date>03,November,2003</date>
+<post>
+
+							 
+								Imagine you are a large game development company based in Iceland. Your massive multiplayer game needs an extra marketing boost and you decide to spread some promo cd's on a gaming convention in Brussels. The only problem is, the event is in 3 days and there are no cd's, yet. What do you do? You call these nice guys of brothers in art in the Netherlands (which is near Brussels right??). And "yes" sure we can manage to press 5000 cd's and deliver them in Brussels in 3 days, no problem.        So after 3 days and a total of 1400 KM of driving we actually did deliver the 5000 cd's in Brussel. Thanks to the excellent job of www.discompany.nl we were able to deliver top quality CD's just in time ;-)
+							 
+						
+</post>
+
+<date>30,June,2004</date>
+<post>
+
+							 
+								Ok, normally we don't really care for soccer at bia. But this time the Dutch soccer team made it into the Semi Finals of the European Championship hosted in Portugal. Tonight the Dutch soccer team will play against Portugal and when they win they will go to the Finals. As our office is on a prominent spot in the centre of Hilversum we felt that we needed to cheer up the building a bit, so there you go!       We want to wish the Dutch team all the best tonight! And yes the photo is real!!
+							 
+						
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+							 
+								So now we know, in new media there is no such thing as a vacation period. Suddenly the telephone is red hot, all new projects have to be finished before the end of next month. So again I have to work instead of taking a vacation. 4 years in a row without vacation. Let's hope we can find some free days next month to make a short visit to the French alpes.
+							 
+						
+</post>
+
+<date>12,June,2004</date>
+<post>
+
+							 
+								Damn, that was one long lanparty. Starting at 17:00 we welcomed 18 friends and collegues to come and, uuhm yeah, kill eachother. Thnx people, it was fun!       For those that find it of great interest to see more pics, check them out  urlLink here 
+							 
+						
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+							 
+								Although we build custom content management systems, I also occasionally browse around for CMS. Reading up on who uses what I ended up at Textpattern. Now before I start, I have to say that admire Dean Allen's work on this baby. However some things bothered me a bit. First of all, Textpatterns interface style looks awefull. I know it's perhaps personal taste, but for me it was quite a big contrast seeing the interface after hitting the Textpattern site which looks pretty good. That aside I started to explore the zip file I downloaded. Unfortunately no quick installation guide in the form of a file called install or something similar was included nor does the site have any available information regarding the installation or required specifications for that matter. After exploring the folders some more I came across a setup file and installation progressed quick smoothly from there. Never the less a 'run textpattern/setup.php' message in an obvious place wouldn't hurt.  After installation I clicked through the admin interface to see if everything was working correctly. When hitting 'images' I was confronted with a message saying I needed to change the rights of the images directory, no big deal and just the right place to provide that information. Then I browsed to the sections tab and noticed some rather disturbing error messages.    
+</post>
+
+<date>05,July,2004</date>
+<post>
+
+							 
+								A very handsom little site statistics script is available here: urlLink  ShortStat . A very nice feature is that it shows the language people have set for their system and it has a nice list of latest and recurring referrers. See it in action at  urlLink Jeffbostick.net  or  urlLink Hicksdesign .  A slightly more advanced script is  urlLink BBclone . Not suitable for sites heavy on resources, but it has very nice individual stats. These show per visitor how he or she navigated through your site and how long they stayed on every page.  Inman's shortstat requires a database, BBclone is flatfile. Both are free to use and are written in PHP.
+							 
+						
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+							 
+								The spirit of lomography is very well captured in  urlLink Anything and Everything . A beautiful, audiovisual journey accompanied by people who eleborate on their love for lomo.  urlLink   
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+							 
+								 urlLink Browser Statistics  are important. W3Schools has semi monthly statistics including Browsers, operating systems, screen resolutions and color depths.  Although these statistics are extracted from W3Schools' log-files they do monitor other sources so the data appears to be quite reliable.  It's good to see that Mozilla is on the rise and beat Msie 5 in April this year. Msie 6 is however still the leading browser with 72,8%
+							 
+						
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+							 
+								I'm happy we didn't wait for this release one and a half years ago when we were developing  urlLink Cellcon  and chose for an interactive demo. Finally Macromedia throws in a Flash Player for mobile phones. Lite none the less, but with oh-so interesting network access. On mobile phones, loadMovie and loadVariable are gatekeepers to a world of exciting mobile applications.    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+							 
+								Recentely I came across two interesting ways to use custom fonts in web sites/applications. The first one uses Flash and is well documented by  urlLink Shaun Inman   urlLink [article] ,  urlLink [revised] . The second one appears to be easy to apply, although my first quick attempt failed. The article by  urlLink Stewart Rosenberger  at  urlLink A List Apart  explains the replacement technique using javascript and php generated images  urlLink [article] .  Although the latter technique seems easier when it comes to implementation, it does require a server supporting PHP and GD 1.6. Fortunately the script allows the generated PNG's to be cached, otherwise the image creation can really add to the serverload. The IFR as described by Inman uses Flash to really render the text dynamically by passing variables to a flash file. A nice touch is the fact that the Flash text can be selected just like normal text. Loading many Flash files into one page might result in slow refresh rates when scrolling the page though. Both techniques are worth exploring and depending on your experience either might do the trick for you. It certainly beats the prehistoric font embedding ;)
+							 
+						
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+							 
+								Just recently I've made the switch to PNG for all my interface supporting images. Recommended by W3C or not, if you use Photoshop's save for the web to create the image, prepare for some big GAMMA issues.     In the image above you see the variations in PNG display between Mozilla Firefox 0.9 and Microsoft Internet Explorer 6.0. Right now I've compensated for this issue by loading an additional stylesheet for Msie, however since it's a GAMMA thing this doesn't do it for me. After googling around a bit I came across  urlLink Evolts.org article  on this issue. Some people there claim Fireworks will do the trick and it does. Fireworks also does a better job compressing the PNG's, although I do have some trouble with the transparancy since Msie again fails to render it properly with the Fireworks' PNG format.
+							 
+						
+</post>
+
+
+</Blog>

@@ -1,0 +1,1 @@
+192 samples may be taken instead of 576 when there is a need for faster data collection or when the signal being measured has a low bandwidth. Additionally, in some cases, taking more samples than necessary can result in redundant data that does not contribute much to the analysis. Therefore, in such cases, taking fewer samples may be more efficient and economical.

@@ -1,0 +1,41 @@
+<Blog>
+
+<date>03,August,2004</date>
+<post>
+
+	 
+      Well, we're in kind of a holding pattern for the moment here at work, so I suddenly have some time on my hands. I discovered the programming language  urlLink Self  last night. It's a prototype based object oriented language with similarities to  urlLink Smalltalk . Although I wouldn't use it for a serious coding operation, that fact has less to do with the language itself and more to do with the environment surrounding it. I may change my mind in the future. Self really opened my eyes to the true power of  urlLink prototype based   urlLink languages . My first exposure was Javascript and so I got the (false) impression that all prototype based languages made copies of objects and then the objects had no further relationship with each other (I hear this has since changed in Javascript, and they are even headed toward a class-based system). This irritated me because it takes away the expressitivity of having an "is-a" relationship. Self (and other languages I have now discovered through some searches) preserves the idea of "is-a" by having parent objects. Basically, the pattern is to create a 'traits' object (which is special only because we refer to it as such) that acts as a parent to the prototypical object to be cloned. Then objects cloned from the prototype also have that parent and so are of that 'type'. My qualm with using this approach is that what would be called "instance" fields in a class based language have to be put in the prototypical object and not the traits object (so they are cloned for each "instance") and thus are not specified by the traits object. A possible solution to this would be to specify 'types' completely separately from the objects themselves (presumably as another set of objects as long as we're dealing with a pure oo language) by specifying what slots they have available (Self terminology, if you're used to class based languages, slots are basically fields and methods). I suppose another option is to add the slots to the traits object as well, as a "specification", and then duplicate them in the prototypical object, but that doesn't satisfy me either. Anyway, for now it's just food for my own thought, and it looks like we've been cleared for takeoff, so I'll have to end this discussion here for now.
+
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+       
+So we played  urlLink Universalis  for the first time last night. You really should get this game and try it -- it's great. Pure genius. It's not roleplaying -- it's collaborative storytelling. Through a resource system based on units called Coins, narrative control over the story is shared among all the players. The game lets you go from nothing to a full story set within a game world created from scratch in a single night. You simply have to play the game to understand how awesomely fun this is.
+ 
+ 
+Basically, at the start of the game each player gets 25 Coins. Then somebody starts off by saying something like "Let's play a game with pirates tonight" and tosses a Coin into the Bank to pay for this new Game Tenet. If nobody Challenges, it becomes part of the game. Keep going around the table in order taking turns like this, and suddenly you're building a whole setting from scratch and deciding what kind of game to play all at the same time. Once everyone thinks enough groundwork has been laid, you bid to see who starts the first scene.
+ 
+ 
+The true genius of this game is not that it is collaborative storytelling, but the rules that implement it. They are simple, smooth, flexible, and easy adjusted (in a system regulated way) to whatever situations might arise in the game. Although the system easily allows for house rules, the rules from the book are plenty to play the game without having any previous knowledge. I was genuinely surprised at how closely our play last night resembled the examples in the book even though I was the only one who had read it. It's a quick game to learn too -- one read through the small 80 page book and you'll be off and running. I read it a couple more times since I would be teaching the game to others, but extra readings didn't reveal that I had missed anything. They just served to cement everything in my head. Not only that, the entire set of rules from the book can be distilled into a cheat sheet just over 2 pages in length.
+ 
+ 
+In short, playing Universalis for the first time was " urlLink nothing short of a revelatory experience. " Whether you are hardcore into roleplaying or have never thought it was for you, if you like stories (or just like hearing the sound of your own voice) you'll like Universalis.
+ 
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      Apparently if everyone else jumped off a bridge, I would too. I was innocently poking through "more" section of Google and clicked on the blogger link. Suddenly they wanted me to create a blog. I figured "hey, everyone seems to be getting blogs, so I guess I should have one" and jumped on the bandwagon. I hope you're not upset, Mom, you really did teach me not to give in to peer pressure...
+
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,1 @@
+Assuming that each column represents a single-digit number (0-9), there are 100 positions in the first two columns (10 possibilities for the first position times 10 possibilities for the second position).

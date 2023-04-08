@@ -1,0 +1,1 @@
+Colors are transmitted over the internet using a numerical representation known as RGB (Red, Green, Blue) values. This means that each color is represented by a specific combination of numbers that can be read by computer screens and other digital devices.

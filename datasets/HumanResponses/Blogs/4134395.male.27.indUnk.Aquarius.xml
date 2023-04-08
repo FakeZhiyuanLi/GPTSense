@@ -1,0 +1,157 @@
+<Blog>
+
+<date>21,August,2004</date>
+<post>
+
+    
+         Don't you hate it when a program just reboots Windows without asking after an installation? I do.    Today I found a little program on the web that will prevent this shutdown. It's called Anti-Shutdown by   urlLink xCAT-Industries  . The program itself can be downloaded from   urlLink http://www.xcat-industries.nl/softwareinfo.php?software=37 .       
+    
+    
+</post>
+
+<date>19,August,2004</date>
+<post>
+
+    
+        If you try to find files containing a specific string, the search of Windows 2003 doesn't look in all filetypes. Just try to search for a &lt;Title&gt;-tag in HTML-files...      Good thing there's a quick solution to this:   - Open  RegEdit  - Find the key  HKLM\SYSTEM\CurrentControlSet\Control\ContentIndex  - Set the DWORD-value of  FilterFilesWithUnknownExtensions  to  1  (default = 0)      Searching will be slower, but at least you'll get some results!      This should work for Windows XP also.   
+    
+    
+</post>
+
+<date>17,August,2004</date>
+<post>
+
+    
+        When you are editing a posting in Microsoft Content Management Server, your stylesheet is not applied to the placeholders. Most users find this unacceptable.  So I was looking for an easy and quick way to change the font-family and the font-size for all the placeholders.  I wrote a generic function I could use on all templates:     Imports Microsoft.ContentManagement.Publishing Public Class kHSw Public Shared Function BuildCSSScript(ByVal pPosting As Posting) As String Dim pStringBuilder As New System.Text.StringBuilder Dim sClassName As String = ConfigurationSettings.AppSettings("PlaceholderClassName") pStringBuilder.Append("&lt;script&gt;") For Each pPlaceholder As Placeholder In pPosting.Placeholders pStringBuilder.Append("window.document.forms[0].NCPHRICH_" & pPlaceholder.Name &amp; ".className = '" & sClassName &amp;amp;amp;amp;amp; "';") Next pStringBuilder.Append("&lt;/script&gt;") Return pStringBuilder.ToString() End Function End Class    We call this function on every template in the Page_Load:    If kHSw.PostingIsInEditMode Then RegisterStartupScript("SetClass", VBI.BuildCSSScript(ThisPosting)) End If    Where PostingIsInEditMode is definied as:    Imports Microsoft.ContentManagement.Publishing Imports Microsoft.ContentManagement.WebControls  Public Class kHSw Public Shared Function PostingIsInEditMode() As Boolean If CmsHttpContext.Current.Mode = PublishingMode.Unpublished And WebAuthorContext.Current.Mode = WebAuthorContextMode.AuthoringReedit Or WebAuthorContext.Current.Mode = WebAuthorContextMode.AuthoringNew) Then Return True Else Return False End If End Function End Class    Now you can add the class for your placeholders to your stylesheet (the name of that class should be the value of PlaceholderClassName in the appSettings-section in the web.config).    Thanks to   urlLink Dirk Dooms   for pointing out a bug in the previously published code.    
+    
+    
+</post>
+
+<date>13,August,2004</date>
+<post>
+
+    
+        A few days ago, a customer called because an ASP.NET application we wrote failed with the errormessage:  "Access denied to 'x:\xxxxxxx\xxxx\xxx\xxxx.aspx'. Failed to start monitoring file changes."  That application had been running for months without errors.  We did a lot of searches, most of them pointing to:   urlLink http://support.microsoft.com/default.aspx?scid=kb;en-us;Q317955   and   urlLink http://support.microsoft.com/default.aspx?kbid=316721    But the problem persisted. Totally clueless I decided to do a last search... and I found this:   urlLink http://support.microsoft.com/default.aspx?scid=kb;en-us;824308   Nice bug ;-)   
+    
+    
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+    
+        When opening a web-project from Visual Sourcesafe 6.0d in Visual Studio .NET 2003 we sometimes get this error:  "The project you are attempting to open is a source controlled FrontPage Web and cannot be opened directly from source control. Please use the Open Project From Web command instead."  If we look at IIS, we see that the VS.NET created only a virtual directory instead of a virtual application. Google was no help at all, but it looks like we've found a working solution:  - Delete that virtual directory in IIS - Reload the project from Sourcesafe - Continue until you get the 'Set Project Location' dialog box - Go to the IIS Manager and create the virtual application(s) you need, pointing to the directory where Sourcesafe will place the files - Go back to Visual Studio .NET and continue as you normally would - Happy programming!    
+    
+    
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+    
+        I know, most of you guys know how to do this, but for the few who don't:  In many games, like the new Doom III, the console can be reached by pressing the "~" - button. Easy on a Qwerty-keyboard. A lot more difficult if you're using an Azerty-keyboard.  Just press  &lt;Ctrl&gt;-&lt;Alt&gt;-²  The ²-button is the button just below &lt;Esc&gt; (where the ~-button is on a Qwerty-keyboard).  Have fun ;-)    
+    
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+    
+        We are developing a CMS-website that's being indexed by Sharepoint. If, for instance, a user visits a CMS-posting with a link to a Sharepoint document, a frameset is build and that document is opened within the frameset automatically. The user doesn't have to click on the link to that document. But when Sharepoint is indexing the website, the redirect can't be performed as Sharepoint has to be able to read the meta-tags on that posting. So we had to make an exclusion for Sharepoint. We did some small research and we found out that the User-Agent Sharepoint is using is called "MS Search".  We wrote a little function that we could call to find out if Sharepoint is crawling our CMS-website:    Public Shared Function SharePointIsCrawling() As Boolean Return (Web.HttpContext.Current.Request.UserAgent = "MS Search") End Function    To be able to test this, we adapted the function so that we could pretend to be Sharepoint with a little registry-hack (by replacing the default empty value of "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\User Agent" to "MS Search"):    Public Shared Function SharePointIsCrawling() As Boolean Return (UCase(Web.HttpContext.Current.Request.UserAgent).IndexOf("MS SEARCH") > -1) End Function    Pretty easy...   
+    
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+    
+        When a customer gets a messagebox (for example an errormessage), they mostly take a printscreen, copy this bitmap in a Word-document and send it to my already overloaded mailbox. Those customers who do think about my mailbox size, are manually typing the text from the messagebox in an email.  It's much easier to just copy the text of the messagebox to the clipboard by pressing  &lt;Ctrl&gt;-&lt;C&gt;.  You'll get something like this (an example coming from the Database Configuration Application of Microsoft Content Management Server):    ---------------------------Stop service?---------------------------In order to continue, the IIS service and all dependent services must be stopped. Do you want to stop IIS now? Answering No will exit this program.---------------------------Yes No ---------------------------    
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+        If you have to develop websites on a machine running Microsoft Sharepoint on the same port, you always have to go to the Sharepoint Central Administration, browse your way to Define Managed Paths and exclude the path of the Visual Studio .NET project you are going to create.  I've created a little vbs-file, just open it and type the name of the path you want to exclude. Here's the source (just copy it and paste it in a file called Exclude.vbs):    Dim strProjectName strProjectName = Inputbox("Project Name?","")  If strProjectName <> "" Then Set WShell = CreateObject("WScript.Shell") WShell.Run """C:\Program Files\Common Files\Microsoft Shared\web server extensions\60\BIN\stsadm.exe""" & " -o addpath -url http://localhost/" &amp; strProjectName & " -type exclusion" Else Msgbox("No Project Name" &amp;amp; vbcrlf &amp; "Quitting") End If     I know, it's very easy, but it's a little time-saver for me...   
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+         I recently bought a Labtec Internet Keyboard. Installing the software (version 1.0) for the keyboard (quick-launch-buttons) was a real nightmare. On the installation screen I was unable to select a language, pressing the Next button twice produced a messagebox telling me the drive I ran the installation from, followed by a nice error: Break 1 - RV_ERR_OPEN_FILE    I mailed the helpdesk, a friendly guy replied that same day, but his solution didn't work. So I did some testing myself and found a working solution:    - Copy the setup files to your harddisk - Edit the appropriate  Setup.P(OS) , depending on the OS you're using (for example Setup.PXP for Windows XP) - In this ini-file, the value for  Product Name  is empty - Set the value of this key to the same value of the  Product Company  key (Labtec Keyboard-Desktop Software) -  Save  this file - Happy installing!    I mailed this solution to Labtec, so I hope this bug is fixed in the next release.   
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+        Because of the privacy, session-variables might get lost when you're running your application in a frameset (from a different domain).   This can easily be solved by adding a compact P3P header:   Response.AddHeader "P3P","CP=""CON IVA OUR"""     More information on P3P can be found on   urlLink http://www.w3.org/P3P/   
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+        Have you ever encrypted stored procedures which had to be altered a few months later? Did you loose the source? Don't panic, they can be decrypted using one of the two procedures below, I found these somewhere on the World Wide Web (credits go the the original authors). Make sure you backup the database first! Only use this for databases where you have the rights to decrypt the stored procedures (read the EULA if you're not sure).   -- PROCEDURE 1 ---    create PROCEDURE usp_decrypt_sp (@objectName varchar(50)) AS DECLARE @OrigSpText1 nvarchar(4000), @OrigSpText2 nvarchar(4000) , @OrigSpText3 nvarchar(4000), @resultsp nvarchar(4000) declare @i int , @t bigint  --get encrypted data SET @OrigSpText1=(SELECT ctext FROM syscomments WHERE id = object_id(@objectName)) SET @OrigSpText2='ALTER PROCEDURE '+ @objectName +' WITH ENCRYPTION AS '+REPLICATE('-', 3938) EXECUTE (@OrigSpText2)  SET @OrigSpText3=(SELECT ctext FROM syscomments WHERE id = object_id(@objectName)) SET @OrigSpText2='CREATE PROCEDURE '+ @objectName +' WITH ENCRYPTION AS '+REPLICATE('-', 4000-62)  --start counter SET @i=1 --fill temporary variable SET @resultsp = replicate(N'A', (datalength(@OrigSpText1) / 2))  --loop WHILE @i 0 SET @resultsp=REPLACE(UPPER(@resultsp),'WITH ENCRYPTION', '') --replace Stored procedure without encryption execute( @resultsp) GO        --- PROCEDURE 2 ---    if exists (select * from sysobjects where id = object_id('dbo.spDecryptSP') and sysstat & 0xf = 4) drop procedure dbo.spDecryptSP GO  Create procedure dbo.spDecryptSP @spName varchar(50), @Replace bit = 0 As /* Developer: Jonathan Spinks Date: 24/07/03 Description: Decrypts SQL 2000 stored procedures  Inputs: @spName = the name of the stored procedure you wish to decrypt @Replace = 0 or 1. 0 if you wish to display the unencrypted sp 1 if you wish to replace the encrypted with the unencrypted sp  If this procedure returns "  is to large to decrypt" this stored procedure can be modified to decrypt it. Your starting point is to check out how many rows are returned in the syscomments table for the stored procedures object_id.  If you just wish to display the sp then ensure that your result pane is turned to 'Results in Text'. In Query analyser (2k) Query => 'Results in Text'.  If your returned information looks 'cut short' first check that your i_SQL query window is returning the entire string. In Query analyser (2k) Tools => Options, Results tab, Maximum characters per column = 8000.  Happy decrypting  Original idea: shoeboy   Adapted by: Joseph Gama Copyright © 1999-2002 SecurityFocus Adapted Source: http://www.Planet-Source-Code.com/vb/scripts/ShowCode.asp?txtCodeId=505&amp;lngWId=5 Enhanced by: Jonathan Spinks Copyright © 2003 I.S. Software Developments. WASH */ DECLARE @a1 nvarchar(4000), @b1 nvarchar(4000), @c1 nvarchar(4000), @d1 nvarchar(4000), @a2 nvarchar(4000), @b2 nvarchar(4000), @c2 nvarchar(4000), @d2 nvarchar(4000), @a3 nvarchar(4000), @b3 nvarchar(4000), @c3 nvarchar(4000), @d3 nvarchar(4000), @a4 nvarchar(4000), @b4 nvarchar(4000), @c4 nvarchar(4000), @d4 nvarchar(4000), @a5 nvarchar(4000), @b5 nvarchar(4000), @c5 nvarchar(4000), @d5 nvarchar(4000), @a6 nvarchar(4000), @b6 nvarchar(4000), @c6 nvarchar(4000), @d6 nvarchar(4000), @a7 nvarchar(4000), @b7 nvarchar(4000), @c7 nvarchar(4000), @d7 nvarchar(4000), @a8 nvarchar(4000), @b8 nvarchar(4000), @c8 nvarchar(4000), @d8 nvarchar(4000), @a9 nvarchar(4000), @b9 nvarchar(4000), @c9 nvarchar(4000), @d9 nvarchar(4000), @a0 nvarchar(4000), @b0 nvarchar(4000), @c0 nvarchar(4000), @d0 nvarchar(4000), @Perm nvarchar(4000), @i int  if not exists(SELECT * FROM syscomments WHERE id = object_id(@spName)) Begin print @spName +' cannot be found' return End  if exists(SELECT * FROM syscomments WHERE id = object_id(@spName) and encrypted = 0) Begin print @spName +' is not encrypted' return End  if (SELECT count(*) FROM syscomments WHERE id = object_id(@spName)) > 10 Begin print @spName +' is to large to decrypt' return End  -- Get a list of the current permissions on the encrypted stored procedure declare curPerm cursor fast_forward for select '['+ u.name +']' as name, p.actadd, p.actmod from dbo.syspermissions p inner join dbo.sysusers u On p.grantee = u.uid where p.id = object_id(@spName) open curPerm  Set @Perm = '' while 1 = 1 begin declare @name sysname, @actadd smallint, @actmod smallint fetch next from curPerm into @name, @actadd, @actmod if @@fetch_status <> 0 break -- For each permission in the list construct a GRANT or DENY command if @actadd & 32 = 32 Set @Perm = @Perm +'GRANT EXECUTE ON '+ @spName +' TO '+ @name +char(13)+char(10)+'Go'+char(13)+char(10) else if @actmod &amp; 32 = 32 Set @Perm = @Perm +'DENY EXECUTE ON '+ @spName +' TO '+ @name +char(13)+char(10)+'Go'+char(13)+char(10) end close curPerm deallocate curPerm  -- Get encrypted stored procedure SELECT @a1=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 1 SELECT @a2=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 2 SELECT @a3=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 3 SELECT @a4=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 4 SELECT @a5=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 5 SELECT @a6=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 6 SELECT @a7=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 7 SELECT @a8=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 8 SELECT @a9=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 9 SELECT @a0=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 10  -- Create blank stored procedure SET @b1='ALTER PROCEDURE '+ @spName +' WITH ENCRYPTION AS '+ REPLICATE('-', Len(@a1)) SET @b2=REPLICATE(N'-', len(@a2)) SET @b3=REPLICATE(N'-', len(@a3)) SET @b4=REPLICATE(N'-', len(@a4)) SET @b5=REPLICATE(N'-', len(@a5)) SET @b6=REPLICATE(N'-', len(@a6)) SET @b7=REPLICATE(N'-', len(@a7)) SET @b8=REPLICATE(N'-', len(@a8)) SET @b9=REPLICATE(N'-', len(@a9)) SET @b0=REPLICATE(N'-', len(@a0))  -- Wrap in transaction so original stored procedure can be restored Begin transaction ReplaceSP  Execute (@b1 + @b2 + @b3 + @b4 + @b5 + @b6 + @b7 + @b8 + @b9 + @b0)  -- Get blank encrypted stored procedure SELECT @c1=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 1 SELECT @c2=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 2 SELECT @c3=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 3 SELECT @c4=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 4 SELECT @c5=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 5 SELECT @c6=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 6 SELECT @c7=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 7 SELECT @c8=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 8 SELECT @c9=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 9 SELECT @c0=ctext FROM syscomments WHERE id = object_id(@spName) and colid = 10  If @Replace = 0 Rollback Transaction ReplaceSP Else Commit Transaction ReplaceSP  SET @b1='CREATE PROCEDURE '+ @spName +' WITH ENCRYPTION AS '+ REPLICATE('-', Len(@a1))  -- initalise the output variables Set @d1 = '' Set @d2 = '' Set @d3 = '' Set @d4 = '' Set @d5 = '' Set @d6 = '' Set @d7 = '' Set @d8 = '' Set @d9 = '' Set @d0 = ''  -- Set the counter to one Set @i = 1 WHILE @i  BEGIN -- (unencrypted original) = (encrypted original) XOR (unencrypted blank) XOR (encrypted blank) SET @d1 = @d1 + NCHAR(UNICODE(substring(@a1, @i, 1)) ^ (UNICODE(substring(@b1, @i, 1)) ^ UNICODE(substring(@c1, @i, 1)))) SET @i=@i+1 END  -- Set the counter to one Set @i = 1 WHILE @i  BEGIN -- (unencrypted original) = (encrypted original) XOR (unencrypted blank) XOR (encrypted blank) SET @d2 = @d2 + NCHAR(UNICODE(substring(@a2, @i, 1)) ^ (UNICODE(substring(@b2, @i, 1)) ^ UNICODE(substring(@c2, @i, 1)))) SET @i=@i+1 END  -- Set the counter to one Set @i = 1 WHILE @i  BEGIN -- (unencrypted original) = (encrypted original) XOR (unencrypted blank) XOR (encrypted blank) SET @d3 = @d3 + NCHAR(UNICODE(substring(@a3, @i, 1)) ^ (UNICODE(substring(@b3, @i, 1)) ^ UNICODE(substring(@c3, @i, 1)))) SET @i=@i+1 END  -- Set the counter to one Set @i = 1 WHILE @i  BEGIN -- (unencrypted original) = (encrypted original) XOR (unencrypted blank) XOR (encrypted blank) SET @d4 = @d4 + NCHAR(UNICODE(substring(@a4, @i, 1)) ^ (UNICODE(substring(@b4, @i, 1)) ^ UNICODE(substring(@c4, @i, 1)))) SET @i=@i+1 END  -- Set the counter to one Set @i = 1 WHILE @i  BEGIN -- (unencrypted original) = (encrypted original) XOR (unencrypted blank) XOR (encrypted blank) SET @d5 = @d5 + NCHAR(UNICODE(substring(@a5, @i, 1)) ^ (UNICODE(substring(@b5, @i, 1)) ^ UNICODE(substring(@c5, @i, 1)))) SET @i=@i+1 END  -- Set the counter to one Set @i = 1 WHILE @i  BEGIN -- (unencrypted original) = (encrypted original) XOR (unencrypted blank) XOR (encrypted blank) SET @d6 = @d6 + NCHAR(UNICODE(substring(@a6, @i, 1)) ^ (UNICODE(substring(@b6, @i, 1)) ^ UNICODE(substring(@c6, @i, 1)))) SET @i=@i+1 END  -- Set the counter to one Set @i = 1 WHILE @i  BEGIN -- (unencrypted original) = (encrypted original) XOR (unencrypted blank) XOR (encrypted blank) SET @d7 = @d7 + NCHAR(UNICODE(substring(@a7, @i, 1)) ^ (UNICODE(substring(@b7, @i, 1)) ^ UNICODE(substring(@c7, @i, 1)))) SET @i=@i+1 END  -- Set the counter to one Set @i = 1 WHILE @i  BEGIN -- (unencrypted original) = (encrypted original) XOR (unencrypted blank) XOR (encrypted blank) SET @d8 = @d8 + NCHAR(UNICODE(substring(@a8, @i, 1)) ^ (UNICODE(substring(@b8, @i, 1)) ^ UNICODE(substring(@c8, @i, 1)))) SET @i=@i+1 END  -- Set the counter to one Set @i = 1 WHILE @i  BEGIN -- (unencrypted original) = (encrypted original) XOR (unencrypted blank) XOR (encrypted blank) SET @d9 = @d9 + NCHAR(UNICODE(substring(@a9, @i, 1)) ^ (UNICODE(substring(@b9, @i, 1)) ^ UNICODE(substring(@c9, @i, 1)))) SET @i=@i+1 END  -- Set the counter to one Set @i = 1 WHILE @i  BEGIN -- (unencrypted original) = (encrypted original) XOR (unencrypted blank) XOR (encrypted blank) SET @d0 = @d0 + NCHAR(UNICODE(substring(@a0, @i, 1)) ^ (UNICODE(substring(@b0, @i, 1)) ^ UNICODE(substring(@c0, @i, 1)))) SET @i=@i+1 END   if @Replace = 0 Begin -- Output the unencrypted stored procedure to the screen select @d1 as 'Unencrypted Stored Procedure' select @d2 select @d3 select @d4 select @d5 select @d6 select @d7 select @d8 select @d9 select @d0 -- Output any permissions that were on the encrypted stored procedure Select @Perm as 'Permissions' End Else Begin -- Drop the encrypted stored procedure Exec('Drop Procedure '+ @spName) -- Remove the 'WITH ENCRYPTION' command from the stored procedure Set @d1 = Replace(@d1, 'WITH ENCRYPTION', '') -- Create the unencrypted stored procedure Exec(@d1 + @d2 + @d3 + @d4 + @d5 + @d6 + @d7 + @d8 + @d9 + @d0) -- Apply any permissions that were on the encrypted stored procedure Exec(@Perm) End  Go   
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+        I'm using   urlLink Brinkster   for hosting some of my web-applications. They are providing a nice free service. But sometimes you get weird random errors. Errors that don't show up on other servers and that have nothing to do with your code, like the connection that can't be opened, updates that can't be executed, ... When you refresh the page, everything works well. So I always add a two small blocks of code to my pages (code that passes the Brinkster-code-checker).  On top of my page I use:   On Error Resume Next    At the end of my page there's:   If Err.Number <> 0 Then Response.Redirect Request.ServerVariables("URL") End If    If one of these random errors appears, the page will be reloaded. Be careful to add this after you are sure you're page itself is completely error-free...    
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+        If you're experimenting a lot like I do, Windows Explorer hangs once in a while. Killing and restarting the process mostly does the trick. The disadvantage is that some programs are 'lost'. The icon in the system tray has disappeared and the application itself is invisible. The quickest way to solve this is by logging off and on. But sometimes you can't log off because one of your programs is performing a task you don't want to cancel. I've written a little application that enumerates all window-handles found in Windows (didn't know there were so many hidden windows...). You can search for a specific Window and make that Window visible (your program is visible again). This little program (Show Hidden Windows) can be downloaded from   urlLink http://www31.brinkster.com/khswsoft/   and is completely free to use. Be careful, Windows might hang when you want to show certain windows.      
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+        I recently played with my registry, deleting 1 key to many. Internet Explorer didn't want to open new windows. So I just made my own popup-blocker :-)  Restoring Internet Explorer was quite easy. I went to the Run-box and typed the following separate commands:   regsvr32 urlmon.dll regsvr32 shdocvw.dll regsvr32 msjava.dll  (Some of you may not have this one... That's OK)  regsvr32 mshtml.dll regsvr32 browseui.dll   For those who want professional help on this, there's an article on the Microsoft Knowledge Base:   urlLink http://support.microsoft.com/support/kb/articles/q180/1/76.asp   
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+        Although there was a statement not to continue if SP2 wasn't installed, i did continue to install the new software on v5.windowsupdate.microsoft.com, just to see how it looked... But after that I was unable to revert to the current update site (v4.windowsupdate.microsoft.com). By searching Google I learned I was not the only one with this problem ;-) No post could help, so I started combining solutions. Finally it got it to work. Here are the things I did (some of then might be unnecessary, but hey, it works!):  - Find the file wuweb.dll and delete it (make sure hidden and system files and folders are visible) - Go to Start > Run and type "regsvr32 iuctl.dll /u" (without the quotes) to unregister this DLL. - Use the Windows Search (or any other) to find the files iuengine.dll and iuctl.dll. Delete all occurences of these files (make sure you delete the ones in %SystemRoot%\System32 last). - Go to %Program Files%\WindowsUpdate - Open the v4 folder and delete everything in it except for the iuhist.xml file - Reboot your computer  v4.windowsupdate.microsoft.com should be working again. If not, good luck ;-)   
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+        This is one of the Stored Procedures I use frequently:    CREATE PROCEDURE sp_kill_database_users @arg_dbname sysname with recompile AS -- kills all the users in a particular database -- dlhatheway/3M, 11-Jun-2000  declare @a_spid smallintdeclare @msg varchar(255) declare @a_dbid int  select @a_dbid = sdb.dbid from master..sysdatabases sdb where sdb.name = @arg_dbname  declare db_users insensitive cursor for select sp.spid from master..sysprocesses sp where sp.dbid = @a_dbid  open db_users  fetch next from db_users into @a_spid while @@fetch_status = 0 begin select @msg = 'kill '+convert(char(5),@a_spid) print @msg execute (@msg) fetch next from db_users into @a_spid end  close db_users deallocate db_users  GO     Don't panic, it will not kill the users itself, just their connection to the database ;-)   
+    
+    
+</post>
+
+
+</Blog>

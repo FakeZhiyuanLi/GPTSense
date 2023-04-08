@@ -1,0 +1,1 @@
+Some computer systems use Coordinated Universal Time (UTC) to avoid the issues of changes in local time. UTC is a time standard that is not linked to any specific time zone and is used as a reference time by people all over the world. It helps to eliminate confusion about time differences between different regions and ensures that all system clocks are in sync.

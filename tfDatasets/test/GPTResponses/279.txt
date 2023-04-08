@@ -1,0 +1,1 @@
+It depends on the specific protocol and implementation used for layer 3. Generally, layer 3 protocols such as IPv4 and IPv6 use a fixed number of bits to indicate their use, which is either 4 bits or 6 bits, respectively. Other protocols such as MPLS may use a different number of bits or a variable number of bits depending on the specific implementation.

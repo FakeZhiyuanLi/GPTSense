@@ -1,0 +1,1 @@
+One of the first electromechanical relay computers was the Harvard Mark I, also known as the IBM Automatic Sequence Controlled Calculator (ASCC), which was developed in 1944 by Howard Aiken and his team at Harvard University. It used over 3,000 electromechanical relays to perform calculations and was capable of solving complex mathematical problems.

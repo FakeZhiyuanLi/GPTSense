@@ -1,0 +1,67 @@
+<Blog>
+
+<date>20,August,2004</date>
+<post>
+
+    
+       
+      After a lot of hard work, complicated JS ;-) and some nifty tricks, I have completed the first version of  CFX_JImage Studio  to demo our latest Java Custom tag.  The demo is cross browser (Mozilla and IE) and may (or may not) be slow on your connection.  To check it out, click the button below.  Please send feedback to  urlLink dmackey@gmail.com       
+      
+</post>
+
+<date>19,August,2004</date>
+<post>
+
+    
+       
+      Here is something you might enjoy!  To boost our wonderful  CFX_JImage  tag and offer more "Bang for your buck", we have developed a DHTML interface to the custom tag that people can use to either try the tag out or host online to quickly edit an image file on their server.  The main bulk of the application is complete but there is still a small matter of server-side organisation of files, REDO/UNDO and loading of image files etc         Above is a quick snapshot of what the application looks like. I am currently working on the  Filter Browser  dialog while Peter is tracking down some nasty Java bug that is preventing images that have been read from being released by Java. Looks like in the loading class, the Input file stream isnt being closed properly....  I am most proud of the  Rubber Band  effect used for cropping the image and placing the text for drawing! 
+      
+</post>
+
+<date>16,August,2004</date>
+<post>
+
+    
+       
+      Peter is currently packaging up and writing the documentation for our latest CFX release on CFTagStore.com.  This tag rocks! It has various features and enhancements over similar solutions especially the rather cool  cropping  feature. The best part of this tag is the price!  Be sure to check CFTagStore.com and grab a copy of this tag ASAP! :-)  Dan.   
+      
+</post>
+
+<date>13,August,2004</date>
+<post>
+
+    
+       
+      About 3 weeks ago, I got an invite to GMail. I singed up and was blown away with the interface and the DHTML etc (Especially the Spell Checking) but didn't really expect myself to use it as I rely heavily on my email account dan@digital-crew.com  But then something strange started happening! I have 3 computers on my desk, my main work PC, an iMac and my laptop.  The laptop is controlled by my Desktop via PCAnywhere (Cuts down on swapping mice and keyboards and is handy for transferring clipboard contents etc)  During my normal day, my Laptop sits there getting my email and its a dog of a laptop now. There are so many apps running as services. I develop on my Desktop.  I now find it easier to use my GMail account to answer tech questions due to the extremely handy feature of grouping all emails together in a  conversation .  Normally, I answer up to 20 emails a day and its time consuming to look for previous emails to refer back to but with this new feature coupled with GTray, I get my email instantly all grouped nicely together!  Google Mail, you are my new best friend!  Dan. 
+      
+</post>
+
+<date>13,August,2004</date>
+<post>
+
+    
+       
+      Just finished my latest assigned project for a client bang on time!  The code is safely written to CD and ready for deployment tomorrow.  The project is an Intranet for a newspaper company which will allow storage of important information in a single database and help boost inter-office communication.  The particular project was completed 2 yrs ago but a much needed  CRM  section was required so thats what I have been working on for the last month.       I actually have to admit that its looking savage! Its near perfect on both Mac and PC. Being a newspaper, the Mac was a prerequisit so we had to get an old iMac in to help with compatability. Its amazing how far modern browsers have progressed!  IE5 on Mac sucks!  Dan. 
+      
+</post>
+
+<date>13,August,2004</date>
+<post>
+
+    
+       
+      We are always striving to make better applications here at Digital Crew.  Many of these applications, widgets and components make their way onto  urlLink CFTagStore.com  so developers don't have reinvent the wheel when it comes to developing similar pieces of code.  I would like to give some insight into whats in the pipeline here at DC.   TeamWork Intranet   TeamWork Intranet is our main product encompassing all our components and applications into a group-based Intranet Environment. We dedicate Fridays to complete development of the product and are excited about its potential.  For more information :  urlLink www.TeamWorkIntranet.com    CFX_JImage   Peter is currently working on a Java CFX Tag for image manipulation that allows developers to perform a number of editing functions on images right from ColdFusion.  I am currently working on a complimentary DHTML interface to show off its capabilities and its looking damn fine.  Most proud of the  Rubber Band  effect for cropping images. More to come on that....   CFX_JSpell   My own personal delving in Java CFX tags is a GMail type Textarea spell checking component. The DHTML side takes all inspiration from GMail and is compatible with Mozilla and IE.  The server side code (CFX) can be run against a dictionary seperate from our DHTML interface. The Spell Checking Engine being used is Jazzy (Open Source on SourceForge.net)   CFX_JZip   This is an update to a tag I am selling on  urlLink www.CFTagStore.com . The new update will allow the user to  Add  to a zip file aswell as provide a spiffy DHTML interface for manipulating Zip Files.   CFMyAdmin   We are also excited about releasing Version 2.0 of our ColdFusion Based MySQL Database Manager  urlLink www.CFMyAdmin.com   The new version will support Indices, foreign keys and a full user account manager. We are also taking this opportunity to over-haul the data display and entry section.  So, thats a synopsis of whats in the pipeline and to give an oversight of what we're all about coming into the Autumn.  Regards, Dan. 
+      
+</post>
+
+<date>13,August,2004</date>
+<post>
+
+    
+       
+      Finally, I have taken the plunge and started a ColdFusion Development Blog on the latest developments in ColdFusion personnally, with Digital Crew and CFTagStore.com  Seeing as this is the first post and I'm trying to work out what the hell is going on with the feeds and everything, I'll keep it short and sweet!  I'll say this though, the Interface for Blogger is savagely good!!  Dan. 
+      
+</post>
+
+
+</Blog>

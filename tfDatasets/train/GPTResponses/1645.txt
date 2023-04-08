@@ -1,0 +1,1 @@
+The first stored-program computer in the world was the Manchester Mark 1, also known as the Manchester Automatic Digital Machine (MADM), which was developed by a team of scientists at the University of Manchester, England. It was completed in 1949 and was capable of executing a wide range of programs, which could be stored in its memory.

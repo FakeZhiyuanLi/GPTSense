@@ -1,0 +1,31 @@
+<Blog>
+
+<date>16,August,2004</date>
+<post>
+
+    
+       
+       Well, my household just got Sasktel Max. Okay, I imagine that I just lost many of you, so I'll explain.   Sasktel Max is on of those services you get from your telecommunication company. It's TV that comes to your house over the phone line. How? Well the only thing I know for sure is what its like on this end: It's simple, I've got a 8mbps (downstream) DSL connection and each TV has a set top box (like with satellite) which connects to the Ethernet network like any other computer. When your watching one TV you're consuming about 3.2mbps. Now where I live DSL lines can't exceed 8mbps, this means that we can only have 2 set top boxes (8mbps line speed - 3.2mbps for one set top box - 3.2 for another set top box - 1.5mbps for the included regular internet = 1.6mbps left (not enough for another set top box)). Anyway, the normal TV broadcasts are sent using the iptv protocol. The nice thing about Max is that it is all digital; this means it has a interactive guide, you can surf the web on it, and Pay-per-view is replaced by a much nicer feature which resembles a VCR or DVD player (you can pause, fast forward, rewind). This interactive movie renting thing used rtsp (Real Time Streaming Protocol  ).   So being a computer geek...er...enthusiast I instantly saw potential for this set top box. How couldn't I? It has MPEG 1 and 2 codes and can receive a constant stream over epitaph, or a real time, request based stream over rtsp. Heck, its even got ps/2, serial, and parallel ports as well as S-Video, RCA, and coaxial video outputs.  So here is the project goal I've come up with: Set up my desktop computer to stream video that can be paused, fastforwarded, etc to my livingroom TV  without  loosing the ability to watch TV that I pay 70 Canadian bucks a month to get.  --I'll keep you posted
+      
+</post>
+
+<date>16,August,2004</date>
+<post>
+
+    
+       
+      Wow, this is kind of cool. I think I may have underestimated the traffic blogs receive. Sure, maybe its only 2 comments, but that seems like a heck of a lot considering this blog has only been on the internet for 5 hours. 
+      
+</post>
+
+<date>16,August,2004</date>
+<post>
+
+    
+       
+          I always found blogs to be kind of weird. I bet most blogs dont even get read unless they actually have some usefull topic to them. Oh well, I decided I'd better go make myself a blog to see first hand what their all about...Oh yeah, and even more importantly, to test one man's theory that Gmail invites are sent to people with Blogger accounts. There, now I dont have to feel bad about  using  the system; if I receive a Gmail invite, I earned it by writting this entry.      Well, I'm impressed. This whole Blogger interface is really really nice (even in Firefox running under Linux, now thats saying something). Everything is just really smooth.      Hmm...I dont have anything else to say. Maybe, if I post again, I will introduce myself a bit.  *This is not spell checked. The button was broken.* 
+      
+</post>
+
+
+</Blog>

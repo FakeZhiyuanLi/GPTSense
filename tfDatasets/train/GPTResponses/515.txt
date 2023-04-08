@@ -1,0 +1,1 @@
+The photovoltaic system uses the photoelectric effect to turn light into electricity. When photons (light) hit the surface of the solar panel, they knock loose electrons from the atoms in the panel's semiconductor material. This generates a flow of electrons, known as a current, that can be harnessed and used as electricity.

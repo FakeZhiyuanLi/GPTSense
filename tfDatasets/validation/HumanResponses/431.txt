@@ -1,0 +1,1 @@
+duration: 31 minutes distance: 1100 yards workout: (yds) 200 free/warmup, 200 free, 100 medley, 300 kick (200 sizzor, 50 dolphin, 50 back), 200 pull (25 butterfly, 25 back, 25 breast, 125 free), 100 free/cooldown weight: 211

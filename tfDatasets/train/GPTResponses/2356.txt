@@ -1,0 +1,1 @@
+Cinema film is generally scanned at 25 frames per second for transmission on SDTV in PAL-system countries. This is because the PAL system operates at a frequency of 50Hz, which means that each frame is displayed twice per second.

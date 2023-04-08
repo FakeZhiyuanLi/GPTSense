@@ -1,0 +1,274 @@
+<Blog>
+
+<date>29,April,2004</date>
+<post>
+
+     
+       urlLink http://sourceforge.net/projects/editorviewer/   urlLink http://www.eclipse-plugins.info/eclipse/plugin_details.jsp?id=540   "This Eclipse Plugin "EditorViewer" provides a view of all open editors within Eclipse. The goal is to provide as many of the same features of the "Navigator" plugin provided with the base Eclipse install. Currently Eclipse presents the list of open editors via the use of tabs, while useful if only a few files are open, the names on those tabs quickly become useless/unreadable as more and more editors are open. This plugin aims to provide a means to clearly access the open editors regardless of the number as well as provide convenient functionality for those editors such as comparison and team functions."  This is a very nice plugin.. It corrects one of the few irritant factors in Eclipse. This is the beauty of the Eclipse's plugin architecture, one does not need to wait for the next release of the product, anyone can build a plugin for the small/big feature that he believes will make Eclipse a better place to live.
+     
+    
+</post>
+
+<date>28,April,2004</date>
+<post>
+
+     
+       Using ANT for generating HTML reports for Junit  -   urlLink http://builder.com.com/5100-6370-1046462-2.html#Listing%20F   I have tried this out, its quite easy to use and the reports generated are good looking.
+     
+    
+</post>
+
+<date>27,April,2004</date>
+<post>
+
+     
+      Nice  urlLink article , practically usable advice.
+     
+    
+</post>
+
+<date>27,April,2004</date>
+<post>
+
+     
+       urlLink http://today.java.net/pub/a/today/2003/08/06/multithreadedTests.html"> http://today.java.net/pub/a/today/2003/08/06/multithreadedTests.html   I have tried using it in my hotel.db project, it took just 15 mniutes to understand how to use it. Pretty useful. 
+     
+    
+</post>
+
+<date>27,April,2004</date>
+<post>
+
+     
+      "Version 0.5  urlLink Log4E  is an Eclipse Plugin which helps you to set up your logger easily in Java Projects. It assists you in several tasks: logger declaration, logger Inserts at certain method entries, replacements of System out's, modification of already existing logger statements.  "  This should be a useful plugin for projects which are using Log4J. This confirms the belief that people should just use the standard APIs available without building wrappers over it, unless your requirement is really different. I am not sure it was smart of Indigo to build its own wrappers for Logging. 
+     
+    
+</post>
+
+<date>27,April,2004</date>
+<post>
+
+     
+      I got the invitation too !!  Now my new identity is  chirag.doshi@gmail.com 
+     
+    
+</post>
+
+<date>26,April,2004</date>
+<post>
+
+     
+       urlLink Google's Gmail Goes Into Beta for Blogger Users    It seems some of the blogger users got invitation to try out Gmail Beta..  I had been active on my blogger account too but I did not get the invitation..  I am so sad :(
+     
+    
+</post>
+
+<date>23,April,2004</date>
+<post>
+
+     
+       urlLink Two is too many to live together - PDF    urlLink Two is too many to live together - DOC   This is a paper I had composed while working in the Indigo DVT team. It describes an apporach  to designing large/complicated Integration tests.  
+     
+    
+</post>
+
+<date>21,April,2004</date>
+<post>
+
+     
+      Install it from  urlLink here    urlLink Continuous Testing Tutorial   It runs unit tests everytime a save is done on the project files. Its simple and nice.
+     
+    
+</post>
+
+<date>31,May,2004</date>
+<post>
+
+     
+       urlLink http://groups.yahoo.com/group/java-gui-testing/  It maybe useful, sometime later. 
+     
+    
+</post>
+
+<date>28,May,2004</date>
+<post>
+
+     
+      How many of you always thought BATA is an Indian firm ? read  urlLink this  and break the myth 
+     
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+     
+      Score -  98%  Much more than what I expected.  Khuda meharbaan tau gadha pehalvaan :)  -  urlLink Resources    Now its time to get serious about my SCJD assignment.
+     
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+     
+       You are currently using 1 MB (0%) of your 1000000 MB.   This is the message I see on my Gmail inbox page. Yeah ok.. You can count the zeroes again. Is this a mistake ?  or is this a masterstroke from Google. When I heard for the first time about this 1 GB mail service from Google, I thought, they could actually make it “unlimited space” since very few people will even use up 1GB. Moreover, if someone really wants to upload 10GB, then he will just open 10 different accounts. Lets wait to get confirmation over this. 
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+     
+      For reference:  urlLink http://sourceforge.net/projects/pdfcreator/   PDFCreator easily creates PDFs from any Windows program. It adds a printer to the list of printers. 
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+     
+       urlLink http://www.geocities.com/chiragsdoshi/sample/build.xml   This is the build file I am using in Indigo Scheduler DVT. It uses the compile, jar , ftp and the telnet tasks.
+     
+    
+</post>
+
+<date>07,May,2004</date>
+<post>
+
+     
+      Look at my previous post about the StaticMethodNullObjectConfusion class example where a null object is used to invoke a static class without causing a NullPointerException.  It is now that I completely understand how it works.   It works since the binding of which method to call for nullObj.someStaticMethod(); happens at compilation time and not at Runtime. That is why it does not matter that the value assigned to the nullObj is null. It will be interesting to see the results of this class's compilation using some ByteCode viewer tool. When Jimmy has some time I will ask him to join me this.
+     
+    
+</post>
+
+<date>07,May,2004</date>
+<post>
+
+     
+       urlLink The Java IAQ   Nice set of java questions here.  One that  surprised  :-O me:   public class StaticMethodNullObjectConfusion { 	public static void someStaticMethod() { 		System.out.println("someStaticMethod called"); 	} 	 	public static void main(String args[]) { 		StaticMethodNullObjectConfusion nullObj = null; 		nullObj.someStaticMethod(); 		System.out.println("look maa!!, No NullPointerException"); 	} }    The above main method runs without causing a NullPointerException, since while executing a static method only the type of the object being used for the call is considered and its value is ignored. 
+     
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+     
+       urlLink http://www.eclipse-plugins.info/eclipse/plugin_details.jsp?id=700   I am yet to try and see how well this ANT task works. But I think it is going to be a very useful Ant Task. It will make things a lot easier for people using ANT and Eclipse.
+     
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+     
+      This  urlLink page  on the c2 wiki has a nice picture of Kent Beck and Ward Cunningham. This is on my desktop for a long time now.
+     
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+     
+       urlLink http://www.planetjava.co.uk/  This site has some very nice artciles on Swing based UI development. In particular I have read the ones related to using MVC architecture in Swing. These are proving very useful to me in my SCJD preparations.
+     
+    
+</post>
+
+<date>04,June,2004</date>
+<post>
+
+     
+      Santa Singh goes to a coffee shop with his wife, orders coffee.  When the coffee arrives, he tells his wife "Drink quickly... quick!" She asks "Kyon?" He says "Arree... Hot coffee is Rs. 5/-... but cold coffee is Rs.20/-!!" 
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+     
+       Read this rediff story today. Tribal kills his mother for sacrifice to a diety.  urlLink [1]     It makes me feel sick to know that people can be so senseless. How can someone kill ones own mother ? Just a few days ago there was another story where some guy killed a neighbour's kid for sacrifice. I feel as sorry for the guy who killed his mother as much as for the lady herself. He would really be believing that doing such a horrible thing would bring benifit to him.   <> Somehow basic education needs to spread to all sections of our society. Only that can stop people acting this dumb.   
+     
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+     
+      Hey     I cleared the SCJD exam today. Got the results back from Sun within less than a week from submission.   I have scored  86% , I am not happy with the score, but then I lost most of the points in the Locking section which is the most controversial. Whatever it is, its fine.    Here is the full Report card.   Sun Certified Developer for the Java 2 Platform (310-027) Date Taken: 2004-07-17 13:21:30.560 Registration Number: kbcsyd5193 Site: iid68 Grade: 	P Score: 345  Comment: This report shows the total 1.4 SCJD points that could have been awarded in each section, and the actual number of points you were awarded. This is provided to give you per-section feedback on your strengths.   The maximum possible score is 400;  the minimum to pass is 320.   General Considerations (maximum = 100): 94  Documentation (maximum = 70): 70  O-O Design (maximum = 30): 17  GUI (maximum = 40): 40  Locking (maximum = 80): 44  Data store (maximum = 40): 40  Network server (maximum = 40): 40 Total (maximum = 400): 345     I should thank  Jimmy ,  Latha ,  Nidhi  and  Matira . These guys helped me a lot in testing out the application. Given the score I have got I would maybe have flunked if I had not got a good score on the GUI section.  Thanks  Jimmy  for making my GUI good.  
+     
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+     
+      This  urlLink Personality test  says that I am a Dictator. :)  Find out what it has to say about you.  I like these attemps to understand people in five minutes :) 
+     
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+     
+      Its really is amazing, I knew Wikipedia is a great place to find information but did not know it is giving serious competition to the conventional encyclopedias.  Read this  urlLink /. post  about Wikipedia.
+     
+    
+</post>
+
+<date>03,July,2004</date>
+<post>
+
+     
+      " urlLink Yoxos  is a distribution of the new Eclipse 3.0 plus a selection of the most popular open-source plugins for Eclipse, and pre-packaged bundles of plugins for targeted programming scenarios such as Web development. Available as CD (worldwide delivery) or download. "  This should be a useful for people who are new to the web app plugins. They do not have go around looking for the right pluggins, they can use these bundles directly. Once they get more experienced with the various pluggins they can try out their own new combinations.
+     
+    
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+     
+         1.      Form a  detective agency to find out who is quitting next.          2.      Make blank calls to your  Boss.         3.      Send mails  from lotus notes to your internet mail (and immediately         get to the internet and  see who reaches first, you or your mail?)         and read them there, and note down the  time they take to reach there.         Then do vice versa.............  !!          4.      Rearrange the furniture, i.e. flick  someone elses chair just to irritate him/her.          5.      Count your  fingers (and toes if you still get bored).          6.      Watch other people changing their facial  ex-pressions while         working and try changing your ex-pressions  also.           7.     Try to  stretch status meetings as longer as possible, just by asking silly  doubts.            8.      Make faces at strangers in  office.                 9.      Have a two  hour lunch; it's a     big     social  occasion.         10.      Learn to whistle.         11.      Revise last  week's newspaper.           12.      Hold "How fast my computer boots"  competitions.           13.      Practice  aiming the coffee cup into the dustbin.        14.      Compile "How to waste your  day"          15.      Pick up  phone and dial non existing nos.           16.      Have work breaks in between  tea.        17. Count maximum no of applications  your computer can open at       time.        18.      For Win NT/95 users....Move things to  Recycle bin and restore         them..Then repeat this process.          19.      Look at  someone & try to imagine how(s) he might have looked         when(s) he was 5 years  old.          20.      Read jokes and send jokes.            21.      Make full  use of the comfortable chair and table provided and         take a  nap.      I found this list extremely funny !! Got this as a mail forward from Kutti, I think I should spend my day trying out these tips. Yeah you guessed right, I don't have anything to do in office these days :)    
+     
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+     
+      I liked the  urlLink cartoon  very much. It is very simple and I guess thats why it is so impressive.   
+     
+    
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+     
+      Found this  urlLink Page  from Sun while browsing for something else with Jimmy. Its a very nice Page/application which explains many of the Java technologies in realtion with each other.
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+     
+      Lookout is a plugin tool for Microsoft Outlook which allows very fast searching capabilities. You can download it from  urlLink here.   I downloaded to try it out, works great. It is superfast, I don't think I am going to use the standard outlook search ever again. 
+     
+    
+</post>
+
+
+</Blog>

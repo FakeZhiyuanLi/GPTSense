@@ -1,0 +1,95 @@
+<Blog>
+
+
+<date>29,May,2004</date>
+<post>
+
+	 
+      I've managed to keep compatibility with the previous data file format so the new version of the  urlLink Tipue scripts  will be 1.6, and I'll be saved from a fortnight of scourging via e-mail.
+     
+    
+</post>
+
+<date>28,May,2004</date>
+<post>
+
+	 
+      As I've been working on Tipue the .NET app I've had a few ideas on improving the  urlLink Tipue scripts  and I've decided to put down C# for a few days and work on the next version. The main aim is to add a proper page ranking system while still keeping the script size in single figures, which means I have 3Kb to play with.  Another problem is retaining the existing data file format; if I can it'll be a 1.6 release and if not I'll signal the change by naming the new version 2.0. If it's the latter I'll probably get a few trenchant emails about where I've gone wrong.
+     
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+	 
+      I'm taking my time designing the UI side of Tipue 2.0. I'm of the opinion that the user interface of most open source Windows desktop projects is pretty grim, and I want to get it right.  I've decided to use the excellent  urlLink SandBar  component for the toolbars and menus, which gives a nice Office 2003 look and feel. Though this isn't open source it's compatible with the  urlLink Mozilla Public License (MPL)  which has a limited amount of  urlLink Copyleft .
+     
+    
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+	 
+       urlLink Tipue  has been going for around two years and has proven to be rather popular(ish); to my knowledge, it's used on three large corporate and countless small and medium-sized sites. What I'm often asked is something along the lines of 'I have a hundred or so pages on my site so how do I create the data file?'  Good question. Late last year I decided to write a Windows application to do just that, and version 1.0 of Tipue Standard Edition was released in early February. Roughly it did what it was supposed to do but, by version 1.03, I realised roughly wasn't even close to being good enough. It got less rough, but not less rough enough.  There were a number of fundamental problems; I'd decided to write the indexing code almost from scratch and it soon became obvious that the quality and style of HTML coding out in the real world is a moveable feast. I decided for version 2 I'd use Microsoft IE 6 and MSHTML to walk the DOM. How many sites throw serious errors under IE6?  The second major problem was licensing; it was all but impossible to release as open source, given that I'd used Delphi 7 and couldn't find open source-friendly replacements for a couple of commercial components. So now I'm using Visual Studio C# .NET 2003.  I'm currently developing the UI and the like, and all, thus far, is going well.       
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      This is a blog about the on-going development of  urlLink Tipue , an open source JavaScript site search engine.  What I intend to do is post every couple of days on what I'm working on, how it's panning out and general ho-hum. I may add that I'm new to weblogs in general so make the odd allowance for my ignorance; I'm sure I'll learn the ropes as I go along.
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+	 
+      Tipue 1.6 is now available for download from  urlLink www.tipue.com .
+     
+    
+</post>
+
+<date>08,June,2004</date>
+<post>
+
+	 
+      I've finished the new page ranking feature of the forthcoming  urlLink Tipue scripts  version 1.6. I was rather hit on the head with the inspiration stick and managed to get it working in 1.5Kb of code. The next release will now return results ranked by where and how often the search words occur, and includes a method of weighting each page.  To say I'm happy with this would be an understatement.
+     
+    
+</post>
+
+<date>06,June,2004</date>
+<post>
+
+	 
+      Including page ranking within 10Kb is proving to be tough going; it almost works but, as always, I'm having problems with the math. I'm sure I'll work out some way of jamming it all in.
+     
+    
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+	 
+      Having played around with XML for a couple of days I've come to the conclusion that it really isn't ready; while Internet Explorer loads XML via JavaScript without any problems using an ActiveX object, the Gecko-based browsers such as Mozilla use DOM 2, their implementation of which appears flaky at best. It seems that support is better in the Linux release of Mozilla so I'm going to hang fire for the moment and wait until the Windows version catches up. Hopefully then Opera and the like will also have workable XML support via JavaScript.   
+     
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+	 
+      I'm currently evaluating the feasibility of using XML as a data source for Tipue. I'm planning to offer this in addition to the current version.  More soon.
+     
+    
+</post>
+
+
+</Blog>

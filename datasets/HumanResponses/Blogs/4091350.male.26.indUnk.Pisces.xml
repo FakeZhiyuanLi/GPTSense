@@ -1,0 +1,49 @@
+<Blog>
+
+<date>30,July,2004</date>
+<post>
+
+	 
+      Howdy, nice you came along, I'll blog python stuff here. 
+     
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+       Pyscan  A little script offering a gui'ed tcp/ip portscanner, comes in handy and was fun to write.   Game thougts  I've played  urlLink Aces High  demo again yesterday. This was after I stopped playing  urlLink Battlefield Vietnam  for this evening because the spawncampers and bad teammates got on my nerves. I'm sort of a flying-nature in these games. Also I've seen a trailer of sorts for  urlLink Call of duty united offensive . And I'm rememberd of my good old days of  urlLink Operation Flashpoint .  I like about these games that:      Battlefield has a good working network-code for up to 32 players, and offers a broad range of different vehicles that are fun to play with and is graphicaly apealing.     Aces high has a very good grade of realism what goes to flight physics and world size, also it's a blast to play on a server with 300 other people.     Call of duty has a very fine hand at constructing good atmosphere, the sounds, the animations, the interface-feeling, everything. very fine atmosphere. Also their missions are intresting. Network works good but it didn't keep me playing realy.     Flashpoint is in a way a perfect game for what it tries to archieve, enjoyed it a lot.      What I don't Like about these games:      Battlefield is very arcade like. It follows a 'downsize reality' patter of sorts. It makes every vehicle slower, planes never stall, they take off at 40km/h after 20 meters runway ( can land the same way ). The vehicles have little grip on the ground, they have no gears to switch and no motor to power-up, and so on. What I also miss are a whole lot more sprites, even Tribes 2 had more sprites then the BF-engine ( for explosions, shots, crashes, snow, rain and what no more )     Aces high has rather ugly graphics. One can say this doesn't count, you're high up anyway, but looking at the new Call of duty screenshot, I still miss the good graphics. Also, in Aces high there's the option on driving ground vehicles, which is in my opinion a pain in the arse as you're driving over dead-booring landscapes for ages.     Call of duty has no vehicles to realy use. Yeah it's got these tanks, with an 'almost physics', but that's only limited to very specific missions. There's no general concept of avaiable vehicles, and you never see them online. I just love vehicles, they bring so much more fun into a game.     Flashpoints troop-leading and command never quite worked right. The graphics was a little bettern then in aces high, but it was much more sprite-poor then Battlefield. But the woods worked very good. The vehicle-physics was for me a major bummer, as it felt wrong even after weeks of playing. Worst it was with planes and helicopters. But the one and sole reason to abandom it alltogether that it has no net-community. Flashpoint would have been a real blast if it worked network-wise as good as battlefield. But the whole network-issue was totaly neglected by the developpers until to the last moment, so naturaly at first is was crappy, and this way it stayed. With no good way of browsing servers, and games that crashed and got out of sync all the time. Was no fun at all to play in the net.      The conclusion? I would realy like a game that would offer me the graphical finesse and briliance of Call of Duty, the good working network/vehicles of Battlefield, the reality-size of aces high and the tactics and handling of flashpoint. Add to that a little of the best other ingredients of these games, and perhaps a few role-play elements ( a bit more then in aces high ), and you got me hooked for years.   
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+	 
+      You think help is a good tool, but it's a bit 'non interactive'? Well I had a little bit of playaround-time and the result is livehelp. It's a sort of help that works like a browser. It's pretty raw at the moment, and there are some gui elements that are just decoration, but I like it none the less. In fact I know of someone who's already putting it to good use by inspecting the runtime-state of his programm this way. You can download and tryout livehelp, be sure to save it as .py file so it can be imported.  urlLink livehelp  
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+	 
+      Ok, here's a controversial issue. There's a few changes in python 2.4 that are somewhat hotly discussed.  Most of the features are rather okish I think, what I have a strong opinion about are the following.   Buildin Set Objects  This is a feature I'll love. I think sets are a quite usefull addition to the containers, in facto so usefull that it's legit so I don't have to write "from sets import Set as set" and can write down set literals. I use them a lot and have asked myself since why it hasn't been adopted earlier. Two thumbs up!   Generator Expressions  It is a little strange at first, but I think it's a natural and powerfull complement to list expressions. There's lambdas which enable lisp-like in place functions. There's list comprehensions which can be used in expressions. And now there's generator expressions, which can not only serve as a short form of generator-defintion, but also this expressions can be used in expressions, for example as arguments to a function, written in place. I like it, it will make for some nice and tidy code. That's pythonic, two thumbs up.   Decorators  I've very mixed feelings about this. On the one hand I rarely use function decoration as a pattern. On the other hand there's some rather large and liked frameworks, which do this kind of pattern extensively. I don't actualy know how many people work with this pattern realy, but I'd estimate that it's not the majority of users, perhaps not even near. So it's a feature only a small group of people will realy benefit. Alone for this fact, I think consideration should be very carefull if it's included or not. Then there's the story of the syntax. I can see that this a usefull pattern, once you start fiddling with it. I can also see that it's nice if a language supports a pattern. But imho @silly is no way to go. I have to type this sillyness everytime I want to decorate a function. For each decorated function it will be an additional @+funtion-name. And if I want multiple decorators nested, which is a nice idea, I will have to fill a line with multiple @. And this FOR EACH FUNCTION. Holy shit! If it must be that the language starts to support this kind of pattern ( of what I am not so terribly sure ), then please, with sugger on top, make it easy to read, nice to look at, and in a way that safes you a lot of typing. That would be like... the decorator block. Runs like this.     class someclass:    decorator require_int, staticmethod:        def foobar( a ):            pass        def another( a, b, c ):            pass    def a_normal( self ):        pass     That's a form that I would actualy like, and it give you the power to easely decorate a whole set of methods/functions. 
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      I've had a look at pyxml, and Liked it, despite the rather clumsy interface to the dom-tree. It inspired me to write something usefull along the lines of purple, up to now I call it Dom-view ( it's a little more then that ).    urlLink dom-view    Have Fun   
+     
+    
+</post>
+
+
+</Blog>

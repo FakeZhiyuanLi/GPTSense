@@ -1,0 +1,1 @@
+Euclid first discovered the formula for finding even perfect numbers from Mersenne primes, which states that every even perfect number can be expressed in the form 2^(p-1) x (2^p - 1), where 2^p - 1 is a Mersenne prime. However, it was not until the 18th century that Leonhard Euler demonstrated that every even perfect number can indeed be expressed in this form.

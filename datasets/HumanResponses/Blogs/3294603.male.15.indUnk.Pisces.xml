@@ -1,0 +1,236 @@
+<Blog>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Okay, so the Sphaera grammar has exploded, and I have about 30 ambiguous statements. Still, we're making progress. Started on the actual interpreter today. My original plans of writing it in Delphi stopped when I realized how much work had to be put in for simple constructs that are readily available in, say, .NET. So we're working with C# now. After analyzing the source of a simple Visual Basic interpreter, I think I am starting to understand how the GOLD engine works. With any luck, we should have a working implementation by next week. That is, unless I can't fix the grammar problems, heh.  Future plans for Sphaera include complex constructs (loops, switches, etc) and regular expressions; something I have wanted to include in a language for a while now. Let's see how things go.
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+           &gt;&gt; Sample Sphaera Program &gt;&gt; By James Brannan        program  {   &nbsp;&nbsp;&nbsp;&nbsp; pack  mystruct {   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int  age;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; str  name;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; list  favorites;   &nbsp;&nbsp;&nbsp;&nbsp;}  &nbsp;&nbsp;&nbsp;&nbsp;.print( list  msg) {   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_out(  ( msg,  &quot;\n&quot; )   );   &nbsp;&nbsp;&nbsp;&nbsp;}      &nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt; Initialize structure     &nbsp;&nbsp;&nbsp;&nbsp;mystruct James;   &nbsp;&nbsp;&nbsp;&nbsp;James @ age =  15 ;   &nbsp;&nbsp;&nbsp;&nbsp;James @ name =  &quot;James&quot; ;   &nbsp;&nbsp;&nbsp;&nbsp;James @ favorites =  (  &quot;Perl&quot; , &quot;C++&quot;  ) ;    &nbsp;&nbsp;&nbsp;&nbsp; if  (James @ age =  15 ) {   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(  (  &quot;That's you!&quot;  )  );   &nbsp;&nbsp;&nbsp;&nbsp;}  else if  (James @ age &lt;  15 ) {   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(  (  &quot;Too young...&quot;  )  );   &nbsp;&nbsp;&nbsp;&nbsp;}  else  {   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(  (  &quot;Too old!&quot;  )  );   &nbsp;&nbsp;&nbsp;&nbsp;}   &nbsp;&nbsp;&nbsp;&nbsp; str  fav_language = James @ favorites[ 0 ];   &nbsp;&nbsp;&nbsp;&nbsp;print(  (  &quot;Favorite language is: &quot; , fav_language )  );   }        
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Another long school day, but I have only two weeks left! Got home to chores and such, and slept for a while, and now I'm back to work. Thing are going so slowly!  The GOLD parser builder works like a charm, which is good news. My language specification is almost complete. More news soon, let's hope.    .print(str msg)/int {    out(msg, "\n");    @:15; }     &lt;function&gt; ::= &lt;ID&gt;&lt;paramlist&gt; &lt;rettype&gt; '{' &lt;funcstatements&gt; '}'                | &lt;ID&gt; '{' &lt;explist&gt; '}' &lt;program&gt; &lt;funcstatements&gt; ::= &lt;funcavail&gt; &lt;funcstatements&gt; | &lt;funcavail&gt; &lt;funcavail&gt; ::= &lt;assign&gt; | &lt;return&gt; | &lt;decl&gt; | &lt;call&gt; | ';' &lt;rettype&gt; ::= '/' &lt;op&gt; |  &lt;paramlist&gt; ::= '(' &lt;paramitems&gt; ')' &lt;paramitems&gt; ::= &lt;parameter&gt; ',' &lt;paramitems&gt; | &lt;parameter&gt; &lt;parameter&gt; ::= &lt;op&gt; VarName | &lt;op&gt; ::= 'int' | 'str' | 'list' 
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Just an interesting subject I ran across. I am familiar with function pointers, but never tried it in Delphi until recently. With them you can easily change the actual procedure of a function at runtime, as long as the function signature stays the same. Check out some code:    var  fnctbl :  array [0..2]  of function (p1, p2 : integer) : integer;   function  Math1(p1, p2 : integer) : integer;  begin    result := p1+p2;  end ;   function  Math2(p1, p2 : integer) : integer;  begin    result := p1-p2;  end ;   function  Math3(p1, p2 : integer) : integer;  begin    result := p1*p2;  end ;   Given this code (as redudant as it may be), we can easily fill the array of functions (function pointers, really) with each and call them as we like, or even reassign them to other functions (with the same signature). Look:   fnctbl[0] := Math1; fnctbl[1] := Math2; fnctbl[2] := Math3;   for  x := 0  to  2  do    WriteLn( inttostr( fnctbl[x](3,4) ) );   This prints out 7, -1, and 12 respectively. The same can be done in C++ (and C# for that matter) but it's relatively simple and just a waste of space to show the procedure.
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Just got back from school--what a long day! I'm going to continue my work on my programming language Spheara. I have the notation worked out, and am implementing it using the lexical analyser and parser builder GOLD ( urlLink devincook.com ). Not everything has been worked out yet, but I at least have variable declaration/initialisation, assignments, procedures, and calls worked out. The language itself features arrays ("lists", that is) that can easily be manipulated. Here's a bit of sample code for you:    >-    Sample Sphaera Program    By James Brannan -  program { str Greeting = "Hello, World!"; list lsttest = (Greeting, "This is a list!", "Jello"); list slice = lsttest[1..2]; str value = lsttest[0]; }    Simple, no?
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Just as a point of reference, here is a list of projects I'm currently working on.   Sphaera : An interpreted scripting language that is to become part of my language suite. I'm currently almost finished with the lexical parser and am going to start writing the actual code soon. Being written in Delphi (Object Pascal)   IMGCONV 2.0 : An image conversion wizard designed for ease of use. Is capable of converting numerous formats including PNG, JPG, GIF, TIF, ICO, PSD and many more. Currently on the backburner (I just don't feel like working on it, heh). Being written in C#.  Finally, I am also working on a genetic algorithm project for any future science fairs I may or may not have. I'm still in the planning stages for this, but I will write it in C++ (for the linked lists and pointers, among other reasons).  That's all for now.
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      ...And we begin again. This blog is the continuation of my previous one at  urlLink blogdrive . I hope to gear my postings towards my software engineering, so quite possibly you will see more about programming (and computers in general) and less general, monotonous posts. Time will tell. Oh, and cops suck.
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Having a few unrelated problems at the minute, so posting might be sparce. Got the dragon book today. Just a quick flip through it proved very interesting, and I can't wait to read it. No programming lately, just a lot of talking and listening. Maybe tomorrow.
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      I had no idea until just now that Pascal (or more specifically Delphi) was capable of nested function definitions. Check it out;   procedure  FuncA(); &nbsp;&nbsp;&nbsp; procedure  FuncB(); &nbsp;&nbsp;&nbsp; begin  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ShowMessage('In function B'); &nbsp;&nbsp;&nbsp; end ;  begin  &nbsp;&nbsp;&nbsp;ShowMessage('In function A'); &nbsp;&nbsp;&nbsp;FuncB();  end ;   And so the second function (B) is scoped locally along with any local variables declared in Function A. Of course, FuncB can't be called from anywhere except from inside Function A (or B, recursively). This is almost identical to using GOTO's or even loops--basically calling a block of code from a function. Good stuff, right? I know!
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Okay, so I was paid today and caved in to buying the  urlLink dragon book . Hopefully when this comes in and I have a quick read, I should gain a knowledgable insight into programming these beasts (of course, referring to compilers/interpreters). Not much work on the actual engine this weekend; Been much too busy with other things ;)
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Okay, so reflecting on the Perl business I was taking a look at earlier, and taking into consideration some of the things I've learned in the dragon book, I've decided to take a slightly different route in writing the language.  The design itself is pretty much stable (syntactic sugar, mostly). In the way of implementing it however, I'm going to write an intermediate language much like MSIL that operates with the basic functions, and use them as building blocks to make up larger, more complex constructs. With this in mind, it should just be a matter of building these complicated functions and procedures by placing operations together.  I don't know yet if this approach will work, especially with my design, but we'll soon see.
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      A quick check on the new Perl implementation proves that it is in fact moving along quite nicely. Dan's blog tells a lot about the development in particular, and I am looking forward to the new code. I am personally not in favor of using virtual machines--the code, though portable, just isn't very fast (or maybe this was just Java, heh). The new parrot codebase looks interesting though, and I can't wait to take a peek at the finished product.  Parrot seems to be directing itself towards .NET-style development--that is, many different front-ends can be converted into an intermediate code language that in turn is interpeted at the (byte level?). It'll mean developing applications should be easier, if not a whole lot faster. Besides, I can't complain, perl is awesome.   urlLink http://www.sidhe.org/~dan/blog/   urlLink http://dev.perl.org/perl6/   urlLink http://www.parrotcode.org/ 
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Who can't love perl? Admire it at the very least for the flexibility it allows as far as user input. The motto, of course, is there is more than one way to do it. And as far as obfuscation goes, only C can outwit perlish hackers. Take a look and let the brains explode:   perl -wle "print 'Prime' if (1 x shift) !~ /^1?$|^(11+?)\1+$/"  #    Run that on a command line and perl will instantly tell you if the number you passed it was prime or composite. Good stuff, no? What's more is the number of modules (packages) users have created to tailor everything imaginable--packing information for reading in, say, C++, formatting information to display on the web, even providing custom classes to emulate constructs from other languages. One such example is the structure (struct), an example of which I am going to post here for reference.   #!/usr/bin/perl use Class::Struct; struct Table => { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Topics => '@', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Messages => '%', };  my $tbl = Table->new( &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Topics => ['Topic1','Topic2'], &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Messages => { msg1 => 'foo', msg2 => 'bar' } &nbsp;&nbsp;&nbsp;);  Not as elegant as a few other languages I could mention, but At Least It's Not Python&trade; ;)
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Have you heard the news? Of course not, that's why I'm telling you. I have just submitted my perl project (Flat-File Forum) to SourceForge, the center of open source software development, and I'm awaiting the approval or denial of my project. If I'm approvd I'll have the site up there in no time, and things will be very cool. Let us wait! Oh, and  No More School! 
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      I wonder if I've ever told you that perl was, in fact, the best programming language in the world. It is, you know. I'm taking a break from this parser business mainly because it's driving me nuts, and things are getting a bit complicated.  The end of school is near (one day left!) and I've started on a perl project just to kill time. It's nothing of use of course (when is anything I write useful ;) but it is pretty cool. Named Flat-File Forum, or FFF, it stores a forum like system (that is, hierarchical message system) in--you guessed it--a flat file. Not fast by any means, and very bulky, but it beats having nothing available when you need a quick messaging system. Coming along nicely. Makes use of Class::Struct and a complicated hash of array of hashes, which use hashes themselves! I know, complicated. Almost works now, just working on the tree-walking routines, and I need to iron out a few bugs, but then it'll be ready to test. Probably nothing I'll post, unless someone wants it, heh.
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Oh, another thing I forgot to mention. I stumbled upon a huge repository of old BASIC scripts written from even older ATARI games. I've started a project to port most of these to perl, and I already have 4 or 5 completed in the two days I've worked on it. Most, if not all of them are very primitive but IMHO fun--but I'm a geek like that :D My favorite so far is CHOMP and Depth Charge. In Chomp you have a grid and must take turns with another player taking bites out of it by giving coordinates. Bites are taken out by removing everything to the lower-right of the coordinates given. The player who ends up eating (1,1) loses, it being the "poison square". Good stuff. In depth charge, you simply enter three coordinates (surface location, X and Y, and depth, Z) and have to torpedo a submarine. After each trial the sonar tells you if you were off, and the direction needed to go. It's all quite good really, you just need to appreciate the old art of computer games, when pretty designs on a terminal could satisfy most people, heh.
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Some news I forgot to comment on earlier--I got quite mixed up in all the computer reformatting and such. I have in fact gotten a letter that told me my project (Flat-File Forum) was accepted, and will be hosted on Sourceforge. Nice! So I've spent most of the night uploading the site, making everything look pretty, and all that jazz. Go head over there now if you like, but there isn't much to see yet.  Project Homepage:  urlLink http://flatfileforum.sourceforge.net/  Project Information:  urlLink http://sourceforge.net/projects/flatfileforum/ 
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Okay, so just as a rule of thumb, never delete anything in your system directory, just in case one of those files is needed by your operating system, and said files are not reproduced on reboot. Nevertheless, after a format I'm back online again. A lot more room on my computer now, heh. Nothing serious lost though, and I do have backups of my projects, so we're set. Just because I'm cool, I wanted to show a piece of nice perl code...    sub a() {    print "In function a.\n"; } sub b() {    print "In function b.\n"; } my $op;  do {    print "Enter function name: ";    chomp($op = &lt;stdin&gt;);     defined(&$op) ? $op->() : print    "No such function.\n" if $op ne "";  } until ($op eq "");    Not very perlish I'll admit, with the tertiary operator in there, but as consolation I did transpose the if test and clause itself. You should know what it does of course; you enter the name of a function, and if found it's executed, otherwise you get a warning. Simpler ways to do it, but I like mine ;)
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Okay, so I drove for the first time today, and I'm a great driver :) But work is first as always...  I have started another project (because I can't seem to keep my mind on one at a time, heh) and the brainstorming phase is going well. It's an old terminal BBS like system, where users log in and write messages and such. It'll also have a chat feature as well as user profiles. Just something to satisfy my urge to write such an application, heh. Haven't decided whether it'll be in Delphi or C++ yet, but im leaning towards the latter.  Other projects are going slowly, because I've had other things to deal with, leaving me with not much time to program. Ah well. The future is always there, right?
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Food poisoning sucks.
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Some computer programmers write the strangest things...  urlLink BOUNCE  for example. And I think you'll find that if you look at the source code of most (open source) applications, almost every programmer in the world has a sense of humor. It's what keeps us sane during those late hours of the night when numbers start morphing into obscene things.  Anyway, the BASIC to perl conversion project is coming along... I've converted another couple programs, and I'm working on a larger one now, much like battleship. Flat-file Forum is.. well.. coming. Hopefully I'll have some actual content up soon. As for the compiler, I haven't even thought about it, and the other projects are currently on hold as well. Ah well, I'll find the time somewhere during these looong monotonous days of summer.
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      According to timothy at slashdot, KDE has announced the beta for the new version coming up soon. Feature freeze starts next week, get the ideas in people! From what I've seen it's looking great, and because KDE is the only decent window manager anyway, who's going to argue? Go grab the beta, see what you think. ;)  urlLink http://developers.slashdot.org/   urlLink http://developers.slashdot.org/developers/04/07/07/1853230.shtml?tid=121&tid=185&tid=189 
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      ...Just kind of not living for a little while. I've been very tied up in personal matters as of late and haven't had time to program, let alone blog. I'm here now, I think we're getting back on track, and things are going well.  Sadly, I am leaving on Friday to Florida for vacation and will be there a week. While there I will have my laptop, but won't have access to the internet, so I will post any discoveries and/or news when I get back.  So getting back on track I've been playing with perl a little, getting into database stuff, which is something I vowed never to interest myself in, as it was the only thing programmers seemed to do when I got started. Alas, it does have its uses and I am turning to it at last.  I've also written a couple throw-away apps in Delphi to aid my creative side. I'm making a picture that needed custom tiles made (30x30px images). Rather than do it manually (ugh) I just whipped together a program that selected text at random and drew it onto a randomly colored tile, and finally saved the image. It worked great and the image is coming along nicely. It's a surprise for my friend and is almost done. I hope she likes it.
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      I'm back from my vacation in Florida, and am presently sitting up to my ears in mangled code, bleh. I'm converting a project of mine from C# to Delphi 8, which is also part of the .NET framework from Borland. The code took about an hour to convert (300 lines) Problem is, Delphi doesn't use 0-indexing for string arrays (first array element is 1) so now I have to figure out where to fiddle with the numbers. Hopefully I'll get it working soon.    Other than that, no new projects. I spent the vacation doing absolutely nothing for a change, so I'm rested and eager to get back into all this programming business.  
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      Alright, so I've been gone a while. I don't really have an excuse... just haven't really been doing anything geeky for a while. I took a look at some of the new programming languages being created, specifically Boo for the .NET framework. It looks awesome, except for the tiny fact that it uses Python's idea of tabbing code to signify blocks, which is no good IMHO.  Suppose it gets rid of the opening bracket argument though (first line? on it's own line?)  Yeah. So, the past couple weeks has been a complete nightmare. Elmo II, my main desktop computer, has been sitting unused for some time. It's my local server behind the router, and has all my music and games, etc, and all these files are stored on the second hard disk (80GB Maxtor, if anyone is interested). I decided, soon as it wasn't going to delete this information, that I'd reformat the computer. Bad idea--I forgot about all the drivers and such I had installed. So the computer comes back up after about an hour, and I couldn't get to the internet. I use a wireless USB client that attaches to the wireless network set up in my house, and it needed special drivers to connect.  To make a long story short, I spent a few days looking for the drivers, getting it installed, and getting my computer online again. It's back, except that I'm having problems connecting to Elmo from other computers on the network. It's running XP professional, and I have simple file sharing enabled, yet when I try to access \\elmo, I usually time out when changing into directories that hold a large number of files. Hmm...  So I'm working on it. When everything is up again, I'm going to transfer the 40GB of files from my laptop (Grouch) to the server then reformat this machine to (hopefully) fix a keyboard problem I've been having.  More to come. 
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+      That's right, I now speak Minute. What is it, you ask? Well simply put, it's a very primitive obfuscated language I'm developing in Delphi.NET. I have just applied for space on Sourceforge for the project, and if I'm approved it'll be up there in no time.  Other news? Oh, I finally got the source up for my other sf project, Flat-File Forum. Go grab the code, make it better, and sign up as a member. http://flatfileforum.sf.net 
+     
+    
+</post>
+
+
+</Blog>

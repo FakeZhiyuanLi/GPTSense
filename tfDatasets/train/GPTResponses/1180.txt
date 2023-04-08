@@ -1,0 +1,1 @@
+The Defense Data Network (DDN) was the first large-scale system to coordinate information between several locations in the US military, introduced in 1983. It was a precursor to the modern internet and was designed to improve communication and information sharing between military bases and headquarters.

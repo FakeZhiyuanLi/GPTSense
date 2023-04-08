@@ -1,0 +1,510 @@
+<Blog>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      I just have to say...  I love my folks.  they're great.  some people get stuck with really crappy families.  and it's not like you can just pick your folks.  you get stuck with what you get - it's one of those "make the best of it" situations.    not me.    urlLink    I've got the greatest set... ever!  all of the little things they do that annoy me are really just little things.  and if I can get annoyed about little things, it's just a neon sign saying that there aren't big things.  and that's awesome.  that's it.  look at  urlLink pictures  of them.   [Listening to:  urlLink Soundgarden  - Spoonman (from Superunknown)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      I have now become the conqueror of all things Tara'sBlog.  grr...  it took me ages to move things to elmadera and get things set up the right way (manual redirects, etc.).  or maybe I'm just lazy and think that technology should obey my every whim and want.  sounds good, doesn't it?  let's see.  in la vida de tara, things are just...  things.  I feel slightly silly about using this blog-thing for a diary.  I already keep a journal (read *not* a diary) - I find that I think much more coherently when I write because it forces my mind to slow down.  while my mouth can *almost* keep up with my mind, my hand certainly cannot.  but I digress.  I think that those of you who actually stumble across this blog should spend some time  urlLink dinking  around  urlLink elmadera.com  and Steve's  urlLink photo gallery .  perhaps instead of boring you with the day-to-day details o' my life that you don't really care about anyway, I'll give you some fun and interesting things to look at.  =)  sounds like a plan, Stan.   [Listening to: Mark Adamo - Socks! (from Little Women: An Opera in Two Acts)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      so... I've decided that I'd rather do things the way of Steve than do things the way of Tara.  at least for a couple of days.  I'm thinking that using a new toy will give me something exciting to do during my lunch breaks at work while I'm recovering from my sunburn.  see, normally Elayne and I go to the park that's just across the road and sit in the sun.  both of us have been pasty-white for most of our adult lives, and we decided to do something about it.  like go outside.  but...  I just got back from my sister's college graduation (congratulations, Melissa!!).  Here's a pic of us, Melissa on the left, me in the middle and 13-year-old sis Leah on the right.      anyway, I'm playing inside today because I'm recovering from a rather...  peely...  sunburn.  when I stop peeling, I'll once again venture into the world o' sun.  so.  inside... covered that.  ah, yes.  the toy.  it's called wbloggar and can be found online at  urlLink wbloggar.com .  Steven Glenn showed me.  the funnest thing is that now you know what I'm listening to as I post.  go there and look at all the toys.  if you want to know how to use it, you can  urlLink email Steve  and ask him how.  =)   it does two very fun things.  firstly, you can post to just about any blog using something that looks like an im chat window, rather than doing everything on some web-based control site.  simple, powerful, and *fun*.  it works exactly like the blogger.com dashboard stuff, except not in a browser window.  compact, small... woohoo!  secondly, it lets you show folks what you're listening to.  you can know what kind of a mood I was in, or what kinds of things I like - if you care.  if not, it's inconspicuously placed at the bottom, so you don't have to look if you don't care.   [Listening to: Herbert von Karajan - Kyrie (from Mozart's Requiem)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      here's my how-to-post-a-photo-in-your-blog post. if you're not interested, lo siento.  I have had, however, a total of 1 (one) request for image fun, so here goes.  first thing you need is your photo stored online somewhere. if you haven't staked a claim on a plot of webspace of your own yet, there are several things you can do.  two of such things are:    you can visit some site such as  urlLink freeservers  or  urlLink geocities  and grab some free space in which to "hang" your photos, and then hang your photos.   you can mooch off someone you know, like your sister, and have that person either give you access to their space or hang your images for you.   (btw: it's bad form (or, bad "netiquette") to link to an image on someone else's site.  you should save the image and put it on your own (or your mooch-ee's) webspace so that you're not sucking someone else's users' bandwidth.  plus, that image could evaporate or skip town and then you'd be left only with a red there's-no-image-here "x".)  so.  once you have your picture somewhere out there in personal webspace, all that's left is linking to it in your blog.  here's how you do that:  in your posting window, go ahead and type your post.  decide where you want your image to go, and then, in that spot, type this (subbing in the appropriate information):    &lt;img src=&quot;url_of_image&quot; width=&quot;200&quot;&gt   make sure you specify at least width *or* height - you don't want some humongo image taking over your entire blog, and this way you can say how big it appears to everyone.  now, one last thing... if you are comfortable with html and css, there are more fun and flexible things you can do. for those of you who aren't quite that advanced, I'll show you one here and let you explore the rest.  say you want to have your text wrap around the image...  here's the code, which you should put *above* the paragraph you want to wrap around your image (if you want the image on the left, just sub that into the code below):    &lt;div style=&quot;float:right; padding-left:15px;&quot;&gt; &nbsp;&nbsp;&lt;img src=&quot;url_of_image&quot; width=&quot;200&quot;&gt &lt;/div&gt;   so, good luck.  have fun.   urlLink let me know  if I can help or host some images.  =)  or, you can read through  urlLink this   and do it his way...  
+     
+
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      okay.  as soon as I posted  urlLink *sigh*  yesterday, I realized that, acutally, there's some neat stuff that us advanced folk can do.  perhaps I ranted too soon.  like...  you can do what I did and link to one blog within another blog.    urlLink ask me how !  also, you can link to anything you want and have people email you about anything you want.  I feel kinda powerful.  you can also tweak the crap out of any of the templates, for free!  stuff isn't locked up as I presumed.  which means I don't have to create my own stuff - I can hack someone else's elbow grease.  yay!    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      this, folks, is why I always post anonymously.  because, really, it's kind of a waste of etherspace to have people like me doing things like this.  for my sister and her college-type friends, this is a great way to keep in touch, but for me...  I'm thinking I'll just do what everyone else in the world does and use it to vent about stupid things.  so, here's my first rant.  first, all I wanted to do was post not anonymously on  urlLink tomatoes , only you can't do that unless you take some very important moments out of your life to create your *own* blog-mess.  if you want to post anonymously on my blog-thinger, please, by all means, do so.  second, there's some serious design gayness going on here...  I'm not allowed to design my *own* template, but have to choose something cheesy from a list.  the only relatively cool template is a  urlLink homestarrunner.com -lookin' template that Shmel and all her friends have already chosen.  third, let's talk about how the post window thing gives the illusion of being *both* an rtf editor *and* a place to put REAL html. I would just like to say that I had some interesting times figuring out how to make this work and make sense. I would like to think that I'm  urlLink not stupid , but this thing is making me feel dumb.  so... there.  I now have a username.
+     
+
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      David and I talked for a little bit last night.  I doubt he'll remember the conversation - anytime I call him after, say, 10:00pm his time, he only vaguely remembers even talking to me (if I'm lucky!).  =)  it's kind of fun - I wish he was one of those people who'll tell you *anything* when they get sleepy enough.  unfortunately, he only tells me bad jokes or bad math analogies and gets mad when I don't understand them.  =)  anyway, I was thinking about leaving Indianapolis and wanted to talk to *someone*.  Bethany was chatting with Mike at the office, so I called Dave.  now, I'm not thinking actively about actually moving, but thinking about how sad I'd be if I had to...  life is so transient - you never know what you're going to be doing down the road or where you'll be.  but I love so many things about my life here!  *sigh*  I've never really had a steady home in a *place* - my home has been my family.  or possibly our Toyota minivan, which lasted through 5 moves.  we moved around so much when I was a kid, and when Dad retired, I kept up with the moving every couple of years (they stayed in PA, I went to college 3 states away, then moved to Indy).  so... I like the consistency of staying in one place.  especially in one place that I chose, and consider "home".    for the first time in my life I feel like I have a real home that's all my own.  I have a church that is the closest thing to a biblical example of a church I've ever known.  I belong there - I have a family there, and I'm worth something there.  I have a good job - work with people I love, and even though the things they do sometimes bother (or scare) me, it's still a good job!  I have a *great* friend in my roommate, and even if we don't live together after this year, we'll still be good friends.  =)  Indy's a great city - a city that *I* chose to live in!  I followed Daddy around when we moved, but now *I've* chosen a place to be.  there's so much to do here!  and it's so central - I can see college friends from all over, anytime I want.  life is full here...  the only sad part is that my family and David are so far away.  but, really...  David's moving closer and I see my family pretty regularly.  so... life here is good.  and I don't want to leave!  is that unfair, or immature, or wrong?   [Listening to:  urlLink Chanticleer  - The Un-Covered Wagon (from Our American Journey)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      so, let's talk about being inconsistent.  ooh... or maybe about being consistent in  inconsistency .  let me preface by saying that this always happens and that it drives me crazy.  =)  our deadline - the one we've been working toward for a LONG time, the one that made me miss seeing Kristen while she was in the states, the one that I stayed late every night this and last week to make, the one for which all *my* work was done - that deadline - has been pushed back a week.  that's right, folks.  a week.  I was given, at the last minute, a ton of work to do, but finished it (roughly - not polished - but finished) by the night before the "deadline."  and we're moving back a week.  you may say, "that's all well and good - at least you can polish your work and retest everything, Tara.  things aren't that bad."  but if you say that, I'm going to say that you're wrong.  I'll tell you that instead of being able to polish and test, I'm going to be handed more of someone else's work, or more work will be invented, and next week, we'll *still* be working late and pushing like crazy to get things finished.  mark my words.  if I'm wrong, I'll... tell you I'm wrong or give you a cookie or something.  =)   [Listening to:  urlLink Chanticleer  - David's Lamentation (from Our American Journey)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      ... and after a good 11 hours of work, I'm calling it quits for the day.  gotta love deadline weeks.  make for long days.  good news, though... no matter how bad tomorrow goes (it's the day before the deadline), and no matter how stressful Wednesday is, it'll all be over in a couple of days.  and I get Friday off.  =)  unwinding now...  Friday, my sister Melissa will be in town and we're going to see Dave to go to a Reds/Indians game in Cincy.  yay!  not so much about the baseball, because baseball is... well...  boring.  =)  but yay about hanging with Mel and Dave!  I love those guys, and they like each other (which is nice), so we'll have a *great* time!  then, on Saturday, it'll be off to Upland for a 3rd-of-July cookout with Steve and Rachel, and to give Chalupa my deep-fryer for sopapillas.  maybe we can even make some for the cookout!   then it's back to Indy, because I have to teach children's church on the 4th - maybe something about freedom and God giving us freedom from sin through Jesus... that might be kinda fun.  and Dave has Monday off, so he'll stay Sunday night, probably, which means good times at church, then games or movies or other fun pastimes.  last weekend was just as busy - I went to Oxford for Dave's dad's family reunion.  it was fun - I'd met them all the weekend of the opera, so as we walked up the first night, Dave's uncle Paul yells, "hey! you're here!" all excited, then adds, "oh, hi, Dave" in a bored-sounding voice.  =) they're fun like that. got lots of hugs from the wives of the brothers (his dad has 3 brothers) and listened to a lot of teasing.  those are my kinds of people.  we did reunion stuff, then went to our sleeping quarters - Dave and Randy and I stayed up playing cribbage and talking, then went to sleep.  up again at 7:30 my time, worked 4 hours on some design stuff for our OhSoPretty relaunch (remind me to tell you about this silly site), played some frizolf with Dave's fam on the Miami of Ohio campus (beautiful, and long, course!), and more reunion stuff.  it was almost a comfortable weekend with Dave's folks - each time I spend time with them, I feel like I fit in a little better.  maybe they're getting used to me.  =)  but...  I haven't had a chance to stop and rest.  it's been weeks with weekends like that.  argh... I need a vacation - some rest.  a friend asked me why I didn't just stop planning things... but I can't.  I'm only going to be in this place and this time for right now!  I won't always have these friends, I won't always be in Indy, I won't always be part of this church - I don't want to miss a single experience!  so... I'm going to go home now and crash so I can come in to work tomorrow.  hasta, y'all.   [Listening to:  urlLink Chanticleer  - Whispers (from Our American Journey)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      I chatted with Chalupa again today...  about how we treat other people and how we deal with people we don't like.  he's reading this book called  Blue Like Jazz , and is being hit with all kinds of things to think about.  thankfully, he's sharing them in his blog and I'm getting something of a vicarious reading out of all of his mullings.  anyway, today he blogged about how we treat each other.  his rhetorical question (which I promptly answered) was this: if I dislike someone and yet treat him as if I like him, am I showing the love of Christ to that person or am I being deceitful?  my thoughts:  I think  it's all based on your motivation.  if you're willing to start by saying to yourself, "self, this person is loved by Christ" then I think treating that person as if you cared about him is a good first step to actually truly expressing to him Christ's love.    we are *commanded* to love each other - I'm going to take a potentially flying leap o' logic and say that this agape love must not be based on emotion.  I don't know that we (people) could control emotion well enough to obey this command, were love emotionally based.  instead, this love is a choice.  it's a choice which is evidenced by a series of actions - and the first step toward making this choice something you do without thinking (like Mel did in the ETC - read about it in Chalupa's blog, link to the right).  so, starting by saying and doing the right thing can lead to, at the least, good habits, and more importantly, a conviction that you're living (and making choices!) in a manner that would please Christ himself.  my belief: Christ would never have commanded that we love like he did were it not possible.  my conviction: I need to start living that love, and telling others about it.  what else are we here for?   [Listening to:  urlLink Pink Floyd  - Wish You Were Here (from Wish You Were Here)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      talking with  urlLink Chalupa  lately, I've been feeling slightly convicted about not remembering very much Spanish.  he put it well - it's bad stewardship to forget if you have the mind, the ability...    I had a mediocre (at best) spanish education in school, but I had the amazing opportunity of spending some of my formative years in a Spanish-speaking country.  so... what I lack in actual book-learning skills and practice is eclipsed by having a more natural understanding of the language.    I have (perhaps it's more accurate here to say "had, and can resurrect") a decent accent, though I *spoke* relatively little - we were trained in writing, not speech.  and in Castilian (Spain), rather than Latin American, Spanish. I can read very well, write fairly well - my hurdles are basically vocabulary and complex conjugation. which, thanks to Chalupa, can be easily overcome.  soon, I shall be the proud owner of  the Big Red Book of Spanish Verbs , which as I understand, is a wonderful source of information. if Chalupa says so, it is thus.  random, but useable, quote of the day:  "why is this thus? what is the reason for this thusness? -- Artemus Ward (1834-1867)
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+        urlLink   
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      last night was  urlLink paella  at Jim's.  it was so good...  he's an up-and-coming-gourmet-slash-iron chef, and boy do I like being in his test group!  I have learned that while scallops are interesting, I don't much like them.  they're like fish-flavored marshmellows, and that's just weird.  also, I don't like mussels.  they're jiggle-y when they look like they should be firm like nuts.  plus, you have to cook them alive, and I don't like that.  I'd rather eat already-dead food, thank you very much.   [Listening to:  urlLink Cake  - Perhaps, Perhaps, Perhaps (from Fashion Nugget)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      what time is it?  it's opera time!  I'm pretty pumped - in just over 24 hours, I'm going to be in another city in the fourth row of an opera house with two of my favorite folk - my roomie and my boy.  great seats, great company, great opera!  Little Women - who'd have thought people would make an opera out of it?  and really, who'd have thought it would actually be *good*?  but it is... it's neat.  I'm sure that none of you reader-type folk *really* care, but I'm gonna talk about it for a sec anyway.    most adaptations of Little Women focus on Jo and her love life.  these people make it into a romance or a family film about love and pain...  while these are themes in the book, I think that Mark Adamo (the composer of this opera) takes the best stance on what's really important in the novel.  the other adaptations present Jo vs. the men in her life as the plot-driving struggle - Adamo takes the focus higher.  I agree with him when he says that in the novel, none of the men could equal Jo, so there wasn't much of a struggle.  the real struggle, he says, comes between Jo and *change*.  that makes the focus of this opera so much broader, and gives Jo such a depth!    and the music...  wow.  the music.  =)  I'm a bit of a nerd when it comes to music,  having graduated with a music degree...  but this music, I think, would affect *anyone*.  intellectually, it's exciting - 12 tone polytonal writing...  and what could be better than a song called "Socks!"?  it's got that, too - something for everyone.  =)  off to the opera...     [Listening to:  urlLink Mark Adamo  - Major, Minor (from Little Women: An Opera in Two Acts Disc 1)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      a conversation with a friend led to me eBay, and to getting 4 movies I watched as a kid - the two CareBears movies, the Sea Prince and the Fire Child, and the Last Unicorn.  they've started coming in the mail.  there's nothing better than package-type mail that's addressed to you...  we lived in a spanish-speaking country when we were kids, and although we lived on a military base and had one American station, we learned to appreciate *anything* that was in english.  there's nothing like Scooby-Doo in spanish.  =)  our dad's sister would occasionally send a tape of Saturday morning cartoons from the states, which we watched until the vhs disintegrated and we'd memorized every word: He-Man, She-Ra, the Thundercats, Superman, Aqua Man (lots of "Mans"), the PixieTails, Strawberry Shortcake, etc.   great 80's cartoon viewing.  she also sent us these four movies, which we watched so many times...  over the years they've disappeared.    I'm fully prepared to enjoy bad animation and dumb storylines for the sake of nostalgia.  Melissa, come visit me so we can have a oldschool-cartoon marathon.  =)  anyone else want to join us?   [Listening to:  urlLink Mark Adamo  - Madness. No. Mania. No. (from Little Women: An Opera in Two Acts Disc 1)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      so... I'm going through all kinds of course files and ripping out font tags.  replacing them with css.  converting them from .htm to .cfm.  stripping dreamweaver crap code and replacing it with javascript.  this is *not* my idea of a fun way to spend weeks on end.  i feel like that dude in  urlLink office space  who was replacing two-digit year codes with four-digit year codes... it was tedious, it sucked, and in the end, it didn't really matter.    *sigh*  maybe I'll get out my stapler and run hog-wild through the streets of Zionsville.  or... maybe I'll go get some lunch and a soda.   [Listening to:  urlLink Mark Adamo  - Things Change Jo (from Little Women: An Opera in Two Acts Disc 1)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      today's Wednesday.  that means I leave work early (at 5:30 or so, though I'll probably leave earlier today) so I can make it to  urlLink church  on time.  there's a fellowship dinner every Wednesday night where all of the folks who can bring food to share with others.  often, it's the best meal the kids in the neighborhood will get all week - the church ministers specifically to inner-city families.  the deal is this - if you come to the Bible study that's held after the dinner, you can leave with a bag full of groceries.  pretty good deal if you ask me - but a lot of the families won't set foot inside a church.  sad, isn't it?  anyway, I get there at 6:00 or so, but rather than eating the food, I play the piano or my saxophone...  I like the time alone, and I don't feel right eating that food - if I don't eat, someone else can have more.  and really, I have food at home if I'm that hungry.    the routine: I play until Bethany or Laura or Pastor Tom comes to get me.  I have a watch, but I don't think they trust me to keep track of time on my own.  =)  that's okay with me - it means I can lose myself in the music.  so...  Tom usually comes with a piece of paper outlining the Bible study.  we open with songs/hymns, which I've been drafted to lead by conducting, and a prayer.    I used to be so scared to pray out loud...  I've never been good at it.  but, with this "position", I rarely have a choice.  so, I'm getting better at it.  and I kinda like conducting, except I'm not very good.  I forgot everything I learned in my one conducting class, so I make it up as I go.    so, after the songs, we all settle into our chairs and Pastor Tom leads the Bible study.  afterward, we drive kids home if our vehicles are needed, then we all meet at this great little downtown bar/grille called the Elbow Room.  it's great - the inner circle of a church pulling tables together at a bar.  =)    well, I'm off.   [Listening to:  urlLink Chris Cornell  - Preaching The End Of The World (from Euphoria Morning [UK])]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      I forgot to say what a good weekend I had!  after such a bad week, anything would have been good, I think...  but, I was doing some really fun things with some of my favorite people in the world.  this Saturday, a friend got married.   urlLink Steve  and  urlLink Rachel  and my David and I went to the wedding.  we all got there, almost at the same time, at close to the last minute.  the usher ushed us up to the front couple of rows and said, "scoot past those people there."  so, we scooted...  it was bad form to climb over people, but Dave and I did.  5 minutes later, Steve and Rachel did, too.  =)  neat wedding - the neatest part was that the bride processed in to a vocal piece, rather than an instrumental piece.  anyway, we didn't get to sit together at the reception.  instead, David and I got placed at the Chorale table where sat Loralee and Marty Songer and JoAnn and Wes Rediger.  while David fit in, I was keenly aware that I didn't.  I felt low-class and uneducated (with only a bachelor's degree to show for myself while all the others were going on and getting masters' and doctorates) sitting there...  experiencing much angst and swallowing a lot of indignance, I kept to myself, answered their questions, smiled at their polite comments, and proceeded to pay attention to other things going on around.  like to all the fun that Steve and Rachel were having.  =)  but, even at our table there were laughs - the bride had hired a live jazz combo for the reception, and the leader, between songs, kept saying, "let's hear it for Greg and Heather, Heather and Greg, Greg and Heather!"  over and over and over...  it got to the point where we all recited it along with him... "Greg and Heather, Heather and Greg, Greg and Heather!"  David didn't dance with me because so many girls were hitting on him.  =(  but the cake was good.  after the reception, Steve and Rachel came over to the apt. and borrowed clothes from David and from Bethany's drawers (she was in South Bend for the weekend) and we commenced with the *real* fun.  we played some Nintendo and then went to a ghetto Subway where four punk kids made fun of us until they left and I got my hands *all* messy with a meatball sub.  then we went to a Putt-Putt course.  now, I pretty much *hate* miniature golf.  but this time, it was fun.  I didn't do too too poorly (which gives me serious putt-putt-rage) and there were all kinds of funny things going on.  Rachel does a little monkey dance when she gets holes-in-one, and Dave throws his club when he gets jipped by the hole (like when a ball goes into the cup and bounces back out), and Steve just cracks jokes the whole time.  it was fun.  =)  then we came back and watched  urlLink Drumline  and called it a night.  it was good having good friends there... especially couple-type friends.  it's fun hanging out as couples.  all of a sudden, I didn't feel like I might be leaving someone out...  I hate leaving people out, and sometimes leave Dave out so that I don't leave someone else out.  that's not really fair, so it's nice not to have to do the balancing act sometimes.   [Listening to:  urlLink Mark Adamo  - So The Days Go By, And The Summers Fly (from Little Women: An Opera in Two Acts Disc 2)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      our apartment's pool is open, as of today!  yay!  as I type, my lovely roomie is donning a swimsuit and running out with a book and a towel.  no fair.  =)    before I can join her, I have to buy a bathing suit - one of those things all women dread...  what could be more degrading?  unless you have a figure like my sister Melissa's (or any of my previous roommates, who are all skinny minnies), bathing suit shopping is the ultimate in pain and self-esteem destroying.  who *doesn't* have to fight back urges toward bulimia or anorexia after suit-shopping?  hence me and no suit.  but... I shall overcome and walk over the hot coals in order that my roomie and I can chill outside and get tans and not be sweat-mongers.  our apartment has air conditioning, but *dang* does Indy get hot and humid.  actually, even then, I don't sweat, really.  I kinda get shiny, my skin gets moist (sorry - I know most women hate that word), but no dripping and no sweat stains.  thankfully.  wow, did *that* go away from what I started talking about...  anyway, my cd is done and I am leaving work for the day.  it is time.   [Listening to:  urlLink Mark Adamo  - Let Me Look At You (from Little Women: An Opera in Two Acts Disc 2)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+        urlLink   
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      so, yesterday, I didn't go home early.  but after putting up with reprioritizing and a coworker going off (cussing and slamming doors and walking out), I'd had it.  so I had myself a relaxing night.  I finished " urlLink the Hitchhiker's Guide to the Galaxy " - I'd read it before, but it was fun to read through again.  a good way to get your brain to *stop* working before you sleep.  =)  I recommend, especially to those of you who, like me, enjoy some good, sarcastic wit.  and I picked up Dumas' " urlLink the Three Musketeers ".  I like Dumas (especially " urlLink the Count of Monte Cristo ."  and we went and saw the  urlLink third Harry Potter movie  - it's fun!  I watched all three movies in the space of a week, so I was right into the storyline.  I kinda want the others to come out now.  who'd have thought I'd get into hp?  silliness.  but distracting silliness, and that's always good.  today has kinda sucked, too.  the guy who walked out never did come back in, and my work (that extra-urgent-has-to-be-done-by-Friday project I talked about earlier) depended on some code he was supposed to write.  fortunately for him, I can improvise and hack crap together.  I am pretty upset, though, and am rather glad he hasn't come in yet.  I don't want to fight.  and I don't want to ruin the day.  tonight, we're going to the movies with some folks from Taylor - Chalupa's bringing some boys down.  we're either going to see  urlLink Shrek 2  or  urlLink Saved . apparently I'm on a kids' movie kick.  but either way, it'll be a good start to a weekend.  then we're going to Heather's wedding - Steve and Rachel and Dave and I can sit together and kazoo like we did at Skew's wedding.  I'm ready for the weekend to start.   [Listening to:  urlLink Ella Fitzgerald  - All the Things You Are (from The Complete Ella Fitzgerald Song Books Disc 15)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      I'm totally not motivated to work right now.  does it ever feel like everything you do is completely futile?  Ecclesiastes only *begins* to describe how I'm feeling right now about work.  see, no matter how far ahead I get in my own personal work, I'll never actually finish it.  it's like I'm approaching some mathematical limit that someone else keeps moving farther from me.  and you can't even reach limits as it is!  it's extremely frustrating.  for example, this project I've been working on for a while now: I was supposed to complete a certain amount of work, a finite task, and got way, way ahead.  even with all the fun I've been having goofing off on  urlLink elmadera's forums , I'm still getting tons of work done and am far ahead of my schedule.  so, I say to the boss...  look, lady.  I'm ahead of my schedule and there's this thing I want to do - you know, to see Kristen - and what does she do?  she comes in and dumps an "urgent" project into my lap.  she didn't do it just because I said I was ahead - thankfully, I work for a better person than that.  doesn't matter, though.  I still have, once again, no way to go see Kris.  so I ask myself, "self, why are you busting your butt to get your job done if you're not going to get the chance to finish earlier than 5 seconds before the deadline anyway?"  and I don't know how to answer myself.  I think I'm just going to go home early today.   [Listening to:  urlLink Duke Ellington & Ella Fitzgerald  - Take The 'A' Train (from At The Greek 1966 [UK])]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      I think I need to be finished with my angst about the Kristen situation.  it's... basically out of my hands.  I screwed up - I didn't do what I said I'd do, and now I can't fix the situation.  so, now I have to think of a way to make it up to Kris.  the good part about this is that even though I can't see her in person, I have a little bit of time to do something so that she at least *hears* from me while she's in the States.  I have several fun ideas of things to do that involve such items as video cameras, colored paper, and scissors.  colored paper and scissors I possess.  now, I need to find a video camera (preferably a digital one)... any ideas?  the biggest thing, I think, is just to call and talk with her.  she'll be busy with her family for the majority of her time on the east coast, I'm sure...  but I'll bet we can sneak in some good QT.  if you've got good ideas about how to do neat things for people, comment and let me know!  (then we'll see if anyone *really* reads this blog-thing)  If you don't know the whole story, read two earlier posts,  urlLink kristen  and  urlLink upset , for some background.  and help me!   [Listening to:  urlLink Caedmon's Call  - Piece of Glass (from Long Line of Leavers)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+        
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      series...  it's already kind of a plural word, but what if I wanted to talk about more than one series?  because I do.  would it be series still, or serieses? and what if I was talking about a particular series and wanted to mention a characteristic?  would it be this "series'" somethingorother or would it be this "series's" somethingorother?  whoa... and all I wanted to do was talk about Buffy and DS9.  so.  sometimes Bethany and I have roomie bonding time over tv series...es.  our favorite series has been  urlLink "Buffy the Vampire Slayer"  - which we *love*.  it's a great mix of humor and... humor.  =)  unfortunately, all of the seasons are not yet out on dvd.  we've been borrowing the season sets from  urlLink a writer-friend  who watches so much tv it's hard to imagine when he finds time to write...  but I digress.  he's lent Beth and me seasons 1-5 (we still have 4 & 5 for kicks).  season 6 just came out, but we have to bide our time until he's finished watching it.  then we get it.  so we are biding our time by starting to watch  urlLink Deep Space 9 .  it's actually amusing - the actors, especially the lead characters, are so incredibly *bad*!  I have been assured by boyfriend Dave that it only gets better, and soon (in a few more episodes) it will become apparent that DS9 is really an art form.  so, we shall persevere.  but... we're going to sign up for the  urlLink Blockbuster $20-a-month-for-as-many-movies-as-you-can-watch deal  (it's only $19.99 in our neighborhood), so maybe we'll occupy ourselves with movies *and* DS9 until we get into it more.  really, though, it's all just passing time until Buffy Season 6 is in our hands.  =)   [Listening to:  urlLink Dido  - Here With Me (from No Angel)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      all the drama is killing me... but even more, the feelings of helplessness in this situation.  so, my Mom called last night and said, "honey, Kristen's going to be staying around here until the weekend of the 4th!"  I was all kinds of excited and relieved... I could make a crazy-tight-scheduled trip and still see her while she's in the States: drive out there all night Thursday night, spend Friday and Saturday with her and my family, and drive back on Sunday.  but now, I get an email from her dad saying she'll be leaving on the 1st.  he's been making a special point of keeping me up-to-date on all things Kristen-coming-home.  it's a big slap in the face of that entire family that I'm not coming - especially Kristen's.  I'm the worst friend *ever*!  Tara with tears of frustration?  yes.   [Listening to:  urlLink Chris Cornell  - Can't Change Me (from Euphoria Morning)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      we re-signed our lease Sunday.  that means Bethany and I will live together for another year in our west-side apartment with dishwasher, fireplace, washer/dryer hookups and balcony.  sounds great, huh?  it is.  it's a neat place to live, on a neat side of town.  slightly ghetto area, but not dangerous.      urlLink     the view of Indianapolis's sky from the apartment balcony 
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      so, I have this friend named Kristen.    urlLink   
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      we watched two movies in theatre this weekend - that means it was a good weekend, because I really like movies.  especially movies in theaters...  there's just something about big screens and great sound systems and the rocking chairs that don't squeak and putting your feet up on the chairs in front of you and being *surrounded* by movie...  but I digress.  =)  the first movie I watched was Friday night - we went to see  urlLink Troy .  it was excellent... I like being entertained, but more than that, I like being *involved*.  this movie tells the story of, well, Troy.  but it tells both sides - the Greek side and the Trojan side.  there are two distinct main characters (Hector and Achilles), each with supporting actors/actresses.  the stories become entwined, and so at some points, you almost don't know who is the protagonist and who is the antagonist.  I liked that a lot.  plus, being, um...  "rusty" on my history, I didn't even know who was going to win until I saw the Trojan horse.  =)  excellent movie.  then... Sunday afternoon, we went with our pastor and his wife and a couple from the church to see  urlLink The Day After Tomorrow .  It was total cheese, but entertaining, nonetheless.  the best parts were when one of the girls was talking throughout the movie: America evacuates to Mexico and there's a comical (comic-relief comical) scene where Mexican border officials are trying to stem the illegal immigration and Americans are wading across the Rio Grande and jumping fences...  the only way the Mexican government would allow the Americans refuge (in American refugee camps - it was crazy) was to forgive *all* Latin American debt.  this girl I was with is Latin American...  she says, "It's about time!" really loudly in the theater...  it was hilarious!  so...  we watched this total cheese movie about the destruction of the 1st-world world at the hand of weather and nature, right?  then, we leave Circle Centre Mall (supposedly the nicest and most expensive theaters in town) to the tune of tornado warnings (3 touchdowns and paths through the eastside and southside).  crazy rain we couldn't see through, flooded downtown city streets, insane lightning and thunder... it was just like the movie.  =)  a little freaky?  yes.   [Listening to:  urlLink Spacehog  - In the Meantime (from Resident Alien)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      Nate-Dogg Becker came to our church's Wednesday night meeting to give a little presentation on his upcoming missionary work.  Bethany and I baked a cake for the occasion and iced it (very beautifully, I might add - swirls, thick icing... mmm mmmmm!), then Beth wrote something encouraging (I forget what) in decorative icing...  it was quite the cake.  but it stayed in my car all day, and so by the time church rolled around, all of the icing was liquid and there were no more words.  oops.  =)  at least it all got eaten.  we (four of us) sang an old hymn from the hymnal - simple arrangement where we sang parts for the first verse, last verse, and all the choruses, verse 2 with just the 2 women and verse 3 with just the 2 men.  our voices really match - the four of us - and there's something beautiful about singing in tune...  so the hymn had a quaint charm.  on the last chorus, Pastor Tom had all (us and the congregation) sing together.  looking out from the front of the room over a sea of faces - black, white, filipina, mexican, lithuanian - all raising their voices in song... it was almost like a little glimpse of heaven.    so, Nate got up and did his thing.  I hope that turns out to be something profitable for him - that it helps him raise the support he needs, prayer or financial.  it was so good to see him again (possibly for the last time) before he leaves for Davau (in the southern part of the Philippines).  it's been exciting to watch him grow into this desire to do mission work.  he's got an amazing testimony (don't we all in some way? God is so good!) and is so willing to follow God's leading!  I'm glad for him that he's finally found a place, a way in which to minister and to serve.   [Listening to:  urlLink Alfred Reed  - Armenian Dances]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      ... as Melissa so lovingly reminded me, I neglected to mention that my sisters (she and Leah) are coming this weekend.  (sorry kiddo - I'm a jerk.  but... I was *tired* and that was the tail end of the post.) they're driving out for two reasons:  1) to drive me and Dave back out for VACATION!  and 2) to bring me a PIANO!  both are very exciting reasons to have my sisters here, in addition to the *already* exciting fact that they're coming for a few days.    the girls are going to camp out in mi apartamento while David, Bethany, and I rehearse and dine at Buca's.  then, we'll all get together and ... have fun or something. I've got plans for them - we'll go to the Claddaugh and to the movies and to Ritters.  and when we're done spending money, we can sit and watch  CareBears  or  the Last Unicorn  or  the Sea Prince and the Fire Child ...  then we can go downtown and spend time in the gigantor Borders, and we can walk around the canal, etc.  lots of options. =)  so...  I'm glad you're coming, kids.  sorry I didn't mention you in my last post.   [Listening to:  urlLink Bjork  - It's Oh So Quiet  (from  Our Newest Album Ever! )]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      another busy weekend, to be followed by a busy week.  I love life in Indianapolis!  Friday night, we watched  urlLink the Butterfly Effect .  what a great movie!  from the cover/art:   We all have moments when we wish we could change something. Right a wrong. Correct a mistake.  Gain love - or power.  What if we really could?    what a provocative thought.  I've been noodling about this one all weekend.  I *love* movies that get me thinking.  but that's another post.  Saturday we watched movies, too - we were all interested in being as lazy as possible for the first half of the weekend.  we knew it was going to be a busy one.  Saturday night, we left Dave to fend for himself with his laundry, a book, a blanket and ESPN to go to a bachelorette party.  no complaints from him.  =)  so what do you get when you cross about 12 girls, a veil headband, leis, body glitter and drinks?  you get Claudia Lasdins (soon-to-be Ebersole)'s bachelorette party.  started off at the Hard Rock downtown - fun place to go.  most of the people there were tourists, I'm sure. because who in Indy ever really goes out and eats at the themed restaurants?  we all either cook in or eat out in great little holes-in-the-wall that we've snobbily claimed are better and better fun than places like Hard Rock or Buca's.  that's silly.  the Hard Rock was the *perfect* place for this crowd to kick off the night:  food, drinks, and free sodas (thanks mr. winking waiter!), plus all the laughing you can squeeze into two hours (we were having such loud and long laughs that another group came over to share in the jokes).  after, we went to a new piano bar downtown called  urlLink "Howl at the Moon"  - not quite what I expected a "piano bar" to be, and *certainly* not my normal gig, but fun nonetheless.  Sunday was relatively tame.  =)  all of the sopranos were out at the bachelorette party, so we were all slightly hoarse when it came time to sing the anthem.  it was awesome anyway - it was a tougher piece (especially for our choir) but it came out beautifully).  lunch at Ryan's as usual, then we went home.  all three of us (me, Bethany, David) crashed when we got home - took an hour and a half long nap.  =)  woke up in time for choir practice and church, then David left and we crashed again.  still recovering.  man, speaking of recovery reminds me of ailments.  and ailments reminds me of OUCH - MY LEG!!!  this exact pain (the one I'm about to describe to you) happened to me once before.  same leg and everything.  I was in the Bahamas on a  urlLink TU  Jazz Band and Sounds spring break tour.  we (a bunch of guys and me) were in the hotel's outdoor pool horsing around, dunking each other, etc.  one of the guys grabbed my leg (dude, it's throbbing just *thinking* about this!) and pulled me under the water.  well, he'd grabbed my calf muscle, but not the rest of the leg - he pulled hard enough to basically separate the muscle from the bone.  I just about drowned because it hurt so bad I couldn't move it to get above water.  so... this morning, as I'm laying in bed waking up, I stretch - you know, one of those great, full body stretches?  pointed my toes and everything.  anyway, the same thing happened to my leg!  I bit my hand *really* hard to keep from screaming...  I *still* have a mark on my skin - a whole day has passed!  if the camera at work had worked, I'd have taken a picture to post with this... post.  (hehe... work worked, post post)  now I'm all afraid to have any kind of exertion - climbing in and out of cars, walking up and down stairs - these are scary things.  I'm wiggin' because it hurt SO badly.  tomorrow night is a "missionary shower", similar to a bridal shower (giving the missionary-to-be the things he needs to go abroad), for Nate-Dogg Becker, a dear friend from Taylor.  Wednesday, he's going to my church to do a presentation in hopes of gaining some support (prayer, financial, or other) from Woodruff Place.  Thursday morning is a stupid, horrible, crappy meeting with some clients.  Friday, David comes and we go to a rehearsal/rehearsal dinner.  =)  yay for food at  urlLink Buca's  and  urlLink my David ! wedding Saturday.  vacation next week - very full calendar until then.  so, that's my news.  those are the happenings in the life o' Tara.  I'm out - time for bed.    [Listening to:  urlLink Liszt  - Liebestr&Atilde;&fnof;&Acirc;&curren;ume, notturno for piano in A-flat major No. 3 (from  O Lieb, so lang du lieben kannst )]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      today I left my apartment about a half hour later than normal.  I backed out of my parking spot, and turned the first corner.  as I did, about 2 liters of water (at least, it felt like 2 liters!) ran off the top of my car and straight into the driver's side window.  onto me.  (stupid thunderstorms last night...)  so as I'm trying to turn the corner *and* dry the whole left side of my body, I pass a state trooper.  not too unusual - I live in a city apartment complex, so we have an officer assigned to our area.  they just drive around and give people bright red warning slips/tow notices for having expired license plates...  I wouldn't know that, though.  =)  anyway, this cop passed me and I stopped at the stop sign.  went out to 47th street, the almost-main road accessing my complex, and got all kinds of mad about another cop driving like an idiot.  see, people fly down 47th and I have to turn left out onto it.  most folks turn onto my street (47th deadends not too much farther down), but sometimes people go straight.  the cop didn't have his blinkers on and was moving pretty quickly, so I had to sit there for*ever* while he drove to the intersection.  of *course* he turned, jerk, without using his blinkers.  so... I was a little bitter and headed out on 47th to Georgetown, the *real* main street by my complex.  I hadn't even pulled up to the light yet, and I start hearing sirens.  three cop cars are chasing this dude in a beat up blue Chrysler - I pulled over (and forgave the jerk-driving cop), knowing to get out of the way for siren-toting-vehicles. they flew past me and turned the corner.  I get to chase the cops as they chase this guy!  very exciting... I got to be (sort of) part of the police pursuit because they were going the direction I drive to work.    it was a short chase - the guy flew into a BP (the one at 56th and Georgetown) parking lot, ran over a median, and hit a van (not very hard).  cops all jumped out of their cars and then one got back in and drove away.  then I had to drive on because the light changed.  so, there's my exciting pursuit story.  yay for no more criminals (I hope) in my neighborhood!   [Listening to:  urlLink The Beatles  - In My Life (from  Here We Go - Joe & Sarah Camp's Wedding Disc )]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      I get to have a vacation!  the boss-lady okay'ed everything, and now all I have to do is buy our return trip tickets.  I'm starting to get excited - I *really* need to get away for a while.  from *everything*.   especially work.  and, as much as I love life here, it seems that I just can't say no, especially when I'm asked to do something with a friend I don't see often (which happens a lot - they must have some kind of rotating schedule).  that's all well and good, but the only time I can do anything substantial is on my weekends... so then, when do I get to rest?  the answer?  when I go to Myrtle Beach for a week!  on a side note, here's something screwy about me - I don't often "look forward" to things before they're sure things.  I would much rather be pleasantly surprised than be disappointed, so I operate from a negative outlook most of the time.  seems like a sad way to live, but it's also a bit safer than making all kinds of plans and putting a lot of time and effort into something that won't amount to anything.    while this is a practical way to live regarding such things as vacations and get-togethers with sisters (while they were still in college) or large groups of people, it's a pretty pathetic way to manage relationships.  *that* was a tough distinction for me to make - until pretty recently, I had applied my  urlLink m.o.  to *all* facets of life.  what I found out, though, is that safe is lonely.  though there is joy in many small things when you approach things and events with a "pleasantly surprised" mindset, I've found that it kills a relationship when you expect nothing of the person in it with you.  hm.  off-subject, for the most part.  except that I was afraid to "expect" that this vacation time would be agreed to, and now am "pleasantly surprised" (and *much* relieved) to have the conversation over and done with.  and so, once again, I say "yay!" for beach vacations!  (and yay! for thunderstorms!)   [Listening to:  urlLink Selah  - One Thing I Know  (from  Be Still My Soul )]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      I don't get family reunions.  well, I don't get why they're so great.   here's why:  I reason  urlLink inductively .  so here's my specific experience (here's how my family works):  we are all spread about the country [world] and so getting together is a very intentional thing, but on a very personal level.  necessarily.  (and luckily!  it's much better to get to spend time with folks one family at a time so that you can really have meaningful dialogue.  there's only so much satisfaction in repeating your "news" over and over again.)    we plan long car trips or we plan visits with family into vacations.  because we're so split apart geographically, we *can't* come together even *once* a year, let alone three or four times a year.  so I don't know my cousins very well at all.  I don't even know their middle names; only because of some fluke (we were all born in January or June, same days each month) I can guess at birthdays.  but don't ask me ages.  =)  I love my aunts and uncles.  especially those who've made the effort to get to know us.  I like that in my family, I know who my *real* family is and who my "relatives" are.  it's a good lesson for a child (and for an adult) about the difference between earthly families and heavenly families.  and it makes a person realize that even at the most basic levels, the only relationships that mean anything are the ones that you work at.  being related by blood is NOT being family.  so, I like the sound of all the "folks" getting together, I guess.  and I'm not saying that the way someone else's family works isn't good. but a mi, I'd much rather have the select few than the whole clan.   [Listening to:  urlLink Duncan Sheik  - Home (from  Here We Go - Joe & Sarah Camp's Wedding Disc )]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      yay for drive-in movies!  what a wonderful vestige of a past culture...  I'm so glad that in my lifetime they're still around and experience-able.    there are no such things as drive-in movies on the east coast (at least the parts I lived in - there was too much "civilization" light to have a screen outside).  the only drive-in relics left are the giant screens, ripped to shreds but still standing, and overgrown parking lots laying fallow.  David and I went to see a couple of movies at a local (local to Oxford, that is) drive-in.  " urlLink I, Robot " and " urlLink Anchorman " were the "selections" (interesting word choice here - you don't get to "select" anything.  =)  *these* movies, *these* times.) playing.  it was an interesting game, getting D to fit comfortably (?) in my 2-door car, but it was the car or the cold.  I wish I'd have taken pictures - he had his huge feet hanging out of the window at one point.  that was the last time I'll probably see Oxford while David's living there.  it was almost sad.  =)  too bad we didn't discover the drive-in sooner, too bad we didn't play more frisbee golf while he was there.  well, next place he lives, we'll have to find things to do that are unique to the area.  one good thing about him being so much closer - we'll be able to go to more concerts/operas and things that are held *by* the university.  we can play frizolf here in Indy, if not in Anderson.  and, good news - we can still go to more drive-ins because we live in the midwest.  =)   [Listening to:  urlLink Ben Folds  - The Luckiest (from  Here We Go - Joe & Sarah Camp's Wedding Disc )]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      lately I've been spending a *lot* of time on the road. on I-70, in particular. there's just something about the part of 70 that stretches east of Indianapolis that keeps drawing me in. or on. =)  at least in the summer people are driving faster. I can "keep up with traffic" at 80mph - in Ohio! I don't know how often you, gentle reader (teehee), travel back and forth across the glorious armpit of a state that is Ohio... but in my experience it has been nothing wonderful. (no offense meant, Buckeyes, but 70 really is placed in an ugly 200-mile-long stripe of land.) and, even worse, the cops are vicious and vindictive (so I hear) so most people obey something close to the speed limit while passing through. which means it takes forEVER to get through Ohio.  both David and my parents (and sisters) live eastward via I-70. two hours to see Dave (in Ohio), nine hours to see the family (in Pennsylvania), so between those loved ones, I spend a lot of time in the car on 70.   so, this weekend I drove out to see my Mom for her birthday. she's one of those people to whom the presence of a person is much much more important than the presents of a person. I figured that since I hadn't been home since February, and since I'll be seeing her in another three weeks for a beach vacation (yay!!!!!), she wouldn't expect the trip in the least. and she didn't. it was much fun surprising her...  I snuck in with the help of  urlLink Melissa . I wanted to just get up and say "happy bday" to my mother in the morning, rather than waking her up in the middle of the night. I slept downstairs. just my luck, Mom got up at 6 or some other obscene hour o' the morning and saw my car. she didn't know/think that it was mine - thought it maybe belonged to a bridesmaid from the wedding Melissa was maid-of-honoring or something. so Mom sneaks up to see who it is sleeping on the floor, gets about a foot from my face, and screams "Tara!?". I was... alarmed. =) but it was a good surprise and we had a good time together. even at the 6-hour-long wedding/reception.  anyway, back to the title of the post - I-70. I  shall be out upon this most fantastic highway again in a couple of weeks, this time headed to home to go with the fam to Myrtle Beach. yay for South Carolina!    [Listening to:  urlLink Shawn Colvin  - Never Saw Blue Like That (from  Here We Go - Joe & Sarah Camp's Wedding Disc )]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      stories...  they're not something that we outright accept as truth because, like I was talking about yesterday, they don't fit into the enlightenment/emperical way of thinking.  I've come to think that stories can be more truthful than facts.  sometimes you ask a question that can be answered with two words but you'll get a story in response and that story does a better job of answering that question than *any* two words could have.  I like a decisive answer.  I like it when you answer my question exactly and concisely - my brain knows what to do with facts.  but tonight, I was reminded that facts aren't always the best answers.  Jesus taught in parables...  always, says  urlLink Matthew 13:34 .  anytime he had some truth to communicate to the crowds, to the pharisees, to the disciples, he spoke in stories.  stories can circumvent the guard of intellect, and so speak a more whole, a more complete truth to the heart.  by conveying truth in stories, Jesus was engaging whole selves rather than just intellects or just emotions.  anyway, food for thought.  it's late and I'm driving 9 hours tomorrow (mom's birthday is Friday the 16th, so I'm going to surprise her by showing up in PA Friday morning).  in other news, the water works fine once again.  that said, g'night and peace out.   [Listening to:  urlLink Blues Traveler  - But Anyways (from Four)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      ... that's what my apartment's pipes were today.  arid.  as in, containing and trafficking no water.  but it happened all of a sudden - it was the weirdest thing.  Krista Vannoy, a fellow-music-major-chum from TU days, came to visit and crashed at my place last night.  good times - good discussion (I came in with a crisis and the three of us - me, Krista, and Bethany - talked through it), good movie (Runaway Jury - I *love* Cusack movies), and plenty of water to drink and to do dishes with (both for pots hand *and* the rest in the dishwasher).    this morning, there was enough water for Beth's shower and teeth, for Krista's teeth and face, for a couple of toilet flushes, and for me to get my hair all soaped up with shampoo in the shower.  then...  argh!  the water pressure starts waning... I noticed and start rinsing, figuring it was because of the storms last night.  then the stream starts really looking really pathetic and starts pouring straight into the shower-caddy-thing.  I ripped that off and finished rinsing my hair as the usually-very-nice water pressure tapered off to mere drips and dried up completely.  I had to brush my teeth using a cup of refrigerated (why do we spell "refrigerated" and "refrigerator" the same but not "fridge"?  from whence comes the "d" by the "g"?) and filtered water because I didn't have enough time in the shower to brush my teeth (which I normally do while the conditioner sets in).  called the apt. office, which now doesn't open until 9, and left a message.  their hours used to be 8-7, and now it's 9-6.  while I don't begrudge them their now-normal hours off, I *do* hope they've fixed my water by the time I get home.  what if I have to go to the bathroom?!   [Listening to:  urlLink Live  - Lightning Crashes (from Throwing Copper)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+       urlLink TheoCenTriC: Songs from the Heart: Emotions in the Psalms   for a while, I went to this Thursday night Bible study at College Park, a big praise-barn out here.  while not buying into the church at all, I found this satellite group to be amazingly Christ-centered and theologially challenging.  this was all due to the leader of the group, an unusual pastor named Rich Vincent.  he's gone - pastoring a small, mission-minded church in CT, but still maintains his website, TheoCenTriC.  I like what he has to say, and I liked learning from this dramatic, dynamic preacher.  so, this article.  this is just some random sermon/essay he's written, but it touched a few sensitive chords.  I struggle with emotions... not in the I-can't-control-my-emotions-because-I'm-female way, but in an I-don't-understand-them-and-therefore-shy-away-from-them way...  reading this brought back to mind some things I have thought about and finally dismissed as unimportant...  the kicker of a line was this:   "To close part of ourselves to God is to fail to worship God truly and fully."   this article was a good read - made me think.  it talks about how evangelicals swing from one side to the other on the issue of emotionalism.  either we're wildly emotional or we're stoic...  emotions are weird things.  they don't quite fit in with "enlightenment" thinking... since our world is based on enlightenment thinking - logic and reason - it's hard to find a place for emotion without giving it full sway...  I've consistently erred on the side of stoicism, thinking it would be better than losing control in some way (because all strong emotions involve a loss of control)...  this article got me considering (once again - this has been a long-time struggle for me) my position...  to find a balance always seemed ideal, but not necessarily important as long as I wasn't "losing control" - but if, as Rich says, to close off emotional me is to fail to worship fully...    hmm.  things to think about.  what about you?  any thoughts after reading the article?   [Listening to:  urlLink Aaron Copland  - Appalachian Spring]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      to my utter horror, I realize that I've grabbed (and donned!) a dirty shirt.  ack!  I smell, at least up close and personal, like I don't wash my clothes.  *thankfully*, I'm naturally  urlLink not a sweaty person  - this could be a much more urgent situation.  this is what happens when you clean like a madwoman and throw clothes around as you rearrange your closet - some of them are bound to get mixed up.  as it is, I only have a musky t-shirt smell instead of that rancid b.o. smell.  as anal as I am about hygeine (npi), it's quite the drama for me to sit here in a smelly shirt all day.  other than the smell, the day is passing rather uneventfully.  no stress, no soap-opera-style work conditions (the boss is out of town).  it's nice.  aight, back to work.  in my smelly shirt.   [Listening to:  urlLink Eric Whitacre  - October]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      proverbs 13:12  Hope deferred makes the heart sick,  but when dreams come true, there is life and joy.      
+     
+
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      so, amidst all the deadline ... crap ... the pushing back and moving around, they pushed back, moved around, and then *cancelled* my plans to go to a pal's wedding.  I would have liked to have been there... to see all the folks I'll not see again together.  and to see Jim get married...  argh.  I have angst.  but.  they got married last night (Friday night), then had a softball game for all of their friends today (Saturday - it's after midnight)!  what a good idea!  they didn't just get married, take stuff from everyone, and then high-tail it out of there.  they stayed to fellowship with friends as they started their new life together.  I like Jim and Jessie.    so, congrats, Jim.  hope your life's a good one, and hope I get to see you again sometime.  prayers, a big hug, and a (slightly cheesy) Irish blessing:   may the road rise up to meet you may the wind be always at your back may the sun shine warm upon your face may the rain fall soft upon your fields and until we meet again may God hold you in the palm of His hand     [Listening to:  urlLink Miami University Men's Glee Club  - A Parting Blessing  (from Spring Concert 2003)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      tratando aprender (otra vez) el espa&ntilde;ol. un amigo, Chalupa, me ha convencido que es importante.  y... creo que estar&eacute; interesante.  necesito trabajar en mi vocabulario.  hablo como una ni&ntilde;a peque&ntilde;a.  =)  mi cosa favorita es el punctuaci&oacute;n; es muy divertido que escribir los marcos al rev&eacute;s. pero me desvio del tema...  good weekend, so far.  Bethany and I spent hours cleaning el apartmento.  all of it.  then we rewarded ourselves by dinner out (we both got called "sweetheart" by the guy serving us - that's great - usually Bethany's the "sweetheart" and I'm just invisible), a fixed washer, and a movie.   the washer, as usual, was leaking.  every time we get a new washer (this is our second, because we gave our first to the child care at our church), something bad happens and water gets everywhere.  this time, somehow in the move from PA to IN, a rubber washer in one of the hoses went AWOL.  we had to make two trips to Home Depot to find the right piece, but then Beth put it all together and it works beautifully.  I'm glad she's mechanically inclined... my version of fixing something is calling the plumber.  =)  then we watched "The Missing" - was good. I understood all of the spanish being spoken in the movie!  (I know you're not quite as thrilled as I am, but it was encouraging!)  finally watched "Cold Mountain" last night - excellent movie, glad I have the soundtrack.  I love that mountain music - bluegrass roots, Sacred Harp singing...  that's what I grew up with.  also finished a book.  so... fun Saturday.  estoy cansada (hehe... almost typed "casada", which means "married" instead of "cansada" which means "tired").   anyway, &iexcl;buenas noches!   [Listening to:  urlLink Antonio Vivaldi  - Violin Concerto (from 'L'autunno', The Four Seasons, for violin, Strings & Continuo in F Major)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      ... is what tonight was.  I like spending time with my roomie - she's the best!    it was looking like it was going to be another sucky, late night at work, only this time, I had nothing to do but wait.  there was some funk-nasty query that needed run about a zillion times (at 15 minutes a pop as it was over the whole database), and I couldn't do my work until it was finished.  so...  I was to wait for an indeterminate amount of time - somewhere, I was told, between 15 minutes and 5 hours.  ended up being closer to 5 hours.    so, Bethany comes to work and brings chips, salsa, comfy clothes, and a  urlLink movie  to watch.  because I couldn't possibly do any more work and I have a DVD player on my computer at work.  =)  roomies are awesome!  I also spent some time talking with a pal - Evan Kittleman - who is the Lord of the Website of Taylor University - online tonight.  lots of fun marvelling at the up-and-coming marriage of a mutual friend (one we'd written off as a bachelor-for-life because he's never had patience for girls).  also, Evan was very interested in my roommate, despite the fact that he's married.  he said his *wife* wanted Bethany, too, because she was so perfect.  well, who can argue with that?  she's the best.  and... let's see.  oh, David's mother called me looking for him.  I thought that was funny.  she must have been worried because I'm not sure she was comfortable calling me.  =)  I like her, and I think she's getting used to me, but we're not on such super-friendly terms that I'd call *her* up at 10:30pm.  I liked it, though, that she considers me (as  urlLink Melissa  said), an authority on David's location.  at least we're going together in her mind now.  so yay for today.  and yay that the deadline is almost over - tomorrow morning is the big launch.  yay!  there's no way they can push it back anymore.  now, they can only drag it out, so we'll see how my Friday goes.  ah well, at least there's  urlLink Cold Mountain  to watch (Bethany and I have been waiting *ages* to see it) this weekend.  so, in the words of my  urlLink favorite opera 's lyrics, "on to tomorrow"... and into bed.   [Listening to: Jars of Clay - Something Beautiful  (from Furthermore: From the Studio/From the Stage Disc 1)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      yes, I'm still here. and alive, even. crazy busy week(s?)...    work life is crazy with that huge deadline that is *still* being pushed back ( urlLink I told you it would! ), though by smaller increments every time.  in fact, today they only pushed it back a couple of hours, whereas yesterday they pushed it back another day, and last week they pushed it back another week.  we're making progress, though this whole situation smacks of approaching a mathematical limit - which you can't *ever* do.  how depressing is that?  and how sad is it that I'm thinking math-y thoughts?  Dave, we're spending too much time together.  =)  my outside-of-work life, though I'm getting fewer and fewer hours of that as the deadline approaches (again, just like approaching a limit!), has been more and more busy with fun things to do.  the amount of time spent just chilling/relaxing versus is shrinking at a phenomenal rate versus time spent *doing* things with people.  I like that - I like being with people and doing things rather than loafing around.  summer is the time of the year when people can actually do things... when classes aren't in the way and studying doesn't have to be done, and people are getting married (which means LOTS of road trips), and people are more spontaneous, and it's baseball season (oh wait, it's ALWAYS baseball season)...  speaking of baseball season, we saw a live MLB game this past weekend.  it was a lot of fun - Melissa and I met David in Oxford and went to Cincy for a Reds v. Indians game.  the two teams sort of suck (apparently - I'm not up on my baseball knowledge), but it was a great game.  mostly, I think, because David's team actually won, and they *killed* the Reds.  15 to 2.  David chants this like a mantra whenever he talks about that game.  =)  I enjoyed it - I think that the more I go, the more I'll like baseball.  this is progress, because heretofore, I've hated the danged sport.  give me american football or hockey - I want to see people beating each other.  =)  plus, I understand those games.  yeah, so baseball game.  and Melissa was here for four days or so - I was glad to see her.  we don't spend enough time together...  I'm hoping that she'll just pick up and move out here, but really... how can I compete with Hawaii (which is where my parents are picking up and moving to)?  ah well.  at least I get to see her every now and then.  and we (I, at least) really had a good weekend spending time together.  well, break's over. off to work once again. hasta, y'all.   [Listening to:  urlLink Johann Sebastian Bach  - Suite No. 1, BWV 1007 Pr&eacute;lude (from Bach: Cello suites nos. 1, 5 & 6); Yo-Yo Ma, Violoncello]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      C.S.Lewis on vulnerability:   "To love at all is to be vulnerable. Love anything, and your heart will certainly be wrung and possibly be broken. If you want to make sure of keeping it intact, you must give your heart to no one, not even to an animal. Wrap it carefully round with hobbies and little luxuries; avoid all entanglements; lock it up safe in the casket or coffin of your selfishness. But in that casket -- safe, dark, motionless, airless -- it will change. It will not be broken; it will become unbreakable, impenetrable, irredeemable. The alternative to tragedy, or at least to the risk of tragedy, is damnation. The only place outside heaven where you will be perfectly safe from all dangers and perturbations of love is hell."  ... thought about that today.   [Listening to:  urlLink Dido  - Here With Me (from No Angel)]
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      ... we are almost at the commencement of my vacation!  I am *so* ready for this getting away that I'm feeling slightly tortured during these last few hours of work.  3 hours and counting...  we (my sisters, David and I) are driving to Pennsylvania this afternoon (9 hour drive - back we go onto  urlLink I-70 !), recouping at my parent's house for a day, then hopping back into the van for a 10-hour trip to South Carolina.  tight ride.  no, I'm not talking about how studly my folks' minivan is, I'm talking about it being full of people and thus crowded - my parents, my sisters, me and Dave.  bad news - my uncle Kerman (my mom's mom's son from a previous marriage - so my half-uncle) has cancer.  I don't know how bad things are, but we're stopping in Virginia to see him.  I've always liked him, though I don't know him very well.  it'll be good to see him again, even in such sad circumstances.  in other news, read what some Dutch folks think about my sister Melissa and  urlLink her blog  ("Melstarr"):   "Hello or as we say in Holland, Halo. Jur site is da supreme, please content more on a day. Ver est interest, we like sausages, beer, clogs, and now Melstarr. Now bye says. Keep fighting with word. Viva Hollandia!"   =)  Melissa ranks right up there with sausages, beer and clogs!  I'm proud to be her big sister.   [Listening to:  urlLink David Holsinger  - American Faces]
+</post>
+
+
+<date>29,July,2004</date>
+<post>
+
+	 
+       I like Paul Rudd a lot, especially when he's the lead in a movie.&nbsp; That was the case with  urlLink Two  Days, a&nbsp;movie that came out last year.&nbsp; It's about a failed actor in Hollywood who decides to kill himself.&nbsp; But before he goes through with it, he hires his friends to make a documentary about the last two days of his life.    &nbsp;  Usually, when a movie like this comes along, you pretty much know how it's going to end.&nbsp; I wasn't sure with this one.&nbsp; I had my suspicions, and they weren't far off from what actually happened, but I was never certain of anything during the film.&nbsp;     &nbsp;  This one's at Blockbuster now, so if you're interested, you should rent it.&nbsp; It's not the best ever, but it's interesting.&nbsp; And the music over the last scene and the credits is absolutely beautiful!&nbsp; Wow.&nbsp;   
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+      Brad 'Hoser' Moser....whatever you call him came over tonight and we watched Amelie.&nbsp; I really enjoy this movie but don't always recommend it to everybody because there's some content in it that some people can't get past.&nbsp; It's like staring at the finger while ignoring what it's pointing at.&nbsp; Some people don't like this 'kind' of movie cause it has subtitles.&nbsp; I kind of like subtitles sometimes myself.&nbsp; Even in movies without subtitles I have to watch it a couple times to really catch the dialog  and  what's going on in the background.&nbsp; I really love  urlLink Audrey Tautou &nbsp;in this film.&nbsp; Her performance is amazing and most of it is just in the expressions she makes.&nbsp; I of course have no idea what she's like in person, but her character just seems so cool in this movie; somebody I could really get along with - kinda like how we feel about Zach Braff right Liz?  Well the jist of this movie is a young woman does a good deed for somebody, likes how she feels afterwards and continues trying to help people out in the world.&nbsp; At the end of the movie you get to see how her life really affected peoples' lives.&nbsp; It's definately a feel-good movie and a subtle reminder to watch how we live our lives because you never know how you're affecting somebody. 
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+	 
+      Ghost World is a movie I've seen before, but I watched it yesterday while my clothes were gettin clean so I figure I might as well write about it.&nbsp; This is the movie that gave me my appreciation for  urlLink Lost in Translation &nbsp;(another movie watched cause of Neville).&nbsp; Another link between those two movies is the actress  urlLink Scarlett Johansson .&nbsp;   Basically these movies are both about being misunderstood.&nbsp; In Ghost World you have Enid played by  urlLink Thora Birch &nbsp;who wants to 'have her pie and eat it too'.&nbsp; Enid doesn't really know what she wants or who she really is so she's constantly trying out new hair styles, looks, music styles, job ideas, etc.&nbsp; She really has problems sticking with one thing for a while and seeing it out to completion.&nbsp; However, by the end of the movie I think she's starting to see that some things need to be more long term and starts figuring out who she is and who she wants to be.&nbsp; Another starring actor in here is Seymour played by  urlLink Steve Buscemi .&nbsp; I love this guy.&nbsp; I think the best thing about Buscemi, besides his great acting ability,&nbsp;is that he's not the most attractive looking person which goes against Hollywood/pop culture&nbsp;in the 'gotta have beautiful people' sense.&nbsp;   If you were a fan of  Lost in Translation,  I'd say definately give this one a try.&nbsp; If you didn't like that movie I'd say give it a try anyway because  Ghost World  is the only reason I like  Lost in Translation .    
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+	 
+      Hey, it's two Cage movies in a row for me.&nbsp; The first time I saw this movie was with Neville and Liz in Marion I believe.&nbsp; I really like this movie.&nbsp; The two main actors are  urlLink Nicolas Cage &nbsp;and  urlLink Alison Lohman .&nbsp; Lohman hasn't done a whole lot in the way of movies yet, but&nbsp;I think she has potential.&nbsp;   The basic story line is there's a couple of con artists, one of them being Cage.&nbsp; Cage then meets his 14yr old daughter for the first time and starts up a relationship with her.&nbsp; Cage also has a few phobias and some social interaction issues which&nbsp;really add to his character.&nbsp; &nbsp;This is a movie about pulling a con, but it's also about the relationship between a father and daughter.&nbsp; Some might think this is a 'chic-flick' or something but I thought it was insightful and entertaining.&nbsp; So go ahead and make fun of me....wanker.  I don't know if I'd classify this as one of those 'real' movies, but I definately enjoyed the relationship aspect to it.&nbsp; Growing up without an active father in my life makes me think it'd be cool to find out my dad was somebody else and to randomly meet him and start off on a clean slate.&nbsp; Kinda hard to explain if you don't know what I'm talking about.&nbsp;   I'd have to say I recommend this movie to just about everybody.&nbsp; Oh yeah, and if you're shallow and insecure about your whatever in watching non-action movies you should give it a try too.&nbsp; Don't worry, we won't rat out that you watched a 'chic-flic'. 
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+	 
+      Here's another one of those movies I've been meaning to watch for a couple years.&nbsp; I got the chance to pick it up for $10 and jumped on it.&nbsp; Bendog has been on me forever to watch it and I finally did.&nbsp; A couple people told me this was going to be so much like  Being John Malkovich .&nbsp; It was, but it wasn't.&nbsp; I think the cast did a great job on this.&nbsp; Especially Cage, Chris Cooper, and Meryl Streep.&nbsp; Also enjoyed seeing Ron Livingston, star of my favorite  Office Space .&nbsp;   Cage did an excellent job playing two characters.&nbsp; He was his own twin brother.&nbsp; One was outgoing, and dangerous.&nbsp; The other was a nervous wreck who always worried about what others thought.&nbsp; As the movie progressed you see these twin brothers playing off of eachother and empowering eachother in ways they never imagined.&nbsp; It was pretty cool.&nbsp; The movie seemed almost a bit dull and boring.&nbsp; At one part a motivational speaker of sorts chews out one of the characters for thinking "real life" is boring, dull, lifeless, unfullfilling, dissapointing, safe, etc.&nbsp; By the end of the movie this character realizes what "real life" really is.  This made me think a little about how I view life sometimes.&nbsp; Yeah, life can be dissapointing, threatening, and discouraging...but things are really what you make out of them.&nbsp; It sorta goes back to the cup being half empty or half full.&nbsp; Now I really get annoyed with this illustration, but there's some good stuff in it.&nbsp; Nobody really makes you do much of anything.&nbsp; It's all your choice.&nbsp; That annoying co-worker doesn't piss you off, you choose to get worked up about them.&nbsp; Well, I was about to come up with a bunch of other examples, but I'm sure you can come up with whatever on your own.&nbsp; I know people that have had unbelievable amounts of hardship and I know some people that seem to have had to deal with none at all.&nbsp; It's always interesting to see how these people act.&nbsp; Some people go through hard times and come out bitter while others don't.&nbsp; Some people have no hard times and are bitter while others aren't.&nbsp; It's all a matter of how you percieve and react.&nbsp; It's also usually not where you are that makes or breaks the situation but who you're there with.  &nbsp; 
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+	 
+      The other night I rented both  The Station Agent  and  The Dreamers.&nbsp; The Station Agent  was a million times better. &nbsp; It follows Fin McBride, a dwarf, through a few weeks/months of his life in which his only friend dies, he inherits a train depot in New Jersey, and he moves in.&nbsp; He is content to live a quiet life.&nbsp; He's one of the most believable loners I've seen in a movie.&nbsp; Usually a loner character is either so cool that you can't understand why they're by themselves all of the time, or they're frustrating and you don't really want them to have any friends.&nbsp; Fin was likeable, but you could see why and how he was happy to be relatively alone. &nbsp; Alas, friendships follow. &nbsp; Bobby Cannavale died on  Third Watch  a few years ago, and the episode made me very sad.&nbsp; Watching him in this movie cheered me up a bit.&nbsp; His character's giddiness was a huge reason I liked the movie so much.&nbsp; Patricia Clarkson is also great, as the woman who almost hits Fin with her car -- twice in one day.&nbsp; She's a mother who is mourning the loss of her son, Sam.&nbsp;  &nbsp; It turns out, all of these people need one another. &nbsp; Fin is very cool.&nbsp; Peter Dinklage is great.&nbsp; This is a movie I would not only recommend to all of my friends, but to my family, too.&nbsp; Isn't that nice?&nbsp; A movie you can recommend to pretty much everybody?&nbsp;  
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+	 
+      Well, here's one of those movies I've been told was good by several people, but just got around to actually watching it. &nbsp; I didn't know anything about this before watching and was pleasantly surprised to see three actors:  urlLink Chloë Sevigny ,  urlLink Peter Sarsgaard ,  urlLink Hank Azaria .&nbsp; Now these are some people I've seen before and definately enjoy their work.&nbsp; Wonderful performances by all three. &nbsp; I'm usually a sucker for what I call "real" movies.&nbsp; These would include titles such as  urlLink American Beauty (1999) ,  urlLink American History X (1998) ,  urlLink American Splendor (2003) ,  urlLink 25th Hour (2002) , and  urlLink Blow (2001) .&nbsp; This had many of those "real" movie qualities partly because it was based on something that really happened.&nbsp; They even used some real names, places, dates, etc.&nbsp; It's about a journalist who ends up doctoring/lying about some stories just to make them interesting.&nbsp; Now this has definately happened before, but this guy wrote for one of the most prestigious magazines in the country so that kind of makes it all the more inflamatory/important/newsworthy. &nbsp; I think the acting is what stood out here the most as opposed to scenery or cinematography or whatever.&nbsp; I really enjoyed the performances by Peter Sarsgaard and Chloë Sevigny the most.&nbsp; If you enjoy dramas and enjoy movies that maybe make you think a little bit, I'd definately suggest giving this one a whirl. 
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+	 
+      Let me preface this post by saying that I really do enjoy Will Farrell.   That said, I wasn't too impressed with his newest "artistic" endeavor, though it was entertaining at times.  We saw it at a drive-in last night - the place was 50's style with all kinds of wholesome ads for the concessions.  It even had Merry Melodies before the movies!  The atmosphere didn't lend itself all that well to Anchorman's humor, though.  It was an odd clash of family values and dick-and-fart jokes.     This movie would have made a *fabulous* SNL skit, but as a movie it was just too much.  Or... maybe it was just too little.  There were some pretty funny scenes - a oldschool-SNL-reunion ambush/gang fight comes to mind.  And who doesn't enjoy seeing a one-kick-dog getting punted off a bridge?     I enjoyed this movie, in a laughing-at-not-with kind of sense - kind of like I enjoyed silly movies like " urlLink a Night at the Roxbury " or " urlLink the Lawnmower Man ".     Anchorman was a confusing mix of skit-like scenes and forced plot development, and was host to some REALLY bad acting.  I'm not a fan of Christina Applegate, but for about 30 seconds you think that she's going to be classy...  About five minutes later, though, you realize that she really *has* been typecast into trashy roles, and I'm not going to dispute the typecasting.  =)  So, that's really it.  The movie didn't even start until 11, and I'd driven about 600 miles before I watched it.  I didn't like it anywhere near as much as I expected I would.  Any of you seen it? 
+    
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+	 
+      Tonight I went to Blockbuster and used my rent one get one free coupon.&nbsp; One of those movies I picked up was  urlLink Poolhall Junkies .&nbsp; I remember seeing previews for this and thought it looked awesome cause  urlLink Christopher Walken  was in it.&nbsp; It's definately worth a dollar rental, probably even more.&nbsp;  urlLink Gregory 'Mars' Martin &nbsp;played a big brother that had to play some pool to make money and get back at his arch-nemesis to save his brother from getting pounded for a gambling debt.&nbsp; The amazing thing was that Mars looked, talked, and acted like a possible young Christopher Walken.&nbsp; I was impressed.&nbsp; One of my favorite parts was Walken giving a speech about a lion that sits around and lets the hyenas and jackals pick at him until they get in close enough for the lion to go nuts and show them who's boss.&nbsp; I'd quote it, but I'd have to throw the movie in again and it's more like a short story than a quote.&nbsp; Well you got another great performance from Walken, some good one liners and average to decent acting.&nbsp; This movie really seemed like something a 'young' director put together with some potential to do much better.&nbsp; I think this is Martin's 2nd film and it'll be interesting to see what he comes out with in the future.   
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+	 
+      I just watched  The Cell  for the first time.&nbsp; It's one of those movies I've been meaning to see, but just haven't ever gotten around to it.&nbsp; Until tonight.&nbsp; I decided at work today that I needed to see some more Vince Vaughn movies, so I rented a couple from Blockbuster. &nbsp; Very interesting movie,  The Cell. &nbsp; It was disturbing.&nbsp; I had planned to eat my dinner while I was watching, but that didn't go over very well.&nbsp; Overall, I liked it.&nbsp; Vincent D'Onofrio is really scary.&nbsp; Jennifer Lopez is one of those people I alternately like and dislike.&nbsp; I liked her in this.&nbsp;  &nbsp; Did this movie win any Academy Awards for make-up or costuming?&nbsp; Because that was the most amazing thing about the movie, I think.&nbsp; The acting was pretty amazing, the directing was great, and the artistic direction was spectacular.&nbsp;  &nbsp; My dreams are often inspired by the movies I've seen lately.&nbsp; I have a feeling I might have some creepy dreams tonight. &nbsp; 
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+	 
+      Yo Neville, Liz, and Tara.&nbsp; What do you guys think of this idea?&nbsp; Good? Bad? What about the name?&nbsp; I put that on there before I invited you guys to share this with me.&nbsp; I'm up for any changes you'd want to make.&nbsp; Is there anybody else I should invite?&nbsp; Feel free to give lots of feedback, just no threats on my life please. 
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+	 
+      Well, watched half of  urlLink Bottle Rocket  today during lunch.  It's a really funny movie if you're in the mood for it.  I say that because I've not been in the mood for this particular movie in the past.  It stars  urlLink Luke  and  urlLink Owen  Wilson...quite a dynamic duo...it's like they grew up together or something.  I really love how Owen's character, Didgnan, is so intense about everything and socially inept.  Then you have Bob, played by  urlLink Robert Musgrave  and Mr. Henry played by the ever popular  urlLink James Caan .  This is another movie from  urlLink Wes Anderson  who's done  urlLink Rushmore  and  urlLink Royal Tennenbaums .  The Wilson brothers and a couple of friends are trying to pull a heist to impress Mr. Henry and basically everything goes wrong.  This isn't a stupid-funny or cheesy comedy though.  It's the sort of smart-humor that can be found in a movie like  urlLink Napoleon Dynamite .  
+    
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+	 
+      Saw  Runaway Jury  with Joe and Cheryl and Jim (a.k.a Superjew from the Springs) and his very pregnant wife Nichole. I'm not exactly sure how much I liked it yet. There were definitely some cool aspects to it like John Cusack  not  in a  High Fidelity - Grosse Pointe Blank - Say Anything  role (even though I own and enjoy all 3), Gene Hackman, Dustin Hoffman and Rachel Weisz, interesting plot, etc.  Some things I didn't really like was how the movie kinda advocated that gun companies are responsible for the violence that people act out with them. I'm sure many people disagree with me on this, as I so easily found out being at Taylor, but I really don't see the logic in that. Being a gun owner, I know that it takes a finger to pull the trigger. The gun is just a tool. More people die every year car related incidents then gun related incidents. So why don't people get 'up-in-arms' (pun intended) over crappy drivers all the time and sue the car companies? Ok, I'll get off my soapbox.  This movie was a decent court-room drama sort of thing that was a bit suspenseful and contained a few twist sorta things. If you're a Cusack fan I'd definitely recommend this - especially if you enjoyed seeing him branch out in  Identity.    
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+	 
+      People say that talking about this movie too much will ruin the surprise for people. I didn't find there was much of a surprise, but that doesn't mean I didn't like it.  In fact, I liked it a lot.  I would not say it's as wholly entertaining or surprising as  The Sixth Sense , but it's more intelligent. It's a movie to think and talk about.  Everybody does a great job.  urlLink Joaquin  Phoenix,  urlLink Adrien  Brody, and  urlLink Bryce  Dallas Howard were the most important characters and the best performances in movie. Finally, Adrien's in another good movie. It's about time.  People are freaking out over the fact that this movie doesn't turn out to be a typical monster movie. Who wants to see the same movie over and over again? This is going to be one of those movies that divides people into the love it or hate it camp. I'm in the love it camp.  M.  urlLink Night  Shyamalan is a good director. The unusual decisions he made in this movie -- shots from far away, extended and uncut close-ups, etc -- all helped give  The Village  a unique and distinct feel. Yay for Night. I hope he continues to do well. 
+    
+</post>
+
+
+</Blog>

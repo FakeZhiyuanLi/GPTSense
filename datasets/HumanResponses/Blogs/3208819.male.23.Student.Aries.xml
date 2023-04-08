@@ -1,0 +1,342 @@
+<Blog>
+
+<date>25,July,2004</date>
+<post>
+
+	 
+      Welcome to your first lesson in GTK. In this lesson, we'll learn to make a simple program that displays the "Hello World" message.  
+    
+</post>
+
+
+<date>24,May,2004</date>
+<post>
+
+
+       
+      Have you ever passed a member function to the Win32 API and wondered why the compiler kept bailing out on you? Well I did. D'oh! I really need to brush up on my C++ skills :(.  Apparently, non-static member functions have a secret  this  parameter which make them incompatible with the function signature required by Win32 callbacks.  This is set right by changing the function definition from  void FooBar  to  static FooBar .  Now I need a graceful way of resolving   error C2597: illegal reference to data member 'CNetDocDlg::alldevs' in a static member function  
+     
+
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+
+       
+       You fly around in planes That bring you down To meet me who loves you Likely crash into the ground   (Mr Writer - Stereophonics)  
+     
+
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+
+       
+      I finally got around to updating my resume. I also converted it to LaTeX. For all you Latex people out there, here are a few good links:   urlLink MikTeX - a Windows implementation of LaTeX    urlLink WinShell - A really nice TeX editor for Windows    urlLink How to make a compact beautiful PostScript or PDF file from a TeX file   
+     
+
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+
+       
+       #!/usr/bin/perl # AutoTagger-Perl v0.1a (June 26, 2004) # Pravin [pravinp at gmail dot com] # This snippet illustrates automatic tagging of  # http://www.tag-board.com tag boards  use HTTP::Request::Common; use LWP::UserAgent;  # Enter your details here my $myname = 'wyrm'; my $myurl = 'http://wyrmspace.blogspot.com'; my $mymessage = 'Test Message';  # Add taggy names to this list my @taggylist = ( 	"oh_its_dee", 	"me_reiya", 	"Vighy", 	"rrighton");  # Code Starts $ua = LWP::UserAgent->new(); foreach (@taggylist) { 	print "$_\t"; 	$ua->request(POST 'http://www.tag-board.com/add.tag',  		[name => $_,  		tagname => $myname,  		tagurl =>$myurl,  		message => $mymessage]); 	print "done\n"; } 
+     
+
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+
+       
+      To increase my milk intake, my mumma got me a new milk cup. It has a picture of two guys dancing and holding hands. Yeah, like *that* helps!
+     
+
+    
+</post>
+
+<date>31,July,2004</date>
+<post>
+
+
+       
+      This is a good site for web programming and learning HTTP and CGI developer-level stuff:   urlLink http://www.pasteur.fr/formation/infobio/web/cours/ch01.html  
+     
+
+    
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+
+       
+      It appears  urlLink slashdot  has been DoSed. I have been getting a 503 error for about 5 minutes now.  
+     
+
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+
+       
+      On linux, run  modprobe ide-cd  as root to plug-n-play an external cd-rom drive.
+     
+
+    
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+
+       
+       Lifted off the net &gt;&gt;   Go to  /usr/share/apps/switchdesk  and you will find files like Xclients.gnome, Xclients.kde so make a file for your chosen window manager and make it excutable. As for the contents of the  file, keep it similar to other Xclients.xxx   And now edit the file:   /etc/X11/xdm/Xsession   and check out the section that calls window managers and add a entry for your chosen window manager. As you will see this file actually calls  /usr/share/apps/switchdesk/Xclients.xxx    And now go to the directory  /etc/X11/gdm/Session  and create a new file having name of your Window Manager and for the contents of this file. You will find files like GNOME, KDE in the directory so keep the contents of the new file similar to those files, and make it executable.   And now simply restart gdm with command:   #gdm-restart   Another good source is  urlLink http://www.networksynapse.net/gdm.html 
+     
+
+    
+</post>
+
+<date>05,July,2004</date>
+<post>
+
+
+       
+       #include &lt;stdio.h&gt;  int main() { 	float uptime, idletime; 	char tmp; 	FILE *f = fopen ("/proc/uptime","r");  	if (!f) 	{ 		printf ("unable to open file"); 		return 1; 	} 	 	fscanf (f,"%f %f",&uptime,&idletime);  	printf ("ratio of idle time to cpu time = %f",  		idletime/uptime); 	fclose (f); 	return 0; } 
+     
+
+    
+</post>
+
+<date>03,July,2004</date>
+<post>
+
+
+       
+         Xfce is a really cool Desktop environment for Linux. Its really light on resources compared to Gnome and Kde, and just as pretty.   Installation I tried doing an rpm install. I guess a tool like  apt  would've made it a lot easier. After downloading 23 rpms, I realized that I was missing a few files. They turned out to be headers with the  .hdr  extention. I found these files in the header directory, but had *no* idea what to do with them.  But then I had also started a parallel download of the source files. And instead of going through help forums, I opted to do a source compile. This is my compiling order:   libxfce4util  libxfcegui4  libxfce4mcs  xfce-mcs-manager  dbh   xfce4-panel  gtk-xfce-engine  xfce4-systray  xfdesktop   xfce-mcs-plugins  xfce4-themes  xfce4-iconbox  xfce4-mixer   xfce4-toys  xfce4-trigger-launcher  xffm  xffm-icons   xfprint  xfwm4  xfwm4-themes    Note  ldconfig:   To add the path  /usr/local/lib  to ldconfig, append it to  /etc/ld.co.conf  and then run ldconfig.
+     
+
+    
+</post>
+
+
+<date>29,May,2004</date>
+<post>
+
+       
+      I read parts from Douglas Adams' books fairly regularly even though I have read most of his books several times over. I frequently come across stuff that I somehow did not pay adequate attention to. Today, I came across this:  Everybody has their moment of great opportunity in life. If you happen to miss the one you care about, then everything else in life becomes eerily easy.  - Douglas Adams (Mostly Harmless)  I think I missed this one because it had an SEP field around it ;-)
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+       
+      Guess you must have heard about Chetan Bhagat's book 'Five Point Someone'. The book is the story of IIT from the insider's perspective. Chetan is IIT Delhi and IIM A passout. The book was launched in Bangalore over the weekend. Do check out  urlLink a review .   Disclaimer: I don't have any vested interest in the book and I haven't read it myself. However, I have heard rave reviews from friends, so thought of recommending it to you guys, before I go and pick up a copy for myself.
+     
+    
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+       
+      So, I have finally managed to let go of my lethargy and shift bag and baggage to Blogger. I am testing if the team-blog thingie works properly and then I'll invite all the guys listed on the previous site to join the team.
+     
+    
+</post>
+
+<date>30,June,2004</date>
+<post>
+
+       
+         urlLink      I'm Joey Tribbiani from Friends!   urlLink Take the Friends Quiz here.   created by  urlLink     urlLink stomps  .        urlLink  --MY BLOG--   
+     
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+       
+      Hey people,  Something really good for the   About Me   section ::    Let me introduce myself, I'm a social disease I've come for your wealth leave you on your knees No time for feeling sorry, I got here on my own I won't ask for mercy, I choose to walk alone  What's yours is mine and what's mine is mine too If you shake my hand better count your fingers    Courtesy --  urlLink Dream Theater.     urlLink --My Blog--  
+     
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+       
+      Rated: R ( For use of strong language.)  Don’t read any further in this post if you are a goody-good kitsch asshole. I have posted many others for people like you but this one goes out as homage to  urlLink Holden Caulfield .  If you are reading this then you probably know what a blog is and in all likelihood you'll have one of your own. You often wonder that why your blog isn't as popular as some of the other pretentious bastards on the net who have got nothing else to do but brag about their stupid mundane life or voice their opinions about things that they can do nothing about. Then why do you do it? The simplest reason for this is the fact that as humans you are craving for attention and have a belief that you are the centre of the universe. You give too much importance to yourselves. You are part of a generation that has been raised by television commercials to run after things which do not make much sense but are a status symbol in the society. The whole fuss about a 1 GB GMAIL account all over the tech savvy community proves it.  I know that you are lying if you say you never wished for a GMAIL account. In all probability you would have mailed your friends for it, contacted complete strangers requesting for it, posted petitions on various blogs, yahoo groups and orkut communities. Just look inside and try to answer to yourself,   "Why do I need a 1 GB email account? "  I doubt that the most common answer will be something other than  status symbol .  Why is it that you can’t accept the harsh realities of life? Why is it that you are always looking for other people to approve your actions? Why do you  give a fuck  to what other people say about you?  I reread this post and changed all the  WE s and  I s to  YOU s so that it makes a better impact. I am also a part of the same ostentatious world you live in and think like you do. And if there are some people who are still looking for GMAIL invites, mail me your full name and email address, I have got 5 left.   urlLink My Blog  
+     
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+       
+      I know that by now they have lost their enigma, anyhow I have got 5 Gmail invites. If anyone still needs them, mail me your full name and email address at ravihanda@gmail.com. yahoo is creating some trouble with Gmail invites by sending them in BulkMail folder or treating them as Spam so i request you to give a non-yahoo email address. Edited -- They are all over  urlLink  My Blog  
+     
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+       
+      the little red devils come marching upon me to take my body and claim my soul they know no limits, know no boundary they just march in to eat me whole  they march right in when i am sleeping they have no god apart from need from every crevice they come out creeping feeding on death, their only creed  they're everywhere the eye can see inside my room, upon my bed they crawl on my skin full of glee they even crawl inside my head  i cannot run, i cannot hide cornered thus, i have to fight they hurt me hard,they wound my pride crushing my soul with all their might  they have their fill,they take the spoils they leave me hurt, in deepest sorrow i make a resolve, my anger boils i'll kill those goddamned ants tomorrow!!!   this poem was inspired by an attack of red ants in my room(which hasn't been cleaned for ages and is fertile ground for wildlife activity!!!) which left me red-patched and itchy all over... 
+     
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+       
+       urlLink Al Pacino  once said in an interview, “You are as good as your last movie.” and I think the same concept can be applied to blogs too. If I create the profile of an average visitor to this blog it would be a 20-25 year old male, probably IITian, who never really had an actual opportunity to be in love. The question that I want to raise now is  “Is there hope?”  Frankly speaking, I don’t think so.    Love  , in my opinion, requires a certain amount of stupidity to become a real success. As the time passes by we become mature and finally reach an age when we judge everything rationally. The loss of   rational   is an extremely necessary prerequisite for love. Considering my personal case, which I presume is of majority of the readers, I was busy with studies in my high school years and I never looked so good that females would drop as I passed by. I had neither the time nor the inclination for the incidental fling in those years and never had the opportunity once I was out of high school. Spending four or five years in a college where the boy : girl ratio is 20 : 1, its human to give up on love. But, I don’t think that even after I pass out from here, I will have the chance to look for my soul mate. I know that I am not  urlLink Richard Bach  who could abandon everything and leave in search for true love. This happens only in books like  urlLink “The Bridge Across Forever”  or some Yash Chopra movie. Two years from now, most probably, I would be doing a 9 in the morning to 10 in the night job at a software firm which would not leave me any time other than weekends. Finding a girl in that time would be extremely hard as, lets face it, I would be out partying with my guy friends.   I remember Tim Robbins in  urlLink The Shawshank Redemption  when he said, “Hope is a good thing, maybe the best of things, and no good thing ever dies.” Well, Mr. Robbins mine is taking its few last breaths. 
+     
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+       
+      I just found a site called  urlLink  GMail Swap  . Their tagline says  Because people are nice .  And there was another one that talked about a chain of free GMail invites. Their tagline was  Pay It Forward .  Now,  Pay It Forward  is one of my favourite movies. So, I've decided to be nice and give away the 3 Gmail invites I have for free. The only condition being that you do the same when you get those free invites.  Of course, I have no way of ensuring that you will actually send those invites for free, but I will trust you.  Because people are nice.  Leave a comment here with your e-mail address and name. The first 3 will get the invites. And more when I get more invites to send out.  [ Edited on June 21 ]  I have got more invites now. Send in your request as a comment on this post with  Full Name  and  e-mail id .
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+       
+      Considering that this blog has been mostly dormant, apart from serving as a list of links to some great blogs of course (which in itself is no mean deed), I thought of starting a discussion (hoping to start at least). I posted this at my blog a couple of days back, and had a decent enough response. Let's see how you guys react.  --------------------------------   I came across  urlLink this  article by Tavleen Singh via  urlLink Wonderbug's blog .  Moreover,  urlLink her last post  also got me thinking, or rather thinking again, on this topic. I left a long comment too at her post. Funny how some issues never get redundant!   Now I am not a very devout Hindu by any long shot. I never go to temples, attend  poojas  once in a while only because my parents stress on it (which they rarely ever do). In fact, I have often thought of converting to some other religion, most likely Islam, just to see if it makes the slightest bit of difference to me. But that doesn't mean that I am not aware of my history and heritage. I know more about my religion, and my caste than most people I have come across. I also take avid interest in reading up on the history and evolution of other religions. And all this has taught me one thing - many of us give a hell of a lot of importance to something as personal as one's religion and beliefs, more than what is sanely necessary. This is what politicians, most of them at least, make full use of.   I am not apologetic about being a Hindu. Just as I am not apologetic about being an Indian, Bihari, 22-year old, male, human being. I was born into it, and it is what I make of it, not what some ignorant western journalist projects it to be. That is why, it really offends me to my core when I hear the word 'Hindu' being mentioned in the media as something with orthodox, millitant, intolerant, despicable connotations. And that happens quite a lot to have missed your senses. I really don't care much about what BBC or CNN thinks of Hindus, which translates to a majority of Indians, apart from the fact that these are also inadvertently shaping the average foreigner's opinion about me. This is not very different form the picture that Hollywood portrayed of India as a land of loin-cloth clad, snake-charming, elephant-riding, mantras-chanting, black magic-practising, Kali-worshipping, idiots, for a very long time. But, what takes my goose is that even our own politicians are misusing 'secular' to mean 'anti-Hindu'.  BJP's been branded a Hindu nationalist party for eternity. There are people, and a substantial number at that, who might be dangerous to the idea of 'secularism', but there are saner people too, who just happen to be simply proud of being Hindus. It will be very naive on our part if we just get blinded by the media hype, and utterances by 'secular' parties' leaders, to believe that every single BJP worker is sharpening his knife to stab the next innocent minority community member that passes by. Come on, let's use our brains too, for once. Respect for another person is not possible in the true sense if you don't respect your own self. Similarly, you can't really respect another man's religion unless you respect your own religion too.  Actually, there are too many aspects to this and with all the thoughts erupting in my mind, I am afraid I might lose coherence. Any person with a basic sense of logic, an average memory, and some knowledge of our recent history can judge that no party today in our polity is really secular. There are some persons in every party who are, others who aren't. And so, judging an entire political party that is made up of so many brilliant individuals with their own individual traits and personalities as non-secular and fundamentalist smacks of ignorance. I could go on and on talking about the 'secular' credentials of other parties, but I am sure we are all knowledgable people here, and are already aware. The point is that public memory, as they say, is very short and very soon Gujarat riots would be forgotten. Just as Delhi re-elected Sajjan Kumar and Jagdish Tytler. Political parties, and the public, don't really care about how many people died in the riots, or who perpetrated them. Right now Gujarat is being cited by BJP baiters because it's fresh in our memory, fresh enough to extract political gains.  So to sum up there are two points that I want people to consider seriously. One, don't judge any party on the basis of whether it is secular or not, as none truly is. Two, and more importantly, don't get influenced by the media, and start believing that every thing Hindu is bad. Most of it is not. As with any religion. And that is my interpretation of Hindutva.  
+     
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+       
+      Have you ever been to Dalhousie? I plan to go there over the coming weekend. If you have been there and can give me some fundaes (we can never give up IIT lingo, can we?).. that would be great!  What are the places around that one can see? I've checked a few things on the net, but a first-hand idea would probably be better.  Anyone in Delhi willing to take a break and visit Dalhousie?
+     
+    
+</post>
+
+<date>02,June,2004</date>
+<post>
+
+       
+      These IIT blogs are good fun. I am slowly getting pretty addicted to reading them on a regular basis. It gives me enthu to blog as well. Though, I am guessing, I am a little over the hill for blogging (seems like the average age of the blogger is below 25).  Also, seems like the Tag board/Doodle board is a permanent fixture on most blogs. Am wondering if anyone knows the approx % of current students in IIT who blog? Are they from a specific insti, dept, hostel etc. Or is the phenomena widespread?   Also all you bloggers beware. NY Times is calling it a  urlLink serious addiction  :)  On another note, We have a feature which provides a script that allows bloggers to recommend favorites.  You can check it out here:   urlLink AiYo favorites   Sorry for the shameless self-promotional plug... But thought that it was relevant to blogging and may even be fun for ppl. 
+     
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+       
+      I was always branded as a pseudo-hostelite. Truth is, I went home only to watch TV, play on the comp, and more importantly: do the laundry. What that little two days spent at home afforded in terms of reducing home-sickness is just trivial. I hardly ever got homesick during the 4 year period, inspite of once staying a month in the hostel during a difficult period of end-sem exams. Thus, while I may not get classified as a true "Hostelite" as I had only stayed on an average 5 days a week in the hostel, it did give me a good perspective on what hostel-life is all about.  My original hostel had been, as mentioned before: Mandakini. But as the leaf turned over, it so happened that not enough seniors left in order to accomodate all the incoming juniors. So some had to invariably shift. That some included me. I was transferred, or rather, asked to be transferred to Alakananda Hostel, where there was a larger proportion of Chennai-ities and a larger proportion of branch-mates in my batch. Was it a change for the better. I suppose it was.   I still remember:   The long nite-outs, spent many times farting (meaningless gossiping, NOT creating an atmosphere of noxius air and pungent smells), discussing events, rumors, anecdotes, stories, news, books, academics, silly profs and their sillier actions and their silliest method of teaching courses; spent sometimes studying for exams; spent many times gaming; and finally spent doing nothing but watching movies.    The sometimes early morning rides I undertook with friends to the nearby Beasant Nagar beach to enjoy the morning sun, and sometimes a cool walk.   The afternoons spent crashing heavily, until someone with some sense decided to wake us up so that he could have company to go the mess for tea.   The evenings sometimes spent playing games, sometimes swimming, sometimes reading books (some new book always found the way into the wingmates - new books ready to be read, reviewed, criticised and then shamelessly passed on).   The messing around in the mess, noon and nites, eating food aka  grub  (though it could hardly be classified as one) with a heavy heart, discussing abject subjects with an even abject interest. Fussy Lucky ones managed to stay out of the circle of hostel messes completely, feeding solely on the snack crumbs at the nearby bakery in the evenings and a regular "Garden restaurant" in the nite and once again, in the late-nite. The availability of ice-creams in the messes and the opening of a Dhaba really spiced up the last year of hostel-stay.  That was completely offset by the innumerable treats that were given (and shamelessly taken too) in multifarious restaurants around the city. Popular ones being the Sangeetha and Shakes & Creams in Adyar, Residency, Dhaba Express in Beasant Nagar to name a few.  I also contributed by bringing grub from my house which relatives pretentiously left at my place thinking that I lived in a out-of-civilisation tribal area. Grub that included tasty namkeens, washed out chips, cakes, pastries, and some traditional sweets. I just assumed that it was in their best interests. But that did help me in me becoming more popular among the guys because I got good food to offset the measly hostel grub.   The Eating Out that sometimes formed a part of End-Sem completion celebrations, mostly observed by dipping bodily into the waters of the Bay of Bengal, frolicking in the sand and consummated finally by cosuming food at nearby restaurants.   While all this seemed rosy, there were quite a few disadvantages of staying in hostels, especially at IIT Madras; a scenario quite not possible in other IIT's. Problem: Lack of water. The lack of water which coerced hostel management to get water supply through tankers, which effected the release of water daily to be limited to a period of 2 hours: one in the morning and one in the evening, forcing the billigerant hostelites to catch water every nite so that water would be available in the morning to atleast brush teeth and "Do the Loo", and if possible, take bath, or better yet, stay bath-free for a week. THANK GOD for Deoderants. This total water scarcity which had forced compression of more than two semesters (from 5 day week to 6 day week so that the sem would close 3 weeks earlier) also caused the non-washing of the BOGS (Bathroom Of Graduate Students, as we always called 'em) resulting in toilets so dirty for weeks that we would have gladly used the public corporation toilets.   Another "Unique" problem to IIT hostels: Monkeys. Actually: the common  langur . Initial observation brands them as:  " Oh, Look at it. Its so cute nibbling on that leaf." "Wow. Look there. Its so cuddly." "Hey. There is one grooming the other. Can there be anything sweeter?".  Bull s**t. One week of stay in the hostel is enough to change anybody to gun-toting, shotgun riding, ready-to-shoot-any-monkey mood. One week. Thats all it takes.  My first experience with them: First year. I brought a huge load of home-made namkeens and a cake from house. While going to the afternoon session of class, the window was left open by mistake. Come evening. I open the door the a nite-mare. Namkeen spilt and spread all over the floor. Mineral-water-in-a-can tipped over, gurgling slowly, wetting and softening everything. And to complete the party celeberations, columns of red ants that decided to do the cleaning work.  Ended up spending the whole evening cleaning the mess. Come every afternoon, there is a monkey raid. Apart from tipping over garbage bins and making the corridors dirty, they surreptitiously enter the rooms, make everything dirty, untidy, and untouchable and sometimes entertain us by "making babies". Thw worst part was, just after the BOGS are cleaned, they come over, spoil and soil everything, leave the taps running (wasting the little water that was available for bathing) and sometimes scare innocent hostelmates doing their loo. Argh. I still hate em. All this apart, life in hostel was fun, inspite of not having even LAN among the rooms. I must say that the magic of staying in hostels completely took me by surprise. A feeling that shud, rather, ought to be enjoyed by anybody who joins this institution.
+     
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+       
+      I admit. Academics in college IS different from that of a school. But what I didnt expect when I took that leap from school to college is the total stark change in the method of teaching, the system of academics and the intricacies of college education.   First Day. Monday morning (Why does it always have to be a Mon Day?) Me. Cycling furiously in sweltering weather towards the distant classes. (On retrospection, the distance seems to have reduced as the years passed by.) Reaching the Class Room Complex. Confused as to where to go. Asking equally, if not more, confused students where to go. (Remember the dis-orienting orientation?) First class: Material Sciences. 100 (equally?-)brite students jotting down seriously and sincerely the syllabus, books, prof's names, email id's and room no's followed by the heaving at the overwhelming enormousness of the entire thing, the quizzes, the mid-term exams, the end-sems, the assignments.   Days passed. Courses passed. Snickering remarks behind the back of bad profs, didnt-know-what-they-were-teaching profs, pedantic profs, passed. Exams passed. Assignments successfully passed. End semesters successfully passed.  Waiting anxiously for grades, passed. And then the whole routine, again. Over and over again. 7 more times. The only thing changing: more courses, more tougher courses, more assignments, more difficult exams; and the added project work in the last sem.   Typical first year problems faced by me and everybody, fazed me and everybody. A course called ID110, Engineering Design Principles, which involved the brains to sow their engineering skills into practical problems: like measuring the length of a 2km long road, without surveying instruments; like measuring the height of a water tower, using trignometry: like developing a cantilever out of broomstik and have the maximum weight held/cantilever weight, (Mine came third at 500gm/8gm) did kindle the interest of all students. An interest which was never rekindled afterwards. A course called Engineering drawing. Memories revived everyday by seeing juniors hurrying to classes in their huge drafters, and the even larger chart boxes. It was quite a fun course. 3 hour long sessions of drawing, followed by even more furious rubbing, moving scales around, asking the girls innocently as to what to do next, inspite of having finished it already. The AutoCAD sessions really spiced my day. They made the job of Engineering drawing much more easier. (The S grades I had got in both the Drawing courses did help buoy my spirits).   The dreaded workshop. Especially the fitting workshop. 3 hour workshop Heads made us 3 (sometimes 4) hour drones, shafing the file mindlessly over a stupid iron piece which wouldnt care less if it werent filed and then, miraculously increased in size. The files, with equally ridiculous names, only job was to file away our hands, leaving way to blisters and torn skin to take over the pain that resided for the next week.   For the not so lucky: NCC. A dreaded 3 letter 4 hour gruelling session, that dragged us every weekend day early in the morning, for 20 days a year. Wasting most of the energy saved from eating the thimble sized morsels at the hostel mess into stomping the ground in torn, but yet, still hard boots under a hot sweltering sun; the only consolation being a small creamless cake and a hot puff, which, most of the time went to the mouth of a more hungry dog that promptly and punctiliously came to every NCC session. The 20 day "compulsory" "camp" conducted in one of the hostels was perhaps the last straw.   Somehow, the last 4 years have passed by. 'N' nerve-wracking nite-outs doing assignments, mugging for exams, doing project work. I persevered. I didnt give up, unlike the exceptionally some who did. I survived.  Academically, I was, perhaps, successful. I can't say otherwise. So many other things I had wanted to do, yet couldnt...   Next Post: Hostel Life.  To be continued... 
+     
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+       
+      This is a first of a series of posts: posts which are a conglameration of memories of my college-years, which just got terminated recently. Memories, triggered by the Invitation to my Convocation, signifying the end of all ties with my college, and the recent counselling sessions, the beginnning of any student's entry into IIT.  Besides, these are memories that should be closely treasured by, before they all  Just. Wither. Away. So incoming, a collexion of the recollexion of memories, anecdotes, interesting bits and memorabilia, that just go to make up my college life.    Down the Memory Lane, Part I    I still remember the very first trip I had made into IIT, just to see the rank I had got. Even though it was posted at the entrance, and even though I did not go more than 10 meters into the campus, it just got me a whole lot closer to the dream I had had since my 10th.   I still remember the counselling sessions (mine was on the first day itself) , where we had to choose the branch and the IIT where we had to go. The last minute decision (it was, infact, exactly the last minute) to bump up Mechanical @  IIT Madras  over Electrical @  IIT Kharagpur  made me what I am today. The thought that  my blog  mite not even have existed does put a bit of fear. I am happy now that things have headed in a good direction.   I still remember the orientation function afterwards. In my mind, as in everybody else's, it was as dis-orienting as possible. The seniors (including girls, or non-males, as everybody refers to) giggling from the floors above, sneering at the next victims that they could pounce upon as soon as we entered the hostels did not present a pleasant site.   I still remember the day I moved into the hostel - Mandakini, to be exact, on the eve of the day before the classes started. We were bunched up, three in a room (designed for two). It was often said by returning alumni, that the one thing they would remember after leaving IIT, is their hostel room numbers, which almost becomes engraved in one's mind. I cannot just put it in any other better way. Mine was 368 A, the 'A' signifying that I was the first in that room; the other two being a Northie guy in Electrical, and then luckily, a Tam guy in Metallurgical, who had come to the same JEE coaching classes with me. Consolation for me.  Sudhon  was in the same hostel, 4 rooms from mine.   I still remember the first time I got ragged. A group of quite note-worthy seniors caught me just as my parents left me and then asked me to do some quite wierd stuff. I got through, and IT was quite a mental hell for me. Then on, the decision never to rag others stuck to my mind.   I still remember the first food that I had had at the mess. While, to some, it did cause allergic reactions, constipations, and some vomitting even, I could just manage it. Physically, I could not find anything wrong with it. Apart from the insects, beetles and spiders which occasionally find its way into the huge buckets of sambar, rasam, equally huge vessels competing for size for rice and curry and the dinner plates, or the water that would have made sea water taste like mineral water, there was nothing wrong with it. It was just plain boring, and not tasty either. But, it was just food. And a man needs to eat. I soon ended up competing for the lowest mess bill that month, by not eating any of the extra stuff provided with the basic food (like cool drinks for a hot afternoon, vegetable kurmas, egg curry, puffs and samosas to accompany tea, ice-creams during dinner...). One thing I am glad about is the fact that eating in the mess, immunises anyone against any food and water borne diseases in the future - that ocould come in quite handy.    To be continued...  Next Post: College academics.
+     
+    
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+       
+      One of my friends Swaminathan B. has joined IIM Lucknow this semester and here is a mail that he wrote to me:  For reference, Khebus and Venkis are KGPian suppliers for booze.   ANDOLAN HOKE RAHEGA !!!!! JAI KHEBUS !! JAI VENKIES !!! BHALE ISKE LIYE MUJHE JAAN SABUN SE HAATH HI NA DHONA PADEY ....ANDOLAN HOKE RAHEGA !!! anyway ...yahn bahut bura haal hai ...Our orientation started on the 1st jisme case methodology etc padhaana shuru kar diye ..plus there were compulsory sessions by professors of fin,mark, etc etc ...and then the various committees here made their presentation .. it all started at 9:00 AM and went on till 2:00 AM (thats after midnight).And at the end of the day we had 3 assignments ...including an all important case submit which would be crucial for our summer placements .The agenda for the next 2 days were the same ..and I hardly get to sleep more than 3-4 hrs here per day ... I finally submitted my case yesyterday ..typed around 10 pages of a MS wrod document all on my own ... today I have to giv a group presentation at 9:30 PM and I still havent met my group members !!! Plus the info that arnd 30 odd guys are chucked out of this institute every year ...the acads rules are very stringent ..u get 2 F's or 1 F and 2 D's ..u're thrown out .. I guess I'l be joining infy soon... cheers, swami   Swami's characteristics in Kgp can be summed up with one word.. GARFIELD. So all you people thinking about belling the CAT, think again. And those who are "BEEN THERE, DONE THAT" kinds, guide us.   urlLink --My Blog-- 
+     
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+       
+      I was talking with a friend recently and these questions just popped up.   Is there something like a  Typical IITian ?  If there is, then who exactly is a  Typical IITian ?   What are the characterstics of such a person?   Let me clarify right in the beginning that JEE is  not  something that can be counted as a common  characterstic . On similar lines, living in IIT and such superficial things are out.  What I am really interested is, in finding out whether there is a concept of  Typical IITian , to which a large majority of IITians would confirm?  Personally, I find it hard to define such a thing because we IITians can be quite a difficult study.   On one hand, you have strong individualistic guys and on the other hand, there are the herd mentality guys. If that was not complicated enough, the very same people who tend to follow the herd in some aspects would turn out to be extremely individualistic in some other traits.  That was just an example. But its true for quite a lot of traits that one might be interested in looking for.  So ultimately, I find it hard to define a  Typical IITian . But a lot of people apply that description to a lot of IITians.  Throw some light people!
+     
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+       
+        Fight Club!    urlLink   What movie Do you Belong in?(many different outcomes!)     brought to you by  urlLink Quizilla   
+     
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+       
+      I must confess, I always thought  Why 42? , every time I came across it in Douglas Adams's works. And even otherwise.  It gives me great pleasure to find that Douglas Adams had answered this question:   The answer to this is very simple. It was a joke. It had to be a number, an ordinary, smallish number, and I chose that one. Binary representations, base thirteen, Tibetan monks are all complete nonsense. I sat at my desk, stared into the garden and thought '42 will do' I typed it out. End of story.   Find the relevant post  urlLink  here  .  And take a chill pill now. Rest in peace. The answer is  42 .
+     
+    
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+       
+                     An old post from my  urlLink previous  blog : Here's my new  urlLink blog                          Music, be it in any form, Indian, Western, Oriental or as crude as rythmic sound of water droplets dripping in the sink, always has a connoisseur to appreciate it. Well I am not sure how many of you share your views with me on this very special genre of music, The Public Transport Music should I call it?. In India, most of the public transport vehicles have a Cassette Player fitted in them, and a dozen of very special cassettes having songs which you would have never even heard of. Be them the Deadly City Buses of Indore, Crowded Buses of the DTC(Delhi Transport Corporation) or the Dashing Vikrams of Kanpur, they all cater this very special choice of music to you. Theres one more special thing about their cassette players, normally the speed of their rotor is very high and the songs are played on a little higher frequency, this adds to the uniqueness of these wierd songs. The lyrics are cheap and music too is not very sweet but still its good to listen to at times. Sometimes I found them really funny. Recently DTC has taken this initiative to have Radio Tuners in the CNG Rickshaws. Thats one good move atleast that RPM problem can be sorted out. I dont know how many of you have tasted this music, but if you ever get to use the of public transport in India, you will surely listen to this music. They constitute the largest consumer group of music companies like T-Series.  --- One Trailor (Hindi Only!! English cannot express it that good) ----  A typical Radiowala's voice :  Super Cassette industries aur Gulashn Kumar pesh karte hai   A crashing female voice :  Aaja*alternate echoes of male and female voice* (If you are in Kanpur you might overhear your neigbors talking wow what gr8 sound effects )   A typical Radiowala's voice :  Aaja Meri Jaan* A song starts to play somethign like Julie Julie Julie ... and the female starts to sing: Mai jal rahi hoon tere pyaar mein*   A typical Radiowala's voice :  Aur is aag ko bhujhane aa raha hai naya romantic chehra jee haan doston Kishan Kumar   A crashing female voice :  in sureele gaano ka romantic sangeet diya hai annu malik ne aur khoobsoorat geet likhe hain xyz ne  I am sure all those who can understand this would be laughing their guts out ... so were me and my friend and the poor rickshaw guy cud only managed to ask us "Bhaiya badal doon kya" 
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+       
+      A new sem began yesterday....  Well, the kind of enthu that accompanies the sort of every semester.... The nice feeling that I'm going to end up cracking all courses this sem... Resolutions to attend all classes, that in a week's time will dwindle into a struggle to keep afloat above the 75 % attendance mark...  Anyway, in this thadaal optimistic mood, I actually shook myself awake so I could attend the first class of this sem.... The female who was to handle the course is supposedly a stickler for punctuality and things like that, so me, ultra-carefully showed up some 10 minutes before class... Was nice standing and walking around in the CRC corridor, so just hung around there...  Time passed, no one showed up... At 9, 5 minutes past class time, 3 others showed up and well, waited out there without a word... We soon had more company, but not in a quantity that would really have made me happy about forgoing my sleep... Some 8-10 of us were now standing in the corridor... Anyway, at 9:20, halfway through what would have been the class, me decided to take a small detour from my stroll on the corridor and passed into the classroom...  There it was... Written on the board in large, friendly letters -  AM 566, Signal Processing, course starts Monday. No class on Thursday and Friday  
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+       
+      Going to college is a huge transition step for anybody. Including me. The entire cycle of meeting friends everyday, academics, hostel life, cultural and technical festivals are sure to come as a new experience for everybody.  What I am going to try to describe here is only a slice of that.  You have to be IN HERE to get the whole cake.   As first years, we were only headed by the (un)trusty seniors who asked us to go and cheer for the hostel in the Inter-hostel WM finals, or do some layman's job like cycling around for the clues in the Treasure Hunt or volunteer work for the Hostel Fete, etc. While all this seemed quite a bit boring (to say the list), it is what got many interested into the entire world different from what IIT's are associated with, academically. That interest did seep into me to, but after the first year, I couldn't sustain it for long. I was more inclined towards studies.  Sudhon  would be a better guide here. (Probably, I should ask him to write a bit here.   Of course, another aspect where IIT Madras was always famous for  Saarang  (Mardi Gras, for ol-timers), the biga-mega-giga culfest, and  Shaastra  - the tech fest. The first Saarang, I was unfortunate to miss (I was invited to attend the RD parade in New Delhi - at the same time). But the other three, I did put my head there. (U can read my review of the last one in the January Archives).  Saarang was always the grand conglameration of spicey events and high-voltage gigs and, of course, I admit it, a literal Baywatch. The mega quizzes which ran into the wee hours of the morning, the head-banging rock shows, the informal stalls designed to make everybody look like fools, and yet tempt them with prizes, the popular dramatics, choreo and the JAM sessions were all but Masalas in a tasty pickle. The Saarang '04 T-shirt sayings:   Bush around the beat. 	Leave no turn unstoned. 	Leaf over a new turn. 	Live a Saarang   But Saarang was much more than all of that. A quintessential thread of the  Spirit of Saarang  ran through it, which could only be realised, understood and digested, but never can be taken.   Shaastra, the tech fest, more famous for attracting geeks, and non-geeks into fellow geeks. Jus Kidding This techfest, now having recently got the ISO 9001 certificate (which means that all events started and ended on time - a stark contrast to Saarang), is but a conglobation of events tied up to represent a tech fest. I literally wanted my body in many parts so that I could attend the quizzes, the gaming arena, the lectures, the video-conferences, the workshops and many many other events. But I loved the gameodrome the best. For two Shaastras I had put nite-outs to play some of my fav-games on the LAN with eight other equally enthusiastic people. This truly unique event, I will miss a lot.   Apart from Saarang and Shaastra, we had events all year round; the points won by the teams being added to hostel points, so that, at the end of the year, it could be decided which was the best hostel. (In fact, that title was taken by my hostel after a very long time). While these were the more happier aspects of being in IITM, there are, still some placid aspects for the diffident. The innumerable runs to the Academic sections (which I still have to do), ganging up together to go to the outside world, the innumerable treats at swank hotels, the hostel nites everybody's life was turned inside out and where final farewells were given and innumerable events, episodes and debacles that go to form part of the everyday life at IIT, which are too big to describe in words, is what makes it different from other colleges. Finally, the convocation which got over the day-before, was probably the final time I would meet most of my college. Friendships forged over a long period of time, will now be strained taut with only the emails and messengers saving it. (Ironical, isn't it, as it is Friendship Day today). I will truly miss all the people whom I have had acquaintance with and felt close.   With the getting of the degree, one of the threads holding us to this honorable institution has now been cut. Only the Alumni Association, can hopefully, keep us in contact. From the first sight of IIT during my early years of life, to now, I have gone through many stages and events, but IIT WILL ALWAYS BE A PART OF MY HEART. A remembrance of who I am and what I am and how much I owe to this noble institution and the country which has it.    That concludes this Mini-series. Hope you had as much fun reading it, as I did, writing it. 
+     
+    
+</post>
+
+
+</Blog>

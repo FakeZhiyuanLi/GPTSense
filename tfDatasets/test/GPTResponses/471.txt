@@ -1,0 +1,1 @@
+The filter banks are unable to provide an optimal solution for signals with rapidly varying frequency content, as they may not be able to adapt to the changes in frequency resolution fast enough. This limitation can lead to poor time-frequency resolution and an incomplete representation of the signal.

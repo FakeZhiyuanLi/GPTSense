@@ -1,0 +1,147 @@
+<Blog>
+
+<date>27,May,2004</date>
+<post>
+
+    
+       
+      1. can be maintain some "views" for some paths to indicate the existance. for paths in tree pattern queries that do not contain the selection nodes, we only need to know the existance about the paths. 2. index-selection problem is NP-hard problems 3. when we design the fragmentation schema, do we need to consider the update problems? 4. workload model:for each query q, do we need to assign a weight w? (this paper has discussed the workload model, can be referenced)
+       
+    
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+    
+       
+      for the first problem, maybe I can think of the weighted affinity matrix. since for two paths that are visited by the same queries, there are two cases:1, they are both the answers for the same path;2, they are matched with different paths of the tree pattern queries. for these two cases, maybe we will assign differnet weight in the affinity matrix. intuitively, the case one should have higher weight.  something to think: is there any other cases need to distingush?
+       
+    
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+    
+       
+      today i have discussed with Dr Chan about the idea to fragment the document according to the workload. Dr Chan said that it seemed interesting:) so happy that I finally thought of an idea that is possible.  now there are four things which are needed to think further 1. how to use the affinity matrix to fragment the group of paths 2. how to construct the fragment schema that is space efficient 3. how to handle the duplicate elements in the fragments 4. how to efficient evaluate the tree pattern queries whose paths are in different fragments hope i can think of the approaches to handle with these problems soon
+       
+    
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+    
+       
+      today, i have formally submit my application to upgrade to ph.d. a research career will start from now on. the feeling of frustrating is normal in the research life, so do not worry, just habit to it:) everything has a difficult beginning, so do not be hurry up, do everything well step by step, do not care what other persons progress, just try your best to do your own things well.  i have read the article about how to be a good graduate student. one point i think i need to keep in mind is that when we read paper, we should think of three points. 1.Make sure the ideas described really worked (as opposed to just being theoretically valid, or tested on a few toy examples). 2.Try to get past buzzwords: they may sound good, but not mean much. Is there substance and an interesting idea underneath the jargon? 3.To really understand a paper, you have to understand the motivations for the problem posed, the choices made in finding a solution, the assumptions behind the solution, whether the assumptions are realistic and whether they can be removed without invalidating the approach, future directions for research, what was actually accomplished or implemented, the validity (or lack thereof) of the theoretical justifications or empirical demonstrations, and the potential for extending and scaling the algorithm up.
+       
+    
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+    
+       
+      1. in which scenario, fragmented XML document will outperform the single XML document as a whole 2. the workload based fragmentation strategy (already thought) 3. how to reduce the space cost for fragmented XML document (already thought) 4. how to experimentlly show the advantage of XML document fragmentation
+       
+    
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+    
+       
+      The fragmentaion problem is still not very clear for me.  Should I first think of a situation which fragmentation will be better and then consider the fragment strategy according to the situation, since different situations may require different fragment strategy? Or should I think of some fragment strategies first and then think out an application for the fragment stratety? which is better?maybe should ask for Dr Chan next time. btw: Italy is out today, i feel so sad.... tears!
+       
+    
+    
+</post>
+
+<date>04,June,2004</date>
+<post>
+
+    
+       
+      bisimulation : In theoretical computer science a bisimulation is an equivalence relation between state transition systems, associating systems which behave in the same way in the sense that one system simulates the other and vice-versa. Intuitively two systems are bisimilar if they match each other's moves. In this sense, each of the systems cannot be distinguished from the other by an observer  
+       
+    
+    
+</post>
+
+<date>01,June,2004</date>
+<post>
+
+    
+       
+      1. in a nutshell : in a few words, concisely 2. aforementioned : mentioned previously （implements the aforementioned heuristic) 3. syntactic : Of or relating to the rules of syntax          semantic: Of or relating to meaning, especially meaning in language writing tips In the last part of contributions, we can write that we perform a number of experiments to demonstrate the feasibility of our algorithms.                                                                                                                                                                                                                                                                                                                                    
+       
+    
+    
+</post>
+
+<date>01,June,2004</date>
+<post>
+
+    
+       
+      1. create a workspace for your own application 2. create a project in the application 3. copy the include folder and and lib folder to your own workspace folder which will be used in your own application 4. in msvc, select tools->options->directories, then add the include folder to the include directories 5. select the project files in the left, right click, select "add files to projects", then add the files in the lib folder to the project 6. copy the dll files to your own project folder, the dll files are always in the bin folder of the download source code
+       
+    
+    
+</post>
+
+<date>01,June,2004</date>
+<post>
+
+    
+       
+      1. irrelevant element intra-fragment parse cost 2. relevant elementt inter-fragment access cost
+       
+    
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+    
+       
+      1. new and delete should appear in pairs, when you write a new in function, please remember to write delete. If there is return in the function, please remember to delete the thing you have newed, otherwise there may be memory leak 2. to avoid the memory leak, can use the smart pointer:auto_ptr. The smart pointer can free the data to which it points whenever the pointer itself gets destroyed.  #include    void f() { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //create and initialize an auto_ptr &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; std::auto_ptr  ptr(new ClassA); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... } one thing needs to take care is that two or more auto_ptrs must not own the same object at the same time.&nbsp;&nbsp;  //reference the c++ standard library charper 4, page 41 
+       
+    
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+    
+       
+      cold cache: flushing all buffer completely before each query evaluation warm cache: a first time execution of the query is allowed to populate the buffer for subsequent warm cache executions.  
+       
+    
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+    
+       
+      at the cost of: 以....为代价 
+       
+    
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,1 @@
+In binary fission, each genome separates into daughter cells during cell division. Specifically, after the DNA has replicated and the cell has grown to twice its size, the cell membrane pinches inward and a new cell wall is formed in the center of the cell. This division results in the separation of the two newly replicated genomes into two daughter cells.

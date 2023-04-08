@@ -1,0 +1,179 @@
+<Blog>
+
+<date>25,June,2004</date>
+<post>
+
+	 
+       Today (most of) scandinavia celebrated midsummer. Which involves dancing around a green "T"-looking pole, singing about tiny frogs and eating rotten fish. My celebration was limited to eating poorly cooked ramen noodles and drinking warm coke  What is wrong with people? It's like they'll do anything as long as it is a tradition. 
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+	 
+       I own an IBM R40 laptop, and since those laptops have quite a bunch of hidden features i thought i'd share what i've discovered so far. 
+ Running GNU/Linux 
+ Kernel tips 
+ Add ACPI support if you want to be able to check available battery time. You can remove floppy support if your computer lacks one (all it does is eat memory). If you use an old kernel you need to use the e100 driver instead of eepro for Ethernet. 
+ Graphics 
+ My R40 has an ATI Mobility M6 LY, GPU which has absolutely no support anywhere. Accelerated drivers just don't exist for it. You can get the FPS to ~300 in glxgears with a bit of work if you run gentoo. You have to emerge something called "xfree-drm" and mess around with XF86Config a bit. Otherwise just use the 'ati' or 'radeon' drivers. 
+ Other unices 
+ FreeBSD 
+ You need to remove cardbus support from the kernel in order to get ethernet working in some versions of FreeBSD 
+ Sun Solaris 
+ For networking, run
+ $rem_drv iprb
+$add_drv -i pci1014,522 iprb  Will continue to add details here later 
+ Secrets 
+ Hidden and special keys 
+ 
+  Fn+F8 
+  Switch between scaled and 640x480-ish text mode 
+  
+   At boot  
+  The [access ibm]-button is really redundant. Everything you can do there you can access immediately by the function-keys 
+  
+   F1 
+   Access BIOS 
+   F12 
+   Select boot device 
+  
+  BIOS tips 
+  You can add an extra 4 Gb to your harddrive by fiddling around in the BIOS (under security IIRC). It's a hidden area called backup-something, just occupies space, unless you want to use Windows XP on the box again i'd adivse you do something better with that space. 
+ You can also have a lot of fun in the power section, increase or decrease CD speed (just a warning: having maximum CD speed kinda makes your hands go numb when typing because of the vibrations the CD reader creates :-) or disable those horrid auto-powersaves 
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+	 
+      Thought the title of the blog could use a bit of explaining. 
+
+The human mind is chaotic, it has no order and lacks consensus, your ape brain tells you to rape, pillage and murder, your conscience tells you that you can't do that. This is the very definition of  dissonance: "A harsh, disagreeable combination of sounds; discord.", yet such a good descriptor of human nature.
+
+That's what the name 'dissonance of thoughts' is striving to reflect.
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+	 
+      Will continue to describe this week. 
+
+This moment I'm listening to Kraftwerk's Computer World album whilst I'm discussing Christianity's viral nature on  urlLink Helgon.net (Swedish community for alternative people)  Another episode of Star Trek Enterprise on TV in 15 mintues ( you just can't miss that =P )
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+	 
+       Ok, here I am, roughly 5:40 pm, latest episode of star trek enterprise is on in TV 35 minutes, I'm listening to random some Miyavi-song and making a blog entry. The Ice coffee I'm drinking is slightly warm and tastes a bit funny, the weather sucks capital cohones (15C, cloudy, obnoxious moist), concurrently I'm discussing weather cockroaches would survive a global cobalt bomb holocaust with some confused 16 year old over IRC.  Pretty much like any other monday afternoon i suppose. 
+    
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+	 
+       Current popup blocking is pretty simple.   Site blocking  If the URL of the popup matches a certain server, don't open it.  Inverse site blocking  Only allow popups from a certain list of servers, this is the method that's used in  urlLink Mozilla 's built in popup blocker, the flaw with this is that some sites have both 'good' and 'bad' popups.  URL matching  If the URL of the popup matches a certain scheme, perhaps contains the word 'ad' or 'banner', don't show it. The flaw with this is that some servers use obfuscated names such as 'http://q3dn.szwd.com/qn4ngl/ah34.html'. This is used in  urlLink adblock .   But what i'd like to see is intelligent popup blocking, popup blocking that realizes that if a popup window only consists of a clickable image it's most likely nothing the user wants to see. We've already got a lot of ways of detecting unwanted spam, so why not just build a Bayesian advertising blocker?  
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+	 
+      Changed Blog title to The Foobar. I've got so much imagination that I'm a danger to humanity.
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+	 
+       For the rant, I've grown really tired of people writing stuff based on assumptions. Every POP3 client I've seen so far, with the exception of fetchmail, is based around the assumption that mails are small, so when you try to fetch a large mail they either get really sluggish or mercilessly crash.  AFAIK the POP3 RFC does not mention even once the maximum size of an e-mail. Why is it then that every client seems to think that it's some impossibility to find a 200 Mb mail in a POP3 box? My theory is that they assume that no SMTP server will allow such mails to pass, which rises another really bizarre issue. I've noticed some SMTP-servers has a habit of bouncing mails that are too large back to the sender (with the original message attached).  If the server receiving the bounced mail also has that rule, the mail would bounce back again, and be rejected again, until one of the servers run out of hard drive space or memory. 
+    
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+	 
+       Finally got around to try out Java 1.5 beta 2, and i like it =)  The details i really fell in love with is the new  for  syntax:    
+void foo(int[] bar) {
+  for(int q : bar) {
+    System.out.println(bar);
+  }
+}
+    and of course the generics and autoboxing    
+void foobar() {
+  linkedList&lt;int&gt; i = new linkedList&lt;int&gt;();
+  Integer n;
+  i.add(35);
+  i.add(27);
+  i.add(135);
+  n = i.get(2); /* NO casting at all!
+                 * Compare to 'n = (Integer)((int)i.get(2));' */
+}   The default L&F is better then Metal, but still could use some brushing up  &lt;-- is in love 
+    
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+	 
+       My continued inquieries about renewable energy have lead to the following: The social democrats of Sweden directed me to the  urlLink Renewables 2004  conference for renewable energy. Especially interesting is the  urlLink Action Program . Also got a 5 pages long monolouge of why i should vote for them - but heh, it's a political world, and every vote counts =P  Still awaiting further responses 
+    
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+	 
+      Posting a translation of the mail I sent to the Swedish department of environment, Finance and Agriculture (wasn't able to establish which department was in charge of this sort of endeavor). [previously mentioned  urlLink here ]
+
+ 
+Due to the increased recognition among oil geologists that the oil
+production soon (2-5 years, optimists say 10 years) will be unable
+to maintain the demand for oil that exists today I am wondering if there
+currently is any contingency plan for how to avoid social and economic
+collapse?  Are there any plans on implementing 
+renewable biological fuels and energy sources? (Would be kind of useful
+to have before petroleum starts costing $60 per liter) 
+
+Will post translations of their replies as i receive them. Havn't been
+able to find any email contact information for the European Union and 
+the United Nations so i've been unable to contact them =(
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+	 
+       We all have to agree that the imminent oil depletion and oil availability peak is a huge problem, however, unlike the scaremongers over at  urlLink peakoil.net / urlLink .com ,  urlLink dieoff.org  and  urlLink wolfatthedoor.co.uk  I doubt it will be our undoing.  Sure I believe that the oil peak will throw us into a 30's-like depression, but they are underestimating the human nature. We adapt, we've always done so and there is no reason why we can't do so again. It's not like we run out of steel or so, and the hubbert peak assumes that the demand for oil is static. As the oil prices increase the demand will drop, and so the oil supply will diminish slower then hubbert anticipates, and during this period people WILL work like crazy to find a replacement. In fact, if it wasn't for the oil crash in the 70's bumping renewable energy research we'd be pretty screwed now.  Recently found some pretty  urlLink interesting reading  about hemp, and it's possible usage as replacement for diesel and plastics.  urlLink Algae also seems to be an option . Well worth a read.  As a footnote i've emailed a few Swedish politicians and asked if they have any contingency plans, will post their replies here later. 
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+	 
+       Someone made a remarkably good point over at  urlLink /.org  the other day (don't remember where) that software piracy may actually benefit the proprietary software industry. I mean, think about it, if nobody was able to download illegal windows copies, would they still pay for it? And how many amateurs would actually  buy  photoshop and 3d studio max - when they can use  urlLink the GIMP  and  urlLink Blender 3D   and  buy a few cars for the very same price?  Perhaps it's the open source community that should fight software piracy much rater than the propietary software industry? Sure puts the  urlLink BSA  in a whole new position... 
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+	 
+       A while back i wrote this application called Lancast, which is a server free 100% redundant IM protocol for local communication, to retaliate the fascist approach my school had taken against Instant Messaging. The idea was to create an IM protocol which just couldn't be blocked. I succeeded. To block this you'd have to close all UDP ports. Including those used by Netbios, DHCP, DNS and so forth, which would prevent anyone from accessing the network. There was just this tiny problem, it was written in C for GNU/Linux, which locked out 95% of the potential users.  Well, now i have fixed that flaw. I've re-written the entire thing in Java, making it publicly accessible to anyone, no matter which platform they're using (MS Windoze, Linux, *BSD, Solaris, they all work just as fine) 
+    
+</post>
+
+
+</Blog>

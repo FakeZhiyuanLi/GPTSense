@@ -1,0 +1,1 @@
+is being measured or sampled. By reducing the number of samples, the overall cost and time required for analysis can be reduced. However, there may be a trade-off in the accuracy and representativeness of the data obtained. This approach is typically used in situations where the cost of sampling is high, or where only a portion of the population is required to be sampled.

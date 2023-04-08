@@ -1,0 +1,1 @@
+i've squeezed in a hit counter before we move over to the next development version - your blogpet now counts how many visitors it has met! it will tell everyone when first clicked on, and will continue conversation as normal. let us know what you think.

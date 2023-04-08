@@ -1,0 +1,103 @@
+<Blog>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+      GIS Website Critique  http://www.gis.com  This is a good website to describe to the beginner what GIS is and how it is used.  The creator of the site (ESRI) put together an easy to navigate site for both the beginner and the professional.  It contains links to other sites as well as “how to” links for all levels of GIS users.  http://www.esri.com  The ESRI site is a well thought out sight to showcase their products and to show the capabilities of the products.  It contains ordering information, support information, training and events, and services.  It is easy to navigate and has links for all skill levels of users.  http://www.geo.ed.ac.uk/home/giswww.html  This site is a reference site for all things GIS related.  It comes from University of Edinburgh’s geography department.  It is like an encyclopedia of GIS and geography related content on the World Wide Web.  It is easy to use and can be easily search by keyword using the find tool in an internet browser.  http://data.geocomm.com/  This site is basically a clearing house of GIS data, both free and paid for by the user.  It also contains career listings.  The site is easy to use.  The GIS Data Depot also has links to free software, scripts, extensions and tools that can be downloaded.  This is a good site for all things GIS.  http://www.opengis.org/  The Open GIS Consortium website tells about the Open GIS Consortium’s approach to set GIS standards to be followed by GIS users throughout the world.  The site allows people to join the OGC and login as a member.  There are nine different membership levels that come with increasing benefits as the membership level increases.  This appears to be the IEEE (I triple E) of the GIS world.  http://www.gjc.org/  The GIS Jobs Clearinghouse is a site that users can search for jobs and businesses can post GIS jobs.  Users can post resumes and search for available jobs.  It is a fee bases site and users must create an account if they intent on posting on the site.  It has been named as one of the top 500 job sites by CareerXRoads.  http://gislounge.com/  This site is called the “One-Stop source for GIS” by the web page designer and from the looks of it they were right.  The site contains everything from job postings to software, and all things mapmaking and geography related.  It is an easy site to use, but it would take a long time to take in all the information that this site provides.  http://www.geoplace.com/gw/  The Geo Place website is part of geoworld and is primarily an information site for news in the geography community.  It appears to be an industry publication.  It does have some useful links on the last page, but most are geared toward the GIS insider.  http://www.gisportal.com/  The GIS portal is another clearing house of GIS information.  It contains links to GIS companies; GIS job search, GIS resources, GIS news, different varying levels of governmental and non governmental agencies and educational links.  It looks like a good site that is easy to use, but is not unlike many other GIS sites we have seen so far.  http://www.giscafe.com/  The GIS café is yet again another GIS clearing house of GIS information.  From job listings to map documents.  It is fairly easy to use and navigate.  It is a bit wordy, but not too bad.  The links I tested seemed to all work with no dead links.  There was some good information on the site.       
+     
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+      Answers to Exercises for Chapter 11      Challenge Problem       
+     
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+      Answers to Exercises for Chapter 10  1.	   2.	No, the two layers are not the same. a.	    3.	There are 28 lat-long gas stations positions that are more than 100 meters from the geocoded positions.  The minimum distance is 2.55 meters, the maximum distance is 3357.74 meters and the average distance is 350.94 meters. 4.	     Challenge Problem  Some of the roads are listed multiple times with the same “FRADD” & “TOADD” and same “STREET” name with different “FID” numbers in the Streets attribute table.   
+     
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+      Answers to Exercises for Chapter 9  1.	   2.	   3.	V 4.	V 5.	The total length of streams crossing the Minnelusa formation is 50232.001798 meters. 6.	   7.	   8.	   9.	   a.	Total area of aspen is 10529137.85 sq meters. 10.	V
+     
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+      Answers to Exercises for Chapter 8 1.	The Downtown watershed has the most gas stations with 8 stations and 135 nozzles. 2.	In low density residential there are five gas stations and in medium density residential there are four gas stations. 3.	General commercial has the highest number of gas stations with 20.  There are three gas stations in the floodway. 4.	The Circle S Convenient Gas Station is 2143.243876 meters from the Valley Sports Bar and Grill.  The closest restaurant is Arby’s. 5.	The Grill Man Café has the most gas stations at the closest distance with 4 gas stations. 6.	The Red Rock Canyon watershed has 503 septic systems in it. 7.	   8.	The town of McIntosh is 229.316 km from the nearest hospital. 9.	St. Ann Hospital serves 65 towns and Sioux Valley Hospital serves 132,503 people. 10.	Day County, SD has the great number of Lakes in it with 16.  Try to find lake area for second part.  Challenge Problem  •	The Ponca Watershed has the most cattle living in it.     
+     
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      Answers to Exercises for Chapter 7  1.	There are twenty six states that have counties name Jefferson.  Jefferson County, Kentucky had the most people living in it in the year 2000. 2.	There are 566 (18%) Counties in the United States that have more men than women.   3.	The cities in the United States that have a larger Hispanic population that African American, median rent greater than $500 and total populations of between 250,000 and 500,000 are Anaheim, CA,  Long Beach, CA, Santa Ana, CA and Honolulu, HI. 4.	There are 32.155% of the counties in the US that have a river in or next to them and 36.477% of the US population lives in those counties. 5.	The states that have counties of over 800,000 people and also contain the state capital are, by order of county population, Arizona, California, Ohio, Hawaii, Utah, Connecticut, & Indiana. 6.	There are 114 cities that are within 50 miles of a volcano in the United States and there are a total of 4,018,665 people living in those cities. 7.	There are 34 volcanoes that are within 300 miles of Crater Lake, Oregon and of these 34 volcanoes, of them 18 are within 50 miles of an interstate. 8.	There are 92 cities that are within 200 miles of Oklahoma City in the West South Central sub region of the United States. a.	  9.	There are 10 urban areas that are more than 50 miles away from an interstate and Texas has the most with a total of five. 10.	  Challenge Problem  Cities that meet the criteria of being between 20,000 and 40,000 people, within 50 miles of an urban area and are in a county that has a population density of less that 25 people per square mile;  •	Laramie, Wyoming: 26,687 people •	Rio Rancho, New Mexico: 32,505 people •	El Centro, California: 31,384 people •	Sierra Vista, Arizona: 32,983 people 
+     
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+      Answers to Exercises for Chapter 3  1.	Prec-ann.shp had the GCS_Assumed_1 coordinate system. 2.	Answers below a.	The coordinate system is USA_Contiguous_Equidistant_Conic b.	Map units are meters. c.	Display units are miles. d.	Map units of the source are decimal degrees. 3.	The map distance from Olympia Washington to Tallahassee Florida is approximately 2356.070365 miles. 4.	You would simply swith the display units to kilometers on the general tab of the data frames properties.  The same distance in km is approximately 3774.675216 km. 5.	The new distance in miles is approximately 2217.666414 miles.  That is a difference of 138.403951 miles. 6.	The distance in Mercator centered at 103 W using NAD83 is approximately 3052.348926.  That is a difference from #3 of 696.278561 miles. 7.	   8.	V 9.	Coordinate Systems represented a.	GCS_North_American_1927 – data sets using this system = 11 b.	GCS_North_American_1983 – data sets using this system = 1 10.	Does not work. 
+     
+    
+</post>
+
+<date>03,June,2004</date>
+<post>
+
+	 
+      Answers to Exercises for Chapter 5  1.	There are 32 counties in the US that have the name Washington. The Total population in the year 2000 was 2715799 and Washington County Maine has the largest area. 2.	The State of New York has the largest number of African American residents and the State of Mississippi has the largest percentage of African American residents.  However, the District of Columbia has the highest percentage of African American residents for any area in the country. 3.	The South Atlantic region of the US has the highest number and highest percentage of African American residents. 4.	FIPS looks like the appropriate field the join the two tables with. The first two digits of FIPS come from STATE_FIPS and the last three digits FIPS comes from CNTY_FIPS. 5.	There are 677 counties that lost population from 1990 to 1995.  The majority of the losing counties are in the mid west and the majority of those are in the northern mid west. a.  	  6.	The top three states with counties that lost population are a.	Texas: 63 counties b.	Kansas: 54 counties c.	Iowa: 46 counties 7.	Oklahoma, California, Arizona and New Mexico are the only states that have a Native America population of over 100,000 residents.  There are 214 State Representatives that are democrats to be contacted.  8.	In the United States, 10,005,713 live in State Capitals.  The smallest number of people that live in a State Capital is 8247 people.  The largest number of people that live in a State Capital is 983,403 people.  The average number of people that live in State Capitals is 200,114.26 people. 9.	West Virginia is the state with the highest percentage of married people with 46.638199 %.  And Oklahoma is the state with the highest percentage of divorced people with 7.313230%. 10.	The West North Central sub region had the largest number of counties with 618 and the sub region has 18,910,164 residents in the year 2000.  a.  	  Challenge Problem     The total projected gross income for the state of Texas is $10,847,121.  The Houston area looks like a good place to locate an office.  The Dallas Area looks like a good spot also.               
+     
+    
+</post>
+
+<date>03,June,2004</date>
+<post>
+
+	 
+      Answers to Exercises for Chapter 4  1.  	  2.  	  3.  	  4.  	  5.	The median rent map contains four classes.           6.  	  7.  	  8.  	   Challenge Problem        
+     
+    
+</post>
+
+<date>03,June,2004</date>
+<post>
+
+	 
+      Answers to Exercises for Chapter 2  1.	Answers to the Mount Rushmore questions a.	Pennington County b.	Battle Creek c.	Keystone d.	1.957 miles e.	Horse Thief lake Campground & Elkhorn Picnic Area 2.	Road Map Questions a.	  3 & 4      5.	    6.	1520.9749 sq miles  7.	Number 7 did not get the results that were being asked for  8.	    9.	   10.	   Challenge Problem     
+     
+    
+</post>
+
+<date>03,June,2004</date>
+<post>
+
+	 
+       urlLink Answers to Exercises for Chapter 1   Answers to Exercises for Chapter 1  1.	a. There are three feature data sets in the Badlands geodatabase and they are Infrastructure, Transportation, & Wildlife. b. There are four feature classes. c. point –  0 d. line –  1 e. polygon - 3         2.  Geographic coordinate system name: GCS_Geographic: GCS_WGS_1984        3.  Text, double, Object ID and geometry are the four data types.        4.  The original positional accuracy of the data set had a maximal positional error of 80 meters, and then it was generalized (tolerance unknown).  The positional accuracy is unknown.  (Direct quote from the attribute table)        5.  Lake Superior is the largest lake in the US and its area is 32212.001 miles².        6.  Mississippi has a county named Itawamba.        7.  Number of gas station nozzles in Rapid City, SD per gas station.                   - Minimum: 4                   - Maximum: 45                   - Average: 18.416667         8.  The Rapid City database has 3 raster files and they are dem30_fil, rceast_nw.sid and TM_24sep98MS.bil.         9.  The L7_Aug20_W84 file has 894 rows and 540 columns and its cell size is 30 by 30 (X by Y).         10.  The western most sacred site is the Vision Questing Area.  Challenge Problem           
+     
+    
+</post>
+
+
+</Blog>

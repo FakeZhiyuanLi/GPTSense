@@ -1,0 +1,1 @@
+The Riemann hypothesis was first proposed by the German mathematician Bernhard Riemann in 1859 in his paper "Über die Anzahl der Primzahlen unter einer gegebenen Größe" ("On the Number of Primes Less Than a Given Magnitude").

@@ -1,0 +1,104 @@
+<Blog>
+
+
+<date>28,June,2004</date>
+<post>
+
+     
+      Why do I feel the sudden urge to slam my head into the desk every time I try to deal with Windows?     I've been trying to get Windows 2000 to play nice with my HP Colorado 5 GB Travan drive. It is a standard IDE Travan QIC drive I installed into a USB 2.0 IDE drive box. Seems reasonable that this should work, no? Why do I need Windows? Well, as with most things Windows the data on the tapes are almost certainly in a proprietary format. So I'll surely need to read them using the same Windows program that created them.     So, I wondered if the drive worked at all. I've not used it in many years and then I only used it with tar (the standard UNIX Tape Archiver program). The HP Colorado user manual claims my tape drive originally came with  urlLink Yosemite TapeWare  for both Windows and Linux. This drive came from a computer show with only a user-manual rubber-banded to the drive. So I went to the HP website, found TapeWare and then installed it on  urlLink Fedora Core 2 .  I ran the  urlLink TapeWare Administration GUI , it auto-detected the make and model of my tape drive, and the drive works without a hitch. The entire process took maybe 5 minutes.     So, since the tape drive worked so effortlessly under Linux I thought I'd see what Windows had to say... For testing purposes I have Windows 2000 on a Virtual Machine running under Linux...  I started up the Windows 2000 VM and once it had finished booting I told it to attach the tape drive.  Windows 2000 instantly says I attached a "HP Colorado 5GB USB Device." Great, that's precisely what I attached. So I run through the wizard and it says it found no drivers (Floppy, CD-ROM, Windows update, nothing). Fine, I downloaded the HP drivers from HP.com. It sees the drivers but indicates they are not for my drive. So after 30 minutes I concluded it won't allow me to use any of the drivers provided by HP. Almost certainly because none are specifically for a USB tape drive.      Why does Windows need a driver disk? It is a Travan tape drive. Windows knows it is a Travan tape drive. By definition, all Travan tape drives from any manufacturer are essentially identical. Linux has one driver for all Travan tape drives regardless of how they are attached. Further, Linux auto-detects and silently configures the device without the need for input from me.     What is the point of even having a USB IDE drive box on a Windows system if nearly every device you might want to attach is going require special drivers that don't exist? It seems to me like this negates the whole point of the external drive box.     Oh  well, we'll see how things go once I have the tapes in question.  Hopefully I can devise some way to read the data from them. 
+     
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+     
+      So, I needed a schematic or at least an IC pinout to fix a problem with my junky $10 iRock FM Stereo transmitter. (Yes, instead of throwing it away and buying a newer, bigger, better one I spent 10 minutes and fixed it.) Well, the designers sanded off the part numbers of the components to "prevent" repairs. This is common practice with cheap electronics to get you to buy a new one. I've dealt with more than a few devices whose engineers thought they would be clever: satellite receivers, VCRs, etc.    So, I checked the FCC database.  The  urlLink iRock device itself (FCC ID: O5U FMLINK)  is actually a rebranded  urlLink Kima Link-It  made by  urlLink Akoo .  No shock there...  I bought mine as a factory refurb from  urlLink Tiger Direct.   Only thing in the  urlLink FCC EAS  are a couple of photos, some vague test information, and a botched confidentiality request. I was hoping they slipped and let the part number through in their internal photos. They usually do and it looks like they did at first... Well, until someone caught the mistake and tried to get their photos made confidential which isn't allowed. So they replaced the photos with altered (read blurry) versions.   As a last ditch effort, I counted the number of pins on the IC... 22 pins... A somewhat unusual number of pins for an IC. So I entered " urlLink FM IC 22 pin " into Google and sure enough the second hit was a  urlLink Rohm BH1415f Wireless Audio Link IC  (first hit being an AM/FM dual band version) which matched the iRock FM IC pinout perfectly. And, as usual in cheap electronics, the entire device itself is taken largely from the application notes supplied with the IC itself. Also, they cleverly use a  urlLink Maxim MAX619  charge pump to increase the 2.5-3VDC from the two AAA cells up to the 5VDC required to power the FM transmitter component.  Have I ever mentioned that I really like charge pumps?    So, once again, thanks go to Google. 
+     
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+     
+      I have to say that the current state of  urlLink Project Utopia  is truly outstanding.  I desperately hope that the current Project Utopia components make it into Fedora Core 3.    Project Utopia, for those in the dark, is an umbrella term for a collaborative project that aims to integrate the GNOME Desktop Environment with the Linux kernel's (and other kernels such as Solaris and BSD) ability to automatically manage user-oriented hardware.     Examples           I insert a blank CD-R and  Blank CD-R Disc  appears on my desktop with a CD-R icon. I'm able to open the  Blank CD-R Disc , drag files into it, and then burn it to the blank CD-R.         Upon insertion of a DVD movie the DVD appears on my desktop with a DVD Movie icon and GNOME plays the movie full screen.       Upon insertion of the Compact Flash card from my digital camera into the computer's card slot the label of the flash card "Photographs" appears on my desktop with a compact flash icon.  If I attach a digital camera to my computer GNOME can automatically import photos from the camera into a photo album.     These are just the test cases, really. So much more is possible with Utopia. I can't wait until everything takes advantage of it fully.    Screenshot of Examples:    urlLink    
+     
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+     
+      I took a few moments tonight and updated the  urlLink swish_php module .  The updates should be in  urlLink swish-e anonymous CVS  sometime soon.    
+     
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+     
+       Ideas (Vaporspeak?)         Do away with start-here: (done?)    Place launchers for applications: and favorites: in computer:  Create a favorites menu applet similar to the menubar.  Fix the bugs in the favorites: handler such as the broken trash can.  If feasible, replace the "main menu" with an applet that can embed into a panel.       Record all application launches in the run dialog MRU. (Everyone realizes they can drag launchers from the run dialog, right?)     Create a MRU menu applet which generates itself from the run dialog MRU.  This applet would look like the new main menu applet.  Fedora's default "main menu" could then be a drawer with the main menu and mru applets embedded.     For extra credit, modify drawers to support "text beside icon" (and fix them so they don't run off the edges of the screen), implement the favorites menu like the proposed mru and main menu applets, and this would replace both the menubar and main menu hacks with a normal drawer that embeds favorites menu, main menu, and mru menu.           Here is a  urlLink favorites menu mockup .  Surprise, it looks similar to the one that was removed a few years ago.  And a  urlLink menus and drawers mockup .    History  Once upon a time there was a favorites menu that displayed the favorites: location. You could drag an item from applications: into favorites: and it would appear on the favorites menu. It was nice and simple and worked. So someone removed it, if I recall, because we could edit the main menu directly. And then someone broke/disabled the ability to edit the main menu. So users started creating panel drawers and putting their launchers in the drawers. And then (in FC1) GNOME 2.4 drawers never worked. So finally nothing but the desktop worked. So, users were left dragging launchers to their desktops creating a giant mess. Sadly, I have dozens of application launchers on my desktop. So, now we need a way to get to the desktop quickly and thus was created a show/hide desktop action.     I would add that there's no apparent way to edit launcher from nautilus. Unless of course the user somehow knows to associate desktop items with gnome-desktop-item-edit. Shouldn't this be a property page?   Comments The applications: location could be replaced with the "better application browser" we hear about from time to time. It would have to be really good, though. Something of the magnitude of difference between the old and new file selector. Replacing it with a slightly better version or making a change that requires every application to be patched to use it may be unwise.     The concept of start-here: seemed pretty sound. But it is so underused, unimplemented, unexplained, etc that keeping it would probably do harm to any improvements that might be made on it. The reflex action of throwing it away may have overcome any future usefulness. It is perceived as useless because, well, right now it is useless.     I hate MRU application menus (ala Windows XP). Hate. Hate. Hate. I think the run dialog makes a better MRU. Many people may love MRU menus. Great. Make it possible to turn off somewhere, somehow. The last thing I want is my main menus randomly changing around based on what it thinks I want to do. Or make it a separate applet unto itself.     I don't mind the main menu as it stands. It is massive and clunky and ugly. But it provides quick access to approximately everything that is installed if you know where to look.     Rather than try to convince people someone just needs to just do something and show how it could work.  One wouldn't  have  to fix the existing main menu to create something useful. I think most of this could be implemented outside the existing mechanisms. At the least, I think having the favorites menu back would be great. So long as someone doesn't rip out the favorites: location while we're not looking.      
+     
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+     
+      You know, I'm not as hard core as some on  urlLink the fedora list  about mailing list etiquette. But when someone publicly corrects you for making a simple mistake you shouldn't freak out. The people who are most willing to help you will instantly put your name in their permanent ignore list. Cursing and blaming and yelling and such are just not acceptable in a public forum. Especially a list that gets up to a thousand messages per day.      In one such reply, the fellow just asked that the poster try not to break threading. It's the only way anyone can make sense of the shear volume of the list. He was simply trying to help the poster understand how to communicate with those most able to help. He could've said nothing and left the poster ignorant to the problem. Instead he stuck his neck out on the chopping block and made a suggestion to help the poster elicit more repsonses to his questions.      Do some very helpful list members appear to "dish out crap" at times? Absolutely. You may do the same after receiving 80,000 emails.  Most of which have already been answered previously in  urlLink the fedora list archives .  Many threads could have been cut down to 2-3 replies instead of dozens had the poster taken care when composing his original request.      The responder of one thread was trying to explain that one concise question is the best way to get one concise answer. The poster's original message stated "some sort of error" and did not post the precise error message nor any details about where he saw this error. How could anyone intelligently answer such a question? The responder requested a clarification. This is reasonable. He could have been aggressive and request that the poster think through his questions more thoroughly before posting. Alas, he remained conservative and just asked for the text of the error message.      The poster claims that the entire ordeal of dealing with fedora list has made his day horrible. I submit that his cursing, name calling, and personal attacks has made everyone's day horrible.     A reasonable person might expect others to take just a few moments of their own, personal time to compose their requests for help in a form that can be answered in a minimum of replies. Time you don't spend composing a help request is time you are wasting for others. Most knowledgeable people refuse to waste their time on poorly formed help requests.  There are others who need help  and  understand the value of good questions.          Seriously, Eric Raymond's  How to Ask Questions the Smart Way    is extremely helpful if you truly want good answers.     By the way, seriously, no one cares what operating system or distribution you use. This isn't some religion or penguin worshipping cult where we try to brainwash you into thinking we are perfect.  Collectively, we don't care if 5 thousand or 5 billion people use the operating system distribution we prefer. This is just a bunch of people who use Fedora Core and either like to help others or need help themselves. We all realize that using a new operating system is a bit scary, confusing, and often frustrating. But demanding answers and threatening to abandon the distribution only gets you added to the ignore list of those who can help. It reinforces a notion that you have no real intention to make any effort to learn anything. And if you aren't willing to learn then please expect that no one is willing to teach. 
+     
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+     
+       urlLink SWISH-E Daily Windows Builds  are being made again.  Sorry for letting them go for so long.  I'm really glad to find that  urlLink makensis now runs natively under Linux . WINE has had a number of little nagging problems under Fedora Core. Currently I can't seem to get the ttydrv (Windows GDI Graphical) driver to function; meaning I can't really schedule Windows applications to run in text-only mode from cron (UNIX system task scheduler).  I may start building daily Fedora RPMs for  urlLink SWISH-E . I don't have a ton of disk space on my web host. However I would like to make daily builds available to get it out there for testing. That hinges on a few things such as getting the  urlLink Fedora.us build system  working on one of my computers.  I have a spare machine I could put online just for doing automated builds.  That may be ideal.  Also, I'd like to get stable releases of SWISH-E into  urlLink Fedora Extras . That will be some serious work due to the Fedora.us packaging guidelines and the shear volume of Perl modules the SWISH-E helper scripts support/require. I think it is worth doing, though. There are a growing number of people using SWISH-E and I'd like to make their lives a bit easier if possible. Should I support Red Hat Linux 9? I really don't know how many people are using it compared to Fedora Core or Red Hat Enterprise.
+     
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+     
+       urlLink eMoviX  would be awesome for Home Movies and such.  Why didn't I notice this before?   urlLink K3B  supports creating eMoviX CDs right in the "New Project" menu.  This would be great for any situation where you don't want to talk friends/relatives through installing Windows CODECs.  Insert CD/DVD, restart computer, watch videos.  And it seems to work well with computers I'd never have expected to work.
+     
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+     
+      OK, everyone has been trying to get me to use blogger.  So here it goes.  Yay?
+     
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+     
+       urlLink NullSoft Scriptable Install System (NSIS)  allows programmers to easily build automated installation programs for Windows. Many Windows programs use NSIS to install themselves.     If you cross-compile your Windows executables from a Linux host then you may be interested in running makensis natively. For a long time I ran the Windows makensis under WINE. However WINE is a bit cumbersome to run from a cron job because it normally requires X (the graphical display subsystem used on UNIX Systems).         Today I noticed that makensis will now  mostly  compile natively on POSIX compliant operating systems (such as Linux).  By  mostly  I mean that some components require a Windows compiler (such as  urlLink MinGW ) even though the main executable builds natively under Linux.      What you need:               urlLink WINE  installed and working.       urlLink MinGW  installed as a cross compiler.       urlLink GCC  installed as a native Linux compiler.      The latest CVS version of NSIS         cvs -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/nsis login        # There is no password, just press enter.        cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/nsis co NSIS           How to do it:    cd NSIS       create a shell script named  urlLink Source/exehead/bin2h        chmod a+x Source/exehead/bin2h        cd Source/exehead        urlLink cross-make        cd ..        make makensis        cd ..        cp -a . /usr/local/lib/makensis        rm -Rf /usr/local/lib/makensis/Source       create a shell script named  urlLink /usr/local/bin/makensis  to run your native version.           Now you can run makensis natively on Linux...       $ makensis       MakeNSIS v2.01 - Copyright 1999-2004 Nullsoft, Inc.        You may  urlLink download my native NSIS build  for Linux made on 2004-07-08 under Fedora Core 2.        
+     
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+     
+      So, does anyone have 6 LVD SCA hard disks they want to donate?  Nah, didn't think so...  Anyway, I finally have an actual server rather than some mess of parts that act vaguely like a server. That will take a load off of my workstation.  So, what will the machine do? Top priority is the SWISH-E daily build and all the services eating away at my workstation resources. I haven't thought far beyond that.  Disk space is a major shortcoming. I have about 500 MB free. But, the machine has 6 (empty) LVD SCA slots in the front. Maybe I'll find some used 9 GB disks at a computer show or something. Who knows. New SCA disks are way beyond my shoestring budget, though. I'd like to get 6 disks and create a mirrored LVM array. I'd have no hot spares but at least there would be redundancy. Another option would be to install an IDE RAID card and move the LVM storage from my workstation. There's no redundancy there, though.  I am having a problem with the machine freezing after about 15 minutes when running in multiprocessor mode. The memory tests good with memtest86. Not sure if it is kernel related or what. I've tried various combinations of apic/noapic, nohlt, acpi=off, apm=off and none make any difference. Uniprocessor mode runs perfectly. So, I'm stuck running on one CPU until I find the problem. The only oddity I notice is that CPU0 and sometimes CPU1 show disabled on the front panel when the machine is frozen. When I got it the CPU0 fan was damaged. (I borrowed a fan from another machine to get it running.) So there's a small chance that CPU is damaged. I don't see any way to boot or run the machine from CPU0 in uniprocessor mode to test it. I guess I could swap the CPUs around...  Oh, yeah, Matt suggested that I name it Hagrid since it resembles a lumbering half-giant. 
+     
+    
+</post>
+
+
+</Blog>

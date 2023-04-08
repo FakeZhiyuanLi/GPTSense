@@ -1,0 +1,92 @@
+<Blog>
+
+<date>15,July,2004</date>
+<post>
+
+	 
+      Notes from Michele Budden 1:1 7/15/2004   General questions I have are:    -what data or information do you need that you don't already have,  -what's not working with what has been delivered so far,  -what initiatives are you working on that may need some additional data or a new way of looking at existing data    Rev Gen Prgms TS Portfolio- MArgin Analysis (cost vs revenue)- systems don't really have ability to do that analysis better would be a tie in to eCustomer to get a consitent customer representation  taking our cost and allocating them to things in C3  What is the eCustomer timeline...? how can we access them...? If we can use the cust id to id service usage and tie back to revenue.  All service revenue comes from Finance (Bill-TO id), but the usage info is more critical (market segment is needed to map the parent company/child companies market segments)  Monitoring performance and usage of programs, rollups by segment/market/contract type, contract hierarchy missing...ERBI has some of the service hierarchy data  -- Phase II : MArketing Spin - Business analysis and metrics- programs to keep/not keep; rolled up customers by program  -- Not sure about the GPS side of things, Julie SHottman/ Angie Blum  - Support the deals - negotiating contracts - views of customer usage  - Boundary reporting systems may have additional needs in the June timeframe
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+	 
+      Notes from Angela Wilson 1:1 7/9/2004  General questions I have are:    -what data or information do you need that you don't already have,   -what's not working with what has been delivered so far,   ...BO univ uslna sysdate from BL and not OLTP  -what initiatives are you working on that may need some additional data or a new way of looking at existing data   d/w/m scorecard-broadcast agent ashish was looking lnto it forlnfoview-today lt ls ln  contact lnfo-email object	only the preferred contact info is associated with the SR AND TASKS-there is a td  bingo survey-svo types- only bringing in a link to CPR  Instance not the avtual data  next gen;trying to use reporting for proactively escalating cases before customer;improve cust experience for top 10% based on ?? depending on who is looking;eCustomer info around customrr tiers new measures:time to dispatch, since last touch,  CARE market segment customer tier flagged differently in C3, so difficult to identify high-end customers to focus  technologists and specialists  unify BO universes foor cases , rmas, revenue_garp, service revenue rev gen - michelle budden -care more site-id focused, eCustomer info around customrr tiers 
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+	 
+       TO-DO •project plan for id assess/scope phase (Reviewed high level steps with Mark today) •resource plan-analyst hiring can start aug1 2resovrces •hold th line on analysis, backload w/ testing so coding has some play •validate schedule w/ bus •env plan - architecture diagram •ls there a rptg aspect for START? •GPS biz intel, Mike Grace, we need to understand the scope to make sure we aren't already doing it- and make sure sis-t has governance •work wth Ajay to understand his TD analysis and impact to June release •work with ravi/Todd to understand resources and id candiates for rollover to june •review RMO docs
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+	 
+      2004/5/6/ Mark Frye 1:1  •	Discussed my transitoin ot the C3 Reporting track and SIS team •	Mark recommend I attend the daily status call for C3 Reporting (Release 1.3, 1.3.1) •	Mark mentioned that Ravi K was taking the position I’d originally discussed with Mark (given timing of my transition and Ravi’s experience/availability). •	Mark recommended I work with Ravi on planning for 2.1—removing measures and focus on entities delivery •	SPREE, BIZINTEL- current reporting universes •	Mark recommend I review EDCS RPTG/ADMIN forlder for prioritized list of requirements, process framework, need to understand how to map data to bus processes, how measures map to bus processes •	End-to-end measures are not currently well-defined •	Key metrics: trends with RMAs- how can we ID mfg issues that lead to returns •	Mark recommends traning: IT DMAIC, data architecture and warehouse, Business Objects training •	Key techniques to understand: star schemas, dimensional modelling, analytical reporting •	Mark recommends 1:1’s with team: RaviK, JimR, Annette Demarco, Pat Hagan •	Mark recommend I help Ravi with R2.1 replanning  2004/5/11 Annette Demarco 1:1 •	Annette is a contractor- self described as an Analyst •	Concern that people have become siloed for short-term delivery and not been given freedom to work as an open team •	100% C3 •	Mostly works with technical team •	Concern that there are not enough ties to the business- ties to the business happen at too high a level to make development effective •	History: the project scope needed to be broadened to meet business requirements; Corvera resources brought in to refocus the team, and in essence dumped existing resources into silos. The team is now more of an autonomous collective – each person working on their own area. So in some instances, work is being duplicated •	Worst Thing about the track: we’re in corners that will be difficult to grow out of. Poor tactical decisions; not really a data warehouse or a reporting repository. Business layer doesn’t really do what it should. It will be difficult to scale over time. Philosophy not well understood by management team •	I need to ask Guy and Sam for document links- there isn’t really a Rosetta Stone ***mini-project idea- Documentation needs refinement, update, obselete, and in some cases need to be created •	Recommended training to come in an email: Data Warehousing Institute •	OLAP-Online Analystical Processing in nature;  OLAP Report website: links to various sites 2004/5/11 Jim Roman 1:1 •	Vendor Billing is a pent-up demand project; essentially, this is the system that 3rd party engineers use to bill Cisco Systems, Inc. for service calls. This will require some changes to C3 •	Concern that designs do not jibe with systems as delivered (probably need engineers or architect to update documentation for support) •	Recommendation of key technologies to learn: Oracle Warehouse Builder, Oracle Designer, Business Objects •	Join alias c3_rptg_it_team  2004/5/12 Mark Frye 1:1 •	I need to define a roadmap for my transition •	May need to cover Data Architect role •	May need to help with standardizing systems after Corvera (architecture cleanup project) •	Need to work as part of future RMO processes •	Need to understand all IT processes to make sure we can fit in with EA, EDW  2004/5/13 RaviK 1:1 •	After his deep dive with PMO on refocused 2.1, he will pull us all together to map out who does what work •	Concerns that design docs are not in place •	Concerns that standards not in place or followed •	Ideas for my Rampup tasks: ( TBD )EA standards review ( TBD )OLTP standards on C3 review ( TBD )EDW standards review ( TBD )Coding Standards ( TBD )DW training  •	Concerns that Business Layer and ETL teams not coordinating enough •	Concerns that people are burning out, need to instill confidence that things will improve, build team confidence 
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+	 
+      A colleague told me about this conference. We can get a discount with three+ attendees   urlLink Business Intelligence & Data Warehousing Conference 
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+	 
+      This site has all the 4-1-1 on the PMI certification that has been getting so much press lately. I add this to my list of goals for the next year...the associate level anyway.   urlLink Project Management Institute (PMI) Home Page 
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+	 
+      This site was recommended to me by a few of our consultants. The Data Warehousing Institute seems to have the best seminar content and they host events pretty frequently. A bit pricey...we'll see if this will work with the travel and education budget.   urlLink TDWI Seminar Series 
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+	 
+      Found this resource online- good articles on the technologies and trends in data warehousing. Still looking for good survey-type training or seminar.   urlLink Resources - Business Intelligence and Data Warehousing 
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+	 
+      I've wanted to start a BLOG for a while...mainly since I've started a new position here at Cisco. I figure a BLOG is a good way to keep track of tidbits I learn as I venture into the new worlds of project management and data warehousing.  Here's how the new gig lined up for me:  For the past two years, I was a tech lead on an Oracle 11i project. If you're not familiar, Oracle 11i is the latest version of the eBusiness suite from Oracle (the data base company). My team's role was to collect all of the various configurations that we needed and to manage the loading of those configurations (and track changes...maintain several instances of the data for development, testing, production, etc). So that was a huge project ($80M+ )and the project was a big success. My team was a cross-functional one so I really got to see all the different parts of the business.  So as that project wrapped...at least the critical phases wrapped...I started looking for something new. I think my management team wanted to keep me engaged at some level, and they knew I had an interest in business processes. So I've taken on a new role as an IT Project Manager and have been assigned a project that really has yet to be defined (I'll be working with the business to understand what their initiatives are and what data they will need). The project team I am part of is called Issue-to-Resolution Strategic Information Systems or I2R SIS. Issue-to-Resolution is the business process that handles post-sales support for Cisco equipment (this of it as traditional tech support with a lot of bells and whistles).  Anyway, the new gig has me reading lots of books on data warehousing ("The Data Warehouse Toolkit"- Kimball, Ross and "Mastering Data Warehouse Design: Relational and Dimensional Techniques"- Imhoff, Geiger, Galemmo and "Oracle DBA Guide to Data Warehousing and Star Schemas"-Scalzo). I'm also boning up on the associated technologies (Oracle Warehouse Builder, Oracle Designer, Business Objects). Then there are also the "project management" skills (ok, so I've been leading projects and doing project management for years, but now that my title has changed it was requested that I formalize my training)- I'm enrolled in several course offered by ESI and will probably work towards an associate level certification...just to have the lambskin (LOL).  So this is my work life right now. Not terribly attractive, but it pays the bills. I'm hoping to leverage my PM position and the touchpoints I'll have with the business into the next gig: maybe a role within the business. I have a goal of getting into the management area, but without an MBA that might be tricky at Cisco these days. Promotions nearly impossible to come by and pretty much every manager or senior project manager I know was groomed outside of Cisco, then hired into the senior PM or Manager roles. So it seems to me that corporate America isn't all that different from my Army days: you have to move on to move up!
+    
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+	 
+      OK, so now it is official. As of August 1st, I am an IT Project Manager. Strictly a title change and I have yet to find a grand epiphany. However, several of my colleagues who came up through the IT Engineer ranks with me have stopped by to say "congrats". Not sure why but I guess there is a presumption that my transition to PM included some financial or status improvement- I can assure you nothing of the sort has happened. In some ways it has made things tough for me since I have no idea how many other PMs there are in my job grade(and all indicators are that I am no closer to a promotion). All-in-all though, I believe this was the right step for me since I have grand visions of going into the management track- and still hold to the idea of someday being in an executive position.  Otherwise, Info Delivery II is now a "Real" project and the clock is ticking for us. Actually, I have to come up with a reasonable resource plan in very short order. As people roll off other projects, I want to try and recruit them to ID2. My goal is to be a Cisco-employee heavy team. My fear over the past few years has been that we have relied on contractor knowledge and not done a good job of developing employee skills to fill those voids when the contractors walk. BUt for now, its me and one analyst who recently joined the team. I'm giving her plenty of room to ramp up and get a feel for the technical and business environment we're operating in. Soon, it will be hammer to the floorboard so I don't want to burn her(or myself) out. Actually, with the scope of ID2, I think we may need a second analyst and may run this release as a multi-track project. I still need to mull over the tracks, but I have some good ideas in la cabeza.  On the home project front, I just finished my seventh DVD of family footage (or as Isabella calls it "Baby Isa TV"). It has been a blast reviewing all the old footage and photos. My new Dell Inspiron 9100 has bee invaluable since I can now port the PC from office to living room- to wherever- and work on the DVDs whenever I get a spare few minutes(and no contention with Mrs. D on the keyboard). THe new PC actually is faster than the Vaio desktop, and it has more RAM and a better video card, so it is a better experience all the way around. Also, the 9100 came with a great software package called MyDVD for putting together quick DVDs. I already had more specialized software, but MyDVD definitely helped me crank stuff out faster. Someday, I'll probably go back and cull out a highlights DVD and showcase my creative side- for now I'm trying to get as much raw footage editted and loaded onto DVDs in chronological order. Right now, DVD#8 is underway (Fall/Winter 2003). It won't be long and I'll have to changeup my DVD theme to include Baby Annie...
+    
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+	 
+      Several of us from TS, TS-IT, and AS are attending the DCI Business Intelligence and Data Warehousing Conference in Boston. Should give me great background around how BI/DW projects should be run.   urlLink Event Overview 
+    
+</post>
+
+
+</Blog>

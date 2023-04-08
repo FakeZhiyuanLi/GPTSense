@@ -1,0 +1,1 @@
+Leonhard Euler included 1 as the first prime number in the mid-18th century. However, later mathematicians realized that 1 does not fit the definition of a prime number, which is a positive integer greater than 1 that has no positive integer divisors other than 1 and itself. Therefore, 1 is not considered a prime number.

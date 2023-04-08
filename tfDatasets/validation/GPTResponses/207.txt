@@ -1,0 +1,1 @@
+Neurons transfer electrical and chemical signals from one another. Electrical signals (called action potentials) travel down the axon of a neuron and are received at the dendrites of another neuron. At the synapse, chemical signals (called neurotransmitters) are released and bind to receptors on the postsynaptic neuron, transmitting the signal across the synapse.

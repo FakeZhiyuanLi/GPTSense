@@ -1,0 +1,54 @@
+<Blog>
+
+<date>08,juni,2004</date>
+<post>
+
+	 
+      I used to come to work and commute near this highschool. Usually got there around one of the class breaks. Lots of girls would be chattering outside near the fence loud, about what highschool girls chat: clothes, guys, sex. When the bell rang, the asteroids came: about 10-15 cigarette butts, thrown nonchalantly on the other side of the fence simultaneously, among the feet of sidewalkers, like small red-lit meteors ignited by highschool atmosphere and the presence of chicks. They described gracious arcs from the girls' fingers, all together over the fence like air dolphins, and lay smoking on the other side until the next break came.  I used to teach to girls that age... :(
+     
+
+    
+</post>
+
+<date>08,juni,2004</date>
+<post>
+
+	 
+       urlLink Memorable Quotes from "Oz" (1997) : "Augustus Hill: Now, you'd think a doctor or two would be on the top of the list of the greatest person of the millennium. I mean, doctors do research, discover diseases. But no one's gonna see Dr. Epstein-Barr, Dr. Norman-Barre, Dr. Down, and Dr. Alzheimer on any list. 'Cause for all their hard work, hearing their names fills us with dread. Their names make us sick. "
+     
+
+    
+</post>
+
+<date>08,juni,2004</date>
+<post>
+
+	 
+      AAARGH! issue: A last-second click got me to this Public Smoking poll. Of course I voted agains public smoking (go away!), but among the poll results I found this comment:   no don't ban it somepeople who have no choice to smoke cos they addicted, so it isn't rite bcos they have a rite to smoke in the street and it can show ppl how disgustin it is. i hate ppl who think bcos others smoke it must be cool like i smoke cant stop now most ppl in my class smoke and it shows me how disgustin it is and i wish i cud stop but i cant and i like to smoke in public to show that it is disgusting.    For 10 minutes I will be GLAD that I'm not a citizen of a country which allows that degree of illiteracy. For 10 minutes I'll be happy I went to school in Romania.
+     
+
+    
+</post>
+
+<date>08,juni,2004</date>
+<post>
+
+	 
+      Here's the Queen of England. What does she care I have rehearsals in an hour and don't feel a bit like playing guitar.  It's bleeding raining (did I mention this will be a PG13 blog?) and I just want to sleep. Well, and maybe blog a little...
+     
+
+    
+</post>
+
+<date>22,juli,2004</date>
+<post>
+
+	 
+       Finally I had to write an article about it,  just to stop people from bothering me all the time.   I've stopped to think about it a little, and I discovered that I hate Java because it just  has to be portable . Language portability has got to be one of the most stupid ideas that IT directors ever came up with. In the real world, everybody knows that true portability is utopic (and, let's face it, futile on any large scale). Programmers know that there always are "things" that don't work the same between platforms, and platforms very rarely get changed, on account of business politics and huge contracts.  So then, we have the biggest feature of Java just turned totally useless. Let's see why, besides being totally useles, it's also a tombstone.  A while ago, I've written a little library in Perl to help me with web applications. It has one particular subroutine named  RenderOutput , which finds out the type of content to be delivered based on the request, identifies the correct template, fills in the blanks and serves it back to the web server for the client. It can be called like so:   LibXX::RenderOutput($cgi, "MainMenu", {("error", "Incorrect password", "username", $username, "retries", $x)} );   Look at how Perl calls a subroutine. What with the hash and all, I'm basically passing  named arguments . More than that, I'm passing a variable number of arguments, some/all/none of which may be optional (like the error message).  And why is this such a big deal? Just because Java can't even dream of this? No. I'm pointing out the kind of flexibility in programming that one needs to get a thing done.    Argument 1: While programming, the goal is the application, not the code itself.   You want a function with flexible arguments? Just write it and it'll work. This flexibility is what allows great things to be made. Perl does this better than any language I know, just because it lets you, the programmer, keep the big picture in mind. You're not a code writer; you're an application developer.  Yes, Java does that too, with its beans and EJBs and rules and stuff. But it doesn't do it in a  flexible  kind of way. With Java, it's not just a good idea; it's the law.  Flexibility works both ways, so with Perl you can write simple tools that are important parts in your application and that integrate smoothly with a good OS. You want a repetitive task? No need to save timestamps in a database and parse it continuously; just write a cron job. You want a process looked after, say a TCP listener? Make a service out of it and spawn it in inittab. You want to log things as you go along? Just talk to syslogd. You want to watch files in a directory? Just talk to FAM, an excellent kernel service (where Java would happily burn holes in disks in the name of portability).  So you see, the Java way is to keep reinventing rock wheels where fast-cars are already common. Java comes with log4j, just to do something that's already been done better. It comes with huge Application Servers as if the load on the OS (and the OS itself!) aren't enough already. It's an easier, but stupid way to live.  My belief is that when you build a large application, you have to integrate it with the OS, not build it all over it for portability's sake. The OS was meant to be just what it says: a system that people can operate (and program) on. It's like an unfinished house. The Java way is to cover the unfinished house with a huge skyscraper. The intelligent way is to use the excellent services provided by an army of excellent people (of course, I'm not talking about Microsoft here) and build on that foundation until you get what you want. The result will be faster, better, and surprisingly easier to port, compared to the bad marketing that Java makes.   Argument 2: When developing an application, the OS is the foundation and integral part of that application, not just something that needs to be reduced to silence by a virtual machine.   Programming rules are meant to help programmers -- and Java takes rules to the extreme. Programming, however, is not the goal (although it is a fascinating thing); the final application is the goal. The computer itself is a tool used to run applications; it's not just a development platform that happens to be able to host a final product. The application is a whole; it necessarily engulfs the operating system and the hardware and all the other things; they are not just layers to be wrapped in Java Beans.  When you build a house, you don't wrap the foundation in a big cardboard box and build a roof on top; you use what's there and build on it. Talking I/O through a million layers of wrappers -- so that the product be portable -- is like having a million doors. Using shared virtual machine memory to share data is like renting your own room. And collecting garbage the way Java does is nothing but building another toilet over your existing toilet... :)  
+     
+
+    
+</post>
+
+
+</Blog>

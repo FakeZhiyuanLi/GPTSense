@@ -1,0 +1,1 @@
+In the Diffie-Hellman key exchange, the number of bits used for primes can vary depending on the security requirements. In general, 2048 bits or larger primes are commonly used in modern implementations to ensure a high level of security. However, smaller sizes may also be used in situations where speed is more important than security.

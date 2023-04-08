@@ -1,0 +1,37 @@
+<Blog>
+
+<date>08,August,2004</date>
+<post>
+
+
+       
+      Victorian art and social critic.  Christian enough to give away his inherited wealth.  Wrote lovely convoluted prose about the connections between art, economics, morality, and consumption. 
+     
+
+    
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+
+       
+      Perhaps bugs are a necessary evil of the economics of software development; perhaps market forces will continue to drive feature change and improvement at a pace that overwhelms maturation.  More mature areas of technology, while still offering opportunities for improvement, generally have learned to avoid the biggest pitfalls.  And that, I think, is a useful way to think about bugs: as an opportunity for learning.  A bug is feedback about your process.  If you don't pay attention to that feedback, you've wasted an opportunity to learn; you can't afford to do that very much.  In this analysis, "bug" means precisely a development process fault which leads to the implementation of unintended or undesired behavior.  It is possible for developers to abdicate all responsibility for requirements analysis to some external agency, which would reduce the previous phrase to "unintended and undesired behavior"; however, our best current understanding is that we serve our customers better by integrating the intention with the implementation.  The code is not separate from the specification, and we can best learn about the customer's needs by delivering code to them and listening to their reaction.  In fact, much of what we do in software development is to learn.  We learn new languages and libraries, we learn new customer's requirements, we learn new buzzwords.  Also, in debugging and maintenance, we learn what mistakes we've made.  We learn to avoid those bugs in the future.  There are two benefits of catching bugs as early as possible: one is that it's a lot cheaper to fix a bug earlier rather than later.  The other is that, by catching a bug earlier, we tighten the feedback loop and make the learning more effective.  Much of modern software development, from developer-driven unit testing to IDE's with syntax and error highlighting, has the beneficial effect of providing earlier and better feedback to the developer, to help their learning.  I don't know how to automate higher levels of feedback.  A compiler can, with a statically-typed language, catch syntactic and "semantic" errors.  We are, I think, feeling our way towards processes and cultural mechanisms that enhance feedback at the higher semantic levels.  An engaged user community, able and willing to provide feedback on partial releases, can give feedback on misunderstood and evolving requirements (which is truly semantic).  There may be a missing level in the middle.  Most of the bugs I've committed over the last decade, and certainly the hard ones, have been due to design failures -- an unclear partition of the system that made it hard to implement some particular piece.  The bugs showed up in the hard module, but that module was hard due to design problems.  Refactoring helps with this, when used to re-shape the code according to an evolving understanding of the structure of the program.  So does shared ownership of the code, so that problems that show up in one section of code are not isolated as one person's problem.  Global improvement may have to be at the cost of added complexity of some local sections of code; shared responsibility makes it easier to make the right decisions in those cases.  This is a cultural, not a technical, question.  I don't think that automated tools or heavy formal defect-tracking processes have proved their worth in this arena; un-read and pro-forma meetings have little effect on behavior.  We need a culture of continuing improvement, of dissatisfaction with "good enough".  Formal methods can help foster this culture, and can be useful as a way of recording conversations so they need not be re-created from scratch; they can also disguise the real benefit and masquerade as improvements when they are really mechanisms.  The best answer that I have is that talking about bugs helps.  Let's not fix our bugs in silence and shame.  Let's shoot the breeze about them; let's tell war stories; let's value our bugs as feedback and as chances to think and talk about what our program design should have been and can in the future be.
+     
+
+    
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+
+       
+      If Java had a well-designed exception hierarchy, with      a well-understood fixed structure   and well-defined and constrained extension points   the this need not be so.  But as it is, any program that uses a combination of external libraries has to deal with several different exception hierarchies, and with nested and hidden exceptions, and so must be prepared to both handle and throw RuntimeExceptions.  I wish it were not so.  I wish that Exception were partitioned into RuntimeException and DeclaredException, so the idiom   		 try { 		     ... stuff 		 } catch (Exception e) { 		   	if (e instanceof RuntimeException) { 			    throw (RuntimeException)e; 			} 			... deal with resource problem 	         }   could simplify to   		 try { 		     ... stuff 		 } catch (DeclaredException e) { 			... deal with resource problem 	         }    The trouble is that exception types, unlike other types, are global, because they cross boundaries.  It is a good thing to invent new types (classes) to make concrete the kinds of things your new program can do; each Java package is a domain-specific language.  But it is a bad thing to invent new exception types, because that structure affects the structure of every program that uses your package.  Much better to have a common, well-designed exception hierarchy so that everyone knows, without new learning, which exceptions to expect.  Here's one criteria for a well-designed exception hierarchy: when writing a program, it is obvious what kinds of exceptions should be thrown, and when the standard classes will serve, and how to extend them if more detail is needed.  The present hierarchy does not come anywhere near that standard.  It has very many too many classes, not enough nesting, too many ambiguous exceptions, and unclear rules on when system exceptions should be re-used, extended, or avoided. It obviously "just grew", which leaves all other Java programs to muddle through on the same wobbly foundation.  Part of this muddle is the use of RuntimeException to pass information through a library or middle layer, or to wrap an exception that was unanticipated by the library designer.  If there were a common exception hierarchy, the library designer would be much more likely be able to anticipate what exceptions would legitimately arise in the use of the library.  Not universally, however; a general-purpose interface (like Runnable, to pick an extreme case) must cope with arbitrary exceptions.  This forces any declaration up to the top of the hierarchy; in fact, either up to Exception, or (as proposed above) to a sensible partition of Exception into RuntimeException and DeclaredException.   It's possible, but too hard, to set a handler for exceptions.  The way to do it nowadays is to extend ThreadGroup, overriding the uncaughtException method; clearly not an everyday sort of thing to do.  
+     
+
+    
+</post>
+
+
+</Blog>

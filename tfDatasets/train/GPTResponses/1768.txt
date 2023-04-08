@@ -1,0 +1,1 @@
+The Z3 computer, which was built in 1941 by German engineer Konrad Zuse, had a maximum memory capacity of 64 words, where each word was 22 bits long. This means that the Z3 could store a total of 1,408 bits of memory.

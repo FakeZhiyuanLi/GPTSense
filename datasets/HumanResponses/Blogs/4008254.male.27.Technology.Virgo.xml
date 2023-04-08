@@ -1,0 +1,128 @@
+<Blog>
+
+<date>23,July,2004</date>
+<post>
+
+	 
+                Robert Jaworski - The Big J  
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+	 
+      I will be at my colleagues office (Citimotors) tomorrow for some Intro's to Linux and other open source related discussions... Well, i think Glenn and I will be splittin' up for a while.To attend another java discussion on his side... :)   Its really better to migrate dont ya think ?!@#$# 
+     
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+	 
+      My colleague and I will be at UE recto (August 7,14,21) for a simple discussion on java... See ya there studes !!    :D 
+     
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+	 
+      Well all I can say is.. "This is the Moment !!" hehehe !! 
+     
+    
+</post>
+
+<date>13,August,2004</date>
+<post>
+
+	 
+       package com.UE.Lesson1;  public class Dog extends Animal {     public Dog(){          }      public String getname(){        return getName("Dog !!");    }        public static void main(String args[])    {        Dog d = new Dog();        System.out.println(d.getname());        d=null;    }   }   
+     
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+	 
+       public class Animal {     // instance variables - replace the example below with your own     private String name;      /**      * Constructor for objects of class Animal      */     public Animal()     {         // initialise instance variables      }      /**      * An example of a method - replace this comment with your own      *      * @param  y   a sample parameter for a method      * @return     the sum of x and y      */     public String getName(String name)    {         this.name=name;         return this.name;             }           }   
+     
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+	 
+      The meeting at APC has been cancelled... :) 
+     
+    
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+	 
+        Hi peeps, I will be at these locations over the weekend..  8:00 am - 12:00 pm (University of the East Java Tutorial Track 2).  2:00 pm - 5:00 pm (Web Applications Discussion - Asia Pacific College).  6:00 pm - 10:00 pm (STI Caloocan Java / J2ME related discussions ) .  
+     
+    
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+	 
+      Hello Class,   I want you to review Part2 to Part 4 of the Java tutorial Site that I gave... We will be doing the Sample programming this coming saturday..Considering that the schedule for the 21st was moved to September....  Also be familiar with Jcreator because that will be our default IDE at this moment...  And tell ur friends and schoolmates about how wonderful the world is gonna be with JAVA.. :D       
+     
+    
+</post>
+
+<date>07,August,2004</date>
+<post>
+
+	 
+      ------------------------------------ JRadioButtonTableExample.java ------------------------------------ import java.awt.*;import java.awt.event.*;import javax.swing.*;import javax.swing.table.*;import javax.swing.event.*; class RadioButtonRenderer implements TableCellRenderer { public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) { if (value==null) return null; return (Component)value; }} class RadioButtonEditor extends DefaultCellEditor implements ItemListener { private JRadioButton button; public RadioButtonEditor(JCheckBox checkBox) { super(checkBox); } public Component getTableCellEditorComponent(JTable table, Object value, boolean isSelected, int row, int column) { if (value==null) return null; button = (JRadioButton)value; button.addItemListener(this); return (Component)value; } public Object getCellEditorValue() { button.removeItemListener(this); return button; } public void itemStateChanged(ItemEvent e) { super.fireEditingStopped(); }} public class JRadioButtonTableExample extends JFrame { public JRadioButtonTableExample(){ super( "JRadioButtonTable Example" ); UIDefaults ui = UIManager.getLookAndFeel().getDefaults(); UIManager.put("RadioButton.focus", ui.getColor("control")); DefaultTableModel dm = new DefaultTableModel(); dm.setDataVector( new Object[][]{ {"Group 1",new JRadioButton("A")}, {"Group 1",new JRadioButton("B")}, {"Group 1",new JRadioButton("C")}, {"Group 2",new JRadioButton("a")}, {"Group 2",new JRadioButton("b")}}, new Object[]{"String","JRadioButton"}); JTable table = new JTable(dm) { public void tableChanged(TableModelEvent e) { super.tableChanged(e); repaint(); } }; ButtonGroup group1 = new ButtonGroup(); group1.add((JRadioButton)dm.getValueAt(0,1)); group1.add((JRadioButton)dm.getValueAt(1,1)); group1.add((JRadioButton)dm.getValueAt(2,1)); ButtonGroup group2 = new ButtonGroup(); group2.add((JRadioButton)dm.getValueAt(3,1)); group2.add((JRadioButton)dm.getValueAt(4,1)); table.getColumn("JRadioButton").setCellRenderer(new RadioButtonRenderer()); table.getColumn("JRadioButton").setCellEditor(new RadioButtonEditor(new JCheckBox())); JScrollPane scroll = new JScrollPane(table); getContentPane().add( scroll ); setSize( 200, 140 ); setVisible(true); } public static void main(String[] args) { JRadioButtonTableExample frame = new JRadioButtonTableExample(); frame.addWindowListener(new WindowAdapter() { public void windowClosing(WindowEvent e) { System.exit(0); } }); }} 
+     
+    
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+	 
+      ---------------- InvisibleNodeTreeExample.java -------------------  /* (swing1.1) */ import java.awt.*;import java.awt.event.*;import javax.swing.*;import javax.swing.tree.*;import javax.swing.border.*; /** * @version 1.0 01/12/99 */public class InvisibleNodeTreeExample extends JFrame {  public InvisibleNodeTreeExample() {    super("InvisibleNode TreeExample");        String[] strs = {"swing",     // 0       "platf",     // 1       "basic",     // 2       "metal",     // 3       "JTree"};    // 4                                                 InvisibleNode[] nodes = new InvisibleNode[strs.length];    for (int i=0;i   public static void main(String args[]) {    InvisibleNodeTreeExample frame = new InvisibleNodeTreeExample();    frame.addWindowListener(new WindowAdapter() {      public void windowClosing(WindowEvent e) {System.exit(0);}    });    frame.setSize(300, 180);    frame.setVisible(true);  }} 
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+      Try These Swing Examples..  ------------------------- InvisibleTreeModel.java  -------------------------  /*  (swing1.1) */ import javax.swing.tree.*; /** * @version 1.0 01/12/99 */public class InvisibleTreeModel extends DefaultTreeModel {   protected boolean filterIsActive;   public InvisibleTreeModel(TreeNode root) {    this(root, false);  }   public InvisibleTreeModel(TreeNode root, boolean asksAllowsChildren) {    this(root, false, false);  }   public InvisibleTreeModel(TreeNode root, boolean asksAllowsChildren       ,boolean filterIsActive) {    super(root, asksAllowsChildren);    this.filterIsActive = filterIsActive;  }   public void activateFilter(boolean newValue) {    filterIsActive = newValue;  }   public boolean isActivatedFilter() {    return filterIsActive;  }   public Object getChild(Object parent, int index) {    if (filterIsActive) {      if (parent instanceof InvisibleNode) { return ((InvisibleNode)parent).getChildAt(index,filterIsActive);      }    }    return ((TreeNode)parent).getChildAt(index);  }   public int getChildCount(Object parent) {    if (filterIsActive) {      if (parent instanceof InvisibleNode) { return ((InvisibleNode)parent).getChildCount(filterIsActive);      }    }    return ((TreeNode)parent).getChildCount();  } }  ---------------------- InvisibleNode.java ----------------------  /*  (swing1.1) */ import java.util.*;import javax.swing.tree.*; /** * @version 1.0 01/12/99 */public class InvisibleNode extends DefaultMutableTreeNode  {   protected boolean isVisible;   public InvisibleNode() {    this(null);  }   public InvisibleNode(Object userObject) {    this(userObject, true, true);  }   public InvisibleNode(Object userObject, boolean allowsChildren         , boolean isVisible) {    super(userObject, allowsChildren);    this.isVisible = isVisible;  }   public TreeNode getChildAt(int index,boolean filterIsActive) {    if (! filterIsActive) {      return super.getChildAt(index);    }    if (children == null) {      throw new ArrayIndexOutOfBoundsException("node has no children");    }          int realIndex    = -1;    int visibleIndex = -1;    Enumeration enum = children.elements();          while (enum.hasMoreElements()) {      InvisibleNode node = (InvisibleNode)enum.nextElement();      if (node.isVisible()) { visibleIndex++;      }      realIndex++;      if (visibleIndex == index) { return (TreeNode)children.elementAt(realIndex);      }    }          throw new ArrayIndexOutOfBoundsException("index unmatched");    //return (TreeNode)children.elementAt(index);  }   public int getChildCount(boolean filterIsActive) {    if (! filterIsActive) {      return super.getChildCount();    }    if (children == null) {      return 0;    }          int count = 0;    Enumeration enum = children.elements();          while (enum.hasMoreElements()) {      InvisibleNode node = (InvisibleNode)enum.nextElement();      if (node.isVisible()) { count++;      }    }          return count;  }   public void setVisible(boolean visible) {    this.isVisible = visible;  }    public boolean isVisible() {    return isVisible;  } }  ---------------------------------- InvisibleNodeTreeExample.java ----------------------------------   /* (swing1.1) */ import java.awt.*;import java.awt.event.*;import javax.swing.*;import javax.swing.tree.*;import javax.swing.border.*; /** * @version 1.0 01/12/99 */public class InvisibleNodeTreeExample extends JFrame {  public InvisibleNodeTreeExample() {    super("InvisibleNode TreeExample");        String[] strs = {"swing",     // 0       "platf",     // 1       "basic",     // 2       "metal",     // 3       "JTree"};    // 4                                                 InvisibleNode[] nodes = new InvisibleNode[strs.length];    for (int i=0;i   public static void main(String args[]) {    InvisibleNodeTreeExample frame = new InvisibleNodeTreeExample();    frame.addWindowListener(new WindowAdapter() {      public void windowClosing(WindowEvent e) {System.exit(0);}    });    frame.setSize(300, 180);    frame.setVisible(true);  }}     
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+      I will be together with my colleague for an Intro discussion to java tomorrow.... Well, I have news that all slots are taken.... Like the beatles huh ! :D hehehe 
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+      The Problem:   There are many web application platforms that are in common use, and even more frameworks. Typically, a web-application is built for a specific framework on a specific platform (e.g. using custom JSP tag-libraries on the J2EE platform, a custom Perl collaboration API using CGI, or a pre-written application using PHP). A web-site may usually consist of many web- applications built with a variety of technologies.    However, while individually each of these web-applications may look and perform as expected, they are often hard to integrate with the page layout of the existing site and can often end up isolated, attached to the site merely by a hyperlink. The most common reason for this is if a site is a mixture of custom developed pages/applications and pre-written 'out-of-the-box' software. This software may not be configurable enough to be given the desired look and feel of the rest of the site, or may be developed using a different technology to the rest of the site, restricting the developer from using fragments of the application in other pages of the site.    For example, how many times have you been to a site that has a very consistent feel all the way through, only to get to the 'search-results' page and wonder if you were still on the same site? Or how many times have you seen a framework or web-application that you would love to use on your site but it will not integrate with what you already have?   The Solution:  The solution is to work with the HTML that is generated by the various web-apps instead of hacking at the underlying code (although SiteMesh is primarily geared towards HTML based sites, it is built in an extensible manner allowing it to be easily adapted to other mediums such as XML, WML, PDF, etc).   Each application should produce a plain vanilla version of the HTML content it wants to display. How this is achieved does not matter - it could be a static HTML page, XML/XSL transformation, Servlet, CGI script, etc.  The HTML content is intercepted on its way back to the web-browser where it is parsed. The contents of the     tag and the     tag are extracted as well as meta-data properties of the page (such as title,     tags and attributes of the     and     tags).    From the extracted meta-data, an appropriate Decorator is determined. A decorator can be thought of as a skin for a page - it wraps a plain looking page with a consistent look and feel. This decorator then overlays the original page.    To use SiteMesh, it needs to be  urlLink installed, configured  and  urlLink have some decorators created . This process can be completed in minutes, and no coding experience is required. No changes need to be made to your existing web- pages/applications!  
+     
+    
+</post>
+
+
+</Blog>

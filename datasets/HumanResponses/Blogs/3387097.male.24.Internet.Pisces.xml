@@ -1,0 +1,159 @@
+<Blog>
+
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      When we first arrived at Ohare airport in Chicago, Ill we reported to the USO lounge and signed in with the receptionist. Recruits arrived throughout the day from different parts of the country and even one from Puerto Rico. The recruit from Puerto Rico would eventually become the Recruit Cheif Petty Officer (RCPO) of our division, Rentas was his name. Eventually the staff from Great Lakes arrived to begin inprocessing. We sat down on the floor and filled out our graduation packets and put tags on our luggage. We also were issues our dog tags and our recruit pen. The recruit pen is a very important part of your daily uniform, it must hang on your dog tag chain along with the key to your seabag/AB drawer lock. If you are caught without your pen you will most likely be dropped. Another important thing to remember about your dog tags is to always keep them tucked into your shirt touching your skin. If you are caught with your dog tags outside of your shirt it wont be pretty. After finishing the some medical paperwork we were checked to ensure that our weight and height that are within standards. If you are over you will have your body fat taken at the airport. A few recruits were sent home for not meeting body fat requirements so make sure you are within standards before you go. 
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      RDC: "Our next exercise will be jumping jacks, we will do 25 of them."  DIVISION: "Only 25?'  RDC: "Only 25, Come to the ready!!!"  DIVISION: "Always ready!!!!"  RDC: "Begin"  DIVISION: "1,2,3,1,1,2,3,2.............."  RDC: "Relax"  DIVISION: "Never!!!" 
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      Chief Schwiekert: "Tex if you drop dead im going to kill myself and come after you"  Chief Schweikert: "Lets go Lets go your movin way to slow, I dont like to be kept waiting people"  Petty Officer Campbell: "You got that creamy filling in your head keepin those neurons from firing"  Petty Officer Gordon: "Mr. Bean your fired" 
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      You will learn the rules of Galley 928 relatively quickly once you start boot camp. There is absolutely no talking while in the Galley. You can talk and try to hide it but if you get caught be ready to face the consequences. First our division would line up three abreast outside of the galley and post the division flag. The AROC will give the command "Columns file from the left (or right depending on the line) last recruit say last recruit". The division will file into the galley and line up three abreast inside of the "Blue works". The blue works are the railings that guide divisions to the proper line within the galley. The first recruit to reach the chow line will sound off "Hostess Division 819 first recruit through your blue works" and the last recruit to be seated at the table will sound off "Hostess Division 819 last recruit to be seated". This is the signal for the hostess to start the timer giving the Division 10 minutes to eat. We eat in silence and use hand signals to ask for napkins and condiments. Once the time is up the hostess says "Division 819 on your feet", at this time everyone in the division gets up and starts putting on thier outer garments. About this time the RDC would usually start motivating us by saying that we were moving way to slow. Once everyone was dressed each person would put thier tray away and file out to the grinder (aka parking lot) and line up in division (or element if there are less than 38 recruits) formation. Then it was on to our next destination.
+     
+    
+</post>
+
+
+<date>09,June,2004</date>
+<post>
+
+	 
+        urlLink   
+</post>
+
+
+
+<date>27,May,2004</date>
+<post>
+
+	 
+      >># chown -R userName:groupName ./ Change ownership of everything in the current directory and below to the specified user and group.
+     
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+	 
+      >># umount /dev/myvg/homevol  >># e2fsadm -L+1G /dev/myvg/homevol  Increases the capacity of a logical volume by 1 Gigabyte 
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      >># export CVSROOT=/usr/local/cvsroot  >># cvs -d /usr/local/cvsroot init  Initializes a CVS repository
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      >># df -h  Show filesystem disk space usage in human readable format 
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      >># ls Lists all files and directories in the current directory.
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      >># grep -lr thistext ./  Searches the current directory and all subdirectories for the character string "thistext" 
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      >># dd if=/dev/cdrom of=/path/to/nameof.iso  Creates an iso image of a cdrom on the hard disk 
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      >># who  Shows a list of users currently logged on with thier ip address
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      >># scp filename.ext user@host.com:/path/to/remote/file.ext  Securely copies a file from a local computer to a remote host 
+     
+    
+</post>
+
+<date>03,June,2004</date>
+<post>
+
+	 
+      >># find ./ -mtime +21 -exec ls -l {} This command will find all files modified more than 21 days ago and list them. 
+     
+    
+</post>
+
+<date>02,June,2004</date>
+<post>
+
+	 
+      >># vncserver :1 -name "My Name" -depth 8 -geometry 1280x1024 This command starts a vncserver instance in a windows named "My Name" with 8 bit color depth and a resolution of 1280x1024.  >># vncserver -kill :1 This command kills a vncserver instance on display :1
+     
+    
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+	 
+      >># export CVS_RSH=/usr/bin/ssh >># cvs -d :ext:user@domain.com:/cvs/home checkout packageName This command tells cvs where to find the ssh command and then checks out the package specified by packageName to the current directory.  
+     
+    
+</post>
+
+
+</Blog>

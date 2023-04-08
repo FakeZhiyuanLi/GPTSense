@@ -1,0 +1,28 @@
+<Blog>
+
+<date>30,June,2004</date>
+<post>
+
+	 
+      If you remember playing the old computer game '7th Guest' then you might remember the 8 Queens problem. The goal is to place 8 Queens on a chess board in such a way that no queen can attack another. It can be quite frustrating since it isn't very hard to place 7 queens, its getting that 8th that will drive you crazy.  This is the problem I had to solve for my AI class. We are learning Constraint Satisfaction Problems. The method we are using is Backtracking and Forward Checking. After about 3 days of beating my head around Backtracking I finally was able to code it up. Now all I need to do, is get Forward Checking working.  The main problem with Backtracking is that it will test every position even when it is known to be wrong. Thats where Forward Checking comes in. It will automatically eliminate all  incorrect solutions before it starts placing the next queen. How smart.  Once I have the java code finished I will post it for the world to see and laugh at my terrible coding. For the time being here is just the 'solve()' function from my code:     public static boolean solve(Queen[] q, int k) {     int col = 0;     for(col = 0; col      {         if (isLegal(q, col)) {             q[k].setColumn(col);             if (k >= 7){                 return true;             } else {                 if (solve(q, k+1)) {                     return true;                 }else{                     q[k].remove();                 }             }         }     }              return false; }   
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+      Okay, first of all, this isn't a blog for anyone else other than myself. If you happen upon this blog, then feel free to look around and explore, but I doubt you will find much of any interest. I am a wholly un-original person (hence the title). I am not funny, nor do I write very well.  The true purpose of this site is for my own amusement. It is a creature that I might do my insidious and sinister experimenting. There might be times in which I update everyday, or I might go weeks on end without a single post; I just don't know.  Also, all views expressed on this site are strictly mine. If you don't agree with them, then that is your problem, not mine.  Without further ado...let the blogging begin.
+    
+</post>
+
+<date>14,July,2004</date>
+<post>
+
+	 
+      I have always had a hard time remembering dates and special occasions. Usually not the biggies like Christmas or Thanksgiving, but the smaller, more personal dates like birthdays and anniversaries. Since, I am also interested in PHP, I had the idea to create a web based calendar that can help me remember events. Right now, the calendar is just a bar bones object. I set it up in such a way that to use it all one needs to do is include the .php file on the web's and link to the stylesheet that goes with it (otherwise you would get a boring calendar with no colors :-( and we like colors).   urlLink Here  is what I currently have. You can change dates by click on the date you want. It doesn't rollover the year (ie Dec. 04 -> Jan. 04, not Jan. 05) and it uses 'get' variables to move from day to day which is something I would like to change, I'm just not sure how to do it. Anyway, if anyone else in the world that knows PHP happens to see this feel free to give me any ideas or criticisms.  The code itself is pretty self explanatory. Most of the work is done in the calendar class. So in order to use it all one would have to do is create the object and call the 'draw()' method. Of course this requires putting the HTML and CSS references in the class making it necessary to have the stylesheet to use the calendar. It still works without the stylesheet but it doesn't look very interesting.  If I were to put a version number on this, I would give it about a 0.05 because I still haven't implemented all of the features I want yet. The next big thing I would like to get is rollover year where going to Dec to Jan and Jan to Dec automatically changes the year. I also want to move away from 'get' variables as well.  
+    
+</post>
+
+
+</Blog>

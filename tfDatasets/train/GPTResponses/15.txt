@@ -1,0 +1,1 @@
+The number of bits in the primes used for RSA public key cryptography algorithms varies, but commonly used values are 1024, 2048, and 4096 bits. The choice of key size depends on the required level of security and the computational resources available.

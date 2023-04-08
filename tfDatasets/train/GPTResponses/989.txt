@@ -1,0 +1,1 @@
+The number of symbols in a gene varies depending on the length of the DNA sequence that makes up the gene. On average, a gene in humans contains approximately 10,000 symbols. However, some genes are much longer or shorter than this average, and therefore may have more or fewer symbols.

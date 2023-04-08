@@ -1,0 +1,94 @@
+<Blog>
+
+<date>28,May,2004</date>
+<post>
+
+     
+           In the same week I came across this question from 2 different people. One from the mailing list I subscribed to and the other one from a long time friend (Calling himself J2EE 'Veteran').  Question : Does Java methods use pass by value or pass by reference ?  The answer is :        "Java does manipulate objects by reference, and all object variables are references. However, Java doesn't pass method arguments by reference; it passes them by value."  Here is an excellent article explains this in a very simple way.  http://www.javaworld.com/javaworld/javaqa/2000-05/03-qa-0526-pass.html
+     
+    
+</post>
+
+<date>03,May,2004</date>
+<post>
+
+     
+      Software is interesting.. Sean Mcgrath  urlLink writes   in ITWorld about mysteries of software development.   Software is interesting.   At the end of the day, running software is nothing more than large sets of numbers undergoing manipulations through complex mathematical functions (known as algorithms) which are themselves, nothing but numbers.   Reuse is interesting.   We always strive for reuse in the software we create. Some of the functions we use are timeless and occur over and over again. Interest rate calculations, the number of working days between two arbitrary dates, that sort of thing. We put these general purpose functions into so called 'libraries'. We try to reuse these libraries of functions over and over again through the parameters they give us access to. However, in most non-trivial software projects, there are many more custom-designed functions than there are reusable functions.   Programmers are interesting.   In order to stay sane, most programmers concentrate on the part of the problem they are working on today. As a consequence, their view of what pieces of the functions under development need to be parameterized and which do not, tends to be a quite low level. Indeed, most of the items programmers will chose to parameterize will amount to double dutch to the business analysts.   Ask a Web services programmer to parameterize an application and the result might be that you can swap XML parsers without significant code changes or use a different transport protocol without code changes. Ask a business analysts to parameterize an application and they will most likely wish to be able to change business logic without significant code changes or add fields to databases without significant code changes. The two views of parameterization are equally valid but poles apart.  
+     
+    
+</post>
+
+<date>30,December,2003</date>
+<post>
+
+     
+       Web Services - A Technical Introduction (Part 1)    What is web service?  There are different kinds of definitions available for web services. Here is my take, Web Service is a way to integrate application components from different applications (within or outside of enterprise) using a standard set of protocols.   Here is more formal definition from IBM white paper,  Web Services are a new breed of web application. They are self-contained, self-describing, modular applications that can be published, located and invoked across the web. Once a web service is deployed, other applications (or other web services) can discover and invoke the deployed service.   Another definition from psgroup white paper,  A Web Service is a URL-addressable software resource that performs functions and provides answers. A Web Service is made by taking a set of software functionality and wrapping it up so that the services it performs are visible and accessible to other software applications.   The working definition of a Web service from W3C Web Services Architecture  A Web service is a software application identified by a URI, whose interfaces and binding are capable of being defined, described, and discovered by XML artifacts, and supports direct interactions with other software applications using XML-based messages via Internet-based protocols.    There have been similar techniques like EDI (Electronic Data Interchange) to exchange message/data between enterprises. There were no standard protocols for doing that. Enterprises have been using their own custom formats. What web services offer is a set of platform-independent and language-independent standards that not only makes application integration easy, but also giving a new ways to build custom applications by combining multiple Web Services. Web Services lowering the effort and costs associated with Application interoperability.    Web Services - Architecture    TCP, HTTP, XML  These three standard elements are the base for the web service architecture.   1. TCP/IP (Transmission Control Protocol/Internet Protocol)  TCP/IP is the Universal networking protocol. The Internet is running on this protocol, most of networks can communicate through TCP/IP. HTTP, SMTP, FTP are built on this transport protocol. TCP/IP is more a low level protocol. As a web service developer, it is not necessary to know TCP/IP protocol details.   2. HTTP (Hyper-Text Transmission Protocol)  HTTP is the most widely used communication protocol. Most of the browsers support HTTP. By using this HTTP protocol alone we can develop a complete Web Service application (REST-HTTP/URI Services), which we are going discuss in our article of this series.   3. XML (eXtensible Markup Language)  XML is a markup language to represent structured information. The XML specification defines a standard way to add markup to documents. Unlike Html, xml only focuses on the structure and content of the data and it is extendable. XML make it is possible for enterprises or developer groups to share data, provided they agree on the semantics of that data in advance. One of the most widely used xml standard is RSS feed format.  Writes Kevin Werbach in Release 1.0, the great thing about XML for Web Services is that its attributes are self-defining. If Sam builds a stock-quote application and defines fields for price and volume, he can enclose them with tags, making it easy for Ethel (or a system she builds) to parse what he was trying to do.  XML is a formatted data which can be exchanged across platforms, applications and tools.   Web Services Framework - publish, find, and bind  On top of the above three base elements there are 3 more entities required to put together the Web Service framework.   1. Service providers:  Service provider is the entity that creates the Web Service. This web service can be any functionality the provider wishes to expose. Service providers have to describe the web service in a standard format and they usually publish the web service details in a remote web service registry.   2. Service registry:  A service registry is a central location where the service provider publishes their web services. Service providers normally publish their web service capabilities in the service registry for service consumers to find and bind to their web service. Registry is not repository, it just stores web service metadata (like yellow pages) not web service itself.   3. Service consumer:  Service consumer is the entity that consumes the Web Services. The service consumer can know the functionality of a web service from the description made available by the service provider. To know these details, it does a find in the service registry and bind to service provider's web service in turn to invoke that web service.  Generally there are three types of operations are involved in any web service.  1. Publish  Publishing involves registering services to a registry (publishing) or removing these entries from Registry (un-publishing)   2. Find   Find involves finding services from service registry by Service consumer.   3. Bind  Binding takes place between the service requester and the service provider.  There are standards exists for all of the above elements. Web Service is published by using WSDL, Find is done via UDDI and SOAP is being used for Binding. The data exchange is done via XML. The underlying transport protocol for Web Services is the same as that used for accessing documents on the internet – HTTP.   SOAP, UDDI, WSDL    1. SOAP (Simple Object Access Protocol)  SOAP is neither a programming language nor an API. It is just a protocol, which gives a standard way to pass XML data over HTTP. But SOAP is not only bound to HTTP, it can be bound to any other transport protocol like SMTP, FTP and so on.   Service Description - WSDL (Web Services Description Language)  WSDL provides a way for service providers to describe the basic format of web service requests over different protocols or encodings. WSDL is used to describe what a web service can do, where it resides, and how to invoke it.     Service Publish & Discovery - UDDI (Universal Data Discovery and Integration)  UDDI provides a way for service providers to publish information about their services. It is metadata of the web service. It contains information like where the service located and what it does, etc.   Next week : Web Services - The REST way (part 2) 
+     
+    
+</post>
+
+<date>08,August,2003</date>
+<post>
+
+     
+      Ok. I am still alive. It's almost 4 months since I posted here. Lot of things happened in the mean time, even I moved to a different  urlLink company . Hopefully I could able to post often from now onwards.
+     
+    
+</post>
+
+<date>08,August,2003</date>
+<post>
+
+     
+        Nothing that is worth doing can be achieved in our lifetime; therefore we must be saved by hope. Nothing which is true or beautiful or good makes complete sense in any immediate context of history; therefore we must be saved by faith. Nothing we do, however virtuous, can be accomplished alone; therefore we are saved by love. No virtuous act is quite as virtuous from the standpoint of our friend or foe as it is from our standpoint. Therefore we must be saved by the final form of love which is forgiveness.    - Reinhold Niebuhr (Link via  urlLink Atanu dey )
+     
+    
+</post>
+
+<date>04,August,2003</date>
+<post>
+
+     
+      Stefan Hepper and Stephan Hesmer  urlLink writing  a two-part series about Java Portlets in  urlLink JavaWorld . Stefan is one of two specification leads for the Java Portet spec( urlLink JSR 168 ).
+     
+    
+</post>
+
+<date>30,July,2003</date>
+<post>
+
+     
+      I was waiting for this  urlLink JSR  for a very long time. I didn't notice this has been released 2 weeks back for  urlLink public review . Why don't they give some kind of RSS feeds for each JSR so it can alert us on time.  I have to find some time this weekend to read this Portlet specification.
+     
+    
+</post>
+
+<date>23,July,2003</date>
+<post>
+
+     
+       urlLink Enterprise Directory Services in Linux  (link via  urlLink Rajesh )    An enterprise directory is a repository of concrete and metadata objects which describe the relationships between all of the objects in a computationalecosystem. Examples of concrete data objects include usernames, passwords, computer names, printer names, IP addresses, home directories, and so on. In general, these are objects you can see, touch, or manipulate directly.   The other set of objects managed by a directory are almost all "metadata"--literally "data about data." Metadata objects don't have any meaning unto themselves. Some aggregate concrete objects. Others describe relationships: to a concrete object, to a concrete object's attributes, or to other metadata objects. Examples of directory metadata objects include groups of users or groups of computers, organizational units such as the marketing department, access control lists, password expiration times, computer configurations, software configurations, application license keys and end-users rights identifiers, print queue descriptions, campus locations, office/cubicle numbers, phone number data, and even relationships between enterprise  applications that need to talk to each other.  A fully developed directory service contains enough information to allow an IT staff to manage totally an infrastructure from the infrastructure's configuration to the day-to-day operational data needed for simple tasks: from allowing users to print to the right printers to complex tasks like holding credentials and data transformation rules used by applications. It must also allow for the delegation of roles and responsibilities so that interns can't destroy enterprise databases or modify accounts but senior sysadmins aren't clearing paper jams from print queues either.    Enterprise Directory is handy when it comes to store user details in big Enterprises. I have written a few web services for Ldap related functions like authentication, authorization etc. Basically it's a JNDI methods exposed as a web service using JAX-RPC. I have to find some time to prepare a readme for those web services and post it here also. Will be doing soon. 
+     
+    
+</post>
+
+<date>15,July,2003</date>
+<post>
+
+     
+       urlLink Build an open source IDE with jEdit   Javaworld has a nice article about jEdit IDE. I have used this for a while and didn't notice that it has so many features.  I liked two things in jEdit, first it's a most lightweight IDE i have ever come across and it has nice source code beautification.  In this article Robert explains how to configure CVS, Junit and Ant with jEdit and explaining how to develop your own plug-ins using jEdit Plug-in API.
+     
+    
+</post>
+
+<date>07,July,2003</date>
+<post>
+
+     
+       urlLink Generics in Java   This article gives a quick overview for some of the new features coming in Java 1.5.  1. Generics syntax  2. Autoboxing/unboxing  3. Generic Collections API  4. Generic methods  5. Covariant return types  Related JSR can be found  urlLink here .
+     
+    
+</post>
+
+
+</Blog>

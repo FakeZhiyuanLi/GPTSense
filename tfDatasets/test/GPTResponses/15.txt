@@ -1,0 +1,1 @@
+Bertrand's postulate states that for any integer n greater than 1, there exists at least one prime number p such that n < p < 2n-2.Mathematically, this can be expressed as:∀ n > 1, ∃ p such that n < p < 2n - 2 and p is prime.

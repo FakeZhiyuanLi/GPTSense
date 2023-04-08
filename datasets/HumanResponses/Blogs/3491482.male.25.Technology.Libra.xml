@@ -1,0 +1,775 @@
+<Blog>
+
+<date>29,June,2004</date>
+<post>
+
+    
+       Steve Job's  urlLink previewed and released  details of the latest Apple OSX release to attendees of WWDC.  To the pedestrian OSX user, this release is going to look like OS 10.3 with the addition of  urlLink Konfabulator  made to look like something called a dashboard and a new search tool featuring technology and functionality long available in a  free  application called  urlLink Quicksilver .  Oh, and don't forget the RSS news aggregation feature currently available in countless free toolbar applications and web sites. 
+ 
+ 
+Plenty have take note to the similarity of Tiger's new features and some of the add-on software currently available for 10.3 (Panther).  Konfabulator's author has  urlLink blown the whistle  louder  urlLink than those at Blacktree , overseeing development of the Spotlight predecessor. 
+ 
+ 
+Before you boycott OS 10.4 however, be sure to check out some of the other features and innovations that far outshine those touted as being most useful. These less obvious innovations will continue to keep OSX way ahead of it's less polished *nix counterparts and light years beyond anything coming out of Redmond.  
+ 
+     urlLink Automator 
+   
+    Think shell scripting for the GUI.  No, not AppleScripts. Easier and intuitive to create. No programming required.  Can really help to speed up anything repetative you do on a mac, like reloading Slashdot :)
+   
+     urlLink Hardware Accelerated Image Manipulation 
+   
+     And you thought graphics performance screamed with the Quartz engine...
+   
+     urlLink Voice Commads 
+   
+     For the visually impared or those of us with wrists wrought with carpal tunnels.   Hal, start Safari.  
+   
+
+ 
+ 
+ 
+Lastly, it would seem that the major release of OSX is not timed for the desktop upgrades as much as it is the Server upgrade.   urlLink The server version of 10.4  adds many features that can currently be found in other enterprise Unix releases, but are new to OSX. 
+    
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+    
+       Since most of my friends already have Gmail accounts, I decided to give the remainder of my invitations away for token goods or services on  urlLink Gmail Swap .  There are some pretty silly and un-inspiring requests for invitations, but if you are quick on the reload button, you can sometimes find a good one which has not been satisfied already.  
+  
+So far my invitations have gone to:
+
+ 
+    5 friends without existing accounts
+     urlLink A person  creating a web log  urlLink review  of Gmail.  
+     urlLink A person  offering to give food to a homeless person. 
+     urlLink A person  providing  urlLink scenic photographs of Rio De Janeiro 
+ 
+
+All of this is a result of  urlLink my own invitation  earned by working to revamp someone's  urlLink web log .  
+  
+The funny thing about Gmailswap.com is that you have to be really quick in order to satisfy just about any request.  My request was satisfied in less than a minute and some don't last longer than a few seconds!  It would seem as though there are more invitations than there are people willing to do something for them.   You wouldn't know this by trolling eBay and noting all the invitations being sold for $30 - $50. 
+ 
+    
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+    
+       Following Yahoo's increase of free web mail account quotas to 100MB, Hotmail  urlLink announced  that they would soon boost the capacity of their accounts to 250 MB.  I could have told you this early in May when I was in Redmond interviewing with MSN.  One of the "casual" lunchtime questions I was
+asked involved how I thought Google was able to offer 1GB of mail to a potential X million number of people with clusters that number only in the 10's of thousands.  I ventured that they were using some sort of on-the-fly compression custom tailored for mail messages.  I also assume that only one copy of mail that is sent  en-masse  to hundreds of address is ever stored. I am sure there is much more to it than 200GB disks though. 
+  
+All of this is tangential to the real issue however.  Gmail is not about the storage, it's about the super slick DHTML user interface, the ability to search through messages with the accuracy of the worlds best search engine and a little known, but innovative labeling feature which far surpasses folders as a way to organize mail.  The initial buzz can be attributed to the "invitation only" nature of the once exclusive accounts and the fact that well, it comes from Google. When's the last time you heard anyone get really excited about anything that came from Microsoft?
+  
+My short note to MSN, Yahoo and AskJeeves:  Gmail is not about the storage, it's about the innovation.  These companies need to stop following the leader and innovate in their own unique way if they are to topple the king of Internet information organization. 
+    
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+    
+       In this context, YAMBS stands for  y et  a nother  M icrosoft  b otched   s tandard.  I found out today that  urlLink some transparent PNG's  on  urlLink my web site  were being displayed with an ugly blue background in IE 5.5+. It seems as though Microsoft neglected to support the full PNG standard.  I did all of my testing on OSX/Safari/Mozilla and Linux/Firebird, so this was news to me.  
+  
+I guess I assumed that with the advent of the CSS1 and CSS2 standards and their wide adoption by most, that browser specific inconsistencies like these were going the way of the Dodo.
+  
+What is the solution then?  Well it's pretty simple.  Here is how you display an image in all browsers except IE 5.5+:
+ 
+ &lt;img src="transparent.png"&gt; 
+   
+and here is how that same  img  tag needs to be coded in order for the image to look the same in IE 5.5+:
+ 
+ &lt;img src="transparent.png" style="width: 100px; height: 100px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='transparent.png', sizingMethod='scale')" /&gt; 
+ 
+Of course, all you have to do is include the   DXImageTransform.Microsoft.AlphaImageLoader  attribute of the filter property in the image style.  Why didn't I think of that?
+  
+There is  urlLink a nice little JavaScript  you can use to fix all of your .png images in a page if you have a hard time remembering to include the   DXImageTransform.Microsoft.AlphaImageLoader  attribute of your images' filter style property.  
+ 
+    
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+    
+       It's funny, back in '96 when everyone was picking "online" names for
+themselves to use as email addresses and such.  I could never think of
+anything unique and creative that well described me. I figured: what's
+wrong with what's wrong with  bstrathearn  or
+ williamdanielstrathearn ?  I couldn't ever think of
+anything unique and creative to describe myself.
+  
+ Then the other day, I had to pick another login for some inane
+website and  BillyTheKid  just popped into my head.  I
+thought, that's
+it: that's the login name I've been looking for since 1996.  So now
+it's incorporated into my new Gmail address and I now have a cool
+online moniker in a time corporate email addresses are standardized to
+first.last notation and  everyone else is clamoring to get invited to
+Gmail in time to snag  john.smith@gmail.com .
+ 
+ 
+The good thing about being so far behind the times is that you are
+inline for the next revolution when what's old becomes cool again. 
+What's the coolest online moniker you've ever gone by? 
+    
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+    
+       After sending someone a Gmail invitation in exchange for  urlLink something small , they asked if I worked at Google.  I am not sure what prompted this inquiry, but coincidentally I had just gotten through the interview process at Google.  This young aspiring computer scientist, still in High School, wanted to know what it took to get a job at Google. Even though I was not successful in landing a job there, having studied Computer Science for the last 8 years and now entering the job market myself, I started to think about all the right things someone could do to increase their chances of finding gainful employment, at Google or elsewhere.
+  
+Getting into Google isn't easy. %It's probably the most difficult employer to get a job with at the moment. %I just graduated with a Masters Degree and with research experience on various problems common to Internet search engines and they still didn't hire me. Google wants the best of the best and there is no formula that will make you the cream of the crop. However, if you want to increase the chances of getting hired by anyone notable, learn from others successes and mistakes and use the following 10 steps as a guide in your journey. 
+ 
+ Make sure you know what you're getting into ahead of time. 
+  Take any AP Math or C.S. classes your high school offers   Start puzzle solving.  Many common Computer Science problems relate to puzzles in some way, so it's nice to be familiar with the problem solving process as early as possible.   Keep your GPA up and try to get into on of the  urlLink Top 30 C.S. Schools . If you can only get into schools ranked 50th or lower, you may want to re-think your major, at this moment, there just isn't much capacity in the industry for the un-washed masses at smaller un-ranked schools.  Get high marks on your programming assignments   start early  work in the shared lab to learn from others    Once you know the basics, try hard for internshipnships or college work that involves programming.  Look at or hack on an Open Source project in your spare time     Start small with what you know best   Keep track of what you contribute   Network and make friends in the community.     Choose your upper division classes carefully, they will shape what you can specialize in later on. Stay away from Computation Theory unless you plan to move on to a Ph.D. Take a software engineering course if it's offered, they're ten times more useful than any theory course.    In your senior (college) year, ask around your department to see if you can help a professor on any research project.  It will give you great experience and is good resume padding.   Apply early to the large companies.  The top 10 employers hire a majority of fresh graduates and are the most willing to invest in your future.  Smaller companies are primarily looking for experienced employees who won't require any training.   
+    
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+    
+       Innovation in recent major PC  urlLink operating system releases  have mainly focused on advances in  urlLink usability ,  urlLink asthetics  and  urlLink meta information   urlLink search .  The core (kernel) of the Windows and OS X operating systems have remained un-changed for a number of years.  Additionally, the new OS of choice for server systems (Linux) encounters, along with it's wide adoption and growing developer base,  kernel bloat  and inertia related resistance to change.  The bloat of the kernel and the size of the developing community make it difficult to make significant changes to some of the basic componetnts, left unchanged since it's inception in 1994.    urlLink FreeBSD  on the other hand, has remained relativly small and lightweight.  It continues to be the choice for server deployments where raw performance rather than software support is the focal point.  A  urlLink group of talented teamembers  from the FreeBSD developer core, had their own ideas about how to improve BSD's SMP implementation.  The differences in opinion resulted in a fork of the FreeBSD source and a new project called  urlLink DragonFlyBSD  that promises to focus on cluster performance.  The project's  urlLink goals  include the re-design of a majority of the BSD kernel that have remained dormant over the years.       urlLink Caching Infrastructure      A great proposal for a distributed file cache that allows separate processes to concurrently read and write to disjoint sections of a file.  Current Linux close semantics allow the last closing process to clobber changes made by any other processes with the same file handle that made changes before the last close. This will be useful in parallel processing where data is often partitioned (and access concurrent), but not always split into individual files.  Current distributed file systems get around this by creating many small files that represent one large virtual file.  Native support in the OS will mean that the awkwardly programmed small file paradigm can be replaced and implemented in a much more efficient manner.       urlLink I/O Device Model       The main goal of this change is to remove the dependency of IO operations on a process or kernel thread.  Removing this dependency will allow for concurrent access.  They plan to do this by integrating the IO activity with the VM Object (caching) infrastructure.  In addition to allowing the TCP stack to be read by individual CPU's, the long term goal of this change is to move all device activity into the user space.  I imagine that there will be tight controls on exactly which processes can access a device.  One of the immediate advantages to this innovation is the extension and modification of device drivers, as well as entire file systems to be developed without root privilege and without tying vfs crashses to kernel crashes.        urlLink The Port/Messaging Model       A really cool model that allows a message to be responded to synchronously, without the overhead of implicit queuing if the thread in charge of that port is not busy.  Currently in Linux, messages sent to network ports are always queued and the sender must always block until the response is available.  All of this produces overhead which the designers of DragonFlyBSD found unnecessary.       urlLink Packages and a Solution to Dependency Hell      Anyone whose ever installed software on a Windows machine is familiar with DLL hell.  This is the problems that arise when installed applications overwrite the shared libraries or remove them when the application is un-installed.  The later problem has been resolved in Windows versions later than 9X.  As OSS development cycles increases, this problem is presenting itself in the context of Linux and package management systems like RPM and Debian's Deb.  The problem is upgrading or installing a recently developed library can cause a cascading series of upgrades to dependent libraries.  This can often break the applications that depended on the older versions of those upgraded.  The DragonFlyBSD team proposes a system that allows for piecemeal upgrades by allowing libraries and binaries to be versioned.  Under this model, upgrading  libxine  to a development version for the purposes of installing  totem , would keep  mplayer  from losing access to the stable version of  libxine .        urlLink Light Weight Kernel Threading Model       Similar to other LWKT models, solves problems that uniqsue to multi-processor systems.  Thread scheduling is done on a per-cpu basis.  This pretty much restricts threads of the same group to running on the same CPU.  To me, this would be a little restrictive for 8 and 16 ways systems, but how many of those are there left anyway.  Added are capabilities to allow CPUs to be synchronized for the purposes of modifying page table entries shared by 2 or more processes on 2 or more CPUs.  Also added are some really neat serializing tokens that permit a group of threads holding a token to ensure that no other thread in the group is running at the same time.  It also ensures that no thread will be pre-empted by any other running at the same time.  This is analogous to a large monitor or critical section encompassing the entire scope of the thread.         urlLink Portable User API    This is by far one of the cooler features proposed in DragonFlyBSD.  A problem *nix software developers face is the ever changing interfaces to kernel level data structures like those associated with  ioctls  and  vmstat .  These change from one kernel version to the next and tie specific software version to specific kernel version.   If the interface to the userland programs were independent of the underlying kernel implementation, not only can the interface be standardized for all future versions, but other kernels such as Linux and FreeBSD can be emulated in DragonFlyBSD.  Different interfaces can be presented to each library depending on it's kernel dependency and all calls can be translated to the message passing standard implemented by any given DFBSD kernel.        urlLink VFS/Filesystem Device Operations     In short the VFS system would be changed to a multi-threaded message passing system rather than a large reentrant system. This is the major change necessary to take VFS implementations out of the kernel and into user space.  This brings FS development to the level of skill and modification achievable by most developers.  It will ease development by keeping VFS crashes from hanging the entire system and will allow individual FS components to stack on top of each other to they way they should be.   
+
+Those are the major planned innovations in a nutshell.  Others, like those at OSnews are  urlLink thinking about new operating system  / urlLink hardware  and what could be done from scratch.  Their approach is more of a Frankenstein BeOS with Linux running along side, that sounds more hacked than feasible solution.  Maybe this is the biggest advantage DFBSD's message passing kernel and virtual system API has.  Compiling Linux or Darwin or FreeBSD code on DFBSD with no portage or modifications... 
+    
+    
+</post>
+
+<date>14,July,2004</date>
+<post>
+
+    
+        While I work on post regarding the FreeBSD fork, DragonFlyBSD, I'll keep things simple and light with a collection of Flash Animations making their way through blogspace this week.  You may have already seen them, but just in case.. 
+    urlLink Apple "Switch" Ad Parody     urlLink    
+     Lots more reasons to switch to a Mac.  Take it from this stereotypical Mac fanboy as to why you too should be "Hangliding with movie stars and moutain climbing with video artists" with your  urlLink iBook . 
+   Favorite Quote:  every time I start up my iBook, it's saying:  I love you        urlLink Linux "Switch" Ad Parody     urlLink    
+     Taking  urlLink Apple's "Switch" campaign  one step further by featuring a stereotypical Linux geek emphatically listing the wonders and advantages of Linux.   These are not limited to but include: "compatibility with orbiting brain lasers" and the ability to build a "beowulf cluster of atomic superman". 
+   Favorite Quote:  Linux gives us the power to crush those who oppose us       urlLink This Land is Your Land     urlLink    
+     A parody of Arlo Guthrie's "This Land" takes a non-partisan, but heavily sarcastic view of the current presidential campaign.  Makes you wonder whose country this is anyway. 
+   Favorite Quote:  This land will surley vote for me       urlLink Winnebago Promotion Outakes     urlLink    
+     Not flash, but short and funny never the less. Outakes from a internal promotional video used by Winnebago in the late 80's.  The spokesperson seems to be highly agitated at anything and everything dropping 50-60 F-bombs during the course of the shoot.  The real beauty in this clip is the editing and seamless transition from one explosion to the next.  Very funny,  very vulgar.  
+   Favorite Quote:  You're disturbing what's left of my brain       
+    
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+    
+       Recently, Alex Salkever of Business Week, posted a 6 step strategic business plan for Apple.  Why would Apple need a 6 step plan to continue prosperity?  Because 100,000,000 song downloads does not a company make.  To make it big in the PC business, Apple will have to cultivate this success and ensure that it bleeds over to other areas of their product line.  Reason #2, Apple still only has a 2.4% share of the desktop PC market.  
+   
+As I think about why my Dad would likley not give up his Linux & Windows box for a nice shiny Apple like I did, I feel some of these steps are right on targe and inevitable and others are probably misguided.  Will Apple take any of these into suggestion?  Probably not.  Given the companies recent history, they will sustain on the high priced innovative designs that keep them in the niche market and most people from switching. 
+
+ 
+    Price trumps style in the computer market 
+   
+   What is the number one reason keeping most people from switching?   Price !  For most people a PC is a big investment and nobody can see why they should pay twice or four times as much for something that performs the same function in a pretentious slick package.  Most PC consumers would rather spend the 2 grand on a used car, home renovations, food or any of a number of more practical expenses.  
+  
+Apple can't seem to find a way to turn off the drool factor in their releases.  They figure the latest hardware offering can't cool itself with the collective drool of it's owner, it's not worth their effort.  I think this elitism and lofty standard is what is keeping the price up and the commoners out.  Without the commoners, 2.4% PC market share is just not enough to keep production queues full and R&D full of new ideas. 
+   
+   
+    Make 'em cool and cheap 
+   
+If the high priced hardware and elite Californian designers are what is driving the price up, then ditch both and offer a low price, low quality option.  Don't disguise it in bright white lexan and clean crisp lines, put it in a no frills dull package that lets people know it's cheap.  The high quality OS will overshadow the occasional hardware failure.  This is how Dell started out, cheap hardware cheaper prices.  It worked for them and now, as a result of volume have managed to offer high quality hardware and the same market lower bound prices. 
+ 
+ 
+The author points out that Target and K-Mart have found a way to bring high quality designs into cheap products, but I am not sure this will work in the PC market.  If someone is brought to believe that a PC is of superior quality, then the HDD or MoBo smokes, they are going to feel way more screwed than if the package told them that it was a little shaky from the start.   
+   
+   
+    Ditch the all-in-one mantra 
+   
+   This goes along with 1. and 2.  What is a PC owner with a nice $500 LCD screen to do if they want to switch?  Either buy a $2000 G5 or eat the cost of their LCD and buy a iMac or eMac with the integrated screen.  The integration made sense when LCD's were new, and they still make sense for schools and large scale PC labs or Internet Cafes, but it is now another inhibitor to adoption.  Offer a baby G5 or G4 that is small, low powered in form factor, (but not cantaloupe shaped) and watch the switchers come running.  Oh, and stay away from the fan-less cube design, nobody could figure out weather it was a PC or a bookend.. 
+   
+    Offer WIntel Rebates 
+   
+   The idea is to give every person who turns in a 2-3 year old PC a $200 rebate toward the purchase of a Mac.  Probably not going to work considering most people who switch like to keep their PC around for a while just in case incompatibility problems crop up.  It may work for Dell and iPods, but probably not PCs and Macs. 
+   
+   
+    Allow for Trial Purchases 
+   
+   Apple currently allows people buying big enough Xserve clusters to return them within 30 days if they are unsatisfied.  This apeals to the people holding out on a Mac becuase they don't know anyone that has one (to test out) and don't feel that the in-store high pressure try-out allows them to makea complete review.  If they can balance the loss in refurbishing return cost, it might just give people the catalyst they need.  I know I was skeptical about my switch right up intill the 3rd or 4th day I owned it; by that time I was hooked.  
+   
+   
+    Sell Security 
+   
+   Mr. Salkever proposes that Apple capitalize on something known by Sys Admins, but not by mom and pop.  Apples have had far fewer critical security exploits than their Wintel equivalents.  This is due to a number of factors the most important of which is the Darwin/BSD separation of user processes and privlidged root (system) processes and privledge.  This line is being blurred in OS X and it's not clear weather or not or not the current status quo will hold.  Windows has hackers and an enourmous user base finding all possible exploits, but OS X has karma, age and popularity on it's side.  The biggest downside to advertising rock solid security on a complex piece of software; Hackers love a challenge. 
+   
+ 
+  
+    
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+    
+       When you're number #1, success is sweet.  When you're a #1 software company, success is usually short lived.  The software industry churn rate is very high and seems to only be increasing as existing technologies enable for more rapid development.  Many took note of Google's overnight popularity as everyone's favorite  v2.0 search engine  and placed a large red target squarely on the back of the benevolent giant.  Surprisingly those who set their sights where companies not previously in the  SE market.  
+  
+Teoma, Amazon, Vivisimo and MSN have all released Beta or Gold versions of Internet information search engines which promise to rival the results provided by Google.  Although none have produced a refined version worth switching to, that day is now in sight.  Here is a brief list of those efforts to top the gentle giant and why they might just get a slice of the SE market pie.  
+ 
+     urlLink Vivisimo 
+   
+    Automagically clusters documents based on a number of factors.  Not entirely useful for the web, but could gain a big following in large decentralized corporations, where gathering similar documents from disjoint sections of the organization is an exercise in futility. For a more generalized use, check out their  urlLink cluster of Slashdot  stories and articles.  
+   
+     urlLink Amazon.com's A9 
+   
+    Amazon.com's Beta A9 puts the search in the context of each user.  Search customization from the king of personalization. From A9.com:
+ 
+ Adjustable Columns: Simply drag the boundaries between the columns either to the left or the right to change the width of the different result sets (web, books, history). You can also close any column at any time. The next search will remember these new settings (if you allow cookies). This feature does not currently work on all browsers (but we're working on it!).
+ URL Short Cuts: At A9.com you can search directly from the browser URL box by typing:  a9.com/query 
+ Search History: All your searches at A9.com are stored on our servers and shown to you at any time from any computer you use. Clicking on a link performs the search again. You can hide the window at any time. You can edit your history, for example, to clear an entry.
+ Click History: If any of the web search results include a site that you have seen before, it's marked on the result. We even tell you the last time you visited that site.
+ Site Info: Place the cursor on one of the Site Info buttons to see a lot more information about that site without leaving the search result page.
+   
+   
+     urlLink Teoma 
+   
+   An earlier effort in document clustering and categorization, but for generalized Internet search.  Helps to differentiate search results for Jaguar the car from Jaguar the Animal from Jaguar the Apple OS codename.  Purchased and in use by AskJeeves.com. 
+   
+     urlLink MSN Search (Beta) 
+   
+    From any outside look, just a refinement of MSN's existing search algorithm and weighting.  With this version they figured out that a match in the domain name of a site makes it more relevant that a match on the  &lt;META&gt;  Tags.  Not much here, yet, but Microsoft has tons of money to throw at this project.  Word has it that they'll even eliminate the paid advertisements (sacrificing 10M per year) to draw people away from Google and into other MSN sites.  
+   
+ 
+
+The giant is gentle, but it does not sleep... Google Labs' creations like:  urlLink Personalized Search ,  urlLink Set Creation   urlLink Web Quotes  may allow Google to keep it's edge over the up and coming competition. 
+    
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+    
+       There is a good chance that the ASP pages used in Orkut.com were once in use and still belong to another company,  urlLink Affinity Engines   They cite nine similar software bugs that can be found on  urlLink Orkut.com  and software written by  urlLink Orkut Buyukkokten , a current Google employee and former Affinity Engines employee.  Even if the author is the same, software bugs are pretty difficult to repeat in two disjoint code bases.  
+  
+Unless Google can react quickly, settle the  urlLink lawsuit  brought upon them by Affinity and bring Orkut.com out of Beta stage, Orkut.com will suffer a death by the hands of other more successful social networks like  urlLink Friendster ,  urlLink Tribe  and  urlLink LinkedIn .  
+  
+For those of  you out there who've spent time on Orkut.com, you will agree that the communities there are already dead.  The network is growing quickly, but many of the communities have zero or little discussion activity.  Also there is the pungent smell of Beta that lingers throughout Orkut.com.  The friend connection part is pretty refined, but the communities and messaging functions are frought with problems like, anyone being able to message Millions of people and duplicate communities fracturing the already chaotic user base. 
+  
+The is another problem for Orkut:  MSN.  Unlike their  urlLink extremely disappointing  public beta  urlLink search engine  aimed at rivaling Google search, MSN's beta social network;  urlLink Three Degrees  promises to be everything that Orkut.com is struggling with.   While Orkut.com members lie in wait, proud to belong to an invitation only club, three degrees members could be active and thriving in no time.   
+    
+    
+</post>
+
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Large diamonds made from gas are the hardest yet .  If you're thinking of "investing" in a fat rock for your sweetie, maybe you should start thinking of something besides diamond, since the rate at which synthetic diamond manufacturer is improving, we can expect to see diamonds in the prize-packet of  urlLink Cracker-Jack  any day now.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Iran caught making Polonium .  I don't know why Iran keeps trying to pretend its nuclear program is for peaceful use and failing to disclose all of its activities to international inspectors.  The country is swimming in oil, and has no need for nuclear energy.  The very few legitimate industrial uses beyond energy production could be more affordably satisfied on the free market, instead of constructing reactors and enrichment centrifuges.    It's just embarrassing to see a supposedly mature government acting like a five year old caught dipping into a cookie jar who says "I was just getting a cookie for you, mommy!"
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Bush calls for gay marriage ban .  Now I find myself tempted to repeat what some of my hard-left friends say about Bush: "He's an idiot!"  In the first place, the definitions of "man" and "woman" are not perfectly sharp.  Folks with  urlLink Androgen Insensitivity Syndrome , for example, are considered intersexual, and exist at all gradiations between "man" and "woman".  Consider Jamie Lee Curtis, for example.  Laws restricting marriage to a relationship between a "man" and a "woman" prohibit intersexuals from ever marrying anyone.  Next, people regularly undergo sexual reassignment through a combination of surgery, hormonal therapy and counselling.  Some of these people are already married, and some remain married after their reassignment.  Should couples in this situation be forcibly divorced by the state?  Alternatively, do we require that one member of a same-sex union undergo sexual reassignment?  This would certainly allow gays to marry.  Perhaps a partial reassignment, such as "femininization" of a gay man by the use of hormone supplements, would be sufficient to change his sex long enough to get a legal marriage license?  The socially-sanctioned practice of marriage is a union between two people and the society around them.  Our society has laws that provide different rights to people inside of marriage.  The intent of such laws was and is to re-enforce the stability of such relationships and to recognize the importance of married partnerships to the nuclear family that characterizes successful civilizations.  The only aspect of marriage that relates to the expressed secondary sex characteristics of the people involved is the notion of reproduction.  Every other aspect of this relationship with society is genderless.  By insisting that marriage exists purely between a "man" and a "woman", we are stating that the reproductive aspects of marriage are so much more important than all the other aspects that marriage cannot exist without it.  Should we then attune the law further by forbidding marriage between people who are sterile or who choose to practice birth control?  That seems more salient than using the fuzzy boundary between "man" and "woman".  Okay, I'll say it.  He's an idiot!  
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Gaddafi had plutonium.   But now he's decided to end Libya's international isolation and has allowed international inspectors to dismantle secret Libyan WMD facilities.  Just one more example of the favorable ripple effect we're seeing from the overthrow of Saddam.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Teaching computers to program .  Computer programs are forms of communication.  They are a conversation between programmers.  This conversation describes a solution to a problem, but in a language that computers are barely smart enough to understand.  As software development grows in sophistication, so do the languages used to express the solutions to problems.  The conversations become more abstract.  Ultimately, we may have computers that are smart enough to allow us to express a problem in very abstract, human-conversational terms, and see the computer able to implement the solution in software.  This step will be necessary if software development is to keep up with the advancements we see in hardware - doubling in capability every 18 months.  (Programmer productivity has been argued to double roughly once every 6 years!)
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink RIAA Sued Under Racketeering Laws .  This is an excellent idea.  The actions of the RIAA are not very much different from extortion.  The question of whether respondents have a case is never addressed, since our tort system favors deeper pockets, and almost all of the respondents choose to settle for a few thousand dollars rather than take on a huge and well-funded opponent in a legal battle that could cost hundreds of thousands.    The RIAA maintain that file-sharing is theft.  However, the legal definition of theft is based on depriving an injured party of access or enjoyment of something they would otherwise have had.  In perhaps 99.9% of the files swapped, the receiving party would never have purchased the file they received, even if they were somehow aware of the product and had a channel for buying it.  In a surprising number of cases, people receiving the file become aware of new music they like, and go buy a product they otherwise would have had no knowledge of.  So file sharing really only fits the legal definition of theft when someone receives a file that they would otherwise have paid for and fails to follow up with a purchase.  File sharing is therefore sometimes a curious sort of contingent theft, at worst, and a free advertising channel at best.  
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Pending a Vote, Some Iraqis Press for a Larger Governing Council .  Perhaps I'm just overly cynical, but this seems like a fairly transparent attempt to dilute the influence of the originally appointed council with people aligned with special interests.  I would be astonished if Iraq ends up with a truely representative government from this process, but who knows?  It seems to me that the only representative government that would truely work in such a sharply divided population would have to rely on tribal traditions.  Perhaps granting every citizen some arbitrary number of "votes" per year, which they pass on to their representatives, who spend them or hoard them until just the right moment would allow even the smallest minority opinion to (eventually) have its way.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Archbishop Tutu demands apology from Bush and Blair for immoral war against Iraq.   His emminence goes on to say "the world is a less safe place than before".  Let's see, Saddam is no longer persecuting his own people or the people around Iraq, nor is he harboring or funding terrorists any longer, Iran has opened up about its nuclear program, Syria has taken its rhetoric down a notch or two, Ghaddifi has renounced WMD and is apparently trying to re-join the civilized world, Pakistan is actually jailing a few Islamic extremists and trying to look as though it is assisting US forces hunting for Al Queda along the Afghan/Pakistan border.  Hmmm....less safe?  For whom, exactly?
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Star's core is made of solid diamond.   Ten billion trillion trillion carats.  And it's only 50 light-years away, just waiting for the first interstellar salvage operation.  Of course, with synthetic diamonds now  urlLink as good or better  than gemstone quality, this may not be as attractive as it used to be.  Kind of like what happened after they figured out how to electrolyze aluminum, which used to be more valuable than silver.  (The  urlLink cap of the Washington monument  is made of aluminum, which was then was a precious metal).
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Finding the leader.   Researchers have identified methodologies for identifying the most influential folks on the net.  This will further refine the attention-getting obsession of prominent bloggers.  (Though I doubt it will improve much on  urlLink Technorati  for ego-validation).
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Gene therapy jab melts fat away .  If only this worked in humans.  Unfortunately, it appears the role of leptin in human fat metabolism is  urlLink somewhat more complex  than in rats, since obese humans often have higher than average levels of leptin already.  (With all the successful scientific work done on rats, maybe we should start worrying about immortal, super-strong, super-intelligent rats taking over the world).
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Food aid to North Korea dries up .  This tragedy really has only one cause and one solution - government.  The people of DPRK have a strong cultural bias toward self-sufficiency, so accepting foreign aid really rubs them the wrong way.  It is far more culturally acceptable to give something in exchange for this aid, such as assurances against building and selling WMD on the black market.  Too bad the DPRK government cannot get their economy to produce something the rest of the world really wants to buy.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+         Now this is just bizarre:  urlLink Challenger to Putin for Russian Presidency Is Missing .  The guy was expected to garner maybe 1% of the popular vote, so it's not like he was a serious political threat.  I'd say either he knew too much about organized crime infiltration of Putin's government and he had to be silenced, or he saw himself making a 1% scratch in the Putin machine and thought that if he "disappears" until after the election, more voters will have second thoughts about continuing to support an increasingly nepotistic and criminalistic regime.  Who knows?  Maybe he'll double his effect, and 2% of the voters will vote for him, despite his having gone missing.  [UPDATE: 040210 -  urlLink He's been found.   Says he just decided to take a break.  (Without telling his wife or campaign workers or anyone else.  Hmmmm...)]
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+         Frederick Turner mulls a subject that's been giving me pause lately - the political and economic realignment that's blurring the old lines between conservative and liberal.  urlLink A New Politics  is his essay covering this and a bunch of other ground.  Well worth a squint and a scratch, though I disagree with some of his predictions, particularly regarding the charm economy.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Drug may give cells a fresh start: A chemical could switch adult cells from one type to another.   Man, I keep hoping they'll get something like this working before more of me falls apart from old age disease.  It would be so cool to have a can of "body spackle" that we can just apply to an ageing body part and rejuvinate it.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Further evidence , (as if any were needed), that DPRK is another place where a case for humanitarian overthrow of their government would surely be prosecuted if the UN believed in a humanitarian basis for the use of force.  And, although DPRK is playing ball by continuing to threaten our national security by attempting to produce WMD, it is unlikely that the US will attempt to overthrow Kim Jong Il.  There are a variety of reasons why not, including the great liklihood of collateral damage to South Korea and the much higher cost in both treasure and blood.  Too bad, IMO.  DPRK could really shine, just like their southern neighbor, if only they had a decent government.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink An intelligence success story.   It appears the US managed to allow the Soviets to steal intentionally defective software back in the early 1980's, resulting in a huge pipeline explosion in Siberia.  This struck a heavy economic blow, not only through the damaged pipeline, but also through a sudden lack of confidence in all the wares the Soviets had pirated from the west.  I suspect our failed  urlLink Strategic Defense Initiative  was another early 1980's attempt to wage economic warfare.  It didn't matter if we actually succeeded in creating lasers that could down an ICBM.  All that mattered was that the Soviets believed this was enough of a threat to require redesign of their ICBMs to include reflective and/or ablative coatings.  The added weight would necessitate a total redesign, which would bankrupt their already teetering economy.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+         No surprise here:  urlLink US officials knew in May Iraq possessed no WMD .  Of course, Iraq has roughly the same square mileage as California.  Finding a cache of WMD that could fit in a basement in a land area that big could be impossible without help from someone who knows where to look.  So "knowing" that no WMD had been immediately found back in May after inspecting the most likely hotspots doesn't prove there were none anywhere.  Still, it seems far more likely that GWB felt compelled to depose Saddam for other reasons - both personal and humanitarian.  Saddam only killed about a million people, so he isn't quite in the same league as Stalin, Hitler or Pol Pot, but it is hard to imagine that the world would be any better off if he were still in power.  The problem with staging an invasion for humanitarian reasons is that the UN doesn't agree that's a legitimate reason.  So we have to trot out the old "direct threat to our national security" justification.  Saddam at least played ball by flouting all 17 UN resolutions directed at revealing any WMD inside Iraq.    It's a shame that Bush could not stage an invasion for "Manifest-Destiny-Humanitarian" reasons.  In the arcane calculus of world politics, it is better to endure the slaughter of a million people at the hands of a despot than to allow a more powerful nation to put an end to the brutality by force.  So now we get to watch the media harp endlessly about the lack of WMD and how totally unjustified the invasion was.   
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink CNN.com - Hajj stampede: 244 pilgrims dead - Feb. 1, 2004 .  What does this say about their culture?  Are the roots of this phenemenon in religion, culture or genetics?
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+         As you can see,  urlLink Little Fugue  has gotten a simlpifying makeover.  I decided I really wasn't going to use much of the paraphernalia that came along with PHP-Nuke, and the posting procedure was tiresome, so I switched over to a nice, simple and clean Blogger interface.  This also let's me post using the "Blog This" button on the Google toolbar.  (Yeah, I really am that lazy...)
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Proportional newsmap .  Gotta be the coolest thing since sliced gravy.  It shows headlines culled from Google News in proportion to how many related stories there are.  One of the interesting things I like is the ability to get a representative "mindshare" comparison between different countries.  For best results, hit F11 under IE to go fullscreen.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Odorants enhance survival of olfactory neurons .  Seems if you don't smell something for a long time, you may lose the ability to.  Truely a use it or lose it situation.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Ah, the smell of money and politics .  Dick Clarke wrote a book bashing the Bush administration's policy toward Al-Queda and its response to 9/11.  Funny thing is, in between bouts of self-aggrandizement, Mr. Clarke says nothing about the Clinton administration's eight years of failing to address the threat of Al-Queda, despite repeated attacks that resulted in the death and injury of hundreds, including American citizens.  And why do you suppose he gives his former democratic bosses a free pass but dumps hard on the Republicans?  Well, turns out Clarke is an old friend and colleague of Rand Beers, and jointly teaches "Post-Cold War Security: Terrorism, Security, and Failed States" with him at the Kennedy Institute.  Rand Beers is National Security coordinator for John Kerry's presidential campaign.  Do you suppose this influenced Clarke's stance?   urlLink Maybe .  Or maybe he just  urlLink has a book to sell .
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Culturing T-Cells .  This could be huge.  There are many immunocompromised people, like folks with AIDS, who could really benefit from a boost in their T-cell population.  Cancer therapies that center on tagging cancer cells so that T-cells recognize them as foreign could be greatly accelerated.  Folks with septicemia could possibly fight off their blood-bourne infections.  Yep.  Good stuff.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Man arrested for allegedly extorting Google .  What a dipshit.  Given his obvious lack of brains, I suspect his "program" probably just clicked endlessly from the same IP address - something Google is sure to trap.  To pull this sort of thing off, he'd have to have some sort of worm that makes zombies of thousands of computers, each of which clicks just once on any given Google ad.  (And not too many ads from one IP per day, either.  You can bet Google limits that too.)  Frosting on the cake is him actually showing up at Google, expecting to discuss the terms of his extortion.  Amazing.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink NASA hears words not yet spoken .  What a cool invention.  This may be the thing that tips speech recognition into the mainstream.  One of the problems with current speech recognition is that people around you can hear what you're 'typing', which distracts the dictator who is worried about sounding stupid and having to constantly correct themselves (I know I'm glad nobody watches me type) and distracts the eavesdropper, who should really be focussing on their own work.  I want one.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Tissue cells can revert to stem cells .  Looks like another important source of stem cells has been identified.  This should help reduce the crippling effect of Bush's stem-cell moratorium in the US, and allow US researchers to perhaps keep pace with researchers everywhere else.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Offshoring complements US capabilities .  I agree with this opinion.  Despite working in a field where offshoring has made an impact, I feel it is a much better use of global resources for those who can do better work for less to be allowed to do so.  I hear arguments regarding trade imbalances, but it seems to me that capital that is allowed to flow where more wealth gets created will ultimately provide the greatest fertilization.  We can expect that, ultimately, these developing nations that receive our capital should flourish and develop their own needs, which we may end up satisfying one day.  The other argument I hear against offshoring is the drain on human capital, as expertise to do the work ends up being developed overseas instead of here.  The US has been a net talent sink for so many decades that I wonder how anyone can now raise this alarm against other countries.  Like capital, brainpower that is concentrated in the environment where wealth-creation flourishes is appropriate.  If offshore environments allow people to band together to create wealth more efficiently, it only makes sense that this is where the human capital should go.  Any imbalance related to the relative wealth of the client and server nations will soon be equalized.  Granted, 'soon' may be measured in decades, which isn't soon enough for a displaced worker, but overall, it is best for the world economy.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink The origins of Islamic Terror .  This is an excellent article that details the culture that gave rise to militant Islamic terrorists.  Seems like ubiquitous internet availability could do wonders toward diluting the sort of cultural extremism that gave rise to a generation of Isalmic militants under Wahhabinism.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Folate may curb heart attacks, strokes .  The government has accidentally saved 48,000 lives per year by requiring folic acid added to flour.  They meant to curb birth defects, and they did, but a sudden drop in the incidence of heart attacks and strokes was observed right after they started adding folic acid to flour in 1996.  I can't think of a happier accident in the history of government.  Science is replete with happy accidents, but it seems to me that government almost never screws up in our favor.  Or, at least, we never hear about it.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+         The great thing about blogs is they give you a chance to display your naivete in public.  I got all hot about Bush's proposal to add an amendment to the constitution defining marriage as existing solely between a man and a woman.  Then I realized just how  urlLink unlikely  it is that this could actually come to pass.  Since Bush choose to try to enshrine this in the constitution, and since he's certainly no stranger to the machinations that getting such an amendment passed would require, it is obvious that he meant to communicate the  appearance  &nbsp;of being vehemently opposed to gay marriage to those who don't realize that the mechanism he chose intentionally precludes it ever actually being abolished, while communicating with a wink and a nod to those who understand what he's done that he's just courting the votes of the, um, "unsophisticated".  Or maybe I'm not only naive, but cynical.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Researchers report bubble fusion results replicated .  This started out appearing like another "cold fusion" claim, but it looks real now.  If this can be controlled, we could have fusion energy much sooner and far cheaper than traditional magnetic or inertial confinement paths.  Very cool.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Stirring the pot .  Sunni Muslims control most of the governments in the middle east.  Sunnis and Shiites have a long history of brutal violence against one another,  urlLink that continues today .  One interesting consequence of Saddam's removal is that Iraq now stands poised to become a Shiite-goverened nation, right next-door to Shiite-fundamentalist-goverened Iran.  So it appears that Iran and Iraq, who recently squandered the lives of several hundred thousand of their young men in a protracted war that gained neither party anything, will soon become Shiite allies surrounded by a sea of Sunnis.  If nothing else, this will give extremists from both camps of the Sunni/Shiite divide something other than Israel and The Great Satan to focus their energies on.  I predict a long period of disquiet.  Okay, make that a long extension to the long period of disquiet already seen by in the region.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink N Korea 'trafficking drugs' .  Okay, in a  urlLink previous post , I said it's too bad the DPRK government can't get their economy to produce something the world really wants to buy.  It seems they actually do provide something the world wants, it's just something the world wishes it didn't want.  But if DPRK didn't have this to sell, they'd just have to fall back on  urlLink WMD and counterfeiting  to make ends meet.  Since we're not willing/able to do much about Kim Jong Il (though their  urlLink propaganda  about it is a hoot), we may be in the unpleasant position of deciding which pernicious habit is least offensive to us and turn a blind eye.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink 5.6% high or low?  Mark Twain catatagorized prevarications as "lies, damn lies and statistics".  This article shows it's the presentation of a statistic that converts an innocent number into a prevarication.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Google ditches underwriters, makes their IPO available via auction .  It's about time.  The shenanigans that underwriters pull, both in terms of their margin and in terms of their allocation of initial shares to privileged clients, are long overdue for the dustbin.  If we can make all IPOs public auctions, and make all secondary market transactions available to everyone in realtime, and convert all securities - especially derivatives like options over to decimal trading, we could look forward to more efficient and democratic primary and secondary markets.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Worldwide terrorist attacks down in 2003 .  Maybe Bush's "bring 'em on" strategy is succeeding in drawing a good fraction of the terrorist types into the Iraq killing-zone.  One possible downside, though, is that concentrating them and giving them "on-the-job-training" might amount to a sort of terrorist college, sharpening the capabilities of the survivors while culling the inept.  I'm not sure I want a bunch of experienced and competent terrorists running around.  On the other hand, it may be that terrorists had been used to getting away with a random bombing here and there, but have decided that their lifestyle is now more risky.  And, judging from the fates of Saddam and much of Al Queda, terrorists might now be thinking their efforts really don't accomplish what they wanted.  We can only hope.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink USAPhotoMaps .  This has got to be the coolest 282 kilobyte download I've ever seen.  (When was the last time you even saw a useful, let alone extremely cool, download measured in kilobytes?)
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink ROTFL .
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink A quarter-century behind bars .  All because the man wouldn't agree to being guilty of drug trafficking when he used undated prescriptions to obtain painkillers for his back.  This is clearly a case of the "cure" being worse than the disease.  The war on drugs is futile and far more destructive than the drugs themselves.  Yeah, drug addiction can be very damaging to some people.  But there are quite a few recreational users, even of strongly addictive substances such as heroin, who do not develop addiction.  And there are quite a few addicts who, as long as their supply is steady, are otherwise functional in society.  I think we should treat substance use as a licensable activity, like driving or hunting.  This licensing should be extended to drugs that are currently legal, such as tobacco and alcohol.  Potential users should demonstrate knowledge of their desired substance and of the deleterious effects it is known to have.  If a user violates any of the terms of their license, it is punished in the same way as driving infractions, ultimately resulting in fines, revocation of the license and/or imprisonment, depending on the severity or frequency of the infraction.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink UN officers engage each other in firefight .  There's some multilateral cooperation for you.  And, speaking of multilateral cooperation, the UN, the French and the Russians were  urlLink all on Saddam's gravy train .  Which, of course, speaks volumes about these respective countries' attitudes toward the Iraq invasion and toward their opposition of an official investigation of the corrupt Food for Oil program that the UN administered right before the war.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Spain PM orders Iraq troops home .  Well, that's just swell.  Actions speak louder than words, and his actions say "You want foreign troops out of Iraq?  You want control over Western governments?  Just kill a few hundred civilians at the right moment, and you can make the West dance to your tune".  Regrettable.  Not quite as sad as the basket of weasels that France embodies, but still pretty pathetic.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Mom sues Coors over son's death in accident .  Let's see, the basis for damage in this suit is that Coors aired commercials that are "glorifying a culture of youth, sex and glamour while hiding the dangers of alcohol abuse and addiction".  And somehow, her son, being the brainless puppet he was, translated that implicit message into a command to become incoherently drunk, drive somebody else's car without a license, and slam that car into a light pole at 90 mph.  Hmmm.  Yep, that's a perfect personification of the culture that Coors was trying to associate its products with, so I'm sure they're as culpable as heck in this matter.  She'll make out like a bandit.  And since the courts will prove that Coors was the cause of her son's death, she won't have to suffer any pangs of conscience over what she might have done differently to raise a more thoughtful and responsible son.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Emergencies .  Just in case the mainstream news ever lulls you into complacency about the current state of humanity, Reuters Foundation features a page of current emergencies worldwide, most of which never rate much attention by major media.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+         If Bush were to bow out of the race for some reason, wouldn't it be cool to see a Rice/Powell ticket?  That'd sure liven up a race that is otherwise about to bore us all to tears.  Imagine good-ole-boy conservatives choking on their beer and having to vote Democrat just to "keep the office pure".  While "affirmative action" liberals would find themselves voting Republican.  Yep.  That'd be something to see.  Perhaps  urlLink in 2008? 
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink An interesting political analysis of Iraq .vs. Kosovo .  The parallels are striking: Of all the historical precedents that paved the way for President George W. Bush's war against Iraq, the most directly relevant was Bill Clinton's 1999 bombing of the rump Yugoslavia.  Like Gulf War II, the 78-day NATO air campaign in Kosovo was waged without the explicit authorization of the United Nations. (Of the two, the Iraq war had much more of a U.N. mandate, through Resolution 1441, which gave Iraq a "final opportunity" -- one it did not take -- to comply fully with all previous Security Council resolutions or else face "serious consequences.") Like Iraq, Yugoslavia was a sovereign country that was bombed into submission for essentially internal infractions. Both wars were expressions of American exasperation at European impotence in the face of dictatorial slaughter. Slobodan Milosevic, like Saddam Hussein, was described as a modern-day Adolf Hitler, eager to practice genocide against minority tribes while scrambling for horrible weapons to menace peaceful neighbors.   The bottom line appears to be that the folks behind Clinton's UN-unsanctioned Kosovo war are against Bush's Iraq war because, well, Bush is Republican. 
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink musicplasma : the music visual search engine .  If you love music and have a broadband connection, your credit card may suffer irreparable damage.  I uncovered a bunch of "must haves" I'd never heard before within 15 minutes.  Being able to hear representative samples of the artist you're focused on is very cool.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Virtual Reality Is a Real Painkiller .  Somehow, this doesn't surprise me.  When I am completely immersed in a game, I don't generally notice the pain of my freshly-damaged fingers until I stop.  (Only then do I realize I've been at this waaaay too long).
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Cory Doctorow just nails the whole DRM controversy.   A good, lucent, entertaining article on why current DRM is just a bad idea all around.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Thoughts Captured in Real Time   This is very cool.  I wonder how much resolution they can get on thought content using this.  The folks using  urlLink Brain Fingerprinting  are able to discriminate between memories of things a person has actually sensed and those they "just made up".  With something like this, it may be possible to not only tell if the person actually experienced something, but perhaps more about their mental state at the time as well as now.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink    This is a test image (of me) to see if this "Hello" gizmo actually works for photoblogging.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink The Malaria Clock -- A Geen Legacy Of Death   An ongoing disaster that has so far killed over 86 million people.  All from ill-thought (or in this case, thoughtless) governmental regulation.  The scale of this makes the Darfur situation seem trivial.  Tragic.
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink MRI Gets Nanoscale Resolution .  If they can develop this degree of resolution for imaging macro-scale objects such as a living human brain, then non-destructive  urlLink uploading  of an emulation of oneself becomes much more possible.  If molecular nanotechnology allows precise reconstruction of a physical brain from such a template, then we can take backups of ourselves and/or spawn exact reproductions (no more of this messy mixing of gametes).
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink The first ultra-portable computer .  Want one.  Need one.  mmmm....
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink Lawyer sues Yahoo  "he called me a bad word, mommy!"  It never ceases to amaze me what people will sue other people for.  This nimrod is suing Yahoo because someone on one of Yahoo's discussion board subjected him to a bunch of abusive messages, and Yahoo's terms of service forbid such abuse, but because Yahoo did not prevent the abuse, they owe him big time, along with anybody else he can get to join his class-action suit.  
+        
+      
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+          urlLink StumbleUpon Toolbar .  Better than surfboard wax, StumbleUpon's toolbar is addictive, and more useful than Google for finding interesting new stuff.  A big thumbs up.
+        
+      
+</post>
+
+
+</Blog>

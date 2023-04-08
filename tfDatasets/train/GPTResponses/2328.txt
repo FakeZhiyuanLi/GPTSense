@@ -1,0 +1,1 @@
+the audio data?The MP3 standard allows encoders to have a lot of freedom with the bit rate, sampling rate, channel mode, and psychoacoustic modeling used to compress the audio data. These parameters can be adjusted to optimize the balance between audio quality and file size.

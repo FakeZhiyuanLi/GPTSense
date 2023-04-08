@@ -1,0 +1,83 @@
+<Blog>
+
+<date>27,May,2004</date>
+<post>
+
+    
+       In my ongoing (and likely neverending) attempts to  finally  get myself organized, I have just found and installed  urlLink Alex King's "Tasks"  software.  So far, it's quite nice - it's a web-based app that you could run on your website if you so desired... or, even nicer given Mac OS X's built-in Apache webserver (and if you add PHP and MySQL to that... a relatively simple thing) it'll run locally.  It's tree-based so you can add top level items (ie. for various projects) and then add various sub-tasks (and sub-sub tasks) as necessary.  Everything that you'd look for in a task manager is included, along with some nice extras such as iCal integration - it will publish any tasks with due dates to an iCal compatible format that you can subscribe to in iCal.  Set it as your startup page in the browser of your choice (excepting of course IE, which I wish people would just stop using already) and voila! Instant organization... or at least the semblance of it accompanied by a minor sense of accomplishment at having installed your first PHP app locally... 
+    
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+    
+       I began this weekend energetic and freshly shaven.  I ended this weekend exhausted and muddy.  Thank goodness that I got a newly planted garden out of the deal or else it would've been a real downer.  Before:   urlLink     After:    urlLink     urlLink     urlLink     Most of this went in on Saturday, great amounts of digging (by me), shopping for flowers (by Kerrie), wheel-barrowing (by me), laying of topsoil (by Kerrie), and planting (by both of us) rendered us completely done in by about seven o'clock.  So, we decided to leave the rest of the planting and carting away of removed sod until Sunday morning.  Now, you would think that after a hard day's work, we would sleep like babes and not wake until morning.  Unfortunately, mother nature decided to throw a complete wobbler during the middle of the night and with the lightning, the thunder and the torrents of rain, kept us up for a good while.  Not that we're afraid of a little thunder (well, at least that's not the issue I'm addressing here...) but rather we were afraid for our partially planted garden.  Our fears turned out to be well founded and Sunday morning found us back at Lowe's picking up enough topsoil to replace all that had been washed away during the middle of the night... which is to say: all of it.  But, laments aside, we got it done, put on the mulch and congratulated ourselves heartily before retiring to the sofa and to X-Men 2, which, to conclude, is a damn fine flick. 
+    
+    
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+    
+         urlLink   
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+    
+        urlLink Damn this is sweet...  just turn your speakers up, sit back and enjoy!  For a little more,  urlLink check this out.  
+    
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+    
+       I'll preface this link by saying that I've never actually played an online role-playing game and have never really had the inclination.  However, after reading   urlLink My Tiny Life   a few years ago, I can't help but be interested in the whole notion of a virtual world as a social and economic structure.  As the author of the article mentions, virtual worlds offer a significant advantage over the real world for studying social and economic phenomena, namely that all of its inhabitants start at the same station in life: "Level 1":   ...EverQuest, the world's first truly egalitarian polity. Everyone begins the same way: with nothing. You enter with pathetic skills, no money, and only the clothes on your back. Wealth comes from working hard, honing your skills, and clever trading. It is a genuine meritocracy, which is precisely why players love the game, Castronova argues. "It undoes all the inequities in society. They're wiped away. Sir Thomas More would have dreamt about that possibility, that kind of utopia," he says.   So, now that you've swallowed the utopian nature of EverQuest, apparently, it's also the worlds 77th richest country, outdoing China and India.  Interested yet?  Read on... urlLink http://www.walrusmagazine.com/article.pl?sid=04/05/06/1929205&tid=1 .   
+    
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+    
+       Well, here it is... I've finally succumbed and decided to try blogging.  I suppose in a way I feel that I have to at least give the thing a  try .  &lt;whining&gt;Everyone's doing it, you know you wanna&lt;/whining&gt;: so there it is and here we are.  So, what's it about?  Essentially, despite residing on my business's site (samedis.com), I plan on using this primarily for my own personal interests.  Since my philosophy with Samedis Design is that I hope to bring a personal relationship to my clients and to make translating their ideas to the web easy, there's not necessarily a distinction between who I am and how my business operates.  That means that if clients would like to find out a little more about me and thus Samedis Design, this will be available.  However, I plan to discuss music, philosophy, politics, design, art, the web, and life in general - so welcome to my smorgasborg.  What's in a name?  Not so much as it turns out (kinda like "Samedis Design"!).... "Little Speaker" is an Underworld song and the title sounded reasonably appropriate.  Look for the title to change next time I have another mood change!  Who's your audience?  Well, firstly it's probably myself.  After all, bloggings a bit of a vain exercise in general isn't it?  Secondly, I suppose it's anyone who's interested... friends and family foremost, but it might be nice to have a slightly wider audience - that being the beauty of the web.  That's why we have server logs!  And now, onwards and upwards (or at least sidewards for the time being)... 
+    
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+    
+       First some links:    urlLink Microsoft is losing the API war    urlLink The Location Field is the New Command Line    urlLink Web Apps are Hot     Now, my take: For a while now, I've become more and more interested in "teeny-weeny, easy to use but with a very definite purpose" apps.  Mostly these are coming around implemented as OS X Cocoa Apps.  They all function the way a Mac app should with more or less the same interface conventions, so you can pick them up right away and start using them.  Being a cheapskate, most of the ones I use are also shareware.  Some good examples are  urlLink NetNewsWire ,  urlLink Netflix Freak  and  urlLink xScope .  Apple also has been approaching software this way recently with  urlLink iLife .  The reason I love these so much is that they launch quickly, do their task, and then I get rid of them.  Or, as in the case of apps like Apple's Mail, or NetNewsWire, I just leave them running and they go about their business collecting email and news for me without getting in my way.  These are in marked contrast to the "Microsoft Office" way of going about things which is to create one giant behemoth of an app that purports to do anything and everything for you, but is rather difficult to use because there are too many options.  BLOAT.  But now here come the HTML apps.  One in particular that I've taken to using is  urlLink Tasks  to (theoretically) keep myself organized.  I suppose this is the exception to the rule as I do have it installed locally, but the point is (as the above articles expound), that Web Apps just very well may be the future of my favorite little "small app" paradise.  The fact is, they're also looking at becoming the future of various larger apps also.  I've developed several of these working for both Bunge and Louis Dreyfus Corporation that do everything from manage a trading system to archiving thousands of documents and allowing for quick and easy retrieval.  Now I don't know if the rise of web apps is going to cause Microsoft to lose the "API War", they've proven reasonably resilient in the past, but I want to throw Flash into the mix here.  Flash is widely derided for its creation of the "Skip Intro" buttons, and I agree fully with that.  But Macromedia has it's focus in the right direction for the Web App world.  Creating a Web App in a rich client like Flash allows you to get reasonably close to the Desktop App experience with the ease of installation (ie. typing a URL) of a Web App.  I'm not trying to be a Flash apologist here, but I've now built several of these "Rich Internet Applications", and I'm sold.  They cost more and development time is longer, but if the web is the future of application development, then Flash has a pretty rightful place there too.  More to follow later as I get the rest of my thoughts together and come up with something that hasn't already been said on the topic! 
+    
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+    
+        urlLink Todd Dominey hits the nail on the head  with his assessment of Dashboard.  Konfabulor konflagration aside, Apple's going the M$ way of it.  First we had the latest version of Safari only being released for Panther (and I have no doubt that the next version will be Tiger-only), but now we have a proprietary API being constructed also.  Sure, it's specifically for Dashboard and since Dashboard runs off of HTML/Javascript it gets integrated into WebCore which is then available to other apps, but  keep it off the web!   It's all well and good pushing forward the Mac platform with gidgets and gadgets such as Dashboard, but let's not advertise this whole thing as something that can or should ever be put into a non-Dashboard web page.  The web's muddy enough as is and the web standards advocates already have their hands full trying to clean things up  - the last thing we need is Apple dumping their proprietary APIs in to muddy things up even further!  By the way, Dashboard also raises another dilemma: Apple's introduced so many new interface designs since OS X started (first it was aqua, then brushed metal, and now GarageBand does it's own thing entirely...), what's the interface recommendation for "widgets"?  Apple used to be known as the best of the bunch in Human Interface Design, but now it seems the original vaunted standards have been left behind and replaced with Steve's whim o' the week. 
+    
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+    
+       Okay, nothing has been written for a while.  Plenty has happened in my life... but more on that later.  For now, let's focus on something rather inconsequential instead: SUVs.  I can't stand the damn things - this is no secret. This is more of a personal dictum than something that I bother applying to other people, however.  You want to drive one, go ahead, there's no law against it... or is there?  Well, actually, turns out there is!  At least on California local residential roads.  As it happens, local roads in California have a ban on heavy trucks weighing more than 3 tons (6000lbs),the weight delimiter between light and heavy trucks.  Reasons for this are pretty straight-forward, including the damage done to the roads, the noise generated, etc.  Makes sense?  Sure does... but guess what,  urlLink your SUV almost definitely qualifies for this ban.   A very interesting article about a law that will never ever be enforced.  However, it does make me hate the SUV just a little bit more. 
+    
+    
+</post>
+
+
+</Blog>

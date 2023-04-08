@@ -1,0 +1,1 @@
+The tiny object that plays a role in determining wood density is the cell. The structure and arrangement of cells within the wood affects how closely packed the fibers are and, therefore, the overall density of the wood. For example, some woods have more dense cell walls, resulting in a heavier and denser wood.

@@ -1,0 +1,37 @@
+<Blog>
+
+<date>21,August,2004</date>
+<post>
+
+
+           
+      Complexity/Systems Theory suggests that "things" with certain characteristics, like:   lots of moving parts;  lots of action between the moving parts, with parts responding to other parts;  some way of remembering past action and events; etc.  the thing will display certain kinds of behavior. The most interesting part of complexity/systems theory is that it suggests that these rules apply to very different things: families, ecosystems, businesses, the economy, etc.  One of the ideas, presented by Murray Gell Mann in  The Quark and the Jaguar , is that many of the things we assume exist because "they have to be that way," are the result of accumulated  frozen accidents . Since systems that have memories can have memories that "get stuck," and then respond to those memories, you end up with things being a certain way because of some accident in the past.  Problems that occur in business processes are frequently the result of frozen accidents. I can think of at least two situations at an organization I'm familiar with where significant business problems are a result of a decision made in the past, that was not intended to cause these problems.  What makes frozen accidents worse in human systems (families, organizations) is the fact that people naturally try to justify their behavior, or come up with explanations for why things work the way they do. When they do that, they become very invested in the results of those accients. When someone tries to later re-engineer things (e.g., why can't we just do it this way), they encounter tremendous resistance due to those justifications and explanations. 
+     
+
+        
+</post>
+
+<date>14,August,2004</date>
+<post>
+
+
+           
+      I just completed the terrific book  People Skills , which applies a good deal of psychological and sociological research to apply Carl Rogers ideas to communications outside of counseling situations.  Its thesis is that, for good communication, a person should focus on not trying to control the other person. The focus should be some combination of:   understanding their position fully and completely;   allowing them to come up with their own solution to problems; and   asserting your own position simply and directly.  Let's call this "Rogers' Style."  An alternative to this is just telling people what to do. When you tell people what to do, all sorts of negative things can happen, as  People skills  points out.  My guess is that powerful individuals do not practice Rogers' style communication. They listen, may ask for a few ideas, then tell people what to do. There may be some exceptions in companies that are not currently struggling, individuals that are enlightened, or personal relationships that are warm and balanced.  One of the central, and I think correct, ideas of postmodern is that most communication is about power: either directly through direction, or indirectly by trying to re-define the situation. In situations where you actually do have power, it's just extra work to practice Rogers style techniques. You might get a better relationship if you practiced Rogers' style techniques, or better results, but things will probably work fine, and more quickly, if you just tell people what to do. In fact, if you're under time constraints, or you have a vision that others do not buy into, directive communication is in fact more effective.  This sounds analogous to Nietzsche distinction between ethics for the weak and strong: that what seems like "right" to you has to do with whether or not you have any power. If you're in power, you want to be able to do what you want. If you're not in power, you want those in power to be more deferrential to you. 
+     
+
+        
+</post>
+
+<date>07,August,2004</date>
+<post>
+
+
+           
+       I just finished James Surowiecki's terrific  The Wisdom of Crowds . The thesis is that large groups, in many different situations, can provide better judgments than the best individuals.   The archetypal example is the Jelly Bean count: have a group of people guess the number of jelly beans in a jar. On average, the average guess of the group will be better than the "best" member's guess, and will be fairly close to the correct number. The "best" member will not be consistent. From this he deduces that there are no real experts, and that the crowd is better for getting the decision right.   I've been exploring an alternative explanation. Assume the following:    there's no way of knowing how many beans are in the jar;  however, there are maximum, minimum, and "somewhere around here" that normal people can figure out based on their experience;  individual guesses within #2 are random with a bell-like curve distribution based on #2.    If this is true, the fact that the group gets close to the right number isn't "magic", it's just that if you get lots of people guessing, based on some boundaries, you'll get a nice smooth distribution with an average near the right number. In theory, if you could get people to make their implicit knowledge of #2 explicit, you could just have a computer Monte Carlo simulation guess just as well 
+     
+
+        
+</post>
+
+
+</Blog>

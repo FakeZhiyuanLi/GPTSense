@@ -1,0 +1,68 @@
+<Blog>
+
+<date>13,May,2004</date>
+<post>
+
+
+       
+      Diarry about the project Cameleon ...
+     
+
+    
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+
+       
+      here is notes about my studies , no special stuff , just comments and notes that i want to remember ...
+     
+
+    
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+
+       
+      This is my main diary , its about events , notes , comments ... 
+     
+
+    
+</post>
+
+
+<date>27,May,2004</date>
+<post>
+
+	 
+      here is some of my diary activities, today, i spent my day time to learn how to make javascript menues so i used Angus Turnbull's library (see http://www.twinhelix.com )it was very interesting to me because i want to complete my marketing web application tool. it is an asp based tool with an oracle 8i database. tere is also a good web builer applications that it could help everyone with its free source codes: http://www.webapplicationbuilder.com/ good work then  
+     
+
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+	 
+      MEDINA Project is based upon a federation of national web sites (one for each project partner country) consistent with a MEDINA portal, integrating (part of) the information of the national web sites. The overall system provides cultural and tourism information about the heritage of the Mediterranean basin: each national site focuses on the cultural heritage of a specific country and provides country specific contents.  I am the tunisian technical manager of this project (Partenar #17) so my main task is to follow up the technical infrastructure (web developping plateform, network connectivity and database management) the official web site of the project : http://www.eumedis.net/en/project/10 the webboard discussion tool: http://hoc1.elet.polimi.it/webboard/wbpx.dll/~Medina/loginagain the test site pages: http://www.projects.usilu.net/medina/marocco/ the project presentation pages: http://www.istituti.usilu.net/speronim/web/medina/ 
+     
+
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+	 
+      In this master, we study the bandwidth related metrics measurement methods and techniques. We evaluate their accuracy in heterogeneous, wired and wireless environments (WLAN-LAN, WLAN-WAN and Ad hoc networks). Methods using the one-packet model have difficulties in measuring path capacity when it has wireless links. We investigate the source of their errors, and show that the presence of Layer-2 (L2) store-and-forward devices, such as Ethernet switches or Wireless Access Points, have a detrimental effect on the accuracy of Pathchar like’s tools. Specifically, each L2 store-and forward device introduces an additional serialization latency in a packet’s delay, which results in consistent underestimation of that L3 hop’s capacity.      The packet train technique estimates also the path Available Bandwidth  from the dispersion. In this master, we choose the passive measurement analysis approach based on Cisco’s NetFlow Data Export  service to validate the comparison between “Pathload” and  “Cprobe” accuracy and response time, when acting in an heterogeneous WLAN-WAN private network environment.      Finally, as available bandwidth is a dynamic metric, it could be measured in ad hoc network when the route is stable. We evaluate, by simulation, “Pathload” tool methodology and investigate its limits in such environments using two routing protocols AODV and DSDV. 
+     
+
+    
+</post>
+
+
+</Blog>

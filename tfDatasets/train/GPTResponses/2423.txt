@@ -1,0 +1,1 @@
+IT professionals and software developers bore the brunt of the effort to upgrade systems affected by time changes. They were responsible for identifying the systems that needed to be updated, testing the updates, and implementing the changes to ensure that the systems continued to function correctly after the time changes.

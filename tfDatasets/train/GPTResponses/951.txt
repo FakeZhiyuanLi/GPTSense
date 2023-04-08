@@ -1,0 +1,1 @@
+Supercomputers typically possess thousands or even millions of CPUs. For example, the Summit supercomputer at Oak Ridge National Laboratory has over 27,000 NVIDIA GPUs and over 9,000 IBM CPUs, making a total of over 36,000 processors.

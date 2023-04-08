@@ -1,0 +1,1 @@
+Telecommunications engineers and network administrators use TDM (Time-division multiplexing) as a metric or technique for transmitting multiple signals simultaneously over a single communication channel.

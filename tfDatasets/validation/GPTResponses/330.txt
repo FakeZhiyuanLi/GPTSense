@@ -1,0 +1,1 @@
+Computers attached to the ARPA (not ARPA net) used ASCII line endings, which consist of a Carriage Return (CR) character (ASCII value 13) followed by a Line Feed (LF) character (ASCII value 10). This is commonly known as CRLF.

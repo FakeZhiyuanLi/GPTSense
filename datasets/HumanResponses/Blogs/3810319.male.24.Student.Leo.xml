@@ -1,0 +1,28 @@
+<Blog>
+
+<date>02,July,2004</date>
+<post>
+
+	 
+      I've only ever programmed in C and Perl, but I've decided to start branching out a little, experiment with new languages.  I picked up PHP this morning thanks to the suggestion of a fellow JaxLUG member and I really like it.  It's far easier than perl in a web-based environment, at least for the simple database stuff I've done with it so far.  I look forward to seeing how much more I can do with the language.  I also intend to experiment with Python a bit, and further experiment with Ruby, which I've played with only a little once before.  Should be fun.  Darkmyst
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+      I've recently been playing with the Jabber modules available for Perl via CPAN.  It's really easy to write a quick and dirty client for Jabber, and looks to be pretty easy to write a similar server.  I wrote a little ping tool that uses Jabber to notify you of changes to the target server's status, which turned out to be a lot easier than I'd thought it'd be.  I'm thinking about writing a little message board program using a Jabber server for user authentication and identification, just as an experiment.  Any ideas on what kinds of cool features that could enable?  I've also recently been using Jabber for all my IM needs, which is why my profile doesn't have an IM entry in it.  No option for Jabber.  Shame shame.    Darkmyst
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+      I've never done a blog before, but hey.. what the hell, right?  If I let it slide, what's the loss?  If I find it useful in my glorious evil plans, then so be it.  Nothing to lose.  We can consider this my new toy for the time being.  Don't expect me to be interesting or entertaining or even worth your time.  That's not why I'm here.  In fact, you probably took a wrong turn and found your way here.  Best be on your way, you don't want to be late.  My name is Charles, aka Darkmyst.  I'm 24, I live in Florida, and I'm currently engaged to be married tp a beautiful girl named Margy.  She constantly claims I'm not evil, but I've just got her thoroughly brainwashed.  I'm one of those unfortunates who got lost in the real world after highschool, but thankfully this fall I'm finally getting my life back on track and going to college.  I'm already a amateur programmer, but with some school I'll fill in the gaps and get the paper to back me up.  I intend to leverage the additional skills I accrue in my mission to take over the world.  Wish me luck!  Anyway, let's see if I continue to use this, eh?  Darkmyst
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,161 @@
+<Blog>
+
+
+
+<date>20,May,2004</date>
+<post>
+
+	 
+      1.	Use the Migration Assistant to identify obsolete functions and events. The Migration Assistant scans PowerBuilder libraries to detect potential problems with syntax prior to migrating the application. Obsolete Syntax is available from version 6 onwards. The Migration Assistant can be found on the "Tool" tab of the "New" object dialogue box.   2.	PSR files, if an application attempts to open a PSR file created in an earlier version of PowerBuilder (pre 8.0 build 7063 or pre 7.0 build 10102) it will fail. This is due to a change in the SaveAsASCII function. To fix this problem, recreate the PSR in a later build of PowerBuilder.   3.	New reserved words (Try, Catch, Finally, Throw, Throws) were introduced in PowerBuilder 8.0 for exception handling. The Migration Assistant will identify any occurrences of these reserved words. To fix this problem, change all the instances of "Try, Catch, Finally, Throw, Throws" in your application to alternative names using a previous version of PowerBuilder.   4.	Distributed programming support has been discontinued since PowerBuilder 8.0. The "Transport" object has become obsolete. The application events "connectionbegin" and "connectionend" no longer get fired. The solution is to deploy your server side NVOs to EAServer.  5.	SystemError Event processing has changed between PowerBuilder 7 and the later versions of PowerBuilder. In PowerBuilder 7, when an error occurs the "SystemError" event is triggered, after the "SystemError" event processing has completed, control is returned to the script where the error occurred. In PowerBuilder 8 and 9, when an error occurs the call stack is unwound, then the "SystemError" event is triggered, after the "SystemError" event processing has completed, processing does NOT continue at the point where the error occurred. Catch and handle errors locally using the new exception handling functionality available in PowerBuilder 8 and 9.   6.	IsValid function was changed in PowerBuilder 8 to return "FALSE" if the object is not instantiated or an invalid object has been passed, prior to version 8, if an invalid object was passed the "SystemError" event would be triggered.   7.	Windows no longer inherit the Application Icon, you must now code or set the property to AppIcon!"   8.	TreeView Event, the "rbuttonup!" event no longer fires, this was introduced in PowerBuilder 7 that comes with Microsoft's Treeview and Listview controls.	  9.	ListView, the "pbm_rbuttonup!" event no longer fires when rightclicking on a ListView item, but it does fire if you click on the white area in the ListView. The solution to this is to use the new "pbm_contextmenu!" event, which always fires when the right mouse button is released.   10.	Web Targets that use the WebDataWindow control must be modified to use the new HTMLGenerator90 component. Right click on the Web DataWindow Design Time Control on your web page and select properties. On the "HTML Generator" tab change the reference from HTMLGenerator80 to HTMLGenerator90. After changing the HTMLGenerator, the database connection properties are sometimes lost, so it is important to check the "Connection" tab and ensure that the database connection setting is still correct after the change.   11.	Another issue while migrating from PowerBuilder 6.5 to PowerBuilder 9 is that the compiler in PowerBuilder 7 and above needs to validate the existence of the graphic files. In PowerBuilder 6.5, the compiler continues compilation even if the file is not found but in v7 and above, we get warnings and even the compilation may stop abruptly because it cannot find the graphic file.  PowerBuilder Foundation Classes  You must 'replace' the PFC libraries with those from PowerBuilder 9 to start with. However, if you are not using the PFE libraries that came with PowerBuilder 9 due to your own customizations to the e-level or an intermediate corp-layer (I hate intermediate corp-layers inserted between PFC and PFE), here are some issues to address:   OBSOLETE OBJECTS:   PFCAPSRV.pbl  pfc_n_cst_FileSrvMAC (7.0) pfc_n_cst_FileSrvWin16 (7.0) pfc_n_cst_PlatformMAC (7.0) pfc_n_cst_PlatformWin16 (7.0)    PFEAPSRV.pbl  n_cst_FileSrvMAC  n_cst_FileSrvWin16  n_cst_PlatformMAC  n_cst_PlatformWin16   PFCMAIN.pbl  pfc_n_Trp   PFEMAIN.pbl  n_Trp   NEW OBJECTS:   PFEAPSRV.pbl  pfc_n_cst_FileSrvUnicode (6.02) pfc_n_cst_PlatformUnicode (6.02)   PFCDWSRV.pbl  pfc_n_cst_dwcacheattrib  pfc_n_cst_trregistrationattrib  pfc_n_cst_dwsrv_resizeattrib  pfc_n_cst_dwsrv_querymodeattrib  pfc_n_cst_dwsrv_multitableattrib  pfc_n_cst_dwsrv_dropdownsearchattrib  pfc_n_cst_dssrv_multitableattrib   PFCMAIN.pbl  pfc_n_cst_tvattrib   PFCWNSRV.pbl  pfc_n_cst_resizeattrib  pfc_n_cst_winsrv_sheetmanagerattrib  pfc_n_cst_winsrv_statusbarattrib  Blow off all the OBSOLETE objects from PFC/PFE. Inherit all the NEW objects in PFC into PFE/corp-layer.       Note: I got this from one discussion group: I don't remember which one.   
+     
+    
+</post>
+
+<date>05,May,2004</date>
+<post>
+
+	 
+       C#    Once we decided to use the IE treeview control the hierarchical data, the problem was how to populate it. We had to display several hirarchies, but the number of levels was not fixed. For example - the product hirarchy had two levels: Product Family and Product; the Geography hierarchy had three levels: Country, State and County.  We needed a generic function which will create the tree, no matter how many levels there are. The following code is the solution I came up with.  We'll take the geography hierarchy as the example. The public function takes a DataSet as the parameter. You have to fill the dataset with three tables - Country, State and County. Be sure to assign the names to the table. Then set the relationship between the tables. Pass the dataset to the public function. That's all!   Each node of the tree will be displayed as Code - Description. For example - "IN - India". The type of the node (NodeType) will be the table name.   Do let me know if you have any comments.                    ///     &lt;   summary   &gt;             ///   This function creates a tree from a dataset. The function creates the first level nodes              ///   and then passes control to the recursive CreateTree function to create the child nodes.             ///   The names of the tables in the dataset and their relationships should be specified.             ///   If there are n tables in the dataset, the function expects n-1 relationships.           ///     &lt;/   summary   &gt;           ///     &lt;   param       name  = &quot;dsTreeData&quot;  &gt;  &lt;/   param   &gt;            public     void   CreateTree(DataSet dsTreeData)         {                 myTreeView.Nodes.Clear();                   foreach  (DataRow row in dsTreeData.Tables[ 0 ].Rows)                 {                         TreeNode treeNode = CreateNode(row[ 0 ] +  &quot; - &quot;  + row[ 1 ],                         									row[ 0 ].Tostring(),                          									dsTreeData.Tables[ 0 ].TableName);                         myTreeView.Nodes.Add(treeNode);                           if   (dsTreeData.Tables.Count &gt;  1 )                         {                                 CreateTree(row.GetChildRows(dsTreeData.Relations[ 0 ].RelationName),                                  0 ,                                 treeNode,                                  dsTreeData);                         }                 }           }            ///     &lt;   summary   &gt;             ///   Recursive function which actually creates the tree.             ///     &lt;/   summary   &gt;           ///     &lt;   param       name  = &quot;rows&quot;  &gt;  &lt;/   param   &gt;           ///     &lt;   param       name  = &quot;relationIndex&quot;  &gt;  &lt;/   param   &gt;           ///     &lt;   param       name  = &quot;parentNode&quot;  &gt;  &lt;/   param   &gt;           ///     &lt;   param       name  = &quot;dsTreeData&quot;  &gt;  &lt;/   param   &gt;            private     void   CreateTree(DataRow[] rows,   int   relationIndex, TreeNode parentNode, DataSet dsTreeData)         {                    foreach  (DataRow row in rows)                 {                         TreeNode treeNode = CreateNode(row[ 0 ] +  &quot; - &quot;  + row[ 1 ],                                 row[ 0 ].Tostring(),                                 dsTreeData.Tables[relationIndex +  1 ].TableName,                                 );                           if   (relationIndex +  2  &lt; dsTreeData.Tables.Count)                         {                                 CreateTree(row.GetChildRows(dsTreeData.Relations[relationIndex +  1 ].RelationName),                                                 relationIndex +  1 ,                                                 treeNode,                                                 dsTreeData);                         }                         parentNode.Nodes.Add(treeNode);                 }         }           ///   &lt;   summary   &gt;           /// This function creates a new node and sets its properties           ///   &lt;/   summary   &gt;           ///   &lt;   param       name  = &quot;text&quot;  &gt;  The text to be displayed  &lt;/   param   &gt;           ///   &lt;   param       name  = &quot;nodeData&quot;  &gt;  Data represented by the node  &lt;/   param   &gt;           ///   &lt;   param       name  = &quot;nodeType&quot;  &gt;  Type of the node  &lt;/   param   &gt;           ///   &lt;   param       name  = &quot;target&quot;  &gt;  The target for the URL  &lt;/   param   &gt;           ///   &lt;   returns   &gt;  The new node created.  &lt;/   returns   &gt;            private   TreeNode CreateNode(  string   text,   string   nodeData,   string   nodeType)         {                 TreeNode node =   new   TreeNode();                  node.Text = text;                 node.NodeData = nodeData;                 node.Type = nodeType;                    return   node;          }    
+     
+    
+</post>
+
+
+<date>30,April,2004</date>
+<post>
+
+	 
+      I've got some money I can spare. I want to buy a new camera as a second body, and that has to be Nikon FM3a. (I've a Nikon F80 and 4 lenses ranging from 19mm to 300mm now). I also need a good flash. I don't want to compromise on the flash. It has to be the best in its class.  I was eyeing on the Nikon SB-80. I called the local dealer yesterday to find out the price. He told me that Nikon SB-80 has been discontinued. So now it has to be SB-800; the latest and the best flash in the Nikon lineup.  Now my dilemma is whether to buy both FM3a and SB-800 - which will take me back by INR 40k - or buy either the camera or the flash. If it's only one, which one ? The flash  or the camera ?  If I had just the money to buy these two, I would've just bought it without a second thought. More the money, it's more difficult to spend.
+     
+    
+</post>
+
+<date>29,April,2004</date>
+<post>
+
+	 
+      I was planning to go for the Thrissur Pooram, the king of festivals in Kerala, India. 100s of elephants, 1000s of people, fireworks, percussion.  It's on 30th April. There was a sample fireworks show yesterday and it resulted in an accident. One killed, several injured. The TV showed the gruesome images of a headless torso of the guy who died.  Looks like the main fireworks will not take place this year.
+     
+    
+</post>
+
+<date>28,April,2004</date>
+<post>
+
+	 
+      I like riding bikes. I ride a thumper. A  urlLink 350cc bike  which makes a thumping sound. Music to the ears.  I don't like riding fast. I like going at 60kmph(  I was wondering why people like riding fast. For some, it's the sheer thrill of living on the edge. For some, it's an ego problem.  I received a mail from Swami a few days back.  He explains this in his rather inimitable style -          ----- Original message ----- From: "Swami Ashwinananda"  To: madrasbulls Date: Fri, 23 Apr 2004 12:45:58 -0000 Subject: Madbull Mail - To do, or to outdo?  That is the question this motorcycling fraternity needs to ask  itself.  I was riding back home from work recently, and I found I was  following a guy on a Thunderbird, who was thumping along at a sedate  pace, and wearing a helmet. 'Responsible rider' I thought to myself,  making a mental note to look for the Madras Bulls sticker when I got  closer ;-). A stop light on Mount Road turned red, and the gent,  still in front of me, pulled up patiently behind a car, waiting for  the light to turn green. But just as I rolled in to wait behind him,  an auto rickshaw on the right moved up and I had the chance to move  ahead of him in line, and I stopped right at the white line in front  of the other traffic. Within seconds, I heard the sound of a Bullet  engine being revved, some honking, and the guy on the Thunderbird  squeezed through some traffic, an irate auto driver and an old man  on a Kinetic Honda included, just to pull up alongside me. He glared  at me through his helmet visor, then pulled up a little ahead of me,  cutting straight across the line. I thought nothing of it, but  Chennai traffic being what it is, an auto driver and a cyclist soon  followed suit, cutting in even further ahead of him!  When the light turned green, I took off smoothly, and he was stuck  behind the auto driver and cyclist. All the way down Kotturpuram  road, I heard his horn and his engine, and saw his lights flashing  as he tried to make his way through traffic to overtake me. I slowed  down a bit, and he made a wide arc to my right, crossing the yellow  line again, and raced off, thrilled that he had finally overtaken  me... Only to slow down about hundred metres ahead, and look for me  in his mirror. I pulled up, and just as I did so, he took of again,  again slowing down a little ahead and looking for me to follow, this  time narrowly missing a Tata Sierra in the bargain.  I tired of this game rather quickly, and we ran out of road space  too, but he slowed down just enough at the turn for me to catch a  glimpse of the prominent Madras Bulls sticker on the back of his  helmet. My question is this. What did I do to turn a sedate, responsible  rider into a speed-hungry, risk-taking maniac within seconds? I  overtook him. And that, unknown to me, ruffled his ego so badly,  that the evil Mr. Hyde made a sudden appearance, wrangling control  of the bike from gentle Dr. Jekyll, and striking rampant terror into  the hearts of innocent Monday evening home-goers.  We have all given into our egos at times, showing someone what a  Bullet can do, teaching someone a lesson, putting someone in his  place... I myself have written reams of rather ambiguous copy on the  subject, to the delight of some, to the disgust of some.  But I do believe enough can never be said on this topic.  Coming back to my question. To do, or to outdo? It's one thing to ride fast because you like to. It's another to  ride fast because you have to be faster than the other guy. I don't  know how many of you are video game buffs, but I'd urge you to try  this simple experiment. Load up a game of Road Rash or some other  racing simulation that you are familiar with. Ride or drive as well  as you can in qualifying mode, concentrating on nothing but the  track. Note your time. Then, with this time in mind, play again,  again in qualifying mode, trying to beat the time you did first  time. 9 out of 10 times, you won't even get close to your first  attempt. Chances are, you might even fall off or crash in the  attempt to get a better time. Why? Because OUTdoing is always more  difficult than doing. Not to mention much less enjoyable too. And  that was just on a virtual track! Phew!  It's a great thing to have this 'killer instinct' in a game, on a  professional race track, or at work. Being competitive can help you  get ahead in life, and setting yourself targets to beat can give you  tremendous self motivation, a sense of self sufficiency and personal  power. But please don't do it on the road.  And this doesn't have to do with just speed. It's got to do with  ANYTHING you do on the road. Enhance your bike's performance  because you want to. Not because someone else has done something and  you want to outdo him. Travel to far off places because you want to.  Not because someone else has traveled more and you want to outdo  him.  Outdoing has another downside. It's addictive. And that, in itself,  can lead to your own destruction. People who know you have this  thing about outdoing can very easily make you undo yourself.  If the gent who overtook me is reading this, I hope he takes this in  the right spirit. I have no problems with people who ride faster  than me - I can learn a lot from them. I have no problems with  people who have traveled more than me - I can learn a lot from them  too. But I do have a problem with people who want to kill themselves  outdoing people - because I can't learn anything from them. Not that  that type will have anything to teach anyway.  So again, it's up to you. Ask yourself if you do what you do because  you truly want to do it... or because someone else does it better  and that rankles you. And then decide which is more enjoyable, doing  something because you like doing it, or because you have to outdo  someone else at it. Whatever you choose to do (or outdo), all the  best! Swami Ashwinananda          One of Swami's excellent articles can be found  urlLink here.  
+     
+    
+</post>
+
+<date>01,April,2004</date>
+<post>
+
+	 
+         Lost a good friend. :(  Varun had an accident in Surat. We'll miss you.
+     
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+	 
+      So, finally Sonia decided to sacrifice her PM post and became Saint Sonia. I fail to see why it's called a sacrifice. She says that she is listening to her  inner voice and I don't understand what she heard. Anyway, good for her and good for India. If she became the PM, I'm sure that most of the educated middle class will come out and vote in the next election. Finally, Manmohan Singh became the first Sikh PM of India. Hope Sonia is not doing what Jayalalitha did in TN a couple of years back. We don't want a dummy PM with Sonia calling the shots.  The next thing I didn't understand is why Pak Prez Musharaff invited Sonia Maino to visit Pak, before inviting the PM. I think he understands Indian politics better.  Chennai had a very good summer this year, with occassional rains and clouds. The monsoon started in Kerala a bit earlier and I was lucky enough to enjoy some rain there.  My uncle is getting married on 27th and I've now reached the front of the queue. The pressure is now really mounting on me.
+     
+    
+</post>
+
+<date>18,May,2004</date>
+<post>
+
+	 
+       urlLink Internetweek  is reporting that  urlLink Yahoo  is going to increase their email storage space from 4MB to 100MB. The paid users will get virtually unlimited space. Yahoo might be hoping that this will prevent users from moving to  urlLink Gmail.    I hope  urlLink Fastmail.FM  also will follow suit and give the features of enhanced account for the free users.
+     
+    
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+	 
+      Google has started  urlLink Google Groups  and it looks like Yahoo groups will be out of themarket soon. The interface is similar to Gmail.
+     
+    
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+	 
+      Outsourcing has become the buzzword of the year 2004. After BJP lost miserably in the Indian elections, Congress is all set to form the new government. And, the main(and the only one so far) Prime Minister candidate is none other than Italian-born  urlLink Sonia Maino Gandhi , the wife of Late PM Rajiv Gandhi. I've nothing against Sonia. Rajiv was my hero when I was a child. My parents and all my relatives are Congress supporters and they have never voted for any party.(I've never voted at all - I'm not in the voter's list, Applied, Denied, Rejected)  But the very thought of having a "non-Indian" as a PM makes me shudder with disgust. It's not me alone, the same is the case with most of my friends and colleagues. Most of the middle class thinks the same way. But, they don't decide the mandate. The people like me never goes out to vote.  And the congress also doesn't seem to have a choice. The next choice would be the novice Rahul Gandhi, son of Rajiv and Sonia. After all , it's a family business.  I'm happy that both the children of veteran Kerala "Leader" Karunakaran lost the election.    Guardian -  urlLink  From a small town in Tuscany to leader of 1bn Indians: Gandhi dynasty rises again 
+     
+    
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+	 
+      I've been using  urlLink Fastmail.FM  for over 2.5 years now. Very very happy with the service. Even my domain  urlLink etops.net  is hosted there. Lots and lots of features for the power user. The sieve filters are very effective against the spam, in addition to the built-in spam protection. Not even a single spam reaches my inbox. A few legitimate mails doesn't reach my inbox because of the ads service providers like  urlLink Yahoo!  and  urlLink Hotmail  attaches to the mail. I'm a full member and even for the free member they don't add any big ads; just a text ad of their service. They have a very good  urlLink forum ,(I was a regular contributor to this forum, but I can't find time to contribute anything. Silly excuse!) with lot of users ready to help you at any time. Their support is also excellent. No complaints.   urlLink Gmail , launched in April 2004, seems to be an instant hit with the beta testers. Who will say no to 1GB online storage ?? But is it that good? I didn't like the screen shots posted on their website. It seems to be lacking most of the useful features Fastmail has. It doesn't have IMAP !! And it seems to be relying a lot on Javascript. Anyway, I'll get an account once the testing phase is over and accounts are open to public.  
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+      After one week of rain, the sky is clear, the sun is out and the temperature is too high. Sleeping in the night has become difficult. But, I'm waking up early nowadays. I now sleep naked.   
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+      Burgundy colour. Two weeks old. Wore five times. Missing since 8th Saturday morning. Well, it's my shoe.  I've been travelling in the same train atleast 2 times a month, for the last 4 years. But, never lost a thing. When I woke up on Saturday morning in the train, my shoe was missing. I had to leap bare-footed from the train to the car.  Maybe, the guy who took it needed it more than I do. Hope he makes good use of it.  The first thing I did on Saturday was to shop for a new shoe. I went to the shop wearing a slipper, a dirty jeans - all my clothes jumped into the washing machine, and an old shirt. The shopkeeper would've thought that I'm some begger. Whichever shoe I take, he'll say that it's costly. Finally, when I flashed my credit card, he started calling me 'Sir'. What a change! People respect only the dress.  It didn't rain in Chennai today. Felt like a furnace when I stepped out for lunch. Finished the lunch and came back quickly to the comfort of the office.  Hmm.. I might go to US for an 8 week by the end of this month. Let's see...
+     
+    
+</post>
+
+<date>06,May,2004</date>
+<post>
+
+	 
+      The siege of Fallujah seems to have ended once the Iraqi general took charge. Probably, this general was leading the so called insurgents. Anyway, it's good that the number of deaths has decreased.  Who knows, the US might just bring back Saddham to suppress the militia in Sadr city!
+     
+    
+</post>
+
+<date>03,May,2004</date>
+<post>
+
+	 
+      It's raining in Chennai!   It started raining yesterday evening. The weather is supposed to be hot and humid now, with temperature reaching around 45 degree celcius (We don't care about Fahrenheit in this part of the world). People here call this period as   Agninakshatram   - meaning Fire start. During this period, the temperature will reach its peak. Last year the maximum was 45. This year, it's supposed to cross that.  But this rain came as a surprise. Outside it's cool. It's good time to sleep. 
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+       urlLink Rubik's cube solver  using a robot made my lego. Great ! isn't it?  Maybe I'll make a motorcycle using lego!
+     
+    
+</post>
+
+<date>01,June,2004</date>
+<post>
+
+	 
+       urlLink Myth of moral superiority  - Rajeev has come up again with an amazing article.
+     
+    
+</post>
+
+
+
+</Blog>

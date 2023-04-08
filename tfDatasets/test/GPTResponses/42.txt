@@ -1,0 +1,1 @@
+When a harmonic series diverges, it means that the series does not have a finite sum or limit. This occurs when the terms of the series do not approach zero quickly enough, causing the sum to increase indefinitely. In other words, the terms of the series get larger and larger without bound, and as a result, the series does not converge.

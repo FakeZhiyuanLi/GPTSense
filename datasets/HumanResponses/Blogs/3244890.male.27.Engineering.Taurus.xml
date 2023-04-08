@@ -1,0 +1,83 @@
+<Blog>
+
+<date>26,May,2004</date>
+<post>
+
+	 
+      Since I have given Telus so much grief in the last while, I suppose, I should give a bouquet when one is deserved.  Last Friday (having learned how the people at work really see me, and how I was pretty much the only one of the office staff left out), was a terrible day.  And since I was having such a bad day, I thought, what the heck, why not call Telus and be disappointed yet again.  So first, I drove to my parents, and logged onto the internet with their phone line using dial-up.  Then I ran Telus's Wizard.  The funny part about Telus's wizard is, it's HUGE, it took around 10 minutes to download.  Why they would make such a huge wizard for dial-up users (I assume most people downloading this would be dial-up users obviously) I have no idea.... but that's another rant entirely.  Once again, the end answer was something along the lines of: "Sorry, High Speed Internet service is currently not available in your area.".  Now we have already had to have Telus come out and remove a tadiran from my parents phone lines.  And Telus never guaranteed we could get ADSL after that.  So since the site said it's not available, I didn't have very high hopes.  So it was with that mindset that I called Telus.  The first thing I had to deal with is their EXTREMELY ANNOYING phone system.  I am sorry Telus, but no matter how hard I try, I cannot stand that system.  I would much prefer the much less personable enter a number for what you want type system.  Because the thing is.... I don't always know what exactly I'm looking for!  And in these cases, it's much easier to be given options. Anyways, enough of that rant, and for the record, if you call Telus say you want to talk to an Agent (Sales Agent, Tech. Support Agent, Internet Agent, Repair Agent, etc.).  So Finally after fighting with the phone system, I finally got through to who I wanted to talk to.  The lady on the other end was EXCEPTIONAL!  She went digging around to find out everything she needed to know about the repairs done on the phone line, and even checked the neighbours phone lines to see that they had ADSL available.  So from there, we made arrangements to have to ADSL installed, and the account at my place now transfered over to my parents house!  So FINALLY, it looks like things are coming together, and maybe, just maybe, I'm not gonna be stuck with Monarch Cable (the definition of Scam Artists) *grumbles about the strict 2 GB upload limit with overcharges after that... on a bloody $100 BUSINESS ACCOUNT!*  So to Telus and Janine... cheers!
+     
+    
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+	 
+      Here I am at work today, I should be doing something work related (duh) but I really don't feel like it right now.  I'm somewhat anxious about getting my condo as well as moving back in with my parents.  As it is right now, I still cannot get Telus ADSL at my parents' house, even though every house around them can?!  So for now I have no idea what I'll be doing when the time comes to move.  I would much prefer not having to use Monarch, as they have proven to be the most Anal ISP in existance almost.  Perhaps if I am lucky Shaw Cable will have taken over the cable internet portion by that time.  Still I would prefer to stick with Telus, as things have worked relatively well besides a few exceptions (see previous posts).  And Telus seems to have the most reasonably priced business packages which allow servers.  At any rate, there's more time to worry about this later.  Sooooooo much packing to do in the mean time. :(
+     
+    
+</post>
+
+<date>05,May,2004</date>
+<post>
+
+	 
+      I nearly suffered a heart attack today when my connection to my home computer became painfully slow.  Hell I couldn't even open a webpage running off my servers.  Of course being the eternal optimist I am, I immediately thought, "Oh no, ive been hacked or I'm being DDoS'ed!"  So being scared as hell, I leave work and rush home (it's good living 4 minutes away from work) to check my connection... and to my surprise there was almost no traffic.  So, I decided I would try resetting the ADSL Modem as this has caused problems in the past.  So 30 seconds later...  my connection was up and running and fast as ever again.  This sort of trouble with the modem has happened to me before.  So I decided to call Telus and ask them if I could get the modem replaced.  And of course once again they were up to par with their reputation of excellent support. (end sarcasm)  "Modem resets once a month is not often enough to warrant a new modem.  And even if it was it would cost at least $150 for the modem and 3 hours for installation."  This is where it gets interesting.  when I asked, they proceded to tell me that it I were to go and buy a new modem from any store which sells them (Usually $70 everywhere I have seen) I could just replace my old one with it and it would work.  WHAT THE HECK?!  What kind of SCAM is Telus running here?!  I mean these guys know how to squeeze people for every red cent.  Heck my parents are being charged $36 plus $18 EVERY 15 MINUTES!!! to have a piece of equipment removed from their house so they can get ADSL.  Must be nice to have a Monopoly!  Oh well, my ADSL is working decently again for now, at least I can be happy about that.
+     
+    
+</post>
+
+<date>02,May,2004</date>
+<post>
+
+	 
+      Hrmmm, I'm not sure what the hell this post is for, but oh well.  Perhaps if you are reading this, you'll wanna check out my sites.   urlLink ravingnerd.net  or  urlLink shutthefuckup.ca .  Or maybe you would rather check out some other sites I host for my friends:  urlLink bloodcapsule.com  or  urlLink foremostband.com .  Cheers, triv
+     
+    
+</post>
+
+<date>20,June,2004</date>
+<post>
+
+	 
+      Wow, been a while since I posted here.  Been really busy as of late.  Getting ready for my move and taking everything possible over to my new place.  Plus I leave for my camping trip on Monday... YAY!  Let's hope the weather holds out for once.  Last year it didn't rain, but the wind was crazy.  So far in June we've had ridiculous amounts of rain, so hopefully we'll get lucky and the wind will stay away now that the rain seems to have stopped.  I get back from camping on Thursday, and then Friday my ADSL gets moved over to my new place.  *fingers crossed*  It would be most excellent if my IPs wouldn't change.. but somehow I think that might be asking a little much.  Once my ADSL is installed on Friday, I have to try and move as much stuff as possible with my car over to the new place.  And then we bring the trucks on Saturday... and after we have everything moved... then begins the final and very frightening clean-up... after all, I have lived here for four years.  Oh well... I'm not going to worry about it now... I'M ON HOLIDAYS!
+     
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+	 
+        My Adventures with  urlLink OpenBSD.               A few months back, I tried OpenBSD for a while. I liked it a lot (well okay, mostly the idea of using it). Eventually though, I ran into a bit of a routing problem, and I wasn't sure how to keep things properly updated. This of course, is not the fault of the Operating System. At the time, I just wasn't willing to learn OpenBSD properly. I already knew Linux pretty well, so I decided to use  urlLink Debian  on that box instead.    After reading a great article on OpenBSD that  urlLink Slashdot  pointed me to, I decided that as soon as possible, I would try OpenBSD again. There was certainly no disappointment. OpenBSD has most definately proven itself to me over the last couple weeks. The first and most important thing to remember is that  urlLink OpenBSD.org  is your new Bible.  Especially have a good look at the  urlLink FAQ .  At any rate, I won't bother going into details, this is hardly the place for that, but perhaps I'll make more detailed walk-through type article elseware and post the link here. As a person who has been using Linux for about 5 years now, I think it was a great excercise for me in order to expand my horizons. I have become fairly familiar with Linux and how things generally work, so it has done me well to learn a few ins and outs of a different operating system.  If you are into Linux, and want to try something new, give OpenBSD a try, it's well worth the small effort it takes to learn it.  
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+	 
+      Wow!  Things have been nuts around here lately.  It's been really hard to even find time for myself.  Oh well.  Only 5 more months or so.  I went and took new pictures of my condo today.  They have framed maybe 25% of the first floor.... so its still gonna be a while until they get anywhere near my unit!  I also got a phone call from my new mortgage broker today and.... I WAS APPROVED!!!!  Yay for Ester :-)  For once, I have no major complaints about Telus haha!  My connection is pretty solid... it hiccups once every day or two, but that's it.  Odd how when I lived in the worst part of town, my connection was rock solid... now that I live in one of the nicest parts of town, the connection is not quite as stable.   OH WELL THOUGH, AT LEAST THE DAMN THING IS UP AND RUNNING! :-D  Tonight, since I had time to myself, I decided to try OpenBSD again.  As always, I am very impressed with it.  No problems detecting the hardware, which is good, because I couldn't remember what exactly the hardware in it was. 8-) If you like Linux, and know your way around it pretty well, give OpenBSD a shot, you will never regret it.  Just make sure to keep the INSTALL doc and Install FAQ handy.
+     
+    
+</post>
+
+<date>04,July,2004</date>
+<post>
+
+	 
+      Here I am, once again, up WAY too late, but oh well.  I think I'll watch my DVD of Lord of the Rings: Return of the King.  I just grabbed it off my shelf and then realized.... I BOUGHT THE DAMN FULLSCREEN VERSION!  Hehe oh well, off to Futureshop I go tomorrow to grab the Widescreen version.  Anyways, I just felt like sharing that, not that anyone is listening anyways. :D
+     
+    
+</post>
+
+<date>03,July,2004</date>
+<post>
+
+	 
+      Well after much pain, I finally got everything back up after the dreaded move.  I won't go into details, but I'll say this much, finally, after lodging complaints with the CRTC and with Telus themselves, I finally got everything back up.  With a side order of changed IP addresses to make things more interesting :D  I went to see Fahrenheit 9/11 tonight, and I must say it was absolutely thought provoking, and I encourage EVERYONE to go see it.  It doesn't matter if you are left wing or right wing, love Michael Moore or hate him, it's absolutely thought provoking.  Unless you have absolutely no conscience, this movie will change you.  I am so glad I picked it over Harry Potter or Spiderman 2.  Anyways, it's time for me to head off for some Hot Shots 3 then go to sleep. Cheers.
+     
+    
+</post>
+
+
+</Blog>

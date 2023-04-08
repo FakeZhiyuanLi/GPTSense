@@ -1,0 +1,114 @@
+<Blog>
+
+<date>29,June,2004</date>
+<post>
+
+    
+       
+      For some reason we had a power outage this afternoon. The curious thing: heating was still working as i detected the outage. When power came back, our FI-fuse didnt like so much machines powering on at the same time and powered of everything a second time. Luckily the indy came back online, as i modified the kernel last week and hadnt yet rebooted the machine. Now Linux 2.4.26 kernel is running on that machine. I now know how arcboot is working. Configfile seems to be very the same as lilo. Not that much options, but thats ok.  I had been at Linuxtag 2004 in Karlsruhe last week-end. A very nice trip which devinitfly was worth its time. I met many people at the Debian booth (Ganeff, mrvn, _rene_, weasel and many, many more). I also attended at the LT Keysigning Party and now getting my key signed from about 140 persons. Hey lets grow the web-of-trust. I will get into the strong keyset in near time (currently i am on place 1297 of all gpgkeys world-wide). I also talked to the guy of  urlLink 4G Systems  about the  urlLink Meshcubes  they sell. Nice little WLAN routers. But Jan Stefan from DaLUG told me, it would be cheaper to order some D-Link or Asus WLAN-AP, whom to modify the firmware doing the very same thing as the Meshcubes. I joined  urlLink GUUG Community  at the LT. It costs 30 EUR for students and i got one book (VPN mit Linux from Ralf Spenneberg) free of charge as well as the LANLine Magazine every month now. GUUG members also get c't, iX and Linux Magazine at a reduce rate. 
+       
+    
+    
+</post>
+
+<date>20,June,2004</date>
+<post>
+
+    
+       
+      Hey, the Indy is now running. Orignaly Irix 5.3 was installed on it. But i decided to switch to Debian, as I am more familiar with Debian and i can take it as development machine for DCC.  The 13W3 adapter didn't help at all. None of the monitors i tried worked with the indy, even those who had sync-on-green in its specification. At last i got a 17" Sun monitor from Uli.  When installing Debian, i first tried Woody install disks, but didnt get far, as fdisk on Indys is a little bit confusing. So i tried beta4 of Sarge D-I. It worked well, but fdisk was same confusing. I managed it somehow (trick: delete SGI VolHDr after first partition is created). Afterwards D-I installation is straight forward. I changed the exim4 config to relay all mail to server.mhelas.home, which makes it easier to read all mail from all PCs.   When googeling for some postgres issues if found a new project call  urlLink exchange4linux , an add-on for M$ Outlook with calendar sync. Server runs under Debian Linux, AddOn to be installed under Windows. Seems worth to give a try.  I submitted some more keys to the  urlLink Linuxtag   urlLink Keysigning-Project.  So i will attend next week at Linuxtag Keysigning.  Asked also @ Debian-QA whether doxygen can be orphaned, as the maintainer did his last upload over a year ago and 6 NMUs having been passed since then and even for the actual RC-Bug (an one-line patch exists) the maintainer shows now reaction.
+       
+    
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+    
+       
+      Yeah, we are back online, phone is working again. Hip Hip Hurra to the Deutsche Telekom!!!
+       
+    
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+    
+       
+      Currently I have problems having a closer look on the indys. Network isnt coming up after boot so i have to either connect a nullmodem cable or a monitor supporting 13W3 or sync-on-green. Nullmodem is a little bit complicated as the serial connector on an indy is a MiniDIN8, so i need a converter from SubD9 to MiniDIN8 (have to arange that in the next days or ask at the DaLUG for support). Apropos DaLUG, we should plan for LT2k4, and how to get there. Uli said he will go by car, I myself will do the same. Have to find some persons joining me, that makes fuel cheaper.  Deutsche Telekom did not managed yet to reconnect our telephone so phone is still offline. I called their support today, but they say i have to wait. LOL, why have i to wait for a mistake they made. I will write a letter to there support center. DSL-connection problems on XMas show me, that claiming on there mistakes is real money ;=)  I have been in Swiss last weekend for hiking. Nice trip to mount Rigi. It was hard for me as i am not familiar with hiking up 3000ft. mountains, but somehow i managed it to get up to middle-station. As i arrived on middle-Station, it started raining. Downhill i took the cable car which was quite expensive (23 SFr, which is about 15€) one way.
+       
+    
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+    
+       
+      Finally the Indys and the 13W3 adapter arrived on Wednesday afternoon. But it seems I have to install them via serial console as none of my monitors seem to support sync-on-green.  I had a little bit trouble with Deutsche Telekom. I asked them two weeks ago to switch my DSL from 768 to 1024 as there was a promotion period for DSL 1024 where you had to pay no fees for changing. Now the have switched my DSL from 768 to 1024  and  my telephone connection from ISDN (digital telephone) to analog. Very strange!?!  And  they want me to pay over 100€.
+       
+    
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+    
+       
+      I ordered five  urlLink SGI  Indys on eBay some days ago. Until now neither the 13W3-VGA adapter nor the Indys itself arrived. I am a little bit frustrated, as I hoped they would arrive a little bit faster. The prior owner of the Indys mailed me on saturday that the two packages are on there way to me... The guy i send money for the 13W3 adapter never showed any action since he got the money... I have to write them within the next days.
+       
+    
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+    
+       
+      I just created my blog-account @ blogger.com. So lets try to do some blogging... Today i was busy getting my WLAN working well. After i updated my Linksys-AP two days ago with a new firmware from  urlLink SveaSoft , which is a 3rd party firmware, i have nice features on my AP. OTHT it opens a view new security holes in my network. AP has now telnet working, so man can login in directly in to AP. I disabled that feature as the telnetd running on the AP is passwordless. After securing the AP again i managed to get vpnd working between my laptop and my desktop PC. After installing some firewall, WLAN should be secured by now.  I found a nice project to join, which is thinking about building up wireless network in our  urlLink village . I am not sure how many persons would participate on that. I also found some nice  urlLink Meshcubes  from  urlLink 4G Systems . This cube looks very nice and seems to be perfect for that. Its running on MIPS with  urlLink Debian . I have to think about that...
+       
+    
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+    
+       
+      After some  urlLink strugle with slapd on mips  I managed to get slapd installed on mips. For some reason there seems to be a problem with bdb in Debian's slapd package ATM (slapd 2.1.30-2). For now I installed slapd afterwards changed slapd's config to use ldbm instead of bdb and reinstalled slapd. That seems to work for me ATM.   If I have some spare time on the next week-end I will do some research on bdb backend and why it fails on mips.  Currently uLI, Michael and me are planning for an Debian Bug Squashing Party at the end of August. I just wrote some formal eMail to Frank Lichtenheld (djpig) and asked for some support. Alexander Schmehl (Tolimar) and Michael Banck (azeem) already told me the would join us, if the have time and manage to come to Darmstadt somehow. We need also to coordinate the BSP with the  urlLink Debian BBQ/Party-Team , as the are planing to do a party nearly the same time. So announcement of the BSP should be made really soon.
+       
+    
+    
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+    
+       
+      We had DaLUG BBQ with ans Keysigning yesterday evening. Quite interesting talks there.  Benedikt and I had a nice small talk about South Africa and Namibia. We was there last year. It was interesting to here what changed in the last 7 years. He has done most of South Africa by bike.     At the DaLUG KSP i organized 10 persons including me attended. After KSP uLI gave an interesting talk about keysigning and how it works in genereal (software included).  
+       
+    
+    
+</post>
+
+<date>03,July,2004</date>
+<post>
+
+    
+       
+      There was a very nice talk about spam and viruses (and how to reduce them) by sage@guug on Thursday evening. It was the first talk from sage@guug i attended. The talk began with some nice facts and i thought, oh no, an other bloody tinkerer. But ten minutes later i reviewed my opinion as he had some very interessting ideas how to realy reduce spam and viruses directly on the mail gateway.  Afterwards i had some nice discussion with with uLI and Michael about gpg and the Keysigning Party we are organizig for DaLUG. In the mean time i agreed to do the main organisation for the gpg keysigning party taking place at 17th of July at the DaLUG BBQ.
+       
+    
+    
+</post>
+
+
+</Blog>

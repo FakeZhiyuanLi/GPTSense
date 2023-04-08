@@ -1,0 +1,1 @@
+Fermat numbers take the form F(n) = 2^(2^n) + 1, where n is a non-negative integer. The first few Fermat numbers are:F(0) = 2^(2^0) + 1 = 3F(1) = 2^(2^1) + 1 = 5F(2) = 2^(2^2) + 1 = 17F(3) = 2^(2^3) + 1 = 257F(4) = 2^(2^4) + 1 = 65537and so on. Fermat numbers grow very quickly and are known to be prime for only a few values of n.

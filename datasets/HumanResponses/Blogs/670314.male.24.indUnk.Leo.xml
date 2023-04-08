@@ -1,0 +1,1075 @@
+<Blog>
+
+<date>03,August,2004</date>
+<post>
+
+    
+        urlLink SOX  (Simple Outline XML) is a new way to type in XML. SOX makes it really easy to write XML, it uses the indentation (à la Python) to get rid of all the closing tags. For instance:   html&gt;   head&gt;     title&gt; Hello   body&gt;     h1&gt; Title     p&gt; A little text with a       a&gt; href=http://link          link       .   would render to something like (untested):    &lt;html&gt;   &lt;head&gt;     &lt;title&gt; Hello &lt;/title&gt;    &lt;/head&gt;   &lt;body&gt;     &lt;h1&gt; Title &lt;/h1&gt;     &lt;p&gt; A little text with a       &lt;a href="http://link"&gt;          link &lt;/a&gt;       . &lt;/p&gt;   &lt;/body&gt; &lt;/html&gt;   That really seems great! SOX is implemented in Java (source included).  [Via  urlLink Curtis Duhn's Motherlog ] 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Now they've done it! They have created a  urlLink media  for music that doesn't fit in the computer's CD player. It's 12" in diameter and black.  :-)  [Via  urlLink DotBlog ]  
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Now, this is paranoia! Today  urlLink The Register  reports of a project called  urlLink m-o-o-t . The project is a reaction to certain laws in e.g. UK which require that you provide the government with your keys to your encrypted material on request. So what this project will produce is a CD used to boot the computer. On this CD there will be applications for things like communication and spreadsheet. But you cannot communicate with computers that don't use m-o-o-t, due to security issues. Moreover, you cannot access your harddrives, thus everything is saved on off-shore data havens, spread out in little pieces and encrypted. So there are no traces of your data on your computer and if somebody should knock on your door when your're using it you just eject the CD and the RAM get instantly erased. Neet! It really seems extremely secure!  But the question remains: who will use it? You won't be able to do anything useful with it—just entering data and communicate with others that are using m-o-o-t. And you can't install any additional applications. Or perhaps the question should be: who will use it for legal purposes? 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       It has rained almost all day today. But I was out taking a long walk in the beautiful  urlLink Brunnspark . And the rain was pouring down. Just the sound of the rain drops pattering against my umbrella made me want to sing (well almost anyway). And even some mosquitos made an appearence, and took shelter along with me from the rain (still itching). There are not many thing that are as refreshing as rain, that's for sure! (But from indoor the rain seems so dull)  Another thing that got me on a good mood was  urlLink this animation . A musical as a means of protecting consumers' rights is the way to go! :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Today I have spent several hours to solve the problem with providing an RSS feed. The problem is that I use  urlLink blogger  to create this blog. And they don't support RSS feeds, unfortunately. So I had to make my own solution. It's a  urlLink python  application that parse the HTML page that blogger creates, and generates the corresponding RSS feed. So far I have to manually upload the generated file using FTP, but that will be taken care of to make the whole process work automagically. Please report if you experience any problems with the RSS feed! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Ahh! What a relief! Now I have just finished the next draft of my master thesis.   I started working on the thesis in the beginning of this year. But the last couple of weeks I have attended a course in Knowledge Management, which left no time for my thesis. So I have only worked on it for a little more than a week now. Finally I'm starting to gain some momentum...  You can read it, if you want. But the thesis is far from finished so it might not be that interesting. You can find it  urlLink here . Please give me some feedback if you read it!  Now I really must go to bed! :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       So, why has I created this weblog? To be honest—I'm not sure. There are, however, some things that I would like to write about.   I hope that the topic, and raison d'&ecirc;tre, will emerge eventually! This means that there will probably be quite diverse topics in the near future, but just bare with me!  I will write more another day. To set this weblog up has taken too much time from my thesis already! :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       This is my first post. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Today I have played a little with  urlLink Ruby . I have tried it before but had great difficulties writing anything useful (and since I knew some  urlLink Python  I didn't really see the meaning of learning another similar script language). But this time I read some of the documentation, which made it a little easier :-)  The reason why I played with Ruby today was to get ready for  urlLink Burger . So I've created a XML-RPC server which mimics the appearance of  urlLink Blogger  (b2, MovableType, Nucleus, BigBlogTool, BlogWorks XML and Blogalia all have the same Blogger look-alike API). That way I can use the same tool for editing the blogs as I do today, namely  urlLink w.bloggar  (there are other equivalent tools as well). I'm not finished yet but I'm able to post new entries and edit old ones, so I hope it will be quite easy to adapt it to Burger.  By the way, I saw  urlLink Spider-Man  today at the cinema. It was an awesome movie! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+        urlLink Peter  is writing his own blogger software, called  urlLink Burger . I hope that he succeed, and publishes the source for the whole world to see when it starts to be functional. I would love to use a software solution, instead of a web based solution, such as  urlLink Blogger  which I'm currently using. Not that there is anything wrong with Blogger, just that I would like the control of using a local solution, i.e. storing everything locally and not on some remote host. And it really bugs me that I can't change various details of how the blog is rendered. I feel a little envy against those who can use powerful tools such as  urlLink Movable Type ...  So Peter, let me know when you are self-hosting, using Burger! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       As mentioned  urlLink before , my firewall is an  urlLink OpenBSD  box. I chose OpenBSD primarily since it is supposed to be really secure. But this week (I think) they changed their slogan to: "One remote hole in the default install, in nearly 6 years!". That is not good news (it was zero before)! Apparently the problem was related to  urlLink OpenSSH . I didn't pay the issue much attention until I "overheard" a few youngsters on IRC talking about how easy it was to gain root-access to an OpenBSD box. That's when I decided to patch my box! :-)  I hadn't done that before, but it turned out to be quite easy. The main problem was to realize what to patch&#151;it wasn't too clear on OpenBSD's web site. But I chose a patch that I thought was the right one, and after some small trouble, and a long wait, I managed to apply the patch. However, afterwards I realized that it wasn't the right patch :-) But after getting the new version of OpenSSH to compile it was quite easy (a long wait here as well).  So now I feel a little more comfortable with my *nix skills. I guess the next step is to compile my own kernel. Yikes! :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I just stumbled across  urlLink Weblog BookWatch  in my referrer's log. It's a great service that searches  urlLink weblogs.com  for blogs that mentions books (through checking links to  urlLink Amazon.com ). Thus, BookWatch keeps a top 10 list based on the number of times a book has been mentioned.  I wonder when I will come up with such a brilliant idea! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Is it time to do the switch I talked about  urlLink earlier ? When even  urlLink an owner of a large software company is switching  [via  urlLink both2and: beyond binary ], what can you do? 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I have now finished reading  urlLink The Cathedral and the Bazaar  by Eric S. Raymond (I have mentioned it  urlLink here  before). I must say that it provides a good insight into the hacker/open source community. I find the parts which describe how communities arise and function around specific project, such as Linux, especially interesting (it wouldn't hurt with even more of this). These different communities share a tradition of slang, history, and myths. I believe that this is crucial for the communities in order to be able to communicate and work together. This is something quite obvious from a knowledge management perspective. For knowledge to be created and exchanged there has to be a strong culture&#151;a shared frame of reference. When there is a strong culture communication becomes much easier, it's easier for people to understand each other. This is especially important for tacit knowledge. In a company this is essential as well, however in the open source communities the means of communication are quite poor and the people rarely meet face-to-face.  The culture and implicit rules hold the communities together and facilitate the work. But since the participation  of the communities is absolutely voluntary there has to be something more. In fact, for a person to be loyal to a community it must be easy to move in to and out from the effort&#151;e.g. if it isn't possible to fork the project people might choose another effort where such possibilities exists. Raymond mentions two main sources of motivation: doing work because you need the outcome/love the challange, and gaining respect of your peers. I don't know if this kind of freedom is possible or even desirablein companies, at least in small and medium enterprises.  The leaders, or the project owners, are according to Raymond quite humble. It is not regarded positive if a leader takes the credit for the community's work or even strive for being a leader. The leader should be knowledgeable, sharing and humble. I guess those are nice characteristics for all kinds of leaders.  One thing that is, at least to me, quite controversial is that there are no deadlines. Deadlines are often regarded as something good. I think they are good. Deadlines put some pressure on the developers and provide a sense of urgency. Hopefully they will get some positive stress, and not negative stress. One thing that I really like about  urlLink XP  and  urlLink Scrum  is that they use time-boxing, i.e. regular and firm deadlines. I have problem understanding why this couldn't be used in open source projects, perhaps it would be considered as an infringement of the freedom.  Raymond also describes different approaches for how companies can embrace open source to different degree. I think that open source could be used by far more companies than presently. But it requires that they change from product orientation to service orientation. There are much more things than the actual software that could be sold. However, there are probably quite many companies that would benefit from not opening the source to their software.  When reading the book my assumption that there is a conflict between the open source community and the software industry (at least the traditional, non-agile) grow stronger. Take for instance JohnDoe: JohnDoe is highly involved in an open source project before he starts working professionally, and get accustomed to that way of working. It is the open source project that JohnDoe is involved in that convinces JohnDoe to engage in a professional career as a programmer. As JohnDoe starts working professionally in a traditional company much of his freedom is lost, and also the passion for programming. The question is where to get in touch with JohnDoe&#151;I would really need such people to my master thesis. It would also be interesting to see if there are people who didn't have any large problems with migrating from an open source community to a software developing company. I guess I will have to start "head-hunting" :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       On Sunday evening my Internet connection went down. However, I noticed that I could connect to other computers using their IP addresses. So clearly there was something wrong with the DNS. It was quite odd since I noticed that I could see some web pages using the browser. But I realized that it was  urlLink Naviscope  (a wounderful little utility), which had cached the DNS queries. Yesterday I got an IP address to another DNS server since the original DNS didn't feel too good. And everything worked just fine!  But yesterday evening my Internet connection went stone dead. I thought that it was the DNS again, but it wasn't. So I didn't use the computer any more and thought that it might be some temporary problem with the ISP. However, it didn't work today either. What had went wrong? As time passed and the situation didn't seem to solve itself I started troubleshooting my firewall (an  urlLink OpenBSD  box). The firewall could access Internet but my other computer could access neither the firewall, nor the Internet. When I rebooted it, the screen read "NE1: device timeout". I tried to reboot some times but the same message appeared each time. I tried to connect my other computer directly to the socket, thus bypassing the firewall, and it worked just fine. Thus, I was convinced that it was one of the network interface card that had broken. So I switched it to another card, but it didn't work. As I was ready to give in I tried to switch back to the original card. And, to little surprise, it worked perfectly. :-)  The bright side is that I got a reminder of why I didn't pursue a career in computer hardware. But I really don't have time for tinker with computers now. :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       While catching up on my favourite blogs after a weekend out of town,  urlLink this entry at Tesugen.com  caught my interest. In it Peter writes that he would want the company he works for to try having work-free Fridays. I think it's a really good idea! For some months ago I read about a company called  urlLink Tankebolaget , where they are using this idea (they call it personal development). Each Friday the employees are allowed to devote some time to enhance their competence, following personal competence development plans. I remember from the article that one of the employees was taking welding classes, which I found quite funny. I guess that most employees did things more directly related to whatever Tankebolaget is doing, but it shows that there are some freedom.  Another company that uses roughly the same idea is  urlLink 3M . 3M is a company that put a large emphasis on continuously coming up with new innovations. They have a so-called 15% rule. The rule means that all employees are encourage to devote 15% of their time on pretty much anything. But it seems to be common that the employees use their 15% to explore new ideas. If one person gets a new idea for an innovation, s/he rallies some other employees to devote their 15% on the idea as well. Thus, small groups of people use their 15% on exploratory ideas for some time. As the idea is starting to become a little more stable, and considered worthwhile, the idea is turned into a "real", official project. The 15% rule is thus a kind of distributed R&amp;D.  I think these kinds of approaches are great, especially in the long run. I believe that it's things like these that Tom DeMarco's new book  urlLink Slack  is discussing. If I have understood it correctly, "slack" is referring to let there be some slack and not to optimize everything (e.g. let there be some time where nothing is scheduled). I hope to get a chance to read that book some time.  In the entry mentioned above, and an  urlLink ealier entry , Peter is discussing the use of using cooperative games as metaphors for software development. I think that both cooperative games and craftsmanship are far better metaphors for software development than engineering. Engineering implies that software development is something that can be controlled and fully understood. Cooperative games and craftsmanship imply that software development is an exploratory effort that can't be predicted in detail in beforehand. In games you cannot rely on strategy alone in order to win&#151;there must be a good use of tactics involved to succeed. In craftsmanship you also have to continuously adapt to the environment (at least that is what I think of when thinking of craftsmanship). A craftsman is, to me, someone who has a large set of techniques and uses them in various, and brand new, situations. To conclude this section, I hope I get my degree: "Master of Science with a major in Software Engineering" soon! :-)   ps. There should be a law against posting to mailing lists during the weekend. 241 unread messages at the  urlLink XP list . Sigh! ds.  
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       To get a better understanding of open source communities, such as Linux (see  urlLink earlier post ), I started to read  urlLink The Cathedral and the Bazaar  by Eric S. Raymond. I really like the book so far (have only read half of it). I guess it's one of the books that you are supposed to have read. I think there are some good lectures to be learned about how to develop software from open source communities. Most certainly I will write about this soon when I have read all of the book. But due to the fact that Midsummer is coming up it might be delayed for some days :-)  Now I really must go to sleep (I'm going to wash my laundry at 8 a.m. tomorrow)! :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Today I met with both my advisors of  urlLink my master thesis . I just love feedback! My new advisor is an economics teacher so I got some good input from an organization theory point-of-view. He helped me getting some more idea of how to perform my empirical part. I'm going to study some persons who come from an online community (perhaps Linux) and how they experienced their encounter with traditional software organizations. I'm not quite sure of excactly how I will do the study or who I will study. I'll have to think on that for some time. Hopefully I get hold of some people who are interested in devoting some time. I'm not sure if I will do a case study on a company as well.  I also learned that  urlLink Agile Software Development with SCRUM  by Ken Schwaber and Mike Beedle, and  urlLink Agile Software Development  by Alistair Cockburn will be included in the reference list of the course Project Management of the masters program this autumn. That's great!  Now I really must get something to eat!   ps. I did not get anything useful done yesterday. It was too interesting to discuss management and leadership on the  urlLink XP list at Yahoo . :-)  ds.  
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       With my backpack packed with two large baguettes (filled with tomatoes, cucumber, feta cheese, and iceberg lettuce) and half a litre of milk, I took my cycle for a ride down to the harbour. There was not a single cloud in the sky, and the temperature was pleasantly 24&#176;C. When I arrived at the harbour I found a nice bench in the sun. There I ate my baguettes and drank my milk, while listening to yelling gulls. It was glorious! I stayed there for quite a while before I started my journey back home. Hopefully there will be more days like this!  This morning my estate agent came to inspect my apartment. My apartment has never been cleaner! I tidied it up yesterday and this Sunday. Now it really is habitable :-). And I think it paid off, since she loved it. So if anyone wants to pay loads of money for my apartment, just let me know and I'll put you in contact with my estate agent :-)  Perhaps I should do something useful today as well&#151;like work on my master thesis (which I mentioned  urlLink here ). Tomorrow I'm going to meet my (second) advisor who hopefully will give me some guidance on how to perform my case study (and perhaps recommend some company which I can study). 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       A couple of days ago I started developing my own RSS feed aggregator. I know that there exist a lot of those, but there is only one of the aggregators I have tried that fits my needs, namely  urlLink Feedreader . But since it's not open source I cannot do the changes I want to. I also wanted to learn a bit more about SWT and XML handling.  SWT is a GUI framework that is part of the open source project  urlLink Eclipse . What makes SWT special is that it's a GUI framework that uses native widgets. That way it looks exactly like the rest of the applications on the different platforms, while still being cross-platform. It is really great (especially the IDE Eclipse that is part of the same project) and makes me believe in Java for desktop applications. I really dislike Swing&#151;mostly since it hangs my computer, but also since the L&amp;F is quite strange and it is really slow.  However, SWT is not perfect. It is quite young so it doesn't support the things you expect. For instance, it seems like you can't change the fonts used in lists. I want the unread entries to be bold, but that seems impossible. Or not exactly impossible, since I learned today that there is a workaround so you can render the text, with arbitrary appearance, into an image and show the image in the list. But it's not the kind of workaround I would do (if I weren't very desperate). I guess I have to use different icons to show the different states until SWT supports what I want to do.  Another problem is that it doesn't include any browser-like widget. There is some support to make HTML into plain text and show it that way, but I need support for link and images. I think it's possible to, on Windows, use Internet Explorer, but that would ruin the cross-platform compatibility. That is no problem for me, since I normally only use Windows, but it would be neat to achieve a cross-platform solution (maybe I will  urlLink switch  in the future :-) ). But there is another possibility:  urlLink Mozilla . There is a Java API, called  urlLink Webclient , for using the browser component of Mozilla in a Java application. But to little surprise it uses AWT, which is quite a problem since I don't think you could use AWT and SWT simultaneously. To conclude, I have two options: 1) use Internet Explorer and thus losing the cross-platform property. 2) port Webclient to SWT. I'm not sure which approach I will choose.  Moreover, I have just started working on the GUI, I have not yet read a single feed using my application. And I don't have so much time to work on this project. Hence, I estimate that I will be done somewhere around 2015. Hopefully I still have the need for a feed aggregator at that time :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       In the article  urlLink "The Agile Methods Fray"  [via  urlLink ChaordicEdge ] Tom DeMarco and Barry Boehm dicuss where between agile (XP) and a traditional engineering approach you should place yourself. They both seem to share the view that it's best to be somewhere in the middle for most projects. I kind of both agree and disagree at the same time. What I agree with is that to most problems need a balanced approach. This was something that I had against XP in the beginning, since it seemed to me that it was an extreme approach&#151;do no documentation whatsoever; do no design whatsoever; test everything all the time; and so forth. But now I have learned that there are room for a somewhat balanced approach in XP.   But here is also where I disagree with the article. If you start by saying that the extremes are  nothing for me&#151;I'm taking a balanced approach&#151;I think there's a great risk that you will become quite rigid, i.e. non-agile. I believe that you first should explore the extremes. When you know the extremes like the back of your hand (ok I don't really know CMM &amp; Co like the back of my hand, but I know them enough and I'm not that interested in exploring them further at this moment :-) ) you can make an informed decision of where you want to place yourself.   I think that is what the XP'ers suggest when they say that you should start by doing XP by the book, i.e. an extreme aproach, and then you can adjust the process, i.e. perhaps make it more balanced. To conclude, for me the extreme (in form of XP) is more intriguing than CMM &amp; Co and a balanced approach. At least at this moment. (And CMM &amp; Co has been explored for quite a while and there are not much happening there. Agile approaches has not been that much explored yet, I suspect there are much more to discover!) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Apple have launched a new advertising campaign to make dissappointed PC users  urlLink switch to Mac.  [via  urlLink Tesugen.com ] I really like the ads&#151;especially the  urlLink TV ads . Mac has changed, in my eyes, from a not-so-cool OS to a quite-cool OS. It is more interesting than what Windows is. So I'm ready to do the switch (at least to give it a try). There is only one small problem&#151;I don't have any Mac, nor money to buy one. As long as my PC is working satisfactory I guess I won't do the switch (but time will tell).   Perhaps I should mention that I had to restart my PC twice to be able to watch all the TV ads. My computer doesn't cope with movies and Java (Swing) that well.  :-)  
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       How do you handle door-to-door salesmen? Some months ago a salesman sold a five-year subscription of a yearbook. Today a guy was trying to sell me some cookies and socks for a language course abroad. I couldn't refuse so I bought some expensive cookies (no socks though). He was a really good salesman!  I really would like to know if there are any secrets of how you can say no to nice salesmen! :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+         I just found this amazing  urlLink South Park Studio  [via  urlLink Zapology ]. It allows you to design your unique South Park character. That's me to the right :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Now I have added  urlLink MetaLinker  to this blog. The existence of MetaLinker is manifested through the small [b] in superscript after each link. When clicking on the metalink you will get to a page on  urlLink blogdex , which shows all blogs they have in their database that refers to that link. Thus, by clicking on the [b] you will get an opportunity to read what other bloggers write about the link. Neat, huh? Please report if you experience any problems with the metalinks! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       This Thursday Oliver Hamilton  urlLink got his college degree . [via  urlLink the .NET guy ] That is probably nothing special, there are quite many who get their degree. What is special about this Oliver is that he is 98 years old and started attending college 1920. 1923 he had to quit school to work. But last year he retired and decided to pick up school and finish his degree. And he's going to continue his studies. That is real determination!  Respect, man, respect! :-)  Now I really must get my MSc degree soon! This guy put some pressure on me :-) By the way—I decided to attend another course today. It is really hard to resist challanges like that! :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       When catching up on the blogs I'm following, I found  urlLink this entry  by  urlLink Peter Lindberg [Tesugen] . The article deals with the question of whether or not to give money to beggars on the street. This is a question I've struggle with, as well, in the past.  I have not encountered beggars that much—mostly when I've visited larger cities. When I was in Paris by the Eiffel Tower a little girl approached me begging for money, so I gave her some. But then her little sister came begging for more money. Apperently then whole family was there, at least 4-5 girls and a mother. The whole situation got quite uncomfortable since I realize the more money I would give them the more persistent they would get. So I walked away...  So I've had some unpleasant experiences regarding beggars. But then last year I read a book that made me realize that not giving them money isn't better than giving them money. If you give them money out of love—not pity—you at least show them that you care. It is probably even better to take them to a restaurant and have some food together with them, but that might not be so easy to do. It requires that you leave your comfort zone and really reach out to them. I guess that you have to be very mature to do something like that.  However, when I visited Gothenburg this spring, a man (probably homeless) approached to me and asked for 3 SEK. I checked my pocket and found perhaps 20 SEK and gave it to him. And he got really glad and thanked me. His pure gratitude and joy really "infected" me. I left with a large smile on my face. That incident made me to decide to give money to these people when I have the opportunity and ability. What is a small amount of money for me, can mean quite much for them. It is really a win-win situation! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       So now I'm back from the  urlLink trip  (I have actually been home for some days now, but have not taken the time to blog). It was great! The were actually not so many musquitoes or gnats, and the weather was great! I did not have time to blog anything up there, I was too busy barbequing falukorv, relaxing, avoiding working on my master thesis, spending time with family and relatives, eating, relaxing again, admiring the midnight sun, avoiding reindeer when driving, trying fly-fishing on land without any fly, reading non-master-thesis-related books, go to a silver museum, and oh, did I mention relaxing?  By the way: a preview release of  urlLink Feedreader  2.3 is available for  urlLink download ! Yay! A few new features, and a few new bugs&#151;whatever can you wish for?  I might not update this blog that frequently now for a couple of weeks, I have quite much else to spend my hours on :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Now it's time to go to Norrland. The bag is (almost) packed, and the apartment is in tip-top shape. I only have a couple of more things to do before I can leave. Today I'm actually feeling better (i.e. my brain is working), but my nose is killing me. I have sneezed a thousand times more or less, and have to blow my nose each quarter of an hour. It's a little annoying.  I will have some Internet access up there, but I don't think I will update this blog that frequently. The RSS feed will probably not be updated at all. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       It only takes one person to drive a car. It only takes one person to drive a boat. It only takes one person to program. That's common knowledge. Or is it?  This weekend I watched a documentary about offshore racing on Discovery. What amazed me was the fastest type&#151;the catamaran. In the catamaran there was not just one driver, but two. One took care of the steering, and one took care of the speed. The two drivers had different focus&#151;the one steering was focusing quite far ahead, whereas the one controlling the spead was focusing just in front of the boat, adjusting the speed for the nearest waves. This got me thinking about rally. In rally there are also two persons in charge of getting the car to the end of the course. And even here they have different focus&#151;the driver who makes sure he steer the car according to the road ahead, and the map-reader who looks further ahead on the map. You could say there are a tactician and a strategist in both cases. What got me starting on this is of course  urlLink pair programming . Pair programming share the same pattern as the examples above, where the driver is the tactician, and the observer is the strategist.  But what makes these cases different from when there are one person performing the activity? The first thing that comes to mind is the speed (the catamaran and the rally car are both quite fast, at least in compariason with normal boats/cars). But I don't think that speed is the reason for pairs. When you go fast, the acceptance for misses are quite small. Hence, when you need high quality you might want to look into a pair approach. I guess this is why  urlLink XP  is using pair programming, since it doesn't allow anything but full quality.  I guess there are a lot more to say about the issue, but I'm too tired now (apologies if this entry seems confused, I can always blame it on my  urlLink illness  :-) ). Perhaps I will pick this up later on. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+        Server went boom.  [from  urlLink Blogger ]. That's why I have experienced some problems with Blogger recently. I guess it's time to make the switch to  urlLink Burger  soon!   Update:  it seems to be un-boomed now. Great! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I don't understand this. I wasn't ill once during the winter (what I can remember). The weather has been pretty bad the last couple of weeks, raining half of the time. But I didn't get ill. But now, when it's finally 25&#176;C I have, of course, caught a cold (that's a part of the reason why this blog has not been so frequently updated recently). And it's just two days until I'm going to Norrland (northern part of Sweden).  But I have done everything in my power to fight the cold&#151;I have taken a warm bath; I have drunk hot  urlLink O'boy ; I have drunk hot milk mixed with Dr Dryels; and I have eaten loads of fruit packed with C-vitamines. Now I only have one weapon left&#151;I'm going to sleep really long tonight. That should do the trick! (I have bought sixty napkins as a backup plan :-) ) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Now my second prostective buyer has left. That means that I spent a couple of hours today tidying up :-)  The  urlLink last time  somebody looked at my apartment it went very well. But this time they didn't seem too impressed. Or they might not be that good at showing their feelings (I hope so). I have checked the apartment which I think they were looking at before they come to mine. My apartment is twice as expensive and a little bit smaller. The other apartment has also quite a good view. My apartment has of course other qualities that justifies the price, but I don't know if they understood that :-)  But I'm still convinced I will be able to sell my apartment. I just have to find the right buyer! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Yesterday I created a calendar to be used in Burger. It was quite fun to improve my  urlLink Ruby  skills as well as my Test Driven Development (TDD) skills. TDD is basically: a) write a unit test to test what you are about to implement (make it fail); b) implement enough to pass the unit test (make it work); c) refactor the code (make it pretty) ; d) goto a. It's a little hard to get used to since it's quite easy, at least for me, to take too large steps, i.e. to think too much in advance. But I guess that it takes some time to get into the right mind-set. I'm not yet following Kent Beck's rule/advice "Never write a line of code without a failing test", but I'm getting there (hopefully). (If you want to read more about TDD you might want to take a look at  urlLink the mother of all wikis , or at the  urlLink draft of Kent Beck's upcoming book  on the subject)  I think TDD is especially applicable to things like an calendar. I started by creating a test with an array with the days of the current month, since I thought that would be nice to have when creating a calendar. When that passed I tried with two other months to make sure that the implementation was good enough. Then I thought that it would be nice if the array started out with the required empty slots for the first day of the month to start at the right position, e.g. if the first day of the month is a Thursday there shall be three empty slots in the beginning. When those tests passed I made a test to check the html rendering of the calendar. As I was implementing to get the html test to pass I realized that it would be easier if the array representation above contained empty slots to the end of the last week. So I added that to the tests, made it pass the test, added another month to the test to check boundary cases, and could easily make the html test to pass. Then I just continued creating tests and making them pass for the rest of the calendar. As I did different changes to the code I could always feel safe that they didn't destroy the functionality of the code, since I had a safety net in form of my unit tests. It was a real learning experience!  However, I did not integrate it into Burger. So today I realized, after reading a mail by  urlLink Peter , that the calendar might do too much. To get to know which days there are any entries in the blog, the calendar is checking the html-output directories of Burger. So if you create the calendar before Burger has created the output, the entries won't show up on the calendar. Furthermore the solution is not that consistent with the architecture of Burger. So I think that about 80 lines of about 160 is just a waste of space. I guess I should have integrated at an earlier stage :-)  But when the calendar is in place I could soon start migrating from  urlLink Blogger  to Burger. As I've mentioned  urlLink before  I can create and edit entries, as well as the templates using  urlLink w.bloggar  thanks to my XML-RPC front-end (which I cleaned up yesterday), so now I just have to come up with a good solution for uploading the blog to the web server and migrate the existing entries to Burger. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Now I'm finally able to edit the posts as well as the templates for Burger using my favourite blogger tool  urlLink w.bloggar . So I can theoretically enter my posts to Burger from anywhere in the world. What makes this possible is that I have made a XML-RPC server in  urlLink Ruby  (as I have mentioned  urlLink before ) which imitates  urlLink the Blogger API . But since this is my first Ruby application I have some refactoring/cleaning to do before I'm satisfied with the code, now it's just quick and dirty! I also have to figure out a way to upload the changes to this server. I fear that it can be quite hard to do in an efficient manner. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       It seems like the open source track (mentioned  urlLink here  and  urlLink here ) was a dead end.  I tried getting information from people on various IRC channels and on the  urlLink XP list  but I had little luck. It seems that open sourcers doesn't have any particular problems starting to work in a professional setting, not more than other hobby programmers. But at least I got a chance to read  urlLink The Cathedral and the Bazaar . :-)  So instead I'm going to do a case study on a traditional software company, and one on an agile/organic/etc company. I guess that there will be no, or at least little, problem finding a traditional company. But I expect it to be a little harder to find the other company. I guess I will start looking for companies doing  urlLink XP . But according to  urlLink this article  [via  urlLink AgileMovement ] "two-thirds of all corporate IT organizations will use some form of 'agile' software development process within 18 months". So that won't be a problem :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Yesterday I did something I have not done before&#151;I went go-carting. It was amazing! First we tested and became familiar with the go-carts and the track for five minutes. When we paused for some minutes I realised that I have only used my right arm to steer which made it quite stiff. Then we had the first qualification heat. I thought I did ok, but ended up on forth place. To compensate for my stiff right arm I only used my left arm. So with two stiff arms I started the second qualification heat. That heat went a little better and I ended up on third place to the finals. By now I had learned to use both right and left arm, so the stiffness didn't bother me any more. Before the finals I was quite thirsty&#151;it is quite demanding to drive those machines and it was quite warm&#151;so I drank quite much water. *flashing red light* &#150; *green light* &#150; and away. I was able to retain my third place for the first lap (it was 9 laps in total). But then almost all the others started to ram the walls. I didn't, I only skidded a lot. Since it was the finals everyone pushed their limit.  Note to self: don't drink loads of water just before you are going to drive small vehicles in a circuit with lots of curves if you don't want to be ill . As I was getting close to the leader there suddenly was a waving checkered flag, and the race was over. I finished second and am a proud owner of a silver medal (and was really happy to be able to get some fresh air!).  By the way, today the first couple was here to look at my apartment (hence I spent a couple of hours yesterday tidying up). They liked it and said that they are going to place a bid.  
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I just returned from the library, looking for  urlLink Organization Theory: Modern, Symbolic, and Postmodern Perspectives  by Mary Jo Hatch. But I couldn't find it. Instead I found two books for just 10 SEK (about $1) a piece:   urlLink Agile Competitors and Virtual Organizations: Strategies for Enriching the Customer  by Steven L. Goldman, Roger N. Nagel, Kenneth Preiss This book seems quite good. It contains "Over 100 Examples of AGILITY" and the cover is in gold (at least look like gold :-) ).    urlLink Beyond Mechanization : Work and Technology in a Postindustrial Age  by Larry Hirschhorn I didn't look at the front of this book. It is evident that it's from 1990, if you know what I mean. But, what the hay, I only paid 10 SEK and it might be interesting to read a bit about postindustrialism.    urlLink Peter  is also talking about a book today,  urlLink Emergence: The Connected Lives of Ants, Brains, Cities, and Software  by Steven Johnson. I'm planning to read that some time, but I don't have the time to do it right now. I got quite tempted though to get it since Peter told me  urlLink Adlibris  got a pocket edition for just 82 SEK (a little less than $9).  
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Yesterday, or tonight, as I was finishing up on the next draft of the Master Thesis (I was finished and sent it in 6 am today, yay!) I had the telly on without paying any attention to in. And perhaps around 3 am the normal transmissions ended and TV Shop started. I'm not sure but I think they advertised training tools or something. But then they advertised  urlLink Silverstar (Swedish) . It is a metal plate with stars punched out which you place in normal water with some salt, and then you can clean silver, gold, steel and jewelry by just lowering them into the water. It is one of my favourite TV Shop advertisements (NO! I don't usually look at TV Shop. I don't like it. But sometimes it happens. I'm only human, right? :-) ). What I have always found amusing with that advetisement is that they claim that the "amazing" result is due to the patented star shape.That always cracks me up :-) But this time it was another speaker, and he didn't even mention the patented star shape! What has happened? Did their patent expire? Or did they realize that you are not supposed to lie in an advertisement? 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I just went through my referral log. And all the search engine referrals are from  urlLink Google  or search engines powered by Google (not that it's a surprise). I'm usually something like number five or six in the results, but here are the ones where I'm still number one:   urlLink "pc users switch to mac"  &ndash; here I'm the only one   urlLink html calendar blog    urlLink Kent Beck TDD    urlLink how to make a blog calendar    urlLink blog knowledge xp ".net" agile    urlLink openbsd movabletype    urlLink blog metalinker    urlLink jonas bengtsson    This one I really would like to be number one, but I guess I'm pretty far down the line:  urlLink how are umbrella made  :-)  I believe Google are extra nice towards blogs since they are frequently updated (ok, I know this blog hasn't been that frequently updated lately :-) ). But that's just a theory, I have not checked how Google rank different pages. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Of some peculiar reason I started looking into  urlLink Jabber  yesterday. I'm too lazy to describe what Jabber is myself, so here is a part of the introduction from  urlLink jabber.org : "Jabber is an open, XML-based  urlLink protocol  for instant messaging and presence. Jabber-based software is deployed on thousands of servers across the internet and is used by over a million people worldwide."   I'm not sure what makes me dig Jabber. Using my end-user hat it's not that interesting, at least for now. I have been using  urlLink ICQ  for a long time and it works really great. "Everyone" is using it. If it is to be able to use other  IM  services, such as  urlLink Yahoo! ,  urlLink MSN , or  urlLink AIM  I could use  urlLink Miranda  (support for ICQ and MSN) or  urlLink Trillian  (support for ICQ, MSN, AIM, Yahoo! and IRC). Those clients seem to be much more user-friendliness than the Jabber client I have tried. I tried a few Jabber clients, and I'm currently using  urlLink JAJC  to evaluate how it is to work with it (seems to work alright so far). The one thing I miss the most is to be able to do normal stuff, such as sending and reading messages, without using the mouse (but that seems to be on the TODO list). I have also problems getting the Yahoo! and ICQ transports to work (although I the AIM/ICQ transport is working fine so I can sommunicate with ICQ users) on the server I'm evaluating,  urlLink TIPIC  (I've heard that they will be upgraded soon). One thing I really like about JAJC is that I can see the avatar (small image) of the one I'm chatting with. This is a feature I think that all communicating applications, especially e-mail clients, should have. I think it's great to have a picture of a person when you are reading things s/he writes. Perhaps especially for people you've never met.  Using my developer hat it is more interesting. Decentralized IM using open standards with XML. It's a good feeling not using closed proprietary protocols. It feels safe not having to rely on a central server. I like the idea that it's possible to write applications that can use the Jabber protocol, since there are API's available for several languages. In short, it feels good! :-)  Today I stumbled upon a  urlLink perl script  [via  urlLink mymarkup.net ] used to connect a Jabber client to a blog using the Blogger XML-RPC API ( urlLink something I have tinkered with myself  when I made it possible to manage Burger through the Blogger API). Later on I stumbled upon  urlLink Jogger  which is another way to blog using Jabber. But here the setup is foolproof (at least when a server is up n' running): just add jogger@jogger.jabber.org to your contact list and start blogging. Even easier than  urlLink Blogger . But there are drawbacks: you can't personalize your blog, and there are no permalinks. But there are syndication (which I didn't get to work). However, Jobber is placed under GPL so anyone could make improvements :-)  This started me thinking about what impact the editor has on the blog. If you use a IM client, which normally is used to send short personal instant messages (no way :-) ), I guess the blog entries would tend to be quite short and personal. I don't see how you could be inspired to write lengthy entries, using many links and so forth. But for small, personal updates I think it's great. (I could probably go on and on writing about this but I guess I better stop now and get some sleep :-) ) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I guess it's time for an update (sorry for the delay). Yesterday I spent (or is it invested?) much time to clean up my appartment, since a prospective buyer was supposed to come and look at it. But of course he didn't, I don't know when he will come. This Monday I acted as opponent on a fellow student's master thesis, which required much time and effort last week. It was about why deviations from processes occur and how to deal with them. It was really good and made me think of different aspects of my own thesis. One question I struggled with for a long time was if it had a process focus or a people focus (to be honest I thought that it had process focus but I had a hard time articulating why). So here is my take on what process and people focus is:  Process focus: Process is an end and the people are means to that end. The focus put on people are there primarily to make sure that the process works, preferably in a repeatable manner and without any deviation. By capturing as much information as possible in the process description, you become less dependant of individuals. Process improvement is used to a) make people work according to the process definitions (without deviations) and b) to improve the process definitions.   People focus (which I consider beeing a "better" focus, well aligned with  urlLink agile methodologies ): Empowering people is an end and process is means to that end. Processes are seen as tools which are different ways to empowering people. By providing tools, such as processes, to the people they become better equipped to perform their work. The people are expected/trusted to do a good job trough close interactions with other empowered people.  I guess there are more focuses out there. One, which I don't think anyone promotes, might be (I don't really have a good name, but something like) Short-sighted result focus: The result is an end, the people and processes are means to that end. I.e. the only thing that matters is that the right stuff is produced&mdash;how it is produced is not so important. The people are seen as tools.  There are probably other focuses that can be interesting tools. I'm not so sure how helpful using these focuses might be. When I ran these thoughts through the  urlLink XP list  Dale reminded me to look on the people instead, i.e. whose interests are we focusing on when we talk about people focus and whose when we talk about process? I have to think on that a bit more... 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+        urlLink Mary Poppendieck  is writing a book called "Lean Toolkit:  Managing Agile Software Development". There are  urlLink three chapters available online  of the draft. I have not been able to read more than one part of the third chapter, called  urlLink Tool 7:  Motivation Level 1 - Professionalism . It's great!  It mentions two different cases, NUMMI and GCT company. NUMMI is a car producing plant, which is a joint venture between Toyota and GM. It started out as a GM plant but was GM's worst plant. So they closed the plant and reopened it, as a joint venture with Toyota, with 85% of the original workers. The difference was that this time they allowed the workers, in teams of 6-8 people, to create their own processes. By trusting the employees and treating them as mature adults their quality and productivity was better than any other GM plants in just two years. That's amazing!  At the GCT company there was a team that started defining and improving their own process. They soon became the best team in the company. The other teams tried to replicate their way of working. But they failed since they tried to have one uniform process that wasn't continuously changed by the teams.  There is also many other great things in this part of the chapter, such as the five prerequisites for workers to spontaneously solve problems:   Employment security  Professional orientation toward work  Established, cohesive work groups  Absence of conflict between work groups and management  Organizational needs that disturb or challenge work groups   I could go on, but it's better for you to  urlLink read it for yourself &mdash;it's a good read! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+        Isn't that the best title you have ever seen? :-)    It wasn't  urlLink one lady  that came to see my apartment, but two rather old ladies. That's just perfect! I think my apartment is more attractive for older people than younger, but I could be wrong. One of them didn't say too much but seemed quite positive. The other one, was very positive&mdash;especially when she got to see the laundry room. I hope she's the "one".  By the way: I guess that I have to finish my master thesis soon. Today I read a discussion about  urlLink pair programming  at the  urlLink XP-list . And it just clicked. I realized that I really miss the close cooperation that is needed and normally (?) emerges when developing software. I have always enjoyed close team work, but I didn't realize that I missed it that much. Writing a master thesis is not that collaborative. :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I just got off the phone. It was my estate agent, and she told me that there is a lady who wants to look at my apartment. It has now been over one month since I showed my appartment to  urlLink my second prospective buyer  (Wow! Has it really been that long?). I had actually started doubting that I would ever be able to sell my precious appartment, but now it feels much better&mdash;the estate agent thought the lady might be 'the one'. She will come looking on Wednesday (I can't hardly wait!)  If you wonder why this blog hasn't been updated for a couple of days, it's because I've been camping and having a great couple of days! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I've just read  urlLink this interesting article  which presents some statistics about Open Source hackers. One thing I found interesting in the article is that 57% of the hackers are IT professionals, and 64% are working on Open Source on the job&mdash;there are some amount of people 'hacking' on the job without beeing an IT professional. Of the IT professionals 17% were 'hacking' "behind the boss's back". So I guess there are some conflicts beeing an Open Source hacker working as an IT professional (just as I thought  urlLink before ).  So is it good or bad that an employee works on an Open Source project at work when it doesn't directly contribute to the company? I guess that to some degree it might be beneficial if seen as skill building (as they do in the article). Just as you can spend lots of hours on education, books and training, you could spend some time on an Open Source project. But if the projects take too much time from regular work, or if management doesn't approve, it might not be that good.  
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       After reading about  urlLink Peter's mysterious phone call  I thought I could share two odd phone calls I've got lately.  The first happened this Saturday. I was at my mother's place and it was around midnight. The other person whispered, with a rough voice, "Do you have my number?". I answered that, no, I didn't have his number. Then he asked the same question a couple of times more. It sounded like a quite old man, so the thought ran through my mind that it could be a person in need for help. Then he asked "Can you hold on a minute?". I answered "Ok" and he was quiet for quite a while. "Are you still there?" he asked after a while. After a couple of rounds with the same questions and periods of silence he asked "Do you have David there?". I said "No" and he hang up. I still don't know if it was just a prank or not.  The other call happened yesterday. I don't remember excactly how the conversation went, but it was a woman asking me something about my dumper (or some large vehicle like that). Needless to say, I don't have any dumper. What I found pretty funny was that she hadn't dialed the wrong number&mdash;the owner of the dumper had given her my phone number. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Here are some photos from  urlLink the trip to Norrland .    urlLink     urlLink     urlLink     urlLink     urlLink     urlLink      
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Today is my birthday. I have been breathing for 8035 days now. Birthdays are usually times when you are supposed to contemplate what you have accomplished, and where your life is heading. But the weather is nice and I don't feel that deep today. :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       This Thursday visitor number 1000 came to my blog. Yay!  Today (until now) I have clicked with my mouse 2776 times. Today I have typed 5500 keys (including this one). 2826 of these were special keys. Space is the key I use the most. Runner-ups are E, A, T, backspace, enter. O is the key I type fastest. Runner-ups are E, A, H, U, space.  (I've installed  urlLink Gabe's TypOmeter ) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I dig  urlLink 24 . 3 episodes watched. 'nuff said. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Yesterday I borrowed  urlLink Agile Software Development  by Alistair Cockburn at the library. Today I got an e-mail from them, saying that my reservation for  urlLink Extreme Programming Explained: Embrace Change  by Kent Beck is in. Mary Poppendieck has released a couple of more chapters of  urlLink  Lean Development: Toolkit for Software Development Managers  (I've mentioned this book  urlLink before ).  Robert C. Martin has released a new book called  urlLink Agile Software Development: Principles, Patterns, and Practices  ( urlLink official site ) and there are  urlLink a couple of sample chapters . Crosstalk has a  urlLink whole issue about Agile Software development  with articles by folks as Jim Highsmith, Alistair Cockburn, Mark C. Paulk. There is a short article  urlLink Always Be Second  by Jerry Weinberg (my favourite) [via  urlLink ChaordicEdge ]. There is also an article at New Architect:  urlLink Scaling Agile Methods  by Sanjay Murthi.  If the world just could stop spinning for two weeks or so, to let me reduce the books/articles on my "list" I would be very grateful! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Yesterday I started "researching" for my  CV . And boy was that a trip down memory lane. When I moved here three years ago I started keeping all receipts, so I had a couple of hundered, perhaps thousands, receipts from stores and ATM's. I thought it was a good time to clean up the mess so I started browsing through them and throw most of it away. It was nice to see that I have had some money at the bank&mdash;I'm not used to that :-). I guess you could figure out quite much about me, where I've been and what I've bought the last three years, based on those receipts. I decided to clean up the mess in my "important stuff" drawer as well. There in the bottom I found my "special work" (I'm not sure of the translation) from the upper high school (I think). Quite fun to read. I have also read about the various project I've participated in at the university. Really interesting! Anyhow, now most of the unimportant stuff is thrown away, but it was a nice trip. After reading that much I got a terrible head ache and got really ill. Couldn't sleep until sometime in the middle of the night :-)  I hope I get my CV in order soon, so I can start looking for a job!  Btw, I stumbled upon  urlLink pyblosxom . It's a  urlLink Python  port of  urlLink bloxsom . Nice! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       At  urlLink Typophile  they have a nice project they call  urlLink The Smaller Picture  [via  urlLink BoingBoing ]. By allowing visitors to decide if a randomly picked pixel of a certain letter should be white or black, the letters are starting to look like they "should". You can even see the evolution of the characters as animations. So go and start helping the typophiles out!  I wish I could come up with an idea like that... 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       This is something I'd like:  urlLink AudioTron  by  urlLink Turtle Beach . It's a stereo component that can play MP3's and Windows Media files. You plug it in to your LAN and can listen to music residing on your computer or to Internet radio stations. It seems great to be able to put away a computer in the closet and still be able to listen to the music on it in your stereo. Perhaps it would be better with a hard drive embedded within AudioTron, but that would make it more expensive and you can't use the space for anything else. It's not that expensive, only $299.95. I'm not sure how much it costs here in Sweden, but the distributor for Scandinavia/Europe is  urlLink HPT  (only pre-order available at this moment).  But I don't have enough money to buy it anyway since I haven't got the down payment on the apartment yet. So I will have to continue dreaming... 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Today they launched a new effort to inspire to mathematical discussions at  urlLink my university . They will post two problems each month (they are available  urlLink here , but they are in Swedish and only people attending or working at the university can participate).  I admit that calculating probability is not one of my strongest mathematical skills. So I started hacking together a  urlLink Python  script in less than 30 LOC  which pretty much solved the problem (in an empirical way). But before I finished it I realized that it was wrong in some cases. And since the code was quite hackish and written in a procedural manner I didn't want to debug it. So I rewrote the simulation in  urlLink Ruby . This time I made some effort to do a good design and refactor as the code evolved (it ended up three times more LOC than the Python script). And it worked correctly without any tiresome debugging and I had faith in the code (I didn't trust the output from the hackish Python script).  But empirical evidence from a computer simulation is hardly valid as evidence. Hence I started looking into the problem and how to solve it. After a while I did manage to solve the problem. I did only solve the easy level, but that's ok. I don't think I have the time to solve the hard level (or any ideas of how to solve it). I don't think I have much use of my existing solution to that problem...  To conclude, today I was reminded of two things: mathematical problems are quite fun, and it is always best to write good code, even when it's just for code that will be thrown away. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Roy Miller has started a column about XP called  urlLink Demystifying Extreme Programming  at  urlLink developerWorks . So far, there are only two installments released ( urlLink part 1  -  urlLink part 2 ). They are both interesting and, in fact, uplifting read. They are both a good introduction to XP, but what is more interesting they talk about what XP might become in the near(?) future. Instead of almost exclusively addressing the need of the programmers, this column seems to address everyone involved (programmers, customers and management). XP is normally considered having  urlLink 12 practices , but Miller talks about 19 practices divided into joint practices (for programmers, customers, managers), development practices (for programmers), management practices (for management) and customer practices (for customers). The "new" practices are:  Joint practices:   Iterations  Common vocabulary  Open workspace  Retrospectives    Development practices:   Test-driven development  Pair programming  Refactoring  Collective ownership  Continuous integration   YAGNI      Management practices:   Accepted responsibility  Air cover  Quarterly review  Mirror  Sustainable pace     Customer practices:   Story telling  Release planning  Acceptance testing  Frequent releases      urlLink Part 1  lays the foundation and looks at joint practices.  urlLink Part 2  looks at development practices. I hope that this column will lead to good discussions in the community.  I'm looking forward to more installments! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       What a great idea!  urlLink Chaos computer club  made something amazing to celebrate their 20th anniversery. They made a large building into a computer display where they showed animations, love letters and where folks could play pong. The installation is called  urlLink Blinkenlights , check it out. Their next installation is called  urlLink Arcade  and will take place in Paris (25/9-6/10). It would be great to see it live! Perhaps I could make my own Blinkenlights&mdash;the code is release under GPL :-)   
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Yesterday I started looking into  urlLink Flash . People seem to be able to do just about anything with this tool. However, I have several problems with it. If you draw a square, you can dissemble it by just moving one of its sides. And if you place two geometrical figures on top of each other they automatically merge. There are also other things which make me wonder if anybody can do any modelling (besides just basic lines) in Flash, or if they use other applications and import the graphics to Flash.  When I (re)learned how to do some basic animation I realized that I had to look into Actionscript (of course without any book or other documentation), since I wanted to have some sort of interactivity and thought it could be used to do some minor animation. The syntax seemed quite ok, and after a lot of tinkering I managed to make a figure (a Southpark inspired fellow) rotate when I moved the mouse over a button. Yay :-) . But somehow Actionscript seemed unfinished. I didn't manage to hide/show layers. You can only add mouse handlers to buttons (not to graphics or movie clips). You can't programatically manipulate (scale/rotate etc) buttons or graphics, just movie clips. There were also other things that bugged me. In conclusion, Flash/Actionscript doesn't fit my need (perhaps I should try the new Flash MX version). I wonder how such a tool would look like if it addressed programmers. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I have read about China closing Internet caf&eacute;s. I have read about China stopping access to Google. It annoyed me, I don't like such behavior. But today I stumbled upon a  urlLink list of inaccessible sites  [via  urlLink Freedom To Tinker ]. When looking upon the blocked sites it started to really bug me. How can they be allowed to block all this sites without there being more protests (perhaps many are protesting but I have missed it)? I can live with that sites like Playboy, Penthouse, and sex.com are blocked (although I don't think it's right). But I certainly don't like that they block Google, Altavista, Yahoo! Groups, BBC, Sourceforge, Amnesty, Time, and a lot of other sites. It's awful!  There is more info about filtering at the  urlLink main page . There are for instance a page about filtering in  urlLink Saudi Arabia . 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I just returned from my estate agent&mdash;contract signed. The buyers is a couple. So now I seriously must start look for a place to stay and job. They will move into my apartment the 29'th of November. I'm planning to primarily look in Gothenburg, since it seems to be quite a nice city. Hopefully there will be some job as well, there is at least one company I will try to get a job at.  For some peculiar reason I managed to remove the entry from this Friday when they were here looking at my appartment. So if you think that this blog is too rarely updated it is probably because I have removed some of the entries :-) Perhaps it's time to get a version control system for the blog... 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       As I was browsing through the books under organization theory at the library I stumbled upon this book  urlLink No More Teams!: Mastering the Dynamics of Creative Collaboration  by Michael Schrage. It was not the kind of book I was looking for, but the title was too thought provoking for me to not pick it up. How can anybody state that teams are bad? Ask anyone and they will surely agree that teams are something good!  What Schrage seems to have against teams is that the term is very loaded&mdash;it is used to emphasize different things. If somebody asks: "are you a team player?" or "are you on the team? .. or not?", what do they mean? When those kinds of questions are asked they often imply that teams are a mechanism for control.  Ok, we can count on him to do what we say, he's a team player!  By using such an ambigous term as team, it is very possible that there will be confusion as to if you mean a collaborative group or a group over which you have control.   The book seems to mainly deal with what collaboration is, what influence it, and different techniques for improved collaboration. But I have not read all of it yet, so I might be wrong. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+        urlLink Mark Pilgrim  and  urlLink Sam Ruby  have created a  urlLink RSS Validator  [via  urlLink dive into mark ]. And it works! After trying a number of validators I've started to think that creating a good validator that gave understandable feedback is impossible. It's nice to be wrong sometimes. There was a little glitch in  urlLink my feed , but it's fixed now. One nice feature about this validator is that it's open source. I downloaded it and (after upgrading  urlLink Python  to  urlLink ActivePython 2.2 ) have now included it into my batch file that generates my RSS feed. This means that I always know if something has gone wrong during the generation. Terrific! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I have now changed to a non-table-based design. And it looks almost exactly alike in  urlLink Internet Explorer  6,  urlLink Opera  6, and  urlLink Mozilla  1.0. The main difference is that  urlLink MetaLinker  (I wrote about it  urlLink here ) only seems to work in IE and Mozilla. The Javascript that is used to generate the archive in the sidbar doesn't work in Opera. There are also some other small glitches with Opera, but I don't know how to fix them. Futhermore, I did some small changes to the design as I switched to non-table-ased design.  Please report any problems! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I've made a switch (but not  urlLink this one ) from  urlLink Internet Explorer  to  urlLink Opera . I didn't think this would ever happen. It was  urlLink 30 Days to becoming an Opera Lover  [via  urlLink dive into mark ] that tricked me.  Some advantages that make me like Opera are:  Customizable  Great support for  urlLink keyboard -surfing  Incremental search on a page  Zoom (not only text but the whole page)   urlLink Mouse gestures  (much better than  urlLink Mozilla 's)  Ability to show/hide/show_only_cached graphics easily  Tabbed browsing  Quick history. You can go back and forth without the browser to reread all everything  Possibility to use an own stylesheet on a page  Sidebars that can contain any HTML-page  Ability to continue browsing from where you exited Opera    Unfortunately it doesn't render this blog as IE. Thus, I will have to redesign this blog soon.  Together with  urlLink Dave's Quick Search Taskbar Toolbar Deskbar  I soon have the perfect browsing environment. I think I will have to buy this piece of software soon. But I can live will the ads for a while. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       The snow is falling all over the place. There are a couple of centimeters of snow on the ground and on the trees. It's nice to be indoors! :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Today I read an article called:  urlLink The Antidesktop  [via  urlLink FuzzyBlog! ]. The article raved about  urlLink screen , so I decided to take a closer look. screen is a terminal multiplexer for *nix ( urlLink here  are some pages with much info about screen). There are three main features:   It is possible to have multiple terminals at once, but only showing one at the time. This is all done in text-mode. This is especially neat when you are SSH'ing to the the computer (using the cute  urlLink PuTTY , of course), since you don't have to use more than one logins. It is also possible to split the screen to show several terminals at once.  It is possible to deattach from screen, meaning that screen, and all the terminals, continue to run in the background. You can even logout from the system.  It is possible to reattach to a session. This means that you can continue on a previous session. It is even possible to share a session, e.g. two people at different sites can use read/write at the same time in the same terminal (there are some possibilities for distributed  urlLink pair programming  here)   It's always nice to learn more about this obscure OS. And this is something that I have missed a couple of times. I hope I remember it the next time I need it. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       This month's issue of  urlLink CrossTalk  is titled:  urlLink Agile Software Development . It contains articles by  urlLink Jim Highsmith ,  urlLink Alistair Cockburn , Mark C. Paulk, and a lot of other folks. I have not had the time to read it yet, but it seems promising! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I have talked about this subject a  urlLink couple  of  urlLink times  before, but that's just because it's really entertaining. Today, I found out that  urlLink Tony Hawk has made the switch  [via  urlLink Aaron Swartz ].  I also found out about Microsoft's reaction via both  urlLink ScriptingNews  and  urlLink The .NET Guy  (not that surprising since  urlLink the link to the article  is number two on  urlLink DapPop 's  urlLink Top 40  right now). It is a freelance writer who have switched from Mac to Windows. The problem is that the photo of this person is a  urlLink PhotoDisc picture . Hmmm. What a coincidence! :-) There are some different copies of Microsoft's 'article' available at  urlLink ScriptingNews , since they of some peculiar reason removed it from their site.    Update:  (a couple of minutes later) the link to the article is now number one on Top 40, and the link to the picture is second runner up. Things move fast in the blogosphere!  
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Mike Cohn at  urlLink Mountain Goat Software  has published an  urlLink overview of Scrum . It's really great! He discuss all important issues of Scrum, at least most of them, but the descriptions are not that in-depth which makes it easy to get the big picture. There are also real-life examples of a Product Backlog, a Sprint Backlog and a Sprint Burndown Chart. Besides the web pages, there is  urlLink a presentation  which touches upon some other aspects and presents Scrum in a slightly different way. To sum up, it's a great complement to  urlLink Ken Schwaber's site  and  urlLink Jeff Sutherland's Scrum blog .  I also found one of Mike's articles,  urlLink Introducing An Agile Process to an Organization , which I will read when I get the time. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Four days ago I reactivated a sleeping  urlLink hotmail -account. I have not used hotmail in years, I don't understand how people can use Hotmail.  Just a couple of minutes after the reactivation the spams started appearing. What is that? Is  urlLink Microsoft  selling spam-services? (Ok, there is a remote possibility that the spammers are sending spam to random accounts :-) ). Until now I have received 30 spams... A little much for my taste!  This morning I received the most peculiar spam I have ever received. It was a message to let me know that if I was planning to go to Netherlands to carry on any kind of education I should reconsider. The critique is especially targeted at a specific university, but also at studying in Netherlands in general. Oh boy! You must be pretty disappointed if you start spamming people all over the world (I presume) about your school :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Since there doesn't seem to be any open position as programmer in Gothenburg, I have started looking into what I can do until I get a job. As I hinted  urlLink before  I have checked what the   urlLink G&ouml;teborg University  has to offer. I actually managed to find a couple of courses, for which I have applied today (hope I made it in time&mdash;the deadline is tomorrow):   urlLink Theoretical philosophy: Artificial neural networks I  (in Swedish)   urlLink Computing science: Computers, Communication and Social Networks    urlLink Sociology: Organization and leadership  (in Swedish)   urlLink Practical philosophy: Orientation on western philosophy  (in Swedish)   urlLink Logic with applications  (in Swedish)   I also applied for some distance courses at  urlLink Mid Sweden University :    urlLink Basic Course in interactive computing on the web  (in Swedish)   urlLink Internet and Data Communications  (in Swedish)   I won't attend most of the courses. I think, and hope, that I will be accepted for the three first courses at G&ouml;teborg University. The others are just backups. But hopefully I don't have to attend any courses at all :-)  Btw, I sent in my solution to the mathematics problem (mentioned  urlLink here ) yesterday. I started working on it this Saturday, and it wasn't that hard (just a lot of work). Yesterday there was just some polishing left. I hope I will be able to buy a book soon :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       The last time I have felt some resistance to blogging. Why? I haven't had anything non-nonsensical to blog about. So to oversome that resistance I will post a lot of nonsensical stuff here :-)   urlLink Peter  let me know that my  urlLink RSS feed  was broken. But now it's fixed (I did it some days ago). Please let me know if you have any problems with it!  The referrers log was kind enough to let me know that I'm number one on Google on  urlLink lean blog development  (whatever that is)  and  urlLink python audiotron .   urlLink Mil Millington  has a great page where he describes:  urlLink "things my girlfriend and I have argued about" . It's hilarious!  There are two seemingly interesting blogs I will check out when I get the time:  urlLink Reforming Project Management  and  urlLink The Homeless Guy .  Jeff Sutherland has a  urlLink great summing-up  of the article:  urlLink How to Fail with the Rational Unified Process: Seven Steps to Pain and Suffering  by Craig Larman, Philippe Kruchten, and Kurt Bittner. It seems to be an essential article to read if you're using RUP and aspire to be agile. You could also take a look at the  urlLink XP-plugin to RUP  (there has been a lot of discussion lately at the  urlLink Scrum-list  lately regarding if that is a good thing or not).   urlLink AgileSweden  (only Swedish) was founded a month ago. It's the Swedish representative of  urlLink Agile Alliance  and is supposed to promote agility in Sweden. I hope it will lead to something good!   There seems not to be any open positions for programmers (or anything remotely related to computers) in Gothernburg (unless you have 5+ years of professional experience in the computer industry). But I'll keep on looking! As a backup plan I thought I might look at what courses they offer at  urlLink Chalmers University of Technology , or even  urlLink G&ouml;teborg University . But I can't find any interesting computer/software/programming courses. And all introductory courses in subjects like psychology are 20 credits (half a year). Perhaps I should look into street-sweeping. :-)  Today I found out that the mail archive for the e-mail application I use for mailing lists occupied 458,862,275 bytes (just a tad too much for a little over 23,000 messages if you ask me). Then I realized that I had to 'compress' the mailboxes. I earned 237,853,813 bytes on the inbox, 59,847,935 bytes on the trash bin, 25,517,744 bytes on the  urlLink xp-list  mailbox, and so on. In total I earned 354,217,829 bytes. Perhaps I won't need a new hard-drive after all.   I didn't start coding Java as I  urlLink thought . I started, but learned that  urlLink JUnit  was really bad at comparing arrays. I began write my own assert_equal() methods for arrays but then I realized it would be much easiler to just use  urlLink Ruby . It turned out that the mathematics competitions are great opportunities to polish my Ruby skills and to learn more about  TDD .  I guess I must start wearing a flashing "no support" sign. Yesterday I got two requests for computer support. The computer of the first bloke had started crashing and  BSOD 'ing. But since it was a Compaq box I advised him to use the recovery cd to reinstall everything. The other one was a little harder. He wanted to get his LAN to work with one Windows 98 desktop computer and one Windows XP laptop. I have practically never used XP so it was a bit of a struggle. It wasn't easy to direct him how to set up the IP addresses and stuff like that, especially since he didn't follow my instructions (he decided that 122.122.122.122 and 123.123.123.123 were easier to remeber than the ones I said, sigh! :-) ), and I was getting tired. After a long time he tried to ping the other computer, but it didn't work. The problem could be anywhere and it was getting late so we gave up.  Quote of the day come from a baseball movie (as predictable as all sports movies) on the telly. The coach to one of the players: "We're a team! Everyone [or just 'you', I'm not sure] should do as I say!" That got me thinking about what I blogged about  urlLink here . 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I won the mathematics competition I talked about  urlLink some time ago . My solution was a little complicated but I think I was the only one with a correct solution. It would have been much easier if I had used binary trees instead, but what the hay. The award was a gift voucher for 200 SEK (~ $21) and a chocolate bar. Nice!  The new problem (available  urlLink here   in Swedish) is really tough. I have no idea of how to solve it. I guess I start coding soon (I'm downloading the latest stable build of  urlLink Eclipse  right now).  By the way, sorry for the scarce updates lately. I guess they will come when I have little less to do. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I have looked at  urlLink Aspect-Oriented Programming  (and  urlLink AspectJ ) before, and I've thought that it seems quite interesting, but also quite complicated. However, today I've read about one situation it seems to be really useful.  In an article at  urlLink XProgramming.com  called  urlLink Virtual Mock Objects using AspectJ with JUNIT , Simon Monk and Stephen Hall is describing how AspectJ can be used to create virtual  urlLink mock objects . With their "framework" (source code available  urlLink here ) you just have your test case class subclass their  urlLink ComponentTestCase  instead of  urlLink JUnit 's TestCase. You can then create virtual mock objects by calling setMock(className, methodName, mockResult) (or a couple of alternatives). It's that simple! You can then use assertCalled() and assertArgumentPassed() to make sure the virtual mock objects are used in a correct manner. (There are more features in there. Check out the article for more details, it's a good read!)  I guess I have to look further into Aspect-Based Programming at some point. Perhaps when the AspectJ plug-in to  urlLink Eclipse , called  urlLink AJDT , is finished (it might be finished already, I'm not sure). 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Perhaps I should let you know why I've been that "quiet" lately. It's because I moved this weekend. It was really much work. As I've mentioned sometime before I have search for work and apartment in Gothenburg but I've had no luck. So now I search for work anywhere in Sweden (please let me know if you hear about anything programming related). But now I don't have broadband anymore and have to use dailup :-(. And I really have to spend more time on my master thesis if I ever want to graduate. Thus, I put this blog on pause for a while. I might post something but it won't be much. Expect me back in a couple of weeks/months.  Btw, I own  urlLink eclipse java browsing ajdt  on Google! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Yesterday I got a crazy idea that I wanted to migrate some mail for mailinglists from Outlook to a mail application I use for mailinglists. It turned out to be easier said than done.  First I tried to save a mail in Outlook, but I could only save it as text (in Swedish and did just include subject, from, to, date (also in Swedish), and body), or as binary files. Hurray!  Then I tried to export a folder of messages to a comma separated file. I tinkered a bit with  urlLink Ruby , got the  urlLink csv library  to parse the file and was able to create one file per mail. But, I later found out that the exported file from Outlook did "just" include subject, body, from name, from address, from type (e.g. "SMTP"), to name, to address, to type, cc name, cc address, cc type, bcc name, bcc address, bcc type, billing information, sensitivity, categories, priority, travel allowance (km). That is a lot of information! But not anything about when it was sent, the id of the mail, the headers, and a lot of other interesting stuff. Hence, comma separated files were a dead end. Sigh!  Somehow I thought that I would get what I wanted by using COM and accessing Outlook directly. It must be possible since there are several synchronization applications for example Palm. But I had almost no clue about how to use COM (the only time I've messed with it before was  urlLink a couple of months ago  in Java). So I turned to  urlLink Python . After a lot of tinkering I managed to access the different mails in Outlook and read some of the information (it was not completely trivial). So I started by printing stuff like date, from, to, subject, and body. But, of course, the date was not a valid  urlLink rfc822  date. And apparently is strptime() only available on some versions of Unix, but the  urlLink Python Cookbook  came to the rescue with a  urlLink pure Python version of strptime() . So now I could parse the date and create a rfc822 compatible date.  But then I got greedy. By using Outlook I can read the headers, why should I not be able to do that in Python? So I googled around for some time and eventually I found  urlLink an object model of the MailItem Outlook Object . But the headers are nowhere to find! But then I found the  urlLink OutlookSpy  which is an Outlook plugin that you can use to browse the objects in Outlook. There it was! My search seemed to be over: the property with the tag PR_TRANSPORT_MESSAGE_HEADERS. But how do you access that? After some time of trial and error I posted a question to comp.lang.python. I got a pointer to  urlLink msgstore.py  in the  urlLink SpamBayes  project. But the code was a little bit hard to understand.  I had given up at this point. But as I was writing the above I decided to take a look at the script again and noticed the test at the bottom. That didn't look too tricky. And after a while I managed to use it to get both headers and body of a mail. Success! Now I have exported all the 487 messages to individual files, and then imported the messages into the other mail application. Now I can sleep with a smile on my face! :-)  Good night!   ps. What are they (Microsoft) thinking? Why do they lock their users? Why aren't they embracing open standards? When will I be trusted with my own data? Why, oh, why? Perhaps I should get that sleep now :-) ds.  
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       ... five centuries ago there were 10 million indians in the Amazon Rainforest, now there are less than 200,000? ... I'm a feedbackoholic? (met with one of my advisors to  urlLink my master thesis  yesterday and one today) ... it was probably  urlLink XP  and other  urlLink agile  methodologies which infected me with feedbackoholism because of their focus on feedback? ... Trimmatom nanus (atomstubb in Swedish) is the smallest fish in the world (about 1 cm)? ... it is quite annoying to realize that you missed taping the last couple of minutes of the rather good  urlLink The Bone Collector ? ... the smallest telescopes at Walmart are more powerful than Galileo's? ... I learnt today that the thesis should be between 45 and 55 pages (60 is maximum)? ... mine is now 53 pages and I  have quite much left to write? ...  urlLink Opera  has  urlLink released the first beta of Opera 7 ? ... the fastest flying insect is the Australian dragonfly which can fly up to 60 km/h? ... the music magazine RollingStone have published  urlLink a nice thank-you letter  (pdf) to record execs in New York Times, starting: "Thank you for fighting the good fight against Internet MP3 file-swapping. Because of you, millions of kids will stop wasting time listening to new music and seeking out new bands."? ... I will move in a little more than a week? ... an item marked 18 karat contains 75 % gold? ... they have four books about agile software development at  urlLink my university's library ? Ambler's  urlLink Agile Modeling  (which I have reserved), Beck's  urlLink Extreme Programming Explained  (which I borrowed today), Cockburn's  urlLink Agile Software Development  (which I have borrowed), Schwaber and Beedle's  urlLink Agile Software Development with SCRUM  (which I own). ... I added Barab&aacute;si's  urlLink Linked: The New Science of Networks  [via  urlLink Tesugen ] to my wish list at  urlLink Amazon  (which I use to remember interesting books)? ... to measure the distance to the moon they use laser beams which reflect on mirrors placed by astronauts? ... there are about 4.5 million people (amazing for a town with 20-30 thousand people in a country with 9 million people) at the same time at the local grocery store at 4 p.m. each Friday? (ok a little exaggeration) ... although I know that the grocery store is swamped at Fridays I seem to forget that every time? ... a vulture once flew about 37,000 feets up in the air (the highest flight by a bird ever documented) and smashed with a plane? ... I just realized that the "exists"-links in the sidebar are not specified and that I will fix that in a moment? ... Bill Gates' $50 million residence was designed on Macintosh computers? ... this was the easy way out to write about a lot of unrelated things in the same blog? ... these are all important things to know? 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I don't like this a bit! I'm starting to get interested i C# (both present and future as described in  urlLink this presentation  [via  urlLink Thinking In .NET ]). I probably have to learn some of it in the future. The things that hold me back are that  urlLink Visual Studio .NET  is expensive (unfortunately there is  urlLink SharpDevelop ), the fact that I don't have the time (this is probably the largest factor), and that I really want to explore further into J2EE and the different open source projects out there ( urlLink Bryan Dollery  has written a really nice article  urlLink The Best Java Open-Source Tools  (requires free registration) and there are projects like  urlLink WebWork ).  By the way, I have only one  urlLink googlism  [via  urlLink Thinking In .NET ]:  urlLink jonas bengtsson is getting interested in aspect . I wonder if this works:  urlLink Jonas Bengtsson is unfortunately getting interested in c-sharp  (recursive link).  Another by the way, it's interesting to note that the two companies mentioned in the  urlLink last blog , SAS Institute and GE/Durham, (which are both wonderful companies) might seem totally different: one is providing tons of perks, and the other one provides none. I think the thing that they both have in common is that they treat the employees as adults. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       If you would ask me about what the acronym SAS means a few days ago I would say:  urlLink Scandinavian Airlines System . Now I'm more interested in  urlLink SAS Institute , the largest privately held software company in the world. Before I read the article  urlLink Sanity Inc.  a couple of days ago I hadn't heard of SAS Institute at all (there is also the articles  urlLink My Day in SAS Day Care  and  urlLink Voices of SAS  in the same  urlLink edition  of  urlLink FastCompany ). Now I, just a couple of minutes ago, saw  urlLink a piece  on  urlLink 60 Minutes  about the company, thus I have to write something about it here. When I first read the article in FastCompany I thought it was one of those dreamt upped, 'what-if', articles. But now I know it's not!  What about: day care, car washing facilities, dry cleaning services, a subsidized cafeteria, a masseuse, playing fields for frisbee or soccer, a swimming pool, aerobics, a weight room and basketball court etc etc etc. The parents eat lunch together with their kids in the cafeteria (which features a piano player). They have 3% turnover (compared to the average 20%). The gates close at 6 p.m. every evening and the employees are encouraged to work 35 hours a week. They consume 22.5 tons of M&M's a year. It seems to grow quite fast since the FastCompany article (from '99) states that they had 5,400 employees worldwide, and now they have 8,300. There is a  urlLink SAS offices in Sweden  as well. I wonder how much of the culture and mindset have been transferred from the Raleigh office?  The mastermind, two-third owner, and CEO, Jim Goodnight, said at the end of the 60 Minutes piece something like: "95% of my assets drive out the front gate every evening, and it's my job to bring them back!"  Now, go and  urlLink read the article ! Pronto! (If you like the article you might want to have a look at another article by Fishman:  urlLink Engines of Democracy  [via  urlLink Tesugen  a long time ago] about GE/Durham. It's not a software company but it's immensely interesting nevertheless!) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Now I've taken a little look on the  urlLink CrossTalk  edition about  urlLink Agile Software Development  (mentioned  urlLink here ). Or more specifically I've looked at  urlLink Jim Highsmith 's article  urlLink What Is Agile Software Development? . In it he have the following paragraph:  The practice of time boxing, or setting fixed delivery times for iterations and projects, has been abused by many who use time deadlines incorrectly. Time deadlines used to bludgeon staff into long hours or to cut corners on quality are a form of tyranny; they undermine a collaborative environment. It took several years of managing ASD projects before I realized that time boxing was minimally about time - it was really about focusing and forcing hard tradeoff decisions. In an uncertain environment in which change rates are high, there needs to be a periodic forcing function to get work finished.  I think it's great! When you have a firm deadline you must make uncomfortable decisions and concentrate on what gives the most customer benefits. As long as you are able to make the right decisions and not compromise with the quality I think the result will be much better than if you don't have any firm deadlines. And since you get this kind of deadlines continuously through the project you can't defer these decisions to the end.  There are other gems in this article as well. Such as: "The agile movement covers a broader set of issues than the word methodology connotes, so I use the word ecosystem to include the three characteristics that define agile development: a chaordic perspective, collaborative values and principles, and barely sufficient methodology." I like that (and yes, I will buy his book  urlLink Agile Software Development Ecosystems  sometime in the future). And what about: "One of the biggest problems in implementing software development methodologies over the years has been the attempted mismatch of culture and methodology." It's a great read and overview of agile development and the main agile methodologies (except Scrum :-( )  You might also want to read his article  urlLink Beyond Optimizing  (requires free membership I think) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Rachel Ross has written an article titled  urlLink 'Pair programming' an ill-fated shotgun wedding  [via  urlLink AgileMovement ] where she rants about how bad  urlLink pair programming  is. Some quotes: "It's too bad the entire concept works against human nature and financial efficiency." "Remember we're talking about programmers. While they aren't all social outcasts, my own experience as a programmer leads me to believe that a good percentage would much rather work on their own." "There's only one keyboard, after all, and the driver can only type so fast." First of all I think Ross has not realized that programming is a social activity. And as Martin Fowler says, ?Pair programming would be inefficient if typing were the hardest part of programming.? (I'm not saying that pair programming suits everyone and all situations, but I think it could be used far more than currently) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+        urlLink w.bloggar  3.0 is released. New features include spell check (perhaps you'll be able to read what I post in the future), support for a number of different blog engines, and a bunch of other stuff. Great work! I'm using it to post his entry...  By the way,  urlLink Windows Commander  has  urlLink changed name  (since Windows is a registered trademark) to  urlLink Total Commander  and version 5.5 has been released, but I have not tried it yet. Quite interesting that Microsoft have not mentioned this before. Windows Commander is 9 years old, and quite popular. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       While catching up on my blogroll I stumbled upon  urlLink The Petstore Revisited: J2EE vs .NET Application Server Performance Benchmark  [via  urlLink protocol7 ]. .NET wins the benchmark hands down. Ouch! I didn't read the actual report but checked what they ( urlLink The Middleware Company  &mdash; a  urlLink J2EE  company) had to say and at the discussion at  urlLink TheServerSide.com . I realized that there were some problems with the benchmark (The Middleware Company seems to agree since they are planning a  urlLink rematch ), but still J2EE lost some credibility in my eyes. I am far from an experienced J2EE-developer and have only created a community using Servlets and JDBC directly (hence avoiding many of the heavier technologies).   But then I checked  urlLink Rickard &Ouml;berg's blog  and found out that he has written a  urlLink review of the benchmark . He basically remove all traces of credibility from the benchmark. Now I feel good again! :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       While catching up on the giant amount of posts at the  urlLink XP-list , I've been away for more than a week (hence the bloglessness), I found a couple of posts discussing the Swedish economy. How odd is that?  Here are the posts:  urlLink 1   urlLink 2   urlLink 3   urlLink 4   urlLink 5   urlLink 6   urlLink 7   urlLink 8   urlLink 9   But no Swede has taken part of the discussion. Perhaps someone reading this could join?  
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Christmas Eve has just started and I must say I really like Christmas. I think I like most things about Christmas: the music, the lights (it's dark here during the winter), the food, buying presents (although it's really hard and tiresome), receiving presents (I think, haven't gotten any yet :-) ), the reruns of classical sentimental movies, the holiday (although it's not that much difference this year), spending time with family and friends and so on and so forth. Unfortunately there are also drawbacks. There can be too much. The materialism is flourishing like no other time of the year. For many people it's just: me, me, me, me and the amount of money that is spent on presents in western countries is sickening. I also think many people feel lots of guilt and stress of not finding the perfect presents, of not affording a Xbox for their tenyearold, of not living up to the standard they have set for themselves etc.   For me the message of Christmas is first and foremost love and compassion. Because of that, Christmas can be very painful. The visibility of how cold our society is can become very clear. There is no lonelier time if you're lonely. I'm glad I have my family and friends, but, when I think of it, I feel a little heavy at heart about those who are lonely.  Take care of yourself and your loved ones and your not so loved ones! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Just a quick note (this blog is still paused):  urlLink FeedReader  has been licensed under  urlLink GPL . But unfortunately it's programmed with Delphi (which I don't know). Hopefully every competent programmer with Delphi-skill will join  urlLink the project at Sourceforge  and make Feedreader the best aggregator for the Windows-platform. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Just a quick note (I'm really too tired to write anything understandable): check out  urlLink this blog entry  by Andy Hunt. I think this is something the school system should think about. But then again, we humans are fascinated by individual brilliance (one sole genius is much more interesting than a team of "avarages"). I'm not sure that will go away. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       After a tip by  urlLink Erik  I will try to remember to ping  urlLink blogs.unmade.com  after I have added entries to this blog. I have also applied to be included in  urlLink Sweblogs.com . Another Swedish blog collection I'm listed in is  urlLink Svenskt webbloggindex  (Swedish weblog index), which is maintained by Erik.  There is also a new search engine for RSS feeds, called  urlLink Roogle . I'm already part of  urlLink Syndic8 ,  urlLink blogdex , and try to ping  urlLink Weblogs.com , and  urlLink blo.gs .  The blog world is really decentralized! :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       At the  urlLink Feature Driven Development (FDD)  site there is an article by Gavin (and some interesting comments from Phil and David) about how FDD relates to the  urlLink Agile Manifesto . FDD is normally considered being an agile methodology and is placed under the agile umbrella, so you would think that FDD was aligned with the Agile Manifesto. But there seems to be at least some differences. This is, I think, the first critique I've seen about the manifesto, at least from the agile camp. It would be nice if someone of the original signatories. Does the manifesto need some improvements?  Another piece of news in agility world: David J. Anderson (who posted about the above article at the  urlLink Scrum-list ) have put the draft of his upcoming book "The Agile Manager's New Work" on the  urlLink uidesign.net site . I have not had the time to read it, but based on the table of contents it seems to be a good read.  And, finally,  urlLink a nice piece of comic.  
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Continuing on the analogy area, here is another analogy: applications are (or should be) like banks. I'm especially thinking of  PIM -applications, but I think it apply to most applications. Just as I own my money on my bank account, I should own my data. If I want to take my money (data) out from the bank (application) I should be allowed to do so, easily. If I want to move some of my money (data) from one bank (application) to another, that should be easy. I choose the bank (application) which have the most beneficial conditions (features), or if I like the company (company). This isn't fixed, I might change my mind. Perhaps I want to try out another bank (application) at some time, or even use several banks (applications) concurrently. That shouldn't be a problem. I don't really care how the banks (applications) handle the migration of my money (data), as long as I don't have to spend too much time/effort. And to just provide easy migration between different account types within one bank (applications from one company) isn't enough!  Let me retain the ownership of my data and I might let you handle it for a while!  (This post was inspired by Diego's entry  urlLink "You own your data" , which was inspired by my entry  urlLink "Outlook of no return" . Talk about circular reference :-) Diego develops  urlLink spaces , a PIM application which let you own your data (but since it uses Swing I can't use it :-( ) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Ken Schwaber and Brian Marick will be hosting  urlLink Anology Fest  at  urlLink Agile Development Conference  [via  Brian Marick's blog  urlLink Exploration Through Example ]. I won't be able to attend (neither the anology fest nor the conference), but I find the subject really interesting. And they won't discuss the construction, and engineering analogies (which both have been discussed sufficiently in other places). I hope they will publish the results of the Open Space sessions for people not attending the conference to see. Ken and Brian have already posted sample papers: Ken about complexity and Brian about boundary objects..   urlLink Ken's paper  is about Mildred, the goose in charge of the last migrations who will lead the migration from "a certain place in northern Alberta to San Fillipe in Mexico". But due to some complications the gaggle have experienced the last years she is determined to make this years migration run more smoothly. "Equipped with a new laptop PC and Microsoft Project, Mildred returned [from a seminar followed by several in-depth courses at Project Management Institute] to the gaggle to make this year&rsquo;s migration more predictable." A good read!   urlLink Brian's paper  is about boundary objects. To my understanding, boundary objects are what a community of interest (composed of more than one community of practice) use as conversation topics. It is something that is meaningful to all parties (although they attach different meanings to it). In agile projects Brian argues that working software and list of future tasks (story cards in XP, and backlogs in Scrum) are boundary objects (acceptance tests and the like are not good boundary objects, but Brian wonders if there are any way to make them into good boundary objects). I think he's right and that it is an important subject/anology. Read the paper to get a better description than I've have managed to present on these few lines of what boundary objects are and how they relate to software development. It is also a good read!  So what do you think of my analogy: software development is like a box of chocolates, you never know what you gonna get! :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Three months ago,  urlLink I moved . Last Saturday, I moved. Can you guess where? Back to the place I lived before. I think it's quite hilarious :-). If I had skipped moving three months ago I would have saved a lot of problems. But, of course, problems are good things (I must say I really enjoyed the three months "away"). The reason why I moved back is that I've gotten a programming job. Yay! This means that I will make the transition from unemployed/student to a responsible adult tomorrow.  I wonder how that will go :-)  I just wanted to say that this blog is not in a paused mode anymore, but rather semi-active. Time will tell how active it will be, but at least more than lately :-) I have pretty much been out of the blogging world these three months so I have some catching up to do... 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Annika S&ouml;renstam is, for anybody who have lived in a cave for the last says, the first woman to have played on the  urlLink PGA Tour  for 58 years (she's a Swede by the way :-) ). I really like Annika, she seems to be a really good sports(wo)man. It must be a little hard to be everybody's hero and have the whole world watching you play. I believe her when she say that she have no political agenda. But everyone regard it as a battle between the sexes. So far she handles it pretty well though.  It is really a rare event. Everyone suddenly starts to speak about golf. And one advertisment on  urlLink TV3  for  urlLink L'Oreal  have changed their slogan from "Because you're worth it!" to "Annika you're worth it!", at least when it is shown when the PGA Tour is on. (A little silly if you ask me)  And everyone writes articles about Annika. I have monitored the amount of  urlLink "Go Annika" news on Google News  from some three hour after tee off yesterday until now (after a while I started to see compare "Go Annika" with  urlLink "Eurovision"  (which is a rather major event which should generate some "news". it's tomorrow if you don't know). Here's the result (I won't be able to monitor this during the weekend):   "Go Annika" has, during the time I've monitored, g-news rate 15 g-news/h and "Eurovision" has 2 g-news/h.  Go Annika! :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       To me it seems that  urlLink GoboLinux  is something great. It is a Linux distro that has changed all the directory structure to a more sane one, IMHO. For instance, applications are placed under /Programs/Program_name/version/ and all the needed files are placed under that directory. Then they create symlinks all over the place to make it work. It really sounds like something I would like. Whenever I'm using any *nix-like system I have always problem locating files. But fortunately I'm not going to try it out now, since I neither have the time nor the need. Hopefully it becomes a little more mature, with more packages, so I can try it out in the future.  Btw,  urlLink MHS  (Modern Hierarchy Standard) seems to be something similar. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+        urlLink Opera   urlLink 7.11 is release . Go  urlLink fetch ! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I have totally missed mg before. It's an Emacs look-alike, but much smaller and lite-ish. It's great for editing files when you think that Emacs is too slow and don't remember vi's peculiar UI. I found it by mistake today when I was looking at the  urlLink OpenBSD FAQ 's for some info. I was trying to make my OpenBSD box to run, and it works like a charm. Now I only have to make my Windows 2000 box work using DHCP (somehow both Windows 98 and OpenBSD seem to handle DHCP better) (disclaimer: I might just be a klutz).   Yes! This is the most important thing that has happened the last two months :-)  
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Somehow I've "always" thought that the gravity is increasing the closer to the center of the earth you get. But that is of course not the case. In the center of the earth you get weightless (or perhaps a more correct term is fried), at least if you assume that the weight distribution of the earth is somewhat symmetric. I have googled for the answer of where in earth the greatest gravity is, but to no avail. Perhaps it's true as they say, gravity doesn't exist, the earth sucks.  What got me thinking about this was  urlLink The Core  that I saw yesterday. I quite okey Sci-Fi movie, but with quite many gaps, but that was suspected for a movie like this.  This is what  urlLink 20Q  has to say about gravity (it didn't manage to find out that I was thinking og gravity within 30 questions):  Uncommon Knowledge about gravity  Can it help you find your way? I say Yes. Is it bad for your health? I say Probably. Can you peel it? I say Yes. Can you play with it? I say Yes. Does it come from the ground? I say Yes. Does it come from something larger? I say Yes. Does it like apples? I say Yes. Can it be used to season foods? I say Yes. Is it a leafy vegetable? I say Yes. Can it be hunted? I say Yes. Is it involved in movies? I say Yes. Is it a mammal? I say Probably. Does it move air? I say Yes. Is it dangerous? I say Yes. Can it float? I say No. Does it have anything to do with salad? I say Yes. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Yesterday I managed to get my orange belt (4 kyu) in Ju-jitsu (or  urlLink Ju-jutsu Kai  as my system is called), that was great fun. I have trained since last autumn, thus I'm still a newbie.  Today I finally took the time to create a RSS feed from my  urlLink Blogger -provided  urlLink Atom  feed. So you have the choice to either subscribe to  urlLink my Atom feed  (which I think is best if your aggregator supports Atom), or  urlLink my RSS2 feed  (if your aggregator doesn't support Atom). I am able to support RSS due to a seemingly great service called  urlLink FeedBurner . I hope it will work fine and that they don't start charging for at least the basic features I'm using (let me know if there are any problems!).  I'm currently using  urlLink Opera  as my aggregator, which is really nice. The main drawback compared to my former aggregator ( urlLink SharpReader ) is that Opera doesn't support Atom as of yet. But I'm hoping they will add that support (as soon as the  urlLink spec  is becomes more stable/finished/issued/whatever).  Just one last note: if you think this blog is dull, you have not read  urlLink the dullest blog in the world ! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I have been out of touch with the blogosphere for quite some time now. In one week it was one year ago since I posted anything to this blog. Time to post something before that :-)  So what got me into blogging again? My brother alerted me about the current fuzz about  urlLink MovableType  decision to become expensive, the strong opinions of  urlLink Mark  (among others), and the gaining momentum of  urlLink WordPress . So of course I had to look into it.  That's what led me to discover  urlLink The Great Blogger Relaunch . Finally something has happened to  urlLink Blogger , which powers this blog. The main features I like is support for titles (which made me edit all my previous posts), support for comments, individual pages for each post, nicer URL:s, and ability to blog through e-mail (which I'm using now).  I've for the time being settled with a standard template, but will probably make my own soon. I will try to post something soon about why I have been silent for so long and what will happen with this blog. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Yesterday at the company's summer party we had a lecture by a laughing consult, and half an hour of laughing exercise. It was the whole package: gorilla laugh, pig laugh, penguin laugh, silent laugh, mad scientist laugh and so forth. It was the kind of stuff that when I've watched it on the telly I've thought that I would never (have to) try it. But now I've done it and I frankly have to say that it's not my cup of tea. It's not that I'm against humour, it's really not. But I kind of prefer natural laughter (and sometimes you just had to laugh at the others, unnatural laughter is kind of fun to look at. I wonder if that is cheating? :-) ). 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I have a few invites left on my  urlLink Gmail -account. Let me know, either through  urlLink mail  or comment, if you want one. First come first served. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       My brother was kind enough to invite me to  urlLink Gmail . So I don't have to  urlLink offer my wisdom teeth ,  urlLink offer free coffee ,  urlLink buy a dog and name it  or anything like that. That's nice.  It's really too early to know if I will reroute all my existing e-mail addresses to Gmail. It is also too early to know if I'm comfortable enough with a webmail service.  But Gmail is much nicer than any other webmail services I've tried before. In some ways it is even better than e-mail applications. It relies heavily on JavaScript and ActiveX (at least for Internet Explorer). This is a great strength, but also a great drawback. I can't use Gmail using my browser of choice &mdash;  urlLink Opera . Which also means that I can't use it with my cell phone that also uses Opera. And my installation of Internet Explorer is really bad since it hangs when you try to move from one input field to another. So I had to resort to installing  urlLink Firefox 0.9 , which after having installed  urlLink Googlebar , and  urlLink All-in-One Gestures  was almost usable. I don't know what's bugging me, but I still like Opera quite much more.  I will use Gmail for a while before I say anything more about what I think, but so far I'm impressed.  Btw, I've had more problems with software today. For some reason my  urlLink jabber  service provider,  urlLink myjabber.net  is out of service, so I thought that I could take the opportunity to upgrade to the latest version of  urlLink ICQ 4 (Lite edition) . But of course it didn't work somehow (prolly due to my crappy computer). And earlier today I was going to try out  urlLink CleverCactus Share , which was  urlLink released to the public today . But since it's a Java/Swing application it hangs my computer. I've been looking forward for the release for a while now so it's too bad my computer is so strange.  urlLink Diego , who is the CTO of CleverCactus, was developing a PIM application called Spaces (which I've mentioned  urlLink here ) before, but it's renamed CleverCactus Pro now and is  urlLink still to come . 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Today I found my new favourite wiki engine. First a bloke called  urlLink Eddie Edwards  made something he called  urlLink Wikiserver . But since he hasn't been able to develop it further, two other guys have created their mods:  urlLink Michel Van De Wetering , and  urlLink Elrey .  The Wikiserver is just one .exe file and no configuration is needed to get the wiki up and running (it doesn't even need a web server since it servs its pages itself). I tried Elrey's mods at work and I was impressed. A few minutes ago I tried out MWDW's mods and they seemed really nice. There are some differences but both products seem to be really nice.  It is simple, file based, written in C++, easy to install, and open source!  Now you have no excuse not to have your own, personal, wiki! Go fetch! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Hi, my name is Jonas! I'm not a  urlLink Linux  user.  If Outlook doesn't deceive me I registered to the  urlLink Linux Counter  1999-06-04 12:06. Today I got this mail:  "You used to be registered with the Linux Counter at http://counter.li.org/ as user #127580. Our records show that you have not updated this entry for a long time. In order to make sure the published Linux Counter data is accurate, we have removed your entry from the published counts. ************************************* Your entry has been removed from the counter and placed on backing store.  You are not counted as a Linux user. "  (emphasis added)  Ouch that hurts! No, not really. I haven't used Linux for ages, and haven't even booted my  urlLink OpenBSD  box for a year or so. It'a all great and so forth, but at the desktop I'm doing fine without it. And there is always  urlLink Cygwin ...  (three posts within 24 hours... perhaps I should start cleaning my apartment instead) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Today is the national holiday of Sweden. Not that I have ever celebrated it in any way, and will probably not do it to any great extent in the future. It is not even an official holiday and has only been celebrated since 1983 (yeah I know it's about as long as I've lived :-) ).  It's kind of a pity that it's not celebrated here I think. I believe that it would be good to do something like that to create a shared identity. Here is my theory: there is a need to have an identity on the personal level, on a family/team/group level, on a country/state level, and on a global/universal level. I don't think that having a strong country/state identity automatically leads to conflicts with other countries/states, but it might be the opposite (at least according to my theory it should be). When you know who you are, you should more easibly be able to relate to other, different people. That said, patriotism is something that sounds rather bad, but I'm not exactly sure what patriotism is and how it relates to what I'm talking about.  Anyways, I celebrated the notional holiday with paintballing and some crosskarting at  urlLink Mjaumåla Crosskart , which was quite nice!  (two posts within 24 hours, somebody stop me :-) ) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Struggling at work all day with putting the final touches to quite much newly written code it is nice to come home and read this piece at  urlLink Kuro5in :  urlLink Code Humor Challenge . Ok, some of the comments are excactly what you would guess, but there are some gems (at least if you're a programmer geek like me).  More from the geeky side of the world:  urlLink AfterSlash  is a great digest that filters out the five highest ranking comments for each post at  urlLink SlashDot  and presents them all on one page (for the last 15 posts).  Now I'm off to bed. Tomorrow, I'll go paintballing. Ouch!  ps. This is my 101st post to this blog. ds. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       On my new laptop I have started using only  urlLink Opera  for e-mail (besides  urlLink Gmail  of course). And it is working really smoothly. I quickly disabled Opera's built-in spam filter, in favor of  urlLink K9  (works like a charm).  So now I use Opera for most of my communication: browsing ( urlLink FireFox  as backup for sites like Gmail), e-mail, newsgroups, RSS aggregation (hopefully Atom soon as well), and IRC. It's very nice to have everything in one place. And it's also quite nice to be able to customize the look 'n feel using CSS: like the  urlLink IRC style  (the XP style is what I use), and to change which headers to be shown by the e-mail functionality ( omf|hdr[name="X-Text-Classification"] {display:table-row;} ), and which fonts to use.  Now I only have to migrate my e-mails from Outlook on my old computer to Opera. But I've gotten  urlLink mails out of Outlook  before. So I know it can be done. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       For my new laptop I needed some way of taking notes. You'd think that's a common use case but I find it very hard to find appropriate software for such a basic task (ok  urlLink WikiServer  was quite good, but lacking some features). However, I have looked at  urlLink SnipSnap  a few times and found it very interesting, so I thought I'd check it out.  The installation seems very simple, but I ran into the same problem this times as I've done before. Somehow it can't find com.sun.tools.javac.Main. So I started tinker with the classpath but to no avail. Then I thought that it might be due to I only had a JRE installed, no JDK. So I downloaded the latest J2SE JDK... But the same problem. So my last option was to install  urlLink Tomcat , and install SnipSnap as a web application in Tomcat. And after some tinkering, I got it to work. Woohoo!  But even though it was quite sophisticated there were some settings that it seems to not support, and there are no mailing list for SnipSnap that I can find. There is only the SnipSnap wiki, which is not that great for support purposes, IMHO. So although it was sophisticated it lacked some of the features I'd like it to have.  So I went on and installed  urlLink blojsom  (inspired by  urlLink bloxsom ). A few strengths: all posts are stored as text files, simple, extensible, and  urlLink MacOS X Server will include blojsom . The main drawbacks, IMHO, is that most, if not all, settings are made in .properties files, and it is too cumbersome to change themes. But SnipSnap is a weblog and a wiki engine. So I installed  urlLink JSPWiki  for the wiki part. It is also storing the entries as simple text files, and is light-weight and extensible. And I think I prefer to have the weblog part and the wiki part separated.  However, I'm not entirely sure if this is the ultimate solution. It seems quite overkill to have Tomcat (currently occupying 33.7 Mb) on a laptop, just for taking some occational notes. And I have not found many interesting web applications to install into Tomcat, besides the ones I use, and perhaps  urlLink XPlanner . But time will tell I guess. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       This Sunday I saw the movie  urlLink Shattered Glass , which I found very interesting. I saw its trailer on the  urlLink Station Agent  DVD, but I had not heard of it before. The  urlLink plot summary :  This film tells the true story of fraudulent Washington, D.C. journalist Stephen Glass (Christensen), who rose to meteoric heights as a young writer in his 20s, becoming a staff writer at "The New Republic" for three years (1995-1998), where 27 of his 41 published stories were either partially or completely made up. Looking for a short cut to fame, Glass concocted sources, quotes and even entire stories, but his deception did not go unnoticed forever, and eventually, his world came crumbling down...  I didn't know it was a true story when I started watching the movie, but as I watched it I googled for "Jukt Micronics" (one of the joys with having a laptop :-) ) which was mentioned in the movie and noticed that the moview indeed was based on a true story.  Here are the original articles from Forbes Digital Tool that exposed the fraud:  urlLink 1 ,  urlLink 2 ,  urlLink 3 , and  urlLink Jukt Micronics fake website . Here is  urlLink Salon's article  from back then.  Here is a  urlLink list with all of the articles written by Glass , however most of the links are broken. I managed to track some of his articles down (some thanks to  urlLink The Wayback Machine ):  urlLink Do Something! (about Nike) , and  urlLink Market Features: Book Review: The Online Investor . But the one I found the most interesting is one article he wrote for Harper's Magizine:  urlLink Prophets and losses: the futures market for phone psychics - proliferation of telephone-based fortune-telling , which has a really intriguing story and shows that he's a good writer (but I suspect this one contains some "half-truths"). However, most of his articles are not available online. I would really like to read his article "Hack Heaven" so if anyone finds that article, please  urlLink let me know !  As you might suspect, I really recommed the movie. I'm not sure what it is but I found it really interesting. And the DVD featured a CBS 60 Minutes' segment:  urlLink Stephen Glass: I Lied For Esteem .  Btw, Stephen Glass has written a book about what happened:  urlLink The Fabulist . 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       This friday I got my  urlLink new toy . I managed to almost not use it for more than a day (because I went away), but since then it's been much work to migrate from a desktop to a laptop. But now I think I've got a basic system up 'n running with most of the basic applications. I will perhaps write about that soonish.  I'm very satisfied with my new computer. The only thing thatbothers me was that when I went outside yesterday I had to set the brightness to max and still the contrast was quite low. But I suspect that is common for laptops.  You know you're a geek when your computer is more expensive than your car :-) 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Eagerly awaiting  urlLink my new toy  I headed over to  urlLink Schenker's site  to track my packet. Earlier this evening I was welcomed by this message:   The service is closed for maintenance ( ??:??  - 23:59). Please try again later.   So I tried again around midnight and was welcomed by:   The service is closed for maintenance (00:00 - 06:05). Please try again later.   Doh! I just missed the one minute window of opportunity. I guess their availability isn't too perfect. But it's A-OK if they just deliver my toy tomorrow. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Today an old friend asked me about how to develop an app for his newly bought  urlLink SE-K700 . Too bad I have never developed for phones using Java (only C++). But I told him about  urlLink J2ME , and  urlLink MIDP . I hope that's enough to get him started.  Does anyone know a good IDE for J2ME development? Is  urlLink EclipseME  a good tool?  I think that's Java's main advantage &mdash; "a lot" (relatively, that is) of people are exposed to Java in their education (such as my friend) without being programmers, which makes it the obvious choice for them. Pehaps a scripting language (such as  urlLink OPL ,  urlLink Python , or  urlLink Python ) should be more appropriate in this case (for some calculations and similar) if available. But I think that the number of people who checks out a new programming language for fun is quite limited to a sub set of the programmer community. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       when they are far away, or at least not above me and do what birds do after they've eaten. 'nuff said. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Spent the evening watching  urlLink The Station Agent . It's a bit strange, slow and sad at times, but really good and had a lot of heart. But now I have to go to sleep &mdash; I've been tired all day. Just one week until vacation. Zzzzz... 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+        urlLink Eclipse  3.0 [via  urlLink d2r ] was released a couple of days ago. Just reading  urlLink what they've changed  make you want to use it. Unfortunately I'm not coding any Java at the moment, but I'm planning to start a little project soonish...  And today (or yesterday if you are that picky since it's past mignight)  urlLink Mono  1.0 was released  [via  urlLink /.  via  urlLink AlterSlash ]. I have never used Mono but I like the project.  And in what way are these releases related to each other? Besides the fact that they are both major open source initiatives aimed for developers that reached .0 version within a week, it is also possible to run  urlLink Eclipse on Mono  (not that I understand why you would want to do that). 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       One or two weeks ago I started getting an itch for a laptop. It's been a rough time. There are loads of models, each similar but yet different. I have gone through the Swedish vendors offers several long nights. But finally, yesterday evening I reached a verdict:  urlLink Dell Latitude D600 . Of course it was too expensive and all that but what do you do?  Dell are quite genious the way they do their marketing with lots of offers and lots of configurations. But it sure ain't easy to choose, especially when it's way above your budget. "Easy as Dell" &mdash; yeah right! I tried my best with the saleswoman to beat down the price a bit, but I only managed to get about 200 SEK ( urlLink ~$27 ) beside the 1709 SEK ( urlLink ~$227 ) they offered to everybody.  Now I just have to start planning what to install on it and how to organize things. It's been like 3-4 years since I started off with a clean sheet with my current computer. And this time I'm switching from Windows 2000 Professional to Windows XP Professional (which I believe won't run one of my favourite utility Naviscope), and more importantly, from desktop to laptop. But hey, I've got two weeks until I get my new computer. 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       Since  urlLink I'm a big boy now , I've been feeding myself for a couple of days now. I don't know why I've not started before.  I rent my DVD's from a nice service called  urlLink Brafilm.se  (translates to "good movie(s)", only available in Swedish). It works like this: you choose the movies you want to watch from their site, and prioritize them. Then they send you three movies, when you are finished with a movie you send it back. When they get a returned movie they send you another one so you (or the postal service) always have three movies. Works like a charm and is a nice service.  However, the only way to get to know which new movies they get is to go to their site once a week and check. But manual polling of sites is tiresome, error prone, and so Nineties :-). So I whipped togetgher a  urlLink Python  script that scrapes three of their lists (new releases, soon to come, and top 100) and creates one RSS feed for each list. I only generate the feeds when I log in to my computer since I don't want to mess with CGI, but the lists are only changed a couple of times a week so no need for "real-time" feeds. It is just so nice to have the feeds, I can't understand why I didn't do this before. Note to self: scraping instead of manual polling! 
+    
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+    
+       I don't understand why the new year is celebrated bewteen 31 th  of December and 1 st  of January. I have always felt that the year starts sometimes during the summer, after (or during) the vacation. The official new year has one advantage: it has a set time so everyone (at least the ones using the Gregorian calendar) knows when it occurs. "My" new year is a little more fuzzy. But furtunately I have a specific date that is natural for me to consider being the new year, and that's today. The reason is that I drew my first breaths of air on this day, but some  urlLink 8766 days  ago. Not that I have celebrated the new year to any great extent, I will do that this weekend methinks.  Happy new year to you, or whenever your new year is!  ps. I like the nature here, but I sure don't like the large population of ticks. I removed two ticks before they had an opportunity to bite, and don't think anyone else managed to find their way to my veins. Itchy-itch, yuck! ds. 
+    
+    
+</post>
+
+
+</Blog>

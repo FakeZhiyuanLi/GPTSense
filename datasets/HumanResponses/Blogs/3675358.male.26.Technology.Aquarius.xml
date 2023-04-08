@@ -1,0 +1,112 @@
+<Blog>
+
+<date>19,June,2004</date>
+<post>
+
+    
+        [gcc, egcs] use options :  -O3 -s  when compile your code to optimize object code (intermediate files) and strip all unnecessary comments  [LINUX] Also you can type in shell :  strip -g -s EXE_FILE  will give you the same effect as add options describe above 
+    
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+    
+        Cast any value that would be assigned to a variable, especially for pointer type ( void* )  Make sure to have same type while comparing two variables (values) avoiding warning message produced when compile the source code using gcc (NOT egcs). To get all warning message might caused unpredictable errors, use option  -Wall  while compiling 
+    
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+    
+       Microsoft provided library CRTDBG to detect memory leak in source code. Here is an example how to detect memory leak using CRTDBG:         #include &lt;stdio.h&gt;        #ifdef _DEBUG       #include &lt;crtdbg.h&gt;       #include &lt;string.h&gt;       #include &lt;malloc.h&gt;       #define  SET_CRT_DEBUG_FIELD(a)                   _CrtSetDbgFlag((a) | _CrtSetDbgFlag(_CRTDBG_REPORT_FLAG))       #define  CLEAR_CRT_DEBUG_FIELD(a)                   _CrtSetDbgFlag(~(a) &amp; _CrtSetDbgFlag(_CRTDBG_REPORT_FLAG))       #else       #define  SET_CRT_DEBUG_FIELD(a)   ((void) 0)       #define  CLEAR_CRT_DEBUG_FIELD(a) ((void) 0)       #endif        int main(int argc, char *argv[])       {         // variable         char *p;        #ifdef _DEBUG         _CrtMemState s1, s2, s3;         _CrtSetReportMode( _CRT_WARN, _CRTDBG_MODE_FILE );         _CrtSetReportFile( _CRT_WARN, _CRTDBG_FILE_STDOUT );         _CrtSetReportMode( _CRT_ERROR, _CRTDBG_MODE_FILE );         _CrtSetReportFile( _CRT_ERROR, _CRTDBG_FILE_STDOUT );         _CrtSetReportMode( _CRT_ASSERT, _CRTDBG_MODE_FILE );         _CrtSetReportFile( _CRT_ASSERT, _CRTDBG_FILE_STDOUT );         _CrtMemCheckpoint( &amp;s1 );       #endif          // do some work here         p = (char *)malloc(sizeof(char)*100);         strcpy(p,"Hello world");         printf("%s\n",p);         //free(p);	// Seolah2 kita lupa mem-free        #ifdef _DEBUG         _CrtMemCheckpoint( &amp;s2 );         if ( _CrtMemDifference( &amp;s3, &amp;s1, &amp;s2 ) ){           printf("\n------------\nOuups! leak detection.\n");           _CrtMemDumpStatistics( &amp;s3 );         }else{           printf("\n------------\nCongratulation! no leak detection.\n");         }       #endif         return 0;       } // end of main   Use option /MTd to compile the code, e.g. cl memdetect.c /MTd 
+    
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+    
+       You can add a description about a service and displayed in Description column in Services Console (MMC) by adding the following codes after created a service (CreateService()) successfully:         #define SZDESCRIPTION               "A description about the service"        LPSERVICE_DESCRIPTION lpInfo;        // change service's description       lpInfo = (LPSERVICE_DESCRIPTION)malloc(sizeof(SERVICE_DESCRIPTION));       lpInfo->lpDescription = (LPTSTR)malloc(256);       strcpy((char*)lpInfo->lpDescription, (char*)SZDESCRIPTION);       if (!ChangeServiceConfig2(schService, SERVICE_CONFIG_DESCRIPTION,           lpInfo))          _tprintf(TEXT("Can't change service description.\n"));       free(lpInfo->lpDescription); lpInfo->lpDescription = NULL;       free(lpInfo); lpInfo = NULL;   If you want to start a service automatically after installing it, add the following codes after created a service (CreateService()) successfully:         // Start Service       if (!StartService(schService, 0, NULL))          _tprintf(TEXT("Can't start service automatically.\n"));   
+    
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+    
+       You can use attribute  title  at tag  anchor  (&lt;a&gt;&lt;/a&gt;) to display a custom tooltip as following:   &lt;a href=&quot;a&quot; title=&quot;This is a title test&quot;&gt;Title Test&lt;/a&gt;    
+    
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+    
+       If you are amazed with Google toolbar which is one of its feature is googling by right clicking on selected text, you can make it by your self.   What I Need?  1. Registry Editor, commonly you just simply typing regedit on Start | Run 2. Text/HTML editor to create an HTML file   How?  1. Run regedit from Start | Run 2. Locate section: HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\MenuExt 3. Right click, select menu New | Key 4. Edit new string (New Key #1) with &Google Search for instance. This time, we will create context selective menu to do googling for selected words. Character &amp; indicates shortcut, in this case 'G' as a shortcut. 5. Click &Google Search. Double click on entry (Default), and fill: d:\comm\google-search.html for instance. This indicates location of file which will be executed by if selecting menu "Google Search". 6. Create new Entry, right click on right panel after entry (Default): New -> Binary Value 7. Change new entry name to "contexts" (without double-quotes) 8. Double click on that entry to change the content. Fill binary value 10 00 00 00 9. Create an HTML file name google-search.html in path filled in entry (Defaults) Example:  &lt;script language="JavaScript"&gt; var parentwin = external.menuArguments; var doc = parentwin.document; var sel = doc.selection; var rng = sel.createRange(); var str = new String(rng.text); if(external.menuArguments.event.shiftKey) parentwin.open('http://www.google.com/search?hl=en&amp;;lr=&amp;ie=UTF-8&amp;oe=utf-8&amp;q='+ escape(str) + '&amp;btnG=Google+Search'); else parentwin.navigate('http://www.google.com/search?hl=en&amp;;lr=&amp;ie=UTF-8&amp;oe=utf-8&amp;q='+ escape(str) + '&amp;btnG=Google+Search'); &lt;/script&gt;  10. After all steps 1-9 completed, please test by opening your MSIE browser, and right click on selected words ...... Abrakadabra ... a menu item Google Search shows up. If you click it, will do googling for selected words. To search on new window, press & hold SHIFT button (after selecting words and before right clicking) then click menu "Google Search".   GUIDE  1. You may do this for other purposes such as query ke other sites http://www.kamus.web.id for instance by creating new HTML file with the following contents:  &lt;script language="JavaScript"&gt; var parentwin = external.menuArguments; var doc = parentwin.document; var sel = doc.selection; var rng = sel.createRange(); var str = new String(rng.text); if(external.menuArguments.event.shiftKey) parentwin.open("http://www.kamus.web.id/english.asp?pilih=eng&amp;;kata=" + escape(str)); else parentwin.navigate("http://www.kamus.web.id/english.asp?pilih=eng&amp;;kata=" + escape(str)); &lt;/script&gt;  2. Or, launching new popup-window, execute programs, etc. by changing contexts value with certain value.   DISCLAIMER  1. Author is not responsible about any DAMAGE/DATA LOST caused by this experience. 
+    
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+    
+       To whom are bored with MS Windows 2000/XP default logo with your favourite one. You may simply change it easily.   What I Need?  1. Resource Hacker ( urlLink http://www.users.on.net/johnson/resourcehacker/ ) 2. Image Editor, such as PhotoShop Pro, Adobe Photoshop, etc.    How?  1. Copy %WINNT\system32\ntoskrnl.exe to other name, mine.exe for instance (at the same folder) 2. Run Resource Hacker. From File | Open, open file mine.exe 3. Expand tree Bitmap -> 1 from right panel of Resource Hacker. Click number 1033. You'll see the default boot logo. 4. Your logo must be a Windows Bitmap image (BMP) with 640x480 16 colors (4 bit). To change it, select menu Action | Replace Bitmap, then click Open file with the new bitmap button. 5. When finished, save file by selecting menu File | Save 6. There are mine_original.exe and mine.exe. File mine.exe is the new kernel file which is ready as new boot logo. Please ensure to copy it to %WINNT\system32. 7. You may try your new boot logo by editing file C:\boot.ini. If you can't find this file, please ensure to set set Folder Options at Windows Explorer (menu Tools | Folder Options at View tab, option Show hidden files and folders). CAUTION: Content of the following file boot.ini may differ with your file boot.ini content on your computer Example:  Original boot.ini  [boot loader] timeout=30 default=multi(0)disk(0)rdisk(0)partition(1)\WINDOWS [operating systems] multi(0)disk(0)rdisk(0)partition(1)\WINDOWS="Microsoft Windows XP Professional" /fastdetect  Modified boot.ini:  [boot loader] timeout=30 default=multi(0)disk(0)rdisk(0)partition(1)\WINDOWS [operating systems] multi(0)disk(0)rdisk(0)partition(1)\WINDOWS="Microsoft Windows XP Professional" /fastdetect multi(0)disk(0)rdisk(0)partition(1)\WINDOWS="Custom Boot Screen" /KERNEL=mine.exe /fastdetect  Please NOTICE the last line of modified boot.ini! Option  /KERNEL=mine.exe  is pointer to your new kernel file as new boot logo. 9. You may this by restarting your computer. 10. While booting, there are 2 options: "Microsoft Windows XP Professional" and "Custom Boot Screen". Choose "Custom Boot Screen", then You'll see your new boot logo. 11. If you are sure with this configuration, You may remove the first option.  multi(0)disk(0)rdisk(0)partition(1)\WINDOWS="Microsoft Windows XP Professional" /fastdetect  so your computer will boot with your new boot logo automatically.   DISCLAIMER  1. Author is not responsible about any DAMAGE/DATA LOST caused by this experience. 2. Author already experience this on MS Windows XP Professional and MS Windows 2000 Professional. There is no problem at all. For other version of MS Windows such as Windows 2000 Server/Advanced Server, please visit my references.   Reference  1.  urlLink http://www.littlewhitedog.com  2.  urlLink http://www.thecrackaz.com/articles/tipsandtricks/How%20To%20Change%20the%20Windows%202000%20Boot%20Logo.php  3.  urlLink http://www.themexp.com  
+    
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+    
+       You may create shortcut/hotkey for a field in a web form by using tag label and attribute id of a form input-type (field). Please notice to following bold written text!   CODE    &lt;tr&gt;   &lt;td align="right" width="43%"&gt;&lt;img src="frontpage/imgname.gif" width="80" height="12"&gt;&lt;/td&gt;   &lt;td width="57%"&gt;      &lt;label for="user" accesskey="U"&gt;&lt;/label&gt; &lt;input type="text" name="user"  id="user"  class="input" size="15"&gt;   &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt;   &lt;td align="right" width="43%"&gt;&lt;img src="frontpage/imgpass.gif" width="80" height="12"&gt;&lt;/td&gt;    &lt;td width="57%"&gt;      &lt;label for="pass" accesskey="P"&gt;&lt;/label&gt; &lt;input type="password" name="pass"  id="pass"  class="input" size="15"&gt;   &lt;/td&gt; &lt;/tr&gt;   By above code, you may using  ALT+U  to move the pointer into a form field named  user  or  ALT+P  to move the pointer into a form field named  pass . 
+    
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+    
+       There is a difference to close a scoket connection on Windows and Linux.  On Linux, we may simply use  close()  function to close a socket connection, but you  CAN NOT  use this function on Windows. Use  closesocket()  function instead. If using close() function on Windows to close a socket connection, it will remain  Close Wait  connection status means unable to close socket successfully. 
+    
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+    
+       Any one can help? Or Google itself would like invite me? 
+    
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+    
+       Some browsers such as MSIE opening a document automatically without asking to save or open the document. Some people including me it is very annoying. So how to make an application which acts to send a document to a web client such as web browser always download the document rather open it?  There is a simple way to do that by using   content-type: application/octet-stream   HTTP header instead of using proper MIME-TYPE content-type for a web document to be sent. Most web browsers will downloaded a web document with this content-type including MSIE.  
+    
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+    
+       You will be mad if you can't locate error in your program especially finally you find out that the cause is only not set your dynamic allocated variable is not set to NULL after freed it, won't you?  There are some tips for freeing a dynamic allocated variable not to cause any trouble in future: 1. Use the same function call to allocate and deallocate a dynamic allocated variable in your whole program. 2. Check if a dynamic allocated variable is NULL or not before freeing it. Please ensure you don't free a dynamic allocated variable values NULL even some function call handle NULL condition. 3. Set a freed dynamic allocated variable to NULL. This will not cause any error if this code is accessed rarely and not repetitively. By experience, this will cause error for repetitive condition.    if (sTemp) {    free(sTemp);    sTemp = NULL; }     Reference  Based on my experiences  
+    
+    
+</post>
+
+
+</Blog>

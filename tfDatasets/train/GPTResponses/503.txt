@@ -1,0 +1,1 @@
+ARM does not stand for anything anymore. It was originally an abbreviation for "Acorn RISC Machine" when the company was first founded in 1990, but this name was changed to "Advanced RISC Machines" in 1998. However, since 2017, ARM is simply known as ARM, without any explanation for what the acronym stands for.

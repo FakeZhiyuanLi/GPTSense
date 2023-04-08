@@ -1,0 +1,1 @@
+A twin prime is a prime number that is either 2 less or 2 more than another prime number. For example, the prime numbers 3 and 5 form a pair of twin primes because 5-3=2. Another example is 41 and 43, which are also twin primes because 43-41=2.

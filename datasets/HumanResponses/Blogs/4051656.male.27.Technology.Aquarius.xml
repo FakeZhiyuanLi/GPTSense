@@ -1,0 +1,500 @@
+<Blog>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      I ended up doing part of the suggestions found on the  urlLink Crackbaby.com  article. The part I did was to make all my applications call Firefox instead of IE. So now, when I click on a hyperlink inside of an MSN chat window, the URL opens in Firefox instead of IE. The method is pretty simple. Here are the instructions for disabling IE.  Do a search through the registry for 'iexplore.exe' and 'url.dll'. Replacing  HKEY_CLASSES_ROOT  instances of these two with the path to your alternative browser seems to do the trick. I now have all my other Microsoft apps that would normally call IE, now calling Firefox.  For instance, I have Mozilla Firefox as my alternate browser so I replace with the following:  open/command -> C:PROGRA~1MOZILL~1FIREFOX.EXE -url "%1" DefaultIcon -> C:PROGRA~1MOZILL~1FIREFOX.EXE,1   It seems to have worked for me. Give it a try. Don't forget to back up your registry before editing it. You might have to restore it if all goes badly.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Rockstar Games  video game  Manhunt  is in the news.  urlLink Some kid murdered another kid , and both the police and the killers' parents are blaming the game. This is retarded. First, the game had an M rating which is 17 and up in America, and 18 and up in Great Britan, where this murder happened. The murderer in question was 17 years old, which means either he got a friend to buy the game for him, or his parents bought it. Either way, the parents knew he was playing it. After the hearing, Stefan's father, Patrick, said the boys used to play "Manhunt", a game on PlayStation 2, in which players earned points for killing people.  So, right off the bat, we can blame the parents for allowing their child to play a game which he was not old enough to even buy, and which they knew was about killing for points.  One might also argue that video games don't cause violent behavior. This is evidenced by the  millions  of people of all ages playing violent video games and  not  murdering people. I personally play all the violent video games I can, and anyone who knows me would tell you that I am an extremely nice, non-violent person. Saying the video game caused this kid to be violent ignores tons of evidence that the video game doesn't actually make people violent. One might also argue that people with violent tendencies will gravitate toward these types of games. I bet this kid has a few more games that are also violent, he just happens to like this one the most.  If your child is playing video games that are violent, and he/she ends up killing someone; please people look somewhere besides the gaming industry. It's not their fault, no matter how much you want it to be. 
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       Despite my girlfriends very cute protests, I went ahead and named this entry Winkie Pinkie ;)  She's been working in a pre-school for about 4 months now, and has run the gambit of childhood illnesses. Everything from the sniffles to full blown flu... and now PINK EYE! Ewwww! Anyway, I hope you enjoy the wonderful photo of her beautifully colored eyeball there. That's all she would allow me to post.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Crackbaby.com  has an excellent article up on how to remove IE from your system completely. I, for one have been wondering how to do this for some time now, and  urlLink Xeno  has cracked it. Yay! The article includes instructions on how to make your other apps call your alternate browser instead of IE, and how to use Windowsupdate without IE. It requires some knowledge of registry editing, but if you've ever looked at the registry before and know how to change entries, you shouldn't have a problem. I'm still at work, so I haven't actually tried this yet, but when I get home, I'm going to implement the changes and report back in an update to this post.  Oh yeah, I found this article posted in my favorite blog ever,  urlLink BoingBoing.net     Update:  I remembered that I still use IE as an FTP client, so I haven't removed it yet. If I decide to do it in the future, I'll update with another post. 
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink    urlLink No title  for this page. It's a very large collection of some of the most depressing photography I've ever seen. Slow to load, it's got a ton of pics on it.  It's depressing to me because I know that these people are on this page because our national leadership duped us into commiting the worst atrocities since Nurnberg. Also because I know that had I not gotten out of the military when I did, I could have very well been there geting 'sploded.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      No, not the sun, although that's what I always think of when I see the words Death Star.  urlLink Astrobio.net  has a neat story about one of Saturns moons.    urlLink   Soon after orbital insertion, Cassini returned its best look yet at the heavily cratered moon Mimas (398 kilometers, 247 miles across). The enormous crater at the top of this banner image, named Herschel, is about 130 kilometers (80 miles) wide and 10 kilometers (6 miles) deep. Deeper than the Grand Canyon, Herschel stretches across nearly a third of the tiny moon's diameter. The central mountain shown at the center of Hershel is the height of Mount Everest on Earth.  This impact probably came close to disintegrating the moon. Traces of fracture marks can be seen on the opposite side of Mimas, suggesting that the destruction nearly split the satellite into two pieces. Although the icy moon bears a striking resemblance to the fictional 1977 'Death Star' from the Star Wars film by George Lucas, this low-density satellite probably had a more likely past not as a weapon or space station, but instead as a victim of one catastrophic day in its ancient history. That day Mimas came closer to dying rather than committing any planet-scale homicide.  
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       I'm going to be spending some time today and probably tomorrow too, learning all I can about CSS and studying these templates so that I can maybe create an original one. I already know most of what's going on in there, but there are some commands I don't really understand. So, it's off to  urlLink w3schools.com  and  urlLink htmlgoodies.com  for now. If anyone knows any good sites, I'd love to check them out.  Update:  I'm enjoying learning about CSS. It's a handy time saver for people with extensive web pages. I'm running into some discrepencies between the syntax I'm learning and the syntax used in this template. For example, where w3schools tells me to use this syntax:  p.post { , the template uses this:  .post p { . Other than that, everything's been coming along pretty smoothly. I'm going to continue to use this template and it's associated artwork for now, and just change minor things to taste until I can put together a nice looking original.   
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       Ok, so I'm sure everyone already knows about all the controversy about the electronic voting machines, so I'm not going to spell it all out. Anyone who knows anything about computer security or data base integrity knows that these machines are a bad idea. Well, now there's proof.  urlLink The New York Times  is reporting that "almost all" of the records from the first run of these machines have been "lost."  So lets recap: the voting machines are easily hacked; have unreliable databases; have the security of an email kiosk; are owned by a company who has major ties to the republican party; don't produce an audit trail... do we really need  more  reasons to  not  use these things? If your county is using these voting machines, I strongly urge you to submit an absentee ballot instead. Read up on the rules. In my state you don't have to prove that you will be absent, so you can fill it out and mail it in right from home. I know it sounds a little disingenuous, but would you rather take the chance on having the election stolen? I'm not finding a centralized site for the application, so do a google search for your state.  urlLink Here's  how I did mine. Just replace Arkansas with whatever your state is. Also,  urlLink ActiVote  has some good information, and links to your states voting information.    
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       I am sick of seeing  urlLink this  type of headline in the news. Why must our politicians engage in this petty nonsense? So Kerry donned a funny looking suit so he could do some stuff with NASA... so what? Where do I sign up? I've always wanted to wear funny looking suits for NASA. Not that the Kerry campaign is any less guilty of this tactic. I hate it all around. I don't care that Jenna Bush stuck her tounge out at the reporters or that Dubya fell off his bike again. Why is this important enough to make front page news on a major news outlet? I wonder why they don't attack each other where it really matters: the issues. Oh yeah, that's right, there's absolutely no difference between Bush policy and Kerry policy. Argh! I can't believe what this election year has boiled down to. If Bush wasn't such an evil bastard, I wouldn't even vote.   
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+        urlLink Operation Truth  is a growing movement to educate people about the war in Iraq. From their website:   MISSION STATEMENT  Operation Truth will educate the American public about the truth of the wars in Iraq and Afghanistan from the perspective of the soldiers who have experienced them first-hand. We will provide returning veterans with national, regional, and local podiums from which they will expose the preventable hardships that they endured as a result of failures at the top levels of leadership. We intend to publicize how poorly-planned policies and approaches have manifested themselves as problems on the front lines and back at home. We will act domestically to protect our troops and to aid them in their fight to protect us.  Operation Truth's battle does not end when all of the warriors come home. Our relevance will continue indefinitely, addressing the ripple-effects of this war on the Servicemembers and their families for decades.  I think this is a great idea, and I hope they find some willing participants. More than just finding willing participants however, I hope they find participants from across the entire spectrum of ranks. I find that one group of soldiers will have a completely different view of how a particular battle went compared to how their superiors viewed it. Also, I hope that this will be an eye opener to all those flag waving morons who would scream SUH-PORT ARE TROOPS at the top of their lungs if you let them, not remembering that it was their  monkey  boy who put them into peril in the first place.   
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+        this blog publishing software has made me very happy. Being pretty competent with HTML has helped a lot. The spell check function does not seem to work. I use  urlLink Firefox  though, so that probably has something to do with it. I really don’t like this theme although I personally think it was the best one available. I might try out the picture collage one too. If I just can’t stand it anymore, I’ll make my own. I’m sure pretty much everything about JTFM will change eventually. Peace!     
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+        urlLink   Ok, so I know this guy is already famous but,  urlLink Raptorman  is the author of one of the best fiction blogs (for lack of a better term) I've seen. It is a beautiful combination of zombies and a post-apocalyptic Earth that literally had me on the edge of my seat. If you're a zombie fan, it's a must-read. Seriously, it's awesome.    
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+         Hello, and welcome to my first blog. I plan to update daily with musings, rants, political discussion, and maybe some humor. First up: a few things about me. I'm a 27 year old computer geek working at the University of Arkansas. (Please hold all "Arkansas has  computers ?!?" comments.) Once upon a time, I was a US Army communications specialist, which, combined with a healthy love for video gaming, helped me become the geek I am today. Since leaving the Army, my views on politics and things like that have shifted very far left. I don't have any political affiliations, but if I had to pick a party, it would be Libertarian. I would be very happy to see the current 2 party system crumble. I think it's a waste of time. We should be evaluating the  candidate  not the party, because in the end, it's not the party doing pre-emptive strikes on other nations, is it? Anyway, stick around for political rants and general nastiness.    Check back in a few days, and if I haven't posted anything,  urlLink tell me .     
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Sinfest 
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Iran Warns Of Preemptive Strike To Prevent Attack On Nuclear Sites   urlLink Iran Warns of Pre-emptive Strike   In an attempt to defend themselves from a percieved threat, Iran is threatening to pre-emptively strike Israels nuclear facilities. "We will not sit (with arms folded) to wait for what others will do to us. Some military commanders in Iran are convinced that preventive operations which the Americans talk about are not their monopoly," Shamkhani said when asked about the possibility of a US or Israeli strike against Iran's nuclear facilities. [...] the Iranian press reported a commander of the elite Revolutionary Guards as saying Iran will strike the Israeli reactor at Dimona if Israel attacks the Islamic republic's nuclear facilities.  Sounds reasonable to me. The US pre-emptively attacked Iraq for posessing nukes (which they didn't,) so now Iran is going to pre-emptively attack Israel for threatening them with nukes (which they  do  have.)  Watch America get all pissy about it when it happens too. Bush will say that Iran had no authority to attack, and that it was illegal, and use that premise to invade Iran. Completely ignoring that Iran is merely following our lead.  I hope I'm wrong, but I bet I'm not.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      I've had an  urlLink Xbox  for about 18 months now, and during all that time I've never even come close to paying Microsoft the fee for their Live service. Why? Because it's a huge ripoff. People like  urlLink Gamespy  and  urlLink The All-Seeing Eye  have been offering this type of service for the PC since online gaming first evolved.  urlLink Playstation  has been offering a free online game service since the PS2 came out, and  urlLink Sega  trailblazed the market with their free dial-up game service SegaNet.   I have to hand it to Microsoft though; they have the best console on the market, and Xbox live is as convenient and smooth as you could possibly want. It's no secret that Microsoft is out to make a buck, but why does it have to be such a big number? $70 per year is a ripoff.   Trolling around one of my gaming forums, I found out about something called  urlLink XBConnect  and  urlLink XLink Kai . These are both "tunneling" services, which allow you to play system-link enabled games online for free. What they do is fool your Xbox into thinking that it is connected to a Local Area Network (LAN) so that you can play with others using the service. Pretty cool.   I'm at work right now, so obviously I can't test them out. I'm gonna give them a try tonight with Full Spectrum Warrior. I'll let you know what I think and whether or not the services are viable.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink BBC NEWS | Business | US suspends Halliburton decision  The US army has said it has suspended for now a decision to withhold some payments to Halliburton, its biggest contractor in Iraq.  So, even though Halliburton is skimming off the top, the US isn't going to stop giving them their money.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink My Way - News :  A decorated U.S. combat veteran filed a lawsuit on Tuesday asserting that the government can not prevent reservists from leaving the military when their enlistment periods end.  The suit against Defense Secretary Donald Rumsfeld and other military officials, names the plaintiff only as John Doe. It says he served in the Marine Corps and Army for nine years on active duty and three years as a reservist.  'This lawsuit seeks to stop the forced retention of men and women who have fulfilled their service obligations,' said attorney Michael Sorgen. 'When their period of enlistment ends, they should be entitled to return to their families.'  "Section 1. Neither slavery nor involuntary servitude, except as a punishment for crime whereof the party shall have been duly convicted, shall exist within the United States, or any place subject to their jurisdiction." --13th Amendment to US Constitution.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink The Coincidence Theorist's Guide to 9/11  Keep telling yourself it's just a coincidence, and maybe it will become true.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink 22 y/o Jeep rescues Hummer H2  When I got out of the Army about 4 years ago, I remember seeing these H2 hummers on the streets and thinking "That's almost a Hummer." During my many years in the army, I drove a real  urlLink HWMMV  (Humvee) on both city streets and in rough terrain. I can tell you that these things  rock  on rough terrain, but as for street driving, you might as well be driving a tank. They are wider than a normal vehicle (even a large vehicle) and their tires don't do very well on pavement. Now, these new H2s are slimmer, and sport regular truck tires, and are apparently completely useless as far as doing what they were originally designed to do. I can guarantee you that my HWMMV would never have gotten stuck on a 12" tree stump. All my years in the army, I never saw one winch.   I think the whole thing is both hilarious and depressing.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      People lately have been arguing about things I never would've dreamed Americans would even question. Even back in my days of 6th grade Civics class, things like  urlLink "police state"  sent shivers down my spine. Back then, the very idea that the USA could become one of these places was the furthest thing from reality.  These days however, people argue about whether or not  urlLink free speech zones  are constitutional. Constitutional?!? Are they serious? Wasn't one of the primary functions of the constitution to preserve the freedom of speech in ALL OF AMERICA?  People argue  not  about whether or not candidate X will win or lose the election; we argue about whether or not candidate X will  steal  the election. And the really offensive part about it is; it's really not whether or not candidate X  will  steal the election, it's about how hard we make it for them. All this nonsense about electronic voting machines doesn't even matter. It's who's counting the ballots, or who's announcing the winner that matters. The UN has been invited to monitor our elections, which makes me somewhat more comfortable, but what exactly does that mean? Do they count the ballots? Double check the results? Or are they just monitoring the actions to make sure there are no sheninagins? It's a sad day when the bringer of freedom and democracy needs an election monitor.  About this "police state" business: does anyone really doubt that the USA is anything but a police state right now? With the  urlLink FBI   urlLink terrorizing protesters , and our would-be head of the  urlLink CIA proposing legislation  that would allow the CIA to conduct operations within the US; something which has been banned for over 57 years. With all this, can we really wonder about our situation? It seems to me we are already in a police state. What's it going to take for Americans to realize? 
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Is Microsoft's Firewall Secure?  I can't speak about this on a first hand basis because I have yet to install the service pack, but this is about what I expected. Security experts and vendors this week welcomed the introduction of Windows Firewall, part of Windows XP Service Pack 2 (SP2), as a valuable way of protecting PCs. But while the firewall is an improvement, it falls short of the standard of protection expected of commercial firewalls, according to some industry observers.   Windows Firewall--which replaces the old Internet Connection Firewall--marks the first time all up-to-date PCs will have a firewall switched on by default, an important step in stopping the spread of viruses, according to industry analysts. However, the software suffers from two major flaws, critics say: it does not block outbound traffic, and it can be switched off by another application, possibly even by a clever worm.   Good thing I run my own firewall. I don't really understand why it's the OS developers' fault that your system is unsecured on the network. That's like blaming the construction company when your house gets robbed. I guess it's all part of this culture that expects to have their hands held every step of the way through their lives. I'm glad my parents were old-school.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Cannabis may block growth of brain cancer - [Sunday Herald]  This is not really news to me. We've known for a long time that cannibinoids can be helpful to cancer patients. The part that is news is the actual process. Cannabinoids had previously been shown to inhibit the growth of blood vessels in mice. But the mechanism involved remained a mystery and it was not known if the same effect occurred in humans.  In the new Spanish-led study, cannabinoids were injected into mice with gliomas. DNA analysis was then carried out on 267 genes associated with the growth of tumour blood vessels. It showed that the cannabis compounds reduced the activity of several genes involved in VEGF production.  Professor Manuel Guzman, from Complutense University in Madrid, said: “In both patients, VEGF levels in tumour extracts were lower after cannabinoid inoculation.”  So, maybe now instead of surgery followed by chemotherepy that may or may not kill the tumor, we can prescribe a treatment that actually works and is enjoyable to administer. Why is this drug still illegal again?
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink  CYBER FEARS ON FED'S WEB PLAN   August 15, 2004 --  With little fanfare, the Federal Reserve will begin transferring the nation's money supply over an Internet-based system this month — a move critics say could open the U.S.'s banking system to cyber threats.  The Fed moves about $1.8 trillion a day on a closed, stand-alone computer network. But soon it will switch to a system called FedLine Advantage, a Web-based technology.  Proponents say the system is more efficient and flexible. The current system is outdated, using DOS — Microsoft's predecessor to the Windows operating system.  But security experts say the threat of outside access is too big a risk.  This is a no brainer to me. The good news is that the hackers will be busy with this and will leave my pc alone for a while.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Impeachment By the People  I don't necessarily agree with everything they say, but they are trying to get the man impeached, and that's a good cause. Give them a click. Sign the petition.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Sprint will start TV service for wireless  Oh this is just what we need. Sprint Corp. will launch a television service for its wireless phones Tuesday that gives users a higher-quality picture than previous efforts.  The service, available on a new Sprint PCS Vision phone, will stream video at 15 frames a second. Sprint's existing television service, MobiTV, streams at a choppy 1 or 2 frames a second.   Now when that idiot in front of you in traffic goes to call his wife on the cell phone mid-lanechange, he can get distracted by the latest  Seinfeld  episode.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Man hanged in rare India execution  This guy went to prison and was hanged for raping a girl to death. Now, I'm not defending this guy or anything, but if he had killed a family member who was a rape victim, it would've been called an "honor killing"  and he would've been well within his rights to do it . That is just messed up.  Astute reader  urlLink Charlie  points out that this is only legal in Syria, however while it is publicly abhored by their government, it is a culturally accepted practice.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink CNN.com - Kickboxing robots draw crowds in Japan  Totally awesome. I wish Americans were as infatuated with technology as the Japanese seem to be. When Americans think of robots, they get images of Terminator or those creepy robots from that Will Smith movie. What happened to the days of  Transformers ?
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      Last night I had a very vivid and memorable dream. It's actually very rare that I remember my dreams anymore, so I'm blogging this one. Anyway, the dream was very dark, and centered around a house that was on an island or possibly a peninsula. In the beginning, all my friends and family were there, and we were preparing for an attack from an unknown force. We all had M-16s and were barracading ourselves inside our house. After a while, we started seeing people running around in the surrounding foliage, and I heard some shots being fired from the house and saw a person running away in the woods. Somehow, I had the sense that we had just won a small battle, and I gathered a couple of people to help me storm the boat they came in on. We got to the ship, and it was completely deserted and floating towards the island. Once it got close, it grounded and started to sink. Then I woke up. 
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Build a better Bush  Too dang funny.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Muzzling Begins in Iraq  Yep, we're bringing them freedom allright. Freedom to be detained without reason. Freedom to be tortured. And now coming to a news outlet near you, freedom to shut the hell up already. London's Financial Times, that bastion of left-wing rhetoric, reported 10 days ago that Iyad Allawi, the "prime minister" appointed and approved by Iraq's American management, didn't wait even a month after the "handover" to establish a "Higher Media Commission" to red line the press.  Among the restrictions? Any "unwarranted criticism'' of the aforementioned "prime minister."   [...]  And to think that one of the much-ballyhooed acts by U.S. proconsul L. Paul Bremer III, the guy who handed over Iraq's "sovereignty" to the prime minister June 28 before sneaking out of Baghdad, was to shut down Saddam Hussein's dreaded information ministry.  [...]  Last Saturday, the Baghdad office of Al-Jazeera, the Arabic-language news service often denounced by both Arab dictators and the American administration, was shut down for 30 days so that its journalists have "a chance to readjust their policy against Iraq," according to Allawi.  Oh, when will the irony end?
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Evidence gained by torture allowed by British judges  This is absolutely reprehensible. Not only is torture illegal, but the information gained through it is completely unreliable. Imagine this situation: You are being detained by an agressive army. They have you tied to a chair in a jail cell and are forcing you to watch as your child is raped and beaten by some "soldiers". Are you going to sit there and watch, or are you going to start telling your captors whatever they want to hear, even if it's not true? I think I would take the blame for 9/11 if it meant that my child was allowed to go free.   So, why is Britan doing this? According to Lord Justice Laws, he is "quite unable" to see why the Home Secretary could not rely on evidence "coming into his hands which has or may have been obtained through torture by agencies of other States over which he has no power of direction." Meaning, the information gained through torture is reliable because someone else did the torturing? I don't understand this logic. He goes on to say that he could not believe "that the law should sensibly impose on the Secretary of State a duty of solemn inquiry as to the interrogation methods used by agencies of other sovereign states." Meaning, he thinks that the Secretary of State should just accept the information without asking where it came from or how it was obtained.  That  sounds responsible.   So, in the end. These guys get to stay in jail (they've been there for 2 years already) without charges based on information obtained through torture. I feel like I'm taking crazy pills!
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Florida Residents Urged to Flee Hurricane  Wow, I'm glad I don't live there. I think if I did live there, I would move away quickly.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Yahoo! News - CBS Newsman Mike Wallace Issued Summons   At one point, Wallace lunged at one of the inspectors, according to the commission. The other inspector then handcuffed Wallace and drove him to a police station, where he was issued a summons for disorderly conduct. He was later released.  Wow, I just hope that when I'm 86, I still have enough vitality to be arrested for disorderly conduct.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink First read this piece , then go to WRH, and read  urlLink this one . This logic makes a lot of sense to me. Some important facts:  The first plane had already hit when Bush arrived at the school  The visit was publicly announced 3 days prior to 9/11  There is an airport 4 miles from Booker Elementry  The president did not alter his pre-arranged route back to Air Force One.  There's much more in the articles. All this tells me that Bush and the Secret Service were well aware that the president wasn't in any danger, even though our nation was supposedly "under attack."
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      There's a new sidebar item over there. It's the "Featured Musician/Band" one. Each week I'll put another musician and/or band in there along with a link to their website, and if they offer it, a link to one of their songs. That last bit might be legally troubling, so I'll probably just leave the link pointing to their server rather than downloading the song and hosting it myself. That way they can't say I am redistributing. I'm just providing a link.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       Last weekend, my wonderful girlfriend and I went camping. We originally intended to go to  urlLink Haw Creek Falls  which is where we went last year, but ended up going to  urlLink Richland Creek  instead. In a previous post I mentioned that we were worried about running out of gas and that was the reason we actually ended up going to Haw Creek Falls last year. Well, apparently we took a different route this year because gas stations were abundant. This year, we took Arkansas 16 all the way from Fayetteville to a town called (argh, I don't remember... I'll have to ask Ang) where we stopped to ask for directions to the campground, which was about 2 miles back the way we came, and then about 9 miles down a gravel county road. The county road was almost exactly 121 miles from the Fayetteville city limits. The trip down was very scenic. Lots of Ozark mountains and valleys to see. The roads were  urlLink canopied  in  urlLink trees  for most of the way, periodically breaking for towns and  urlLink farms .  When we got there, the campgrounds were mostly deserted. There were about 3 groups there, and we had no trouble finding a partially secluded  urlLink site . After setting up camp, we started collecting wood for our dinner fire. I foolishly went traipsing around the surrounding woods, collecting dead branches. Meanwhile, Ang was checking out the empty campsites and found a big stack of logs someone had kindly left behind. They were still kinda green, so it took a lot to get them started and it was a real smokey fire once it did get going. But it served it's purpose. After a light dinner of mushrooms and grapes, we settled around the fire and enjoyed the evening.  Sleep did not come to me that night. I was alternately freezing and sweating. It was only about 55 degrees, and we were not prepared for this with only 2 blankets. Ang somehow managed to ignore the elements and slept for most of the night. At one point, she woke up and I took her to the little outhouse toilets. When we exited our tent we found out that the rustling sounds we'd been hearing was a skunk. We were both relieved when it ran away without spraying. I finally started to doze off about the time the sun was coming up.  That morning, I started the fire again, and we ate roasted sausage and pineapple shish kabob. Mmmmm that's my favorite camping treat. After breakfast, we started breaking down the camp so that we wouldn't have to do it later in the day when we were tired from hiking. After breaking camp, and dousing the fire we donned our hiking gear and headed down to the creek. We hiked upstream for about 2 hours, turned around and hiked back and then went skinny dipping in a  urlLink beautiful blue pool . Richland Creek is absolutely gorgeous. The camera does it no justice at all. The pictures look nice, but the reality was breathtaking. We saw lots of interesting  urlLink rock formations  and natural springs. We also saw lots of creek wildlife, including several different kinds of fish, some  urlLink tadpoles , crawdads, and even a wicked looking  urlLink snake . Some of the tadpoles were in the process of becoming frogs. They had fat little frog bodies, little stumpy legs, and long, wide tails. They were also quite easy to catch. The snake was very interesting to me. It was in a crevice of a rock with about 20 minnows. I'm not really sure how the minnows got there though. Did the snake catch them and bring them to the crevice to eat them, or were they stranded somehow? It doesn't seem likely that they were stranded since the crevice was nearly dry, and about 4 feet from water in every direction. That leads me to believe that the snake brought them there. But how? And why? The only way I can think of that it could catch them is in its' mouth. But if that's the case, why didn't the snake just swallow them then instead of bringing them to a rock and trying to catch them again?  After our hike, we went back to camp, cleaned up a bit, and headed back to Fayetteville. I know my writing doesn't convey it very well, but we had an excellent time, and will probably do something like this again if not this summer, definitely next. The entire collection of pictures is  urlLink here . Enjoy them.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      I'm testing this trackback software out with a fellow blogger.  urlLink Charlie  waxes political here on his blog.  Anyway, testing ahoy!
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      They're testing the fire alarms here at work today. That means that about every 45 seconds or so, a horn blares and some lights flash. Supposedly this is to go on for an hour and a half. I think I am going insane. I certainly can't concentrate. I'm going to go eat a candy bar.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Police State USA  A Texas congress critter wrote a very good piece on our ever expanding police state. Give it a look see, it's good stuff. It is ironic that tourists coming to Washington to celebrate the freedoms embodied in the Declaration of Independence are so eager to give up those freedoms with no questions asked.  Freedom is not defined by safety.  Freedom is defined by the ability of citizens to live without government interference.  Government cannot create a world without risks, nor would we really wish to live in such a fictional place. Amen brother.  "They that can give up essential liberty to obtain a little temporary safety deserve neither liberty nor safety." -Ben Franklin
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      I'm restoring my machine here at work, and I thought I would just note here the free software I use on a daily basis.  In no particular order:     urlLink Winrar 3.3     urlLink MSN Messenger     urlLink Jabber  This one's solely for work.   urlLink Mozilla Firefox  and some of its extensions:    urlLink Googlebar     urlLink All in One mouse gestures    urlLink Bug Me Not    urlLink BBCode        Well, that's pretty much it for daily-use stuff. If I think of anything else, I'll edit this post.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      I've wondered about this for a long time. Now I know how.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      I've got some work to do today, so I probably won't post anything substantial. Maybe I'll get a break later this afternoon. 
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink USATODAY.com - NASA scientist sees possible mat of Martian microbes  The title says it all. Scientists think they may have found some sign of life on mars. They're saying that there may be some microbial life evidenced by the way the surface reacted when the landers' airbags retracted.    Why the soil reacted in such a manner remains obscure, McKay admits. "But one possibility is that this is the fossilized remains of a biological mat of some sort," he speculated. The mat would be made up of bacterial parts and pieces.  That claim can't be proven at this point, McKay said. "That's one reason you have to go get samples to be sure."   Not little green men, but still really exciting.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink USATODAY.com - Sharp introduces 3-D desktop computer display  Pretty cool. These displays use some sort of overlay to give you a 3D image without extra hardware. They're pretty dang pricy at $1,499 so you won't find one on my desk any time soon. But if you've got the money, this sounds pretty cool. Like all new technology though, I would give it a good 6 months to a year before actually buying anything. Gives them time to work out some of the more major bugs, and gives the market time to cool the price a bit.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Arkansas Democrat-Gazette :: Arkansas News  Some of our term-limited legislators who have terms ending in the next 5 months are taking advantage of their positions by going on paid conferences to places like Alaska and Seattle. Paid for, of course, by Arkansas tax payers, who have recently sustained the highest tax hike ever experienced in the state.   Four term-limited Arkansas legislators who’ve attended recent conferences in either Salt Lake City or Seattle at state expense say they plan to attend another conference at state expense in Anchorage, Alaska, in September.  They contend that Arkansas taxpayers benefit from their participation at the conferences.  More legislators could end up going.  Three other term-limited legislators call term-limited legislators’ participation in these conferences a waste of taxpayers’ money.  And a legislative candidate noted that this is happening as Arkansans are paying a $380 million-a-year tax increase enacted by the Legislature for the benefit of public schools. The tax increase came in response to a 2002 state Supreme Court ruling that Arkansas’ public school funding was inadequate, inequitable and unconstitutional.   
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink   Sorry, but it's becoming this big thing, and I want to do it right, so no post yet. When I do complete it, it will be full of pictures, and probably have its own page hosted on my .edu server. Until then, enjoy this pic of the creek.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      I'm using this Minima Blue template now. I am liking it because I can use all the tricks I learned from CSS and from my other template easily here because there's not much here to start with. Hence the Minima moniker. I've already created an image I'm using as the background for my  &lt;blockquote&gt;  tags, and I added a dotted border to the left side of the post table. I also added some links, but I did not save my old template, so now I am implementing changes from memory, doh! I like it so far.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink ZDNet   is reporting that Service Pack 2 for XP is going to be available to end users by the end of August.   The software adds a new "security center" that is intended to provide a beefed-up firewall as well as easy ways to tell whether a PC is updated and protected against viruses.  I'm not sure if this is a necessary step. I currently have the XP firewall disabled, and use my own. I wonder what they mean by "easy ways to tell whether a PC is protected"? Isn't that what the automatic update feature is for? They say they're going to include a pop-up blocker for IE. A little late, don't you think? Those of us who aren't using  urlLink Googles toolbar  have stopped using IE in favor of  urlLink other browsers . Me thinks adding a pop-up blocker is too little too late. 
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      Our Camping trip was awesome. I'll be posting all about it later today. (I forgot to bring the pics and notes to work.)  So until then, enjoy this awesome non-post. 
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       Ang and I are going camping today and tomorrow. We'll be at a campsite called  urlLink Haw Creek Falls . It's a beautiful little spot we found kinda by accident last year. We were initially going to another spot further south, and were counting on the little store in Pelsor to have gasoline. Well, when we got to Pelsor, the store (which was actually the only building in Pelsor) was abandoned. If we had continued on to the original campsite, we would have risked running out of gas, so we backtracked a couple of miles to the Haw Creek Falls site. We were dissappointed that we didn't get to our original site, but Haw Creek Falls was beautiful, and we had an excellent time, so we're going back this year.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink An 11 year old kid  fought off a shark using techniques he learned from a television program on the  urlLink Discovery Channel . Aaron Perez was bitten so badly that a surgeon at the Memorial Hermann Children's Hospital in Houston spent four hours re-attaching his arm.  But on Monday he appeared at a news conference in Texas, wearing a T-shirt with a picture of a shark open-mouthed.  The boy described how he punched his attacker in the gills after learning how to do it from the television.   Who says TV violence is bad?
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Spamusement.com  is a collection of comics inspired by spam subject lines. Funnay!
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      Anyone who's ever tried to park their car on a university campus knows that parking spaces are at a premium. Like most places, my campus has come up with a color coded parking system. Different lots are assigned different colors, and you can buy a hang-tag or sticker whose color coincides with your lot of choice. Only, it's really not that simple. If you are a student, there are certain lots you are allowed to purchase tags for, and if you are faculty or staff you can pick from a different selection. Some of the selections are available to both students and fac/staff, and others are exclusive to each group.  My university is currently in the process of constructing a new parking deck (read: multi-level, covered garage.) This thing is going to be huge and will alleviate much of the parking headache on campus. Or it would if the tags didn't cost $500 per year. These uber-expensive spots are in the "Reserved" group, and are available to anyone with $500. The hang-tag  I  usually buy is a "Fac/Staff" tag, and it costs about $70/year. Very reasonable for someone who makes about $8/hour. Here's the problem: they're re-arranging the lots so that the "Reserved" spots now occupy what used to be "Fac/Staff" spots. Now, the closest I can park on campus to my actual building is about 3 blocks away, and up-and-down 2 hills (which is what we call mountains here in the Ozarks.) So, now I have two choices: 1. I can pay $500 and get a decent spot (which isn't guaranteed; first come, first served,) or 2. I can park 3 blocks and 2 hills away and arrive to work sweaty and out of breath. Since I only make about $8/hour, choice 2 is the only real choice (if you can call that a choice.) Luckily, my boss is on the staff senate and the parking commitee, so maybe we can get something done here.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Anti-spyware blog . Awesome little blog on spyware and prevention of.  urlLink Boingboing  is where I saw this first.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink The Guardian  has started a gamers blog. It seems to be frequently updated, and deals with topics that matter to gamers. Check it out already.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink   Photos from Boston . This is outside the so called "free speech zone." How ironic is it that the USA has "free speech zones?" This is such utter BS, I can't even comment on it without tasting my own bile. 
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       I've spent the last hour or so fooling around in Photoshop. I'm trying to create my own font. This is my first attempt, so this one will be pretty basic. If I finish this one with a positive vibe, I may work on something more complex. For now, here's a little sample.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink CNN reports  that the "talent" portion of the Miss America pagents is to be discontinued. To me and probably a lot of feminists, this should spell the end for the Miss America pageant. Without the talent portion, this contest is solely about looks. A beauty pageant. I'm not going to rehash all the old arguements about why beauty pageants are bad, but I'm definitely going to be paying attention to the feminist community following this decision. I bet we start to hear cries of "cease and desist" from them soon.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+       urlLink Reuters   is reporting that Kerry plans to send no more troops and in fact bring some home, if elected. From the article: Democratic presidential nominee John Kerry said on Sunday he did not anticipate sending more American troops to Iraq and hoped to bring "significant numbers" home during his first term. Promising a fresh start with U.S. allies "burned" by President Bush, Kerry said, "I would consider it an unsuccessful policy if I hadn't brought significant numbers of troops back within the first term. And I will do that."  If this isn't just a campaign ploy, it's the best thing I've heard from the Kerry camp so far. Of course, I don't really think that's the case. I think this is Kerry trying to get more votes. The lack of details is telling. He also says, "during his first term," which means 2008 at the latest. 4 years is a long time. The war in Iraq has only been on for a little more than one year. Having troops home 4 years from now isn't that great a goal, but at least it's a start. Maybe he's starting to realize that his luke-warm approach to us isn't working too well. We'll see. 
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      I had a great idea for a blog entry this morning as I was coming to work, and now I can't remember what it was. Time to start carrying around a notebook.
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+	 
+      This weekend, I went out to my parents place. They've got about 80 acres out in the Ozark Mountains. It's a beautiful place. Anyway, I went out there this weekend to see the progress of the house they're building out there. When I got there, there were about 20 or 30 cows mooing their way up to the house. They were still in the field for the most part, but some of them had made it up to the yard and out-buildings. Now, my parents don't have any livestock, so these cows have broken through a fence somewhere and made it on to our property without any guidance. No one was around, so I took it upon myself to herd the cows out of and away from the yard. So, I'm out there whooping and hee-yah'ing like I imagine a real cowboy would. I'm sure I looked ridiculous in my Hawaiian shirt and no horse, but I sure felt like a real cowboy, if only for a few minutes.
+    
+</post>
+
+
+</Blog>

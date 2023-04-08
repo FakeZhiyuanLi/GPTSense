@@ -1,0 +1,1 @@
+Each codon corresponds to a specific amino acid or a stop signal in the genetic code. There are 64 codons in the genetic code, and they each represent one of 20 amino acids or serve as a stop codon to indicate the end of a protein chain. The specific sequence of codons determines the sequence of amino acids in a protein, which ultimately determines its structure and function.

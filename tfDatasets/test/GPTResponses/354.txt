@@ -1,0 +1,1 @@
+Descending letters tend to have a part that falls below the baseline, which is the imaginary line that the letters sit on. This means that their position is lower than the average height of a letter. Examples of descending letters include y, g, j, and q.

@@ -1,0 +1,1 @@
+The autonomic nervous system controls heart rate through a balance between its two branches, the sympathetic and parasympathetic nervous systems. Specifically, the sinoatrial (SA) node, a group of specialized cells in the heart, receives input from both branches and then generates the electrical impulses that control the heart's rhythm and rate.

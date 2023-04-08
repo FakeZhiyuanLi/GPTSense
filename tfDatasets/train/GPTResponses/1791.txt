@@ -1,0 +1,1 @@
+There is no standard environment variable that defines a location's name. Some applications or scripts may use custom variables to store location names, but it varies depending on the specific use case.

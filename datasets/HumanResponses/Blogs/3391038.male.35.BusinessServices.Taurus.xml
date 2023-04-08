@@ -1,0 +1,92 @@
+<Blog>
+
+<date>27,May,2004</date>
+<post>
+
+
+       
+      I have just returned from a 3-day excursion with my 12 year-old's 7th grade class to  urlLink Tremont, TN . We stayed at the  urlLink Great Smoky Mountain Institute , and let me tell you, it is one of the most beautiful places that I have been. It is a educational camp, with leadership and team building in the mix. As a chaperone/teacher, my stay there was enjoyable, as the kids were excellent in regards to behavior. My daughters' school ( urlLink Maplewood, Richmond Heights School district in Saint Louis, MO ) has an excursion program in the middle school. They go on 2 excursions a year: In 7th grade, they go to  urlLink Sherwood Forest  camp, and then to  urlLink Tremont . In 8th grade, they go to a state park called  urlLink Cuivre(pronunciation is "quiver") River , to do clean up and trail restoration and maintenance. Then they go to Wallops Island for some marine biodiversity program...  The Smoky Mountains are beautiful. I highly recommend a visit, as you could spend weeks  urlLink in the 520,000 acre National Park . Remember, you own  urlLink it ...
+     
+
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+
+       
+      As I sit here in a St. Louis Bread Company ( urlLink Panera Co .), I am grateful for  urlLink free wireless access ...and when will it be available everywhere? I mean the  urlLink coffee  is ok, but I can think of much more fun places to be at as I surf the latest and greatest on the web, and the excellent  urlLink \.  of course. If anyone has any ideas on document imaging, I would love to hear them. I just went to a lunch and learn at a company here in St. Louis that is offering a product called " urlLink gDox ", out of Canada. It seems they have come a long way, even in the last couple of years.   On another note...  We were just delivered the new  urlLink Sun V20z servers  ( 5 of them!) They are the dual  urlLink Opteron  servers...they sound like a small  urlLink 747  sitting in our server room! The CPU fans move a ton of air...and at a comfortable 65F in the server room, I would imagine quite cool as well. I will post more about them as I build them. Here are the specs...  Dual Opteron 248 series processors 3GB RAM  urlLink SLES 8.1  2 73GB drives 2 of them have HBA's that will connect to our new  urlLink EMC CX500  SAN with a  urlLink CISCO 9216 SAN  switch.  I cannot wait to drive!!!!!!!!!!!!!
+     
+
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+
+       
+      Wow, I have 2GB of email storage...pretty cool.  urlLink Yahoo  upgraded  urlLink their email service , and made some UI improvements...not bad.  urlLink My brother has a blog  about it  urlLink here ...  Also, he recieved a  urlLink gmail  invite...where is  urlLink mine ???  Movin on...    Updated..finally got  urlLink my gmail  account!!!!!! 7/1/2004  
+     
+
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+
+       
+       urlLink     urlLink Here  is the web page with more pics...pretty cool! I can't beleive that UNIVAC was created 53 years ago!&nbsp; urlLink     A whopping 36bit machine that could 1000 arithmatic calculations a second...my,  urlLink we have come a long way with technology ... urlLink Here  are some links.  urlLink Monday  is celebrating as well...  
+     
+
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+
+       
+       urlLink Portrait of an INTP   Here is a perfect description of a renaissance man...finally...I know there are a lot of you out there...where are you? Get a load of this at  urlLink ivillage.com ...some women don't like renaissance men...too bad...they fail to mention that some are  urlLink hopeless romantics  as well...ouch!  I found the above  urlLink "INTP" description  on  urlLink /.  ...this is why I like the site so much. I also read an  urlLink interesting article about scripting  on  urlLink /.  as I am using and learning  urlLink Perl ...   Sunday morning in Saint Louis...as I sit outside with 70F and 93% humidity...it is  urlLink oppressive  at times.  I am reading news and articles on my laptop on my deck and trying to manage the  urlLink Starling  population. 16 down, 199,999,984 to go and counting with my  urlLink Gamo Shadow 1000!!! .  Need to iron clothes and  urlLink laundry , as my wife is out of town for the next few days. Not that she ever does it anyway...  
+     
+
+    
+</post>
+
+<date>12,June,2004</date>
+<post>
+
+
+       
+       urlLink    My surfer dude son...I am testing the hello application...pretty neat!&nbsp; urlLink   
+     
+
+    
+</post>
+
+<date>12,June,2004</date>
+<post>
+
+
+       
+      Well...my wife and kids just left. They went to a friends' Dad's farm in  urlLink Anderson, Missouri . "Popos" farm. I cannot believe how quiet it is here at home. I can think again, and relax.  Couple of notes...  Was anyone out there not really affected by  urlLink Ronald Reagan dying ? Funny, I was a teenager/young adult when he was president, and I thought he was very cool...but I was not moved...Weird...  I finally have my  urlLink Sun  servers installed. Man are  urlLink they just gorgeous  or what? I am more than excited to see what these bad boys can do. I now have to wait for  urlLink my brother Colin  to finish coding the applications.  I was browsing  urlLink Slashdot , and saw this really cool article about new  urlLink sleep rooms ...I have to admit, had I the money, I would buy one.   urlLink till next time ... 
+     
+
+    
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+
+       
+      My brother  urlLink Colin  and I have been working on a  urlLink Blob  truncation issue using DBD:Sybase with  urlLink FreeTDS  on  urlLink SuSE  connecting to a  urlLink Microsoft SQL2000  database. It would consistently truncate a blob we were trying to display. After searching everywhere to no avail, we started  urlLink searching  around, and found that in the  urlLink FreeTDS conf file , when setting up connections, you need to have the following line:  tds version = 8.0  If this line isn't here, FreeTDS uses whatever you have as the default, in which case was 4.1x, which obviously had issues with returning truncated blobs...so if you see this, link to it as much as possible, in the case that someone else runs into this problem as well...
+     
+
+    
+</post>
+
+
+</Blog>

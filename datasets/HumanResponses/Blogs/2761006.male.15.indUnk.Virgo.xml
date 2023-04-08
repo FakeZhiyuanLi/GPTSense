@@ -1,0 +1,492 @@
+<Blog>
+
+<date>27,May,2004</date>
+<post>
+
+	 
+      Steve Jobs has announced the release of the latest versions of Mac OSX Panther and Panther Server. Apple fans are saying that it includes many significant advances in application features and networking capability. These include improved file sharing and directory services for Mac (AFP), UNIX (NFS), PPTP and wireless networks. Disc burning and recording has also been improved along with further tweaks to drivers for ATI and NVIDIA graphics cards. The iPod music device is now recognised by iTunes and iSync when connected via USB 2.0 whereas before only Firewire functionality existed for the Mac operating system. The Address Book, Mail, Safari, Stickies and QuickTime applications have been tweaked. There are also a few standalone security updates. Job's Mob spinsters say that the Panther Server, has improved reliability and compatibility of NFS file services and network automounts. It now comes with enhanced Server Admin and Network Image Utility applications. There are adjustments to the Open Directory scalability and replication reliability, as well as better Active Directory integration. It will now have additional support for FireWire and USB devices and improved compatibility for third party applications and devices. 
+     
+
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+	 
+      Fuad Abazovic at The Inquirer says he believes that ATI will release two new graphics cards as early as next week.The RV380 based card that will be called X600 from now on is a mainstream card that will occupy the sub $200 market and it based on 0.13µ (micron) architecture.  RV370 is ATI's first 0.11µ chip, will be called the X300, will sit in the sub $100 market. We'll get back to you on clock speeds and some more details when we have them, but but both of the cards are ATX based.  Intel will follow with its own PCI Express later on and ATI won't have its stuff ready before the end of the summer, even though it already has sampled its Athlon 64/FX chipset.  As for the R423/X880 XT, this card won't be introduced at this show as far as we know. The PCI Express era starts in June and will dominate over the next few years.  
+     
+
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+	 
+      Sony CEO Nobuyuki Idei yesterday announced the company's intention to introduce a  urlLink powerful broadband TV in 2006. The TV will incorporate Sony's much anticipated 'Cell' processor, and, according to Idei, offer functions similar to a PC. The Cell processor, which has been called a "supercomputer on a chip", was first announced in 2001. The Cell will produce up to 10 times more processing power than conventional chips and be able to send large chunks of information through a high-speed network. Test production on the chip will start in 2005. Sony has also announced that the Cell processor will power other home electronics as well as Sony's next gen game console, and that the console will most likely double as a home server. This promises great advancements in home computing speed with Intel having recently shifted focus from the P4 architecture to Centrino, meaning that the home computer market appears to have stalled with only a 20% increase in CPU speed over the last two years.
+     
+
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+	 
+      Apple recently issued a security 'fix' to plug a vulnerability that, as it turns out, actually fails to fix the underlying problem. However, Apple may be caught between a rock and a hard place, as the biggest problem is that there seems to be no easy solution to the issue. A white paper on the security flaws states: "There's lots of overlap between useful applications of this functionality and malicious ones, meaning that Apple can't easily fix this without removing useful features from its operating system and from existing apps." 
+     
+
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+	 
+      The UK ISP Tiscali claims it has now fixed the network problems that left many customers complaining of slow broadband speeds for more than a month. Tiscali underwent a massive upgrade of its network between 27 March and 7 April to fix localised capacity issues. It logged 274 requests with BT to upgrade some of its Virtual Paths (VPs)– the connection from BT’s local exchange to Tiscali’s own network - to accommodate its customer capacity requirements. But despite BT Wholesale's confirmation that the upgrade had been completed, Tiscali continued to receive a "considerable number of complaints" from customers about slow speeds after 7 April. A Tiscali spokeswoman said: "We received confirmation from BT Wholesale that these VP upgrades had been completed in the expected time. However we continued to receive a considerable number of customer calls reporting slow speeds which technically speaking we could not understand because our DataStream broadband service now routinely operates at a contention ratio of less than 20:1, which is considerably better than the recommended industry level (up to 50:1). After raising the concerns with BT, it conducted a full investigation, which highlighted that of 274 upgrades, 71 had not been completed. This was resolved as quickly as possible and all upgrades were completed by 5 May." Tiscali said it is now confident that the problems have been fully resolved and claims it has seen a "big drop in customer calls about broadband speed". It vows to routinely upgrade its network and VPs to accommodate customer capacity requirements and claims that in the last 12 months this has amounted to over 2000 new VPs and upgrades. It has also offered refunds to customers that reported a poor service.   
+     
+
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+	 
+      Californian lawmaker Liz Figueroa has put the finishing touches to a bill that would originally have required Google to win the full and informed consent of non-Gmail users sending e-mail to the service - a hurdle that Gmail advocates widely assumed would be impossible to meet. It now explicitly allows email service providers to scan customer emails for the purpose of targeted advertising, as long as it is not shared with 3rd parties, employees or any other individual. The changes come as Google is seeking to fend off an unexpected backlash against Gmail, a Web-based e-mail service that turned heads when it was unveiled in late March with an offer of 1GB of free storage. It uses a searchable database system rather than the traditional filing format that competitors use and is currently undergoing an open beta testing program to selected members of the public. The changes to the bill however are being opposed by some lobbyists who claim the the new bill has been watered down and signals a victory for Google and the end of privacy, with the possibility of some unintended consequences such as the potential for failing to correctly filter messages containing pornography depicting minors.
+     
+
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+	 
+       urlLink Appleinsider  sources suggest that Apple is considering implementing recording and encoding capabilities for its upcoming 4th generation iPod music device. Although it is not confirmed that these features will be included in this next revision, it has been one of the most requested features, given the device's huge storage space and the potential to record speaches and university lectures, for example. This is currently only possible using 3rd party add-ons that are not supported by Apple.  Overclockers.com has just posted an  urlLink interesting article , detailing the state of online piracy, stating that  the good news (at least for music creators) is that total music traffic is down by about 40% (from about 2800 terabytes to about 1700 terabytes) and that overall traffic in March 2004 is about 15% less than it was in March 2003. The bad news is that video is way up, almost doubling from 600 to about 1100 terabytes in that same timeframe.  This is perhaps indicative of the recent increases in takeup of high speed internet access with many people now having at least 512k broadband connections, allowing the fast download of not only music, but videos as well. It is only a matter of time before the video industry will have to begin offering cheap and convenient online distribution of their content in the same way as the music industry.
+     
+
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+	 
+      Welcome to this, the first ever post for Technospot, the new online technology news site written by a technology fanatic, for technology fanatics. I aim to bring you the latest in technology and computing developments, gathered from news sites and sources around the internet and served to you here for your perusal several times a day. Your suggestions and submissions are always welcome so please do not hesitate to submit them to me via the comments links at the end of every post. 
+     
+
+    
+</post>
+
+
+<date>31,January,2004</date>
+<post>
+
+	 
+      Alistair Campbell, Tony Blair's former spin doctor performed in his own little one man show on Friday night a the Customs House situated right in the middle of the Labour heartland of South Shields. This was no doubt a calculated attempt to avoid more humiliating and damaging occurences for the government such as the famous criticism of top up fees in a heated debate between a student and the Prime Minister as shown on TV a few weeks ago. The event was billed as an "evening of reminiscences and stories from behind the scenes plus a chance to put your questions to one of British politics' key players" . Gripping a lectern at the side of the compact stage, he treated the audience - including local MP and schools minister David Milliband and local celebrity Brendan Foster - to a canter through his early, boozy years, when he was, he admitted, "chippy, bolshie and a bit punchy". He began by reminiscing on his days as a writer of soft porn for Forum magazine (begun for a bet with a friend over who could get into print first, apparently), before moving on to his Fleet Street career.  It was at this point that things started to become nasty for the famous 'king of spin' as he was asked whether he was a 'dry drunk' to which he replied, "I don't know. I am not 100% sure that I was an alcoholic."  When asked about the current state of affairs with the BBC he simply said "I think the BBC is a vital part of this country. I have never been anything other than a supporter of its independence and I don't think I want to say anything else" to loud applause. Yet this painstaking attention to detail that he must have taken when preparing his little show was perfectly summised by 17 year-old A-Level student Ruth Leonard "I think it was just a performance. It didn't change my opinion of him at all. It was a load of spin". As one UK newspaper said this week, 'it's time for Campbell to climb down from his dunghill'. How long before the UK government will have to do the same?  
+     
+    
+</post>
+
+<date>30,January,2004</date>
+<post>
+
+	 
+      The Mars rover Opportunity has rolled off its lander on to the surface of the Red Planet, a week after arrival. The operation went as planned, a Nasa spokesman said, with the robot coming to a halt short distance away. Find out more  urlLink here .
+     
+    
+</post>
+
+<date>30,January,2004</date>
+<post>
+
+	 
+      I have come to the conclusion that whoever invented coursework deserves to be shot for their misdeeds! I have three pieces of English coursework to be handed in on Monday (two of which are final GCSE pieces), an English coursework evaluation for Wednesday, Technology coursework technical drawings and PCB design forn Wednesday and we will be starting Physics coursework next week. The worst bit is that we've had hardly any work for weeks but it now all comes at once and people are beginning to panic as we get close to the final deadlines. Oh crap!
+     
+    
+</post>
+
+<date>30,January,2004</date>
+<post>
+
+	 
+      While the MyDoom virus targeted the SCO group with a DDOS attack set to begin on Sunday, a variant emerged late this week that targeted Microsoft instead. After the SCO Group quickly issued a $250,000 reward for information leading to the virus author, Microsoft followed suit with their own offer. MyDoom.B emerged on Wednesday after the original MyDoom had already spread like wildfire earlier in the week. The virus was slightly more malicious according to MS officials, but less effective in spreading. As ZDNet reports, Microsoft quickly offered their own $250,000 reward shortly thereafter.    As much as everyone likes to blame Microsoft for all these virii that make their rounds of the world's PC systems, I do not believe that the blame lies firmly in their hands. Yes, there are loopholes in their OS code that can be expolited by undesirable people but consider the amount of coding required to produce such a product and then compare it with any other software (even games) and it is clear that many products do require post-humous patches. Microsoft does come out with regular security updates and it is the consumers responsiblity (as is clearly stated by Microsoft) to provide themselves with good anti-virus and firewall protection. Until people do this, I do not believe that they have a case for complaint. 
+     
+    
+</post>
+
+<date>30,January,2004</date>
+<post>
+
+	 
+      KASSEL, Germany (Reuters) - A German cannibal has been convicted of manslaughter but not murder for killing and eating a man who had asked to die, and has been sentenced to eight and a half years in jail. The court rejected the prosecution's plea for a murder conviction and life sentence because the victim had instructed Armin Meiwes, 42, to kill him. The act of sexual fetishism, which he recorded on video tape, has sparked shock and fascination around the world. "Both were looking for the ultimate kick," said judge Volker Muetze, explaining the verdict on Friday in the central German court of Kassel. "This was an act between two extremely disturbed people who both wanted something from each other." Meiwes could be out on parole in less than five years, but one expert said he doubted the cannibal would be released early. About 100 journalists from Germany and abroad and dozens of people from Kassel attended the last day of the country's most sensational trial in years. "It's too lenient, he should have got life," said Bernd Exner a local resident who queued up for hours to get into the court. "Society needs to be protected from people like that." The prosecution, which had accused Meiwes of killing for sexual gratification a man he should have known was disturbed, said it would appeal. The case could ultimately go before Germany's Supreme Court because it has no legal precedent. The killing was premeditated, but the victim's agreement lessened the guilt. Psychiatrists found Meiwes deeply disturbed but sane. The defence had sought a lesser conviction of "killing on request", a form of illegal euthanasia, but were still pleased. "He's a model prisoner and if he stays that way he could be out by mid-2008," Meiwes's lawyer Harald Ermel told reporters. "He will voluntarily undergo psychiatric therapy to get away from his fetish for men's flesh. I'm sure he won't do anything like this again." 
+     
+    
+</post>
+
+<date>29,January,2004</date>
+<post>
+
+	 
+      The cold snap that hit Britain is now leaving after the closure of more than 4,100 schools that gave several hundred thousand pupils days off to enjoy the snow. I certainly did! Unfortunately it looks as though we'll have to go to school tomorrow as it is due to warm up before the weekend. 
+     
+    
+</post>
+
+<date>28,January,2004</date>
+<post>
+
+	 
+      A ring is in development that could have the ability to monitor your emotions and put them into a computer database. Here's how it would work: You're in a meeting, and each person in attendance is hooked up to a computer that's monitoring their perspiration and heartbeat, reading their facial expressions and head motions, analyzing their voice tones and then presenting them with a running account of how they are feeling. This information will also be transmitted to everyone else in the meeting. Talking too much? A pop-up window appears on the screen to tell you to shut up. Feeling edgy? A message reminds you to calm down. Got a big account or project to assign? Scan the feed to see which employee is feeling the perkiest that morning.  urlLink Click here  for more information. 
+     
+    
+</post>
+
+<date>28,January,2004</date>
+<post>
+
+	 
+      The BBC Director General Greg Dyke has resigned following the publication of the Hutton Report into the death of the scientist David Kelly that aqquitted the UK government from any involvement in his death. This comes after yesterday's resignation of the chairman of the board. 
+     
+    
+</post>
+
+<date>28,January,2004</date>
+<post>
+
+	 
+      Finally we're off school today! More later.
+     
+    
+</post>
+
+<date>28,January,2004</date>
+<post>
+
+	 
+      A Norwegian who cracked the security codes of DVDs is seeking compensation from police after twice being acquitted of computer piracy. Jon Lech Johansen, 20, distributed a program on the internet that could break the security codes used on DVDs. Norwegian courts ruled twice he could not be charged for "breaking" into DVDs he had legally bought, nor for creating a program others might use illegally. Johansen's lawyer said he was seeking around 150,000 kroner (£11,970). Johansen's first acquittal was a year ago. Police appealed to another court in the capital Oslo, but a judge ruled again in his favour last month. Johansen had created the program, called DeCSS when he was only 15.   
+     
+    
+</post>
+
+<date>27,January,2004</date>
+<post>
+
+	 
+      The chairman of the BBC Board of Governors, Gavyn Davies has resigned with immediate effect over the publication of the Hutton Report.
+     
+    
+</post>
+
+<date>27,January,2004</date>
+<post>
+
+	 
+      Apple's latest and greatest product is the iPod Mini. Apparently inspired by Joseph's coat of many colors, the itty-bitty iPod with the 4GB hard drive will set you back a cool US$249. Is that a bad deal? Compared with the 15GB iPod it is. But is that the most germane comparison to make? See what Mac.Ars has to say about the multihued mini-iPod and its value proposition. 
+     
+    
+</post>
+
+<date>27,January,2004</date>
+<post>
+
+	 
+      The new Intel Prescott chip architecture has been much hyped over the past few months but is it really better than what we currently have?  urlLink Click here  to find out.
+     
+    
+</post>
+
+<date>27,January,2004</date>
+<post>
+
+	 
+      The latest update for Office 2003 corrects a fault for some people when opening and saving documents. Click above to see if you need it.
+     
+    
+</post>
+
+<date>27,January,2004</date>
+<post>
+
+	 
+      An article assessing the current state of development of Longhorn among other Microsoft products. If this is anything to go by, it is still another 2-3 years away.
+     
+    
+</post>
+
+<date>27,January,2004</date>
+<post>
+
+	 
+      The latest version of the Linux Kernel has been released and now contains an astonishing 352,245 added or changed lines since the last release. If you are a Linux user and wish to upgrade to this version, please  urlLink click here .
+     
+    
+</post>
+
+<date>27,January,2004</date>
+<post>
+
+	 
+      Lawrence Dallaglio has been named as England's new rugby union captain after the retirement of Martin Johnson earlier this month. Dallaglio has so far won 65 caps for his country and will begin the post with the opening match of England's Six Nations campaign in Italy on the 15th February. Speaking of his appointment as captain for the second time he said, "it's a huge honour and privilege and Martin has certainly set a high standard". Good luck to him and the team as they attempt to maintain their place at the top of the rugby playing world!  
+     
+    
+</post>
+
+<date>27,January,2004</date>
+<post>
+
+	 
+      Finally heavy snow has hit the Southeast of England but what a surprise, the gritters were totally unprepared and it took me 2 1/2 hours to make a 9 mile journey from school this evening. No buses were running so I had to get the train with some friends. When I had to change trains I almost slipped off the platform and my leg was left dangling off the edge. Not good! We're hoping that tomorrow will remain icy so we can stay off school!   Unfortunately the vote for tuition fees went the Government's way but the revelation that the plans would not include Scottish universities and that Scottish MPs were allowed to participate in the vote is particularly damaging for Blair as it was this number of Scottish MPs voting for the policy that turned it their way. At last the British people are beginning to wake up to the lies that they have been told by Blair's crew!
+     
+    
+</post>
+
+<date>27,January,2004</date>
+<post>
+
+	 
+      From BBC Online news service:  Nasa scientists have discovered what might be the most compelling evidence yet of rocks formed in water on Mars. The Opportunity rover has sent back pictures of rock slabs that appear to contain thin layers, say researchers. On Earth, this feature is suggestive of sedimentary rocks that are the product of material deposited by water or wind. The layers are as thin as a centimetre in places which indicates they are unlikely to be old lava flows, but Nasa cautioned further analysis was needed. Mission scientist Dr Andrew Knoll told a news conference that if the rocks were in fact sedimentary and not volcanic, they were probably formed by water and not by wind-borne sediments.   
+     
+    
+</post>
+
+<date>26,January,2004</date>
+<post>
+
+	 
+      Virginia Polytechnic Institute and State University will upgrade its supercomputer that uses Apple PowerMac G5 computers with Apple's recently introduced Xserve G5 servers that have two chips in each box, the university said on Tuesday. The new system, which went online toward the end of last year and which Virginia Tech said was the most powerful supercomputer at any university in the world at the time, will be completed by May. By moving to the thinner servers, the supercomputer will consume less power and generate less heat, said Srinidhi Varadarajan, assistant professor of computer science, college of engineering, at Virginia Tech. "It cuts the system's size down by a factor of three," Varadarajan said. "The new system will take much less power and generate less heat and free up space." The current supercomputer that uses 1,100 PowerMac G5 desktop computers occupies 3,000 square feet. Apple's G5 chips crunch 64 bits of data at a time, compared with the now-industry-standard of 32 bits found in the vast majority of personal computers and servers. If laid on its side, the PowerMac G5 is about 7 inches (18 cm) tall. By comparison, the Xserve is about 1.75 inches high, said Alex Grossman, head of marketing for servers and storage for Apple. "They're able to rack these in a much tighter and higher density manner," Grossman said.  It is expected that the university will negotiate a lower upgrade deal to switch to the new server units that will be much lower than the price of building a new system from scratch. Asked what would become of the 1,100 PowerMac G5 computers being retired, Varadarajan said: "We're working on getting them very good homes."    Comment: I never have understood Apple who seem content with their niche in the market ie. largely graphics designers yet somehow cannot seem to expand to cater more for the wider consumer. At least now their G5s are more affordable and able to compete performance wise with the Intel Compatible PC counterparts, they can concentrate on this market more through providing a greater degree of flexibility to add mainstream peripherals and software to their systems. When they do, I will be seriously considering buying one as a backup for when my Windows/Linux based systems play up!   Ripping service to be provided for IPod users:  Perhaps one of the reasons that file swapping is so popular is because people would rather get ready-made MP3s of music they already own rather than take the time to rip the tracks themselves. But the steady growth of digital music is bringing about services such as RipDigital which will convert CDs to MP3s for a little over a dollar per disc.  urlLink RipDigital  even sends packing materials so that customers can package CDs for despatch to the company, which then sends the MP3s back on a portable hard drive, along with the CDs themselves. Although currently only available in the US, the company plans to expand to other countries as the spread of digital music devices spreads.   
+     
+    
+</post>
+
+<date>26,January,2004</date>
+<post>
+
+	 
+      The following snippet from the Guardian online website beautifully highlights my frustration at the lack of snow hitting the southeast of the UK given all the hype that was made in the last week:   Where's all this cold weather that's headed for the capital then? I spoke to Martin Wainwright, the Guardian's northern editor, this morning, and he said Wakefield was lovely - not a cloud in the sky. Here in London it's cloudy with sunny interludes (as Michael Fish might say). Anyway, what else are people expecting in January? Balmy days and Caribbean sunsets? It's winter, for god's sake. No doubt I'll be cursing this blog entry tomorrow as the snow settles in drifts around my feet as I shiver on the train platform ... It's also worth noting a salutary warning for motorists who leave their car warming up outside their home: in summary, you're not covered on your insurance if you leave the keys in the ignition while you sip your hot tea in the kitchen.  
+     
+    
+</post>
+
+<date>26,January,2004</date>
+<post>
+
+	 
+      "US software giant Microsoft said on Friday it would bring cash and software to a computer training programme it has set up with the United Nations Development Programme, as part of a $1 billion company investment to bring computers to developing countries," Reuters reports from Davos.  "Microsoft would donate cash and the latest versions of its software, but the centres were free to expand with other software, including open source software such as Linux,  urlLink Gates  said. 'They'll be adding software from other providers. There's no exclusivity,' he said. 'Our role is to bring software that is quite popular, and happens to be ours.'"   Comment: An interesting move, I think, given the impending rulings over several corporate cases being brought against  urlLink Microsoft  (including an EU case) that are due to return their verdicts soon 
+     
+    
+</post>
+
+<date>26,January,2004</date>
+<post>
+
+	 
+      The Canadian teenager who launched the Mikerowesoft Web site has settled. Microsoft will pay his expenses, provide an expenses-paid visit to Microsoft Research, pay for him to get Microsoft Certification training in his choice of subject(s), give him a subscription to MSDN, the Microsoft Developer Network, and give him an Xbox and his choice of games, reports the  urlLink Seattle Times .  He's now running a site at  urlLink http://www.mikeroweforums.com/ , where he says he isn't planning to launch anything called SunMikeRoweSystems.com  
+     
+    
+</post>
+
+<date>26,January,2004</date>
+<post>
+
+	 
+      The new ATI Omega Drivers are now out and can be downloaded. These are based on the Official Catalyst 4.1 Driver set and are a cracking set of drivers that can even be run on ATI Mobility Radeon Cards for laptops by using the  urlLink Mobility Modder .
+     
+    
+</post>
+
+<date>26,January,2004</date>
+<post>
+
+	 
+      From the BBC website:  Mydoom virus 'biggest in months' Computer users are advised to update anti-virus software  A computer virus spread via e-mail has been described by security experts as the "largest virus outbreak in months".  The malicious worm, called Mydoom or Novarg, has clogged networks and may allow unauthorised access to computers.  It arrives as an e-mail attachment in a text file which sends itself out to other e-mail addresses if opened.  Security experts MessageLabs said, at its peak, one in 12 e-mails carried the worm. It has now stopped more than 1.5 million copies of it.  It said this latest rapidly-spreading worm is bigger and faster than Sobig.F, the virus which crippled inboxes and networks last August, and it shows little sign of slowing.   "Sobig, at its peak, infected one in every 17 e-mails, causing many internet relays to become severely clogged," Mark Sunner, chief technology officer at MessageLabs told BBC News Online.   "Mydoom has now surpassed this, infecting an incredible one in every 12 e-mails, and so the impact of this latest virus may be very serious for affected e-mail users." The virus, which is also spread through file-sharing networks, is particularly malicious because it may open a "back door" to computers.  This is a piece of software which is deposited on a computer's hard drive if the attachment is opened. It listens to commands sent remotely over the net and acts on them.  Many of the e-mails look like they have been sent from organisations like charities or educational institutions, to fool recipients into opening it.    Mydoom details   From: random e-mail address  To: address of the recipient  Subject: random words  Message body: several different mail error messages, such as: Mail transaction failed. Partial message is available  Attachment (with a textfile icon): random name ending with ZIP, BAT, CMD, EXE, PIF or SCR extension  When a user clicks on the attachment, the worm will start Notepad, filled with random characters   "Mydoom works by harvesting e-mail addresses from the infected computer, and randomly chooses from these the address identified as the next sender," explained Mr Sunner.   "The sender is therefore falsified in the Mydoom virus, so it is impossible for the recipient to actually tell where the e-mail has really come from."  Thousands of e-mails triggered by the worm, which only affects computers using Microsoft Windows, were bombarding networks within hours of its discovery on Monday.  The worm is similar to 2003's Bugbear and Sobig in the way it spreads, Symantec's Kevin Hogan explained to BBC News Online.  "It is a very simple example. It simply relies on a human to double click on an attachment to run it."  It also seems it will attempt to perform a denial of service attack on SCO from 1 to 12 February, directing infected computers to flood SCO with data, he said.  SCO is one of the largest Unix open-source vendors in the world. It has been in the news recently because it has claimed that key parts of the open-source operating system, Linux, are under SCO's copyright.  Last year's Blaster worm attempted a similar attack on Microsoft's website, which was stopped.    The e-mail carrying Mydoom often bears the subject "Test" or "Status". The message inside may read: "The message contains Unicode characters and has been sent as a binary attachment".   "Mydoom can pose as a technical-sounding message, claiming that the e-mail body has been put in an attached file," said Graham Cluley from security firm Sophos.  "Of course, if you launch that file you are potentially putting your data and computer straight into the hands of hackers."  Symantec have advised anyone who has received the worm to avoid opening or double clicking the attachment.  Users should also ensure their anti-virus software is updated, so that if the attachment is opened by accident, the software will catch it.  If anti-virus software does not spot an infection once the attachment is launched, users should download the free tools available to deal with it.  The security firm added if users start getting unusual pop-up messages from their desktop firewall, the chances are the computer has been infected.      
+     
+    
+</post>
+
+<date>26,January,2004</date>
+<post>
+
+	 
+      The UK government has won the vote on tuition fees by 311 votes to 316, a majority of only 5 votes. It is a shame as the vote became a purely political issue in the end with no thought to the actual policy involved but the government is beginning to look decidedly shakey!
+     
+    
+</post>
+
+<date>26,January,2004</date>
+<post>
+
+	 
+      It now looks as though Beagle 2, the UK mission to Mars has been a failure as attempts to reboot the troubled craft are yielding nothing.  A real shame but good luck to the NASA crew for their continued efforts and I look forward to seeing more astonishing colour pictures from the planet's surface!
+     
+    
+</post>
+
+<date>26,January,2004</date>
+<post>
+
+	 
+      So it looks as though the snow that was forecast for the whole of the UK has largely passed unnoticed save for a bit of snowfall in the North of Scotland and England and it'll be school as usual for the rest of the week so I'm now left to revise for a History lesson tomorrow about Germany between WWI and 1933 when Hitler became Chancellor. And just when I thought my life couldn't get any worse I get a load of English and Physics coursework to be in for next week!  I also have to begin to make my A Level choices at at the moment but am not sure what to do as it now looks that the vote on University topup fees will go the government's way leaving me with a massive loan if I go for one of the more prestigious universities and courses. (For anyone that doesn't know, you would under the plans have to pay up to £3000/$5500 and all but the poorest students would have to pay the money back when they are earning more than £15,000 per year.) This could effectively ensure that only the richest or poorest students would realistically be able to afford to join these 'high powered' university courses and go against what the Labour government claimed to offer in the last general election 'education, education, education'. What many people are beginning to realise is that this government has brought one of the greatest and most damaging shakeups in the history of the UK education system with the introduction of 'AS Levels' as part of the 'A Level' course and intended to scrap some of the highest achieving schools in the country.  urlLink The commons vote this evening  is therefore crucial to the futures of many potential university students like myself and could (combined with the publication of the Hutton Report tomorrow) bring down this current government. (As you can probably tell, I can't wait for such an event to happen!) So, the next 24 hours could prove to be very interesting and instrumental to the removal of Tony Blair from office!  I had also tried to get tickets to see the Red Hot Chili Peppers when the come to the UK on tour this summer the London gigs were all sold out within 4 hours of going on sale on Saturday. So unless I wanted to travel to Edinburgh, I'll have to stick to listening to them on Radio 1 instead. Nevermind, I'll have to get in quicker next time!
+     
+    
+</post>
+
+<date>26,January,2004</date>
+<post>
+
+	 
+      Well it's been an exceedingly crap week for me at school and the homework keeps piling on - German, French, Chemistry, English - you name it, I've got it! But there's hope yet cos they're forecasting very wintery conditions for the south of the UK over the next few days ie. heavy snowfall so my friends and I are hoping against hope that school will be closed for only the second time in the last sixteen years (the last time being last year when we also had heavy snow). They're even saying it might feel more like minus ten with windchill factor but I very much doubt it as England is rather more renowned for its heavy rain rather than Arctic weather. But you never know :)  Just gotta look forward to this summer when all my GCSE exams are over and I've got a 9 week summer holiday. Bliss!
+     
+    
+</post>
+
+<date>26,January,2004</date>
+<post>
+
+	 
+      I am 15 years old and go to  urlLink school  in Chelmsford, United Kingdom (a town about 25 miles (or approx 40 km?) from London) but live in Billericay which is a 20 minute journey by bus from school. It is a fairly nice area although the weather is always terrible and it never snows enough here for us to be off school very often :( I play the cello, piano and clarinet and have been to Stuttgart (where all the nice Mercedes cars are made) in Germany to play the clarinet with the school jazz band but this never happens any more because nobody wants to speak German!  I have two brothers - Tim and Max who also play the cello and are football fanatics - always taking over Sky TV to watch the football highlights to see how their favourite team(Tottenham) are getting on. It really is a trial trying to watch TV when you've got them around! This summer I am due to take my GCSE exams in German, French, Biology, Chemistry, Physics, Electronics, Music, French, History and English so I have got very little social life at the moment as I've got so much revision and coursework to do before the summer exams. Oh well - it'll be worth it in the end! I'm currently in the middle of an English lesson where I'm supposed to write a piece of coursework about some random painting so I'd better be getting back! 
+     
+    
+</post>
+
+<date>01,February,2004</date>
+<post>
+
+	 
+      LONDON (Reuters) - Nearly half the terrestrial TV audience have tuned in every night this week to watch ITV's jungle survival show "I'm a Celebrity...Get me out of Here," according to the broadcaster. A variation on the Big Brother theme, "I'm a Celebrity..." pitches ten well-known faces into the Australian jungle to fend for themselves for two weeks. Viewers vote them off the show one by one, eventually handing the winner a bonanza of publicity and an often much-needed career boost. Some ten million viewers have been tuning in every night this week, with Wednesday touching a peak of 10.8 million, ITV said in a statement on Friday. "The atmosphere in the camp is sure to get more tense next week when the evictions begin," it added. The programme, whose contestants include topless model Jordan, convicted fraudster Lord Brockett and punk legend Johnny Rotten, captured 50 per cent of 16-34 year olds from Monday to Thursday. The show revolves around contestants undergoing humiliating and often frightening tasks involving snakes, insects and crocodiles, in return for meal tokens. The tabloids keep up the momentum by devoting pages of newsprint every day to either real or imagined liaisons between the contestants, who are filmed around the clock in their jungle camp. On Friday, former BBC royal correspondent Jennie Bond was buried alive in a plastic coffin, which was gradually filled with water, rats and crayfish. Bookmakers William Hill said former Sex Pistols lead singer Rotten is 6/4 favourite. 
+     
+    
+</post>
+
+<date>17,March,2004</date>
+<post>
+
+	 
+      The world's largest computer maker, Hewlett Packard has announced plans to sell computers equipped with the open-source Linux operating system. HP will ship the desktop computers to China, India and other Asian countries later this year.   
+     
+    
+</post>
+
+<date>15,March,2004</date>
+<post>
+
+	 
+      Snooker player Jimmy White has been arrested at a Lancashire hotel on suspicion of possessing a class A drug. Police were called to the Holiday Inn in Preston city centre in the early hours of Wednesday. They had received reports that people were smoking a suspicious substance in the hotel bar. Mr White's hotel room was raided and he was arrested after a white powder was recovered. He was questioned and released on bail until 21 April. A Lancashire Police spokesman said the substance would now undergo forensic testing. "A man has been released on bail in order for the substance to be tested," he added. No one else was arrested in connection with the incident.  BBC News Online 
+     
+    
+</post>
+
+<date>15,March,2004</date>
+<post>
+
+	 
+      Well it's budget day here in the UK and Gordon Brown has unveiled his box of goodies that he has in store for the British taxpayer over the coming year. He has decided to freeze a range of taxes but this has a cost; 40,000 Whitehall civil servants are to lose their jobs. Michael Howard, the leader of the shadow cabinet was quick to describe him as the 'credit card chancellor', adding "if everything is going so well, why does he have to borrow so much?". Mr Brown announced that cigarettes will go up by 8p a packet, beer by 1p a pint, wine by 4p a bottle, with duties on cider and sparkling wine frozen. The annual rise in fuel duty will be delayed for nearly six months (but is no doubt set to rise disproportionately when he finally does announce it, in line with the government's recent policy of penalising the British motorist who is left with no choice but to use their own cars due to the poor state of Britain's prehistoric transport network). However, despite these concessions, many people were left asking, 'What has he actually done here to help the average taxpayer?'; the answer: not a lot.
+     
+    
+</post>
+
+<date>15,March,2004</date>
+<post>
+
+	 
+      Today has been one of the weirdest days I've had in a long time. It started with my German lesson in which we watched a film, 'Good Bye Lenin' all in German and were expected to try and understand it. My German may be one of the best in the group but I have to say I found it almost impossible cos they were speaking so fast. Then, in my English lesson, I found out that I had scored the top marks in a piece of coursework over which I had taken all of 15 minutes. Result! Next up was lunch but I had to spend it doing my DT project that's supposed to allow you to enter a code to open a door. I've given up on it though as it didn't even work when I was supposed to prototype it. Oh well, I'll just have to negotiate an extension to my deadline or my teacher'll kill me!
+     
+    
+</post>
+
+<date>14,March,2004</date>
+<post>
+
+	 
+      The Spanish government has been defeated in the elections following the Madrid bombings which occurred on Thursday of this week. The ruling Popular Party, expressed its congratulations to the incoming Socialist Party. "I sincerely congratulate the Spanish Socialist Workers Party which has won these elections," government spokesman and Labour Minister Eduardo Zaplana told gathered supporters on Sunday. Spain has been congratulated by several international figures for continuing its elections in the light of the bombings and the obvious morning and suffering of the nation.  Three Moroccans have been arrested in relation to the attacks and are suspected to be linked to al-Qaeda. 
+     
+    
+</post>
+
+<date>14,March,2004</date>
+<post>
+
+	 
+      Manchester Utd have seemingly put an end to their Premiership title hopes with only the third defeat to their local rivals Manchester City since Sir Alex Ferguson took up the post as their manager 17 years ago. Their 4-1 defeat rounds off a very dodgy week for the red devils having crashed out of the Champions League on Wednesday. This leaves the reigning champions 12 points behind leaders Arsenal and effectively leaves their hopes of regaining the Premiership trophy in tatters.
+     
+    
+</post>
+
+<date>14,March,2004</date>
+<post>
+
+	 
+      It's been over a month since I last posted and God has time flown! I'm now just two months away from my GCSE exams, which are incredibly important here in the UK and could mean the difference between me leaving school at the age of sixteen (unlikely but I do not want to be complacent) and going to a top university. I really don't feel prepared but am beginning a long and careful programme of revision now. This last week has also seen me involved in a serious car crash coming back from school. My friend was giving me a lift back from school with his mum and sister in their Nissan Micra when a white Transit van pulled out immediately in front of us. We had no chance of stopping in time and went into it at about 35mph, given the 40mph limit along that stretch of road. Fortunately nobody was seriously injured but I was left with some quite bad whiplash and was in shock for a few days afterwards. The car was a complete write off as it was a head on collision but had we been a few seconds later, the van would have hit us on the side and I would have lost my leg! People always joke and laugh about car accidents but you have to actually be involved in one in order to experience what it is truly like. I'm organising a trip to go and visit my girlfriend in France for after the exams so that should hopefully give me something to look forward to. On a completely unrelated note, I find it despicable how the MOD has recently offered to pay compensation of a mere £530 to the families of innocent victims killed in the Iraq war, saying that 'there are always casualties in war'. This, in my opinion, is why there should never have been a war in the first place and now the country is in turmoil with nothing anyone can do about it! 
+     
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+	 
+      I haven't posted on here for ages but I'm back and had intended to make more regular postings than I normally do but I'm in the middle of my GCSE exams, the first actual important sets of exams that you take here in the UK when you are 15 or 16.  I have also just won an eBay auction for a green iPod mini so I should be the envy of a good few of my friends here for quite some time because they haven't even announced a UK release date yet! I have heard that they are sold out in the US as well because Hitachi, the company that makes the hard drives that Apple puts in them are having supply problems, meaning more delays for those in Europe and elsewhere that want to buy one of those beauties! 
+     
+    
+</post>
+
+
+<date>30,July,2004</date>
+<post>
+
+
+       
+      Talked to the dad of one of my brother's friends today about the problems that they often experience when flying transatlantic. They now make a point of booking tickets with American Airlines because, in addition to them being cheaper than British Airways, the legroom allowance is much greater (most likely due to the larger build of many Americans!) than British Airways. It seems that although the stewardesses may be quite considerably older than BA staff, the extra space is much more worth it! 
+     
+
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+
+       
+      I have also found  urlLink somebody else recording their experiences  in moving towards their PPL on  urlLink PPRuNe , the best online aviation website (in my opinion). He appears to be the exact opposite of me, being 17 stone and 6ft 2"! 
+     
+
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+
+       
+       urlLink    A Willowair C172, such as one of the aircraft that I may be training in over the coming months
+     
+
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+
+       
+       urlLink    Myself in Backnang, Germany during my Work Experience in June 2004
+     
+
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+
+       
+      This blog has been created to document my steps towards my JAA PPL which I will&nbsp;hopefully begin later this year. I have always had the ambition&nbsp;to be a commercial&nbsp;pilot and hope to take the first steps towards that this summer in beginning the PPL course.  Living in&nbsp;Essex, UK&nbsp;I&nbsp;am fortunate enough to have a number of local airfields that are equipped with very good flying schools and I shall be training at  urlLink Willowair Flying Club , Southend (EGMC), having already had three 1-hour long 'trial flights' giving to me as birthday presents by my family.&nbsp;I found the staff to be friendly and helpful, despite me having been only 13 on the date&nbsp;of my first trial flight. I have been a Microsoft Flight Simulator fanatic for ages and have owned every single version since FS95 and have therefore gained a reasonable amount of knowledge of the various procedures, although I probably know more about flying in IFR with an FMC and doing a CATIII autoland in&nbsp;a B747 than I do about VFR and the intricacies of navigation without complex navigation units. Because of&nbsp;my FS experiences,&nbsp;the instructor said he would skip the (as he put it) 'usual spiel about all of that boring stuff' (by which he meant ailerons, rudders etc). I have to say I was quite chuffed with just how much I knew and&nbsp;was allowed to act as pilot flying for&nbsp;the entire flight, save for a couple of loops and barrel rolls over&nbsp;Southend seafront. This somewhat boosted my confidence from&nbsp;before&nbsp;when I needed an extra cushion or two to be able to see&nbsp;out in front of the aircraft (a C152 Aerobat, G-JEET)!&nbsp;&nbsp;&nbsp;  Given that I am only 16 now, I shall have a year in which I shall be training towards the PPL before being allowed to gain my licence and hope to do this through having lessons as and when they are possible, fitting them around AS&nbsp;Levels that&nbsp;I will also be taking in January&nbsp;and June of next year.  In order to be able to pay for my lessons I hope to also work part time at the local Somerfields supermarket and am currently filling out my job application with a number of friends and their parents who will also provide references for my first ever  'proper job' . I had previously worked as a paperboy delivering the Yellow Advertiser but at 13, the wages&nbsp;just did not justify the amount of work that I was having to put in (I had the largest round in my area of 240 houses spread over a wide distance) and the torrents of abuse that I was frequently getting from people who had apparently asked to be removed from the distribution list but were still receiving the paper. Anyway, with my new job, I should at least be able to pay for part of the training, despite the fact that my nan has offered to pay. I guess I just felt guilty about her paying all of what would potentially be the better part of £6000 (if you factor in additional&nbsp;practice time, medicals&nbsp;and necessary materials in addition to the 45 hours of mandatory flying time).&nbsp;  I have just finished my GCSEs&nbsp;last month&nbsp;so I should&nbsp;now have ten weeks where I will&nbsp;be able to head over to the club&nbsp;and&nbsp;book up my first few lessons and read through the Pratt Private Pilot's Licence Course books to try and get an idea&nbsp;of the basics that I should be learning in the early few lessons.&nbsp;    
+     
+
+    
+</post>
+
+
+</Blog>

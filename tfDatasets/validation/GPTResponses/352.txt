@@ -1,0 +1,1 @@
+Kaypro CP/M computers used the CP/M operating system, which was widely used on personal computers in the 1980s before being largely replaced by MS-DOS. They also typically included a range of hardware components such as a 2.5 MHz Z80 processor, 64KB to 256KB of RAM, and various storage options including floppy disk drives.

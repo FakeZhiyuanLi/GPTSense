@@ -1,0 +1,1 @@
+The French mathematician Joseph Bertrand first formulated Bertrand's Postulate in 1845. However, it was not until 1852 that the Polish mathematician Józef Hoene-Wroński proved a restricted version of the postulate. The first complete proof of Bertrand's Postulate was given by Russian mathematician Pafnuty Chebyshev in 1854.

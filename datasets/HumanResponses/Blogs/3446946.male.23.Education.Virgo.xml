@@ -1,0 +1,220 @@
+<Blog>
+
+<date>31,May,2004</date>
+<post>
+
+	 
+      :'-(
+     
+    
+</post>
+
+<date>30,May,2004</date>
+<post>
+
+	 
+       urlLink  The Science Fiction Museum and Hall of Fame   How cool is that? A museum dedicated to Science Fiction. And it's in the city I live in too. Money is tight...but I might just have to become a  urlLink member  of this museum.   
+     
+    
+</post>
+
+<date>28,May,2004</date>
+<post>
+
+	 
+      To Grandmom's house I go...  Yes, it's been far too long since I visited the wonderful place that is  urlLink Grandmom's . West of Port Angles, it sits on the bluff overlooking the  urlLink Straights of Juan de Fuca . I’ll be there from Saturday afternoon (I know, I’m rolling on Shabbos, but the rest of the weekends are booked, and I want to see Grandmom before I go traveling) until Monday midday. I hope to get some resume work done and the possible general writing. Not to mention some reading. It’ll be good. Hope you all have a nice  urlLink holiday weekend.  
+     
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+	 
+      Thanks to the Power of ebay, I have an undisclosed number of 5lbs. bags of beef jerky being shipped to my house. More to come when they come...  But I'm also looking at buying a digital camera. It's not a smart thing to do financially, and I owe my mother money, but, since I’m going to Israel, I would really like a camera I can take good pictures with, specifically, the  urlLink Canon Powershot s50 . I suppose I could purchase a less expensive camera, but I’ve used this camera at the  urlLink JCC , and I like it, I trust it. And when it comes to a purchase like this, trust is extraordinarily important to me.  
+     
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+	 
+      So, I use Dreamweaver MX for my website design and editing. If you’re wondering, IMHO, Microsoft FrontPage sucks. One of the nice things about using Dreamweaver and the UW for my web hosting needs is that I can remotely connect the two. Which mean, when I am done editing a page on my computer, I hit a button and the page is uploaded to my account for the world to see. Similar to how blog software works (at least from the user’s end).   But I’ve had problems getting Dreamweaver to talk to the UW servers. Specifically, I was getting this FTP error:    Cannot make connection to host. 530 Your clock or time zone is set incorrectly   Huh?   So I check my clock, which is set a little fast (at this point, 9 minutes faster then my cell phone’s time), because that’s how I like it, and of course, my computer’s time zone is set to Pacific Standard Time (Tijuana).  This is when I shot an email to the help desk at UW’s Computing services. They got back to me lickity split and tell me to check the clock and time zone setting. I reply, telling them I have, and, by the way, I keep my clock fast. So which they reply...  Your computer's clock must be set within 5 minutes of "UW time" (e.g., the time shown on homer) to work with UW Kerberos [the proxy software]  WTF? I reply: Alright, I’m blown away that my clock was the problem. I changed the time and suddenly it works. but why? Why does the clock need to be within 5 minutes of "UW time"? And how do I check this time. Does the exact time really matter when something is posted to the web? Wouldn’t the servers simply know what time it is in Seattle, irrelevant to what time some other computer says it is? And what if I, as an alumni, move to Washington DC, and want to keep my UW account? Do I have to "pretend" I’m actually on the west coast just to sync Dreamweaver with the UW? Please, tell me why?  And they get back to me (this is all within 24 hours mind you)...  Saying the clock needs to be within 5 minutes of "UW time" is a bit of an oversimplification. Your clock needs to be within 5 minutes of the  correct time  for kerberos to work. The UW's clocks are synchronized to atomic clocks which provide a reference time, so if your computer's clock is similarly synchronized to an atomic clock, it will always be within 5 minutes of the UW's. (In fact, it should always be within a few microseconds.)  I don't know that any desktop version of Windows has a time synchronization utility built in. I found an article about a few different pieces of software that will keep your computer's clock accurate at  urlLink http://geodsoft.com/howto/timesync/wininstall.htm . You can search the web yourself; the search terms I used to find that page were "windows ntp client". If you use a network time client on your computer, you can rely on your computer's clock being accurate.  There's a lot more on how the Standard Time is calculated and kept in synch at  urlLink http://tycho.usno.navy.mil/ , if you're interested. It's not so much that the time matters on the web as that Kerberos requires accurate time on the part of both sides (the server and you) in order to work. It's pretty technical, and has to do with security. The short answer is that Kerberos just doesn't work if the clocks of the computers involved are out of synch by too much.  Kerberos takes time zones into account, I believe. As long as your computer's clock is set to the correct time where you are  and  your computer's time zone is set to the time zone where you are, then everything should continue to work.  Alright, so my question wasn’t really answered. I wanted to know why someone, at some point in time, chose to say that the computers clock had to be within 5 minutes of the atomically “correct” time. I thought it might have something to do with security, and that answer was alluded to, but not expounded upon. But, my curiosity had been somewhat alleviated but the length and depth of the reply, and I didn’t want to take anymore of their time (though maybe they have plenty of it, if they can send me such an extensive answers). So I sent a brief thank you note.   To which I receive this reply...  One little addition to Josh's answer. If you are using Windows XP there is a built in network time client. You can set your have your time automatically updated by following these instructions:  1. Double click on the clock (or open up the date/time control panel) 2. Click on the "Internet Time" Tab 3. Check "Automatically synchronize with an Internet time server" 4. Click "Update Now"  I believe that once you turn this feature on it syncs your clock once a week.  But I’m running Windows 2k, so until I upgrade my system and install Windows XP, which I'm hoping to do this summer, I just have to keep my clock inline on my own. 
+     
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+	 
+      Go learn yourself  urlLink something . Have a nosh of cheesecake.
+     
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+	 
+      Jon “Stewart” Stuart Leibowitz gave the  urlLink  commencement  speech on the 20th anniversary of his graduation from William and Mary. The man is funny. And intelligent, which is what makes him so damn funny. (c/o Andrew Sullivan)  Blast if I can’t find the speech  urlLink Sherman Alexie  gave at my commencement
+     
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+	 
+      Okay, I’ve done my bitching...everything is fine. I’ve formatted the “Minima Black” blog template to approximate the color scheme of my site, and in fact, I think I will be changing my site to incorporate some of the new things here. Particularly, the goldenrod-colored titles. If only I could get Dreamweaver to sync with my UW web account, I'd really be fancy schmancy.
+     
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+	 
+      Oh sure, start a blog, it's no problem. easy as can be. I'm not saying it's  hard  I'm just saying getting everything pointed to the right places is about the level of difficultly I expected. 
+     
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+	 
+      My little sister has been bitching about how I need to start a live journal or something. I’m more of a blog fan. To me, there is a subtle difference: journals are for yourself, blogs are for the rest of the world. Sure, I’ll have some deep thoughts on here, but don’t get the wrong idea, the deepest stuff will not be on here. Famous last words…
+     
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+	 
+      Well folks, I’m having a wonderful time in New York. It’s big, and kinda dirty, and the humidity is horrible, but it’s a lot of fun. I’m blown away by all the Jews. I still feel like a minority, but at least I know I have plenty company. It’s fun seeing other people with kippot. I ate at a kosher restaurant last night, and it was over flowing with people. Families, groups of friends, couples on dates, it was crazy.   I also hit the  urlLink Empire State  building yesterday, which was necessary. And in all honesty, I liked the  urlLink Sears Tower  better. Their was a better display of information to read about the history of Chicago and what you were seeing. Move the damn gift shop downstairs. Anyways, I’d come into Manhattan via the subway, and so when I stepped outside, I had no how to orientate myself. I’m trying to figure out which way is north, I’m looking at my subway map, I’m looking at the street signs, I’m looking at the tourist kiosk, and up at the buildings. But I couldn’t get oriented or figure out where the Empire State building was. Hehe, turns out I wasn’t looking up far enough. As soon as I craned my head all the way back, I saw it, a lance into the sky. I was a block away.   I’ve got the better part of today to keep exploring (Lower East Side, WTC, Times Square, maybe the harbor tour), but the fact is, I leave for Israel tonight. It’s starting to dawn on me again, but I’m going a long way away. Sure I’m excited. Of course it will be fun. And once I meet up with the rest of the group (I’ve already met up with Rachel and Charles) I’m sure I’ll be fine. But the fact is, right now, I’m a little unsure about this whole thing. Seems a little bigger then I’m used to. Pushing my comfort zone. Oh well, it’s a good thing.   My next post will be from Israel, so until then... 
+     
+    
+</post>
+
+<date>12,June,2004</date>
+<post>
+
+	 
+      My mother called today. We had a nice chat. Talked about the up coming float trip, my pseudo-job hunt, and my plans for Israel. But as we were wrapping up, she remembered to tell me, as a matter of passing information, that my Grandmother isn’t doing very well.   She’s 86, and her health is, well, she’s still alive and not in hooked to any machines. But her body is slowly failing, and her mind has deteriorated, particularly over the course of the passed 3 years. When I saw her last autumn, she had trouble recognizing me. After a few seconds of mental work, she recognized me as “Grandson”, which was really okay with me. My mother has told me of numerous occasions how she has been meet by my grandmother with an unrecognizing blank stare. Last week apparently, Mom took Grandmother to have her spectacles adjusted. As they were riding in the car, Grandmother said, “Funny, my daughter spoke of doing this same thing”. When my mom asked, “Well, who do you think I am?” all my grandmother could do was giggle in embarrassment.   So  urlLink Hospice  is helping Mom care for Grandmother now. This is in addition of course to the very nice assisted living facility Grandmother has been in for nearly three years. Basically, Hospice provides support during the last few steps of the journey from the cradle to the grave. If there is a medical emergency, 911 isn’t called, there is no resuscitation. A shot of morphine or a tranquilizer to keep her comfortable is the most they do.   It’s weird, and very sad to be thinking about all of this. I’m not particularly close to Grandmother, but she’s Grandmother. She’s been the nebulous, comforting, stable force all of my life. She made Halloween costume for  urlLink Rebekah  and I when we were kids on her visits from Florida. She baked cookies and went with us to the Zoo. Of all the shit that happened in my family, of all the words said in anger and disrespect, she was never part of it. Only once, during fight between my parents, did I hear my father speak ill of Grandmother. She was, is, just above it all. There is only one thing left for her to do, but she will do it on her own time, as she has done so many other things in her life.  
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+      From Wednesday's  Saint Petersburg [FL] Times  ...     Two days after the Sept. 11 attacks, with most of the nation's air traffic still grounded, a small jet landed at Tampa International Airport, picked up three young Saudi men and left.  The men, one of them thought to be a member of the Saudi royal family, were accompanied by a former FBI agent and a former Tampa police officer on the flight to Lexington, Ky.  The Saudis then took another flight out of the country. The two ex-officers returned to TIA a few hours later on the same plane.  For nearly three years, White House, aviation and law enforcement officials have insisted the flight never took place and have denied published reports and widespread Internet speculation about its purpose.  But now, at the request of the National Commission on Terrorist Attacks, TIA officials have confirmed that the flight did take place and have supplied details.    urlLink The Full Story . (c/o  urlLink Josh Marshall ) 
+     
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+      A recent LA Times  urlLink poll  spells trouble for W.   I'm just surprised it took this long. By reading the news daily, or perhaps looking for the subtle clues that show a pattern before it hits you on the head (the SC primary, the coziness with fundamentalist and intolerant  streams of Christianity, an inability for public speaking, cutting military personnel’s benefits), I knew W would be trouble. I’m both surprised at how dramatic our troubles are, and how much worse they could be.  
+     
+    
+</post>
+
+<date>05,June,2004</date>
+<post>
+
+	 
+      I'm going to Israel on June 21st. But we leave from JFK, and so I'll be in New York for a few days before hand. Yes, I know, I need to explain all of this more, I'm sorry, I'm seeing double. But I'm trying to figure out a place to stay, and my sister recommended  urlLink Kasbah.com , and perhaps this  urlLink search  might be helpful. 
+     
+    
+</post>
+
+<date>05,June,2004</date>
+<post>
+
+	 
+      Well folks, with more help from  urlLink Computing and Networking  services at the UW, I was able to fix the permission problem regarding the  urlLink pictures  of me and the beard I grew during the  urlLink Counting of the Omer .    But the reply I got regarding the scrolling is still unclear, so I’m getting more back from them on that matter.   Justin and  urlLink Dave  were in town, which was great. I wasn’t able to spend as much time with them as I would have liked since I was working, and since the Grand Opening of Hillel was this past Sunday. They are on their way to LA and from there off for a month’s adventure in Thailand.   So many other things to write about, but for the moment, I’ll leave you all woefully uninformed.  
+     
+    
+</post>
+
+<date>05,June,2004</date>
+<post>
+
+	 
+      You’re wrong on  urlLink panning  the complaints regarding the ads near mosques. It’s not a matter of being “politically correct” and certainly not a matter of it being out of control. It’s a matter of economics and should be one of political libertarianism. Economically, the ad company might find it is a bad idea to post an ad that will offended the people who will see the ad most often (let alone people who will not buy the product), in this case, a group of Moslems.  But it should also be the right of those Moslems, in their immediate and local neighborhoods, to not suffer such a glaringly offensive (to them) advertisement. It’s the government’s place to allow different forms and styles of advertising, but it is not the government’s place to say that people must accept all form of adverting in all locations. Televisions and radios can be turned off, print ads thrown out. But it does not seem such a horrible thing to ask an advertising company not to post a billboard of nearly-naked women in the neighborhoods of people who want to avoid such mental temptations. Furthermore, the local government should have the right to place some guidelines on the types of adverting in a certain area.  And this is all coming from a guy who is a big fan of nearly-naked women.   [Sent to Andrew Sullivan]
+     
+    
+</post>
+
+<date>05,June,2004</date>
+<post>
+
+	 
+      [Follow the links to understand]  After Hillel’s Volunteer Shabbat, a bunch of us old school kids go out for drinks at the District Lounge on 45th, underneath the Meany Tower. I’m chatting with Josh Epstein, when Tal leans over and says she has a story. She begins, “So, their was this online game of Texas Hold’em, this poker game, with like, 3,000 people playing. The winner gets a Porsche. And the winner, is sitting right next to me.”   At the first mention of an online poker game with a Porsche as the grand prize, I think of this set of  urlLink comments  regarding a post on  urlLink jewschool  a few weeks. And when Tal says the winner is sitting right next to her, my mouth did this bastardization of hitting the floor and cracking a smile. Because clearly, I’ve just met Ariela’s brother who won the Porsche.   So I ask him “Does your sister have a Blog?” He’s eyes go wide and his mouth did the same jaw dropping/stupid grin mine must have done, because he say, something akin to, “Yeah, she loves it. Does it all the time”. And so, I tell him, that I’ve read his sister’s  urlLink blog  and knew this story as it was being told to me.   As if the Jewish world wasn’t small enough, the Jewish  urlLink blogosphere  makes it even smaller. And now that I look at the  urlLink picture  again (hit CTRL+f, search ‘Porsche’), what I thought was Miami, suddenly looks like the Eastside of Lake Washington. In my defense, the first time I saw the picture, I wasn’t looking for detail, and figured, what is clearly and evergreen branch, was a palm frond.   
+     
+    
+</post>
+
+<date>05,June,2004</date>
+<post>
+
+	 
+      This week has just been crazy. The new  urlLink Hillel  building is complete and this is one big celebration weekend. Thursday night, I helped represent  urlLink Jconnect  at the Leadership Donors Building Opening Celebration. It was amazing. First off, these donors all gave over $10,000 to the new building and all, as you can imagine, have a very strong commitment to Hillel at the UW. The best part for me, was towards the beginning. I was asked to uncover the glass panels which bear the names of said leadership donors. Forget my action. It was the time, when I’m standing at one end of the large, central gallery, with 250 people looking in my direction, in anticipation. Some smiling, some serious, some tired, all with a sparkle in their eyes. People packed into the first floor, flowing up the stairs, wrapping around and hanging over the railing to get a look at the brief ceremony. And it’s not that I’m so important, it’s that I’m, at this moment, at the physical center of these people’s love and attention. For a brief moment, I witness how much these people care about the same organization that I care so much about. All I could do was smile. 
+     
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+	 
+      If you haven’t seen the news, these two link, one to the Israeli paper  urlLink Ha’aretz  (The Land) and the  urlLink NY Times , should bring you up to speed regarding the bombing that took place Sunday morning. This is the start of the work week, and a lot of soldiers head back to their bases via the bus system.    The blast was in the southern part of Tel Aviv, while the Tal Hotel and the other places we visited in Tel Aviv are in the northern part.   Now for my opinions: I’m angry about this, especially now that I know individuals who live in Israel. I trust they are all safe, and that the Jess and Mike are also safe (I doubt they were even awake at that 7am hour). This comes two days after the UN’s Internal Court of Justice ruled that the Separation Fence which Israel is building, is illegal and that countries should consider measures to punish Israel if the fence isn’t torn down. Where is the ruling and the recommendations that punish the Palestinians for such bombings?   If there were no terrorism, there would be no fence.  But you say if there was no occupation there would be no terrorism?  There would be no occupation if the Palestinians had leaders dedicated to peace.    It is a vicious stalemate Israel is in. I wish there was strong enough leadership somewhere in the world to figure out a way to break it.  
+     
+    
+</post>
+
+<date>10,July,2004</date>
+<post>
+
+	 
+      Well, I’m back in Seattle. And, what else is there to say, but that the trip was amazing. Not in the super-spiritual sense, or in an uber-Zionistic meaning. But in the simple fact that it all went smoothly, that the people were fantastic, and that everything matched my expectations. It helped that I was tempering my expectations, but I knew that if I didn’t, the trip, the country, my vision of Israel and Judaism in general could have been knocked down or elevated beyond the rational. And I just wasn’t in the mood for either one. So, I keep everything on the level, and had amazing time.   I have a ton of writing I feel like I should do, but with me leaving for Idaho and the river float trip tomorrow, I’m running the risk of not getting it all done. But that leads to the larger question I face regarding this blog and journaling in general: do I want to write about my life, or live it? Thoughts are defiantly welcomed.  
+     
+    
+</post>
+
+<date>04,July,2004</date>
+<post>
+
+	 
+      I'm sitting in an Internet cafe in Tiberius, reading though all of the emails from the group who has retured, and looking at the pictures, and wishing I had Chen to tell me some little bit of knowledge i didn't know, and to take pictures of people falling alseep or of Yossi looking big and mean.   I spent Shabbat with Ami and his family in Haifa which was very nice, and this morning took bus numbr 430 to Tiberius. The were more soliders with big guns on that one bus then I saw on our entire trip.   Tomorrow I'll head south back to Jerusalum, where I'll be staying wiht Shmulik and hopefully seeing some of the other soliders or others who have stayed over. But for now, Israel just isn't as much fun without all of you.   Happy 4th of July :-)
+     
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+	 
+      The trip was wonderful...  The people ever better. The group from Philly was awesome. I will definatly be getting back out there to see them. But for now, know that I am doing well, and that I'm safe, and that I'm in Hafia doing Shabbat with a friend and his family. More to come after the next 25 hours :-)
+     
+    
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+	 
+        Well, after a nice float down the Middle Fork of the Salmon River in Idaho, and two weeks back in Seattle, I’m ready to start keeping up with my blog again. This will be short, since I’m working on the job hunt. But so you know, there are new pictures on the   Picture’s page  , and I’m slowly starting to think about getting my Israel pictures up. I’m not quite sure how I want to do it, but when I figure it out, you’ll see the pictures. So many people have been asking for them, I might just put them up and make it look nice and pretty later. But for now, enjoy the pictures of happenings around Seattle.   
+     
+    
+</post>
+
+
+</Blog>

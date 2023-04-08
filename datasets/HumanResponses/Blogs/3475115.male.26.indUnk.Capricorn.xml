@@ -1,0 +1,85 @@
+<Blog>
+
+<date>31,May,2004</date>
+<post>
+
+	 
+      with a bruised leg, stuck to the indoors, this memorial day weekend has been movie time for me...  saw one more movie yesterday - the day after tomorrow - decent movie with good special effects and visuals... if u are looking for a good story, there is none - u could might as well sit at home and watch the kobe trial proceedings...  but all in all - decent entertainment value for a couple of hours
+     
+    
+</post>
+
+<date>30,May,2004</date>
+<post>
+
+	 
+      saw shrek 2 yesterday... it was definitely good but i thought the first offering was better... it was just that the funny parts were fairly predictable for me...  anyways, i'd surely recommend this movie... whether u like it better than the first part is for u to decide...
+     
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+	 
+      i kept personal diaries for a short while about 8 years ago... but someone barged their way into it and soon my personal thoughts were public knowledge - and that was the end that exercise  but of course, here i know from the very outset - this is public, this is the internet... only this time i wanna tell people what i am up to... also, from a personal standpoint i'd be cool to maintain a log of my daily denominators...  lets see how far this one goes.
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      NBA Finals 2004 - Detroit beats LA 4-1  So the lakers got spanked and yanked like nobody's business... I am no laker fan (far from it - I am a Kings tragic) but I didn't expect them to lose, not to detroit who couldn't score points for dear life...  I guess this once again proves - it's the team that wins and not superstars - sounds too idealistic, but boy, was there a bigger endorsement of this thesis than these NBA finals...  If there's one thing I feel bad about - I lost 10 bucks on the lakers to a work colleague!
+     
+    
+</post>
+
+<date>11,June,2004</date>
+<post>
+
+	 
+      i got mine yesterday... a friend of mine sent me an invite and i accepted it...  my first impressions have been mixed - infinite storage (1GB actually), super fast, many options - search, labels, shortcuts, etc but on the same count it is a beta product and so not always stable, deleting mail is a laborious process, they use FRAMES and ask any web programmer - FRAMES ARE EVIL!  but overall i am excited and i now have some bragging rights over my friends...
+     
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+      I gave my 6th toastmaster speech today... I contrasted my wonderfully memorable trip as a 11 year old back in 1989 to the sorry state of Kashmir today... It came from my heart and was able to describe the change of affairs in sentences such as these:  - The natural utopia has been relegated to man-made hell. - It doesn't matter who is wrong, what matters is who is wronged. - It's the new normal. I accept it. I am a part of it.  It was a good experience coz it was well received and I look forward to giving more speeches in the future.
+     
+    
+</post>
+
+<date>02,June,2004</date>
+<post>
+
+	 
+      A good description of the  urlLink 1.5 features in a nutshell.. Need to look into the Metadata / Annotation feature in further detail...
+     
+    
+</post>
+
+<date>01,June,2004</date>
+<post>
+
+	 
+      I have been trying to search for JSR 168 specific  urlLink WSRP  resources... Haven't been a lot successful so far...  There's an apache project  urlLink WSRP4J  on WSRP but I haven't been able to install it as yet...  Just a note to look further into this technology...
+     
+    
+</post>
+
+<date>01,June,2004</date>
+<post>
+
+	 
+      We weren't able to support flow layout rendering for our JavaScript intensive web controls such as map, overview and page layout... This was coz we didn't know of a way to determine the position (offsetLeft and offsetTop) of the control on the page in flow layout and this was necessary for the Javascripts to work...  However, last week I was able to find the solution:  In case of flow layout I observed that the values of the positon attributes (offsetLeft and offsetTop) of an element were relative to its parent element (i.e. if the map &lt;img&gt; was within a  table’s &lt;td&gt; and offset by 1 px from the cell; the mapImage.offsetLeft returned me a value of 1). This means that the absolute position of the map on the page should just be a simple sum of the offsets of the map image and of all its parent elements.   With this in mind, I wrote this JS function to calculate the position of the map image on the page when it was in flow layout:  function calcImagePosition(mapImageId) {    var parent = document.getElementById(mapImageId);    var imgLeft = 0, imgTop = 0;    while(parent != null) {       imgLeft += parent.offsetLeft;       imgTop += parent.offsetTop;       parent = parent.offsetParent;    }    alert(imgLeft + “, “ + imgTop); }   I called this function on body load, and the values of imgLeft and imgTop calculated in this function were indeed the absolute left and top positions of the map image on the page.  
+     
+    
+</post>
+
+
+</Blog>

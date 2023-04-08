@@ -1,0 +1,58 @@
+<Blog>
+
+<date>30,June,2004</date>
+<post>
+
+    
+       I should be able to manage my links and favorites from within the Gmail system.  Ideally I could use the google toolbar or another application to sync these links up with the favorites in Internet Explorer.  I vision a dropdown taskpane on the left similar to labels where I could organize my favorites.  But this feature request is a two parter. I would also like the ability to quickly add a link when I search using google or come across a link within a conservation.  I foresee next to results where it says "view cache" it could also say "add favorite".  That would be nice,  
+    
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+    
+       First off, I got my first reply back from Gmail, yeah!  It was about keyword searching.  It was mostly a "standard" reply but it did have a little personalization to it, basically they were going to forward the idea to the proper department.  Since I haven't yet posted the keyword feature request here, I guess I will do so today...  I would like to be able to add "keywords" to a conservation.  So that I can search by keywords only, or add additional keywords that might not be in the conservation.  For example I had a recent email back and forth about an additional invitation to gmail, but not once did I mention "gmail" so if I searched for gmail on my system nothing comes back.  It would be nice to be able to additional keywords for filing reasons and examples such as the previous one.  
+    
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+    
+       Ok...  I don't know if Google was smoking crack or what, but filling up my 1gb with email is going to take a while.  Why not provide full support for a filling system.   I see the initial release would be a simple private file system, meaning only I could view the files.  A new option under the "label" task panewould be a "folder" task pane which would actually be my folder system.  Ideally, I could have subfolders, but I am not being picky initially.  The requirement would be that I could easily upload files, give them short descriptions, delete them.  An extra benefit would be that I could apply keywords for searching purposes.  Potential extras:  (1) I could "label" my files with the same gMail labels, so that while they were in the folder structure I could apply a "label" if it was related to a certain body of emails.  Then when I click on the label view to see my emails I would see a link to my file.  (2) I could assign permissions on a per folder basis so that other users would see my files, they would be  "networked" folders  and appear on their gmail account in the folder taskpane.  Talk about incredible communication options!  (3) Along the lines of my GoogleGroups2 integration, I would like to see in the folder taskpane perhaps a folder for each group I am a member of.  The idea would be that the groups would have a central file system that all users could access from this system.  It would be similar to option (2) but automatic for all members in your group.   As a side note I have a "hacked" setup currently that gets the basic job done.   I created a new label called " Files".  Its important to have the space, doing so puts it at the top of my labels.  I then created a filter that said if it was from my gmail account and to my gmail account and contained an attachment that it would bypass the inbox and apply the label " Files".  To upload files I send myself the file, I put in the subject a short description/filename, in the body I can optionally put keywords (for searching), and then I just attach the file and send it.  It automatically gets filed.  Not perfect but gets the "basic" job done. 
+    
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+    
+       This is a simple feature request of mine.  One of several that I consider toggable, meaning the user could either enable or disable the feature from the settings page.  I would like to have the spell checker automatically run after I hit "send," and to pause for review if it finds any spelling errors in a fashion similar to how it works if you hit "spell check".  For this to work without being annoying the spell checker MUST be able to add new words to its dictionary so it doesn't continue to pause everytime I send email and sign it my name, assuming my name is not already in the dictionary.  -Brett 
+    
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+    
+       My first "official" feature request that I contacted gMail about was complete integration of  urlLink GoogleGroups2 .  A brief explaintion of GoogleGroups2: (1) Easily create mailing list (2) Easily create groups similar to  urlLink Yahoo!Groups  (3) Already integrated with Usenet Newsgroups  Why integrate?  Because I want one shell for all my communications.  All three of these forums of communication center around discussions, what better application of the "conservation" feature than these exists?  I want complete integration, including navigation on the leftbar to have not only "labels" but also a section defined "groups".  Each group discussion would be placed in this section, but could also be labeled or starred as a regular email message. 
+    
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+    
+       Ok...   I guess this is my first post to my first blog so I should explain a brief history about me and what my intentions of this blog are.   My name is Brett. I am finishing my final year at Georgia Tech with degrees in Computer Science and Industrial and Systems Engineering. Actually there is a brief story as to why I have both of these degrees. I was working on my Computer Science degree when I saw for the first time the movie  urlLink Office Space . This movie changed my life for the better, instead of being Peter the dorky computer scientist I realize I would rather be one of the dorky Bob's who fires everyone, thus the ISyE degree. However, by the time I made this decision I had already gone through the "weed out" courses for Computer Science, and felt that with it only requiring one additional year for both degrees I might as well do both. So I am.   While, I like "all things" computer-related, my favorite pasttimes aside from Videogames, have to be beta testing and Personal Video Recorders. I got my first PVR, a  urlLink TiVO , freshman year at Tech. The TiVO was great and all, but very limited. For starters it could only hold 30hrs, could not be remotely accessed for viewing or scheduling, and lacked integrated archiving. Regardless I kept my TiVO for several years, even somewhat "worshiping" it until September 03 when I came across Snapstream's  urlLink BeyondTV . It was like  urlLink Windows Media Center PC  with about a million additional features. I had actually seen Snapstream's software originally when its sister-app PVS2 was beta testing more than a year back but at that time it was no competition with my TiVO. I became rather "popular" over on Snapstreams Forums and in May I actually landed a part time work at home job. I do technical support by email for the company approximately 10 hours a week, not a enough to live off, but a few extra dollars is always enjoyed. Before I got the job I had also became interested in another PVR application by the name of  urlLink SageTV . Before I worked for Snapstream, I was actively beta testing for both companies. Infact, although few know this I have had full access to SageTV Studio, a yet to be release title from the Sage Folks. I also have done beta testing of  urlLink Meedio . All of these companies make great products, and right now I support all three of them, despite two of them are technically my companies competitor. Other notable Beta Testing Invites include several closed test for Microsoft operating systems. Although now and days, I value a stable machine, and my spare one is a dedicated htpc. And just recently I got invited to  urlLink Gmail , but considering invitations are sold $.99 on  urlLink Ebay  I no longer consider it a "closed" beta test.   So what will you find here? Well, specializing in "software architecture" I tend to be a very creative person, I plan to use this blog to jot down my thoughts and feelings on feature request that I have made or seen using "official" channels. These ideas will initlally be focused around GMail and Snapstream products as those are my current main interest.   -Brett  
+    
+    
+</post>
+
+
+</Blog>

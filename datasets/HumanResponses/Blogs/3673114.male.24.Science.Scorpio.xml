@@ -1,0 +1,167 @@
+<Blog>
+
+<date>30,June,2004</date>
+<post>
+
+						
+						   Evidently the starttime column is updated when I update child information in the parent date... duh! well I can fix that tomorrow, but for now it's sleep! 
+
+						
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+						
+						   I have a bug... it will take me some time to sort out where it comes from, but it's setting the dates of the parent tasks to the new subtask start date... I mean that woudl be cool for end dates, but not for start ones. 
+
+						
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+						
+						   I have now made it so you can add a task with a parent, using a handy little drop-down box. I have also reformulated the add task page to make it more what Mike wanted. It now looks much cleaner. Also with Mike's decorative help I have redone some of the design for the tabled view tasks page. I think it's coming along now... I will program a little updater script to use the DFS program to search down the children and come up with the latest end time and set the parent to that. This may end up being more complicated than I thought, but perhaps not sooooooooo complicated. Well I'm off to meme land where there are fluffy sheep! 
+
+						
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+						
+						   So I was thinking through the whole thing and noticed this: Sorting of the tree might be complicated if I choose to sort by anything but date (if we are going after something that keeps track of subtasks by date). Therefore, maybe I should scratch the idea of sorting by anything but date if we are only looking at dependence of time. However, I guess it may not matter too mcuch since, sooner tasks will probably have a high priority. Maybe. Ah well, I was trying to justify it, but I know it's wrong. 
+
+						
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+						
+						   Well let me take a stab at understanding Mike's ideas. You think that tasks in a tree (or branch rather) should all be related. This would be nice, but we know that isn't always the case. Someone might make a sub task that eventually is meaningless to the original task (tangential thinking I'd call it). I guess, we could just disprove of this type of sub task-making and encourage sub tasks to be related to the parent. Then, what you'd say about this is that no sub task may have an end date later than the end date of the parent task (so the parent task end date would be increased to the time of the latest sub task end date). That would then give you approximate end dates for an entire task... plus if you complete a task, then the end date would be altered to the date of the uncompleted sub task's end date that is the latest... unless the end date of the parent task is purposely set later than the task to allow potential time for more subtasks. I have end dates already included as well as completion dates... The difference being, end date is an expected end date/time and completion date/time is a verified moment of completion and end to the task (The point at which status should be == to 100% or enough so the (sub)task does not need to be considered any more).  -- One nifty addition to this might be the ability to graph a display of estimated times versus completed times. This could show if a person is overestimating time or underestimating it per task.   Also, maybe my default sorting then should be conducted by end dates as opposed to start dates. This would yield tasks first which need to be completed first. -- In response to Todd's ideas... I think running this system should be something that is necessary. I don't think many systems (even, for instance, Microsoft Outlook) allow for tasks to be nested like we have in UPTO. The difficulty with placing these tasks in a format for another system (even Mike's suggestion of the Palm organizer) is that when the task tree is loaded back into UPTO, we run the risk of having lost data!  Situation:  you delete a task on Palm OS and then load the data back into UPTO. What happened to the tree during this time? We will have to sort out by inference. We will run through the old tree and see if tasks are still there (speaking of which... we need to get some specifications for Palm/MS Outlook/etc files to see if we can get some interface with them). If the tasks are missing, how do we repair the hole in the structure of the tree... We can look to the former tree location and add the hole's children to the hole's parent and delete the hole (the task deleted in Palm). Synchronizing lists is actually very tough. We also may be unhappy that Palm OS won't let subtasks show up as subtasks and then screw the whole thing... We may also when synchronizing allow the newly added tasks to go through an almost edit phase where the user is asked whether the new tasks shoudl be considered the children of another task.  Well, thanks for bearing with my rant/ideas... More ideas to post when less frantic.  
+
+						
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+						
+						   Just a simple note... the number of lines of code with a now working tabled taskview screen is 1103! Over a thousand lines of code for something that doesn't do nearly what I want yet! Keep that in mind! 
+
+						
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+						
+						   A while back, Todd had given me some ideas on what he'd want to see in a calendar/task organizer. Some of those are as listed:   1. The ability to dump/import tasks so that you can load them on a non-networked version of the program 2. I don't remember the rest, so Todd... if you read this, add a comment! please!  Also some issues I'm having in the planning process are related to descendants and for some reason I'm not checking my past posts to see if it's mentioned beforehand... Situation:  If a user is a member of a task group and then another member makes a post of a task to that group, but leaves off the group, then it'll be as if that task does not exist to other group members... Then, if that parent task is then deleted by the owner, the child task will be orphaned...  Response: when a task is deleted... a search started with the parent node will be begun and all children will be placed as children as the grandparent and depth decreased by one.   Mike, you had some ideas too that I'd like to try to get again, so please write a note here too. 
+
+						
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+						
+						   Well so given Mike's input (and no one else's!) I decided to move on this tabled idea... So the formula for it will be as follows diagramed in steps 0 through 9: (0) &lt;tr&gt; (1) while counter &lt; depth {&lt;td&gt; &amp;nbsp; &lt;/td&gt; } (2) &lt;td&gt; tasks subject for current task in DFS&lt;/td&gt; (3) for (counter = depth; counternew &lt; max depth; counter++) { &lt;td&gt; &amp;nbsp; &lt;/td&gt; } (4) &lt;td&gt; tOwner &lt;/td&gt; (5) if SESSION workgroup &lt;td&gt; workgroup &lt;/td&gt; (6) &lt;td&gt; tStatus &lt;/td&gt; (7) if (tPrio == 0) &lt;td&gt; Low &lt;/td&gt; else if (tPrio == 1) &lt;td&gt; Med &lt;/td&gt; else &lt;td&gt; Hig&lt;/td&gt; (8) etc...whatver else is necessary (9) &lt;/tr&gt;  
+
+						
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+						
+						   So Mike was ever so frustrated with my design using DIVs to indent the tree-like structure of the nesting tasks... So on we go to try to find another method. The one thing I was thinking I could do is add a depth value to the tasks table. This would allow me to create a findMaxDBdepth() function that would provide the data to create a table with a specified number of cells on its left for indentation in the tree. This would eliminate formatting issues that way, but the process would entail more steps and be more cumbersome on the server (having two searches of the DB instead of one and then the checking on depth)... We will see. 
+
+						
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+						
+						   Well, IE has an incredibly disgusting rendering of the &lt;LI&gt; elements within a nested DIV. I am assuming it comes from the interplay of block and inline elements... So, as a result I will leave out the list elements and find some way to maky the borders look a little more presentable (the DIVs are not collapsing the borders on the bottom). But now, the links are working for UPTOviewtasks.php in order. We will soon be able to produce a nice looking system! 
+
+						
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+						
+						   The next step after nested tasks is to provide a manageable way to interact with them in the format that they maintain at their particular level of nesting... That is to say, we will have a control bar floating on the right hand side of the bar which will control actions for a particular node (task)... There will also be checkboxes with values determined by the task line... we shall see about this tomorrow... for now sleep! 
+
+						
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+						
+						   I have finally, after many hours of dogged labor, produced a working nesting task view... which leads me to my next problem... which I'm sure will be encountered.  I can't have loops! I tell you this for two reasons. 1) If you have a loop, the depth first search algorithm only checks for children and not for siblings and may wind up in a funny mess and 2) I've got to maintain sanity of the list so no dangling lost-children (orphans) are produced [keep the family whole... in social work we call it family reunification and I think I will here as well].   Therefore, I have created two rules for these data: 1) A point may only have one parent (such that you cannot link one task two two nodes, thus creating a loop); 2) A point being deleted or altered, will attach its children to that of its parent (NULL parent being possible, for a node with NULL as parent) and will not alter its children. Therefore, there will never be a task which is orphaned.  Also, valuable to note, a task (or node) may have multiple children [identified in the DB with "&lt;taskid1&gt;,&lt;taskid2&gt;,etc."] but a single task is only responsible for remembering its own children (one generation) and its parent (as it can have only one). 
+
+						
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+						
+						   The intent (as seen from the previous post) of displaying tasks in a organized and valuable way is more than just a simple list. As you might see if you log on to the UPTO test pages, the UPTOviewtasks.php page has a critical note about the lack of tasks displaying. I had previously had a list of single user and group tasks (for the one user that is currently in the system who adds tasks, taskuser [with group tasks]). However, the former list left something to be desired... that is it was not so valuable. I was chatting with a friend who said, maybe I should incorporate nested tasks. I thought, "what a fantastic idea!" However, there was a cost. The cost is that I had to try to incorporate some sort of searching method to allow the nesting to be sorted properly. Thinking of all the tasks as a graph and finding the routes to the last branch attached to a node harkened me back to my first computer science class (SCHEME). There we were made to write iterative and recursive functions for breadth-first-searches and depth-first-searches. Again it reminded me of my Data Structures and Algorithms class later, which incorporated those same ideas but in JAVA. So the primary node in my graph doesn't exist, and the nodes themselves are not an ordinary count (as the unique IDs for each seem to not be contiguous over deletions and additions of tasks).   My next step will be outlined more clearly in the next post, but I have an inkling that I have succeeded in getting the DFS (the one I chose based on the O() costs) to mostly work. It now sorts down and up for children and parents, looking for the longest route down. Actually, come to think of it, I would probably like to just search down, as going back up does not necessitate refinding a parent (as its discovery has already happened). 
+
+						
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+						
+						   UPTO, or the Unemployed Person's Task Organizer, is a simple program I've been toying with on sleepless nights or on programming binges. I have no steady work pace and I have no real direction. The main focal points of the program are to be able to  display tasks   in an organized and valuable way  (the next post will deal with current issues concerning that specifically);  edit tasks ;  add tasks ;  delete tasks ;  control user functionality through permission levels based on password protection ; and  provide a nice clean environment . A model task organizer and calendar program is the open source program by Alex King called Tasks and Tasks Pro, but both require some purchase for accessing more features (such as the permission control). The permission control in UPTO is a very well developed PHP based system, based on simplicity and page design. I hope you all get a chance to fiddle around with the demo at the location below... Check out  urlLink  this link  and use the login: taskuser and the password: taskpass0*  So far the current housing location for UPTO is at:  urlLink www.eliselkin.com  
+
+						
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+						
+						   Well now, as you might see, there are some enhancements to viewing the table (someday soon I'll work on the reorganization to allow sort-by-date, sort-by-name, sort-by-estimated_length_of_task, etc). Adding children now does not overwrite the other children (that was an issue with an incorrect variable name). Now that that is sorted out it's back to making task editing what it should be and then task viewing will take its next steps. Also, I'd like to do some variable cleanup and see when variables really need to be global or local and correct those scope errors (as it is a waste of memory).   Mike has urged me to make UPTO a object oriented system. That is, the tasks would become objects which have associated functions... an example would be adding a subtask. In the current method, we add a random task and then assign it a parent if it has one. The benefit of doing it OO would allow for a subtask to be generated simply by having the parent task generate it. Other benefits would include the ability to really keep track of everything in the constructor class, such as  whether the task is completed or visible or whatever instead of having to query the DB for that information. However, I'd rather not have tasks exposed to the public when not necessary... This will take some thinking. 
+
+						
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+						
+						   That's what I call it when I notice that I've made a bad fix (or an incorrect one)... I've been testing this stuff again and the dates aren't holding still... even after you update/set the time again it still reverts the parent to another date... Before it was June 29, now it's June 1, 2004... I don't get it really at the moment! I'll look into it with some debugging! 
+
+						
+</post>
+
+<date>05,July,2004</date>
+<post>
+
+						
+						   PostgreSQL needs Cygwin, forget about that... I want something that can be run and installed simply for windows folk as well as UN*X folk. Therefore I'm sticking with MySQL! 
+
+						
+</post>
+
+<date>05,July,2004</date>
+<post>
+
+						
+						   Looking at some of the developments recently in PostgreSQL I might think of transitioning the platform from MySQL to PostgreSQL.... some of the advantages are the SQL/92&99 compliance issues of MySQL. Another benefit is that it has most features of msSQL and Oracle, so in comparison it might be more intuitive for those users. The new developments are big bucks and manpower from Fujitsu. Check out urlLink the DB's website  and see if it meets the needs... I think so. Also, on the PHP documentation web pages on PostgreSQL, there is a presentation on using it in production. I like the prospects. 
+
+						
+</post>
+
+
+
+</Blog>

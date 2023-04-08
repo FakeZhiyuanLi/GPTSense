@@ -1,0 +1,1 @@
+The standard replaygain allows a player to automatically adjust the volume levels of different audio tracks to a consistent level, regardless of their original recording levels. This can help to prevent sudden changes in volume, making the listening experience more comfortable and enjoyable.

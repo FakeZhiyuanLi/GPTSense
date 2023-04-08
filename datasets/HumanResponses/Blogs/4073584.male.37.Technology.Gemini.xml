@@ -1,0 +1,58 @@
+<Blog>
+
+<date>29,July,2004</date>
+<post>
+
+     
+          Hi, there. This is the first post in my blog, just to introduce it. Everybody's welcome.   
+     
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+     
+          If you ever bothered to take a look at your  Windows   Assembly  folder (see   urlLink GAC  ) from  Windows Explorer , then you already know that it's some kind of especial folder which, among other things, disallow you from pasting files, creating folders, etc.         This sounds secure, right? Hmmmmmm... For some reason I don't remember now, I decided to have a look at it again, but this turn not from  Windows Explorer . Instead, I went there via  DOS  - yes, the old and good  DOS !        Guess what? I found out a bunch of interesting things:    There's a hidden folder, \ gac \ under the main \ Assembly \ folder.    Despite I thought I would find my runtime package there, I didn't, because under the \ Assembly \  urlLink gac  \ folder there is a folder with the same name of the assembly (without the file extension) and, surprisingly enough, one separate subfolder for each version of the assembly!    Once into the final folder - in the case, \ Assembly \  urlLink gac  \ atsSPI3000rp80\3.0.0.0_en-US_89534e58f0857bd2 \ , I could finally reach my goal, the assembly - my compiled runtime package.    More suprises: In this same (leaf) folder, there is a text (INI-like) file named " __AssemblyInfo__.ini ", holding info for the assembly such as:  Signature ,  MVID ,  URL , and  DisplayName .    Here is the contents of the " __AssemblyInfo__.ini " file:       [ AssemblyInfo ]   Signature  = ec86e3af071401b80aaa5f229aea4cd60c5d61e6  MVID  =   1e69ef4352749342b07a26e8d8a9a578    URL  =  file  :  ///G:/D8/WinSys/atsSPI3000rp80.dll   DisplayName  = atsSPI3000rp80 ,  Version =  3.0  .  0.0  ,  Culture = en - US ,  PublicKeyToken =   89534e58f0857bd2                     I didn't try to access the assembly directly to see if Windows complains about, but I'll post any news in this regard just in case.   
+     
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+     
+          When a given runtime package (and this is the case of   urlLink SmartPlugin  ) is present to the  GAC  (  G lobal  A ssembly  C ache ), the  IDE  does not update it in there after recompiling the package. Instead, it only saves the last compiled binary to its output folder. However, the old version (in the  GAC ) keeps being referenced by the  design-time  package as well as any project loaded.      This bug is not easily workarounded. For instance, by simply closing and reopening the  IDE  does not work! In order to force the  IDE  to use the latest compiled version, one has to update it in the  GAC  (even from within the  IDE ). For convenience, I have created a  DOS batch  file that does this (using  Microsoft 's   urlLink GacUtil   tool):      Removes the old version from the  GAC .    Puts it again into the  GAC .    Lists all contents in the  GAC  to ensure it's indeed placed in there.     Here is the batch file:      gacutil.exe /u atsSPI3000rp80 > x.txt    gacutil.exe /i atsSPI3000rp80.dll >> x.txt    gacutil.exe -lr > x.out    find "atsSPI" x.out >> x.txt           For even more convenience, I have added this  DOS batch  to the  IDE 's   Tool   menu, so all I've got to do after every package recompile is fire the batch from the menu. After that, I can recompile all dependant projects (  urlLink hosts   and   urlLink plugins  ).    I think  Delphi  should do that automatically every time a runtime package gets recompiled (if it's already in the  GAC ).     
+     
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+     
+            Published properties (including events)  are not  automatically loaded (after instantiated at  runtime ) from  TDatamodules  stream when hosted by an external module ( DLL ). This seems to be a  bug  in the  Delphi RTL , because the stream reader works normally for the host application.      I have managed to workaround this by getting the plugin class (  urlLink TatsSpi  ) to do it by itself transparently to user. This means you (user) won't even notice there was a problem and won't have to add anything to your plugin project code. In other words, your   urlLink plugin events   (set at  design-time ) will keep firing normally and your   urlLink plugin published properties   will be there as expected. Also, the   urlLink TatsSPi  .Loaded method (inherited from  TDataModule ) will fire too.     Looks like trivial ? Not in  VCL  for  .NET .       \\:^)      
+     
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+     
+        In the article " urlLink Porting SmartPlugin to .NET " I wrote about the main purpose of this blog. Now, continuing the saga...    T  his is what I have managed to port so far:      A do-nothing component set (  urlLink   TatsSpi    ,   urlLink   TatsSpiMan    ) inherited (as on Win32) from   urlLink   TatsSpiBase     (which inherits from  TDataModule ). This I could do without losing anything, although it's been a nightmare to get a TDataModule-based component to work on .NET. As on Win32, the manager (  urlLink   TatsSpiMan    ) can either be droped onto a surface or instantiated as a pure datamodule (like a plugin) - yes, this already works on Win32, just not documented.    The two distinct (designtime and runtime) packages approach has been kept - had some headaches here too. The runtime package ( atsSPI3000rp80 . dll ) resides on the  GAC  (  G lobal  A ssembly  C ache ), so there's no need for it to be installed to  Windows  system folder.    The Tool Palette shows a custom bitmap for the manager component, as on Win32. The runtime unit (  urlLink   atsSPIru    ) remains the same (no   AthraSoft.VCL.SmartPlugin   namespace or similar, because I need the sources to go in the same file "  urlLink   atsSPIru    .pas", in both Win32 and .NET versions). This will be useful to users while porting old projects, as there's no need to change projects' uses clause.    The plugin registration statical function ( RegisterSmartPlugin ) is now (on .NET only) a method in a new, small class ( TatsSmartPluginRegistrar ), because .NET's   urlLink   Activator.CreateInstance     cannot handle statical routines, just classes. Also, the object returned is no longer of the type of your plugin, but a pure   urlLink   TatsSpi     object. See    urlLink  how your code will look like   (targeting both platforms at once).     Some snapshots:      urlLink   Manager component (TatsSpiMan) dropped (at design-time) onto a form    .     urlLink   Manager component (TatsSpiMan) on the Tool Palette    .     urlLink   SmartPlugin runtime package on the Reflection tool    .     urlLink   SmartPlugin runtime package in the GAC (Global Assembly Cache)    .     urlLink   Plugin loaded and initiazed (runtime) by manager    .     Code Snipets:      The plugin registration function   urlLink   RegisterSmartPlugin    .      
+     
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+     
+        Allright,   urlLink SmartPlugin   is going to enter the  .NET  world. Here I will be registering every stage of this "adventure".      If you ever wish to post comments, you must be registered to  urlLink  BlogSpot  , not necessarily member of this blog, so everyone is welcome.        Some considerations :       SmartPlugin  for  .NET  will only be out in its v 3.0 . Before that, we'll have v 2.2.01 , v 2.2.02 , and so on, until I'm finished porting the  Win32  code to  .NET .    Currently, I can't allocate more than a few hours per day for this task, so do not expect v 3.0  to be released too soon.    All efforts are being made to keep as much as possible of the features available in the  Win32  version.    Both engine and sample projects will generate  pure ,  safe  code. When possible,  unmanaged  code will be avoided.   
+     
+    
+</post>
+
+
+</Blog>

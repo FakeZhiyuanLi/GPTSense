@@ -1,0 +1,1 @@
+A concentrated solar power system uses mirrors or lenses to focus sunlight onto a small area, which heats up a fluid (such as water or oil) to generate steam, which then drives a turbine to generate electricity. Often, the heat is stored in a thermal storage system, allowing electricity to be generated even when the sun is not shining.

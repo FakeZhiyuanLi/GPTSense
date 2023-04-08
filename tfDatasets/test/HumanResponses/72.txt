@@ -1,0 +1,1 @@
+including page ranking within 10kb is proving to be tough going; it almost works but, as always, i'm having problems with the math. i'm sure i'll work out some way of jamming it all in.

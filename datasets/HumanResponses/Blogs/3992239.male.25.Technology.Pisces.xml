@@ -1,0 +1,49 @@
+<Blog>
+
+<date>25,July,2004</date>
+<post>
+
+    
+        ... they say. But who would think the US Armed Forces will be your favorite Spa's greatest competitor?   Something to pick up a slow Sunday morning.&nbsp;   urlLink  Bigger Breasts for Free: Join the Army        GI Jane part deux?   &nbsp; Bring it on!     ----     You know that Filipino admonition,  "Huwag kang papaulan, lalagnatin ka?"  (literally Don't get rained on, you'll get a fever)     &nbsp;   Don't listen to it.&nbsp;&nbsp;I promise (not), take it from someone  who didn't and got sick.     &nbsp;    &nbsp;        
+    
+    
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+    
+        &nbsp; She isn't apologizing, yet the move seems to be more popular than expected.&nbsp; What's the deal with Angelo De La Cruz' beheading&nbsp;and why did President Arroyo do a complete policy turn-around at the risk of loss of face?   &nbsp;  &nbsp;  urlLink Arroyo defiant over US criticism of Philippine troop pullout     &nbsp; The name "Angelo De La Cruz" resembles the character in Filipino society that represents the average Filipino. Americans have Joe, or Uncle Sam to represent them, we Filipinos have our Juan De la Cruz.&nbsp;   &nbsp; To me, the modern Juan de la Cruz has many stereotypes.&nbsp; There are three that comes to mind:       He is either underemployed or unemployed in his own country despite having a degree.    He is one of the 2,000 Filipinos who leave every day to find work overseas&nbsp;in mainly blue collar jobs to support a family he will not see grow.     He is immigrating his whole family to another country and embracing a different citizenship, cutting his roots and ties from home.     Angelo De la Cruz fits the second stereotype to a T.&nbsp; He represents the one group that has sustained the Philippine economy for the last two decades.&nbsp;   He&nbsp;is an Overseas-Filipino-Worker (OFW), and there are 8-million of them supporting extended families here in the Philippines.  &nbsp; For Filipinos, real war heroes are OFWs and not soldiers.&nbsp; They represent fathers and&nbsp;mothers, uncles and aunts,&nbsp;sisters and&nbsp;brothers,&nbsp;sons and daughters. They are not with us but we talk of them on every family occasion, where they are, the hardships they endure, and the familiar&nbsp;"if only I could be in their shoes" spiels.    Mr Angelo De la Cruz is Juan de la Cruz.&nbsp;Try seeing your favorite real-life superhero in chains and at gunpoint, you'll get the picture why the Filipinos connect with his fate while other would see "just" collateral damage. Craven as it may seem, President Arroyo cannot afford it.      
+    
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+    
+        An update to my previous post on  urlLink NUnit Testfixture refactoring   , it seems the way other developers do it is through inheriting from a base class.&nbsp;      &nbsp;  See  urlLink  10 Ways to Make Your Code More Testable        &nbsp;   Though I wish i didn't have to create derived classes for monolithic TestFixtures, it does make sense.&nbsp;&nbsp;     
+    
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+    
+       &nbsp; I recently&nbsp;just&nbsp;started fooling around with the&nbsp;&nbsp;NUnit and NUnitAddin framework for my current project.&nbsp; See  urlLink NUnitAddIn &nbsp;.&nbsp;I was doing the test-driven coding part when I realized that in this case, the framework always returns an incomplete test (a yellow mark when testing doCommon) when I try to refactor within this particular TestFixture:&nbsp;  &nbsp;&nbsp;   [TestFixture] &nbsp;      public class  MyObjectTest &nbsp; { &nbsp;&nbsp;&nbsp;     &nbsp; MyObject myObject; &nbsp; &nbsp;&nbsp;&nbsp;     &nbsp;   &nbsp;&nbsp;[SetUp] &nbsp;&nbsp;&nbsp;    &nbsp;  public void  SetUp() &nbsp;&nbsp;&nbsp;    &nbsp; {&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; myObject = new MyObject(); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;  //...  &nbsp;&nbsp;&nbsp;    &nbsp; } &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;    &nbsp; [TearDown] &nbsp;&nbsp;&nbsp;    &nbsp;  public void  TearDown() &nbsp;&nbsp;&nbsp;    &nbsp; { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;  // ...  &nbsp;&nbsp;&nbsp;    &nbsp; }    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp; [Test] &nbsp;&nbsp;&nbsp;    &nbsp;  public void  TestDoProcess() &nbsp;&nbsp;&nbsp;    &nbsp; {&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp; Assertion.AssertEquals("GetRange",myObject.i,2); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp; &nbsp;&nbsp;  doCommon(myObject);   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp; myObject.DoProcess(); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp; &nbsp; Assertion.AssertEquals("GetRange",myObject.i,1); &nbsp;&nbsp;&nbsp;    &nbsp; } &nbsp; &nbsp;&nbsp;&nbsp;    &nbsp;    &nbsp; [Test]&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;    &nbsp;  public void  TestDoReset() &nbsp;&nbsp;&nbsp;    &nbsp; {&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp; Assertion.AssertEquals("GetRange",myObject.i,2) ; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;   doCommon(myObject);   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp; myObject.DoReset(); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp; Assertion.AssertEquals("GetRange",myObject.i,0); &nbsp;&nbsp;&nbsp;    &nbsp;&nbsp; }     &nbsp;&nbsp; &nbsp;    //this will not be ignored!&nbsp;  &nbsp;&nbsp; //[Ignore("This is not a test!")] &nbsp;&nbsp;&nbsp;&nbsp;     &nbsp;&nbsp;  public void    doCommon  (MyObject anObject) &nbsp;&nbsp;&nbsp;    &nbsp; {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp; &nbsp; //do common processing on anObject &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp; anObject.DoCommonProcess1(); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp; &nbsp; anObject.DoCommonProcess2(); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;  //...  &nbsp;&nbsp;&nbsp;    &nbsp;&nbsp; } &nbsp;    } &nbsp;&nbsp;&nbsp;  &nbsp;  I get the following:   &nbsp; Running&nbsp;doCommon&nbsp; TestCase    &nbsp;&nbsp;'HotBlue.Utility.MyObjectTest. doCommon '   not executed: Method doCommon's&nbsp; signature is not correct:  it must not have parameters .&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp; Since the  doCommon( )  member function was originally an ignored test case, adding the  [Ignore("This is not a test!")]  attribute will still result to the logging of a non-tested attribute, therefore I'd still get a yellow light.&nbsp;   &nbsp; My question is, what's the  [Test]  attribute for if it doesn't differentiate a normal member from a testable member?&nbsp; What am I doing wrong, methinks?&nbsp;   &nbsp; It's a funky tool all in all, but can I refactor?&nbsp;    
+    
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+    
+        So this is what blogging is . . .    &nbsp; blank space that shouts at you to fill her up! &nbsp;   &nbsp;&nbsp;    &nbsp; I am, welcoming myself to my very first blog site.     &nbsp;   &nbsp; Now I 'll have to get back to where I left off before I became sidetracked by these cute little&nbsp;  stop&nbsp;  signs:        &nbsp;   &nbsp; Now&nbsp;where's that  GraphicsPath!?  &nbsp;&nbsp;    &nbsp;&nbsp;   &nbsp; Til next post, Peace.       
+    
+    
+</post>
+
+
+</Blog>

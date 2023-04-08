@@ -1,0 +1,177 @@
+<Blog>
+
+<date>05,August,2003</date>
+<post>
+
+
+           
+      It's always good to run through this list just once on each O/S.  Go to Start, then Run and type hh ntcmds.chm and click on New command-line tools.
+     
+
+        
+</post>
+
+<date>05,August,2003</date>
+<post>
+
+
+           
+      I learned about this utility at TechEd and just had to share it...   If you've heard of  WMI, then WMIC.EXE will make it useful.  It's a command line interface for WMI that doesn't require scripting.  It also allows you to access WMI on Windows 2000 computers through the network.  It gives you invaluable information about your computer in an easy to read web page among other formats.  Try this on an XP or Win2K3 test computer.  wmic startup get /format:hform > startup.htm  Then open startup.htm.  You could add to it like this:  wmic useraccount get caption, lockout /format:hform > useracct.htm.  You could also use it interactively by typing wmic (enter) and using /? for help.  It contains a great deal of information about lots of stuff.  Okay, one more:  wmic netlogin get /format:hform > netlogin.htm. 
+     
+
+        
+</post>
+
+<date>14,October,2003</date>
+<post>
+
+
+           
+      Want a quick way to find information about a Windows XP computer?  Try SYSTEMINFO.EXE from the command line.  It can be automated, and the results can be placed in a file.
+     
+
+        
+</post>
+
+<date>29,December,2003</date>
+<post>
+
+
+           
+      There's a new Microsoft Certification coming out that will test your troubleshooting skills. 
+     
+
+        
+</post>
+
+<date>11,December,2003</date>
+<post>
+
+
+           
+      Have you noticed that when you try to find a file on your hard drive, Windows asks you more questions?  That drives me crazy.  Here’s how to stop it:  Hit Windows + F and when it asks what you want to search for, click on change preferences at the bottom.  Then click on Change Files and Folders behavior and click on Advanced.  Happy searching!  
+     
+
+        
+</post>
+
+<date>29,March,2004</date>
+<post>
+
+
+           
+      It logs TCP and UDP port activity on a local Windows system
+     
+
+        
+</post>
+
+<date>30,April,2004</date>
+<post>
+
+
+           
+      How about this one?  Ever wanted to use a ©, ®, or maybe a ¢?  If you go to Start, Run and type CHARMAP, it will lead you to a host of symbols you can drop into your documents.  Don’t forget to check out the font called WingDings in there to see the strangest font characters ever.  
+     
+
+        
+</post>
+
+<date>12,April,2004</date>
+<post>
+
+
+           
+      Ever double click on My Computer and wish you could get to the list of folders?  There are two ways to do this.  For single use, you can double click on My Computer then go to View, Explorer Bar, Folders (or hold down Alt and type V,E,O) for short.  To make it permanent, open My Computer and go to Tools, Folder Options, File Types and find the folder icon next to (none) and Folder.  Click it, go to Advanced click Explore, then Set Default.
+     
+
+        
+</post>
+
+<date>12,April,2004</date>
+<post>
+
+
+           
+      Be able to see more details than ever before.  Go to Windows Explorer and view details.  This one’s really cool!  Find a folder with word docs in it.  Right click on the grey Name bar and click on More…  Click on Pages and close.  Is that cool or what?  You can also move the details by simply dragging the grey title bar left or right.  Give it a try…
+     
+
+        
+</post>
+
+<date>12,April,2004</date>
+<post>
+
+
+           
+      If you've played with Server 2003, no doubt you've come across the "Why do you want to shutdown?" question. To stop the madness, you can Disable the Shutdown Event Tracker here: Open Group Policy. Navigate to the Display Shutdown Event Tracker policy, and double-click it. (Local Computer Policy, Computer Configuration, Administrative Templates, System) On the Setting tab, click Not Configured, Enabled, or Disabled. Click OK.  You can also control shutdown from a batch file or command line here: Go to a command prompt and type SHUTDOWN /? (XP and Win2K3) For options, click the link.
+     
+
+        
+</post>
+
+<date>12,April,2004</date>
+<post>
+
+
+           
+      I like shortcut keys. I have them for all of my frequently used programs. Give this a try. Go to Start, Programs, and right-click on Microsoft Word. Go to properties and click on Shortcut Key and type a CTRL ALT W in there. Close the dialogue box and try it out. I have them for Outlook, Excel, Word, PowerPoint, Siebel, VPN, etc. They’re great! 
+     
+
+        
+</post>
+
+<date>12,April,2004</date>
+<post>
+
+
+           
+      A. Frequently, a driver or application leaks registry handles, which means the driver or application opens the registry but doesn't close it. The open registry isn't a problem until you log off, when the profile of the logged-on user tries to unload the user's registry but fails because it's still in use. An open registry connection is a major problem if you use roaming profiles; because the system can't unload your profile, Windows can't copy it back to the profile storage server. If the system doesn't unload your profile, when you log on the next day you'll receive an error stating that your local profile is newer than your remote profile. Typically, with this problem an administrator will see event ID 1517, 1524, or 1500 in the event logs.  Microsoft provides a service called UPHClean, which checks for leaked connections to the registry and cleans them up, thereby letting a user's profile unload cleanly so Windows can copy it back to the remote profile storage area.    Your best option is to download file UPHClean-Setup.msi, which you can then deploy through Group Policy or--if you need to deploy UPHClean on a large scale--Systems Management Server (SMS). You need Administrator privileges to install UPHClean interactively. I've used UPHClean many times, and it has always fixed the profile-locking problems. 
+     
+
+        
+</post>
+
+<date>05,May,2004</date>
+<post>
+
+
+           
+      Thanks Randy for this information.
+     
+
+        
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+
+           
+      Internet Explorer shortcuts! Try these: F11 to make it full screen and back, Shift when you click on a link to open in a new window, F6 highlights the Address bar to type a new URL, F5 is refresh current page, CTL H shows history of where you’ve been.
+     
+
+        
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+
+           
+      Hidden Data in Word Ever wish you could remove hidden data from Office 2003 and XP?  If you want to change the "Final Showing Markup" view in Word 2003, go to Tools->Options->Security and uncheck "Make hidden markup visible when opening or saving". 
+     
+
+        
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+
+           
+                                     Check out      urlLink http://support.microsoft.com/?kbid=831648  provides the steps to deploy a hotfix to previously deployed Advanced Clients.   &nbsp;Only apply the hotfix if you have this problem.         
+</post>
+
+
+</Blog>

@@ -1,0 +1,1 @@
+Mutations that do not change the amino acid sequence are called silent mutations. These mutations occur when a nucleotide is changed, but the resulting codon still codes for the same amino acid. Silent mutations can sometimes have minor effects on gene expression, but they generally do not lead to significant changes in the protein products of genes.

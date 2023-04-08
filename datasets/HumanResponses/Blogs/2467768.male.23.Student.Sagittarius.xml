@@ -1,0 +1,517 @@
+<Blog>
+
+<date>19,June,2004</date>
+<post>
+
+	 
+      From 21st of June, The Hazzie will move to Gywnneville, Wollongong, Australia ... The 'lepakz' st of port Hafizah & Julies ... Hahaha and the getaway of mat cutez, Firdaus.... and the guidiance of justisim of Justin .... What else ????   Cool, hopefully, I am able to teleport all my stuffs to Gwynneville by today.  Hahaha , Mr President of MASCA is here, Syamsul Hendra,not Syamsul 'Ghau Ghau'. He also another senarioooooooo cases ... with the powerhouse of Kak Sam .. They do create all the jokes of the lamerz ........ hehehe.  So, bad of me ....  My galfriend call me last nite... She said I have changed ?? In what sense, my speech therapy, I dunn think so.... I still the old plain Hazzie .. Yeahhh , with those yeah.. and mate .. I know I have pick up the Aussies' accent a bit. But my English still the same... Broken as ever... Hahahaha ... Who cares ... I dunn know what will other of my mates, eerrrr, I mean buddy said in Singapore .... 10 months in Aussies .. especially Wollongong, of course change my speech therapy .. hahaha  Cheers, man .. I need to bath .. But it's sunny and super the windy .. but, I still feel cold ... Cold In Rush ....
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+      I have learnt my lesson well. The truth is out there I can sense, Dunn look back and be surprise ... Live your life till the last puffs ...   Tommorrow the last paper ... I just received an sms from Juli, wishing me be strong ... I really appreciated. And Liza, trying to find a person to drive her to the airport. As much as I wannt to see her off at the aiport, but I can't. I am still stuck with the last jargon.   And this is the first time, I study all alone without my mom or dad's actually support. Man, stop the Sudirman's song.. I know .. not now .. later, day of tomoro .. Dunn need to remind of my folks....  there's is a lil boy still at the corner of greenacre road,   he's been sitting down there all week long, he is studying hard, knock to the ground,  and he start to say, still studying for the last paper ....  what about me .....  while i pass this time  so listen , what about me .. nobody change, and i feel cold and lone... and i guess i luckly , some i ask for more ... WHAT ABOUT ME ....  What about me .....  No mom's cooking, no daddy's wise words... All alone studying thru the lates nites ....
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      " Men of the 69th Java Shocktroopies... We have concealled about 38% of the whole objective thru daily assignment. It is just and average performance by an elite shocktroopies ... Last fight, was really a risk, a gamble.... It is a good bottleneck that our highly commanders have thaought off .. Securing 80% of the victory .. after a retrograde mission in the latter battle. Battle of Animation using multi-threading ..... Why the hell now people do Animations using Java. Used flash, better and faster .... to streming on the highway....  Troopies ... fight well for the last batt;e secure a another 35% from this battle  making a full victory ... of 73% in the fight. Fwahhhhh , that a distiction ... Cool troopies , we shall works toward the excellency of the troopies ...."  General Hazzie Hazzio Commanding Officer 69th Java ShockTroopies 313 Army
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      import java.awt.*; import java.awt.event.MouseAdapter; import java.awt.event.MouseEvent; import java.io.File; import java.io.IOException;  import javax.imageio.ImageIO; import javax.swing.*;  public class Hazzie{ 	public static void main (String[] args){ 		JFrame frame = new JFrame("Hazzie Frame"); 		ImagePanel panel = new ImagePanel(); 		frame.getContentPane().add(panel); 		frame.setSize(400,400); 		frame.setVisible(true); 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 	} }  class ImagePanel extends JPanel{ 	private Image HazzieImage; 	private boolean toggle = true; 	 	ImagePanel(){ 		try{ 			HazzieImage = ImageIO.read(new File("Hazzie.jpg")); 		}catch (IOException e){ 			e.printStackTrace(); 		} 	 	addMouseListener(new MouseAdapter(){ 		public void mouseClicked(MouseEvent event){ 			toggle = !toggle; 			repaint(); 		} 	}); 	} 	 	public void paintComponent(Graphics g){ 		super.paintComponent(g); 		 		g.drawImage(HazzieImage,0,0,null); 		 		if (toggle){ 			g.setColor(Color.BLACK); 		}else{ 			g.setColor(Color.RED); 		} 		 		g.setFont(new Font("Arial", Font.BOLD,15)); 		g.drawString("Dream Gal",20,325); 		g.drawString("Draw By Hazzie Show",20,350); 	} }	 
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      It is:  Chief Information Officer, Chief Intelligent Officer, Computer Intelligent Officer, Chief Infantry Officer??  Well, that my dream for me to decide, after the Battle of Java Land....  Pte Hazzie, Computer Storeman 69th Java Shocktroopies of the 313 Army
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      "This is the day. The day we have awaited for 4 months of battle intelligency. The day have come to proscuate Yi Mu's Imperial Guard... The day victory shall re-write in the history of Java Land... The day, where all our mother land have depend on ... Let's be this the last battle and where is no war, let's peace be there in Java Land, and celebration to Sydney, celebrated by the FreeWorld ... No no no ... down to the FreeWorld, it's 313's rulez .. 313, 313, 313...... Remember, your code is 313 for the Motherland ..... "   Lt Comdr Hazzie,  Computer Intelligent Officer(CIO) 69th Java Shocktroopies of the 313 Army.
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      This here Rough Edge Terry Lee, S-G to M-Y You feel me when you talk too much And i had enough cinta (cinta) But you talk too much And I had enough cinta (cinta)  Do you remember the time when We used to get along I know that you can't forget I never did you wrong And even though I tried to Get it to your head Baby a point was not to tell There's nothing I could do  Picture me shopping, spending, wining and climbing I'm climbing but I can't reach the top Baby I'm sick and tried of you lending me on I think I'll be going I know I better stop  Tiada lagi cinta That means no more love for me Sayang.. ku tak mahu Darling I don't want you Tiada lagi cinta, tak perlukan cinta Atau kasih mesra Shorty... you feel me  Do you remember late nights Car rides you and me I know that you might forget That's ok with me You took my heart away But I couldn't survive But here I am now I'm alright, baby I'm alive  Sayang ku tak mahu Baby I don't want you I need you no more Baby there's no more love No love no for schizo oh...  What's the ice clock for you got no time What's the points of fast cars if you count red lights Shorty let her two time, but she won't take mine I'm popping pipelines, like my berderline Got too caught in it, pop back you back in it  I'm thinking I'm done with it,I'm throwing the towel in it No sake to stay in it, 'Cos you talk too much And it ain't my fault, that you lost your touch So it's no more love, no more VIP No more late night knocking 'cos you're bothering me And I'm staying clear, 'cos your loves live wire I'm looking for something higher like Sarah Maya  I'm looking for new things on the lighter side of white Even though you look hot, you the wrong side of right I don't care how tight, I don't care if you shout I'm turning the clock around, I'm pulling the keys out You feel me  There ain't no more love, You know what I'm saying I'm taking everything back I'm taking back my TV, my stereo and my toaster I'm taking back the cat and the goldfish The car and the car keys You understang me baby (cinta) Please don't call my number 'Cos that's disconnected
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      The Sky Is Clear The Air Is Clean The Land Is Green Thank You Allah Thank You Allah  The Path We Walk The Lines We Talk The Things We See Thank You Allah Thank You Allah  When I Sleep When I Eat When I Breath Thank You Allah Thank You Allah  Say Thank You Allah Thank You Allah  Every Walk The Fate We've Got The Light We Live Don't Forget To Say Thank You Allah  In The Night And In The Day Every Morning After Prayer I'll Never Forget To Say Thank You  There Are Times When I'm Alone Feeling Sorrow Or Not So Strong I'll Pray To You And Say Thank You Allah Thank You Allah  So Friends Everytime Remember Allah The Most Merciful Say Thank You Allah Thank You Allah
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      Seindah tiada lagi kau kuingatkan Sayang kau hilang Menanti biar sampai akhir hayatku di dunia ini  Kau tahu betapa kusayang padamu Hanya bidadari sebagai ganti Hanya takdir menentukan ia Oh belaian jiwa  Oh angin sampaikan laguku padanya Yang sedih pilu Terimalah laguku jadi teman hidupmu Untuk selamanya  Kau tahu betapa kusayang padamu Hanya bidadari sebagai ganti Hanya takdir menentukan ia Oh belaian jiwa
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      Tertutupkah sudah hatimu Untuk menerima ku lagi Apakah keras hatimu Tak bisa lentur lagi Bukan ku sengaja Mahu kau terluka Bukan niatku  Kalau pun memang Aku bersalah Namun sebesar manakah Begitu susah utk kau maafkan Hingga ingin kau singkirkan Bumi yang manakah yang tak pernah basah Bila hujan mencurah  Aku usah berubah Usah diturutkan hati marah Di hati kecilmu Ku tahu kau tak begitu  Sudah lumrah cinta Suka bersulamkan air mata Kita dihiris rencana Terpetik cinta sukunya  Kita buang keruh yang melanda Kasih pasti jernih semula Tak siapa di dunia merasa Cinta terlepas sengsara  Tanpa rajuk hiba Tak ketemu makna Nikmatnya cinta 
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      Hadirlah kasih... Hadir dalam mimpiku Hadirlah cinta... Hadir dalam hidupku  Dalam perjalananku Masih jauh harusku tuju Aku mencari-cari cinta Cinta yang tulus dan sejati  Kerna aku percayakan Cinta suci yang datang dari hati  Hadirlah kasih... Hadir dalam mimpiku Hadirlah cinta... Hadir dalam hatiku Hadirlah sayang... Hadir dalam hidupku Hadirlah kasih... Agar tercapai segala-galanya  Harus aku mencari Cinta yang tulus dan suci Punya segala-galanya Apa yang aku impikan  Kerna aku percayakan Cinta suci yang datang dari hati  Kalau ditakdirkan Bertemuku denganmu Akan kubina istana bahagia Agar kita bersama Kekal selamanya  Hadirlah kasih... Hadir dalam mimpiku Hadirlah cinta... Hadir dalam hatiku Hadirlah sayang... Hadir dalam hidupku Hadirlah kasih... Agar tercapai segala-galanya
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      Do you know that all superheroes end with "MAN"? Superman, Spiderman, Batman, Ironman, Iceman ..... Whatelse??   And they are classified under the X-Men Chromosom Factor Methodologies.   In short, they are the family of X-Men.   I guess I am one of them too. Cos, I am Hazman.   Rite, mom? 
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      Mujahid !! On your Guards !!   Today, We will take invaders and conquered with full vitory. With the guides of Lord ...   Fisabinilah !!   Fight in the way of Lord, Drive them out of the places, where they drive you out. Fight them till proscution is no more. And religion is for God. If they stop, let's there be no more war.   And, God never loves the start of war. 
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      KINI AKU... PASRAH DENGAN SEGALANYA KEPEDIHAN ITU MASIH TERASA APAKAH SALAHKU APAKAH DOSAKU TUHAN BERILAHKU PETUNJUKMU REDHA DENGAN KEHENDAKMU CUKUP KALI INI KAU MENYAKITI BERULANGKALI TAK USAHLAH KEMBALI DENGAN RELA HATI MELEPAS KAU PERGI...  -------------------------------------------------  What the actually meaning of PASARH ?? Can somebody tell me ???
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      I love this lyrics, keep singing, keeping reminding me of home, Razak, Holland Ville, Adam Rd, Alif, and last Tekong ... Oh, and my dad, mom, my bro and my gf .....  ---------------------------------------------------- Di sepi ini aku mencari Sinar matamu Lama ku tunggu tidak ku temu  Ku ayunkan buaian cinta Di pohon duka Berguguran keindahan kernamu  Akan ku simpulkan tangis ini Memaut harapan yang tenggelam  Airmata berguguran Menyapa penantian Yang kecundangan  Cinta ku kau persiakan Tiada arah haluan Terbiar sayang  Akan ku simpulkan tangis ini Memaut harapan yang tenggelam  Airmata berguguran Menyapa penantian Yang kecundangan  Menjelmalah wahai sayang Biar pun sekilas pandang Oh di mataku  Di dalam keresahan ini Inginku mengadu rindu
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      import java.io.*; import java.net.*;  /**Create the socket,port  */  public class RealEchoServer{  	  	public static void main(String[] args){  	//for multiple connection  	int i=1;  	  	//create the socket  	try{  		ServerSocket s = new ServerSocket(9001);  		  		//socket accepted  		for(;;){  			Socket incoming = s.accept();  			System.out.println("Spawning"+i);  			new RealEchoHandler(incoming, i).start();  			i++;  		}  	}  	//if unsuccesfull to connect, print error  	catch (Exception e){System.out.println(e);} 	} }  //this class to handle multiple clients & incoming data class RealEchoHandler extends Thread{ 	DataInputStream in; 	DataOutputStream out; 	private Socket incoming; 	private int counter; 	 	//handle multiple client connecting 	public RealEchoHandler(Socket i,int c){ 		incoming = i; 		counter = c; 	} 	 	//get data from client 	public void run(){ 		 		//declare a variable so data can put in and out 		try{ 			in = new DataInputStream(incoming.getInputStream()); 			out = new DataOutputStream(incoming.getOutputStream()); 			 			//when socket is connect, print  			boolean done = false; 			String str=""; 			out.writeUTF("Connected!!\n"); 			out.flush(); 			 			//write to data in & out when client write 			while (!done){ 				out.writeUTF(">"); 				out.flush(); 				str = in.readUTF(); 				System.out.println(in+":"+str); 				if (str==null) 				    done=true; 				else{ 					out.writeUTF("Echo("+counter+"):"+str+"\n"); 					out.flush(); 				} 			}  		incoming.close(); 		}catch (Exception e){System.out.println(e);} 	} }
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      import java.io.*; import java.net.*;  /**Create the socket,port  */  public class RealEchoServer{  	  	public static void main(String[] args){  	//for multiple connection  	int i=1;  	  	//create the socket  	try{  		ServerSocket s = new ServerSocket(9001);  		  		//socket accepted  		for(;;){  			Socket incoming = s.accept();  			System.out.println("Spawning"+i);  			new RealEchoHandler(incoming, i).start();  			i++;  		}  	}  	//if unsuccesfull to connect, print error  	catch (Exception e){System.out.println(e);} 	} }  //this class to handle multiple clients & incoming data class RealEchoHandler extends Thread{ 	DataInputStream in; 	DataOutputStream out; 	private Socket incoming; 	private int counter; 	 	//handle multiple client connecting 	public RealEchoHandler(Socket i,int c){ 		incoming = i; 		counter = c; 	} 	 	//get data from client 	public void run(){ 		 		//declare a variable so data can put in and out 		try{ 			in = new DataInputStream(incoming.getInputStream()); 			out = new DataOutputStream(incoming.getOutputStream()); 			 			//when socket is connect, print  			boolean done = false; 			String str=""; 			out.writeUTF("Connected!!\n"); 			out.flush(); 			 			//write to data in & out when client write 			while (!done){ 				out.writeUTF(">"); 				out.flush(); 				str = in.readUTF(); 				System.out.println(in+":"+str); 				if (str==null) 				    done=true; 				else{ 					out.writeUTF("Echo("+counter+"):"+str+"\n"); 					out.flush(); 				} 			}  		incoming.close(); 		}catch (Exception e){System.out.println(e);} 	} }
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      Can I pass my Coporate Network Planning? That is my first essay, I writen after last GCE O level paper in 1997. And I scored 40%, cause, my referencing is all wrong, The damn tutor cut lot's of marks.... It is my first essay what and I say. Doesn't even give me a chance ... Okiz , the 50%, I didn't study, for the MCQ. I just used whatever in my brain have ... and applied. Hehehe , luckly my Major Report put up a lot. And who stay I can't write good essay. I got 85% for that individual essay report.... 6000 words ... 3 days No sleeps... All write about documenation forms in helpdesk management  For IACT 418     Corporate Network Management Milestone Test 1 = 90%                  Corporate Network Management Milestone Test 2 = 100%                  Corporate Network Management Milestone Test 3 = 80%                  Corporate Network Management Milestone Test 4 = 50%                                       Essay = 40%                  Seminar = 70%                  Major Project(Thesis) = 85%                  Exam = 11 June 2004  The questions is now ..... CAN I PASS this subject ???? 
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      import java.awt.*; import java.awt.event.*; import javax.swing.*;  public class ButtonTest{ 	 	public static void main(String[] args) 	{ 		ButtonFrame frame = new ButtonFrame(); 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 		frame.show(); 	} }  /**A Frame with a button panel  */  class ButtonFrame extends JFrame  {  	public ButtonFrame()  	{  		setTitle("My Button Test");  		setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);  		  		//add panel to frame  		  		ButtonPanel panel = new ButtonPanel();  		Container contentPane = getContentPane();  		contentPane.add(panel);  	}  	  	public static final int DEFAULT_WIDTH = 300;  	public static final int DEFAULT_HEIGHT = 200;  	  }    /**A panel with three buttons   */  class ButtonPanel extends JPanel  {  	public ButtonPanel()  	{  		//create buttons  		JButton yellowButton = new JButton("Yellow");  		JButton redButton = new JButton("Red");  		JButton greenButton = new JButton("Green");  		  		//add button to panel  		add(yellowButton);  		add(redButton);  		add(greenButton);  		  		//create button action  		ColorAction yellowAction = new ColorAction(Color.YELLOW);  		ColorAction redAction = new ColorAction(Color.RED);  		ColorAction greenAction = new ColorAction(Color.GREEN);  		  		//link action with buttons  		yellowButton.addActionListener(yellowAction);  		redButton.addActionListener(redAction); 		greenButton.addActionListener(greenAction);	  	}  	 /**An Action listener that sets the panel's background color  */    private class ColorAction implements ActionListener  {  	public ColorAction(Color c)  	{  		backgroundColor = c;  	}  	  	public void actionPerformed(ActionEvent event)  	{  		setBackground(backgroundColor);  	}  	  	private Color backgroundColor;  }  }
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      import java.io.*; import java.net.*;  /**Connecting to port  */    class RealSocketTest{  	public static void main(String[] args){  		String str = "";  		String str2 = "";  		DataOutputStream out;  		DataInputStream in;  		  		//point to the port  		try{  			Socket t = new Socket("127.0.0.1",9001);  		  		//declare for the date to be in/out put  		in = new DataInputStream(t.getInputStream());  		out = new DataOutputStream(t.getOutputStream());  		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));  		  		boolean more = true;  		System.out.println(in.readUTF());  		while(more){  			str = in.readUTF();  			System.out.println(str);  			str2=br.readLine();  			out.writeUTF(str2);  			out.flush();  			str = in.readUTF();  			if(str == null)  				more = false;  			else  				System.out.println(str);  			}  	    }catch (IOException e){  	    	System.out.println("Error"+ e);  	    }  	    System.out.println(str); 	} }
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      I am really sad and worried for my JAVA subject. It is really a tough jargon industry for me. I dunn know wherether I can pass this subject or not.  CSCI213           Java Programming Assignment Test 1 = 75%                   Java Programming Assignment Test 2 = 95%                   Java Programming Assignment Test 3 = 75%                   Java Programming Assignment Test 4 = 60%                   Java Programming Assignment Test 5 = 80%                   Exam = 18 June 2004 ????  Technically, I scored 38.5% out of 50% for my assignment. And I need 12% marks more to pass. But the stupid university states the rule that I have to pass my exam, in order to pass the subject ... Which means... If score 12% more, I still failed. But if I score 25%, scrapping thru the paper, getting 63.5%, means I straightly get a credit. Wierd top IT school in Australia ...  Anyway, I just pray to HIM that He will guide me and pass my subjects...  Amen.
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      A tall slim and graceful woman who walks proudly like she is walking in a beauty pageant competition. If she slips or nearly falls, she will nicely covered it up and continue with her graceful and impressive walking step. She knows how to use make up to enhance her beauty. She looks at the world positively, so her face always seems so happy. She will not get up set easily.  Self confident woman who believes in her own style. She will not follow fashion, but standing in between simplicity and too modern. She is a very open person, sometimes can be too blunt. She is an honest person and never try to cause troubles for any one. She likes to say something that you do not want to hear and yet she can say something so pleasing at the same time. Example she may say "I wish you could make more money, so you could afford better cloth, but anyway it is better this way. If you make more money you could be thinking of money too much and become greedy". She can say such thing and make you wonder if you should get up set or love her more.  She is also a free spirit and does not like to stay home. She likes to be protected, but not to give her orders. She has no respect to a weak man. If she try to over powered you, then you have to calm her down and try to control her to be in a limit by doing the same thing too. She will listen if she respects you. She likes to be herself and like her guy to be himself.   She is a no nonsense woman, so you will not hear she says "Guess what I will do next", or "Guess what I am thinking" because she always say what she is thinking out loud like a guy. If you do not understand her in this matter, you could easily break up with her. She sees problems in her love life as another funny story.  She is clumsy and it is in her nature. You may think it is cute, but for some neat guys this could be so unbearable. She is very friendly, so she can easily turn her enemy to be her friends. She has good taste in fine cloths, good food, first class and first services. Even a poor woman in this Zodiac will struggle to afford such good taste. She could spend lots of money as if she can not understand how difficult it is to make money. If you think of let her borrow money, think again.  She is a paranoid. If she thinks you like her, she may already think about getting married and lost her freedom and so on and on. A jolly woman who loves sports. She is an ordinary woman who could dress like a tomboy. She has more guy friends and sometimes could act like one of a guy. She does not care about rumors, so she can get home very late and couldn't careless what her neighbor will gossip about her. She thinks either good or bad, you will know it yourself, so you should not bother what people think.   Her wit and innocent look are her charms. She is often hurts from love, but never afraid to look for a new one as if she is singing "Do that to me one more time". She likes going straight and being straight forward. She will not go around to get what she wants, or beat around the bush just to say something. If you meet her and tell her straight what you think, she will admire you.  
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      Frankly, I am really very disappointed. My girlfriend was so fussy about the T.A.G Board. But, she never left any message on mine. I dunn really understand, what goin on with. Usually, she supported the idea. Is this one of the signs from them?  I only left with 1 paper to go. 1 Jargon Player. Java. I really hopefully about to pass. I woke up early, to pray Fajr. Lately, I think He is watching me. Cos, I can feel in my nevres.... I just wanna to pass all the subjects and get on to the next sessions, Insya-Allah.
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      A tall slim, cool and quiet woman. Once she is mad she can be very fierce. She can work better than some men and she is very highly confident woman. In her opinion, woman is not just a flower or decoration at home or at an office and certainly not a weak sex who needs protection.   She likes to control and hide her weak emotions. She will never try to change anyone, but she will learn to accept them as they are. If she does not like someone, she will not comments or criticize but she will completely ignore that person.  She hate plastic and an artificial flower because it make her feel that you are not being sincere. She loves real flower and its scent. She loves a guy who wears after shave cologne. If you are a type of a guy who wears your Jean one month before washing, or wear an old sneaker, then you can forget about her.  She loves music and nature even there is a rare case otherwise. She loves to go picnic in nature, so if you don't have so much time for her, you can take her fishing too. She is not as jealous as Aquarius or Leo woman, but do not cross the line O.K. Better not to see she gets mad, especially in front of public when she feels like loosing face. She loves to make up and dress perfectly and very neat, so never rush her for this matter.   She has her own goal in life and does not care if you have a doctorate degree or not, if she thinks you are not bright then she will not care about you at all. She likes smart people by character not by certificate shown. If you cannot show her this quality, go and take a bus and go to the next stop.  She does not like a dreamer who talks about his dream but never put his hands in action to make it happens. Don't bother to tell her "everyone is doing it, you should do it too", or "I think you should do it, it's good for you", because she will do what she wants to do only.  She is a neat and tidy person, so if your apartment is a pigsty, do not take her there. If you go out on a date with her, try to be presentable such as nice and clean dress, clean nails or else it will be your last date.  She is a cool type and will not nag, so easy on your ears. She is a slow but sure type. She will always respect and honor you and will never try to make you loose your face. If she loves you, she will help you in anything you do.  She likes to help people and expect nothing in return. If she asks you for a favor and does not get one, she will feel very disappointed. She has a high hope and a high faith and beliefs in her own confident than believing in "Luck".  If she is your wife, you will have nice and clean home and a gourmet cooking. If your parents visit your house, they will be please. She is a 3 in 1 means , a perfect mother, a perfect housewife, a perfect wife or you could say "happily ever after". 
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+	 
+      A man who loves social life and curious about every new progress, new development to make sure he is in the era and always have all up date information. He likes to know what the latest trend of fashion is and make sure he is not out of style. You can easily spot him at the grand opening of new pub, new restaurant for he loves to participate in social activity.   There is a few Sagittarius who is a private person as well, but you could see that he will be ahead of his friends. He will know what is the best seller book, what are the top 10 hot hit of the week. The hottest movies showing now, he must have already seen it.  He hates routine, it makes him bored. He likes to get to his goals and succeeding in doing so is his true reward. Money making is O.K. but it is not his true joy, for he can easily spend them in a short while. They say if you want the truth, go and ask Sagittarius. They are right, you can ask him and he will tell you all the truth and very straight forward. Even he may speak bluntly, his friends loves him. If you have problems, all your friends may feel sorry for you, but Sagittarius will be the one who will give you a helping hand first and even expect no return favor. That's why he is a real charmer even sometimes big mouth.  When he is mad, he can be quite fierce but quickly dissolve and easily forgotten. He is not a person who will take revenge, so if he say he going to burn down your house, you can relax. He likes compliments and sweet words, so you can manipulate him easily. If he knows you are not sincere, you will totally become meaningless to him.  Some Sagittarius are gifted musician, or singer. He is a happy soul, has a good humor and has lots of jokes. He loves freedom, lively and very energetic. If he is working, he will take his job seriously. He likes to travel, likes to see new exciting places. Going out or traveling make him happy.  Sagittarius man is like a free bird. He lives as if everyday is Sunday. He will hardly be in a bad mood, but if he is in a bad mood, you will better leave his sight. If you want to talk to him in such mood, try to avoid issue of commenting his life. He flirts like other man, but he has a built in brake, so he will come back to you by himself. If he disappear for a few days, not to worry for he is only recharging his battery to be that same lively person again, them he will be back.  He has allergies to Pretty woman, so in love with many women for him would be normal. Setting dating schedule is his games and it's fun for him, and this will keep him from being bored. He hates obligations, so the word "marriage" would suffocate him. If you allow him to have freedom, he will not go anywhere.  He falls in love as easy as he catches cold, especially if she is cute, funny and she has a strong personality. No one can tell how long he will be in love each time. If you want to really hold Sagittarius man, act like you are in an adventure movie. At all time, you should make yourself lively, tells him some jokes, always be cute so that it will ease up his allergy to other pretty women a bit. 
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+	 
+      -encapsulates an attitude towards the administration and execution of a body work  --------------------------------------------------  Characteristics  -has a begining & an end -uses multiple, finite resources -require a leader and staff -has an objective -must be planned -affected by internal & external forces that must be identified and addressed -progress can and must be measured -performance must be reviewed -a group of sub projects  --------------------------------------------------  Attributes Of A Projects  1)Objective 2)Ownwership 3)Schedule & budget 4)Roles 5)Risk and assumption 6)Task dependencies 7)Organisation Changes 8)Operating in an environment larger than the project itself
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      - For many people the appeal of these agile metholodogies is their reaction to the bureaucracy of the monimental Software Engineering.  Adaptive Vs Predictive  -Agile methodologies are rather adaptive rather than predictive -Welcome change
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      RUP 's goal is to enable the production of highest quality software that meets end user needs within predictable schedule and budgets.  It capture and presents some of the current software development best pratices  -------------------------------------------------------  Software Development Process  - serve as a guide for all the participants - must be the best the industry is capable of putting together at this point in its history - must be widely available , so all stakeholder can understand their role in the development  1)Technologies 2)Tools 3)People 4)Organisation process  -------------------------------------------------------  Process Overview - Two Dimensions  -horizontal axis      represent time and show the lifecycle -vertical axis      represents discipline, which the group activities took  -------------------------------------------------------  Time Dimension Phase & Iterations  -broken into cycles, each cycle working on a new generation of product  -------------------------------------------------------  Phases  1)Inception: set up the project business case 2)Elabroration: set up project plan & architecture 3)Construction: grow the system 4)Transition: Supply the system to its end users  -------------------------------------------------------  Static Dimension  1)Workers = Who 2)Activities = How 3)Artefacts = What 4) Workflow = When  -------------------------------------------------------  Rational Unified Process Conclusion  - use case driven, architecture centric, iterative and incremental and use UML -organises projects in terms of workflows and phase. -help find the right requirement and their use drives the development process  -------------------------------------------------------  Web based Vs Traditional Project  1)Strategy 2)User 3)Design  Strategy   (TP) -abstract -dimension indirectly -dimension not addressed at all  (web based) -tangible & visible -relates closely to businness goals  User (TP) -user is employee -user can be trainee -system might be mandatory -can be understood through work study -job satisfactionis a key aim  (web based) -user is a customer, who make payment for good and service -usage is not mandatory -user needs can be understood thru sales & marketing needs  Design (TP) -focus only internal -basic usability  (web based) -as a visual artefact -graphic skills is a must  --------------------------------------------------  Web Site Prototype  -Vertical Prototype could involve testing the exact functionality of a small section of a site -allows evalution of navigation system design   
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      Objective - approached management of the complexity of the IS requirement  ---------------------------------------------------------  4 Level & Their Objective  1)Information Strategy Planning - to construct an information architecture and a strategy which support the overall objectives and needs  2)Business Area Analysis - to understand the individual business areas, and determine their systems requirements  3)System Planning & Design - to establish the behavior of the systems in a way that the user wants and that is achievable using technology  4)Construction & Cut Over - to build & implement the systems as required by the three previous levels  ---------------------------------------------------------  Rapid Application Development (RAD)  - The need to develop IS more quickly has been driven by rapidly changing business needs.  RAD Phase RAD Life Cycle  1)Requirements Planning 2)User Designs 3)Construction 4)Cutover  Rapid TimeBox  - Non extendible time limit place on the prototyping phases  ---------------------------------------------------------  Dynamic System Development Method (DSDM)  DSDM Extends RAD -Project mgt -Group dynamics and team building -Cost estimations & risk assessment -Change control and configuration mgt -Quality assurance & testing strategies  ---------------------------------------------------------  DSDM Framework  - define as structure and controls to be used in a RAD project but does not specify a development metholodology - maybe be used with either OO or structured metholodology  ---------------------------------------------------------  DSDM Life Cycle Phases  1)Feasiblity study 2)Business study 3)Function Model Iteration 4)Design & build Iteration 5)Implementation  ---------------------------------------------------------  DSDM Timeboxing  -an approach for fixing project resource allocation -limits the time available for refinement of requirements design, construction and implementation  3 Major Concern -must carry out any investigation needed to determine the direction that should be taken for that part of the project -must the develop and refine the specified deliverables -must consolidate their work prior to the final deadline     -  
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      " ..........  bridge when you can, route if you have to, switch if you need to and hub if u desire to ......"  Nurhazman Abdul Aziz Cheif Information Officer Haxmanz Technologies, Corp. A Genesis Of Creative Technologies
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      Entity Life History Model  It identifies all the EVENTS, which will have an effect on ENTITY during its life in the systems.  Highlights situations when, - missing events may cause an error - events occuring out of  sequences  Can take into several form -simple form -standared -status indicator form  --------------------------------------------------------------------------------------  The Completeness Prototype Version  - built as Initial Prototypes - same prototypes should be grouped together  --------------------------------------------------------------------------------------  Applying Necessary Controls  - thru formal examinations to get correct performance of the proposed system - involved not only systems analyts, but users managers, internal auditor and person responsible for the project management  --------------------------------------------------------------------------------------  The Controls Prototype  - when study is complete, a full sets of controls analysis form will have been produces - includes the revisions, this is call the Control Prototype, with the deatails of controls included in the systems  --------------------------------------------------------------------------------------  The Computer Systems  - made up of a series of major sub systems. - each programs have difference task  --------------------------------------------------------------------------------------  Completing The Physical Design  2 final steps  - design of physical database -completion of design of the computer process  --------------------------------------------------------------------------------------  The Optimising Prototype  - can be issued as a new version - user interface should be exactly the same as previous - changes should be transparent to user
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      - this process start early - involved looking at each proposed computer process
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      System Data Flow Diagram allow users to understand the System DFD due to their previous expriences.  -------------------------------------------------------  Implementing Initial Prototypes  Consists Of 1)input form & documents 2)output reports 3)dialogue between user & computer  -------------------------------------------------------  Implementing a Prototype  4 Basic Activities - discussing with the user - building the prototype - exercising the prototype - obtaining agreement on its acceptances  -------------------------------------------------------  Logical Path Analysis  2 Reasons - To check the validity of entity model - To provide detail information on access requirement for the physical database design process  -------------------------------------------------------  Analysing Data Usage  - started before the detailed design of the computer process - uses the entity model & relational model - need information on overall data usage 
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      4 Business Model  1) Business Function Diagram 2) Data Flow Diagram 3) Entity Model 3) Relation Model  -------------------------------------------------------  Requirements Specification  - Should be produced at the end of the business analysis stage - Should officially agreed by the user and ower  - provide the definationof business needs  
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      Defination:  It is some form of participation by interested parties other than analyst occurs in the most system development projects.  -------------------------------------------------------  Arguments For User Participation  1) Moral & legal grounds 2) Participants are a valuable source of information 3) Participants learn the new systems 4) Participant can aquire valuable knowledge about the new information system 5) Enchances the quality of analyst's job  -------------------------------------------------------  Land & Hirschheim's User Categories  - request, authorise & pay for the new systems          - may not use, but expected benefits - managers who supervisers          - may not use, most likely responsible for it - cusotmer          - may withdraw, if not satisfy - from a broader society          - may not have the contact, but may affected by it  -------------------------------------------------------  User Involvement  - user knows the need of their businness area - agree on information - providing, specification checking and decision making
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      Objective - Deliver a working system to the end users  Process - Develop an understanding of the system basic - Build a prototype - Gather input from users - Make refinements, resulting in another prototype - Repeats until the system is complete  --------------------------------------------------    Objective - Deliver a working system incrementally to end users  Process - Design system architechture within the existing info sys architecture - Specify & increment - Build & intetegrate the increment - Validate the new version of the system - Repeat till the system is complete  --------------------------------------------------    Advantage Of Prototyping - Reduce development time - Reduce development cost - Requires user participation - Analysts recieve quantifiable user feedback - Exposes to future system enchancement
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      It is a form of an exprimental technique to development of information systems, given the oppurtunites to the user to expect and influence of the project in the early stage.  --------------------------------------------------    Role of prototyping  - increase user confideness & satisfaction - increase likehood of the system acceptance & success  --------------------------------------------------    The Process ::  1)establish objective 2)define major requirements 3)prototype development 4)prototype evaluation  --------------------------------------------------    Prototypes Types  1)Rapid Prototyping 2)Evolutionary Prototyping 3)Incremental Prototyping  --------------------------------------------------    Why Rapid Prototyping?  - done quickly - quick feeedback - saved time - can make changes easily   
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      They are:          1)End User Participation         2)Evolutionary Development Methodologies         3)Interative & Incremental Development         4)Project Management         5)Knowledge Management  --------------------------------------------------      End User Participation:  - focuses on the technology - paid closely attention to the end user - must understands the user's business  - involved more on user participation & vision  --------------------------------------------------    Evolutionary Development Methodologies (EDM)  Characteristic:  - Overlap of analysis, design and construction stages - limited modelling of existing system - partnership & user responsibility - formalisation of prototype boundries - evolving levels of functionality - early implementation - flexibity & scalabity  --------------------------------------------------    Iterative Development - based on analysis of each product, design and requirements Incremental Development - builds upon & enchancing the previos version  --------------------------------------------------    Iterative have 8 step  1) domain analysis 2) requirement defination 3) software architecture 4) risk analysis 5) prototype 6) test suit & environment development 7) integration with previous iterative 8) integration release  --------------------------------------------------    Advantages  - reduce elapsed time between requirement analysis & system delivery - allow some benefits for the new system to be achieve  
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      "It is the original or a model on which something is patterned as well as a first full scale & functional form of a new tpye or design of a construction"  - Webster's Dictionary -
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      Counting down to Friday, looking forward to Foley St. Starting to kick some BUS 316 Business Information System Metholodogies. This is another life in Greenacre Rd.   Sadly to leave this hibernation corner, but looking forward for a new hijrah...
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      Network Technology have define our life to "feel so near, yet so far." I was quite really pretty glad when see Hafizah online. At first, glimspe, I thought she was at Foley St, but nope. She is in Singapore.  This show technology have change our life. The defacto is that I do chat with my galfriend everyday. I always feel so near to her. But realising that she was a distance away from me.  I just want to see my Dad badly. Give him a good warth hug from his son. And today after Isyak prayer, Shiek Abdul Rahman, spoke to us about a Hadith regarding death and funeral. I am really sad when I heard that speech from him. He really make me feel that I want to go home.
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      Life have never been so quiet. I thought I am the only bloke, who now feel down. Firdaus, a buddy for the last 4 months do felt the same feeling, when Hafizah and Juli left this morning.  Sunday Morning, 13th June 2004. UOW Library, once against. I am starting to kick off my studies with BUS316. Frankly, I don't really know, how to pass this paper. Insya-Allah, with his guide, I believe I will. That is also if I put in a little bit of effort.  Tommorrow, my girlfriend will be going to NIE to an interview. I really wish she make thru the interview and become a teacher. Maybe a language teacher, who teaches English. Then, it would be more practical for me in future, I were to relocate and she were to tag along with me  The Hazzie Show... was pretty dramatic..... Tears drop quite a couple fo times. Anyway, i got to continue studying ....
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      The Hazzie Show was really an idea that I wanna. Why is that so? Cos, being a lone on this place, really drive me mad. I know I am going for my dreams. I am a dreamchaser, 24/7 chasing my endless dream to be the best and the gain everythin for myself and the community.  Come to The Hazzie Show @ http://haxmanz.cjb.net.  Proudly sponsored by Haxmanz Technologies, Corp. Cast by Team Haxmanz. 
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+	 
+      The Road, today will start of my road trip to Sydney, hoping from one location to another. I will start with heading to Liverpool for the Islamic Lecture & Debate Tour. Then, move to Ranwick(is that how it spells)....   Cool, cos I have even started packing my bag yet. Hahaha .... Or even the car. I will be back from the road trip either on the 3rd or 4th of July.
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+	 
+      Wow, been ages, I didn't eat mee goreng. I miss my mom mee goreng .... Sadly ... Thanks to Kak Sam, she cooked for the three of us, me, Syamsul and Firdaus .... Power ... The best mee goreng in Wollongong....
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+	 
+      What do that both person mean to you?? Mr Sandman or Mr Dreammaker?  Sometimes, it does really frighten me at nite, when meeting both of them. Last nite, I was talking a stroll on the street with my dad and brother, after meeting my mom's side(relative). It wasn't a good visits, cos everyone is blaming me for imgrating to Australia, while my brother chooses another destiny path for his life. Dad just tagging along with us.  Lord, what does this mean... Soon after a kilometers of walks, we met an accident, killing both of my loves. I am really feel depressed and sad. They just left me alone to finishes the stroll to the end of the gate.   Sound familiar, right? This is like my current situation in Australia. I am living on my own two feet, walking toward to the end of the gate. my destiny path is still a long way to walk . I need a person to walk me home, with the background from Mandy's song ...   Walk me home,  I dunn all the way alone.... Baby, will you take my hand, baby, come to a special place ...  And, I am still typing all the way....  I have to bath, get ready for the journey to Jervis Bay, near Nowra. I am going to watch the miggration of whales !!! I say again WHALES !!!! I never seen whales before... Lord , please please , let's me see the Whales, that Prophet Ayob took..  Whales is one of the magificent creatures, Lord have created. And one of the creatures, that have play a part in Islamic's history. Insya-Allah, he will allowed me to see one of the greatest earth creature, with a pleasant journey. It will be about 1hr 15mins drive from Wollongong. 
+    
+</post>
+
+<date>01,July,2004</date>
+<post>
+
+	 
+      Legend has it that men make the first move. The truth is that women have always made first move and orchestrated the pace, flow and direction of romantic relationships.   Masters of intuition and emotional manipulation, women are adept at body language, able to gauge the emotional temperature of a room quicker than our nipples stiffen in a breeze. You can bet your next G&T, if we're on our way over, we   advertisement were the one who lured her there.
+    
+</post>
+
+<date>30,June,2004</date>
+<post>
+
+	 
+      I have done my best, dad. I only get 2 credit and 2 PC for my exams. I just can get a distintion for you dad. Thats is the best. My friends are teasing me with my results ...  My world is not a beautiful paint at all ... I just study for the sake of studying ... Why is this so ... What am I going to do with my life ...
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+      Today is just a waiting time. It is just a matter of waiting and waiting. Waiting for Rossman and his mate to come down, from Brisbane. Waiting for my results to be out on the SOLs. Just a matter of wait in my fate ....   I guess both of them are gay partners. I doubt it, very much. Gay, in the term of happy, jovial and satisfying each other. That is what my prediction is. It is as if as I am invincible here. I am always the odd one.   Cos, that is what i am.... 
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+      First time in my life, I have witnessed so many new muslim in my life. I have attended two days seminar by Shaik Kalid Yasin, an Afro-American. He does gives preaching to the open society. The first day it was regarding The Historial Jesus, latter was The Hidden Treasure of Islam. This lecture is held in Liverpool, Whitnam Hall, Sdyney.  A lots of youth attended this occassion. Some of the are not even Muslim yet. The gals are really pretty, I have no comments for that. Always from, I would walk in with a non-muslim gal and covert her for the love of my religion and love.  Ops, I have a girlfriend. I guess she will be reading this. I really so lonely. Witnessing 6 gals accepting Islam, was really one of the gracious time for me... I never seen stuffs like that before.
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+      I have known her longer than my girlfriend. She is one of the few girls inspired my dream chaser project, a girl who have guild me thru in my decision ending up in Australia. Curtin is only of my top choices, when they offered me a double degree, Bachelor in Bussiness Administration and Computer Science. Yes, I do have the idea of going to school with Hazlina Hanaffi, way before last year.   One of the reason, why I am not heading for Perth, even not for Murdoch, due to the recognisation. Wollongong is still one of the top for the IT industry. That why I am heading for Wollongong. And Wollongong is really a distant from Perth, even also from Sdyney.   80km down south, sitting below than 15 degree, sometimes reaching about 0 degree. It does really can make me feel homesick. Hafizah Hashim, Juliana Jamal, Nurliza Kamarudin and Nuradlin Ayob all are back in Singapore. Even, Rahizan Zainuldin also have headed back home.   I am only left with this Firdaus Zakaria. He is a good man. But, sometime I am do really feel down, to some issues maybe, I am too sensitive. Which I gues I am, currently now. I need friends, friends who I can trusts, jokes, and going to place where we can enjoy ourselves... Just like my brother, Abdul Razak A. Rahman. I guessed, Razak still the best, no one to replace his accompanionship.  My girlfriend? She is great, I am thankfull to God, till today, I am still with her. But just lastly , I am really quite ignore by her characters. Just that she is not used to be the collage gal, I love so much. True, she is trying to change herself so much. I can see her losing her weight and her hair is dye, brown...   I told her I prefered gals with highlight hair, not brown. But .. it alright, I am not fussy about that. Cos, shw look much interesting now with bown hair. There is she online now. Just give her a minute , she will click and try to cath with me. For now, it is alright for me.   But during exam, she kepe talking wired stuffs to me . That really making me pissed off. Anyway, i am already happy with my girlfriend. But, if she want to be anger with me asking me what is wickedweasel gal? I dunn really care.  I am really feel to the maximum of boreness in my life. Hoping on the July 1st, I would clear all my exam and pass with credits. Insya-Allah.  Yupz, sometimes, in the middle of the nite, my tears do flow out. I never cry in my sleep, thinking about my dad, when i am in the army. I guess Australia, this phase of life is much tougher than army ....  All I wise was November 27 to come soon...
+    
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+	 
+      The last 7 Days was really my best day in Australia. I dunn really felt the stress as students. My Singaporeans friends, Rossman and Sharizan, came down from Brisban. We travelled a few places, jokes around, spending the time of the greatest.  7 minutes laters, they will be on the country train to Melbourne. I was planning to join the crew, but budget was my limit. I really fell heavy to reject join them.  I am really appreciate, with Rossman staying over my place for the last 3 nights. I do enjoyed cooking for them, Lemak Chilli Padi and Chilli Honey Chicken. Usually, I only chat with him thru the net, but now, we jokes and teased each other. I didn't know this pray would grant him  Sharizan, a great hilarious bloke. I didn't know he is from NYP too. Cool, power... At least, we have something in common to chat about NYP life ... And jokes too at nite.  Guys, I you really read this .. I really have a great time here ... I really enjoy myself. Thanks for comming, and accompony me ... I really appreciated it very much Really going to miss both of you guys. Hopefully, ya back to 'the gong' before leaving for Brisbane.
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+	 
+      It's really been a long time, I have updated this site. There lot's of up and down have happen in my life. School life, causal, I just can't stop telling everyone about it.  School first, I have decide to change my major to eBiz Mgt. Man, I have to extend another 6 months more. Cos , I have to do eBiz Fundamentals as my basic subject. I dunn mind actually. If I am extending. I just known this lovely, petite gal. Nope nope .. to that extend that I wanna a new relationship. Just befriends only , not more than that. I have enough of one. She is good to me.  Cos, yupz. I have so much fun cooking in the kitchen in Campus East... Actually, I do notice her last session BBQ. She do has the similiarity to Caroline Cheong. Only till now, got to chat with her, last Saturday. Cool gal.  Ops, my galfriend would be jealous if she read this. Confirm. I am just lonely here, need some friends... It is not easy to be a traveller. Anyway, first priority have ot place first, before my dad killed me.  He already give a good scold, cos he know I am still keeping in touch with my girlfriend. Not because of he don't like my girlfriend, he just doesn't want my studies to be affect and me thinking of home ... Cool .. got to run to do my essay 
+    
+</post>
+
+
+
+<date>06,August,2004</date>
+<post>
+
+	 
+      We encouraged the community to use the Forum for selling their second hand good or advertist their services and products. We will not be responsible for any mishaps happens, if any customers dissatisfactory. Our aim objective is to provide the services of advertising and discussions in the forum, to aid the students needs.  This forum is set up to promote easy communication and discussion between the communities. No fees or any form of cost will be collect, if you post your advertisments or purchases from the forum. And, we shall bear no responsible if any dissatisfaction arise between the process and aftermath. 
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+      singaporeansinuow.cjb.net's web team plans to joint venture with Temasek Society and Malaysia Associations For Students, in providing their club member with the community service. Their associate members now will be able to know each other events, club's news, etc. They can also participate in the discussion forum.  The web team will be appreciated if the plan will be going well, and this will be another milestone for the site to give services to the community. This will also encourage the two groups to work together and bring the live of students in Wollongong.   
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+      Attention Everyone,  The garage sales is going on now. Items like sofa, washing machines, bar fridge and bed are on the lists. Feel free to drop by and view at the forum of this community site.  Don't miss it. 
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+      Visitors are mostly welcome to leave a short comments  in the shoutbox. Please feel free to leave any comments on the site. 
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+      Before, this site is launch officially to the public, we at Haxmanz Technologies, would like to claim a set of disclaimer, regarding this project. This project is totally from the sole heart of the project co-ordinator, himself, based on certain situations that he has been observing in the Singaporeans community in Wollongong.  Yes, of course. We have a number of official organisation that handle the matters of Singaporeans in Wollongong, not to mention their names and organistaion's profiles. Our volunterily assignments and objectives, are just to design and suit their industry and contributing to the community, thru the means of Internet.  All materials here are only based on contributions from the community. Which means, if you approach any of the staffs at Haxmanz Technologies, we are pleased to upload it for you and provide the community with the related materials. That will be on behalf of you, courtesy of Haxmanz Technologies. And, we are not providing any other services, other than updating and keeping this site alive.  So, do feel free to contribute your related materials to the community. If you wish to have any formal arrangment, please feel free to contact the staffs of Haxmanz Technologies, Corp.  Regards, People At Haxmanz Technologies, Contributing To The Community, 2004 
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+      We have just emailed to all our Singaporeans friends and close friends, promoting about this community site. This community site is completely done at a Beta Version last night, around 0245hrs, Sdyney time. The uploading to the free ftp servers was really a painful time bomb. Lots of errors were prompted out during the process of uploading to the server. Anyway, it's a free server. No comments can be made from that issue.  Cool, now every part of the intergrated designs is working, although there are some bugs can be identified from the site. We are still looking into the matter. No hurry ...  Hopefully, by the end of this week, this site will progress with more contents and lives here. We really appreciate all your support.  Cheers, People At Haxmanz Technologies. Bridging The Community Networks.     "Networking doesn't only exits in technologies or relationship. It mean a wired world bridging everyone together into a common goal"
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+      This community site will be launched on August 9, 2004. It is engineered by Haxmanz Tecnologies, Corp. The developers at Haxmanz Technologies, Corp.  is proud to bring together  the Singaporean community on the web: "What Is Going On For Singaporean Students In The University Of Wollongong ?"  Everyone is welcome to participate in the Forum. You can post advertisements selling your 2nd hand goods or search in the forum for a house to live in Wollongong. It will save you the hustle and bustle of searching  for the products and services in Wollongong.  You can also post a discussion in the forum. We would be happy to share our opinions and help you to settle down in Wollongong.  Photo blog is where you can view all the happenings going on in our community. Catch the BBQ events or games organised by Temasek Society, the official society for Singaporean students in University Of Wollongong, or other affiliated societies.  Links is where we are going to network with the other communities and affiliated organisations in Wollongong and in Singapore. This will promote multi-racial harmony in the university.  Feel free to join in and we hope you will return to this site. Even if you are not a Singaporean. Remember... everyone here are friends, regardless of race, religion or nationality.  Lasly, if you wish to contribute materials or ideas to the site, feel free to contact the production team. We are happy to receive your ideas and materials in order to make this community site alive in Australia. Haxmanz Technologies, Corp. hopes to contribute to the community here in Wollongong, as well as back in Singapore. We wish all the students here the best of luck in their studies as well as their future endeavours.  Cheers, Nurhazman Abdul Aziz Project Co-ordinator Haxmanz Technologies, Corp. 
+    
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+	 
+         "Flying Singapore Higher"  My fellow Singaporeans, When I was sworn in as Prime Minister on 28 November 1990, I pledged:   "to ensure that Singapore thrives and grows after Mr Lee Kuan Yew; to find a new group of men and women to help me carry on where he and his colleagues left off; and to build a nation of character and grace where people live lives of dignity and fulfilment, and care for one another."  It has been 14 years since I made that pledge. Though this National Day Message is my last, I address you with a happy heart.   Our economy has grown significantly. Our society is  more compassionate, open and gracious. We have inducted a capable group of younger leaders. As a people, our bonds have deepened. As a nation, we are maturing. We are now more confident of who we are, and what we stand for.   The first seven years produced bountiful harvests. We distributed the fruits, and helped lower-income Singaporeans.   The next seven became lean years. First, Southeast Asia was struck by the Asian Financial crisis. Then followed September 11, terrorism, Sars and economic recession.  But we did not throw up our hands in despair. We rallied and fought back. We worked and grew our economy again.   And together we defeated Sars. It was a frightening time. A good number of our loved ones died. This was my saddest moment in government.   But our collective response to Sars and other crises strengthened my confidence in Singapore's future.   We went through fire together; the steel in us strengthened.   This is what I am proudest of, my fellow Singaporeans, this fighting spirit, the character of our people, our strong bond and social cohesion.   Many of you have thanked me for taking care of Singapore. Tonight, I want to thank you. I have had the privilege of leading Singapore. I could not have shouldered the responsibility alone. I am deeply grateful to you, my fellow Singaporeans, for your support. And the support of my Cabinet colleagues, Members of Parliament and my Party.   The responsibility of taking our nation further will now rest on the shoulders of the next generation of leaders. How do we fly Singapore higher and further? I want to share with you key lessons which I have learnt over the past 14 years.   First, Singapore's future depends on the commitment of its people to the country.   Building a nation is not like building a block of flats. It is not just a matter of laying bricks and pouring concrete. Material wealth alone is not enough to root Singaporeans to Singapore. More important are the emotions and intangibles that bond us to our country - our shared values and memories, our families and friends, our progress as one people and our common commitment to a society where each of us can achieve his or her full potential. I believe that Singaporeans will love their country more when they feel valued and have the opportunity to shape its future.   The second critical factor to keep Singapore going is trust - the trust between the different communities and the trust between the people and the Government. The discovery of the Jemaah Islamiyah (JI) network after 9/11 shocked our people. I was worried that it could break the trust between our Muslim and other communities. I remember our first dialogue session at Kallang Theatre with community and religious leaders. The anxiety was palpable. We explained why the Government had made the JI arrests and that they were not targeted at Muslims. We urged non-Muslims to reach out to the Muslims. We also urged the Muslim community to integrate more with the other communities.   I was relieved when speaker after speaker - Muslim and non-Muslim alike - rose to support the Government's actions. They condemned the terrorist plot as the work of misguided individuals. They emphasized that the plot had nothing to do with our Muslim community.   We could deal with race and religion so openly because of the mutual trust we had built over the years. We have deepened this trust with the way we handled the JI episode.   The third critical factor for Singapore's future success is the quality of national leadership.   Singaporeans are not naturally drawn to politics. So we have to systematically seek out good and able people and persuade them to become MPs and Ministers. And amongst them, there must be at least one who can eventually take over the controls.  Politics was not in my blood. I was asked to stand for elections in 1976 by the late Mr Hon Sui Sen, who was then Finance Minister. I accepted. It was my duty and privilege to serve the country. I had benefited from how Singapore was run. Like many of my generation, my family could not afford to send me to university. I went through university on a government bursary. I advanced in my career because Singapore was not run on the basis of race, family connections or money, but on equal opportunities and merit. By the time Mr Hon's invitation came, I was the managing director of Neptune Orient Lines, leading a comfortable life away from public glare.   I never dreamt that one day I would become your Prime Minister. When I took over from Mr Lee Kuan Yew, many people, including my grassroots leaders, worried for me. At my first National Day Rally, my friends feared that I might fall flat on "live" television. After I finished my speech, I could hear the collective sigh of relief. The audience clapped! And I saw Senior Minister Lee beaming away. He looked immensely relieved. He wanted the younger team to succeed. Had I failed, I would have jeopardised the process of political self-renewal.   Like Mr Lee, I have paid much attention to leadership self-renewal. Planned, orderly transition is what distinguishes Singapore. In other countries, the politicians exploit the divisive forces in society to get elected and, in the process, pull their countries apart. I call this the "politics of dissension and divergence". In Singapore, the political leaders do not fight for personal power or gain. Instead, they mobilise the society's energies for the nation's collective interest. This "politics of consensus and convergence" is the best way forward for us.   I have piloted Singapore for nearly 14 years. Everything is in good working order. The economy is growing strongly. Growth in the first half was 10 per cent. For the whole year, we can expect growth to be between eight and nine per cent. Now is a good time for me to hand over the controls to a new captain and his crew.   Hsien Loong and his team will face different and tougher challenges ahead. The world has become more uncertain. The global economic environment will be more competitive. We must expect lower-skilled jobs to migrate to lower-cost countries. Older, less-educated workers will have to be retrained.   Hsien Loong will also have to deal with fundamental changes in Singapore society. There are fewer babies and more old people. He will have to manage the rising expectations of the younger generation. Many more Singaporeans will live and work overseas. He must make sure that their hearts continue to be Singaporean.   I am confident about Hsien Loong and his team. They are ready to take our nation to a new level. But they cannot do this on their own. They will need your full support and active participation to fly Singapore to greater heights.   I am very happy that I can leave the office of Prime Minister at a time of my own choosing. I do so with full confidence about Singapore's future. We may meet the occasional storm but we will pull through.   I will be there with you too. Hsien Loong has asked me to stay on in the Cabinet. I have agreed to do so.   Tomorrow, when we celebrate our National Day, my heart will fill with pride for Singapore.   My fellow Singaporeans, serving you has been the highest honour of my life.   I wish you a very happy National Day!   Taken From    Updated Aug 8, 7.50 pm (Singapore time)
+    
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+	 
+      PRIME Minister Goh Chok Tong delivered his last public address to the nation on Sunday night with a 'happy heart' and thanked Singaporeans for supporting him during his 14-year tenure. In his National Day message, PM Goh also urged Singaporeans to rally behind the new team of leaders taking over to help shape the country's future.      In retrospect, he recounted that Singaporeans had enjoyed seven years of 'bountiful harvests', followed by seven lean years, marked by the economic downturn and last year's devastating Sars outbreak  But Singaporeans did not give up, choosing instead to rally and fight back.  Mr Goh said that things are looking up again with the economy growing at 10 per cent in the first half of 2004, and the full year growth expected to be between eight to nine per cent.  In his speech telecast on Sunday night, Mr Goh shared key lessons he learnt over the years on how to keep the nation together and 'fly Singapore higher'.  Singapore's future, he said, depends on the commitment of its people to the country.  'Building a nation is not like building a block of flats. It is not just a matter of laying bricks and pouring concrete. Material wealth alone is not enough to root Singaporeans to Singapore,' he said.  Mr Goh said he believed that Singaporeans will treasure their country more when they feel valued and have the opportunity to shape its future.  He said the second critical factor to keep Singapore going is the trust between the different communities and the trust between the people and the Government.  PM Goh cited the discovery of the Jemaah Islamiyah (JI) network, after Sept 11 World Trade Center attacks in the United States, as an incident that shocked Singaporeans.  He said he was worried that it could break the trust between the Muslims and other communities here.  But he was relieved when Singaporeans, Muslims and non-Muslims alike, supported the Government's actions in making the JI arrests, and that they 'condemned the terrorist plot as the work of misguided individuals'.  Mr Goh mentioned that third critical factor for Singapore's future success is the quality of national leadership.   He said that Singaporeans 'are not naturally drawn to politics' so the Government has to 'systematically seek out good and able people and persuade them to become MPs and Ministers'.  Mr Goh also said that Deputy Prime Minister Lee Hsien Loong, 52, who will take over the reins of power on Aug 12 had asked him to remain in the Cabinet, but did not elaborate on his role.  PM Goh said that DPM Lee and his team 'will face tough and different challenges ahead,' but he was confident that they are ready to take Singapore to a new level.    Taken From    Updated Aug 8, 7.50 pm (Singapore time)  
+    
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+	 
+      Catch the National Day Parade  2004 live on the web tommorrow at  urlLink http://www.ndp.org.sg . Don't not miss it. This is the best time of every Singaporeans in Wollongong, who feel to miss home so much after away. NDP parade have been part of our live sincce our childhood. And, tomoro, we are celebrating it in our heart.     You can also send SMS/MMS e-Greetings, and check out What's New!! 
+    
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+	 
+      Temasek Society has organised a BBQ session for her new come members. A number of Singaporeans and non-Singaporeans have attended this BBQ fucntion. It is held over at the Temasek Society's President house at Mt Keira. Lot's of foods were served to the guess. This is the oppurtunity for fellow Singaporeans to get together and built the relationship closely. This function is also held to acknowlegde our upcoming National Day on the 9th August.  Games, like BINGO and history quizes relating to Singapore's affairs were organised at the function. The BBQ setting was really perfect, by the pool side and the weather was really kind to us ....      Click here to view for the  urlLink photos .
+    
+</post>
+
+
+</Blog>

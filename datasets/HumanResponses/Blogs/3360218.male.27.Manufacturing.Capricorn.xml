@@ -1,0 +1,58 @@
+<Blog>
+
+<date>26,May,2004</date>
+<post>
+
+	 
+      The title says it all.  This place I work for (I won't mention names), for lack of a better word blows.  The people suck and management, well they would be alright if it was the 1950's.  What you say that you think you work with me:)  Time to move on I'm afraid.  Resume is about done and I will start looking next week I guess.  Oh yeah the XML app it got pushed to the back burner for the time being.  I should get back to it next week.  I won't talk about war politics anymore either.  I think I will just use this to complain and whine.  So if you have been reading my 'blog.....STOP.                                               
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+	 
+      Well I started that app I talked about yesterday.  I work for a manufacturing company in Oklahoma, I am writing an app to populate their database with all types of raw material to be used in purchasing and estimation.  There are thousands of different variations and there DB software (JobBoss) does cross-checking if you use it's XML SDK.  Therefore I am writing an app to spit out the appropriate XML, I am probably taking 10x longer than it should but I don't know much about XML.  If by some stretch someone reads this and does know about XML, feel free to correspond.   On a sicker note.... What about all these weird f&*ks that all want to see that Nick Berg video?  What is the fascination with sick stuff like that?  I wish someone could explain it to me.  People get killed in war everyone knows that but why bother and beyond that why would you go to Iraq to work?  I understand being in the military, but going all the way over to a war torn country where everyone hates you... To be a truck driver or do dishes?  Are we really that money hungry?  I guess so.  Just for the record, I am not anti-American or anti-war for that matter, I am just anti-people-getting-their-heads-sawed-off-so-their-families-can-see-it-on-the-'net.  Keep yourselves here and don't risk losing your life and your family over $80-100k a year.  There are plenty of Iraqis that need jobs I'm sure.  Parting words, tax-free income doesn't mean a thing when pieces of you are scattered all over the desert, and the corporation that will pay you is getting minimum three-fold what you are for your work.(Write your local congressman if you don't believe me)
+     
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+	 
+      well here I am with my first blog, and I am not sure what I will get out of it but here it is anyway.  I originally thought this would be a good way to chronicle the writing of my first xml-based app, but it may just be for fun.
+     
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+      just in case anyone does happen upon this the website I was talking about below is  urlLink here    and by the way in case anyone is wondering let me introduce my machine  2.0Ghz  1024MB DDR 333  Asus MthrBrd  ATI Rage 128 32MB  -Running-  Gentoo Linux 2004.1  2.6.7 gentoo-dev-sources r11  built for 2.6  optimization settings:      -O3 -march=pentium4 -pipe -ffast-math -fomit-framepointer      MAKEOPTS="-j2"  started at stage1  fluxbox 0.9.9  firefox  vim    That probably tells you a bit about me!  ;-) 
+     
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+      Since I am sure that everyone has been on the edge of their seats for my next posting... I am about 30% complete with the company website (yes it is still the same company that I said blows on the last posting).  The XML app has turned into a nightmare, and I have decided tonight to scrap the whole damn thing and start over.  I started using VB6 not to long ago and thought "man this is pretty cool".  Well it isn't, I work with asm, C, C++ usually but thought since I didn't have .NET that I could throw together a little webapp in VB to interface with this proprietary ERP running on an Access mdb what a nightmare.  I have had thoughts of trying to replace the whole thing by writing an interface on a MySQL DB man then it would be easy (easier??maybe).  I love this XML stuff.  I actually completed that website and it is XHTML 1.1 validated, I would like to mix in some of my own tags for formatting Word .doc's that one of the managers writes all his procedures and crap in.  It would be so much easier than css sheets and inlining crap, overriding styles.....Looks great in Mozilla at 1280x1024 hummm wonder what it would look like in IE at 800x600......................;-)  
+     
+    
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+	 
+      I mentioned in the last post or 2 ago about running gentoo.  Well after some thinking (and lots of compiling) I thought maybe I should get the SRPMS of the latest RedHat Enterprise Linux and try to get it going.  Let me explain, I know that there are a lot of people out there who hate RedHat, regardless if they support a full free version, sell a low price version, allow downloads of source for free, etc. ,etc.  IMHO, and after a lot of thought, I am one of those people, or was...., or maybe still am a little.  The point is people like me don't like anything to do with mega corporations (i.e. if I had a chance I would burn down my local Super Wal-Mart but that is another blog).  The years of being screwed by the Bell's, the Microsoft's, and the treatment you receive when in one of the giant fast food chains have done this to you.  Yes and people like me still go to Wal-Mart, and McDonalds, we do this because most of the other options are bankrupt now or are so much more expensive that you are forced to go there because you are not independently wealthy.  Enter RedHat.  I have read a lot over the last few days about the "software patent owning open source company" and maybe I haven't given them a fair shake.  I will not sit here and repeat what there website says but it seems to make sense and maybe they aren't so bad.  No, I am not going out and buying the latest and greatest RHEL because of this revelation, I am going to build it myself, because they allow me to do that.  RHEL cannot be downloaded in .iso format but all of it is available.  Maybe this isn't convienent for you, well it wasn't that long ago that everyone under the sun didn't give away iso's.  Anyway this is my rambling about that and I think I will give it a shot.  I haven't actually made a plan yet but I have installed Fedora Core 1 on seperate partions then my Gentoo Install to facilitate this.  What I think I will do (I am coming up with this while I type) is download all the SRPMS and I guess I will have to compile everything against Fedora first (to bootstrap), then chroot and run anaconda (which is open source also).  That is the short of it.  If anyone ever reads this blog when I am done it will be a install guide to RHEL for free.  OK lets be honest I will probably never finish this blog but if someone would care to pitch in that may help.  I rarely finish anything without someone forcing me to.  Glad this isn't  a job interview.  I will write more when I have actually accomplished something.  In summary, the steps I have taken so far have been; 1. Installed Fedora Core 1, 2.  Make a place (with lots of room) to download the SRPMS for whatever version you want to install, 3.  I am going to download the SRPMS to the directory when I am done with this post.  So there that is, in a minute I will post all the links to ftpsites and websties for downloads and info.  I talk like some else is actually reading this although I know that noone is..... 
+     
+    
+</post>
+
+
+</Blog>

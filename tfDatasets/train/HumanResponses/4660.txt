@@ -1,0 +1,1 @@
+lazy lazy lazy day. did get slung with a new thingy to do. need to script share creation and set permissions from the command line. can't seem to set permissions on sharenames with the stock stuff supplied with w2k. found something called rmtshare.exe that does the trick tho' - phew!

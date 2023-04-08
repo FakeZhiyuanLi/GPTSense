@@ -1,0 +1,1 @@
+i'm working on a graphical tool for adding/removing users from a mysql database. the gui part is nearly complete. now i'm coding the database part. an official site will be soon available.

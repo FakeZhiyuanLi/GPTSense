@@ -1,0 +1,464 @@
+<Blog>
+
+
+<date>12,December,2003</date>
+<post>
+
+     
+       Multi-user computer  Watching three people working behind one computer made me realise that there still is no decent way to work together behind one computer. The current setup with mouse and keyboard results in one person with left hand access to the mouse, one person with reasonable access to both keyboard and mouse and one person with one handed access to the keyboard. The  urlLink Minority Report  way of controlling the computer provides a better way to work together with one computer, at least I think, since I never saw it working IRL ;)
+     
+    
+</post>
+
+<date>11,December,2003</date>
+<post>
+
+     
+       Friday  The weather turned grey again, feeling rather sleepy, I hope that will pass quickly. Yesterday afternoon made an attempt to rearrange the chapter on current literature on 3d and multi-user GIS and the problems attached to it. It started out well on 3D GIS, now I just need to find more on the multi user bit.
+     
+    
+</post>
+
+<date>11,December,2003</date>
+<post>
+
+     
+       GUI war  The  urlLink UserLinux proposal  states that there should be only one GUI for UserLinux (project to come up with a 100% free enterprise quality linux version). A reasonable simple logic: if you have one GUI, one browser, one... it's much more simple to give support and stuff. I agree but it would be interesting to see what the rest of the world think and what the choice will be, when UL finally hits the ground. I think that if UL can come up with a good distro with one choice (the other options can be installed without much of a hassle though (apt-get install  )) it will give those projects an enormous boost.
+     
+    
+</post>
+
+<date>10,December,2003</date>
+<post>
+
+     
+       Software  The systad is recovered and came by to tell me that they had to discuss where and how the software was going to be installed, so I have to wait for that, but it can't take long (I hope).
+     
+    
+</post>
+
+<date>10,December,2003</date>
+<post>
+
+     
+       GIS-tools in 3D   urlLink This  article writes about how you should handle a 3D GIS, it starts from a classic 2D GIS and states that there are 2 types of interaction types: the universal and the application specific interactions. It starts with common navigation tools for 2D GIS: zooming, panning, zooming to extent and than it adds the 3rd dimension. It also discusses the way you can handle that extra dimension with a 2D input device. In the 3rd dimension it has pan, zoom and rotate, not sure if I want zoom though. I have to try what use it has. As such the zoom to extent might not be needed either. Interesting extra features is a small window that shows you where you are and what direction you are looking to. Also another classic GIS thing is picking an object to select it and gain access to the information in the database, using a specific colour for the selected object, might be interesting.  The big difference between that application and my muppet is that my application is more a VR and less a GIS, where one wanders through. As such I doubt that you need to get a full overview, a map and maybe that little window should be enough.  other idea: For the sake of discussions it might be useful to add the option to create a snapshot of the current view.
+     
+    
+</post>
+
+<date>10,December,2003</date>
+<post>
+
+     
+       Handling your computer  While searching for the Dasher link I found  urlLink another  funny input device, this time for your computer. A tad expensive but it took the  urlLink mousegestures  thing a level higher.
+     
+    
+</post>
+
+<date>10,December,2003</date>
+<post>
+
+     
+       Handling your mobile   urlLink Here  a review of a nice mobile phone. Although the outside isn't my taste, the inside is very interesting. It has a novel way of controlling the mobile. I've  urlLink read  about it a  while ago, it was just a concept. Mobileburn has tested a real prototype. This way of navigating together with  urlLink Dasher  must make a powerful and quick way to insert text in a mobile/pda like device.
+     
+    
+</post>
+
+<date>10,December,2003</date>
+<post>
+
+     
+      Some new ideas on the avatar thing: the use of faces/persons might increase the change in running into each other and look towards the other is looking, furthermore it might solve disorientation problems. If the user looks one direction and walks another, it could be shown by the avatar.  Recognition could be simplified by a name or picture floating above the user and clicking on a user might reveal more information, like the path he took, his name etc etc (everything that is stored in the dbase)
+     
+    
+</post>
+
+<date>09,December,2003</date>
+<post>
+
+     
+      I had to come up with some rules to which I would compare existing software and gather ideas. Since I'm developing a multiuser GeoVR I've come up with:    3D editing  3D viewing (visualisation)  Multi-user editing  Multi-user viewing  Since collaborative/multi-user GIS and 3D GIS are still in their infant-stages, a lot of interesting research and ideas are to be found in that area. Within those 4 categories things like UI, navigation, communication, implementation etc should be somehow fitted, but I think that's possible.
+     
+    
+</post>
+
+<date>09,December,2003</date>
+<post>
+
+     
+      Interesting point accoding to  urlLink Vertegaal  the direction you look is important in (virtual) meetings. He used eye tracking to get the avatar look at what the user was looking at. In my case there is no eye-tracking possibility but it made me think about how the other knows what you are looking at. Original idea was a 3D arrow other options are: -display 3d view bounding box of the other -display target point of the other -share view, multiple views in one window -see through the eyes of the other problems: what about low/high res screens? (800x600 vs 1600x1200) what about low/high speed positions what about viewing angles
+     
+    
+</post>
+
+<date>09,December,2003</date>
+<post>
+
+     
+      Although E-mail is almost as old as internet, new ideas emerge often,  urlLink ReMail  is one of those.  It closely intergrates mail, chat and calander, in a nice way, especially the "thread-arcs" are a UI innovation. Nice new ideas on how to handle email, very curious if those ideas will be implemented by OSS, since they are quick in copying nice ideas ;)
+     
+    
+</post>
+
+<date>09,December,2003</date>
+<post>
+
+     
+      Got some comments from my supervisor on my first chapters. Although the ideas are good, they need to put into a framework and the ideas need to be ordered and presented better. He suggested I should add some drawings, tables graphs etc if that would make it easier to explain. Might help, since I already have a lot of those and couldn't get them into words properly. Furthermore my software has arrived, jay :), but the sysad is sick so it can't be installed, boo :(  Oh and my brother suggested to not call it (Tue Dec 09, 03:35:53 PM) "gravity" but something like auto-balance. I agree it's a bit better, i don't really need the user to fall down everytime, but the get upright if floating upside down.
+     
+    
+</post>
+
+<date>09,December,2003</date>
+<post>
+
+     
+      Interesting  urlLink article  about noise maps, although maybe not the article, but at least the maps are very nice. Made us (thesis students) wondering if they took into account  the direction of the wind and how it would look like in 3D. Obviously there's a difference between highway noise and airfield noise. 
+     
+    
+</post>
+
+<date>09,December,2003</date>
+<post>
+
+     
+       urlLink     a screenshot of the current version of the Meerstad Virtual Environment. Since I don't have Virtools Dev, I can just have a look at the player version of the Meerstad VE and not do any testing on the interface. First things I noted:     too many buttons down below   lack of a sky   lack of water (Meerstad,  Lake-city , has a whole lot of water planned and it has a big impact on the look of the thing, just a blue field doesn't do the trick)   too fast (you get around with 400Km/h ;-))   This is a simplified version of the real application, high resolution imagery is missing to speed up the thing and make it a lot smaller.  Going home now, I hope my internetconnection is restored so I can work a bit more at home (and update my GNOME desktop with lots of fun software I spotted recently)
+     
+    
+</post>
+
+<date>09,December,2003</date>
+<post>
+
+     
+      Although we won't be using avatars very much for this muppet, I just read an article with some interesting ideas about the use of avatars. They say that avatars are too simple, they are just an empty shell and propose to add a mind to the avatar, a virtual agent which should learn about the user, other avatars and the environment. Makes me reconsider the use of avatars in muppet. My initial idea was just to put a 3D arrow to show the location of the user and the direction it looks to. I could add more information to the avatar, I have to think abou it
+     
+    
+</post>
+
+<date>09,December,2003</date>
+<post>
+
+     
+      The more I work with 3D environments the more I believe that the human is simply a 2D creature. If you give the user complete free 3D navigation ina virtual world he gets lost very easily, floating upside down etc. one interesting idea to prevent 3D-disorientation is  urlLink speed coupled flying  another useful idea is to add "gravity", so that the user automagically turns upside-up if turned upside down. 
+     
+    
+</post>
+
+<date>09,December,2003</date>
+<post>
+
+     
+       urlLink Tina Manoharan  has done a PhD research on Collaborative Virtual Environments for Planning Development Control in Cities. Rather interesting and pretty much what I want to do for land-use planning. Although her application is much more sophisticated than mine will be.
+     
+    
+</post>
+
+<date>09,December,2003</date>
+<post>
+
+     
+       urlLink This  guy has done some nice research on Net-VEs and communication
+     
+    
+</post>
+
+<date>09,December,2003</date>
+<post>
+
+     
+      SUN is into nice interface designing nowadays:  urlLink project looking glass , nice idea. I doubt that 3D window management is very usefull, but still, it looks nice. It runs on the JDS and as such on gnome, (I guess).
+     
+    
+</post>
+
+<date>09,December,2003</date>
+<post>
+
+     
+      MUPPET is going to be a  urlLink Virtools  based application for participatory planning. The first version will be build around the  urlLink Meerstad  project. Main focus points are multi-user, communication between different stakeholders and navigation in a virtual environment. I'm building this application for my thesis project for my MSc  urlLink GIS .
+     
+    
+</post>
+
+<date>09,December,2003</date>
+<post>
+
+     
+      A new blog about MUPPEt, a Multi-User Participatory Planning EnvironmenT
+     
+    
+</post>
+
+<date>19,December,2003</date>
+<post>
+
+     
+       What are you doing?  The trouble with collaborative different place work is that you don't know what the other is doing. Those wonderfull multi-user same device scheme's are rather easy in that aspect. It is easy to understand what the other is talking about since you're both looking to the same thing and he can point it out if necessary. Different place same time work is more complicated, you don't know exactly what the other is seeing. So you need to find that out somehow. But I haven't found much information so far how people tend to do that. A logical way to do that in a 3D environment is with avatars, but probably that's not enough. Ah well it will probably a "future research"thing for my thesis :)
+     
+    
+</post>
+
+<date>18,December,2003</date>
+<post>
+
+     
+       Writing about existing work  I'm still struggling with putting on paper all the ideas and concepts I've read about the past 2 months. I stated a few days ago that I wanted to order it against 3d editing/viewing and mu editing/viewing. Now i've found some new rules     3D data modeling and management   MU data management     3D visualization  MU visualization     And my main focus will be visualization/interaction so the lower row of the two. At least I produced more text this morning than in the entire week :).
+     
+    
+</post>
+
+<date>18,December,2003</date>
+<post>
+
+     
+       3D sketching  Funny little  urlLink application , kinda like MS paint only 3D.  Very simple application, but you can easily create 3D fluffy objects.
+     
+    
+</post>
+
+<date>17,December,2003</date>
+<post>
+
+     
+       Speed coupled flying  Ok after a day hard working I've managed to get the speed coupled flying thing working. I've put a basic version on the website. It should work when you have the virtools webplayer.  The controls are: w =forward, s = backward, a = left, d = right, arrows = look around and mouse is also move around, you need to hold the left mouse button. Furthermore in the left top corner is a button to switch between slow and fast.             
+     
+    
+</post>
+
+<date>16,December,2003</date>
+<post>
+
+     
+       Joy to the (virtual) world  Virtools is running now on my machine, I've spent most of my time now to try it out. It's been a long time but it's comming back again. I have decided to work on the basic controls first and work from there to a more complex navigation system
+     
+    
+</post>
+
+<date>15,December,2003</date>
+<post>
+
+     
+       Followup on multi user computer   urlLink Friday  after I wrote about the need of a multi-user computer, I read an article on a machine called  urlLink Dave_G  this machine did  the  amazing thing, it could be controlled by gestures and speech and by multiple people. Amazing machine, I'd imagine such softrware together with a tracking camera like the  urlLink Quickcam Orbit  could provide Minority Report like computer controlling.
+     
+    
+</post>
+
+<date>15,December,2003</date>
+<post>
+
+     
+       Software  Joy, when I came at the uni this morning my fellow students told me the sysad had installed the software. I rejoyced and switched on the computer, eager to play with it. But alas, the software needs a license file or license server and both were not available. The sysad emailed that she had sent an email to request such a licensefile, since they forgot to add it to the package :(. Ah well, I'll go to help a friend move to the other side of town, so didn't have time to play with it anyway.
+     
+    
+</post>
+
+<date>15,January,2004</date>
+<post>
+
+     
+       ADSL  Well my ADSL modem arrived yesterday, it is  so  small :) Spend the entire morning rewiring the telephonenetwork in the house. It is from the same era as the powergrid and the central heating, the dark ages. But I've found one wire I think is the incoming, unsplitted line. This line goes to the line splitter and from the splitter to the modem, that was easy. The line from the splitter to the two  old  phones was much more complicated. It looks ugly but it seems to work now. The other challenge was to install DHCP suport on my debian box, but since I'm used to search the internet for answers, it was very hard. Setting up internet is like making the first cup of coffee. Both are prone to errors due to the lack of basic aids. 
+     
+    
+</post>
+
+<date>14,January,2004</date>
+<post>
+
+     
+       System model  Well supervisors liked my two chapters, they were intrigued by it, although it lacked on quite some areas. The were intrigued by all the ideas and developments I've dug up (and mostly noted here) and it lacked a bit on the more social, philosophical aspects, it was too technical ATM. Furthermore I had to rewrite the intrductions to increase the logic of my decissions. But the overall idea has been approved of and now I will first focus on doing some work and leave the rewriting to another time. So I have 2 weeks to come up with a systems model. Drawing all kinds of funny schemes how the different aspects work together. 
+     
+    
+</post>
+
+<date>13,January,2004</date>
+<post>
+
+     
+       Interface problems  The nice split interface proposal for threading collides with the webbassed chat client I wanted to include. The two designs I had in mind are, they are so much alike that it should be possible somehow to combine them:     and    Anyways It's enough for today gotto cook for 10 people and tomorrow I will discuss this and everything else with my supervisors. I hope they like it.
+     
+    
+</post>
+
+<date>12,January,2004</date>
+<post>
+
+     
+       Visualizing threaded discussions in 3D   I've made a quick drawing of how such a thing should look like   a short explanation: The  threaded discussion  is an overview of all the topics on which there is discussion The  comment  is the actual comment the user made The  3D world viewer  is the virtual world with the location of the comment showing the longer explanation: The user, which can be anyone interested in the land-use plan; someone from the government or just a local citizen, walks around in the proposed design of the land. He sees something which he (dis)likes, for instance he'd prefer a forest instead of pasture area in front of him. He makes a comment on that location, this is shown by a floating post it in the landscape. Someone else sees that comment selects it and reads about the wish for forest and replies to it, that comment is put behind the first one, etc etc. It might be possible to see multiple discussions in the area or to see other users, like the one on the right.
+     
+    
+</post>
+
+<date>12,January,2004</date>
+<post>
+
+     
+       Been busy  Well obviously I've been busy, first I had holidays without internet connection and when I was back at the uni I had to work hard to finish two chapters. Not yet finished the second but I'll take a short break. I just got an email with the announcement that my ADSL connection should be connected the 16th :)) That will increase blogging probably.  Interesting thing, especially since I still lack dual head card:  urlLink combining two computers to one desktop .   Since the main object of my research is to add multi-user support to 3D GIS, I'm trying to find a way to visualize threaded discussions in a 3D world. Currently I'm thinking of virtual coloured postits, the actual text is on a website accompanying the 3D world.  The reactions on a postit will put behind the postit. So in a glance you can see where lively discussion are happening. the colours are red = negative comment, green = possitive comment and yellow = other.  selecting a postit will show the text on the site, within it's context. Selecting a topic from the site will transport you to the location of the discussion  ps. if you wonder why the minst.net site is all weird, it's because of an art project which I helped organising and it is going to be on display soon at the  urlLink local library  and this is the website which accompanies that project.
+     
+    
+</post>
+
+<date>22,January,2004</date>
+<post>
+
+     
+       auto sync directories  Having loads of data on different computers which should be available on all those computers; a certain auto-sync directory structure would be nice.  I have daily backup scripts, but it would be nicer if they just keep everything uptodate all the time. Mainly because I don't have to worry about what version is saved where when moving between computers during a day.
+     
+    
+</post>
+
+<date>22,January,2004</date>
+<post>
+
+     
+       ADSL -continued  You might have noticed that there hasn't been much news on the adsl. Good news and bad news about it. Good news is the university pays for setup costs, including cables, so a good reason to ditch the old coax net. The bad news is KPN, the telco, has found a hardwarefailure in one of their magic boxes which distribute telephone traffic, estimated 2, that is  two!! , weeks to fix it. So no internet for me untill februari :(
+     
+    
+</post>
+
+<date>22,January,2004</date>
+<post>
+
+     
+       Job  My supervisor asked to build an application called virtual scan. Basically it produces a 3D world out of a 2d bitmap where each cell is a landuse-type. The trial will be on a 200x200 bitmap, a whopping 40000cells! And each cell wil be put in 3d with 3DS Max models, which can run upto 20Mb each. We decided that somekind of optimalisation might bee useful. Currently we are strugling to get the 3DS models nicely in virtools. The other thing is that I have yet to figure out a way to get the correct value of the cells. Virtools gives some ARGB colour which is of no use to me.  This all means that my thesis is slowed down a bit, not too bad since I've drawn most of the required diagrams on paper already.
+     
+    
+</post>
+
+<date>30,January,2004</date>
+<post>
+
+     
+       Rendering 90square km  Currently working on an application which turns a 2D landuse map to a 3D world. The current test is 90 square km but the final version will be 400 square km. And the level of detail is such that you can walk through it on ground level and it still looks decent. My simple P4 1.7GHz 512MB RAM machine can actually manage it, I can walk through it with slight stuttering. But that could be because I'm running loads of software next to it. Rather promising.
+     
+    
+</post>
+
+<date>29,January,2004</date>
+<post>
+
+     
+       Joy to the world  Well at least to me, my ADSL connection is up 'n running. It's kinda slow compared to the uni connections I'm used to, but hey it's limitless internet. It just takes 2 hours downloading to get my workstation up to date though :/
+     
+    
+</post>
+
+<date>27,January,2004</date>
+<post>
+
+     
+       urlLink My sisters india tour 
+     
+    
+</post>
+
+<date>05,February,2004</date>
+<post>
+
+     
+      test blog applet  Running the experimental version of debian gives you nice things like fairly recent gnome stuff and with it a blogger.com applet. I can now very easy update muppet from home.   The problem though is that it is well, experimental gnome-apps do crash a bit and I've to be careful with new applications. So I try to do my part in software development by sending bug reports ;) I need a new computer or more harddiscspace or a combination to be able to keep a decently running desktop and a test desktop with things like  urlLink dashboard . 
+     
+    
+</post>
+
+<date>13,February,2004</date>
+<post>
+
+     
+       Frames and php  Internet explorer and/or virtools webplayer are buggy, at least reloading the webplayer everytime the page changes is  not  a good idea, IE crashes horribly. So I've decided to change part of the site to a frame based setup. This requires weird tricks to be able to update three frames and leave the fourth be. The initial attempt has succeeded so far that I can control the content of three frames with one link. Now I've to rewrite loads of PHP to get all the links working properly with smooth transistion between framebased and non framebased pages. 
+     
+    
+</post>
+
+<date>11,February,2004</date>
+<post>
+
+     
+       Write your phonenumber  Siemens has a nice  urlLink phone  it has the shape of a pen and is so small that there is no space left for buttons. In stead of typing on incredible small buttons you can use the pen to write your phonenumber. Interesting concept.
+     
+    
+</post>
+
+<date>09,February,2004</date>
+<post>
+
+     
+       WAMP/Virtools  Well I got Apache, MySQL and PHP working here, I also got a nice  urlLink forum  to start with. It is a very simple PHP/MySQl based forum, and so far it is working with a virtools window inside. I just found out that I need to figure out a way to update the browser window without resetting the virtools window. There are two ways I can think of: 1. put the player on a seperate page 2. restore the latest settings on the player everytime the page changes  Since I had admin rights for a short time, I've managed to install some useful applications on my computer to get it a bit more workable, a multi desktop application, which isn't nearly as good as the default X one, let alone my enhanced Gnome one, but it gives my at least some more desktop space. 
+     
+    
+</post>
+
+<date>09,February,2004</date>
+<post>
+
+     
+       Admin rights  Just got admin rights asigned to me for my uni computer. A stupid thing that I didn't have them before and a stupid thing you have to relogin to aquire them. What is it with Microsoft and reboot/relogins?
+     
+    
+</post>
+
+<date>09,February,2004</date>
+<post>
+
+     
+       urlLink this  site has interesting topics
+     
+    
+</post>
+
+<date>19,February,2004</date>
+<post>
+
+     
+       So cool  My application is developing real fast now. I've got a nice threaded discussion thing in a frame based site. Required a little bit of hacking on the forum. The cool thing now is that if you add a new or reply on a comment it will automatically store the location and the orientation of you in the virtools player. It will also add a floating post it to the virtools environment. That post it is clickable and gives you the related message in the discussion. Well it works with  urlLink firefox  it was not yet functioning in IE when I left uni (at 1900h).
+     
+    
+</post>
+
+<date>16,February,2004</date>
+<post>
+
+     
+       Morphix  Played with  urlLink morphix  today on a friends laptop. It is truely astonishing, almost all the useful linux (gnome) apps were there and it booted without a hitch. It is also possible to simply mount the existing HDs so you can acess your data. He's going for 9 months to brasil and was wondering about bringing restore CDs. He was so pleased by morphix that he decided to just bring morphix and use that as 'restore' CD if necessary.
+     
+    
+</post>
+
+<date>24,February,2004</date>
+<post>
+
+     
+       Less cool  Basically I still have the same functionality as I had the last post. Ok last friday I worked on my other job, which is progressing nicely, mostly that is. I have a weird problem with a DLL that is not recognised :(.  Yesterday I found out that while the virtual memo was created and was clickable the wrong information was attached to it. I spend the entire day to get around the fact the PHP is serverside and javascript client side, so passing variable around isn't trivial. But I solved the problem at last so the memo is still clickable and now it also gives you the related mesage in the frame next to it :).  I did some minor tweaks as well and cleaned up a bit of code, I do understand the script much more. Today I've tried to get all the memo's loaded during start up. Currently it only creates new memo's but doesn't load existing ones. After a bit of fiddling I came up with an invisible frame to send data between php/MySQL and virtools. Not a very elegant solution but it works, except...  ...it doesn't  well the data is perfectly send to virtools, but it's too much and virtools messes it up. So I'm quite stuck at the moment, I'll have to figure out a different way to get the data through.  bugger  :(
+     
+    
+</post>
+
+<date>10,March,2004</date>
+<post>
+
+     
+       Wonderful  I have more or less finalized my application it is available  urlLink here . This version is not yet completly finished today, but will be at the end of the week. Had a meeting with my supervisors and they decided the application was ready for a test in 'real' setting. So we are now looking for a nice setting within the department to test the application and see what other people think of it.
+     
+    
+</post>
+
+<date>16,March,2004</date>
+<post>
+
+     
+      Official server  Well the powers that be, well actually one of my supervisors, has managed to put my app on a more official uni server  urlLink here . The idea is that we will run a test with it in a more real setting. We are currently looking for an internal project of the faculty which is about discussing some area and where we have 3D data available.   Currently I'm writing my report, waiting for the data to appear to create the test environment. The test environment runs on IIS instead of Apache, but that shouldn't give any problems (other than it being IS obviously ;) ).    I'll try to take the results of the test into account in my report and presentation, but we'll see. 
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+     
+      Apparently Blogger has new functions, it should be possible to add comments new, will see.  On the subject of my muppet application; it is up and running and now I am working on the report. No date is yet set for my colloqium.
+     
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,46 @@
+<Blog>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+      A couple of weeks ago, I spent the better part of a day banging my head against the wall when trying to add a web service resource to a project in Visual Studio .NET 2003. In my test project, the web reference worked fine, but as soon as I tried to add it to my production project, it couldn't find the type I was trying to create, even though the web reference was there, as if the namespace was different for the web reference than the rest of the project.  There is no namespace property for the web reference, but it takes the value for the "Default Namespace" property on the project.  The problem for me was I had changed the namespace for all my source files, but never updated the default namespace property on the project, so the web service reference was being added under a different namespace than my source C# file that was referencing it.    Moral of the story, if you change the namespace for the source files in your project, make sure you right click on the project, then properties, then change the "Default Namespace" property to the new namespace you want.  
+    
+</post>
+
+
+<date>29,July,2004</date>
+<post>
+
+
+       
+      Last night I saw the new independent film:  "What the Bleep Do We Know?"   It is a very thought provoking flick, and I would suggest it to anyone who is interested in the meaning of life, and learning how to live it to the fullest potential.  What the Bleep could be considered a hybrid-documentary, half of the movie is interviews and blurbs from some really smart people discussing Quantum Physics, the power of the human brain, and the nature of the universe, while the other half of the movie is a more standard story format following the main character on her journey of self-discovery and awareness.  One idea or suggestion that I liked from the movie, was when you wake up in the morning, "Make your day," by deciding what you want to do during the day, and then throughout the day taking notice of small happenings that are caused by us as observers creating reality. By creating and training our neural networks in this way, our brains will more-easily accept the idea that we can shape or even create our own realities.  Visit the "What the Bleep?" website:  urlLink http://www.whatthebleep.com/  
+     
+
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+
+       
+      No I am not trying to compete for the world's most boring blog, but I've never really enjoyed flossing my teeth, brushing is fine, but flossing....ugh!  Recently, however, I've discovered the joy of flossing, the sensation of getting the glide floss inbetween each tooth, making sure the floss goes completely into the gum next to each tooth, and then the satisifaction that one gets from seeing the plaque and small food items that appear after each crevise has been attended to.  As I write this entry my mouth craves the attention it recieves from a good flossing.  The clean feeling that you have afterwards is almost as good as right after getting your teeth professionally cleaned at the dentist, and then being able to run your tongue across your smooth clean teeth.  I've noticed that I usually get more debris (plaque, etc...) from the top teeth than from the bottom, which goes against what one would logically think since gravity should pull the food to the lower teeth.  If anyone knows what the reason for more food debris being on the top teeth, please share it with the rest of us avid flossers.    My flossing environment (mouth) is somewhat unique, I've got a capped baby tooth that requires special attention when flossing, and unfortunately it looks like I'm going to have to have braces to straighten it out before I get it removed and get an implant (I've been told that I should go the implant route instead of getting a bridge).  I'm concerned that braces will put a serious damper on my current single/dating status, but I guess I've gotta just bite the bullet and get it over with (braces aren't cheap either, so I'm not looking forward to that).   
+     
+
+    
+</post>
+
+<date>19,August,2004</date>
+<post>
+
+
+       
+          Last night I saw Incubis at the Forum (in Inglewood), Incubis was great and the Sparta band that opened for them was pretty good too.  The only thing that sucked about the venue was the $20 parking and the fact that they didn't have the parking lot under-contol at all leaving, so we just sat in the parking lot waiting to leave last night for almost an hour.  I don't think I would choose to go back to the Forum again unless I really want to see the band and they aren't playing at another venue in the area.     Not much else to report, I've signed up for classes at Santa Monica College and Pierce College, I'm taking a couple of music classes, a drawing class, and hopefully a creative writing class (if I can get my transcripts from CSUS in time).  So starting Aug. 30th I'll be really busy, but I'm looking forward to the classes, they should be lots of fun. 
+     
+
+    
+</post>
+
+
+</Blog>

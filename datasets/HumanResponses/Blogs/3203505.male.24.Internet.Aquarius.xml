@@ -1,0 +1,130 @@
+<Blog>
+
+<date>25,April,2004</date>
+<post>
+
+    
+       Welcome to the new BLOG! 
+    
+    
+</post>
+
+<date>28,May,2004</date>
+<post>
+
+    
+       Well it's finally happened.  We've been offically told to test the mySQL Database engine for a project we're working on.  This is very cool news.  My team worked on this about 6 months (or so) ago (unoffically), and ran our entire system on Linux/mySQL.  We switched back for reasons that can't be disclosed, but we had done it and it had worked.  Now we're testing Linux/mySQL on the AMD64 platform and running Windows/MSSQL next to it to see what runs better.  In this particular project we need stability and speed.  So where do we go from here?  I'm not sure, some meetings have to happen and more tests need to be run before any final decisions are made.  But that wall against Linux and such systems is being slowly removed.  It'll will be interesting to see where it all leads. 
+    
+    
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+    
+       So after 2 days of fighting with the System.Diagnostics.Process Class inside of C#, I finally figured out a way to kill the child process of a process I need to kill.  The way this works is we systematically need to end a program nightly so we can backup some files from it.  We have to kill the child process that runs along side it because if we don't we can't start the program back up with out user intervention (this is a no-no on my team).  We were using a program called Macro Express to accomplish this task.  We use the program for automating other tasks and it works quite well (it even worked well till the program we're focusing on in this post upgraded and changed a few things) so we figured why not use it for this.  But it became unreliable.  I figured I could do this better with the Process class inside of C#.  Just kill the process and all the processes in the process tree right?  Makes sense because if you open task manager inside of windows, right click on a process, you can select "End Process Tree".  Well, not quite the way it works in C#.  In C# you can cycle through all the processes running on a box.  You however know nothing about the child processes that a process has spawned off.  They created a Process class but no ProcessTree class, or even a way to find child process of a process using the the Process class.  This makes things rather difficult because now I have to guess which of the running child process file goes to the instance I'm closing (we run multiple instances of the software in question).  Ok so how do we do this?  Solution (at least in this case) is to look at the Process.StartTime for the instance I'm closing and each child process and find a child process that starts within 30 seconds of the process I'm closing (since the child process starts within seconds of the main process). 
+    
+    
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+    
+       Sometimes I love working here.  I spent the better part of the morning getting our servers backed up as is the normal Friday operation and then spent the afternoon typing up some much needed documentation.   To handle this typing task, I emerged (I use Gentoo Linux here at the office)  urlLink AbiWord .  This piece of software is on  urlLink The OpenCD  so I figured I give the Linux version a shot to see what it was all about.  Previously, I've been using  the OpenOffice Writer for my document typing needs (even typed my recent history paper on it), but I have to say that as impressive as OpenOffice is (especially if you just need something that does simple tasks and you don't want to pay the few hundred dollars to Microsoft for Office Professional) I think for typing up documents, AbiWord is the better piece of software.  It's more like work in apperance and menus then OpenOffice (not to say that OpenOffice's menus stink or anything because they don't).  I also like the way it handles bullet points more then OpenOffice (this feature becomes important since at work I write a lot of step by step instructions for certain tasks).   Personal stuff of the day includes 1) My friend Jessica is having her first child (it's suppose to be a girl), YAY!!!  2) I'm going to a  urlLink Pushmonkey  acoustic show tonight  3) Tomorrow is my girlfriend's sister's birthday party (she's turning sweet 16)   Though this weekend I hope to get some time to play with Mono (Linux C# implimentation) a little bit more.  I'm highly interested in this and in seeing what kind of things I can do with it. 
+    
+    
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+    
+       So today was spent for the most part learning more about object-oriented programming under C# with a co-worker who's a much better programmer then me.  But that's OK, we've all got to start somewhere.  Also learned how to setup unattended installations of SQL Server 2000 and the service pack.  Now that is pretty freakin' cool.  We now have little to no intervention on SQL Server installations.  This greatly improves the efficiency of getting new boxes up and running.    Also showed a co-worker how to move database servers around.  This allowed me to show him some stuff that I learned in all those MCDBA classes I took last year.  Simple stuff but still stuff that a normal person not messing with this stuff day to day is going to know.    Another day is done... 
+    
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+    
+        So it would appear that Blogger is a lot more &quot;professional&quot; then livejournal.  I'm working on this whole blogging thing, trying to make sense of it, what exactly I can use it for, that kind of stuff.  So I figured out that I can probably use my livejournal for the more personal side of things, and use this (blogger) for the more non-personal side of things (politics, info that interests me, news items, etc).  Still not sure how this is all going to work out, but we'll see.  
+    
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+    
+       So I played around with this a little today.  Only a little though because I didn't have much time with all the other stuff I'm suppose to be working on.  But I did manage to get it installed and start writing a small application for it.  I like the way it looks, though it's not much different the Visual Studio 2003 I like the direction it's going.  I've noticed that it looks an awful like SharpDevelop in some areas.  I think that's pretty cool.  Maybe the guys doing SharpDevelop have access to the Whidbey betas.  I'll be able to give a more final synopsis as I write more code in it.  In other news, I got bluetooth working under Linux.  I don't have it set up to sync yet (having some connection issues with MultiSync), but I have it to where I can transfer files to and from the phone.  I'm currently using a Siemens s56 on Cingular, but I've been looking into buying a t616.  I might do it soon since the newer version of that phone (t637) has come out and people are probably going to be getting that more then t616 thus knocking the price on eBay down some.  Why didn't I go with the t616 originall?  Well that's because I didn't pay close enough attention to the specs and didn't see that it had BOTH bluetooth and infrared like my Siemens phone does.  Oh well, just goes to show you that you should always pay careful attention when researching a product.  Why am I thinking about switching?  Well there seems to be more of a user community for the t616 phone then my phone.  And I would like to be able to download stuff to put on my phone (ringtones, wallpapers, etc) without paying Cingular to do it.  Also I've started studying for my next Microsoft upgrade test (70-296) for my MSCE.  I hope to have this taken and passed before I go out of town for my friend's wedding on the 17th.  Lets all goes well. 
+    
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+    
+       Before I say anything else let me state that I have NOT seen this movie, nor do I have any intentions of doing so.  With that in mind take the following with a grain of salt and as nothing more then opinion.  I first heard of Michael Moore only after he won his Academy Award for his "documentary" "Bowling for Columbine".  I have not seen this movie either but I knew the gist before ever reading one article on it.  It's an anti-gun movie.  Basically Michael Moore feels that because guns are so readily available that this was partially the reason for the shootings at Columbine High School.  Well my feeling is that Michael Moore needs to do more research because guns are NOT so readily available for kids to just go any buy.  The kids got the guns out of their parent's houses because the guns weren't locked up thus making it incredibly easy for those kids to get their hands on them.  But this is not the point.  Michael Moore's new movie hit the theatres this weekend and is pulling good numbers.  This is NOT what greatly disturbs me.  What gets to me is the fact that Michael Moore has a tendency to take the facts and focus on the tiniest part making that one part seem a lot more important then it really is.  Thus his "documentaries" come off as nothing more the propaganda.  Now correct me if I'm wrong but isn't the point of a documentary to show the facts and present those just as they are?  Shouldn't there be enough facts to prove one's point without have to misconstrued any to make your point?  Michael Moore is very much anti-Bush (like most people in Hollywood), and me being very pro-Bush that probably makes my whole argument seem pointless and one sided.  But those that know me (and I assume since you are reading this, you probably know me at least a little bit), knows that I'm all for one proving a point, but if you're going to do so you shouldn't ignore contradictions to your facts.  Michael Moore ignores so many facts on the topics that his new movie is about that he fails in even impressing those that would in general support his work.  See the following link for an example of this....  http://slate.msn.com/id/2102723/?GT1=3584  So where does that leave this movie?  Well in my opinion no one should waste their money to go see it.  You can probably read the books that Michael Moore gets much of his information from and come out more informed then if you just went and saw this movie.  But some of the issues brought up in the movie have already been discussed in the 9/11 inquiry and President Bush has been relieved of a lot of the stuff this movie accuses him of.  In other words, he was found to not to have commited any questionable acts.  So where does that leave Moore's ideas?  If you ask him he'll probably give you some snide answer about how Bush is a moron and that he shouldn't be president.  He'll probably be sure to include some snipe about oil and all that jazz too.  Personally I don't care if Michael Moore hates George Bush Jr.  I also don't care if he wants to make a documentary about the evils of our President.  But what makes me made is that stuff that is obviously nothing more then propaganda is being marketed as solid facts when many facts are left out.  I am under the understanding that a documentary is suppose to be unbiased and is to show all sides of an argument.  Moore's films don't do this and to me that's the danger he poses.  Also most people that are probably gong to see this movie are going to vote for Kerry anyway so how he plans on changing anyone's mind is beyond me. 
+    
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+    
+       Yep that's right ladies and gents.  I now have a gmail account.  Talk about being in the right place at the right time.  Simply looked a set of blogs I keep an eye on, someone posted they had invites and all we had to do was email him.  So I took that as my queue and emailed him.  One hour later I'm in gmail land.  It's pretty cool.  I like the 1 gigabyte of storage on a free email account.  Wonder how long after gmail goes public till Hotmail and Yahoo do something similar.  I'd also like to mention that the PerformanceCounter class in C# is a little nutty.  I'm still not sure if I'm getting the right info back.  Guess I'll just have to wait and see.  That whole NextSample() and NextValue() deal is really confusing, but I think I got a handle on it (with a little help from my co-workers).   
+    
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+    
+       I'm now a MCSA (Microsoft Certified Systems Administrator) on Windows Server 2003.  I have one more test to pass and I'll be MCSE on Windows Server 2003.  Gotta love upgrade tests! 
+    
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+    
+         Tried to send the blog post through email and got it back twice with some whack errors, guess I'll have to do more research before trying again...         First off I haven't posted much "tech" stuff recently because I      just don't have much to post on it at the moment.  Things I've been      working on though include, bluetooth modem for my home PC so that I can      use the internet at home a little more (I HATE dial-up), trying to start      learning GTK+ using both the C and C++ bindings, and lots of database      work (primarily at the office).         I tried installing the   Dashboard   again and it seems to be in the same state it was when I tried it about 5-6 months ago... not working. That's a real pity because I think the concept is EXTREMELY cool and could actually be useful in my day to day work life. Basically the way it works is that it listens for "clue packets" that are sent by programs you use and pulls out of an index database backend and displays any information it feels might be relevant to what you're looking/talking/researching about. At work I always have 2-3 different projects going at once and the ability for someone to IM (main communications method for my team) me about one of them and have all the information I could use to answer their question is extremely useful         work has been been rather hectic lately with all the deadlines.  But it's a      welcome rush because things seemed slow as of late (not say they were,      it just seemed that way).  Getting lots of things pushed through, I know      we're going to miss something, that is just the way things go.  You      can't possibly think of every little thing when you are rushing to get      things out the door.  It also leaves you the unlikely position to have      to fix something because you weren't giving that something your complete      attention and thus created a much bigger problem for yourself or someone      else to fix.         Lesson learned...  
+    
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+    
+       Glad I'm not the only one that thinks this movie is propoganda rather then a documentery...   urlLink Some Theater Chains Refuse 'Fahrenheit'  
+    
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+    
+       Oh yea, I got my phone and my computer syncing my contacts, calendar, and tasks via bluetooth.  This is way cool.  No more cradles, cables, and lining up infra-red ports.  My goal is to develop a PAN (Personal Area Network) in which all my electronic devices have the same data on them.  So no matter if I'm working on my desktop, my iPaq, or my phone I can have my contacts, schedule, and personal notes with me.  The next step after that is to make my phone a modem via bluetooth for my iPaq, then I'll have internet everywhere. 
+    
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+    
+       So I'm running Gnome 2.7.4 now thanks to the wonderful people at  urlLink BreakMyGentoo.net .  I even filed my first bug report to an open source project. Ok so it was dupe, but I looked before I posted it was just a little different to make me over look the bug I was duplicating. No harm done. The Gnome Team found the dupe and alerted me to it and after some further testing (to ensure that it was a dupe) marked it as resolve and moved on quickly.  It was interesting. While I can't really code in C, I can at least use the product to find bugs and alert those that can towards it (even if there's already one there). It's a lot different then reporting bugs to Microsoft via their own little reporting tool. I actually got responses and felt part of the process. The Microsoft reporting tool just sends it to Microsoft and that's the last you ever hear of it.  Getting involved in Gnome is something I've been wanting to do for a long time. I hope to continue to report bugs and hopefully move into fixing them (at least small ones anyway). This should help in a lot of areas, particularly the programming side of things. We'll see where all this ends up.  In other news: I'm seeing Prince perform in concert tomorrow night :) This should be rockin'. I wasn't really a fan until I saw him perform live (my former roommate insisted I had to see him live. So I reluctantly went) but after that I was hooked. The man is a true performer, it really is going to be a lot of fun.  Gotta get out of the office... 
+    
+    
+</post>
+
+
+</Blog>

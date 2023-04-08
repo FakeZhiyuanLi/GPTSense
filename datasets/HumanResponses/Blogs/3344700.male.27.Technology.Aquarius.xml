@@ -1,0 +1,499 @@
+<Blog>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   Today, when I was doing routine browsing I came across the site  urlLink Google Store  This is the official shopping site of  urlLink Google . I never knew about this before so thought of mentioning this in blog, even google has got a store where in we can find many google accessories, wearables, Kids stuff etc featuring Google Doodle logos...Its nice one...  So use Google to get some goodies... 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   Worried about any Bad code in .Net Application..FxCop is here to prevent.   urlLink FxCop , is a code analysis tool that checks managed code assemblies for conformance to Microsoft .NET Framework design guidelines. FxCop team has just released a new version, 1.30, that has many nice improvements and is considerably faster at analyzing large applications.  Here, I want to mention one thing..I was playing a role as white-box tester in one of my earlier project on .Net (Its a tough job!!). Code-Review analysis and reporting is one of the key task for a white-box tester, by making use of earlier FxCop version I managed to complete my task easily and more efficiently. Thanks to  urlLink Gotdotnet  where we got the FxCop tool.  Here in today's blog I am just going to list out the mail improvements and features in the new  version of FxCop.  	- Perform analysis through Introspection 	- Faster code analysis and supports multithreaded analysis 	- Ability to resolve missing dependencies 	- Powerful dataflow analysis 	- Many UI Improvements 	- More rules, rule topics and rule fixes 	 To know more on FxCop 1.30, zap to the  urlLink MSDN Magazine June 2004 issue .  For a complete list of new features visit  urlLink FxCop Team Blog  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   First of all, What is blogging about? "blog" is short for Web log. It's a medium in which an author writes a journal-style Web site with provisions for readers to respond. These Web logs are becoming quite valuable in the software community for sharing ideas. A blog is an easy-to-use web site, where you can quickly post thoughts, interact with people, and more.  Check out the April 2004 issue of MSDN Magazine on  urlLink All About Blogs and RSS   Now a days there are so many blog sites available.. For e.g.  urlLink MSDN Blogs  where you can find interesting blogs authored by Microsoft Guys, another one  urlLink Gotdotnet Blogs  here also there are many Microsoft Blogs, Here in gotdotnet blog I regularly used to visit a blog authored by the inventor of IUnknown  urlLink Don Box .   The blogs I visit regularly:   - Paul Vick: The VB Guy's  urlLink   Panopticon Central     - Brian William's  urlLink   The Galactic Patrol     - Justin Lovell's  urlLink   The Grumpy Coder     - Anand M's  urlLink   .Net from INDIA     - Vishal Joshi's  urlLink   .Net dump yard     and lot more...  Yesterday I read an article  urlLink Now, Gates has a crush on blogs  in economic times, Its a nice article that describes about the growth of blogs.  Now, Start creating your own blogs and keep sharing your thoughts...:)  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   Yesterday I had a nice time of 2 to 3 Hrs by going thru the new features and advantages of the next release of Microsoft SQL Server (Code Named "YUKON"). Microsoft says that the next release of SQL Server will be a new paradigm for database development. This version of SQL Server is integrated with .NET Framework which will enable database programmers to take full advantage of .Net Base Class Libraries. Using the CLR integration, many tasks that were difficult to perform in T-SQL can be better accomplished using managed code plus two news types of database objects aggregates and user defined types that are introduced in this version.  More product details and features of YUKON  urlLink here   For new development features read on  urlLink Overview of SQL Server YUKON    What are the major benefits for developers like me??   	The integration of CLR with SQL Server provides several major benefits to database developers:   	 Enhanced programming model:  The .NET languages are in many respects richer than Transact-SQL (T-SQL), offering constructs and capabilities previously not available to SQL developers.  	 	 Enhanced safety and security:  Managed code runs in a common language run-time environment, hosted by the database engine. This allows .NET database objects to be safer and more secure than the extended stored procedures available in earlier versions of SQL Server.  	 	 User defined types and aggregates:  Two new database objects which expand the SQL Server's storage and querying capabilities are enabled by the hosting the CLR.  	 	 Common development environment:  Database development is integrated into future releases of the Microsoft Visual Studio .NET development environment. Developers use the same tools for developing and debugging database objects and scripts as they use to write middle-tier or client-tier .NET components and services.          I expect that in the final version of SQL Server Yukon, an updated version of Visual Studio.NET will include special SQL Server projects containing the appropriate references that can load into the Visual Studio .NET IDE.  	 	 Performance and scalability:  Because managed code compiles to native code prior to execution, you can achieve significant performance increases in some scenarios.  The following are some experts on SQL Server YUKON:  	Transact-SQL is no longer be required to write SQL Server stored procedures, triggers, and user-defined functions. You'll be able to create these objects using any of the .NET languages -- VB.NET, C#, C++, or even COBOL.NET -- and compile them into .NET assemblies.  	 	One important benefit of relying on the .NET Common Language Runtime is that it can verify that all code hosted by SQL Server won't cause any memory usage errors that would bring down the server. In addition, SQL Server will benefit from the CLR's robust support for versioning and security.   	Data access in Yukon will be based on a new set of managed interfaces in ADO.NET. This new set of ADO.NET classes will be grouped within a namespace that is currently being called System.Data.SqlServer, and these classes will interact directly with SQL Server's internal query processing mechanisms.   	SQL Server will also leverage the Common Language Runtime's code access security model. By default, code doesn't have any permissions to create a graphical user interface, create threads, access the file system, or call unmanaged code. The only permissions implemented are those granted for in-process SQL Server data access.   	Altering assemblies will not be allowed to invalidate persistent data or indexes. For example, suppose you have an indexed, computed column that relies on a .NET function to perform the computation. Changing or dropping this function would invalidate any data stored in that index. Dependencies are tracked, and you can't drop an assembly if dependencies exist.   	In Yukon, you can encapsulate your middle-tier logic within server-side components and still have all the advantages of running as compiled machine code, not interpreted Transact-SQL. This won't make much of a difference for code that's primarily performing data access; the goal for Microsoft is that CLR data access code will execute as fast as the equivalent code written in Transact-SQL.   	Relying on .NET code won't hamper the scalability of your SQL Server database operations. Yukon's ability to handle a given number of concurrent users with a given set of hardware resources will be as good as (or better) than that of SQL Server 2000.   	A new developer tool called the SQL Server Workbench will support deployment of assemblies to multiple servers and will contain a powerful subset of Visual Studio.NET capabilities for code management. It's too early to tell what the SQL Server Workbench will actually look like, but it will most likely resemble the user interface currently available in Visual Studio.NET.  Learn more on YUKON's XML Support Features  urlLink Goodbye to Middle-Tier Logic    There are lot more features and advantages for YUKON, I need to dig more on net for YUKON...  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   Today I am very much in a happy mood to read the news "INDIAN President appoints Manmohan Prime Minister". Earlier I was worried about hearing the news of Sonia (Gandhi), the Italian Born Indian Citizen heading to the premiership. Me being an INDIAN Citizen (INDIAN Born) I was reluctant to accept her as Prime Minister. Now I appreciate her stand for stepping down to accept the post.   It was known to everybody that Manmohan Singh, the former Finance Minister and author of the post-1991 economic reforms and, admittedly the cleanest man in Indian politics. WE believe that Our country will be safe in Dr. Manmohan Singh's hands."   Hope INDIA will continue shining and grow in economy and Information Technology.  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   Earlier in one of my blog, I was mentioning about the code name "Whidbey". Now I got a chance to explore the features and updates we got on Microsoft's next release of Visual Studio .Net ("Whidbey"). The code name for next version of Visual Studio is "Orcas" (What is it??).  As Microsoft says, The code name "Whidbey" release of Visual Studio will radically improve developer productivity while continuing to provide full access to the Microsoft .NET Framework.  This release of Visual Studio and the Microsoft .NET Framework offers innovations and enhancements to the class libraries, common language runtime (CLR), programming languages, and the integrated development environment (IDE). In addition, this product also provides a deep support for next release of SQL Server code name "Yukon" by enabling developers to write stored procedures using managed code. Now we can even say that our SQL Stored Procedures are also managed.   urlLink Microsoft Developer Tool Roadmap    This release of Visual Studio 2005 ships with .Net Framework 2.0, the current version of Visual Studio 2003 has got .Net Framework 1.1.  Get more about Whidbey  urlLink here   In my earlier blog on "ASP .Net 2.0 - Revealed", This 2.0 version of ASP .Net is what expected on Whidbey. Now about the new language enhancements to C# on Whidbey, the Whidbey release of C# will support generics, iterators, partial types, and anonymous methods. New compiler features for Whidbey enable developers to do things like disable compiler warnings directly in code or verify ECMA/ISO conformance. Whidbey will also include several productivity enhancements include refactoring, code expansions, code formatting, enhanced IntelliSense, and much more. The debugging experience has also been improved with new features like enhanced datatips, debugger visualizers, design-time expression evaluation, and more.  The Top 10 best features introduced in Visual Studio .NET Whidbey are:   1.  Refactoring  2.  Edit and Continue  3.  ClickOnce  4.  Smart Tags  5.  Code Snippets  6.  Exporting IDE Settings  7.  Line Revision Marks  8.  Temporary Projects  9.  Data Inspection Improvements  10. Docking Window Changes   Visit Here for  urlLink A Programmer's Introduction to Visual Studio .NET "Whidbey"   Know more on C# capabilities available in Whidbey  urlLink here    Soon I will be getting some findings on the next release of SQL Server "YUKON" and will be posting it here very quick!!  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   Hope many people, fellow .Net developers might heard about this great tool NUnit. I have used NUnit for one of the .Net testing project that I was working before joining the current project in US. This is a clean tool and make the unit testing of our .Net code so easy. NUnit enables to write tests and not worry too much about how we’re going to get back their results.   Currently at version 2.1, NUnit provides us with a set of base classes and attributes that enable us to abstract away our unit tests and concentrate on the code that actually does the testing. The beautiful thing is that moving from our current coding/testing style to NUnit style requires little learning and is very easy to master.  So how do we turn our code using NUnit style?   - Download and install NUnit (free download at sourceforge.net).  - Add a reference to the nunit.framework.dll to our testing project.  - Add a using clause for the NUnit.Framework workspace in a new class file.   This is very useful and a must to use tool for all .Net developers...  Get more information on NUnit features and usage @  urlLink MSDN Magazine April 2004 Edition   An article by  urlLink   Steven A. Smith    on the unit-testing tool ans .NET  urlLink   Get Test Infected with NUnit: Unit Test Your .NET Data Access Layer     More on NUnit official site  urlLink here   Interesting... 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   Yesterday I was browsing through our Microsoft site for some new knowledge feed..While doing that I happened to see a new site from Microsoft dedicated for e-Learning.  This is an Official Microsoft e-learning format allow us to build skills and achieve goals through a flexible, continuous training experience..Presently most of the training courses are for IT-Professionals, But hope soon there will be more course for developers too.  Need to visit this site regularly for more updates on training courses..   urlLink Microsoft e-Learning  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   Sometimes I used to think like whether I did a mistake of choosing software carrier?!!. This is because all software majors especially Microsoft releasing new technology, new languages, updated versions etc day by day. This makes all software programmers and developers to keep on learning the latest stuff, sometimes I feel its a pain in butt.:-) But on other side learning the latest keeps us brightest and best.  Ok..Coming to my today's blog..Microsoft has released new code names for the latest updates for its existing technologies. Introducing the new releases/updates to its great developers, Microsoft used to present them with jazzy code names..For e.g. SharePoint Portal Server was introduced with a code name as "TAHOE" (I remember the project GILS I did along with my mentor suman using SPS, those are gr8 days) and present My Services was introduced as "HAILSTORM" (I remember by then colleague swami who initiated a project on HailStorm, good stuff).  I just happen to know about the latest code names from Microsoft for its next release of software components and those are as follows:   Longhorn  - This is the next release of Microsoft Windows Operating System.It is the first operating system built with managed code and the first to host a new storage sub-system (code named "WinFS") that revolutionizes the concept of a file system. The pages for Longhorn are written in a new declarative markup language, code-named (so many new stuff, lots to learn, right:) "XAML" (Extensible Application Markup Language). Each and every XAML tag corresponds to a .NET Framework class and comes with a collection of methods, properties and events. Longhorn represents a landmark in the history of Windows Operating System.    urlLink Explore Longhorn     Indigo  - The upcoming version Longhorn will include a unified programming model and communications infrastructure for developing connected systems. This infrastructure is code named "Indigo". One of the key benefits of Indigo is it provides a unified programming model and protocol stack for all common language runtime (the great CLR)-based remoting technologies. Indigo is the next step in evolutionary path that started with COM, COM+ and MSMQ.    urlLink More on Indigo     Avalon  - This is an integral part of Longhorn, consists mostly of a new collection of classes added to the .NET Framework. The most important new namespace for Avalon programming currently have names like MSAvalon.Windows, MSAvalon.Windows.Controls and MSAvalon.Windows.Media (These might change before long horn reaches final release). We can mention this as a presentation subsystem in the next version of Windows.   Learn more about Avalon  urlLink here     Last but not the least    WinFS  - This is a revolutionary File Storage System that lets users search and manage files based on content. As mentioned in Longhorn para earlier, this comes with the next version of Windows allows users to perform search based on metadata irrespective of type of file or creator of the file. This is going to be the basic building block for all applications on Longhorn. One small feature of WinFS, When you copy a Word document to your My Documents folder or some where in the work station which is running WinFS, information about the file will be put into the WinFS store so that applications can perform searches based on the files properties. We can say that WinFS is an advanced version of Share Point Portal Server with respect to document searching.   Check out more on WinFS  urlLink here       More here too  urlLink WinFS   But there is still some thing named as YUKON and WHIDBEY..I did not get a chance to read on these..Will write more on this sometime later..Lots of stuff to learn..hah!!   
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   Microsoft is all set to release the next version of ASP.NET, the 2.0 Version will enable us to do more magic on the Web. Microsoft says that the aim of this new version ASP.Net 2.0 is to reduce the amount of code required to accomplish common Web Programming tasks by 70% or more. But I feel this needs lot of thinking for programmers..Even though coding task is reduced!!!  I found a nice article on this latest version in MSDN Magazine June 2004 Edition. Here Jeff Prosise provides a broad overview of what we can expect in ASP.Net 2.0, with more focus on selected areas and sample programs to highlight the key features.  I found it very interesting and amazing..   urlLink An Overview of the New Services, Controls, and Features in ASP.NET 2.0  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   When I was discussing with my friends about accessing/retrieving exchange server e-mails through .NET, we were wondering how can we retrieve Hotmail e-mails using ASP.NET or C#...I went on to net searching for a solution to achieve this...  I came across an interesting article that talks about this solution, Here you can find the information on Connecting HTTPMail Hotmail Gateway, Parsing MailBox folder list, enumerating folder MailItems and much more...This has got a downloadable sample C# source code as well.   urlLink A HTTPMail client under .NET   Happy reading... 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   As I have mentioned in my first blog about my interests on writing articles..Now a days I am spending most of my free time in preparing useful articles especially in .NET. I had contributed and still continuing my contributions to MSDN INDIA. Currently I am working on the preparation of article in following topics..  Cryptography and Microsoft .Net ASP.Net UnExpected Error Handling  Hope I can complete this very soon and post the same in MSDN INDIA.    urlLink Read my MSDN INDIA contributions   Please pass on your comments, If you feel like.. 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   I was wondering how to display the contents of an asp page in Excel format without using server side Microsft Excel Automation Object. This was asked in an interview question to my friend..I read a nice example article at Microsoft to achieve this using Microsoft Office Web Component (OWC) XMLSS (XML SpreadSheet)..very interesting...    urlLink Use ASP to Build Spreadsheet XML for Client-Side Display   This is very useful and interesting to learn.. 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   Last week I went to New Jersey to visit my friends working for Merrill Lynch. Also my intention was to visit New York city as well. I spent 3 full days during that trip (for this I took one day off) and I really enjoyed the trip to fullest. It was a amazing trip and it will there in my memory for long.   I covered almost all the must see places in New York City, here I need to thank all my friends for their support and kind. I took lots of snaps to be specific there are around 140 snaps that I took with the help of my first Digital Camera Fuji Fineplex 3800. All photographs came amazing...  You can have a look at these photographs @ the following URL..   urlLink http://community.webshots.com/user/mcg2000    Please provide your comments, if at all you feel like..  Thanks. 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   In the programming world (as I am a programmer developer), new technologies are brought to our attention almost every day (especially from Microsoft). Every now and then, however, a new technology comes along that generates enough excitement in the development community that we spend our days and night mastering it. It takes a special technology to inspire this kind of commintment and for many in the development community, .NET is one of those technologies.  Community is a force in itself. Community just happens. By Community I mean here is a User Group. Almost from the moment .NET was introduced at the Professional Developer's Conference (PDC) 2000, .NET user group started popping up all over the world. Myself and my project team started working on .NET PDC version and developed many applications by then. Microsoft didn't go out and started these groups-they just happened. .NET is one of those rare technologies that has everyone motivated. These user group make their group members to share their .NET Experience with other peers. The success of the community replicated all across INDIA and around the world. Today there are user groups in almost every major cities from Chennai to Bangalore to Kolkatta to Cochin.  In the end, community does what community has always done: It captures your excitement and spreads it to others. Its a wonderful experience.  I want to mention here about activities I am involved in .Net User Groups, I am one of the Managers of  urlLink .Net Bloomington User Group (we call it as .Net-BUG!!)  Also, I am an active member of the following .Net user groups:   urlLink .Net User Group Chennai   urlLink .Net User Group Bangalore   urlLink .Net User Group Hyderabad   urlLink .Net User Group Ahmedabad   urlLink .Net User Group Mumbai   urlLink .Net User Group Indore   I invite all my friends, .NET enthusiasts to join their local user group and feel the excitement and learn by experience.  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   Like all books and application cover letters, an introduction to blog entry is bound to be usual, a standard and I can even say a tradition. So let's get it over with as quickly as possible.   I Varadarajan Sampath (prefer to call as Varad) am the author of this web log (blog). Since this blog will most likely be more towards the technical information, happenings around than any personal, I'll start with the professional side of my life: my current job is Systems Analyst on the Microsoft Technology Solutions at Satyam Computer Services (one of the premier IT Company in India), although I've been around working on Microsoft Technologies (6 years and counting) have done a variety of projects. I've been with Satyam Family for 3 years now, most of it closely associated with projects done for Microsoft using .Net and Pocket PC solutions. For a long while, my primary interest is on Architecture and Designing some innovative solutions using Microsoft .Net. Recently I've been focusing more on writing articles on ASP .Net, MS Compact Frame work etc along with .Net community activities. In my professional IT Career, I have worked with major clients like CGU Insurance, Merrill Lynch & StateFarm Insurance Companies. I had a very good experience working on these client projects, learnt a lot on my professional and personal improvements.   On the personal front, I live in Chennai, TN, INDIA (the world's largest democracy nation) with my parents. But when started this blog today (05/14/04), I am in US working on a client project. I do have a life outside of work, but I think let those details come into the blog naturally as interests rather than presenting that here in the first blog.   
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   For those looking for InfoPath resources beyond stuff directly from Microsoft, InfoPathdev.com has some good examples which you can find here:  Check out the site  urlLink   InfoPathDev     Happy Programming!! :-) 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   I do not know if everyone know this before, I just came across in Google a separate page to search only on Microsoft-Related information and sites. When you do a search on any phrase or text, it finds results from MSDN, Microsoft.com or any related sites having information about Microsoft. For me its new finding and surprise too!  Check out for yourself @  urlLink   here     After noticing this in Google, next thing what I did was checked for the similar URL on Sun (www.google.com/sun.html) and IBM (www.google.com/ibm.html) it gave 404 error.  If you guys come across anything other than Microsoft, let me know!!  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   In the latest issue of MSDN magazine there is an article titled “Top 10 Must-Have .NET Tools Every Developer Should Download Now“.  Here is a list of the tools:   - NUnit to write unit tests   - NDoc to create code documentation   - NAnt to build your solutions   - CodeSmith to generate code (Wahoo!  CodeSmith made the list!)   - FxCop to police your code   - Snippet Compiler to compile small bits of code   - Two different switcher tools, the ASP.NET Version Switcher and the Visual Studio .NET Project Converter   - Regulator to build regular expressions   - .NET Reflector to examine assemblies  Here is a link to the online version of this article:   urlLink   MustHaveTools      [Via  urlLink   Eric J. Smith, CodeSmith   ] 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   I found that  urlLink   MSDN Magazine    is now available for download in compiled help files (CHM). All the current year's issues are made available in CHM format and you can download it right away!  Here are the links to this year's CHM files so far:   urlLink   January 2004:      urlLink   February 2004:      urlLink   March 2004:      urlLink   April 2004:      urlLink   May 2004:      urlLink   June 2004:      urlLink   July 2004:      Stay tuned for more great content in the coming months!! 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   Good one about  urlLink   How Microsoft uses Reflection    in  urlLink   July 2004 issue    of  urlLink   MSDN Magazine    very interesting.  Actually, this month surprisingly they introduced a change in the .NET Matters column. This amazing change (I feel this is really good and expected in future issues) brings stories from the trenches; developers in product groups within Microsoft describing how they use .NET technologies to get their jobs done and develop their products.   This month we got some true programming/development story from XBox Live Team and Core File Systems Team, very good!  After reading this, I have a suggesstion to the magazine editor that we can have such stories in alternate issues of the magazine. Because even the Q&A column is also a useful stuff and is very much needed for developers like me.  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   I have just read an article in MSDN about  urlLink   Implementing Singleton in C#   . It's a very interesting one and worth a read.   Key topics covered: Static Initialization, Double-Check Locking, Multithreaded Singleton etc. 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   Microsoft Service Pack 6 for Visual Basic 6.0, Visual C++ 6.0 with Visual SourceSafe 6.0d addresses known issues with Visual Basic 6.0, Visual C++ 6.0 and Visual Source Safe 6.0. This service pack does not contain fixes for Visual InterDev 6.0, Visual FoxPro 6.0, and Visual J++ 6.0, as the mainstream life-cycle for these products has ended. This SP replaces Service Pack 5 for developers using Visual Basic 6.0, Visual C++ 6.0, and Visual SourceSafe 6.0. Developer using Visual InterDev 6.0, Visual J++ 6.0, and Visual FoxPro 6.0 should continue using  urlLink   Service Pack 5   .   urlLink   More Details        
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   The latest entry in Microsoft Knowledge Base article explains about a BUG: Performance counters may have inaccurate results when a user without permission runs the ASP.NET worker process. Some resolution is provided to resolve this problem.  Navigate to  urlLink   Microsoft Knowledge Base Article - 841554    for more details.  I was encountered with this problem during performance testing of one of our projects. We found the same solution in one of newsgroups and resolved the problem. That's the power of newsgroups.   
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   Wow...This is really a cool and useful stuff.   I found this site a while ago, it contains all the main topics covered for MCAD Exams. I really appreciate the work done by this guy to collect all the important topics and providing related links from MSDN and consolidated those as a book of reference. This is very good one and would benefit all developers who are planning/preparing for .NET Certifications.  PS: This is not a Brain-Dump.  It contains all the required topics & references for the following exams:  #70-229 (Designing and Implementing Databases with Microsoft SQL Server 2000 Enterprise Edition) #70-305 And #70-315 (Web Applications with VB.Net and C#) #70-310 And #70-320 (Web Services with VB.Net and C#) #70-300 (Analyzing Requirements and Defining Microsoft .NET Solution Architectures)  go check out the  urlLink   Certification Stuff     All the very best Guys! 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   I found a list of  urlLink   .NET Community Sites    posted in  urlLink   ASP.NET Web   . These Microsoft and non-Microsoft web sites provides additional resources to help us get answers to questions, state your opinions, meet other people, and learn more about .NET.   This is a very useful one and worth to bookmark it.. 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						    I thought like, providing the differences (that I Know!) of classic ASP and ASP.NET would be helpful to many. Today's entry here is intended for that..   A SUMMARY OF DIFFERENCES - CLASSIC ASP and ASP.NET      Objects Support     Classic ASP  6 objects (Request, Response, Application, Session, Server & Error), which are components that make web-development dynamic. The objects are interface based, not object based so are often called components. Can be extended with COM objects or COM+ (including transactions) that can interact with ASP objects. Supports default interface COM programming, not multiple interfaces. COM and COM+ objects tend to need GUI tools that automate their creation.    ASP.NET  Can consume COM and COM+ objects. Can be used to create objects that support interfaces and inheritance. Languages can inherit and override methods of objects created in DIFFERENT languages. These can be built with text editors and GUIs are a convenience not a necessity. Can make its components into SOAP listeners and proxies with trivial amounts of work by just setting a few attributes.  ----------------------------------------------------------------------------------   Language Support:    Classic ASP  2 built-in script languages (VBscript, Jscript) that are NOT compiled. some 3rd party languages: Perlscript, Python but not so robust and actually tend to crash the server.    ASP.NET  3 built in COMPILED languages (has NO scripting languages): VB7 / VBNET, C# and JScript / JSNET  ----------------------------------------------------------------------------------  Database Support:    Classic ASP  Database support via ADO which communicates with ODBC and OLEDB databases. Most database display is done through recordsets and loops. Most database manipulation requires code coupled to back-end database that may fail if drivers are switched and needs to be written carefully.    ASP.NET  Database support via ADO.net which communicates with ODBC and OLEDB databases, XML Streams, Binary Streams but is loosely coupled so differences between database vendors do not EVER affect programming model. Database display NEVER involves loops. Templates, grouped controls, Grids and many other declarative structures eliminate need for loops and flexibility is provided so programmer can control all interaction between templates declaritivity.  ----------------------------------------------------------------------------------  Scalability:    Classic ASP  Scalability without work is limited because 2 of the core objects (session, application) don't scale on web-farms. Those objects must be replaced with home-brewed or commercial objects if that functionality is wanted on webfarm. Scalability, multi-tier application building and transactional applications are possible to be build but the programmer has few tools to make the task simple. It is just hard work and the programmer must have experience building such systems in the past to build an effective one today.    ASP.NET  Sessions and all features were built with web-farms and supports "web gardens" (1 computer with multiple CPUs) as assumed environment.  Several kinds of caching reduces database access and code execution dramatically without requiring page-level changes.   ----------------------------------------------------------------------------------  Browser Support:    Classic ASP  Browser neutral.    ASP.NET  Validators and built-in components use detection to render GUIs that behave consistently on a variety of browsers. ASP.net has lots of facilities so that controls can detects the browser and renders the GUI very differently depending on what browser requests the page without having to expose this sensing to higher level callers. ----------------------------------------------------------------------------------  Execution Environment:    Classic ASP   Tightly coupled to IIS. The ASP engine is undocumented so that it cannot easily be extended and only low-level ISAPI filters can be created to accomplish tasks that ASP will not support easily. In "classic ASP" the first person to access a script compiles it but if the compiled script cache fills scripts are removed and if a machine physically restarts or a service restarts the compilation process is triggered by first user access.    ASP.NET  Loosely coupled to IIS to ensure that it runs on any webserver without requiring any IIS infastructure. Extremely extensible and high-level utilities called HTTP Handlers can accomplish the most complex of tasks without inheriting the ENTIRE ASP+ infastructure or bloat. Components and scripts have their compiled image written to disk so that compilation persists.  ----------------------------------------------------------------------------------  Deployment:    Classic ASP  Once an application is created it's settings reside in the Windows Registry, Binary Metabase, MTS catalogs, IIS settings. Transferring /copying a app from server is a complex tedious job with few automatic tools. Component registration is done via a variety of doftware packages all of which require a system adminstrator run these utilities.   ASP.NET  Huge complex applications store their settings and components in ASCII files and copying these ASCII files from server to server will result in a perfectly deployed application with no effort. Their are no component registration tools because components do not make any registry entries nor do they need to be compiled before being copied to server. All configuration/security options rely in ASCII/XML files.  ----------------------------------------------------------------------------------  Versioning approach:    Classic ASP  New versions of components required stopping and starting the server. Once new component versions were deployed, old versions were replaced.    ASP.NET  If a component is rewritten to have a new version, the next user accessing a page that accesses the new version runs on a new thread. The previous versions and new versions co-exist in memory since a fully running component live on a thread. Of course the ASP.net worker process will eventually finish all user requests communicating with old component and quietly quit wasting memory on it. Aspx or any programs can target any version of an assembly since side-by-side execution is supported.  ----------------------------------------------------------------------------------  Stability:    Classic ASP  Environment assumes code and libraries are written carefully and debugged and stress tested. Flaws in codes or component or memory leaks cause system deterioration and may require soft and hard reboots.    ASP.NET  ASP+ worker process assumes all components and code are likely to crash, leak memory and have bad code (infinite loops, forgetting to advance recordsets). The ASP+ worker process notices bad code and then isolates the thread the code is on, allows no new code to run on same thread and then destroys the thread and all bad code. If code leaks memory, ASP+ worker can create a new instance of itself to run requests and tear down the previous instance that has memory leaks without ever rebooting. ----------------------------------------------------------------------------------  Debugging:     Classic ASP  No debugging tools unless Visual Interdev is editor. Debugging tools are crude and have limits on how deep they can examine the system. Error trapping in all languages has severe limits. VBscript has ON ERROR RESUME NEXT and not ON ERROR GOTO. Javacript on server has TRY/CATCH but no other language does.    ASP.NET  Powerful debugging, millisecond timing and profiling are built-in. These can be done without GUIs. All current page requests can be logged and inspected after the fact.  Debugging can also be done with GUI tools that are not married to any editor specifically. Error trapping at code level is easy because there are many error trapping directives (about 8 x as many as Classic ASP). Most languages support TRY/CATCH and several other robust error trapping styles.   I can say these are some of main differences between these two versions of web development language, there are many that makes ASP.NET a powerful language.!! 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   What is URL Rewriting? URL rewriting is the process of intercepting an incoming Web request and redirecting the request to a different resource.  I found a very interesting article by  urlLink   Scott Mitchell    on  urlLink   URL Rewriting in ASP.NET    @ MSDN. In this he describes how we can dynamically intercept an incoming Web request and automatically redirect it to a different URL. He has provided a downloadable source code as well.  How URL Rewriting done in classic ASP? In classic ASP, the only way to utilize URL rewriting was to write an ISAPI filter or to buy a third-party product that offered URL rewriting capabilities.  But in ASP.NET, it's very easy to create our own URL rewriting software in a number of ways.  This article explains everything about URL Rewriting in detail..  The following are the topics covered in this article   - Common Uses of URL Rewriting  - What Happens When a Request Reaches IIS  - Implementing URL Rewriting   - Building a URL Rewriting Engine  - Performing Simple URL Rewriting with the URL Rewriting Engine  - Creating Truly "Hackable" URLs  very useful and informative..a must to read for ASP.NET developers!!  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   A very good article on  urlLink   XML Support in Microsoft SQL Server 2005    @ MSDN.  This article explains the XML support built into SQL Server 2005. It shows how XML integrates with the client side programming of .NET Framework V2.0 and in native code such as OLEDB and SQLXML.   The following topics are covered in this article:   - XML data type  - XML indexing  - XML schema processing  - ForXML and OpenXML enhancements  - Client access to XML data type  - Data modeling  - Methods of XML data type  - XQuery language  - Cross-domain queries  - Content indexing  and much more...  Very interesting one don't miss it..  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   As we all know about the development of IT solutions for industries is currently dominated by two technologies: Microsoft .NET and Java. To cope up with scope of developers world wide on both Microsoft .NET and Java, Microsoft has launched the  urlLink   Resources for Java Developers center     to provide a collection of resources for Java developers interested in interoperability, migration, and development with the .NET Framework.   The following are the resources that are available for Java developers at present:   - Java Interoperability Resources  - C# Language for the Java Developer  - Migration Resources  - Tutorials and Walkthroughs   - Starter Kits   - Tools to Get Started   - Third Party Tools   - Patterns and Practices   Hope we will get more in near future...  Note: According to a recent survey, 56% of enterprises will be using the .NET Framework as their primary development environment in 2005.  via  urlLink   Abhishek     
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   It's a good one..  This is a wonderful stuff for the current Mobile Camera Phone trend...  What is moblog? A moblog is a 'mobile blog' or 'photo journal' comprised of camera phone pictures that are posted direct to the internet from your mobile phone.   For more information navigate to  urlLink   TextAmerica     Once you have created your Moblog you will be given 2 important items, the URL where your Moblog is located and an email address. Just add the email address to your contacts section on your camera phone, then when you want to post a picture to your Moblog just send it to that email address. The pictures will appear instantly on your Moblog online.   all for FREE!!  I have not tried it yet, but I got this information from a valuable source..:)  Hope this will be very useful for many with camera phone!!    
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						    urlLink   Paul Vick's    VB.NET book is  urlLink   here    for download. In this book he provides a complete description of Visual Basic .NET language. There is also a link to  urlLink   C# Language Specification    book as well when scroll down the page. I found the book a year back (May 2003, I believe) when I was going through the  urlLink   Visual Basic Developer Center    at MSDN and then  urlLink   Visual Basic Related Blogs    link, under Paul Vick's blog. Since I started blogging recently, wanted to mention about this here (even though i's too late!!) now.   Many thanks to  urlLink   Paul    and  urlLink   Duncan Mackenzie    for making me to grab the good book.  My personal comments about the book,  It's very descriptive and the information provided about Visual Basic .NET language would benefit the beginners effectively. Overall, it's very interesting and useful.  Hope to get more like this from  urlLink   PaulV   . :)  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   This article at MSDN by  urlLink   Scott Mitchell   , describes about the benefits of View State in ASP.NET. Here he also mentions on how to interpret and protect the data stored in View State.  The article has also got some bonus - a sample code implementing View State.  Get the feeling of ASP.NET View State  urlLink   here   .  Thanks to  urlLink   Justin    for making me aware of this article. 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   This is something outside of technology info, but very useful and helpful for all INDIANS.  This site  urlLink   IndianBloodDonors    is very useful and good, where we can search for a particular blood group and filter the any city and location around INDIA.  We never know when emergency will knock on our doors.  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   This was asked by one of my friend in the same discussion mentioned in prev blog, who recently started learning .Net. He worked on lot of VB & ASP projects and wanted to know is Global.asax something similar to Global.asa in Classic ASP.  My answer to him is below:  The Global.asax file, also known as the ASP.NET application file, It is an optional file that contains code for responding to application-level events raised by ASP.NET or by HttpModules. The Global.asax is the ASP.NET equivalent of Global.asa file and it resides in the root directory of an ASP.NET application. At run time, Global.asax is parsed and compiled into a dynamically generated .NET Framework class derived from the HttpApplication base class. The Global.asax file itself is configured so that any direct URL request for it is automatically rejected; external users cannot download or view the code written within it (secured stuff!).   In general, global.asax is responsible for handling higher-level application events such as    -  Application_Start:  called when the application first starts  -  Application_Init:  occurs after _start and is used for initializing code  -  Application_Disposed:  invoked before destroying an instance of an application  -  Application_Error:  to handle all unhandled exceptions in the application  -  Application_End:  clean up variables and memory when an application ends (like classic ASP)  -  Application_BeginRequest:  used when a client makes a request to any page in the application  -  Application_EndRequest:  after a request for a page has been made, this is the last event that is called  -  Application_PreRequestHandlerExecute:  occurs just before ASP.Net begins executing a handler such as a page or a web service. The session state is available at this point.  -  Application_PostRequestHandlerExecute:  occurs when the ASP.Net handler finishes execution  -  Application_AuthenticateRequest:  occurs when the identity of the current user has been established as valid by the security module   -  Application_AuthorizeRequest:  occurs when the user has been authorized to access the resources of the security module   -  Session_Start:  triggered when any new user accesses the web site as with classic ASP  -  Session_End:  As same in classic ASP, triggered when a user's session times out or ends  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   I have been asked this question by many of my friends and co-developers. So I thought of mentioning the main differences of these 2 controls out here.  We are triggered to create either web user control or web custom control of our own, If none of the existing ASP.NET server controls meet the specific requirements of our applications and these controls would encapsulate the functionality that is needed.  If the needed control has a lot of static layout, creating a user control is the best choice. Or else if the control is mostly dynamically generated Â for e.g. rows of a data-bound table, nodes of a tree view, or tabs of a tab control, in this case a custom control would be a better choice.  Overall, the main difference between the two types of controls are,   Web user controls:    - easier to create - limited support for users who use a visual design tool - aseparatee copy of the control is required in each application - cannot be added to a Toolbox in Visual Studio - good for static layout   Web custom controls:  - harder to create - full support for visual design tool users - only a single copy of the control is required, in the global assembly cache - can be added to Toolbox in Visual Studio - good for dynamic layout  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   Good One!! I found a nice article in MSDN on coding techniques and programming practices for improving the quality of source code in Visual Studio .Net.  This article  urlLink   Coding Techniques and Programming Practices    provides a detailed explanation on the following topics:   - Coding Standards and Code Reviews   - Coding Techniques   - Best Practices   - Conclusion   - Suggested Reading   Oh Man..It is very interesting useful and so informative, a must to be read by developers.  The following are the more useful topics @ MSDN:  -  urlLink   ASP Conventions       -  urlLink   25+ ASP Tips to Improve Performance and Style       -  urlLink   ASP Guidelines     
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   Today, when I was going thru  urlLink   The Galactic Patrol    by Brian Williams, I noticed a post  urlLink   who is Bipin?   . This is an information and it is a must for bloggers to know. After reading the comments provided by others on this, I was wondering about, Is there any etiquette rules on blogging? I don't think it is needed for blog. Because all bloggers know about blogging and understands its power (there are some exceptions!!). This post provides more of it.  Here I want to mention about my own post on blogs tilted  urlLink   Bill Gates on Blogs   . For me, Blog is all about an individuals own thought and sharing them all with peers. Here there is no scene of C&P, but can have a reference to some others blog. These reference should just include some points about the post and provide link to the blog. That would be more professionalistic.  Finally, I prefer monitor myself carefully while posting any blog in order to avoid the situation encountered by Brian.  Hope everybody will... 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   As I mentioned in my earlier blog about my preparation on an article in Cryptography and .Net, I finished compiling the article and contributed to MSDN INDIA 2 weeks before. Now my new article  urlLink   Secret-Key Encryption Cryptography in Microsoft .NET    is published. I have also provided a sample code on using Secret-key encryption. You need to have a passport (hotmail or msn ID) to view the article.  When I was preparing the article on Cryptography and Microsoft .Net, I found there are so many topics to be covered under this title. Including all these topics in one will make the single article a lengthy document to present in MSDN and it wont be good enough to read. So I thought of splitting the whole title on Cryptography into different sections like Private (Secret) Key Encryption, Public Key encryption, Cryptograhic Signing, Hashes, Digital Signature Algorithm (DSA) etc.   Hope I can able to complete the topics on these titles very soon and contribute the same to MSDN INDIA. These topics would be very interesting and important to learn as well. 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   One of my friend, who is a VB guy basically recently started learning VB.Net. Yesterday he called me and mentioned that he was getting "Sub Main Was Not Found in WindowsApplication1.Form1" error message while running his first VB.Net application. He just created a Windows application with one form on it and tried to run the form. That's it, he encountered this problem. He was using Visual Studio .Net 2002 edition.   After getting the details of what he did with his new Project, I gave him the below explanation and solution:  The cause for this problem must make the core VB guys to feel wired. This problem would occur If the  Name  property of the start up form changed. This is not the case in Visual Basic 6.0 or earlier. In those versions even if you change the start up form name (first form by default is the start up form) the application would run without any errors. But VB.Net which is more sensitive and powerful, needs everything to be proper. So in order to avoid the above mentioned error, before running the application make sure that the  Startup Object  property for the project is updated with the correct form name.  To accomplish that follow these steps:  - Right-click the Startup project in Solution Explorer. - Click Properties when you receive the context menu. - The Property Pages dialog box appears. - Click the General node in the Common Properties node, if it is not already selected. - Click the Startup Object drop-down list box. - Select the new name for the Startup Object drop-down list box. - Click OK.  Listen: You can also open the Property Pages dialog box by clicking  Properties  on the Project menu, or by pressing the  Shift+F4  keys. For this to work, the Startup project should be selected in the Solution Explorer.   Actually this is a bug confirmed by Microsoft and hope this will be fixed in later versions of Visual Studio .Net.  After resolving the problem, he successfully able to run the application and started developing a dummy project while learning VB.Net.  Hope he had a nice sleep with sweet dreams on .NET !!! 
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   In today's world (IT world, I can say),  As organizational hierarchies become a thing of the past and companies depend on teams to get the work done, building good relationships and cultivating influence in order to secure the results have become essential survival skills. Whether you are dealing with a boss, colleague or staff members with their own managers, winning their respect and cooperation is absolutely essential if you want people who do not work for you often from other departments to help you get things done. Successfully influencing people begins with the way you think about them. Looking at others as potential allies and partners and developing a give-and-take relationship with them produces results!   Now a days most of the global software companies are looking for and hiring people with good analytical and interpersonal skills. As the amount of work to be accomplished in today's work environments has increased as fast as the technological advances, Since the work to be done is often complex, requiring the expertise of several individuals, teams are formed to meet deadlines, project requirements, and budgets.  I found a nice place on internet that describes about  urlLink   Developing Interpersonal Skills    and various factors. It also provides so many internet resources for various skills development.  This is a nice one and very interesting to learn..  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						    The following lists some important resource centers for SharePoint development and understanding.    Reference   urlLink  SharePoint 2003 Administrator's Guide   . Guide for installing, configuring, managing, and maintaining Microsoft Office SharePoint Portal Server 2003.    urlLink  SPSFAQ   . SharePoint Portal Server Frequently Asked Questions    urlLink  WSSFAQ   . Windows SharePoint Services Frequently Asked Questions    Hubs   urlLink  Sharepoint on MSDN   .    urlLink  SharePoint D2D   . A collection of resources including tools, webcasts and discussion areas.    urlLink  SharePointSolutions.com   .    CommunityDiscussions.   urlLink  SharePoint Newsgroups (microsoft.com)   .   Explore the support newsgroups to ask questions, share information, or exchange ideas with others who use SharePoint Portal Server.    Development   urlLink  SharePoint Portal Server 2003 Software Development Kit   . This SDK contains conceptual overviews, programming tasks, samples, and references to guide you in developing solutions based on Microsoft® SharePoint® Products and Technologies. [  urlLink  Documentation   ]    Web Parts.   [  urlLink  Web Part Pages and the Web Part Infrastucture (msdn.com)   ]   [  urlLink  Creating a basic Web Part   ]   [  urlLink  Debugging Web Parts   ]   [  urlLink  Web Part Templates for Visual Studio.NET   ]    Event Handlers.   [  urlLink  Document Library Event Handler Toolkit   ]   [  urlLink  Creating Event Log Messages for a Document Library   ]  Includes source code which may be extended to handle any document library event.    Namespaces.   [  urlLink  Microsoft.SharePoint Namespace   ][  urlLink  Microsoft.SharePoint.Utilities Namespace   ][  urlLink  Microsoft.SharePoint.WebControls Namespace   ][  urlLink  Microsoft.SharePoint.WebPartPages Namespace   ] [  urlLink  Microsoft.SharePoint.WebPartPages.Communication Namespace   ]    Customization   urlLink  SharePointCustomization.com   . A collection of templates, skins and guidance for modifying the look and feel of SPS and WSS with FrontPage.    urlLink  Customizing SharePoint Sites and Portals   .    A three-part series of MSDN articles. [  urlLink  Part 1   ] [  urlLink  Part 2   ] [  urlLink  Part 3   ]    urlLink  WSS Demo Site   . It looks like a hub but it's really a sweet developer resource for WSS site customisation. The home page has a list of recent KB articles (it reads the KBAlertz RSS feed) and the sections on Articles and Demos provide a number of quick useful tips.    WebParts  urlLink  Web Component Directory (microsoft.com)   . Web Parts, Templates, Tools, and Complete Solutions.    urlLink  SmartPart for SharePoint   . A SharePoint Webpart that can host any ASP.NET user control. Create your webparts by using the VS.NET designer instead of coding everything by hand!    IFilters  urlLink  Acrobat   . Installing the Adobe Acrobat IFilter and associated   urlLink  icon   .     urlLink  Mp3   . An Mp3 IFilter originally written for the   urlLink  Meticulist    document management system.    urlLink  TIFF   . This article describes how to enable optical character recognition for Tagged Image File Format (TIFF) files, how to change the TIFF file size limit, how to enable automatic file rotation, and how to log TIFF error messages to the application event log.    urlLink  Visio   . With this download, you can extend the text search features in Microsoft Windows, Microsoft Office and Microsoft SharePoint™ Products and Technologies to include searching within Microsoft Office Visio 2003 files. Visio binary and XML formats are supported.    urlLink  IFilter Shop   . Commercial IFilters for a variety of formats including Zip, Shtml, Wma, vCard, and OpenOffice.    Integration  urlLink  Microsoft Content Management Server 2002 Connector for SharePoint Technologies   . MCMS Connector for SharePoint Technologies consists of .NET server controls, Web Parts, ASP.NET files, and documentation that enable customers to integrate SharePoint Portal Server 2003 and Windows SharePoint Services 2.0 technologies with Microsoft Content Management Server 2002.    urlLink  Microsoft Live Communication Server   . An instant messaging server platform to support SPS presence and document collaboration features.    urlLink  Reporting Services   . A collection of SharePoint WebParts that integrate with SQL Server Reporting Services.    InfoPath Development  urlLink  InfoPath 2003 Service Pack 1 Preview   . Advantages include .NET allowing C# and VB.NET code, improved access to data sources (schema changes don't break forms), and enhancements to the object model. This update will be released as part of an Office 2003 Service Pack, and no breaking changes are expected from this preview release to the RTM release.    urlLink  InfoPath Toolkit for Visual Studio.NET Preview   . Create forms templates in InfoPath using Visual Studio.    Add-ons  urlLink  Brightwork   . A help desk ticket application built on SharePoint.    urlLink  Microsoft Office Solution Accelerator for Sarbanes-Oxley   . Help your company efficiently manage the extensive work required to comply with sections 302 and 404 of the Sarbanes-Oxley Act of 2002. Built on WSS.  [  urlLink  Download   ] [  urlLink  Deployment Guide   ]    Archival Tools   urlLink  AvePoint   . Allows for the successful backup and restore of whole sites, documents and images with history, versions and meta data, areas with portal links, and all lists and items including    contacts, events, tasks, and discussions.    urlLink  CommVault   . A product exists for SPS 2001, not yet for 2003. However an alpha (“engineering“) release for SPS 2003 is available to existing customers.    urlLink  KVS Enterprise Vault for SharePoint Portal Server   . Automatically archive older information off the SharePoint server and into on-line stores. Solves SPS's lack of an undelete feature and provides an alternative to document versioning without bloating the database.    Hope this would help many in SPS development!!    Happy reading..      
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						     I came across this site while reading over some newsgroup post.  I have to admit this is a must have site for your favorites collections.     http://www.pinvoke.net/     About the site  PINVOKE.NET attempts to address the difficulty of calling Win32 or other unmanaged APIs in managed code (languages such as C# and VB .NET). Manually defining and using PInvoke signatures (also known as Declare statements in VB) is an error-prone process that can introduce extremely subtle bugs. The rules are complex, and if you make a mistake, you’ll probably corrupt memory.  It's time to stop writing PInvoke signatures from scratch! Instead, copy and paste your way to productivity!  Another very cool site for those of us who can not recall the value(s) of a ADO or ADO.NET connection string     http://www.connectionstrings.com           
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						     This URL explains the major differences between SQL Server Express and MSDE (Microsoft Desktop Engine)     http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnsse/html/sseoverview.asp             
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						       This article discusses the Visual Basic Power Pack, a collection of custom controls that provides enhanced user interface elements to client based applications.     http://www.msdn.microsoft.com/vbasic/default.aspx?pull=/library/en-us/dv_vstechart/html/vbpowerpack.asp           
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						    This is a Web Solution designed to teach all newcomers into the .Net field on how to incorporate Multi-language support into your Web Applications. You have to download the accompaning ZIP file.  This tutorial will teach you     &nbsp;- How to create the Resource files for various languages.  &nbsp;- How to access the Resource file data from the web pages.  &nbsp;- How to store Unicode (multilingual) data into the database.  &nbsp;- How to access multilingual data from the database.     You can find the tutorial article at   urlLink  http://www.developersdex.com/gurus/articles/500.asp?Page=1   ....  
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						    If you are looking for some&nbsp;samples to play with in C# Expess, here are some available in MSDN. Both consist of an article, and a project for&nbsp;download.     urlLink  Web Browser Express  &nbsp; This project will create a neat tabbed web browser with a search box that talks to the new MSN Search Engine.     urlLink  ExpressPaint  &nbsp; A simple graphics program for loading, processing and saving images. Add your own filters and other features.     
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						    View or download the .NET Framework-related presentations from TechEd 2004 (US) using below link     http://msdn.microsoft.com/netframework/support/training/teched2004/        The following some of&nbsp;presentations that I liked,  1) Exploring What's New in the CLR 2.0    2) Visual C# Best Practices   3) Visual C# 2005: Language Enhancements   4) Visual Studio: Deploying NET Applications with Ease   5) .NET and J2EE Strategies for Interoperability     There are more inside.. worth a reference, download ASAP!!    
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   The documentation for Visual Studio 2005 BETA bits is available  urlLink   here    .  This should be an interesting URL for anyone who cannot or does not want to, at this point in time, install the beta bits on their machines but still would like to have access to reference type material for the upcoming features of the next version of Visual Studio .NET and the .NET Framework 2.0.  For offline viewing, you might also be interested in downloading the MSDN documentation for the Visual Studio 2005 Express products. It's publicly available as a 162 MB file download  urlLink   here     
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   The .NET Framework 2.0 introduces enhancements across the .NET Framework. Windows client application development will be simplified through new controls and designer features, while the introduction of "ClickOnce" technology will dramatically ease Windows client application deployment. ASP.NET 2.0 introduces a collection of new features that refine Web application development and radically reduce coding effort. Other enhancements include more productive ADO.NET data access, support for the latest Web services standards, and expanded functionality for device-based development.   Common Language Runtime 2.0    Generics . Generics are classes and methods that work uniformly on values of different types and can greatly improve developer productivity by boosting code reuse.   Edit and Continue . The feature that made Visual Basic “RAD” is now in the core CLR, enabling developers to halt program execution, change a line of code, and continue running it without a full recompilation.   Performance and Load Time . The CLR now loads more quickly and takes up less memory footprint.    Windows Forms 2.0    Application Deployment . Windows Forms 2.0 introduces “ClickOnce,” which makes it simple for developers to package and deploy applications and simplifies the inclusion of pre-requisites in the installation package. ClickOnce further provides a simple way for administrators and users to deploy and update applications.   Visually Stunning Presentation . Windows Forms 2.0 brings together the capability to build applications that look like Microsoft Office and increases flexibility and control over how you can position controls on the forms. It includes a new grid control, a Sound Player control, a Web Browser control and an Active Document Host control. Beyond that, in order to make your application look more like Microsoft Windows or Office, we have made Windows Forms controls render with visual styles by default, and we have created a new menu, toolbar, and status bar family of controls called ToolStrips.    ASP.NET 2.0    Productivity and Customizability . ASP.NET 2.0 includes support for membership (user name/password credential storage) and role management services. The personalization service enables quick storage/retrieval of user settings and preferences, facilitating rich customization with minimal code. Master Pages now enable flexible page UI inheritance across sites. Augmenting all these infrastructure features are more than 45 new server controls in ASP.NET 2.0 that enable powerful declarative support for data access, login security, wizard navigation, image generation, menus, treeviews, portals, and more.    UI Adaptability . All standard ASP.NET 2.0 controls are now built with a rich UI adapter extensibility architecture that enables customization of output for different browsers and devices. All built-in ASP.NET controls with the   prefix are now mobile enabled in Whidbey, which allows developers to automatically target more than 300+ unique devices that support a variety of different markup standards (WAP/WML, XHTML Mobile, cHTML, etc).    Administration and Management . ASP.NET 2.0 includes configuration management APIs, enabling developers to create, read, and update Web.config and machine.config configuration files and an admin tool that plugs into the existing IIS Administration MMC, enabling an administrator to graphically read or change any setting within our XML configuration files. It also includes a new application deployment utility that will enable both developers and administrators to precompile a dynamic ASP.NET application prior to deployment protecting your source code. Finally, ASP.NET 2.0 provides health-monitoring and tracing support to enable administrators to be automatically notified when an application on a server starts to experience problems.    Speed and Performance . ASP.NET 2.0 is 64-bit enabled so it can take advantage of the full memory address space of new 64-bit processors and servers. ASP.NET 2.0 also includes automatic database server cache invalidation enabling developers to cache database-driven pages and partial page content and have ASP.NET automatically invalidate these cache entries and refresh the content whenever the back-end database changes.   
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   This is free and it has most of the functionality of the full SQL Server product with limits on CPU, memory and Database size!!  SQL Server Express Edition helps developers build dynamic and reliable applications by providing a freely redistributable, easy to use, and robust database. It includes all the rich functionality included in the SQL Server 2005 database engine such as stored procedures, views, triggers, cursors, CLR support, and XML support. A technical preview of SQL Server Express Edition is available for free download today from:    urlLink SQL Express      
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   MSN Search has a  urlLink   new release   .  Looks good too without all that clutter in my opinion.  Searching for myself seems to produce the same results, I would find on another site.  Here's  urlLink   more info   .   
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						   By default, IE makes a clickety sound when you follow a link. It can get annoying after a while. Here's how you turn it off:  1. Open the control panl 2. Open the “Sounds and audio devices properties” applet 3. On the Sounds tab, scroll down to Windows Explorer | Start Navigation 4. On the Sounds drop-down, select None and OK out of the dialog   Posting this for the benefit of future google searchers   [via KC Lemson]   
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						    This article provides a roadmap to learn and master garbage collection in the Microsoft .NET Framework.        urlLink  http://support.microsoft.com/default.aspx?scid=kb;en-us;317866             very useful and worth a read.            
+
+						
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+						
+						    Web Services Enhancements for Microsoft .NET version 2.0 includes a number of enhancements over earlier versions of WSE like:       Policy    WS-Trust and Security Context Tokens    Kerberos Security Tokens    Role-based Security Using Security Tokens    Signing and Encrypting Security Tokens    SOAP MessagingXML Security Token Support      To read more on WSE 2.0 Enhancement features go to ->   urlLink  http://msdn.microsoft.com/webservices/building/wse/WhatsNew/       
+
+						
+</post>
+
+
+</Blog>

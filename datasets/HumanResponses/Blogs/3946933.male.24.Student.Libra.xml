@@ -1,0 +1,101 @@
+<Blog>
+
+<date>27,July,2004</date>
+<post>
+
+     
+      Holidays, at last! I'm posting from gaim, you wouldn't believe how this makes blogging so much easier.. There's not much happening, mostly sand, sun, &quot;ameijoas&quot; and beer.. I'll go down south by the end of the week, to meet with some friends and we'll enjoy the beach together :)
+     
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+     
+      First post, trying the gaim-blogger plugin from  urlLink http://gaim-blogger.sourceforge.net/ . I've just found out I need an effortless way to blog. I've spent most of the last two days trying to get CUPS to work on a Windows network, and there's some much I should have written about it...
+     
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+     
+        urlLink     Me@ConstructionSite      
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+     
+      E já não era sem tempo.    Este fim de semana, foi um bom fim de semana.  Antes de mais, a namorada entrou para a  urlLink Universidade ! Hip Hip, Hurray!    Vou aproveitar este tempinho de férias para:       Remodelar o software de comunicação com a IOBoard do torniquete no  urlLink LTI.      Adicionar mais funcionalidades ao programa que mostra quem está a passar no Torniquete (ainda não sei quais serão as funcionalidades!)     Montar um Weblog/Moblog a sério.     Montar uma caixa para ver Divx,Xvid e ouvir MP3s (com suporte de WiFi, porque estas coisas de passar cabo são totalmente do milénio passado!)     Encontrar/Escrever/Adaptar um pedaço de software para publicar posts no Blog (seja aqui no blogger.com ou noutro sitio).          E ainda no tópico da procura de um bom software para ler RSS, encontrei isto:        urlLink Blogbridge  - Um leitor de RSS, em Java (hurray), que arranca com WebStart.. nicety,nicety      urlLink FeedReader  - O leitor que eu uso agora, tem a desvantagem de ser só para Windows..    WishList para um leitor de RSS:       Categorias de Feeds (Pastas, menús, whatever.. não os quero todos ao molho!)     Possibilidade de exportar a minha lista de Feeds para um sitio qualquer! Muito importante mesmo... uso vários computadores/OSs e não devia ter que ser obrigado a lembrar-me de todos os feeds que leio! Aliás, é por isso que uso um leitor de RSS, certo ?       E é  urlLink oficial  *sigh*   
+     
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+     
+      Faltam 14 horas para o ultimo exame (Betão II!!) e ainda não está tudo visto :(    Depois de amanhã, férias!    
+     
+    
+</post>
+
+<date>17,August,2004</date>
+<post>
+
+     
+       mysqldiff -- a utility for comparing MySQL database structures   mysqldiff can take two SQL dumps, from two different databases and compare them, just like the regular diff. The best part is that it produces a valid SQL patch to apply in the second database. Very usefull, grab it here:  urlLink mysqldiff .   This post was created using BloGTK 
+     
+    
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+     
+       urlLink JSR-000082 Java APIs for Bluetooth - Final Release   Wasted some time googling around to find it... why the heck isn't this referenced directly from Sun's java site ? 
+     
+    
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+     
+      Today was one of those boredom filled days, the kind of day where all you can do is sigh while walking the meter path between the PS2 and the laptop (you know the feeling, right ?)  To put it in a better prespective: First of all, it's August. August, in Portugal, means +30ºC temperatures, sun, beach, friends and beer. Today's weather was like a good day in London, cloudy, humid and boring. Next, I'm still having smoking problems. It's not the nicotine addiction, it's more the psychological addiction. And, if you smoke / have smoked, you know how good it feels when you're bored. And, to finish this, I had a huge craving for spending money in a that techno-geek style.  Bottom line, boredom.  I ended up in FNAC, browsing games, cellphones, small-as-in-fit-it-into-a-purse-style computers, dvd's... the usual. I ended up picking a 100m capable USB BlueTooth adapter, to explore a moblog idea I'm having. Setting up the BT was painless and I had no problem hooking it up in FMA. After backing up my cellphone, I started browsing the scripts section of the program,to find out  urlLink CarpediWebMouse.  Basically, it enables the Acessories menu in the T630 Connections menu. From there you can control programs like iTunes, Winamp, PowerDVD even Powerpoint. Simply amazing.  The capabilities for this kind of thing are almost endless. Hook it up to X10 and control your whole house from the cell... wow.  
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+     
+      SQLite is a small C library that implements a self-contained, embeddable, zero-configuration SQL database engine.  Also: http://www.ch-werner.de/javasqlite/ and http://www.thauvin.net/erik/lifeblogger/ .  
+     
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+     
+      I remember I once had a need for a full, embeddable, java rdbms. I feel the need will rise again, so here it is. Cloudscape (that IBM has just released to the Apache SF):    There are several technical aspects that differentiate Cloudscape from other database systems:        Cloudscape is easy to administer. When embedded in a client application, a Cloudscape system requires no administrative intervention.       Cloudscape is embeddable. Applications can embed the Database Management System (DBMS) engine in the application process, eliminating the need to manage a separate database process or service.       Cloudscape can run as a separate process, using the Network Server framework or a server framework of your choice.       Cloudscape is a pure Java class library: This is important to Java developers who are trying to maintain the advantages of Java technology, such as platform independence, ease of configuration, and ease of installation.       Cloudscape needs no proprietary Java Virtual Machine (JVM). Written entirely in the Java language, it runs with any certified JVM.       The Cloudscape DBMS engine is lightweight. It is about 2MB of class files, and it uses as little as 4MB of Java heap.       Cloudscape provides the ability to write stored procedures and functions in Java that can run in any tier of an application. Cloudscape does not have a proprietary stored procedure language; it uses JDBC.  
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+     
+      I've decided to learn some Python. Why ? Cogito, ergo possum. 
+     
+    
+</post>
+
+
+</Blog>

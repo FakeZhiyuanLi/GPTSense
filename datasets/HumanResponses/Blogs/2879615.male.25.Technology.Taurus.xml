@@ -1,0 +1,1182 @@
+<Blog>
+
+<date>05,August,2004</date>
+<post>
+
+     
+      Found this one the other day. It seems to be an alternative to 'scp' and just as secure. Remote backups using 'ssh' and 'tar'.  http://madpenguin.org/Article1505.html  This is an excellent method for archiving large amouts of data and maintaining directory structures. Have fun...
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+     
+      Holla at the /etc/passwd one time.  Don't know where to start, but I figure this link would be useful for everyone out there:     urlLink Security Audits and Such     It's got all the online security check links, plus all the tools you need to get started for most OSes :-)  Craig wonders when he'll get off his ass and upgrade his kernel to 2.6 and start playing with ipv6 as well.  Beat it, Craig
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+     
+      testing first post
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+     
+       urlLink Part 2  of  Craig's  original post on this subject matter. Good overview of AirSnort and light covereage of WEP cracking and weak IV's. Also, makes reference to a great tool ' urlLink Whisker '...I haven't seen anything from  urlLink rfp  in a while...  Ever feel like you are just talking to yourself... we need some more contributors =P  oh yeah...thanks  urlLink Dan  for this template!
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+     
+      Found this article on  urlLink securityfocus.com  -written by Mariusz Burdach   urlLink Forensic Analysis of a Live Linux System P I&II   Well worth the time to read this one. Excellent description and use of tools and logic. Also very descriptive on physical data collection as to not disturb the system, therefore destroying the integrity of the analysis. Good bedtime story for you security junkies out there. 
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+     
+       urlLink darknet.   This is a great project from  urlLink Team Cymru  (found on /.). Can do it with a cheap linux or freeBSD box but you need a router with some functionality. All linksys router users may need to use a hacked firmaware. (the examples used in the project whitepaper are freeBSD/cisco).  harkens me back to the MRTG days with voltaire.uncg.edu  definatley a good read! 
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+     
+      Came across this on security-focus today, while it's a bit dry I think the next two installments will be worth a read for sure:     urlLink Wireless Attacks and Penetration Testing (part 1 of 3)     My thoughts on the M$ vs. Linux is this:  M$ = scurred of the Open Source Community and what they bring to the table at little or no cost Linux = underdog, realizes their code is better than M$, but would rather let the code speak for itself and take away from M$'s revenue :-)  I have no idea how they say that linus didn't write the linux kernel, but I'd love to slap these fuckers in the face as they need to wake up and look at the facts :-)  Holla back, Craig 
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+     
+      Ok, if you are just hearing about this some background will be provided. There is this douchebag Ken Brown who is writing a paper about the origins of open source and linux. You can find his M$ funded and puppeted institute  urlLink here . Anyway....Brown writes a very uninspiring peice accusing Linus of "stealing" a majority of code from Andy Tanenbaum's Minix OS. In the end all the major open source playas (torvalds, tanenbaum, and raymond) got to take their respective shots at this M$ sock-puppet Ken Brown and the shit rag he wrote.  I will provide the links to all rebutles of Brown's paper b/c the links on the ADTI site are mysteriously unavailable. See  urlLink here.  And they are far more eloquent at tearing Brown apart than I could do justice.  Here are all the comments, hopefully in order   urlLink Linus Torvalds   urlLink Andy Tanenbaum   urlLink Eric Raymond -this is priceless!  While Brown's paper "Samizdat" is an obvious jab at the open-source movement (and a troll and major flambait and outright disregard for veritas), even before it's public release, it has prompted a wave of concern in the Open community in regards to the auditing of source/kernel changes and who is responsible. New measures have already been instituted to ensure that developers "sign off" on code they have worked on or reviewed.  FUD is still the reason most Open projects have no place yet in corporate IT environments. When will managers wake up and realize that behind all the pagentry and propaganda at M$, there is nothing but subpar programming/development, smoke, and mirrors. And while we are on the topic of "borrowing" code, M$ is responsible for some of the greatest borrowing of all time, like Berkely's TCP/IP stack. Also, I would like to point out that Windows-centric environments with all there helping-hand config wizards creates the "i dunno it just works that way" attitude. This inturn creates a generation of "dumb" sysadmins...and you wonder why 18 yo. kids can take down these companies with 200 lines of code. How's that for FUD. 
+     
+    
+</post>
+
+
+<date>31,May,2004</date>
+<post>
+
+     
+      OK so tonight me and LALA made up...WOOHOO i am so happy we're friends again...i was sad and lonely. Me and La went to danes, it was kind of beat but still fun. I won burrtang a million times. really just one, hahah i;m DRUNK.   And then calder7 puked. hahhaha. then we went to the new prospect.  Mike A was there making me smile and stupid boys were..you know. umm i;m drunk.  OK and then i won the 8 millionth buurtang game.  Ok so then its time to leave and me and yast PEE in a bush. "hahahha watch your bag!"  then i jump on uncles craigs CAR and repetively drive into the driveway. ppl in the white car having sex "uh uh uh uhhhhhhhhhhhhhh!" then we come to autumn, blunt in smoked, upstairs broom in VIOLATED. me and yast eat prohibited food, then i accost her stupid veggie and hummus bs. VAGINAS ERRRWHERE.   "Gratuitudiness."  I loooooove me some ti taes.  Doug and Bill get in a fight. Luke grabs hold of a knife and starts cutting shit "Yo do you think kristen would be mad if she finds her book wiht the knife in it" CRACKY KIMBO  Lala got her tongue pierced and won't druink....she's no champ like I.  I missed the autumn lane clean-a-long, mmh, oh well. I love the kids at autumn lane so much.  They are the most fun wonderful friends i have ever had.I love you motherfuckers, all y'all. MWAH.  tonight is the last night of Autumn Lane as we know it.  "someone saved my life tonight"  Smashley  aka Pinto.      yeah right.
+     
+    
+</post>
+
+<date>30,May,2004</date>
+<post>
+
+     
+      normally i comment on blogs that i have seen posted, but tonight i'm attempting to comment on the drunken nenss that is going on riiight now. licky is down sturrrs with  daniella and smashley is fuckin wit sum food in the kitchen. bill krackopolis is talking seriously with doug frizzle on some stuff shit, well see about that. kimbo has got the crazy tan line tittaes (ah ah ah ah!) and smash wants to read my post before its posted, or ,  at least post after me. these bitches be feindin!!!  craig is at the dinner with la, ... yeah right! he's THROWING it in the butt!   the oringal point of this post was to quote some rediculous made up word that ashley spit up, but it is beyond the memory of the house right now. i'm sorry.  i supposeo ill leave ashley to post.  (if my trip is postponed im going to eat a small child for breakfast with nothing but garlic, oregano and a little bit of paprica.)
+     
+    
+</post>
+
+<date>30,May,2004</date>
+<post>
+
+     
+      Internet radio buffering is a poor substitute for the hours of commercials you get on regular radio.  These internet radio stations just don't understand that people aren't interested in a wide, commercial-free variety of music.  People can only handle one or two songs in a row before they start craving the sound of a booming, echoing voice shouting about the incredible one-time-only sale at the local car dealership.  According to a pole conducted by Collier's magazine, 74% of radio listeners only tune in to help themselves decide how to spend their money.  Also, a whopping 93% said that they preferred the advertising jingles to the actual songs.  The number one song on Casey's Top-40 for thirteen weeks in a row has been the Safe-Auto song.  If you are interested in facts like this, I suggest you head down to your nearest newsstand and pick up the latest issue of Collier's, which despite the alligations of a few homosexual nerds, DOES exist.  Just look below at the cover of the best-selling issue from 1938, containing Martha Ostenso's "The Dreamer" which was just recently auctioned on e-bay and sold for the highest amount ever paid for any piece of artwork, making it almost twice as valuable as the Mona Lisa.  Of course this now makes Collier's the wealthiest and therefore most powerful corporation in the business world.  They just recently announced their plans to buy Microsoft.  And it was just made official--Collier's has been named the #1 magazine OF ALL TIME in the Best-Magazines-Of-All-Time list in Collier's magazine.  So you can all just go blog yourselves, bitches.       
+     
+    
+</post>
+
+<date>29,May,2004</date>
+<post>
+
+     
+        
+     
+    
+</post>
+
+<date>28,May,2004</date>
+<post>
+
+     
+      Alright, I don't care about down and dirty nuns. I care about drunken debaucheries. Can we get a little more rowdy and a little less boring please? I mean I know we're all gonna have a fun time tonight cleaning our Autumn home, but for real. This is way past fuggaze.  A disillusioned Smash
+     
+    
+</post>
+
+<date>28,May,2004</date>
+<post>
+
+     
+      or orange, or blue  without them, what am i to do  sit around and smoke some poo?  oh shit...i'm out of that too   frustrated, i decide to get some brew,  and run to the store for a 22  met a nun who said it was true  she wore a habit, her thong was blue    this is so fucked up, i can't continue     urlLink http://www.nunwhores.com/nunswhores/    Outsource Bush, not jobs! 
+     
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+     
+      all bow to the king of blog posting! all others posts suck in comparison - with exceptions to those people who cite collier's and document the multitude of rediculous things that are happening and being said around this most ridiculous place. I spell things wrong on purpose, and if you have a problem, thats absolutely redickulous so shut the fuck up or post a comment. biotch. ' moment of life: kracky "does anyone want this last chicken nugget ?" smashly "YYYESSS!!!!" - i understand that this quote is quite unfunny, a "miss" if you will, however if you could have just heard it for yourself it was funny.  down to business. bottle de 1800 repaso for tonight - we'll take shots, roll a blunt, go out to shmeckies, take more shots, come back here, take more shots, go out again, take more shots, then take more shots, then smoke a blunt, thhen go home home and finish the bottle of tequila and smoke the last blunt. gnight...  if y'all are intersted the blunt schedule for tonight is as follows: you can catch the 10:30, the 12, the 12 35, the 12 58, the 1 26 and the 1 56,  I'm pretty sure it keeps running past that, but, you know where luke will be. holla at ya bed. peace. (bow to me)  ps. nuns really do get it in the butt, if you don't beleive me, i dare you to go to the nunnnery next to calder-1's and ask them. then youll see who is smart and who isn't!!
+     
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+     
+      Ok so me and Yastine decide to go to Speck's Beerbq.  It started off slow and sober, but the room started to spin quickly as I started POUNDING multiple varieties of buurrrrtang.  I can only remember stupid flashes of the night which include: Sucking on the midge burrtang table...smoking multiple blunts in multiple locations...seeing mike davis covering his bald head in a hat completely wasted...tackling yast, falling through a chair and getting flagged @ 8...getting stoned and listening to swansonite playing...drunk driving with yastine into the heart of trenton and back (and we DO NOT know how)...passing out at autumn...getting cheered on for chugging water...  WHEW what a night.  smashey out
+     
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+     
+      So craig wakes up on the couch as usual and feels a rumble in his stomach, so he moves to resolve this issue by putting in an order with the rest of the mid-day autumners.  Kimbo being the kind, nice soul that she is, decides to "pickup" our food for us as she has to run some other errands as well.  Great craig thinks to himself, that = more sleep for craig  .  So after dosing off again, the rumble in my stomach returns, so craig awakes and wonders where the Kimbo is and how good the food that she has so kindly "picked up" for us is going to taste.  After and hour plus passes, we decide to contact the Kimbo.  Cell phone... nawp (everyone knows the Kimbo can only keep a cell phone for 72 hours or less), Vinos... nawp, she left there an hour ago.  No Kimbo, oh my...  ITS, yup, there she is, it appears she has FORGOTTEN about us who are starving to death in the living room.  So craig is forced to travel to campus to retrieve our now *cold* food from the depths of Kimbo's car.  Hey, at least she remembered us right??  Nawp, definitely not.  Can craig get a phone call??? something??  Now for her lame excuse...  So she got to Vinos and they didn't have any eggplant, so she had to wait as they made the stomboli, losing precious time in the process as she needed to return to work.  After she has retrieved all the food for everyone involved in this lovely fiasco, she had no choice but to return to work.  So when she got back to work, she mentions to others in the room, that she needs to contact the poor starving people in the living room, however for some reason she failed to do so.  So, craig hollas with some big ups to Kimbo for being the *best* delivery person I know.  I can't wait till I can return the favor! Kimbo are you hungry?  I'll be glad to pick it up and leave it on some street corner for you to pickup, cool right?  Holla at yourself one time.  beat it, craig "A woman should never tell a man what to do!"  
+     
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+     
+      who comes up with this crap anyway... I am gonna create a quiz called Mothra to destroy this stupid quizilla  My result:  You're a.....Rubix Cube! Wow! You are one complicated toy. You're cubes are bright and colorful, but to play, you must have lots of logic to figure you out.     urlLink What 80's Toy Are You?     brought to you by  urlLink Quizilla    Craig...where are you? beat it 
+     
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+     
+        You're a Spirograph!!  You're pretty tripped out, even though you've been known to be a bit boring at times.  You manage to serve your purpose in life while expending hardly any effort (and are probably stoned to the gills all the while).     urlLink   What childhood toy from the 80s are you?      brought to you by  urlLink Quizilla       me???  "stoned to the gills" or "boring"??  nah!  ;)
+     
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+     
+      that's really all i have to say, i just wanted to beat luke to the title.  we have one week left at this house, which is sad, but SOMEBODY'S birthday is coming up... "i dont really like funnelling beers"  "what are you, communist?" and for a taste of a normal afternoon at this house: luke: "butteronomy 3:16" pat: "maybe ill name my kid that - duderonomy" im done, the guy on the couch wants his supid old laptop back. sow sow sow sow sowwwwwwwwwwwwwwww yastine
+     
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+     
+      1) NOT KISSING FIRST.  Avoiding her lips and diving straight for the erogenous zones makes her feel like you're paying by the hour and trying to get your money's worth by cutting out nonessentials. A properly passionate kiss is the ultimate form of foreplay.   2) BLOWING TOO HARD IN HER EAR.  Admit it, some kid at school told you girls love this. Well, there's a difference between being erotic and blowing as if you're trying to extinguish the candles on your 50th birthday cake. That hurts.   3) NOT SHAVING.  You often forget you have a porcupine strapped to your chin which you rake repeatedly across your partner's face and thighs. When she turns her head from side to side, it's not passion, it's avoidance.   4) SQUEEZING HER BREAST.  Most men act like a housewife testing a melon for ripeness when they get their hands on a pair. Stroke, caress, and smooth them.   5) BITING HER NIPPLES.  Why do men fasten onto a woman's nipples, then clamp down like they're trying to deflate her body via her breasts? Nipples are highly sensitive. They can't stand up to chewing. Lick and suck them gently. Flicking your tongue across them is good. Pretending they're a doggie toy isn't.   6) TWIDDLING HER NIPPLES.  Stop doing that thing where you twiddle the nipples between finger and thumb like you're trying to find a radio station in a hilly area. Focus on the whole breasts, not just the exclamation points.   7) IGNORING THE OTHER PARTS OF HER BODY.  A woman is not a highway with just three turnoffs: Breastville East and West, and the Midtown Tunnel. There are vast areas of her body which you've ignored far too often as you go bombing straight into downtown Vagina. So start paying them some attention.   8) GETTING THE HAND TRAPPED.  Poor manual dexterity in the underskirt region can result in tangled fingers and underpants. If you're going to be that aggressive, just ask her to take the damn things off.   9) LEAVING HER A LITTLE PRESENT.  Condom disposal is the man's responsibility. You wore it, you store it.   10) ATTACKING THE CLITORIS.  Direct pressure is very unpleasant, so gently rotate your fingers along side of the clitoris.   11) STOPPING FOR A BREAK.  Women, unlike men, don't pick up where they left off. If you stop, they plummet back to square one very fast. If you can tell she's not there, keep going at all costs, numb jaw or not.   12) UNDRESSING HER AWKWARDLY.  Women hate looking stupid, but stupid she will look when naked at the waist with a sweater stuck over her head. Unwrap her like an elegant present, not a kid's toy.   13) GIVING HER A WEDGIE DURING FOREPLAY.  Stroking her gently through her panties can be very sexy. Pulling the material up between her thighs and yanking it back and forth is not.   14) BEING OBSESSED WITH THE VAGINA.  Although most men can find the clitoris without maps, they still believe that the vagina is where it's all at. No sooner is your hand down there than you're trying to stuff stolen banknotes up a chimney. This is okay in principle, but if you're not careful, it can hurt - so don't get carried away. It's best to pay more attention to her clitoris and the exterior of her vagina at first, then gently slip a finger inside her and see if she likes it.   15) MASSAGING TOO ROUGHLY.  You're attempting to give her a sensual, relaxing massage to get her in the mood. Hands and fingertips are okay; elbows and knees are not.   16) UNDRESSING PREMATURELY.  Don't force the issue by stripping before she's at least made some move toward getting your stuff off, even if it's just undoing a couple of buttons.   17) TAKING YOUR PANTS OFF FIRST.  A man in socks and underpants is the worst. Lose the socks fist.   18) GOING TOO FAST.  When you get to the penis-in-vagina situation, the worst thing you can do is pump away like an industrial power tool - she'll soon feel like an assembly-line worker made obsolete by your technology. Build up slowly, with clean, straight, regular thrusts.   19) GOING TOO HARD.  If you bash your great triangular hip bones into her thigh or stomach, the pain is equal to two weeks of horseback riding concentrated into a few seconds.   20) COMING TOO SOON.  Every man's fear. With reason. If you shoot before you see the whites of her eyes, make sure you have a backup plan to ensure her pleasure too.   21) NOT COMING SOON ENOUGH.  It may appear to you that humping for an hour without climaxing is the mark of a sex god, but to her it's more likely the mark of a numb vagina. At least buy some intriguing wall hangings, so she has something to hold her interest while you're playing Marathon Man.   22) ASKING IF SHE HAS COME.  You really ought to be able to tell. Most women make noise. But if you really don't know, don't ask.   23) PERFORMING ORAL SEX TOO GENTLY.  Don't act like a giant cat at a saucer of milk. Get your whole mouth down there, and concentrate on gently rotating or flicking your tongue on her clitoris.   24) NUDGING HER HEAD DOWN.  Men persist in doing this until she's eyeball-to-penis, hoping that it will lead very swiftly to mouth-to-penis. All women hate this. It's about three steps from being dragged to a cave by their hair. If you want her to use her mouth, use yours; try talking seductively to her.   25) NOT WARNING HER BEFORE YOU CLIMAX.  Sperm tastes like sea water mixed with egg white. Not everybody likes it. When she's performing oral sex, warn her before you come so she can do what's necessary.   26) MOVING AROUND DURING FELLATIO.  Don't thrust. She'll do all the moving during fellatio. You just lie there. And don't grab her head.   27) TAKING ETTIQUETTE ADVISE FROM PORN MOVIES.  In X-rated movies, women seem to love it when men ejaculate over them. In real life, it just means more laundry to do.   28) MAKING HER RIDE ON TOP FOR AGES.  Asking her to be on top is fine. Lying there grunting while she does all the hard work is not. Caress her gently, so that she doesn't feel quite so much like the captain of a schooner. And let her have a rest.   29) ATTEMPTING ANAL SEX AND PRETENDING IT WAS AN ACCIDENT.  This is how men earn a reputation for not being able to follow directions. If you want to put it there, ask her first. And don't think that being drunk is an excuse.   30) TAKING PICTURES.  When a man says, "Can I take a photo of you?" she'll hear the words "to show my buddies." At least let her have custody of them.   31) NOT BEING IMAGINATIVE ENOUGH.  Imagination is anything from drawing patterns on her back to pouring honey on her and licking it off. Fruit, vegetables, ice and feathers are all handy props; hot candle wax and permanent dye are a no no.   32) SLAPPING YOUR STOMACH AGAINT HERS.  There is no less erotic noise. It's as sexy as a belching contest.   33) ARANGING HER IN STUPID POSES.  If she wants to do advanced yoga in bed, fine, but unless she's a Romanian gymnast, don't get too ambitious. Ask yourself if you want a sexual partner with snapped hamstrings.   34) LOOKING FOR HER PROSTATE.  Read this carefully: Anal stimulation feels good for men because they have a prostate. Women don't.   35) GIVING LOVE BITES.  It is highly erotic to exert some gentle suction on the sides of the neck, if you do it carefully. No woman wants to have to wear turtlenecks and jaunty scarves for weeks on end.   36) BARKING INSTRUCTIONS.  Don't shout encouragement like a coach with a megaphone. It's not a big turn-on.   37) TALKING DIRTY.  It makes you sound like a lonely magazine editor calling a 1-900 line. If she likes nasty talk, she'll let you know.   38) NOT CARING WHETHER SHE COMES.  You have to finish the job. Keep on trying until you get it right, and she might even do the same for you.   39) SQUASHING HER.  Men generally weigh more than women, so if you lie on her a bit too heavily, she will turn blue.   40) THANKING HER.  Never thank a woman for having sex with you. Your bedroom is not a soup kitchen. 
+     
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+     
+      Ok so today started off by me sneaking into Yastine's room guerilla style and sneak attacking her into going to the beach @ 8:30 am.  She was not having it.  So I go home because I have the WORST hangover.  Not suprisingly, Ben's shoes were in the usual place on my living room floor. How long did that last Ben? Like, 12 hours? Me, Yast and Adge drag ourselves to a cold and unforviging Belmar and our Autumners join us.  Craig and I blinded the majority of the beach with our extreme albinoness.  ha. The 3 chicks raced home soon after a call from LC telling of warmth and sunlight in good old Ewing.  Holla at the cute guy in the cherokee...mmmm.  Silly old Afunk went WAY overboard with the food...and I'm still burping up lighter fluid fumes mmmhmm.  hahha jk thanks adge kim and LC for the quick food and festivities. Work was crizzy tonight. Crizzy Mary's friend threatened my life 5 minutes after I met her. Things you DO NOT say to potential housemates when you first meet: "If you tell anyone any of this, I will fucking kill you. Seriously though, we'll fight." Oooookkkkk....CRAZZZZZY.  And my stalker from Panera kept coming in tonight trying to peddle his brownies and ice coffee in a feeble attempt to continue to talk to me.  I narrowly escaped a scary meeting with him at the end of the night. Thanks Kate!  "Does summer come for everyone? Can humans hear what prophets say? And if I die before I learn to speak Can money pay for all the days I lived awake but half asleep?"  Follow the Jewish Rye Beer,  Smash  
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+     
+      When it rains, it pours. And also, when it rains, people watch television. Fuck Television. 
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+     
+          I haven't dorked it up in a while, so here i go!!   My new job is the shit, if you didn't know yet.  THe people are great, the girls are attractive, and the food is delicioso!!  Not only that, they didn't care that i was late and i can take off whenever i want because like 8000 people work there.  So needless to say its the shit.  With this in mind i made up a song.       I love-a my-a new job, it's a so-a nice    I get to eat-a great food at-a no-a price    I'm-a so glad I know-a THE PHIL he told me where-a to come    Now I make-a lotza cash and have-a lotza fun!!!   THAnks PHIL!!!!               Last night was a little crazy, I was drinking from the Usual Vase but left early to  sleep cause i had a final today that SUCKED.  What i didn't know is i would be circleing the house with debauchery until way later than i had expected.  HOllA at your rug burn!!!!!!!  My butt hurts!!  But it was a great time.  BIll and Gary sleep like babies.   HAHAHAH THats enough of this, I got to go write a paper so i can come back and booze, cause that is my job and as the COOLEST GUY @ AUTUMN and i must fullfill my duties. PEACE!!!!!!!!!!!!!  PS THERE IS SUPPOSED TO BE NO TITLE SO FUCK U CRAIG!!! HAHAH
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+     
+      Way to go Autumn for all driving 45 minutes to Belmar only to sit on the cold beach with cloudy skies.  WHOO! Next time maybe we should check the weather.  BUt it turned out to be a nice day to drink yuengling and BBQ in the back yard.  The slip and slide is semi broken but it is still slidable.  Anywho, if you're not here drinking beer and eating food with us right now, you're beat!  Your Lord and Master, A-funk  "I love the sounds of cop sirens in my neighborhood..it's so soothing."
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+     
+      Have you seen this Blog yet?  It's ridiculous.  It's the most violent and disgusting Blog I've ever seen in my life.  Now, I'm not a priest (at least I haven't been for several years ever since my wife died in a car accident and I lost my faith) so I don't know whether using graphic violence to encourage use of the Blog is justified, but I have to respect Mel Gibson for some courageous posts.  They may be somewhat anti-semetic, but if you ask me those jews deserve it for what they did to the Blog.  I just hope that someday we can all come together and realise that the only way to heaven is through posting on the Blog.  By the way, I'm trying to write a book involving dreams and restaurants.  So if anyone knows anything interesting about either of these things, let me know and you may find your name in the acknowledgments when it gets published.  I've already got a deal worked out with the publisher of Collier's magazine.  Speaking of which, I read in Collier's that most people who reference Collier's magazine in their Blogs aren't even sure what it is or how it is properly spelled.  But one thing is for sure--it DOES exist.  Collier's says it does.
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+     
+      'the information you give will be held and processed by upwards of 200 commercial organisations and an unspecified number of military, governmental, and nongovernmental organisations.'  >>how am i driving?  i live for math math math and sssensual delight.   no substitute for a healthy smile  1
+     
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+     
+      ...     check out  urlLink  The Brick Testament   it is entertaining... provided you aren't touchy about christianity...  ...
+     
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+     
+      "cmon man i got this plan on the tables down in AC, i tell you what you give me 200 dollas, come down with me to the hotel i got a free brunch for me and one other person we go there and i run the tables man i got this plan i cant tell you bout it cause thats my secret. i guarantee you 50 grand in one week cause thats what i do man im a gambla. guarantee you 99% to 1% we make this money man you just gotta cut me out 25% cause i got this plan man.."  5 minutes later....  "I got five cars back home man i got the lincoln in the garage back there ill drive us down to AC man i got five cars on olden thats where im from. they call me the doc at the courts at moody park ahhh boy im a legend there at moody park ill tell you. you know i got five cars at home. hey man you gotta take this bug spray off my hands i got this bugspray i gotta get rid of man just a dolla, you got a dolla?"  20 minutes later...  "That's my man razzle dazzle, benicillin, and my man glue. hey man i got five cars at home. hey guy listen can you spare a dolla?"  dolla bill is a hustla 4 life ... holla ... p.s. he said he was bangin a fat bitch across the street and that's why he WALKED over to our backyard to talk with us. five cars and yet my man walks... thats a true playa 4 real   
+     
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+     
+      big ups to kem for posting funny blogs. big ups to Collier's for coming up with such amazingly relevent articles, as a matter of fact, i was reading it the other day (it was kem's copy) and I read that being gay is actually considered a negative gramatically, because the people who made up the official english rules were homophobes; because we all know that double negatives make a positive, because blogging is gay, and i am gay, therefore by blogging about throwing the butt dart it actually turns out that I am hetero. amazing.  big ups to guatemala, y' jealous muthafucks. picture me instead of this guy to get the picture, and when i'm there ill post the real one up on the blog. For now, holla at this man, who is actually a field biologist studying the female vaginal area of indigineous guatemalan females. It so happens that I know him personally, but declined his request for me to continue his work exlaining that i need to focus on my studies.     im watchin licky smokin white smoke off a spoon with a straw. and now hes layin back relazin and enjoying it. the crack is bubblin on the spoon and we are having a good time. no crack for me today, at least until it gets passed to me.  sincerly, keyser soze. crackheads call me glue.
+     
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+     
+      There's one thing everyone should know.  I killed a womam when I was younger and blamed it on Laura Bush.  She was nice enough to accept the blame and make up a story about self-defense, but to return the favour I had to rig the 2000 elections.  I was responsible for all those hanging chads, I ran the remote which controlled Katherin Harris, and I bribed the U.S. Supreme court with crack.  Justice Scalia sure loves the rock.  Anyway, now that I've got that off my chest, I should just point out how disgusted I am with all the blunt-smoking here at Autumn Lane.  I read in Collier's magazine that if a person smokes 3 blunts a day for a year, their lungs will have enough resin to smoke up the entire audience at a Britney Spears concert.  And it would be the best Britney Spears concert ever.  So I think it's obvious we all need to start smoking more blunts.  Britney does MANY concerts and those 12-year-old girls aren't going to have such small tolerances forever.  Who's with me?
+     
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+     
+      first, the mouse's name is not schmee.  kimbo and i declair that the mouse's official name is gusmeeki.  Gus because its a cool name and meeki cause doug thinks meeki is a cool name.   And, I am never looking up warning signs of alcoholism again...  "Have you had more than two or three memory lapses (called blackouts) in the past 90 days?   After an evening or other period of drinking, have you forgotten where you left your car?  Or how you got home?  Have you had to call someone the next day to fill you in on what you were doing the night before?   Have you tried skipping certain nights of the week, or hours of the day, when you wouldn't drink at all?   Are you drinking more often that you used to, or greater quantities when you do drink?  Are you able to drink more without getting drunk?  Do you sometimes have the shakes or other discomfort the next morning, and does a pick-me-up drink help make you feel better?"  Damn it.  Stupid tests.  They should have one for college students.  This shit is normal.  
+     
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+     
+      Today's lesson is to not give max too many treats because he will get fat and spoiled. I dont't agree because the poor cat was deprived of a bird and a mouse today so he deserves some treats.  Today was fun.....all about the slip and sliiiide and we saved a bird from Max..hah So.,..Kristen and Co. took over Craigs and Scrub Scrub Scrubtorious's living quarters so I am therefore forced to share a bed with Yastine...but at least we'll have the bliiiiiizard which is clutch because Autumn is 90 degrees inside :( Ok, well i dont really have anything else interesting to say....so fuck you....fuck you....you're cool...fuck you..im out!  A-funk  P.S. The mouse's name is Shmee
+     
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+     
+      im takin this blog underground; to the depths of the darkness where grinding metal riffs echo through the endless tunnels of double bass pedals, punching you in the gut; each note resonating in your mind before it settles upon your soul.  autumn leezy is metal  in flames are metal      holler at yourself
+     
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+     
+      thank god we saved the mouse from max.  and at least the dead frog habitat finally went to some good use.  horray for albino mouse babies. haha
+     
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+     
+      Craig started to see others posting pictures and got jealous, so you know he had to come through with the hot ish...         Holla at your brother Doug E. Fresh on his *real* twanky first b-day!!  Everybody knows about Doug's "levels" and I do believe the above night was officially a 10 :-)  -Thrown out of two bars, not served at the 3rd -Things were broken... -People were licked.... -Your brother Doug made me punch him in the face *twice*! :-)  Craig wonders when will we see double digits again?  Holla at the NYCezy!  you are all gay, Craig 
+     
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+     
+      Macaroni. If you are going to work there, spell it like this and no one will make fun of you: M A C A R O N I. One 'c'. K? Yeah Autumn. And yeah, I want my craig back, bitch! The couch is cold! 
+     
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+     
+      for working at maccaroni grill: i know that me and doug will hate each other if we work together but, if i dont have a job then ill be a bitch.  And if im a bitch doug will h ate me.  and if doug hates me autumn will hate me.  and if autumn hates me then ill have no friends.  so in conclusion, if i dont work at maccaroni grill, ill be poor, have no friends and be a bitch.
+     
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+     
+      It's craig's brother chad from delaweezy land of cheap tobacco and acid rain I hAve KIdnApPeD yOuR brOtHeR fOr 24 hOUrs...tHEn yOu caN HavE hIm baCK toMMoRroW oK i'm out peace      
+     
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+     
+      just testing to see if this blogger will read html...      kim!  why didn't we go to million marijuana march again this year?     *** oh yeah... finals. 
+     
+    
+</post>
+
+<date>21,May,2004</date>
+<post>
+
+     
+      BRAD PITT'S ASS.  HAHA Lovely date with the lovely Yastine tonight...we tried sobriety on for size.  According to the signs to look for in an alcoholic, I am an alcoholic.  Had the shakes tonight @ Triumph...woo for hot flashes and a racing heart.  So maybe its a good thing I passed up Cotten's Return to Life Celebration, but hey it feels good not to pass out completely wasted for once.  I have to get up early to train at the OG, hopefully I will NOT be fired.  Nobody said anything about this, but La^2 made up a jeopardy game last night, centering on "Ridiculous Dances". I'll take the 800 category, what is the Electric Slide? Big up to Autumn and especially my bruthers and sisters Craaaig, Luke and Kimbo for starting the funneling revolution; here's to getting absolutely hammered a LOT faster.  AMC antics ran wild tonight...sighted: Man jumping over partition, couple in full prom attire, boys being loud stupid boys.   The night over, I am happy to say I did not see any anal porn, but I DID see Mr. Brad Pitt's ass. Jen, you're a lucky woman. And so am I.  Dougie went to pick up shit for me @ WalMart so I can train tomorrow. God I hope I'm not fired.  Goodnight you Princes of Main...  AND the streak continues...  Big up to Brooklyn I'm out.  Smashtastical Smashley
+     
+    
+</post>
+
+<date>21,May,2004</date>
+<post>
+
+     
+      taking a break from drinking after last night's usual blackout drunk (but the cops DID show up, and they don't "give a fuck, just get inside").  So, hot date with smash, and brad pitt is the most beautiful man on earth (the movie was ok).  That's all i have to say about that.
+     
+    
+</post>
+
+<date>21,May,2004</date>
+<post>
+
+     
+      where is kimbo?  anna wants to know
+     
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+     
+      I read once in Collier's magazine that the top 3 signs of homosexuality are as follows:  1- Being attracted to members of the same sex, 2- Having more sex in a day than meals, 3- Posting messages on a Blog.  So I guess I qualify for two out of three (and I am NOT attracted to members of the same sex.)  But we are all a little gay.  Some people are just UBER-gay, like Licky Poo-Poo and your bruther Craaig.  But holla' at the beer-funneling through the anus.  I never thought it could be done, but you guys proved me wrong.  I just downloaded the video.  The quality is surprisingly good.    Some people say that when it comes to Blogging, you've either got something to say or you don't.  But if you've got something to say, why the fuck don't you just say it instead of writing it down on some gay-ass blog?  Fuck those people.  Autumn-Leezy Blog forever!!!  We're here and we're queer, and if you can't get used to it...you can go blog yourself, bitch.
+     
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+     
+      Craig leaves autumn for 24 hours or so and when he returns, he finds the KEM.  Kem is returning from his "pre" trip to Germany, as he'll be moving there for next semester.  Scurb Scurb Scurbtorious returns from work, carrying with her a foul odor, holla at the not showering before going to work!  The two from the den of sin are on their usual hunt to throw it in the butt of some lucky female.  Let's hope they are successful, so we can continue talking shit about them :-)  So there is word of a party at Cotton's cribb, we'll see how that turns out.  I wish that mofo would post on this thing, but it seems we have a few of lamers who are sccuured to post on the blog.  List of people who "don't have anything to say", or in reality are just to pussy to post:  Kimtothebo Lala Cotton  Craig wishes he had more mindless dribble to add to the blog, but his old mind can produce no more.  So beat it you bitches!  -Your brother Craig
+     
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+     
+      who the fuck pre-trains training? BUT im a server at Triumph and you're not so beat it. ha.  Doug mopped the kitchen- thought the world would end if that ever happened.  Random papa schultz sighting today - apparently he knows how to say more than "drinking beers and burning skates".  And I know you kids are getting sick of doug's birthday, so it's time to start mine.  11 days.  
+     
+    
+</post>
+
+<date>18,May,2004</date>
+<post>
+
+     
+      So I guess all we do now is drink High-Life Lite and watch ridiculous anal pr0n all through the night? Seriously, we're scraping the bottom of the barrel here.  4 WEEKS STRONG!!  I'm a fag. Smush
+     
+    
+</post>
+
+<date>18,May,2004</date>
+<post>
+
+     
+      Mr. Clean gets rid of dirt and grime and so does Adrienne, Craig and Company.  The "old married couple who lives in the living room" began cleaning Autumn this morning.  Throught out the afternoon, the two were assited by Luke, Kimbo, and Doug E. Fresh.  There was much success especially when Doug was mopping the kitchen floor.  P.S Magic erasers are cool.  Anyway, Autumn Leezy is looking nice.  So try to always remember three main locations of Autumn Lane:  1. The garbage can 2. The sink/dishwasher 3. The ashtrays  Also, there is a coffee maker box with odds and ends that were left around so if your missing anything, maybe it's in there.  Peeeeeeace out you big black africans!  A-funk
+     
+    
+</post>
+
+<date>18,May,2004</date>
+<post>
+
+     
+      First of all, can i just draw everyone's attention to the fact that Doug was CHASING La^2 around the house! Also, the fan fiasco.  And don't forget the Doug Birthday Dance me Yastine and la tried to come up with...and then it turned into the electric slide! "mmmm mmm m mmmmmmm m It's ELECTRIC! mmm mm mmm mm mmm" Hell yeah pop the shoulders.  Also, craig jumping on furniture and screaming in everyone's face while thoroughly bonding with an absolutely HAMMERED Doug.  And also Craig trying to pose me and la and yast in a "sexy" tongue pose. Mmmm thanks for the experience Mr. Craig.  Beware the Cave of Downward Spiral of Confusion  Can we get a REGIME CHANGE?!  defeat bush '04  vote.  Smashley T. Rustmee  
+     
+    
+</post>
+
+<date>18,May,2004</date>
+<post>
+
+     
+      Pippi's back- tell a friend! Ha. SO all you sea creatures swimmin in wine n burrr, Im on yo blog, bitches! Lets have a blog party! yay! Wait- first, we need to have a cleaning party. I bet you could get ringworm from walking on the kitchen floor... WITH SOCKS ON!!! eew! I think I will write you all a poem because I love you.  Everybody likes to come and Chill at Autumn Lane Once you've met the people here You'll never be the same.   Kem and Kristin live upstairs and live in harmony Kimbo has a ferret and a Plethora of trees.   And if you look across the hall, you'll Find the great Christine.  She always wears a smile and her room is fresh and clean.  And if you take a journey down  To see our living room, You'll find a little guy named Craig who Often sleeps till noon.  Down the stairs AGAIN will lead you Straight to Connie's door. She likes to tell fun stories, but She loves tequila more!  And if you hear some techno beats, They're in the other room! It's The Den of Sin and Wierdness with Luke and Lickey Pooooooooooo!  Autumn Lane is where I live. My friends are family. There is not another place That I would rather be.  Yay Autumn! I will miss you all, Kem and Christine and Connie and Luke and Benjamin!! (tear) XOXO.
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+     
+      Well since i am the coolest kid that currently hangs out at autumnleezy and i am bored as hell right now i am going to tell yall my story.   The bars last night were off the melzabubs.  Lots of free shots at Wildflowers, that place is the shit. Thanks to Adrienne, Cooper and Maryanne for hookin it up. Also thanks to the dudes in the band who let my drunk ass sing Hotel California. (Craig knew they would) My wingman craig also had me doing silly silly things, which resulted in my getting kicked out of both Mcguinn's and Buddy Shamrocks.  Oh wait that was probably my fault. It's not easy to stand when you got the "Doug Sway" going on. That wall looked like the perfect place to rest. Haha. Apparently you can't be hanging on the walls at bars now a days or you get kicked out. Good thing we had enough time to get a picture with every single person at the bar hahaha. Shouts to camerawoman kimbo kickin ass and taking names.  A little scandalousness ensued but nothing a drunken birthday with good friends can't justify. (plus it was craigs fault)   Buddy shamrocks had that shit coming too because of it's stupid name.  I think i should listen to my dad and not drink hard liquor because i really cant tell you why the hell i threw that cup. Funny as hell though, i hope they don't remember me next time.  Oh and on the way home i ripped down some advertisment and then a couple of mailboxes took a beaten because, well, i do stupid things like that when im drunk. Thanks to all who bought me drinks and thanks connie for buying me dinner. Oh and thanks for the good company too, u old folks really made my 21st a great time.  Sorry for all the youngins i also hang out with that couldnt come,but your time will come and old Douglas Fresh will be there to celebrate with you.  In conclusion 1craig+1Doug+8titties=Goodtime. 
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+     
+      TRANSLATION TIME: (todays language - italiano) underwear : biancheria fart : peto  lets begin by understanding that my name is "Dent Jones" when im walking around looking like santa claus cause there is a pizzel right under my shizzel. moms buy cheesy aliases like "jones" and "smith."    __________,.'' |__/____/__|.'              underwear, dammit.  that's all for now. let's all try to incorporate peto covered biancherias into our day and if someone yells at you for it, just tell them "me llamo Dent Jones, habla ingles, italiano, y espanol. bitch what"
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+     
+      First, holla @ smash d. for blowing up the blog all day errr'day -> improper citations, however, may get the copywrite police called out you! next time lets see a bibliography.  Next, holla at coming home everyday for a blunt lunchin. holla at yaaaaastine for crawling out of bed at 12:41 and getting told that she was apparently bleeding last night.. she followed up with: I hate vodka, i love it though. very typical deezzy at da leezy foo' sheeeaaazzzzzyyyyyyy.  Holla at beazy for the dreazy for the peazy for his neazys! just as i write that i am stopped to hear about a close encounter with the popo :O  did i say popo, i meant poop. anywayz . im callin out craig for being a cig feind, as well as christine, and connie, AND defin-ately kracky. but holla at krack kackilack for making the big bucks and the big plans for the californian summer. peaace bittchezz.
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+     
+      Happy fucking birthday dougie!! thanks for getting us kicked out of McGuinns (fucking assholes) and nice job throwing your cup at the bartender at Buddys.  Tonight was mad fun though...ps 8 titties will get yout farther than 6 titties.  Doug is yelling more caused he needs more beer but i think he is too fucked up to have anymore beer hahah...but i guess you only turn 21 one so live it up dougie....ok well im tired and the bartenders at Mcgiunn's are a bunch of pussies.  peace out and one love.  the one and only... A-Funk
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+     
+      I don't want to be the filler if the void is solely yours I don't want to be your glass of single malt whiskey Hidden in the bottom drawer I don't want to be the bandage if the wound is not mine Lend me some fresh air I don't want to be adored for what I merely represent to you I don't want to be to be your baby-sitter You're a very big boy now I don't want to be you mother I didn't carry you in my womb for nine months Show me the back door  I don't want to be you idol See this pedestal is high and I'm afraid of heights  I don't want to be a substitute for the smoke you've been inhaling What do you thank me What do you thank me for 
+     
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+     
+      It was a valiant battle but in the end, Doug and Yastine pulled through and snagged a win at the end of the Batminton Olympics.  Doug's handicap was the perpetually full burr strapped to his hand and midge racket, and Kimbo was naaasssty.  It was the Special Olympics. Holla @ Luke for being a little yellow bitch. Fresh box of wine has arrived. Its a regular burrbq bday but we're taking a little trip to Wildflowers.  Adrienne is behind the bar...              "I'll licky your poo poo" ~doug  WHOAAA TANG smash  PS: "watching all this anal makes me want to fart"
+     
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+     
+      3 strikes against moffitt, 1 funnel down the shirt, 1 death flip over the head, and another broken chair casualty at autumn.  and we can't forget the left nipple.
+     
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+     
+        WEll mother fuckers, its stiiiiiiilllll my birthday, but that shit has been going on all weekend. However, today is really my birthday and i am not finished yet.  I,ve already had a MUCHO MARGARITA, which was delicous, a Samuel Jackson, i mean Adams, summer ale and a triumph Sampler.  That shit was tantalizing, who knew when your 21 you can actually drink good beer.  I'm used to that natty ice shit with a little keystone twist. What? WHO? Who? What are u a fuckin owl? Hahah I am def drunk right now but typing well, its because of Mrs. Roach, big black bitch, nice keyboarding teacher!!! Well im out for now drinking for a little while and then going out to da bars!!!  Wild flowers is prob not the hottest bar but you know your man will make it a good time. Thats why my name is Doug E. Fresh. THen possible Mcquinn's siteing, which i have no idea about cause my young as would never get served there!!! Peace out fellow nerd ass bitches!!     - Doug E. Fresh   
+     
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+     
+      Move over motherfuckers this bitch has a J O B. SO EAT IT.  It ain't gonna lick itself, BITCH  smaaaaaaaaaasssssssshhhhhhhhhh!!!!!!!!!!!!!!!
+     
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+     
+      Is it just craaig, or does Doug E. Fresh's birthday never seem to end??  We've been drinkity drinkity drinkin since Friday afternoon and today is finally his *real* birthday, go twanky one!  There was a "plethrola" of funneling last night, which brought a smile to craig's face, although the backyard took quite a beating in the process.  Today was fun, starting with the usual morning bleezy, moving quickly to the birthday lunch at applebees, followed up by a trip to Triumph in Princeton for the sampler (holla back Doug E. Fresh).  Nothing beats your brother Doug hollain to random people on the street... "What's today?   It's my birthday!!!"  Although it would have been much cooler, had the dude on the bike fallen over :-)  I love how everyone is taking to the blog, yeah it's gay, but you know you still fein for it!  As for Evan's (ieatglueforfunbecauseitgetsmewasted) rules, he can hummm on theez :-)  I wish you wooould "kill and eat me"!  Oh, and shout outs to the two who were beat last night:  Luke La La  Why are they beat you ask?  Luke - Couldn't go pass out in his own bed, :-(  Had to wait on others to finish their biz... La La - Had to wait on Licky and drank a box of wine in the process.  Licky Licky Poo Poo (hova) has to do his thang thang, so beat it! :-)  -Your brother Craig  p.s. - Don't worry La, we still love ya, I wish you wooould post something on this ish :-)  
+     
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+     
+      hahaha. last night there were many good funny things to remember that christine said about eating meat, but i can't remember. don't talk trash on the den of sin and weirdness, y'all are just jealous. definately don't talk shit on my main girl, Taylor Hayes... she could catch luke's jizz anyday.  last night i was beat cause i couldn't go to sleep because of the tidal wave of words, as you ladies like to put it. lala was also beat. hahahaha, despite what she may think. lala. your beat a thousand times. now what?  holla back - suck my dick, i'm out! Lucas J. Lucas deLucas III  ps. this man had to go back and edit the blog because he forgot to talk in third person.
+     
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+     
+      not gonna lie it took me 20 minutes to figure out how to work this shit.  i dont really have anything to say cept for the fact that i kept my shit together outside out this giddamned country, but when i get back, i lose everything.  (if anyone finds my purse, cell or cigs, let me know).  ridiculous.  regardless, adge is passed the fuck out in my bed.  bastard.  ahhhhhh my liver is itching. haha.
+     
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+     
+      Sitting around the same old house on the same old street with the same old kids, tiki torch style.  Some random kind of cool kids showed up bearing magic hat burrs.  Moms Yistine made us all food because the italian in her won't allow her to do anything but make food at 1 am hoping that some stoned kids will eat it.  Staying true to form, Myson was random and ridiculous, roaring in people's faces and starting fights because he's a fratboy now, and passed out on the couch by like, 10.  Cotten reemerged from his brush with death a more reflective, grateful man.  He's throwing a party Friday to celebrate staying alive for one more day.  Expect continued alcohol poisoning, bleazies, snow storms and if we're lucky, more near death experiences.  Big up to La squared and the summer edition.  Oh yeah and craig you are a frail little pink-white redneck fool. I wish you woooouuuuld son.  La squared's 20th is June 11th-13th at Stoned Harbor. Strap on your drinking shoes and get riled.  No sloppy bitches for the boys of sin and weirdness currently, but the night is young.  waaaay to stay up til 3 watching some pr0n with yistine & craaaig. haha "can we just just see some vaginal sex so I can go to sleep? i kind of need it."  "Taylor Hayes: International Jizz Catcher"  i have never seen pr0n this ridic. Ben you're twisted.  beat it honkeys smaaaaaaashley
+     
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+     
+      whose beat? everyone. E$ has declared himself ruler of the blog.   the rules are as follows:      1)everyone, and evan mean everyone, has to give me 1 sexual favor per post      2)each and every post must contain at least 7 words insulting craig      3)anyone who questions, insults, or threatens my authority will be killed and eaten      4)while posting in the blog you may type only with your pinky fingers      5)in beans every post the first three words of every sentence must be 'i am gay'      6)i may add or subtract rules at will      7)violations of the rules will result in great punishments that will be decided upon violation  Evan rules.
+     
+    
+</post>
+
+<date>15,May,2004</date>
+<post>
+
+     
+      ok, admittedly she wasn't beautiful... but the tongue ring had me riled and those tig ol' bitties were well worth beans time. Holler at my boy Mike D (everyone should pierce their lip) and big ups to the twins; who the fuck knew she had a twin sister??? The ice block was the shit, yager + blackhaus + jose C + SoCo + Rumplemints = crizzy.  Holler at beans man in the black wifebeater for bringin the yager and bringin the fuckin party... it don't matter if she's 16 and a virgin, the butt doesn't count, kid! holler at mama schultz for chillin wake-n-bake style. finally, holler at january (yes, my brothers sleepingmate was named after a month) for buying me breakfast even though she didn't eat OR talk.... mmm luke the ladies looove youuu  -young hova
+     
+    
+</post>
+
+<date>15,May,2004</date>
+<post>
+
+     
+      This blog bullshit is going to wind up being incredibly fuugaze, as i'm sure many of you already know.  For the record, me n' obeazy  had specific goals to hook up with sloppy bitches, and unfortunately I got beat cause Linda was naaaastia than January.  holla at your brother postin waaaay past his bedtime, 330!  here's to talking blogs, drinks, blunts, and most importantly talking in third person i'm think that this man (meaning myself) and I KNOOWW craig will be doing alot of that ullllshit on these ullshit blogs... are we allowed to curse anyway? suck my dick, i'm out!. lata lata
+     
+    
+</post>
+
+<date>15,May,2004</date>
+<post>
+
+     
+      My point of view is a little different. Considering i was the host and the birthday boy, my shit was extra crazy.  Bill was dirtay last night. However, i did not see it. He was seen climbing up rocks and trees and crouching for about 20 minutes before stumbling through the wilderness and falling into Ashley, Walt, and the ice block.  He was peeing. He got up, brushed his shoulders off, and walked away missing just one pant leg. Bill you're the man.  Did I ever tell you tequila is my favorite liquor, that shit is ruthless and the ice block unforgiving.  But I showed that shit whose boss for a few hours, before it came back to haunt me at 7am when i was puking off my deck in my underwear. Luckily kimbo was there to watch me puke and smoke a bowl with me as she was leaving, haha sooooo fucked up still.  Having a fiery hot Paul Choe pissed off is not a good thing.  However, he was able to be contained along with drunken capitol and nyerlin by me to ultimatley save the lives of both Mike D. (Ben's boy) and my actual brother Greg.  Doing Fun stuff with Ashley and Holzmann will never let you down especially when that shit is free. He must have felt pretty close to us cause my man got to see more of us later on that night hahaha. GREAT PARTY  Oh did you think i wouldn't give shouts to Luke and Ben those mother fuckers will hook up with anything that is warm and wet.  
+     
+    
+</post>
+
+<date>15,May,2004</date>
+<post>
+
+     
+      Well, the Ville was a little crazy.  If for some ridiculous reason you were not there, I'll fill you in.  First of all, Ewing represented in Montille, headed by Autumn Lane and its Associates.  I was RUNNING the burrtang tables with my partner Matt, even though I was carrying his ass. And we were drankers, lemme tell you we killed kegs and rocked the ice block shots.  The stupid pushover Montville po's showed around 12 and made us move cars.  This is when I try to help J to the B (John the Bomb) out and he ends up driving his piece into a ditch.  Doug meanders over to try to help out JTB by PUSHING his car out of the ditch (for real Doug. what were you thinking?)and breaks his wing off ("oh man I can fix that tomorrow...yeah thats nothing but clips and glue" doug, there were bolts sticking of the hood).  We go back to a party FULL of nut ass dudes trying to fight.  Apparently, roid rage is waaay cool in the Ville.  I have to mention the rowdy motherfucker in the black wifebeater last night who stood and screamed in me and Obeazy's face for a full 5 minutes. That boy was kind of insane hahahahaha. About 2 or 3 my man Cotten takes a header off the top stair and plummets to a neck cracking near death and splits his HEAD open. Blood everywhere.  Mama Bears is mad. So kids are fighting, puking, passing out, funneling, hooking up, and cracking their heads open.  Obviously, this was the best party I have been to in a loooong time. The boys kept some weird old ladies warm for the night, and Luke was bullied into asking for her number. Way to go boys!  So now we're being stupid around Autumn as per usual watching some weird ass movie and chuckling. Summer is going to be...cool.   fuck you and the horse you came in on Smashley
+     
+    
+</post>
+
+<date>15,May,2004</date>
+<post>
+
+     
+      Craig wastes the day away at Autumn trying to shake this hangover off (holla at the bleezy).  Last night was a rev up to say the least, as my "brother" Doug E. Fresh turned twanky one (21).  Craig's travels took him to Monteville, NJ hometown of Doug E. Fresh to do some drinkity drinkity.  The five kegs were fun, but the ice block shots were Craig's favorite.  Too bad our other "brother" took a nasty fall down the stairs cracking his head open a bit.  Things turned out OK though, all he needed was a little assistance from the local hospital and 10 *staples* in the head :-)  The two from the den of sin and weirdness are up to their usual, sleeping with some shady bitches in the 'ville.  Boring Saturday night at Autumn, but the night is young, so Craig hopes for the best.    Beat it, Craig
+     
+    
+</post>
+
+<date>30,June,2004</date>
+<post>
+
+     
+      damn bitches. nothing interesting happening or has the spirit of the old autumn lane died? i'm a little dissapointed. although i really liked the picture of the kids, lets get some updates on fun stuff... which apparently never happens.  for me, i got with the black english girl and she wound up following me back to pana and now i'm sick of her. ugh. i'm leaving this saturday and seeing if i can get some accomidations in the squezzy for someone who would want to meet me at the airport. i've bought some stupid mayan made bracelets and what not and those who want to help me selll them at hippie shows can share in the profit.  pero no se que mas. oh yeah. hongos.  aboust the hongos *mushrooms*. i rented a bike and with three of my freinds (one of which is guatemalan) and took a pick up truck to the top of the mountain. hen we went around 45 kilometers mostly down hill (steeply down hill at times) to this village surrounded by cows.  when we turned of the paved road onto the dirt road of the village, we heard the villagers start to yell, hongos! hongos!. so then we go to the end of that road, turn down another road, and talk to this lady in a little shack. she brings us out chairs and we sit and wait. about five minutes later there are about twenty villagers of all ages surrounding us! with baskets of mushrooms! so we give them shoes and a little bit of money and come back with maybe a pound of mushrooms(prolly a litle less) bu they are all fresco and not dry. so we pop a few, catch a pickup truck back up the hill, and ride our bikes down hill about anoher 30k... tripping the whole way back. but that wasn't the crazy part.. not at all. when we get back this guy pablo makes some tea. we all drink about a glass and a half and what followed next was unbeleivable. i had never seen anyhing like hat before. very very very hard trip. absolutely wild. everyhing was moving, looking cool, i can't really describe it but it was absoLUTELY rediculous. no mas hongos por un tiempo grande, is what i said after words because i couldn't do something like that everyday, week, or even month. wild.  so then the next day the english girls caught up with us here, my freind got into trouble because he has a girl here and was with the english one in mexico, but it all worked out alright. i bought 50q worth of coke, (1q = 12.5 cents) and it was more than a gram. rediculous. no mas coca por algun tiempo, tambien. but i figured i mine as well do some while it was cheap (and prety damn pure as well)  alright guys.. i will see you this saturday night (or at least a few of you? who is comeing with craig to the squeeeze? if it turns out you all suck and i can't get a place to stay i'm just going to have my momma dukes pick me up. but ill let you know about that when i do)  adios
+     
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+     
+       why women have two hands       why men have two hands   
+     
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+     
+      today there was actually work to do, but i came across this and i thought, "laugh," inside my head. make sure you full size it.   
+     
+    
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+     
+      what up bitches. hope that you are all having fun now, in dirty jerz, while im in dirty mexico. So a cuban, an austrailian, and an american are triving through mexico when they ...   well, more later. i{m not sure yet, but doens{t that sound like a nice beginning to a joke? im traveling with a cuban soap star who works and lives in mexico now, and my austrailian mate who i have previously mentioned. tikal was awesome, but palenque in mexico was much better. we met oscar, the soap star, and the spice girls, in other words a few english chicks with one black one in their crowd.  hopefully, i{ll be able to get with scary spice, because shes not scary, just black. ja!  two nights ago in the jungle two hot girls from finland paid to use this restuarants kitchen and made us all dinner en la noche. it was wild. i went to see beautiful waterfalls and rivers and did some amazing jumping off a section of the waterfall. since palenque, me kris and oscar headed south for san cristobal where i am right now. well see how tonight turns out. supposedly, the spice girls are meeting us here tonight and well see how things turn out. my mate kris already fucked posh spice, haha. and oscar fucked one of the finnish girls with his latino magic.  tonight should be wild, because its friday adn the night life here is great from what i{ve heard. ive met two spanish girls myself but no fornication... yet. hah, no i dunno. tonight the plan is either black english or spicy native. win win situation if i win. haha. i dunno guys. its good to hear what up in the states, and i cant wait to see you all on the 4th. id love to stay here for much longer, buuuuuut im broke and might get a free ticket back here. weeeellllll see....  ill hit you all back up once i get back to guate. hasta proxima semana. adios.  lucas  oh yeah, craig. holla at your bro with a gmail. try to get me luke.m or luke moffitt or l.moffitt or something no frills, just my name. my middle name is alexander if that helps. posssible, l.a.m@gmail. or whater. late
+     
+    
+</post>
+
+<date>20,June,2004</date>
+<post>
+
+     
+      Is it just Craig, or is the blog a little stale these days?  I'm sooo tired of hearing all these lame excuses for not posting, get with it people, blog! it's gay, but you *know* it's fun.  Not that much going on these days, just the typical binge of something or other each night.  Shout out to our brother Luke down in the foreign land.  Hope you're Espanol is on point lately :-)  We've been planning your triumphant return to dirty Jerz, although we'll be spending most of our time in NY right when you return.  Holla @ 4th of July in NYCezy.  Holla at Uncle Mechi and his lame ass for reading the blog like it's his job and not having the balls to post *anything*.  Props go out to Uncle Mechi's Mom and Grandma for puttin out the other night, your Grandma is soo on point with the head (love it when those dentures come out) :-)  Ah, it's Friday, "you ain't got no job, you ain't got shit to do!"  Rumor has it that we're throwing down at Doug E. Fresh's cribb with the Montville kids.  We'll see if they bring their drinking shoes or not.  North Jerz meets *Central* Jerz, what you want?  On another note any of you bitches that want a Gmail account, holla at me and I'll hook you up.  Those of you not familiar with the gmail, it's Google's email and it's the hottest email account to date.  It's not open to the public yet, but if you want a good username, now's a good time to sign up.  Your tcnj.edu account doesn't last forever bitches.  Beat it, Craig  "Autumnleezy.blogspot.com, 4 in 10 bitches in Dirty Jerz have had their butthole violated at Autumn or one of their affiliates" :-) 
+     
+    
+</post>
+
+<date>20,June,2004</date>
+<post>
+
+     
+        Roadtrip to Michigan        11+ hours of driving    1 lost ferret    a 45 minute ferret pursual through the streets of new brunswick    canoe/kayak blunt smoking adventure on lake michigan    ontario, canada!    niagra falls    1 speeding ticket    2 trips through custums    many blunts smoked....      when i get pictures developed, i'll post.
+     
+    
+</post>
+
+<date>20,June,2004</date>
+<post>
+
+     
+      IS the theme song of the summer. haha Alright so the other night most of the 21 yr old wheezes were @ wildflowers but since it sucked decided to crash me and Lala's cribuncular.  We got a call from Fresh warning that he would be bringing "Frank and Luanne". LUANNE?! Who the hell is that? Now, me and la and yast are not ABOUT to have any more bitches in the Wing so we are not happy.  10 minutes later, there's a knock at the door. Me and La race around turning off lights and dancing around each other while Yast watches us completely baffled.  I'm going to run upstairs to hide when La trips and falls and starts howling "Man Down! I repeat MAAAANNN DOOOWWWN!!!" SOB yast lets in Fresh Frank (Uncle Craig) and Luanne (Adge).  Anyway, OTB sucks but I'm making paper. This was the lamest blog ever.   Fuck sobriety. We roll deep killa.  Luke, where are you?  Here's a big fuck you to philly cops trying to arrest me for being drunk four stories in the air.  Didn't I used to be cool? Didn't we all used to be a little cooler?  And Autumnal new class...what's with the wheezes who come around now? veird.  hearts stars and giggles  ~stupid old smash
+     
+    
+</post>
+
+<date>20,June,2004</date>
+<post>
+
+     
+      so craig farts and i go "dude, did you just fart?" and he's like... licky, i'd love to fart in your stinky stinky face. so im like "wait a second, is that pre-fart or post-fart?" and then i took a shit on his face.  the end.       no im just joking. its the beginning ...   AlkefoASMVjve)8453uNVVJNEeALFOFWIqwoeqrqiOWVNMdOWjme)@(#%)JM@(FCMEALKldkeOOVCMdOFJdefoOJAOJSfjEIjEF94FJE(DJ39J$JRG(jDnvNXM(CERUT# end encryption >>>>  try to decrypt that, it'll make your underwear quiver.    craig is in the backyard lifting weights and blinding the animals running by. my camera is dead though, and that 16 pack of AA batteries i bought at delidelite for 1.49 are.. well.. they taught me a wonderful lesson - fart unto others who ask to be farted upon.  ill end with a kodak moment.   today is the first day of summer. have a fucking blast everyone, i'll be right there next to you!   -the lover
+     
+    
+</post>
+
+<date>19,June,2004</date>
+<post>
+
+     
+      best thing ever. yast sneaks over to me on the couch and blows some pot in my face. then we call her phone to find her bag and the little musical ring goes off mario bros. style. me and la dance a complicated choreographed number around each other in search of the phone. we find it together and dance some more. than we all burst out laughing and can't breathe. la falls to the floor and writhes around like she was a snail we just poured salt onto. hahaha.  SPLASH!
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+     
+      This was found in the notebooks of the late Theodore Geisel, better known as Dr. Suess:  i like the weed, i have to say i like the weed i've smoked today  i like to smoke weed in my bowl i like to smoke it with a troll i like to smoke weed from my bong i like to wear my smoking thong i like to smoke, o yes it's true i like to smoke with licky-poo  i like the weed, i have to say i like the weed i've smoked today   the weed i smoke is mighty fine i smoke with my friend zammy-zine zammy likes to smoke weed too he smokes with his friend shnammy-shnoo shnammy gets his weed from floogie who knows plim-plumpee-ploogie ploogie gets his weed from xoo and xoo gets his from licky-poo  i like the weed, i have to say i like the weed i've smoked today and if you like to smoke weed too just go find your friend licky-poo
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+     
+      I regret to inform everyone that I have been unable to post for quite some time due to a conflict I've been having with Collier's magazine.  It seemed that the owner of the magazine, John Elway (former Denver Broncos quarterback), is a frequent reader of the Autumn Leezy Blog, and he did not appreciate my slanderous comments.  I was sued for libel and instructed by the judge not to post on the blog until the case was resolved.  Well, I won the case but I'm sorry to say that the legal battle caused the company to go bankrupt, and Collier's magazine is no more.  The company's stock went from the most expensive on the market to completely worthless in a matter of minutes.  John Elway is now penniless and hopelessly in debt.  Nobody has seen him for days, and it is believed he is now living as a hermit somewhere in the rocky mountains.  So it's official.  After the longest running publication in magazine history, from its first issue in August 19, 3214 B.C. to June 14, 2004, Collier's magazine is no longer in print.  Hence, it shall not be mentioned again.  According to Collier's magazine, 97.3% of American are VERY happy to hear this.  2.6% said, "Long live Saddam" and .1% said, "A woman should not tell a man what to do."
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+     
+      alright, so before i even read someones post i know what its about. ana posts really weird stuff. ben hates on everyone and talks shit with rediculous slang. ashley gives detailed accounts of everytime she gets drunk. craig usually summarizes the important stuff and clears up some of ashleys exagerations. and i guess that is everyone that posts, pretty much. kem was laying down some wit, but not anymore.  i need updates because i can´t get colliers´down here. but i can make upside down exclamations and question marks. ¿? ¡!  enough of that. i don´t think the dutch master thing is goign to work out because me and my good freind here from australia both like her.. so last night it was like a fucking dating game with an audience. very embarrasing. but today i met this little guatemalan chick who is real cute. she likes me alot too (probably because i am rich to her, and bought her a coffee today, ha!) so that leaves kris´s options open (my crazy australian freind.) well see though.  oh, and you know when you tag team a girl they called it finger cuffs in clerks? ya know, like you stick your fingers in on both ends and can´t get it out? well i heard something even better than that, much better in fact. pig on a spit. ¡beautiful!  o`h, and i shaved my dome peice. late.
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+     
+      why is june so hot?       anyone want to go to the beach???????
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+     
+      you know... not to be a hater or anything but who says 'breathtaking' twice in one sentence? unfortunately it's blatantly obvious luke is in the third stage of culture shock: "gayification" ... hey buddy hang in there, the next stage is butthole insensitivity which will bring you much happiness when you come back home. so now that everything is cleared up between the spit bucket and myself i can make some jokes about it. never seen a woman so determined that she would walk all the way back to autumn from parkside diner so holler at your stamina grizzy. i'd like to give a shout to waldwick holla for tryin to fight me while simultaneously trying to make out with yastine. also like to give a shout to john the bomb for talkin shit. apparently everyone wants to get up in my grill these dizzzays. but cmon, if ya talk the ish ya cant be so scurrrrred when bean gets up in your grizzil.  'at the end of this receiver is what's really wrong with me' -Boys Night Out  im at work.. today i showed up at 9 and guess what - my boss isn't here. ontop of that, i have no set plans. im just sitting here looking at webpages. mind you, this isnt really all that bad - it is quite boring. anyone with any fun things to occupy my mind please post on the blog.  p.s. a firetruck just drove through the middle of campus for no reason and theres been like 2 cops just walking around outside for an hour.  tcnj = cool bean = sarcasm underwear = farts  long live saddam!
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+     
+      first off, there are mad kids slash young adults that think they are bad ass becasue they drive around an 83 escort with a neon light around the liscence plate and spreewell rims blasting american rap. ¿weird right?  furthermore, i´ve met a self made multimillionaire that knows how to cultivate plants and animals probably better than anyone on the face of the earth. but, his wife cheated on him and he hates his mormon family so know this 42 year old is a missing person in the states and womanizing young gautemaltecas. he his, however, going to help me cultivate this pataya cactus which generates this delicious oddly pink-purple neon fruit which is DELIIIIICIOUS. if all goes to plan im going to sell them to fancy restuarants in new york for mad dough.  new zealand nate (who i smoked with on the first night) had been replaced by another dutch girl (whoooooO!) who is cuter and freindlier than the first. we´ll see though. on saturday i´m going to the pacific coast, then up to mayan ruins with white pyramids, then over to tikal (huuuuuge pyramids in guatemala) and then on the the carribean coast for some afro-carribean culutre. then back to a different city in guatemala for one more week.   i´ll be back at JFK at like 11 30 so i hope craig wants to party with me all through the night and into the next morning.we will see, becasue i´m definately not trying to pay for a hotel in the  sqqeuuuuzie and if this isn´t possible maybe i need to try to get my parnets to come get me. but, i´ve been thinking, fourth of july in the city will be AWESOME. the biggest city with the biggest fireworks coming from a very third world country will be breathtaking.... almost as breathtaking as the stars that i see here.  hasta luego. lucas
+     
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+     
+      Craig travels down the shore, to the beach for double La's birthday.  Craig travels down with Mark and Licky, despite how you may have been misled by smashleys post.  While indeed I did whine about the four hours it took to make a two hour trip, we did make it.  I mean can you ladies learn how to give directions?  or better yet, why don't you just give us the full address of our next destination, so we can leave up the directions to mapquest :-)  Holla at double La being twanky!  We had a blast at her cribb, despite the fact that your brother and his friends are a bunch of wheezes  Craig worked real hard on his tan, with little to no success :-)  Shouts out go to the bonaroo (sp?) crew who return sometime tomorrow?  Cookout at c-money's cribb tonight, holla.  beat it, craig  
+     
+    
+</post>
+
+<date>11,June,2004</date>
+<post>
+
+     
+      STONED HARBOR!!! For Lala's birthday party we trekked down to teh beach adn lemme tell you getting there was a chore in itself thanks to the incessant whining of uncle craaaiig and licky licky poo poo. If we didn't have those green apple test tube shots of phlegm waiting for us, we never would have made it.  Holla at the new song errrbody is singing "Some ppl want pearl necklaces, some just want anal beads ripped out of their ass like you were gonna start a lawnmower...WA WA WA but that ain't you baby..." Me and Uncle were the only soldiers at that party. We kept it thorough from the borough by swimming in the ocean @ 4am.   If you're 25 and have a "real" job, it is unacceptable for you to get so drunk you pee your pants.  Last night was kind of interesant as well. AKL hit stables for Peaches lame ass party where that motherfucker tried to charge us $5 a cup. Peaches, are you serious? The party was a meaty sausagefest and you were going to CHARGE chicks who were patronizing your piece? sig tau boys are AWESOME! Holla @ the foot of snow.  "SCOTTIE! HE THINK HE FLY, FLY ENOUGH TO BLOW YOUR MIND! SCOTTIE!! HE THINK HE BAD..GET ON THE FLOOR AND SHAKE THAT ASS!" Urkel was in his usual sitting up sleeping position when we showed up at 11:30. Way to be a champion steve. Lauren Kate and me had our EyeSpies out. The shady...I'm just biding my time.  To wrap it all up, the cops hanging out hardcore in the parking lot across the street was a nice touch. It kept up the festive attitude of the bday celebration. GO EWING PO!  anyway, I'm hungover and need eggs.   smashu? SMASHME!
+     
+    
+</post>
+
+<date>11,June,2004</date>
+<post>
+
+     
+      so i´m seriously thinking about stopping my studies next week and traveling central americafor two weeks with this thousand dollar budget. my parents expect me to study for four weeks and bring back some change, buuuuuuuuut i dunno about that. i could take the rest of the money and make a dash for mad nice spots, get my passport stamped like five times, and just ´whiiiile out.. tempting... yes.  its good to hear that shash and ben made up. nuf said. and its good to hear that at someone misses me and doesn´t think im an ASSSS (i did do a pretty stupid thing though, ha)  do me a favor guys and holla at mad beautiful foreigners here (the mayans kindasuck,not many are that hot.oh well)  but next week i´m going togo to palenque and do shrooms (palenque are these white pyramids in mexico wehre youcan walk into the depths of the tombs and what not. very cool.  i guess thats all for now. peace biotches.
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+     
+      So yeah last night I beat the hell out of myself.  I worked another dbl,smoked with some guy from work, spilled a drink ALL over a table.  Ran to prospect (holla at la's bday) and got DESTROYED. i don't know how that happened on wine and beer. Was bad upstairs, stupid students of the month~~~>got a nosebleed. Made up with licky,holla at the smoothness drunkenness brings out. Saw Yast, tackled her and took a header into a wall.  Was escorted home by Craaaaaaaaig, where I tracked some surrrrious mud and puked my soul out.  Woke up this morning covered in blood and bile and mud with a swollen ass face.  Miss the bonnaroo foos  LUKE I WILL POST ALL DAY ERRRDAY JUST TO TELL YOU WHEN I FART. LOOOOOOVE AND KISSES AND I MIIIIIIIIIIIIISSSSSSSSSSSSS YOU!!!   Smash  
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+     
+         urlLink saturday train schedule     urlLink sunday train schedule   thanks! anna
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+     
+      what im wondering is how luke thinks he can pull off calling me names from guatamala.  ridiculous. haha.  so im at pennwood right now bored outta my mind as usual.  at least im not stuck in a car with doug driving through the hell we call the south (yup, you read that right mike aka craaaaig aka james).  so being 21 is pretty fun, not gonna lie, but in the past week i have lost my wallet, hit a car and spent about 600 bucks.  not to mention went out and came to autumn with a bunch of 30 year olds (yeah adge).  going to kat tonight, should be fun, except the guy i hit stopped by here today and asked me to go.  uh oh.  lets not pull any sapzy moments here, yastine.  just kidding, ive been off the sapzy bandwagon for a while - i gave my crown up to various other females who frequent autumn lane.  i just tried to post a link to something cool but couldnt cause im one of jerrys kids when it comes to this computer stuff.  so ill get back to you on that.   and on a side note, i can drink gallons more than mysonian.  hes beat.
+     
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+     
+      yo, if you don't want to make a trip up, just call me and i'll take a train down...   urlLink weekday train schedules    
+     
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+     
+      i come bearing gifts.. my words i present to you - to fill the void.  im at work and its seriously busy (yerrr)  myson MAY have a control issue (guns)  the whole house is gone because hippies are gathering in tennessee (normal)  so luke is in guatemala smoking with australians tryin to smash some dutch bitches. if he hits it, does that make him the "Dutch Master" ???? all in favor say "I" ...  the tension is rising on autumn lane: the neighbor attempted to let his dog loose on max yesterday.. what's next? dogfights in the alley? cockfighting in the street? btw: im in favor of cockfights as long as mine is bigger (this happens only 13% of the time)  i took a nap on a bench in the middle of tcnj today - who does that? my lunch break turned into a nap break - holler at yourself sunny day.  oh and word to the wise (fressssh) - better pay your tuition or your class is getting cancelled.. dont play around like i dont know all your SS's and how much you owe... :)  holler at responsibility
+     
+    
+</post>
+
+<date>08,June,2004</date>
+<post>
+
+     
+      hola biotches! guatemala is CRAAZZZY. they fit 50 people on an old school bus, there is a guy with a bullet proof vest and shotgun in front of every bank, you get 8 quetzles for one dollar, there are mad foreigners here and on the first night i smoked iwth this guy nate from new zealand. on the next night, i went to the bar and got wasted. i met two chillean investment bankers and then a craaazy local who invited me and my australian mate to smoke at his house.  so at this house its two 50 to 60 year old hippies who have ounces for sale. for the dirtier stuff, 200 q and ounce (200 divided by the 8 to 1 exchange rate turns out to be around 25 dollars.) which i bought. the better stuff was twice as expensive but still not as good as what were used to. so i bought the cheap stuff, planning to roll it in blunts. but i can{t find a cigar!! aiy aiy aiy! but i did find a roll of papers (literally, a roll, you can pull out as long of a paper as you want. its amazing. so i rolled a blunt sizeed joint last night to roll with only one paper. es mas facil! anyway, hopefully i can find some cigars today.  craaaaig. holla at yourself. ashley, craig is right. lets not post all day errday. you can post just as often, just only the good stuff. por ejemplo, the cop story. but, your lucky as hell you only had to pay a hundred dollars for going over 10 miles and hour with a broken tail light. you should be thanking your big titties rather than cursing them. they saved you points on your license and probably got you the job. plus everybody loves them! if your manager stares at your tits all day, tell him to stop, and at least he{ll be less fragrant. and if gets worse, sexual harrassment charges. anyway, i gotta go mack it to this chick from holland. peeeeeeeeace.  tu amigo, luke
+     
+    
+</post>
+
+<date>08,June,2004</date>
+<post>
+
+     
+      Soooo...I HATE OTB. The people  suck . Umm I've been working doubles with a manager who stands too close to me and cannot stop himself from staring at my boobs. Grrreeeaaat. Umm oh and as an added bonus, today I get pulled over by the lovely and dependable Ewing Police after working a allllll day HALF A BLOCK FROM MY HOUSE!  As per usual, it was for a RIDICULOUS reason... 52 in a 40 and a broken tail light.  To make it even saucier, my registration expired 8 days ago. 8 DAYS AGO. Seriously, what the fuck. CAN I LIVE?! CHRIIIIIIIIIST. Yeah, sure, I have an extra $100 laying around to take care of this horseshit. FUCK you Ewing popo...you've assfucked me for the last time. Why don't you just stick me in a steel box and shove strips of bamboo up my fingernails?   Its 8:13. I need to get drunk and start fighting.  Fuck you.  Smash.
+     
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+     
+      The untimely death of Gusmeekus Rex has left all of us with a pain in our hearts and a strange longing for a certain white furry ball that is no longer with us. Therefore, I propose we organize a funeral service.  
+     
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+     
+      I hope everyone rocks out and has a great time at Bonnaroo! And please, if you meet Trey, tell him I said hello. Eat some shroomies for me!! Hahaha. Oh- one more thing- I doubt anyone knows anything about the 40 dollars missing from my room, but I think I have finally concluded it is M.I.A... oh well. Ciao!
+     
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+     
+      Licky Licky Poo Poo comes through with the "Ligamentous Fats" in the newly dubbed "Thirsty Spelling".  Spell,  , drink juice, if correct go again, if incorrect drink juice and pass the book on to next player.  beat it, your brother craig "A woman should never tell a man what to do!" 
+     
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+     
+      if you are at autumn lane... look around and find kim and tell her to call me!   even if you think she has seen this, she has probably not called me...   
+     
+    
+</post>
+
+<date>06,June,2004</date>
+<post>
+
+     
+      I mean, does anyone know how to blog?  All I see these days are Smashleys daily posts of everything she did for the day.  You are all gay!  Craig returns from another trip to the ville today.  That's Monteville for you losers who don't know about it.  Holla at the "party" if you could call it that at Janurary's house (yes that's really this bitches real name), small little apartment packed full of people.  Random people too... some guy who looked like yastine's dad, the french speaking old dude from north africa (holla at the apple martini's that this man made for us all night), the infamous Mike D., and of course doug e fresh's *real* brother Greg.  Lots of drunkeness and after hours festivities that led to crazy conversations and gossip.  Oh, and don't forget that lame fucker who Doug was ready to thrash at the party.  I mean can these fuckers try to fight each other 30 times and never really fight?  Craig the peacemaker trys to talk some sense into these people.  You know you don't have a chance against Doug when your "little" brother Craig could have easily taken care of this guy :-)  
+     
+    
+</post>
+
+<date>04,June,2004</date>
+<post>
+
+     
+      Ok so tonight at work was ABSOLUTELY insane.  I ran my ass off like a jackass once again...it ended with ME bussing a table and slipping on spilt burr, legs and arms FLYING and creamer ERRRRWHERE. ALL over me. I was lactating. As I'm leaving, Yast and Craaaaig call me and tell me they're coming in for growlers. COOL POINTS 1 and 2! So we're hanging out at Triumph (THE GREATEST PLACE TO EAT DRINK AND WORK)and Pat, love of my life Pat gives me his full IPA beer which I sneakily chug (PRAY i don't get fired).  So Craaaaig finishes his burger and MA again tries to throw it in the butt. LOVE YOU.  hahaha To top it all off, Guarino gives me the coolest songs ever to work on over break. I start my new job @ OTB tomorrow, but TONIGHT we are polishing off growlers of Amber and Helles, living like CHAMPIONS!!!! LOVE THE LIFE I LEAD.  I now have direction, thank you Craig M.  Here's to getting high like the first time and having life changing conversations. Much love and many many kisses.  Autumn, its only the beginning of a new chapter. Love you.  PEACE HONKEYS I'M GETTING DRUNK  smash u TABULOUS!  
+     
+    
+</post>
+
+<date>04,June,2004</date>
+<post>
+
+     
+      Big huge thanks to everyone who is helping to make Autumn Lane a better place to live. Special attention should be drawn to the fixed holes in the walls as well as the new paint jobs. Every little bit helps. We will shape this place up!!! XOXO
+     
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+     
+           
+     
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+     
+      One A.M.&nbsp;on Tuesday night,  Gulping&nbsp;down a Miller Lite.  Finally,&nbsp;this day is&nbsp;done!  Now I'm&nbsp;trying&nbsp;to have some fun.   Everyone enjoyed a beer  Or  four  before I made it here.  I thought that I might go to bed,  but rowdiness insued instead.   Adrienne and Doug&nbsp;are fighting.  Cigarettes&nbsp;require&nbsp;lighting.  So much for Monopoly;  Everyone is drunk but me!   Swiftly to&nbsp;the fridge I go  To find a burtang, icy cold.  Yuengling porter; what is that?  Miller Lite- that's where it's at!   "Not so fast! You can't consume  The only Miller in the room!"  Said Douggie Fresh, "I do proclaim,  The final beer is in my name!"   "Dear sir, I apologize,  I simply did not recognize that  You're the owner of this beer!  Now, Sir Freshness, take it- here!"   Drunken laughter all around.  Not a&nbsp;burtang to be&nbsp;found.  Kimbo&nbsp;finds a bag of trees and  Rolls a blunt of ferret weed.   Autumn Lane is getting hazy.  Everyone is pretty lazy.  Once the hefty blunt is dead,  Lots of people&nbsp;go to bed.   Everyone but Craigy Craig,  Doug and&nbsp;little me&nbsp;are left.  Fuckinay, I want a beer!  Why can't I just have a beer?   Dougy sees that I'm perplexed.  Fresh can flex his mental pecks!  Freshness finds&nbsp;our share&nbsp;of&nbsp;wealth&nbsp;  Hiding on the bottom shelf!   Now we can propose a toast!  Drink it even though its gross!  Keystone Light for all of us!  Drinking burtang is a must!   I'm so glad I got my beer!  Time for bed is drawing near.  Sadly, I won't sleep for long.  Drinking nasty beer was  wrong !   Maybe I just need to burp.  Ow! My tummy really hurts!  Every other beer is fine, but  KEYSTONE's where I draw the line.    Smoking makes your judgement poor.  I drank one bur and wanted more!  Now you know the reason why I'm  Suffering    Keystoneritis!!      &nbsp;  Wed-nes-day at 6 A.M.  Vin just left for work again.  Finally the pain has left and  Now I need to go to bed.   Autumn LeeZ KeyStoneR SteeZ      By Lil Cz      &nbsp;    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+     
+      The seasons may change, but Autumn still reigns supreme In the eyes of the people,&nbsp;&nbsp;who see the change in&nbsp;the tide and The kind of mindset we realize is the kind we like best. Remember the days of crazy hazy blunts, lazy kids skippin work and class for the fun Now we leavin that phase coming out of a daze We can smoke up and still get paid, bitch!  Autumn Leezy, fresh and breezy  Bitches so fly, nigga say why be anywhere else?  &nbsp; 
+     
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+     
+      so kristin said that all the middle school kids during 9/11 were taught to just completely trust the government and everything... so the real plan is to let the democrats win the next two elections and then take back over when they all can vote. brainwash the kids, all the political analysts got it wrong, they didn't fuck up and seize too much power! they are planning on taking the dip and coming back strong 2012! i'll definately be outta here by then! peace fuckkas!!!  UNbrainwashed 
+     
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+     
+      Tyson, &nbsp; Your mom called...she said Little Mac is will be on his way over shortly to kick your ASS. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Nin T. Endo 
+     
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+     
+      So, i dont really get hangovers anymore.&nbsp; Perhaps because I drink everyday, who knows...yet, right now my heads is kiiiiiiiiiiiilling me.&nbsp; And that is why Smash and I should not do a power hour at 3 am.&nbsp; oops. 
+     
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+     
+      i suure do hope your talking about my brother when you say uncle craig and im suspicious that you may be talking about that other wheeze character. furthermore, kem said recently that while he wasn't blunt feinding, he needed to smoke a blunt in the rapidly approaching near future. i edited his quote from what he said it was cause i don't think he remembered it exactly right anyway.  so the conductor and i are back from chris plumbering and the train is onnnn schedule. holla.&nbsp; we be making that moonnnnnneyyyyy! holla back if your livin in america. holla back if you is&nbsp;a privilidged fuck face that got the oppurtunity to be raised right. holla back if you is maaaaakin money like you should be! holla front if you slackin! holla front if you in debt! holla front if you needed money to borey money for enough gas to return home and youll only driving like 1.5 miles (yours truly for many of these bitches, back and front) (and many of y'all too)  PARTY AT AUTUMN THIS SATURDAY!!!! $5 for crazy fun. beer liqour, never been sicker. djs food and blunt stizzz-yles that you could set your watch too what more could you want? so holla at your boy, holla at ya girl (as a matter of fact, holla at ya girls!) and make it to autumn lane on saturday. this saturday. esta sabado putas  be there or be SQUAAAAAAARE 
+     
+    
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+     
+      So the other night I'm chillin with Uncle Craaig smokin a bleaze and watching Boondock Saints. Just a regular ass night. Yastine shows up drunk as you wanna be and hilarity ensues. Wonder if my neighbors heard the strength of "Shmee Shmopen SHMAH!" Yast orders some food from Vino's...of course it takes forever to be delivered.&nbsp; "I wish i had some stromboli in my pants". And we all felt bad for her when the Vino's guy called for directions and yast answers teh phone with "ARE YOU OUTSIDE?!?!??!" hahaha idiot. Also really funny was when la called and couldn't hear us talking but kept repeating "Can you hear me? For the love of god I have to TELL you something?!" 9 million times.  &nbsp; So the other night Kate comes up to TCNJ to relearn how to party right.&nbsp; Her and&nbsp;La go&nbsp;to Rutgers to party with the boys and plan on coming back to&nbsp;E-wing before i got home from work. Well, idiot earlick boy pete gets arrested for underage drinking and hauled into the clinker.&nbsp;&nbsp;The best part is no one can post bail because he had a warrant&nbsp;out for&nbsp;his arrest in Belmar so they had to wait&nbsp;for&nbsp;the Belmar Po to show up...at 3am.&nbsp; Needless to say, it was a ridiculous night for the girls.&nbsp; The bust into Rutledge @&nbsp;6am with munchkins, telling&nbsp;a story about Christina "Hey&nbsp;girls...just wanted to know if you&nbsp;felt like coming to a party at my house...we've got some sausages that need&nbsp;buns" HAHAHHAHA &nbsp; AND my car door fell off.&nbsp; Can someone PLEASE pimp my&nbsp;ride? &nbsp; fuck reason smash &nbsp;&nbsp; &nbsp;   
+     
+    
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+     
+      "Yo, I was in Vegas for a week and I didn't get a sniff of pussy"&nbsp; -Doug E. Fresh 
+     
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+     
+      So a quick update: 1. Holla at the OC craig for giving me his xbox until my cable gets hooked up. Now i can watch Faranheit 911 until my eyeballs fall out. 2. My wheezy manager asked me out on a date tonight at work. Umm...who else does this happen to? How many ways can I say "No Brian...you sign my paychecks, and TRUST ME you do NOT want to shit where you eat. 3. So I'm on my way over to the village tonight to play some poker with the newest wheeze in my life and as I turn onto Carnine, I realize I am speeding and there is a cop hot on my tail. So i book to the refuge of Autumn and RUN inside (after I climb over my seat of course since my driver's side door FELL OFF). I thoroughly bug out the Bo Smadge and Uncle Craig as I race inside while they're in the middle of a bleezy saying "Cop followed me here I repeat a cop followed me here". We're all sufficiantly bugged out for a good 5.  Anyway, that is all. I'm off to the wheeze's.  Hearts stars and giggles Sir Smashalot
+     
+    
+</post>
+
+<date>14,July,2004</date>
+<post>
+
+     
+      so i'm here at autumn leezy smokin a bleezy on my lunch breeazzae. estoy tocando un cafe muy delicioso hecho de Kristin. holla back! an im tellin her she should set up a coffee shop with some food items and shit. i'd buy MY lunch from there everyday!  anyways, stay tuned to the blog! i know i don't have crazy stories to post anymore but i will soon enough and you need to watchin the blog errryday to see was happnin'!! and if your watchin, you gooootsta be postin!!! holla at me more than one time.  holla at kimbo for hookin it up with the wizzity wizerk. stayin busy but can't be busy when it rains. thats straight though, i still have mad stuff to sort out round the way gettin myself situated. gots to situate myself, lots a changes happpppnin. stay tuned. peace.  i'm on my lunch gots to get back. i hate all y'all non-bloggin hatin fucks. but if you got some ideas to make some money, holla at meeeee.
+     
+    
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+     
+      So tonight I headed to the Almighty Sloc's to meet up with the usual suspects. Sachs was there being self confident with the Dave, who found the strength to kind of ask me out on a date. A date?! I havn't been on a date in years; its kind of...nice. haha. So it was a good ole time at Silly old Slocums. Holla at Licky for confusing the HELL out of my stoned ass. hahaha. Umm nothing else really happened except I got drunk (but who didn't see that coming?) Umm the MM is iming Yast...gotta go.  I want to make out.   Smashy  PS can we discuss me and yast pointing at pedestrians in New Hope today? Bwahhahaha
+     
+    
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+     
+       all blogger templates are 100% cross-browser compliant using the standards and DOCTYPE presented by the  urlLink W3C . This includes IE, Mozilla (incl Firefox), all gecko based, Opera, and even Safari. But safari is only cool b/c of the css property 'text-shadow'. Autmunleezy should degrade exactly the same in all browsers unless non-compliant code was introduced to the template by one of your blogmasters.   anyway...YO CRAIG! CALL YOUR DELAWARE BROTHER ASAP or as soon as you get up or your gonna get the pimpsmackin' of a lifetime =P       
+     
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+     
+      yo, craig fix this ugly ass formatting!  the pics are all distorted as hell in my browser (ie).  also!  why is gmail so fuckin finicky with browsers!  bitches!  if i wanna use safari or ie i will dammit!  although gmail will have none of it :`(  
+     
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+     
+      OK so some funny updates from Calderone's 21st Birthday party @ Dane's. Everyone was there so it was bound to be cool. Can we discuss all the vultures who were there? Boys really, your "concern" is not appreciated. Thanks.  A plethora of Tpiddy kiddies were there as well which was funny. Especially when Manic Mary showed up randomly and MD bounced in 2 shakes of a lamb's tail.  So then I'm getting a beer in the kitchen when I was accosted by a Mike Abs and an extremely inebriated Georgetown Jay.  Umm, also inappropriate.  Fast forward to about 15 minutes later when Jay is screaming and trying to take on the entire party "FUCK YOU ALL! WHOEVER WANTS TO FUCK WITH ME, COME OUTSIDE!" Umm ridic. So the ENTIRE party runs outside to see this shit. I run to the front of the house and get Mike "THERE'S A FIGHT!" "A fight?" And with that he whips off his hat and races to the backyard. hahaha. Funniest thing of the night was the random kid who stumbled outside where I was and asks for a pen. I didn't have a pen but what do you need a pen for? "I need to write down a number" At this point a short fat chinaman girl runs around the side of the house and punches the guy and starts screaming about how he's an asshole. This random chick thought he was asking for MY number and flips out. I was like fuck this bitch I'm leaving. Went inside and DIED. hahah.Jeremy shows up WASTED so me him yast and MD are sitting around sipping Triumph burr and generally being sloshed. No J, you can't see my boobs. Holla at the bowl me and Mike bonded over, now we're best friends. Don't holla at the random dude MM brought back to my place...so shady. Hahaha so @ 4am I think my night is over but my smell rings. Yaaaastine.  "Can you come pick me up? I just had the worst sex of my life." HAHAHHAHHA that is possibly the freshest thing that happened all night.  The next morning I went to OTB, where creepy manager Brian insisted that I meet his parents, meettheparents style. Apprently his parents loved me and want me to date their son.  Heeeey manager Brian...has it occured to you that you are my BOSS? Maybe you have forgotten that you SIGN my PAYCHECKS? CHRIIIIIST.  Alright so Yastine is making us dinner in the haunted house.  I am a fan of Tammy Faye   Smash
+     
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+     
+      Holla at huevos y frijoles...not bad grub after you've watched one luke and one fool move shit all night.  Holla at my man Ron Jeremy. Me and Kimber proclaim that he is a sweetheart and we both wanna smoke a blunt or two with him.    time to smoke a blunt. surprised?  Smashey
+     
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+     
+      holller at the casa nueva porque voy a dar una fiesta esta sabado. holla. that means new parrty at my house moooost likely this friday. if you liiive in south jerz you can get to trenton for only 2.50, holler at the river line. holler at the yust cause i hear rumors that she likes to make dinner for the fam from time to time, and you know thats my sister so i better get some family cookin from autumn leezys original mama.  holler at the fur comin back from shoprite at 12 pm to visit me and smash with some deck-a-daaance. juninor mints plus ferrero rochers (little chocolates wrapped in golden foil. holler at ur boy ron jeremy for keepin it rizeal. i'm tryin to holler at some extra jobs so holler back. holler back at this mack bitches with the big racks. (there is a good chance that ashley is gonna wind up posting next so that comment will prolly work out)  paz putas. lucas
+     
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+     
+       urlLink headcount.org   they pay you to go to shows for free and register people to vote.  and why do i work at the campus computer lab?  why?        also:  urlLink     who wants to adventure to either  urlLink nyc's film forum  or to south jersey's  urlLink vorhees ritz   come on... i know you want to come along...
+     
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+     
+      i farted
+     
+    
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+     
+      Happiness is still coming by Autumn at any time, day or night, and finding cool people still ready to smoke a blunt and throw back some cold ones.  Thrilled to have my stinky old Luke back...he's all guatamala-ed out.  holla at the capital in selling $.10 bracelets to hippies for $3.  he's a business man. So today was a little funny.  Wake up at Fresh's feeling like shit at 1.  Scrape myself together and go over to the foodstore with my sister La to get dinner. First, we see feasterfeasterfeaster checking out so we run away haha.  There we are in with the frozen foods watching these two black bitches get in a fight over a shopping cart.  Holla at the one bitch walking away and walking back to shake the cart "I SAAAAID EXCUSSSE ME!" she had a point to prove.  We stole some creamy buttery avocados. ha.  on the way home a braceface cop pulled us over. and we had open box wine in the backseat.  "Now I need you to tell me the truth Lauren...did you break a law because there are groceries in the back seat that you need to get into a fridge, or is you friend really sick?" hahahahhahaha Oh the dog days of Autumn, you are so awesome.  Anybody seen Yast?   I networks with peoples bruuuther...eat it.  holla at drinking burr in a car in autumn's driveway too.         craig maaam you are a stinky old foot.  go put on a dress.  what? money.cash.hoes.   whatchou need in life.    money.cash.hoes.   come on   smashulicious  
+     
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+     
+      so, the stupid old sickle is missing from my garage, and doug was nice enough to point out that since i live alone, there's PROBABLY  a creepy murderer hiding in my house waiting to kill me with it.  nice, like that thought hadnt crossed my mind every waking moment i spend here ( cause im a pussy).  while we're talking about doug, can we discuss how me and THE phil burried him in the sand at the beach cause that was pretty damn funny.  on a side note, he owes me lots of money.  dont worry doug its on your tab.  as for life and things in general, i made shit money today, got screwed over on a trip to the beach, and this dumb uncool house smells like le garbage.  boo. however, though this blog sucks ass now, i am enjoying the luke posts from a far away land.  hopefully hes at least on his way to meeting a wife who doesnt speak english. and craig, i disagree with the 4 out of 10. bagels taste awesome with a slice of tomato. now im off the everyones favorite w.t. bar, shamrocks yaaaaaaaaaaaastine
+     
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+     
+      my beezy craig take it eaaazy. ya know i apreeziate your help.  i'm still working on getting in touch with my cuz, but here is the flight stuff. and i forgot your email, my bad.  jul 3 san salvador, new york squeezy. ta 586. with taca airlines. arrives at 1135 pm comapala int.? i dont know what that means, BUT, i think its terminal 8 or something. when your going up you can see the sign that says taca international. i think that i is more likely 6, and i know its on a sign with lots others. like the isreali one.  thanks alot, gots ta run. luke
+     
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+     
+      Dear foreign man who comes from autumn lane,  So Craig is supposed to pick your ass up at JFK, only one prob.... no details.  We know it's tomorrow and we also know you'll arrive at 11:30, but is that AM or PM?  Are you coming from Rico or what?  Flight numbers?  Hit me up via email, so we know what the deez is.  beat it, craig
+     
+    
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+     
+        
+     
+    
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+     
+        
+     
+    
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+     
+      So today, after calling out of work for the second day in a row (thanks  Mustang Sally!) I made a new friend...Anthony the Fixer.  HAhA! Holla back at the magnanimous blunts being passed around autumn.   Alright, I have to go prepare to conduct the 6:15.  skyrockets in flight.  ~Smash~ 
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+     
+      alright guys, we have about 3 more un eventful weeks before shit hits the fan. tons of shit to post that happens in the random lives of the seperated autumnals. kem will be sure to let us know what the German Collier's has to say... an' i definately can't wait for that. hopefully i'll be in Spain next summer and be able to let you know the differences with the spanish version of colliers.   holla back one love. 
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+     
+      For that matter, I'm still waiting for my $25, Uncle Craig. Wrapped up nice, and in crisp single bills. :)  Umm I have nothing to say. I am a fucking dork. I work all the time. This must be what all the other losers were doing when I was in there causing riots.  Life was a lot funnier when I was being a stupid drunk retard with yast.  I say yes to 3am power hours.  I want my miller lite surgically reattached to my hand.  Holla back if you wanna be a little crizzzy tonight.  And awaaaay we go!  Smash
+     
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+     
+      i wish someone would try and step to the new king of the blog.  smashley is the queen for obvious reasons. one such being that i will give whoever posts before her two dollars, but i think shes going to post first and get her own two dollars. thus me being the king, el presidente, porque voy a dar todo que escribir en el blog va a recibir un poquito de dinero. holla. only one to biligingual post. only one (besides other royal members) who will write cool things that happened in their lives to share and preserve funny slash interesante slash memorable times.  i'll blog  your  mom bitch.  try and step, cause i'd  looooove  to start a blog war. holla! 
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+     
+      I'll blog your mom.  -craig 
+     
+    
+</post>
+
+
+</Blog>

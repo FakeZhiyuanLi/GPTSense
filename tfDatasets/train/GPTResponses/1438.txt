@@ -1,0 +1,1 @@
+Multitasking would cause a computer to run in a concurrent fashion, where multiple tasks are being executed simultaneously or interleaved. This allows the computer to appear to be performing multiple tasks at once, even though it is switching between tasks rapidly. The ability to multitask makes computers more efficient and capable of handling complex tasks.

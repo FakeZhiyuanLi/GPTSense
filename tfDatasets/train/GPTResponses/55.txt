@@ -1,0 +1,1 @@
+Wilson's theorem states that:For any prime number p, (p-1)! ≡ -1 mod pThis implies that if we multiply all integers less than or equal to p-1, the resulting factorial will be divisible by p. Therefore, (p-1)! must be divisible by p for any prime number p.

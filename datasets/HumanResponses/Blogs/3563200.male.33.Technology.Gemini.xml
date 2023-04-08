@@ -1,0 +1,139 @@
+<Blog>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+      'cause I really want to experience real-time high hynamic range image-based lighting. Do you? If so  urlLink go here. 
+     
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+	 
+      set the ID of dynamically created web user controls in your ASP.NET pages so events on post-back go the the 'right' places. If you don't set the ID, then the runtime will do it for you and the results may not route events on post-back the way you intend.  Took me an hour to figure that out. Hope I've saved someone some trouble. 
+     
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+	 
+      Keep your pillow cool at night, especially needed in North Carolina's jungle-like summers.   urlLink Chillow , great name, cool (pun intended) idea! Reviewed  urlLink here.  
+     
+    
+</post>
+
+<date>19,June,2004</date>
+<post>
+
+	 
+      Of course you do. So pick up this book: " urlLink A Speeder's Guide to Avoiding Tickets " by Sgt. James M. Eagan, New York State Patrol, retired. It's a great view into the psychology of a traffic officer and has some great tips on handling the inevitable violation. Probably the most valuable piece of information: most people actually talk themselves 'into' a ticket and that getting a ticket can be handled in such a way that your attorney can more easily make it 'not stick'. But you have to play your cards right from the instant you see the blue-light in your rear-view mirror until you drive away. Get the book. You'll see what I mean.
+     
+    
+</post>
+
+<date>19,June,2004</date>
+<post>
+
+	 
+      I guess the shouting about IE not being standards compliant is starting to  urlLink get some attention in Redmond . But does anyone REALLY(tm) think Microsoft gives a rat's ass about innovating a technology that ultimately makes them no money? Oh yeah, I forgot about the XBox...well at least that has potential.  Not that I care, I don't use IE any more, having long since pushed my entire set of family and friends towards  urlLink FireFox  simply to lessen the issues created by ActiveX-based spyware and viri.  Someone wake me up when IE doesn't enable my wife to trash my laptop by clicking "OK" on the popup that asks her if whe wants to install some stupid POS mouse cursor software that does who knows what and I don't even realize it's there until it hangs up my debugger while I'm doing some unrelated activity 2 weeks later. Geesh. Hello?!?!  Wake up people! 
+     
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+      From RIAA suing pimply-faced college kids to Russian scientists being told to stay away from US conferences because we've become a lot of IP-grabbing but-heads,  urlLink this speech  on DRM given to Microsoft Reseach by Cory Doctorow of the EFF is a must read for anyone following the development and deployment of DRM technologies. Someone actually got sued over cell-phone ringtones? Geeesh...give me a break.  If you haven't read the speech yet, go back and read it. Now continue.  In my opinion, DRM isn't ever going to matter to anyone except the lawyers who make money arguing over it, and the companies who make money developing the technology (that will always be easily broken in short order). Once you ship the bits to the world, your DRM doesn't matter, at least to the parties the lawyers perceive are the threat to the IP.  Where are the philosophers when we need them? There is a line of philosophy that deals with what is called Categorical Imperative. It states that in order to determine if something is 'right' or 'wrong', you simply posit that doing such a thing were 'required'. For example: Is telling lies right or wrong? Well, what if it were 'required' that everything I said were a lie? Doesn't that seem wrong? In essence, you can establish a moral base on this thinking.  For me, I'm simply going to apply this philosophy to my use of media. And quite frankly, I don't really care what anyone does with DRM. Because ulitimately I'm going to do what I want to do with the property I pay for and use my own moral judgement if my usage is good or bad.  And yes, I have a DVR, and yes, I fast-forward thru ads. And yes, I rip CDs to MP3, burn them to CDR and play them in my car. I have over 600 CDs worth of songs on a couple of of CDRs in my cars sun-visor. And yes, I rip DVDs to my hard drive on occasion because I'm not carrying them around with me when I travel and risk losing or scratching them. And yes, I have a custom hosts file that redirects me to MY computer for 99% of urls for advertisements. And yes, I right-click in Firefox and click "block images from x" whenever I see an ad. And yes, SO DOES ANYONE WITH HALF A BRAIN! So sue us! Maybe Shakespeare was right about the lawyers...except for this one cool I know in Texas who became a software developer :) .   
+     
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+      My good friend  urlLink Steve Zimmerman  started a blog the other day. He's a great writer in several languages including C/C++/C# and best of all, English. 
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      Linked on Slashdot today, this is a great article:  urlLink http://www.joelonsoftware.com/articles/APIWar.html   No wonder we haven't seen the IE team surface lately....  Here is a counter to Joe's stance, good points as well:  urlLink http://www.oliviertravers.com/...not-so-fast/   -B 
+     
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+      Back in 1999 I was struggling with my personal understanding of free software. I was at a point in my career where I worked on nothing but licensed end-user products and consulting projects. I was somewhat oblivious to the words "free" and/or "open-source" other than my occasional tinkering with Slackware. I thought I'd try to understand those notions better, so I spent a lot of time thinking. Then I wrote this  urlLink essay about my thoughts on the subject .  I really think there is some liberal-sharing-utopian part of me that really wants to be involved in those sorts of initiatives. Those feelings were very much compounded when I met Linus Torvalds at a trade-show in New York when he was still with Transmeta. (the transmeta-powered IBM notebook I saw, btw, was running way-to-hot to be as efficient as was claimed). But five years have passed since I wrote that and I still haven't found a job that will pay me to write software that's free or open-source.  It's not that I don't like free software. As a matter of fact I do, I use it all the time, rely on it even. Furthermore, I've contributed some free software to the world, namely  urlLink Undox  and  urlLink Anole . It's just I've never been involved with a business model where I could do that continually and pay my bills.  My point? You tell me. :)  -Bruce
+     
+    
+</post>
+
+<date>08,June,2004</date>
+<post>
+
+	 
+      I really get spoiled by having an MSDN Universal subscription. And I realize how spoiled I am when I try to ensure my finished work is licensed properly.  If you develop a web site of any practical size using MS tech, you're likely to want to use SQL Server...until you start pricing it - $4999 per cpu for the cheapest retail verison.  And the 'free' MSDE just isn't an acceptible solution for my uses because I am likely to have enough traffic to activate the 'governer'. Plus it's useless without management tools.  I mean, to me, the price of SQL Server is just so hard to digest when free software like PostGres can be made to work with a little effort ( it literally took me 1 day to set up a Linux box and get Postgres working with my .Net based web site).  Don't get me wrong...I think MS SQL Server is great, I love it. And I know the SQL team has to eat.  But so do I.  Would Microsoft every consider releasing an uncrippled version of SQL Server for a monthly usage fee or something more digestible than coughing up $5k / cpu?  IMHO, I think MySQL is the reason MS changed the licensing terms of the MSDE to be 'more attractive'. The pressure of competing with free stuff has to be on the minds of the SQL team...if not them, the people who set the prices.  It is my hope that some day MS realizes that when a developer is reading  urlLink this document  of the approriate uses of MSDE, it's easy to just throw your hands up and say, "screw it, I'm using PostGres, or MySQL".  Do you hear us Microsoft? We WANT to use SQL Server for our pet projects and upstarts...but you're overcharging us and the crippled MSDE just doesn't cut it. OK, for me at least anyway...When I get rich, I won't care :)
+     
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+	 
+      Any modern software application that doesn't serialize data to XML at least to some degree isn't very forward thinking (what good is your data 50 years from now?) or is intentionally being proprietary (nothing wrong with that). Now that almost every modern development platform supports XML it's easy to accomplish serialization to an easy-to-parse, human-readable format (with built-in schema info. if you wish). But don't rely on your nearest class-library if your application is going to have to persist (pun intended) for any duration, be used by early and late adopters, or have more than one version deployed as time passes. You can't always take this easy path:   Stream stream = File.Open(sFileName, FileMode.Create); SoapFormatter formatter = new SoapFormatter(); formatter.Serialize(stream, SomeObject); stream.Close();   The SoapFormatter is GREAT for introspecting your class and XMLifying it. And although the XML produced is fatter, by necessity, than that produced by the vanilla XML serializer, the SoapFormatter can get at protected members and doesn't require a public default constructor.  But as we stand on the shoulders of giants, let's not forget our parachute. In other words: this approach is 'misleadingly' easy because if you ever have to make changes to your object (like in a later version when you add new members) the SoapFormatter will refuse to load your file and throw an exception like this:   System.Runtime.Serialization.SerializationException : Wrong number of Members. Object SomeObject has 9 members, number of members deserialized is 8.   This is a similar predicament you could get into with MFC's CArchive mechanism which took care of persisting data to a binary format. All was fine and dandy until you had to make changes to what you were persisting, then you essentially broke backwards compatibility with older files.  To make a proper application, you ended up having to write your own persistence mechanism to take versioning into account. After all, any application that doesn't open files that previous versions created sucks. What if Word 2003 couldn't open Word 95 documents?  So what's my rant? Well having to write your own persistence mechanism to take versioning into account in this day and age is a pain. With all the thought that's gone into object serialization from Java RMI to SOAP, why hasn't someone addressed object versioning?  If anyone out there has some answers and wants to prevent me from reinventing a really old wheel, please  urlLink email me .  In the meantime, I'm writing my own serialization system (again) just in a different language that actually supports backwards compatibility within my application and doesn't throw exceptions when poor users try to load an older file...geesh...it's 2004 for crying out loud!  Can someone ask Don Box to please think about this?  -Bruce 
+     
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+	 
+      Back in March the W3C released the  urlLink latest VoiceXML  standard. When designing  urlLink IVR platforms  I struggle with whether or not to try to embrace VoiceXML.  Outside the fact that VoiceXML is a published standard, one of VoiceXML's strengths it that it has a lot of industry "steam" behind it. But that is also one it's weaknesses. If you've sat in a meeting with a bunch of bickering techno-weenies arguing over best-practices you'll see where I'm coming from.  I've often found that such standards aren't tempered by what's needed in the 'real world' as much as they could be. Witness the butchery that occured with HTML by marketeer-driven web site designers looking to layout a pixel-perfect product page when HTML had no facility for such nonsense. Then came applets, DHTML, CSS, plugins, and whole host of other nonsense such that HTML as it was originally published was little more than a starting point for what will soon be XAML (you wait and see).  It seems to me that VoiceXML lacks the fidelty I've built into IVR tools in the past and things I may tackle in the future: 1) integration with a programming environment (like .Net) 2) a consistent and reliable approach for handling outbound calls 3) support of commodity telephony products (like Asterisk) 4) the "I don't have to pay a lot of money to some big company like IBM or Microsoft feature"  In a sense, I guess I feel like early web developers, somewhat constrained by a committee-designed standard.  If VoiceXML is on your brain, you might be interested in  urlLink this article  on determining if it's is right for your application.  Don't get me wrong. I'm not trying to negate the benefits of embracing a standard. A devil's advocate might ask me if I'd embrace VoiceXML if it met all my needs. And my likely response would be: "Probably not, just because I like the freedom to think outside the box when I want to."  My excuse has always been: "If the fidelity of my IVR approach exceeds that of VoiceXML, and I persist to XML anyway, can't a simple transform be used on my file to create fodder for the VoiceXML engine?"   Keep thinking, Bruce
+     
+    
+</post>
+
+<date>06,June,2004</date>
+<post>
+
+	 
+      I recently got Fedora Core 1 working quite nicely with  urlLink Asterisk  and I must say I am impressed. For those of you who know me, you know I've developed several IVR systems in the last decade and I've had a decent amount of experience deploying telephony systems....and I'll say it again: Asterisk is AWESOME!  If you are a small business in need of a quality telephone system on the cheap here is my recommendation:  1. Get a 23 channel PRI line from your favorite carrier ($300 or less in most areas) 2. Get a bunch of cheap GrandStream Budgetone SIP phones ($80 each) 3. Get a  urlLink Digium Wildcard T100P  ($495) 4. Set up a Fedora Core 1 Linux box and get Asterisk running on it to serve as your PBX and voice mail system  If you play your monkeys right, you can be in business with a high-quality phone system that'll blow away anything Lucent, Nortel, or Cisco has by a LONG shot, for under $1000.00.   I even called and spoke with Mark Spencer about it (owner of Digium, and original author of Asterisk). He's a really sharp guy and he has done an amazing job creating a business model for Digium based on open-source.  I'm very excited about having an interface to the telephone company that allows me to ditch Cisco and H.323. 
+     
+    
+</post>
+
+<date>06,June,2004</date>
+<post>
+
+	 
+      After seeing the likes of  urlLink Don Box ,  urlLink Chris Sells , and  urlLink Miguel de Icaza  (a few of the minds I admire on this rock) being so active in blog-land, I decided it's time for me to join in.  It's not that my mind is par with those aforementioned (because they're indeed catching up with me), but I feel I may have some techno-philosophical babble to share with the world that may be of some value.  
+     
+    
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+	 
+      Yep, that's right. I finally decided to take the plunge and get an  urlLink Apple  computer. Not that I intend to 'switch' but simply add it to my arsenal of programming skills. In addition, the iLife product line really impresses me. Of course, the reality could turn out to be different than the perception, so i'll keep you posted.
+     
+    
+</post>
+
+
+</Blog>

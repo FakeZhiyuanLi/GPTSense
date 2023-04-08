@@ -1,0 +1,76 @@
+<Blog>
+
+<date>12,May,2004</date>
+<post>
+
+    
+       
+      The problem was with a mismatch between the installed kernel and the identifier in the config file in the source tree. After recompiling a new kernel, rebooting, and rebuilding lirc, everything worked great.  After this I had problems getting mythtv to recognize the remote. I got the following errors:   mythtv: could not connect to socket mythtv: No such file or directory Failed to create lirc socket for mythtv   After a long and hard search I found that the culprit was that there were still some lirc files from the mandrake install left over. These are not mentioned on the mythtv website. Make sure to remove the liblirc_client0(.0) files from  /usr/lib  and recompile mythtv. Next I copied the lircrc file to the right directory  cp configfiles/hauppauge-lircrc-nativelirc ~/.mythtv/lircrc  and added the  urlLink mplayer commands  to this file.
+      
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+    
+       
+      Try copying the /boot/config file to /usr/src/linux/.config and then rebuild lirc.
+      
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+    
+       
+      If mythfilldatabase grabbed a channel which you do not want to include in your TV listings, you can remove the entries from the xmltv config file and the MySQL database. This often happens with premium channels; for example, HBO or Showtime may be available on your cable TV system, but is scrambled because you're not a subscriber to that channel. Since you can never watch it, you want to get rid of it.  First, comment out the channel from the  /.mythtv/ .xmltv file by inserting the word "not " (including the space) in front of the unwanted entry. This will prevent xmltv from grabbing future listings.  Next, delete the unwanted item from the channel table so that it will not appear in the EPG or when changing channels. To delete the data from the database we need to perform some steps. First, assuming that HBO is channel 15, we need to find out the internal chanid used by MySQL:    $ mysql -u root mythconverg mysql> select chanid from channel where channum=15; +--------+ | chanid | +--------+ |   1015 | +--------+ 1 row in set (0.00 sec) mysql> delete from channel where chanid = 1015;    Old program data will be removed over the course of a week. However, you may want to immediately delete any current program listings for the channel that has been removed:    $ mysql -u root mythconverg mysql> delete from program where chanid = 1015;   
+      
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+    
+       
+       urlLink mythtv utilities 
+      
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+    
+       
+      The below can also be achieved by editing the  frequencies.c  file found in  libs/libmythtv/  and changing the frequencies for the channels with off-channel frequencies. Download the following  urlLink patch file  and apply it to the frequencies.c file by typing  patch  . After patching you have to recompile mythtv.
+      
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+    
+       
+      For users in holland, I've figured out how to tune the PVR250 with test_ioctl and Teletext. Here in the Netherlands, cable providers provide us with a frequency table where one can find how to tune your TV set channels to frequencies. This table can be found on the teletext pages of the provider. In almost every city this table is different, so we have to tune our TV sets whenever we move to a different city (or sometimes even a different street!).  This is a short example of such a frequency page (example from Almere Buiten):    Zender  Kanaal  MHZ Freq    Nederland 1  11-  216.00    Nederland 2  6+  184.00    Nederland 3  7+  192.00    Etc.         I've figured out that when you multiply the last number (MHZ Freq) by 16, you get the right frequency to use with the test_ioctl command. For example nederland 1:  # bc 216 * 16 = 3456  # test_ioctl -r tuner=0,freq=3456  Will get you tuned to channel nederland 1.  urlLink  Frequencie overzicht Delft 
+      
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+    
+       
+       urlLink Mailing List Archive: RE:Burning to DVD (saving MPEG clips) 
+      
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+    
+       
+      This is just a simple howto on creating dvd's from the mpegs created buy a PVR250. Either captured in mythtv or by hand. You will need the following software installed on your system.    Avidemux2   mplayer (for the mplex program)   dvdauthor   dvdrecord   mkisofs    urlLink this script    chmod +x dvdcreate.sh  Now lets get onto the business of creating a dvd.     Open the mpeg with avidemux2. Edit the file the way you want and save it as DVD-PS, using whatever file name you prefer IE... mymovie.mpg   Now use the dvdcreate.sh script like....   sh /path/to/script/dvdcreate.sh  /path/to/mpeg/mymovie.mpg /path/to/mymovie  (this last part is created when the script is run, but you still have to give it a path and name)  That is all on line. Replace  /path/to/...  with your respective paths. Notice that the last part has no extention, it is a directory that contains the dvd video structure.    mkisofs -v -dvd-video -udf /path/to/mymovie > /path/to/mymovie.iso    dvdrecord -v -eject -dao -pad -data driveropts=burnfree dev=0,1,0  (replace with your acual device)  mymovie.iso    After the burn is complete you should now have a dvd that playes on most any dvd player.
+      
+</post>
+
+
+</Blog>

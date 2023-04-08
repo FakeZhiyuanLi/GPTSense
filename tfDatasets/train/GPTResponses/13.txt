@@ -1,0 +1,1 @@
+Trial division is a simple and basic algorithm for testing the primality of a number. It involves dividing the number to be tested by all integers less than its square root and checking for remainders. Therefore, it is a brute force algorithm.

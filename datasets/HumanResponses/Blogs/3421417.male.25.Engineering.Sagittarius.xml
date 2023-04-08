@@ -1,0 +1,328 @@
+<Blog>
+
+<date>31,May,2004</date>
+<post>
+
+    
+       Should be interesting.  Sure, it's a mini-week, but there are bunches of things going on.  Let's start with teched:  Exchange 2003SP1 + extras - gonna deploy it to the test domain tomorrow   burton - start looking at what to do with that... maybe we won't be deploying VSS6.0    work with Virtual Server and differencing - how small can we make the differences?  will a system work if we use a real disk for the pagefile, and a differenced disk for everything else?  is that crazeee?   and of course, MOM.  I wanna redeploy MOM and ADS to the test domain using SQL this time, and then finally get MOM rolling.  Maybe I should wait until the new release comes out - it should be a week or two  In the mean time, I gotta hire some students (hopefully), and get them all running with the stuff I'm trying to do...  There are also some interesting comments about teched over  urlLink here .  I guess I whole heartedly agree, although I personally am not sure how vital TechEd is aside from the networking if you are a very active beta tester.  It was really, really good to interface with the product teams, but none of the sessions were mind blowing for me this year.  I guess I should tie everything up and post that as a seperate entry - I kind of went off on a tangent. 
+    
+    
+</post>
+
+<date>30,May,2004</date>
+<post>
+
+    
+       So, I tried to bring a lot of t-shirts back from folks of the office.  Lots of swag.   urlLink Tchotchkes  (had to look up that spelling).  Anyway, I didn't want to take all that stuff home in a bag I had to carry, so I crammed everything including the TechEd backpack into one of my bags. Here are the results:     Everyone at the Ithaca airport, including Bill Holmes from CS, was rather impressed with me. Whoops.  Still laughing at myself.  Maybe time for a new bag, too. 
+    
+    
+</post>
+
+<date>29,May,2004</date>
+<post>
+
+    
+       Ahh yes, so here was my bed on Friday night:   
+    
+    
+</post>
+
+<date>29,May,2004</date>
+<post>
+
+    
+        urlLink from another teched dude, on things to improve : "Frozen Fruit Bars.  Someone thought that half of us would prefer to have these instead of Dove or Haagen-Daz.  That someone was wrong."  Um, I wanted ice cream too, but I don't think that teched attendees should really be encouraged to eat lots of Haagen-Daz (myself included).  But that's just me.  I do think the cabanas could be greatly improved with margarita machines.  And they are low in fat. 
+    
+    
+</post>
+
+<date>28,May,2004</date>
+<post>
+
+    
+       So there was a pretty, um, duragatory article about W Hotels in the Wall Street Journal today.  Makes me feel better to not expect to see any old, stuffy Republicans here. 
+    
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+    
+       I went to the WINC20  Migrating High Performance Computation Clusters from Unix to Windows  and it was great to see folks interested and engaged in  urlLink Windows HPC .  There was even a guy there who runs LSF on Windows!  I'm really bummed that I didn't have a chance to talk to him afterward - if you read this, get in touch with me.  Anyway, a few comments.  Parallelized applications are not limited to a max of 10 connections from Windows CALS because you are relying upon the MPI implementation   It's really cool that the MS guy had ported PVM (easily, it sounded like!) to Windows through SFU   Sorry I didn't have that many business cards!  If you wanna get in touch with me, search the  urlLink electronic directory  for William Law - sorry I'm not giving a more direct link, but it's a spam thing.   For information about WinHPC Training with us, the registration site is  urlLink here .  In other news, it sounds like it was a great week for  urlLink Dave , Lucy and  urlLink Mike  at the  urlLink SciData Conference  at  urlLink Microsoft Research . 
+    
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+    
+       Last night I went and a fantastic meal at  urlLink Trattoria Fantastica  in Little Italy.  It turns out Little Italy is about as far away from the hotel as the convention center, just in the opposite direction. 
+    
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+    
+       So, last night started with big plans, most of which were achieved with great success.  We started out at  urlLink Beach  for a few drinks to wind down after another super geeky day (more actual technical content... soon).  The plan was to head to the Microsoft  urlLink Influencers  party at  urlLink Dick's Last Resort , and then eventually head to the  urlLink MOM  Party at the  urlLink San Diego Zoo .  It sounded genuinely cool, and I thought it'd be funny to see the nerds drooling at Jessica Simpson with Nick Lachey pouting in the background.  Oh well.  Read about that at  urlLink someone else's blog .  Hanging out with the academics, Microsofties, and other folks proved to be so much fun that we just stayed there for the night.  I love to hear all the cool things other folks are doing in collaboration with Microsoft.  People were really interested in what we're doing, and I think some of them are even gonna make the pilgrimage to Ithaca.  Being on the roof at Dick's is great - you can see all the action on 5th Street.  Of course, with it being Resa and myself out on the town, the night wasn't quite over yet.  We finished things off with martinis at the  urlLink strip club , again. 
+    
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+    
+       So last night we went to the  urlLink Sybari  Blues Bash - the make our exchange AV solution.  Slick behind the scenes software.  Anyway, it was at the  urlLink Side bar .  Very cool little place, tho I wouldn't say it's exactly new york city shi-shi.  That's not a bad thing tho, and the place was fun with great drinks.  Always love a party where they whip out the carved ice, and free top shelf alcohol sure doesn't go unnoticed by this guy.  Bombay saphire made the night. 
+    
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+    
+       I think  urlLink this  sums it all up.  Yikes.  I do find the idea of horny sailors and a wax J-Lo hilarious. 
+    
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+    
+       Went to a fairly kickass session about exchange.  I didn't realize that SP1 was ripening, but despite my ignorance it was formally released today.  Lots of cool new features - I think the best thing is that they claim it's much easier to setup RPC over HTTP.  Good for the newbies.  Or the poor folks who raised their hand and are still running Exchange 5.5.  Makes my head spin.  Anyway, it has their initial impelementation of what they're calling CallerID.  They add a bit of xml to DNS.  My guess is it won't quite work with Cornell's version of BIND and whatnot.  Hopefully I'm wrong.  Must set it up immediately in the test lab. 
+    
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+    
+       So, I guess I didn't quite see this in the VS UI and basically it really embarasses me.  Oh well.  It's cool.  We can use it.  So there' s a feature called differencing.  Think of it as an undo disk on crack, even tho an undo disk is a special case of differencing.  You can setup a master disk, and then any changes over and above the basic master disk are saved to a seperate file - the difference.  It was designed to help people save space on a server, and that is good too.  What I'm excited about is that we could use this for our whole cycle scavenging scheme.  If we need to move the execution to another machine, we can just move the difference file (along with the saved state).  The difference file, if setup correctly, should be relatively small.  Sweet.  Oh, so if you didn't figure it out already, I spent a good chunk of the day harassing - I mean meeting - the virtual server team. 
+    
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+    
+       At the  urlLink gaslamp strip club  with Resa and Ruth last night.  It was a big time.  You gotta go.  Good drinks...  And it's hilarious to watch people trying to figure out what to do.  A review is  urlLink here .  Funny, but not so busy on a Monday. 
+    
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+    
+       So, I think I've figured out a way to do large deployments of Virtual Servers.  Maybe.  1. Copy over the base vhd, add the vhd to a new virtual machine programmatically 2. Attach a virtual floppy or maybe a WinPE ISO to the virtual machine 3. Boot.  With ADS, edit the sysprep.inf 4. Detach vfloppy or vcd, then reboot the sucker.  Should be all set.  I think. I may try this this afternoon, if I have time.  They will not support mounting VHDs on the first release of Virtual Server 2005, so I think this is a reasonable workaround.  The folks from the Virtual Server team didn't think it was too insane. 
+    
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+    
+       Wow, so we have our first big slashdot-linked ZDNet article about the  urlLink Windows HPC .  First, I think that what we are doing is truly groundbreaking, and what is coming up in the months ahead will be jaw dropping.  My only real issue with the article is that Windows Server isn't really desktop oriented at all - you are not expected to sit there at all.  That is crazy.  There is no way we could operate a 320 node cluster, or our entire ~1000 box server farm without a bit of automation.  There is certainly room for improvement, but there is already a great start in the form of ADSI, WMI and WSH.  Setting up a windows cluster could be easier, but... a simple one can be done in an afternoon.  Oh, and if you wanna know more about all this, come out to the  urlLink Windows HPC training  in Ithy. 
+    
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+    
+       So, I've heard rumors about a new version of Windows Server 2003 being released sometime sort of soon - at least pre-Longhorn wave.  It's called R2.  Any details at TechEd?   Not that I can find yet.  Will be wandering around looking for more info in the days ahead, especially info such as beta time frame...  Oh, and if you're on the show floor, stop by and say hi to the folks at  urlLink Sybari .  If you are an Antigen user (it's great!) they will be extra kind to you.  If you have Exchange somewhere in your server farm, I bet you already know these folks. 
+    
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+    
+       So, on day .5 of the blog I screwed everything up with the RSS feed.  Everything is working now.  For real. 
+    
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+    
+       Well, sort of.  So one of our annoyances with  urlLink MOM 2005  beta 3 has been that you can't delete machines from MOM if you blow them away for some reason.  They sit there, unheard of, forever.  It turns out they forgot to add that to the UI in this release, and are aware of it -  there's a sql script that will delete stuff in that release  It's supposed to be fixed in the first release candidate, which should be out in a week or two. 
+    
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+    
+       So, Steve-O gave a great keynote.  The cool, big announcement was  urlLink WSE-2 , available now to plug into Visual Studio.  The demos were cool - they developed an extension that will allow stockbrokers to get client data directly while writing and responding to email.  Along that same line, they developed everything with new office extensions, called  urlLink Information Bridge Framework .  Looks slick, and I'd love to see what our folks could do with the stuff. 
+    
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+    
+       Oh, so big times are starting out in the SD.  I got my luggage.  Yesterday I got to hear a bunch of great talks about MS tech in higher ed.  The highlight of the day was dinner at  urlLink Casa de Bandini .  Great food, wondeful outdoor dining. Just go. 
+    
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+    
+       So far the curriculum/education day has been pretty cool - got to hear some good talks about how folks are using Microsoft sql and such.  Finally got checked into the W, still don't have my baggage - it's all about baby steps.  And San Diego is beautiful, tho it seems to be clouding up again. 
+    
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+    
+       Oh yeah.  I also meant to say that I am psyched about going to TechEd, but I also want to post a bit of a disclaimer.  Last year, all the fat middle aged men freaked me out.  A lot.  Between the truckloads of ice cream, and the Krispy Kreme donuts - man, it's just too much for me to handle.  Must workout.  Maybe they've all jumped on the  urlLink low carb bandwagon  and look... great? 
+    
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+    
+       And it's somewhat surprising I don't already have one.  So, I figured I'd start a blog for  urlLink Teched  - I'm not actually a boothmonkey here, so it's a good time to do it.  I know, blogging is so six months ago.  Very excited to be back in San Diego at the  urlLink W .  It should be a big time.  I hope to find out stuff about  urlLink Virtual Server ,  urlLink ISA , and  urlLink MOM 2005  specifically.  Who uses MOM?  What will be in there when it goes gold?  Why is it so brittle?  How big are the deployments? 
+    
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+    
+       So I wrote a bunch more stuff about Cincinnati, but I lost all in the airport, so, screw that for now.  It seemed like an ok place.  I was glad to leave tho.  Anyway, I'm proud to say I finally caught up with the old trend and finally have a gmail account.  Yeah yeah, it's so two months ago - but I do have one now.  Not that bad for not trying to get one.  Oh, and sorry folks - no invites yet. 
+    
+    
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+    
+       The week in Cinti (apparently what they call it, at least sometimes) and am now on my way back home.  More on everthing later.... 
+    
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+    
+       So, I'm in Cincinnati for some work stuff.  The funny part that I didn't know until a few days ago is that  urlLink pigs ,  urlLink pork ,  urlLink hogs  - whatever you wanna call it - are very important to Cincinnati.  Hey, some folks even call it  urlLink Porkopolis .  So you get into the airport, and at the baggage claim there's a huge mosaic of pork processing.  Oh, and soap making -  urlLink Proctor and Gamble  is a big company in town.  Anyway, we flew in here real smooth, picked up the rental car, and took off.  It turns out I had printed out detailed instructions to the exact  wrong  address.  The  urlLink Vernon Manor Hotel  is at 400 Oak Street.  It turns out there are several.   urlLink This  is the wrong one.   urlLink This  is the right one.  Whoops.  Took a while to sort that out.  We finally got here, and the place is actually real nice.  Lesson of the day:  enter the zipcode. 
+    
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+    
+       So, it is super geeky, and my math skills prolly aren't up to par right now, but  urlLink computational origami  is pretty friggin cool.  So applying the stuff to protein folding and astronomy is cool, but the no-brainer to me seems like architecture.  Why not build structures out of one sheet of... stuff?  A bit more at newscientist,  urlLink here  and  urlLink here . 
+    
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+    
+       So, the current plan for july is to: 1. Go to Boston for the fourth and hang out with Liz, Robert, Ashley and Marina... 2. Go home (or maybe just to Colorado, depending) sometime in the middle of July for something approaching a week.  Or so.  Gotta be in Ithy the 19th and 20, but...  It should all be sorted out soon. 
+    
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+    
+       So, my apocolyptic mood from a week or so ago has left.  Sorry, I guess I never got around to really talking about that - but apparently being around 60 year olds doing bonsai for the weekend was a bit over the top.  It did get me going on some projects, and was informative, but it was all too much.  I think I often feel that way when I go to anything for more than a few hours about something.  Too much.  Anyway, the really shocking part of today is that I am getting all ready to skip town for the worky-work and my apartment is actually clean, I'm all packed up, and my shit is generally  together .  It's like I'm someone else.  There are no dirty dishes.  I already took at the garbage.  Hell, I was even done with all of this by about 10 - just in time to watch video honeys.  Hey, I just stumbled across it, but I was glad to know who  urlLink Ki Toy  is (you know, the girl from the outkast video).  I saw  urlLink this  on salon and all I can say is here here.  Equally cool couples are  so  rare.  I think it's hilarious to find a whole article about the conundrum.  Fortunately, right now, I think more EECs come to mind.  The other weird thing that it doesn't mention are SOs who gradually, albeit extremely slowly, become cooler... 
+    
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+    
+       So, I've been admittedly a little edgy this week.  I'm not exactly sure why.  Perhaps it's that all the cool people are know are leaving or gone (for the summer or maybe forever, depending).  Maybe it's that things at work are going better than I expected this summer, and my mind is sort of blown by it all.  Or maybe it's that is happening and I still have way more work to do than I expected.  Or maybe it's just that I need a fucking vacation.  It may also be from spending the whole weekend with old people.  Lord knows I get enough of that during the week.  Regardless, it all seems to be adding up to an edgy me.  I actually do think it was the old people.  Anyway.  What is my point.  Oh.  Things are actually going really well.  I'm now getting to the plans and plots I didn't expect I'd ever get to.  The crap I've been working on is finally gel-ing.  Now I'm on to the other stuff.  The cool stuff.  What's next.  My bread and butter, really.  I think I see how we can do things dramatically better over the next few months - and that is pretty fucking cool.  Oh.  More on the weekend later.  It was cool too, but... it's a little ridiculous for me to be paying to go to Yet Another Conference.  At least sort of. 
+    
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+    
+       Well, kind of (see  urlLink here ).  I started out with a flurry of posting early on, and now it's basically a once a week deal.  I guess that's not quite rudder territory, but still...  Anyway.  It's now officially summer and has been H O T a bit, which I honestly find refreshing.  Sun!  Heat!  Yay!  Lots of projects are cooking, and some are actually - finally! - about to see the light of day.  Well, one of them. 
+    
+    
+</post>
+
+<date>05,June,2004</date>
+<post>
+
+    
+       So, I've been in a lot of discussions lately about dns registration, and so I guess it's time for my tirade.  I think that alot of the things that people are thinking about are really, really asinine.  It would have made sense 10 years ago, but things were different then.  So here are my points.  I apologize in advice, and I'd love to be corrected.   What the hell is the point of host registration, esp via manual methods?  I really, really don't get this.  First of all, registering all of your hosts into DNS seems a little questionable.  Do you really want all your hosts accessible via easy to remember names, instead of numbers?  What is the point of registering hosts that don't really exist, a la doing something like dhcp0001.whatever.com?  That seems dopey, too.  The machine will think it's name is something like willdesktop.whatever.com, and so the information is simply wrong.  There is actually a way to fix the whole issue, but it isn't being implemented some places - DDNS.  Host information is dynamically kept up to date by the trust boundaries of the domain.  Instead of filling your DNS tables with crap, it actually contains real, correct information!  Holy crap!  Apparently the unix folks feel it's yet another example of embrace and extend and refuse to listen to something that is actually a good idea.  It breaks my heart.  Or maybe really makes my blood boil.    MAC registration isn't very useful, either.  So, the idea of keeping track of machines via MAC addresses is also flawed.  Every item hooked up to an ethernet network does have such an address, and the information can potentially be useful in figuring out what is going on.  Unfortunately, now virtually all hardware supports changing the MAC address - which is useful for all sorts of things, but instantly negates the usefulness of registration.  I love that I can make my wireless router appear to be my desktop computer to Time Warner, but that same functionality completely destroys any registration concept.  But that isn't the biggest problem!  Machine virtualization is becoming a big thing for all sorts of reasons, and each virtual machine is provided with a mac address!  Can they even wrap their heads around the idea of a VM?  How do you register that?  Let's not even start thinking about what it would do to your rigid dhpc/dns host name registration.  Heh.  But keeping track of the MACs would have been a good solution ten years ago.    The only real solution seems to be using some sort of x.509 certs.  How do you handle client verification on a network that can not be fully trusted?  The PKI folks have been struggling with this for years!  And they actually have solutions.  Why not look at granting full access to your network only when the folks are able to present a difficult to spoof certificate, that also maps back to who they are?  You could put them on training wheels without credentials, which might make life a whole lot easier.  Something to think about for 2014, anyway.  Goodness.  Time to go outside. 
+    
+    
+</post>
+
+<date>05,June,2004</date>
+<post>
+
+    
+       So far has been waking up to a bunch of christians singing loudly outside my window.  To prerecorded music.  OK, perhaps that's what you get for sleeping until noon, but really.  It was quite obnoxious.  I guess that's aside from the weather today.  OK, back to Kill Bill, vol1. 
+    
+    
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+    
+       So, I'm not certain that I've meant for this to be a super-technical bloggy-blog, but it seems to be inching that way.  Sorry - it's all I seem to have to talk about.  We went live with Exchange 2003.  Cool.  We will turn off SendmailNT soon.  Exciting.  So people are getting comfortable and want to use weird things.  Um, glad they are excited I guess.   So, the boss-man wants to use server activesync with his new Samsung i600 smartphone.  Tries to set it up.  It doesn't work (I had no way to test this, so I wasn't that worried about it - all of our foundation services work fine).  Suddenly I'm a little annoyed that Microsoft merged most ofthe functionality of Mobile Information Server 2002 into Exchange 2003.  Anyway, there are two problems - or maybe three.  First, we're using our own certification authority.  That's fine, but there are two derivative problems that are associated with this.  It is hard to trust certificates in a lot of programs (cough, Eudora).  It turns out it you simply can't on some devices, because your friendly mobile provider is evil (cough,  urlLink Verizon  - the functionality  is  there in Windows Mobile 2003).   So you can work around this in a testing phase - just install  urlLink DisableCertChk  (you run that on the machine you ActiveSync from - not the mobile device).  OK, still won't work.  Next problem.  We are very small - around 60 users.  Right now we just have one server, being both a backend and a front end server.  It turns out this makes things a little complicated, but can be worked through.  Our first problem, a LONG time ago (relatively, anyway) was setting up RPC over HTTP.  OK, that is now fixed.  Back to today's problem.  Mobile devices.problem - Outlook Mobile Access, which server ActiveSync uses, doesn't work if you have SSL enabled.  Uh oh.  Just a general note for the (hopefully) not to distant future when we have a BE/FE server setup -the BE/FE servers do some communication between each other (even on the same box) via http.  So, you have to do some wacky configuration to get this to work.   I setup a vdir that only lets the server talk to itself without ssl on, that mirrors the setup of the exchange folder.  It's discussed in a blog entry, and you can find the cached kb article in google.  I'm not sure why it's not in the KB this week.   How did the world function before the google cache?  OK, so that makes OMA work - a good start.   And that gets rid of the HTTP_500 error.  Yippee.  Maybe things will work.  Mkay.  Now we are onto a new error.  HTTP_401.  That translates, weird as it sounds, into bad credentials.  Some other places say to use your fully qualified email address - ie  urlLink me@somedomain.com , but that just plain doesn't work here.  From all the posts of folks who fixed anything by using the full email, well, I am somewhat astounded.  Anyway, so I started authenticating according to the machine's security log.  So what on earth is going on?  Well...  It turned out that my emulated Windows CE device was having problems with the certificate.  Apparently WinCE does a full lookup of the certification path (that's good!) and I had installed a revoked certificate on the mail server for http.  Getting a new cert from our CA fixed the problem with ease, and now it just works.  For what it's worth, Windows 2003 Secure Mode IE does a great job troubleshooting this - it's what made the connection for me (I'm not sure how or why no other clients balked at this, which is kinda icky).  Anyway, the thing that was the most helpful was using the Windows Mobile 2003 SDK emulator.  It's way faster than a real smartphone, and you don't have to worry about network problems.  [sorry, started this last weekend and then forgot about it this week - so hopefully i got everything]  
+    
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+    
+       So, we went live with Exchange 2003 this week.  It's actually been wildly successful.  I guess excessive paranoia paid off.  Probably time to get really, really drunk.  But that isn't really, exactly, what is on my mind now.  It's actually technology adoption.  I work at a research center at a university.  I'd think that people want to switch to something newer and better immediately.  I think I'm wrong.  Most people don't, even people working in hi-tech.  They're freaked out by something new.  Can't make any changes even when something has been heavily tested.  It will work, but the  possibility  of causing some sort of life upset is too much.  They fear what they don't know.  It sucks, because I honestly think that the collection of stuff we've rolled out is fairly dramatically life improving.  The spam filtering we have has changed the way I use email, back to when I first started out.  I'm not overwhelmed.  Anyway, back to my main point.  I'm surprised.  Maybe at just how ignorant I am.  I guess sometimes I just have moments where it's like, "Wow, there is so much more to know."  And here I am.  Anyway, I think that I've stumbled across some general principals.  For something. 1. If you tell people you have changed something behind the scenes, it is very likely they will notice new things that have always been there.  They will then most likely complain about them. 2. When deploying new technologies, creating a good buzz is important.  Allowing people who want to use them access is important.  It makes them happy, and will hopefully get the trailing edge to come along quicker.  Embrace the early adopters.  Or early adopter wannabes. 3. Most people tend to move ten to a million times slower than I'd like.  Especially if I've been working really, really hard on something. 4. Always embrace people's enthusiasm about what you are doing, even if it comes from places you don't expect. 5. Don't get bummed when there isn't enthusiasm from the places you did expect. 6. Don't call people closet Luddites even if they are.  Well, do if you think they really really deserve it.  OK, I guess none of that really fits together too well, but hell.  It's a blog.  It's not supposed to be organized. 
+    
+    
+</post>
+
+<date>05,July,2004</date>
+<post>
+
+    
+       So the whole weekend has been nice and I'm finally caught up on sleep and organized.  All my dishes are clean, for god sakes.  How weird.  Boring, I know, but what can I say.  Oh, I didn't go to Boston.  Also, I'm really not sure when I'm going to go to the Rocky Mountains... I was plotting this weekend, but I haven't done shit and there's so much stuff going on at work... weellll... I dunno.  Guess I should talk to the Sarah and see.  The good travel news is that I'll definitely be in Hong Kong at the beginning of August.  Or it's very likely then (I guess my plans are always subject to change).  I'm also really greatful that the weather has been generally spectacular all weekend - tho it seems to be getting reeeeeal dark now.  Eek.  Now back to the exchange 2003 sdk.  Newly updated.  
+    
+    
+</post>
+
+
+</Blog>

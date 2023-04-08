@@ -1,0 +1,31 @@
+<Blog>
+
+<date>31,July,2004</date>
+<post>
+
+     
+       If you've found yourself iterating over a container so that you can extract something out of each element and place it in another container you are  doing it the hard way .  The std::transform() algorithm is your friend.  It allows you to modify the elements of a container based on the input of another container.  An example:    // IntWrapper.h   struct  IntWrapper { &nbsp;&nbsp;&nbsp;&nbsp; int  x; };   // YourCode.cpp  std::vector &#60;IntWrapper&#62; wrappers; std::list&#60;int&#62; numbers;   for (std::vector&#60;intwrapper&#62;::const_iterator wrapperIt = wrappers.begin(); wrapperIt != wrappers.end(); ++wrapperIt) { &nbsp;&nbsp;&nbsp;&nbsp;numbers.push_back(wrappers.x); }   Not an uncommon situation.    A better way to do it:     // IntWrapper.h   struct  IntWrapper { &nbsp;&nbsp;&nbsp;&nbsp; int  x; };   // IntWrapperHelpers.h   ** Could also put in IntWrapper.h or even make it a member function of IntWrapper **   int  extractX( const  IntWrapper &wrapper);   // IntWrapperHelpers.cpp   int  extractX( const  IntWrapper &wrapper) { &nbsp;&nbsp;&nbsp;&nbsp; return  wrapper.x; }   // YourCode.cpp  std::vector &#60;IntWrapper&#62; wrappers; std::list&#60;int&#62; numbers;  std::transform(wrappers.begin(), wrappers.end(), std::back_inserter(numbers), extractX);   Although it's marginally (one line!) more code I argue that this is a  far  superior solution.    For starters, if you need to do this operation more than once you can reuse the extractX() function.  Secondly, the transform function is self-describing.  Just by reading it you can tell that  numbers  is going to be transformed in some way based on the elements of  wrappers .  A simple iteration, as in the fist example, requires you to delve into the code to deduce that.  Finally, because extractX() is part of IntWrappers interface (Don't believe me?  Read Scott Meyers' article  urlLink How Non-Member Functions Improve Encapsulation ) the "extraction knowledge" is encapsulated more cleanly - clients don't need to know how to get x out of an IntWrapper.  Anyway, my guideline is that whenever I'm iterating over a container to fill another container I use transform.  I always find that it saves me time in the long run.   P.S. There's another form of transform - it fills an output container based on  two  input containers.  Using it is very similar to the single input container.  I'll leave the exploration of  that  algorithm as an exercise for the reader...  :)  
+     
+    
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+     
+       The  urlLink Boost  libraries are some of the most powerful and important libraries a C++ developer should have in their arsenal.      In the future I'll be covering some of those libraries in depth.  For now, if you're unfamiliar with the libraries take a look at an  urlLink Introductory Boost Presentation  I created awhile ago.  I delivered the presentation to some of my colleagues who weren't aware of what Boost offerred and it was received pretty well.  Now I'm just trying to get them to use some of the libraries on a day to day basis...    It can be hard changing the way people work!    Boost also maintains a  urlLink bibliography  if you're looking for more articles...   
+     
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+     
+       OK, here it is.  I've finally gotten off my butt and created a blog, joining the hordes.  And here is the obligatory first post.  :)    To give you fair warning this blog will concentrate mostly on issues that affect software developers.  C++ is my  lingua franca  so expect programming related topics to focus on that beast of a language.     I'll be covering things like:  sound design principles, tips on using various tools and how to figure out what happened when Things Go Wrong.      It's likely I'll go off on many tangents - don't fight it, just hang on and enjoy the ride.  :)   
+     
+    
+</post>
+
+
+</Blog>

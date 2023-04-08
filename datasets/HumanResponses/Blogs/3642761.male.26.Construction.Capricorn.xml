@@ -1,0 +1,21 @@
+<Blog>
+
+
+<date>20,June,2004</date>
+<post>
+
+	 
+      "......Transactions provide a way to bundle a set of operations into an atomic execution unit.  This atomic, all or nothing property is not new: it appears throughout life. For example, a minister conducting a marriage ceremony first asks the bride and groom, "Do you take this person to be your spouse?" Only if they both respond "I do" does the minister pronounce them married and commit the transaction. In short, within any transaction, several independent entities must agree before the deal is done. If any party disagrees, the deal is off and the independent entities are reverted back to their original state. In transactions, this is known as a rollover operation......"  有時候，為了解釋一些問題，舉例子往往是最有效的方法。就好像以上的這個問題，一針見血，讀了就會明白。電腦往往不過如此，只是被太多的專有名詞迷惑，讓初學者還沒入門，就感到迷惘。好的解釋也同樣不過如此，深入淺出，三言兩語間讓讀者印象深刻。
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      這是我的第一篇。不懂要寫些什麼。 或許這將會變成一個雜貨店，什麼都有：有心情，有散文，有故事，有撰寫程式的心得。 所以，我將他命名為：鐵山雜貨店。  這或許是最貼切的名稱了。
+    
+</post>
+
+
+</Blog>

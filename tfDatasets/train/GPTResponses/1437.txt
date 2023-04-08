@@ -1,0 +1,1 @@
+It depends on the current population of Southampton. If the current population is 100,000, then a 2% increase would be 2,000 more residents (100,000 x 0.02 = 2,000). If the current population is 500,000, then a 2% increase would be 10,000 more residents (500,000 x 0.02 = 10,000).

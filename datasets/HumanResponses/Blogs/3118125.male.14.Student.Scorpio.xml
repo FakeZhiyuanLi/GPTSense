@@ -1,0 +1,211 @@
+<Blog>
+
+<date>27,April,2004</date>
+<post>
+
+    
+       iv almost finished my website now, only the admin panel ahs any problems with it and as im the only person who would use that, it dosent really matter much 
+    
+    
+</post>
+
+<date>15,April,2004</date>
+<post>
+
+    
+       here are some of my favourite quotes.....  If its a good idea, go ahead and do it, its much easier to apologize then it is to get permission  People who think they know everything are a great annoyance to those of us who do  Put your 'hands together and pray there's intelligent life in space; coz' there's bugger all down here on Earth  Never underestimate the power of stupid people in large groups  Never argue with an idiot.  They drag you down to their level then beat you with experience  If at first you don't succeed, destroy all evidence that you tried  If there is a worse time for something to go wrong, it will happen then  If everything seems to be going well, you have obviously overlooked something  Always remember you're unique, just like everyone else  Make it idiot proof and someone will make a better idiot  I don't suffer from insanity.  I enjoy every minute of it  90% of all statistics are made up   
+    
+    
+</post>
+
+<date>13,April,2004</date>
+<post>
+
+    
+       ok, stuff about my website now id cahnged it so tht it would automatically log the times tht people logged onto the site whenever they did it was only later tht i realised tht the times tht it was getting were the times according to the server, which are american. as i live in the UK, i decided to change them all to their proper GMT counterparts this proved to be very time consuming, as i had to replace  	 $date = date("d/m/y H:i:s");   with   		$date = date("d/m/y"); 		$date2 = date(":i:s"); 		$hour = date("H");  		switch ($hour) 		{ 		case "1":$hour = 7;break; 		case "2":$hour = 8;break; 		case "3":$hour = 9;break; 		case "4":$hour = 10;break; 		case "5":$hour = 11;break; 		case "6":$hour = 12;break; 		case "7":$hour = 13;break; 		case "8":$hour = 14;break; 		case "9":$hour = 15;break; 		case "10":$hour = 16;break; 		case "11":$hour = 17;break; 		case "12":$hour = 18;break; 		case "13":$hour = 19;break; 		case "14":$hour = 20;break; 		case "15":$hour = 21;break; 		case "16":$hour = 22;break; 		case "17":$hour = 23;break; 		case "18":$hour = 24;break; 		case "19":$hour = 1;break; 		case "20":$hour = 2;break; 		case "21":$hour = 3;break; 		case "22":$hour = 4;break; 		case "23":$hour = 5;break; 		case "24":$hour = 6;break; 		}   
+    
+    
+</post>
+
+<date>13,April,2004</date>
+<post>
+
+    
+       it appears im very good at thinking of something, and then forgeting it by the time i get to a computer to add it to the blog  as i have done about 5 times already... arghh!!  ...ahem 
+    
+    
+</post>
+
+<date>13,April,2004</date>
+<post>
+
+    
+       what am i doing?? hmm, i bet absolutely nobody is asking that question and i doubt anyone would care that im going to tell you. but, im going to tell you anyway im coming off my computer so that i can go and play 'Brute Force' on my XBOX. for anyone who cares: im on the 2nd Shrike level, (the one where you have to destroy the weapon crates) and im not very good, i usually get summat like 36% on the missions, even though i complete them, i think its because i die so many times.... 
+    
+    
+</post>
+
+<date>12,April,2004</date>
+<post>
+
+    
+       i watched "the Mummy" last night and i am amazed at the sheer stupidity of humanity. when faced with an ancient tomb containing a box tht said quite clearly, "Do Not Open or u will all die a horrible and painful death at the hands of a monstrous monster and unleash hell upon the earth"; whta did they do??? they opened the box, and of course thy did die a horrible and painful death. i suppose its like survival of the fittest, those stupid enough to do that should die so that the trait wont be passed on to others. altough tht seems a bit cold... 
+    
+    
+</post>
+
+<date>12,April,2004</date>
+<post>
+
+    
+       Im going to watch "the mummy" on tv now, so i havnt got time to type anything more interesting 
+    
+    
+</post>
+
+<date>31,May,2004</date>
+<post>
+
+    
+       in case you didnt know 
+    
+    
+</post>
+
+<date>29,May,2004</date>
+<post>
+
+    
+       BORING i am so bored, i have discovered that waht i really need is something to apply myself to, some project that i can focus all of my concentration on, otherwise i just end up being really bored, (i mean amazingly bored), and mentally shooting off in different directions... i say amazingly a lot.... is that even a word? 
+    
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+    
+       my friend " urlLink fyorl ", has been making a PHP MMORPG for a while called Elemental Plane  so, just now, i have made a cool new layout for the site because i was bored 
+    
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+    
+       *groan* School started again this morning, back to a world of lessons and work. Surprisingly, i looked forward to it because the holidays have been a bit boring, and i had nothing to do. And I get to see all my mates again 
+    
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+    
+        urlLink    This is the design for the IseLodge United FC This is the design for the Iselodge Under 15 Girls Website that i was asked to make for them, progress has stopped due to a lack of communication between myself and the customer. 
+    
+    
+</post>
+
+<date>18,May,2004</date>
+<post>
+
+    
+        urlLink    This is the design for my site Dashboard, it contains links to all the websites that i have made. 
+    
+    
+</post>
+
+<date>18,May,2004</date>
+<post>
+
+    
+        urlLink    This is the design for my Portfolio website 
+    
+    
+</post>
+
+<date>18,May,2004</date>
+<post>
+
+    
+       inspired by the new Blogger.com frontpage and that i needed a homepage to join my sites together, i created one frontpage that will link to all the sites i have made or mantain the title above will link to it if you want to see 
+    
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+    
+       i got soooo bored with making alphatech.tk, that i decided to leave it everything works really so im just gunna ignore it, if anyone moans about something i can say "tough" and try to resist the urge to rush and fix it  anyway, i needed something else to occupy me...so i made an online portfolio advertising my web-designing skils and showcasing my work  finished that too.....  i need something else to do, to focus on and to accomlish. spending hours perfecting every detail untill it matches the pictures in my head (no voices, i just get pictures)  anyone got any ideas???    please? 
+    
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+    
+       wow, i am genuinely speechless.... ... i found this site called  urlLink angelworld  which is simply beautiful, no other word for it divinely styled and heavenly for the eyes to see  YOU WILL GO AND SEE IT NOW   it just looks so good!!!! 
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+       i was going to put something really interesting and superb here, but i forgot what it was before i got here :(  just  pretend  that you just read a brilliant blogpost, ok? 
+    
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+    
+        "Well, the thing about a black hole - it's main distinguishing feature - is it's black. And the thing about space, your basic space colour is black. So how are you supposed to see them?"     Let's at least ask someone who's at least going to give us a slightly more intelligent opinion.  Hello, wall! What do you think?    " The thing about Captain Oates... the thing you have to remember about Captain Oates... Captain Oates... Captain Oates was a prat. "    " So let me get this straight. You want to fly on a magic carpet to see the King of the Potato People and plead with him for your freedom, and you're telling me you're completely sane? "   
+    
+    
+</post>
+
+<date>11,June,2004</date>
+<post>
+
+    
+        urlLink    
+    
+    
+</post>
+
+<date>11,June,2004</date>
+<post>
+
+    
+       After getting home from school today, i have been working on my new website non-stop, (thats about 3hours tonight then) and i'm determined that this one will work from the very beginning of it's release, and i won't have to patch it together online untill i get round to doing that bit properly. The new design is mostly pale orange/yellow/white colours and is tabular in appearence (it's square).  The first news post on my website is....   "In the beginning the Universe was created.  This has made a lot of people very angry and has since been widely regarded as a bad move. " - Douglas Adams    "And, following on in that grand tradition, I have made a new website. Ok, it doesn't quite compare to God's stuff, but i'm pretty chuffed with it. "  
+    
+    
+</post>
+
+<date>06,June,2004</date>
+<post>
+
+    
+       Last night, I started on a new website. In the past I devoted my attention to making a site containing games to play at school for my fellow students. This progressed when I learnt PHP; allowing me to create complex login screens, member profile pages, forums and chat rooms. The latest in the series did not attract the number of people as its predecessor. Leaving the site to run on it’s own. I progressed to other things, such as a small, simplistic portfolio page and making a website for the Ise Lodge United Football Club Under 15 Girls. This was the project that I chronicled for you in this record, sadly this will be abandoned as no-one at the team is able to run the site, or provide me with any information to put on it. Now, I am bored. I have no current project. So…. After seeing the that other sites belonging to other people combine multiple aspects together in a single site, I am inspired to emulate this. And since thinking about this, I have had an idea. It will work, and I’m going to do it.  I'm going to enjoy this.! 
+    
+    
+</post>
+
+<date>06,June,2004</date>
+<post>
+
+    
+       I'm writing an essay for school, analysing an advert that Barnardo's produced to raise awareness and then it got banned because it was "too shocking"  It's the advert they made last christmas with a baby with a cockroach crawling out of his mouth.  also avaliable with a hypodermic drug syringe, or a bottle of meths   
+    
+    
+</post>
+
+
+</Blog>

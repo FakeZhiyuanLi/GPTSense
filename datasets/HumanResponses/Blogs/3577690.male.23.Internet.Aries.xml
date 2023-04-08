@@ -1,0 +1,212 @@
+<Blog>
+
+
+<date>22,June,2004</date>
+<post>
+
+    
+       Off to Michigan, I'll be back June 28th.   
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+            10 lessons times 10 minutes (more like 5) takes you from zero to regex in less than 2 hours.  This is a great book and quite a value at a whopping 10 bucks.  If you are looking to learn regular expressions from scratch, or need a quick refresher this is the way to go.  The lessons are succint but still offer all the information a beginner would need.   
+    
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+    
+        urlLink Microsoft Research DRM talk  : "Sony didn't get permission. Neither should you. Go build the record player that can play everyone's records."  I was excited when iTunes hit the market.  I'd been waiting years for a store to buy mp3s.  I don't have 'illegal' mp3s on my home computer.  I go to the store, buy a CD, take it home, rip it into mp3 ---r3mix.  If I could have just downloaded the CD, I would've.  So now itunes comes out, I buy a CD, but I can only play it in their player.  I don't own that music.  I don't get my 99 cents a song worth.  Not til I burn it to CD and then rerip it to add to my collection, then I own it.  I won't be putting any more money into my account.  A month ago I contacted the web admin for Ark (dirty french house) to get some Mr. Oizo-esque music unavailable in the U.S.  I suggested they put up some tracks on Itunes, but they quickly rejected saying DRM hurts everyone and they wouldn't be putting their tunes there.  
+    
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+    
+       Today I received another 5 invitations in my g-mail account.  I was invited to g-mail this past friday and, counting today, I have received 11 inivitations to give away.  I have found an interesting mix of "What's g-mail?", "Webmail? No thanks", "Hell yes!", and "Does that stand for greg-mail?".  I'ld say at least 30% of my invites did not know what g-mail was.  It is a great marketing ploy.  Google you are sexy. 
+    
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+    
+       I received two new books in the mail yesterday...   urlLink Sams Teach Yourself Regular Expressions in 10 Minutes   A new forta book on regex with a deceitful title.  I read the intro, a bit of the first chapter, and skimmed a bit.  That took longer than 10 minutes.  I'll be presenting at the  urlLink denver cfug  next month and thought this looked like a good beginners book.  I'll let you know what I think.   urlLink MySQL Certification Study Guide   I ordered this because it comes with a 25% off coupon for the exam, which is worth more than the book costs.    I will be teaching a course on MySQL at CU (colorado university) continuing education this fall.  O'Rielly and Springer both sent me evaluation copies for the required text, but pearson (publisher of this book) didn't reply to any of my multiple e-mails.    I would love to go with O'Rielly for their wonderful content (and great customer service), but their books are a bit too technical (although I love them).    I haven't received the book from springer yet (will be here the end of the week) and I have a couple more on hold at the library.    Of the half a dozen books I've looked at, this certification guide seems to have the most of what I'm looking for in a text, and so I wonder if Pearson's MySQL tutorial would be even better.  I feel like Pearson could care less about me as a customer, so it makes me not want to choose any of their books.    In the end it comes down to choosing the book with the best content.  I'm rooting for another publisher to come through... 
+    
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+    
+       Yesterday I was creating a form to drill down data by selecting a date range.  I wanted this form to use the get method because I have other options available in the URL scope ( sort asc/desc by date, name, etc).  CFFORM has no method attribute, and you can't use passthrough because cfform always outputs method="POST".   After decrypting form.cfm found in... JRun4\servers\cfusion\cfusion-ear\cfusion-war\WEB-INF\cftags You see in the development notes: METHOD (hardcoded to POST)  How do we fix this?  Add on line 44:  	&ltcfparam name="attributes.method" default="post"&gt   Change line 77: 	from:  METHOD="POST"  	to:  METHOD="#attributes.method#"   If you are feeling saucy you can go through and change the UPPERCASE tags to lowercase.  And there you are.    Now for the important questions:     Why is this hardcoded in the first place?  Why does Macromedia encrypt their tags?    Not only are we unable to change the method we are unable to edit the tag to fix it.  And won't decrypting this tag add unnecessary (although probably minimal) overhead? 
+    
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+    
+        urlLink Main Page - Grokdoc   Here is an interesting idea.  A linux conversion project for newbies with no help provided.  It promotes my method of choice for computer learning.  Don't show them anything, give them hints, but make them rtfm.   
+    
+    
+</post>
+
+<date>11,June,2004</date>
+<post>
+
+    
+        urlLink Tim Buntel's Long Overdue and Reluctantly Agreed-to Blackstone Blog    urlLink ColdFusion Purists: CFML Standards   Tim Buntel's blog doesn't seem to contain much about blackstone.  It does contain the usual cf banter that entertains me on a Monday morning.  This post, while talking about the origins and development of CF features, manged to illicit a lengthy conversation on Coldfusion vs. Blue Dragon.  Coldfusion is the propietary child of Macromedia, and perhaps that is the source of cf developers defensive behavior towards blue dragon.  While I still crew the macromedia vessel, I don't have a problem jumping to a faster ship.  Perhaps blue dragon is an important step towards standardization, which would then start the race for the best compiler.  I would welcome some stability in CF.  As far as propietary tags introduced by any application server, that is a language detail and not a choice they have to make.  None of this is applicable til the language becomes a standard. 
+    
+    
+</post>
+
+<date>11,June,2004</date>
+<post>
+
+    
+       I've decided to let gmcerveny.com expire.  I registered it 4 years ago as a central location for my DJing activities and as a testing place for web appliations.  I stopped DJing about a year ago and it has been empty since, just a hole for all the spam the internet could muster.    So, I registered a g-mail account and this blog.  A developer without a website who didn't want to build his own blog?  I find a lot of things more interesting than developing my own blog, especially when there are many well developed products (including this free one).  If I need a domain again in the future, perhaps it will be a domain that I don't have to repeat twice and still have misspelled. 
+    
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+    
+       You have two types of view&nbsp;fuseactions for forms:  nounForm nounResponse  If they are multipart forms, append order  nounForm1 nounForm2  I think this will work for most cases.  e.g.  contactUsForm contactUsResponse  &nbsp;  
+    
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+    
+       Here is an idea for circuit naming convention for MVC fusebox 4  controller circuits start with c_ view circuits start with v_ model circuits start with w_  all child circuits include parent names c_parent_child  I would like to be able to call circuits via dot notation from the root, but this will do as a substitute.&nbsp;  e.g. action=controller.register.individual.signup  &nbsp;  &nbsp;  
+    
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+    
+        urlLink What's New with the Google Toolbar   New googlebar! Yay! 
+    
+    
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+    
+        urlLink AM and PM   Is noon am or pm? :) 
+    
+    
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+    
+       Forget dozing in your herman miller!  The MetroNap probably has more sex appeal than it does functionality, but I want one in the office.  So what if you could just buy a cot for $50 :)   urlLink Photo Gallery  
+    
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+    
+       Last night I presented the beginner's topic at the  urlLink denver cfug  on regular expressions.  I used dreamweaver as a quick client side app to run regex on a sample homepage to quickly illustrated the language.  It went well and I'll post the slides up soon.    Joseph Flanigan ( urlLink switch box  creator) e-mailed me this afternoon drawing a parellel between the repetition operators in regex and xml dtd elements.  ? is 1 or 0, + is 1 or more, * is 0 or more.  Learn it once, use it a lot!  Good to know Joseph! 
+    
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+    
+        urlLink Wired News: Movie, TV Fans Ogle Video to Go   Portable video players are cool.  DRM, encryption, and regionally encoded DVDs are not.  How would the mp3 market have done if all CDs had 'rip protection' on them from the beginning?  That's what the portable DVD hard disk market is up against.    I'm sending my girlfriend to school with a stack of my DVDs.  Her bag is already overloaded, it would be nice to send her off with digital copies. 
+    
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+    
+        urlLink 49% of American homes have broadband :: AO   49% and the other 51% check their e-mail once a week.  
+    
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+    
+        urlLink E-Commerce Report: Online Battle of Low-Cost Books   I just bought two used books on amazon, and three new ones.  I would have bought all used, but the shipping costs on used books often overshadow any reduction in price.  I do however wonder about artists royalties...  Perhaps we should lean towards license purchases.  When you buy MS Office, you can't transfer the license to someone else.  Sure you own the media, and that media can be used by anyone, as long as they have their own license.  With old media like CDs and books, perhaps we'll just have to watch that market fade away, as it naturally will.  When display options become better (which they will) the electronic book will have more market.    Will I be purchasing a license to listen to a cd (or mp3) and not the physical media?  I'm ok with that, just as long as I don't have restrictions on what player I can listen to it on. 
+    
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+    
+        urlLink Wired News: Transparent Desktop Opens Doors   While I'm on the subject of telework, how about this for communications?  When I browsed the headlines the other day and saw this, I dismissed it.  Why would you want your face behind your desktop, and how could you process that information?  In this article they liken it to talking in a crowded room with many conversations, stating that your brain can handle and filter this without any problem.  Throw me behind a mac and I'll rock out some web apps on the light rail :)  Better yet, just broadcast it to my work station.  You want to come over and talk to me?  Talk to my monitor :) 
+    
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+    
+        urlLink Destination Wi-Fi, by Rail, Bus or Boat   I am a huge proponent of public transportation, environmental and economically.  Denver, my city, has been constantly improving their commuting system.  A new plan is in the works called  urlLink Fast Tracks .  Now if this goes through, and they add data to it, mmmmm that would be nice.  Especially with the idea of working on the way to work.  With technology meeting the deamands of telework, you could even check your e-mail and get the basic start of the day going before you even hit your desk.  Perhaps it would give telecommuting a whole new meaning, working while commuting. 
+    
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+    
+        urlLink Tim Buntel's Long Overdue and Reluctantly Agreed-to Blackstone Blog   Blackstone is going to support xforms with xslt.  I am quite pleased with all the form features for the new version of coldfusion.  After all, being a server geek, forms are the most important front end html that I create.  XForms are an exciting tool, with functions, data types, xml packets, display, organization, portability, and on and on and on.  If you don't know what they are check out this  urlLink tutorial . 
+    
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+    
+        urlLink MIKE WENDLAND: SUV's Wi-Fi system lets drivers leave CDs at home   Oh baby.  I want my grand marquis wi-fi'd :)  Now this is a good auto mp3 solution.  In my dream garage I would have an Access point with a big external antenna, perhaps as a repeator or cat-5'd to my main router.  Mounted to the wall of course.  I'ld pull my car in and have it sync with my file server or pull down my last mp3 book.  With my outdoor wifi I could also have my laptop on and mp3 boombox chillin wherever I want too. 
+    
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+    
+        urlLink Audible.com - audio that speaks to you wherever you are   This service has been around for a bit, but I just ran across it.  I saw an  urlLink article  that samsug is going to start making a compatible player.  If I had a longer commute to work (which I may), I could definitely see myself taking advantage of this.    
+    
+    
+</post>
+
+
+</Blog>

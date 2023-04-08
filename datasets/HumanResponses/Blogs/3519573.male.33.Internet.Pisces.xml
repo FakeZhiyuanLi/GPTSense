@@ -1,0 +1,391 @@
+<Blog>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+      Yea, they stopped by peddling their crap up at the Prescott Resort. The first session was about 2003 Business Server stuff. (If you haven't noticed, my IT communication skills aren't so good). I did learn some basic maintence programs, and they did talk about sharing. So that was worth it. But the afternoon session went into C# program, and I ran outta there like a little school girl. It that an IT thing? No hell no. Better not be, I failed that class in college. I could do a little BASIC for ya, but it would be lame.  10 INPUT "What is your name: "; U$   20 PRINT "Hello "; U$   25 REM   30 INPUT "How many stars do you want: "; N   35 S$ = ""   40 FOR I = 1 TO N   50 S$ = S$ + "*"   55 NEXT I   60 PRINT S$   65 REM   70 INPUT "Do you want more stars? "; A$   80 IF LEN(A$) = 0 GOTO 70   90 A$ = LEFT$(A$, 1)  100 IF (A$ = "Y") OR (A$ = "y") THEN GOTO 30  110 PRINT "Goodbye ";  120 FOR I = 1 TO 200  130 PRINT U$; " ";  140 NEXT I  150 PRINT  yeah, now that was lame - and lifted from  here .   Well, still learning about how all that  outdoor recreation  stuff is working. Talk to you later.  
+     
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+	 
+      SO I am doing all of this 'stuff' (polite word there) to increase our SEO, and I found out that at  IntelSeek.com  we score pretty high on recreation, trails, parks, and other decent keywords. This was the highlight of Kim's day I think, which is cool. Leah already said that no one in the world uses  IntelSeek.com , which is very possible, but hey, it sure does look good when  EatStayPlay.com  comes up at the top of any search engine.  This concludes my day. Going to the Prescott Resort tomorrow for training - will blog later.
+     
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+	 
+      Today's linkback count for  EatStayPlay.com  totaled a new record of 147. Not too shabby. Bruce said that on Saturday, there were like 60 visitors to the website. So the slow deatiled process of promtion has started. I am thinking about submitting  EatStayPlay.com  to the SE's like once a week. I THINK I can get away with it, since the website itself changes on a daily basis, ya know? If not every week, then every-other week for sure.  Oh yea, my Texas Hold 'em account to a bit of a hit late last week. I think there is $50 in it, but I did cash out $75.  
+     
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+	 
+      I think  outdoor recreation  is going to be my target keyword for one year. After I accomplish that (or at least get enough traffic from  outdoor recreation , I will move onto the bigger things, like  recreation ,  travel ,  vacation ,  vacation planning , etc. But the term  outdoor recreation  currently recieves just over 5000 requests a day. " Outdoor recreation " can't be that hard of a word to target, I would think, because it fits  our  profile very well...like a glove. And if I can use  outdoor recreation  to start to generate say...500 hits a day, then I can think about moving on to the bigger stuff, like maybe  recreation  all by itself (at a whopping 50k+ a day). Once that feat is accomplished, I will work on  parks , that has to be the grand-daddy of them all, lol.  Took Friday off for Tam - her appointments are tomorrow so should know more by then. Currently working on a sitemap and an internal search engine. I'll keep you updated.
+     
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+	 
+      Got the news today that I will be attending two seminars at the Prescott Resort. Both are free (sweet) and are put on by Microcrap. The first is about Black Betty (our server) - guess they will give you the low-down on some of the main features. That will be pretty cool. The second is all about that XML crap, along with the SQL proggie. I'm guessing it will all be over my head, but gotta do what ta gotta do.  I was reading the rules for submissions at Google - they claim they can tell if your incoming links are from an FFA page (possible I suppose, escpecially when FFA appears in the URL) but they say it DOES NOT hurt your ranking. So I opened the floodgates there. Received 360+ emails this morn at the webmaster address. I think I will submit everyday. I ran a linkback checker today, and it found 88 incoming links, and that is far better than where we were two weeks ago. So we are getting there, that's for sure.  I am doing the State Parks for Utah right now, that will be our next release. Be sure to check out all the  outdoor recreation  oppertunities on our website,  EatStayPlay.com .  Current poker status: I turned $25 into about $240 within 2 weeks. I am thinking about cashin out $100 and playing in the tourney up on the hill. It's $25 to get in, but I will probably spend another $10 in booze just to keep my nerves in check. I hear there are 40 ppl that usually play, so we will see. Laters. 
+     
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+	 
+      So after doing all these  State Parks ,  National Forests , and other  public campgrounds , I have decided it's about time I go to  EatStayPlay.com  and find myself a little campsite. I cannot remember the last time I went camping - oh yes I do. I slept in the back of a truck. Well this time is going to be different. This time I will be more prepared because I am going to use  EatStayPlay.com  before I venture out. By using  EatStayPlay.com , I will have complete access to everything I need to know about  outdoor recreation .  So work is work - got the green light to start Utah. NOTE: so like I was copying the popcenter from Black Betty to the pre-web computer, turns out there are two different sets of popcenters. Well, 50/50 odds, and I choose the wrong one. I just set our popcenters back by I don't know how much time. Shouldn't be the end of the world, but it has to be fixed. Oh well, ya gotta learn the hard way.  Submitted index to ALL SE's today.
+     
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+	 
+      Didn't get time to blog at  urlLink work  so I will do a shortie.  Marketing is the keyword. Person-to-person presentations are just not the answer. It takes too much time to sell a $120 product. There's people that sell Kirby vaccuum in the amount of time it takes to actually get a check in hand. So internet e-marketing it is. I think I know ACT enough to make it work. Figured out backing up databases, and as I see it, you have to zip each database you created to back it up. Pain in the butt, but at least we know about it. Learning the words that will avoid spam filters, the basic like free, viagra...crap like that. Probably should start work on the body of the email sometime soon.  Les is back tomorrow, thank God. He's got this amazing system of generating the HTML files. But the process is so long from the template doc we use until you see it on the  urlLink web . I have questions about the mics pages, the popcenter pages and some other misc stuff. The worst thing about our site is the click drop-down menus, such as this one for  urlLink Prescott, AZ . Scroll down, and there is the root of the problem. Now I don't think it's bad from a user point of view - it's a decent idea. But the biggest prob is that search engines will not see the links. That's taking away at least half of our website, the way I see it. At least half. Not good at all. Several solutions, but I need to look into a site map. But crap, that's not the best either becase our site just doesn't work that way. So dunno.  
+     
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+	 
+      Suggestions for commonly used keywords in our attractions:  Campground:   Jack X Campground    “campground” should always be included. _____________________________    This campground is located within the boundaries of the Medicine Bow/Routt National Forest . The elevation of this campground is 8,400 feet. It offers 11 camping sites with tables, fire rings, running water, trash pick-up, vault toilets, and a host on site.  Maximum combined vehicle/trailer length is 40 feet.   _____________________________   This campground offers 11 camping sites within the Medicine Bow/Routt National Forest. Fishing and hiking trails exist. Maximum combined vehicle/trailer length is 40 feet.   				OR   This campground offers 17 camping sites within the Medicine Bow/Routt National Forest. Fishing in the Silver Lake is a popular recreation here. The Silver Lake Loop Trail encircles this fishing hole, and makes a good walk. Maximum combined vehicle/trailer length is 30 feet.    not sure about “fishing hole” _____________________________   An overnight camping fee will apply.    camping = 62k hits a day while campground = 14k. 				OR   An overnight camping fee will not apply.   				NOT   There are no fees charged to camp here.    _____________________________   Reservations are not accepted at this campground.   				OR   Reservations are accepted at this campground, please call 1-800-blahblah.   				NOT   None. – Reservations are not accepted. – Call 1-800-blahblah to make reservations.    _____________________________   It is recommended that you visit this campground sometime between June 15th through September.   				OR  This campground is open year round.   				NOT  Open year round.   ____________________________   Recreational opportunities at this campground include fishing and swimming; both of which are available in Lake Jimmy. An ATV trail is located across from this campground, the Stump Hollow ATV trail.     Recreation & fishing are both top ten keywords. Swimming #13. Campgrounds #23. Trails at bottom, but still helpful. ____________________________   This campground is located…   ____________________________  This campground offers two accessible restrooms. There is also a trail leading to a fishing lake that is accessible.   				OR   The Dumont Lake Campground is NOT accessible to the physically challenged.   				NOT  None.   
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      Cleaning off my deaktop - I started an IT log, but that is pretty much a blog is for, eh?  6-2-04 Leah had received an unusual email yesterday, and wasn’t sure what it was. After I looked at it, I determined that I didn’t have the time to study what it was, so I told her to delete it, which she did. Today Leah calls me over, and the same email had been resent to her. I asked her to forward it to me, and when I received it in my mailbox, I noticed that the file extension didn’t pass the sniff test. When I tried to save it to my desktop, the file name was like “document_leah.txt                                                                   .exe”. Notice all the spaces between the two file extensions. Now knowing that this was most likely a virus, I went ahead and saved it to my desktop to test AVG, and it didn’t skip a beat. AVG cried when I saved it to the desktop, then it cried when I moved it to the recycle bin, and then AVG was crying when I wanted to empty the recycle bin. After doing that, I ran AVG and scanned the HD, and it was on the HD somewhere. AVG said the infection was healed. I will have Leah scan her HD at lunch time, but it shouldn’t be there because she did NOT d/l it from the webserver. *** Did full scan at lunch, virus was removed.  6-9-04 Security Windows updated – D/l’ed and installed on my comp as well as Leah’s, Jessica’s new and Sue’s. Will take Jessica’s old offline today. Attempting to put Adobe on server to share. 	Tried to install photoshop onto server in the ESP folder. Attempt failed. Installed it on Jessica’s and Sue’s. Noticed that server required a windows update, and did so. 
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      I didn't get time to blog yesterday, better catch up...  Helluva day, seriously. Bruce was upset about the inferior product (i.e. bad links, bad links, and more bad links) so I tore through the website and fixed them. Per Kim, all links at the bottom of all pages should be .html (some were .aspx) and that alone probably took and hour. While I was doing that, since I had the page open in notebook, I also confirmed the correct keywords, correct title, and touch up the CompletePrivacy page. Some of those links at the bottom of pages (Feature and Advertise) would take you back to an old index page, and that about confused the shit outta me. I took the old index and moved it to a folder, and another cop is on the desktop of the computer I now refer to the "pre-web" comp. The entire process for this stuff is nuts. Let's start with our basic attraction...  Once an attraction is made, it is in a Word .doc. From there, it is batched & pressed into a .txt. After that, it is ran through the AttractionLoader, which turns the file into an xml. Then I run the HTMLSiteGenerator, and it finally spits out an html file. Bear in mind, that the doc file is located on the server (Black Betty). From Black Betty, it gets moved to the pre-web comp, and once it has gone through the entire process, it is then upload to the WWW and also (don't forget this) to Bruce's laptop. I am currently upload new stuff to the WWW, and will have to sometime today move it all to the laptop.  So Bruce bought like 500,000 email addys. So I am assuming the merry between ACT and Outlook needs to get going. I had to call Alentus and set up the SMTP account, which was done. This morning, I did sent out a test email using the info@eatstayplay.com addy, and it was successful, even to cableone.net. Kim is going to check - might switch what account we use to send these emails out.  I still have a bunch of stuff to touch up on the website - I think one of the biggest concerns is that have the body-text for Colorado popcenters is missing. I guess it is on Black Betty, but I have yet to look. Need to take care of that as soon as Arizona is done u/l'ing to the WWW.  Big Hold 'em news: I spent $2.50 to enter a no limit tourney - 200 people entered, and I took second. I made like $70 on that deal, but it took 6 frickin hours. Mental note: no multi-table tourneys during the work week.  Got news that Firefox 0.9 is available, I'll have to check it out. Later. 
+     
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+	 
+      So like, that dude really knows his stuff about SEO - Bruce Clay. Once of his henchmen called me today about a price quote. I will not reveal the amount they quoted me for SEO, but if you want to know, check out their  website  and feel free to ask some questions. They do offer a lot of CURRENT information about SEO and other related topics.   I got a late start today - Tammy had to go to Sedona. So, when I arrive at  EatStayPlay.com  I quickly relized that I had to hustle. I am going through Bruce Clay's tools now, they were kind enough to give me a full 30 trail membership, and if I have anything to say about it, I am going to exploit the hell outta it. First thing it found was that our ISP does have some issues with spam/porn and that will lower our SE placement. So, for a whopping $1.95 a month, we will have a dedicated IP address. I have to look through the rest of the stuff, will have more info on all that later.  AK was uploaded, and AZ is working now. I did modify the index.html for  EatStayPlay.com  so that there were actual state links at the bottom of the page. The map looks pretty, but a spider can't use it. I also fixed the links on the bottom of the page, and then I tweaked the verbage (Kim did, I  just put the body in there). Also, the keywords were changed to Kim's likings.  Need to do ACT (maybe tomorrow?). Need to check all popcenters for body, fix any that do not have body, and submit all popcenters to the SE's. That will be done tomorrow. 
+     
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      Came in at 6:45 and leaving at 5:15. I really got tasks accomplished. I can modify merchant attractions, I can sign up new merchants, and I can even dick around with what Les refers to as "Him", I believe that's the pet name for his proggie. Act and Outlook have started to marry-up, but need the Atlentus starter pack because I do not know what their smtp is. So, tomorrow I need to create XML files for the merchants that are paid. After that, get Outlook running. Right now, I am looking for some  recreation oppertunities , so I am outta here. Good day :)  
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+	 
+      k - so all four states have been generated, but I will wait until tonight for the upload (kim has a few merchants to do, need to re-generate prescott before upload). If there's one thing I have learned, it's that shitty software sucks. What's worse than that is when you are trying to make two shitty programs work together. I THINK I have ACT and Outlook working, (Les said Outlook is the lesser of two evils between it and Outlook Express) but the  EatStayPlay.com  account we have at  Alentus  did not have the outgoing mail turned on. I was able to send a mass email (if you call 5 email addy 'mass') out, and the ones with an  EatStayPlay.com  domain name actually went through. My personal addy at CableOne bounced back, as well as any Yahoo addy I tried. I called Peter at  Alentus  and he said that he will "turn it on", meaning the smtp. I should have asked how long that would take.  Les is sending me something to batch and press on the Merchant's because the print link is not working on them...er something. Waiting on that.  
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+	 
+      Rolling through this day. AVG sucessfully installed on Bruce's comp. AK and AZ generate, working on CO, then NM. Boss got a kick out of the Blog idea - especially when she relized that I am making incoming links for our website. One link at a time sweet Jesus.   One policy for merchants that sponser an attraction is that they link back to  EatStayPlay.com . This seemed like a good policy - more incoming links for us. However, what good does that link do if that merchant isn't in the SE's? I'll tell ya - NONE. Need to fix.  
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+	 
+      Well, not all that big, but it can be. Came in one hour early - needed to update AVG on everything, there is some variation of the Sasser bug still out there wrecking havoc. ESP11 finished churning out AK attraction, now working on the other states, but need to call Les to learn how to load a merchant. AVG is d/l'ed on Bruce, but waiting for serial to install. Black Betty needed an update to Windows, so did that. AVG done on mine, Jens, Sues, Leah's, and Kapasky (or whatever) is updated on ACT computer. Dont worry about pic viewer on jen's since she is gone.  
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+	 
+      So after the Boss asks me a few questions about SEO, mainly what is the difference between Google and Yahoo, i found an interesting article about  Googlebombing  and what it all entails. Now obiously, i am not going to use this trick to promote  EatStayPlay.com , but it does shine a little bit of light onto the subject of ranking high in Google.  Need to fix pic viewer on Jen's comp. Why does Adobe Photoshop care about how long of a name we use to name our picture? It cuts off at a certain number, not sure what it is...then WHEN it cuts off, it is also cutting off the file extension. Wierd stuff there.  Trying to figure out how to generate new pages within the database, and then upload them. I know how to upload, not at all sure how to generate them.  In case you are wondering, i profitted exactly $22 this weekend on  BetOnUSA . I played Texas Hold 'em, NO LIMIT (it is the man's way). Played in four tourneys, took 2nd twice, and first twice. Tourney cost was a $2.50 (I had to start small so I don't lose everything, lol).  
+     
+    
+</post>
+
+<date>11,June,2004</date>
+<post>
+
+	 
+      I am writing this at 3:30 just to give you an idea what we accomplished:  I was able to submit all four states, and 20 regions for  EatStayPlay , to 30 search engines. That took me until around 2:30, but it will be quicker when we need to "re-submit" them because each submission is saved on my computer. I would guess I could do the same thing in about 2 hours instead of 6. So that will be nice. But at least we are getting into the search engines.   Leah finished writing the body for Alaska, and all of the Alaskan regions. She was going nuts doing that, so at about 3 she switched to linking NM. Les sent her that email, and she is going through that list and checking to see what links to the National Forests. I am currently working on the Colorado body-text, and will start Colorado regions next. It is rather difficult, and somewhat time consuming (as you know) to get that magic 3 percent.  Jen stayed all day, and mentioned that she had many, many photos. She did not want to move to our side of the room, because the skylight is too bright, and she is worried about the map we have tapped up there falling on her. No biggie, I will take that plexiglass out Monday and tape some cardboard to it. I did move her, but only after she left.  I did call Sue, and let her know she was doing great, and that we would have more work for her on Monday. She didn't seem to mind.  I think that is the jist of the day. Any questions, let me know.
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+      Finished submitting index and all 4 states, and their 23 regions. Took a look at WebPosition, I dunno. Looks like you pay for the program, then later on you will have to pay for updates. Blah, it just isn't fair.  Going to work on Region copy now, I guess. Need to hit them kw's hard. 
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+      Forgot to mention, need to update AVG on the four main computers. Jen doesn't wnat to leave her spot alongside the other wall, but will move her anyways. Need to get some decent program for SEO, but have low cash flow. 
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+      Half way through the day, going good thus far. Both bosses and the dog (yea, IT gets to take care of the dog as well) are all out of town which means I am going to get something done. Boss wants all 4 states and their Regions subbmitted to SE's. Using Net-Worx, but do not like it - only gets 20 SE's at once. Will look at WebPosition or something better than this.  
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+      rough day. Started SEO for  EatStayPlay.com  and can already tell, it's gonna be fun. There a lot of helpful info out there, much of it is free and out-of-date. If I am understanding this correctly, all search engines are different, all of them change their rules, and everyone wants the same thing - the numero uno spot in an SE. Well, we have the body worked out, but it's not perfect. We have Meta tags, but they are far from perfect (I forgot one keyword, and didn't amke them all plural.) BUT - at least it's a start.  No more time for chatting, time to run home and relax...which means think about work. 
+     
+    
+</post>
+
+<date>31,July,2004</date>
+<post>
+
+	 
+      It sure doesn't hurt to tell you where I live...  Blend a pleasant, four-season climate with a small-town atmosphere and plenty of business and recreational opportunities, and you have  urlLink Prescott, Arizona , one of America's best-kept secrets.  urlLink Prescott  residents enjoy the benefits of small-town living while enjoying the many positive amenities of larger metropolitan areas.  urlLink Prescott , AZ has a low crime rate, easy commuting with no traffic congestion, and excellent air quality. In addition, a full range of housing choices and recreational activities combine to create a low-stress lifestyle.  Bordered by 1.25 million acres of the  urlLink Prescott National Forest  and the 1,400-acre Yavapai Indian Reservation,  urlLink Prescott  (pop. 28,211) is an ideal spot if you love outdoor activities.  urlLink Prescott's  high elevation and mountain breezes keep temperatures from reaching the grueling levels of low-lying Phoenix, 90 miles to the south. In summer they rarely exceed 85 degrees, and in winter's sun-filled days they average about 50 degrees. Humidity stays a moderate 45% year round. Practically every day, you can play tennis, golf on two city courses, one created by famed designer Gary Panks, or hike the many trails on nearby Granite Mountain. The  urlLink Grand Canyon  is a roughly two-hour drive away. Because  urlLink Prescott  is the county seat, many services are conveniently located in town. They include the regional Social Security office, motor vehicles department and 129-bed Yavapai Regional Medical Center. No wonder retirees favor this quiet mountain community. About 23% of the population is over 65, half of them relocated from California and the Rocky Mountain states.The living in  urlLink Prescott , though bountiful, is not cheap. Dickinson estimates that a retired couple need at least $25,000 of annual income to live comfortably. Studies compiled by SCORE, a business association, reveal the annual median income of those over 55 is $40,000 to $45,000 -- more than three times the national median. Founded in 1864 as the territorial capital of Arizona,  urlLink Prescott  still has the distinct feel of a wild West town. Historic  urlLink Whiskey Row  once had 20 raucous saloons; today, many of the original buildings house boutiques, hotels and gift shops. The town also had its genteel side, which can be seen in Mount Vernon Street's graceful Victorian homes, many of them on the National Register of Historic Places."This is a town that attracts individuals," says Dickinson, 67,who moved here in 1988. "There is nothing cookie cutter about it --not the people, not even the homes." Indeed, most of the houses are custom-built into the rough and hilly terrain, where javelinas (wildboars) sometimes wander across the yards at night. And in many residential developments, builders are required to make each house one of a kind. Newcomers often become involved in the community through the Volunteer Center of Yavapai County, which steers people to programs with 135 different local agencies; the Sharlot Hall Museum, for example, enlists more than 150 volunteers to greet and guide visitors through exhibits on the town's first settlers. The local college, Yavapai, offers senior citizens hundreds of courses, including challenging classes in genealogy and environmental chemistry, for about $35 each. The college also conducts 190 week long trips a year through the Elderhostel Network; the most popular are a house boat excursion on Lake Powell, 225 miles to the northeast, and a 200-miletrip to the Hopi Reservation, also in Arizona's northeast corner.  Not enough info about  urlLink Prescott, Arizona ? Read what  urlLink Yahoo  has to say about  urlLink Prescott  - or check out what  urlLink Prescott , Arizona. I am sure you will find good infomation there. 
+     
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+	 
+      Lemme bring you all up to speed.  So I just deleted two very, very lengthy blogs. The blogs talk all about Prescott, AZ. And all of those mentions of Prescott were links to  urlLink EatStayPlay.com . And I left them up for over 3 days. Then I ckickened out. I know it would have worked. I would definatly, at least in  urlLink Y . I have determined (and had it confirmed last night by the kids at  urlLink SEW ) that it is much easier to get through Y's algorythm and target your site to a top SER. And believe me, Slurp (I believe that is Y's bot) would have loved my site. But I took it done - I made all of those Prescott links point to  urlLink EatStayPlay 's  urlLink Prescott  website. Ehh - maybe not the brightest move I have ever done. I could but the text back up and not have it link anywhere. Ehh...  So I am looking at  urlLink G 's AdWordz program. Here are some notes i do not want to lose...   Specifc ads - we do NOT want irrelevent click-thoughs - lose of money      What are negatives? Need to add?      We don't want "Prescott" because:    When measuring the number of words used in search phrases worldwide between December 2003 and January 2004 the breakdown is listed below. Figures in brackets show figures from the same time last year.      1 Word - 19.02% (24.76%)    2 Words - 32.58% (29.22%)    3 Words - 25.62% (24.33%)    4 Words - 12.83% (12.34%)    5 Words - 5.64% (5.43%)    6 Words - 2.32% (2.21%)    7 Words - 0.98% (0.94%)      ***rebutal    Six in 10 of those surveyed typed in just one word in order to find what they were looking for - a big ask, when market leader Google, for instance, indexes 4,285,199,774 documents.      Add in those who use two words, and that's four-fifths of searchers. Only 3% tie words together with quote marks, and 1% use other advanced search techniques to get better results.      Ever watch your spouse/mom/dad search? I have, they are as general as they can be. Remember people are lazy and always exert the littlest amount of effort to accomplish a task. Finding ways to allow people to be lazy has made many companies rich!   I do not understnad that part about negatives - suppose that is like Prescott [without Michigan] so that - well, you get it.    Have I blogged about  urlLink FFA 's? Lemme look...nope. See back where I mentioned that G's PR (pageRank) was a zero? Here's the worst thing I have done for SEO so far... Because incoming links are so important in the rankings game, i cheated and participated in link-farming. The term link-farming (aka Free For All links  or  FFA) is used to descripe an act where you agree to recieve a bunch of spam (I was getting 1000 a day) and in exchange you get to put a link onto their link-farm. A link-farm is nothing more than a webpage with hundres of links on them. Now, there is a set number of how many links will be displayed (which varies by individual apges) and once that maximun is reached, you fall off. So you have to re-apply everyday. In one monhts time, EatStayPlay went from zero links to as high as 1,100. So believe me, I was disappointed when I finally downloaded G's toolbar and looked at the PR for all of  urlLink EatStayPlay  - zero. So I talked with the kids at SEW and they confirmed my suspitions. I am going to work on getting more good links ( urlLink Zeal  and stuff), but no more FFA.  That's all for now. 
+     
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+	 
+      So our daily hit count, provided by  urlLink Urchin,  works pretty good. Shows about all you need to know, from where they came from, what terms they typed into the SE to find us, how long they were there, etc. Anyways, our highest day was on 7-18-2004 with a total of 198 hits. That's not too shabby for being new to the business. Come on SE's - hit us. Bring on the robots, spiders, etc. - we are ready for you.                    
+     
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+	 
+      What if some crackhead went like  urlLink  outdoor recreation   like a billion times, does that mean  urlLink eatstayplay.com  would come up number one for keywords outdoor recreation? I doubt it, but something to think about. But I mean, really, I would have to do it a billion times,  urlLink  outdoor recreation  , and then be able to support the use of that keyword by  urlLink  outdoor recreation   checking the keyword density to make sure  urlLink  outdoor recreation   I didn't go anywhere near the 7% max that most people say you shouldn't do  urlLink  outdoor recreation   urlLink  .   So then I was wondering, what if I just cut/copied/pasted like a large, VERY large chunk of  urlLink  outdoor recreation   text here, and then continuously  urlLink  outdoor recreation   mentioned the fact that  urlLink  eatstayplay.com   is the world's finest directory for  urlLink  outdoor recreation   activities. Then what would that do? Who knows - I sure don't urlLink  .      
+     
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+	 
+      So I received the new Search Engine Relationship Chart from my friend  urlLink Bruce Clay  and I tell ya - these things change too much. THis engine buys that one, this one takes over that one - amazing.  The only three that  urlLink EatStayPlay  are not on are  urlLink DMOZ  urlLink ,   urlLink Teoma  urlLink ,  and  urlLink AskJeeves  urlLink .  Of those three, like - take  urlLink AskJeeves  for an example - they ask for $18 for a single URL to be indexed. However, they do get directory results from  urlLink Teoma  urlLink ,  which gets directory results from  urlLink DMOZ  urlLink ,  which we are not listed on yet, but I have submitted to them already. So I guess what I am saying is this - there are ways around paying for submissions urlLink .  If you think I am crazy, post me a comment, or check out the info provided at  urlLink Bruce Clay.com  urlLink .     Here's the really good news - if you are looking for a directory for  urlLink outdoor recreation  urlLink ,  such as  urlLink campgrounds  urlLink ,   urlLink hiking trails  urlLink ,   urlLink State Parks  urlLink ,   urlLink National Forests  urlLink ,  areas for  urlLink good fishing  urlLink ,  or any other  urlLink outdoor recreational  activity you can think of, check out the best  urlLink online directory  of its kind urlLink ,   urlLink EatStayPlay.com  urlLink .  There is nothing quite like it.  
+     
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+	 
+      So Google came last night - they had 13 pages indexed, now it's up to 217 pages. Funny thing, not a damn one is an attraction - looks like Googlebot indexed our states, regions, popcenters and that was it. All pages have a PageRank of zero - which I am going to blame on the link farms. I have ceased all link farm activity, but I assume it will be a month before we fall off of them all-together. This mornings link count was 1049. That's a lot of crappy links - hehe. Hey - I never told anyone I was a master of SEO. I will help counter that effect by getting good links -  urlLink Zeal.com  will be very helpful. I will link every stinckin' PopCenter into  urlLink Zeal's  precious directory - time consuming, but it will provide many valuable incoming links - have to take advantage of that. Tried email several sites that are worthy of link-exchanges, but none answer. Maybe we need to create an award of some sort to offer - lemme think about that. What would the award be - for "Great Recreational Website"? I dunno - maybe a picture of a tv with a red X through it, and text that read "my computer beat your tv up"? Who knows - but there is something to the idea of an award.    So what's broken today? The css file is incorrectly displaying link/text on the index and attractions pages. Clickable states on the index are off. I can't get the PopCenter body/copy to pull up for Kailua-Kona HI. I fixed one merchant, but working on the next. It's a fabulous day over at  urlLink EatStayPlay .  
+     
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+	 
+      It took awhile - wanted to be sure on this - but I am ceasing all activities to promote our site through FFA's and other link farms. Too much info says that it may hurt your page. I wonder if that is why we have a zero "PageRank" through Google - not sure. But I have read it enough times to believe it - it only hurts you. Good quality links to our site are what we are looking for, so off with FFA's. I did go from zero links to like 900+ as off today, but I am done with it. Might as well go ban my addy from them - Had 2000 emails today from over the weekend. Oh well, had to try. But my vote is - just say no to link-farms.  
+     
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+	 
+      Yea, he got a little fried, eh? He is supposed to make a full recovery and be ready to race next week. Man, did that look scary? Ewwww. I guess that's why racing is a sport, and not a game - you can die at any time. Come on JR, we got the championship to win this year!      
+     
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+	 
+      It's really starting to take off - we have noticed our activitiy starting to take off. Bruce said he say over 200+ unique ISP addy's come to our site. All of them are through the back way - I was certain no one would find  urlLink EatStayPlay.com  through our front door - it just isn't (and probably never will be) optimized for any specific keyword. That's fine by me, if people find us by typing in "Reservation Creek", they will know they found something cool. Since there is a link to the home page, they will get that far, and then be able to bookmark us. Total Google count has risen to 37 pages indexed, Yahoo is up to just over a hundred. WIerd thing about Google - it started indexing HI, which I just turned on last Thursday.    Working on fixing stuff - HI graphics look like crap, the state is not clickable, additional photos page for merchants still not working - thought about the possiblity of a discussion board for us at  urlLink EatStayPlay.com . Something that we can get to so we can say what we need, and who we expect to do it. Will look into that possiblity. It would also help Kim/Bruce because they can go to it and see where we are in fixing "stuff".    
+     
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+	 
+      So our programmer took and made my job a lot easier. Takes about 10 mintues to load a merchant into the system. Only bad think is tha tit takes about 30 to cleam up the HTML. Can't complain, it will work, just gotta watch how things are done.  Starting to come up on the SE's. Yahoo is going to be our best friend, I can tell. It's just friendly to the  EatStayPlay  website. AZ should be ready for the updated upload next week, and Yahoo will be eating out of the palms of my hand. As far as I am concern, Google can go screw itself. If G can't realize that a website with over 20k pages is worth the rankings, then phuq them. Besides, most common internet people use Yahoo, and we will get business from them.  Got merchants to upload. Laters. 
+     
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+	 
+      Bruce coined this phrase to describe something is that going to be really hard to get listed high on the search engines. Perfect example is the  Grand Canyon . So many people are working on being in the top ten there, that it just isn't going to be easy. He's also asked twice, how long it will take to get Prescoot Arizona up to the top ten. So, I am testing a theroy out. Y (but not G) has indexed the  Prescott, Arizona  page, but of course, we are no where to be found in the first 200. No shock there, our page just isn't set up to do that. So I am tweeking, researching, and filling the void. More verbage, more links, and someday, more pics. That's what business is about at  EatStayPlay.com .  I did successfully get all merchants up live with correct sponsership. Yea. Now I have new merchants to do. Going to start that next, soon as I can get my mega-Prescott up and running. 
+     
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+	 
+      Yea, it's been awhile since I blogged. Let's get caught up, but rather quickly...  Worked 50+ hours last week. Made major changes to the whole system. Les changed the merchants so that they load more like attractions. This saved me a buttload of time, because I only have to learn one thing, not two totally different things. Major good there. Problem is that it all needs to be beta-tested. Working on that now. The goal is that we can upload new merchants by the end of the day. Good luck there.  SEO - Some nice things are working to our benefit here, but as I have said since I started this project, it is a LONG process. THing about it, you are always at least 2 months behind because it takes at least that long for the robots to come back and visit. Currently,  Yahoo  is much "nicer" to us than  Google . Yahoo has indexed about 80 pages of our 20,000+, but at least it is doing it the right way. If you do a search for say "Mesquite Campground" (with quotes) our page comes up 2nd. There are others as well, including Reservation Creek, Riggs Flat, etc. Also, a major plus is if your search for "stay/eat/play in Springerville" without quotes our pages are in the top 20. So lots of good things there. On the other hand,  Google  isn't so nice to us. I can find the main index (which does vary at times), but the Googlebot is index pages that are (in my book) worthless - privacy, merchant sign-up, etc. I think we have like 4-5 pages of good material on Google. Constant fight there.  I am sticking with the FFA idea - I think it is helping. If I find out that Google is hurting/penelizing us for it, I will quit, but no one has a definate answer to that. We currently have 603 link backs to our site - it's been steadily rising all week. I'll keep you updated.  Kim hired three new people to go through AZ and touch up the text so that the attraction name is mentioned like 4-5 times more than it is now. This is really going to help with the SEO. Bruce coined the term - "Mega-attracation" the other week. Good example is the Grand Canyon. It is going to be much harder to gain a top 20 spot on an SE with a mega-attraction. I've got ideas, in fact I am pretty sure I know what we need to do. Problem is that I do not have the time. So it is on the backburner for now.  We did purchase a sitemap generator, and I like this idea of a site map for the robots/spiders to pick us up better. Problem with it is that it isn't very friendly with our site. For starters, I have to clean it up in a major way. Remove all links that our "Print friendly version" and "email this page to a friend". The next problem is that an attraction can have 8 or more different web pages generated. Take the Prescott National Forest. Each PopCenter is crosses is an additional page. Each category it falls into is a different page. So that all has to be cleaned up. I would like to say I can send Les something by the end of the week, but I only work on that when I am not busy. An this is just AZ, I still have more states to do.  I compiled a list of all the SE's we are on and not on.  Zeal  took a lot of work, but our main page is there. I am going to take the time and drop in each city, started with AZ yesterday at home. But the states are there, are at least pending.  Permissions on Black Betty - I learned a lesson there. I did not realize that permissions are leveled, meaning that Administrator is actually admin + manager + users + whatever. I took the users group and started to deny them permissions. (NEVER DENY ANYTHING - that was bad idea). Without dragging this out too much, I did lock everyone out of every file - luckily we fixed it in like 20 minutes. But that was a critical error there.  What else - Hawaii. I was suppose to load HI (even though there are no attraction in there yet) and get that state live on the net. That is actually a long process. I took a healthy stab at it, and did some magic, but it is not complete. The pics of the regions look terrible. I think they are the wrong size. That needs to be fixed before I go live with it.  OK - back to work. I will try to be a better blogger.
+     
+    
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+	 
+      What did I do in my 10 hours yesterday? Fixed three things and found 5 broken things. That's not the exact numbers, but that's how this is working for us at  EatStayPlay.com . We dropped the chamber info at the bottom of the popcenter - it was functioning, but the text was all wrong. I got to Kris about it, she made changes to the css files, sorta worked, but now it looks good.   Moved the office just for the IT department - how's that for clout? I was joking about having to travel 30 from my computer to the pre-web comp, and next thing I know, I have 2 desks and 2 comps. I told Kim today that when we get big, i will need a third. I probably will, seriously - but's that's a bit far off from now.  Sitemap is a bugger of a proggie. The biggest prob is that it will not havdle the volume of our site. I think I can break it into chucks - maybe by state. Still working on that.  Kim says Chambers text on popcenters looks good. 
+     
+    
+</post>
+
+<date>03,July,2004</date>
+<post>
+
+	 
+      Sitting at 12:45 and finally I have all the popcenters in AZ looking just as they should (why is there SCUBA in Kingman?!?!) AZ is uploading now. CO is htmlGenerating right now. Everything needs to be regenerated so that the >TITLE  Do NOT upload the index or the misc pages from Dell to live - it will bring back those nasty brown buttons at the top, and we will for sure die. Les will send a new base to fix that problem, but it is only temporaryly fixed as I write this.
+     
+    
+</post>
+
+<date>03,July,2004</date>
+<post>
+
+	 
+      Stupid Dell. So after a few issues with the popcenters, I reverted back to ones that are about a month old. Now, before you panic, let me just say that I didn't have a choice. You see, yesterday (and this is the way I thought I had to do it) I copied the popcenters from the serveronto the dell, and regenerated. Well, it turns out that all popcenter changes are to be done on the Dell. Which means I took some really old stuff, and pasted it on top of new stuff. Les was here when I did it, he said get rid of the popcenters on the server so that mistake will not happen again, and then on the Dell, go into a BU folder and get the new ones. I thought I got the good ones before I left, but I did not. So now I went back about weeks and got those out of bu. I am generating the html for AZ as we speak (10:45). To help pass time, I cleaned the tops of the monitors (that is an IT job, hehe) and started to o the FFA networks. I ran the linkback checker, we are up to 289 incoming links, how bout that? Only thing is - I do not know which SE's it really helps me with. Looks pretty, though.  Dunno how, but we got the old links at the bottom of advertise.html again, along with the brown buttons on the top. It is nt live, only sitting on the Dell, but there there. I can code the changes for that pages, but I lack the knowledge to go into Les's proggie (the one that generates that page) and fix it. So it will not do any good if I make the changes, they will be over-ridding when that page is regenerated. He's supposed to get in contact with me before I go home.  That's where we are now. If you want to check out my progress, feel free to visit your only source for  outdoor recreation  information,  EatStayPlay.com . We will be the bomb-diggity-bomb, or something like that.
+     
+    
+</post>
+
+<date>03,July,2004</date>
+<post>
+
+	 
+      First off, I am really upset about the race last night. Nothing like seeing two of your favorite guy running in the top five, looking for a win - when some morron takes both of them out on seperate incidents - both on the last lap. What a crock.  Arrived at 8:45. Windows issued a critical update - hackers found another loophole in the precious Microcrap OS - so I fixed every computer that we use, including Kim's and Bruce's. I did not update the ones that we never use.  Still having issues with the damn chambers. Actually, I have a few problems on this issue. For starters, I supposivly lost two popcenters, and that just doesn't make sense. I am loading AZ, then I will HTMLGenerate AZ, and see what I start the day with. Can NOT upload until these issues are resolved.  Once the chambers are decent enough, I will try to open UT and HI. Graphics are on my desktop, and I think I know how to turn them on in SQL. Dang, I know I thought about something else I needed to do - yea, need to regen everything, so that I title appears correctly. No sense in starting that until I have a good handle on chambers and have the new states open.  
+     
+    
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+	 
+      So our sitemap is live, but really havent seen it help - altough I cannot prove that.  G is up to 4,860 pages indexed - yeah :) I have been learning more about the whole PR system - believe it will be a few months before I see outr zero turn tinto something (and a 2 would be nice to start with). I just can't get enough linkbacks. I did the whole directory thing - got em all except the bastards DMOZ. Need to start an award thing - I really thing that will help some.  Gonna work on Act - yippee ~jeesh~  
+     
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+	 
+      So like - everyone else is getting special invites to beta-test the new and exciting  urlLink Gmail . Must be nice. Sure wish i was special enough to get a damn invite to  urlLink Gmail . And you know what Mr  urlLink G ? I am that damn important. I am the SEO/IT man for what will be the best website (except for  urlLink Google ) so you need to respect  my  authority. Ok - I was just kidding there. But seriously, I want my  urlLink Gmail  account, and I want it now. Why? I would like to have brian@ urlLink gmail .com or something along those lines. Maybe I will get ITman@ urlLink gmail .com or something like that. Why is  urlLink Gmail  soooo cool? The best advantage is you get a full Gig of space. Ain't that awesome? Never throw away an email again. here are some other features (straight from the horses mouth)...    urlLink Gmail   is an experiment in a new kind of webmail, built on the idea that you should never have to delete mail and you should always be able to find the message you want. The key features are:             Search, don't sort.  Use Google search to  find the exact message  you want, no matter when it was sent or received.                Don't throw anything away.  1000 megabytes of free storage so you'll never need to delete another message.                Keep it all in context.  Each message is grouped with all its replies and displayed as a conversation.                No pop-up ads. No untargeted banners.  You see only  urlLink relevant text ads  and links to related web pages of interest.       So there you have it. That's my plug for  urlLink Gmail . Now lets talk about eatstayplay.com - America's Recreation Connection...     
+     
+    
+</post>
+
+<date>07,August,2004</date>
+<post>
+
+	 
+      SO the new 27" tv I bought just 4 months ago has gone to shit. Thanks, RCA, for producing and selling to me a true piece of shit. $220 out the window. I can't take it back to Wal-Mart because it is after 90 days. RCA wants me to take it to a certified tv repair man. I cant get ahold of him. Even if I did, it would cost me $60 - and there is no garentee that it will fix it. Jerks! RCA sucks - I hate RCA. 
+     
+    
+</post>
+
+<date>07,August,2004</date>
+<post>
+
+	 
+      So I submitted our splash in the appropreiate directory two months ago. Still aint there. Today, I submitted all four states individually to DMOZ. We will see how long that takes. 
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+       urlLink G  is literally index our site everyday. Monday was 150 pages, Tues was 150, and yesterday was another 350. Funny thing, those are exact numbers, not estimates...wierd, eh? But G is looking to be our best friend. I can't find Slurp anywhere, lazy bum.  The whole FFA linkfarming thing still sucks. I am still at over 1000 links. Damn, I wish I didn't do that, lol. Well, it aint the end of the world.   
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+	 
+      So what's new? Lemme bring you up to speed...  So  urlLink G  has indexed 3,360 pages of  urlLink eatstayplay.com  - and that number seems to be growing daily, almost. Looks like  urlLink AOL  gets their shit straihgt from  urlLink G , I get the same answer there.  urlLink AllTheWeb  and  urlLink AltaVista  stand at just over 100 each. And  urlLink Y  is at about 122. Finally got the index into  urlLink AskJeeves  (ya damn right I did it for free) and  urlLink Teoma . The last major player I am working on is  urlLink DMOZ  - slow bastards.  As soon as I fix something on the website, something else falls apart. I forgot that sometimes, I have to reload/regen states twice - that's why Colorado looked so bad today. Then, while tinkering around with the chambers, i forgot that they is no check for double listings. By the time Leah caught this, I had all Prescott's Chambers listed like four times. Took me a full cigarette to figure out how to clear the table so i could start again.  I think we are going to scratch the whole concept of email marketing. Sure, it's cost effective - but I do not think it is worth it. Trying to gear your sales pitch through the front door of the spam checkers it a bitch. Postcards it is. 
+     
+    
+</post>
+
+
+</Blog>

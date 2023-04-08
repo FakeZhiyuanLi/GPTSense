@@ -1,0 +1,112 @@
+<Blog>
+
+<date>20,May,2004</date>
+<post>
+
+						
+						   The story begins... 
+
+						
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+						
+						   Enfold Systems, LLC. made its long awaited Calendaring product available. It reached the 0.1.2 version, which means that even after delivery to customer it is being developed (bugfixed). I hadn't managed to test it yet, as it is a bit complicated product. It requires latest Archetypes and does not work on Windows yet. I have to prepare the setup necessary for it to evaluate it. Great news are that it supports Import via WebDAV (PUT_Factory) and export via HTML. This is not proper mode for  urlLink Mozilla Calendar  yet. It expects WebDAV for both operations. 
+
+						
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+						
+						   It is the  urlLink PloneCalendar  reborn. What does that mean? Cleaner templates, faster rendering, new functionality. But PloneCalendar was referred as dog-slow-spaghetti by  urlLink runyaga ... However I hadn't seen his Calendar yet. Searching... ;) 
+
+						
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+						
+						   In addition to  urlLink HTMLCallendar  bunch of other calendars appeared. All of them understands iCal format. I'll try to catch more of them and understand, which is usable one... 
+
+						
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+						
+						   With the ZopeZen'  urlLink reference  I found interesting collection of useful code. The most intriguing for me would be to try to run Plone in Trusted mode ( urlLink without security checks ). What speed I'd gain? 
+
+						
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+						
+						   Our  urlLink AccessCMS  product would benefit from patches system a lot. Ability to patch page templates upon Zope start is good opportunity as we often patch them instead if real reworking them. However it will probably quickly evolve into XSLT transformer, because all Page Templates are valid XML files, the patch would be just XSLT transformation (with result cached and reset upon XSLT patch edit).  You should find  urlLink PageTemplateTransformer in Collective CVS  upon reading this.    
+
+						
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+						
+						   Look like people caught the idea behind GMail dynamic application. The GMail uses XML for data transfer, the  urlLink article  is offering transferring plain text JavaScript objects. The little thing left to do is to develop general (preferably with support of multiple concurrent requests) framework that will work good for mad users clicking insanely on the dynamic tree :) 
+
+						
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+						
+						   Less then 12 hours ago I guessed that Google will offer something along with its friends  urlLink Microsoft  and  urlLink Yahoo! .  It was a bit of surprise that there is  urlLink SPF initiative . And  urlLink Google  together with  urlLink GMail  are  urlLink SPF-enabled  already.  Time to think about our mail servers. The promise   SPF fights email address forgery and  makes it easier to identify spams, worms, and viruses  hen domain owners designate sending mail servers in DNS, so that  SMTP receivers can distinguish legitimate mail from spam  by verifying the envelope sender address against client IP  before any message data is transmitted.   is tempting, especially the last one (possibility to eliminate receiving the e-mail body), which should save us a lot in times of virus floods. 
+
+						
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+						
+						   Collecting e-mail addresses for spam database is really easy novadays. I have several public e-mail addresses, which I use for maillists and forums. They are present in addressbooks and mailboxes of bazillion of people. It would be fine, if people won't share my e-mail address.  However they do. They do with help of viruses they run on their computers.  In past times, e-mail viruses were politically correct. The one usually get the message from the person he/she know. And it was ok. However novadays, viruses send themselves from any address they manage to find to any other address.  Recently my friend happened to include my private e-mail into a mass-mailing about the important event in his life. It would be ok, if he did include all of us in BCC field. We all went to TO field and viruses caught me! The letter landed in 40 other mailboxes. It happened that one of recipients run virus (it is statistic, it should happen some time anyway)... Virus sent e-mails with all possible combination of from and to addresses. And my private e-mail which I never announced and never used on Internet except private correspondence went to spammer's hands... Why?  I can produce really huge databases for spammers. Any active Internet inhabitant can. I have 200-300 virus/spam messages a day with my mail server tight on SMTP policies. What if I open it? I'll get 1000 spam e-mails and viruses a day! Meaning that I'm passively collecting e-mail addresses. I do not sell that database, but others probably do! Damn it. I'll probably make my mailserver capable both of  urlLink Yahoo! DomainKeys  and  urlLink Microsoft CallerID  techniques. Hope that Google will join the above with the launch of  urlLink GMail  (they'll get loads of spam :).    Conclusion:  do not mass-mail people. If you do, use BCC field then... Internet is Network, we are social network, multiplied it is spammer's paradise... BCC is not solution but it stops from virus explosion in your social on-line off-line network.  
+
+						
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+						
+						   Woohoo, We should see new Python before Christmas (IMHO). The tasty things everybody is expecting are enumerated in the official  urlLink What's New in Python 2.4  document. Not too much, but who knows,  urlLink Zope3  probably would work with it quite fine, however not requiring it.  BTW,  urlLink Zope X3   urlLink 3.0.0a2  version was released recently. 
+
+						
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+						
+						   There is quite good Calendar for  urlLink Plone , however it is not too reusable. I'd say it is rather hard to use and customize. Having JACM (just another calendar module) can help have reusable code with beautiful calendars.  Hm, there is a chance that I'll hack it in for one of our projects, to play with it and don't waste time ;) 
+
+						
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+						
+						   If you are employing  urlLink XP  for your development process and have regression tests for your code, the DiffDebugging can be really handy. More then that, when using  urlLink CVS  or  urlLink SVN  the  urlLink DiffDebugging  can be made automatic, just Checkout last successful version and compare to the currently available one. 
+
+						
+</post>
+
+
+</Blog>

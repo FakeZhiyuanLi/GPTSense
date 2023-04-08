@@ -1,0 +1,76 @@
+<Blog>
+
+<date>31,January,2004</date>
+<post>
+
+	 
+      ???
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+      Used this article and the corresponding code to create a compressed ( rather Quntized) png image for my mobile application.  urlLink Color Quantization Article at MSDN.com   urlLink Image issues with J2me(Nice Article from sun site)   urlLink Url for testing my ASP.NET application for image Conversion   urlLink Url for testing my ASP.NET application for image Conversion using Quantization   I used some PNG and JPEG FAQs from this site to get some information about  JPEG and PNG format and Quntizations and compression etc.  urlLink Nice site for all FAQ.s    
+    
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+	 
+      I was just having a talk with a really old Collage friend of mine and he asked me about the latest certification that I had done. So I gave him the entire list that I had done uptill now .  Sun Certified Programmer Sun Certified Developer Sun Certified Enterprise Architect Sun Certified Web Component Developer Sun Certified Mobile Application Developer IBM Certified UML IBM Certified J2EE v1.3 developer IBM Certified XML and other Technologies Ms Certified C# Developer for Windows Applications 
+    
+</post>
+
+<date>07,August,2004</date>
+<post>
+
+	 
+      Since Mobile communicate with their base stations, the Mobile Service provides knows exactly where the mobile user, it called traingulation ( I picked this off some movie ) by which I assume they get the exact location using 3 base stations and getting the exact location of the mobile phone.  Why dont they send this information to the mobile phone and probally provide acess to this data using some API.  For j2me the answere is Location API ( I think )   I wonder if I could integrate MobiMap with the location based information if that is possible the user can use MobiMap and ask questions like 'Where am I right now?' and it can use location based API and MobiMap services to show the exact location of the mobile user.  I guess I will have to look at the JSP for Location API for j2me devices and if they (sun) have a reference implementation out use it to write the program. I know I will not be able to use the program using Location based API on my phone, but then too I would be something interesting to try. 
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+      I was just wondering as to why dont these chat applications have a blog facility, and they should probally have a facility that would allow a user to blog a full conversation. Why would a user do that ....no idea.  
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+      I had been to Oxford Street today, took the bus for a change. Since I was in the bus I decided to use MobiMap just to see how good it was in a so called live environment.  It was particularly interesting  Initially I could not get any connection to multimap server, I guess the server was down or profile my user access had been terminated since it may have been more than a month since I have been using this service. I managed to get connection to the server after about a couple of retry I guess the server were over loaded that instance. Here I should probally provide some detailed error message saying that mutimap server has been heavily loaded and so it cannot service your request, this is something like putting the blame on multimap, but hey it is not my fault.!!!!  I was looking for Regents street as I was going by bus and I realized that it took me about 3 Map Images to locate exactly where I was I guess this was due to the fact that I was moving on the bus, but then too I was in London and with traffic so how fast could I be moving. I still have to fix up something with the Up,Down, Left and Right Navigation stuff. Since when I say navigate Left the new map image is shown with the Viewable window at the center of the map which doest help much since I have just navigated left so I would like to keep the Viewable Window at the right so I can sort of connect streets from the previous screen and the current left navigated screen.  Another think that I noticed as I walking through Regents street and a few other cross roads, was that I as I move off the location on the map I will have to navigate left or right (depending on the direction that I am walking in) this sends the request to the server to fetch a new map image it take about 40 sec on an average to get the new image, and when the new image is display the viewable window is at the center of this new map, it takes a while for me to pan around and get to the point where I am on the new map, this is even after me having a rough idea of the different places around. I guess I should allow a sort of 'Previous map Image' operation that would show me the map image of the previous screen.   I guess MobiMap is a really interesting application and very usefully but it is  definitely not a complete replacement of a paper map ( the onces that require a talent to fold), MobiMap can be used only in emergencies and probally when you are going for an interview to an office in the city. 
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+       urlLink .:: MBM 5 HomeSite Download or Update ::. (Site Design by Claes / 3D-EGS) 
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+      1. How do I set up the default select command while I am displaying the list of saved images. 2. When I save a map in the actual phone, I am not taken to a different screen after clicking on OK for the sucessfull save dialog. 3. Possibly have a different message to be displayed depending on the type of operation being performed, like "Sending Request for Image", and "Sending Request for Search" 4. The name of the map to be displayed in the title for the map display screen. 5. Handling the case where in I cannot save the map since I have run out of phone memory space. 6. Probally porting the application to MIDP1.0 so that it can run in older phones. 7. Addiing bluetooth facility to the phone. 8. I am not able to zoom into a saved image, I guess I am also not able to navigate in anyother direction using a saved image.
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      I wanted to listen to Telegraph Road By Dire Straits and I got this file format called MPC and I have not idea what it is. I think I have tried to convert from that format to Mp3 before but I dont quite remeber if I was successfull.  
+    
+</post>
+
+
+</Blog>

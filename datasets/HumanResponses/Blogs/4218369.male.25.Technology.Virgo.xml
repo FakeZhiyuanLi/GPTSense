@@ -1,0 +1,70 @@
+<Blog>
+
+<date>19,August,2004</date>
+<post>
+
+
+           
+      For now, I've managed to divide my life up into several major areas of concentration. The categories of  Pregnant fiance ,  work ,   urlLink youth-group advisor  ,  job-search , and  program development  seem to effectively compartmentalize my day to day life right now. Of course, any attempt to compartmentalize my life inherently contradicts the interrelated nature of everything we do, but these broad markers help me get some sort of grasp on what's driving my universe.  Right now, it's that last category,  program development , that's causing me the most trouble. I've always had a sense that I would be happier if I was able to start my own company. I enjoy leading people, and my highly independent streak doesn't enjoy following someone else's agenda. Since, my current career is in software development, this strikes me as the logical jumping off point for starting my business. I've toyed with many software development ideas, but none of them have stuck as a reasonable launching point for an autonomous business.  Maybe it's a fear of getting started, or an unexpressed aversion to hard-work, but each time I get excited and start furiously working on a new project, my enthusiasm soon fades, and I'm left questioning the feasibility of my business plan. My last idea was to develop a web based RSS agregator. I was going to differentiate my product by building it on a really strong tracking / recommendation engine ala Amazon. After a few weeks of work, the scale of my undertaking sapped my enthusiasm. I decided that the  urlLink bloglines  product did enough and my product wouldn't add more to the marketplace.  My current idea comes from a problem we've encountered at work. Several years ago, I wrote a simple program to poll an FTP site, archive the files on the site, and move the files to a predetermined location on our network. Eventually, the scope of the application grew, and now it also monitors email, directories, SQL tables and does all sorts of custom actions on the data it finds. In the end, the product serves as sort of a  urlLink BizTalk  Lite.  Eventually, we out grew my little home grown data router. At the same time, we decided that we needed a new EDI parser. We decided to by BizTalk and the Covast EDI Accelerator. Of course, a month later we're no closer to solving any of our problems and we probably won't have a solution for  our customers  for another month. Consultants, trainers, classes... all just to move some data around.  Meanwhile, I'm sitting through all this junk and thinking, " There has to be an easier way. " There's my product idea. A really simple file routing / data translation engine. Something that sits nicely between the ultra-simple package I wrote for work and BizTalk.  So I started writing code. I mocked up a simple package in about two days and everything seemed great. Then I realized that my design wasn't flexible enough. I decided that my base design needed to be redone and that I would need to start over. I felt my motivation melt away. The same old doubts crept in. Should I bother? Can I do it?  It's now a week later, and I haven't moved. I'm coming down to decision time. Do it or forget about it. I think I'm going to do it. I wish I could be more decisive, but we'll see. 
+     
+
+        
+</post>
+
+<date>13,August,2004</date>
+<post>
+
+
+           
+      We just got back from our first visit to the OB/GYN, and everything is fine. Thank god. Even though we had no reason to be particularly nervous, it's very nice to hear that everything is ok from a medical professional.  Basically my role in this process was to walk to the doctors office and wait in the waiting room. (If you are an OB/GYN, it would be nice for those of us who have to wait, if you could throw a copy of  Esquire  or even  Newsweek  in the lobby.  Martha Stewart Living  and  Performing Your Own Breast Exam  don't really hold my attention.) 
+     
+
+        
+</post>
+
+<date>13,August,2004</date>
+<post>
+
+
+           
+       urlLink    Me on my cruise...&nbsp; urlLink   
+     
+
+        
+</post>
+
+<date>13,August,2004</date>
+<post>
+
+
+           
+      I'm going to be a dad, but  unfortunately  I'm not going to be a stay at home dad. Our lifestyle demands two incomes, but, if I ever get my company off the ground, I'd absolutely love to stay at home.  Here's an  urlLink article  by Catherine Seipp for the  urlLink National Review  where she basically dismisses all stay at home dads as tree-hugging, irresponsible hippies who live a sloths life off the hard labor of their indentured, carrer-woman wives. Instead, she contends that all fathers should be like her dad.    When my daughter had a bad day at school recently — her English teacher had called her a racist for writing a paper arguing that affirmative action isn't necessary for women — Grandpa still didn't cut her any slack at dinner. "We're going to have to make a videotape of this so you can see where you're going wrong with your fork-twirling skills," he said. "We'll call it, The Racist Eating Spaghetti." Still, over the years I've come to appreciate his retro, Yesterday's Dad ways.  Wow.  There's a guy I want around my daughter.   Who cares about your future, or an honest discussion on an important issue, just make sure you look lady-like while eating your spaghetti.    urlLink The Blue Sloth  and  urlLink Rebel Dad  (8/9/04) have written some great respones that are worth a read. 
+     
+
+        
+</post>
+
+<date>13,August,2004</date>
+<post>
+
+
+           
+      It's amazing what a 13 mile commute can do to your world perspective. Last night, Jim McGreevey  urlLink resigned , and my reaction was, "Just because he's gay, doesn't mean that he's not a crook." Living in downtown Philly and having gay family members, the homosexual angle to this article was almost a footnote to me. The real issues were that he was saying that he was quitting because he had an affair and that he was really quitting because he (along with many of those around him) is corrupt.  This morning when I got to work (in the "Republican suburbs"), the resignation was, of course, the talk of the water cooler. Much to my surprise, the homophobes weren't even worried about the appearance of political correctness. They were planning to print out pictures of the governor and plaster them around one "liberal's" desk. They didn't even see that there was something wrong with being appalled that McGreevey is gay.  We've got a long way to go in this country before we reach even an approximation of equality. 
+     
+
+        
+</post>
+
+<date>13,August,2004</date>
+<post>
+
+
+           
+      Single, happily employed, no kids, all the time in the world... That was my life 6 months ago. Engaged, dad-to-be, miserably employed, trying to write a business integration software package in my spare time... This is my life now.  So now I'm taking the few minutes of peace while my wonderful, pregnant fiance is sleeping next to me and using it to write to the faceless world (AKA you).   Why am I writing this?  I'm fairly certain that I'm writing this to get a handle on the process of change. I need to see what's going on in my life and try to understand it. I've always been introspective and analytical, and when I'm going through wholesale life change, these traits naturally go into over-drive. Hopefully, this will be the canvas where I can paint an comprehensible picture of my life.   Why is it worth your time to read this?  Obviously, you as the reader bring your own reasons to this text, and I'd never presume to know them. However, here's what I hope to give you through this relationship. I want to share with you the honest process of my life. I believe that most things we encounter in life are far more universal than we think, and that our problems are common when we can see them objectively. My wish for you, is that you become better by reading about me, and that I become better by sharing with you. I don't presume to be some modern-day  urlLink Everyman , but maybe we all are.   
+     
+
+        
+</post>
+
+
+</Blog>

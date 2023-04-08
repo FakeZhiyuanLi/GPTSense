@@ -1,0 +1,130 @@
+<Blog>
+
+<date>21,February,2003</date>
+<post>
+
+	 
+      OK...  Another day, another dollar. I didn't get to do much last night, because I was just so exhausted.. But, today is friday, so there will be some time free this weekend. In all likelyhood, there will be a party tonight, but that's allright. (Partying with friends is a portion of life. There will not be a post on my blog until monday at the earliest. If someone who reads this blog would like schematics or code I have written, feel free to contact me at: diskfly@online.no 
+     
+    
+</post>
+
+<date>20,February,2003</date>
+<post>
+
+	 
+      Well, last night I did infact make the PIC-Chip write "Hello World." on a 2x24 LCD display. (The display is controlled by the chip HD44780A00.) Since I have made this, it seems only natural to incorporate this into another project. I think I will make an alarm, or something like that. I will also be making a small robot (read this : RoBUG). It will be self-powered, and search out light and avoid obstacles. This is a project lying quite a bit into the future, but I will make it. The JAL language is the best thing that has happened to me since I discovered the TurboPascal language. Now I can write my own stuff for the PIC, instead of building projects already made by others. I believe I will be starting the alarm tonight, and working on it during the weekend. I will also document the project with schematics, code and pictures. I don't have a homepage for electronics yet, but this will be up and running at a later time. The address to my site will be posted here on my BLOG.
+     
+    
+</post>
+
+<date>19,February,2003</date>
+<post>
+
+	 
+      I thought I might as well try this Blogging phenomenon myself. Read about it all over the Internet and thought why not... I will post info on what I'm doing with the PIC-Micro and JAL here. My latest project was interfacing the PIC16F84 with a 7-segment LED (the type that can display numbers.) Counting down from 5..0 and then holding the 0 for another 5 seconds, then starting the whole procedure again. Today I will start my next project, which will be to interface the 16F84 with a 40character -/ 2lines LCD display. I don't believe this will be a problem, but somehow I never know these things.  Geir
+     
+    
+</post>
+
+<date>04,June,2004</date>
+<post>
+
+	 
+      OK. So it's been over a year since my last post. To be honest, I had forgotten about this site, but now i'm writing again. I haven't had time to work on electronics or robotics lately, but I got the spark back a few nights ago. I have to teach myself everything all over again, but that'll just have to be OK. I will concentrate on electronics and robotics from now on, because I find that to be more interesting. My first attempt will be a WireRunner, adapted from one I found at Wouter van Ooijen's site.  urlLink (http://www.voti.nl/wire/index.html)  There will be some changes made to it, and I will document it all and post it on my website. (Not up and running for electronics yet.) On another note, I seem to remember the use of quite large capacitors in BEAM roborics. Most importantly in photo-poppers. 2200uF and 3300uF. I found a good and cheap source for these caps, and that is inside the powersupply of a normal computer. I collected 4 or 5 from an old powersupply I had lying around. I haven't made the RoBUG that searches for light yet, but when I feel comfortable with electronics again, I might give it a try. Hopefully it won't be over a year until my next post, but a couple of days. Friday's here, and a party I feel is the right thing this weekend.
+     
+    
+</post>
+
+<date>11,June,2004</date>
+<post>
+
+	 
+      Haven't written for a couple of days now. Been far to busy doing other things. Components is a nightmare to get hold of when you're a person, not a company. I have a company but that doesn't deal in electronics, so I'm not using that. I get so frustrated waiting to get the price of some components that's no listed in the normal pricelist. Guess I'll have to use used parts. I've learnt about BEAM, and thought I'd give that a try, because that's just a couple of inverters, transistors, resistors and some caps. I wonder what made Mark Tilden think of this in the first place. Friday today, and I'm not quite sure what the night will escalate to. A few beers with some friends, and maybe a trip to the golfcourse. Spent 4 hours there last night. Didn't leave until 12:15am. Getting up at 7:30am to go to work, wasn't a joy. Maybe see what I can get a hold of in used appliances, and take off some components. Need a walkman, or a small tape-player, because the motors in those are better than the ones I got now. I'll have to check a local "used things" store. There's a fleamarket tomorrow, maybe I'll find something there. I found the schematics for an EdgeBOT, I don't have a link right here, and I don't remember the name of the author. Perhaps I'll try to build that during the weekend. We'll see.
+     
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+      Ozkal answered me and the public today, in the forums at his robotics site. The idea was to play around with the resistor values on the base pin of the transistors. Being careful not to drop below 330Ohm, which would increase the use of voltage. Didn't get any testing done yesterday, because I spent two hours in the kitchen making dinner, and after that I went to the driving range of our golfcourt to hit a few buckets. It good to get some frustration out by hitting a golfball and see it fly 250++ meters. Another soulution to my SimpleBUG problem would be to use gearing, but that's alot of fitting problems, so servo motors would be a good idea. I just checked the lead supplier of model parts around, and one servo costs 114NOK. (That's over $17 USD.) Might have to see if I can find a source for used parts. That's not very easy here in Norway. Hopefully the SimpleBUG will run like crazy tonight.
+     
+    
+</post>
+
+<date>08,June,2004</date>
+<post>
+
+	 
+      Another test done last night, and this time it was successful. I got the  urlLink SimpleBUG  working. The motors turned, and almost everything worked out great. The only dissapointing thing was: on the floor, the bug didn't move. When I lifted it off the floor, the motors spun like crazy, on the floor... Nothing. I guess not enough torque in the motors, but the motors are quite powerful. I have sent a message to ozkal, who built the simpleBUG, asking for advice. He's online right now (10:57 GMT+1 08.06.2004), so I hope to get an answer soon. Will post update. I have also started the work on my web-site, and will redesign the whole thing. Articles, images and I hope translated (and maybe new) tutorials will be on the site.
+     
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+	 
+      OK. I did a small and simple test this friday, but that wasn't very successfull. I tried building the SimpleBUG robot from ( urlLink endtas.com/robot/ ). I didn't have photodiodes lying around, so I used normal LED's as sensors, and my electronics skills obviously needs work, because it didn't work. The motor turned, but at the same speed no matter what I did. (It's cheap to use used parts, but the result may be other than expected.) When I get home today, I'll try building a simple H-Bridge using 4 transistors and 4 resistors. This will drive one motor up to 50mA, and is more than enough for me. If I get that working, I'll try different things for interfacing a sensor, and thereby hopefully get a motor that turns faster if light hits the sensor. Some of you might say: "That's so simple. Can't believe he's having problems with that." Well, I have no education on the field of electronics, so the things I do know, I have taught myself. Will write tomorrow informing you of the result after tonights test.
+     
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+	 
+      Hmm, time seems to just fly by. I've found a tutorial I think will help me greatly. It's a written article in the norwegian edition of LinuxMagazine, called LinuxSchool. This article is written in norwegian, but I'll soon mail the author, and ask if I can translate it to english. If -/ and when it's done, I'll post it on my site, and write about it here. The article covers setup of DNS, Mail, News, SSH and a few things more I don't remember right now. It bases on a real live example-domain, and that's exactly what I was looking for. I'm hoping to achieve the following, based on the fact I only have a dialup: One machine acting as Router/Gateway and firewall.  Another server handling all this other stuff. When connected to the internett, it'll retrieve all mail from my online hosts, and I can then read it all later, offline. It will act as my DNS server, asking the DNS' of my ISP for the info first. (Caching) I'm not sure about news yet, but I'll probably try it out. More about this will be on my web-site.
+     
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+	 
+      I've had so much work lately that robotics has gone on hold. Not for long but some time. I registered a new domain just the other day.  urlLink www.linuxboxonline.net  I'm working on a new site, and as you might imagine, it will be about Linux. All the while I'm trying to teach myself Linux, and how to set up a server. This server will host preferably: DNS, DHCP, Mail, Web, News... I need to find a place to put the server, because I just checked with our supplier, and I live 150meters to far from the junction box. No DSL available. That's a bi**h. Anyway, I hope to get this working soon. Testing out on my home network first. Using Slackware 9.0 with standard 2.4.20 kernel. I'll have to upgrade to 2.6 kernel. Just have to learn how to do that first. If anyone reads this, and knows of a good tutorial online, or a book... Be my guest and  urlLink mail me 
+     
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+	 
+      Another weekend gone, and a few beers was consumed. That resulted in nothing much done at all. I have never the less designed a new site and put it out:  urlLink linuxboxonline.net  Only the design is there. Haven't put up any other pages yet. They will come, well over half the work is done now. Only have to create the individual pages. It's summer so among work, chores and random stuff, the time to do robotics and maintain sites is getting smaller and smaller. The latest stuff now has been painting the house. Not done in a day. A week, maybe. Anyway, the design is there. Haven't even had a chance to test a server config yet. If the rain continues, I might get a chance to test tonight. We'll see. Test results will be made available at my site. I've found yet another tutorial available. This one shows how to setup a WEB-Hotel with a few domains. That might help me. Written in Norwegian, but I might find the time to translate it, If the author allows me.
+     
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+	 
+      My server is up and running (not online though) with DNS, WEB, web-hosting services, SSH, FTP. That's all I can remember now. Been trying to config Sendmail now, but having no luck. Just won't work. I have planned a reinstall of slackware during the weekend, and I think I will upgrade from 9.0 to 9.1 or maybe 10.0 if I can download it. I just got a tip to try using Postfix instead.. Should be heaps easier to config and get up and running. Have to try that over the weekend... I'll be thrilled if I get it up and running. Been thinking of a server like this for ages. Thanks to all the people on #slackware who has helped me, and all the people taking the time to write tutorials for us newbies out there. When I get a little more elite, I'll write a few tuts myself. Both in Norwegian (my native tongue) and English.
+     
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+	 
+      Finally. I've had a chance to play with my server, and I've connected a small network at home. Late saturday night, I reinstalled Slackware 9.0 with only the bare essentials, and I started playing with DNS (BIND) and apache. I've set up apache before, so that wasn't the problem. Getting BIND to run, and VirtualHosts in apache was the pain. However some reading of a few norwegian tutorials, I fell back to a tutorial at  urlLink linuxhomenetworking.com   urlLink Chapter 6  is the exact location. This tutorial was great reading when I allready had read about DNS. If you've played with linux for a short while, and know the basics, this is the best tut I've found out there. They also have a lot more tuts on their site. The HOWTO and  urlLink tldp.org  written by Nicolai Langefeldt was to long, and contained much more info than what was really needed. That was only confusing. After fixing a few typos in the config files, BIND started and played like a charm. I changed httpd.conf to match my server name and other basic things. The next step was VirtualHosting. Everything was so simple when the basics was there. Now I have two domains running on my server. I'm not online with the server yet, but that will come. The next challenge is getting e-mail up and running for the domains. I'm using the Sendmail chapter from  urlLink linuxhomenetworking.com  Hope toget it all working soon.
+     
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+	 
+      I've revived a hobby of mine that I haven't cultivated for some time now. Photography.. I've even put up a section on my website  urlLink www.linuxboxonline.net  about photo. My linux-server at home is now awaiting my upgradeing to Slackware 10.0, but that might be a while. I find less and less time to "fiddle" with my server. I did manage to get some time to take photos the night before last. Nothing spectacular, but I hope I managed to cature the lightning-flash I encountered. If I did, I'll post it in my gallery when I get that up and running. I also post to  urlLink www.foto.no  and  urlLink www.photo.net  when I have pictures I'd like to have others view.
+     
+    
+</post>
+
+
+</Blog>

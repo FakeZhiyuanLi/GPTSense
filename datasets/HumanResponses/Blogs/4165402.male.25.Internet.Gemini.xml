@@ -1,0 +1,85 @@
+<Blog>
+
+<date>07,agosto,2004</date>
+<post>
+
+    
+       I found drivers for this cheap printer on this site :   urlLink http://203.111.45.57/bj/i250linux/  (CANON NEW ZELAND)  and downloaded the following:      bjfiltercups-2.3-0.i386.rpm     bjfilteri250-2.3-0.i386.rpm     guidei250-2.3-0.tar.gz    install rpm with YaST as usual and unpack the last package cause this is the guide! then, always in YaST, go to "hardware"(on left), "printer"(on right) and add your printer!    It WORKS WOW!!!!!    urlLink     
+    
+    
+</post>
+
+<date>07,agosto,2004</date>
+<post>
+
+    
+       this is the most difficult part... I'll write the article when I'll finish all.  
+    
+    
+</post>
+
+<date>07,agosto,2004</date>
+<post>
+
+    
+       First of all, if you installed the SuSE personal like me, you should change the source installation!  Do this :      open YaST     from left pannel choose "software" and from right choose "change installation source"     click "add" button and choose ftp or http and fill the form using a  urlLink SuSE mirror       then disable the cd source and enable the source just added (dont enable more than one source or YaST will freeze when you will add packet choosin "install/uninstall packets")      Now we can install Gaim with his dependancies. For installing using an rpm go to  urlLink guru.linuxbe.org , download gaim and install it wit YaST!  EASY SuSE!! I love it.    
+    
+    
+</post>
+
+<date>07,agosto,2004</date>
+<post>
+
+    
+       it was easy as installing firefox... I restored alse the folder wit my settings and email taken from windows wit just deletin  /-user-/home/.thunderbird/profiles  and  adding the profiles folder I had from windows ! easy and fantastic...   
+    
+    
+</post>
+
+<date>07,agosto,2004</date>
+<post>
+
+    
+       I'm still curious about what happened to my SuSE and still angry about that! Now I'm a little bit scared cause I think that if this happen when I'll have data on disk, I'll be lost! But let think over.... =D  I reinstalled also mozilla but, this time, I choosed the version without the installer and it worked on the first start... I HIGHLY reccomend it. These are the operation I've done to install firefox via terminal:  download from site ( obvious! =D) mkdir /opt/mozilla mv /home/-user-/Desktop/firefox*.tar.gz /opt/mozilla/ ungzip firefox*.tar.gz tar -xvf firefox*.tar ln -s /opt/mozilla/firefox/firefox /home/-user-/Desktop/firefox  then you can apply the icon in kde! thats all!  bye antonio   
+    
+    
+</post>
+
+<date>07,agosto,2004</date>
+<post>
+
+    
+       I'm so disperate... my linux SuSE, after a boot this afternoon, crashed...  It  mounted filesystem in readonly mode  and I dont know why, cause I havent made changes on system. The only solution I found after hours searchin on google and groups is : REINSTALL. i'm so ... sad and angry  see ya antonio  
+    
+    
+</post>
+
+<date>07,agosto,2004</date>
+<post>
+
+    
+       First of all I need my dear web browser  mozilla Firefox    so I download the official version from      urlLink mozilla project  and the language pack from  urlLink italian mozilla project.    After downloading I switch to root, decompress the file in /opt/firefox/ and doublecliccked on installer. OK all seam allright... now I have to click on firefox and ... It doesn't work! SIGH!! ='[ well ... I can do it! I launch firefox from shell so I can see messages and resolve the problem:  Xlib:connection to ":0.0" refused by server Xlib:XDM authorization key matches an existing client! (firefox-bin:13607):Gtk-WARNING ** cannot open display  AAAAAAAAAAAAAHHHHHHHHHHHHH!!! what should I do now? let's do a google search and... bingo! here the solution! I switch back to user and open a shell where I write:  su -m password: xhost + (switch off X authorization) /opt/firefox/firefox-installer/firefox et voilà! les jeux sont fait! (dont write this line on shell =D) xhost - (switch on X authorization)  next operations: language pack and flash player!  gotta go! bye...  
+    
+    
+</post>
+
+<date>07,agosto,2004</date>
+<post>
+
+    
+       hello, yesterday I putted on my  ASUS L3500 laptop  the last linux  SUSE 9.1  and it was great and easy. Since now I think this is the best linux version for beginners (and I am a beginner, ofcourse =D). For long time I wanted to do this change but I was full of job and I couldnt but, at least, here I am!  I'm on my linux desktop now and I'm starting to install all application I need for work and live better on my pc.    
+    
+    
+</post>
+
+<date>07,agosto,2004</date>
+<post>
+
+    
+       Ok, this is my first message... I'm so excited to take part of this world! The scope of this Blog is collect in one place all my experiences wit web programming and linux. In summary, this is a sort of troubleshooting!  If u want u can take my experiences and use it to resolve your own problems relatives to web and linux (cannot resolve your personal problem wit life yet :D).  you can write me if u need help but don't expect too much from me1  bye Antonio 
+    
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,48 @@
+<Blog>
+
+<date>29,July,2004</date>
+<post>
+
+
+       
+      PDS works with the two types of authentication in Project Server, Project Server Authentication and Integrated Authentication. Usually you will want to use Integrated Authentication to take advantage of the single sign-on characteristics of the MS Platform.  If this is the case you can encounter some issues when you try to access the PDS service from within a web application... mainly, you'll find that the credentials of the logged user can't reach PDS.  This is by design, basically, the credentials will not be propagated from a server to another to another because this posses a security threat.  Anyway, this can be worked around with "Delegation", this concept allows credentials to be&nbsp;passed from a server&nbsp;to another.  You can find more information on delegation on these articles:  urlLink 325894 - HOW TO: Configure Computer Accounts and User Accounts So That They Are Trusted for Delegation in Windows Server 2003 Enterprise Edition   urlLink 810572 - How To Configure an ASP.NET Application for a Delegation Scenario  
+     
+
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+
+       
+      There are many fixes for Project Server, but they are intended only for the implementations that are suffering&nbsp;some specific issue and you must ask for&nbsp;them to support people.   Search for Project Server fix at  urlLink http://support.microsoft.com    Here's a list of what I've found:   urlLink 830810   When you create and you publish a Microsoft Office Project 2003 project plan with the Project Data Service (PDS), outline codes may not appear correctly when you view your project plan in Microsoft Project Web Access (PWA). This problem may occur when you use the ProjectCreate and CodeValuesUpdate methods in Project Data Service.    urlLink 830820   When you view your project plan home Web page, you may receive one of the following messages where nnn is the number of resources that have unsubmitted timesheets:  Your timesheet has not been submitted.  You have nnn resources that have unsubmitted timesheets.    urlLink 832872   If you create a link to your top-level Project Plan (project 1), and then create a link to a subweb that contains a different Project Plan (project 2), when you click Link to Project Tasks in your top-level Published Project Plan (project 1), the tasks for your subweb (project 2) may appear incorrectly.    urlLink 832898   When you use Microsoft Project Web Access to update and to submit your timesheet for your Project 2003 project plan to your project manager, you receive the following error message on the Status bar in Microsoft Internet Explorer:  Error on PageAdditionally, you cannot logon to your Microsoft Office Project Server 2003 project server after you receive the error message.    urlLink 837248   When you run Project Server 2003 with many open resources, your server may experience very high CPU usage.  When you publish a very large number of project plans to your project server, publishing may take an unexpectedly long time to complete.  If you change the regional settings on your project server computer to a European language (such as Spanish, Dutch, or Finnish) that contains a decimal symbol set to a comma, the non-decimal value may be shown incorrectly in the&nbsp;Project Center for Enterprise Project Number fields that contain a formula or a value list.    urlLink 838881   When you schedule a build of an Online Analytical Processing (OLAP) cube, multiple (duplicate) .xml files may be created in the path:\Program Files\Microsoft Project Server\Bin\ViewDrop folder.  If you view resource assignments in Project Web Access (PWA) that are assigned to both an Enterprise and Administrative project, when you group by resources, the Enterprise and Administrative projects are grouped separately.  When you group your resources in Assignment and Task views by resources in a custom Project Center View, you may see multiple groupings for the resource.    urlLink 835736  When you try to synchronize the to the Enterprise Resource Pool, you may receive the following error message: The Active Directory group failed to synchronize with the Enterprise Resource PoolWhen you view application log in the Event Viewer, you may find an error message that is similar to the following:  Component: AD Connector File: AutoADProcess Active Directory groupLine: -1 Description: AD Res Pool Sync - Internal Res Pool Error : (94)Invalid use of Null   urlLink 835217  The following issues are fixed in this hotfix package:   835172  An SQL query of a resource's timesheet returns a value that is less than the actual work hours that appear in Microsoft Project Web Access   835320  The Actual Work field may display a zero (0) instead of the actual work hours that you submitted in the custom Project Center view in Microsoft Project Web Access    urlLink 834696  When multiple resources send updates from their timesheet in Microsoft Project Web Access to the Project Manager at the same time, some of the updates may not be sent to the Project Manager. When a resource is updating timesheet information, the update will take some time to process and eventually the resource receives the following error message:  Line: 8575 Char: 5 Error: 'document.frames.idExecASP.document.all.nErr.value' is null or not an object Code: 0 URL: http://servername/virtualdirectory/Tasks/TasksPage.asp?_oid=-1 or Line: 7573 Char: 3 Error: Permission Denied Code: 0 URL:  urlLink http://servername/virtualdirectory/Tasks/TasksPage.asp?_oid=-1    urlLink 834717  When you (the Project manager) view tasks that are submitted by your resources in Microsoft Project Web Access, Actual Work hours that are submitted may be missing. 
+     
+
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+
+       
+      Hi! this is my first post in this or any other blog. I did this because I think I have one or two things to share regarding my work in the IT industry.  &nbsp;  I have some knowledge on the Information Worker branch, I have implemented Project Server 2002 and 2003 many times&nbsp;for different companies the same goes for SharePoint Portal Server 2001 and 2003 and Windows SharePoint Services.  &nbsp;  But I don't want to narrow this blog to these subjects as I have done some quite interesting things with SQL Server 2000, .NET, InfoPath, Web Services and Exchange 2000 and some others (and maybe some other personal interests not regarding IT... what about XBox? Volleyball?...).  
+     
+
+    
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+
+       
+      Tonight I finished the installation, configuration and development of mi first ASP.NET app on Mono 1.0.  It really was a very simple exercise that made a query to MySql and showed it in the web page, so, here's my code. Note: I had to change " " to "[" and "]".  ASP  [%@ Page language="c#" Codebehind="mysqltest.aspx.cs" AutoEventWireup="false" Inherits="ricalo.mysqltest" %]   [!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" ]    [html]    [head]    [title]Test[/title]    [meta name="GENERATOR" Content="Microsoft Visual Studio 7.0"]    [meta name="CODE_LANGUAGE" Content="C#"]    [meta name="vs_defaultClientScript" content="JavaScript"]    [meta name="vs_targetSchema" content="  urlLink  http://schemas.microsoft.com/intellisense/ie5   "]   [/head] [body]    [form id="Form1" method="post" runat="server"]    [p] Campo 1 del Renglon1 en base de datos   urlLink  dev@localhost:[br/   ]    [asp:Label id="Label1" runat="server"][/asp:Label][/p]    [/form]    [/body]    [/html]      CodeBehind   using System; using System.Data; using System.Web; using System.Web.UI; using System.Web.UI.HtmlControls; using System.Web.UI.WebControls; using System.Drawing; using MySql = ByteFX.Data.MySqlClient;  namespace ricalo { public class mysqltest : System.Web.UI.Page { protected Label Label1;  private void Page_Load(object sender, System.EventArgs e) { MySql.MySqlConnection conn; MySql.MySqlCommand cmd; string strConn; string strCmd;  strConn = "User ID=root;Password=pass@word1;Data Source=localhost;Initial Catalog=dev"; strCmd = "SELECT * FROM Table1"; conn = new MySql.MySqlConnection(strConn); cmd = new MySql.MySqlCommand();  try {  cmd.CommandType = CommandType.Text; cmd.CommandText = strCmd; cmd.Connection = conn;  conn.Open(); Label1.Text = (string)cmd.ExecuteScalar(); } catch(Exception ex) { Console.WriteLine("Error: " + ex.Message); } finally { conn.Close(); conn.Dispose(); } }  private void InitializeComponent() { this.Load += new System.EventHandler(this.Page_Load); } override protected void OnInit(EventArgs e) { InitializeComponent(); base.OnInit(e); } } }          
+     
+
+    
+</post>
+
+
+</Blog>

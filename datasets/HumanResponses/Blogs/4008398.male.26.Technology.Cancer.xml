@@ -1,0 +1,49 @@
+<Blog>
+
+<date>26,July,2004</date>
+<post>
+
+    
+        Today finally I got an approval of my project    'Sharma's Organizer'    from Sourceforge. So the CVS of Sharma's Organizer is hosted on  urlLink http://sourceforge.net/projects/sharmaorganizer . This is not a really fundu project but a good one to start on at sourceforge. i have never worked in this sort of online collaborative environment so it is going to be interesting I guess.Now&nbsp;comes the hard part I need to&nbsp;finish this is time with the hectic project schedule.&nbsp;     Anyways, &nbsp;Following are some of the&nbsp;stuff that I think are indispensable for any programmer working on windows (some of these are usefull for normal users also)       (Windows ...err.. Bad Joke)    FileMon, Pexplorer, DLL dependency viewer&nbsp;and TDMon:   These free utilities can be downloaded from   urlLink  http://www.sysinternals.com    and they are essential for any programmer.&nbsp;Filemon gives you details of what files are being used by&nbsp;different processes, PExplorer gives you detailed view of all the processes hogging your system, Dependency Viewer will tell for each dll/exe all the dll's&nbsp;it depends on. TDMon will&nbsp;tell you the details of all the TCP/IP connections made by each process. &nbsp;&nbsp;    Sygate Personal Firewall:   This is a must have for any user (even home users). This tells you what all processes are accessing the external network and any external connection being made inwards to your machine. You can backtrace and find out the I.P. address in case of any attacks and take corrective measures.    MyIE2:   This is the best browser available which provides number of features like mouse gestures, tabbed interface multiple proxies etc. A must for anyone and can be downloaded for free from   urlLink  www.myie2.com   . Also have a look at Robo form plug in it is cool and clean form filling tool (unlike gator which will irritate you by showing ads etc)    XPlorer2:    Advanced Windows Explorer. It has so many cool features like filter view, bookmarks, multiple panned view, touch, quick display and can improve your productivity if you start using it properly. Make sure you download the dirkey plugin when you install this .    Agent Ransack:   If you ever need to search for files or some texts inside files, this is your saviour. You can write regular expressions for searching and do whatever you want. Takes minimum 50% less time than windows search. Another good one is "Search & Replace", but I have not used that.    TextPad:   You might think why? but believe me this is essential for people who write a lot of sql queries and data intensive tasks. This has very good macros and also provides vertical block selection. So if you want to work with the data this is one tool which can make your life much easier (unless offcourse you&nbsp;are comfortable with&nbsp;emacs).    CygWin or SFU(Services For Unix):   Cygwin is a linux emulator on windows and you can run almost anything that can run on linux. so you can write your shell or perl scripts with those advanced string functionalities run on your windows box. SFU is my microsoft and it is a native application (unlike cygwin which is an emulator) and hence little faster but has less support from os community. If you install SFU then make sure you download teh bourne shell also (which is not part of default install)    Sharp Develop Fidalgo :  If you want to work on .Net and can't afford VS.Net then work on this one. As good as VS.Net (well almost) and is free with source code. It supports only C# as of now.    Yahoo POPs:   Want your yahoo mails on your mail client. I know yahoo had stopped POP access some time back. This is a fundu hack basically a POP server sitting on your machine and accesses the mails from yahoo and feeds your mail client. Go to sourceforge and search for this project.     There are many more good tools but I will post them at a&nbsp;later date. Hope this information is useful..... Till&nbsp;the next posting Byeeee.....    
+    
+    
+</post>
+
+<date>24,July,2004</date>
+<post>
+
+    
+        urlLink    This is my brother, Vijay when he was in USA last year.&nbsp;&nbsp;This is his hotel in the backdrop. He went to Seattle and Bulleavue.  
+    
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+    
+            urlLink            I am currently in Kenosha, WI working for an onsite assignment. It has been very hectic till now. We found some time from the hectic schedule and went to Chicago and Milwaukee couple of weeks back.  Chicago is a big city with very good skyline and beach. This is&nbsp;right in front of&nbsp;"  The Magnificient Mile  ".&nbsp;  I wish my family was also with me....          
+    
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+    
+       I am a software engineer by profession and was born and brought up in New Delhi, India.   My field of expertise lies in .Net, C#, Commerce Server, ASP.Net and stuff.   I work for Infosys Technologies Ltd. and right now I am onsite at the client location just finishing on to one of the most hectic projects I have been involved with.   In my free time I like exploring things like VS.Net Add-Ins, Custom Utilities in .Net and Linux stuff.   Right now I am working on three part time projects    Organizer  Orderform Viewer  Issue Tracker in Infopath   "   Organizer   " is coded in .Net which will support multiple data sources like SQL Server, XML, Oracle, Access & probably MySQL. It will have modules like Contacts Management, Budget Management, Events and Reminders using .Net Event Notification System.   Also I am planning to have exporting features in to excel, word and outlook formats. The data model and screen design are complete and probably I will post it here pretty soon.   "  OrderForm Viewer  "  is a custom tool to explode the marshalled data in the Commerce Server transaction databases. This is almost done and I am getting the data in XML now. I just need to format it using the XSL. I am working on the XSL part now.  "   Issue Tracker   " is used to sync up the Issues so that multiple people can work on it in offline mode. It will two parts i.e. Infopath Issue Tracker form which is used as the data entry form. There will be a button at the bottom which is either going to send an email to other team mates and also optionally save in the local database so that it can be managed properly.  Second part is the searching and managing application which is going to look up on to the database for faster searches. Again the goal is to support multiple types of databases here.  Well, I guess that is it to start with. I will keep updating this with the latest activities that I am going on with.     Neeraj Sharma      urlLink  neerajsharma@rediffmail.com    &nbsp;   
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+       I had an interview with the client yesterday in morning at 8:00 am. I was having my flight to india at 5:00pm and was suppposed to leave for airport at 12:30 pm. Just before I was going to call for a cab at about 12:00 o'clock I got a call from the engagement manager that I have been selected for this project and I have to move to dallas in couple of days. Now everything was packed and I was ready to go so I had to unpack some of stuff. And as it goes i will have to stay here in Kenosha for another couple of days. About this project, this is going to be a challenging one in the sense that I am only resource from Infosys and we will be looking to create an impression so that we can penetrate more into this account.  The other four people who were interviewed were not selected by the client so this is going to be a one man show for some time now.Dallas is a big city and am looking forward to that now. To find out about Dallas I have checked following portal,  urlLink  City of Dallas Portal  . Also, I bought a laptop couple of days back from CompUSA, Chicago. It was a very good deal that I got so I finally bought it. Its an HP Pavillion zv34250 plus, 3.0 GHz Hyperthreaded, 512 MB (expanable to 2.0 GB) RAM, 60 GB Hard disk, WIFI enabled 54g (802.11g/b), One Firewire port (IEEE 1394), DVD +/ CDRW and 15.4'' WXGA screen machine with decent speakers. I guess thats it for now. Till the next log byeeeee.    Neeraj Sharma     
+    
+    
+</post>
+
+
+</Blog>

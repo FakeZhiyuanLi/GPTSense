@@ -1,0 +1,1 @@
+Regulatory regions can be found in the DNA sequence of genes. These regions are typically located upstream or downstream of the coding sequence and include promoter regions, enhancers, and silencers. They play a critical role in regulating gene expression by controlling when and where the gene is transcribed.

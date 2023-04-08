@@ -1,0 +1,64 @@
+<Blog>
+
+<date>25,May,2004</date>
+<post>
+
+	 
+       urlLink Bad Attraction  is a song by  urlLink Brad Sucks . You can listen to a  urlLink 64 kbps preview  (the preview is licensed under a  urlLink CC license ). If you like it, you can buy the full-quality version (192 kbps). I did it, I bought a copy of the song through  urlLink FAIRCOPY , and now I am authorized to distribute  urlLink EFC files  of the song.  If you have a P2P client that supports  urlLink magnet links  (like  urlLink Limewire  or, if you're on a Mac, I think  urlLink Acquisition  is a better option as it has a much nicer look), click the following link to download an EFC file containing the encrypted song. If I'm online and sharing the file at the moment, then it will be downloaded from my computer (and I will get a commission if you buy the song), otherwise your P2P client won't find the file, and you'll have to go to FAIRCOPY's website to get it (and I won't get any commission :-( . To buy and decrypt the file you have to register at  urlLink FAIRCOPY's website  and use its FCTool software.   urlLink magnet:?xt=urn:sha1:AWKSL67P44TGJ6TRADJN34PJUA7X4AM5&dn=Brad_Sucks_-_Bad_Attraction.mp3.EFC&xs=http://62.57.153.21:6346/uri-res/N2R?urn:sha1:AWKSL67P44TGJ6TRADJN34PJUA7X4AM5 
+     
+
+    
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+	 
+      "Mondo y lirondo" is a Spanish expression for "pure and simple".
+     
+
+    
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+	 
+      1. loc. adj. coloq. Limpio, sin añadidura alguna.
+     
+
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+	 
+      The author of  urlLink sharph.net  thinks that FAIRCOPY won't catch on. He  urlLink argues  that the service defeats the purpose of P2P for people that want to find new music because they can't listen to it. I think that's not correct, because it's possible to offer a, possibly lo-fi,  urlLink Creative Commons (CC) -licensed free sample, while selling the hi-fi version. As an example,  urlLink Brad Sucks   offers CC-licensed 64 kbps MP3s of his songs while selling the 192 kbps MP3, as you can see  urlLink here .  The CC license allows to share this 64 kbps sample on P2P networks, and I think 64 kbps is enough to find out if you like the song, and that if you like it then you'll want to buy the 192 kbps version. So people will still be able to find and listen to new music through P2P.  Note that in FAIRCOPY, the author decides not only the sale price and distributor commision, but also the free sample, the license, and the format of the work on sale, so the previosly mentioned bitrates and licenses were used only as examples. Thus, the free sample could be a 30s. clip, or the entire song at 40, 64, 96 or 128 kbps, or... whatever, because the author can also upload a file that will be used as a sample. As for the sample license, the author can choose between 2 CC licenses and another, more restrictive license. And the author also decides the format of the work on sale, so in the case of a music work, it can be not only MP3, but also  urlLink FLAC ,  urlLink Ogg Vorbis  or whatever.
+     
+
+    
+</post>
+
+<date>19,June,2004</date>
+<post>
+
+	 
+      I've read this interesting  urlLink talk about copyright, technology and DRM  that Cory Doctorow gave to people at Microsoft. I agree with him in general, although, in my opinion, the following paragraphs could take readers to wrong conclusions about DRM as related to  urlLink FAIRCOPY  (disclosure: I'm the founder/developer/... of FAIRCOPY) :     Cryptography -- secret writing -- is the practice of keeping secrets. It involves three parties: a sender, a receiver and an attacker (actually, there can be more attackers, senders and recipients, but let's keep this simple). We usually call these people Alice, Bob and Carol.  (...)  In DRM, the attacker is *also the recipient*. It's not Alice and Bob and Carol, it's just Alice and Bob. Alice sells Bob a DVD. She sells Bob a DVD player. The DVD has a movie on it -- say, Pirates of the Caribbean -- and it's enciphered with an algorithm called CSS -- Content Scrambling System. The DVD player has a CSS un-scrambler.  Now, let's take stock of what's a secret here: the cipher is well-known. The ciphertext is most assuredly in enemy hands, arrr. So what? As long as the key is secret from the attacker, we're golden.  But there's the rub. Alice wants Bob to buy Pirates of the Caribbean from her. Bob will only buy Pirates of the Caribbean if he can descramble the CSS-encrypted VOB -- video object -- on his DVD player. Otherwise, the disc is only useful to Bob as a drinks-coaster. So Alice has to provide Bob -- the attacker -- with the key, the cipher and the ciphertext.  Hilarity ensues.  DRM systems are broken in minutes, sometimes days. Rarely, months. It's not because the people who think them up are stupid. It's not because the people who break them are smart. It's not because there's a flaw in the algorithms. At the end of the day, all DRM systems share a common vulnerability: they provide their attackers with ciphertext, the cipher and the key. At this point, the secret isn't a secret anymore.     I would like to comment on this because  urlLink some people erroneously think that FAIRCOPY uses DRM . What Cory  describes is not necessarily DRM. In my opinion, to qualify as DRM the technology should try to control the use of the DRM-protected work after you have bought it. This is certainly the case for digital downloads of songs provided by some services that try to stop you, by means of DRM technology, from burning them into CDs or sharing them with other people (songs can only be played on your hardware or on a limited number of devices).   FAIRCOPY's use of ciphering matches Cory's description of the application of ciphering to DRM, but FAIRCOPY's use of ciphering is clearly not DRM because it's only used to prevent people from accessing the content of a sharable  urlLink EFC file  without paying, but once you have paid, you get the content without any protection, there's no technology trying to control the use of the work that you bought (although there's an economical incentive for sharing the EFC files that hopefully will be more effective at stopping people from sharing the decrypted work than any technology).  
+     
+
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+	 
+      Reuters:  urlLink European Copyright Clock Ticking on Elvis 
+     
+
+    
+</post>
+
+
+</Blog>

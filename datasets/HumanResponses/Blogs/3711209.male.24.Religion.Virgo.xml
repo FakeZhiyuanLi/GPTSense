@@ -1,0 +1,112 @@
+<Blog>
+
+<date>22,June,2004</date>
+<post>
+
+    
+       The function or purpose of Internet Protocol is to move datagrams through an interconnected set of networks.  This is done by passing the datagrams from one internet module to another until the destination is reached.  The internet modules reside in hosts and gateways in the internet system.  The datagrams are routed from one internet module to another through individual networks based on the interpretation of an internet address.  Thus, one important mechanism of the internet protocol is the internet address.    In the routing of messages from one internet module to another,datagrams may need to traverse a network whose maximum packet size is smaller than the size of the datagram.  To overcome this difficulty, a fragmentation mechanism is provided in the internet protocol.   
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+           It sends this datagram and the local network address to the local network interface.      The local network interface creates a local network header, and attaches the datagram to it, then sends the result via the local network.      The datagram arrives at a gateway host wrapped in the local network header, the local network interface strips off this header, and turns the datagram over to the internet module.  The internet module determines from the internet address that the datagram is to be forwarded to another host in a second network.  The internet module determines a local net address for the destination host.  It calls on the local network interface for that network to send the datagram.      This local network interface creates a local network header and attaches the datagram sending the result to the destination host.      At this destination host the datagram is stripped of the local net header by the local network interface and handed to the internet module.      The internet module determines that the datagram is for an application program in this host.  It passes the data to the application program in response to a system call, passing the source address and other parameters as results of the call. Application                                           Application    Program                                                   Program          \                                                   /              Internet Module      Internet Module      Internet Module                  \                 /       \                /                         LNI-1          LNI-1      LNI-2         LNI-2                           \           /             \          /                              Local Network 1           Local Network 2                                          Transmission Path                                  Figure 2   
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+        The following diagram illustrates the place of the internet protocol in the protocol hierarchy:                   +------+ +-----+ +-----+     +-----+                    |Telnet| | FTP | | TFTP| ... | ... |                    +------+ +-----+ +-----+     +-----+                          |   |         |           |                            +-----+     +-----+     +-----+                         | TCP |     | UDP | ... | ... |                         +-----+     +-----+     +-----+                            |           |           |                            +--------------------------+----+                       |    Internet Protocol & ICMP   |                       +--------------------------+----+                                      |                                          +---------------------------+                           |   Local Network Protocol  |                           +---------------------------+                             Protocol Relationships                                 Figure 1.    Internet protocol interfaces on one side to the higher level host-to-host protocols and on the other side to the local network protocol.  In this context a "local network" may be a small network in a building or a large network such as the ARPANET.     The  model of operation for transmitting a datagram from one application program to another is illustrated by the following scenario:      We suppose that this transmission will involve one intermediate gateway.      The sending application program prepares its data and calls on its local internet module to send that data as a datagram and passes the destination address and other parameters as arguments of the call.      The internet module prepares a datagram header and attaches the data to it.  The internet module determines a local network address for this internet address, in this case it is the address of a gateway.     
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+       The internet protocol implements two basic functions:  addressing and fragmentation.    The internet modules use the addresses carried in the internet header to transmit internet datagrams toward their destinations.  The selection of a path for transmission is called routing.    The internet modules use fields in the internet header to fragment and reassemble internet datagrams when necessary for transmission through "small packet" networks.    The model of operation is that an internet module resides in each host engaged in internet communication and in each gateway that interconnects networks.  These modules share common rules for interpreting address fields and for fragmenting and assembling internet datagrams.  In addition, these modules (especially in gateways) have procedures for making routing decisions and other functions.    The internet protocol treats each internet datagram as an independent entity unrelated to any other internet datagram.  There are no connections or logical circuits (virtual or otherwise).    The internet protocol uses four key mechanisms in providing its service:  Type of Service, Time to Live, Options, and Header Checksum.    The Type of Service is used to indicate the quality of the service desired.  The type of service is an abstract or generalized set of parameters which characterize the service choices provided in the networks that make up the internet.  This type of service indication is to be used by gateways to select the actual transmission parameters for a particular network, the network to be used for the next hop, or the next gateway when routing an internet datagram.    The Time to Live is an indication of an upper bound on the lifetime of an internet datagram.  It is set by the sender of the datagram and reduced at the points along the route where it is processed.  If the time to live reaches zero before the internet datagram reaches its destination, the internet datagram is destroyed.  The time to live can be thought of as a self destruct time limit.  
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+       This document specifies the DoD Standard Internet Protocol.  This document is based on six earlier editions of the ARPA Internet Protocol Specification, and the present text draws heavily from them.  There have been many contributors to this work both in terms of concepts and in terms of text.  This edition revises aspects of addressing, error handling, option codes, and the security, precedence, compartments, and handling restriction features of the internet protocol.  The Internet Protocol is designed for use in interconnected systems of packet-switched computer communication networks.  Such a system has been called a "catenet" [1].  The internet protocol provides for transmitting blocks of data called datagrams from sources to destinations, where sources and destinations are hosts identified by fixed length addresses.  The internet protocol also provides for fragmentation and reassembly of long datagrams, if necessary, for transmission through "small packet" networks.   
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+         TCP is based on concepts first described by Cerf and Kahn in [1].  The TCP fits into a layered protocol architecture just above a basic Internet Protocol [2] which provides a way for the TCP to send and receive variable-length segments of information enclosed in internet datagram "envelopes".  The internet datagram provides a means for addressing source and destination TCPs in different networks.  The internet protocol also deals with any fragmentation or reassembly of the TCP segments required to achieve transport and delivery through multiple networks and interconnecting gateways.  The internet protocol also carries information on the precedence, security classification and compartmentation of the TCP segments, so this information can be communicated end-to-end across multiple networks.                             Protocol Layering                          +---------------------+                         |     higher-level    |                         +---------------------+                         |        TCP          |                         +---------------------+                         |  internet protocol  |                         +---------------------+                         |communication network|                         +---------------------+                                  Figure 1    Much of this document is written in the context of TCP implementations which are co-resident with higher level protocols in the host computer.  Some computer systems will be connected to networks via front-end computers which house the TCP and internet protocol layers,as well as network specific software.  The TCP specification describes an interface to the higher level protocols which appears to be implementable even for the front-end case, as long as a suitable host-to-front end protocol is implemented.  
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+        Computer communication systems are playing an increasingly important role in military, government, and civilian environments.  This document focuses its attention primarily on military computer communication requirements, especially robustness in the presence of communication unreliability and availability in the presence of   congestion, but many of these problems are found in the civilian and government sector as well.    As strategic and tactical computer communication networks are developed and deployed, it is essential to provide means of interconnecting them and to provide standard interprocess communication protocols which can support a broad range of applications.  In anticipation of the need for such standards, the Deputy Undersecretary of Defense for Research and Engineering has declared the Transmission Control Protocol (TCP) described herein to be a basis for DoD-wide inter-process communication protocol standardization.    TCP is a connection-oriented, end-to-end reliable protocol designed to fit into a layered hierarchy of protocols which support multi-network applications.  The TCP provides for reliable inter-process communication between pairs of processes in host computers attached to   distinct but interconnected computer communication networks.  Very few assumptions are made as to the reliability of the communication protocols below the TCP layer.  TCP assumes it can obtain a simple,potentially unreliable datagram service from the lower level   protocols.  In principle, the TCP should be able to operate above a wide spectrum of communication systems ranging from hard-wired connections to packet-switched or circuit-switched networks.  
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+       This document describes the DoD Standard Transmission Control Protocol(TCP).  There have been nine earlier editions of the ARPA TCP specification on which this standard is based, and the present text draws heavily from them.  There have been many contributors to this work both in terms of concepts and in terms of text.  This edition clarifies several details and removes the end-of-letter buffer-size adjustments,and redescribes the letter mechanism as a push function.  
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+        This User Datagram  Protocol  (UDP)  is  defined  to  make  available  a datagram   mode  of  packet-switched   computer   communication  in  the environment  of  an  interconnected  set  of  computer  networks.   This protocol  assumes  that the Internet  Protocol  (IP)  [1] is used as the underlying protocol.  This protocol  provides  a procedure  for application  programs  to send messages  to other programs  with a minimum  of protocol mechanism.  The protocol  is transaction oriented, and delivery and duplicate protection are not guaranteed.  Applications requiring ordered reliable delivery of streams of data should use the Transmission Control Protocol (TCP) [2].   
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+       This is an experiment in trying to classify the RFCs. There are two different attempts here, the generalized approach and the specific protocol approach. This page is the generalized approach. It is a crude attempt to automatically categorize the RFCs by keywords. It is far from perfect as seen by the large number of Unclassified RFCs listed below.  The specific protocol approach can be seen by looking at the ftp-rfcs.html page. This type of page takes more care and feeding to keep accurate but it is much more useful to the community. If you would like to adopt a protocol and develop/maintain a specific protocol page, please let us know at adopt-a-protocol@faqs.org As always, suggestions and ideas are appreciated. Please send them to rfc-admin@faqs.org.   
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+       The copyright for the description of each product is held by the producer or distributor of the product or whoever it was who supplied the description for the FAQ, who by submitting it for the FAQ gives permission for the description to be reproduced as part of the FAQ in any of the ways specified in part 1 of the FAQ.   This is part 6 (of 7) of a monthly posting to the Usenet newsgroup comp.ai.neural-nets. See the part 1 of this posting for full information what it is all about.  
+    
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+    
+       I'll show you how exciting the next generation network is! 
+    
+    
+</post>
+
+
+</Blog>

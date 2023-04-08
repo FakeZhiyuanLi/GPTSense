@@ -1,0 +1,31 @@
+<Blog>
+
+<date>21,August,2004</date>
+<post>
+
+     
+      I've squeezed in a hit counter before we move over to the next development version - your BlogPet now counts how many visitors it has met! It will tell everyone when first clicked on, and will continue conversation as normal.  Let us know what you think... 
+     
+    
+</post>
+
+<date>21,August,2004</date>
+<post>
+
+     
+      We've found a few bugs over the last couple of days which are on the list to be fixed (thanks to everyone who helped test). Next bugfixes will be:   "domain . com" and "www . domain . com" will create separate pet personalities for the same domain name  Pet does not check if site is hosted with Blogger - it just assumes  When users test their new pet (through the Blogger interface, or from a locally-held web page) it screws the database up a bit  Scrolling text flickers in Mozilla/Firefox  Some CSS commands elsewhere in the document will override pet settings, causing strange text attributes   Plus some good new features coming soon:   Better AI, understanding of posts and comments  Recognition of people, profiles, who likes who, etc  Linking of blogs and profiles between pets, so your pet will talk about your friends' blogs too (if they have a pet)  Moving over to the Atom API for better blog interaction and support for services other than Blogger   There are some features I'd like to add later on, but this will require user signup rather than just copying-and-pasting a bit of script. These can wait, perhaps for a version 2.  Also I've moved the web site over to another space (still available from  urlLink http://www.devirc.org/blogpet/ ) so that other team members can tweak the development code ready for a new release.  Bug fixes are on their way... 
+     
+    
+</post>
+
+<date>21,August,2004</date>
+<post>
+
+     
+       This is the official weblog for the Blog Pet project. We've developed this cool little gizmo that you can install from  urlLink here  that creates a tiny pet on your Blogger.com blog! Oh yes sir.  It's packed full of features, and best of all its completely free. You just copy a bit of code into your template and you're automatically created a pet that you own. Nurture it, love it, say nice things in your blog and it will love you forever.  BlogPet reads your blog when you post, when others post, and when others comment. It understands the moods people are in, and the happier people are on your blog, the happier your pet! Of course an evil blog could lead to an equally evil pet... 
+     
+    
+</post>
+
+
+</Blog>

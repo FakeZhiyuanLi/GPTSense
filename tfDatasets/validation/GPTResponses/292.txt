@@ -1,0 +1,1 @@
+Gary Kildall did not clone anything to create CP/M. Instead, he developed CP/M (Control Program for Microcomputers) from scratch as an operating system for microcomputers in the late 1970s. However, CP/M was influenced by earlier operating systems such as DEC's RT-11 and IBM's DOS/360.

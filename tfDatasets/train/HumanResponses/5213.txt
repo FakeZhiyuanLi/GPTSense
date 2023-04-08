@@ -1,0 +1,1 @@
+can anybody tell me why the hell it takes so long to set an identity insert property to false? it is 5:30 in the morning and i am about ready to launch a server over the balcony onto the parking lot. have a nice day.

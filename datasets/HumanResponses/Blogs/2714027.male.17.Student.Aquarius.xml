@@ -1,0 +1,893 @@
+<Blog>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+      We launch tomorrow, and here's a quick list of what I need to do before the changeover, just for my reference:    ~ PSP and DS galleries and fact sheet features.  ~ Forum colours and logo need changing.  ~ A few news items and reviews also need adding to the database.  ~ Everything must be backed up!!!    After the site launches, I'm basically going to check it over and over, responding to any bugs that appear. Fingers crossed!        
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+	 
+      * Others pages content; staff list html example, privacy policy, about, contact, FAQ, credits, etc. *  done  *    * Features for PSP, DS; picture galleries, specs, etc.    * Retro content; reviews and introduction *  in progress  *    * Forum images and colour changes    * Larytech advert for the new site  *done*     * Content Management System example pages in normal html 
+    
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+	 
+      The first version of viewreview for t6 is up now, so the links from the index work. It's only a matter of cut 'n' pasting to get the other viewblah.php's working too.   Because Phil's going on holiday (alright for some ;) I'm going to really push to get most of the display end done before the end of Sunday.&nbsp;I've done this by refusing many an offer of a good time this weekend.   T6 is worth it though - ;) 
+    
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+	 
+      This is an updated list of what needs doing:   Sort out the template page. *done* Sort out the index template. *done* Program the different index pages to display the correct items. *done* Code up the viewnews, viewpreview, viewreview and viewfeature pages.*in progress* Program the news, previews, reviews and features index pages (the list ones). Design and code the retro section. Design and code the others section, including staff pages. Test it all and make sure it works. Design and build the content management system. Make sure that works. Alter the forum layout and graphics. Close down the site for a weekend, move al the new files across and optimise the database so that it functions like the development one. 
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+	 
+      right - fixed the right column thing (yay!) which took AGES of trawling through the html. I only ever code using a text editor (old school) so it's always a pain fixing html artists have put together   still - done it now :)   will do the date thing tomorrow and start on a few more...
+    
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+	 
+      An entry on his behalf:  Today I did the following    1) Put all the links into place on the index.php. At the moment they point to imaginery pages, but they'll come next :)  2) Created an index copy called subindex.php with the querystring 'platform=' Now the console menu's work - subindex filters through all the query's and just picks the ones with the relevant console.   i.e. http://server1.larrytech.biz/~thunder6/subindex.php?platform=PS2
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+	 
+      This is a list of what needs doing:  Sort out the template page. *done* Sort out the index template. *in progress* Program the different index pages to display the correct items. *in progress* Code up the viewnews, viewpreview, viewreview and viewfeature pages.  Program the news, previews, reviews and features index pages (the list ones).  Design and code the retro section.  Design and code the others section, including staff pages.  Test it all and make sure it works.  Design and build the content management system.  Make sure that works.  Alter the forum layout and graphics.  Close down the site for a weekend, move al the new files across and optimise the database so that it functions like the development one. 
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+      Have done one of the index pages (which you can look at if you like in the T6 directory as index.php)  Will be sorting the rest out later this week...
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+      I've created all of the small img images that are needed. Those images are the ones that accompany articles in the 'latest article' columns. The images aren't uploaded just yet, but will be soon.  Jim reckons that all the index pages will be done by Sunday as well.
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+	 
+      I wrote up some of my project today for school (which is V6 basically) and have started creating the images for each game which will go in the latest articles menus and the top story box.
+    
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+	 
+      Hey - I'm just joining in now, right here. Um, so far we've done the following.  1) Constructed the template document which dynamically creates the front page links and menus from mysql db entries (in a table a_menu)  2) Phil's mapped out a load of things he wants doing, and the order in which he wants them doing. Now it's just all about finding the time to do them.  Our deadline is 'officially' the end of this month for the front end, and then i can work on a new, wizzy admin section while Phil's on holiday.    
+    
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+	 
+      This is a blog dedicated to the development of Version 6 of Thunderbolt - www.thunderboltgames.com - and is purely for communication between developers.
+    
+</post>
+
+
+<date>31,January,2004</date>
+<post>
+
+	 
+      A quick entry before I go to work. I bought my Playstation 2 Network Play adapter 4 months ago, but the access codes didn't work and I phoned Sony up. They told me that the publisher created duplicates of the unique access codes (how thick do you get?!) and that they would send me new ones within 28 days. But I got no access codes, so I phoned them again today. I resisted the temptation to have a go at them and tell them just how utterly crap PS2 online is and how the Xbox support line is so much better, but I may just do next time if they don't arrive.  I also wanted to cancel my Official PS2 Mag susbscription, because it reads like a book covered in poo when compared with the sublime EDGE. However, their offices were closed even though I read that they were open on Saturdays, so I'll have to phone them on Monday. I just can't wait until they ask me why I'm cancelling the subscription... 
+     
+    
+</post>
+
+<date>30,January,2004</date>
+<post>
+
+	 
+       Muse 's song pretty much sums up my life right now. I have too many things to do and not enough time. Too many books and magazines to read. Too much homework to do. Too many websites to design. Too many forums to check every day. Not enough damn time! Or maybe I have the time, but don't use it well - that's what I'm starting to think. The trouble with me is that once I get stuck into something, I lose track of the time and the hours fly by. I really should manage my time better.  That's enough use of the word 'time' for today, thanks. On a different note, it's finally the weekend! Horray! Things to do over the two days? 1) work 2) finish the review I'm working on 3) do some work on my Computing coursework 4) do some homework for a change 5) install driving test program 6) phone Sony up and have a go at them for being outstandingly lazy 7) cancel my PS2 magazine subsciption and get a decent one. Well, that's the theory anyway! I know I'll probably waste saturday by waking up at 10:30 and then spending the rest of the day at work.   I must manage my time better I must manage my time better I must manage my time better I must manage my time better I must manage my time better 
+     
+    
+</post>
+
+<date>28,January,2004</date>
+<post>
+
+	 
+      Yes, this is like 3 seconds after my last post, but I just got an email that was really strange. This is when spammers get illiterate! (or use Google Translator)   Get the most out of your lotve lirfe. Orsder your Voiagfra and Ssupper Vioagfra saxfely and securkely onlifne.   Cinaluis (Surper Vibacgra) takes affkect rigpht away and lamsts for danys!  Efntier Heare  Uynsukbscrmibe  becky henchmen indiscernible degas diethylstilbestrol microfiche peremptory ambient goldeneye horatio inaccuracy  gauche negroes hippo fully gypsite airfield gravy chutney companionway holmium polynomial esquire hispanic nullstellensatz bear heuser analysis patina bookie  gunflint immersion immediacy flick find hormone demit regulate nightingale phalarope postposition secular cotta holcomb essay de aggravate aquarius aim retrogressive monetary coil grope intoxicate colatitude appointe alabaster inertance monologue brine bellingham arrest  posy percival backpack gaslight anatole antiquarian braun immunization forbade exploit fibrosis coverall eidetic choctaw bowditch clung chop bureaucrat holdover batt functionary barnhard caretaker rafael presuming cowgirl hickman allow denver hellebore denudation explode inelastic duke fierce electra fiancee proportion gabbro beneficiary  pusey nazism berg pegasus hearst increment inadequate bruegel jed griswold covariate fount plane amoco classmate monongahela dahomey procedure secrete kiss estuarine fragile athletic question carthaginian  colombia protozoan pressure epitaxy cotty cuprous bradford baby hitchcock certitude sidestep incurrer brew profundity bludgeon electrophoresis bluebill gland grata preference sewage kellogg resume faithful barnacle occupation diatribe precinct culpa dairyman anthropology blythe inflicter kensington ocarina demonstrate oligarchy exodus  hall rainbow dressy blimp brazen allergy committeewoman glucose fossiliferous downslope fiance garlic cloister clown hysteria remission euclidean amphetamine flight physiology amort puddle l'vov bianco gnarl claustrophobia galloway nitty  flo retardation chlorophyll daffodil delinquent middleweight priori bottle erasable hanover electrolytic fringe  citizenry dying cab convalescent adore chimera arisen holocaust patrimony boule olson seagull hank britten oil christina paralysis  aphelion botfly excretory gregory plasm newel edmund arcturus applause lettermen girth borderline joy fireboat imputation fiddle 
+     
+    
+</post>
+
+<date>27,January,2004</date>
+<post>
+
+	 
+      When I woke up this morning I was greeted by a blanket of snow outside the window! Such a rarity in our crazy British climate. It was over one month late, but at least it was Christmas quality snow; nice and thick, like you can roll it into snowballs.  Talking of snowballs, one of our teachers was telling off some 12 year olds for throwing them at each other, saying, "I don't expect this behavior!". I just thought, "What? You don't expect 12 year olds to throw snowballs at each other on the first day in like 100 when it's snowed? Get real!"  Well I'm feeling  really  hungry right now, so I have to go otherwise my stomach will implode or something. Maybe.
+     
+    
+</post>
+
+<date>27,January,2004</date>
+<post>
+
+	 
+      3:02pm -  Norton Antivirus has quarantined the following files: test.exe, hi.txt  3:07pm -  Norton Antivirus has quarantined the following files: test.exe, hi.txt  3:12pm -  Norton Antivirus has quarantined the following files: test.exe, hi.txt  3:33pm -  Norton Antivirus has quarantined the following files: test.exe, hi.txt  3:45pm -  Norton Antivirus has quarantined the following files: test.exe, hi.txt    SOD OFF!!!   Don't people have anything else better to do than create stupid viruses and spam them round the net? Sheesshh...  Anyway, today was a pretty crappy day; I woke up with a stomach ache and it continued to bug me throughout the day, so much that I went home from school at 11am. Time was not wasted though, as I managed to play a decent amount of  Urban Freestyle Soccer , which I'm currently reviewing. I'm pleased with the huge number of applications for moderator and developer positions at Clan Recruiter; it proves to me that it is indeed a great idea, something that people  want . Rock.
+     
+    
+</post>
+
+<date>26,January,2004</date>
+<post>
+
+	 
+      I got the chance to go through a whole load of university guides and prospectuses today at school. I'm trying to create a list of potential places to study at and what courses might be suitable. So far, my favourite seems to be a BSc in Applied Computer Science at Reading, but I haven't even looked at half the courses available. Reading would be great because it's so near to a load of technology companies including Microsoft =)  I've also managed to raise my first lump of money for my gap year, but it's only a tiny slice of what I need to save. You'd probably fall out of your seat if I told you how much I need! I'm also setting myself up as a computer specialist, selling web design, PC cleanup and advice so that I can earn even more money. If Clan Recruiter goes as well as I'm hoping, then it'll be sooo much easier due to the amount that that will bring in.  Well TV calls and I can't think of much else to write, so that is all for today.
+     
+    
+</post>
+
+<date>25,January,2004</date>
+<post>
+
+	 
+      A busy but tiring weekend. On Saturday, I had the day off work so I aimed to do some homework, but being me I did none. Lazy lazy. We did go and buy a new car though, a VW Touran which is a MPV (like a Scenic) for my Dad. My driving lessons are being booked very soon, and we managed to find a cheap-ish way of insuring me. Also wrote up a new press release for Clan Recruiter which I'll release tomorrow morning.  Today I was in town at a Young Enterprise trade fair, helping out on  urlLink my company 's stall. Very tiring, all that standing up - my back is crying out in agony! We looked good on our stall with our colour coordination and display stand, but only made a dismal £5, if that, from Valentines cards. There's just not enough love in the world these days.  In between shifts, I took the chance to browse around town, something I rarely do because of the wonders of internet shopping. I went into GAME, where the sale prices nearly tempted me into buying something (I remembered about the game I had to review and the lack of time on my hands). It was also disappointing to see so many copies of  Enter The Matrix  in the 'preowned' section - am I the only person who liked it? Ourprice was closing down and the only stock left was the really crap DVDs and videos that you've never heard of before. I have no idea why they're going out of business, considering the wealth of people round here. Maybe the competition with HMV downstairs was the reason.  Well another week approaches, and that means more work and more stress. I guess I shouldn't really be so pessimistic, considering the millions of people who don't have running water, live in overcrowded and dirty areas, survive on little food and have AOL dial-up. I must learn to look on the bright side of things more.
+     
+    
+</post>
+
+<date>23,January,2004</date>
+<post>
+
+	 
+      At last the week is over! Today was a pretty average one as days go. Got up this morning later than I should, got onto the bus half-asleep and off to school. Sat around in Computing trying to work out how on earth to do this stupidly complex task we've been set, then had a free period, then Statistics - officially the most boring subject in the world. The afternoon was just as exciting, with Geography and Physics, then CCF (army cadet force thingy). Forgot my bus fare, so walked a mile to a mate's house where my Dad picked me up. Apparently the cost of insurance on my car will be about £2000, which sucks and puts in doubt whether I'll actually be able to drive after I pass my test. Damn. Oh well, at least I've got tomorrow off work...
+     
+    
+</post>
+
+<date>21,January,2004</date>
+<post>
+
+	 
+      Another day with two entries I know, but I'm really starting to like this blog thing!  Sometimes I have nothing to read except magazines, but now I have far too many books lying around than there is time to read. I'm ploughing through the fifth  Harry Potter  book - a mammoth piece - for the second time, with my latest EDGE magazine fighting for my attention as well. Waiting in the wings are the  Virgin Alternate Guide to Universities ,  The Ultimate History of Videogames  and  Driving: The Essential Skills . With only up to an hour a day set aside to read this lot, it's going to take aaaaggggeeessss!
+     
+    
+</post>
+
+<date>20,January,2004</date>
+<post>
+
+	 
+      It amazes me how many people's home PCs are seriously screwed up. The places they buy them from and the stuff they put on them is just asking for trouble. Take a look at this concotion:   Take one Packard Bell PC from a highstreet computing store, PC World for example. Mix in a generous helping of preloaded adverts, trial versions of software and ISP demos. Add in Kazaa Media Desktop and stir for 5 minutes. Introduce an AOL subscription and sprinkle with multiple antivirus software. Don't update your drivers, that will spoil the taste. Let it brew for a few months then serve piping hot.   But seriously, it frustrates me immensely to see endless families hoodwinked into buying PCs from highstreet shops which are loaded with crap from the word go. They put on AOL and Kazaa and then they whine when it all screws up.  I went round to a mate's house yesterday because he mentioned that Halo wasn't running so well. The PC spec was excellent, but it just wasn't playing as good as it should. Guess what it was though - a  Time  computer filled with AOL, Kazaa and loads of random antivirus and adware stuff! I'm sure I could charge people to clean up their PCs. Now there's an idea...  Now I remember my resolution - not to be lazy. So here I am, sitting in Computing, not doing an impossible Visual Basic task set by some pompous director of Somethingorother Education Board. The worksheet in front of me demands that I get on with my work so until next time, stay safe and watch out for those  urlLink AOL CDs .
+     
+    
+</post>
+
+<date>20,January,2004</date>
+<post>
+
+	 
+      As a fan of the first two series of  24 , I was extremely disgruntled to find out that Sky One have outbid the BBC and now have the rights to the series. This means enduring a load of annoying adverts (DFS anyone?) just to watch my favourite program. Grr...
+     
+    
+</post>
+
+<date>20,January,2004</date>
+<post>
+
+	 
+      Well this is my first post on my first blog. I haven't done anything like this before, so I'm going to see how it goes and I'll keep updating it if I like the idea. So...  Well today was my 17th birthday, meaning that I can finally get out on the road driving. I won't be burning rubber today though, as my provisional license hasn't come through yet as a result of my laziness. Which brings me to my special 'birthday resolution'. I WILL NOT BE LAZY WITH HOMEWORK OR ANYTHING ELSE REQUIRING WORK!  Being 17 has also made me realise just how close I am to being flung out into the real world. In only 20 month's time, I'll have finished school and will hopefully be off on a 10 month holiday around the world. After that it'll be off to university, and then out on my own in the crazy world of work and careers. Doesn't time fly?
+     
+    
+</post>
+
+<date>27,February,2004</date>
+<post>
+
+	 
+      What is wrong with the weather at the moment?!? Anyway, the holidays are drawing to a close and I feel like I've achieved nothing. It seems to happen every holiday; you think "Ooh, I'll be able to do that and that and that", but you never get round to doing it. Maybe I should just approach holidays with the aim of doing nothing, and then I'll somehow do lots of stuff. Hmm...  Recently I've been trying to hold off buying things, snice I'm saving up for my gap year. I did pre-order  Battlefield Vietnam  a couple of days ago, but I know I'm going to play it, so I think that's justified. I've resisted the temptation of the  24 Series 2  DVD boxset on the grounds that it'll take 18 hours to watch and I could be doing loads of other stuff during that time.  Well I'm going to cut this entry short because I'm being repeatedly harassed by my cat for food. I'm afraid that he may pee on my keyboard or something if I don't go off and feed him!
+     
+    
+</post>
+
+<date>23,February,2004</date>
+<post>
+
+	 
+      Well I'm bored. An interesting TV program is on in 15 minutes, but apart from that, I'm just going to sit here, type this and be bored. I should be revising for a test I've got tomorrow and I could play a game, but I can't be bothered. Don't ask me why, I just don't know. I'm sure everyone has these moments where they've got stuff they could be doing, but instead choose to just waste time not being bothered. Then you think "GET UP AND DO SOMETHING LAZY!" and eventually you'll move from your seat and sit around somewhere else. And eat. Then sleep. You know, that's what a hamster's life must be like. You wake up, you eat a bit, then move around the same old cage, then sleep. That's it.  But then again, would you really want to be a hamster? I mean, you only live a couple of years and you never get to play  Halo  unless you're especially gifted. You probably wouldn't meet any fellow rodents and about 66% of your life would be spend asleep. Better than koalas though, they spend  22  hours a day asleep. Quite an achievement really.  Enough writing for today. I'm going to go and do something other than sit around because I'm not a hamster or a koala and I can.
+     
+    
+</post>
+
+<date>20,February,2004</date>
+<post>
+
+	 
+      Well, for 10 days anyway. Half-term is a nice little break giving us an opportunity to have a rest and put our feet up. I had my second driving lesson today. I nearly drove in front of a bus, but otherwise I learnt a lot. There was more to take onboard this time round, as we did several circuits of the village, even going up into 4th at 60mph down the by-pass (wow!). It got a little scary at some points, but I'm gradually learning to do some things without thinking about them. Next lesson is on Monday and then I've got one of Wednesday after that.  A couple of hours ago I went into town to set up a bank account for my gap savings. Ironically, you have to prove your identity via post or at the branch for an internet based account. I also picked up a nice new wallet to replace my old crappy Kangol one. While I was in town, I thought I'd pop into HMV and I had a brief look at the videogames...   £39.99!   How much?!? People in GAME were queuing up to pay hideous amounts for what were mostly crap games. Gulliblee sheep, the poor things. Buy games online at Amazon and you pay £10 less than in GAME. Plus you spend nothing on travel costs, you save time and you can compare prices instantly. Amazon practically offer a 'buy 3, get one free' offer if you add up the savings based on the price alone. When there are more people buying games online than in shops, it'll be a very interesting time for high street retailers, that's for sure.
+     
+    
+</post>
+
+<date>16,February,2004</date>
+<post>
+
+	 
+      Well, is it? I was thinking about this yesterday and it's still puzzling me. You see, I would define a computer game as 'an interactive piece of software developed for entertainment in which the user has control over something'. Now  Flight Simulator  seems to have been created as - unsurprisingly - a simulator, not for enjoyment. Its primary aim is to model real life like a military simulation or trainer, not as a game. Computer games are designed for fun, but is  Flight Simulator ? People get enjoyment out of it, but that doesn't qualify it as a game because it doesn't appear to be designed for that role. I'm not sure what I would do if I had to review it. What would I put for a gameplay score? "Uh, well, you can fly about and that's it. It's a fun as you want it to be to a certain extent."   Microsoft, who make it, seem to think that it's a game as their URL points out: microsoft.com/games/flightsimulator/, but are they kidding themselves? The product outline doesn't seem like that of a game!   *Dynamic weather system based on realistic atmospheric physics, with true three-dimensional clouds that form and dissipate, and automatic real-world weather updates when you're connected to the Internet.  *Weather “themes” that generate a wide variety of stunning—and challenging—flying conditions with just a few clicks of a mouse  *Enhanced interactive air traffic control (ATC), including traffic at all airports around the world (including non-towered airports), altitude changes en route, pop-up IFR clearances, and precision and non-precision approaches to multiple runways  *Interactive 3D “virtual” cockpits—tune radios and operate key aircraft controls and avionics by pointing and clicking in the virtual cockpit view.  *Scenery improvements, including taxiway and runway signs, enhanced auto-gen 3D objects, more high-detail airports, and improved lighting and sky effects  *Garmin 500 and 295 series GPS with color moving maps and airport/facility information  *Improved full-color map view with terrain display  *Improved support for 3D graphics hardware acceleration in multiple windows and across multiple monitors  *Learning Center--a “Web site on the disc” available while the simulation is running that includes a Key *Topics visual guide to the features in Microsoft Flight Simulator, direct links to flights and lessons, flight briefings, how-to procedures, aircraft handbooks, and more.  *New and expanded lessons and ground school topics  *Kiosk mode for unattended demonstrations    Sounds like a simulator with no added fun to me - "Kiosk mode for unattended demonstrations"?? That will be fun!  Well rant over, I'm tired and I'm off to bed.
+     
+    
+</post>
+
+<date>13,February,2004</date>
+<post>
+
+	 
+      Walking down into town after school today on my way home, I had a whole load of time to think about all sorts of things and that I did. Strolling down the road, I noticed a Porche 911 Turbo on my right - nice car. "One day", I thought, "I'll drive something like that." Fast and comfortable, something to be proud of; that would be great. "What else do I want out of life?" I pondered. "To settle down with a wife and a couple of kids, with a job that's well paid, rewarding and enjoyable." A tall order, you might think, but achievable. How I'll get there isn't quite so clear, but I will someday.  Onwards to the bus stop and walking through the main shopping area of the town I'm reminded that tomorrow is Valentines' Day.  Sex, love, hearts, red, flowers, buy this, buy that, consume, love, again, again, buy more, buy it now or you woun't get sex, love, hearts, flowers...  On and on, repeatedly. Now Valentines is a good idea, but the commercialisation of it all is too overwhelming for me.  Strolling on, I noticed a greasy-looking teenager walking towards me down the street. Dressed like a.....well, the looked like a prat, let's just say that.....and holding hi-fi on one shoulder with some crap 'music' blaring out at full volume, he was a reminder of what can happen if you don't aim high and work at achievieving your aims. Nike say 'Just Do It' and they're damn right. There are doers and there are talkers, and I'd like to think that I'm becoming more of a doer every day. 'Learning by doing' is also another favourite phrase that I've picked up and it couldn't be truer. 
+     
+    
+</post>
+
+<date>12,February,2004</date>
+<post>
+
+	 
+      I really should keep this thing updated, so here's the latest from the constantly interesting (yeah right!) world of me.  A couple of days ago - maybe it was yesterday, I'm not sure - when it was just getting dark outside, all the electrics went out. Now poercuts are usually not too bad, but when there's so little light that you can't even read a book to occupy yourself, it gets frustrating. There was just  nothing  to do except sit around in the dark, eating and waiting. We got the camping stove out of the loft (involving me freezing my nads off to get it) and we lit a few candles. It was like being in a 1940s air raid, except without all the bombs and killing and fear and all that out frivolous stuff. Anyway, it all came back on about 20 minutes later - horray! - but as soon as my PC had booted up, it all went off again - boo! I phoned up the electricity phone line and the pre-recorded message said that it would be fixed in 2 hours' time - damn. 20 minutes later, it came back on and stayed on; now that's what I call tech support (take note Sony).  Apart from that rather dismal event, this week has been dominated by the run up to Valentines' Day. I'm not expecting anything from anyone, although last year I did receive a card from someone in Wales, although I know no-one in Wales. Hmm... Exactly who "your secret admirer" is remains a mystery.  The week after next is half-term, a 10 day holiday - awesome. I can finaly do all the stuff that I never get time to do, like play console games casually wihtout having to review them, watch the occasional DVD whenever I feel like it because I have time and go into town as a shopper with the aim of buying things! Holidays just seem to get more precious as you get older...
+     
+    
+</post>
+
+<date>09,February,2004</date>
+<post>
+
+	 
+      I've got another graphics card for my PC so I can have a dual monitor setup. It's  really  strange having a desktop twice the width of your normal one! I've got two big ass beige (oh dear) 17 inch CRTs which look really geeky, but then again I'd rather save the money I'd spend on replacing them, on a gap year touring the world. It's definitely nice to have all the stuff like instant messengers and email assigned to one screen though, leaving plenty of room for other crap on your main monitor.  I also had my first driving lesson today, which was awesome. Driving seems to be so much easier than I imagined. I guess it's like anything new you try; once you get used to it, you're away (just like learning to ride a bike). I'm going to be having one or two lessons a week and hopefully I'll be alble to go for the full test in about 3 or 4 months' time (the waiting list is that long!)
+     
+    
+</post>
+
+<date>07,February,2004</date>
+<post>
+
+	 
+      Last night I finally finished reading the moster that is  Harry Potter and the Order of the Pheonix  and I'm starting to read  Wild Blue  by Stephen E. Ambrose, the guy who wrote  Band of Brothers . I spend almost all of today at work, which also happened to be the easiest day at work  ever . I spent 7 whole hours just painting stuff and watching it dry, being paid £4.10 and hour to do just that. Just under £30 to paint stuff - not too bad I guess. Tomorrow I'll probably have some homework I've forgotten about creep up on me and send me into a slight panic or something similar. Something to really look forward to is my first driving lesson on Monday - watch out Schumacher!
+     
+    
+</post>
+
+<date>06,February,2004</date>
+<post>
+
+	 
+      Sequels to the big blockbuster games are delayed so frequently that I don't think anyone really cares about them any more. They tell us that Halo 2 will be out at such a time, then delay it, then it'll be released in such a month, then they delay it again. They just keep raising people's hopes, then shooting them down. After a while, you just don't give a s***. You certainly won't find me drooling over  Half-Life 2  or  Halo 2  until they're coming out in a week's time.  Publishers should take a leaf out of J.K. Rowling's book. The  Harry Potter  books are  never  given a release date until about a month before launch. Sure, we wait a couple of years or more to get our hands on each book, but it's not an anticlimax and we never had our hopes up regarding the release date. It's like, "Next month? So soon?! I'll pre-order right now!". With  Halo 2  it'll be, "Yeah, I suppose I should go and get a copy, it might be an alright game". Moving around release dates takes all the fun out of waiting for stuff. So publishers, be vague and don't keep letting us down!
+     
+    
+</post>
+
+<date>04,February,2004</date>
+<post>
+
+	 
+      I really must try and keep this thing updated, otherwise I'll get out of the habit of doing it. So, Wednesday. It was a pretty normal day; went to school, did ass all, shot some targets and came home. Then in about 40 mins I'm off to  urlLink Young Enterprise  (a thing where people of my age get together and form a company, where we've got re-elections. The nerves are staring to creep in!  I also phoned up a travel agent for a quote on two round the world flight tickets for my gap year, which came to about £1100 each. That sounds a lot, but it's for the following flights: UK -> Sydney, Sydney -> Auckland, Auckland -> Vancouver, Toronto -> UK. Not bad, I thought. Plus I can also get 30% off the quoted price thorugh a friend, which will prove very useful with our ever-inflating costs. It'll be worth it though; I can't wait to phone home whilst standing on top of  urlLink Uluru !!
+     
+    
+</post>
+
+<date>30,March,2004</date>
+<post>
+
+	 
+      I've just had my first food in 24 hours and feel much better. Yesterday I threw up three times and felt s***, but managed to watch about seven episodes of  24 . Today I'm off school, so I'm just catching up with little bits of work and taking things easy. Maybe I'll write a review later as well. Oh, and I've noticed that Google has changed their layout....to look worse than before. Weird.
+     
+    
+</post>
+
+<date>29,March,2004</date>
+<post>
+
+	 
+      I've just woken up and it's still Monday. Earlier on today I felt ill while at school and came home, where I promptly slept. A happy bunny I am not.
+     
+    
+</post>
+
+<date>28,March,2004</date>
+<post>
+
+	 
+      Definitely time for an update, I haven't posted anything on here in a while. The last week has been as busy as usual really, with school work getting more and more demanding by the day with our major exams only a couple of months away. The thought of it alone scares the crap out of me! I'm taking Computing, Physics, Maths and Geography and I'm aiming to get A, B, A, A in those respectively. It's going to need a hell of a lot of revision though, and I picked up an interesting technique from someone else the other day. The guy told me that he'd revised Physics by recording himself saying the devinitions and then slept while listening to them. Sounds like a great, if undoubtedly weird idea.  A few days ago my dad brought a laptop home from work to use at home. They had enough for everyone to have them, so he took the chance to put his name down for one. It's a really nice one as well - 2.66Ghz, 512MB RAM, 60GB HD - and we've put in a wireless LAN card so that I can sit here now on the sofa we don't use much and write my blog, wire free. Well, except for the power lead because I don't want the energy hungry machine to shut down on me. I can see myself at university in a couple of years time, surfing the net wirelessly from some student building, chillin' with some friends after a long day's work. Isn't technology great?  The end of the week wasn't really a usual one. On Thursday evening I went out with my school's Army Cadet Force to a training area about 20 miles away. We did various exercises and then slept in a very cold wood on a hillside somewhere. It wasn't particularly enjoyable, but at least it didn't rain. During Friday, we did a few more exercises including minefield clearance and building a rope runway. Don't ask me why I do cadets, because I don't really know. It's a mixture of it looking good on my university application form and the strange appeal of going back to basics that keep me in it.  Saturday brought a wedding, one of my parent's best friends. The bride of about 30 is our hairdresser and the groom has worked with my dad for about ten years or more. It was an interesting service, with a few unusual hymns but nothing too out of the ordinary. Then back to the reception where I had to dodge a few old folk who just sit there and say 'yeeesss' and 'ooohhh' to whatever the hell you say. But to be honest though, most of the people were pretty good and talkative, and it was an enjoyable experience. I got rather bloated with chocolate and alcohol at one point, but managed to gently deflate to my normal state.  At about 9.30pm I left for a party and arrived there when most people were pissed already. There was an unusual amount of alchol there in comparison to other parties I've been to and the beer never ran out. There were more gals than guys which was good, but I couldn't pluck up the courage to make a move on one that I liked, damn me. Round about midnight, I called it a night and went off home where I slept for a good ten hours and then woke up to write this. Well, I woke up and then wrote this, not woke up to write it.  Anyway, a couple of things have come across my mind when writing this. Firstly, why to keys on a keyboard have the characters printed in the top left corner of the keys? Secondly, why does the writing on this laptop with it's TFT/XGA/whatever screen look more rounded and fuzzy than on my CRT monitors upstairs? Food for thought I think, and taling of food I'm hungry so I must depart to fill a growing cavity in my stomach. Good day to you all.
+     
+    
+</post>
+
+<date>18,March,2004</date>
+<post>
+
+	 
+      Lately I've been busy as usual, with school, work, websites to manage, games to review, Young Enterprise and so on, plus a rock festival to get deafened in. I've been gradually working my way thorugh the first series of 24, while watching the third series on Sky One. Talking of Sky One, it's getting pretty decent, some of the programs anyway. 24 is excellent, so is Cold Case and a new show called Las Vegas also looks interesting. Shame about it having adverts though.  Over the last two days we've had some Polish students of my age come over to spend the morning with us, with each of us taking round a pupil of theirs. I got a girl called Magda who spoke pretty good English and thankfully asked quite a few questions. The worst thing would be to have someone who didn't talk at all. At the end of a little Flash presentation they showed us about their school, their senior teacher mentioned that we would be going back in September. Thanks for mentioning it beforehand! Ha. Would be pretty cool to go back though, thinking about it.  Oh, and 24 has just ended on another brilliant cliffhanger. Another whole week to find out what happens next!
+     
+    
+</post>
+
+<date>12,March,2004</date>
+<post>
+
+	 
+      At last the week is over and I think I'm going to spend the weekend just relaxing, chillin and not doing a lot. Apart from work on Saturday afternoon I'm free to just do whatever I want to do. I think a spot of game playing and reviewing is in order, and maybe a major resort of my music on the PC and a general tidyup of my files. I might also watch some of my  24  DVD boxset.  Today it was my Dad's birthday and he got an iPod as well as our new car turning up. Far too many toys than is good for him, you know. The weather was its usual uncertain self, with rain and snow in the same day, with some cloud put in as well for the hell of it. The light in my room broke, well one of the bulbs and now I'm sitting in the semi-dark, which feels weird. I'm going to try and finish off a review of mine soon so I can get down to playing something decent.  Have a good weekend yourself, see you next week.
+     
+    
+</post>
+
+<date>10,March,2004</date>
+<post>
+
+	 
+      Technology is wonderful isn't it? I'm sitting here watching TV while updating my blog on a PDA over wireless internet. Wonderful. I've also just read on the BBC website that soon I'll be able to capture my whole life using data from my phone and then have it transformed into a blog on my PC. I can't wait.
+     
+    
+</post>
+
+<date>08,March,2004</date>
+<post>
+
+	 
+      Quite a fruitful day today, unusual for a Monday. I woke up natuarally and the proudly saw that Clan Recruiter was finally online, up and running. It's been quite a lot of work, but it's been worth it I think. Today a couple of websites, tomorrow the world! Or something like that anyway.  So I got to school and was then given a whole load of money in cash from my host which was pretty good. It's nice to go around with a wad of notes in your wallet and feel like you could buy almost anything. No chance of that though, as the money's going straight back into Thunderbolt. I'll be a millionaire one day maybe, but not today.  After a fairly average school day, I got home and had a whole load of emails in my inbox, mostly about Clan Recruiter. I was also pleased to see the huge amount of traffic that the site has received. Now I'm sitting here writing this and wondering which homework I should do, if any. I should really do one, but I'm hungry and I have a review to finish.. Then again, it's a crap game and my hunger can be kept down until later, so it looks like the absolute  joy  of homework will win over.  On a completely irrelevant point, I saw  Cruel Intentions  for the second time yesterday and it was surprisingly much better than the first time I saw it. Strange, how that happens. On the subject of TV and film, I caved into my urges and purchased a limited edition DVD box set of series 1 and 2 of  24 , which I love so much. It'll take over 36 hours to watch, but at least I'll never have nothing to do ever again.
+     
+    
+</post>
+
+<date>03,March,2004</date>
+<post>
+
+	 
+      Quite a few things have been on my mind lately. Firstly, how downright cool  Fable  on Xbox is going to be when it comes out this Summer. It just sounds like the perfect game, a game I can get into easily and that'll keep me interested for months and months. I can't wait.  Thoughts about universities and the future have also been floating around in my head as well. Sheffield and Nottingham have become hot favourites over Reading, although I can't really make much of a decision until I go and see them in person. I've also been thinking about some really simple things like Thunderbolt's postal address and so on. Little things that I don't really need to worry about right now.  My driving's coming on okay, I just need to get some more practice in and book my theory test. I'm just worried that I'll have to get like 30 lessons and it'll cost a bomb. It's already enough with the insurance (don't even ask about it!).  At the moment, I feel like I've got too many things to think about, like I need more time. But I don't really, I'm just confusing myself trying to do everything at once. Not good, and I'm going to try and rectify that soon.
+     
+    
+</post>
+
+<date>25,April,2004</date>
+<post>
+
+	 
+      On Friday I went to a Birmingham University open day with my mum, getting up at 6 am and arriving there at about 10:30. The journey was fairly boring up to the part where we missed a roundabout turnoff and ended up on a tour of the city. We eventually got there though, and the uni is really promising.  It's in a leafy suburb of the city, with a mix of big redbrick buildings and some '60s concrete. The computer science building was only 1 year old and the facilities they had there were impressive. Accomodation was interesting - I'm now thinking of going for a self-catering flat rather than a catered hall. The union was substantial and the setting was nice. I'm fairly impressed with the uni overall, but it's staying at number three or below on my list until I've seen the other unis. Next stop; Manchester.  After the visit, we got a room at a Travelodge where we would stay the night. However, some (probably drunken) arsehole decided to do a 3 point turn at 20mph into the back of our new Mini. Then drove off. The staff caught it all on CCTV and the car was undrivable, with the back lights smashed, the bumper hanging off and possibly the fuel tank cracked. We had to go to the Police station to get a crime number and organise the recovery of the vehicle.  So most of Saturday morning was spent in the back of a recovery vehicle, chatting to the driver, who to his credit was friendly and fairly interesting. We got back at 12.45 and I was due to start work at 1pm. Thankfully, they knew I would be late and I eventually got there at 1.15. Because I had come late, I would only get paid for 4 hours' work and thus would not get a break. That bastard in the Fiesta, I'll get you! Anyway, the weather was great, so I enjoyed work more than usual and spent most of the afternoon moving trollies, baskets and people's purchases around.  Now I sit here with two or three maths papers to do by the end of the day, plus three reviews which need to be in soon. Ahh!
+     
+    
+</post>
+
+<date>22,April,2004</date>
+<post>
+
+	 
+      Damn. I don't usually watch much TV, but when I plan to, I always forget to! Thankfully there are plenty of repeats though, so I'll watch it Saturday night.  Strangely, my PC has decided to use its onboard speaker to bleep at me occasionally, which is most annoying. I have speakers and a £80 headset, stupid!  Well tomorrow I'm off to Birmingham University for an open day there, which means I'll have to get up at 6am tomorrow so we can drive there. Damn you, expensive trains! Anyway, I'm looking forward to it and I think it's going to be a worthwhile trip.  Now I must depart for the land of 40 winks (also an interesting game coincidentally) otherwise I fear that 6am will hit me even harder in the face tomorrow. I apoligise for the lack of content in this post, but I'm not really up to writing much this evening. Good night!
+     
+    
+</post>
+
+<date>18,April,2004</date>
+<post>
+
+	 
+      I'm angry.   I was happily typing away on my 5 page document and I clicked 'Save', as you do, just to make sure I didn't lose any of my work. What happens? It turns the whole document into 19 pages of random characters! So I exit the file and perform an 'Open and Repair', which recovers most of the document, but leaves me with about 3 pages to retype. Spurred on by this annoyance, I have promptly backed up my work to my iPod. I can trust Apple.
+     
+    
+</post>
+
+<date>15,April,2004</date>
+<post>
+
+	 
+      Today I got back from a short 5 day Easter holiday at my grandmother's. It was a nice break from all the usual stuff, but I'm glad to be back. I did get plenty of time while I was there to just sit and relax, play some games and read some books without all the distractions you get at home. No email, no internet (well, a laptop on a 33k connection, but it was hardly useful), no school or work and so on. I managed to play through quite a bit of  Prince of Persia  and  Broken Sword  on PS2, something I don't really have time for usually. Now I'm back the revision I have to do for this summer's exams becomes more apparent. I keep thinking about uni, but if I don't work hard now I'm not even going to get there.
+     
+    
+</post>
+
+<date>02,April,2004</date>
+<post>
+
+	 
+      Ever since my dad brought home a decent laptop from work, the idea of notebook computing has grown on me. I've also been looking at universities recently, and I guess that links into notebooks because I'm almost certainly going to be buying a computer when I get there. The idea of having a notebook is certainly appealing; a light and portable PC which you can carry around with you and access all your files at the same time. You can do pretty much everything you can on a desktop, but wherever you feel like doing it.  Yet there are certainly problems with this as my dad's notebook highlights. It's got the fast processor, DVD drive and the memory to suit, but it's fat, noisy, has bad battery life and heats up a little too much. Admittedly, it's cool to wirelessly surf the net on the sofa while watching TV, but when your legs start to ache/melt, or the noise of the fan gets ridiculuous, you just turn it off altogether. I don't think I could live with that if I was at university.  But there is hope though, since some laptops aren't as heavy as most of them are, plus they seem to feature much of the same technology. Intel's Centrino and Pentium M chipset things seem to feature in the lighter, better laptops. Speeds are also comparable with desktop system. Heck, the laptop my dad brough home is a tad faster than the PC I'm on now. By the time I go to uni, I expect the notebooks available will be pretty damn good to say the least.  I'll freely admit it; I'm quite a fan of gadgets. I can just see myself in late 2006 when I start university, with my laptop, PDA, iPod, digital camera and who knows what else. I won't have to come to my room to collect email on this dual-screened beige, silver and black monstrosity; I'll just pick up my email wirelessly from somewhere around the campus, maybe outside on the lawn. I guess that's part of the draw for me; having the freedom to be able to whatver I need to do IT-wise (and I'll need to do quite a bit on a Computer Science course!) outside in the open, chilling with a few friends in the sun. Notebooks release the user from the bedroom, office or study and let them play wherever. It's like being unleashed. I can't wait.
+     
+    
+</post>
+
+<date>02,April,2004</date>
+<post>
+
+	 
+      I'm going to try and make my blog entries a little more informative and entertaining, instead of whatever I have been writing. I'm not sure why, I just feel like making it a little more interesting for whoever you are and myself.  On Wednesday, after recovering from illness, I went to school. We had a careers trip to a university planned and off we went that morning. It was like a trade fair, but with universities, all in two large halls. Each one had a stand with prospectuses and a handy person there to talk with. For some reason, our school was the only one there in uniform (well, in suits anyway) so we stood out like an army of sore thumbs. Nevertheless, we all managed to collect a bag-busting selection of prospectuese and I even managed to get a freebie DVD. The tour of the university was fairly dull due to the fact that we didn't even go inside any of the buildings, but the student's answers to a few questions were interesting. I returned with aching feet and hands, but with all the information I need.  Thursday was mildly scary with two Maths lessons ansd a Phyics test, but Maths turned out to be not as bad and I dodged the test. I had a driving test after school in which other than embarrasingly stalling three times in front of a friend, went well. My parents and I discussed and booked university open days - eight of them in all - which we'll be going to in the next few months. I then watched  24  and  Cold Case  which were superb, then slept.  Today was fairly easy since the two last lessons were free, so I went home at lunch. I managed to get my friend who I stalled in front of the previous day to believe that the gearbox and clutch had been swapped the day before. Ha, sucker. In the extra time I had after school, I sorted out my iPod and rescynched it, phoned up work to check my hours (they blatently took advantage of the situation and asked for a full day tomorrow) and watched some TV.  The weekend is full up already, with work on Saturday from 9.30am to 6pm, then an online game from 6pm onwards. Sunday I'm off shooting at 9.30am and back at 6pm. At least we break up for Easter next week.
+     
+    
+</post>
+
+<date>31,May,2004</date>
+<post>
+
+	 
+      I spent all of Saturday and all of today at work, and almost every part of my body aches. Remind me never to get another job requiring so much manual labour! I got a total of £3 in tips over the two days, plus today was paid at double time because it was a bank holiday, so that's good news at least.  Sunday was really a chillout day, just spent playing games, specifically  Star Wars: KotOR  and  Battlefield 1942 . This week though I have to knuckle down and get revising hard because almost all my exams are next week and I can't afford to screw them up. It's all a bit scary and I can't wait for it to be over!
+     
+    
+</post>
+
+<date>28,May,2004</date>
+<post>
+
+	 
+      It's that great day at the end of the month; pay day! Work paid me £240 for May, which is a new record for a month. I've probably got more than usual because of the bank holiday (double time) I worked. I paid that and some other money into my gap year/Poland savings account, which now has over £1000 in it - awesome. The 4% interest on that account should really start to make a difference now. Anyway...  I got up at the right time this morning - 8.30am - which meant that I actually did some revision before lunch. Today's Physics revision day, and I managed to do a few hours of it this afternoon as well. It was fairly dull, but it had to be done. The pressure's creeping in now; I only have one more week before all hell break loose with all my remaining exams in quick succession. Scary.  During a break from revision, I went outside with our 5 year old digital camera and took a couple of pictures of random stuff that caught my eye. They're fairly random I know, but there you go. Clcik on the pictures to see them in detail and to view my other work. I can't wait to get my new camera and go off to photograph stuff.    urlLink      urlLink      I watched a video of a program I recorded last night called  One Day of War  by the BBC. It followed a day in the life of sixteen people from around the world who were all involved in war. It covered the wars we all know about and those we've never heard of. There was a soldier in Iraq with all the latest military hardware, then there were rebels in Nepal who were using 18th century flintlock muskets. It really struck me how lucky I was, to live somewhere where people aren't shooting at you or bombing the crap out of you, where you can get running water and all the other things we take for granted. Very thought provoking. On a similar subject, take a look at this awesome picture of an American soldier in Iraq that I found at  urlLink deviantART :       On a less serious note, it's  Big Brother  launch night and I'll be up watching and then off buying shares in all the contestants on  urlLink Celebdaq , as they're bound to appear in the crappier paper and thus their shares prices will rocket, earning me lots of virtual money.  I've recently realised just how close the Euro 2004 football tournament is; it starts on the 12th of June; about a couple of weeks time. England have got a tough initial group, but they should be able to pull through to the next round. Then again, I never get my hopes too high because it's been so long since we've one. I just hope France are knocked out as specacularly as they were in the World Cup. EA's  Euro 2004  game is so cynical it's ridiculous. They don't include any international tournaments in  FIFA 2004 , then release a game for the tournament that just has a few new modes. All the gullible 11 year olds go out and buy it, then shelf it as soon as it's all over. Definitely a well spent £40 that is.  Anyway, I've got to go and find some excuse to end this blog entry now, so see you next time!
+     
+    
+</post>
+
+<date>27,May,2004</date>
+<post>
+
+	 
+      Woke up at 10, far later than I should have. Wasted my whole morning getting up, having breakfast and doing odd jobs. After lunch I did some revision, this time without  FIFA 2004  breaks in between. I've actually managed to do 2 hours solid Maths revision, even if it is  the most boring subject in the world . I'm only doing it because I have to, to get into a Computer Science degree at uni. I don't know who in their right mind would do a degree in it though. Crazy people.  I got bored of my blog template, so altered it to this green and grey number. Looks pretty cool. I've also messed about with the template a little, adding a links section on the right.  I've thought more about digital cameras and have been posting on a website forum to find out some more info. I'm pretty much set on getting a Canon Digital IXUS 500 - 5 megapixel camera - and an Archos Gmini 220 - a 20GB portable hard drive to put piccies on. I think I'll buy them as soon as the exams are over so I can use them on holiday, at ECTS and in Poland this year. The camera comes with a cool 640x480 video recording mode, which is quite astounding when you consider its size (half of a CD)! Here's some pictures of them:     Canon Digital IXUS 500   Archos Gmini 220   All the stuff for our new bathroom arrived today, so our house is full of huge cardboard boxes. I spend hours at work surrounded by cardboard, constantly knocking down boxes, putting it in bins and worst of all, moving soggy card around. Damp cardboard isn't pleasant, believe me. Anyway, while the building work is going on, we'll have no shower or bath. My mum is going to the gym and my dad will have a shower at work. That leaves poor me going round to neighbours' houses to have a shower in the morning. Won't that be fun!  In other news, it was a nice sunny day today,  Big Brother  (reality TV) begins tomorrow and I can't wait, there's loads of cool TV on tonight and a word that should be used more often is...   Bamboozle - To deceive by trickery; to cajole by confusing the senses; to hoax; to mystify; to humbug.   
+     
+    
+</post>
+
+<date>26,May,2004</date>
+<post>
+
+	 
+      Even though I planned to spend today revising Geography, I haven't really done a lot so it's been a bit of a waste. By the time I'd got up, had breakfast, done the washing and so on, it was 11, so I got about an hour of revision in before lunch. I then spent three hours alternating between playing  FIFA Football 2004  and revising Geography. The rest of the day has just been spent sitting around doing not a lot. Oh well, tomorrow is marked down as 'Pure Maths Revision'. The fun.  Work phoned up and asked if I could do Sunday and I said 'no' because I had to do revision. They phoned back again and asked if I could do Bank Holiday Monday (double pay) and I agreed. I'm such a sucker for money, ha. Talking of money, grandma phoned me up this morning and said that she'd deposit some money in my account for my trip to Poland in September, which I thought was nice. I'll be going there for only a week or so, but it's going to cost £350. My parents have put £175 towards it and I have to pay the rest of the money.  My mum also mentioned to me that I "should take lots of pictures", to which I responded, "what, which my invisible camera?" You see, I have no camera, but plan on buying one for my gap year in autumn 2005. I might just buy a camera this autumn though and face the fact that it'll be out of date by the time I leave for Australasia.
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      Just got back from my Maths Mechanics exam, which I screwed up. It's my strongest Maths subject, but the paper was difficult and I had a huge cold, so couldn't even breath through my nose. I wasn't concentrating hard enough and managed to fully do only 4 out of 7 questions, with the rest barely attempted. I'm so annoyed with myself that I didn't take in any tissues and that I let myslef get so distracted. Hopefully I'll scrape in with a B. Anything less and I'll probably have to re-sit the exam. Grr..  I've now got two free weeks before all Hell breaks loose with all my remaining exams in a single week. The bastards have put 2 Geography papers, 2 Maths papers and 2 Computing papers in 5 days. I can't wait for this to be over with!  I think I'm going to relax this afternoon; sit out if it's sunny, play a few games and maybe write a review.
+     
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+	 
+      Saturday at work was easy, with hardly any management around to frown at us for not doing much. I wouldn't say that I enjoy work, but it's certainly better than it could be and it provides me with money for my gap year travels. I just had a night in to myself and watched a mildly entertaining rom-com called  Picture Perfect , starring Jennifer Anniston. Talking of TV,  Big Brother  starts this week, so I'll be following that for the next 10 weeks or however long it goes on for. Many people are cynical of it and rightly so, but I like it and I'm not quite sure why, but there you go.  Today I did some revision for tomorrow's Maths Mechanic exam (scary!), went out for a drive and did some crappy garden work. I work in a garden centre, but find gardening extremely boring - how ironic. Anyway, I'm watching  Armageddon  rigth now, the semi-probable disaster movie where a giant asteroid is heading towards the Earth and will   destroy everything in 18 days. Cue improbable heroes, patriotic music, the world uniting, predictable plot and a love story mixed in for good measure.  Well, until tomorrow...
+     
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+	 
+      Yesterday was all dark and gloomy with the odd spot of rain, but now it's all cleared up and should bring in a lot of customers at work. It's so much nicer to work on days like these when half your time is spent outdooors.  Yesterday I was determined to do revision, but ended up spending the morning doing not a lot, then doing a couple of hours Mechanics revision in the afternoon. I have the exam for it on Monday, so really must get down to working on it on Sunday. I've already turned down working that day, so I better make use of it. Last night we (parents and I) went round to a friend's house for dinner, which was okay to begin with because I was the only one there under 40, then turned out alright when her daughter returned home from babysitting. I've known her for ages, but hardly ever see her, so we chatted for ages about our old school, the future, TV and crap like that.  Well I must be off, there's money to be earnt that I can save for my gap year. I just can't wait until one year and one month's time; a year long holiday in Australasia!
+     
+    
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+	 
+      I've been using Internet Explorer for ages now, and the other day I tried Netscape Navigator. It has some cool features, but couldn't persuade me away from I.E. I came across Mozilla Firefox yesterday and it's better than both. It's one of these open source free community browsers from  urlLink Mozilla  and although it's a little buggy, the features it has are just superb. Instead of opening new browser windows for every page, it uses tabs, so you have lots of pages within the same browser window. There's also an excellent search bar and some nifty shortcuts. Ingenious.
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+	 
+      The Driving Standards Association have  kindly  cancelled my driving test and moved it back three weeks to the 26th of June. This also happens to be a day when I'm going to a university for an open day, and will have been to another three unis earlier that week. What utter bastards!!!   And then the control panel for the website server isn't working, so I can't update anything on any of my websites. There's also a Geography revision session at school today, but I'll have to cycle in because the bus fare is overpriced and my mum has taken my car for the day.   Grrr...
+     
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+	 
+      Family  Apple iTunes and iPod, full of music   Project Gotham Racing 2   Sunshine  Ice cream  My cat, George   24  on DVD  Comfortable furniture  The BBC  Dreams
+     
+    
+</post>
+
+<date>15,May,2004</date>
+<post>
+
+	 
+      I spent the whole day at work today, well 9.30am to 6pm anyway. It was one of the hottest days this year so far and my arms are already starting to show a hint of red from the sun earlier. Work was reasonably enjoyable because of the weather and the lack of as many crap jobs as usual. Notably, I got my second tip from an American woman who was oddly only wearing one sock and I also won our day's takings sweepstakes (I guessed £19,000 and it was £19,200), with a Mars bar the prize (ooh, the excitement!). I spent this evening playing  Battlefield 1942 , listening to music and browsing some forums. Tomorrow I'm off to work again, although only from 10.30am to 5pm.
+     
+    
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+	 
+      Well while I'm waiting for  Rainbow Six 3  (Xbox) to update itself via Live, I thought I'd add a little blog entry...  Today was our last day at school for a month, with exam leave starting on Monday. I've got a scary amount of exams, and for some reason, they've put them all in a few days of one another. I'm going to have to get down to revising very soon because these are the most important exams yet and they're the hardest. Eeek!  In other news, I made a bus driver accept a £10 note for a £0.70 bus fare, even though he protested. I cleaned him out of all his pound coins and left him with a useless piece of paper. How I laughted (well, sniggered quietyly).  Oh, the download is complete. Back to gaming, have a good weekend yourself...
+     
+    
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+	 
+      An average Thursday, but an interesting one at that. I found out about that girl and my friend's date yesterday, and they got on fine, so are now going out. I'm not that disappointed to be honest and I'm definitely getting over her. As I said yesterday, there are plenty more oppurtnities and I'll just use this as an experience to learn from. Better to experience failure now than to have it hit you in the face later in life.  We (us and our parents) had this talk about an hour ago at school by a retired university admissions tutor. He outlined the admission process, how to use it to your advantage and so on, which was fairly interesting. It was intruiging to know that there are less Computer Science applicants in recent years and it's also going to be easier to get in if I deffer my entry to 2006, which I will be. It got me all enthusiastic about uni again and you know, I can't wait to just get out of school and off on my gap year, then straight there. I've realised that there's far too much to look forward to for me to be worying about some girl I didn't get.
+     
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+	 
+      Well another day, and a fairly easy one at that. Three lessons, then off home at lunch.  A friend of mine had his first date with the girl from the party (the one he swept away from me) today, and a group of friends and I went down to town before them for a coffee. Earlier in the day, him and I were just casually joking about it as other people said, "Hey Phil, so-and-so is going out with your bird today!". I corrected them that she wasn't "my bird", although I told myself, "not yet anyway!" I've been trying to keep chatting my my mate as much as normal, so it doesn't look like I'm bitter and grumpy, which I'm not really.  Anyway, we left the coffee place before they went past, so I went to the bus stop. It was near to the place they were going for their date, but I didn't reckon on seeing them go past, so just waited for a bus. The bus came and on I got, and just as I sat down, I saw them. They didn't see me through the bus window and the bus moved off quickly, obscuring my view.  It was the first time since the party that I've seen her and she looked slightly different. Maybe it was the expression on her face in those few seconds or the effect of alcohol at the party affecting my vision, I don't know. She still looked just as good though, her fiery red hair and curvy body moving up the street like a dream. I just wish it were me beside her.  As the bus went on, I started to think about her again, and the whole incident at the party. In mid-thought, I started to listen in on the conversation that a couple of women behind me were having. It was pretty boring stuff, but made me think just how lucky I am. While they talk of their jobs cleaning offices late at night for low wages, I look forward to a gap year, university and a decent career afterwards. My life isn't really as bad, so I told myself to stop moaning and groaning about some girl.  I'm not over her just yet and it's going to be interesting to hear about what happened on the date tomorrow, but "there are plenty more fish in the sea" and I have a gap year and uni coming up, which are both large aquariums in their own right.  Time will tell, I guess...   P.S. Kill Bill Volume 1 rocks!
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+      Another day, another blog post - I'm getting good at this updating thing!  Back to my soap-opera-like life. The girl who I still can't get out of my head is going out with my friend tomorrow, so I'll have to find out how that goes. I've also developed an incurable liking for songs like "She's the one" (by Robbie Williams coincidentally) and have started to notice the words in them, and just how true they are. I'm suck a sucker for love!  E3 is also upon us; the yearly violent ejaculation of gaming news, previews, screenshots, movies and who knows what else. It's all too much and the information overload makes it hard to find out anything. Looking around on Gamespot, there's just so much going on, too many movies to watch and news stories to read. You could be there all night digesting it.  And talking of digesting, food is going to be on the table in a minute, so I must be off!
+     
+    
+</post>
+
+<date>10,May,2004</date>
+<post>
+
+	 
+       The bad news:  The girl from the party is going out with the guy who swept her away.  She's still the only girl I can think about.  The maths teacher wants us to finish off a mock paper  overnight !   Serious Sam: Next Encounter  is catastrophically abysmal.  Exams are coming up soon. Ahh!   The good news:  I met up with my friend who took away that girl at the party and we chatted about it during a free period. He said that she told him that she felt guilty leaving me after speaking with me for so long. He knows I still like her and he's okay with that. He also said that I was "welcome to have her if she said no". I'm not sure in what circumstances, but now I'm content.  I'm doing really well with my driving and I'm confident that I'll pass my test on June 5th.  The new Blogger.com is very, very nice with lots of cool features and sexy graphics. GameFAQs should take note; this is how to redesign a website well!  It's sunny again, which means work is far more enjoyable than usual.
+     
+    
+</post>
+
+<date>09,May,2004</date>
+<post>
+
+	 
+      I spent the whole of today shooting with the school cadets at Bisley, of which most of my time was spent sitting and lying around. I managed not to think about the girl from the party too much, since  Trigger Happy , a brilliant book about videogames had arrived in the post and I read through quite a bit of that. It didn't stop me from developing a curious habit of listening to all the love-themed songs on my iPod though. I've been trying to keep myself busy because if I think about it too much, then my mind just goes into overdrive and I start thinking about it way too much. Tomorrow will be interesting though, since I'll see my mates for the first time since the party. There's a lot of chatting and gossiping to be done.  Anyway,  Serious Sam: The Next Encounter  calls and it needs reviewing...
+     
+    
+</post>
+
+<date>08,May,2004</date>
+<post>
+
+	 
+      Last night I went to a "pimps 'n' hoes" party (dress up in the appropriate gear) which was a nice end to the week, I thought. I didn't expect much from it, but it turned out to be okay, with just the right balance of people I know and those I don't. One thing pissed me off a little though...  So I'm sitting in a reasonably empty room, a beer in my hand and one of the girls sitting on a nearby sofa goes off somewhere, leaving her friend there alone. I like the look of her, so in I go, sit down and start chatting to her. She's friendly, good looking, takes almost all the subject I take and seems to have the same attitude as me towards a lot of stuff. Great, I think, and carry on talking. The room fills up a bit and it's obvious that people have started to notice us talking. I carry on though, until I have to excuse myself to go to the bathroom.  I come back and she's gone off somewhere, but now my friends are saying to me, "get in there, she really likes you!" and so on. Off I go, quite intent on chatting to her more and maybe a little extra. I follow her around subtly, trying to make it clear to her that I like her. I see her talking quietly to her friend and looking over to me, while other couples are giving me sly little looks, kind of egging me on. The pressure is turned up a little and I continue to talk to the girl. She seems to walk away a little to often though and doesn't give me much of an oppurtunity to sit next to her. A bit odd I thought.  I keep on persuing her gently until one song where she dances with some drunken guy who happens to be a friend and then sits down with him. I mention it to a few other people and they react in the same way that I was thinking; that it was a little out of order to go and 'steal' her like that. One guy even went up to them and not-so-subtly frowned at the guy and pointed with his thumb over his shoulder towards me.  I feel a little uncomfortable, so back off for a while. Then I see them going upstairs, and I'm not the only one. I forgot about it a little, and carried on drinking and chatting to people. Someone went upstairs to see what they were doing, and reported back that they were just lying on a bed watching TV, nothing more. A fine reward for my efforts earlier then, running away at the drop of a hat for some drunken guy who isn't even better looking than I am. I left without even saying goodbye to her.  I hope that she looks back on last night and sees what she did, because it pissed me off and left me feeling like a bit of a failure. She was so positive to begin with, but then just ran away. I simply don't know why.  Today I awoke and went to work, but she was all I thought about. On reflection, she is so right for me; my type of girl, sweet and great looking. She's the sort of girl I can really imagine going out with, having a proper relationship with. I've gone out with girls before, but I've never liked someone as much as I like her, even considering what she did.  Now the oppurtunity is gone, I've got to work out a differnt plan of attack. I'll have to make sure the guy who swept here away isn't serious about her (I doubt he is anyway) and then get her phone number. I wouldn't usually make the effort, but she's just so right for me and I'm not going to let her slide away.  What's certain is that it's all messed with my mind. Maybe I'm in love, maybe I'm just crazy, but I can't stop thinking about her. So many questions and no answers. Why did she run away? Wasn't it clear that I liked her? Does she like me? I want the answers and I'm determined to find out.  Until next time, goodbye and may you fare better in love than I.
+     
+    
+</post>
+
+<date>30,June,2004</date>
+<post>
+
+	 
+      Yesterday was a fairly average day, and one with very few actual lessons in. I had geography first, then what was effectively quadruple computing; it's a hard life, eh? Our new Freeview box with a hard disk recorder came through the post as well, which we got £100 off of through my dad's work. It's pretty cool, you can pause live TV and record anything you want to the 20GB hard drive.  I came home from school early today because games isn't on again, and I've also ordered my digital camera and portable storage device. The camera should arrive by Friday and the PSD next week, so that's definitely something to look forward to.  Anyway, I must go and get ready for today's last meeting of our Young Enterprise company. I need to prepare a 30 second speech thing to read out about my experience...  
+     
+    
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+	 
+      Today was my first normal day back at school in a while, and one in which I had a chance to properly drive around on my own for the first time. I gave a couple of friends a lift to school, which went fairly flawlessly, although it was a little slow as we got caught up in rush hour. Everyone congratulated me, which was cool, and I was asked quite a few questions about various universities which I'd visited. At lunchtime, I went off for a quick thirty minute drive with another friend, which we didn't get very far in.   I had no last lesson, so another friend and I went for a drive round the outskirts of the town. We ended up going down a whole load of country lanes which were alarmingly scary because of the number of blind corners and narrow roads. Needless to say, I'm not driving there any time soon!  The removal of my 'L plates' seems to have an effect on how other road users treat me as well, with white van men trying to undertake me through bus lanes on two occassions and one 4x4 pushing through the tightest of gaps just to get an extra 20m forward. On the other hand, I did notice that a fair number of drivers were courteous anyway, letting me through and waiting patiently.  Just after you pass is supposedly the most vunerable time for any driver and I can certainly appreciate that. I feel excited when I'm driving, but when I get out of the car I think, "that was scary", "why didn't I do that?", "I might of crashed then!" and so on, but as long as I stay clear of those country roads, I think I'll be okay...
+     
+    
+</post>
+
+<date>27,June,2004</date>
+<post>
+
+	 
+      On Friday we went off to Sheffield University, which turned out to as I had thought; awesome. The city itself was clean and very green considering its size, with excellent public transport. The department was enthusiastic and passionate about what they were doing and the course was better than any other. The union is the best in the country, and although self catered accommodation wasn't too good, catered was, with larger rooms than all the others we've seen. Sheffield easily jumps into the number one spot on my list because it's simply such a well rounded university and one that I'm sure I'd enjoy living and studying at.  We drove home on Friday night and then on Saturday morning I had my driving test. Just as I stepped out of the test centre, it started raining - just my luck! I passed though, surprising myself on how well I drove, even if I was a little overcatious. It didn't really sink in that I'd passed until today when I drove for the first time on my own and I couldn't stop smiling all the way to work. Tomorrow I'll be giving my friends a lift to school, which will be an interesting challenge in itself I'm sure.  Anyway, on Saturday afternoon my dad and I went off to our last university open day at Reading. It a huge place in terms of area, but the population of the uni was half that of the others ( only  12,500 students) and the department was remarkably small - only about 100 students, a fraction of the size of others. On discovering this, we decided to go home a little early as there wasn't much point staying to see another accommodation talk or whatever. They did put a lot of effort into their open day and it's a nice place though, I'll give them that.  So, I get to apply to up to six universities and I've been to six open days; quite a feat I think. They were all similar in one way or another; there were always more girls than boys visiting by a long way, making it a 'target rich environment' (or something like that, ha ha) which proved distracting on several occasions (it just shows that intelligent girls are amongst the best looking!). Accommodation is very similar accross the board as is the courses and facilities I'm interested in. The general feel of the unis did differ quite a bit though, and taking it all into account, I've got a semi-final list of them in order of preference:   1st Sheffield 2nd Nottingham 3rd Manchester 4th Birmingham 5th= Leeds 5th= Reading   Today was mainly spend at work, which was okay because of the nice weather and general lack of customers. It left me fairly tired though, but that was probably due in part to this week's extensive walking about various campuses.  Tomorrow will hopefully be the start of a normal week in which I can settle back into doing school work (even if there is little of it) and work on my website. I'll be ordering my digital camera as soon as the money transfers as well, so that's definitely something to look forward to,
+     
+    
+</post>
+
+<date>24,June,2004</date>
+<post>
+
+	 
+      Tuesday was my only day at school this week due to my travels, and it wasn't exactly a hard day anyway with only three lessons. People kept saying things like "hello stranger" and "where have you been?" I only had three lessons and came home in the afternoon.  Yesterday was dedicated to a journey to Leeds which is where I am right now. All three of us (in the family) were squeezed into the Mini, leaving me in the back with enough room for my iPod and not much else. My dad also got some fairly bad news at work; his whole workplace is being shut down and all the staff are being made redundant. I say 'fairly bad' because my dad's redundancy payment will be, well, quite a lot. He won't have a job come September, but we'll be able to pay off the mortgage, credit cards and so on, with enough left over for something else. It's been quite a shock, but it'll open a lot of doors for him and could be a nice opportunity for him to do something different. What will exactly happen isn't certain, but he's definitely not the worst off in his office.  Today we went off to Leeds University's open day during a day in which the weather just couldn't decide what to do. We went off to an accommodation talk first, which proved to be similar to others we've seen with the notable fact that only just above half of the rooms have network access (many unis have almost all setup). After grabbing some lunch, we headed off to a talk at the computer science department which proved to be fairly average. There was nothing special to write home about, nothing to separate it from other unis. With all the unis I'm seeing having similar requirements and courses, each one really has to mark itself out, but Leeds didn't do that, putting it in fourth place out of the four that I've seen so far in order of preference. There was an excellent talk on Ucas forms though which will probably prove useful so the day wasn't all average.
+     
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+	 
+      Yesterday we spent the day in Manchester with my grandmother who had travelled down from her home in the Wirral. We parked up in the city centre and then had a walk around the main shopping area. I was dragged into a whole set of designer shops including Heal's - a furniture and home store with seriously expensive goods - plus Harvey Nichols - a department store where the prices for clothes reach into four figures. You go into H.N., flanked by clean cut, well groomed shop assistants and you feel so out of place amongst the expensive clothes, like you're not stylish enough. Still, it's just a shop I guess.  We went around the dock and canal area, which was so striking and full of contrasting elements. There were so many great photo oppurtunities, just taunting my lack of a camera, so I purchased a book about digital photography whilst in Waterstones later. I've just today found out that the camera I'm thinking of buying will be out on Wednesday, so I might pick it up next week.  Today we ventured off to Nottingham University's open day, which took ages to find due to a huge lack of signs around the city. Once we got there though, it was mighty impressive, from the beautiful parkland setting to the department itself. The computer secience department is actually at a separate campus, but what a campus! All of the buildings are only five years old, clad in wood and glass like some Swedish-styled Ikea playground. The infrastucture is top notch as well, with tons of new PCs all with flat screens, wireless networking and crazily fast internet. What's more though, is the way that the courses have been arranged. You can spend your whole second year in Malaysia at a campus there, plus take a year out in industry.  Slightly less exciting is the accomodation, which all seemed modern and well looked after. The catered halls near the computer science building were all en suite and suitably modern, with the self catering flats nearby as well. I didn't get to see the Union or talk to any current students, but what I did see was very impressive. The remaining universities have got some way to go to outdo Nottingham, that's for sure.
+     
+    
+</post>
+
+<date>19,June,2004</date>
+<post>
+
+	 
+      Well today was dedicated to a trip to the University of Manchester, the recently combined Victoria University of Manchester and UMIST. The whole university sits astride Oxford Road - the busiest bus route in Europe - in the centre of the city. It doesn't feel remotely rural or suburban, but metropolitan from every angle. There's an interesting mix of very old and mid-20th century buildings, with no noticeably new ones. The university is fairly clustered, but very big.  The computer science building feels modern and is currently being refurbished. The school of computing is very highly regarded and rated, being the first one of its kind in the country. The facilities you'd expect are present and students I chatted with were positive about the place; all chose it as their first choice.   Noticably, there were more girls at the open day than boys (not a bad sign!), although the computer science talks had a predictable male attendance bias.  Accommodation was closed, but we went on a tour of it anyway and it seems similar to Birmingham. Self catered flats would still be my first choice I think. Interestingly, gap year students aren't put together like at Birmingham.  Tomorrow is a day off, and then monday is a trip to Nottingham.
+     
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+	 
+      Wednesday continued the trend of few lessons and little work, with a couple of computing lessons and one of geography. Games in the afternoon was cancelled, so I went home and played on Xbox Live with a friend for a couple of hours. Later in the afternoon, I had a mock practical driving test, which I didn't do quite so well in because of the pressure.   Yesterday was similarly light on work, but geography was interesting at least. After school, I went out with my dad to practice driving while the football was on and we just went over a couple of manoeuvres for an hour. We got back in time for the second half and England beat Switzerland 3 - 0. After the match I had my first game of Pro Evolution Soccer 3 which lived up to my crap presentation, good gameplay expectations, then watched 24 and Big Brother.  Earlier this morning I purchased my first music from iTunes which felt nice and legal. I bought three songs by Avril Lavigne (don't laugh, a few are quite good!) and one by Blur. I had to update my iPod software, but otherwise, the process was hassle free and quick. iTunes even puts your purchased music into a separate folder for you, which is useful.  Right now I'm sitting in our Mini on a motorway, writing a blog on my PDA at 70mph. I'm on my way to Manchester for a university open day tomorrow and if your wondering how I managed to publish this entry on the road, I didn't, it's just adjusted the date and time to look like it. Wireless broadband access on our motorways - that'll be the day.
+     
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+      That's basically how you could describe my day today; an unsupervised Geography lesson, then quadrouple Computing (not scheduled, but that's what I ended up doing!). I spent ages playing  urlLink this cool Flash game  and managed to complete it by the end of the day (try beating 85,500 points!). In other news, iTunes Music Store launches in Europe today and I was straight in there, registering and checking out the music. I haven't bought anything just yet, but it's only a matter of time. Goodbye WinMX.  I'm also getting excited about getting a digital camera and the Powershot S60 is looking like hte most likely purchase. It's out in the next two weeks in the UK, with it already on shelves in the US. Should be awesome.
+     
+    
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+	 
+      Fantabulous! Awesome! Funkalicious! Woo!!!  This afternoon I had three Physics exams, one of which I was resitting. The first one went comically badly, but that was the resit and I'll settle for my previous C grade. The second was the mechanics paper, which went okay - probably a B or maybe an A (!). The third and final was plain hard. I reckon that I might have to resit a few exams come January, but for now, they're all over and I can enjoy the summer in peace.  I've learnt a lot over the last few weeks about the way I work and the way I should be working. I'm so easily distracted and that's been a real pain because my revision hasn't been quite as good as it should have been. On top of that, this last academic year hasn't been very focused for me, so I'm going to try much harder next year.  Now that there's no porper school until September, I can sit back and relax, listen to music again (horray!), play some games, write reviews, get my digital camera and take some pictures, watch Euro 2004 and generally be lazy.  
+     
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+      Euro 2004: England score mid way through the first half against France - the reigning champions - and look strong in the second half. In the last minute, they make two careless mistakes and it ends up 2-1 to the french! Grrrr!!! 
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+      Well, Friday was quite a day. The Statistics exams was a walkover, with only a couple of parts of questions that I didn't know. For me, it all seemed straightforward and hopefully a good mark will drag my overall grade up to a B which I'm hoping to get. Computing was in the afternoon, two 1h30 papers which were incredibly simple, lacking any hard questions on binary or parts of the processor. The papers didn't even last the whole time, with everyone finished in an hour or less. I think I just got myself an A.  Saturday was spent at work, which wasn't too bad and was mainly spent doing odd jobs building things, tiding up and lifting items into peoples' cars. After work, I went home, got changed, checked the football score (2-0 to Greece against Portugal!) and then went up to the village picnic for some food. Let me explain slightly; my parents are both parish councillers, so I get dragged along to every village event imaginable, but then so do children of similar age, so it's not all bad. I spend the evening up there, chatting to old friends and those who I don't see so often, which is always good.  Today I'm going to be doing some Physics revision for Monday's three exams, then watch the football (Euro 2004; Switzerland v Croatia and England v France). Tune in for more soon...
+     
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+	 
+      Exams are damn scary, especially when you've got ten in seven days and you're not so confident about half of them. Tomorrow's Maths Statistics (not too bad) and Computing (moderately easy), but with so many close togther, it's hard to concentrate and prepare yourself. Physics (hard for me) is on Monday; three exams one after the other. There's too much pressure and such a risk of failing that it gets to you. I know I'd be totally gutted if I got bad results and I can't help thinking that it's going to happen. Still, I think I might have got an A in Geography and should get an A tomorrow in Computing. Maths is the real stinker though; I didn't do as well as I could in Mechanics and Pure was just plain hard. Tomorrow's Statistics is my only chance to pull my grades up.  It's summer and I should be outside being artistic and photgraphing stuff, playing games and writing about them, relaxing and being generally lazy. I shouldn't have to be cooped up inside trying to revise! Life really is a bitch sometimes...
+     
+    
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+	 
+      Well the Pure Maths paper wasn't quite as bad as I suspected, but it was still painfully difficult in some places. Hayfever didn't strike this time around, and I think I did okay, but not brilliantly. I shall definitely be working harder next time round!  What else have I done? Subscribed to  deviantART , unlocked the final league in  Project Gotham II , established that scoring direct free kicks in  FIFA 2004  is impossible, revised, eat, slept, etc.  Today was just tiring more than anything. I had a driving lesson straight after my exam and I just couldn't concentrate. I think it's time to relax and play some more  PGR2 ...
+     
+    
+</post>
+
+<date>08,June,2004</date>
+<post>
+
+	 
+      Yesterday, BBC Online  urlLink reported  that the iTunes Music Store would be launching in the UK next week. Great! It also made me think a bit about this music piracy issue and why it's such a problem.  iTunes has helped to legitamise music downloads in a big way; it currently holds about 70% of the market and will probably stay there for a while. Before iTunes, almost 99% of music downloads were illegal and it's easy to see why. Music is expensive - especially in the UK - so if you can get it free easily, why not? Morals aside, anyone can grab the music they want, hassle and cost free.  Yet from personal experience and a bit of guesswork, I think I can say that a factor of equal importantce to price is the ability to try before you buy. Go into a shop like HMV and there are thousands and thousands of CDs. They all cost about £15 and you have to choose one that you think you might like. If you haven't heard it on the radio or at a friend's house, then it's just lucky if you get something you like. I wouldn't bet £15 with those odds.  When you download music illegally, if you don't like it then you loose nothing because you didn't pay for it. But if you could try it before you buy it, then you'd probably be happy to pay. I would.  iTunes lets you do exactly that - you can listen to a 30 second extract of any song before you purchase it. What's more is that the prices are reasonable, at 99p or 99c per track. The UK pricing isn't as cheap as I'd like - 70p would be better - but it's still far cheaper than highstreet shops. When the Music Store comes online, I'll be ditching illegal downloads and will use iTunes instead because the risk of not gettign what you pay for - good music that you like - is far less. If iTunes is a bit pricy, I'll preview music on there and then buy the actual CD on Amazon. Simple, cheap and risk free.  ***  Back in the world of exams, bathrooms and stuff, my Pure Maths exam is tomorrow, which is probably the scariest of the lot. Today I got up extra early (6.30am!!!) to go and have a shower at someone else's house and have spent the rest of the morning really in denial about the work I have to do. It's just too sunny to work, too boring for me to revise and I'm too hungry to move! Argh, I can't wait 'til this is all over!
+     
+    
+</post>
+
+<date>07,June,2004</date>
+<post>
+
+	 
+      Just got back from my triple Geography exam, comprising of three 1 hour papers and my fingers are blue with pain. It went much better than my previous Mechanics exam, with a distinct lack of having to cope with hayfever at the same time as answering the questions. The exam wasn't really that hard, just tough on the time we were given.  Meanwhile, the builders came in this morning and have torn apart our bathroom, removing our shower in the process. We're no stranger to building work - it's the third extension to this house - but this time they've taken the shower! Going round to other peoples' houses to wash - not fun.  On a more sober note, yesterday was of course the 60th anniversary of D-Day; quite a thought provoker in itself. It was the largest combined air, land and sea operation ever and I don't think it's going to be outdone for hundreds of years. The sheer amount of co-operation between nations, the scope, ambition and secrecy needed would be impossible today in a world of mass media, high-tech communication and such split causes. Back then, the world united against one foe and they believed that what they were doing was right. I don't think that exists today at all and that's a real shame.
+     
+    
+</post>
+
+<date>05,June,2004</date>
+<post>
+
+	 
+      I feel shattered. Wrok today wasn't really that demanding, but it was so humid and I'm outdoors for eight hours straight, so it gets to you. Couple that with some jobs involving greasy, dirty objects and you end up feeling positively filthy at the end of the day. A shower later though, and I'm okay, although so, so tired.  Talking of showers, the work on our bathroom begins next week and the mirrors in our current one have been removed, makign it feel five times smaller. The old mirrors pointed at each other, so it looked like the place went into infinity. Our spare bedroom/extension room is now full of stuff for the new bathroom, which the builders will put in over the next few weeks. It's going to be nice when it's all done, but next week is also the week when I have all my exams! Ah!  I did some revision yesterday for Geography - the exam for which is on Monday - and I'll be doing more tomorrow. It's probably one of the easier subjects I'm taking because it's more common sense and educated guesses than enything else; once you know the basic theory you're fine. Maths though, is a whole different 'kettle of fish'. (I don't know who would ever put fish in their kettle, but that's the phrase!)
+     
+    
+</post>
+
+<date>03,June,2004</date>
+<post>
+
+	 
+      Well, well, well, I never know Britney Spears could make decent music, but today I chanced upon  Everytime  which is actually quite good. I might have a quick glance at some of her other more recent music if I get a chance. Don't you just love little surprises like that?  Anyway, today was meant to be Pure mat's revision day, but it didn't really work out since I struggled on a load of the practice questions and was distracted many a time by the Internet, my cat and food amongst other things.  What makes it worse is that next Wednesday I have the exam in it! Ahoy!  Talking of exams and tests, I have another driving lesson yesterday and my instructor sprung a surprise mock test on me, the sneaky so-and-so. I got 11 minor faults (all mirror checks) and 4 serious faults (opus!). Still, that is quite good for a surprise test. My actual practical test is on the 26th, a week that's packed full of university visits. Actually, while I'm on the subject, I'll roll out my crazy diary:   Friday 18th June - miss school and travel to Manchester Saturday 19th June - spend the day at Manchester university open day Sunday 20th June - spend the day in Manchester Monday 21st June - miss school and travel to Nottingham university, where there is an open day, then travel home Tuesday 22nd June - actually go to school! Wednesday 23rd June - miss school again, travel to Leeds Thursday 24th June - miss school, Leeds university open day Friday 25th June - miss school, Sheffield university open day, then travel home Saturday 26th June - driving test 9.37am, then off to Reading University open day!   How crazy is that!? I might as well take Tuesday off to do some driving!  On the gaming front, I finished my review of  Gran Turismo 4 "Prologue"  today, giving it 6 overall, plus played a bit of  Call of Duty  as I was in a D-Day kinda mood with all the anniversary things going on. I've also become increasingly interested in  Full Spectrum Warrior  recently after watching a 15 minite demo video of it. It's such a shame that it's out in the US right now, but wil reach our shores on the 25th. Then again, I've got exams and crap right now, so can hardly play that many new games. Uh, or in theory I can't because I'm far too busy doing revison (he says writing his blog, chatting on IM, listening to music). Hmmm...  And now finally for a little list of a few things I can look forward to, just so I can see the light at the end of the tunnel, a tunnel which is currently dark and shouting "exams!" at me.    Finishing the exams!   Getting my digital camera   Passing my driving test! (fingers crossed)   Visiting all those universities   Seeing Thunderbolt V6 launch   Going on holiday with my friend who I'm going on my gap year with   Going off to Poland    Enough of this blog for tonight, now is the time for TV and a huge bowl of ice cream :)
+     
+    
+</post>
+
+<date>02,June,2004</date>
+<post>
+
+	 
+      Going through my Stats revision today, I've been reflecting on this year's school and have realised just how much of a lazy bastard I've been. Next year I need to get organised or I'll screw up big time. So, a little list of new school year resolutions...  1. Do homework at home, not in the morning at school! 2. Do homework yourself more, not just coping everyone elses'! 3. Organise work in folders, with notes separate from other work! 4. Go through previous notes every now and then to make sure you understand them!  It all sounds so simple looking back, but the reality is is that I'm here now and I've got less than a week to sort everything out, ready for my exams. Oh crap.
+     
+    
+</post>
+
+<date>01,June,2004</date>
+<post>
+
+	 
+      I'm reasonably pleased with myself today. Got up at 7.30 and managed to do two and a half Computing papers by lunchtime. I say "and a half" because I went to look up something in the notes we were given and discovered that they didn't work (Word files you see), so gave up after that. After lunch, I just did a bit of revising, then played some more games. Oh well. Tomorrow is Statistics revision - the excitement!    
+     
+    
+</post>
+
+<date>28,July,2004</date>
+<post>
+
+	 
+      Saturday was a pretty standard work day and on Sunday I just spent the day relaxing. In the evening we went over to a BBQ at my friend's house (that's the one who we're taking on holiday and the one I'm going on a gap year with), which was very enjoyable and driving back at night wasn't as scary as I thought it might be.    On Monday I went to work again, this time to get some extra hours, although everyone there wasn't sure why I was there and I felt really unwanted. I spent most of the day sulking around, paranoid at what others were saying - "grr... always taking holiday.... now he's here, trying to earn it back!" - and realising what a crap job it is. Compared with other jobs, I'm overworked and underpaid, so I think I'm going to do something about that come January. Now that I can drive, the range of jobs that I can apply for have grown enormously. I want to work in a book shop or similar, not be stuck out in the rain lifting compost around.     Yesterday I went into town to get my MOT test and a new tax disk for my car. During the two hour wait (while the test was being done) I went for a bit of a walk around the bits of the town that I've never really been round, and took a few photos. Only one was worth putting on DeviantArt, and that's got some good feedback, which is nice to see.    Yesterday afternoon, today and tomorrow is dedicated to getting the new version of Thunderbolt up and running, which I'm looking forward to, so excuse me for now and expect an update later this week.  
+     
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+	 
+      Wednesday was the last day of school and I and another guy in my class went out to do some Geography field work for our coursework. We drove - well I drove and he navigated - to about 15 miles away down all sorts of country lanes and basically followed a river throughout its course, taking readings as we went along. We both got wet to begin with, but the river got larger and larger, making most parts of it practically immeasurable. It was good fun though, as the sun was shining and driving down all the crazy lanes was interesting.    Thursday was spent at work doing till training, for a reason that I've yet to uncover. I'm normally a lifter, but now it seems that they want to train me up to be more flexible or something. Hmm... Anyway, it was dead easy and I can't believe that cashiers get paid  more  for doing such less work. I'm off to work tomorrow as well, and there's a new guy who I'll be my deputy (not officially, but practically), so that'll be interesting. I'm just hoping that he won't be as dull as one of the lifters on Sundays. We'll see tomorrow anyhow...    Today was basically a day off from everything, mainly spent doing work on Thunderbolt. I solved a really annoying disc space problem and wrote up my  Transport Giant  review, then played  Army Men: Sarge's War , which was disappointing to say the least. I then wrote up 80% of the review for that.    Right, off to bed, since I'll have to be up and early tomorrow.   Holidays... soon!  
+     
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+	 
+       This is a typical week day for me, and I thought I'd write it up like this to give a different angle on things and a bit of variety to my blog. Updated throughout the day. Enjoy...     00:00 - A new day begins and I'm asleep at home.    07:00 - I wake up, have a shower and get dressed. I go downstairs to get some breakfast and make my lunch while watching the news.    08:10 - Three friends come over to my house and I drive all of us to school. We listen to some music and chat amongst the rush hour traffic.    08:30 - I park up and we head off to our separate schools. I go to my form room where a few other people have arrived, and chat with them during registration.    09:10 - The first lesson begins - Geography - and there about ten of us there. The teacher doesn't turn up, so half of the class leave while the other half sit and chat for the remainder of the lesson, with myself choosing the latter option. Someone gives me an invite to their 18th birthday party in mid-October (invite #75 - they must have a big house!) which I didn't expect, but apprecite nonetheless.     10:10 - The first lesson ends and it's break-time. I go and chat with some friends who are doing other prefect duties.    10:35 - The second lesson, Maths, begins. It's as boring as usual, being the Pure Maths module at the moment. I spend a lot of the lesson just chatting and joking with friends and not paying much attention to Exponential Functions or whatever the hell we're doing. Who cares anyway? We'll just forget it over the next few weeks of holiday.    11:35 - Maths ends and I'm off to the (you guessed it) third lesson which is Geography, but with a different teacher, who is actually present. We spend about 20 minutes on beach formation, then watch a video which has a vaguely geographical theme. Everyone's relaxed and joking about, eager to finish school (tomorrow) and go off on holiday.    12:35 - It's lunch time, and I go off to the dining hall to eat with friends. We sit and chat for about 30 minutes, then I head off to talk to a couple of teachers, before meeting up again with some friends in a classroom. We sit and chat, and I get to see some photos from Saturday's party, which prove to be amusing.    13:35 - My fourth lesson, Computing, begins. There's no teacher, so we sit and browse the Web as usual. They've replaced all the crummy mice with nice, new, optical ones. They've been secured to the back of the computers with metal cable ties so people can't steal them, which made me laugh.    14:35 - It's the end of the school day for me, as I have no fifth lesson, so I head to the car park where I meet up with a couple of friends, who I drive home. We chat and listen to music as usual.    15:00 - I get home, open all the windows I can find, put on the fancy, portable air conditioning unit that my Mum bought for her home office, grab a drink and sit down at my PC to check DeviantArt, my email and Thunderbolt. Lots of spam in my inbox as per usual, and nothing of much interest. Great. I then start working on some geography preparation for tomorrow's field trip.    16:00 - I go around the house, taking photos and videos, then transfer them to my portable hard drive and then to my PC to test them for tomorrow. It all works, so I start to write up my blog.    16:39 - I've gone as far in this post as time will let me, so I go downstairs to play some  Pro Evolution Soccer 3 .    17:00 - After a single game of  PES3 , I head off out to the cinema to see  Fahrenheit 9/11  for the second time, this time with my parents. It proves just as good and it was useful to see it again.    20:10 - Got home, wrote this and then did a bit more preparation for tomorrow's georgraphy trip.    20:59 - Finished most of the preparation, went off for dinner.    21:25 - Finished dinner, came upstairs to watch  CSI: Miami , unpack some new clothes and do some work on Thunderbolt.    22:32 - After watching some  Big Brother  and chatting to some people on IM, I call it a night and go to bed. The end of another day! 
+     
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+	 
+      I went up to London today on a geography field trip, which despite the imposing name, was just a walk around Docklands and the riverside area. We were meant to be looking at urban regeneration, which we did, but we ate more ice creams than write notes.    We got the train up to London Bridge, then visited the riverside areas, Docklands, Canada Square (Canary Wharf), Greenwich and various other places that I can't remember the names of. Basically, we went round a lot of the really cool, refurbished areas which have been invested in and now look pretty damn good. There were loads of Starbucks and all those sort of fancy coffee shops dotted around, along with marinas, art galleries, expensive apartements and so on.    I took my camera with me and I had a real field day there, snapping all the cool architecture around, especially the mighty Canada Square. You can see the best of my pictures at  urlLink my Deviant Art homepage  in the gallery there. One final note; the weather didn't let us down at all and it was sunny and warm throughout the day, providing excellent shooting conditions. For once, the British weather did me proud.   
+     
+    
+</post>
+
+<date>18,July,2004</date>
+<post>
+
+	 
+      Well that girl didn't even turn up to last night's party, which was fine by me to be honest. After a hard day's work, I was already tired by the time I got there like a few other people, but partied into the early hours of the morning and thoroughly enjoyed it.    I woke up at about 7.30 this morning, aching all over from sleeping on a sofa and went home at about 10. I had a shower, got dressed and played around with my new camera for a while, then had some lunch. This afternoon some friends came over for a barbeque while the weather behaved itself. I also bought the following songs on iTunes:     I Want You Back - Jackson 5 Let's Get It Started - Black Eyed Peas Ride - The Vines Tomorrow I'm off to London on a geography field trip, and will be taking my camera as it should provide more exciting photo oppurtunities than my back garden can. Now off to bed, for tomorrow is bound to be tiring enough as it is. 
+     
+    
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+	 
+      Okay, 30 minutes until I leave for the party, at which the girl from the early May one (see blog archive) will be there. This time though, I'm more mentally prepared, although not quite so physically prepared. I have an  extremely  annoying coldsore on my lip, so I can't kiss anyone without passing an infection on to them (eww, I know). This calls for a little alteration of tactics, so tonight I'll say hi to her, but won't go chasing after her. I won't be made to look like a fool again, that's for sure. Expect a full debrief tomorrow, ha.   My camera arrived today as well and Blogger seems to have been updated, both of which are awesome :)  
+     
+    
+</post>
+
+<date>15,July,2004</date>
+<post>
+
+	 
+      My oh my, how could this have happened? One of the most anticipated games in history -  Driv3r  - is a total catastrophe. It's simply not finished, even after four years. The game plays like an Alpha version that still needs major reworking and polishing up before release, but here it is on our shelves priced at £44.99.  The driving sections are okay, but the A.I. is terrible and the on-foot sections are clumsy and unneccessary.  Driv3r  looks like a PSOne game as well, with awful pop-up, bad collision detection, ridged animations, tons of pixilation, bland textures and a low frame rate. It isn't even "all mouth, no trousers", but "all loudspeaker, no legs".  I'm so glad I didn't have to pay for this piece of crap, because if I had, I would be one angry guy.
+     
+    
+</post>
+
+<date>14,July,2004</date>
+<post>
+
+	 
+      I saw the film today and while it wasn't what I expected, it was excellent. I thought it was going to be like  Bowling For Columbine , but it wasn't as clean cut or colourful, but more serious and thought provoking. There were so many little facts and items that I'd never even heard about and that shocked me, so who knows what the response is going to be like in the States. In some ways, the film made me glad that I live somewhere that has organisations like the BBC who report things properly (even though our newspapers are utter crap) and a goverment who aren't quite as bad as many make out.  In other, more trivial news, my camera isn't here yet (boo!), but the party on Saturday nears (yeah!), meaning that I have to get my head round what I want to say and do regarding the girl from May (hmm...). 
+     
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+	 
+      ...to put it bluntly. It should arrive early this week, but I just can't wait for it to arrive. It was so good when my first one came and the wait for the replacement to arrive is just painful. Every day I see things I want to photo, but am unable to. Grr...  Not much went on today, so ponder this question that's been troubling me: Would I get wetter if I ran through rain, or would it be the same if I walked?
+     
+    
+</post>
+
+<date>11,July,2004</date>
+<post>
+
+	 
+      Well, well, what's been going on? Friday was a normal boring school day, with the added extra of the junior house plays in the evening. Guys in the first and second years perform the plays, while those in our year direct them. Someone gave me their ticket for free because they couldn't attend, so I went along with some friends and spend most of the evening watching them. Yesterday I was at work all day, where the weather seemed to switch between a hot summers' day and an autumnal rain storm. Hail and boiling sunshine in the same day - it could only be Britain.  Today I went out to town and bought a whole load of clothes to update my wardrobe, ready for summer. It was nice to have less people in town, with free parking and sales going on as well. I usually dislike highstreet-style shopping because it's not a relaxing environment, but today wasn't so bad. This afternoon I watched  The Thin Red Line , which was quite good, but not as good as say,  Saving Private Ryan  or  Band of Brothers .  This coming week should be a fairly easy one, with few lessons and work as usual, with the added bonus of my camera arriving and the party on Saturday night. 
+     
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+      I haven't updated this thing in all of... three days! Let's recap...  Today I discovered that there's a party on the 17th over at a friend's house and more importantly, that the girl from the party in early May (long story, see the archives) will be there. She and my friend split up a few weeks after they got together at that party, so now she's single again. A second chance for me, maybe.  I can prepare this time around though, although the task is even harder. All the conversation topics you can use when you've just met someone are gone, but I've got too keep chatting for as long as possible. She's half French, which I didn't know last time, so I might try using that, if I talk to her at all. You see, I don't want to hang around and hassle her, but I still want to let her know I'm interested. A tricky task, but definitely do-able. Maybe I won't like her as much this time round though. There might be someone even nicer there; you just never know. I'll find out when I get there I guess.  School has been a bit of a joke recently, with only three lessons per day out of a possible five. Yesterday I had three free periods, then took some new first years round the school and today I had three free periods, then Maths, then came home. Still, it's better than having to work hard though.  Even with so few lessons and the lack of work to do, I feel generally tired and drained, with a serious lack of any enthusiasm for working. I just want to go on holiday for three weeks with my family and friend, and just relax in the sun.  I've been playing a lot of  Pro Evolution Soccer 3  recently, especially its Master League mode, which is eating up my time like... uh, me eating a cake... Hmm, something like that anyway.  Anyway, until next time...
+     
+    
+</post>
+
+<date>05,July,2004</date>
+<post>
+
+	 
+      I've just watched a video of Apple's 2004 WorldWide Developers' Conference (WWDC), which happened a few days ago, and it was awesome to say the least. A  Windows  user myself, I've been tracking Apple's stuff ever since I got my iPod a couple of years ago. That little music player awakened me to the whole world of  Mac , a world with a new attitude and style.       The iPod originally came with some software called  MusicMatch , which was confusing, complicated and counter-intuitive. I didn't like it at all, but it worked; a necessary evil if you will.  Then along came a PC port of Apple's  iTunes  and it changed everything, making just about everything you could think of incredibly easy. It syncs your iPod automatically, collates and organises files, sets up playlists and so much more. Other programs like  Windows Media Player  and  Real Player  don't stand a chance.       Now what if all your programs could be like  iTunes ? What if you could rid yourself of all the  Musicmatch es and live an easier life? I think that's what  Mac  offers and what  Windows  doesn't.  Apple's  OS X  is cool enough as it is, but the new stuff they're putting in it is breathtaking. I could go on all night about all the awesome stuff in, but let's just say it's like iTunes a thousand times over. Couple this with some gorgeous, innovative hardware and you've got the computer system of your dreams. The only problem is the price.       Well, that's not strictly true. If I wanted to switch to  Mac , I'd have to almost give up PC gaming and that could be a problem. Yet we have consoles to game on and to be honest, I wouldn't miss it that much. The real barrier is money though. Getting a PowerMac with a deent set of software would set me back £2000. Yeah, ouch.  I'm saving up for my gap year right now, so upgrading even my own  Windows  PC is out of the question. My machine will have to do me until Autumn 2005, then I'll be way for a year. When I come back in Autumn 2006 though, I'll need a new computer for university, most likely a laptop. I'll have some money then and I'll have to choose between operating systems, and what a choice.       Apple is such a tempting proposition and one that I might just fall for sometime. Meanwhile, it's back to a world full of too many  MusiMatch es and not enough  iTunes .
+     
+    
+</post>
+
+<date>04,July,2004</date>
+<post>
+
+	 
+      Greece have won Euro 2004, beating the hosts Portugal 1-0, and I think it's a great end to the tournament. They may not have scored tons of goals, but they've beaten the previous cup holders and the host nation. They haven't even won a single game in any previous international tournament and lost their first two qualifying games. Moral of the story; the giants can always fall and the underdogs always have a chance of winning. I just wish I'd put down Greece to win on the pre-tournament betting odds!       This morning I had a really lazy lie-in, then got up and played PES3 for about two hours until lunch. In the afternoon, I had a big tidy up of my bedroom, clearing all the crap off of my desk and moving various items around until it looked much clearer. I would have finished off a review that's been hanging around for a while, but the cup final got in the way of that.  Tomorrow's a normal school day, or it should be anyway.
+     
+    
+</post>
+
+<date>03,July,2004</date>
+<post>
+
+	 
+      Well Wednesday's last ever Young Enterprise meeting was quite something. None of our shareholders turned up - big surprise! - so we have all the booze and food to ourselves. I was driving, so couldn't drink, and felt a little out of place which was a shame. Still, it was cool to see everyone for one last time and say goodbye. We've changed from a group of strangers to a group of friends, and I'll definitely want to meet up in the future with a few others from the company. I'll be an advisor to a company next year though, which should provide an interesting new perspective on the whole experience.  Thursday started as a normal day, with Maths and then a couple of free periods, but it all changed when all of the prefects were called into a little meeting. It turned out that the new first years were coming in that day and that we would spend the afternoon showing them round and answering their questions. It was interesting meeting the new guys and remembering that exact same event six years ago when we were that small and nervous. The contrast between us was striking; we're so near to the end of our stay at school, eager to get out into the real world, and they're just starting the journey, so eager to begin. Showing my little group of six round with another prefect was oddly satisfying, us passing on little 'unofficial' hints and tips, answering their questions on just about everything.  When I got home, my new digital camera was there waiting for me and proved to be excellent. The only setback was that all of the documentation was in French and my Dad found it Â£50 cheaper somewhere else. I had a play around with it, then regretfully packed it up and sent it back. Oh well, should get a new one in the next week or so.  Yesterday was a fairly average school day, and the last one in the first week that I've been driving on my own. I'm really getting used to it now and seem to be learning about real life road use fairly fast. White-van-men live up to their reputation, undertaking me through bus lanes twice in a day! I came home early and then went off to the dentist, which went well as usual.  In the evening I went out to a leavers' ball at a local pub/hotel/venue, which a friend and I had received invites from a girl at our Young Enterprise company. I really didn't know what to expect at all since I hadn't been to the place before, but when we got there it turned out to be a semi-posh, well organised place, with little signs like "smart dress only" and bouncers everywhere. Once we'd been checked off the invitee list and met up with our friend, we descendedd into what turned out to be a large main room, complete with tables, dancefloor and bar. When we got there, the party was already in full swing, full of people dancing and drinking. Going into any situation like that seems overwhelming for me to begin with because there's just so much stuff to take in.  Anyway, a little group of about four or five of us sat down and started chatting. When they all got up to dance, I was a little anxious because I usually avoid dancing at all costs because I think I'm crap at it. I didn't have much choice though, so got up and joined them anyway. As it happened, it wasn't as bad as I thought it might be and I happily joined in with everyone else, helped on by the ever useful aid of alcohol. I spend most of the evening, chatting and dancing with people and even surprised myself with how much I enjoyed it. Possibly the best thing is that it was a huge confidence booster, because I needn't be afraid of dancing anymore. I also met two people from my old schools, one from each, who I hadn't seen in about six years. It was pretty cool seeing how they had changed and hearing what they had to say, and provided a great talking point.  Today was spent at work, where the weather just couldn't decide what to do. It rained, then there was sun, then it rained again - on and off all day it was. I also had to ask my manager about the touchy subject of holiday, in that I wanted to take one day off for my Poland trip, but could work extra during the summer and will be willing to cancel some holiday next week. Hopefully he'll look kindly on my request because otherwise I'm, um, screwed.  Tomorrow will be spent simply lounging around, playing PES 3 and watching the Euro 2004 final. Well that's the plan anyway.
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      Tomorrow I'm off to France for 3 weeks, back on the 25th I believe. I'm going with my parents and my friend, who I'm also going on a gap year with. We're going camping, but top-end, luxury camping with all sorts of facilities and electrical stuff included, i.e. not like crappy British camping which I haven't had the 'pleasure' of experiencing yet. Anyway, I'm taking my camera with me and since France is just so beautiful, I should come back with tons of photos. Because I have a portable hard drive, I can take over 200 top quality photos per day if I so wish, plus videos on top of that. Most of all, I'm looking forward to relaxing and not having to worry about things.  Back to Thursday - it was the day that the new version of Thunderbolt launched and I got up early and ploughed through the remaining work. It went live just after lunch and the feedback has been very positive. I'm extremely pleased with the new site and Thunderbolt as it now stands and it makes me a very proud guy.  Friday was spent working on the site, adding new content and looking for the few bugs that were hiding amongst the site. I made a little tutorial for editors and then made some mockups of the content management system so that it can be made while I'm away.  Yesterday I went to work, where it was incredibly hot to an unbearable extent. I got home and was shattered, but had to get changed and go off to a BBQ at my parents' friend's house. I arrived their in good time and the actual house was impressive to say the least. I knew that the guy had made quite a bit of money in property and had just turned 60, but this house was properly badass, ha. It must have been worth £2 million, easily. No-one was allowed inside, but instead we were out in the massive garden (with adjacent lake and meadow), with the three car garage as the buffet area. At the end of the party, about half of the guests slept in the garden in about 11 tents, including us. this morning we stayed there for a few hours then came back home.  On a side note, I got to try out my dad's friend's Apple Powerbook G4, which basically convinced me to switched to Mac as soon as I can, i.e. when I come back from my gap year. Let's get the holidays and the rest of school out hte way though first, eh?  Check back in a few week's time for more updates. 
+     
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GPTSense</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+		<link href = "style.css" rel = "stylesheet" type = "text/css">
+		<link href = "{{ url_for('static', filename='css/style.css')}}" rel = "stylesheet" type = "text/css">
+	</head>
+	<body>
+		<iframe id = "background" src = "https://constellation.dkeree.repl.co/"></iframe>
+		<div id = "container">
+			<div id = "header-wrapper">
+				<h1 id = "header">GPTSense</h1>
+			</div>
+			<div class = "section">
+				<div id = "input-section">
+					<form id = "form" method = "POST">
+						<div class = "divider divider-input" id = "text-divider">
+							<div class = "overtop-widget overtop-widget-input">
+								<h2 class = "text widget-text">Input</h2>
+							</div>
+							<div id = "textarea-wrapper">
+								<textarea id = "input" name="input" placeholder = "Feeling suspicious? Someone who initially cannot type a sentence correctly has written an entire essay in perfect grammar? What?! Put that baloney here..."></textarea>
+							</div>
+						</div>
+						<div class = "divider divider-output">
+							<div class = "overtop-widget overtop-widget-output">
+								<h2 class = "text widget-text">Output</h2>
+							</div>
+							<div id = "center-more-wrapper">
+								<h2 id = "output" class = "text">{{text}}%</h2>
+								<a href="/">
+									<button id = "button" class = "button-href" type="submit">Submit</button>
+								</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src = "{{ url_for('static', filename='js/script.js')}}"></script>
+		<!-- <script src = "script.js"></script> -->
+	</body>
+</html>

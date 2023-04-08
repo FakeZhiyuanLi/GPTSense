@@ -1,0 +1,87 @@
+<Blog>
+
+
+<date>04,August,2004</date>
+<post>
+
+	 
+      1.關閉個人網頁共享  系統偏好設定-共享-服務-個人網頁共享  停止   開啟php支援    sudo /Applications/TextEdit.app/Contents/MacOS/TextEdit /private/etc/httpd/httpd.conf  輸入管裡者密碼  ----- 尋找 ----- #LoadModule php4_module        libexec/httpd/libphp4.so  ----- 改成 ----- LoadModule php4_module        libexec/httpd/libphp4.so  ----- 尋找 ----- #AddModule mod_php4.c  ----- 改成 ----- AddModule mod_php4.c  2.啟動個人網頁共享  系統偏好設定-共享-服務-個人網頁共享  啟動   升級 php 4.3.8  1.下載 php 4.3.8 打開-應用程式-工具程式-終端機-鍵入  curl -O http://tw2.php.net/get/php-4.3.8.tar.bz2  tar -xjf php-4.3.8.tar.bz2  cd php-4.3.8  ./configure '--prefix=/usr' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--with-apxs' '--with-ldap=/usr' '--with-kerberos=/usr' '--enable-cli' '--with-zlib-dir=/usr' '--enable-trans-sid' '--with-xml' '--enable-exif' '--enable-ftp' '--enable-mbstring' '--enable-dbx' '--enable-sockets' '--with-iodbc=/usr' '--with-curl=/usr' '--with-config-file-path=/etc'  make  sudo make install  輸入管裡者密碼  sudo cp php.ini-dist /etc/php.ini  安裝 MySQL 4.0.20  1.下載 MySQL 4.0.20 http://mysql.isu.edu.tw/Downloads/MySQL-4.0/mysql-standard-4.0.20-apple-darwin7.3.0-powerpc.dmg  2.安裝 MySQL 4.0.20 這兩個都要裝 mysql-standard-4.0.20-apple-darwin7.3.0-powerpc.pkg MySQLStartupItem.pkg  3.裝好後重新開機  安裝 phpMyAdmin-2.5.7-pl1  1.下載 phpMyAdmin http://belnet.dl.sourceforge.net/sourceforge/phpmyadmin/phpMyAdmin-2.5.7-pl1.tar.bz2  2.解壓縮後放到網頁目錄 解開放到 http://localhost/phpMyAdmin/ 或是 http://localhost/~使用者名稱/phpMyAdmin/  目錄對應關係  http://localhost 資源庫\WebServer\Documents  http://localhost/~使用者名稱/ 使用者\使用者名稱\網站 3.設定帳號密碼 開啟 http://localhost/phpMyAdmin/ 或是 http://localhost/~使用者名稱/phpMyAdmin/  設定root密碼 權限 root 使用者名稱.local 是 ALL PRIVILEGES 是 編輯 root localhost 是 ALL PRIVILEGES 是 編輯 編輯-更改密碼 密碼:你的密碼 確認密碼:你的密碼 執行 兩個都要改  把上面兩個勾起來 刪除使用者及重新讀取權限 執行  新增使用者 權限-新增使用者 使用者名稱:文字輸入:自己填 主機:本地:看你需要而定 密碼:文字輸入:你的密碼 確認密碼:你的密碼 整體權限:全勾(看你需要而定) 執行  用文字編輯打開打開phpMyAdmin\config.inc.php ----- 尋找 ----- $cfg['PmaAbsoluteUri'] = '';  ----- 改成 ----- $cfg['PmaAbsoluteUri'] = 'http://localhost/phpmyadmin/';  ----- 尋找 ----- $cfg['Servers'][$i]['auth_type']     = 'config';  ----- 改成 ----- $cfg['Servers'][$i]['auth_type']     = 'http';
+    
+</post>
+
+
+<date>04,August,2004</date>
+<post>
+
+    
+       這是第二次看這部片，還是快掉淚。  除了對父愛的感動外，我欣賞Sam看世界的態度，他總是可以看到最單純的一面，而我卻是在學習如何更單純的的面對我所處的世界，覺得諷刺。  他的律師對他說，跟你做朋友我得到的比你更多。  傻可以讓人執著，讓你看事情更清楚。 
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+    
+       跟國家幫去烏來烤肉，烤沒兩下就開始下大雨，後來到山下加油站刁牌。  甲：聽婆嘴，大富貴。  乙：那也要老婆聰明。 
+    
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+
+       
+      最好的架phpBB的免費空間  網址: http://www.freesites.ws 15 MB 空間 支援 PHP 支援 PERL 支援 SSI 1 MySQL FTP 上傳ftp.freesites.ws 無廣告  1. 首頁中找 - Click Here to Signup! - 並按入。  2. 看完一堆字之後在下面按 Accept。  3. 以下是填表的方法 First Name: 姓名 Last Name: 名字 Email Address: E-mail (正確與否也可) Address: 有數字跟英文就可 City: Hong Kong / Tai Wan State/Province: 亂填數字 Postal Code: 亂填數字 Country: Hong Kong / Tai Wan Phone: 亂填數字  4. 帳號填表 Account Username: 帳號名 Account Password: 帳號密碼 Domain: 域名  5. 之後就完成第一步的註冊, 等到網頁載入後會有以下的句子: Please be patient while your signup is processed. This process may take up to 1 minute. [ Customer accountID test successfully added ] Congratulations on your new account! Please check your email for your login information.  6. 之後在左面登入, 會去到 CPenal, 輸入正確的帳號與密碼。  7. 進入之後在上會有 Please update your contact information here 按入和更新你正確的 E-Mail.  8. 全部完成, 以下是架 phpBBX_SP 的教學。   架 phpBBX_SP 的教學  1. 先開一個 MySQL Account, 在 Cpenal 上按入 MySQL Databases.  2. 看 Databases: , 在下面有一個 Db: 的輸入欄, 輸入你的資料庫名稱, 之後按 ADD Db.  3. Users: 中輸入帳號與密碼。  3. 下面是安裝 phpBBX SP 的輸入資料. 資料庫伺服器主機名稱: localhost 您的資料庫名稱: 你的帳號_剛剛輸入 Db 的名稱 資料庫使用者帳號: CPenal 的帳號 資料庫密碼: CPenal 的密碼  CPenal 的帳號: php CPenal 的密碼: 123 Db: 是 test  就如以下填: 資料庫網址: localhost 資料庫名稱: php_test 帳號: php 密碼: 123  
+     
+
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+
+       
+      連續幾期的樂透頭彩沒人重，獎金上看好像是十億吧，全省陷入萬事報明牌，看鯉魚跳號碼，也有人拚命做夢，夢明牌，我依然是堅持不買樂透，也許哪天大便ㄜ出張彩卷，會嚇得中獎吧。  一卷在手希望無窮。 
+     
+
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+
+       
+      1.關閉個人網頁共享  系統偏好設定-共享-服務-個人網頁共享  停止   開啟php支援    sudo /Applications/TextEdit.app/Contents/MacOS/TextEdit /private/etc/httpd/httpd.conf  輸入管裡者密碼  ----- 尋找 ----- #LoadModule php4_module        libexec/httpd/libphp4.so  ----- 改成 ----- LoadModule php4_module        libexec/httpd/libphp4.so  ----- 尋找 ----- #AddModule mod_php4.c  ----- 改成 ----- AddModule mod_php4.c  2.啟動個人網頁共享  系統偏好設定-共享-服務-個人網頁共享  啟動   升級 php 4.3.8  1.下載 php 4.3.8 打開-應用程式-工具程式-終端機-鍵入  curl -O http://tw2.php.net/get/php-4.3.8.tar.bz2  tar -xjf php-4.3.8.tar.bz2  cd php-4.3.8  ./configure '--prefix=/usr' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--with-apxs' '--with-ldap=/usr' '--with-kerberos=/usr' '--enable-cli' '--with-zlib-dir=/usr' '--enable-trans-sid' '--with-xml' '--enable-exif' '--enable-ftp' '--enable-mbstring' '--enable-dbx' '--enable-sockets' '--with-iodbc=/usr' '--with-curl=/usr' '--with-config-file-path=/etc'  make  sudo make install  輸入管裡者密碼  sudo cp php.ini-dist /etc/php.ini  安裝 MySQL 4.0.20  1.下載 MySQL 4.0.20 http://mysql.isu.edu.tw/Downloads/MySQL-4.0/mysql-standard-4.0.20-apple-darwin7.3.0-powerpc.dmg  2.安裝 MySQL 4.0.20 這兩個都要裝 mysql-standard-4.0.20-apple-darwin7.3.0-powerpc.pkg MySQLStartupItem.pkg  3.裝好後重新開機  安裝 phpMyAdmin-2.5.7-pl1  1.下載 phpMyAdmin http://belnet.dl.sourceforge.net/sourceforge/phpmyadmin/phpMyAdmin-2.5.7-pl1.tar.bz2  2.解壓縮後放到網頁目錄 解開放到 http://localhost/phpMyAdmin/ 或是 http://localhost/~使用者名稱/phpMyAdmin/  目錄對應關係  http://localhost 資源庫\WebServer\Documents  http://localhost/~使用者名稱/ 使用者\使用者名稱\網站 3.設定帳號密碼 開啟 http://localhost/phpMyAdmin/ 或是 http://localhost/~使用者名稱/phpMyAdmin/  設定root密碼 權限 root 使用者名稱.local 是 ALL PRIVILEGES 是 編輯 root localhost 是 ALL PRIVILEGES 是 編輯 編輯-更改密碼 密碼:你的密碼 確認密碼:你的密碼 執行 兩個都要改  把上面兩個勾起來 刪除使用者及重新讀取權限 執行  新增使用者 權限-新增使用者 使用者名稱:文字輸入:自己填 主機:本地:看你需要而定 密碼:文字輸入:你的密碼 確認密碼:你的密碼 整體權限:全勾(看你需要而定) 執行  用文字編輯打開打開phpMyAdmin\config.inc.php ----- 尋找 ----- $cfg['PmaAbsoluteUri'] = '';  ----- 改成 ----- $cfg['PmaAbsoluteUri'] = 'http://localhost/phpmyadmin/';  ----- 尋找 ----- $cfg['Servers'][$i]['auth_type']     = 'config';  ----- 改成 ----- $cfg['Servers'][$i]['auth_type']     = 'http';
+     
+
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+
+       
+      Blog為什麼都是PHP難用斃了，我不懂PHP很多都霧煞煞。  網頁設計是乎無法跟程式脫離關係，偏偏我又不會程式，加上後端阿帕契跟我的西摳，越是不用錢的越是複雜，應該是我要什麼功能，拉一拉就好了，會點影像軟 體，可以處裡我要的效果，而不是讓網頁設計師的時間都花在寫程式，再來是瀏覽器自重換到麥金塔後才知道沒有探險家真是寸步難行，真他媽，很多網頁在沙發瑞 上都變得亂七八糟，還有字變超小，要用放大鏡才能看，外國人可能都是拿著放大鏡用電腦吧，台灣我知道是不用，體諒一下台灣吧，洋鬼子。 
+     
+
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+
+       
+      在公園跟女朋友吵架
+     
+
+    
+</post>
+
+
+</Blog>

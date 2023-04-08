@@ -1,0 +1,147 @@
+<Blog>
+
+<date>31,March,2004</date>
+<post>
+
+
+       
+      I finally decided that I wanted to be a little bit more public about this project...despite continuing doubts about its viability as a one man development effort. But what the heck, where's the fun in failing if you can't do it spectacularly and publicly?  All right, so here's the deal.  Memory of Rain  is the seedling of a 2D topdown action/rpg type game; it has a reasonably robust sprite engine, implemented in DirectX, the kernal of of a content/level editor, embedded script support thanks to LUA, the beginning of what looks like will be a painfully long-winded design document, and this, the humble weblog. Art assets currently include a your-eyes-will-bleed-it's-so-ugly placeholder tileset (including such recurring favorites as "grass", "desert", and "ocean"!), and random doodles done in between classes when I should in theory be paying more attention to my substitute teaching gig.  Why bother with this at all? Hey, I've been reading  urlLink gamedev.net  for more than four years now, I know the stats. (100-epsilon)% of these projects fail. In a way, that, friends, is exactly the point. This idea, or one very similar to it, has been bothering me for close to six years now. I want it to go away so I can get back to doing something productive with my life. But at the moment I find I'm just not ready to give up on it (or perhaps it hasn't given up on me...) In any case, I'm hoping that by for the first time, sincerely and completely throwing my effort into getting somewhere on it, I will either satisfy it well enough for it to leave me alone, or fail so permanently that it really has no choice but to go away and stop bothering me.  Yesterday, I added scrollbar support to my level editor window (so you can actually scroll around and see the whole map, fancy that...) Today, I'm trying to get the first pallete window containing the TreeControl that lets you select tiles for painting up and running. Are you thrilled? I'm thrilled! More (and perhaps even more exciting) details concerning the project will certainly follow.  
+     
+
+    
+</post>
+
+<date>25,April,2004</date>
+<post>
+
+
+       
+       d'arghh  Another pathetic update. I actually have been doing a little a MoR related stuff since last time..I have a rudimentary tileset  almost  finished. Just 2 corner tiles to go. Once they're done I'll post and you can all laugh at my pixel art efforts. I really bogged down once I committed myself to generating some graphical assets, though. It's salt in the wound that I had this last week off and got almost nothing done, game-wise.   There were some other fun things going on though. For instance, last weekend I went up to boston to game with my high school friends (traveling 100 odd miles to play D&D must qualify me for some special rank in the halls of geek-dom....). Following the session (the penultimate of the current arc of the campaign I'm DM'ing...after the next adventure I get to be a PC again! Woohoo!) I hopped in a car with two of my good buddies and we drove down to providence to play in an ultimate tournament (picking up with a team of other random people who  also  wanted to pick up...by chance it was a totally deadly bunch of ringers; we had one close game, but other than that we pretty much dominated the open division. Well, maybe I shouldn't say "we". I'm just happy I made some kind of positive contribution to such a really good team.   Then, just today, got to run in my first XC race since high school...man, that brought back some good memories. It was a 10k just over the border into NY; in fact, my first  ever  10k. I thought I was pretty out of shape, and man was I right. Anyway, came in 36th, with a blistering average 7:45 mile pace. My friend joel came in 2nd, despite complaining beforehand about how out of shape he was...I mean sure he runs to work every day (four miles each way)...but it's so  flat  (sheesh). It was a really good time though; there's another 10k a week from today and I'm excited: given how awful my time was, I'm almost guaranteed a PR ^_^  One might wonder what the heck I was doing over the course of the last week...well, the answer is not much. But I did return to my lapsed electronics project, mainly in the lofty realms of theory, unfortunately. Although I did start disassembling an old printer for the stepper motors (a pursuit frustrated by the lack of an appropriately sized torx head screwdriver...it is my considered opinion that it is about time to get medieval on that sucker with a hacksaw). I'd like to see an analog multiplexing sensor\parallel port interface circuit in the near future, but that's another story. Perhaps a whole 'nother blog.
+     
+
+    
+</post>
+
+<date>08,April,2004</date>
+<post>
+
+
+       
+       Awful   More or less sums it up. Made close to no progress. Well, I started writing some of the actual script for MoR's plot. I think it's more to encourage me than anything else, as I still have a long hard way to go before I can seriously invest myself in content generation. Although content generation was exactly the problem I failed at miserably over the last couple days. Today in particular stung, as I had it off, and completely blew it. If tomorrow's off too, then it's going to be different. I think I kidded myself a little about how  ridiculously hard  making good pixel art really is. Well, I'm not giving up yet. You don't start off good at anything.
+     
+
+    
+</post>
+
+<date>05,April,2004</date>
+<post>
+
+
+       
+       Stupid Chrono Trigger...   Yeah, "research". Riiiighht. I lost a lot of my disposable hours over the last couple days to a restart of that greatest of SNES achievements. I had really forgotten how great it was, in fact; truly the king of console RPGs. The tile art is absolutely beautiful, and I did spend  some  time scrutinizing it, so I wasn't  completely  wasting my time.  Since I posted last I got all the bugs worked out of the map editor saving routine (it still only supports a single layer), finished the corresponding level loading routine for the sprite engine and then set about adding level loading functionality to the map editor. In the process of that last bit I finally had to confront an issue I'd so far been dodging related to STL vectors: specifically, I was using vector  , where CCustomClass allocated dynamic memory, and I hadn't implemented a custom copy constructor or assignment operator (the need to do so totally went over my head when I started using vectors--one of the costs of being a self taught programmer I suppose). I knew I was sort of living on borrowed time, so it was a relief to get that straightened out, and tighten up some C++ knowledge at the same time.  That exercise also had another favorable result. For the first time I REALLY understand the difference between a pointer and a reference. For the longest time I thought it was a trivial semantic difference; well, I still think the difference is semantic, but it is NOT trivial. If you have two functions, one that returns int*, and the other that returns int&, it is true that in both cases an address is being returned. However, in the first case, it is a  value  that happens to be an address. In the second, it is a  variable , which after all to the compiler is just some memory address and a type description.  Let me outline the goals for the next few days.   Tonight, they are modest. Finish the grass tile, and get to work on a standing stones tile.  Tomorrow, if not subbing, finish up all the tiles I need to make the Arena area, and create the Arena area. Then get to work on a character sprite. If subbing, just finish the tiles.   Wednesday, character sprite. Look into designing the Combat Editor. Also double check the SolidRect parsing element of the .spl file reader. Perhaps add an MSprite::RenderSolidRects() method and add a feature in the map editor (and perhaps in the sprite engine too) to turn on drawing of solid rects as an alpha blended overlay over the regular geometry.  Thursday: Perhaps have a crude but not horribly ugly character sprite walking around the Arena area under player control? It could happen...  My goals seem to get more far fetched the farther in the future they are! Ah well...I'll learn how to schedule eventually... 
+     
+
+    
+</post>
+
+<date>03,April,2004</date>
+<post>
+
+
+       
+       Oh well...   Friday wasn't quite what I'd hoped (my own fault). I hashed together the .mlv file format description and wrote the CLevel::SaveLevel() method, but I'm not positive it works as I haven't finished the complementary Initialize from file method. Even if it does work, it only covers saving the base layer (which is all the Map Editor supports at the moment, anyway). The file format description covers the other layers, but doesn't go in to describing placeables and NPCs, although that should be fairly straightforward. One thing at a time and all that...  I didn't do anything artistic yesterday, either.  I've been thinking about the sort of character development model I'm planning for  Memory of Rain ...originally I imagined a highly traditional RPG style where you can level to improve your stats and thus buff out your characters to an absurd degree (despite the fact that the basic game mechanic is top-down action ala Zelda:LttP). However, even with four characters and two party slots, this creates the traditional problem where active characters get ridiculously huge and bench warmers become useless.  An alternate scheme would be an extension of Zelda's, whereby to improve your character you have to find enhancement items, either through beating bosses, searching areas thoroughly, or solving puzzles. Except in this case, items would not be limited to heart containers (or whatever icon I'd be using to represent health), but would extend to Strength, Toughness, Quickness containers. It would then be the player's decision whether to hype up one character absurdly, or to distribute the enhancement items more equally, regardless of who was active when they were won.  I need to think of good incentives for equal sharing of these items, though. Perhaps by making it very difficult to proceed without access to all the characters' special moves sets early on in the game, thus getting the idea across that you can't just ignore anyone in your party.
+     
+
+    
+</post>
+
+<date>02,April,2004</date>
+<post>
+
+
+       
+       How Appropriate...   This update was supposed to go up last night, but...I sort of fell asleep without actually going to sleep, if you know what I mean. Appropriately, it rained all day yesterday, and the night before that, which makes it sound suspiciously like MoR's backstory. It was also a no-subbing day (as today appears to be as well, woo-hoo!), which made it more or less ideal for getting things done. And get things done I did; the tile selection pallete and drawing tool work now, which is kind of a big deal, at least you can draw grass smiley faces on the map now. It's still ugly as sin, but that's the tileset's fault. I also worked a bunch on the design document, chewing through three quarters of the section outlining MoR's four pillars of gameplay (which I have delineated as Combat, Character Development, Exploration/Impact, and Story Development).   Here's the goal for today: on the code side I'd really like to implement level saving in the editor, and level loading in the 2D engine. The in-progress version of the game is going to not use a single-file organization to represent all the information in the game module; rather, it will have individual files for each level, and all levels in a given directory will comprise the module. All the relevant module scripts will reside in this directory too.  On the content side the goal is to generate two or three non-ugly tiles. These can then be used to show screenshots without having to hang my head in shame :-) I'm thinking I'll start off with the all mighty grass tile, and then add a couple boulder/twisted stone formation tiles. This is all I'll need to make the Arena map for testing out Combat mechanics.  I'll try to put up a note tonight outlining how I did.
+     
+
+    
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+
+       
+       They can walk, they can talk, they can SIIIING!!!  Well, maybe not the last two. But they can definitely walk. I am referring, of course, to the NPC system which I have spent the last two days cogitating upon and implementing. (If it seems like I'm skipping willy nilly from system to system without finishing anything that is by design; the grand plan is to create the skeleton of the entire app before fleshing in areas). The basic idea behind the NPCs (and for my purposes an NPC is anything that can move of its own volition, baddies, bosses, townsfolk, etc.) is that they are modeless state machines driven by scripts which are run in response to hard-coded events. The scripting element has not arrived yet; however, I had a fun time implementing a WalkToPoint method and then a RandomWalk method on top of that (see, that's why the modeless, that way an NPC can be Walking to a Point and also Random Walking at the same time). So I've got little guys who walk around randomly. That's pretty exciting, and it's tempting to rush directly on into the scripting system so I can give them more sophisticated behaviors... but . Just too soon for that I'm afraid. Got to polish up some things with the map editor.  In the same vein, the following boring but important tasks need to be pursued: defining the .bp (blueprint) file format which will store statistics, sprite info and scriptsets for the NPCs, writing the CBlueprintManager class (simple, that. Exactly the same form as the others), and integrating it in with the existing CNPC initialization code. Before going further, it'll probably make sense to test it with a dummy .bp file (eg 'imp.bp'), before proceeding with the necessary amendments to the .mlv format (that's basically just adding in an NPC list at the end; each entry is a strref to a .bp file and a position, and possibly some modified stats).  Now, for inscrutable and mysterious reasons, I'm thinking about the module start position again. A couple of things to check. First off, which you select 'File->Add Level' at the moment I believe it just creates that level over the existing one, and if the existing one wasn't saved it's tough rocks. So that needs to be fixed. Really we would like the map editor to load in all the .mlv files into memory just as the main app does (err, will). And then switch freely between them with a Change App option (either the crudest possible way (CFileDialog), a branch in the TreeCtrl, or possibly (crazily ambitious I know) an adhoc toolbar with a dropdown menu. The reason why that's relevant to the discussion of module start positions is that with all levels in memory at once, the app could ensure that only one module start exists at a time by deleting extras from other levels every time one is created (possibly warning first).  Soooo....that was interesting. I don't think I put myself in a good sleeping frame of mind, but doubtless, dear reader, I had more success with you ;)  I'll try to grab another screenshot showing progress; this isn't the dev machine so it's a bit of a bother. 
+     
+
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+
+       
+       Alas, poor lonely blog...  So the blog obviously needs a little love. For that matter, the project needs a little love too. I don't feel like getting bogged down enumerating all the ways I suck, so I'll skip that with a brief summation (yep, I suck). Have not gotten much done on MoR over the last 2 months. However, I am fully unemployed once again, and working on this project is a welcome (though perhaps ill-advised) distraction from the tedious business of securing regular employment.  OK, actual update. I've got a bare-bones map editor fully functional now. You can place tiles on a single layer, load, save, and view the solid geometry on the map in a semi-transparent overlay. I spent unthinkable amounts of time getting the coordinates for the solid rects right, so I'm definitely going to have to automate that with a mini-editor program (In the process of working those out by hand, I also learned a thing or two about Open Office spreadsheet, so go me). Following is a snippet of a screenshot from the editor program:         Next on the docket I think is setting up the player class and the CInput class (the latter not hard since I've already got that code lying around). Should probably have a placeholder sprite up and walking around (and bouncing off the solid geometry) sometime tomorrow. And after that...well, I should probably give the art side some love, work on a real sprite. Blah, that takes forever...  I'm in boston now; weird, eh?
+     
+
+    
+</post>
+
+<date>29,July,2004</date>
+<post>
+
+
+       
+       Astonishing...   I actually got not one, but two, job related tasks done today. That is, in fact, a personal record *blush*. Could the same thing happen tomorrow? Can purple cows fly to the moon? Damn straight!  So I was staring at a page containing an index of many companies in my area that I might be potentially interested in. To give a little background, I found this page several months ago and have occasionally checked back every so often to see if anything new has cropped up. Anyway, this was the first time I actually realized there was something  more  to that website. Perhaps the sidebar listing other stuff on the website should have been a subtle clue. In fact, it organizes monthly  meetings ...meetings that in theory I could easily get to. Wish I had known that at the  beginning  of the summer, oh well, my own damn fault. Would I dare to crash one of these cozy industry shindigs? Perhaps, Rabbit, perhaps...time to start coordinating that stealthy ninja networking assault ;)            
+     
+
+    
+</post>
+
+<date>25,July,2004</date>
+<post>
+
+
+       
+       That was painful   (sigh...) Well, I finally completed my  urlLink website redesign.  I went with a frames based approach because it let me do a layout that I thought looked cool, only now that I'm finished with it I'm having second thoughts. Mainly because there are some visual artifacts (black lines) that crop up in firefox, my preferred browser; plus I think it's going to be a bit more of a pain to maintain.Oh well, it's done; for now that's all that matters.           
+     
+
+    
+</post>
+
+<date>25,July,2004</date>
+<post>
+
+
+       
+       That's one thing done.   I finished my NWN mod :-) . That made me very happy, as it was something I THOUGHT I had finished quite a while ago, went back and played through again, and found a bunch of problems (including one potential showstopper...ughh). I originally thought this would be a quick 2 hour play experience, even for someone who had never played it before. Well, on my final playthrough, it took ME almost six hours, and  I  know where the heck everything is. I am happy about the fact that my final version kept me up 'til 6am finishing it though; I think that's a good sign ;) Well, I hope people like it; none of my friends have the hardware to play NWN, which is strange since this game is more than two years old now. I'll just have to upload it to the ign vault and see how it goes...  
+     
+
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+
+       
+        Messing around with stuff    So obviously I've been messing around with some stuff...ya know. like the URL of this site, its style, what-have-you. This was precipitated by a change in focus away from my original subject: alas, Memory of Rain will have to wait. I'm just not ready to bring it into existence yet. But I haven't been wasting my time; I have a good idea of what to do with that 2D engine I spent so much time on: tilt the camera on its side and make a pseudo-Mode 7 kart racer!     * blink *. Yeah, you heard right. It makes sense, really. The motivation is the vastly reduced time to demo. Artistically, I need one kart model (well, 2 would be nice, but I could live with one), and a few more track tiles added to my default tileset. Well, and a skybox. Programming-wise, I need to tweak the kart handling, and add in track waypoints to the editor and the main app. That's pretty much it. Once I have that finished I can decide whether or not to drop it or to push on and make a real game out of it.     sigh... another month between updates. I believe that this is only the 9th update since a half year ago when I started this. Sad indeed. Will I show up tomorrow to break the trend? Only time will tell...               
+     
+
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+
+       
+       I'm all tingly...  I've been up to a couple of exciting things. One, I fixed a problem in my map editor involving loading of collision edge polylines from files--for some reason there's a null polyline in the list after a file load and d3d was throwing a fit when it came up to be rendered. Plus, I got my skybox in place. It still looks pretty funky though; clouds that cross over from one face to another look suspiciously bent; although they don't quite break the illusion, I think I'm going to make a revised version with clouds that stay off the quad edges. plus, smaller clouds. And revise the placement of the box so that I'm not wasting texels on occluded sky geometry that never gets seen (below the tile plane or above the view fustrum).  What's  really  exciting though...is that, for the first time in more or less ever, I have a job lead at a place I would actually like to look at. It's QA testing, nothing fancy, but with the idea of converting to full time at the end of a 6 month stint if everything's going well. Had the phone interview today and it felt like it went really well. Well  enough  I don't know...just have to wait (biting my nails the whole time) and see.  Plus this company is having its big conference/convention meet the press dealy down in providence this weekend, so I'm probably going to go to that. Meet a bunch of people, plus Keith Baker (!) creator of the Eberron D&amp;D campaign setting. So that should be exciting. If I can figure out a ride home at the witching hour maybe I can even stay and inveigle my way into the dungeon crawl adventure he's going to run at the end of the con.  we shall see.  
+     
+
+    
+</post>
+
+
+</Blog>

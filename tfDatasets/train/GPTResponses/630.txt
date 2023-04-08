@@ -1,0 +1,1 @@
+DNA transposons do not use RNA as genetic material, which is used by class 1 TEs (retrotransposons). DNA transposons move their genetic material directly from one location to another within the genome, while retrotransposons use an RNA intermediate for their transposition.

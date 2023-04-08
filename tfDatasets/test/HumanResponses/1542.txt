@@ -1,0 +1,1 @@
+pogledal sem si en dolgi filmček, ki kaže dva microsoftova razvijalca avalon in xaml tehnologij. stvar je precej zanimiva. gradnja grafičnih vmesnikov preko mešanja xml dokumentov in c# programov je zelo domiselno. nekaj podobno xaml je sicer že. imenuje pa se xul, ki ga uporablja mozilla.org.

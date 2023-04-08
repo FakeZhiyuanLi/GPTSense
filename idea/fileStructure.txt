@@ -1,0 +1,55 @@
+GPTSense -/
+ | datasets -/
+   | Blogs
+   | NQG
+   | HumanResponses -/
+     | FactoidResponsesGPT
+     | HumanResponses
+ | docs -/
+   | documentation files
+ | env
+   | pyenv files
+ | src
+   | app -/
+     | static -/
+       | css -/
+         | styles.css
+     | templates -/
+       | index.html
+     | wsgi.py
+   | main -/
+     | model -/
+       | utils -/
+         | getResponses.py
+       | weights -/
+         | weights
+       | classifier.py
+       | trainClassifier.py
+       | createDataset.py
+     | db -/
+       | utils -/
+         | fileNames.py
+       | clearDB.py
+       | connectDB.py
+       | insertDB.py
+     | responses -/
+       | utils -/
+         | cert.py
+       | clearDB.py
+       | humanResponses.py
+       | saveDB.py
+       | connectDB.py
+       | generateResponses.py
+ | tfdatasets -/
+   | test -/
+     | file01.txt
+     | ...
+   | train -/
+     | file01.txt
+     | ...
+   | val -/
+     | file01.txt
+     | ...
+ | idea -/
+   | fileStructure.txt
+ | requirements.txt

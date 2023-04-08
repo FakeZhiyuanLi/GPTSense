@@ -1,0 +1,136 @@
+<Blog>
+
+<date>26,May,2004</date>
+<post>
+
+
+       
+       urlLink Not sure which is funnier.. The level of blog referrals, or the actual article.   If you are willing to dig, there is a pretty funny story at the end of this long referral! :)
+     
+
+    
+</post>
+
+<date>25,May,2004</date>
+<post>
+
+
+       
+      My best friend Eric was complaining that my blog was filled with too much techo babble, so  urlLink here  is something a little different. 
+     
+
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+
+       
+      As you may have heard by now, Exchange has released a cool new feature today (5/25/04) that goes by the name of Intelligent Message Filter (IMF).  You can find out more details on this cool feature at www.microsoft.com/exchange/imf.  On Exchange, we are encouraged internally to Dogfood (consume pre-release deliverables) our own products, and since I’ve always enjoyed battling the UCE problem on my personal mail server, I decided to give IMF a test drive.  After getting everything thing setup, my first choice in filtering was to give my end users (family) the burden of cleaning up UCE from their own junk mail folder.  The initial feedback was extremely positive, and I was quickly able to figure out the thresholds that worked for most people (6 on the fence, 7 and up almost always UCE).  But I also started getting feedback that the end users didn’t really want to continue to deal with the stuff that was definitely UCE and would prefer it never got to the inbox.    As it so happens, IMF has a choice of choosing different actions at two different levels.  The first action that I had already used was storing the UCE to the Junk E-mail folder.  The second action was a blocking action that would Archive, Delete, or Reject.  I didn’t want to reject, as more likely then not I’d end up with a bunch of NDR’s sitting in an outbound queue that would never be delivered.  I didn’t want to delete, as I’m always concerned about accidental mail deletion, so Archive sounded like the perfect solution for me.  Since I knew that level 7 and up typically was UCE, I set the Blocking configuration to Archive messages with SCL 7 or greater.  I then started watching messages pile up in my “program files\exchsrvr\mailroot\vsi 1\UceArchive” folder.  I now had to figure out a way to manage this folder.  Unfortunately this was not an area that the IMF feature was focused on.  Using OE or notepad via browser window was not very pleasant.  So it was time to fire up Visual Studio and roll my own Archive Manager.  The result was the IMF Archive Manager (IMFAM) that is now available on http://workspaces.gotdotnet.com/imfarchive.  IMFAM is a C# GUI tool released as source on GotDotNet that provides a tree view of the archive directory and the eml files in it.  It also has a preview pane that displays decoded P2 mail message properties as well as the entire raw message.  There are 5 actions; Refresh, Delete, Resubmit, Copy to Clip, and Report.  Refresh reloads the tree view as well as the raw message.  Delete deletes the selected message.  Resubmit moves the message to the pickup directory where it is resubmitted to the MTA and delivered.  Copy to Clip copies the entire raw message to the clipboard in case you want to paste it in another window.  Report creates a new message, attaches the selected message as an attachment, and then sends it to the recipient listed in the report settings.  In addition it optionally strips P1 headers, x-SCL header, and deletes the message if so configured in the report settings.  The report feature is useful if you want to send the UCE to reporting organizations such as http://www.spamcop.net.  Since this is released as an open source project on GotDotNet, feel free to download it, kick the tires, provide feedback, or even join the group and provide new features. 
+     
+
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+
+       
+       urlLink IMF Archive Manager: Home   I've gotten approval for release of my IMF Archive manager tool.  More details will be released next week on IMF at TechEd.
+     
+
+    
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+
+       
+       urlLink Microsoft extends availability of spam filter   The IMF buzz has started.  Next week's TechEd conference should be interesting.
+     
+
+    
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+
+       
+      As I mentioned previously, I have a distain for UCE.  On my home Exchange server I'm constantly trying to come up with new ways to block this junk email.  For quite some time I've relied on RBL's which is now very easy to use with Exchange 2003.  The only problem with RBL's is that the speed that worms/viruses create new open proxies usually allows spammers a couple of hours to exploit a new slave machine before it is black listed.  Being an insider lets me test drive new technologies like IMF.    One cool aspect of IMF is that it can be setup to archive messages that exceed a certain spammines.  Of course then you are left with a bunch of messages in a directory that you have to browse through.  Being the geek that I am, I decided to write my own browser to parse the messages so I could decide to resubmit them, delete them, or report them to  urlLink SpamCop .  Everything was going great until I found that quite a few spammers have started either QP or Base64 encoding the headers per RFC 1342.  I quickly figured out how to solve the Base64 issue with C#, but there didn't seem to be any support for QP decoding.  Searching online only generated results of other people looking for the same solution.  So after going through the spec I ended rolling my own solution as follows:    &nbsp;		private static string DecodeField(string field) &nbsp;		{ &nbsp;&nbsp;		string result = field; &nbsp;&nbsp;		int isoStart = field.IndexOf("=?"); &nbsp;&nbsp;		int isoEnd = field.IndexOf("?=") - isoStart -2; &nbsp;&nbsp;		if (isoStart > -1 && isoEnd > -1) &nbsp;&nbsp;		{ &nbsp;&nbsp;&nbsp;		string text = field.Substring(isoStart + 2, isoEnd); &nbsp;&nbsp;&nbsp;		string[] parts = field.Substring(isoStart + 2, isoEnd).Split('?');  &nbsp;&nbsp;&nbsp;		// Only continue parsing if there are 3 parts &nbsp;&nbsp;&nbsp;		// charset?encoding?text &nbsp;&nbsp;&nbsp;		if (parts.Length == 3) &nbsp;&nbsp;&nbsp;		{ &nbsp;&nbsp;&nbsp;&nbsp;		Encoding coder = Encoding.GetEncoding(parts[0]); &nbsp;&nbsp;&nbsp;&nbsp;		byte[] bSubject; &nbsp;&nbsp;&nbsp;&nbsp;		if (parts[1].ToLower().Equals("b")) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			bSubject = Convert.FromBase64String(parts[2]); &nbsp;&nbsp;&nbsp;&nbsp;		else &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			bSubject = QPGetString(parts[2]); &nbsp;&nbsp;&nbsp;&nbsp;		result = coder.GetString(bSubject); &nbsp;&nbsp;&nbsp;&nbsp;		if (isoStart + isoEnd + 4  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			result += field.Substring(isoStart + isoEnd + 4); &nbsp;&nbsp;&nbsp;&nbsp;		if (isoStart > 0) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			result = field.Substring(0, isoStart) + result; &nbsp;&nbsp;&nbsp;		} &nbsp;&nbsp;		} &nbsp;&nbsp;		return result; &nbsp;		}  &nbsp;		private static byte[] QPGetString(string line) &nbsp;		{ &nbsp;&nbsp;		if (line == null) &nbsp;&nbsp;&nbsp;		throw new ArgumentNullException();  &nbsp;&nbsp;		ArrayList byteArray = new ArrayList();  &nbsp;&nbsp;		// look for =XX where xx is hex &nbsp;&nbsp;		Regex reg = new Regex("(\\=([0-9A-F][0-9A-F]))", RegexOptions.IgnoreCase); &nbsp;&nbsp;		for (int i = 0; i  &nbsp;&nbsp;		{ &nbsp;&nbsp;&nbsp;		if(line.Length >= i + 3 && &nbsp;&nbsp;&nbsp;&nbsp;		Char.Equals(line[i],'=') && &nbsp;&nbsp;&nbsp;&nbsp;		reg.IsMatch(line.Substring(i,3))) &nbsp;&nbsp;&nbsp;		{ &nbsp;&nbsp;&nbsp;&nbsp;		byteArray.Add(Convert.ToByte(int.Parse(line.Substring(i+1,2), &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              NumberStyles.HexNumber))); &nbsp;&nbsp;&nbsp;&nbsp;		// skip two chars &nbsp;&nbsp;&nbsp;&nbsp;		i += 2; &nbsp;&nbsp;&nbsp;		} &nbsp;&nbsp;&nbsp;		else &nbsp;&nbsp;&nbsp;		{ &nbsp;&nbsp;&nbsp;&nbsp;		byteArray.Add(Convert.ToByte(char.Parse(line.Substring(i,1)))); &nbsp;&nbsp;&nbsp;		} &nbsp;&nbsp;		} &nbsp;&nbsp;		return (byte[]) byteArray.ToArray(typeof(byte)); &nbsp;		}    Hopefully other find this useful.
+     
+
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+
+       
+       urlLink Microsoft Unveils Future Of Tablet PC   I never really thought that tablets were all that until I my laptop died and I had to get a new one.  Corporate policy dictates the minimum specs for new hardware, so my choice was between a bulky "desktop" laptop with all the bells and whistles or a slim line Toshiba Portege Tablet.  Needless to say I went the tablet route and and have quickly fallen in love with it.  I've always been a big pad and pen note taker in meetings, so moving to the tablet using  urlLink Onenote  wasn't very hard, especially since I had gone to using one notes to organize my notes before making the switch.  Some of the new features mentioned in this article are sure to only increase my reliance on electronic Ink.  James
+     
+
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+
+       
+       urlLink Slashdot | OptInRealBig Wins Restraining Order On SpamCop   Lets hope that Spamcop wins this round, though I suspect that going after the fact that Spamcop is generating reports about websites inside of mail can be construed as harassment.  I personally use Spamcop for both RBL as well as a reporting mechanism and find their services very effective at stopping future spam.  
+     
+
+    
+</post>
+
+<date>12,May,2004</date>
+<post>
+
+
+       
+      Who's there...    I guess its time for me to finally plunge into this new world of blogging with my own blog page.  The sites name was inspired by my youngest daughter, Emily, who loves "knock knock" jokes.  This isn't the first time I've  urlLink blogged  though.  A little about me, I'm a Software Test Engineer lead working on the Exchange Transport team at Microsoft.  I live with my wife, two daughters, two cats, and dog in Bellevue a short 5 minute drive to work.  One of my biggest pet peeve's is SPAM aka UCE.  Working on the Exchange Transport team helps me provide input into the direction MS is going in terms of fighting this issue.  Currently I'm working  urlLink Edge  Server.  While I can't talk about any details other then what has been published, I am very excited about the prospects of Edge.  James
+     
+
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+
+       
+      I've been working on IMFAM during my spare time to address the feedback I've been getting.  I believe the Beta is now ready, but as fate would have it, GotDotNet appears to be having problems.  So for now you will just have to salivate over what is going to be in it as opposed to trying it out:  Delete Key mapped to Delete Button for those that are mouse imparied (like myself).  Several rendering bug fixes for particular (corrupt?!?) messages.  Automatic Refresh time exposed in the xml configuration file.  In addition, Automatic refresh no longer reloads the message pane, so if you are editing a message, you won't loose your changes.  NEW VIEW!  I've added the ability to switch from the original tree view to a new list view.  The new list view allows column reordering, column sorting, and multiselect.  Multiselect actions are limited to delete at this point.  Better loading experience.  For both the old view and the new view I added a Application.DoEvents() in the loop that populates the views.  This will allow you to start working without waiting for everything to reload.  One additional feature for the ListView is the entire list is not reset during automatic refresh, just new items are added.  
+     
+
+    
+</post>
+
+<date>16,June,2004</date>
+<post>
+
+
+       
+       urlLink Intelligent Message Filter Release Notes   For those running into issues with IMF, an updated README has now been published.  This includes a FAQ that covers most issues you may have.
+     
+
+    
+</post>
+
+<date>10,June,2004</date>
+<post>
+
+
+       
+      What a pain in the butt!  I was working on getting the  urlLink IMF Archive Manager  working for globalization when I suddenly ran into this.  I have two forms, main and report.  The main report I took care of without a hitch, but as soon as I turned localization = true on the report form, the app would throw a MissingManifestResourceException when it loaded.  There were several articles that I read that could cause this problem, but none of them offered a solution or the solution didn't apply.  After some digging I realized that my main form resource file was being generated as Microsoft.Exchange.Tools.IMFArchiveManger.frmMain.resources where my report form was being generated as IMFFilterManger.Report.resources.  The fix was as simple as going into the project settings and changing the default namespace from IMFFilterManager to Microsoft.Exchange.Tools.IMFArchiveManager and then suddenly everything started working.  God I hate dumb things like that! :P
+     
+
+    
+</post>
+
+
+</Blog>

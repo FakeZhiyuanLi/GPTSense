@@ -1,0 +1,1 @@
+ok, the template took, but now somehow all my links have disappeared. when i look at the html code for the page, the links are there, but they don't appear on the actual page

@@ -1,0 +1,756 @@
+<Blog>
+
+<date>30,June,2004</date>
+<post>
+
+	 
+       Ok, this post derived from a discussion on the comments of previous posts, but I'm just going to summarize everything here for future reference. 
+
+ You see many  MIME  types like these: 
+
+ 
+  application/xhtml+xml  
+  application/atom+xml  
+  application/rss+xml  
+  application/rdf+xml  
+ 
+
+ Yes, many different  XML  Schemas have their own  MIME  type. The rest will just have to do with  application/xml . However, why the  +xml  bit at the end? 
+
+ Well, not all user agents support all of these individual  XML  Schemas. However, that doesn't necessarily mean that they can't do anything with them. Therefore, we always need to let them know that a particular file is  XML  regardless. The  +xml  bit at the end signifies this. 
+
+ Neither Mozilla nor Internet Explorer seem to make use of this (yet). However, Opera does. (Thanks,  urlLink Anne ). 
+
+ Anything to add? Comment! 
+     
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+       This morning everything looks fine using Internet Explorer 6. 
+     
+    
+</post>
+
+<date>29,June,2004</date>
+<post>
+
+	 
+       I just read the following post by Anne van Kesteren:  urlLink Channel 9 does a markover and restyles a bit . 
+
+ Apparently  urlLink Channel 9  at Msdn.com just got a redesign, where they claim to have worked on cross-browser compatibility. 
+
+ I decided to test the site out in three browsers, namely Opera 7.51, and Firefox 0.9, and Internet Explorer 6, on my screen at 800x600 resolution. Here are the results: 
+
+ 
+ Opera 7.51 - Fine 
+ Firefox 0.9 - Fine 
+ Internet Explorer 6 - Broken 
+ 
+
+ Yes,  broken . And I have screenshots to prove it. I don't know if it is just my version (6.0.2800.1106 to be precise), but the site is in pieces with the boxes not being aligned correctly. 
+
+ This must be the joke of the decade or something. I still cannot believe it myself. Microsoft actually goes and breaks their pages  for   in  their own browser, while having other browsers display the pages more-or-less correctly. 
+
+ I think the problem is that the developers have been using a higher screen resolution. However, many people (like myself) are still using 800x600, so you  must  cater for that by testing. Obviously, this testing has not been done propperly. 
+     
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+       One of the things I like about Blogger is the Atom feed. I also have one available at  urlLink  http://charlvn.blogspot.com/atom.xml  . 
+
+ However, there are a few things wrong with it. Firstly, it is sent as  text/xml . It seems like most servers are configured to send  .xml  as  text/xml  by default. Why not rather  application/xml ? 
+
+ Anyway, Atom feeds have their own content type:  application/atom+xml . Some examples of correct feeds: 
+
+ 
+  urlLink Joke van Niekerk  
+  urlLink Anne van Kesteren  
+ 
+
+ The first one on the above list I set up correctly to send under the correct content type using ASP.NET It is actually very simple, using the following code: 
+
+  &lt;% Response.ContentType = "application/atom+xml"; %&gt;  
+
+ Note that the above is in  C# , which is my language of choice (I tried  VB  and it sucks  for me   in my opinion ). If you want to use that  VB  though, you must just remove the last semicolon, but you probably know that already.  :-)  
+
+ Another thing that irritates me about my Atom feed, is that it doesn't use propper indentation. However, this doesn't make it incorrect, only irritating. 
+
+ At least one thing:  urlLink it validates ! 
+
+ Another thing I don't understand: Why doesn't it make use of of the  atom:summary  element? It could take the first paragraph out of the post and use it there, or it could even have (my preference) a separate box in the admin section where the author can type it in. Summaries are very important I think when they are written well. 
+
+ Somehow, I thought earlier on that the entries in the feed didn't have any  HTML  in them. However, when checking again I see they do. A very nice feature I love! Especially since they use namespaces and not that ugly  CDATA  method that was used with  RSS  feeds. 
+
+ But I have to say, in general the Atom feeds here at Blogger are not too bad. Many thanks go to the developers, because Atom rocks!!! 
+     
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+       One thing I realize is that there is huge potential for standards-based work in this area. Getting pages to validate is important, because you never know how quirky the search engine's parsers are. It is also very important to use semantic markup. If you look around, you will see that most (if not all) of the top search engine optimizers know about semantic markup, even though many of them are still not really standards-aware. 
+
+ One of the thing we search engine optimizers always look at is the  metadata .  meta  elements are not so important to Google anymore; however, they are still important to more primitive search engines. Therefore they must still be used. For Google, we (or at least  I ) make use of  urlLink  RDF  . 
+
+ Not many people really know to what extent Google supports  RDF . However, we do know that the Googlebot is looking for  index.rdf  and  atom.xml  files. 
+
+ I think the question is: Is Google looking for  index.rdf  to extract a feed out of it, or to extract metadata? 
+
+  RDF  is the future of metadata. However, since Google is ignoring  meta  elements inside a page, why would it be looking at external metadata? 
+
+ But yet we don't really know  urlLink Google is cooking  behind the scenes. I hope there will be more light shed on it into the future. 
+
+ However, if Google (or for that matter of fact, any search engine) would ever support  RDF  metadata, the first thing to be supported would surely be  urlLink Dublin Core . I have set up a file using only a few Dublin Core elements for a client recently:  urlLink The Model Shipyard  RDF  metadata . 
+
+ Note that in the above example for The Model Shipyard, the file is sent as  text/xml  since I wasn't really supposed to use server-side scripting and I don't think the server knows about  .rdf  file extensions yet. Normally, you would use  application/rdf+xml  for that. 
+
+ Another example I can show you is for the front page of my mother's website:  urlLink  Joke van Niekerk 's Homepage Metadata in  RDF  . That is sent under the correct content type thanks to ASP.NET, and is also more extensive than the one for Shipyard. 
+     
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+       I have recently discovered a way to represent a  urlLink vCard in  RDF  . I don't really know if one can call this a specification or not, since it is only a  W3C  Note. However, for the purposes of this post I will refer to it as a specification. 
+
+ This is probably one of the poorest specifications ever written. I ended up working from the  urlLink vCard  RDF  Schema  instead. I personally would have liked to see much more information inside that specification from the original  urlLink vCard  RFC .  And another thing, that  RFC  contains much more than what has been included in vCard's  RDF  Schema mentioned above. 
+
+ I have set up one example so far. I just hope it is correct, since the specification is so bad I don't really know. The example I created was for my mother:  urlLink  Joke van Niekerk 's vCard in  RDF  . 
+     
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+       My first link-log post. These are just weblogs I read regularly: 
+
+ 
+  urlLink Anne's Weblog about Markup &amp; Style  
+  urlLink Ian Hixie  
+  urlLink Jeffery Zeldman's Daily Report  
+  urlLink Mezzoblue - Dave Shea  
+  urlLink Research Kitchen - Minz Meyer  
+  urlLink Mark Wubben  
+  urlLink Dutchcelt - Egor Kloos  
+ 
+
+ There are some other ones as well, but I'll make another post again later. 
+     
+    
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+	 
+       Hello! This is officially the first post on my new weblog. There is still a lot of work that needs to be done here, but I'll handle it as it comes. 
+
+ Now at least I can make my posts as long as I want, and I also have something "usefull" to point my  URI  to from my comments on other weblogs. It's better than having it point to  urlLink something else  which is still currently empty, and is in a language most people won't even understand. I still have some big plans for that site though. 
+
+ I was very suprised how easy it was to sign up here on Blogger. They also have some nice templates, but I'll have to edit them quite a bit when I have time. 
+
+ It's a pity that I can't get this site to validate though. Google is inserting some code at the top for the ads, which is fine, but it's breaking all possibilities of validation. I might send them an e-mail to complain, but it's a free service after all, so... 
+
+ I'll probably get myself some (paid) hosting account one day. I'll see. 
+
+ Anyway, for those that are wondering, I'll probably be posting all kinds of web design/development and programming-related stuff here when I have time. We'll have to see. 
+
+ Thanks for reading my first post. 
+     
+    
+</post>
+
+<date>30,July,2004</date>
+<post>
+
+	 
+       According to the W3C, we SHOULD NOT send XHTML 1.1 as  text/html . Note that this is not a MUST NOT, but that a SHOULD NOT is basically the same as a MUST NOT unless you have a very good reason. 
+
+ XHTML 1.1 is not as backwards-compatible as XHTML 1.0 since the attributes  lang  and  name  on  a  is removed. However, if you don't use any bookmarks on the page, and you use  content-language  in the HTTP Response Header to set the base language of your document, I don't really see any practical implications when sending XHTML 1.1 as  text/html . 
+
+ I think only the base language of the document matters currently (and I could be wrong here), since I don't believe speech-enabled web browsers support  lang  attributes correctly anyway. I don't know about search engines, but I believe Google and those should be smart enough to look at  content-language  anyway. And if that fails, well then at least you still have those (apparently scaly) autodetection algorithms left. 
+
+ I could be wrong here, but these are just a few thoughts. At least when you use  XHTML 1.1  you can combine namespaces and use  SVG  and hope the user agent will support it. ;-) 
+     
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+	 
+       Yes, the Garden Route Open Source (GROS) User Group. And it is pronounced as "gross". We all had a laugh about it. :-) 
+
+ Yesterday evening we came together as the official first meeting. We were mainly talking about what Open Source is, the possibilities with it, and how it has progressed in the past few years. We had some elections, and we decided that we are going to hold a meeting the last Thursday of every Month at 5:30 PM. 
+
+ I was also there (obviously), and was elected as Webmaster. 
+
+ There was a number of computer-related companies in the area that was present yesterday. And then of course some of the local schools. The  urlLink PE Technikon 's  urlLink George Campus  is also going to be havily involved with this. For non-South-Africans, a technikon is our name for a polytech. However, the PE Technikon is soon going to be renamed to the Nelson Mandela Metropolitan University. PE is short for Port Elizabeth, a city, and the area has been named the Nelson Mandela Metropole. 
+
+ Note that the George Campus is not in PE, nor is it in the Nelson Mandela Metropole. It is, as the name suggests, situated in George. It is therefore a "sattelite campus". 
+
+ Get it? :-) 
+
+ I will keep you updated on the progress of the website. I am also going to keep a keen eye on cross-browser compatibility and standards here, particularly because this is all related to open source. But then, I do that normally anyway. :-) 
+     
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+	 
+       They have a  urlLink good, thorough approach at Keystone , but there's a few things I don't really like. 
+
+ Therefore I decided to take their solution, and modify it a bit. Here is the result: 
+
+  &lt;?php
+	header('Content-Language: en');
+	header('Vary: Accept');
+
+	$xhtml = false;
+
+	function fix_code($buffer)
+	{
+		return (preg_replace("!\s*/&gt;!", "&gt;", $buffer));
+	}
+
+	if(stristr($_SERVER['HTTP_ACCEPT'], 'application/xhtml+xml'))
+	{
+		if(preg_match("/application\/xhtml\+xml;q=0(\.[1-9]+)/i",$_SERVER['HTTP_ACCEPT'],$matches))
+		{
+			$xhtml_q = $matches[1];
+			if(preg_match("/text\/html;q=0(\.[1-9]+)/i",$_SERVER['HTTP_ACCEPT'],$matches))
+			{
+				$html_q = $matches[1];
+				if($xhtml_q &gt;= $html_q)
+				{
+					$xhtml = true;
+				}
+			}
+		}
+		else
+		{
+			$xhtml = true;
+		}
+	}
+	if($xhtml)
+	{
+		header('Content-Type: application/xhtml+xml; charset=UTF-8');
+		print '&lt;?xml version="1.0" encoding="UTF-8"?&gt;' . "\n";
+		print '&lt;?xml-stylesheet type="text/css" href="/design/style.css"?&gt;' . "\n";
+		print '&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"&gt;' . "\n";
+		print '&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"&gt;' . "\n";
+	}
+	else
+	{
+		ob_start('fix_code');
+		header('Content-Type: text/html; charset=UTF-8');
+		print '&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;' . "\n";
+		print '&lt;html lang="en"&gt;' . "\n";
+	}
+?>
+&lt;head&gt;
+&lt;title&gt;This is a test.&lt;/title&gt;
+&lt;?php if(!$xhtml) print '&lt;link rel="stylesheet" type="text/css" href="/design/style.css"&gt;' . "\n" ?&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div&gt;&lt;img src="somewhere.jpg"/&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;  
+
+ I made a number of changes. Firstly, I don't send XHTML 1.0 Transitional and HTML 4.01 Transitional, I send XHTML 1.1 and HTML 4.01 Strict. And when I'm sending under  application/xhtml+xml , there's no reason to have the  lang  attribute on the  html  element.  xml:lang  will do just fine. 
+
+ I also assume you're using  UTF-8  (like you should be using when sending under  application/xhtml+xml ). I think I also straightened the code out a little bit and indented neatly and propperly. And note that my solution also works neatly with the  xml-stylesheet  processing instruction. 
+
+ Anyway, credit goes to  urlLink Keystone Websites  for the base of the code. Their solution (and therefore also mine) addresses the  q -value issue. 
+
+ Disclaimer: Charl van Niekerk will not be held responsible for any loss or damage suffered due to use of this code. 
+     
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+	 
+       Ok, for once I am going to move away from web standards-related posts and move into design. This is quite a bit of change from what I do normally, but as important as web standards are, I can't help myself being multimedia and design crazy as well. 
+
+ Here are a few links to sites that I find are awesome in their design. Most (or all) of them are probably pathetic when it comes to standards, but you can't say they don't look great. :-) 
+
+ 
+
+  urlLink NRG.be  
+ This site is the homepage of the designer Peter van den Wyngaert (Belgium). He has designed many stunning sites in Flash. Although this website seems to stay unchanged, and does have a bit of a 90's feel to it, at the time he created it, it must have been cutting-edge (especially with the limited technology at that stadium). 
+
+  urlLink Versuz  
+ This site has been designed by NRG and I like the intro and the Flash. There is probably nothing cutting-edge here either, but it is still well done and energetic. 
+
+  urlLink Ultrashock  
+ Excellent resource about Flash and related technologies. There's the Bombshock awards, tutorials, forums, etc. 
+
+  urlLink 2Advanced  
+ These guys are just breathtaking. They must be serious contenders for the best in the world in my opinion. 
+
+  urlLink Pixelranger  
+ I love his "Genesis Project". Really fantastic what you can do with multimedia. Very good designer, and I love some (if not all) of his sites. 
+
+  urlLink Realvast  
+ One of the sites Pixelranger has been involved in. Truly excellent. 
+
+  urlLink Robert Reich  
+ I like his style of design. Clean, neat, modern, simple. 
+
+  urlLink Level Vodka  
+ I'm not promoting alcohol here, but this site showcases some of what is probably the best of Swedish design. Breaks about every usability rule in the book, but for creativity, design, and elegancy I would give them 10/10. 
+
+  urlLink Firewater  
+ This list wouldn't be complete without a South African entry. I actually used to like these guys' old design better, and the annoying flashes at the top really irritate me. I like their logo though. 
+
+  urlLink Iganic  
+ Usability sucks, but for creativity I give them 10/10. Pity they don't update their site, though! Oh yes, this is another South African company. 
+
+  urlLink Toni &amp; Guy Ireland  
+ Now that is what I call  style ! 
+
+  urlLink Hybride  
+ What is it with the French and orange? Anyway, this site is  really  worth seeing, believe me! Stylish and modern at its best! 
+
+ 
+
+ There are probably many more, but I'll make more posts as I remember/discover them. 
+
+ Creativity is good, but I personally believe that it shouldn't take higher precedence than usability. I believe that there is a happy medium for this. 
+
+ One common problem I see is that designers like to make their font sizes too small, which makes the text uncomfortable to read. This is a real pity, since I (and many others) believe that small font sizes don't make a site look better at all. 
+
+ On the design front, one thing that I personally discovered to make text look neater is to use a descent line height. It makes the text look less cluttered, while improving readability and scannability too. 
+
+ One thing what I still would love to see, and that is a standardized multimedia format set forth by the W3C. I don't think this is unreasonable, since they have standardized markup, style, metadata, etc. Wouldn't that be great? A copy of Macromedia Flash MX 2004 Pro will cost about R4 000 (at best) in South Africa. I can get a whole new computer for that amount of money. An open source alternative built on open standards would be a dream come true for me. Needless to say, I will find a new hobby in trying to see how far we can push design while not forgetting about usability, accessibility, and standards. 
+     
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+	 
+       I have been wanting to make a post about this for quite a while now, but never got around to it. So here goes. 
+
+ 
+
+ 1) Valid XHTML for Ads 
+ Blogger has already come quite a long way to standards compliance, but because Google is inserting invalid code at the top for ads, it makes it impossible to validate, doesn't matter what doctype you use. I suggest that valid XHTML 1.0 Strict be inserted, since that is what the doctype says on the template. 
+
+ 2) External Stylesheet 
+ One of the advantages of being standards-compliant is that you can create leaner code that downloads faster. However, the stylesheet must be external so that it can be cached by the browser. Having the stylesheet embedded into the (X)HTML means that it must be loaded along with the markup every time a page is loaded. Having exteral stylesheets reduce the loading time for users, and it will also save some of Blogger's bandwidth. So an option to have your stylesheet external would be nice. 
+
+ 3) Uploading Your Own Images 
+ There is a problem with creating your own look-and-feel for your weblog: You can edit the markup and the stylesheet, but you can't upload your own graphics. Not everybody has the facility to upload them somewhere else and then just link to them from your markup/stylesheet here. Google will be offering 2GB of e-mail space to people soon, so is it possible that you Blogger guys can offer weblogs a little bit of upload space on your servers as well? Even half a MB or so will do for most users, I think. 
+
+ 4) Encoding of Ampersands 
+ I have an ampersand in my description, but it isn't encoded to  &amp;amp;  when it is inserted into the XHTML. It is, however, encoded in the Atom feed. Could it please be encoded in both places as it should? This is also very important for valid markup and forwards-compatibility. 
+
+ 5) Sending  application/xhtml+xml  to Compliant Browsers 
+ Ok, I might be nitpicking here, but this is also important for the standards. Not having this limits you to  not  using MathML, SVG, etc. Of course this would require a separate option which is switched to OFF by default, because most people's pages will probably crash anyway if you have it like this. 
+
+ 6) XHTML in Comments 
+ We definitely can't move into the semantic web and into accessibility if users can't insert XHTML into their comments. I know that there are many problems associated with this, but I just want to stress the importance of this again. I think the individual weblog authors should be given most of the control over this and over which tags are allowed. 
+
+ 
+
+ I haven't officially sent these suggestions to Blogger yet, since I would first like to sleep over this for a few nights to make sure I don't forget anything. I don't want to waste these people's time with multiple e-mails if I can avoid it. If anybody has anything to add, please comment so that I can include it before I send it to Blogger. 
+
+ Lastly I would like to say that, for a free service, Blogger is truly excellent. They have gone a much longer way to standards-compliancy so far than most other companies, and I believe that it will only improve in the future. I also like the templates and the admin section, so I can honestly congratulate Blogger for such a fantastic service. 
+     
+    
+</post>
+
+<date>20,July,2004</date>
+<post>
+
+	 
+       Oh yeah! 
+
+ 
+
+  urlLink Internet Explorer - Where are Users Going?  
+ 10% Decline in IE use in only 6 months. US-CERT is advising users to  urlLink stop using IE . Via  urlLink Anne . 
+
+  urlLink IE only at 80%  
+ See IE 5's decline? IE 6 only went up  marginally   slightly . Opera is climbing slowly, and look at Mozilla! 
+
+ 
+     
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+	 
+       
+
+  urlLink The IE Strategy  
+ There's a reason for not updating Internet Explorer. This is so much more sinister than what I expected! But then, how could I not? 
+
+  urlLink No flash? No books!  
+ Propper design with Flash? 
+
+  urlLink Toggle menu's, the classy way.  
+ Very nice and simple. Except for the code. :-) 
+
+  urlLink Design on fire, might need some matches though  
+ I, for one, don't like it. 
+
+  urlLink Wrong error code used  
+ And Anne is back from France. :-) 
+
+ 
+     
+    
+</post>
+
+<date>19,July,2004</date>
+<post>
+
+	 
+       I would like to keep track of how many standards-compliant websites there currently are in South Africa. 
+
+ Since I don't have the time to do a in-depth study of all of these sites, I only validated the homepage. That should already give you an indication of how many people  are at least aware of valid markup. 
+
+ Validated: 
+
+ 
+  urlLink Hello.za.com  
+  urlLink Abury.co.za  
+  urlLink Coda.co.za  
+  urlLink Yvonne Carola Pearce's African Wildlife Art Gallery   
+ 
+
+ 4 out of 9 sites I tested so far validated. But of course I only tested sites in what was supposedly the "standards-compliant sector". 
+
+ Also note that none of these sites served as  application/xhtml+xml  to compliant browsers. 
+
+ I also found a lot of companies that stated that they designed according to web standards. If you can't even get your homepage to validate, and additionally you can't use semantic markup, don't say that you design with web standards! 
+
+ It is also important to note that even if your homepage validates, you still can't claim standards compliancy. You must first make sure your CSS/RDF/XML/whatever validates and then you must make sure that you are sending under the correct mime-type. You must also make sure that your markup is semantical, and that you used all of your tags correctly as they should be used according to specification. And don't forget about accessibility. :-) 
+
+ The information in this post is correct at time of writing. Updates will be made as necessary. 
+     
+    
+</post>
+
+<date>14,July,2004</date>
+<post>
+
+	 
+       There was  urlLink quite a bit of talking going on  a while ago about the standards-uncompliancy of  urlLink Leiden.nl  
+
+ However, they seem to have  urlLink fixed  some of their problems now. The markup is also a lot neater than originally, and it seem to work correctly in Mozilla. 
+
+ However, I still think  urlLink Anne's version  was better. :-) 
+     
+    
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+	 
+       Update: I accidentally typed  xmlns:p  instead of  xhtml:p  like I used in the feed. Just modified that. 
+
+ I am using RssReader version 1.0.88.0 
+
+ This morning, I felt like experimenting. Instead of using the following: 
+
+  &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p&gt;  
+
+ I used this: 
+
+  &lt;xhtml:p&gt;  
+
+ With this on the root element: 
+
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"  
+
+ Isn't that correct? The  urlLink FeedValidator  says it is correct. But the XHTML doesn't get formatted correctly now in RssReader. It used to work perfect with the other technique, which I see on most feeds. However, mine should work also, yes? 
+     
+    
+</post>
+
+<date>09,July,2004</date>
+<post>
+
+	 
+       Sorry for not posting for a while, but I am quite busy at the moment. I'll see what I can do next week. 
+
+ Anyway, here are some links: 
+
+ 
+  urlLink Submitexpress.com  
+ Submit to various search engines. Most of them are useless, since they don't accept automatic submissions. It does  seem  to submit to a few meta search engines, but who knows. 
+  urlLink XHTML MIME Type  
+ A must-read if you're sending  application/xhtml+xml  to compliant browsers through content negotiation. 
+  urlLink Mathibus.com - No more www  
+ Redirect  propperly  and throw away that ugly "www" 
+  urlLink All in the &lt;head&gt; - And Breathe Out  
+ Be careful with PHP... 
+ 
+     
+    
+</post>
+
+<date>06,July,2004</date>
+<post>
+
+	 
+       Web design related: 
+
+ 
+  urlLink Webforumz.com  
+ Discussions about web design/development. 
+ 
+
+ Search Engine Optimization: 
+
+ 
+  urlLink Top25.com  
+ Good resource with forums and Google pagerank tool. 
+  urlLink Pagerank Wins!  
+ Worth a read if you're into search engine optimization. 
+ 
+     
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+	 
+        urlLink Ian Hickson  has been saying this for I don't even know how long. At first I disagreed, thinking that the more forwards-compatible we can get, the better. However, this morning (or was it yesterday evening?) I suddenly thought of something else: 
+
+ In XHTML, it is completely valid to say the following: 
+
+  &lt;script type="text/javascript" src="myscript.js"/&gt;  
+
+ This opens and closes the  script  element, and after that line you can just continue with other stuff. However, that is not the same for HTML. The "/" at the end doesn't mean the tag gets closed. It actually means something else, and I forgot what. Anyway, for HTML you need the following: 
+
+  &lt;script type="text/javascript" src="myscript.js"&gt;&lt;/script&gt;  
+
+ So, although it is valid to use the "/" shortcut in XHTML, it doesn't have the same effect in HTML and therefore you need the extra  &lt;/script&gt;  tag. 
+
+ Ok, you  can  make XHTML backwards-compatible, but it isn't backwards-compatible by nature. In other words, you can also write valid XHTML and make it totally incompatible when sent as  text/html . Even an XML-enabled user agent will choke on this, simply because it isn't sent under the correct MIME-type. 
+
+ So, what I am trying to say? Validation doesn't tell you if something is wrong. Something which will break in browsers will still validate as XHTML. 
+
+ The solution? Use an HTML doctype when sending as  text/html  and only use XHTML when sending under a propper XML MIME-type. You have more reliable debugging when doing so. 
+
+ Also note that, like I said, you  can  write backwards-compatible XHTML. You  can  (and it is still valid) to use  &lt;/script&gt;  when writing XHTML. However, standard validation isn't enough now anymore. 
+
+ Agree? Disagree? Comment! 
+
+  Also, remember that in my example above  text/javascript  is actually not correct and it should be  application/x-javascript . However, this, like most things, doesn't work in Internet Explorer. But who cares, right?  
+     
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+	 
+       I don't even really know why I attempted to validate.  urlLink Freeservers  is now including banner ads on their free websites (which is what I would expect), but they are now inserting incompliant HTML for ads.  urlLink My validating site  I made for a client now doesn't validate anymore. 
+
+ I should probably complain, but I can't spend my days bitching and moaning about every single free service out there. I really don't understand why they just can't insert  valid  HTML into their customers' pages. 
+
+ This is a general problem with ads. We see this on Blogger, Freeservers, and probably most other free ad-driven sites and services out there. 
+
+ Like we say in South Africa: EISH!!! 
+     
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+	 
+        urlLink Via Anne van Kesteren :  urlLink Dean Edwards  discovered a way to get Internet Explorer to  urlLink display XHTML correctly when sent as  application/xml  . 
+
+ However, Dean  urlLink commented  that there were some problems worth note: 
+
+ 
+ apparently it doesn't work too well with ASP/JSP, although i haven't tested it myself. 
+ ... 
+ it doesn't work with the XHTML1.1 DTD. (it chokes on an entity reference) 
+ 
+
+ Since I am an avid ASP.NET developer, I decided to drop Dean an e-mail asking more about the ASP/JSP thing. He then referred me to  urlLink Rob Collyer , who came back to me with some rather interesting information. I quote some stuff below out from the e-mail he sent me: 
+
+ 
+
+ Hi Charl... 
+
+ The issues I've found is that Internet Explorer working in
+application/xml mode, will not pass on the referrer string to pages.
+This is slightly annoying if your pages use the referrer string to track
+users around your site, or to make sure they have come by a certain
+route into a secure area, etc. 
+
+ The above issue can be worked round with tweaks at the server end...
+Embedding referring page names into querystrings, or forms, etc (not
+very sightly in querystrings, I must say) 
+
+ The above also, wont affect many sites, but it's something to consider. 
+
+ The second and most major issue I've had, is that when you refresh a
+page that's had http POST data posted to it... 
+
+ Normally, explorer (and all other browsers) politely asks you if you
+want to repost the data.
+In application/xml mode, it does not ask you this at all, and it DOES
+NOT repost the data which is very annoying to the user (especially on
+multi-page forms.... It would be a big issue in .NET, as the webforms
+would lost state and postdata, and isPostBack would always return false
+for a refreshed form. 
+
+ So as long as you are prepared to code round the referrer issue, and to
+make all form actions a GET instead of POST, then you will probabally be
+ok. 
+
+ I personally, would just sniff the q value, and serve up content based
+on what the q values actually request as their preferred content-type...
+Eg..  Give IE html 4.0 strict / transitional, and everything whose q
+value asks for it, XHTML. 
+
+ Ie, was never supposed to be XHTML compliant, and the fact that Dean has
+found a clever work-around is remarkable, but not without issues as
+described above....  
+
+ I personally, would not like to see this hack perpetuated nor anything
+that keeps Internet Explorer's heavy head above water... It would be far
+better to leave Internet Explorer to take its current path to rack and
+ruin, and then maybe one day when either Microsoft release a better and
+compliant version, or when they lose their foothold in the browser
+market, our lives as web developers will be much easier (c'mon, you hate
+coding xBrowser IE issues too don't ya?) 
+
+ Leave standard-skirting browsers in the past where they belong, and help
+spread the word of mozilla, firebird and opera. 
+
+ That's just my personal opinion of course. 
+
+ Cheers, 
+
+ Rob 
+
+ 
+
+ Ok, so I quoted the entire e-mail. I hope Rob doesn't mind. 
+
+ At this moment I don't really think that it is viable in practice to use this technique, because there are many bugs as Rob pointed out, and the advantages are not really too clear. (Except for the fact that you can now send pages under a single content type to all browsers.) 
+
+ Also note that you  should  actually send XHTML as  application/xhtml+xml  for many reasons. 
+
+ Another thing that  urlLink came to mind  is how this would work with search engines. I don't really know if Google recognizes the important tags like  title  that are important for search engine optimization when it is sent as XML. That would probably depend on Google's XHTML/XML compatibility, but nobody really knows too much about this yet. 
+
+ So, probably still best to stick with  text/html  for non-XHTML/XML user agents. Very interesting experiment though. Congratulations, Dean! 
+
+ Oh yes, and before I forget, I like to hear more people (like what I quoted from Rob above) saying that we should leave Internet Explorer behind and design for Mozilla and Opera in full XHTML glory. The only problem is that this isn't viable for commercial sites, but for personal sites I say: Go right ahead! I plan on making some Internet Explorer-incompatible websites myself within the next few weeks. I'll keep you posted! 
+     
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+	 
+       Ok, this is just a simple example for how to send pages as  application/xhtml+xml  to user agents that supports it. This is of course in ASP.NET. Note that this does not address the  q -value issue, but I'll get around to that later with a more complex example. 
+
+ Here is the minimal code in  C# : 
+
+ &lt;%@ Page Language="C#" ResponseEncoding="UTF-8" %&gt;
+
+&lt;script language="C#" runat="server"&gt;
+	void Page_Load()
+	{
+		Response.CacheControl = "No-cache";
+
+		string httpAccept = Request.ServerVariables["HTTP_ACCEPT"];
+		if(httpAccept != null &amp;&amp; httpAccept.IndexOf("application/xhtml+xml") != -1)
+		{
+			Response.ContentType = "application/xhtml+xml";
+			Response.Write("&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;");
+		}
+		else
+		{
+			Response.ContentType = "text/html";
+		}
+	}
+&lt;/script&gt; 
+
+ Note that this does not include user agent sniffing (like sniffing for the W3C Validator to send it the correct MIME-type, etc). 
+
+ Also note that the above example sets  cache-control  to  no-cache . This is to prevent problems with proxy servers. In PHP, you would have had: 
+
+  header("Vary: Accept");  
+
+ The PHP solution is much better, because it doesn't completely stop caching like my solution, but only selectively stops caching. 
+
+ However, I don't know of an alternative in ASP.NET. It seems like that system has limited support for HTTP and that it doesn't allow you to directly write to the HTTP response header. I could be wrong though. 
+
+ I don't know if the code is 100% correct, so please comment if you think something is wrong. Thanks. 
+
+ And another thing, the above code is in C# so obviously you need to ajust it if you prefer VB. But that shouldn't be too difficult for you, right? 
+     
+    
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+	 
+       Yes, I just finished up with  urlLink that site . 
+
+ Some specs in case you're interested: 
+
+ 
+ Valid XHTML 1.1 with XML Declaration and  xml-stylesheet  prolog as  application/xhtml+xml  to user agents with that in their request header. 
+ Valid HTML 4.01 Strict with  &lt;link rel="stylesheet"&gt;  to other user agents. 
+ Valid CSS 
+ UTF-8 
+ Clean URI's without file extensions (even the images and stylesheet). Like it or not. 
+ Full PHP database-driven background. Yes, I had to do some magic to get the clean URI's. Just proves that it can be done (thanks to  htaccess  files.) 
+ Solid site and code structure. 
+  accesskey 's and  link 's. 
+ Languages specified. 
+ Lots (and lots!) of metadata and keyword optimization for search engines. 
+ Semantic markup (I think) 
+ I can't remember using any  span 's or  div 's. I can be wrong though. 
+ Oh yes, and  urlLink NO WWW ! 
+ 
+
+ Note that it doesn't matter if you use  span 's or  div 's, but it's just fun not to have them. ;-) 
+
+ Of course I just  had  to go and use XHTML 1.1 to irritate some people, especially  urlLink Anne  ;-) I do send HTML 4.01 to other user agents like Internet Explorer and search engines, though! 
+
+ Well, comments are open for all your compliments, insults, and flames. While you're at it, why not flame me for daring to validate and list that it does? :-) 
+     
+    
+</post>
+
+
+</Blog>

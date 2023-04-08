@@ -1,0 +1,465 @@
+<Blog>
+
+<date>22,July,2004</date>
+<post>
+
+	 
+          New command-line tools for Active Directory in W2k3                                                                       This article describes the new command-line tools for Active Directory that  are available in Microsoft Windows Server 2003.  http://support.microsoft.com/default.aspx?scid=kb;[LN];298882    Warm Regards, Mitesh Mehta                    
+     
+
+    
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+	 
+          C# Express: More Sample Projects                                          Web Browser Express:  http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnvs05/html/browserexpress.asp?frame=true 
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+	 
+          C# Express: More Sample Projects                                                                           If you are looking for some samples to play with in C# Expess, here are some  available in MSDN. Both consist of an article, and a project for download.      Web Browser  Express    This project will create a neat tabbed web browser with a  search box that talks to the new MSN Search Engine.     ExpressPaint    A simple graphics  program for loading, processing and saving images. Add your own filters and  other features. 
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+	 
+           XML Tools in Visual Studio 2005                                                                                The new XML Editor allows editing XML files with full XML 1.0 syntax   checking, support for DTD's, and full XSD intellisense and validation while you   type. The new editor also provides some useful integrated tools like XSD   inference, DTD to XSD conversion and XDR to XSD conversion, and XSD based   IntelliSense. 
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+	 
+               urlLink   Article:Operator Overloading with Visual Basic 2005                                                                              Visual Basic 2005 will finally support this technique, and Matthew Gertz (Dev Lead for the VB Compiler, Editor &amp; Debugger team) has published an    MSDN article on how to use it   .  
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+          I: Roadmap for Garbage Collection                                                                           This article provides a roadmap to learn and master garbage collection in the Microsoft .NET Framework. 
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+          Technical view of Visual Basic Power Pack                                                                            This article discusses the Visual Basic Power Pack, a collection of custom controls that provides enhanced user interface elements to client based applications.        http://msdn.microsoft.com/vbasic/default.aspx?pull=/library/en-us/dv_vstechart/html/vbpowerpack.asp          The Visual Basic Power Pack provides a collection of custom controls that can be used to add an extra element of visual appeal to client-based applications. The controls are designed to be fairly simple to use, both at design-time and runtime     Regards, Mitesh Mehta     
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+          I:VS 2005 Debugger Features                                                                           Visual Studio 2005 Beta 1 is released at last! Previously known as Whidbey (and internally it will forever known as Whidbey, as 7.1 is forever Everett, as 7.0 is, er, 7.0) this beta is going to be available to MSDN Universal subscribers, and some other ways too (see later).        New DataTips   . Remember back to Visual C++ 4.0 (I think) that first brought you DataTips? Well think of those same tips, but on crack, and you get New Datatips. You can inspect whole objects in the datatips now, kind of a floating Watch window. It is the most important improvement to the debugger since, well, since VC2 really.        Tracepoints   . A tracepoint is a breakpoint that doesn&#8217;t stop. Well instead of stopping, they print messages. Anything you like, including text, variables, stack traces, anything you like really. They are a great way to add logging to code without having to rebuild a thing.       Source file checksums . Ever got the debugger confused by having two different source files with the same name but in different paths? We have, and lots of other people too (especially default.aspx). The confusion is over: the C++, C# and VB compilers now emit a checksum of the source file into the debug info, so the debugger can tell if it got the right version or not. This makes breakpoints bind to the right source file even in the case of multiple matching basenames, something that has troubled us (and users) forever. (Note that checksums are not generated for ASP.NET compiles in beta 1).         Visualizers   . Using a complex managed type that is ugly to view in the Watch window (e.g. DataSet)? Now you can either use a built-in Visualizer, or write your own. For DataSet you see the data in a proper grid control, for example. You can view long strings in a text editor, or an XML viewer if you like. If you want to write your own Visualizer for your type, or a Frameworks type, go right ahead. It just takes a bit of C#.        STL Data Display   . STL types have always been a challenge for the debugger. In VC6 the debug format truncated the managled names at 255 bytes so you often couldn&#8217;t even manually look at the structure of some STL objects. This is fixed in 7.0, but ugly data structures are still ugly even if you can see more of them. VS Whidbey has a meta-language that lets you define exactly how to display complex types and includes support for all the common STL types. A hash table displays as an array in the debugger now, instead of that ugly thing it really is.        64-bit Support.    Both native and managed debuggers support AMD64 and IA64 debugging now, with good feature parity with 32-bit, though no Edit &amp; Continue or Mixed debugging.        Intellisense in the Debugger Windows   . The debugger windows (like Watch and Locals) now support Intellisense, for C# and VB users.         Edit and Continue   . At last VB users can edit their code while debugging, and the change will occur right then, without having to restart the debugger.      After beta 1 there won't be much in the way of new debugger features.   
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+          Article: Generics in Visual Basic 2005                                                                         Generics in VB 2005 article is now live on MSDN..
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+          Visual Studio 2005 Documentation Library                                                                          The documentation for Visual Studio 2005 BETA bits is available at  http://lab.msdn.microsoftcom/library/ .
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+               urlLink   Article : Reflection Demystified                                                                                                                Hi All,  Reflection is a good feature in the .NET library. In this article by Brad Wilson, he explained mystery out of its basic concepts. A must read for who are exlporing Reflection.  http://www.dotnetdevs.com/articles/ReflectionDemystified.aspx   --  Thanks &amp; Regards Naveen K S #   To Succeed "Be Different, Be Daring And Be THERE First"   #                                                  
+     
+
+    
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+               urlLink    MSN Search. Big Improvements and Release of Alpha Version - New Search Engine.                                                                                Hi All,         On Thursday, July 1 st , MSN has announced two things:      big improvements to the current search service      and the      release of the alpha version of the new algorithmic search engine          Big improvements to the current search service      - The improvements to the existing service are the broadest that MSN has made in the last few years and are designed to help people get faster, clearer and easier access to the information they want. The changes and improvements include a new MSN Search homepage, a new, cleaner look for its search results page direct access to popular information sources, and extensive performance improvements. Check it out at       http://search.msn.co.in            (for India specific searches)         or  http://search.msn.com              A      new, cleaner look for its search results page           that separates algorithmic results from paid results and eliminates paid      inclusion;             People using the new design in beta       testing spent 42% more minutes using the MSN Search service and queries       per user increased by 36%.            Direct      access to popular information           including:             MSN also improves its news Search by       offering a vertical news option in its drop-down menu and through its       Newsbot technology, which offers personalized news search across over       4,000 news sources.             Extensive      performance improvements     . &lt;o:p&gt;&lt;/o:p&gt;            MSN increased speed of search query       results, on average query results are as fast as Google.         MSN Search homepage is the lightest       home page available from the major search providers, delivering       lightning-fast load times.               Alpha version of the new algorithmic search engine      - The release of the Technology Preview of the algorithmic search engine is being positioned as an early version designed for MSN to gather feedback from webmasters and search enthusiasts. Check it out at           http://techpreview.search.msn.co.in/            Duration of the Tech Preview:     &lt;o:p&gt;&lt;/o:p&gt;           The Tech Preview will be live from June 30 th  to      August 9 th .             Tech Preview Customer Performance &amp; Availability Expectations:     &lt;o:p&gt;&lt;/o:p&gt;           The Tech Preview runs on a small cluster of 320 servers      and supports only a 1B doc index (compare to end goal of 5600 servers and      5B docs).  As a result, the expectations for the Tech Preview are not      the same.     It is fully expected      that there will be times when the site is down (possibly for an extended      period of time) or where it just does not perform well.    &lt;o:p&gt;&lt;/o:p&gt;        If there are any issues (site down or maintenance) with      the site, Customers will be presented with a friendly error page stating      that the Tech Preview is currently not available. &lt;o:p&gt;&lt;/o:p&gt;             The System will be Down every night from 12pm PST &#8211;      1am PST!                  Because this is a Technology Preview       on a limited amount of hardware, the system must take itself down in       order to update the index of information that it serves (you&#8217;ll see       the unavailable page hosted by Akamai during this time).  Rather       than giving our end users time-outs on queries, we&#8217;re choosing to       take the system down every night and then bring it up after the system       has finished its work.           
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+               urlLink   Hosting Services                                                                                    From:                  urlLink  AnandN_MVP                                                                Hi Group:
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+               urlLink   Future of Microsoft Developer Tools!                                                                                                                  See the future of Microsoft Developer Tools.
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+           urlLink   That's right -- Beta 1 of Visual Studio 2005 is here                                                                         Refer this Link
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+	 
+           urlLink   That's right -- Beta 1 of Visual Studio 2005 is here                                                                         Refer this Link
+</post>
+
+
+
+<date>30,June,2004</date>
+<post>
+
+    
+                                                                                         In my  previous article  I explained how to create your own web.config section that is handled by built-in section handlers. In this article I will show how to create your own section handler that can handle your custom sections. 
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+    
+                                                                                                           Column Types in Data Grids    A DataGrid control is formed by data bound columns. The control has the ability to automatically generate columns that are based on the structure of the data source. Auto-generation is the default behavior, but you can manipulate that behavior by using a Boolean property named AutoGenerateColumns. Set the property to false when you want the control to display only the columns you explicitly add to the Columns collection. Set it to true (the default) when you want the control to add as many columns as is required by the data source. The default algorithm for column generation creates simple data bound columns that use literal controls to display the contents of the corresponding data source fields. The DataGrid control supports additional column types that can render the column data so that it performs an action when clicked.         BoundColumn    Displays a column that is bound to a field in a data source. It displays each item in the field as plain text.    ButtonColumn    Displays a command button for each item in the column. The text of the button can be data bound. The command name of the button must be common to all items in the column. When the value for the command name is Select, clicking the column button automatically selects the row.    EditCommandColumn    Displays a button column that is automatically associated with the Edit command. This class receives special support from the DataGrid control, which is manifested as a redrawing of the clicked row using a template.     HyperLinkColumn    Displays the contents of each item in the column as a link. The link text can be bound to a field in the data source, or it can be static text. Also, the target URL can be data bound. Clicking a link column causes the browser to jump to the specified URL. This column class supports target frames.    TemplateColumn    Displays each item in the column according to a specified template, allowing you to provide custom controls in the column.     Regards 
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+    
+                                                                                You've heard the hype about .NET. You've read a couple of vague articles about dynamic discovery and invocation, service-oriented architecture, and how SOAP and a handful of other XML standards are forever changing the software industry. These ideas have intrigued you and you're interested in learning more - or at the very least, you recognize the importance of being able to add these acronyms to your resumé. In either case, you want to explore the world of .NET, but are unable or unwilling to fork over a thousand bucks for Microsoft's Visual Studio .NET product. This article is for you.       &lt;o:p&gt;&lt;/o:p&gt;        &lt;o:p&gt; &lt;/o:p&gt;        http://www.sys-con.com/webservices/article.cfm?id=360&lt;o:p&gt;&lt;/o:p&gt;     
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+    
+           HttpMoudles and HttpHandlers uses and explanation                                                                           Hi  
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+    
+                Datagrid Paging for Arabic Languages                                                                  Check out here 
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+    
+                                                              Smart Navigation        &nbsp;    "SmartNavigation" is a Boolean property which can be set in the page's code behind or in the @page directive... This property is really helpful in case you want to enhance user experience... Set this property to true and you will get following advantages in navigation if your browser is IE 5.5 and above...  1.) Maintaining the scroll bar position (useful in long length pages) 2.) Set focus to the same control on which it was before navigation (useful in pages with lots of controls) 3.) saving last page state in the browser history (useful when a page does not changes considerably across frequent postbacks... e.g. changing control values on change of dates in calendar control) 4.) The flash effect caused during navigation (useful when your page is pretty heavy to load)       
+    
+    
+</post>
+
+<date>26,July,2004</date>
+<post>
+
+    
+       Code snippet for demonstration of manipulating drop-downs in template column of datagrid:  Copy the following between the    tags of the aspx page in HTML view.                                    Copy the following in the Page_Load method in code-behind or  between the    tags    private void Page_Load(object sender, System.EventArgs e)  {  	DataTable dt = new DataTable();  	DataRow dr;  	DropDownList ddl;  	int i;    	//Create the datasource for the datagrid  	dt.Columns.Add("col1", Type.GetType("System.String"));  	for(i = 0; i   	{  		dr = dt.NewRow();  		dr[0] = i.ToString();  		dt.Rows.Add(dr);  	}    	//bind datasource to the datagrid  	dgtest.DataSource = dt;  	dgtest.DataBind();    	//manipulate the drop-down list of each row of the datagrid.  	//this code simply displays the ID as the sole element of the drop-down.  	for(i = 0; i   	{  		ddl = (DropDownList)dgtest.Items[i].FindControl("ddltest");    		if(ddl != null)  		{  		    ddl.Items.Clear();  		    ddl.Items.Add(i.ToString());  		}  	}  }    output:  ID ¦     -------------------  0  ¦  | 0 |v|  1  ¦  | 1 |v|  2  ¦  | 2 |v|  3  ¦  | 3 |v|  4  ¦  | 4 |v|  
+    
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+    
+           Server.Transfer VS Response.Redirect                                                                            Server.Transfer is often a  better choice than Response.Redirect.       Example:  Let's say  you're on A.aspx and you want to send the user to B.aspx.       Response.Redirect  flow  A.aspx calls  Response.Redirect("B.aspx",false);  which sends a 302 redirect  header down to the client browser, telling it that the asset it has requested  (A.aspx) has moved to B.aspx, and the web application terminates. The client  browser then sends a request to the webserver for B.aspx. IIS tells asp_wp.exe  to process the request. asp_wp.exe (after checking authentication and doing all  the other setup stuff it needs to do when a new request comes in) instantiates  the appropriate class for B.aspx, processes the request, sends the result to the  browser, and shuts down.       Server.Transfer  flow  A.aspx calls  Server.Transfer("B.aspx");  .  ASP.NET  instantiates the appropriate class for B.aspx, processes the request, sends the  result to the browser, and shuts down.       Note that Server.Transfer  cuts the load on the client and the server.   Server.Transfer is easier to  code for, too, since you maintain your state. Information can be passed through  the HTTP Context object between the pages, eliminating the need to pass  information in the querystring or reload it from the database.      More info    http://dotnetjunkies.com/WebLog/familjones/archive/2004/04/08/11020.aspx    and    http://www.eggheadcafe.com/articles/20030531.asp   .   
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+    
+         How to create pie charts in web applns                                                                           Pie Chart in ASP.net           &lt;%@ Import Namespace= "System.Drawing" %&gt;     &lt;%@ Import Namespace= "System.Drawing.Imaging" %&gt;     &lt;%@ Import Namespace= "System.Drawing.Drawing2D"  %&gt;     &lt;script language= "C#"  runat= "server" &gt;       void  Page_Load(Object sender, EventArgs e)     {          // Since we are outputting a Jpeg, set the ContentType appropriately          Response.ContentType =  "image/jpeg" ;           // Create a Bitmap instance that's 468x60, and a          Graphics instance           const   int  width =  300 , height =  300 ;          Bitmap objBitmap =  new  Bitmap(width, height);         Graphics objGraphics = Graphics.FromImage(objBitmap);           // Create a black background for the border          objGraphics.FillRectangle( new  SolidBrush(Color.White),  0 ,  0 ,         width, height);          Draw3DPieChart( ref  objGraphics);           // Save the image to a file          objBitmap.Save(Response.OutputStream, ImageFormat.Jpeg);                   // clean up...          objGraphics.Dispose();          objBitmap.Dispose();     }         // Draws a 3D pie chart where ever slice is 45 degrees in value       void  Draw3DPieChart( ref  Graphics objGraphics)     {          int  iLoop, iLoop2;           // Create location and size  of ellipse.           int  x  =  50 ;          int  y  =  20 ;          int  width  =  200 ;          int  height =  100 ;           // Create start and sweep angles.           int  startAngle =  0 ;          int  sweepAngle =  45 ;         SolidBrush oibjBrush =  new  SolidBrush(Color.Aqua);          Random rand =  new  Random();         objGraphics.SmoothingMode = SmoothingMode.AntiAlias;           //Loop through 180 back around to 135 degress so it gets drawn     // correctly.           for ( iLoop =  0 ; iLoop &lt;=  315 ; iLoop +=  45 )         {             startAngle = (iLoop +  180 ) %  360 ;             objBrush.Color = Color.FromArgb(rand.Next( 255 ), rand.Next( 255 ),                 rand.Next( 255 ));               // On degrees from 0 to 180 draw 10 Hatched brush slices to show             // depth               if ((startAngle &lt;  135 ) || (startAngle ==  180 ))             {                  for (iLoop2 =  0 ; iLoop2 &lt;  10 ; iLoop2++)                     objGraphics.FillPie( new  HatchBrush(HatchStyle.Percent50,                         objBrush.Color), x,                          y + iLoop2, width, height, startAngle, sweepAngle);             }               // Displace this pie slice from pie.               if (startAngle ==  135 )             {                  // Show Depth                   for (iLoop2 =  0 ; iLoop2 &lt;  10 ; iLoop2++)                     objGraphics.FillPie( new  HatchBrush(HatchStyle.Percent50,                         objBrush.Color), x -  30 ,                         y + iLoop2 +  15 , width, height, startAngle,                         sweepAngle);                  objGraphics.FillPie(objBrush, x -  30 , y +  15 ,                     width, height, startAngle, sweepAngle);             }               else   // Draw normally                  objGraphics.FillPie(objBrush, x, y, width,                     height, startAngle, sweepAngle);         }     }     &lt;/script&gt;             Mitesh Mehta   Microsoft Certified Professional                    
+    
+    
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+    
+         How to create pie charts in web applns                                                                         
+</post>
+
+<date>23,July,2004</date>
+<post>
+
+    
+           Session State in ASP.Net                                                       Session State in ASP.Net  ASP.Net supports three different providers for Session State...  They are:  InProc - Session values are kept live in the memory of ASP.Net worker process StateServer - Session values are serialized to store in the memory of a separate process i.e. aspnet_state.exe SQLServer - Session values are stored on SQL Server...    Mitesh Mehta Microsoft Certified Professional  urlLink Mail : miteshvmehta@gmail.com   urlLink C# FAQ   urlLink C# Code   urlLink SQL Server 2005   urlLink VB.NET 2005   urlLink ASP.NET Help                                                                              mode="SQLServer" for sessionState   When you choose your sessionState to be SQLServer, ASP.Net uses the default DB and initial catalogs for storing your session information into SQLServer... That is the reason you are not allowed to pass tokens such as Database and Initial Catalog in the connection string... Finally your entry in the web.config file will look like   &lt;configuration&gt;          &lt;system.web&gt;                 &lt;sessionState                         mode="SQLServer"                          sqlConnectionString="server=127.0.0.1;uid=&lt;user id&gt;;pwd&lt;password&gt;" /&gt;        &lt;/system.web&gt;   &lt;/configuration&gt;   user id and password can be replaced by integrated security settings...   Mitesh Mehta Microsoft Certified Professional                         
+    
+    
+</post>
+
+<date>22,July,2004</date>
+<post>
+
+    
+           Changes to Validation Controls in ASP.NET 2.0                                                                         While ASP.NET 1.x supported validating user input, ASP.NET 2.0 increases  the flexibility of the validation through the addition of validation groups.  This article looks at this new feature, and shows you how you can use it in a  number of common scenarios.
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+    
+            ASP.NET 2.0 Custom Controls                                                                              Creating ASP.NET 2.0 Custom Controls
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+    
+            Personalization with ASP.NET 2.0                                                                   Personalizing a Web site has always involved a large amount of complex   supporting code. With the new personalization features in ASP.NET 2.0, however,   developers can not only create personalized applications faster, they can also   build entirely new classes of applications. The user management system and login   controls make recognizing a user even easier than before, and the profile   features help store user data in a fast and efficient manner. The Web Parts   framework, however, provides a revolutionary new design paradigm for Web sites.   Thanks to Web Parts, a Web site is no longer constrained to the linear document   format that formed the basis for the HTML standard. Web Parts offer much greater   flexibility, and allow developers to create Web applications that are almost   indistinguishable from the most powerful desktop systems.    Read More...     http://msdn.microsoft.com/asp.net/whidbey/default.aspx?pull=/library/en-us/dnvs05/html/person_fin.asp#person_topic11  
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+    
+            Visual Studio for WebService Development - Free!                                                                                   
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+    
+           WSE 2.0 - What's New and Different in WSE 2.0?                                                                            Web Services Enhancements  for Microsoft .NET version 2.0 includes a number of enhancements over earlier  versions of WSE like: 
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+    
+           New data source components in ASP.NET 2.0                                                                         This article discusses:
+</post>
+
+<date>16,July,2004</date>
+<post>
+
+    
+           New data source components in ASP.NET 2.0                                                                         This article discusses:
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+    
+                 Article: Improved Caching in ASP.NET                                                                          New caching feature  included in ASP.NET 2.0, improves the performance and scalability of ASP.NET  applications. The ASP.NET 2.0 framework includes a number of significant new  enhancements that make it easier to take advantage of caching in  applications.     The new  DataSource   controls include properties that make it easy to cache database data in memory.  By taking advantage of the  DataSource  controls, database data can be  retrieved and cached without writing a single line of code.     The new support for SQL Cache  Invalidation enables to automatically reload database data in the cache whenever  the data is modified in the underlying database. This feature provides all the  performance benefits of caching, without the worries of stale data.     Finally, the new   Substitution  control enables more easily mix dynamic content in a cached  page. The  Substitution  control gives an island of dynamic content in an  cached page.     You can find more details in  below URL:       http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnvs05/html/CachingNT2.asp       
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+    
+         What's new in ASP.NET 2.0?                                                                                                                  Check it out @  http://msdn.microsoft.com/netframework/default.aspx?pull=/library/en-us/dnaspp/html/rearchitectv20.asp 
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+    
+                                                              allowOverride Attribute  If you have a common server where you are going to host your website and you do not want anyone to override your configuration settings after the site is deployed then within your web.config file, use &lt; location &gt; tag and set allowOverride attribute to false....    Mitesh Mehta        If You Think YOU CAN... You Can...                 
+    
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+    
+                                                                             Installer for Globalization  If you have different versions of your web application built for different languages and you have separate resource files for each language when you need to deploy your application according to the language settings of the server then in that case make an Installer that has Custom Action to install only location-specific files...    Vishal Joshi Microsoft MVP .Net        If You Think YOU CAN... You Can...                    
+    
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+    
+                urlLink   Controls                                                                                                                  Web Server Control: provide a programming model that is more conducive to visual design environments similar to VB  
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+    
+                                                                  ASP.NET developers have been asking for a way to combine Forms and Windows security. Paul Wilson provides a solution that does just that; it captures the Windows username, if possible, and otherwise redirects users to a logon screen.   
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+    
+                                                                     http://msdn.microsoft.com/msdnmag/issues/04/08/GridView/default.aspx  
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+    
+                    The example  Nitin  have given is an example of  Observer Pattern .where subject notifies to all the observer if it(subject) gets changed. In MVC pattern there are main three entity Model View and as you know Controller. In this architecture following kind of transactions occurs...       View Requests to Controller for data.     Controller fetch the data from the model and updates the view.     View reuest controller to update the data.     Controller updates the data on the modle.      These kind of trasactions keeps on occuring among the View, Controller and Model. ASP.Net allow us to use this pattern the form of Codebehind. where your aspx page is view, you codebehind base class is controller and your database or any persistant storage is modle... 
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+    
+           Asp.net:Delegates and events                                                             
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+    
+                                                                               Design Days: View State Performance Tips  In controls like listbox controls, items added to the list are carried between client and server via view state... When the list of items become considerably large it starts hitting the performance and increasing the traffic between client and server... To avoid this set the EnableViewState property of the control to be false... By this unnecessary data will not move back and forth to the server... Though, do note that by doing so your selected items will no longer remain selected after postback and you will have to write special code to achieve this functionality... The same problems are also faced in controls like Datagrid so do ensure that you use View State judiciously and give enough thoughts while designing your application...  To see the view state of a page right click on displayed page and 'view source', here you will see a long line of junk characters for __VIEWSTATE property... This is the encrypted view state of your controls... Well, that makes me add one more point the performance... All the viewstate data that passes to and comes back from server goes through the cycles of encryption and decryption which in itself is also a costly affair hitting performance...    			       Regards, 
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+    
+                                                                 ASP.Net Server Controls Categories  ASP.Net Server Control can be broadly classified into 4 categories...  1.	Intrinsic Controls -These controls correspond to their HTML counterpart... eg Textbox control, Button control 2.	Data-Centric Controls - These controls are used for data display, binding, modification purposes... They bind to various data sources... e.g.. DataGrid control 3.	RichControls - Usually do not have HTML counterparts... These are usually composite controls which in themselves contain other controls... e.g. Calendar control 4.	Validation Controls - As the name suggest they are used for validation purposes and can validate many type of user inputs.... e.g. RegularExpressionValidator   Mitesh Mehta miteshvmehta@gmail.com                   
+    
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+    
+           Numeric TextBox - A Simple Way!                                                                          One of my site visitor ask me a query that he  wants Numeric TextBox in Asp.NET, i suggested him to use javascript but he was  haveing problem on how to write it in javascirpt. i send him this  code 
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+    
+           some questions                                                                         Still wondering how to get your web server to talk to your client over the internet, eh ? :)
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+    
+           Editable dropdown list box                                                                        An "editable drop-down list" or a combo-box per se is not supported by any browser, at least not by IE and Netscape. So having this type of control is not possible. However, what could be done is to use a textbox along with a drop-down list and add the contents of the textbox to the drop-down when the TextChanged event of the textbox fires. Here's how:
+</post>
+
+
+
+<date>30,June,2004</date>
+<post>
+
+    
+                                         Hi All,   An important and much need information for Sql Server Reporting Services Developers and Others:    Service Pack 1 for Microsoft SQL Server 2000 Reporting Services was Released :)      Key functional enhancements   SQL Server 2000 Reporting Services SP1 provides the following functional enhancements:   &lt;DIR&gt; &lt;DIR&gt;  An improved Excel rendering extension  By using the new Excel rendering extension, you can render reports that can be viewed and modified in the earlier versions of Microsoft Excel (For example, you can render a report that can be viewed and modified in the Microsoft Excel 2000 format).    A robust PDF rendering extension  The performance of the PDF rendering extension is improved with SQL Server 2000 Reporting Services SP1.    More control to users to change the display styles of the Chart control in Report Designer    Support for references to external URLs for images and resources in a report    The data caching behavior for previewing the report is now supported    Support for the new line character in expressions    A facility to modify the style of the HTML Viewer toolbar by using a style sheet    New parameters for URL access that offer more options to customize the report presentation at run time    Report Manager proxy persists authentication cookies so that the authentication cookies can be used by the custom security extensions.    Support for hidden report parameters    Support for compressing the temporary snapshots and storing the snapshots on the file system    Support for disabling the integrated security support for accessing report data sources &lt;/DIR&gt;&lt;/DIR&gt;    Problems that have been fixed in SQL Server 2000 Reporting Services SP1     For additional information about the problems that have been fixed in SQL Server 2000 Reporting Services Service Pack 1, click the following article number to view the article in the Microsoft Knowledge Base:          842514 &lt;http://support.microsoft.com/default.aspx?kbid=842514&gt;   FIX: The report parameters may not appear correctly when you preview a report in a non-English version of Report Designer          842517 &lt;http://support.microsoft.com/default.aspx?kbid=842517&gt;   FIX: The Reporting Services Login dialog box appears repeatedly when you deploy a report on a remote computer by using Report Designer          842518 &lt;http://support.microsoft.com/default.aspx?kbid=842518&gt;   FIX: An XML version tag is included at the beginning of non-XML files          842534 &lt;http://support.microsoft.com/default.aspx?kbid=842534&gt;   FIX: Bookmark links in a report that is rendered to the Web archive file format (.mhtml) may not work correctly          842536 &lt;http://support.microsoft.com/default.aspx?kbid=842536&gt;   FIX: Hebrew characters in a report appear in reverse order when you export the report to the "Acrobat (PDF) file" format in SQL Server 2000 Reporting Services          842537 &lt;http://support.microsoft.com/default.aspx?kbid=842537&gt;   FIX: An image in a report does not appear in the preview of the report if the value property of the image is set to a URL path          842538 &lt;http://support.microsoft.com/default.aspx?kbid=842538&gt;   FIX: Subscriptions that use the e-mail delivery method for distribution may not deliver the report successfully in SQL Server 2000 Reporting Services          Regards   Mitesh                       
+    
+    
+</post>
+
+<date>23,June,2004</date>
+<post>
+
+    
+                                                                                    Rendering Extensions in SQL Server Reporting Services:       SQL Report Services - report server uses rendering extensions to transform data and layout information from Report Processor into a device-specific format. Reporting Services includes six rendering extensions: HTML, Excel, Text, XML, Image, and PDF. Developers can create additional rendering extensions to generate reports in other formats. The following sections describe the rendering extensions provided with Reporting Services..       HTML Rendering Extension:       When you request a report from the report server, either through a URL or Report Manager, the report server uses the HTML rendering extension to render the report.      Depending on the browser you use, the HTML rendering extension renders reports in either HTML 4.0 or HTML 3.2. Supported HTML 4.0 browsers include:       ·             Microsoft® Internet Explorer for Windows versions       ·             Netscape Navigator for Windows version 7.1      HTML 3.2 is used for all other browsers that support HTML, such as earlier versions of the browsers mentioned previously and Internet Explorer for Pocket PC. The HTML rendering extension generates all HTML using UTF-8 encoding.      The HTML rendering extension supports the MIME Encapsulation of Aggregate HTML Documents (MHTML) standard. The rendering extension embeds resources such as images, documents, or other binary files as MIME structures within the report HTML, in a single file. The encoded resources within the report increase the size of the report, but embedding the resources is useful for clients that do not have access to resources stored on the report server or in another location. MHTML reports are also useful for embedding within e-mail messages, because all resources are included with the report.       Excel Rendering Extension:       The Excel rendering extension renders reports that can be viewed and modified in Microsoft Excel 2002 or later. This rendering extension creates files in MHTML, which carry a MIME type of ms-excel and contain HTML meta tags and XML data islands that are specific to Excel. While the Excel rendering extension renders HTML, the rendered report is intended to be viewed in Microsoft Excel, not in a browser.     Resources, such as images, are embedded within the report. For more information about designing reports for the Excel rendering extension, see Designing for Excel Output.       CSV Rendering Extension:       The Comma-Separated Value (CSV) rendering extension renders reports in comma-delimited plain text files, without any formatting. Users can then open these files with a spreadsheet application, such as Microsoft Excel, or any other program that reads text files.     For more information about designing reports for the CSV rendering extension, see Designing for CSV Output.       XML Rendering Extension:       The XML rendering extension renders reports in XML files. These XML files can then be stored or read by other programs.     The XML generated by the XML rendering extension is UTF-8 encoded.       Image Rendering Extension:       The Image rendering extension renders reports to bitmaps or metafiles. The extension can render reports in the following formats: BMP, EMF, GIF, JPEG, PNG, TIFF, and WMF. By default, the image is rendered in TIFF format, which can be displayed with the default image viewer of your operating system (for example, Windows Picture and Fax Viewer). You can send the image to a printer from the viewer.      Using the Image rendering extension to render reports ensures that the report looks the same on every client. (When a user views a report in HTML, the appearance of that report can vary depending on the version of the user's browser, the user's browser settings, and the fonts that are available.) The Image rendering extension renders the report on the server, so all users see the same image. Because the report is rendered on the server, all fonts that are used in the report must be installed on the server.       PDF Rendering Extension:       The PDF rendering extension renders reports in PDF files that can be opened and viewed with Adobe Acrobat 4.0 or later.      Other than these types, you can develop your own format by extending reporting services rendering extension.           Regards       Mitesh Mehta                      
+    
+    
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+    
+                 SQL Server and Access Query Syntax                                                                        SQL Server and Access Query Syntax     The following table shows the corresponding differences between SQL Server and Access query syntax.           Access query syntax      SQL Server query syntax         ORDER BY in queries       ORDER BY in views not supported         DISTINCTROW      DISTINCT         String concatenation with &#8220;&amp;&#8221;      String concatenation with &#8220;+&#8221;         Supported clauses/operators:    SELECT  SELECT TOP N INTO  FROM  WHERE  GROUP BY  HAVING  UNION (ALL)  ORDER BY  WITH OWNERACCESS      Supported clauses/operators:    SELECT  SELECT TOP N INTO  FROM  WHERE  GROUP BY  HAVING  UNION (ALL)  ORDER BY  COMPUTE  FOR BROWSE  OPTION          Not Supported: COMPUTE, FOR BROWSE, OPTION      Not Supported: WITH OWNERACCESS         Aggregate functions:    AVG   COUNT(column)   COUNT(*)   MIN   MAX   FIRST   LAST   STDEV, STDEVP   SUM   VAR, VARP      Aggregate functions:    AVG([ALL | DISTINCT]  expression )    COUNT([ALL | DISTINCT]  expression )    COUNT(*)   GROUPING ( column_name )   MAX( expression )    MIN( expression )    STDEV, STDEVP    SUM([ALL | DISTINCT]  expression )   VAR, VARP   Not supported: FIRST, LAST         TRANSFORM    (SELECT statement)   PIVOT       WITH ROLLUP, WITH CUBE on SELECT statements         MAKE TABLE, ALTER TABLE    Supported clauses:   CONSTRAINT    ADD COLUMN    DROP COLUMN   DROP INDEX   Also, stand-alone statement: DROP INDEX      CREATE TABLE, ALTER TABLE    Supported clauses:   CONSTRAINT    ADD COLUMN    DROP COLUMN   Stand-alone statement: DROP INDEX        Regards     Mitesh   
+</post>
+
+<date>22,June,2004</date>
+<post>
+
+    
+                                                  Introducing Replication   Microsoft SQL Server 2000 replication is a set of technologies  for copying and distributing data and database objects from one database  to another and then synchronizing between databases for consistency.     Using  definition"> replication  , you can distribute data to  different locations, to remote or mobile users over a local area  network, using a dial-up connection, and over the Internet. Replication  also allows you to enhance application performance, physically separate  data based on how it is used (for example, to separate online  transaction processing (OLTP) and decision support systems), or  distribute database processing across multiple servers.   Benefits of Replication   Replication offers various benefits depending on the type of  replication and the options you choose, but the common benefit of SQL  Server 2000 replication is the availability of data when and where it is  needed.    Other benefits include:20    Allowing multiple sites to keep copies of the same data. This is  useful when multiple sites need to read the same data or need separate  servers for reporting applications.    Separating OLTP applications from read-intensive applications such  as online analytical processing (OLAP) databases, data marts, or data  warehouses.    Allowing greater autonomy. Users can work with copies of data while  disconnected and then propagate changes they make to other databases  when they are connected.     Scale out of data to be browsed, such as browsing data using  Web-based applications.     Increasing aggregate read performance.     Bringing data closer to individuals or groups. This helps to reduce  conflicts based on multiple user data modifications and queries because  data can be distributed throughout the network, and you can partition  data based on the needs of different business units or users.    Using replication as part of a customized standby server strategy.  Replication is one choice for standby server strategy. Other choices in  SQL Server 2000 include log shipping and failover clustering, which  provide copies of data in case of server failure.     When to Use Replication   With organizations supporting diverse hardware and software  applications in distributed environments, it becomes necessary to store  data redundantly. Moreover, different applications have different needs  for autonomy and data consistency.    Replication is a solution for a distributed data environment when you  need to:20    Copy and distribute data to one or more sites.     Distribute copies of data on a scheduled basis.    Distribute data changes to other servers.    Allow multiple users and sites to make changes then merge the data  modifications together, potentially identifying and resolving  conflicts.    Build data applications that need to be used in online and offline  environments.    Build Web applications where users can browse large volumes of  data.    Optionally make changes at subscribing sites that are transparently  under transactional control of the  title3D"View definition"> Publisher  .      Collected By     Mitesh    		                     
+    
+    
+</post>
+
+<date>17,June,2004</date>
+<post>
+
+    
+                                Overview of Native XML Web Services for Microsoft SQL Server 2005                                                             Introduction   Microsoft® SQL Server™ 2005 provides a standard mechanism for accessing the database engine using SOAP via HTTP. Using this mechanism, you can send SOAP/HTTP requests to SQL Server to execute:      Transact-SQL batch statements, with or without parameters.   Stored procedures, extended stored procedures, and scalar-valued user-defined functions.     Prior to SQL Server 2005, the only mechanism available to connect to SQL Server was through a custom binary protocol named Tabular Data Stream (TDS). With SOAP/HTTP access, we have provided an open and documented protocol that may be used as an alternative to connect to SQL Server. Providing SOAP/HTTP access enables a broader range of clients to access SQL Server, including "zero foot print" clients, because there is no longer a need to have a Microsoft Data Access Components (MDAC) stack installed on the client device trying to connect to SQL Server. It facilitates interoperability with .NET, SOAP Toolkit, Perl, and more on a variety of platforms. Since the SOAP/HTTP access mechanism is based on well-known technologies such as XML and HTTP, it inherently promotes interoperability and access to SQL Server in a heterogeneous environment. Any device that can parse XML and submit HTTP requests can now access SQL Server.    Many enterprises have heterogeneous environments in which applications that run on UNIX and Linux platforms might require connectivity to SQL Server. Traditionally, the only solution available to such users was to use either JDBC or ODBC drivers. The SOAP/HTTP access now provides another, low-cost alternative. It is extremely useful for scenarios where DBA's have scripts written in Perl that run on UNIX and manage a SQL Server resource. It is also useful in developing client applications that connect to SQL Server using smart integrated development environments (IDEs) that have built-in SOAP/HTTP support, such as Microsoft Visual Studio® .NET or Jbuilder. These IDEs generate proxy code that abstracts the communication with SQL Server and provides objects that the client applications can use. Using SOAP/HTTP also enables anytime, anywhere access to SQL Server, which makes it easier to develop applications for mobile or sporadically connected devices. Once a connection has been  established and the server has started processing requests, it can be monitored using existing mechanisms that TDS-based clients such as sqlclient, ODBC, and OLEDB use.       Requirements   SQL Server 2005–native Web services require Microsoft Windows Server™ 2003 as the operating system, because they rely on the kernel mode http driver http.sys that this version provides. Since SQL Server leverages the kernel mode http.sys driver, you do not necessarily need to have IIS installed to expose Web services out of SQL Server; this simplifies administration. Instead, you should base your decision to install IIS on application requirements. For example, certain applications benefit from having an explicit middle tier. In such cases, IIS would be useful.     HTTP Endpoints   Setting up SQL Server as a Web Service that can listen natively for HTTP SOAP requests requires creating an HTTP endpoint and defining the methods that the endpoint exposes. When an HTTP endpoint is created, it must be created with a unique URL that it uses to listen for incoming HTTP requests. For example, if you create an endpoint with the URL "http://servername/sql," SOAP requests that are sent to http://servername/sql will be picked up by http.sys. Http.sys will then route the SOAP requests to the SQL Server instance that hosts the endpoint associated with the URL. From there, the requests will be handed off to the SOAP processing layer within SQL Server.    A SQL Server instance can have multiple endpoints, each of which can expose any number of stored procedures (implemented using either Transact-SQL or CLR) as WebMethods on the endpoint and can be invoked via SOAP remote procedure calls (RPCs). A WebMethod can have a different name than the actual stored procedure that is being exposed. The WebMethod name is what is shown to the user in WSDL as the operation name.     Note &nbsp;&nbsp;&nbsp;It is important to call out that the WebMethod clause in the endpoint is specific to SQL Server 2005 and is unrelated to the ASMX WebMethod attribute.   Users have the ability to execute ad-hoc Transact-SQL statements against the endpoints. This is done by enabling batches on the endpoint using an optional clause in the data definition language (DDL). Enabling batches implicitly results in a WebMethod named "sqlbatch" being exposed to the user. These concepts are illustrated further in the next few sections.       CREATE HTTP ENDPOINT   HTTP Endpoints are created and administered using Transact-SQL DDL. Creating an HTTP Endpoint is the first step in enabling HTTP/SOAP access to SQL Server 2005. Each endpoint has a name and a collection of options that when combined define the behavior of the endpoint.   To illustrate how the CREATE HTTP ENDPOINT is used, let's take a look at a Hello World example for invoking a stored procedure via SQL Server Web Services.    First, create a stored procedure called hello world in the master database, using the following T-SQL. This stored procedure simply displays the string provided in the input parameter.  CREATE PROCEDURE hello_world (@msg nvarchar(256)) AS BEGIN    select @msg as 'message' END     Next, use the following T-SQL to create the HTTP endpoint which will allow access to this stored procedure as a WebMethod:  CREATE HTTP ENDPOINT hello_world_endpoint   AS     AUTHENTICATON = ( INTEGRATED ),     PATH = '/sql/demo',     PORTS = ( CLEAR ),     STATE = STARTED FOR SOAP (   METHOD     'http://tempuri.org/'.'hello_world'      (NAME = master.dbo.hello_world)   WITH     BATCHES = ENABLED,     WSDL = DEFAULT   )     All endpoints are stored in master, in the metadata view master.sys.http_endpoints. An endpoint doesn't have any SOAP Methods unless you define them. In the above example, we exposed the stored procedure master.dbo.hello_world as WebMethod 'hello_world'; the WebMethod can have any name and, for example, could have been called as 'testproc1' under the 'http://tempuri.org' namespace. Specifying DEFAULT as the value for WSDL clause enables the endpoint to respond to requests for WSDL generating WSDL using the default format. You can suppress WSDL generation by setting WSDL=NONE in the above statement. We discuss the details of WSDL generation in a subsequent section.       Authentication and Security   HTTP Endpoints support the following standard authentication mechanisms: Basic, Digest, Integrated (NTLM, Kerberos), Anonymous - SQL Auth. You first authenticate at the HTTP transport level. Once that is successful, the users SID is used to authenticate with SQL. This is true for all options except ANONYMOUS. Specifying ANONYMOUS at the endpoint only implies that it is anonymous at the HTTP transport level, the client will still need to provide SQL Auth credentials in order to be able to authenticate with the database. When ANONYMOUS is specified an additional HTTP header is required that encodes user name and password. The header must be called "MS-SQLAuth" and the value must be the base64 encoding of a valid username:password. Administrators can also set IP based Restrictions on an endpoint basis, restricting access to endpoints by only allowing specified IP's or ranges of IP's access to HTTP endpoints. Conceptually, an "endpoint" is an "application"—all the methods that  implement a single application are mapped to an endpoint, and so security is applied to the endpoint to control access to the application. Endpoints are secure by design; listed below are a few items that help make endpoints secure.      Off by default. No default endpoints or Web methods mapped; must be explicitly created and specified.   Security checks also apply to objects, so a mapped stored procedure is only executable if the user has connect permissions on the endpoint, plus execute permissions on the stored procedure.   No anonymous support for connecting to endpoints. All requests, including requests for WSDL are authenticated. Clients must authenticate, against SQL Server principles, in order to submit any request.     When an endpoint is created, only members of the sysadmin role and the owner of the endpoint can connect to the endpoint. You must grant connect permission for users to access your endpoint; this is accomplished by executing the following statement:  GRANT CONNECT ON HTTP ENDPOINT::hello_world_endpoint TO [DOMAIN\USER]     Clients on non-Microsoft platforms can connect to SQL Server by using either BASIC or SQL Auth. However, using BASIC or SQL Auth requires the channel to be secure, so users can connect only on ports that also have SSL enabled.     WSDL   WSDL is a document written in XML that describes a Web service. It specifies the location of the service and the operations (or methods) the service exposes. WSDL provides the information necessary for a client to interact with a Web service. Tools such as Visual Studio .NET and Jbuilder use the WSDL to generate proxy code that client applications can use to communicate with a Web service. If the endpoint has WSDL enabled, that endpoint will produce WSDL when it receives a request for it. The endpoint created earlier in this article will produce WSDL when an authenticated request is sent to it. A WSDL request is a simple HTTP get request of the form.  http://servername/sql/demo?wsdl    The server queries the metadata associated with the endpoint and generates the WSDL dynamically. The WSDL generated provides rich type description of the parameters of the stored procedure. The server has the ability to generate different flavors of WSDL—we call it simple and complex WSDL, depending on whether we use primitive xsd types or complex types to describe the parameters in a request/response message. The default is to use complex types.       SOAP RPC: Method Invocation   In the endpoint created above we have exposed this stored procedure master.dbo.hello_world as a Web method that we can execute via SOAP RPC. The following is an example of the soap message that is sent to the server to invoke this SP via SOAP over HTTP.  &lt;SOAP-ENV:Envelope    xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"&gt;    &lt;SOAP-ENV:Body&gt;       &lt;hello_world xmlns="http://tempuri.org/"&gt;           &lt;msg&gt;Hello World!&lt;/msg&gt;        &lt;/hello_world&gt;    &lt;/SOAP-ENV:Body&gt; &lt;/SOAP-ENV:Envelope&gt;    The result will be a SOAP envelope containing:  &lt;SqlRowSet1 xmlns="urn:schemas-microsoft-com:sql:SqlRowSet1"&gt;   &lt;row&gt;     &lt;message&gt;Hello World!&lt;/message&gt;   &lt;/row&gt; &lt;/SqlRowSet1&gt;        Batches: AdHoc Queries   When BATCHES are ENABLED on an endpoint by using the T-SQL command, another SOAP method, called "sqlbatch," is implicitly exposed on the endpoint. The sqlbatch method allows you to execute T-SQL statements via SOAP. This method takes two parameters. The first parameter is named "&lt;BatchCommands&gt;" and is the batch of T-SQL statements. The second parameter is named "&lt;Parameters&gt;" and is optional; it contains an array of parameter information if the T-SQL statement used any parameters. For example, here is the body of the SOAP request that calls the sqlbatch method and executes a parameterized query.  &lt;sqlbatch xmlns="http://schemas.microsoft.com/SQLServer/2001/12/SOAP"&gt;   &lt;BatchCommands&gt;      SELECT EmployeeID, LoginID, Gender     FROM Employee     WHERE EmployeeID=@x     FOR XML AUTO;   &lt;/BatchCommands&gt;   &lt;Parameters&gt;     &lt;SqlParameter name="x" sqlDbType="Int" maxLength="20"    xmlns="http://schemas.microsoft.com/SQLServer/2001/12/SOAP/types/SqlParameter"&gt;       &lt;Value xsi:type="xsd:string"&gt;1&lt;/Value&gt;     &lt;/SqlParameter&gt;   &lt;/Parameters&gt; &lt;/sqlbatch&gt;     The response from this SOAP request will contain the following:  &lt;sqlresultstream:SqlXml xsi:type="sqlsoaptypes:SqlXml"&gt;   &lt;SqlXml&gt;     &lt;employees EmployeeID="1" FirstName="Nancy" LastName="Davolio"/&gt;                           &lt;/SqlXml&gt; &lt;/sqlresultstream:SqlXml&gt;        Administration and Management   We have seen how simple it is to create an endpoint and submit SOAP requests against the endpoint. Administration is simplified because we now have to administer only one component, namely SQL Server. We don't need to administer an IIS component. The endpoint abstraction provides greater flexibility to administrators, who can enable IP filtering. It also eliminates the need to open up another port because we reuse the port used for http/https Web traffic. You can also provision endpoints for access by only certain individuals by explicitly granting CONNECT privileges only to those users.       Conclusion   With native SOAP access we have provided a protocol based on well-known and documented standards such as SOAP/HTTP to access SQL Server. This promotes interoperability and facilitates outreach by enabling a broader range of clients to connect to SQL Server.     Collected By     Rajjan                 
+    
+    
+</post>
+
+<date>27,July,2004</date>
+<post>
+
+    
+           SQL Server Express and MSDE - Differences                                                                         This URL explains the major differences between SQL Server Express and MSDE  (Microsoft Desktop Engine)
+</post>
+
+<date>17,July,2004</date>
+<post>
+
+    
+         Learn: What's New in FOR XML in Microsoft SQL Server 2005                                                          This article details the major new capabilities of the server-side FOR XML  clause in the next version of SQL Server. These enable to further enhance the  XML support in applications and to write easy-to-maintain relational data-to-XML  aggregations.
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+    
+         Article: Integrating Analysis Services with Reporting Services                                                                          This article explains How  to create a compelling solutions using Analysis Services reports and answers  analytical questions to improve traditional reporting scenarios.     The ability to define  reports, manage reports, and convert them to various formats can enhance many  Analysis Services implementations.       http://msdn.microsoft.com/sql/default.aspx?pull=/library/en-us/dnsql2k/html/olapasandrs.asp       
+</post>
+
+<date>08,July,2004</date>
+<post>
+
+    
+         SQL Server Reporting =&gt; Understanding Report Layout and Rendering                                                           A report consists of three main areas: a page header, a page footer, and the body. The page header and footer repeat the same content at the top and bottom of each page of the report. You can place report items such as images, text boxes, and lines in headers and footers. The body of the report contains the report data. In addition to the report items that you can place in a header or footer, you can place data regions, which display the data from a dataset, anywhere in the report body.    The placement of report items in a report is completely freeform. With Reporting Services, you are not limited to "bands" of data in a report. You can place data regions with different sets of data side-by-side. Certain report items can also contain other report items. For data regions, this means that you can nest groups of data within other groups.     Rendering    When you run a report, the report server combines the layout from the report definition with the data from the data source, and renders the report in a specified format. The report server uses extensions to perform much of this work: a data processing extension is used to retrieve the data based on the type of data source, and a rendering extension is used to provide report output based on the selected format. Different extensions can change the way data is processed and the report is rendered.     Pagination    Pagination in a report is determined by the page size of the report and any page breaks placed on report items. Rendering extensions that support page size, such as image and PDF, format the data in the report to fit within each page. Rendering extensions that do not support page size, such as HTML, render all data between page breaks on a single page. All rendering extensions that support page breaks on items will start a new page after each page break in the report.         Regards     Mitesh Mehta     urlLink miteshvmehta@gmail.com                    
+    
+    
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+    
+                                                    A List Of Date Formatting String in Reporting Services Design Reports    Formatting Dates    The following table describes common .NET date formatting strings.              Format string          Name          d      Short date         D      Long date         t      Short time         T      Long time         f      Full date/time (short time)         F      Full date/time (long time)         g      General date/time (short time)         G      General date/time (long time)         M or m      Month day          R or r      RFC1123 pattern         Y or y      Year month       You can also a use custom formatting strings, for example,  dd/MM/yy .   
+</post>
+
+<date>07,July,2004</date>
+<post>
+
+    
+                                                                   Working with Items in a Report     A report in Reporting Services uses report items to display data and graphical elements. In addition to the data regions table, matrix, list, and chart, report items also include text box, image, line, rectangle, and subreport.    Text Box    Text boxes display all text data in a report. A table or matrix cell include a text boxes by default to display data. Text boxes can be placed anywhere on a report and can contain labels, fields, or calculated data. You use expressions to define data in text boxes.    Image    Images display binary image data in a report. An image report item can use a URL to display an image stored on a Web server, display embedded image data, or display an image from binary data in a database. Reporting Services supports .bmp, .jpeg, .gif, and .png files.     Line    Lines are graphical elements that you can place anywhere on a page. A line is defined with a start and end point and can have a number of styles (for example, weight and color) assigned to it. A line has no data associated with it.     Rectangle    Rectangles can be used in two ways: as a graphical element and as a container for other report items. When you place report items within a rectangle, you can move them with the rectangle. This is useful for keeping numerous text boxes and other items together in a report.    Subreport    A subreport is an item in a report that points to another report on the report server. The report that the subreport refers to can be a full report that can also run on its own, or it can be a report that looks best when embedded within the main report. When you define a subreport, you can also define parameters to filter data in the subreport.   When deciding whether to use a subreport, you may want to consider using a data region instead. Because the report server processes each instance of a subreport as a separate report, performance can be an issue. Data regions provide much of the same functionality and flexibility as subreports, but with better performance.    Item Properties    All items in a report, including groups, table and matrix columns and rows, the above items, and the report itself, have properties associated with it. These properties govern the appearance and behavior of the item. For information about the properties associated with an item, see the documentation for that item.   Regards
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+    
+           SQL Server 2005 : Useful Website                                                          YukonXML.com is a premier Web site for all things SQL Server 2005.  Good articles, book sample chapters, up-to-date news, links to articles on  other Web sites, case studies, and more!    Check it out!     urlLink http://www.YukonXML.com    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+    
+            SQL Server Reporting Services: User-Friendly reports                                                                            The following topics are covered in this article:
+</post>
+
+
+</Blog>

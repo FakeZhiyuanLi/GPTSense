@@ -1,0 +1,238 @@
+<Blog>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   So, I think it's official. I'm addicted to the iTunes Music Store. This month alone I've bought 2 movie soundtracks, 1 comedy album, 1 country album and 28 singles. 28! That's 4 albums and 28 singles bringing my grand total to $67.68. ouch. I really need to slow down.  The flip side of that coin is that If I bought all that music in an actual store the price would be astronomically higher. With the average price of a popular CD close to $18 now, I only would have had to buy 4 CDs to pass the $70 mark (never mind the singles).  With the price of music so stupidly high, maybe we've all got such good music-buying karma we're due for a bunch of good music at a great price (which is what I think this is). Anyway I'll try to slow down and do it the old fashioned way... just steal it from friends... 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   Sorry for the recent lack of posts here at Ollie's Blog of Death! I've been in boston graduating from college and spending time with my girlfriend. I'll post the pictures from Boston as soon as I get them sorted and named.  I recently bought a powerbook G4 for $175. The stats are as follows: 400Mhz, Combo Drive, 256MB RAM, 10GB HD, 15" screen, and a lot of scratches. Given the very small amount of money I paid for it I'll likely be upgrading it a little bit, but I'm still at a loss for what to do with it. If you have any suggestions, let me know. 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						    I grabbed this form some kind fellow over at  urlLink MacOSXHints.    The iTunes Music Store has a great new section for viewing Music Videos. If you're like me you might want to save these Music Videos to your hard drive for later viewing.  Open "Script Editor" in your Utilities folder and paste the following in the window that pops up:   set originalFile to do shell script "lsof -wa -Fn -c iTunes +D /tmp | grep -i QTP | head -1 | cut -c 2-" if length of originalFile is greater than 0 then 	set newFile to POSIX path of (choose file name default name "iTunes Video.mov") 	if length of newFile is greater than 0 then 		if newFile does not end with ".mov" then set newFile to newFile & ".mov" 		do shell script "/bin/cp -v '" & originalFile & "' '" & newFile & "'" 		do shell script "/Developer/Tools/ttt -t 'MooV' -c 'TVOD' '" & newFile & "' || true" 	end if else 	display dialog "No movie found. Please make sure that the movie is currently visible in iTunes." buttons {"OK"} default button "OK" end if   Then save the file as an application. Now, every time you watch a music video you can then open up that app and it will be saved to a location of your choice. 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   Aw yes a wonderful day in sunny southern California. Today I wrote a whole lot in an essay I'll be sure to post here about why there are no good word processors and a cool new app I'm testing for creative writing called  urlLink Ulysses.  I spent a lot of time on-line today and read a whole lot of news stories that made me want to vomit. More reasons not to live in a America under the rule of  urlLink these people .  I'd like to think that we as a species have evolved a little bit and that we could figure out that what Jesus, Buddha, Ghandi, Martin Luther King Jr, and lots of other people have said: just be good to each other. Or in the ever-amazing words of Bill and Ted "Be Excellent to each other" (I'm determined to figure out how Bill and Ted, along with Groundhog Day and Contact constitute the greatest lessons in spirituality and human dignity I can fathom).  I'll be in boston for the next few days, taking lots of pictures, reminiscing and oh yeah...  graduating.  Aside from dealing with all the family drama I should enjoy it. I'm looking forward the most to revisiting my old stomping grounds, seeing my brother and seeing  urlLink Troy .  I'm becoming more and more obsessed with  urlLink design  and brand identity... more on that to come I'm sure. 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   Why is it that  urlLink Final Draft  gets worse with every new release? I download the demo and within no less than 30 seconds... I'll repeat that... 30 seconds, I discovered a bug.   The sad thing is that they used to be a great company, they even used to be mac-only. But now that they have achived a wild amount of success and are concidered to be  the default  screenwriting software, they have let the quality of their product decline on a massive scale. Microsoft has an excuse, they are so massive and so far-reaching in their business ventures, that they have far more important concerns than producing quality software. But a company like Final Draft by it's very nature produces software for a niche market.  I guess I'm just seeing proof of the age-old saying, "absolute power corrupts absolutely." But you would think that in this highly capitalistic country that a competitor would arrive on the scene and force innovation. Firefox and Thunderbird are making serious headway into the Windows world and (presumeably) forcing Microsoft to at least upgrade their software; Apple makes great computers that constantly push the edge and while they pose no significant threat to Microsoft, that least there is an alternative to Windows.  But with Final Draft, there isn't much to chose from, they all pretty much suck (I'm speaking of course about Mac software here). For that matter, why is it that there are no really good word processors at all?! Word sucks, and sorry to spoil the supprise, their next version sucks too (I've been using it for a month). It's sad that there are such wonderful tools out there that let you do all these amazing things ( urlLink Omnigroup ,  urlLink SubEthaEdit ). I suppose that the reason a great word processor doesn't exist is because most people don't need a good one, all they need is one that does the most medial of tasks, and because of the prevalence of MSWord, it's all that's out there.  I'm going to go cry in a corner now, this is depressing.    urlLink Nisus Writer Express 2.0  looks promising, but it won't be out for a while.  urlLink Mellel  is nice, but I just can't bring myself to use it, it's strange, I can't put my finger on it but I'm repelled by it. Perhaps it's its primitive interface, perhaps it's its native support of a proprietary format, it could be a lot of things (remember, I'm a layout nut now...). 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   Beware the leader who bangs the drums of war in order to whip the Citizenry into a patriotic fervor, for patriotism is indeed a double-edged sword. It both emboldens the blood, just as it narrows the mind.   And when the drums of war have reached a fever pitch and the blood boils with hate and the mind has closed, the leader will have no need in seizing the rights of the citizenry. Rather, the citizenry, infused with fear and blinded by patriotism, will offer up all of their rights unto the leader and gladly so.  How do I know?  For this is what I have done.   And I am Caesar.   – Julius Caesar 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   Recently I bought a new pair of headphones, I wanted a replacement pair for the ones that came with my ipod. Specifically, I was looking for the following; they had to be in-ear (for jogging and comfort), they had to sound great (I hated the way the standard headphones mucked up my music), and they had to be cheap (    Well, was I ever surprised to find everything I wanted in the Sony MDR-EX51SL. They are a cheaper version of the EX71SL which have been widely well reviewed. They are the exact same earphones except the 51 doesn't have the headphone extension or carrying case the 71 has.    I cannot say enough good things about these headphones, I am literally gushing about them. I'm listening to all my music all over again to marvel at how good these little things sound. I'm used to getting this kind of sound from $100-$300 headphones. They fit snugly into your ear canal, cutting off almost all sound from the outside world (I'm looking forward to my flight next week) and pump the rich, full sound right into your ear. Don't be afraid of them being too close to your eardrum, the only thing that can hurt it is excessive volume.    If you have an ipod, and are looking into a pair of headphones that sound really good for not a whole lot of money, grab the MDR-EX51SL. 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   Tired of Spam? How about ad-ware or spy-ware?    I thought this was an interesting read on one of the problems associated with using a computer on the internet.     urlLink Wired News  
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   Microsoft's next generation operating system "longhorn" will reportedly require "that the "average" Longhorn PC feature a dual-core CPU running at 4 to 6GHz; a minimum of 2 gigs of RAM; up to a terabyte of storage; a 1 Gbit, built-in, Ethernet-wired port and an 802.11g wireless link; and a graphics processor that runs three times faster than those on the market today."    WOW! I'm glad I don't own a PC. 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						    iTunes 4.5 is out  (in case you've been under a rock like me).    There are quite a few cool features you can play around with, including one I like very much that allows you to click on little arrows next to any song, artist or album in your library and it performs a search on the iTunes music store for songs from the same album (etc).     Well, if you option-click on that arrow it will take you to the appropriate place within your own library. Cool huh?    If you want this to be the default behavior, open up the Terminal app (in your utilities folder) and type the following in (then enter)...      defaults write com.apple.iTunes invertStoreLinks -bool YES   
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   This is quite possibly the funniest thing I've read in a long, long, time. Go  urlLink here  
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   You may have noticed a change is the blog. I'm in a middle of switching systems. Please stand by.    Blogger.com uses a new form of RSS called Atom. You can come to this website of course, but if you are using a reader like NetNewsWire, you'll have to download  urlLink this .     update:  To subscribe, this is what you need to type into the "subscribe" window... ollieman.blogspot.com/atom.xml 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   This is my first post. hello world! 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   Maybe there is some  urlLink good  in the world. (free NYTimes subscription required) 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   So, WWDC came and went. If you would like to see it you can stream it to your Mac  urlLink here.   Alas, File Vault was not fixed and improved, as I know it should have been but there were some great things. First and foremost is the beginnings of Metadata support in the Finder and every other App. The most amazing part of the demo was when his Steveness typed in "Mount Hood" and the search pulled up a map of Yosemite. "Mount Hood" was nowhere in the file name and nowhere in the comments, the finder indexed the words inside the PDF document and realized that the words "Mount Hood" were located within the Yosemite map.  The other amazing feature is a new app called "Automator" which is basically a Graphical User Interface (GUI) for Applescript. I, for one, have been waiting for this for years. I've known that the power of Applescript can allow you to automatically download all the photos off a website and place them into iPhoto, then into iDVD as a slide show; all with the click of one button. But doing this would require that you learn the Applescript language (something I have neither the time nor inclination to do). But now it's only a few mouse-clicks away. This is something you have to  urlLink see  to believe.  That's it for now, I'll talk more about the blatant rip-off of Konfabulator and Safari RSS at a later date. 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   Holy crap! A deathmetal band with a parrot for a lead singer?! It's true.   urlLink hatebeak  
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   So, while I was on the shoot recently, I participated in a  urlLink Gmailswap . Gmailswap is a place where mere mortals like you and me can grovel before the great and almightily, the ones who havith a Gmail account.  If you don't know what gmail is, it's the reason  urlLink Yahoo!  upped it's storage to 100MB and  urlLink Hotmail  got upped to 250MB. Gmail is also in a testing phase right now and only a limited number of people have it. The only way to get one is to have someone with a gmail account invite you.  In any case, Gmail is a very coveted item if you are a geek... needless to say I had to have one.  So, I went and offered up the one thing I could think of that has no monetary value to me, but could be very interesting to someone else. I traded photos from the shoot. Now, technically, all the photos I took should be property of the production company (however, I never signed an agreement like that) but I think they might agree that me having a Gmail account is a valid reason to give away photos. So I guess something good came out of the shoot after all.  Anyway, the point is that Gmail is frickin' great! I wish I had invitations for all of you (...soon enough...) so you could see for yourself just how cool it is. Not only is it free, but it's full of cool features like viewing all your emails as "conversations." If you want a real in-depth tour, I'm sure you can find it somewhere out there on the Information SuperHighway. 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   Wow, so I guess it's been a long time since my last post. I wonder if anyone is still out there...  A lot has happened in my absence; I have moved into my girlfriends apartment, she got a new job, quit it, and got a new one at Nickelodeon. I got a job on a crappie horror film and met a guy who has been around forever and who will get me more work. I've been cut off from the internet and civilization for almost a month because of this damn movie, I'm only working nights and my internal clock is all screwed up, it's kind of strange.  Apple is releasing hordes of new products including a music store for europe and Airport Express (something I've been waiting for for a long time). Tiger is being unveiled next week and the rumor sites are going wild. Most of them are filled with dreams of interactive displays and G5 iMacs.  Personally I'd like to see a few things come out of this year's WWDC. Metadata is my dream, but likely won't make it's big appearance for a few years (imagine smart folders...). I'd also like to see new iPods with the iPod Mini interface and the ability to link up to an Airport Express network, oh yeah a built-in FM transmitter. That's it really, beyond those I'll be content with whatever Apple has is store for me.  Anyway, as soon as my life stabilizes, I move into my own place and get high-speed internet, I'll be making regular posts again.  Until then my friends! 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   This is the coolest thing I have ever seen.   These people have figured out a way to use an ipod as a remote. Awesome...   urlLink Link  
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   A little catching up to do...  I got my business cards and yes, I'm happy with them. I decided on a very simple design that is as follows:   (font)  Simple, centered, lowercase letters that just say "Oliver Taylor." The letters are in a very light grey (15%-20%) and the background is a dark grey (80%-90%).   (back)   The back background is the same light grey as a front text. instead of doing the obvious thing and doing dark grey text I did black text. I decided on black text instead of dark grey because at that small a point size readability was my primary concern. The back just features my email address and phone.   ...I'd post a picture for everyone to see but then again, this is the Information Super Highway... The font I used was "Neutraface" from  urlLink House Industries  (my favorite san serif).  I found a great new singer from the UK called Katie Melua. She does old-school blues and jazz stuff like Eva Cassidy or Ella Fitzgerald. Waht's interesting about her is that she's only about 19 and 4x platinum in Europe. Her album has been out in the UK for about 3 months (?) and just replaced Dido and Coldplay in the #1 chart spot. Right now she's, as they say, hot!  In applenews, I've become enamored with the "shuffle" function that has been getting so much praise lately. I especially like iTunes Party Shuffle functionality because it's allows you to see ahead of what;'s playing and change the upcoming list, a very cool feature. I've realized that with a big enough music library, a shuffled playlist serves the same function as a radio station... but it's can't play you music you don't know of... I'm sure they're working on that...  Check out the  urlLink IDEA  awards, very cool stuff. I want to live in a world where this kind of stuff is the norm.  The apartment search is still tough, I spend about 3-4 hours a day on it (but you wouldn't be able to tell since I've produced no results).  I'm looking forward to visiting home. Ah, home. 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   Wow I just saw King Arthur, the latest collaboration between producer Mr. Pirates of the  Caribbean and Mr. Training Day, and boy, what a mess! There is a philosophy in screenwriting, indeed all story writing, that says that there are two stories contained in any one work. The first is a setting, the events that take place. The second is the emotional value or judgment that is expressed or revealed by your characters. It is the synergy that exists between the two stories at ignites a story and makes it live. This is a fairly basic concept (although not always easy) and the mark of a solid foundation for any story.  King Arthur did not have a balance between those two stories. Oh, they were both there but the emotional story, the one that provides a reason for the events that are taking place, was, as is too often the case, over-shadowed by masculine bravado and CGI nonsense. This means that at the end of the story you leave the theatre with a sense that nothing actually happened, that there was no point to the images you just saw on the screen.  It never fails to amaze me that people with access to such talent and such large amounts of money fail to deliver movies that... well, deliver. I guess that it just proves that movies are very difficult to make. Ah well, here I go to try and get a job for those same people... 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   Well, that's it. He's got my vote.   urlLink link  
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   So, today I'm sitting in my girlfriend's apartment looking at the endless sea of apartment listings and wondering just how there can be so many but none that are just right for me. What makes it worse is that apartment searching (online anyway) falls into one of three categories that make you cringe and wish someone would come up with a solution that makes it all easy.   1. A comunity bullitan board like  urlLink Craig's List  where you have to shift thru pages and pages of crap only to find out that there is rarely anything but desperate college students looking for a roomie because their old one bailed on them.  2. A great place like  urlLink West Side Rentals , which is fantastic except that you have to pay 60 bucks for 2 months of access.  3. A place like  urlLink Apertments.com  that after many minutes of searching what looks like promising leads, turns out to only point you back to Westsiderentals or Rent.com like some kind of insane corporate phone system.  Meanwhile, I'm desperatly waiting for UPS to show up with business cards that I designed and ordered online from  urlLink 48hour print . I found the site to be great and was referred there by the always trusty  urlLink The Print Guide . However, writing this is making me more and more insane because I'm finding myself tracking the package online every 2 minutes.  I can't wait... 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   A (bad) director I worked with recently was yelling at the crew and said "This isn't rocket science guys, come on!!" But now that I think about it... I think rocket science would be easier than making a movie. It amazes me every day, the amount of effort that goes into making a movie. If you ever want to see what the rediculousness is like check out the behind-the-scenes documentaries for "The Abyss" and for "Lord of the Rings."  Cut! 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						    urlLink Someone  held a photoshop contest that ended up with some very cool results...    In this contest your task is to depict a modern celebrity as the model in a piece of fine art, but there is a catch: you must choose a work of art that is not done in the classical photorealist style. You must choose a piece with a distinctive style (i.e. brush strokes, specific textures, exaggerated features, etc.). It doesn't necessarily have to be a Van Gogh, either - you can choose from impressionism, pointilism, cubism, charcoal sketches, or anything so long as it's not photorealistic. The celebrity can be anyone famous.    Snoop Dogg as done by Van Gogh is my favorite. 
+
+						
+</post>
+
+<date>01,juillet,2004</date>
+<post>
+
+						
+						   Cool! A post of mine made it onto the MacOSXHints website.   urlLink Link    urlLink Mac OS X Hints  is a great place to find cool things you can do to your computer to make it your bitch! 
+
+						
+</post>
+
+
+</Blog>

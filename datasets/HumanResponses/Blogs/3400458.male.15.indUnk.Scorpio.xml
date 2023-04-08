@@ -1,0 +1,49 @@
+<Blog>
+
+<date>21,May,2004</date>
+<post>
+
+
+       
+      Ok here we go. The first actual thing on the site.   1. Introduction  Sometime during your web designing days you will encounter this very new, mysterious protocol FTP. Do not be afraid of it. It will soon become your friend and is actually really easy. FTP is meant for transferring files to a server on the internet. It has a command line back-bone but there are several program out there that put a GUI on the FTP commends. Windows comes with a FTP client build right in to Explorer but it's very basic and all you can do is upload files. In this tutorial we're going to be using SmartFTP. SmartFTP is free for personal use and is available at smartftp.com   2. Logging In  First you need to know the address of your server. Most of the time it is ftp.domainname.com on port 21. You can consult your host or ISP to find out this information. You will also need a username and password. Now that you know you FTP server address we can load it up. Enter your server, username, password, and port number in the appropriate fields and press enter. Your FTP client will now connect to the server. This can take some time depending on your connection. Once connected assuming you didn't have any errors you should be at either a blank screen or a screen with folders.   3. Oh No, Folders!  Yes that's right. Most likely your lucky and you got some folders on your screen. If you do, good for you. You have a smart ISP. If you don't, don't worry about it. Just skip to the next step. There are two different types of folder structures here. There will be other folders but you can ignore them for now. Were not going to deal with them today. You should either have a public_html or www folder. Anything in these folders will be able to be accessed via your URL. The folders under it will not be seen by your web viewers so make sure everything you want displayed is in one of those folders. The only other folder here that will display files publicly is the cgi-bin folder, but again we'll save that for another day.   4. Two Different Ways to Upload  First, let me explain there are two different ways to upload a file to a FTP server. SmartFTP automatically figures this out for you but it's good to know anyway. The two types are binary and ASCII. What a binary upload does is upload the digital 1 and 0's. This type of upload is meant for images. The other type, ASCII, uploads the text associated with the file. This should be the way you upload everything. Now that you know what method to use let's actually upload something.   5. The Upload!  Browse to your files that you want to upload and select them. Now drag them over to your FTP windows and let go. The files will now upload. That was easy wasn't it. Wait till you get to the next step. Just kidding.   6. Permissions  Yes that's right you now need to decided who can access that file. By default everyone can read it but no one can edit it. For certain purposes you may have to set a different permission so we'll get it to that. The process that changes the permission is called CH-MOD, short for change moderations. That's something good to know since most script tutorials use that term. Now each permission is given a three digit number. Each number in those digits stands for a permission. We won't get into that so I don't confuse you. Now lucky for you SmartFTP has a GUI on the CH-MOD. Simply right click the file and click CH-MOD. You're now presented with a properties window. On the bottom is the CH-MOD stuff. If you know the number you can just enter it in. If not then you must now learn what each "mod" does. You have three groups. Owner, group and public. Public is of course the whole Internet. You don't want to put to much access of the public group since anybody can do anything. The group is basically and server that is non-public. Again you don't want to much on this. Finally there is the owner group. The owner group is anything accessing from your server. You can do what ever you want with this since no one will be able to do anything except your server. Now you know the three groups time to learn the three types of permissions. There are read, write, and execute. The read value is of course reading the files and the write is writing the file. Now the execute is something different. That's meant for scripts were something on your server or elsewhere must compile the code. most likely you won't have to do that.  I bet your tired after that one. Well we're almost done.   7. Accessing Your Files  Remember the whole public_html and www thing. Well that plays a big part here. If you have one of those folders forget about it when accessing your file. You simply type your domain name then a slash and whatever folder or file you have after it. Now if you don't have any on those special folders all you have to do is type your domain the the file. It's that easy.   8. Were Done  Yes that's right. Were finally done. You now just about everything there is to FTP. It's really simply when you think about it. Once you learn folders and permissions all you're really doing is dragging and dropping files. I hope this made a lot of sense and feel free to leave any comments or questions, you FTPer.
+     
+
+    
+</post>
+
+<date>21,May,2004</date>
+<post>
+
+
+       
+      I'm not sure what direction this site is heading but I know it's going somewhere good. For now it's just a website about the Allentown webdesigners. I'm hoping down the road we could get some nice informative stuff up like how to do flash. So your probably wondering how can you help get this site started. Here a handy-dandy list:    Join the Webring  Comment on Stuff  Submit a Tutorial  Tell Your Friends  Visit the Site  Move to Allentown (No wait, don't do that. You'll regret it.)   Um, yeah. That's about it. If you have any ideas about the site just let me know. Right now it's a blog but soon to be much, much more. Sit back and enjoy the ride.
+     
+
+    
+</post>
+
+<date>18,June,2004</date>
+<post>
+
+
+       
+      Many apologies for the lack of posts. We've been well busy, you know how it is.  With what we have planned this site will vastly expand over this summer. Be looking forward to an HTML guide and also check out our  urlLink Forum , if you need help or if you want to chat with other web designers.
+     
+
+    
+</post>
+
+<date>11,June,2004</date>
+<post>
+
+
+       
+      This site will get going more in the summer. All of us are currently doing finals.
+     
+
+    
+</post>
+
+
+
+</Blog>

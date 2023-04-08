@@ -1,0 +1,1 @@
+i'm done with the school for this year. now i can finally do some work. i have to create myself a plan. i think i will investigate a little l4xml and do some gtkmm coding.

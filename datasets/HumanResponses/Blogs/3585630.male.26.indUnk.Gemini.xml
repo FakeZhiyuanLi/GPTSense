@@ -1,0 +1,138 @@
+<Blog>
+
+<date>29,June,2004</date>
+<post>
+
+						
+						    I took a hell lot of pics yesterday .. totally around 240 pics till yesterday night. Dan and JP had a blast at night, and reached home pretty late [ about 3am i suppose ]. Woke up early today and was ready to go for the talks by 8:30am. We walked our way to the talks. It was a very clear day with lovely blue sky with nice and chill breeze.    Attended some very good talks today. The first one was by Federico [ who was the third person i was sharing my room with ]. His talk about GTK+ APIs was awesome. It was a good walk-through to all the important APIs in GTK+ and GNOME. Federico along with Miguel was the founder of GNOME in Mexico, way back in 1998 [ or is it 1999 ?? ].     The next talk was something very interesting. It was about typography, by Liam Quinn, from MIT [ a professor ]. He talked about the human visual aspects and gave some lovely anecdotes too. I shall add them up here once i find some good time to write down the notes i took. One funny anectode that comes to my mind now is the announcement at the British airport, where they ask all the wheel chair users to "stand up" as it was time to board the flight now. Though, they actually meant "to queue up", it was quite funny way to ask that. Another one, was by a sports commentator, speaking about snooker. He says "for the benefit of our black and white television viewers, the red ball is just next to the pink one" ... :-)    Its almost 4pm in the noon now, and i think i will go attend Michael Meeks talk now on "GNOME and Open Software" ...
+</post>
+
+<date>28,June,2004</date>
+<post>
+
+						
+						   This was the first GUADEC i attended and it was real awesome. The intial talk was so different from any other talk. It was a welcome message by Nat. We all [ about 300 people ] had to introduce ourselves  about what we hacked on. It was very interesting to know what other people are contributing towards. Meeting all the hackers here, and talking to them and getting to know their ideas is just one experience you cant afford to miss. I am really happy that i have got such a lovely opportunity to meet these wonderful and cool people.  We now have another 2 more sessions remaining for the day. Its alreadt 5pm now, and we should be having sessions till 7:30pm. But then, it hardly matters since the sun keeps shining almost all round the clock !!  More later .... 
+
+						
+</post>
+
+<date>26,June,2004</date>
+<post>
+
+						
+						   Just reached Kristiansand, Norway .. its around 5:30pm local time here ... The weather is just awesome out here .. with lovely bright sunshine and chill wind and cool temperature of about 15 degrees celcius. I am now typing this from a Debian box, in the hacker's room in Adger University. Waiting for the registration counter to open, so that we could get our room keys.   This machine that i am using is the smallest one i have ever seen .... The CPU is as small as a CDman !!! could hardly believe that it was the CPU ... Shall take a snap of this to post it here  The trip was awesome , but tiring too. The Lufthansa flight from Chennai to Frankfurt was the best flight i have had till now .. luckily, towards the end of the trip, i got a chance to peep out of the window for the last one hour, before the plane landed. I just cant forget the beautiful scenaries i saw there. Shall sit down more peacefully and write down a lot about it later.  Just met Luis, Dave and Nat too !!! Sent out mails to all friends and home. Got to go now for the registration and my head is already starting to spin now.  Oh wow .. Luis just now sent me an invite for a gmail account !!! Coooooolllll   
+
+						
+</post>
+
+<date>25,June,2004</date>
+<post>
+
+						
+						   I am now in Chennai :-) after my first ever flight ... was an awesome experience. I got the seat in the last row, which reminded me the strict conditions we would be having in buses to *not* take the last seat [ though i guess, it was nothing different than going in a bus ]. The best part was leaving Bangalore in the day light, just around sunset and then landing in Chennai, seeing it dressed in beautiful lights below. That was a real wonderful sight, i would not be able to forget it ...   It was amazing to feel the plane start off in full speed dragging you back a bit ... and then lifting you up .. and up and up ... We did get some jolts or may be mild turbulence, but then that was also an experience. It was an Indian Airlines flight ... :-) ... But then, it took the plane about 10 minutes to go high up and another 10 minutes for us to finish off the light snacks and in just about 30 minutes, we touched down at Chennai, at 7:30 pm ... [ We started from Bangalore at 7pm ] ... Looks like its now time for me to board the Lufthansa flight to Frankfurt and then on to Stavenger and then on to Kristiansand, Norway !!! 
+
+						
+</post>
+
+<date>21,June,2004</date>
+<post>
+
+						
+						   Last week i read an article about scientists being able to successfully transfer physical characteristics between atoms using some phenomenon called "entanglement". Some links on this are here  1.  urlLink CNN News Article  2.  urlLink http://cfmx.physicsweb.org/article/news/8/6/10  3.  urlLink http://cfmx.physicsweb.org/box/news/8/6/10/kimble   The article predicts quantum computers to be in use by 10 years from now. Guess, we are nearing the days of Matrix :-) Wonder who would be "the one" ... 
+
+						
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+						
+						   This week was undoubtedly one of the most hectic weeks for the past 2 or 3 months. Almost every evening i was meeting my house broker to see various houses. I finally decided on one house this thursday. Its pretty much sufficient for one guy ;) .. with a good bedroom, hall and kitchen and ofcourse the bathroom. Its on the first floor, near a park, in a very silent lane [ except for a couple of dogs i guess ;) ]. The only thing new for me now, is to learn to stay alone :-(, with my earlier room-mates shifting to separate houses. It was such a pleasure living with them. I hope to keep meeting with them often even after we start living separately.  Every eveving, I had to rush to catch hold of this broker since he usually is not available otherwise. They are so much in demand these days in Bangalore. On the weekend, when i actually met my new house owner, the broker had another customer literally sitting on his head asking him to show him some house he promised. The owner seems to be a nice guy and i hope to not have much problems. The best thing about this house is that the owner stays about 25 kms away from my new house. I am sure its one real good thing that made me decide on this house.  As if this was not enough, our test engineer for Evolution Exchange connector, suddenly woke up from his slumber and started filing bugs left right and center. The bug count dramatically rose up [ which was quite expected if anyone tested the component ;) ]. But, unfortunately, most of the bugs were very rare case scenarios or negative test cases and not so interesting to fix apart from a few good ones. I have started working on those interesting bugs for now. One very interesting bug is that, if i get a task forwarded as an ics file and i accept it, evolution hangs. Well, that was what the bug said, but my RedHat 9 box, had a pretty different story to tell me. Whenever, i tested this bug, it was just not evolution, but the whole machine that was getting locked up. I could see the CPU being hogged [ the CPU red light was glowing continously ], and no keyboard inputs were being accepted. I tried a ssh to my machine from another test box, but that also timed out. Was very annoying to have to reboot my machine after it being up and running for a month :-(. To gather more info about this bug, i left it hanging in the evening and came back in the morning and saw that the machine had reached some sanity and was recognising the keystrokes, but was nevertheless damn slow. So, i have decided to debug this on the tester's machine itself ;)  Before i forget to mention, there are a few very nice blogs written by  urlLink fejj  which i would like to mention here. One is on  urlLink profiling tools , another is on  urlLink effective searching  and a follow up of this on  urlLink binary search trees . These are all quite elementary in nature, but i liked the approach in which he explains this. And as he later points out, there is a wealth of knowledge on different tree implementations at  urlLink http://www.msu.edu/~pfaffben/avl/   This week is gonna be another busy week, and i am planning to do some reading too :-) Hope i am able to balance my time between hacking and reading. 
+
+						
+</post>
+
+<date>15,June,2004</date>
+<post>
+
+						
+						   Yahoo has upgraded my mailbox to  100MB storage limit  from today. This is amazing news. Guess, the free mailbox storage capacity now is 100MB and the paid service is whooping 2GB !!! This is definately in retaliation to the great gmail accounts of 1GB. Thanks to google i now have a better yahoo service. I am not feeling like deleting any mails now :-) ... Yahoo also has added the "search mail" feature, again inspired by gmail. But then, so what, the users are gonna have a real good time now ... Hard disk space has really gone cheap ... Hail to the silicon storage devices, that have made this possible. I just cant imagine the amount of compression being done at yahoo and also the amount of hard disk actually being used to store the mails of millions and millions of yahoo users.   Looking ahead for greater days of storage bliss ... 
+
+						
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+						
+						   It was a shocking performance by Italy against the Danes. Italy just lacked the attacking edge. Though Vieri had some good chances, he failed to convert them into goals. Toti was also disappointing. I was expecting Italy to be the team that could give France a fight for the title, but i seriously doubt they qualifying for the semis too now. We need to see how the Czechs perform. They have been winning in the recent tourney's and they are very highly rated for winning this tourney. Apart from this, I felt sad for the Danes though. They had great chances and came very close to scoring goals. Danes were more convincing than the Italians.  But the day belonged to the goal-keepers. Both Buffon [ of Italy ] and Sorenson [ of Denmark ] made some breath-taking saves. Dont misout the replays of this game just for the wonderful saves these goal-keepers made. Italian defense was also very strong. Ball bounced back from the defenders atleast half a dozen times. The game was attacking and i wished Danes had scored a much deserved goal. It was a pity that the match ended in a goalless draw.  My evening house hunt was also not that fruitful, except for one very funny incident. I went to see a house for rent and the owner came down to show me the house. There was a lady with her son and her father-in-law staying in the house. The lady was veryyy adamant on not letting us see the house till her husband arrived !!! The owner pleaded her for about 10 minutes and she was just saying sorry, i cant help it. She even came out and said sorry to me that she couldnt show the house ... Was really funny to have been met with such restrain.  Woke up early and came by 8'0 clock bus for a change. Got some breakthrough on a bug. Found the error being there for some cache sync issues. Now need to fix it and also find out how a gtk druid would take "Enter" key as a default operation to proceed ahead to the next page. Time for lunch now .... 
+
+						
+</post>
+
+<date>14,June,2004</date>
+<post>
+
+						
+						   Yeah, its a sweet song by Nelly Furtado, but no i am not gonna write about that. Powerless is just how i felt this weekend.  Saturday, i just had no control on when i could go and search the house. The broker was having all the power for it ;). He never turned up. My room-mate has bought a new DVD player, so we watched a comedy-horror movie called "Evil Dead - III". I really dont know how they could call it a horror movie. Anyway, we enjoyed watching the comedy part of it [ Mind you, there was no horror part in it at all :p ]. Now that EURO 2004 has been flagged off, we spent our complete evening and half of the night watching the 2 initial matches. Greece winning over the hosts Portugal was the biggest surprise of the day [ oops, it was the first match, so it was the only surprise till then ;-) ]. Spain had to struggle a lot to win their game against the Russians. I watched just the first half and gave into my sleep.  Sunday, we were all planned and ready for the biggest match of the year ... France v/s England. France being the reigning champions, this was ought to be a killer. After watching Rambo I and Rambo II in the noon time, we spent the early evening searching for houses and found one very spacious single room with a huge balcony, the balcony is actually bigger than the total room size, and its on the third floor, having a beautiful view of Indiranagar and most parts of Bangalore. But, i want to keep my options open and have not yet finalised on this luxurious balcony-cum-room. :p  The first match was between Crotia and Switzerland, which eventually turned out to be a goal-less draw. We could not afford to watch this boring match till 12 midnight and be awake for the biggy. So we bought another DVD [ Master and Commander ] and spent the night watching it and waiting for the clock to strike 12. This movie was damn good. Watching it in the DVD added the much needed flavour. Luckily we had the subtitles to our help, with Russel Crowe eating up most of his words. But, we still hadnt seen the biggest surprise of the day, I should rather say night. Just before 5 minutes for midnight, our rooms turned dark, with the BESCOM authorities deciding to switch off the power for the night :-(( .. We were sooooo Power-less :-(( .. We waited for another hour, but to no vain. We finally called it a day, and slept. To our dismay, the morning news showed that the France v/s England match was a damn thriller, with Zidane scoring 2 goals in the final 120 seconds of injury time to beat England 2 - 1. Earlier, in the first half, Becham took a free-kick and gave a beautiful pass to Lampard in the D, and helped England take the lead. Now in the 90th minute, Zidane took a breathe-taking free kick right on the edge of the D, to level the scores. The English goal-keeper did a blunder by bringing Henry down while going to save an attack in the very next minute. This was just the right occassion for Zidane to score from that penalty in the dieing moments of the game. So France scored in the last 120 seconds of the match to win this thriller. Earlier, Barthez made an amazinging dive to save a Bechkam penalty kick. This really cost the Englishmen the match.  Apart from writing this long post, today has been a real colorful and manic monday as usual. Had to create a very colorful bug-report, to show the progress made on Evolution/Connector. Time for some TT now ;-) and more house hunts ...  
+
+						
+</post>
+
+<date>12,June,2004</date>
+<post>
+
+						
+						   This weekend is going to be all about house hunting. We need to find one by this month end. Hopefully we should find a good place to stay.  Yesterday was a very boring session of Linux training. It was all very theoretical and text book knowledge, most of which we already knew a lot and were hardly using. It was all about processes, process stack, threads, and IPC mechanisms.  We did have some nice fun in the afternoon session though. The instructor, who has spent most of his time working with the kernel and device drivers, demonstrated the abstraction of the file i/o calls [ open/read/write/close/ioctl ] using a live device. He called it a toy. It connected to the comp using a parallel port. The toy had 8 LEDs [ something like the 8 bits in a byte ] which glow in binary format when a decimal number is fed on the port. He had a kernel device driver written for this, that implemented the file i/o calls and initialised this module by giving the device a major and a minor number. After inserting this module into the kernel, he showed a user-level program which just did a simple "open" on this device and did a "write" onto it. The program prompts for the user to enter a decimal digit which is written onto the device. The LEDs were glowing, based on the decimal number entered. The binary equivalent of this number could be seen in the LEDs. This was cool to watch. Really looked like a very nice toy. Need to try it out sometime building it on my own.  One more thing which i got clarified in this session was the fact that "linux kernel code is non-preemptive" [ ofcourse, some parts of the 2.6 kernel a pre-emptive, but thats a different story ]. I had been confused about this, since I also read that linux was a multi-tasking OS. The funda is that the pre-emption happens *only* in the user space and *not* in the kernel space. So the scheduler only schedules the user level tasks. Once the process enters kernel space [ by calling a int 80 ], it now cannot be pre-empted, unless it makes itself "idle" [ or non-runnable ]. And interestingly, the scheduler [ apart from other 2 scenarios ]is invoked after a return from every system call.  Oops, its already tea time here now... need to go catch the broker for the houses ... 
+
+						
+</post>
+
+<date>11,June,2004</date>
+<post>
+
+						
+						   I am struggling to find the right way to post here ... Is the blog title like the title for a book and the postings equivalent to the chapters in a book ?? I tried creating another blog but it didnt quite seem to be what i intended to do. So here it is .. i am now gonna just keep posting articles to my "first blood" blog.  It has been real tough since yesterday for me to get up early in the morning at 7, to be on time in office for the 9:30 training. Yesterday was the first day and it was fun. The trainer was finding it difficult to understand our questions, but then that added to the fun ;)  Few cool snippets i got from the training ...  1. The symbol table in a binary is used at compile time [ to resolve symbols ] and debug time, but *not* at runtime.  2. You can a strip a library of its symbols, create a symbol table file and then recreate the original file by combining the stripped library and the symbol table file using "nm".  3. The C convention of passing variables onto the stack is from left to right, and the Fortran convention is to pass it from right to left. The advantage of the C convention is that it enables us to have variable number of arguements.  4. The keyword "volatile" [ a storage class ] is used to tell the optimizer [ this is part of the compiler phase ] to always fetch the variable from RAM and not from the [ L1 or L2 ] cache [ This is the hardware cache ]. This feature is commonly used in the kernel code for device registers.  My one doubt on point 4 above is that, if reads happen first from cache and then from RAM, why dont the writes happen first in cache and then in RAM. We saw an example yesterday which was writing to the RAM and not the cache. Hopefully, this should be understood today :)  Time for the training now. ..... 
+
+						
+</post>
+
+<date>09,June,2004</date>
+<post>
+
+						
+						   This is the first time, when i felt trying a "Hello World" program actually makes sense ;) Trying to see how this works. More talk later ... 
+
+						
+</post>
+
+<date>21,July,2004</date>
+<post>
+
+						
+						        Last weekend my parents visited my new [ rented ] house. Not that they wanted to see the house, but they came to collect the goods and chocolates that i had bought for them from Norway. Unfortunately i could not purchase anything significant for them in that expensive Kristiansand. But, then i had the numerous pics that i had collected there that made them very happy.     We visited quite a few shopping complexes, Bangalore Central, Forum and also spent good 4 hours roaming on that small Commercial street, just because my sister did not get some "chicken design" clothings. Well, all that time spent ended well with she getting what she had started out to purchase.     
+</post>
+
+<date>14,July,2004</date>
+<post>
+
+						
+						    Reaching home now-a-days from office feels like eternity. Bangalore roads are being flooded both by water and vehicles. Just a couple of days of continuous rain in the evening and we can see complete chaos over the roads. My drive from office to home took a cool 90 minutes yesterday. I remember reaching home in 30 minutes in the early days of 2001.                                                                                                   Yesterday, I noted down the time we spent waiting for the traffic signals to have mercy on us and i found that we spent close to 30 minutes just waiting for the signals to flash green. And to add the morning delay of 10 to 15 minutes, gives us a nice 45 minutes of wait/delay daily in the Bangalore traffic. So, on an average, we Bangaloreans [ ok, not all, but just the few?? unlucky ones like us ] spend 22.5 hours a month just waiting for the signal. And if extended, this means about 270 hours a year !!! This sums up to   spending more than 11 days a year simply waiting for the traffic lights !!!   This is 50% in excess of the world average of 7 days. [ Yeah, on an average, a person spends one week every year waiting for the signal to splash green :-) ]. But then, Bangalore is all set to shift that average towards a higher number.    The only good thing that i could do while waiting for the signal was to close my eyes and doze off and think of such silly calculations as above, listening to any damn song that plays on Radio city ...
+</post>
+
+<date>13,July,2004</date>
+<post>
+
+						
+						    Found a cool new feature in firefox 0.9 ..  Open all links in tabs     Daily when i logon to my machine, i usually visit the same websites. Firefox helped me remember those sites more seamlessly now. I created a folder called " Daily visited sites " under the " Bookmarks toolbar folder ". So next time when i bring up firefox, i click on this " Daily visited sites " tab and in the dropdown list showing me the list of websites bookmarked it also gives me an option to all the bookmarks in this folder in separate tabs !!! This is just awesome.     To add to this, i browsed for some more cool features and came across a sleek  toolbar shortcut for gmail notifications  !!! You can download it from this  urlLink link . Once u click on this shortcut and login with ur gmail user name, it keeps refreshing and tells you the number of unread new mails u have in your inbox. Oh boy, things start getting better and better on firefox. I would love to write some xuls to extend this feature to access my other imap accounts and have a sweet mail notification shortcut right in my browser.
+</post>
+
+<date>12,July,2004</date>
+<post>
+
+						
+						    Well, its been a very very hectic week all along. Came back from Norway on July 4th. Was a very pleasant trip in all. I have to write a blog about all this trip before it evaporates from my volatile memory. [ For a quick report on the trip you can read  urlLink my report  ]     I have been spending quite some time on catching up with the things going on in office and fixing some bugs. We also had a gnomebangalore meet [ gbmeet ] on July 10th, which was very good. People [ basically graduate and post graduate students ] from various parts of India had come to attend it. It was a good start. We are starting off something like a revolution here in India with the "nosip" chapter at  urlLink gnomebangalore.org . Hope this helps in leveraging the huge amount of programming potential we have in India. [ What good is this huge population if we cant contribute to a noble cause as open source :-) ]    Well, apart from all this, on my personal front, i have started my experiment of staying alone. But, i am making a conscious effort to not to ever bring the thought of me being alone at home. I havent found anything boring till now. Lets see how long i can survive like this. Well, i just realised that there is life even without television :-). Its strange, but if you know how big a TV fanatic i am, i myself cannot believe that i have stayed without seeing the television for 10 days !! [ well a week ] ... Thanks to my cable operator, i still do not have a cable connection at home.    Ok, for those few trusted people i have already sent my photo album i collected at Norway :-). If you also have the time and patience to watch my pics, you can mail me and i shall think if i can send those pics to you ;-)
+</post>
+
+
+</Blog>

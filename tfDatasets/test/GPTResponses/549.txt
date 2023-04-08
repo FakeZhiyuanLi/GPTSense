@@ -1,0 +1,1 @@
+coding excess energy in the frequency domain can increase efficiency, not decrease it. This is because by reducing the amount of energy needed to transmit data, more can be transmitted in the same amount of time using the same amount of energy.

@@ -1,0 +1,1 @@
+There are a total of 33 non-printing control characters in ASCII. These characters do not represent printable characters and are instead used to control devices such as printers, modems, and other communication equipment.

@@ -1,0 +1,1 @@
+is referred to as "main memory" or "system memory." This is because RAM cache is a type of volatile memory that is located closer to the CPU, but has a smaller capacity and slower access times compared to main memory. However, RAM cache is faster than storage devices like a hard drive or solid-state drive.

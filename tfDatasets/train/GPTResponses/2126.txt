@@ -1,0 +1,1 @@
+Setting the clocks forward during Daylight Saving Time does not give us an extra hour of anything. It simply shifts the time by one hour to allow for more daylight in the evenings during the summer months.

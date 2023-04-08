@@ -1,0 +1,310 @@
+<Blog>
+
+<date>25,May,2004</date>
+<post>
+
+	 
+       urlLink 水晶论坛  老肖推荐的，说上面不上好东东，有空到这里逛逛看。  ftp://list:list@soft.downsurf.com
+     
+    
+</post>
+
+<date>24,May,2004</date>
+<post>
+
+	 
+      成功安装了Fedora core 1，接下来配置FTP服务器。 
+     
+    
+</post>
+
+<date>23,May,2004</date>
+<post>
+
+	 
+       urlLink �ж˾�ѡ 4��5000ԪƷ�Ƶ��ԵıȽ�_TOM�Ƽ� : "�ж˾�ѡ 4��5000ԪƷ�Ƶ��ԵıȽ�   http://tech" 中端精选 4款5000元品牌电脑的比较 
+     
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+	 
+       urlLink UML设计模式 CN Dev Forum   很多资料的链接地址及UML工具下载地址
+     
+    
+</post>
+
+<date>21,May,2004</date>
+<post>
+
+	 
+       urlLink OpenDesktop社区   OpenDesktop.net是国内第一个以技术开发为主的大型开放源代码社区，致力于开发商品化的、与Windows高度兼容的、适合政府和企业商用的桌面Linux操作系统，这个系统的名称就叫OpenDesktop。
+     
+    
+</post>
+
+<date>20,May,2004</date>
+<post>
+
+	 
+       urlLink Teach Yourself C in 21 Days -- Table of Contents 
+     
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+	 
+      芯传电子上海有限公司  公司简介： Silicon Data Inc.  我公司（Silicon Data Inc. China）主要是设计高度集成的单芯片系统（System-on-chip），以提供强大的宽带网络通讯功能．该芯片可用于家庭、小型商业网络、VoIP应用、无线通讯及小区宽带网关的一体化解决方案。  现诚聘优秀人才加盟上海分公司，共同组建一个具有挑战性的、高速发展并充满活力的团队。一经录用，本公司将为您提供非常优厚的薪资、期权、及其他福利。   有意者请E-mail您的简历，并将其以附件形式发送，文件大小不得超过50KB。请E-mail至本公司。  公司详细情况，请登录 www.silicon-data.com  公司网站： http://www.silicon-data.com  联系方式：   联 系 人：朱季光  电子邮箱：ckchu@silicon-data.com           招聘职位      Embedded WEB GUI Development Engineer（嵌入式网页开发工程师）  电子邮箱：ckchu@silicon-data.com    发布日期：2004-05-19 工作地点：上海市  招聘人数：1 学    历：本科  工作年限：三年以上 薪水范围：面议  外语要求：英语 精通 接受简历语言：中文或英文      职位描述：  Desired Skills and Required Experience:  ·3+ year embedded web development experience. BSEE/CS or Master degree.  Experience with C/C++, HTTP, HTML, CGI, JAVA, JAVA Script and TCP/IP networking programming.  Knowledge of software development process.  Experience of embedded software development, debugging and testing.  Knowledge of Data Communication devices, such as switch, SOHO router, NAT/Firewall, VPN devices is a plus.      
+     
+    
+</post>
+
+<date>19,May,2004</date>
+<post>
+
+	 
+       urlLink UPnPЭ����ʵ����� 
+     
+    
+</post>
+
+<date>18,May,2004</date>
+<post>
+
+	 
+       urlLink UPnPЭ����ʵ��һ�� 
+     
+    
+</post>
+
+<date>18,May,2004</date>
+<post>
+
+	 
+       urlLink http://www.microsoft.com/presspass/features/2004/may04/05-04Devices.asp  urlLink http://msdn.microsoft.com/ws/2004/05/devprof 
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+	 
+       urlLink MERL - Simple Control Protocol 
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+	 
+       urlLink Welcome to Home Networking News Online 
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+	 
+       urlLink Microsoft Enables Unified Standard for Home-Control Networking 
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+	 
+      SCP consists of two separate protocols: AP (Application Protocol), NCP (Network Control Protocol) Microsoft’s Address Space Arbitrator (ASA)  
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+	 
+      An Overview of the  Simple Control Protocol (SCP)  Abstract This white paper introduces Microsoft’s Simple Control Protocol (SCP), a device control protocol for simple devices with limited computing resources operating on slow-speed communication networks. The document includes an overview of SCP’s key features and benefits, a high-level technical overview, some typical implementation scenarios and information about licensing and device development processes. What is SCP? Simple Control Protocol (SCP) is a very lightweight device control protocol that allows manufacturers to create small, intelligent devices that can communicate with each other, securely and robustly, over low-speed communication networks. SCP is media agnostic, although its first implementation is targeted at low-speed Power Line Carrier (PLC) control networks. An SCP/PLC chipset is being designed, to be controlled by the device’s application processor, which can be as simple as a low-end eight-bit PIC chip. With SCP/PLC, simple devices with limited computing power and memory resources—such as light switches, alarm clocks and appliances—can be part of a peer-to-peer network of other SCP-enabled devices, and can also participate in more sophisticated Universal Plug and Play (UPnP) networks through a UPnP-to-SCP Bridge.  Why is SCP Needed? Due to intense competition between proprietary device control protocol and physical layer vendors, the home automation industry is extremely fragmented. Many existing protocols and physical layer technologies are too difficult to configure and use, and are not reliable enough to provide a consistently good user experience. Devices from one vendor can’t interoperate with those of other vendors—in fact, one product may prevent other products on the same network from working at all. This fragmentation, poor performance and lack of interoperability are limiting the growth of the home automation market. Microsoft’s intention is to help jump-start home automation by unifying the market at two levels. At the protocol level, Microsoft will provide a robust, secure, efficient and royalty-free protocol—SCP. At the physical medium level, Microsoft will license SCP for use with various physical layer technologies which are shown not to interfere with one another. As part of the SCP licensing terms, physical layer vendors must make their technology available on a non-discriminatory basis to any organizations which want to license it. As a result, homeowners can be sure that, no matter whose SCP-based products they buy, the devices will be compatible with one another. Key Features of SCP •	Application and Network Control Protocols. SCP consists of two separate protocols: the Application Protocol (AP) for normal device messages, and the slower but very robust Network Control Protocol (NCP) used to assign network and device IDs and to perform other network management and diagnostic functions. Typically, Microsoft’s Address Space Arbitrator (ASA) assigns the network and device IDs. •	Peer-to-peer networking. Once an SCP device is assigned its network and device IDs, no central control device is needed for routing messages. All communication takes place directly between devices, eliminating single points of communication failure. •	Optimized for low-speed control networks. SCP messages are quite compact and require minimal header information. The device control and messaging semantics are designed to minimize network traffic. For example, devices can detect the loss of an associated device on the network and stop trying to send messages to that device, avoiding unnecessary network traffic. When the device is reconnected to the network, the relationships to other devices re-establish themselves. •	Automatic device discovery simplifies adding new devices to the SCP network and allows devices to self-recover from a power outage. Devices retain, in persistent storage, their network IDs and their relationships to other SCP devices. When power is restored the devices automatically re-establish their relationships with other devices. •	Simple messaging semantics. SCP uses Properties, Property Values and Property Routes for inter-device communication. To change a device’s behavior you just change the software property relationships between devices. So just by changing a simple property value your alarm clock can start your coffeemaker based on the alarm time. Or the security panel can turn off lights and appliances automatically when you leave the house. •	Broadcast and reliable point-to-point communications. SCP devices can send messages point-to-point, requesting acknowledgements to verify message delivery, or can broadcast messages to all devices with or without acknowledgements. These features allow the appropriate tradeoffs to be made between message reliability and network loading. •	Network media independence. Although the initial implementation of SCP will support networking over a Power Line Carrier (PLC) transport, the protocol is designed to be media-agnostic. Infrared (IR) and radio frequency (RF) are potential future transports. •	UPnP interoperation. SCP devices use the same device models and schemas developed by the Universal Plug and Play (UPnP) Forum, allowing SCP and UPnP devices to interoperate easily through a Bridge. This extends the full capabilities of UPnP into the world of small devices which can’t afford the cost of a TCP/IP and native UPnP stacks. For example, SCP device properties can be set through messages sent across the Internet. All SCP device property relationships are established at the UPnP level through the Bridge and propagate down to the SCP network and device level. UPnP bridging also allows SCP devices to interoperate with devices that use other control protocols. If a Bridge exists between those devices and a UPnP network, SCP devices can use UPnP as a common communication language. •	Selectable security levels. The SCP network can operate at one of three security levels: no security, medium security or high security. Medium and High are key-based security modes providing 128-bit encryption of each SCP message, as well as jamming of “imposter” messages. Much as an anti-virus program detects suspicious activity, a separate security component can use SCP security capabilities to identify and jam devices that originate suspicious device commands. For example, messages from a sprinkler head could be jammed if the sprinkler attempts to control the home security panel. •	Presence tracking. SCP nodes monitor all other nodes with which they have relationships. If any of those nodes fails or is powered off, the associated nodes detect this condition and stop sending messages to the disabled nodes. This reduces unnecessary network traffic. When a node returns to the network, its relationships with other devices are re-formed and communications return to normal. •	Simple, efficient PLC device implementation. The SCP/PLC implementation will be delivered as an integrated chip set, to which the device developer adds an application processor (to process the native device logic and to control the SCP/PLC chip), and an EEPROM (typically about 500 bytes) to store client-side device property relationships and other persistent information. The SCP/PLC chip provides an SPI hardware interface to allow control by the device’s application processor. The expected cost to add SCP/PLC to a device is estimated to be between $3 and $5. This includes the cost of the line interface parts but excludes the application processor. •	Multiple logical networks. SCP supports a two-level address space, which allows for the formation of several logical networks within a single physical network. For example, adjacent homes and apartments typically share a physical power line network, since they’re wired to the same electrical power transformer. SCP allows each household to create its own separate logical network on the shared physical network, to prevent devices in one home from being controlled by a neighbor. SCP security allows logical networks operating on the same physical network to be securely isolated from one another. SCP supports approximately 1000 logical subnets per physical network and approximately 2000 devices per logical network. •	Extensive diagnostic support. For product development, testing and debugging, installation, and ongoing support, a set of support tools lets you view SCP/PLC messages on the wire, send ad hoc messages to devices, and manually establish property routes between devices. The protocol itself also includes an extensive set of diagnostic support features. For example, a device can test the quality of communications between itself and another network node, or a third-party device can tell two nodes to test their communication path. This function can be performed at the Application Protocol and the Network Control Protocol levels.  •	Configurable network parameters. SCP allows setting of network timing and modal parameters, retry settings, X10 coexistence flags, and other network variables. SCP also provides access to network statistics, such as bit error rates. How Do SCP-enabled Devices Work? The SCP device and service models are the same as those established for UPnP devices. This ensures full-fidelity bridging between UPnP devices and SCP devices.  SCP follows the UPnP nested device model, which includes Services, nested Devices, Actions, and State Variables (which are called Properties in SCP). In fact, SCP uses the exactly the same device and service descriptions as UPnP.  A Service consists of a group of related Properties and Actions. Properties describe the public state of a Service. Actions change or access the state of a Service. Services are contained within Devices, and a Device can contain multiple sub-Devices. The model is analogous to that of the programming object, where an object interface provides access to a set of properties and methods that operate on and describe the state of the object. In addition to properties and actions, SCP supports an eventing model based on Property Subscriptions and Property Routes. A device can subscribe to a particular property on another device and receive a notification whenever the state of the subscribed property changes. A Property Route is a one-way connection between two properties: a source property of one device and a destination property of another device. When the value of a source property changes, the value of the destination property is updated with this new value.  Property Routes are based on subscriptions. A device must establish a subscription to a property on a source device before establishing a property route. For example, consider an SCP device that exposes a simple Timer service consisting of three properties: Increment, which specifies the timer countdown increment in milliseconds; Value, which specifies the current countdown time; and Trigger, which changes from False to True when Value goes to zero. The service also has three actions: Start , Stop and SetValue. Suppose we want the Timer to turn on some lights when the Timer’s Value property goes to zero. A third-party (for example, a configuration utility) tells each light to subscribe to the Timer’s Trigger property and create a Route between that property and the light’s Intensity property. Then, when Trigger goes True, each light’s Intensity property also changes to True, and the lights come on. The message is the fundamental unit of SCP communication. SCP devices and the SCP/UPnP Bridge use messages to set and retrieve property values on target devices. Devices use messages to notify other devices, applications or users when the value of a subscribed property changes. To send messages, SCP uses application-level transaction patterns optimized for noisy, low-bandwidth networks, while still supporting fundamental UPnP device models. There are four types of transaction patterns, differentiated by the response required of the devices involved in the transaction. A Broadcast transaction requires no reply from the receiving device or devices, and is used to minimize network loading when guaranteed message delivery is not required. A Request/Reply transaction requires the receiving device to acknowledge the sender's message. A Request/Reply/ReplyAck transaction requires the originating device to acknowledge that it received a reply to its request. A Reliable Multicast transaction, which combines the Broadcast and Request/Reply patterns, is used for point-to-point Routes when the Property’s value could change rapidly. Other transaction patterns may be added over time. For example, suppose a security keypad device wants to verify the state of a specific motion sensor on its logical network. The keypad device would initiate a GetProp transaction by issuing a GetProp message, setting the Request parameter to the motion sensor’s device ID, specifying the message type as a Request/Reply message, and specifying the ID of the property to check. Upon receiving this GetProp transaction from the keypad, the given motion sensor would respond by issuing its own GetProp Reply message, setting the Request parameter to its device ID, specifying the message type as a Successful Reply message and including the current value of the indicated property.   How Does SCP/PLC Interoperate With  Other Device Protocols? UPnP A Bridge between an SCP network and a UPnP network allows SCP devices to appear as native UPnP devices to an IP-based UPnP network. The SCP/UPnP Bridge automatically creates UPnP proxies whenever a device becomes active on a logical SCP network. No user interaction or configuration is required. The SCP/UPnP Bridge handles all requests to form property routes between SCP devices. Once the Bridge establishes a route, the devices can operate independently, peer to peer. If the Bridge becomes unavailable for some reason, the devices will still maintain their relationships, and can still exchange property change information with other SCP devices on the same logical network. Of course, any interactions with UPnP-based devices and services will stop, but the Bridge will automatically re-establish those relationships when it comes back on line. CEBus and X10 SCP devices can’t communicate directly with CEBus or X10 devices. But the protocol and the related PLC signaling implementation are designed not to interfere with any CEBus or X10 devices that happen to be present on the physical PLC network. So mixed SCP, CEBus and X10 device networks are supported. SCP Device Usage Scenarios SCP is designed for a variety of smart device applications. This section describes some possible applications, though many more will develop over time. •	AV devices At an in-home control point you select a cable TV program to watch. The home control system sends SCP messages to turn on the TV in the room, tune the correct channel at the cable tuner and command the AV receiver to connect the cable tuner output to the TV input. You can then use the control point to adjust the volume. When combined with a powerline carrier (PLC) physical layer technology, SCP is a simple and inexpensive way to control AV devices—TVs, AV receivers, DVD players, VHS recorders, cable tuners and other AC-powered AV components. No additional network wiring is required to make these devices part of a home control network.  •	Lights and light switches SCP light switches can control lights in the same room, adjacent rooms, or any combination. Switches at multiple locations in a room can control all the room lights in parallel. If the homeowner wants to change which switches control which lights, she doesn’t need to call an electrician to rewire the physical circuits. She or a service provider just changes the property routes between the switches and lights. •	Small appliance interaction An SCP alarm clock can start your coffee maker ahead of your wakeup time so there’s hot coffee ready when you get out of bed. Health monitoring devices, such as blood pressure and blood sugar monitors, can send their readings to your PC for storage and trend analysis. Or they can send the information over a secure Internet link to your doctor’s office. •	Interaction between SCP and UPnP devices The homeowner puts a tape in his UPnP-capable VCR and presses Play. The VCR sends a UPnP event to a rules engine, which puts the room into Home Theater mode. The rules engine turns the UPnP TV on and connects it to the VCR audio and video outputs. Then, through the SCP/UPnP Bridge, it tells the SCP room lights to dim, and closes the SCP blinds and shades. •	Security systems When the homeowner leaves the house, he activates the SCP-based security panel. The various door, window and motion sensors in the house, as well as the smoke and heat detectors, all communicate with the security panel through SCP messages. Activating the panel also sends SCP messages to turn off all the lights and appliances in the house and to move the HVAC temperature setpoint lower to save energy while the house is empty. When the homeowner returns and opens the garage door, a garage door sensor turns on lights in the interior entry hallway. When the homeowner deactivates the security panel, the panel returns the HVAC setpoint to its normal value and turns on other lights between the garage entry and the kitchen. •	HVAC system The HVAC system’s SCP-enabled sensors communicate the current temperature and humidity to the house’s HVAC controller. The controller uses SCP messages to command the HVAC system into heat, cool or off modes to maintain the commanded temperature setpoint, and to similarly control the humidifier. •	Clothes washers and dryers An SCP-enabled washer tells the SCP dryer what water temperature, cycle time and cycle type (normal, permanent press or gentle) were used for the last load of laundry. The dryer uses this information to configure its drying cycle parameters. The dryer can flash the room lights or display a message on your TV to let you know the cycle is finished. And the homeowner could “rent” rather than purchase these appliances. Each time he does a load of laundry, SCP messages sent back to the washer/dryer supplier charge his account for the time used. The owner doesn’t have to worry about maintenance costs, and can swap his old units for the latest versions every few years. •	Appliance servicing While the homeowner is at work, her refrigerator suddenly stops cooling. The fridge sends a message to the owner at her desk, and to the company from which the homeowner bought his refrigerator service policy. Even before the owner can arrange a service call, the fridge has reported diagnostic information and suggested which parts the repair person should bring, so he can fix the problem on the first trip. •	Time services (master clock) Many devices in an automated home will support day, date and time display—alarm clocks, appliances, security panels, thermostats, dishwashers and many more. It’s annoying to have to reset each clock after a power failure or when daylight saving time changes. With SCP, a clock service built into timekeeping devices can refer to a master time source—such as a UPnP Internet atomic clock service. The time data is passed from the Internet time service to each of the SCP clocks through an SCP/UPnP Bridge, automatically updating each clock. How Will SCP Be Licensed? Microsoft will license SCP, royalty free, to selected physical layer technology vendors. The candidate licensees’ technology must not interfere with PHYs that have already been licensed to use SCP on a particular physical medium. For example, suppose one vendor has received an SCP license for use with the vendor’s low-speed powerline carrier (PLC) technology. Any other low-speed PLC vendors wanting an SCP license would have to show that their PHY doesn’t interfere with proper operation of the previously-licensed PHY. This approach supports the goal of unifying small device communications at both the protocol and PHY levels. The first target for SCP licensing is low-speed powerline carrier (PLC). Others, such as IR and low-speed RF, will be added over time. How Will SCP Be Provided to Device Manufacturers? Licensed PHY vendors will supply chips which integrate SCP with the vendor’s PHY. The licensed vendors will also have rights to sublicense SCP to device manufacturers, but only when combined with the vendor’s PHY technology. To avoid incompatibilities between different SCP implementations, to make device implementation as simple as possible, and to make the SCP processor interface consistent regardless of the underlying PHY implementation, Microsoft doesn’t plan to offer an option for third parties to write their own SCP implementations. For academia and others wanting to experiment with SCP but who won’t be producing commercial SCP products, a non-commercial source code license will be available. The Microsoft SCP license agreement determines the exact licensing terms. That agreement takes precedence over any statements made in this white paper. What Is the Relationship Between SCP and the UPnP Forum? The SCP protocol design and implementation are exclusively owned by Microsoft. SCP is not being developed under the umbrella of the UPnP Forum. SCP devices do, however, use the UPnP device and service models. Therefore, SCP device manufacturers must be members of the UPnP Forum in order to use the UPnP XML device and service descriptions in SCP devices. Joining the Forum is simple, and there is no membership fee. For information, go to http://www.upnp.org. As described earlier, a Microsoft-provided SCP-to-UPnP Bridge will automatically create UPnP device proxies whenever an SCP device appears on the SCP network. So, rather than having to dual-target their control applications for both SCP and UPnP device control interfaces, developers only have to write to the UPnP control model. How Do I Create SCP Devices? The device developer will target her native device control software at a standard SCP processor interface. She won’t need to write her own SCP implementation. SCP processors will use an SPI physical interface, and a Microsoft-provided C source code library (including a hardware abstraction layer) handles moving data between the device’s application processor and the SCP processor. Microsoft will also provide C source code for the SCP processor’s software interface.  Creating an SCP device is a relatively simple process. The device developer will: •	Port the chip interface source code to the device’s native hardware environment. •	Add the device’s native control logic. •	Create the SCP device description table by running the UPnP device and service XML descriptions through a Microsoft-provided compiler. •	Load the SCP device description table into the SCP processor. •	Compile, test and debug the device implementation.  Microsoft is building a device developer’s kit, which will contain:  •	C source code for the SCP processor interface libraries, which are compiled into the device’s control code •	A compiler to convert the XML in the UPnP device and service descriptions to SCP device description tables •	An emulated development environment, which allows the developer to prototype an SCP device on a PC before targeting the device’s application processor native environment •	Development and test support tools: o	Property Route creation tool o	Monitor device, for viewing SCP messages on the wire o	ASA implementation o	SCP-to-UPnP Bridge implementation o	Sample SCP devices o	A complete SCP documentation set For More Information For more information on Simple Control Protocol, see http://www.microsoft.com/windows/scp. For more information on Universal Plug and Play, see http://www.upnp.org/. 
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+	 
+      今天参加了MS在上海的开放日，只是着重介绍MS的解决方案，与我关注的东东不太吻合，感觉一般。
+     
+    
+</post>
+
+<date>17,May,2004</date>
+<post>
+
+	 
+      upnp 协议概述   用于 UPnP 的网络媒体  UPnP 使用标准的 IP 协议集，从而保持了网络媒体的不可知性。UPnP 网络设备可以使用任何通讯媒体连接，包括无线频率（RF，无线）、电话线、IrDA、以太网以及 IEEE 1394。换言之，任何可以和网络设备一同使用的媒体都可以启用 UPnP。唯一要关心的可能是使用的媒体是否支持目标用途所要求的带宽。 UPnP 使用开放的标准协议，如 TCP/IP、HTTP 和 XML。但是，由于多种原因（包括成本、技术要求或兼容支持），其它的技术也可能与网络设备一起被使用。这些包括网络技术，如 HAVi、CeBus、LonWorks、EIB 或 X10。通过 UPnP 网桥或代理，这些技术也可以加入到 UPnP 网络中。包含桥接设备的 UPnP 网络看起来可能如下图所示。     图 3：桥接的 UPnP 网络   UPnP 使用的协议  UPnP 利用了多种现有的标准协议。使用这些标准化的协议有助于确保供应商实现之间的互操作性。对于用以实现 UPnP 的协议，您经常可以发现它们用在 Internet 和局域网的各个位置。这种普遍性确保了有大量的人员知道该如何实现和部署基于这些协议的解决方案。由于相同的协议已在使用之中，因此几乎不需要执行任何操作就可以让 UPnP 设备在现有的网络化环境中工作。在本节的其余部分概述了一些用于实现 UPnP 的协议。     图 4：UPnP 协议组合   UPnP 特有的协议  UPnP 供应商、UPnP 协会工作委员会以及 UPnP 设备架构文档定义了可用于实现 UPnP 的最高级协议。基于设备架构，该工作委员会定义了特定于设备类型的规范，这些类型比如 VCR、HVAC 系统、洗碗机以及其它设备。此后，UPnP 设备供应商可以添加特定于各自设备的数据，如型号名称、URL 等等。   TCP/IP  TCP/IP 网络协议集充当了建立其余 UPnP 协议的基础。通过使用该标准（普遍使用的 TCP/IP 集），UPnP 可以利用其跨越不同物理媒体的能力并确保多个供应商之间的互操作性。   UPnP 设备可以使用 TCP/IP 集合中的多种协议（包括 TCP、UDP、IGMP、ARP、IP）和 TCP/IP 服务（比如 DHCP 和 DNS）。当我们在本节介绍了其它协议和在下一节介绍了 UPnP 的工作方式之后，如何使用这些协议和服务来提供 UPnP 工作所需的内容也就会变得一目了然。   由于 TCP/IP 是使用最为普遍的网络协议之一，因此定位或创建一个对覆盖面和/或性能进行优化的 UPnP 设备实现将相当容易。   本文档假定您对 TCP/IP 协议集和服务有基本的了解。有关 TCP/IP 的详细信息，可以在本文档结束位置所列出的参考中找到。   HTTP、HTTPU、HTTPMU  TCP/IP 提供了用来实现 UPnP 设备间网络连接的基本协议集。对 Internet 的成功作出了巨大贡献的 HTTP 也是 UPnP 的核心部分。UPnP 的所有组件都建立在 HTTP 或其变体之上。   HTTPU（和 HTTPMU）是 HTTP 的变体，定义它们是为了通过 UDP/IP（而不是 TCP/IP）发送消息。下面介绍的 SSDP 将使用这些消息。这些协议的基本消息格式沿袭了 HTTP，并且是多播通讯和当消息传输不要求与可靠性有关的开销时所需要的。   一些关于较为高级的协议和 UPnP 工作的说明需要您基本了解 HTTP 协议。有关 HTTP 的详细信息，可以通过在本文档结束位置所列出的参考中找到。   SSDP  顾名思义，简单服务发现协议 (SSDP) 定义了网络服务是如何在网络上被发现的。SSDP 基于 HTTPU 和 HTTPMU 创建，定义了控制点定位网络上感兴趣的资源和设备通知它们在网络上的可用性的方法。通过定义同时使用搜索请求和展示通知，SSDP 避免了在仅使用这两种机制中的任一种时所必需的开销。这样，网络中的每个控制点都可以获得关于网络状态的完整信息，同时保持了低水平的网络流量。   访问点和设备都可以使用 SSDP。UPnP 访问点启动后可以发送 SSDP 搜索请求（通过 HTTPMU）来发现网络上可用的设备和服务。访问点可以细化该搜索，从而仅查找特定类型的设备（如 VCR）、特定服务（如具有时钟服务的设备）乃至特定设备。   UPnP 设备会侦听多播端口。一旦收到搜索请求，该设备就检查该搜索条件以确定它们是否匹配。如果匹配，一个单播 SSDP（通过 HTTPU）响应将被发送到该控制点。   同样，当将设备插入网络时，它会发出多播 SSDP 展示通知消息，通知它所支持的服务。   在展示通知和单播设备响应消息中都包含该设备描述文档（含有该设备支持的属性和服务组合的信息）所在位置的指示符。   除了提供发现功能外，SSDP 还提供了设备及其关联的服务适当地从网络离开的方式（再见通知），并包含清除陈旧信息的缓存超时设置来进行自我维护。   GENA  定义普通事件通知架构 (GENA) 是为了提供收、发使用了 HTTP over TCP/IP 和多播 UDP 的通知的能力。GENA 还定义了通知预定者和发布者的概念以启用事件。   在 UPnP 中，GENA 格式可用于创建将要使用简单服务发现协议 (SSDP) 发送的展示通知，并为 UPnP 事件提供表示服务状态已更改的能力。希望接收事件通知的控制点会向事件源进行预定，方法是发送一个含有它感兴趣的服务、将事件发往的位置以及事件通知的预定时间的请求。   要连续接收通知，所作的预定必须定期予以更新。也可以使用 GENA 取消预定。   SOAP  简单对象访问协议 (SOAP) 定义了可扩展标识语言 (XML) 和 HTTP 的使用来执行远程过程调用。它正在变成 Internet 上基于 RPC 的通讯标准。通过使用 Internet 的现有基础设施，它可以有效地配合防火墙和代理工作。SOAP 还使用安全套接字层(SSL) 提供安全性，并使用了 HTTP 的连接管理功能，从而使得 Internet 上的分布式通讯就像访问网页一样简单。   与远程过程调用非常相似，UPnP 使用 SOAP 向设备发送控制消息并将结果或错误返回到控制点。   每个 UPnP 控制请求都是一个 SOAP 消息，都包含调用操作和一组参数。其响应也是 soap 消息，其中包括状态、返回值以及任何返回参数。   XML  为使用 W3C 定义，可扩展标识语言 (XML) 是 Web 上的结构化数据的通用格式。另外，借助 XML，几乎可以将任何类型的结构化数据放到文本文件中。   XML 使用标记和属性，这使它看起来与 HTML 非常相似。实际上，它们在以下方面存在显著的差别：XML 标记和属性的含义不是全局定义的，而是在使用它们的上下文中进行解释。XML 的这些功能使得它成为开发各种文档类型架构的最佳选择。W3C 定义了将 XML 作为架构语言的使用。   XML 是 UPnP 的核心部分，被用在设备和服务描述、控制消息和事件处理中。 
+     
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+	 
+      UPnP协议编程实践（二）            内容：    设备发现过程简介  HTTP协议基础  SSDP协议消息  参考资料  关于作者      相关内容：    第一部分      在 Linux 专区还有：    教程  工具与产品  代码与组件  文章          于辰涛 (scuyct@hotmail.net)  2002 年 7 月  本文是《UPnP编程实践》系列的第二篇，主要介绍UPnP的设备发现过程的协议实现。关于UPnP协议的框架性介绍，您可以参考《UPnP编程实践》系列的第一篇。UPnP协议的设备发现过程使用简单服务发现协议，此协议实现了在网络中发现网络服务，控制点定位网络上相关资源和设备在网络上声明其可用性的方法。 本文首先介绍协议的工作过程，包括协议的一般模型，以及与HTTP协议之间的关系，然后介绍HTTP协议的基本知识，主要介绍在简单服务发现协议中使用的一些协议请求和响应的消息格式。最后详细介绍协议的设备通知和设备（服务）查询机制，包括设备通知消息和设备查询协议的通讯过程，以及每个HTTP协议扩展字段的含义。 1 设备发现过程简介  UPnP协议的设备发现过程使用简单服务发现协议（Simple Service Discovery Protocol），此协议为网络客户提供一种无需任何配置、管理和维护网络上设备服务的机制。此协议采用基于通知和发现路由的多播发现方式实现。协议客户端在保留的多播地址239.255.255.250发现服务，同时每个设备服务也在此地址上监听服务发现请求。如果服务监听到的发现请求与此服务相匹配，此服务会使用单播方式响应。每个服务也可以向多播端口发送通知声明服务存在。  常见的协议请求消息有两种类型，第一种是服务通知，设备和服务使用此类通知消息声明自己存在；第二种是查询请求，协议客户端用此请求查询某种类型的设备和服务。请求消息中包含设备的特定信息或者某项服务的信息，例如设备类型、标识符和指向设备描述文档的URL地址。下图显示这两类通知消息和HTTP协议的关系：     图1-1  设备发现过程允许控制点使用一个设备类型或标识，或者是服务类型进行查询。这要求标准设备或服务类型，或者设备特定实例的发现和广告消息基于一个独一无二的标识，UPnP设备和服务类型的定义是UPnP论坛工作委员会的责任。从设备获得响应的内容基本上与多址传送的设备广播相同，只是采用单址传送方式。  2 HTTP协议基础  HTTP（Hyper Text Transfer Protocol）是超文本传输协议的缩写，它用于传送WWW方式的数据，关于HTTP协议的详细内容请参考RFC 2616。HTTP协议采用了请求/响应模型。客户端向服务器发送一个请求，请求头包含请求的方法、URI、协议版本、以及包含请求修饰符、客户信息和内容的类似于MIME的消息结构。服务器以一个状态行作为响应，相应的内容包括消息协议的版本，成功或者错误编码加上包含服务器信息、实体元信息以及可能的实体内容。  通常HTTP消息包括客户机向服务器的请求消息和服务器向客户机的响应消息。这两种类型的消息由一个起始行，一个或者多个头域，一个只是头域结束的空行和可选的消息体组成。HTTP的头域包括通用头，请求头，响应头和实体头四个部分。每个头域由一个域名，冒号（:）和域值三部分组成。域名是大小写无关的，域值前可以添加任何数量的空格符，头域可以被扩展为多行，在每行开始处，使用至少一个空格或制表符。  2.1 通用头域  通用头域包含请求和响应消息都支持的头域，通用头域包含Cache-Control、Connection、Date、Pragma、Transfer-Encoding、Upgrade、Via。对通用头域的扩展要求通讯双方都支持此扩展，如果存在不支持的通用头域，一般将会作为实体头域处理。下面简单介绍几个在UPnP消息中使用的通用头域。  2.1.1 Cache-Control头域  Cache-Control指定请求和响应遵循的缓存机制。在请求消息或响应消息中设置Cache-Control并不会修改另一个消息处理过程中的缓存处理过程。请求时的缓存指令包括no-cache、no-store、max-age、max-stale、min-fresh、only-if-cached，响应消息中的指令包括public、private、no-cache、no-store、no-transform、must-revalidate、proxy-revalidate、max-age。各个消息中的指令含义如下：  Public 指示响应可被任何缓存区缓存。  Private 指示对于单个用户的整个或部分响应消息，不能被共享缓存处理。这允许服务器仅仅描述当用户的部分响应消息，此响应消息对于其他用户的请求无效。  no-cache 指示请求或响应消息不能缓存  no-store 用于防止重要的信息被无意的发布。在请求消息中发送将使得请求和响应消息都不使用缓存。  max-age 指示客户机可以接收生存期不大于指定时间（以秒为单位）的响应。  min-fresh 指示客户机可以接收响应时间小于当前时间加上指定时间的响应。  max-stale 指示客户机可以接收超出超时期间的响应消息。如果指定max-stale消息的值，那么客户机可以接收超出超时期指定值之内的响应消息。   2.1.2 Date头域  Date头域表示消息发送的时间，时间的描述格式由rfc822定义。例如， Date: Mon, 31 Dec 2001 04:25:57 GMT。Date描述的时间表示世界标准时，换算成本地时间，需要知道用户所在的时区。  2.1.3 Pragma头域  Pragma头域用来包含实现特定的指令，最常用的是Pragma: no-cache。在HTTP/1.1协议中，它的含义和Cache-Control: no-cache相同。  2.2 请求消息  请求消息的第一行为下面的格式： Method SP Request-URI SP HTTP-Version CRLF Method表示对于Request-URI完成的方法，这个字段是大小写敏感的，包括OPTIONS、GET、HEAD、POST、PUT、DELETE、TRACE。方法GET和HEAD应该被所有的通用WEB服务器支持，其他所有方法的实现是可选的。GET方法取回由Request-URI标识的信息。HEAD方法也是取回由Request-URI标识的信息，只是可以在响应时，不返回消息体。POST方法可以请求服务器接收包含在请求中的实体信息，可以用于提交表单，向新闻组、BBS、邮件群组和数据库发送消息。  SP表示空格。Request-URI遵循URI格式，在此字段为星号（*）时，说明请求并不用于某个特定的资源地址，而是用于服务器本身。HTTP-Version表示支持的HTTP版本，例如为HTTP/1.1。CRLF表示换行回车符。请求头域允许客户端向服务器传递关于请求或者关于客户机的附加信息。请求头域可能包含下列字段Accept、Accept-Charset、Accept-Encoding、Accept-Language、Authorization、From、Host、If-Modified-Since、If-Match、If-None-Match、If-Range、If-Range、If-Unmodified-Since、Max-Forwards、Proxy-Authorization、Range、Referer、User-Agent。对请求头域的扩展要求通讯双方都支持，如果存在不支持的请求头域，一般将会作为实体头域处理。  典型的请求消息：   GET http://download.microtool.de:80/somedata.exe  Host: download.microtool.de Accept: */* Pragma: no-cache Cache-Control: no-cache Referer: http://download.microtool.de/ User-Agent: Mozilla/4.04 [en] (Win95; I ;Nav) Range: bytes=554554-  上例第一行表示HTTP客户端（可能是浏览器、下载程序）通过GET方法获得指定URL下的文件。棕色的部分表示请求头域的信息，绿色的部分表示通用头部分。  2.2.1 Host头域  Host头域指定请求资源的Intenet主机和端口号，必须表示请求url的原始服务器或网关的位置。HTTP/1.1请求必须包含主机头域，否则系统会以400状态码返回。  2.2.2 Referer头域  Referer头域允许客户端指定请求uri的源资源地址，这可以允许服务器生成回退链表，可用来登陆、优化cache等。他也允许废除的或错误的连接由于维护的目的被追踪。如果请求的uri没有自己的uri地址，Referer不能被发送。如果指定的是部分uri地址，则此地址应该是一个相对地址。  2.2.3 Range头域  Range头域可以请求实体的一个或者多个子范围。例如，  表示头500个字节：         bytes = 0 - 499 表示第二个500字节：       bytes = 500 - 999 表示最后500个字节：       bytes = -500 表示500字节以后的范围：   bytes = 500- 第一个和最后一个字节：     bytes = 0-0 , -1 同时指定几个范围：         bytes = 500-600, 601-999  但是服务器可以忽略此请求头，如果无条件GET包含Range请求头，响应会以状态码206（Partial Content）返回而不是以200（OK）。  2.2.4 User-Agent头域  User-Agent头域的内容包含发出请求的用户信息。  2.3 响应消息  响应消息的第一行为下面的格式：  HTTP-Version SP Status-Code SP Reason-Phrase CRLF HTTP-Version表示支持的HTTP版本，例如为HTTP/1.1。Status-Code是一个三个数字的结果代码。Reason-Phrase给Status-Code提供一个简单的文本描述。Status-Code主要用于机器自动识别，Reason-Phrase主要用于帮助用户理解。Status-Code的第一个数字定义响应的类别，后两个数字没有分类的作用。第一个数字可能取5个不同的值：  1xx : 信息响应类，表示接收到请求并且继续处理 2xx : 处理成功响应类，表示动作被成功接收、理解和接受 3xx : 重定向响应类，为了完成指定的动作，必须接受进一步处理 4xx : 客户端错误，客户请求包含语法错误或者是不能正确执行 5xx : 服务端错误，服务器不能正确执行一个正确的请求  响应头域允许服务器传递不能放在状态行的附加信息，这些域主要描述服务器的信息和Request-URI进一步的信息。响应头域包含Age、Location、Proxy-Authenticate、Public、Retry-After、Server、Vary、Warning、WWW-Authenticate。对响应头域的扩展要求通讯双方都支持，如果存在不支持的响应头域，一般将会作为实体头域处理。  典型的响应消息：   HTTP/1.0 200 OK Date: Mon, 31 Dec 2001 04:25:57 GMT Server: Apache/1.3.14 (Unix) Content-type: text/html Last-modified: Tue, 17 Apr 2001 06:46:28 GMT Etag: "a030f020ac7c01:1e9f" Content-length: 39725426 Content-range: bytes 554554-40279979/40279980 上例第一行表示HTTP服务端响应一个GET方法。棕色的部分表示响应头域的信息，绿色的部分表示通用头部分，红色的部分表示实体头域的信息。  2.3.1 Location响应头  Location响应头用于重定向接收者到一个新URI地址。  2.3.2 Server响应头  Server响应头包含处理请求的原始服务器的软件信息。此域能包含多个产品标识和注释，产品标识一般按照重要性排序。  2.4 实体  请求消息和响应消息都可以包含实体信息，实体信息一般由实体头域和实体组成。实体头域包含关于实体的原信息，实体头包括Allow、Content-Base、Content-Encoding、Content-Language、Content-Length、Content-Location、Content-MD5、Content-Range、Content-Type、Etag、Expires、Last-Modified、extension-header。extension-header允许客户端定义新的实体头，但是这些域可能无法未接受方识别。实体可以是一个经过编码的字节流，它的编码方式由Content-Encoding或Content-Type定义，它的长度由Content-Length或Content-Range定义。  2.4.1 Content-Type实体头  Content-Type实体头用于向接收方指示实体的介质类型，指定HEAD方法送到接收方的实体介质类型，或GET方法发送的请求介质类型。  2.4.2 Content-Range实体头  Content-Range实体头用于指定整个实体中的一部分的插入位置，他也指示了整个实体的长度。在服务器向客户返回一个部分响应，它必须描述响应覆盖的范围和整个实体长度。一般格式：  Content-Range: bytes-unit SP first-byte-pos -last-byte-pos/entity-legth 例如，传送头500个字节次字段的形式：Content-Range: bytes 0-499/1234 如果一个http消息包含此节（例如，对范围请求的响应或对一系列范围的重叠请求），Content-Range表示传送的范围，Content-Length表示实际传送的字节数。  2.4.3 Last-modified实体头  Last-modified实体头指定服务器上保存内容的最后修订时间。  3 SSDP协议消息  3.1 设备通知消息  在设备加入网络，UPnP发现协议允许设备向控制点广告它的服务。它使用向一个标准地址和端口多址传送发现消息来实现。控制点在此端口上侦听是否有新服务加入系统。为了通知所有设备，一个设备为每个其上的嵌入设备和服务发送一系列相应的发现消息。每个消息也包含它表征设备或服务的特定信息。  3.1.1 ssdp:alive消息  在设备加入系统时，它采用多播传送方式发送发现消息，包括告知设备包含的根设备信息，所有嵌入设备以及它包含的服务。每个发现消息包含四个主要对象：  在NT头中包含的潜在搜索目标。  在USN头中包含的复合发现标识  在LOCATION头中关于设备信息的URL地址  在CACHE-CONTROL头中表示的广告消息的合法存在时间。  对于根设备，存在三种发现消息：  NT USN  根设备的UUID 根设备的UUID  设备类型：设备版本 根设备的UUID，设备类型：设备版本  upnp:rootdevice 根设备的UUID，设备类型和upnp:rootdevice   对于根设备，存在两种发现消息：  NT USN  嵌入设备的UUID 嵌入设备的UUID  设备类型：设备版本 嵌入设备的UUID，设备类型和设备版本   对于每个服务：  NT USN  服务类型：服务版本 相关设备的UUID，服务类型和服务版本   如果一个根设备有n个嵌入设备，m个嵌入服务，而且包含k个不同的服务类型，这将会发出3 + 2n + k次请求。这些广告消息像控制点描述了设备的所有信息。这些消息必须作为一系列一起发出，发送的顺序无关紧要，但是不能对单个消息进行刷新或取消的操作。选择一个适当的持续期是在最小化网络通讯和最大化设备状态及时更新之间求得一个平衡，相对较短的持续时间可以保证控制点在牺牲网络流量的前提下获得设备的当前状态；持续期越长可以大大减少设备刷新造成的网络流量。一般而言，设备制造商应该选择一个适当的持续时间值。  由于UDP协议是不可信的，设备应该发送多次设备发现消息。而且为了降低控制点无法收到设备或服务广告消息的可能性，设备应该定期发送它的广告消息。在设备加入网络时，它必须用NOTIFY方法发送一个多播传送请求。NOTIFY方法发送的请求没有回应消息，典型的设备通知消息格式如下：  NOTIFY * HTTP/1.1 HOST: 239.255.255.250:1900CACHE-CONTROL: max-age = seconds until advertisement expires LOCATION: URL for UPnP description for root device NT: search target NTS: ssdp:alive USN: advertisement UUID  各HTTP协议头的含义简介：  HOST 设置为协议保留多播地址和端口，必须是239.255.255.250:1900。  CACHE-CONTROL max-age指定通知消息存活时间，如果超过此时间间隔，控制点可以认为设备不存在  LOCATION 包含根设备描述得URL地址  NT 在此消息中，NT头必须为服务的服务类型。  NTS 表示通知消息的子类型，必须为ssdp:alive  USN 表示不同服务的统一服务名，它提供了一种标识出相同类型服务的能力。   一个发现响应可以包含0个、1个或者多个服务类型实例。为了做出分辨，每个服务发现响应包括一个USN：根设备的标识。在同样的设备里，一个服务类型的多个实例必须用包含USN:ID的服务标识符标识出来。例如，一个灯和电源共用一个开关设备，对于开关服务的查询可能无法分辨出这是用于灯的。UPNP论坛工作组通过定义适当的设备层次以及设备和服务的类型标识分辨出服务的应用程序场景。这么做的缺点是需要依赖设备的描述URL。  3.1.2 ssdp:byebye消息  在设备和它的服务将要从网络中卸载时，设备应该对于每个未超期的ssdp:alive消息多播方式传送ssdp:byebye消息。但如果设备突然从网络卸载，它可能来不及发出这个通知消息。因此，发现消息必须在CACHE-CONTROL包含超时值，如果不重新发出广告消息，发现消息最后超时并从控制点的缓存中除去。典型的设备卸载消息格式如下：  NOTIFY * HTTP/1.1 HOST: 239.255.255.250:1900NT: search target NTS: ssdp:byebye USN: advertisement UUID各HTTP协议头的含义简介： HOST	设置为协议保留多播地址和端口，必须是239.255.255.250:1900 NT	在此消息中，NT头必须为服务的服务类型。 NTS	表示通知消息的子类型，必须为ssdp:alive USN	表示不同服务的统一服务名，它提供了一种标识出相同类型服务的能力。  3.2 设备查询消息  当一个控制点加入到网络中时，设备发现过程允许控制点寻找网络上感兴趣的设备。发现消息包括设备的一些特定信息或者某项服务的信息，例如它的类型、标识符、和指向XML设备描述文档的指针。从设备获得响应从本质上说，内容与多址传送的设备广播相同，只是采用单址传送方式。设备查询通过HTTP协议扩展M-SEARCH方法实现的。典型的设备查询请求消息格式：  M-SEARCH * HTTP/1.1 HOST: 239.255.255.250:1900 MAN: "ssdp:discover" MX: seconds to delay response ST: search target  各HTTP协议头的含义简介：  HOST 设置为协议保留多播地址和端口，必须是239.255.255.250:1900。  MAN 设置协议查询的类型，必须是"ssdp:discover"。  MX 设置设备响应最长等待时间，设备响应在0和这个值之间随机选择响应延迟的值。这样可以为控制点响应平衡网络负载。  ST 设置服务查询的目标，它必须是下面的类型： ssdp:all 搜索所有设备和服务 upnp:rootdevice 仅搜索网络中的根设备 uuid:device-UUID 查询UUID标识的设备 urn:schemas-upnp-org:device:device-Type:version 查询device-Type字段指定的设备类型，设备类型和版本由UPNP组织定义。 urn:schemas-upnp-org:service:service-Type:version 查询service-Type字段指定的服务类型，服务类型和版本由UPNP组织定义。   在设备接收到查询请求并且查询类型（ST字段值）与此设备匹配时，设备必须向多播地址239.255.255.250:1900回应响应消息。典型：  HTTP/1.1 200 OK CACHE-CONTROL: max-age = seconds until advertisement expires DATE: when reponse was generated EXT: LOCATION: URL for UPnP description for root device SERVER: OS/Version UPNP/1.0 product/version ST: search target USN: advertisement UUID  各HTTP协议头的含义简介：  CACHE-CONTROL max-age指定通知消息存活时间，如果超过此时间间隔，控制点可以认为设备不存在  DATE 指定响应生成的时间  EXT 向控制点确认MAN头域已经被设备理解  LOCATION 包含根设备描述得URL地址  SERVER 饱含操作系统名，版本，产品名和产品版本信息  ST 内容和意义与查询请求的相应字段相同  USN 表示不同服务的统一服务名，它提供了一种标识出相同类型服务的能力。   在所有的发现通知中，表示UPnP根设备描述的LOCATION和统一服务名(USN)必须提供。此外，在响应消息中查询目标头(ST)必须与LOCATION和统一服务名(USN)一起提供。  专有设备或服务可以不遵循标准的UPNP模版。但如果设备或服务提供UPNP发现、描述、控制和事件过程的所有对象，它的行为就像一个标准的UPNP设备或服务。为了避免命名冲突，使用专有设备命名时除了UPNP域之外必须包含一个前缀"urn:schemas-upnp-org"。在与标准模版相同时，应该使用整数版本号。但如果与标准模版不同，不可以使用设备复用和徽标。  简单设备发现协议不提供高级的查询功能，也就是说，不能完成某个具有某种服务的设备这样的复合查询。在完成设备或者服务发现之后，控制点可以通过设备或服务描述的URL地址完成更为精确的信息查询。  4 参考文献  RFC 2616  关于超文本传输协议（HTTP 1.1）原文IETF的RFC文档http://www.ietf.org/rfc/rfc2616.txt?number=2616  SSDP协议 简单服务发现协议，协议原文参考http://www.upnp.org/download/draft_cai_ssdp_v1_03.txt  GENA 通用事件通知结构，协议原文参考http://www.upnp.org/download/draft-cohen-gena-client-01.txt  HTTPU和HTTPMU 在UDP上实现HTTP协议传送以及HTTP协议多址传送。协议规范参考http://www.upnp.org/download/draft-goland-http-udp-04.txt    
+     
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+	 
+      开始用C++做ATL控件了，又要一段的学习过程
+     
+    
+</post>
+
+<date>16,May,2004</date>
+<post>
+
+	 
+       urlLink ��Ŀ������j��[www.mypm.net] 
+     
+    
+</post>
+
+<date>14,May,2004</date>
+<post>
+
+	 
+      参考创建块    正如说我所提到过的，模式和实践小组发布了参考创建模块来应对常见的技术场景。截至本文写作完成时，他们已经为开发人员发布了这些创建块中的八个，叫做.NET的应用程序块（Application Blocks for .NET）。在通常情况下，每个应用程序块包括了子系统的C#和VB源代码，以及领你入门的QuickStarts实例应用程序。  在下面的表A里，我列举出了每个块，以帮助你了解如何以及为什么它能够被使用。   表A  名称  出版日期  它是什么？  为什么要使用它？   数据访问应用程序模块（Data Access Application Block）  2002年4月发布1.0版，2002年6月发布2.0版  它能够实现数据访问帮助组件——SqlHelper，后者会有助于通过公开一组静态方法对7.0以及更高版本的SQL服务器执行陈述式，并能够减少你必须编写的数据访问代码的数量。2.0版支持1.1版的.NET框架。  如果你正在将SQL服务器作为数据库，并希望减少你所编写的数据访问代码的数量，那么你就要使用它。你可以在自己数据访问类的内部使用它。使用C#编写的用于OleDb和Oracle的SqlHelper包含在Nile 3.0实例应用程序里。   异常管理应用程序块（Exception Management Application Block）  2002年4月  它能够通过ExceptionManager类为异常信息的发布提供一个简单和灵活的机制。它还支持过滤和创建你自己的异常发布器，从而将数据发布给源，而不是使用文本和XML的文件和事件日志。它还提供从其衍生出的一个BaseApplicationException类，用以收集其他的环境信息。  你应该将它用作自己异常处理框架的基础。它适用于使用异常链接（exception chaining）并将异常传递给调用栈（call stack）的应用程序。自定义的发布器能够被用来将异常信息记录到共享数据库里。   采集应用程序块（Aggregation Application Block）  2003年6月  它是一个将服务代理（Service Agent）分派出去从各种用于应用程序的源收集信息的组件。然后应用程序就请求采集组件（aggregate component），并返回一个所收集数据的XML文档。它使用异常管理块，并能够同异步块（Asynchronous Block）和缓冲块（Caching Block）一起使用。  当你的应用程序需要将数据从各种源收集到一起，而且这些源会随着时间的推移而改变的时候，你就要使用它。采集块用于底层数据源的抽象。   异步调用应用程序块（Asynchronous Invocation Application Block）  2003年6月  它是一个将请求分派给背景线程，然后在完成的时候通知应用程序的组件。它使用异常管理和数据块（Exception Management and Data block）。这个块的目的就是为了同采集块（Aggregate Block）一起使用，并能够同缓冲块（Caching block）一起工作。  当你的应用程序所通信的数据源需要一个冗长调用(lengthy call)的时候，你需要使用它。使用异步块（Async Block）会让应用程序响应更快，就好像通过允许Web页面逐渐建立而取得的效果一样。   缓冲应用程序块（Caching Application Block）  2003年6月  它允许应用程序请求CacheManager对象，后者会返回数据或者调用一个服务代理来取回它。它允许项目从缓冲里超期失效，并允许被缓冲数据以多种格式保存，包括SQL服务器的内存映射文件，或者Singleton对象。它同时使用异常管理和数据块。它还能够同异步块和采集块一起使用。  当你需要缓冲Windows窗体里或者其他基于非Web应用程序里的数据时，你就要使用它。ASP.NET提供了它自己的缓冲区，因此Web应用程序一般都不需要它。它对于提高性能很有用处。   配置管理应用程序块（Configuration Management Application Block）  2003年6月  它是一个将用在应用程序里的配置信息的位置进行抽象，并加入加密、缓冲和可扩展性等特性的组件。它还加入了读写配置数据的能力。  当你的应用程序要求其配置数据在不同的时间被保存到不同的位置时，你需要使用它。而且利用它可以加密敏感信息。   更新应用程序块（Updater Application Block）  2003年6月  它是一个能够被用来将新版本应用程序下载到客户机器上（例如使用BITS）的组件。它包括一个声明，用来指定所有相关的文件，并确保整个应用程序都被下载下来了。它对自定义的下载提供了可选的文件验证和支持，还提供了验证组件。它使用异常管理块。  当你的应用程序需要自动升级新组件，或者当你正在编写某项服务以向客户机器提供到各种应用程序的升级时，你需要使用它。   用户界面处理应用程序块（User Interface Process Application Block）  2003年6月  它是一个能够让你将用户处理的逻辑和状态同搜集数据以及导航所需的用户界面分离开的基本类（ControllerBase）和用户界面处理管理器组件。它包括一组存储管理器（persistence manager），后者允许你将处理的状态保存在SQL服务器、ASP.NET会话或者自定义存储里。  当你需要在不同类型的应用程序（Windows窗体、Web表单）里实现同一种处理，或者想要允许用户在以后能够恢复到会话里的时候，你需要使用它。它很适合于基于安装向导的应用程序。    开始探索  在这第一批八个应用程序块里，微软公布了很多可再度使用的代码，你应该现在就开始研究这些代码，并在可能的地方使用它们。请一定要将模式和实践网站加入到你的收藏夹里，这样你就能够在新的应用程序块出现的时候最快地了解它们。。  
+     
+    
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+	 
+      就像其他所有的开发人员和设计师一样，你希望你的解决方案能够是高效的、强健的、优雅的，以及效能成本合算的。但是正如你很清楚的，这些目标的实现并不总是很容易的。然而让人郁闷的是，你正在使用一些相当新的技术，即Windows .NET框架和Visual Studio .NET，而这使得你的任务会变得更加困难。但是，这并不意味着世界末日。去年微软已经开始了一些努力，以期让你的生活更容易一些，即发布模式和实践信息，其中有些会对你有很大帮助。  模式和实践    自从20世纪90年代末，微软自身已经不断意识到它的用户需要有人来指导，以帮助其使用来自雷蒙德（微软总部所在地）的迅速增多的技术。在最开始的一些指南中，有一个《说明性体系结构指南（Prescriptive Architecture Guides，PAG）》系列，它详细叙述了如何使用微软的技术来创建Internet数据中心（Internet data center，IDC）和企业数据中心（enterprise data center，EDC）。但是，这些内容是针对组织内部的基础架构的，而不是针对在这些架构上开发解决方案的。  从那个时候起，微软已经扩展了这一观念并组建了一个模式和实践（Patterns & Practices）小组，它服务于应用程序设计师和开发人员、IT专业人员和信息产业工作者。这个小组现在在它自己的Web网站上以及.NET架构中心里公布了其信息。此外，该小组还以书本的形式出版了这一内容，该书可以在其网站上订购。  模式和实践组公布了四种类型的信息：  模式（Patterns）——模式是针对特定架构、设计和实现场景的可再度使用解决方案。该小组将这些内容以论文的形式归档放在了Web网站上（例如说明了32种开发人员模式）。这些模式中的每一种都有一个相关联的社区供讨论之用。  参考结构（Reference Architectures）——参考结构是IT系统这一层次的结构，如上面所述的IDC和EDC。  参考创建块和IT服务（Reference Building Blocks and IT Services）——这包括针对常见技术情况的可再度使用的子系统设计。本文后面所要讨论的应用程序块（Application Block）就是参考创建块的例子。  生命周期实践（Lifecycle Practices）——这包括针对被归为结构和设计之外任务，例如部署和操作管理的指南。  
+     
+    
+</post>
+
+<date>13,May,2004</date>
+<post>
+
+	 
+      You've got Gmail!  Well, due to my immense popularity in the blogging community, Google offered me a GMail account (ok, ok, I begged a friend who knew a friend who worked at Google J).  There are several things that struck me about the GMail interface that were pleasant.  Of note are the keyboard shortcuts that make working with email a “clickless” event (and for those of you that used/use “vi”, you’ll find the commands quite intuitiveJ).  There are other nice touches that make Gmail a pleasure to work with.  Even the “advertising area” is unobtrusive.  Speaking of which, I tried to deliberately bait Gmail by sending a message to my account with words in sentences that would trigger the advertising banners (Iraq, Digital Cameras, “Send flowers”, Viagara).  It didn’t bite on them.  I’m guessing they don’t have that part turned on yet, but I’m also guessing that it might create a unique “Google challenge” – people writing notes to each other to see what kind of ads they can trigger on the side.  And, of course, there’s the privacy issue.  Personally, I’m not worried about it.  Google offers GMail with very clear terms and conditions, and has so far proven to be a trustworthy source.  Not in the sense of a “Better Business Bureau” kind of seal, I mean the kind of trust you have with the US Post Office (or whatever federal postal system is in your country).  The point is the Google has a strong enough ethics policy and up-front set of published privacy standards that I regard them as a trustworthy place to store my email.  When you think about it, we engage in many similar exchanges on a day-to-day basis, where we put varying levels of trust in people, sometimes even with complete strangers (giving your credit card to a waiter, for instance.  Although that can be regarded as a “trust by proxy”, since that person represents the business establishment that you are dining in).  I don’t trust Google because I know how “secure” their computers are, or how many digital certificates they have.  I trust Google because of prior experience with them and having a relatively decent understanding of their leadership’s moral value system. The point is that trust is ultimately a human condition.  Part of me would like to believe that when Microsoft bloggers, like me, put a human face on this multi-billion dollar corporation, we are doing things that help address the “human condition” of trust in Microsoft.  Hopefully, you feel the same way too J 
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+      The Next Generation of Home Computing Middleware    This section is an overview of how the HATS workgroup is conducting the research for the development of a new architecture for the home computing. In particular we are exploring the new paradigm of XML Web Services into the home environment domain.   The XML-based Web services protocols will provide new opportunities to achieve consumer electronics (CE) integration. In fact the evolution of digital device ecosystem will generate a new model of device in which the exchanging information protocol and the mechanisms for resources addressing and describing services, will follow protocols and architecture of Web Services platform.         In this phase we are focusing on Web Services specifications, Universal Plug and Play architecture, testing the integration of Web services into devices with constraint-resource and running the applications on embedded software as Windows CE .NET.     Links:     http://upnp.org/     http://msdn.microsoft.com/webservices/     http://www.ws-i.org     http://msdn.microsoft.com/embedded/ce.net/default.aspx  
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+      Web Services概述   C#        5.13.04 | 8:47 am (GMT 0) Web Service微软提出的基于互联网的开发模型，一经提出即收到业界的广泛推从。本文将总结了一些Web Services相关的一些重要概念，解释了什么是Web Service,详细说明了Web Service的体系结构，如何运用Web Service，如果你是初次接触Web Service，那么你一定会有不少的收获。  　　体系结构描述  　　概念  　　定义一：  　　Web Services是自包含的、模块化的应用程序，它可以在网络（通常为Web）中被描述、发布、查找以及调用。  　　定义二：  　　Web Services是基于网络的、分布式的模块化组件，它执行特定的任务，遵守具体的技术规范，这些规范使得Web Service能与其他兼容的组件进行互操作。  　　定义三：  　　所谓Web服务，它是指由企业发布的完成其特别商务需求的在线应用服务，其他公司或应用软件能够通过Internet来访问并使用这项应用服务。（UDDI规范2.0）  　　体系结构  　　Web 服务的一个主要思想，就是未来的应用将由一组应用了网络的服务组合而成。只要两个等同的服务使用统一标准和中性的方法在网络上宣传自己，那么从理论上说，一个应用程序就可以根据价格或者性能的标准，从两个彼此竞争的服务之中选出一个。除此之外，一些服务允许在机器之间复制，因而可以通过把有用的服务复制到本地储存库，来提高允许运行在特定的计算机（群）上的应用程序的性能。  　　Web Services体系结构是面向对象分析与设计（OOAD）的一种合理发展（logical evolution），同时也是电子商务解决方案中，面向体系结构、设计、实现与部署而采用的组件化的合理发展（logical evolution of components geared towards the architecture, design, implementation, and deployment of e-business solutions）。这两种方式在复杂的大型系统中经受住了考验。和面向对象系统一样，封装、消息传递、动态绑定、服务描述和查询也是Web Services中的基本概念，而且，Web Services另外一个基本概念就是：所有东西都是服务，这些服务发布一个API供网络中的其他服务使用，并且封装了实现细节。  　　下面我们就来看一下Web Services的体系结构--面向服务的体系结构（SOA）。  http://www.yesky.com/20020430/jt-2002-4-30-image001.jpg  　　　　图1：面向服务的体系结构（SOA）    　　从图1可以看出，SOA结构中共有三种角色：  　　① Service provider：发布自己的服务，并且对使用自身服务的请求进行响应  　　② Service broker：注册已经发布的Service provider，对其进行分类，并提供搜索服务  　　③ Service requester：利用Service broker查找所需的服务，然后使用该服务  　　SOA体系结构中的组件必须具有上述一种或多种角色。  　　在这些角色之间使用了三种操作：  　　① publish操作：使Service provider可以向Service broker注册自己的功能及访问接口  　　② find操作：使Service requester可以通过Service broker查找特定种类的服务  　　③ bind操作：使Service requester能够真正使用Service provider  　　为支持结构中的三种操作（publish、find和bind），SOA需要对服务进行一定的描述，这种服务描述（Service Description）应具有下面几个重要特点：首先，它要声明Service provider的语义特征。Service broker使用语义特征将Service provider进行分类，以帮助具体服务的查找。Service requester根据语义特征来匹配那些满足要求的Service provider。（因此，语义特征中重要的一点就是对Service provider的分类。）其次，服务描述应该声明接口特征，以访问特定的服务。最后，服务描述还应声明各种非功能特征，如安全要求，事务要求，使用Service provider的费用等等。接口特征和非功能特征也可以用来帮助Service requester对Service provider的查找。  　　注意，服务描述和服务实现是分离的，这使得Service requester可以在Service provider的一个具体实现（implementation）正处于开发阶段、部署阶段或完成（execution）阶段时，对其（具体实现）进行绑定。 另外，SOA中的组件相互之间必须能够进行交互，才能进行上述三种操作。所以Web Services体系结构的另一个基本原则就是使用标准的技术，包括服务描述、通讯协议以及数据格式等。这样一来，开发者就可以开发出平台独立、编程语言独立的Web Services，从而能够充分利用现有的软硬件资源和人力资源。  　　最后，SOA体系结构没有对Web Service的粒度进行限制，因此一个Web Service即可以是一个组件（小粒度），该组件必须和其他组件结合才能进行完整的业务处理；Web Service也可以是一个应用程序（大粒度）。  
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+      微软公司总部网站 http://www.microsoft.com  微软开发者网站 http://msdn.microsoft.com/  最大的 .NET 社区 http://www.gotdotnet.com  ASP.net 社区 http://www.asp.net  学生技术讨论网站http:// www.thespoke.net  微软全球学生软件开发大赛网站 http://www.imaginecup.com  MSN messenger http://www.msn.com/
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+       urlLink Intel? Tools for UPnP* Technology - Intel? Developer Services Forums 
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+       urlLink javacrying 
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+       urlLink UPnP? Resources 
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+      http://www.fawcette.com/China/XmlFile.aspx?ID=311  地址：http://chs.gotdotnet.com/quickstart/  描述：本站点是微软.NET技术的快速入门网站，我们不必再安装.NET Framework中的快速入门示例程序，直接在网上查看此示例即看。 **************************************************** 名称：微软官方.NET指导站点 地址：http://www.gotdotnet.com/  描述：上面的站点是本站的一个子站点，本站点提供微软.NET官方信息，并且有大量的用户源代码、控件下载，微软.NET开发组的人员也经常在此站点发表一些指导性文章。 **************************************************** 名称：SourceForge 地址：http://www.sourceforge.net  描述：世界上最大的Open Source项目在线网站，上面已经有.NET的各种大型Open Source项目上千件，包括SharpDevelop、NDoc、Mono等都是在此站点发布最新源代码信息。 **************************************************** 名称：CodeProject 地址：http://www.codeproject.com  描述：很多非官方的中小型示例源代及文章，相当全面，基本上我们想要的各种方面的资料都可以在此处查找。 **************************************************** 名称：Fabrice's weblog  地址：http://dotnetweblogs.com/FMARGUERIE/Story/4139.aspx  描述：这是一个WebLog形式的在线日志网站，定期更新，包括.NET相关的工具、混淆器、反编译器等各种信息，十分值得收藏。 **************************************************** 名称： 地址：http://www.aspalliance.com/aldotnet/examples/translate.aspx   描述：c#翻译为vb.net，提供一个文本框，将你的C#源代码贴进去，就可以帮你翻译成VB.NET语法。 **************************************************** 名称：CSharpHelp 地址：http://www.csharphelp.com  描述： 专业的C#语言在线帮助网站，主要提供C#语言方面的技术文章。专业性很强。 **************************************************** 名称：DotNet247 地址：http://www.dotnet247.com  描述：最好的索引网站，分别按照门类及命名空间的索引，也提供了Microsoft KB知
+     
+    
+</post>
+
+<date>11,May,2004</date>
+<post>
+
+	 
+      download site: http://www.microsoft.com/downloads/details.aspx?FamilyID=f4a967a0-f36b-4ebe-8d33-f57784bdfb0f&displaylang=en   Description: http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnbda/html/uip.asp 
+     
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+       流媒体技术简介 随着现代网络技术的发展，作为第四媒体的网络开始带给人们的是更多形式的信息模式。从在网络上出现第一张图片，到现在各种形式的网络视频，三维动画，人们的视听觉感官在网络上得到了很大的满足。而同时面临的是另外一种不可避免的尴尬：正是由于人们需求的不断提高，上网人数的不断增加，加之网络硬件设备的局限性，使得文件的大小成为网络传输一个不可忽视的参数。一方面，人们希望能在网络上看到生动清晰的媒体演示，另一方面人们又不得不去面对如此慢的网络速度下文件传输所需的大量时间。为了解决这种矛盾，一种新的媒体技术应运而生，这就是“流媒体技术”。  不知道大家是从什么时候开始认识这样的技术，在我的印象里面，flash技术是最先带给我“流（stream）”这个概念的。包括后来的shockwaveforauthorware、shockwavefordirector等等。而最新的网络三维图象标准，同样采用的是流式的传播技术，例子就是最近被炒的很热，而且效果的确很好的viewpoiint （metastream）和cult3d技术。当然象qtvr里面也用了流传输的概念，我们在这里就不多提了。  上面或许只能算些题外话，我今天演讲的主要内容，或者说演讲的真正标题应该是“网络视频流技术展望”主要介绍的是把流媒体技术用于网络视频传输应用的系统，主要是real system 和 media service .当然还有quicktime。至于象cisco ip/tv一类系统，由于使用范围不大，加之时间和场合所限，在此不做详细研究探讨。  无论是哪一种系统，他们的基本原理都是一样的：首先通过采用高效的压缩算法，在降低文件大小的同时伴随质量的损失，让原有的庞大的多媒体数据适合流式传输。然后通过架设流媒体服务器，修改mime标识。通过各种实时协议传输流数据。  实时流传输协议包括：  实时传输协议rtp。rtp（real-timetransportprotocol）  实时传输控制协议rtcp。rtcp(real-timetransportcontrolprotocol)  实时流协议rtsp。实时流协议rtsp(realtimestreamingprotocol)  rsvp协议。rsvp(resourcereserveprotocol)  mms 协议：microsoft media server protocol (mms protocol)  下面我们采用对比的方式来对这几种系统做一些更详细的介绍：  1．概述：  ----microsoft公司的windowsmedia的核心是asf（advancedstreamformat）。asf是一种数据格式，音频、视频、图像以及控制命令脚本等多媒体信息通过这种格式，以网络数据包的形式传输，实现流式多媒体内容发布。  ----realnetworks公司的realmedia包括realaudio、realvideo和realflash三类文件。。realnetworks公司自1995年发布realaudio1.0以来，realaudio和realvideo产品已经成为internet网上最受欢迎的解决方案。  ----apple公司的quicktime于1991年登台亮相，是apple公司面向专业视频编辑、web网站创建和cd-rom内容制作领域开发的多媒体技术平台，quicktime支持几乎所有主流的个人计算平台，是数字媒体领域事实上的工业标准，是创建3d动画、实时效果、虚拟现实、a/v和其他数字流媒体的重要基础。  2．压缩方式：  wm8：当然是最新版本了，采用mpeg－4压缩编码，我们也看到了他正式版的效果要比beta版本好很多。无论是在wmv还是wma的压缩方法上，就原来的v7都有很大的进步。支持true-vbr(真正动态变量速率编码，该技术能保证下载过程中影像的品质)和two-pass编码技术。  real：采用的是real专用算法，最近又增加了ra8的压缩算法。通过svt(scalablevideotechnology)技术可以让速度较慢的电脑不需要解开所有的原始图像数据也能流畅观看节目；双向编码(two&#0;encoding)技术类似于vbr根据带宽的限制选择最优化压缩码率。为了更好地适应在网上传播，它还可以根据你所采用modem的速率来选择最佳压缩比率的real文件，这就是所谓的surestream技术。我们不能否认的是，在网络带宽自适应方面，real比wm要做的好很多！  qt：我们可以看到在qt输出文件时候可以选择包括h.263在内的多种编码。但主要以sorensonvideo为主，据说由5.0开始已经采用了mpeg-4压缩技术。quicktime中的声音codec为qualcompurevolm，从quicktime4．1版本中开始支持vbr。quicktime的音乐codec为qdesiglmusic2。  3．服务器和客户端：  windows media:  服务器：windows server的附带组件，无客户连接数限制。  客户端：microsoft的免费播放器windows media player，我们可以在最新的windows xp里面看到它的最新版本8。  real system:  服务器：real server ，提供免费下载，最新分了很多版本：比如plus，pro版本等，其实内部结构基本相同，只是提供的license的权限有所不同。访问有用户连接数限制，通过license文件实现，同时，该文件也具备了各种功能的管理功能。同一个server通过倒入不同的licence，可以实现不同的功能权限。  客户端：real公司播放器real player，有不同版本，基础的basic为免费下载，专业的plus版本需要付费。plus版本提供更多图象画面控制，这点在media player里面是没有的。最新版本是：6.0.9.584  quick time:  服务器：quick time streaming server 是mac平台下的服务器，有用户连接限制，固定数目，单个server允许最大连接4000个。在pc平台下有基于perl的darwin streaming server（pr3）。同时real server 8也支持以rtsp方式调用mov文件。  客户端：apple公司播放器quick time。同样有版本功能区别，专业版本需要付费获取，专业版本增加了对mov文件的简单编辑功能。  4．编辑工具以及拓展功能:  windows media:  “windows media 编码器”转换实时和存储的视频和音频内容为 asf 流，然后即通过 windows media 服务器在网络中传送。原来的版本是集成到一个叫nettools的文件里面的。后来的版本于是就把它独立出来了。  “windows media author”是 microsoft 与 digital renaissance, incorporated 合作开发的一种工具。此工具用以装配、同步和压缩视频和图象文件为单一的 .asf 文件。windows media author 创建的内容称为“演示音频”，因为它类似声音曲目的幻灯演示。windows media author 也可新增脚本命令和 url 到 .asf 文件中。   “windows media publish to asf for microsoft powerpoint 97” 是一种将带旁白的 powerpoint 演示转换成 .asf 文件的工具。  “windows media plug-in for adobe premiere”可在 adobe premiere 中方便地压缩和转换视频文件为 asf 文件。在新版本的premiere6里面我们可以找到它   “vidtoasf”和“ wavtoasf”是从服务器的命令行运行的转换实用工具。它们用于转换现有的声音和电影文件为 asf 格式。  “asfcheck”和“asfchop”是从服务器的命令行运行的文件实用工具。asfcheck 用于检验 .asf 的格式，若可能的话也修复文件。asfchop 可用来向 .asf 文件新增属性、标记、索引和脚本命令，以及删除 .asf 文件的时间字段。  另外，在安装了windows media 相关的sdk程序以后，我们可以在里面的wmssdk\samples\scrbld\目录下面找到一个nsscript.exe的文件用于编辑asf的标记位和script跳转，在wmssdk\samples\batch\目录下面找到一个setup.exe用于安装batch encode utility，这是一个用于批处理转换的程序。  asx的文件格式参考的详细，可以在windows media sdk 里面的microsoft windows media player control sdk中找到。这是一种较为简单的编程语言，只是现在还没有比较方便的图形化编辑工具，或者说gui。但相信ms在不久以后就会推出相关的辅助编辑程序。因为在这方面上real已经走在他们前面。  通过asx文件，可以对播放文件进行简单的控制，在asx元件中，包含象title/ logo这样的标志元件，entry这样的基础元件，和startmarker / endmarker这样的标记元件，以及/event这样的交互元件，repeat这样的控制元件。  下面是一个asx文件的例子：     windows media technologies (c) 1999, microsoft corporation windows media technologies (c) 1999, microsoft corporation windows media technologies (c) 1999, microsoft corporation  在这里仅仅是定义了两个标准的视频条目，以及相关作者信息。  不否认，用asx的交互作用是很弱的，我们可以通过在asf里面加marker然后调用网页，在网页里面通过编写java scripts或其他辅助语言调用来弥补这个缺陷  还有要讲的就是windows media rights manager,这是一个数字权限授权管理软件，通过后台数据库的支持，它可以对每一个发布的asf文件进行加密打包，然后通过数字证书对发布文件进行管理。不必要担心会被streambox这种软件进行截获，因为用户在打开该文件时，将会进行数字证书的确认，用户可以将下载后的文件进行拷贝，但是另外一个用户在打开该文件时，由于该用户机器上没有该文件的认证证书，系统将重新连线获取证书。数字证书可以是免费的，也可以是收费的。这就在很大程度上抑制了盗版的泛滥。实现了网上媒体文件的版权管理。关于windows media rights manager的详细使用可以在它的帮助文件和sdk文件里面获取。我们通过该软件还可以对网上用户群的爱好分布进行调查统计。  real:  real producer:real文件的生成工具，现在能制作real文件的工具除它，还可以通过cleaner 5 的premiere 外挂输出。但效果和详细参数设定都远远没有real producer来的好。real producer与media encoder在功能上是对应的。做的都是多媒体视音频在进行网络传输前的压缩过程。不可避免的，在此中将会有质量上的损失。而进行何种压缩方式则是用户根据视频源的质量和类型来定义的，在网络带宽允许的情况下，我们采用尽可能高的压缩方式。同时real还提供了自行定义的压缩特性，包括：normal motion video / smoothest motion video / sharpest motion video /三种类型，区别在于，sharpest motion video的图象和normal motionvideo比较将更加清晰、锐利，但同时它的动作连贯性将会损失，而smoothest motion video的效果则是相反的效果。同时，我们也可以看到在producer的选项里面可以定义“2-pass encoding”“variable bit rate encoding” 这也是我们前面所提到过的。我们同样可以找到和windows media相类似的批处理程序：rmbatch.exe，不同的是这里没有提供gui，而是需要用户自己用命令行的方式输入。  real slide show: 这是real 一个做幻灯片的软件，和“windows media author”在作用差不多，做的是一些简单的图片跳转和过渡效果，生成rp文件（就是real picture）。其实用简单的smi语言就可以实现其中功能，所以，我个人认为其功能基本不大。  real rresenter：是一款和“windows media presenter for microsoft powerpoint 97”功能类似的工具，它的本质是把ppt文件通过同期录播的形式保存下来，适用于网络教学。教师可以控制录播的开始，然后一边讲课，一边翻页。real将用smi和分帧的形式将课程内容和老师的讲课声音记录下来并重现，更值得一提的是，它可以根据ppt内置的框架结构，划分整个记录过程的片断。也就是说他可以根据ppt内置结构，把一节课分为：第一小节/第一段/第二段，第二小节….缺点是图象质量差了点，不过这是在没有和“windows media presenter for microsoft powerpoint 97”相比较的情况下得出的结论，而导致这种结果的原因是他们算法的本身，因为采用了抖动的效果来优化图形，反而使得原本很清晰的字体边缘出现模糊。这样的产品效果不适合于用在投影上。  real jukebox：一款数码音乐软件，但可以用在转换格式上，他对cd－rm的转换功能很强，cd－mp3的转换功能也不错。但用它来播放音乐时，占用资源过多，不推荐使用。  real的扩展功能是强大的，突出表现在它对smil语言的支持。smil通常被人们读作“smile”，它实际上是专为流多媒体的格式设计而指定的一个开放的www协会(worldwidewebconsortium，w3c)提议。和html一样，smil也是定义了一种机制的标识语言，用户可以根据它来创建多媒体演示。smil的机制类似于javascript和vbscript。浏览器需要了解如何处理脚本，因而能够被为集成到浏览器内而制定的一个www协会标准所采用。  smil和html的主要区别在于，html只能够演示超文本数据，而无法用于多媒体内容。使用html，您只能通过启动辅助应用或使播放器每次都出现在页面的同一位置的方式来提供多媒体。smil是一种机制，也可以看作是一个命令文件，它能控制流音频、视频和图像的显示来利用工作站上业已提供的多媒体能力。smil为设计者赋予了更多控制如何、何时或何处在浏览器中播放视频和音频的能力。  smil也提供了更多的数据类型来处理多媒体。例如，realnetworks公司的realpix和realtext两项技术能使站点创建者控制realaudio、realvideo和realflash内容。  下面是一个smil文件：      real 同样提供为于文件内部的标记记号，同样的，它是通过编辑软件从外部植入的，这个编辑软件就是producer内置的real editor 。通过插入tag和event，（相当于windows media里面的marker和scripts）, 来控制文件播放时候的附带动作。其实这个功能在smi同步里面已经可以很好的实现了，在这里显的就不是那么重要。  quick time  由于qt毕竟是apple的东西，所以更多关于它的编辑和处理都在mac上面完成，在pc上面方便的进行qt编辑的软件不多，我们可以用premeire和quicktmie pro对mov文件进行简单的编辑修改。但效果远没有在mac上面用专业软件的效果好。  qt文件的交互性是最强的，支持多种交互功能。同样有类似windows meida 和 real 的文件内标记和跳转。  qt同样对smil有很好的支持，或者应该反过来说。所以说，现在的网页编辑者或许应该开始换一个概念，或许在不久的将来，网络的编程语言将不是html而是smil，不说xml，至少在多媒体这方面，smil已经做的很出色。  5．最新发展以及展望  windows media：  最新的windows media encode 8,不仅压缩比率又有新的突破，而且支持更多不同的网络数据传输速率和压缩比率：可以用48kbps速率播放接近cd音质的音频数据流，用64kbps速率，播放与cd音质等同的音频数据流；最新发布的视频编码则明显优化了动态效果的处理。不管它是否和官方所称的比windowsmediaformat7提高了30%一致，但我们都可以肯定的是它确实使人的期待得到了答复，wmv8还是目前惟一能够提供truemotion-picture-readyvideocodec的视频格式，用低档的dsl／cable连接速率(250kbps)下能够达到近乎vhs的视频品质(near-vhsquality，分辨率为320×240，每秒24帧)。  用dsl／cable连接速率(500kbps)下能够达到与dvd差不多的视频品质(near-dvdquality，分辨率为640×480，每秒24帧)。  　　real ：  real audio encode 8 大大增加了real对音频的压缩处理能力。顺便插一句：在甚低码流下的音频传输,real要比wm要强一些。  在server端：ipoint-princetonvideoimage为realsystem8提供了适合广播人士的广告插播pvi技术，ipoint可以在realsystem8中无缝插入预先定制的广告节目。（流媒体也是一种有效的方法。研究发现，流媒体的广告效果比条幅广告的效果至少好5倍。）  richfx-realplayer8可以以原始文件1/20大小的传输显示3d效果。richfx视频技术可以为窄带电子商务带来新的商业机会。  realnetworks还推出realsystemiq建立新一代的网上广播神经中枢系统  realnetworks,inc.(nasdaq:rnwk)今天推出全新技术realsystemiq，为数码媒体之传播定下新的基础。realsystemiq在提升网上广播的稳定性与可*性，令广播信息可传播至更多观众的同时，也为媒体传播带来更佳的成本效率并弹性。  以往，媒体的流播是透过一个中央的服务器把流播的媒体分派出去其它的流播服务器，然后再传送出去用户。技术的realsystemiq就是把这个单向的流播模式扭转。realsystemiq建立起一个蜂巢式的服务器组群，让每一个服务器均可以向网络作出广播，以及从其它服务器接收内容，并把数码媒体传送给用户。neuralcast技术建立一个对等的基础，让数码媒体可透过标准的网络协议由一个服务器传送出其它多个服务器当中。此外，realsystemiq的架构是容许用来传送各种格式的媒体。为达至更完美的传送效果，realsystemiq的区域传送功能(terrestrialmediadelivery)更加入了卫星传送技术的整合支持。  其他厂商：  realnetworks得到nokia及其它移动电话制造商的的支持，开发其流式声音和影象。我们可以看到最新的nokia 9210已经支持real。  美国在线时代华纳、bertelsmannag、emi集团和realnetworks周一宣布了一项极具冒险性的合作计划，那就是realnetwork将要推出在线音乐服务网--musicnet，以上三家美国主要的音乐出版商则授权将其子公司（华纳音乐集团、bmg娱乐公司、和emi唱片公司，它们会以非卖断的方式授权自己的出版物给musicnet）出版的音乐提供给该网站。  但同样我们可以看到：2000 05英特尔公司宣布鉴于流媒体市场的需求，该公司将为流媒体供应商提供internet 服务业务. 旨在为一些公司提供流媒体基础设施，此外还使媒体和内容供应商将诸如音乐会、电影、广播、简报等内容通过internet，以高品质流动内容………  而在2001 02英特尔却宣布将逐步退出流媒体领域的经营. 他强调公司相信网上的流音频和视频的发展前景是好的，只不过现在还不是时机。  谁都想成为这个行业的主流，因为看到了流媒体发展的广阔前景，于是有媒体统计说real在家庭用户中的领先优势进一步增加，又有媒体说wm的增长速度是real的4倍。最近又有各种消息是sonic solution公司将在今年6月推出结合了dvd技术的高端流媒体。但无论如何，我们都会去尝试，然后取舍。带给大家最新最好的技术解决方案。   
+     
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+       urlLink 图像监控界面 
+     
+    
+</post>
+
+<date>13,June,2004</date>
+<post>
+
+	 
+       urlLink Helix Community > Helix DNA Client Downloads 
+     
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,220 @@
+<Blog>
+
+<date>30,July,2004</date>
+<post>
+
+     
+      Well, I had some nice entries up here before, but I messed up on Blogger and those got deleted, so...I'll fill you in on what you missed later ;) 
+     
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+     
+       My very first recorded song... Ahhhh, I feel sort of embarassed posting this, but for a song created + rehearsed/improvised in only about a half hour, I don't think it's TOO bad...lol...it's easy to tell it was recorded with a computer microphone, too, but as Ottmar Liebert says in the notes for "Spring Rain", the music takes precedent over the recording quality     urlLink http://homepage.mac.com/austinsarner/Duende.mp3   The first and only track on Adam Solomon + Seth Halpern's collaboration album, "Duende", a collision of rock and flamenco guitars, recorded in one night of duende--the intense emotion that inspires flamenco music. Though Adam + Seth will be the first to admit there are mistakes (from the little of it that was not made on the spot), they try to integrate the mistakes into the beauty of the music. Hopefully you will feel the same way.  Above is the comment from the file tag itself...lol...it's pretty cool, my friend Seth + I were hanging out at my house a few weeks back, because he was moving to Florida the next week, and we ended up writing this song, it was pretty damn cool...we both switch off between rhythym and solo, with Seth writing the rhythym part (and me translating it to my flamenco guitar), and each of us writing our own solos. 
+     
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+     
+       urlLink Slashdot | Soyuz To The Moon?   colonist writes  "The  Americans won the first race , but the Russians might beat them back to the moon. The reliable  Soyuz , currently the only means of transport to the International Space Station, may send tourists on a  voyage around the moon  ( gallery of illustrations ).  Constellation Services International 's plans call for the Soyuz spacecraft to dock with a logistics module and an upper stage. The upper stage fires to send the Soyuz on a free-return circumlunar trajectory."   Space tourism is becoming more and more feasible, now...as an avid astronomer/budding astrophysicist, I can't help but feel jealous but seeing members of N*Sync in space before me and the thousands of others who care a bit more about this kind of stuff, but I guess that's just my arrogance showing through...at least we're not bothering with sending astronomers there. It would be nice to return to the moon, but we have bigger priorities right now--manned missions to Mars, and just  what  happened to those probes to Europa and Pluto/Kuiper Belt? Those two missions are much more exciting and should be a much higher priority, IMO, then sending a bunch of millionaires to the moon, most of whom are just going there because they can, not out of actual interest. Although I guess that's a bit harsh on Dennis Tito, etc...
+     
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+     
+       urlLink Slashdot | 140" Monitor Demonstration At Purdue    michaelpapet.com  writes  "Edward J. Delp, a researcher at Purdue University  is working with Philips to make a  monster 140" monitor  using 4 projectors on a single screen.  Article claims it would be good for National Security... I dunno, I see this being the only way to satisfy 'big screen envy.'"   Sounds fun--I wonder if it's in my price range. Oh, and I hope it's portable, too...think they'll start attaching these babies to laptops? That'd be nice, as I'm getting a laptop before I head off to college in a couple of years...though I wonder what kind of resolutions that kind of a monitor lets you choose from....800 x 600 just might not work anymore.
+     
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+     
+      A bit of progress today...lately, since about late Thursday, I've been working on using NetBeans's metrics module for my program, as it calculates all of Chidamber's metrics, and is open source. However, I'm missing libraries, I can't get the JAR to open the class I tell it too, I can't figure out how to access the module from Java itself without using NetBeans, etc...lol just a whole slew of problems with that. So while I wait for word on that problem off the Java forums, I've been implementing more metrics...I "implemented" WMC (although that was really just renaming the method count that I've had in there for weeks--Chidamber and Kemerer were pretty vague on defining "complexity", and a definition of it can't be agreed on, so generally a straight method count is used (Pasha, should I change this to something else?). I also implemented the DIT metric--that was fairly simple, and I actually discovered it by accident while testing what was supposed to be the first part of a fairly complicated DIT calculation method. Turns out that was all I needed, and it cut out a bit of work--I meant to get the superclasses of each class, check it against all the other classes, add to a running count, etc., but it turns out that BCEL does that automatically when creating the superclasses array. How nice :) Shalom!
+     
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+     
+       urlLink the produce stand   My friend Nick's blog--one of the smartest debaters I know, he's the one who converted me from a blind spewer of conservative rhetoric to a free thinker (no more right-wing rhetoric here...lol) ;) While I might be able to catch him in a point about Israel, for the most part this kid can beat you in about any debate and he's one of the few people out there who's managed to escape the ugliness of partisanship to become a "truth-seeker" (or, as he seems to be at times, a "people-hater"...lol). Check out this blog more often, because you'll see more news and hear less bias than whatever news source you currently utilize, be it FNC, CNN, BBC, or al-Jazeera.  I however, am going to take strides not to politicize this blog, I just don't want to go in that direction.... 
+     
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+     
+       urlLink Slashdot | Top 100 Papers in Physics Ranked    urlLink Rob Carr  writes  "What do physicists care about most? Who are the greatest minds of our time? What physics papers have had the greatest impact? Sidney Redner attempts to answer that question by looking at the citations of all journals in the Physical Review Journals since 1893. He  urlLink ranked the top 100 papers  based on their 'impact': the number of citations times the average age of the citations. Einstein's Relativity papers, which were not in Physical Review journals, are the most stunning absence. 'Fan Favorites' are there -  urlLink Einstein  does make the list for the  urlLink Einstein Podolsky Rosen  paper.  urlLink Feynman ,  urlLink Dirac ,  urlLink Bethe ,  urlLink Wheeler  are on the list.  urlLink Stephen   urlLink Hawking  does not make the list. Yet Nobel Prize winner Walter Kohn, who is virtually unknown to the general public, is an author on five of the 100 papers, including the top two and one of the top 15 'hot' papers. The paper goes into the statistics of the citations, a fascinating area in it's own right. Some papers make an immediate splash, while others might wait 50 years before their importance becomes apparent. The vast majority die a quick and quiet death. It's tempting to wonder if Redner's paper conclusively proves  urlLink Sturgeon's Law ."   Having read quite a few physics/astrophysics journals in arXiv, the wonderful free journal where this publication came from, it was very interesting to see an article that didn't exactly further a study of science, but rather rank, almost like an ESPN show, the "best" physics papers of the last 110 years or so, using a scientific method. Very interesting, and I'd recommend that anyone read that article. As a matter of fact, if you're interested in science at all, be sure to browse through arXiv whenever you get a chance, there's always something new + interesting there :)
+     
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+     
+       urlLink Slashdot | Mozilla Starts Bug Bounty Program   AnamanFan writes  " urlLink The Mozilla Foundation  announced the  urlLink Mozilla Security Bug Bounty Program , an initiative that rewards users who identify and report security vulnerabilities in the open source project's software. Sponsered by  urlLink Linspire, Inc  and  urlLink Mark Shuttleworth , the program will give $500 to users who report a significant bug in Mozilla software. Users who identify security bugs in Mozilla software are encouraged to go to the  urlLink Security Projects Page  for more information."  urlLink       At long last! Been using  urlLink Firefox  myself for quite some time, and I wouldn't use it any other way, but I still do have to use IE for a few small tasks...for the most part, though, Firefox is more secure than IE, and faster...plus, who doesn't love tabbed windows and extensions? I update this blog through my BlogThis Firefox extension. Although, does anyone else using Firefox typically see it eating up 40+ MB of RAM? Hmmm.....   
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+     
+       urlLink JibJab    I know I said I wouldn't politicize this blog, but I'm not really showing an opinion in this, as it shows equal disdain for both candidates ;)
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+     
+      Pretty productive day today. Met with Pasha, we just went over some basic stuff, future research, the Chidamber paper, etc. I implemented the RFC metric, and that about completes the Chidamber suite--the final metric, LCOM, is very difficult to implement, and not a very good indicator of complexity in Java, anyway (the paper was written for C++/Smalltalk), so I'll just discuss that in my paper briefly. I'm meeting again with Pasha hopefully Thursday to discuss a few more metrics to implement, and in the meantime I'm just working on minor program changes...the major feature here will be a reworking of the way the results are displayed, they are now (almost) sortable by both class and metric (before, they were only sorted by class). Although, having so many different display options for the results, the process of printing results to the screen has now become very repetive and space-consuming, so tomorrow I plan on making a method that can do all this much more easily. Also, when the program is complete, I'll probably dedicate my website (on the sidebar, currently unused for anything important except for "SHALOM COACH K" flying around on the screen) to the project--source code, etc.
+     
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+     
+        Music: Red Hot Chili Peppers - I Could Have Lied   Mood: Blah.    "I Could Have Lied" is quite possibly among the greatest songs of all time :D It's so beautiful, I felt compelled to write a whole blog entry about it. Wow....   
+     
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+     
+      Ah, wow, I do NOT feel like updating this today...hmmm....so tired...anyway, the day was basically just changing the results window so that the results were sortable by metric (I want to do a major overhaul of how I send results to the results window, and put all the individual variables in an array, save myself a LOT of coding), and e-mailed Tom Ball of Sun, creator of the NetBeans metrics module, regarding calculation of metrics--namely the WMC metric, as he used a different (and probably more accurate) method for weighting the methods...
+     
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+     
+       urlLink The Black Flag Cafe :: View topic - Arkansas Woman Killed in Mistaken Rapture   Arkansas Woman Killed in Mistaken Rapture by Elroy Willis  ARKANSAS CITY (EAP) -- A Little Rock woman was killed yesterday after leaping through her moving car's sunroof during an incident best described as a "mistaken rapture" by dozens of eye-witnesses. Thirteen other people were injured after a twenty-car pile-up resulted from people trying to avoid hitting the woman, who was apparently convinced the rapture was occurring when she saw twelve people floating up into the air, and then passed a man on the side of the road who she believed was Jesus. "She started screaming `He's back! He's back!' and climbed out through the sunroof and jumped off the roof of the car," said Everet Williams, husband of 28-year-old Georgann Williams who was pronounced dead at the scene. "I was slowing down but she wouldn't wait till I stopped," Williams said. She thought the rapture was happening and was convinced that Jesus was gonna lift her up into the sky," he went on to say. "This is the strangest thing I've seen since I've been on the force," said Paul Madison, first officer on the scene. Madison questioned the man who looked like Jesus and discovered that he was on his way to a toga costume party, when the tarp covering the bed of his pickup truck came loose and released twelve blow-up sex dolls filled with helium, which then floated up into the sky. Ernie Jenkins, 32, of Fort Smith, who's been told by several of his friends that he looks like Jesus, pulled over and lifted his arms into the air in frustration and said "Come back," just as the Williams' car passed him, and Mrs. Williams was sure that it was Jesus lifting people up into heaven as they drove by him. "I think my wife loved Jesus more than she loved me," the widower said when asked why his wife would do such a thing. When asked for comments about the twelve sex dolls, Jenkins replied, "This is all just too weird for me. I never expected anything like this to happen."   ...Wow...............
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+     
+      Not too much time to update today, as I've got a plane to catch (visiting family in Milwaukee for the weekend), but the summary of my day is pretty quick: I've been working on Chidamber's WMC metric some more, as per the weighting of Tom Ball at Sun, who I've now e-mailed about 6 or 7 times in our correspondence during the last two days. He counts WMC as the total number of code paths per method, with some provisions (add one code path by default for every method that's not private, synthetic methods are at 0 automatically). I've been able to implement this in a test file, but I get some odd results when transferring it to the file that actually calculates the metrics, so there's obviously something there that has to be worked out. This weekend, I'll check out some more literature and work on my paper, and not much else more I can do.  Also, comment please! Thanks :)  Adam
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+     
+      Just saw these guys play, right outside the Poly building--they have free concerts on campus every Thursday. And I'll tell you, these guys were something. I've seen some good shows in the festival here, but this...it was far and away the best. They were funky, energetic, had some great music, and could jam like no others. The highlight of the show was easily the ending--the last song of the main set was the famous "Love Rollercoaster" (1/2 the reason I came to the show, as my beloved Red Hot Chili Peppers did a fantastic rendition of it back in '96 or '97), with a funky 10 minute jam afterwards, before an almost entirely instrumental encore that must have lasted at least 10, 15 minutes. They really pumped the crowd up, and I had to resist a LOT of urges not to jump around like an idiot. Just amazing...wow...
+     
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+     
+       urlLink Slashdot | Lawyers In Space...   colonist writes "The Christian Science Monitor presents an interesting  overview of space law . Some want space to be shared by all: 'Outer space is a province of all mankind. There is not, and should not be, any privatization of outer space. It is a common thing that should belong to all.' Some people have claimed parts of the moon or Mars. In response, a  lawyer has claimed the sun , 'to show how ridiculous a property-rights system in outer space would be if it were based solely on claims unsubstantiated by any actual possession.' The  Space Settlement Initiative  wants official recognition of land claims made by those who establish human settlements on the moon or Mars."    An interesting topic, one that I've never thought of, actually...if there is to be some sort of space colonization, beginning with the moon, privatization and land ownership  has  to be involved, otherwise you get a huge mess. But you can't go claiming whatever place you want, otherwise I'm grabbing Europa in an instant (Jupiter's moon with liquid water and chances of life underneath it's icy surface). Hell, I'll take the whole galaxy. But it just doesn't work that way. As I see it, this article goes to two extremes, when the right answer is (as usual) somewhere in the middle. How about this for a rule? If you can get there, and you want to claim it, you can. Should there be limits on how much you can claim, so that the first astronauts to walk on Mars (hey, maybe I'll even be among them!) don't decide to snatch up the whole planet for themselves? Probably, but that should be decided at a MUCH later point...For now, you can't just have lawyers laying claims on the sun. If he wants the sun, he can go over there and stake his claim on it himself--you have to put your flag on it, though, first!. Matter of fact, if any lawyer wants to head over to the sun to claim it, I wouldn't mind at all...
+     
+    
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+     
+      Well, I got to get some good work done on my paper over the weekend in Milwaukee. Which was good, because before I was able to upload it back to my FTP, it got deleted. So I got to rewrite those parts of the paper today, after FINALLY finishing Chidamber (or so I think...). WMC was fixed--like many other pressing (and annoyingly irrational) problems I've had while programming this, the issue was again one line of code that was either misplaced, or I forgot to take out, or something. I end up spending a lot more time on those than I have to...lol...Also, since I changed the WMC implementation, I reimplemented the method count. Although, I still can't seem to find a good way to figure out if a method is synthetic...while that's really only a minor issue, it has to be fixed at some point...the last hour or so has just been adding to the "metrics" section of my report's methodology.  Pasha + Dr. Memon, are there any journals that I should try to submit my paper to, when I have some viable results?  arXiv  is a free journal that accepts most submissions; a good majority of the astrophysics journals I've read have been off of arXiv, but I'm not sure how its standing in the CS world is...Pasha, maybe we can discuss that tomorrow? Or maybe I shouldn't be getting so far ahead of myself....lol
+     
+    
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+     
+       urlLink Adam Solomon @ Blogger: Research Update: 08/05/04   Victor said...  ...  Well, I just did a search on Yahoo for Chidamber's WMC metric and guess what the top result displayed was??? Yup - Adam Solomon @ Blogger ! Looks like you're the leading expert in the field! ;-)   lol! I see that's true...wow, so apparently I am now an expert on Chidamber's WMC metric ;) Good to know! Especially since it took four days just to get this metric working.......lol
+     
+    
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+     
+        Music: Ataxia - Dust Mood: Pleasantly surprised    Just picked up the new (first) album from Ataxia, called "Automatic Writing." The band is a side project, with John Frusciante of the Red Hot Chili Peppers on guitar, Joe Lally of Fugazi on bass, and Josh Klinghoffer of Bicycle Thief of drums. A very intriguing album--it was recorded all in the span of, I believe, two days (of four days of recording--the rest of the music will be released on a future album, this was really 1/2 of an album). The album basically consists of jams with vocals added over them, and just like Frusciante's last solo album, "The Will To Death", the whole album was (obviously) recorded very quickly. What's so cool about this album is how long the songs are--it's a 45 minute long full album with a whole 5 songs, you do the math! lol...and not one bad song in the mix, either. It might not be the easiest album to find, but if you can pick it up (most major music stores should have it), make sure to do so! What an album...  Frusciante, in case you didn't know, is currently on an album tear. He released a solo album, "Shadows Collide With People", back in February (recorded in 2002). Shortly before its release, he recorded another album, "The Will To Death" (released in June) and this album about a month later (this album with the band Ataxia). He recorded a new album every month for the next four months. So now, the six albums are to be released as part of a series, this new release being the second in the series. What a guy! Seven albums in one year (because "Shadows" wasn't part of the series of six), can it get much better?  Oh, and the albums are amazing nonetheless :) He took care to record each album as quickly as possible, usually in only a take or two, and welcomed mistakes into the recording, integrating them into the music. Great stuff, pick these discs up!  Speaking of unique recording methods, I just found this out from a  urlLink review of Ottmar's "La Semana" : OL "would employ a delay function that would take the track back 16 bars—enough time for him to run over to the studio room and get his headphones on." Wow.... 
+     
+    
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+     
+      Met with Pasha today, he's been here all day, so we got pretty far in the research...first things first, minor details: You can now look at each metric individually (and, getting sick of having to make 1000 changes to my program every time I wanted to add in one metric, or metric-viewing feature, I completely overhauled my method of transferring data to the results window, in the process cutting the size of that file by about 12 KB, more than half), and I worked on my paper. Now for the important stuff...I met with Mike Sosonkin, part of Poly's DOJ (Design Obfuscator for Java) project, to discuss obfuscation so I can get some preliminary results for tomorrow. Pointless as it may be, the program wants results, so whatever, I'll get them something...he showed me how to use DOJ, and how to get the data he's collected already--namely the runtimes for obfuscated and unobfuscated programs. That's about half of my experiment right there, so the results should be easier to get now. I just need to repeat the EXACT obfuscation Mike used for each specific set of results. Anyway, I have to hurry to make the train--shalom!
+     
+    
+</post>
+
+<date>11,August,2004</date>
+<post>
+
+     
+      I guess today was a bit of a milestone day in the project...I finally got to (well, had to) take my program out of the box and run some experiments with it. The morning was pretty much completely spent learning how to obfuscate with DOJ, with Mike both through e-mail and in person. A little bit after lunch, I got the obfuscator working, and was ready to go. Obfuscation itself took a while, probably half of the time. The rest was simply running the obfuscated program through mine and gathering data. I took data for the HTMLParser program, the original and 6 obfuscations for both the class coalescing and the type hiding complications. I'll probably have to do this all over again eventually, with plenty more metrics, but for now this is necessary, as the program is over in two days and we have to make poster boards for tomorrow and they want results. Shalom!
+     
+    
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+     
+        Music: Ottmar Liebert + Luna Negra XL - Ode 2 Love (Live) Mood: Excited     Not an extremely productive day, but I suppose an off-day doesn't hurt every now and then. I came in around 9:30, as usual, and spent the next hour and a half making my poster board. The results had to be imported at the last minute (as I was unable to process them and make graphs until last night), I had to then come up with results, conclusions, discussion, and abstract sessions, which make absolutely no sense considering the fact that my results were extremely hasty and preliminary, devised solely for the purpose of satisfying the program. You can imagine how that turned out.  As for the results, I found pretty much nothing of importance. Besides the fact that very few tests were done (compared to what we will be doing eventually), I'm not sure about Mike's slowdown measurements--they are very wild, the class coalescing results especially. Unless some kind of sine function is controlling those slowdowns, the results seemed completely random. I'll check with him about those, as the accuracy of my results rely on the accuracy of his, and these just don't seem right. The type hiding results seem a lot better, although one of the slowdown times (I used six, from obfuscating 1, 2, 5, 10, 15, and 20 classes) is off of the standard, which does throw off my results a bit, as well. I guess this will have to be sorted out, eventually. Whenever "eventually" is--there are still quite a few metrics to be implemented, and then there is the tall order of obfuscating five programs, using three types of obfuscation, to all the different degrees, before measuring them all. I mean, nothing I couldn't do in a couple of days time, and I'm not trying to complain or anything, it's just...I seem to have lost the passion and the interest for this project that I had even two days ago. I don't know if it's the switch from programming to obfuscating/experimenting, or just the stress from all the unreasonable assignments this program is giving us that take the focus off the actual research (I suspect it's the latter, and I'll regain my interest in this project soon, now that the program is  finally  ending tomorrow), but I just want to take a break from all of this, and right not do not at all look forward to implementing more metrics and performing all of the experiments. But, as I said, this is probably only a temporary thing, I'm sure I'll be back to normal soon enough...I'm going away for a few days next week, I think I need it.  On to other news, I have a meeting next Friday at Columbia, with James Applegate, an astrophysics professor doing some fascinating research. I have no plans of quitting my current project, especially without any viable results, but I don't know if I'll want to expand the research. This summer, while utterly fascinating, just hasn't capitivated me like astrophysics does, and I'm now only more convinced than before that that is the direction I want to take. So anyway, I called this Professor Applegate today, having some free time after presenting to look through the Columbia astrophysics department website. I've decided to all but give up e-mailing professors as first contact in my search for a mentor this year. E-mail was my primary form of communication last year, and you can see where that got me. E-mailing Eric Gotthelf at Columbia got me nothing, not even a reply. Calling him got me a two hour meeting at the University. I'm convinced I can get a mentor this year, in astrophysics. Other students have done it in the past, so what prevents me from doing the same? Just my drive, I suppose, so it goes without saying what needs to happen in order o get a mentor now...  Anyway, I think I've dragged this on too long, assuming anyone even reads this to begin with. Just felt like pouring all of my thoughts out right now...I'll stay here for a bit, I can leave a little later today as I'm meeting my dad, aunt, and uncle in the city for dinner at 7 (this restaurant Maya, I've heard good things) and work on my program, and read...shalom! 
+     
+    
+</post>
+
+<date>14,August,2004</date>
+<post>
+
+     
+        Music: Ataxia - Montreal Mood: Tired    Just woke up about 3 hours ago. Interesting, considering it's now 6 PM. Anyway, make sure to check out the blog's RSS feed, at  urlLink http://adamsolomon.blogspot.com/atom.xml . It's linked on the side, I believe. If not, it will be soon. And if you don't have an RSS reader, what are you waiting for? Download one! Just Google "RSS Reader". There are some good free ones out there... 
+     
+    
+</post>
+
+<date>15,August,2004</date>
+<post>
+
+     
+        Music: Ottmar Liebert + Luna Negra - La Aurora     Mood: Blah...      urlLink Slashdot | XP Starter Edition Examined   de la mettrie writes  "C-Net  urlLink reports  that  urlLink analysts do not recommend  using Microsoft's new 'Windows XP Starter Edition', a low-cost XP version aimed at the Asian market (and previously  urlLink covered  on Slashdot). The report notes that numerous networking features are removed, and the Starter Edition allows only three applications to be run concurrently. According to Microsoft, this limitation 'helps [users] stay organized and reduces confusion.'"    Wow....three programs at a time, and Microsoft expects it will reach out to its users how? Just another show of how Microsoft shows an almost comical disregard for its users, just like its complete ignorance of IE, which has now become a joke ( urlLink Firefox,  people!!)...Oy!! 
+     
+    
+</post>
+
+
+</Blog>

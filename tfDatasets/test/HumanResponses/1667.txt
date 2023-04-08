@@ -1,0 +1,1 @@
+so i found out the modem for the 5mbit connection is linux compatible. now i must decide, do i want a 150kbps connection that disconnects every couple hours or do i want a dedicated 5mbps connection? hard desicion. lmao.

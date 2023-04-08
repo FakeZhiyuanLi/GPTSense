@@ -1,0 +1,26 @@
+<Blog>
+
+<date>23,May,2004</date>
+<post>
+
+    
+       
+      Well I spent the better part of last evening hunting down a "cure" for that pesky hijacker which turns out to consist of MANY MANY parts planted in your pc.  Do you enter a website to go to and then discover that you are taken to a completely different site?  Then your pc has been hijacked, most likely by a version of VX2.ABetterInternet.  There are some spyware programs which may or may not discover this on your pc.  Spybot, SpySweeper and Adaware are very good programs which I routinely use. I have found that there is not overall one single program that finds every spyware/hijacker and so forth. So it is better to use a few different ones which find what the others do not.  Basically your virus program may be showing that you have VX2 or Look2Me or Eula.    You may be having a persistent Microsoft popup which is indicative of being unable to connect to the internet.  You can try all you want, you will not get rid of this popup through Control panel.  This popup is part of the VX2.ABetterInternet files and it is trying to connect to either update itself or transmit your surfing habits or both.  Well after much researching, I finally found what appeared to solve the problem.    The Look2Me uninstaller works for this infection. The link is here:  urlLink look2me.com UnInstaller   You can choose OPEN or SAVE to Disk.  Be sure to make note of the Security Key that will appear in a page on your screen. You will need to enter it before the UnInstaller executes. Then just reboot your pc and you will notice a difference immediately.  Here are a few recommendations to help tighten up your PC Security:  1) Watch what you download!  Many freeware programs, and P2P programs like Grokster, Imesh, Kazaa and others are amongst the most notorious, come with an enormous amount of bundled spyware that will eat system resources, slow down your system, clash with other installed software, or just plain crash your browser or even Windows itself.  2) Go to IE > Tools > Windows Update > Product Updates, and install ALL Security Updates listed. It's important to always keep current with the latest security fixes from Microsoft. Install those patches for Internet Explorer, and make sure your installation of Java VM is up-to-date. There are some well known security bugs with Microsoft Java VM which are exploited regularly by browser hijackers.  3) Go to Internet Options/Security/Internet, press 'default level', then OK.   Now press "Custom Level."   In the ActiveX section, set the first two options ("Download signed and unsigned ActiveX controls) to 'prompt', and 'Initialize and Script ActiveX controls not marked as safe" to 'disable'.   Now you will be asked whether you want ActiveX objects to be executed and whether you want software to be installed.  Sites that you know for sure are above suspicion can be moved to the Trusted Zone in Internet Option/security.   So why is Activex so dangerous that you have to increase the security for it?  When your browser runs an Activex control, it is running an executable program. It's no different from doubleclicking an exe file on your hard drive.  Would you run just any random file downloaded off a web site without knowing what it is and what it does?  Until Next Time....   
+       
+    
+    
+</post>
+
+<date>22,May,2004</date>
+<post>
+
+    
+       
+      Have come across a great many BLOGS in my travels across the 'net. Never gave much thought to starting my own, because I thought it would be more hassle then it was worth. Well, so far so good!  Watching MAD TV right now...  a great fan of situation comedy like Seinfeld and so forth...  Well, I think William Hung has made a dent in the music industry, perhaps Ricky Martin is fearful of the length of time left in his music career!  LOL!!  My feeling as far as the news media goes, perhaps there is way too much overreporting of events overseas, and this is causing more harm then need be.    3 cats in the home... did some research on overweight cats.  My one cat is like 9 years old and is carrying some extra bulk around.  Perhaps I will need to put her back on the IAMS Weight Control formula.  That worked really well when I used it a few years ago.  If something sounds too good to be true, then it probably is.  This goes for some of those so-called "work at home business opportunities" that you will receive in your email or find in your searches on the internet.  Always know that if you are interested in a Work at Home opportunity, then you should not have to pay to work.  Period.  Alot of companies get around that by saying that you are paying "administrative fees" or for "processing fees" or whatever.  I got a phone call the other night from a company that I am affiliated with.  I had to end the call early so I never really learned what the guy wanted.  I was thinking that perhaps he was going to try to sell me something in additional to the original item I had purchased.  He asked me if I was making money on the internet.  I said "Yes" with a few different programs that I am working with. So let me say, that you can make money on the internet without utilizing GPTR emails, or those GPT Surf programs or such things.  Until next time....
+       
+    
+    
+</post>
+
+
+</Blog>

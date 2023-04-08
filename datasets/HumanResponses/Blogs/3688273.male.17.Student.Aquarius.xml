@@ -1,0 +1,49 @@
+<Blog>
+
+<date>20,June,2004</date>
+<post>
+
+	 
+      I ditched Fedora for SuSE just to see if I like it any better.  After using GNOME for so long, KDE is definitely a lot different.  I'm not sure if I like it or not yet.  Part of the reason I installed SuSE is for the experimental Project Utopia red carpet channel.  I think installing Ximian Desktop 2 when it's released for SuSE 9.1 could be my perfect linux desktop.  One thing I've noticed is SuSE's font rendering is very nice.  Blogger.com looks amazing.
+     
+    
+</post>
+
+<date>19,June,2004</date>
+<post>
+
+	 
+      So how does this work?
+     
+    
+</post>
+
+<date>02,July,2004</date>
+<post>
+
+	 
+      So I tried SuSE for a while and couldn't stand it.  KDE just does not mesh with my way of operating.  GNOME is a much better fit, so I reinstalled Fedora Core 2.  Conveniently, new Nvidia drivers came out that support Fedora Core 2's kernel, so I can now play games with a frame rate that isn't measured it the single digits.  I got 5s on all my AP tests, which is a definite bonus.  I was surprised to find that out.  I figured I would barely get a 4 on lang and calc...I didn't feel confident at all.  My lang teacher never gave me higher than a C on any paper all year, so I was kinda worried.  Hah.  Sucker.  Calc was seemingly a mess but apparently I got it taken care of.  Human geo was a wank, as expected.  Spider-Man 2 was spectacular.  I mean, damn.  It had it all - action, comedy, romance.  Makes you wanna do something heroic, but there is a distinctive lack of tall building in Aurora from which one could swing.  Shame.  Kirsten Dunst is hot as a redhead.  I'm going to a family reunion sometime in July, which is weird cause I've never met most of my cousins and uncles and stuff.  All my grandparents are dead and the rest of my relatives live nowhere near Colorado (they're concentrated in Ohio and Indiana and thereabouts) but I get to go to Cedar Point, the single greatest roller coaster park in America, so it's all good.  Can't wait.
+     
+    
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+	 
+      Nothing is really happening so I'm not sure why I'm writing.  I changed templates again, although I'm not sure anyone actually READS this so I think I'm the only one who notices...  Saw Garden State tonight.  I really liked it, even if the ending was a little...Hollywoord?  The projector died about 3/4 of the way through the movie.  It was very strange but it did really make the audio sound really slow and low as it wound down.  Quite scary sounding, really.  I imagine Satan would sound a lot like that.  Somebody fixed everything with Fedora.  GStreamer now works and so does gnome-volume-manager, so I have sound from Rhythmbox and automounting of disks.  Sweet.  Also, found new themes I like.  They're so much more stylish than Bluecurve and less blinding than Industrial.  I hate being scared.  Not much really scares me except girls which is unfortunate.  I have a lot of girl friends but have never really had a girlfriend.  Tiffany and I talked about this a while ago and now she knows just how bad mixed signals can be.  So, Tiffany, I'm sorry for freshman year and hope you have better luck.  I've kind of given up. 
+     
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+	 
+      So I have to register twice this week - once at UCD, and once at Smoky.  Fun.  Also, senior pictures.  Yes, I realise that I should have had mine done already.  Oh well.  I'm hoping to get a job at the Smoky Hill Library.  As I see it, it's pretty much an unbeatable gig - air conditioned, quiet, and full of books.  Not many hours a week but that's probably a good thing.  Also, pay is not bad at around $10 an hour.  The Village was a big disappointment.  Technically, the movie was very well done - the acting was tight and convincing even if the archaic way in which the characters spoke was sometimes awkward.  The village itself was beautiful, especially at night - the torches ringing the perimeter really were beautiful.  The yellow that was used heavily was possibly the most beautiful color I've ever seen.  However, all this could not save the movie from a terribly weak concept.  I think Shyamalan lost touch with reality just a little bit.  I still like the movie just because it is so pretty, but it had no real substance.  The horror part of the movie doesn't really seem to go with the premise at all.  Indecision is a killer.  Tales of Symphonia is one hell of a game - I've renewed it twice at Blockbuster so far.  It's incredibly deep and the combat system is great fun because it's like combining Soul Calibur with Final Fantasy.  I'm playing through it for a second time to get all the stuff that I missed the first time, but I can see how maybe a third would be required - it's that long.  The voice acting is top notch, too.  GStreamer is pissing me off.  No matter what audio output sink I select, it plays the same half-second or so when a stream starts up - terribly annoying.  I can't use Rhythmbox or Muine (Muine won't even open anymore, complaining about something regarding Mono...) and am stuck with dumpy old XMMS. Fairly disappointing.  Can't seem to find any bugs that match my current problem on Redhat's bugzilla.  I guess I could submit one. 
+     
+    
+</post>
+
+
+</Blog>

@@ -1,0 +1,100 @@
+<Blog>
+
+<date>17,August,2004</date>
+<post>
+
+	 
+      After spending so many days to analyis the Director software, in the end I turn to Flash. I need to get things start and going first.......so finally I have created my first animation sequence using flash. I have done up the basic storyline part but need to consult Andrew about and Game starting part and how to create mouse interface using Flash.  I have change the sequence of my game too....instead of having the having the First Page with 3 buttons for Players to select, I will go through the storyline animation first, then the 3 buttons will appear. The 3 buttons are "START", "INSTRUCTION" &amp; " EXIT". 
+    
+</post>
+
+<date>16,August,2004</date>
+<post>
+
+	 
+      Tonight, after reading through the guide book for the past few days, i try out the programming again, but I still cannot manage to get it done but at least now i know how to stop a continuous looping. I try to programme the changes of buttons once I have my mouseUp, mouseOv, and MouseDn butI dun know what is the thing that I have missed out, it's not working!!! and I'm desparate!  Will try again tonite.....
+    
+</post>
+
+<date>12,August,2004</date>
+<post>
+
+	 
+      After work, I went to the library today to borrow the Macromedia Director 8.5 guidebook....decided to start from the bottom, jumping into the programming script like that will not help me in continuing this project as well as having a clearing picture of this software. I wonder whether should I borrow the Director MX guidebook too......really want to get the first page started as soon as possible. I flip through the "create buttons using mouse input" session, I realise for my game, I will need more on MouseUp, MouseOver,MousePressed command in my programming script. At the [First Page] where user need to select "START", "INSTRUCION"/"HELP" & "EXIT" text buttons, these 3 commands is compulsory.  If cursor is moved to any of these three text buttons, the text will light up, once clicked, the text will be outlines with brighter colour.  Once clicked at the "INSTRUCTION"/"HELP" text button, a page where the story line of this game and method to way this game page will be presented. In this page, a "BACK" button is available for the player to exit.  Once the "BACK" text button is clicked, it will go back to the [First Page] where the 3 text buttons is shown.  The "START" button is where the game start. Player will have to go through all the 3 stages without stopping. If at any stage the player fail to hit and sufficient numbers of heads, he or she will  see the [GAME OVER] page.  On the other hand, if player pass through all the 3 stages, a [ALL STAGE CLEAR] page will be shown.  An "EXIT" text button is available at both [GAME OVER] and [ALL STAGE CLEAR] page for the player to click. Once this text button is clicked, player will go back to the [First Page].  However, during the game if player is able to hit the pop up head continuously without fail, a "WOW" face will be shown at the left hand top corner of the screen. If not, a "Ooiyoh" face will be shown.  This is my basic concept in programming this game. 
+    
+</post>
+
+<date>10,August,2004</date>
+<post>
+
+	 
+      Today, I tried with the Director Programming Script again, but I fail too. Done with the instruction page and done with all the file conversion. I decided to focus and do some progress on the other subject for tonight, anyway, I have neglected that subject quite alot. I felt that I have spent too much time one the game development that I forgot about the other subject. So tonite, I will spend sometimes on the other subject, still haven't thought about the tags lines for the Juice magazine cover yet. Will explore more on this magazines. 
+    
+</post>
+
+<date>09,August,2004</date>
+<post>
+
+	 
+      Today, I spend the whole day to try out the Director programming script, but unsuccessful. Just the first page only, but it's already such a mess. Want to ask Andrew alot of question and want to ask him where and how should I start. I don't know what is missing and I have missed out.  I want to create 3 buttons and everytime when mouse go over, the button will turn red, and when mouse down, button will turn highlight. 3 different buttons will go to different pages. One is the "GAME START", two is the "INSTRUCTION" , three is the "EXIT" button.  
+    
+</post>
+
+<date>08,August,2004</date>
+<post>
+
+	 
+      Took 2 days to redevelope the drawings for all characters and background. Done with the scenario planning and now ready to start with Director. I might want to start with the 3 buttons control first, because i can use that as my Main page. I need more time to read through. 
+    
+</post>
+
+<date>06,August,2004</date>
+<post>
+
+	 
+      Today, I spent alot of time thinking about the story line for my game. Thinking about it's background & character movement. I also had change the name of my game character to 3 little kids instead of a single person.....I thinking this name will make the player feel more closer & familiar to the character in the game.  I have also plan to change this game into a Hide-And-Seek game.  Developing the background venue of this game:  Holes at the backyard, as the background: A mother with 3  very playful kids, player can identify them by the colour of their hair. This three kids digs alots of holes and tunnels at the backyard, his mother is so angry that she want to hit them with a bat. In order to take cover, the 3 kids make use of these holes and tunnels to hide. They crawl around in the tunnel and pop up their head from different holes at a  different timing.  
+    
+</post>
+
+<date>05,August,2004</date>
+<post>
+
+	 
+      Came back late after class, but today we start to go into the programming script of director software. It's very interesting, and I never thought that I can have this chance to create a game of my own. Andrew has voice out some suggestion and changes to my game concept, only then I realise that I have missed out alot of things, hope to make use of this coming long weekend to further improve my work.  Tomorrow, after work, I will first try to do all the necessary changes that Andrew had said and arrange all the pictures before I go into Director.  
+    
+</post>
+
+<date>04,August,2004</date>
+<post>
+
+	 
+      Finally, I got the correct macromedia softwares to install. Had finished with the character development and need to let Andrew to see again,further approval before I go on with further development. Had not started to try the FLASH yet....because I discovered that I cannot convert the vector graphics in PC if I drew it in Mac. Need to find further solution. Will think about the time line tomorrow. But the 1st time line is as below:  2 weeks: 22/July/04 ~05/Aug/04 1. To draw and develope  the characters in game. 2. Plan the sequence and ways to play the game. 3. Readjustment & finalising of  characters in the game 4.Story line (Might need further improvement)  
+    
+</post>
+
+<date>03,August,2004</date>
+<post>
+
+	 
+      Yesterday, i finally managed to get some macromedia software from friends, but I have not started with it yet. For today, I have spend quite alot of time on other subject but i will try to do some development for multimedia as well. I have planned to continue with the character development and the story line today.  
+    
+</post>
+
+<date>02,August,2004</date>
+<post>
+
+	 
+      I did not touch any school work today. Busy doing household chores after I knock off from work, I know that I should not gives such an excuse but, this is not.......hope there is some understanding. 
+    
+</post>
+
+<date>01,August,2004</date>
+<post>
+
+	 
+      Came back late last night, still pondering about what Andrew has taught. Start to have great interest in FLASH and would like to find the CD rom and handbook soon, so i can start to explore further development of character for game. Still thinking about the story line and might want to name the character as Jayce. (Hope he teach me more about FLASH if possible)  A simple story line like Jayce is a very naughty and energetic boy who has make his mother angry and mother is so angry that she is chasing Jayce around....to hide from his mum...Jayce will hide among the metal pails. So on the other hand, player is in the position of mum, who will try to find and hit Jayce with a toy hammer, everytime he pop up his head with a naughty face from the metal pail.  Hope to make this game look cute, playful and colorful......but not violent and disgusting. I might want to develop 3 to 4 type of naughty faces of Jayce....so everytime when Jayce pop up his head from the metal pail, player will see 3 to 4 different type of naughty faces.  This is what I have in my brain for today.....will try to find the Flash software for PC first... (sigh~~)
+    
+</post>
+
+
+</Blog>
