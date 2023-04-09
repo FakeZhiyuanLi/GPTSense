@@ -19,3 +19,16 @@ Tensorflow text classification model trained on 32,000 examples of OpenAI GPT-3.
 ```
 flask run
 ```
+![empty text](https://i.imgur.com/eV3CWv8.png)
+
+Enter text into input area (works best between 5-30 lines)
+Click submit
+
+![with text](https://imgur.com/H5ZxQDg)
+Result shows between 0-100% chance of chatGPT response
+Percentages above 60% are likely chatGPT, can be false positive at times
+Percentages abobe 90% are most likely chatGPT, can also be false positive
+
+![history](https://imgur.com/9bi2V06)
+Scroll down for a history of past checks
+Click on the box to copy the response
