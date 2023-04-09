@@ -1,9 +1,13 @@
 # GPTSense - ChatGPT Classifier
 
 Daniel Ke (Front end)
+
 Michael Xu (Front end)
+
 Zhiyuan Li (Back end, AI)
+
 Aiden Lundberg (Pitch, idea)
+
 
 ## Dependencies
 ```
