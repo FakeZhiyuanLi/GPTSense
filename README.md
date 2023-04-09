@@ -14,8 +14,12 @@ Aiden Lundberg (Pitch, idea)
 ```
 git clone git@github.com:FakeZhiyuanLi/GPTSense.git
 cd GPTSense
+python -m venv env
+./env/bin/activate
 pip install requirements.txt
 ```
+
+Created with python version 3.9.12
 
 ## About
 Tensorflow text classification model trained on 32,000 examples of OpenAI GPT-3.5-Turbo API and 10,000 examples of human responses scraped from blogs
