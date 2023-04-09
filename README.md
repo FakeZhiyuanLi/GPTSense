@@ -9,6 +9,7 @@ Zhiyuan Li (Back end, AI)
 Aiden Lundberg (Pitch, idea)
 
 
+
 ## Dependencies
 ```
 git clone git@github.com:FakeZhiyuanLi/GPTSense.git
