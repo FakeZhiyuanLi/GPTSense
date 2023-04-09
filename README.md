@@ -1,7 +1,7 @@
 # GPTSense - ChatGPT Classifier
 
 Daniel Ke (Front end)
-Michael Xu (Front end)
+Michael Xe (Front end)
 Zhiyuan Li (Back end, AI)
 Aiden Lundberg (Pitch, emotional support)
 
@@ -36,3 +36,6 @@ Percentages abobe 90% are most likely chatGPT, can also be false positive
 Scroll down for a history of past checks
 
 Click on the box to copy the response
+
+## Credits
+Questions database: https://github.com/xinyadu/nqg
