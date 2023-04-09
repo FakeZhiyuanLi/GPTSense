@@ -40,3 +40,8 @@ Click on the box to copy the response
 
 ## Credits
 Questions database: https://github.com/xinyadu/nqg
+
+## Debug
+### Error installing dependencies
+This is likely the fault of tensorflow-macos and tensorflow-metal, these are macos specific versions of Tensorflow and do not exist on windows
+Solution: delete these modules from requirements.txt and run ``` pip install tensorflow ``` 
