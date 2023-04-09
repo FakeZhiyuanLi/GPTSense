@@ -22,6 +22,7 @@ flask run
 ![empty text](https://i.imgur.com/eV3CWv8.png)
 
 Enter text into input area (works best between 5-30 lines)
+
 Click submit
 
 ![with text](https://i.imgur.com/H5ZxQDg.png)
