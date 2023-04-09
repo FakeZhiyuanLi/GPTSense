@@ -35,7 +35,7 @@ Result shows between 0-100% chance of chatGPT response
 
 
 Percentages above 60% are likely chatGPT, can be false positive at times
-Percentages abobe 90% are most likely chatGPT, can also be false positive
+Percentages above 90% are most likely chatGPT, can also be false positive
 
 ![history](https://i.imgur.com/9bi2V06.png)
 Scroll down for a history of past checks
