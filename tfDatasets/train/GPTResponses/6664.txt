@@ -1,0 +1,1 @@
+There is no specific upper limit for the LER (Luminous Efficacy Rating) of an incandescent lamp, but typical values range from 10 to 20 lumens per watt. However, due to the inefficiency of converting electrical energy to light, incandescent lamps have a much lower LER than other types of lighting, such as LEDs and fluorescent lamps.

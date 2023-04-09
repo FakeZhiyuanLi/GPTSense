@@ -1,0 +1,1 @@
+The motor shaft is rotated by a magnetic field created by the interaction between the stator (stationary part) and rotor (rotating part) of the motor. This magnetic field causes the rotor to "chase" the rotating field and rotate along with it, producing rotational motion.

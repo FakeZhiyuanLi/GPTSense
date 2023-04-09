@@ -1,0 +1,1 @@
+1. Actuator - Stepper motors are commonly used as actuators, which are devices that convert electrical signals into mechanical motion.2. Control system - To operate properly, stepper motors require a control system, which is a device that provides the necessary electrical signals and timing to make the motor move in a precise and controlled manner.

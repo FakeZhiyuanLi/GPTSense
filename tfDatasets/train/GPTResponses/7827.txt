@@ -1,0 +1,1 @@
+Non-standard USB devices can use various types of interfaces, including Ethernet, Serial, Parallel, VGA, HDMI, DisplayPort, SCSI, and FireWire. These devices may also require specialized drivers or software to function properly on a computer. Some examples of non-standard USB devices include musical instruments, gaming controllers, 3D printers, RFID readers, and medical devices.

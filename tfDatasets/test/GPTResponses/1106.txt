@@ -1,0 +1,1 @@
+A capacitor stores energy in an electric field between its two conducting plates. When a voltage is applied to the capacitor, charges gather on the plates, causing an electric field to form. The energy of the electric field is stored as potential energy in the capacitor. The greater the charge and voltage on the plates, the higher the energy stored in the capacitor.

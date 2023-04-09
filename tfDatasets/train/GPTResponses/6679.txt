@@ -1,0 +1,1 @@
+The color rendering index of an incandescent light is typically 100, which is considered the standard for excellent color rendering. Incandescent lights emit a full spectrum of light, allowing colors to appear as they would under natural daylight conditions.

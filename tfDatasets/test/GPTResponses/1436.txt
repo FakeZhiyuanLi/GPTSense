@@ -1,0 +1,1 @@
+Electrolytic capacitors use a thin oxide layer as the dielectric. This oxide layer forms on the surface of the anode (usually aluminum) when an electric current passes through an electrolyte solution. This type of capacitor is called an electrolytic capacitor because the oxide layer is formed through the process of electrolysis.

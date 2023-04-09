@@ -4,7 +4,6 @@ import os
 datasetsPath = os.path.abspath(os.path.join(__file__, "..", "..", "..", "..", "..", "datasets"))
 
 def getBlogResponses(fileName):
-    # file = open("/Users/zhiyuan/Desktop/Hackathon/GPTSense/datasets/Responses/Human/blogs/" + fileName + ".txt")
     file = open(os.path.abspath(os.path.join(datasetsPath, "Responses", "Human", "blogs", fileName + ".txt")))
     
     responses = []
@@ -27,12 +26,10 @@ def getBlogResponses(fileName):
     return responses
 
 def getBlogResponseLength(fileName):
-    # file = open("/Users/zhiyuan/Desktop/Hackathon/GPTSense/datasets/Responses/Human/blogs/" + fileName + ".txt")
     file = open(os.path.abspath(os.path.join(datasetsPath, "Responses", "Human", "blogs", fileName + ".txt")))
     return len(file.readlines())
 
 def getGPTResponses(fileName):
-    # file = open("/Users/zhiyuan/Desktop/Hackathon/GPTSense/datasets/Responses/FactoidResponsesGPT/" + fileName + ".txt")
     file = open(os.path.abspath(os.path.join(datasetsPath, "Responses", "FactoidResponsesGPT", fileName + ".txt")))
     return file.readlines()
 

@@ -1,0 +1,1 @@
+Coupling capacitors are typically used for this purpose. These capacitors allow the AC signal to pass through while blocking any DC bias from the previous stage. Typically, ceramic, film, or electrolytic capacitors can be used for coupling depending on the frequency range and application.

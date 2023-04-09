@@ -1,0 +1,1 @@
+The technique that analyzes the constituent bonds of molecules to identify them is called spectroscopy, specifically infrared spectroscopy. This technique uses the absorption of infrared radiation by the bonds within a molecule to identify the functional groups present, allowing for the identification of the molecule.

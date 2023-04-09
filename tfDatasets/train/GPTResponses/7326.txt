@@ -1,0 +1,1 @@
+Hysteresis synchronous motor poles generate a rotating magnetic field that follows the rotating magnetic field of the stator. The poles produce a constant torque that remains proportional to the applied current, which makes the motor useful in applications requiring precise speed control. The poles also provide a high starting torque and low noise operation.

@@ -1,0 +1,1 @@
+The reduced Planck constant (denoted as ħ), was introduced by Max Planck in 1900, as a simplification of the Planck constant (denoted as h). ħ is defined as ħ = h/2π, where h is the constant that appears in Planck's law of black-body radiation.

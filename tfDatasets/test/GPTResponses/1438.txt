@@ -1,0 +1,1 @@
+The conductivity of the electrolyte decreases at low temperatures due to the reduced mobility of ions. This is because at low temperatures, the kinetic energy of ions decreases, resulting in reduced ion movement and hence reduced conductivity. Additionally, the viscosity of the electrolyte increases at low temperatures which also contributes to the decrease in conductivity.

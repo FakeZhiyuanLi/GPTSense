@@ -1,0 +1,1 @@
+An audio-CD with a bit rate of 1,411.2 kbit/s stores uncompressed audio data in the form of 16-bit linear pulse code modulation (PCM) samples at a sampling rate of 44,100 Hz. This results in a maximum storage capacity of 74 minutes of audio.

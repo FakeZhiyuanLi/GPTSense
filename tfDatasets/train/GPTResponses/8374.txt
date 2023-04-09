@@ -1,0 +1,1 @@
+Unicode can be divided into several categories:1. letters2. numbers3. symbols4. punctuation5. emojis6. control characters7. diacritics and accents8. mathematical operators9. arrows10. currency symbols11. musical notes and symbols12. geometric shapes and symbols13. weather and astrological symbols14. transport and map symbols15. flags and country symbols.

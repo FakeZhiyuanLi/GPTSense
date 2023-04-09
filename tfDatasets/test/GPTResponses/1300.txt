@@ -1,0 +1,1 @@
+shape and orientation. The USB plug has one side that is rectangular and another that is trapezoidal, making it easy to identify the correct orientation for insertion into a USB port. Additionally, the design includes multiple pins and contacts that are arranged in a non-symmetrical pattern to allow for faster data transfer rates and better connectivity.

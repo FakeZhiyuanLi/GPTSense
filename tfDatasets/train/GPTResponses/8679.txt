@@ -1,0 +1,1 @@
+There are three encoding forms for Korean Hangul:1. EUC-KR (Extended Unix Code-KR)2. UTF-8 (Unicode Transformation Format-8)3. Johab (조합형), a discontinued Microsoft proprietary encoding system for Hangul.

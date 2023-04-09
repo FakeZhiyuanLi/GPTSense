@@ -1,0 +1,1 @@
+Slip losses are dissipated in the stator and rotor of an electric machine. They occur when the rotor rotates at a speed slightly slower than the synchronous speed due to the difference in the speed between the stator and rotor. This difference causes a slip frequency and the corresponding energy losses are dissipated as heat in the machine's windings and core.

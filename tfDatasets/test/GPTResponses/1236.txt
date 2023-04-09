@@ -1,0 +1,1 @@
+The equation that describes the magnitude of the electric field close to the middle of the capacitor is:E = σ/ε0,where E is the electric field magnitude, σ is the surface charge density of the capacitor plates, and ε0 is the permittivity of free space.

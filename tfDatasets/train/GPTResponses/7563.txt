@@ -1,0 +1,1 @@
+the leaf spring attaches to the plug. This is because during the movement, the leaf spring experiences a bending moment at the point of attachment, which creates the highest stress concentration in that area.

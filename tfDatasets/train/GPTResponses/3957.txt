@@ -1,0 +1,1 @@
+There are several software programs that can perform audio and/or video compression, including:1. Handbrake2. VLC Media Player3. Adobe Media Encoder4. FFmpeg5. Audacity6. WinZip7. QuickTime Player8. Microsoft Expression Encoder9. MediaCoder10. Any Video Converter

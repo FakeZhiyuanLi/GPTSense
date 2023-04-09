@@ -1,0 +1,1 @@
+Isomorphic groups carry the same algebraic structure and have the same group properties, such as the same order, the same group operation, and the same number of subgroups of a given order. This means that they behave in the same way under group operations and that any group property that holds for one is also true for the other.

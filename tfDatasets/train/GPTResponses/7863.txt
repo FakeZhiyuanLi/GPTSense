@@ -1,0 +1,1 @@
+During a reset, USB 2.0 devices use the USB protocol known as "Reset signaling". This protocol is used to re-establish communication with the host computer after a device has been disconnected or powered off.

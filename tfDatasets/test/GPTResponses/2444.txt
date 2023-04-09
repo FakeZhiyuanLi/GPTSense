@@ -1,0 +1,1 @@
+Repeatedly closing off a compartment of a vacuum allows the pressure to decrease inside the compartment, resulting in a stronger vacuum. This is because each time the compartment is closed off, less air is present and thus less pressure. As a result, the remaining air molecules collide less frequently with the walls of the compartment and create less pressure.

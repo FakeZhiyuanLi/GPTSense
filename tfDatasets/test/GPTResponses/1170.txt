@@ -1,0 +1,1 @@
+USB has effectively replaced a variety of older computer peripheral connection standards such as parallel ports, serial ports, and PS/2 ports. It has also replaced other data transfer methods like floppy disks, CDs, and DVDs for small file transfers. Additionally, USB has largely replaced legacy connectors like SCSI, FireWire, and PC Card/CardBus interfaces.

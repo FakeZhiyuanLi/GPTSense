@@ -1,0 +1,1 @@
+A light meter or the camera's built-in light meter is used to discover the right exposure parameters by measuring the amount of light in a scene and providing recommendations for settings such as aperture, shutter speed, and ISO.

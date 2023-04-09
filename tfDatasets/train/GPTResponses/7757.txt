@@ -1,0 +1,1 @@
+Most peripheral devices such as monitors, printers, speakers, and external hard drives are powered off when the computer is turned off. However, some devices such as USB hubs, gaming keyboards, and mice may remain on if they have their own power source or are designed to receive a small amount of power from the computer's USB port.

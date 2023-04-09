@@ -1,0 +1,1 @@
+LEDs generally have the best color-rendering performance, also known as the Color Rendering Index (CRI). LEDs can have a CRI of over 90, while fluorescent lights typically have a CRI of around 80 and incandescent lights have a CRI of 100. LEDs are also more energy efficient and have a longer lifespan compared to incandescent and fluorescent lights.

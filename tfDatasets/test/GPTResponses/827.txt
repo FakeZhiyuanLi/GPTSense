@@ -1,0 +1,1 @@
+The wavelength of the light emitted by a hot object changes with temperature, known as Wien's law. As the temperature increases, the peak wavelength of the light emitted shifts towards the shorter (blue) end of the spectrum. This means hotter objects emit more blue light and less red light, while cooler objects emit more red light and less blue light.

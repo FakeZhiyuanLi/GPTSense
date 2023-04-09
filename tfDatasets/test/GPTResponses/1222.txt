@@ -1,0 +1,1 @@
+The constant of integration represents the initial charge on the electrodes of the capacitor before the charging process began. This constant is added to the calculated charge obtained from the integration of the current over time to obtain the total charge on the electrodes at any given time.

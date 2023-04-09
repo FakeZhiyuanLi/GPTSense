@@ -1,0 +1,1 @@
+The commutator, which is a rotating switch, prevents the poles of the motor from aligning by reversing the flow of current every half rotation. This causes the magnetic field to constantly change direction and prevents the motor from getting stuck in one position.

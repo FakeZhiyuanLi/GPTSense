@@ -1,0 +1,1 @@
+Bilingual computer processing uses characters from two or more writing systems, such as Latin alphabet and Chinese characters, or Cyrillic alphabet and Arabic script. The specific characters used depend on the languages being processed.

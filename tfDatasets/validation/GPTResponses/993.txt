@@ -1,0 +1,1 @@
+One example of failure testing is a load test, which involves putting an application or system under heavy usage to see how it performs under stress. This can help identify any weaknesses or bottlenecks in the system that may cause it to fail, such as slow response times or crashes. The load test can be performed by simulating high levels of traffic, users, or data input.

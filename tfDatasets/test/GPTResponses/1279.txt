@@ -1,0 +1,1 @@
+is called an Electronic Serial Number (ESN), which identifies the cable and provides information about its manufacturer, specifications, and performance characteristics. The chip also allows for remote monitoring of the cable's performance and provides a way to ensure authenticity and prevent counterfeiting.

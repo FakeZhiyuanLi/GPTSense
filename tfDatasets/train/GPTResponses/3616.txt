@@ -1,0 +1,1 @@
+In the 1970s, IBM used a variety of programming languages including Fortran, COBOL, PL/I, BASIC, and Assembler. These languages were widely used in IBM's mainframe computers and were popular for business and scientific computing.

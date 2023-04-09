@@ -1,0 +1,1 @@
+One type of MCU (Microcontroller) bridge is an I2C bridge. It allows an MCU to communicate with I2C devices such as sensors, EEPROMs, or LCDs. The I2C bridge integrates an I2C interface with the microcontroller, enabling the microcontroller to control or receive data from I2C devices.

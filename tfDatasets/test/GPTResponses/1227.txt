@@ -1,0 +1,1 @@
+The charge density equation for an ideal model of a capacitor is:ρ = Q/Awhere ρ is the charge density (charge per unit volume), Q is the charge stored on one plate of the capacitor, and A is the area of one plate of the capacitor. This assumes that the plates of the capacitor are parallel and have a uniform charge density.

@@ -1,0 +1,1 @@
+Humidity is the factor that produces a higher heat index. The higher the humidity, the less able our bodies are to evaporate sweat, which is our natural mechanism for cooling down. This means we feel hotter than the actual temperature, resulting in a higher heat index.

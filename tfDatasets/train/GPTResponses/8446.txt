@@ -1,0 +1,1 @@
+Groups that combine matrices with matrix multiplication are known as matrix groups. Examples of matrix groups include the general linear group (GL(n)), special linear group (SL(n)), orthogonal group (O(n)), special orthogonal group (SO(n)), and the symplectic group (Sp(n)).

@@ -1,0 +1,1 @@
+A USB (Universal Serial Bus) connects various devices such as a keyboard, mouse, printer, camera, flash drive, external hard drive, smartphone, and other electronic devices to a computer or other compatible devices. It allows the transfer of data, power, and control signals between connected devices.

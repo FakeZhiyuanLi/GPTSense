@@ -15,8 +15,7 @@ valDataset = tf.keras.utils.text_dataset_from_directory(os.path.join(tfDatasetsP
 encodeLayer = layers.TextVectorization(
     max_tokens=10000,
     output_mode='int',
-    output_sequence_length=250,
-    # standardize='lower_and_strip_punctuation'
+    output_sequence_length=250
 )
 
 def getTextFromDataset(text, label):
@@ -34,6 +33,3 @@ def train(directory, modelName, model, epochs):
     if len(os.listdir(directory)) <= 1:
         model.fit(vectorizedTrainDataset, validation_data=vectorizedDevDataset, epochs=epochs)
         model.save_weights(directory + modelName)
-        print("model saved to: " + directory + modelName)
-    else:
-        print("model already exists")

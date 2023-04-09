@@ -1,0 +1,1 @@
+It is not possible to determine the value of a resistor in parallel with a capacitor without additional information. The resistance value and capacitance value of each component would need to be specified.

@@ -1,0 +1,1 @@
+A common method used during regression testing is retesting. Retesting involves running the test cases that have failed previously and verifying that the fixes made to the software have resolved the issues identified.

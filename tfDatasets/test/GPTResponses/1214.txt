@@ -1,0 +1,1 @@
+The charge on the electrodes of a capacitor is equal to the product of the capacitance and the voltage across it. In mathematical terms, Q = CV, where Q is the charge, C is the capacitance and V is the voltage.

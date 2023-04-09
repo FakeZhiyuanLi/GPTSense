@@ -1,0 +1,1 @@
+The two types of testing involved with combinatorial testing are:1. Pairwise testing - where all possible pairs of input parameters are tested together2. Multiple testing - where more than two input parameters are tested together in various combinations.

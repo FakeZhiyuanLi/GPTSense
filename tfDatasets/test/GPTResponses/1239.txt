@@ -1,0 +1,1 @@
+The line integral of the electric field between the plates of a capacitor represents the work done per unit charge to move a charge from one plate to the other. It is also known as the potential difference, or voltage, between the plates of the capacitor. This integral is typically denoted by V, and is a fundamental concept in the study of electricity and electronics.

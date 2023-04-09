@@ -1,0 +1,1 @@
+Firewire was designed for high-speed data transfer between electronic devices such as computers, cameras, and audio interfaces. It was developed by Apple in the 1990s and later standardized as IEEE 1394. It provided faster data transfer rates than other technologies at the time, such as USB.

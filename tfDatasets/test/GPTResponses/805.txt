@@ -1,0 +1,1 @@
+The Stefan-Boltzmann law states that the amount of energy radiated per unit time per unit area from a blackbody is proportional to the fourth power of its absolute temperature. It is expressed as E = σT^4, where E is the energy radiated per unit time per unit area, σ is the Stefan-Boltzmann constant and T is the absolute temperature.

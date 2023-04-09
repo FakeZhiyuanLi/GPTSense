@@ -1,0 +1,1 @@
+There is no specific maximum acceptable delay per cable as it depends on the application or use case. However, in general, a delay of up to 50-100 nanoseconds per meter is considered acceptable for most communication applications. Beyond this, the delay may impact the accuracy and reliability of the communication system.

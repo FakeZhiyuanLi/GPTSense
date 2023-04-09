@@ -1,0 +1,1 @@
+The method of interest in determining the Planck constant is the Photoelectric effect experiment. In this experiment, the energy of the incident photons is used to eject electrons from a metal plate. By measuring the energy of the ejected electrons and the frequency of the incident light, the Planck constant can be determined.

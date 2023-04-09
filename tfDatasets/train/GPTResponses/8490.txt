@@ -1,0 +1,1 @@
+The group of symmetries of an equilateral triangle is the dihedral group of order 6, denoted by D3 or Dih3. It consists of the identity element, two rotations of 120 degrees (clockwise and counterclockwise), and three reflections (one about each of the three axes passing through the vertices and the midpoints of opposite edges).

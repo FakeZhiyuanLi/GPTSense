@@ -1,0 +1,1 @@
+It is not possible to determine which specific company uses the Unicode fallback font, as it is a standard font that is commonly used when a device or application does not have the necessary font to display certain characters. It is used across a wide range of platforms and technologies, including web browsers, operating systems, and applications.

@@ -1,0 +1,1 @@
+Capacitors comprised of ceramic disks with metallic coatings typically have capacitance values ranging from a few picofarads (pF) to a few microfarads (μF). Therefore, the suitable order of magnitude of capacitance for these types of capacitors can be between 10^-12 F to 10^-6 F.

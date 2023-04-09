@@ -1,0 +1,1 @@
+An atom of uranium (U) has 92 electrons. The electron configuration for uranium is [Rn] 5f3 6d1 7s2. To determine the number of valence electrons, we look at the outermost energy level, which is the seventh energy level in the case of uranium. The valence electrons are the electrons in the outermost energy level, so in the case of uranium, there are 2 valence electrons.

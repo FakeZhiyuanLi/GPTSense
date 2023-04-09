@@ -1,0 +1,1 @@
+If load increases, the current drawn also increases. This is according to Ohm's Law which states that the current flowing through a conductor is directly proportional to the voltage applied to it and inversely proportional to its resistance. As the load, or resistance, decreases, the current drawn from the voltage source increases.

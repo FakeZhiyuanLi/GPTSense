@@ -1,0 +1,1 @@
+Multics used a tool called "compress" to simplify plain text data. This tool was able to compress the data by removing redundant information and encoding the remaining information in a more efficient manner, resulting in smaller file sizes.

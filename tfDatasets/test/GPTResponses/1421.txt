@@ -1,0 +1,1 @@
+Traditionally, variable capacitors have been used in radio tuning circuits, as they allow for fine-tuning of the radio frequency by changing the capacitance. Ceramic capacitors and mica capacitors have also been used in such circuits. Nowadays, digital tuning circuits use other types of capacitors, such as surface mount capacitors.

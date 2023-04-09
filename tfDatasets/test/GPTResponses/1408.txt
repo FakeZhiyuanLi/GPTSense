@@ -1,0 +1,1 @@
+The most recent standard for external drive connectivity is USB 4.0, which was released in September 2019. It offers faster transfer speeds (up to 40 Gbps), improved power delivery, and better compatibility with multiple data and display protocols. It is also backward compatible with previous versions of USB.

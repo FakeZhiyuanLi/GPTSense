@@ -1,0 +1,1 @@
+UTF-8 uses a variable number of bytes to represent different characters. It can use 1, 2, 3, or 4 bytes depending on the Unicode code point value of the character being encoded. The most commonly used characters in UTF-8 can be represented using 1 byte, while less frequently used characters require more bytes.

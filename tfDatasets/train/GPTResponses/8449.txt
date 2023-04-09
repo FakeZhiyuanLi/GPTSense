@@ -1,0 +1,1 @@
+The term that describes subgroups of the general linear group is "subgroups of GL(n, K)", where n is the dimension of the vector space and K is the underlying field. These subgroups can include special linear group, orthogonal group, symplectic group, and others.

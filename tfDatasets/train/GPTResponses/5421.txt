@@ -1,0 +1,1 @@
+The HRF (Humanitarian Response Field) is a device used to measure the distance between a drone and a target location. It is also capable of measuring the altitude, speed, and direction of the drone. Additionally, it can capture photos and videos in real-time, which can be helpful for analysis and decision-making.

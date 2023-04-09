@@ -1,0 +1,1 @@
+There is only one way to define luminous efficacy, which is defined as the ratio of the total luminous flux produced by a light source to the total power consumption. It is usually expressed in units of lumens per watt (lm/W).

@@ -1,0 +1,1 @@
+Meteorites absorb radioactive isotopes such as uranium, thorium, and potassium, which decay over time at a known rate. By measuring the amount of these isotopes and their decay products, scientists can determine the age of the meteorite. This is known as radiometric dating.

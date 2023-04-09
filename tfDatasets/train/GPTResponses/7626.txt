@@ -1,0 +1,1 @@
+One way to help minimize capacitor dangers is to safely discharge capacitors before handling them. This can be done by either shorting the two terminals of the capacitor with a wire or using a specially designed discharge tool. By discharging the capacitor, any stored electrical charge will be safely released, reducing the risk of electric shock or explosion.

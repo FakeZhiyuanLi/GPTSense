@@ -1,0 +1,1 @@
+It depends on the group. Knowing that p = 5 only tells us that the order of the group is a multiple of 5, but we need more information about the group (such as its structure or additional constraints) to determine the exact number of group elements.

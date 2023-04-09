@@ -1,0 +1,1 @@
+The solutions of polynomials are expressed using the following:1. Real numbers2. Complex numbers3. Radicals (square roots, cube roots, etc.)4. Exponents5. Variables (sometimes referred to as "parameters")6. Inequalities (when the solutions form a range of values)7. Numeric approximations (when exact solutions cannot be determined)

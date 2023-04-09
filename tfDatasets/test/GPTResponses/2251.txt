@@ -1,0 +1,1 @@
+A Pirani gauge is generally accurate within the pressure range of 10^-3 to 10^-1 torr. However, with careful calibration and correction factors, it can be used up to a pressure of approximately 1 torr. Beyond this range, the accuracy of the gauge decreases significantly.

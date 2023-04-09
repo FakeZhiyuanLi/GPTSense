@@ -1,0 +1,1 @@
+The Polish language shares its handling of ordinal format with Czech. In both languages, ordinal numbers behave like adjectives and their endings change to match the gender, case, and number of the noun they are describing.

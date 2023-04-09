@@ -1,0 +1,1 @@
+The numbers in the names of the encodings (such as UTF-8, UTF-16, ISO-8859-1) indicate the number of bits used to represent each character in the encoding scheme. For example, UTF-8 uses 8 bits to represent a character, while UTF-16 uses 16 bits. The number of bits used determines the number of characters that can be represented in the encoding scheme.

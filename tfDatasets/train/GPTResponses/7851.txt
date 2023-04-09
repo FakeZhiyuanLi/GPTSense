@@ -1,0 +1,1 @@
+USB uses a technique called bit stuffing to ensure a minimum density of signal transitions in the bitstream. Bit stuffing involves inserting extra bits into the data stream whenever a pattern of consecutive identical bits is detected, in order to force a transition and maintain the minimum density. This helps to improve the reliability and accuracy of data transmission over USB.

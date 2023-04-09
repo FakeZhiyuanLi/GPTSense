@@ -1,0 +1,1 @@
+Capacitors are assumed to have no net electric charge. This means that the positive and negative charges are equal in magnitude and cancel each other out, resulting in an overall neutral charge. However, during the charging and discharging process, the net charge may temporarily become positive or negative.

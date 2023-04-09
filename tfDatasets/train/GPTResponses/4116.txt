@@ -1,0 +1,1 @@
+To find a date that is four days less in the Julian calendar, you would subtract four days from the given date. For example, if the original date in the Julian calendar was March 10th, subtracting four days would give you March 6th.

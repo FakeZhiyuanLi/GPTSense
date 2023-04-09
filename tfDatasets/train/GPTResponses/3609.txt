@@ -1,0 +1,1 @@
+A programming language, such as Python or Java, is an example of a language that is not restricted to properties of human language. These languages are specifically designed for programming computers, and they follow a set of rules and syntax that are not necessarily based on human linguistic structure or communication.

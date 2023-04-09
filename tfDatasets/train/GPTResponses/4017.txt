@@ -1,0 +1,1 @@
+The H.323 technique is a standard for communication protocols used in video conferencing, voice over IP (VoIP), and multimedia communications. It is also known as the International Telecommunication Union (ITU) H.323 standard.

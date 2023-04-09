@@ -1,0 +1,1 @@
+is known as the Uncertainty Principle, which states that the more precisely we know the position of a particle, the less precisely we can know its momentum, and vice versa. This principle is a fundamental concept in quantum mechanics and represents the limitations of our ability to measure certain properties of particles.

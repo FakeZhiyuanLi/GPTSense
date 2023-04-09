@@ -1,0 +1,1 @@
+Leakage current and parasitic effects are assumed to have a non-zero value in the equation for a realistic capacitor. This is because all physical capacitors will have some amount of leakage current and parasitic effects due to the imperfections in their construction and the materials used. These values may be small, but they cannot be assumed to be zero.

@@ -1,0 +1,1 @@
+Large, slow servos can use various types of motors such as brushed DC motors, brushless DC motors, stepper motors, and even hydraulic or pneumatic actuators in some cases. However, the specific type of motor used will depend on the requirements of the application and the desired performance characteristics of the servo.

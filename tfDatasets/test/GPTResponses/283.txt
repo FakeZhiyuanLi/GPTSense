@@ -1,1 +1,1 @@
-encoding at lower bit rates, as it may not be as efficient at compressing the audio data. Additionally, it may introduce artifacts or distortions at lower bit rates that are not present at higher bit rates.
+VHS tapes store their information in the form of analog signals on magnetic tape. The tape is coated with a magnetic oxide that can be magnetized in a specific pattern by recording an analog video signal onto it. The playback device reads the magnetized pattern and converts it back into the analog video signal for display on a TV screen.

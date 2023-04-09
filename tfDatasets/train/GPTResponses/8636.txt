@@ -1,0 +1,1 @@
+There is no specific number as it depends on how one defines "majority of Unicode's character repertoire". However, many fonts, such as Arial Unicode MS, Code2000, and Segoe UI Symbol, support a wide range of Unicode characters.

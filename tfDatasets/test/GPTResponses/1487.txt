@@ -1,0 +1,1 @@
+The leads of an axially configured capacitor are arranged such that one lead is on the top and the other lead is on the bottom. The two leads are placed at opposite ends of the capacitor body and are usually made of metal. The arrangement allows for easy connection to other components in a circuit.

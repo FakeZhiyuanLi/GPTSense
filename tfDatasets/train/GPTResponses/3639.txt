@@ -1,0 +1,1 @@
+TWX (Teletype Writer eXchange) used a proprietary character set called "TTY" (Teletype) before ASCII. It consisted of 64 characters, including letters, numbers, and special symbols, and was only compatible with Teletype machines. However, TTY became obsolete as ASCII gained popularity in the 1960s and 1970s.

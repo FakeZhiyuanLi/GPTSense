@@ -1,0 +1,1 @@
+Wien's spectrum model was unable to accurately predict the long wavelength or low-frequency end of the spectrum, also known as the infrared region. This led to the development of other theories and models, such as Planck's model, which were more successful in explaining the full range of electromagnetic radiation.

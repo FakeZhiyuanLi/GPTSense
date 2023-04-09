@@ -1,0 +1,1 @@
+Full-bandwidth devices other than hubs can act as endpoints or nodes and independently communicate with other nodes on the network. They can also route data to their intended destination without requiring all data to pass through a central hub. Examples of full-bandwidth devices include switches, routers, and wireless access points.

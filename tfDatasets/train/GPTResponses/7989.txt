@@ -1,0 +1,1 @@
+Esata (external serial advanced technology attachment) does not supply power to external devices such as portable hard drives or optical drives. This means that these devices will require their own power source to function properly when connected via Esata.

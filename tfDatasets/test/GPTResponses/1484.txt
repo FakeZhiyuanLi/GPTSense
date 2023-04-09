@@ -1,0 +1,1 @@
+One type of configuration where a capacitor may have its connecting leads organized is a radial lead configuration. In this configuration, the leads of the capacitor are located on the same side and are typically arranged in a radial pattern around the capacitor body. This allows for easy installation on a PCB and provides efficient use of the available board space.

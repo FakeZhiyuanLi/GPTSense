@@ -1,0 +1,1 @@
+ASCII (American Standard Code for Information Interchange) requires 128 codes, as it uses a 7-bit binary system (2^7 = 128) to represent each character. The first 32 codes are control characters that do not represent printable characters, while the remaining 96 codes represent letters, numbers, punctuation, and other special characters.

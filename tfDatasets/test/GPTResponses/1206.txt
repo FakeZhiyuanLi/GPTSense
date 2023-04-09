@@ -1,0 +1,1 @@
+Conductors hold charges on their facing surfaces that are opposite in polarity to each other. For example, if one surface is positively charged, the other surface will be negatively charged. This is due to the redistribution of electrons within the conductor, which creates an electric field that attracts or repels charges on its surface.

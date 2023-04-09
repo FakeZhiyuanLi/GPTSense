@@ -1,0 +1,1 @@
+The rectified version of ASCII is called Unicode. Unicode is a character encoding standard that includes characters from many different scripts and languages, including Latin, Greek, Cyrillic, Hebrew, Arabic, Chinese, Japanese, and Korean. Unicode is backward compatible with ASCII, meaning that every ASCII character occupies the same code point in Unicode.

@@ -1,0 +1,1 @@
+One example of a cyclic group that satisfies the expression Zn = 1 is the group Z6 = {0,1,2,3,4,5} under addition modulo 6. The identity element of this group is 0, and any element raised to the power of 6 (i.e. multiplied by 6) will result in 0, satisfying the condition Z6 = 1.

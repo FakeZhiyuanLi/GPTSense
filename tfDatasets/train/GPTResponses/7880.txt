@@ -1,0 +1,1 @@
+The read speed for USB 3.0 can vary depending on the specific device and the conditions it is used in. However, USB 3.0 has a theoretical maximum transfer rate of 5 Gbps (gigabits per second). In practical use, the average read speed for USB 3.0 drives is between 100-200 MB/s (megabytes per second). Some high-end USB 3.0 drives may offer read speeds of up to 400 MB/s or more.

@@ -1,0 +1,1 @@
+In the gaseous diffusion process, uranium hexafluoride (UF6) gas is diffused through a silver-zinc (AgZ) membrane. The membrane allows lighter isotopes (such as Uranium-235) to pass through more easily than heavier isotopes (such as Uranium-238), resulting in an enrichment of the lighter isotope.

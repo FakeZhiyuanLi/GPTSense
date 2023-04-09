@@ -1,0 +1,1 @@
+These are commonly known as "spoofing attacks". Examples include IP spoofing, where an attacker sends a packet with a fake source IP address to trick the victim system into thinking the packet is coming from a trusted source, and DNS spoofing, where an attacker redirects a domain name to a different IP address in order to intercept traffic intended for that domain.

@@ -2,7 +2,6 @@ import os
 from utils.getResponses import getBlogResponses, getGPTResponses, getBlogResponseLength
 
 GPTSensePath = os.path.abspath(os.path.join(__file__, "..", "..", "..", ".."))
-# tfDatasetBase = "/Users/zhiyuan/Desktop/Hackathon/GPTSense/tfDatasets/"
 tfDatasetBase = os.path.join(GPTSensePath, "tfDatasets")
 
 def createHumanResponses(): 
@@ -42,7 +41,7 @@ def createGPTResponses():
         for split in splits.keys():
             fileIdx = 0
             response = ""
-            for i in range(splits[split]):
+            for _ in range(splits[split]):
                 if idx >= len(GPTResponses):
                     break
 

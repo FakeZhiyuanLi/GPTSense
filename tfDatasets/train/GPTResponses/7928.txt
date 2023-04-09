@@ -1,0 +1,1 @@
+A data packet must always be preceded by a header, which contains information such as the source and destination addresses, packet length, and other control information needed for the proper transmission of the data.

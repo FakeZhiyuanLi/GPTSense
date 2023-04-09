@@ -1,0 +1,1 @@
+A: An indirect measurement of pressure is most often calibrated by a direct measurement of pressure using a calibrated reference instrument. This reference instrument should have a known and stable reading that serves as a standard against which other measurements can be compared.

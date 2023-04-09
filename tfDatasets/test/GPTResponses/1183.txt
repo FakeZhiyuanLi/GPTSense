@@ -1,0 +1,1 @@
+Bell Labs created ceramic capacitors in the 1950s. These capacitors were made with ceramic material and had relatively high capacitance values. They were commonly used in electronic circuits for filtering and decoupling purposes.

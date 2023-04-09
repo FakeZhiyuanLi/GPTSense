@@ -1,0 +1,1 @@
+One example of a limitation on the system could be constrained resources, such as a limited amount of computer processing power or memory, which can limit the ability of the system to handle large amounts of data or perform complex tasks efficiently. Another example could be legal limitations or regulations that restrict certain actions or features of the system.

@@ -1,0 +1,1 @@
+A capacitor can pick up a transient charge from any type of electric source, including electrical noise, electromagnetic interference, surges or spikes in voltage, lightning strikes, and other types of electrical disturbances.

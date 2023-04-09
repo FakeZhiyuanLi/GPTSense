@@ -1,0 +1,1 @@
+The highest possible Color Rendering Index (CRI) score is 100. This score indicates that the light source accurately displays all colors across the visible spectrum. However, some special lighting applications, such as in medical settings or for art galleries, may require a CRI score of 90 or higher.

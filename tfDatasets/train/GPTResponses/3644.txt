@@ -1,0 +1,1 @@
+RFC 2822 refers to the syntax for Internet Message Format, and it defines the control characters used in email messages. These control characters include the carriage return (CR), line feed (LF), and the combination of both (CRLF). These characters are used for formatting and indicating the end of a line or message segment in email messages.

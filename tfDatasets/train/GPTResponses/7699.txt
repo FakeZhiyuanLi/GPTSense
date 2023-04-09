@@ -1,0 +1,1 @@
+A charging port supplies a direct current (DC) electrical charge to a device's battery. The amount of charging current supplied depends on the charging port's output specifications and the specific charging requirements of the device being charged. Charging ports can also provide data transfer capabilities, allowing devices to be synced with a computer or other external devices.

@@ -1,0 +1,1 @@
+The pole pieces of a universal motor were typically constructed from laminated silicon steel sheets to reduce eddy current losses and increase magnetic flux density. However, some motors may also use other materials such as non-oriented electrical steel or high-permeability ferrites for their pole pieces.

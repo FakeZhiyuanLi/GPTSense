@@ -1,0 +1,1 @@
+The capacitance of the capacitor is varied when vibration moves the conducting plates. As the plates move closer together, the capacitance increases and as they move farther apart, the capacitance decreases. This variation in capacitance can be used in various applications such as microphones and accelerometers.

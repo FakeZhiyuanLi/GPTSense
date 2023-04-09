@@ -1,0 +1,1 @@
+One advantage of using an H.323 technique is that it is a standardized protocol for videoconferencing, which means that devices from different manufacturers can communicate with each other seamlessly without requiring additional software or hardware. This allows for greater interoperability and flexibility when setting up videoconferencing systems.

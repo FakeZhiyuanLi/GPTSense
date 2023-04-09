@@ -1,0 +1,1 @@
+Thorium reactors do not use uranium-235 as fuel. Instead, they use thorium-232 as a fertile material that can be converted into fissile material (uranium-233) through neutron absorption and subsequent radioactive decay.

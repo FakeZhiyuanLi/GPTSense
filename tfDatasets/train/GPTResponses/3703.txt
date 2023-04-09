@@ -1,0 +1,1 @@
+The "escape" character (backslash \) was originally intended to indicate to the computer that the next character or sequence of characters should be treated as a special character or command. It was first widely used in the programming language C, where it allowed certain characters to be used within strings and other data types without causing conflicts with the language syntax.

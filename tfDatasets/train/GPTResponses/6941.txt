@@ -1,0 +1,1 @@
+Examples of general-purpose storage devices include:1. Hard Disk Drive (HDD)2. Solid State Drive (SSD)3. USB Flash Drive4. Memory Card5. External Hard Drive6. Network Attached Storage (NAS)7. Optical Disk (CD, DVD, Blu-ray)8. Magnetic Tape Drive9. Cloud Storage10. Internal Storage of computers (RAM, ROM)

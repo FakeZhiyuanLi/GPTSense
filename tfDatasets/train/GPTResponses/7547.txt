@@ -1,0 +1,1 @@
+The use of shielding and twisted pair wiring provides a degree of protection from interference with the USB signal. Additionally, USB cables may feature ferrite beads or other components that help filter out electromagnetic interference (EMI) and radio frequency interference (RFI).

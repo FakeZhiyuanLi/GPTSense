@@ -1,0 +1,1 @@
+Currency readers are meant to assist visually impaired and blind individuals in identifying and distinguishing different types of currencies. They also help these individuals in determining the denomination of each bill or note, making it easier for them to participate in daily financial transactions.

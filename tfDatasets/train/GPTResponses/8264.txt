@@ -1,0 +1,1 @@
+A composition of two rotations is a transformation where a figure is first rotated around a fixed point and then rotated again around another fixed point. The resulting transformation is a combination of the two original rotations.

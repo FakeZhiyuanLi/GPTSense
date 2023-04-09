@@ -1,0 +1,1 @@
+A lens with a setting of f/1.4 allows twice as much light to hit the focal plane compared to a setting of f/2. This is because f/1.4 has a wider aperture opening than f/2, allowing more light to pass through the lens to the camera sensor or film.

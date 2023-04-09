@@ -1,0 +1,1 @@
+Unicode surpassed ASCII. Unicode is a universal character encoding standard that supports multiple scripts and languages, including ASCII. It allows representation of over 100,000 different characters from various writing systems around the world compared to ASCII's limited character set of 128 characters.

@@ -1,0 +1,1 @@
+Later designs of capacitors used in radio tuning circuits no longer had air dielectric. Instead, they used paper or plastic dielectric materials, which were more stable and resistant to changes in temperature and humidity. This led to greater accuracy and stability in radio tuning, and allowed for the development of more advanced radio technology.

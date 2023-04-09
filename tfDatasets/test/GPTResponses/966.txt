@@ -1,0 +1,1 @@
+No photoelectrons will be emitted when the photon energy is less than the work function of the material because the photons do not have enough energy to overcome the binding energy of the electrons in the material.

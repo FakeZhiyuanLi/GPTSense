@@ -1,0 +1,1 @@
+The SEPTA (Southeastern Pennsylvania Transportation Authority) system uses different voltages for different modes of transportation.- The Regional Rail uses 12 kV AC overhead electric wire.- The trolley lines use 600 V DC overhead electric wire.- The subway lines use 600 V DC third rail electric supply.

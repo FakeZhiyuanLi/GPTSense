@@ -1,0 +1,1 @@
+The second winding of a squirrel cage motor typically uses start capacitors or run capacitors. These capacitors provide an electrical phase shift to create a rotating magnetic field, allowing the motor to start and run efficiently. The specific type and size of capacitor used depends on the motor's power rating and design.

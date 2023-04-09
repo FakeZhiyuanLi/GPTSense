@@ -1,0 +1,1 @@
+A bi-directional endpoint accepts input and output data between two points. This means it can receive information from one source and transmit information back to that same source. It enables communication to occur in both directions between two devices or systems.

@@ -1,0 +1,1 @@
+The temperature at which ferroelectric materials undergo a phase transition and lose their spontaneous polarization is known as the Curie temperature (Tc). This temperature varies depending on the specific materials and their composition. For example, lead zirconate titanate (PZT) has a Tc between 250-380°C, while barium titanate (BaTiO3) has a Tc of around 120°C.

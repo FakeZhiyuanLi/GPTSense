@@ -1,0 +1,1 @@
+The term "ultraviolet catastrophe" was coined by physicist Paul Ehrenfest in 1911 to describe the failure of classical physics to explain the observed distribution of blackbody radiation at high frequencies.

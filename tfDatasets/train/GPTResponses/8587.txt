@@ -1,0 +1,1 @@
+WGL (OpenGL for Windows) has been supported by Microsoft Windows since Windows 95. However, the exact version of WGL support may vary depending on the version of Windows. For example, Windows 10 supports WGL version 1.0 through 1.1, while Windows 7 only supports WGL version 1.0.

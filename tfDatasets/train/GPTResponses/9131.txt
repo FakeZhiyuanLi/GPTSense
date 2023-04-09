@@ -1,0 +1,1 @@
+The topic of von Neumann's work at Princeton in 1931-32 was the mathematical foundations of quantum mechanics. He worked on developing a mathematical framework for the theory, which became known as the Hilbert space formulation of quantum mechanics.

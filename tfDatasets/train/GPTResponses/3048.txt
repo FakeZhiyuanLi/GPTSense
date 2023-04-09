@@ -1,0 +1,1 @@
+The differential analyzer used mechanical mechanisms, such as gears and linkages, to perform calculations. It was a type of analog computer that used physical quantities, such as rotation angles and distances, to represent and manipulate mathematical variables.

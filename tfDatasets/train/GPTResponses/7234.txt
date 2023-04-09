@@ -1,0 +1,1 @@
+A resistor can control the flow of electrical current, limit the amount of current that passes through a particular circuit, regulate voltage levels, and protect components from damage due to excessive current or voltage. It can also be used to divide and distribute voltage within a circuit, adjust the gain of an amplifier, and filter out unwanted frequencies.

@@ -1,0 +1,1 @@
+A governor is typically connected to an engine or a machine that requires speed or pressure control. It helps regulate the speed or pressure of the machine to maintain a consistent output despite changes in the load or demand. Some examples of machines that use governors include generators, steam engines, and hydraulic turbines.

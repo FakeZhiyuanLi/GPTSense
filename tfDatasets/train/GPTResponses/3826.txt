@@ -1,0 +1,1 @@
+One example of a system that meets EAL6 is the Security-Enhanced Linux (SELinux). SELinux is a mandatory access control (MAC) mechanism implemented in the Linux kernel. It is designed to provide a higher level of security by enforcing mandatory access control policies on all processes and files on a system. SELinux has been certified to EAL6+ under the Common Criteria.

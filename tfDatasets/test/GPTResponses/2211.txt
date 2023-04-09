@@ -1,0 +1,1 @@
+If the absolute pressure is equal to the current atmospheric pressure, it means that there is no additional pressure above or below the current atmospheric pressure. In other words, the pressure being measured is the total pressure, including both the atmospheric pressure and any additional pressure applied.

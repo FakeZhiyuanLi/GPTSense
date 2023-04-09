@@ -1,0 +1,1 @@
+The Bohr magneton is the magnetic moment of an electron under the restriction that the electron is in a circular orbit around a nucleus with a fixed angular momentum. It also assumes that the electron has no spin, is non-relativistic, and is unaffected by any external magnetic fields.

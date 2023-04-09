@@ -1,0 +1,1 @@
+A finite group includes a finite set of elements, an identity element, an inverse element for each element, and a binary operation that satisfies the associative, commutative, and distributive properties.

@@ -1,0 +1,1 @@
+Most satellites operate in Low Earth Orbit (LEO) which is around 400 km to 2,000 km above the Earth's surface. However, some satellites also operate in Medium Earth Orbit (MEO) and Geostationary Earth Orbit (GEO), which are further away from Earth. MEO is around 2,000 km to 36,000 km above the Earth's surface, while GEO is around 36,000 km above the Earth's surface.

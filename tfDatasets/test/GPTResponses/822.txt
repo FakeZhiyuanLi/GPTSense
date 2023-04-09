@@ -1,0 +1,1 @@
+The Stefan-Boltzmann law predicts that emitted energy increases with temperature, stating that the total amount of energy radiated per unit surface area of a black body per unit of time is proportional to the fourth power of the absolute temperature.

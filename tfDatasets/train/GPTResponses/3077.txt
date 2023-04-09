@@ -1,0 +1,1 @@
+50i refers to a video signal that has 50 interlaced frames per second. Interlaced video displays alternate lines of pixels in each frame, resulting in a smoother video playback than progressive scan at the same frame rate.

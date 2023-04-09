@@ -1,0 +1,1 @@
+Windows supports a wide range of Unicode scripts and character sets, including ASCII, Latin-1, Latin Extended-A, Latin Extended-B, Latin Extended Additional, Cyrillic, Greek, Hebrew, Arabic, Thai, Vietnamese, Chinese, Japanese, and Korean. Additionally, Windows provides support for various Unicode encodings, such as UTF-8, UTF-16, and UTF-32.

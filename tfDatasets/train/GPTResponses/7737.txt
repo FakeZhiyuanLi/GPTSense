@@ -1,0 +1,1 @@
+are commonly known as bidirectional data transfer systems. This means that data can be transferred in both directions between the host computer and the connected device. This allows for a more efficient and versatile capability to exchange information and perform a variety of tasks between the devices.

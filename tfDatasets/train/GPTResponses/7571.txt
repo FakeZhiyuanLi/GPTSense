@@ -1,0 +1,1 @@
+A capacitor used to bypass contact points is typically a ceramic capacitor. It is commonly referred to as a decoupling or bypass capacitor and is usually placed between the power supply and ground to filter out high-frequency noise and prevent signal degradation. Ceramic capacitors have low inductance and high-frequency characteristics, making them ideal for this application.

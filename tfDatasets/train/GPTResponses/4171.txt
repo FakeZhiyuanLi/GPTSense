@@ -1,0 +1,1 @@
+The error rate in the Julian calendar was approximately 1 day every 128 years. This was because the Julian calendar did not accurately reflect the solar year, which is actually slightly shorter than 365.25 days. As a result, over time the calendar fell out of sync with the seasons. This was eventually corrected with the adoption of the Gregorian calendar in 1582.

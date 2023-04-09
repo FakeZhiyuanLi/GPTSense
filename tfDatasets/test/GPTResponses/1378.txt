@@ -1,0 +1,1 @@
+USBs can implement connections to various devices such as printers, scanners, cameras, keyboards, mice, external hard drives, flash drives, smartphones, and tablets. They can also be used to transfer data and charge devices.

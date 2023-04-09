@@ -1,0 +1,1 @@
+The main disadvantage of a direct current (DC) system is that it is not easily transformed or transmitted over long distances, as it experiences greater losses in transmission than alternating current (AC). Additionally, DC systems require more complex switching and control mechanisms, and DC electrical appliances are often more expensive than their AC counterparts.

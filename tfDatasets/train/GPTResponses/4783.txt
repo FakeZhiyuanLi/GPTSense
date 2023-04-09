@@ -1,0 +1,1 @@
+The common range of emitted radiation of room temperature objects is between 5 to 50 micrometers, with a peak around 10 micrometers. This range corresponds to the mid-infrared part of the electromagnetic spectrum.

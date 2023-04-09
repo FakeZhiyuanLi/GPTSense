@@ -1,0 +1,1 @@
+ASCII (American Standard Code for Information Interchange) was based on the English alphabet and numbers, as well as some common punctuation and control characters. It was developed for telegraph communication in the 1960s and standardized by the American National Standards Institute (ANSI) in 1963.

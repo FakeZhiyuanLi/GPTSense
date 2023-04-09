@@ -1,0 +1,1 @@
+Modular addition results in the remainder when the sum of two numbers is divided by a given modulus. For example, (7 + 5) mod 3 = 2, since 7 + 5 = 12, and 12 divided by 3 leaves a remainder of 2. This operation is also denoted as a + b (mod n), where a and b are integers and n is the modulus. Modular addition is commonly used in number theory, cryptography, and computer science.

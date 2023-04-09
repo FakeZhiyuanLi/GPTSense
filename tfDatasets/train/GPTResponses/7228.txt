@@ -1,0 +1,1 @@
+Variable resistance can be created in various components such as resistors, potentiometers, rheostats, and thermistors. It can also be created in electronic circuits using transistors, diodes, and other semiconductors.

@@ -1,0 +1,1 @@
+The letter in the abbreviated notation for the electrical characteristics of smaller capacitors represents the tolerance of the capacitor. For example, in the code "104K," the letter "K" represents a tolerance of +/- 10%.

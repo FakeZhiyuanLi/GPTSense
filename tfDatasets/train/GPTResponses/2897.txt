@@ -1,0 +1,1 @@
+encoding at lower bit rates, as it may not be as efficient at compressing the audio data. Additionally, it may introduce artifacts or distortions at lower bit rates that are not present at higher bit rates.

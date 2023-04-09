@@ -1,0 +1,1 @@
+The theory about leap year is called the Gregorian calendar, named after its creator, Pope Gregory XIII. The Gregorian calendar introduced the concept of adding an extra day (February 29th) to the calendar every four years to account for the discrepancy between the astronomical year (which is approximately 365.2422 days) and the Julian calendar (which had 365 days).

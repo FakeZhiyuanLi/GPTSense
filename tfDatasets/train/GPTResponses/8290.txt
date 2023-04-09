@@ -1,0 +1,1 @@
+The inverse of the group Gn includes all the elements that can be multiplied with an element in G to give the identity element. This includes all the multiplicative inverses of the elements in G, as well as the identity element itself.

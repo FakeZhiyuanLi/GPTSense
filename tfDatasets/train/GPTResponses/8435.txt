@@ -1,0 +1,1 @@
+Unicode was developed in conjunction with the International Organization for Standardization (ISO) and the International Electrotechnical Commission (IEC). Unicode is based on the ISO/IEC 10646 standard for character encoding.

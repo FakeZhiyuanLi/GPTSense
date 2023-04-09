@@ -1,0 +1,1 @@
+AC capacitors are designed to withstand a maximum AC voltage of several hundred volts to several kilovolts depending on their capacitance and intended application. The maximum voltage rating of a capacitor should not be exceeded to prevent damage or failure.

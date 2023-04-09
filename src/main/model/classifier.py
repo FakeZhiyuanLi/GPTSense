@@ -5,7 +5,6 @@ import tensorflow as tf
 from tensorflow.python import keras
 from keras import layers
 from keras import losses
-
 import trainClassifier
 
 tf.get_logger().setLevel('ERROR')
@@ -14,6 +13,7 @@ GPTSensePath = os.path.abspath(os.path.join(__file__, "..", "..", "..", ".."))
 weightsPath = os.path.join(GPTSensePath, "src", "main", "model", "weights")
 
 trainDataset = tf.keras.utils.text_dataset_from_directory(os.path.join(GPTSensePath, "tfDatasets", "train"), batch_size=32, seed=1)
+
 # 0 is chatGPT, 1 is human
 def getTextFromDataset(text, label):
     return text
@@ -25,7 +25,6 @@ encodeLayer = layers.TextVectorization(
     max_tokens=10000,
     output_mode='int',
     output_sequence_length=250,
-    # standardize='lower_and_strip_punctuation'
 )
 
 encodeLayer.adapt(trainDataset.map(getTextFromDataset))
@@ -40,18 +39,12 @@ model = keras.Sequential([
 model.compile(loss=losses.BinaryCrossentropy(from_logits=True), optimizer='adam', metrics=['accuracy'])
 
 try:
-    # model.load_weights("/Users/zhiyuan/Desktop/Hackathon/GPTSense/src/main/model/weights/model1")
     model.load_weights(os.path.join(weightsPath, "model1"))
-    print("using pretrained model")
 except:
-    print("retraining")
-    # trainClassifier.train("/Users/zhiyuan/Desktop/Hackathon/GPTSense/src/main/model/weights/", "model1", model, 10)
-    trainClassifier.train(weightsPath + "/", "model1", model, 1)
+    trainClassifier.train(weightsPath + "/", "model1", model, 10)
     try:
-        # model.load_weights("/Users/zhiyuan/Desktop/Hackathon/GPTSense/src/main/model/weights/model1")
         model.load_weights(os.path.join(weightsPath, "model1"))
     except:
-        print("failed to retrain")
         sys.exit(0)
 
 exportModel = keras.Sequential([

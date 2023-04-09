@@ -1,0 +1,1 @@
+A neuron extends two structures when it is in place during development - an axon and dendrites. The axon carries electrical impulses away from the cell body, while dendrites receive impulses from other neurons and carry them towards the cell body. Both axons and dendrites are crucial for transmitting information between neurons in the nervous system.

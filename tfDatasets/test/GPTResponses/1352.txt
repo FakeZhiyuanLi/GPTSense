@@ -1,0 +1,1 @@
+If the direction of data transfer is from the device to the host, the host does not send any data. The host only receives data from the device. The host can send signals or commands to the device to control its actions, but no data is sent in this direction.

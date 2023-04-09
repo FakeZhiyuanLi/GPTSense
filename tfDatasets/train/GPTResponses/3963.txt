@@ -1,0 +1,1 @@
+Octaves in linear pitch are twice the size of the preceding octave. For example, if an octave has a frequency of 440 Hz, the next octave up will be 880 Hz, and the next one up will be 1760 Hz, and so on.

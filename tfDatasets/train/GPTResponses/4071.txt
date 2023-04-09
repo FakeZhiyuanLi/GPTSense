@@ -1,0 +1,1 @@
+The Gregorian calendar omits 3 leap days in years that are divisible by 100 but not divisible by 400. For example, the year 1900 was not a leap year because it is divisible by 100 but not divisible by 400. However, the year 2000 was a leap year because it is divisible by both 100 and 400.

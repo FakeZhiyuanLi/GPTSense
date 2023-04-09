@@ -1,0 +1,1 @@
+The second law of thermodynamics states that there are strict limits to how efficiently heat can be converted into work in a cyclic process. This is commonly known as the Carnot efficiency, which states that the maximum efficiency of a heat engine is dependent on the temperature difference between the hot and cold reservoirs.

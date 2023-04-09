@@ -1,0 +1,1 @@
+An example of lossy audio encoding would be compressing an audio file in the MP3 format, which reduces the file size by removing certain audio frequencies that are deemed less important to human hearing. This compression results in a reduction in audio quality, with some loss of detail and clarity.

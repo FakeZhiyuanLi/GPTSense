@@ -1,0 +1,1 @@
+Other types of waves besides light that have their own intensity include sound waves, radio waves, microwaves, ultraviolet waves, X-rays, and gamma rays. The intensity of these waves is a measure of the energy carried by the wave per unit time per unit area perpendicular to the wave's direction of propagation. Intensity is typically measured in watts per square meter (W/m²).

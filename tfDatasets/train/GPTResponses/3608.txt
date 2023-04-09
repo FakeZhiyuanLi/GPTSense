@@ -1,0 +1,1 @@
+Unicode is backward compatible with 7-bit ASCII, meaning that the first 7 bits of a Unicode encoded character are identical to the corresponding ASCII code. This makes it possible to convert legacy ASCII text into Unicode without losing any information.

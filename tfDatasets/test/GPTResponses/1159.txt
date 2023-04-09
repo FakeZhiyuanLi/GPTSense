@@ -1,0 +1,1 @@
+The Avogadro constant is determined to be the ratio between the crystalline mass M, in grams, and the unit cell volume V, in cubic meters, using the X-ray crystal density method. This relationship is expressed as:NA = M/Vwhere NA is the Avogadro constant.

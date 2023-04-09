@@ -1,0 +1,1 @@
+The Computer Emergency Readiness Team (CERT) can belong to various organizations such as government agencies, universities, and private companies. For example, the United States Computer Emergency Readiness Team (US-CERT) is part of the Department of Homeland Security, while the Carnegie Mellon University CERT Coordination Center is part of the Software Engineering Institute.

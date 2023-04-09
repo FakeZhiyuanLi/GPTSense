@@ -1,0 +1,1 @@
+USB supports a wide range of networks including Ethernet, Wi-Fi, Bluetooth, and NFC. However, USB does not support cellular networks (GSM, CDMA, LTE) directly. To connect to cellular networks, a separate modem or adapter is required.

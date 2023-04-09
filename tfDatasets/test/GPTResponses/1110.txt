@@ -1,0 +1,1 @@
+The energy stored by a capacitor is located in the electric field between the two conducting plates of the capacitor. When a capacitor is charged, electrical energy is stored in the form of potential energy in the electric field between the plates. This energy is released when the capacitor is discharged.

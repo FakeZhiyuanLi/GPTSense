@@ -1,0 +1,1 @@
+5. Transient response: the initial reaction of a system to a sudden change or disturbance it is characterized by a rapid but temporary deviation from the steady-state condition, followed by a return to equilibrium.

@@ -1,0 +1,1 @@
+Airplane mode when onboard an aircraft. This mode disables all wireless communication including cellular, WiFi, Bluetooth, and NFC signals. It is also recommended to turn off the mobile phone completely during takeoff and landing.

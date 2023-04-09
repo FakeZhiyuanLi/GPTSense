@@ -1,0 +1,1 @@
+The most common hardware defect code that plagued the Xbox 360 was the "Red Ring of Death" (RRoD), which indicated a general hardware failure. This issue was caused by overheating, which led to solder joints breaking and components becoming disconnected.

@@ -1,0 +1,1 @@
+Affective computing is a branch of computer science that deals with the development of systems and devices that can recognize, interpret, and simulate human emotions. It is also closely related to psychology, neuroscience, and human-computer interaction (HCI).

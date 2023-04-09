@@ -1,0 +1,1 @@
+The aim of Unicode is to provide a universal character encoding standard that supports all languages and scripts. Its goal is to allow any character used in any human language to be represented within a single character encoding system, allowing for consistent communication across different platforms and applications.

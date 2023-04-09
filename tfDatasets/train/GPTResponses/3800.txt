@@ -1,0 +1,1 @@
+The network used for these services is typically a cellular network or a satellite network, depending on the location and availability of coverage. The specific communication method may also vary depending on the device or platform being used, such as a mobile app, in-vehicle system, or handheld device.

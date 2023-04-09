@@ -1,0 +1,1 @@
+library in Unicode?Existing characters have been added to the standard library in Unicode in various versions, but since Unicode version 7.0, no new characters can be added to the standard library that have not already been encoded. The standard library is considered stable and any changes require careful consideration and review.

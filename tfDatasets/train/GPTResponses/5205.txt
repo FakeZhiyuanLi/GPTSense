@@ -1,0 +1,1 @@
+The re-released NES-101 (or the top-loading NES) model in North America went back to using composite video output instead of the RF coaxial output used in the original NES model. Composite video output provides better picture quality and is considered a step up from RF coaxial output, which is considered primitive in comparison.

@@ -1,0 +1,1 @@
+If a torque motor is used in a tape drive, then a capstan motor is not needed. The torque motor can perform both the functions of a capstan motor and a reel motor by controlling the tape speed and tension.

@@ -1,0 +1,1 @@
+A leap year has 366 days, which is 1 day more than the mean solar year. Therefore, to align the calendar with mean solar days, we need to skip 1 day every 4 years (excluding the years that are divisible by 100 but not by 400, which are not leap years).So, the answer is 1 day every 4 years.

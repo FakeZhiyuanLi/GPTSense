@@ -1,0 +1,1 @@
+The most commonly used encodings are:1. ASCII: American Standard Code for Information Interchange2. UTF-8: Unicode Transformation Format-83. UTF-16: Unicode Transformation Format-164. ISO-8859-1: Latin-15. Windows-1252: Latin-1 for Windows6. UTF-32: Unicode Transformation Format-32

@@ -1,0 +1,1 @@
+The underlying set of a group is the set of elements that form the group, often denoted as G. It is the set from which the group's operations are defined and carried out. For example, the set of integers forms the underlying set of a group, with addition as the operation.
