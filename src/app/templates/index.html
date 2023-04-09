@@ -6,6 +6,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 		<link href = "style.css" rel = "stylesheet" type = "text/css">
 		<link href = "{{ url_for('static', filename='css/style.css')}}" rel = "stylesheet" type = "text/css">
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	</head>
 	<body>
 		<iframe id = "background" src = "https://constellation.dkeree.repl.co/"></iframe>
@@ -15,7 +16,7 @@
 			</div>
 			<div class = "section">
 				<div id = "input-section">
-					<form id = "form" method = "POST">
+					<div id = "input-wrapper">
 						<div class = "divider divider-input" id = "text-divider">
 							<div class = "overtop-widget overtop-widget-input">
 								<h2 class = "text widget-text">Input</h2>
@@ -29,17 +30,15 @@
 								<h2 class = "text widget-text">Output</h2>
 							</div>
 							<div id = "center-more-wrapper">
-								<h2 id = "output" class = "text">{{text}}%</h2>
-								<a href="/">
-									<button id = "button" class = "button-href" type="submit">Submit</button>
-								</a>
+								<h2 id = "output" class = "text">???%</h2>
+								<button id = "button" class = "button-href" type="submit">Submit</button>
 							</div>
 						</div>
-					</form>
+					</div>
 				</div>
 			</div>
 		</div>
+		<script src = "script.js"></script>
 		<script src = "{{ url_for('static', filename='js/script.js')}}"></script>
-		<!-- <script src = "script.js"></script> -->
 	</body>
 </html>

@@ -51,6 +51,10 @@ body {
 	margin-top: 30px;
 	pointer-events: none;
 	padding: 0;
+    -webkit-transition: box-shadow 0.25s ease-out;
+    -moz-transition: box-shadow 0.25s ease-out;
+    -o-transition: box-shadow 0.25s ease-out;
+    transition: box-shadow 0.25s ease-out;
 }
 
 .widget-text {
@@ -109,7 +113,7 @@ body {
 	width: 100%;
 }
 
-#form {
+#input-wrapper {
 	height: 100%;
 	padding: 0;
 	margin: 0;
@@ -153,6 +157,10 @@ body {
 
 #output {
 	font-size: 80px;
+    -webkit-transition: text-shadow 0.25s ease-out;
+    -moz-transition: text-shadow 0.25s ease-out;
+    -o-transition: text-shadow 0.25s ease-out;
+    transition: text-shadow 0.25s ease-out;
 }
 
 /*
@@ -187,6 +195,11 @@ body {
 	overflow: hidden;
 }
 
+#receiver {
+	position: absolute;
+	display: none;
+}
+
 .button-href:hover {
 	background-color: #5865F2;
 	box-shadow: 0 5px 20px color: #7289DA inset 0 0 20px #7289DA;
@@ -197,6 +210,34 @@ body {
   border-radius: 60px;
   background-color: rgba(0, 0, 0, 0.3);
   animation: ripple 1s;
+}
+
+.fade-out {
+	animation: opacityZero 0.5s;
+}
+
+.fade-in {
+	animation: opacityOne 0.5s;
+}
+
+@keyframes opacityZero {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes opacityOne {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
 
 @keyframes ripple {

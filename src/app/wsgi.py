@@ -1,5 +1,6 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, jsonify
 import os
+
 
 import sys
 sys.path.insert(0, '/Users/zhiyuan/Desktop/Hackathon/GPTSense/src/main/model')
@@ -12,8 +13,8 @@ app = Flask(__name__)
 def index():
     print(request.method)
     if request.method == 'POST':
-        text_input = request.form['input']
-        return render_template('index.html', text=int((predict(text_input)*100)))
+        text_input = request.get_json()['value']
+        return jsonify({"result": predict(text_input).tolist()})
     else:
         return render_template('index.html', text="[placeholder]")
 
