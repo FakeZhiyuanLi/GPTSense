@@ -1,7 +1,7 @@
 # GPTSense - ChatGPT Classifier
 
 Daniel Ke (Front end)
-Michael Xe (Front end)
+Michael Xu (Front end)
 Zhiyuan Li (Back end, AI)
 Aiden Lundberg (Pitch, emotional support)
 
