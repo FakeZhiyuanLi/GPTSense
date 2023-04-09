@@ -13,7 +13,7 @@ pip install requirements.txt
 ```
 
 ## About
-Tensorflow text classification model trained on 32,000 examples of OpenAI GPT-3.5Turbo API and 10,000 examples of human responses scraped from blogs
+Tensorflow text classification model trained on 32,000 examples of OpenAI GPT-3.5-Turbo API and 10,000 examples of human responses scraped from blogs
 
 ## Run code
 ```
