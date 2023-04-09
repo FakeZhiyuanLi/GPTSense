@@ -10,13 +10,11 @@ import trainClassifier
 
 tf.get_logger().setLevel('ERROR')
 
-trainDataset = tf.keras.utils.text_dataset_from_directory("/Users/zhiyuan/Desktop/Hackathon/GPTSense/tfDatasets/train", batch_size=32, seed=1)
+GPTSensePath = os.path.abspath(os.path.join(__file__, "..", "..", "..", ".."))
+weightsPath = os.path.join(GPTSensePath, "src", "main", "model", "weights")
 
-def printLabels():
-    print("Label 0 corresponds to", trainDataset.class_names[0])
-    print("Label 1 corresponds to", trainDataset.class_names[1])
-
-
+trainDataset = tf.keras.utils.text_dataset_from_directory(os.path.join(GPTSensePath, "tfDatasets", "train"), batch_size=32, seed=1)
+# 0 is chatGPT, 1 is human
 def getTextFromDataset(text, label):
     return text
 
@@ -42,13 +40,16 @@ model = keras.Sequential([
 model.compile(loss=losses.BinaryCrossentropy(from_logits=True), optimizer='adam', metrics=['accuracy'])
 
 try:
-    model.load_weights("/Users/zhiyuan/Desktop/Hackathon/GPTSense/src/main/model/weights/model1")
+    # model.load_weights("/Users/zhiyuan/Desktop/Hackathon/GPTSense/src/main/model/weights/model1")
+    model.load_weights(os.path.join(weightsPath, "model1"))
     print("using pretrained model")
 except:
     print("retraining")
-    trainClassifier.train("/Users/zhiyuan/Desktop/Hackathon/GPTSense/src/main/model/weights/", "model1", model, 10)
+    # trainClassifier.train("/Users/zhiyuan/Desktop/Hackathon/GPTSense/src/main/model/weights/", "model1", model, 10)
+    trainClassifier.train(weightsPath + "/", "model1", model, 1)
     try:
-        model.load_weights("/Users/zhiyuan/Desktop/Hackathon/GPTSense/src/main/model/weights/model1")
+        # model.load_weights("/Users/zhiyuan/Desktop/Hackathon/GPTSense/src/main/model/weights/model1")
+        model.load_weights(os.path.join(weightsPath, "model1"))
     except:
         print("failed to retrain")
         sys.exit(0)
@@ -64,5 +65,5 @@ def predict(text):
     return exportModel.predict([text])[0]
 
 if __name__ == '__main__':
+    # human response test
     print(predict("i love random things.my life is random. (well mostly). i don't know what's gonna happen in 5 seconds. it's all good. what shall i do 2morrow. hmmm. i have no f-cking clue. savory? see, that's random. just like the title. duh! nothing new i can tell u homies about my website so pack it. and i know my g/f and one of my friends reads this so i gotta have some control to it. and if i dont? (uhh. not going there). mmm! food! haha!")[0])
-    pass

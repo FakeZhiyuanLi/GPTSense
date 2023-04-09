@@ -1,11 +1,12 @@
 import xmltodict
 import os
 
-base = "/Users/zhiyuan/Desktop/Hackathon/GPTSense/datasets/HumanResponses/Blogs/"
-files = os.listdir("/Users/zhiyuan/Desktop/Hackathon/GPTSense/datasets/HumanResponses/Blogs")
-blogsFile = open("/Users/zhiyuan/Desktop/Hackathon/GPTSense/datasets/Responses/Human/blogs/blogs.txt", 'w')
-succesful = 0
+datasetsPath = os.path.abspath(os.path.join(__file__, "..", "..", "..", "..", 'datasets'))
+base = datasetsPath + "/HumanResponses/Blogs/"
 
+files = os.listdir(base)
+blogsFile = open(datasetsPath + "/Responses/Human/blogs/blogs.txt", 'w')
+succesful = 0
 
 for i in range(len(files)):
     path = files[i]

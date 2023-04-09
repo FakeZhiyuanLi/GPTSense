@@ -1,9 +1,9 @@
 from flask import Flask, request, render_template, jsonify
 import os
-
-
 import sys
-sys.path.insert(0, '/Users/zhiyuan/Desktop/Hackathon/GPTSense/src/main/model')
+
+modelPath = os.path.abspath(os.path.join(__file__, "..", "..", "main", "model"))
+sys.path.insert(0, modelPath)
 
 from classifier import predict
 

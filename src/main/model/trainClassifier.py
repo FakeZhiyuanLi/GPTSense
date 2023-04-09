@@ -7,8 +7,10 @@ from keras import losses
 
 tf.get_logger().setLevel('ERROR')
 
-trainDataset = tf.keras.utils.text_dataset_from_directory("/Users/zhiyuan/Desktop/Hackathon/GPTSense/tfDatasets/train", batch_size=32, seed=1)
-valDataset = tf.keras.utils.text_dataset_from_directory("/Users/zhiyuan/Desktop/Hackathon/GPTSense/tfDatasets/validation", batch_size=32, seed=1)
+tfDatasetsPath = os.path.abspath(os.path.join(__file__, "..", "..", "..", "..", "tfDatasets"))
+
+trainDataset = tf.keras.utils.text_dataset_from_directory(os.path.join(tfDatasetsPath, "train"), batch_size=32, seed=1)
+valDataset = tf.keras.utils.text_dataset_from_directory(os.path.join(tfDatasetsPath, "validation"), batch_size=32, seed=1)
 
 encodeLayer = layers.TextVectorization(
     max_tokens=10000,

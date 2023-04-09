@@ -1,6 +1,9 @@
+import os
 from utils.getResponses import getBlogResponses, getGPTResponses, getBlogResponseLength
 
-tfDatasetBase = "/Users/zhiyuan/Desktop/Hackathon/GPTSense/tfDatasets/"
+GPTSensePath = os.path.abspath(os.path.join(__file__, "..", "..", "..", ".."))
+# tfDatasetBase = "/Users/zhiyuan/Desktop/Hackathon/GPTSense/tfDatasets/"
+tfDatasetBase = os.path.join(GPTSensePath, "tfDatasets")
 
 def createHumanResponses(): 
     # 70 20 10 split train, test, val
@@ -22,7 +25,7 @@ def createHumanResponses():
                 continue
             seen.add(response)
 
-            file = open(tfDatasetBase + split + "/HumanResponses/" + str(fileIdx) + ".txt", 'w')
+            file = open(tfDatasetBase + "/" + split + "/HumanResponses/" + str(fileIdx) + ".txt", 'w')
             file.write(response)
 
             fileIdx += 1
@@ -50,7 +53,7 @@ def createGPTResponses():
                     if len(response) < 5:
                         continue
 
-                    file = open(tfDatasetBase + split + "/GPTResponses/" + str(fileIdx) + ".txt", 'w')
+                    file = open(tfDatasetBase + "/" + split + "/GPTResponses/" + str(fileIdx) + ".txt", 'w')
                     file.write(response.strip())
                     response = ""
                     fileIdx += 1

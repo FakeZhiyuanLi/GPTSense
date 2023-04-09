@@ -1,5 +1,7 @@
+import os
 from connectDB import connectToMongoDBResponses
 
+factoidResponsesPath = os.path.abspath(os.path.join(__file__, "..", "..", "..", "..", "datasets", "Responses", "FactoidResponsesGPT"))
 responses = connectToMongoDBResponses()
 factoidResponses = responses['FactoidWebquestionsGPT']
 
@@ -22,7 +24,7 @@ def saveGPTResponses(verbosity):
     documentsAdded = 0
 
     for fileName in fileNames:
-        file = open("/Users/zhiyuan/Desktop/Hackathon/GPTSense/datasets/Responses/FactoidResponsesGPT/" + fileName + ".txt", "w")
+        file = open(factoidResponsesPath + "/" + fileName + ".txt", "w")
         documents = factoidResponses.find({"file": fileName})
         for i in range(sizes[fileName]):
             document = documents.next()
@@ -42,4 +44,4 @@ def saveGPTResponses(verbosity):
 if __name__ == '__main__':
     writeConfirmation = input("Confirm write? (y/n): ")
     if writeConfirmation.lower() == "y":
-        saveGPTResponses(verbosity=False)
+        saveGPTResponses(verbosity=True)
