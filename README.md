@@ -24,11 +24,11 @@ flask run
 Enter text into input area (works best between 5-30 lines)
 Click submit
 
-![with text](https://imgur.com/H5ZxQDg)
+![with text](https://i.imgur.com/H5ZxQDg.png)
 Result shows between 0-100% chance of chatGPT response
 Percentages above 60% are likely chatGPT, can be false positive at times
 Percentages abobe 90% are most likely chatGPT, can also be false positive
 
-![history](https://imgur.com/9bi2V06)
+![history](https://i.imgur.com/9bi2V06.png)
 Scroll down for a history of past checks
 Click on the box to copy the response
